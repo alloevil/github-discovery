@@ -1,0 +1,196 @@
+"""Generate static site for GitHub Pages from discovery reports."""
+
+import os
+import re
+import glob
+from datetime import datetime
+from xml.etree.ElementTree import Element, SubElement, tostring
+from xml.dom.minidom import parseString
+
+DIST_DIR = "dist"
+OUTPUT_DIR = "output"
+SITE_TITLE = "GitHub Discovery"
+SITE_DESC = "Discover trending GitHub repos before they go viral"
+SITE_URL = "https://alloevil.github.io/github-discovery"
+
+
+def parse_report(filepath: str) -> list[dict]:
+    """Parse a discovery markdown report into structured data."""
+    with open(filepath) as f:
+        content = f.read()
+
+    repos = []
+    # Parse each repo section
+    sections = re.split(r'### \d+\.', content)[1:]  # skip header
+    for section in sections:
+        repo = {}
+        # Name and URL
+        link_match = re.search(r'\[([^\]]+)\]\((https://github\.com/[^\)]+)\)', section)
+        if link_match:
+            repo['name'] = link_match.group(1)
+            repo['url'] = link_match.group(2)
+
+        # Stars
+        stars_match = re.search(r'⭐ Stars \| ([\d,]+)', section)
+        if stars_match:
+            repo['stars'] = stars_match.group(1)
+
+        # Age
+        age_match = re.search(r'📅 Age \| (\d+) days?', section)
+        if age_match:
+            repo['age'] = age_match.group(1)
+
+        # Daily Growth
+        daily_match = re.search(r'🚀 Daily Growth \| ([\d.]+)', section)
+        if daily_match:
+            repo['daily'] = daily_match.group(1)
+
+        # Language
+        lang_match = re.search(r'🔤 Language \| (\w+)', section)
+        if lang_match:
+            repo['language'] = lang_match.group(1)
+
+        # Score
+        score_match = re.search(r'Score: (\d+)/100', section)
+        if score_match:
+            repo['score'] = score_match.group(1)
+
+        # Description
+        desc_match = re.search(r'> (.+)', section)
+        if desc_match:
+            repo['description'] = desc_match.group(1).strip()
+
+        if 'name' in repo:
+            repos.append(repo)
+
+    return repos
+
+
+def generate_index_html(reports: list[tuple[str, list[dict]]]) -> str:
+    """Generate the main index.html."""
+    rows = ""
+    for date_str, repos in reports[:30]:  # last 30 days
+        for repo in repos[:10]:  # top 10 per day
+            rows += f"""
+            <tr>
+                <td>{date_str}</td>
+                <td><a href="{repo.get('url', '#')}">{repo.get('name', '?')}</a></td>
+                <td>⭐ {repo.get('stars', '?')}</td>
+                <td>{repo.get('daily', '?')}/day</td>
+                <td>{repo.get('language', '-')}</td>
+                <td>{repo.get('score', '?')}/100</td>
+                <td>{repo.get('description', '')[:80]}</td>
+            </tr>"""
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥 GitHub Discovery</title>
+    <style>
+        * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+        body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0d1117; color: #c9d1d9; padding: 2rem; }}
+        h1 {{ color: #58a6ff; margin-bottom: 0.5rem; font-size: 2rem; }}
+        .subtitle {{ color: #8b949e; margin-bottom: 2rem; }}
+        .stats {{ display: flex; gap: 2rem; margin-bottom: 2rem; }}
+        .stat {{ background: #161b22; padding: 1rem 1.5rem; border-radius: 8px; border: 1px solid #30363d; }}
+        .stat-num {{ font-size: 1.5rem; font-weight: bold; color: #58a6ff; }}
+        table {{ width: 100%; border-collapse: collapse; background: #161b22; border-radius: 8px; overflow: hidden; }}
+        th {{ background: #21262d; padding: 0.75rem 1rem; text-align: left; color: #58a6ff; font-weight: 600; }}
+        td {{ padding: 0.6rem 1rem; border-bottom: 1px solid #21262d; }}
+        tr:hover {{ background: #1c2128; }}
+        a {{ color: #58a6ff; text-decoration: none; }}
+        a:hover {{ text-decoration: underline; }}
+        .footer {{ margin-top: 2rem; color: #484f58; font-size: 0.85rem; text-align: center; }}
+        .rss {{ display: inline-block; background: #f0883e; color: #fff; padding: 0.3rem 0.8rem; border-radius: 4px; font-size: 0.8rem; text-decoration: none; }}
+        .rss:hover {{ background: #d2701e; }}
+    </style>
+</head>
+<body>
+    <h1>🔥 GitHub Discovery</h1>
+    <p class="subtitle">Discover trending repos before they go viral · <a class="rss" href="feed.xml">📡 RSS</a></p>
+    <div class="stats">
+        <div class="stat"><div class="stat-num">{len(reports)}</div><div>Days tracked</div></div>
+        <div class="stat"><div class="stat-num">{sum(len(r) for _, r in reports)}</div><div>Repos discovered</div></div>
+    </div>
+    <table>
+        <thead>
+            <tr><th>Date</th><th>Repo</th><th>Stars</th><th>Growth</th><th>Lang</th><th>Score</th><th>Description</th></tr>
+        </thead>
+        <tbody>{rows}
+        </tbody>
+    </table>
+    <div class="footer">
+        <p>Generated by <a href="https://github.com/alloevil/github-discovery">GitHub Discovery</a> · Updated daily</p>
+    </div>
+</body>
+</html>"""
+
+
+def generate_rss(reports: list[tuple[str, list[dict]]]) -> str:
+    """Generate RSS feed."""
+    rss = Element('rss', version='2.0')
+    rss.set('xmlns:atom', 'http://www.w3.org/2005/Atom')
+    channel = SubElement(rss, 'channel')
+    SubElement(channel, 'title').text = SITE_TITLE
+    SubElement(channel, 'description').text = SITE_DESC
+    SubElement(channel, 'link').text = SITE_URL
+    SubElement(channel, 'language').text = 'en'
+    SubElement(channel, 'lastBuildDate').text = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
+
+    atom_link = SubElement(channel, 'atom:link')
+    atom_link.set('href', f'{SITE_URL}/feed.xml')
+    atom_link.set('rel', 'self')
+    atom_link.set('type', 'application/rss+xml')
+
+    for date_str, repos in reports[:10]:
+        for repo in repos[:5]:
+            item = SubElement(channel, 'item')
+            SubElement(item, 'title').text = f"🔥 {repo.get('name', 'Unknown')} — {repo.get('stars', '?')}⭐"
+            desc = repo.get('description', '')
+            score = repo.get('score', '?')
+            daily = repo.get('daily', '?')
+            SubElement(item, 'description').text = f"{desc}\n\nScore: {score}/100 | Growth: {daily} stars/day"
+            SubElement(item, 'link').text = repo.get('url', SITE_URL)
+            SubElement(item, 'guid').text = f"{repo.get('url', '')}#{date_str}"
+            SubElement(item, 'pubDate').text = datetime.strptime(date_str, '%Y-%m-%d').strftime('%a, %d %b %Y 10:00:00 +0000')
+
+    xml_str = tostring(rss, encoding='unicode', xml_declaration=False)
+    return '<?xml version="1.0" encoding="UTF-8"?>\n' + parseString(xml_str).toprettyxml(indent='  ', encoding=None)
+
+
+def main():
+    os.makedirs(DIST_DIR, exist_ok=True)
+
+    # Find all reports
+    report_files = sorted(glob.glob(os.path.join(OUTPUT_DIR, 'discovery-*.md')), reverse=True)
+
+    reports = []
+    for f in report_files:
+        date_match = re.search(r'discovery-(\d{4}-\d{2}-\d{2})\.md', f)
+        if date_match:
+            date_str = date_match.group(1)
+            repos = parse_report(f)
+            if repos:
+                reports.append((date_str, repos))
+
+    if not reports:
+        print("[WARN] No reports found to generate site")
+        return
+
+    # Generate index.html
+    html = generate_index_html(reports)
+    with open(os.path.join(DIST_DIR, 'index.html'), 'w') as f:
+        f.write(html)
+    print(f"[OK] Generated index.html ({len(reports)} reports)")
+
+    # Generate RSS
+    rss = generate_rss(reports)
+    with open(os.path.join(DIST_DIR, 'feed.xml'), 'w') as f:
+        f.write(rss)
+    print(f"[OK] Generated feed.xml")
+
+
+if __name__ == "__main__":
+    main()
