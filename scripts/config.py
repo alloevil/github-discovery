@@ -11,7 +11,7 @@ GITHUB_TRENDING_URL = "https://github.com/trending?since=daily"
 HN_API = "https://hacker-news.firebaseio.com/v0"
 
 # Scoring thresholds
-TOP_N = 15
+TOP_N = 10
 API_DELAY = 1.0  # seconds between API calls
 
 # Paths
