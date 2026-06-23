@@ -5,7 +5,7 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Jun 2026 12:30:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 23:55:52 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>🔥 sums001/Windows-Copilot-API — 434⭐ (144.7/day)</title>
@@ -45,7 +45,7 @@ Score: 100/100 | Language: Python</description>
     </item>
     <item>
       <title>🔥 HKUDS/AgentSpace — 288⭐ (288.0/day)</title>
-      <description>&quot;AgentSpace: Human + Agents. One Team. One Workspace&quot;
+      <description>"AgentSpace: Human + Agents. One Team. One Workspace"
 
 Score: 100/100 | Language: TypeScript</description>
       <link>https://github.com/HKUDS/AgentSpace</link>

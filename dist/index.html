@@ -12,9 +12,10 @@
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; background: #0d1117; color: #e6edf3; line-height: 1.5; }
     a { color: #58a6ff; text-decoration: none; }
     a:hover { color: #79c0ff; text-decoration: underline; }
+    a:active { color: #58a6ff; opacity: 0.7; }
 
     .page-header { background: #161b22; border-bottom: 1px solid #30363d; padding: 16px 0; }
-    .container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
+    .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
     .page-body { padding: 24px 0 48px; }
 
     .site-header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
@@ -29,40 +30,65 @@
     .btn-gh { border: 1px solid #30363d; }
     .btn-gh:hover { border-color: #8b949e; background: rgba(136,147,158,0.1); }
 
-    .summary-bar { display: flex; gap: 40px; padding: 24px 0; border-bottom: 1px solid #21262d; margin-bottom: 24px; flex-wrap: wrap; }
-    .summary-item .num { font-size: 28px; font-weight: 700; color: #58a6ff; display: block; }
-    .summary-item .label { font-size: 12px; color: #8b949e; text-transform: uppercase; letter-spacing: 0.05em; }
+    .summary-bar { display: flex; gap: 32px; padding: 20px 0; border-bottom: 1px solid #21262d; margin-bottom: 20px; flex-wrap: wrap; }
+    .summary-item { text-align: center; flex: 1; min-width: 80px; }
+    .summary-item .num { font-size: 28px; font-weight: 700; color: #58a6ff; display: block; line-height: 1.2; }
+    .summary-item .label { font-size: 11px; color: #8b949e; text-transform: uppercase; letter-spacing: 0.06em; margin-top: 2px; }
 
-    .date-heading { display: flex; align-items: center; gap: 12px; margin: 32px 0 16px; padding-bottom: 8px; border-bottom: 1px solid #21262d; }
+    .date-heading { display: flex; align-items: center; gap: 12px; margin: 36px 0 14px; padding: 10px 0; border-bottom: 2px solid #21262d; }
     .date-heading h2 { font-size: 18px; font-weight: 600; color: #e6edf3; }
-    .date-heading .count { font-size: 12px; color: #8b949e; background: #21262d; padding: 2px 10px; border-radius: 10px; }
+    .date-heading .count { font-size: 12px; color: #8b949e; background: #21262d; padding: 2px 10px; border-radius: 10px; white-space: nowrap; }
 
-    .Box-row { padding: 16px; border: 1px solid #30363d; border-radius: 6px; margin-bottom: 8px; transition: border-color 0.15s; }
-    .Box-row:hover { border-color: rgba(88,166,255,0.25); }
+    .Box-row { padding: 16px 18px; border: 1px solid #30363d; border-radius: 8px; margin-bottom: 10px; transition: all 0.2s ease; cursor: pointer; }
+    .Box-row:hover { border-color: rgba(88,166,255,0.3); background: rgba(88,166,255,0.04); transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+    .Box-row:active { transform: translateY(0); }
     .Box-row-header { display: flex; align-items: flex-start; gap: 10px; }
     .Box-row-header .avatar { width: 26px; height: 26px; border-radius: 50%; flex-shrink: 0; margin-top: 2px; }
     .Box-row-header h3 { font-size: 16px; font-weight: 600; line-height: 1.3; }
-    .Box-row-header h3 a { color: #58a6ff; }
+    .Box-row-header h3 a { color: #58a6ff; transition: color 0.15s; }
+    .Box-row-header h3 a:hover { color: #79c0ff; text-decoration: none; }
     .Box-row-header .owner { color: #8b949e; font-weight: 400; }
     .Box-row-desc { font-size: 14px; color: #8b949e; line-height: 1.5; padding-left: 36px; margin-top: 4px; }
-    .Box-row-meta { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; padding-left: 36px; margin-top: 8px; font-size: 12px; }
-    .meta-item { display: inline-flex; align-items: center; gap: 4px; color: #8b949e; }
-    .lang-dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
-    .score-pill { padding: 2px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+    .Box-row-meta { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; padding-left: 36px; margin-top: 8px; font-size: 12px; }
+    .meta-item { display: inline-flex; align-items: center; gap: 4px; color: #8b949e; white-space: nowrap; }
+    .lang-dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
+    .score-pill { padding: 2px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; white-space: nowrap; }
     .score-high { background: #238636; color: #fff; }
     .score-mid { background: #1f6feb; color: #fff; }
     .score-low { background: #30363d; color: #8b949e; }
+    .score-gold { background: linear-gradient(135deg, #d4a017, #f0c040); color: #1a1a1a; }
 
+    .lang-filter { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+    .lang-filter button { padding: 6px 14px; border-radius: 20px; border: 1px solid #30363d; background: #21262d; color: #e6edf3; font-size: 13px; cursor: pointer; transition: all 0.15s; white-space: nowrap; }
+    .lang-filter button:hover { border-color: #58a6ff; color: #58a6ff; }
+    .lang-filter button.active { background: #1f6feb; border-color: #1f6feb; color: #fff; }
     .site-footer { border-top: 1px solid #21262d; padding: 32px 0; text-align: center; color: #484f58; font-size: 13px; margin-top: 48px; }
     .site-footer p { margin-bottom: 8px; }
     .site-footer a { color: #8b949e; }
 
     @media (max-width: 768px) {
       .container { padding: 0 16px; }
-      .site-header { flex-direction: column; align-items: flex-start; }
-      .summary-bar { gap: 20px; }
+      .site-header { flex-direction: column; align-items: flex-start; gap: 12px; }
+      .site-nav { width: 100%; }
+      .site-nav a { flex: 1; text-align: center; padding: 8px 12px; }
+      .summary-bar { gap: 16px; padding: 16px 0; }
+      .summary-item { min-width: 60px; }
       .summary-item .num { font-size: 22px; }
-      .Box-row-desc, .Box-row-meta { padding-left: 0; }
+      .summary-item .label { font-size: 10px; }
+      .Box-row { padding: 14px; }
+      .Box-row-desc { padding-left: 0; }
+      .Box-row-meta { padding-left: 0; gap: 10px; margin-top: 10px; }
+      .Box-row-header h3 { font-size: 15px; }
+      .date-heading { margin: 28px 0 12px; }
+      .date-heading h2 { font-size: 16px; }
+    }
+
+    @media (max-width: 480px) {
+      .lang-filter { gap: 6px; }
+      .lang-filter button { padding: 5px 10px; font-size: 12px; }
+      .summary-bar { gap: 12px; }
+      .Box-row-meta { gap: 8px; font-size: 11px; }
+      .score-pill { padding: 1px 8px; font-size: 11px; }
     }
   </style>
 </head>
@@ -89,12 +115,23 @@
         <div class="summary-item"><span class="num">10</span><span class="label">Repos Discovered</span></div>
         <div class="summary-item"><span class="num">100</span><span class="label">Top Score</span></div>
       </div>
+      <div class="lang-filter">
+        <button class="active" onclick="filterLang('all')">All</button>
+        <button onclick="filterLang('python')">Python</button>
+        <button onclick="filterLang('typescript')">TypeScript</button>
+        <button onclick="filterLang('javascript')">JavaScript</button>
+        <button onclick="filterLang('rust')">Rust</button>
+        <button onclick="filterLang('go')">Go</button>
+        <button onclick="filterLang('java')">Java</button>
+        <button onclick="filterLang('c++')">C++</button>
+        <button onclick="filterLang('other')">Other</button>
+      </div>
 
       <div class="date-heading">
         <h2>⭐ 2026-06-23 — First Timers</h2>
         <span class="count">10 repos</span>
       </div>
-    <div class="Box-row">
+    <div class="Box-row" data-lang="python">
       <div class="Box-row-header">
         <img class="avatar" src="https://github.com/sums001.png" alt="sums001" onerror="this.style.display='none'">
         <h3><a href="https://github.com/sums001/Windows-Copilot-API"><span class="owner">sums001 /</span> Windows-Copilot-API</a></h3>
@@ -104,10 +141,10 @@
         <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
         <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 434</span>
         <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 144.7/day</span>
-        <span class="score-pill score-high">Score: 100</span>
+        <span class="score-pill score-gold">Score: 100</span>
       </div>
     </div>
-    <div class="Box-row">
+    <div class="Box-row" data-lang="python">
       <div class="Box-row-header">
         <img class="avatar" src="https://github.com/yo-WASSUP.png" alt="yo-WASSUP" onerror="this.style.display='none'">
         <h3><a href="https://github.com/yo-WASSUP/Good-Badminton"><span class="owner">yo-WASSUP /</span> Good-Badminton</a></h3>
@@ -117,10 +154,10 @@
         <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
         <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 383</span>
         <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 127.7/day</span>
-        <span class="score-pill score-high">Score: 100</span>
+        <span class="score-pill score-gold">Score: 100</span>
       </div>
     </div>
-    <div class="Box-row">
+    <div class="Box-row" data-lang="go">
       <div class="Box-row-header">
         <img class="avatar" src="https://github.com/overflowy.png" alt="overflowy" onerror="this.style.display='none'">
         <h3><a href="https://github.com/overflowy/make-look-scanned"><span class="owner">overflowy /</span> make-look-scanned</a></h3>
@@ -130,10 +167,10 @@
         <span class="meta-item"><span class="lang-dot" style="background:#00ADD8"></span>Go</span>
         <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 362</span>
         <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 181.0/day</span>
-        <span class="score-pill score-high">Score: 100</span>
+        <span class="score-pill score-gold">Score: 100</span>
       </div>
     </div>
-    <div class="Box-row">
+    <div class="Box-row" data-lang="python">
       <div class="Box-row-header">
         <img class="avatar" src="https://github.com/raiyanyahya.png" alt="raiyanyahya" onerror="this.style.display='none'">
         <h3><a href="https://github.com/raiyanyahya/recall"><span class="owner">raiyanyahya /</span> recall</a></h3>
@@ -143,10 +180,10 @@
         <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
         <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 360</span>
         <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 120.0/day</span>
-        <span class="score-pill score-high">Score: 100</span>
+        <span class="score-pill score-gold">Score: 100</span>
       </div>
     </div>
-    <div class="Box-row">
+    <div class="Box-row" data-lang="typescript">
       <div class="Box-row-header">
         <img class="avatar" src="https://github.com/HKUDS.png" alt="HKUDS" onerror="this.style.display='none'">
         <h3><a href="https://github.com/HKUDS/AgentSpace"><span class="owner">HKUDS /</span> AgentSpace</a></h3>
@@ -156,10 +193,10 @@
         <span class="meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
         <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 288</span>
         <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 288.0/day</span>
-        <span class="score-pill score-high">Score: 100</span>
+        <span class="score-pill score-gold">Score: 100</span>
       </div>
     </div>
-    <div class="Box-row">
+    <div class="Box-row" data-lang="typescript">
       <div class="Box-row-header">
         <img class="avatar" src="https://github.com/qwer-xyz.png" alt="qwer-xyz" onerror="this.style.display='none'">
         <h3><a href="https://github.com/qwer-xyz/incudal"><span class="owner">qwer-xyz /</span> incudal</a></h3>
@@ -169,10 +206,10 @@
         <span class="meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
         <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 133</span>
         <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 44.3/day</span>
-        <span class="score-pill score-high">Score: 100</span>
+        <span class="score-pill score-gold">Score: 100</span>
       </div>
     </div>
-    <div class="Box-row">
+    <div class="Box-row" data-lang="python">
       <div class="Box-row-header">
         <img class="avatar" src="https://github.com/calesthio.png" alt="calesthio" onerror="this.style.display='none'">
         <h3><a href="https://github.com/calesthio/OpenMontage"><span class="owner">calesthio /</span> OpenMontage</a></h3>
@@ -185,7 +222,7 @@
         <span class="score-pill score-high">Score: 96</span>
       </div>
     </div>
-    <div class="Box-row">
+    <div class="Box-row" data-lang="python">
       <div class="Box-row-header">
         <img class="avatar" src="https://github.com/ZhuLinsen.png" alt="ZhuLinsen" onerror="this.style.display='none'">
         <h3><a href="https://github.com/ZhuLinsen/daily_stock_analysis"><span class="owner">ZhuLinsen /</span> daily_stock_analysis</a></h3>
@@ -198,7 +235,7 @@
         <span class="score-pill score-high">Score: 96</span>
       </div>
     </div>
-    <div class="Box-row">
+    <div class="Box-row" data-lang="python">
       <div class="Box-row-header">
         <img class="avatar" src="https://github.com/mukul975.png" alt="mukul975" onerror="this.style.display='none'">
         <h3><a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills"><span class="owner">mukul975 /</span> Anthropic-Cybersecurity-Skills</a></h3>
@@ -211,7 +248,7 @@
         <span class="score-pill score-high">Score: 96</span>
       </div>
     </div>
-    <div class="Box-row">
+    <div class="Box-row" data-lang="typescript">
       <div class="Box-row-header">
         <img class="avatar" src="https://github.com/garrytan.png" alt="garrytan" onerror="this.style.display='none'">
         <h3><a href="https://github.com/garrytan/gstack"><span class="owner">garrytan /</span> gstack</a></h3>
@@ -227,6 +264,24 @@
 
     </div>
   </main>
+
+  <script>
+    function filterLang(lang) {
+      document.querySelectorAll('.lang-filter button').forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+      document.querySelectorAll('.Box-row').forEach(row => {
+        const rowLang = row.getAttribute('data-lang') || 'unknown';
+        if (lang === 'all') {
+          row.style.display = '';
+        } else if (lang === 'other') {
+          const mainLangs = ['python','typescript','javascript','rust','go','java','c++'];
+          row.style.display = mainLangs.includes(rowLang) ? 'none' : '';
+        } else {
+          row.style.display = rowLang === lang ? '' : 'none';
+        }
+      });
+    }
+  </script>
 
   <footer class="site-footer">
     <div class="container">

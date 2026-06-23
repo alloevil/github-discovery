@@ -80,9 +80,10 @@ def card(r: dict) -> str:
     color = lang_color(lang)
     avatar = f"https://github.com/{owner}.png" if owner else ""
     si = int(score)
-    sc = "score-high" if si >= 95 else ("score-mid" if si >= 90 else "score-low")
+    sc = "score-gold" if si >= 98 else ("score-high" if si >= 95 else ("score-mid" if si >= 90 else "score-low"))
     lang_html = f'<span class="meta-item"><span class="lang-dot" style="background:{color}"></span>{lang}</span>' if lang else ''
-    return f'''    <div class="Box-row">
+    lang_attr = lang.lower() if lang else 'unknown'
+    return f'''    <div class="Box-row" data-lang="{lang_attr}">
       <div class="Box-row-header">
         <img class="avatar" src="{avatar}" alt="{owner}" onerror="this.style.display='none'">
         <h3><a href="{url}"><span class="owner">{owner} /</span> {repo_name}</a></h3>
@@ -139,9 +140,10 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
     body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; background: #0d1117; color: #e6edf3; line-height: 1.5; }}
     a {{ color: #58a6ff; text-decoration: none; }}
     a:hover {{ color: #79c0ff; text-decoration: underline; }}
+    a:active {{ color: #58a6ff; opacity: 0.7; }}
 
     .page-header {{ background: #161b22; border-bottom: 1px solid #30363d; padding: 16px 0; }}
-    .container {{ max-width: 1280px; margin: 0 auto; padding: 0 24px; }}
+    .container {{ max-width: 960px; margin: 0 auto; padding: 0 24px; }}
     .page-body {{ padding: 24px 0 48px; }}
 
     .site-header {{ display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }}
@@ -156,40 +158,65 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
     .btn-gh {{ border: 1px solid #30363d; }}
     .btn-gh:hover {{ border-color: #8b949e; background: rgba(136,147,158,0.1); }}
 
-    .summary-bar {{ display: flex; gap: 40px; padding: 24px 0; border-bottom: 1px solid #21262d; margin-bottom: 24px; flex-wrap: wrap; }}
-    .summary-item .num {{ font-size: 28px; font-weight: 700; color: #58a6ff; display: block; }}
-    .summary-item .label {{ font-size: 12px; color: #8b949e; text-transform: uppercase; letter-spacing: 0.05em; }}
+    .summary-bar {{ display: flex; gap: 32px; padding: 20px 0; border-bottom: 1px solid #21262d; margin-bottom: 20px; flex-wrap: wrap; }}
+    .summary-item {{ text-align: center; flex: 1; min-width: 80px; }}
+    .summary-item .num {{ font-size: 28px; font-weight: 700; color: #58a6ff; display: block; line-height: 1.2; }}
+    .summary-item .label {{ font-size: 11px; color: #8b949e; text-transform: uppercase; letter-spacing: 0.06em; margin-top: 2px; }}
 
-    .date-heading {{ display: flex; align-items: center; gap: 12px; margin: 32px 0 16px; padding-bottom: 8px; border-bottom: 1px solid #21262d; }}
+    .date-heading {{ display: flex; align-items: center; gap: 12px; margin: 36px 0 14px; padding: 10px 0; border-bottom: 2px solid #21262d; }}
     .date-heading h2 {{ font-size: 18px; font-weight: 600; color: #e6edf3; }}
-    .date-heading .count {{ font-size: 12px; color: #8b949e; background: #21262d; padding: 2px 10px; border-radius: 10px; }}
+    .date-heading .count {{ font-size: 12px; color: #8b949e; background: #21262d; padding: 2px 10px; border-radius: 10px; white-space: nowrap; }}
 
-    .Box-row {{ padding: 16px; border: 1px solid #30363d; border-radius: 6px; margin-bottom: 8px; transition: border-color 0.15s; }}
-    .Box-row:hover {{ border-color: rgba(88,166,255,0.25); }}
+    .Box-row {{ padding: 16px 18px; border: 1px solid #30363d; border-radius: 8px; margin-bottom: 10px; transition: all 0.2s ease; cursor: pointer; }}
+    .Box-row:hover {{ border-color: rgba(88,166,255,0.3); background: rgba(88,166,255,0.04); transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,0.15); }}
+    .Box-row:active {{ transform: translateY(0); }}
     .Box-row-header {{ display: flex; align-items: flex-start; gap: 10px; }}
     .Box-row-header .avatar {{ width: 26px; height: 26px; border-radius: 50%; flex-shrink: 0; margin-top: 2px; }}
     .Box-row-header h3 {{ font-size: 16px; font-weight: 600; line-height: 1.3; }}
-    .Box-row-header h3 a {{ color: #58a6ff; }}
+    .Box-row-header h3 a {{ color: #58a6ff; transition: color 0.15s; }}
+    .Box-row-header h3 a:hover {{ color: #79c0ff; text-decoration: none; }}
     .Box-row-header .owner {{ color: #8b949e; font-weight: 400; }}
     .Box-row-desc {{ font-size: 14px; color: #8b949e; line-height: 1.5; padding-left: 36px; margin-top: 4px; }}
-    .Box-row-meta {{ display: flex; align-items: center; gap: 16px; flex-wrap: wrap; padding-left: 36px; margin-top: 8px; font-size: 12px; }}
-    .meta-item {{ display: inline-flex; align-items: center; gap: 4px; color: #8b949e; }}
-    .lang-dot {{ width: 12px; height: 12px; border-radius: 50%; display: inline-block; }}
-    .score-pill {{ padding: 2px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; }}
+    .Box-row-meta {{ display: flex; align-items: center; gap: 14px; flex-wrap: wrap; padding-left: 36px; margin-top: 8px; font-size: 12px; }}
+    .meta-item {{ display: inline-flex; align-items: center; gap: 4px; color: #8b949e; white-space: nowrap; }}
+    .lang-dot {{ width: 12px; height: 12px; border-radius: 50%; display: inline-block; flex-shrink: 0; }}
+    .score-pill {{ padding: 2px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; white-space: nowrap; }}
     .score-high {{ background: #238636; color: #fff; }}
     .score-mid {{ background: #1f6feb; color: #fff; }}
     .score-low {{ background: #30363d; color: #8b949e; }}
+    .score-gold {{ background: linear-gradient(135deg, #d4a017, #f0c040); color: #1a1a1a; }}
 
+    .lang-filter {{ display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }}
+    .lang-filter button {{ padding: 6px 14px; border-radius: 20px; border: 1px solid #30363d; background: #21262d; color: #e6edf3; font-size: 13px; cursor: pointer; transition: all 0.15s; white-space: nowrap; }}
+    .lang-filter button:hover {{ border-color: #58a6ff; color: #58a6ff; }}
+    .lang-filter button.active {{ background: #1f6feb; border-color: #1f6feb; color: #fff; }}
     .site-footer {{ border-top: 1px solid #21262d; padding: 32px 0; text-align: center; color: #484f58; font-size: 13px; margin-top: 48px; }}
     .site-footer p {{ margin-bottom: 8px; }}
     .site-footer a {{ color: #8b949e; }}
 
     @media (max-width: 768px) {{
       .container {{ padding: 0 16px; }}
-      .site-header {{ flex-direction: column; align-items: flex-start; }}
-      .summary-bar {{ gap: 20px; }}
+      .site-header {{ flex-direction: column; align-items: flex-start; gap: 12px; }}
+      .site-nav {{ width: 100%; }}
+      .site-nav a {{ flex: 1; text-align: center; padding: 8px 12px; }}
+      .summary-bar {{ gap: 16px; padding: 16px 0; }}
+      .summary-item {{ min-width: 60px; }}
       .summary-item .num {{ font-size: 22px; }}
-      .Box-row-desc, .Box-row-meta {{ padding-left: 0; }}
+      .summary-item .label {{ font-size: 10px; }}
+      .Box-row {{ padding: 14px; }}
+      .Box-row-desc {{ padding-left: 0; }}
+      .Box-row-meta {{ padding-left: 0; gap: 10px; margin-top: 10px; }}
+      .Box-row-header h3 {{ font-size: 15px; }}
+      .date-heading {{ margin: 28px 0 12px; }}
+      .date-heading h2 {{ font-size: 16px; }}
+    }}
+
+    @media (max-width: 480px) {{
+      .lang-filter {{ gap: 6px; }}
+      .lang-filter button {{ padding: 5px 10px; font-size: 12px; }}
+      .summary-bar {{ gap: 12px; }}
+      .Box-row-meta {{ gap: 8px; font-size: 11px; }}
+      .score-pill {{ padding: 1px 8px; font-size: 11px; }}
     }}
   </style>
 </head>
@@ -216,9 +243,38 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
         <div class="summary-item"><span class="num">{total_repos}</span><span class="label">Repos Discovered</span></div>
         <div class="summary-item"><span class="num">{top_score}</span><span class="label">Top Score</span></div>
       </div>
+      <div class="lang-filter">
+        <button class="active" onclick="filterLang('all')">All</button>
+        <button onclick="filterLang('python')">Python</button>
+        <button onclick="filterLang('typescript')">TypeScript</button>
+        <button onclick="filterLang('javascript')">JavaScript</button>
+        <button onclick="filterLang('rust')">Rust</button>
+        <button onclick="filterLang('go')">Go</button>
+        <button onclick="filterLang('java')">Java</button>
+        <button onclick="filterLang('c++')">C++</button>
+        <button onclick="filterLang('other')">Other</button>
+      </div>
 {sections}
     </div>
   </main>
+
+  <script>
+    function filterLang(lang) {{
+      document.querySelectorAll('.lang-filter button').forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+      document.querySelectorAll('.Box-row').forEach(row => {{
+        const rowLang = row.getAttribute('data-lang') || 'unknown';
+        if (lang === 'all') {{
+          row.style.display = '';
+        }} else if (lang === 'other') {{
+          const mainLangs = ['python','typescript','javascript','rust','go','java','c++'];
+          row.style.display = mainLangs.includes(rowLang) ? 'none' : '';
+        }} else {{
+          row.style.display = rowLang === lang ? '' : 'none';
+        }}
+      }});
+    }}
+  </script>
 
   <footer class="site-footer">
     <div class="container">
