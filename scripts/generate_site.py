@@ -157,7 +157,13 @@ def generate_rss(reports: list[tuple[str, list[dict]]]) -> str:
             SubElement(item, 'pubDate').text = datetime.strptime(date_str, '%Y-%m-%d').strftime('%a, %d %b %Y 10:00:00 +0000')
 
     xml_str = tostring(rss, encoding='unicode', xml_declaration=False)
-    return '<?xml version="1.0" encoding="UTF-8"?>\n' + parseString(xml_str).toprettyxml(indent='  ', encoding=None)
+    # Remove duplicate XML declaration from toprettyxml
+    pretty = parseString(xml_str).toprettyxml(indent='  ', encoding=None)
+    # Keep only the first XML declaration
+    lines = pretty.split('\n')
+    if lines and lines[0].startswith('<?xml'):
+        return '\n'.join(lines)
+    return '<?xml version="1.0" encoding="UTF-8"?>\n' + pretty
 
 
 def main():
