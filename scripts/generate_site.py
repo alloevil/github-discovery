@@ -27,9 +27,8 @@ def lang_color(lang: str) -> str:
     return LANG_COLORS.get(lang.lower(), "#8b949e") if lang else "#8b949e"
 
 
-def parse_report(filepath: str) -> list[dict]:
-    with open(filepath) as f:
-        content = f.read()
+def _parse_sections(content: str) -> list[dict]:
+    """Parse repo sections from markdown content."""
     repos = []
     for section in re.split(r'### \d+\.', content)[1:]:
         repo = {}
@@ -52,6 +51,21 @@ def parse_report(filepath: str) -> list[dict]:
         if 'name' in repo:
             repos.append(repo)
     return repos
+
+
+def parse_report(filepath: str) -> tuple[list[dict], list[dict]]:
+    """Parse report, returning (first_timers, repeat_performers)."""
+    with open(filepath) as f:
+        content = f.read()
+    
+    # Split into First Timers and Repeat Performers sections
+    if 'First Timers' in content and 'Repeat Performers' in content:
+        parts = content.split('Repeat Performers')
+        first_part = parts[0]
+        repeat_part = parts[1] if len(parts) > 1 else ''
+        return _parse_sections(first_part), _parse_sections(repeat_part)
+    else:
+        return _parse_sections(content), []
 
 
 def card(r: dict) -> str:
@@ -83,18 +97,30 @@ def card(r: dict) -> str:
     </div>'''
 
 
-def generate_index_html(reports: list[tuple[str, list[dict]]]) -> str:
+def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> str:
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    total_repos = sum(len(r) for _, r in reports)
+    total_repos = sum(len(ft) + len(rp) for _, ft, rp in reports)
     top_score = reports[0][1][0]['score'] if reports and reports[0][1] else '?'
 
     sections = ""
-    for date_str, repos in reports[:7]:
-        cards = "\n".join(card(r) for r in repos[:10])
-        sections += f"""
+    for date_str, first_timers, repeat_performers in reports[:7]:
+        # First Timers section
+        if first_timers:
+            cards = "\n".join(card(r) for r in first_timers[:10])
+            sections += f"""
       <div class="date-heading">
-        <h2>📅 {date_str}</h2>
-        <span class="count">{len(repos)} repos</span>
+        <h2>⭐ {date_str} — First Timers</h2>
+        <span class="count">{len(first_timers)} repos</span>
+      </div>
+{cards}
+"""
+        # Repeat Performers section
+        if repeat_performers:
+            cards = "\n".join(card(r) for r in repeat_performers[:5])
+            sections += f"""
+      <div class="date-heading">
+        <h2>🔄 {date_str} — Repeat Performers</h2>
+        <span class="count">{len(repeat_performers)} repos</span>
       </div>
 {cards}
 """
@@ -204,7 +230,7 @@ def generate_index_html(reports: list[tuple[str, list[dict]]]) -> str:
 </html>"""
 
 
-def generate_rss(reports: list[tuple[str, list[dict]]]) -> str:
+def generate_rss(reports: list[tuple[str, list[dict], list[dict]]]) -> str:
     rss = Element('rss', version='2.0')
     rss.set('xmlns:atom', 'http://www.w3.org/2005/Atom')
     ch = SubElement(rss, 'channel')
@@ -217,8 +243,9 @@ def generate_rss(reports: list[tuple[str, list[dict]]]) -> str:
     al.set('href', f'{SITE_URL}/feed.xml')
     al.set('rel', 'self')
     al.set('type', 'application/rss+xml')
-    for date_str, repos in reports[:10]:
-        for r in repos[:5]:
+    for date_str, first_timers, repeat_performers in reports[:10]:
+        all_repos = first_timers[:5] + repeat_performers[:3]
+        for r in all_repos:
             item = SubElement(ch, 'item')
             SubElement(item, 'title').text = f"🔥 {r.get('name','?')} — {r.get('stars','?')}⭐ ({r.get('daily','?')}/day)"
             SubElement(item, 'description').text = f"{r.get('description','')}\n\nScore: {r.get('score','?')}/100 | Language: {r.get('language','?')}"
@@ -234,21 +261,21 @@ def generate_rss(reports: list[tuple[str, list[dict]]]) -> str:
 def main():
     os.makedirs(DIST_DIR, exist_ok=True)
     report_files = sorted(glob.glob(os.path.join(OUTPUT_DIR, 'discovery-*.md')), reverse=True)
-    reports = []
+    reports = []  # list of (date, first_timers, repeat_performers)
     for f in report_files:
         m = re.search(r'discovery-(\d{4}-\d{2}-\d{2})\.md', f)
         if m:
-            repos = parse_report(f)
-            if repos:
-                reports.append((m.group(1), repos))
+            first, repeat = parse_report(f)
+            if first or repeat:
+                reports.append((m.group(1), first, repeat))
     if not reports:
         print("[WARN] No reports found")
         return
     with open(os.path.join(DIST_DIR, 'index.html'), 'w') as f:
         f.write(generate_index_html(reports))
-    print(f"[OK] index.html ({len(reports)} reports)")
     with open(os.path.join(DIST_DIR, 'feed.xml'), 'w') as f:
         f.write(generate_rss(reports))
+    print(f"[OK] index.html ({len(reports)} reports)")
     print("[OK] feed.xml")
 
 

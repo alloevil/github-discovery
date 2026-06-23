@@ -1,35 +1,21 @@
 # 🔥 GitHub Discovery Report
 
-> **Generated:** 2026-06-23 16:51
-> **Top 15 repos** that are gaining traction before going mainstream
+> **Generated:** 2026-06-23 19:53
+> **10 new repos + 0 repeat performers**
 
 ---
 
-### 1. [lyra81604/zhengxi-views](https://github.com/lyra81604/zhengxi-views)
+## ⭐ Top Starred Repositories — First Timers
+
+*These repos were first featured in GitHub Discovery*
+
+### 1. [sums001/Windows-Copilot-API](https://github.com/sums001/Windows-Copilot-API)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 771 |
+| ⭐ Stars | 430 |
 | 📅 Age | 3 days |
-| 🚀 Daily Growth | 257.0 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | search |
-
-> 可溯源的郑希(易方达基金经理)投研 Agent Skill——基于他全部公开观点原文 + 有原话佐证的投资方法 + 全市场基金真实数据，能溯源问答、按他框架给基金打分，绝不杜撰。⚠️仅研究学习辅助，不构成投资建议‼️website是郑希主页！
-
-**Score: 100/100** `████████████████████`
-- Acceleration: 40/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 2. [sums001/Windows-Copilot-API](https://github.com/sums001/Windows-Copilot-API)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 412 |
-| 📅 Age | 3 days |
-| 🚀 Daily Growth | 137.3 stars/day |
+| 🚀 Daily Growth | 143.3 stars/day |
 | 🔤 Language | Python |
 | 📡 Source | search |
 
@@ -41,31 +27,13 @@
 - Anti-spam: 30/30
 
 ---
-### 3. [overflowy/make-look-scanned](https://github.com/overflowy/make-look-scanned)
+### 2. [yo-WASSUP/Good-Badminton](https://github.com/yo-WASSUP/Good-Badminton)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 354 |
-| 📅 Age | 2 days |
-| 🚀 Daily Growth | 177.0 stars/day |
-| 🔤 Language | Go |
-| 📡 Source | search |
-
-> Makes PDFs look scanned (CLI or in the browser via WASM)
-
-**Score: 100/100** `████████████████████`
-- Acceleration: 40/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 4. [yo-WASSUP/Good-Badminton](https://github.com/yo-WASSUP/Good-Badminton)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 352 |
-| 📅 Age | 2 days |
-| 🚀 Daily Growth | 176.0 stars/day |
+| ⭐ Stars | 381 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 127.0 stars/day |
 | 🔤 Language | Python |
 | 📡 Source | search |
 
@@ -77,13 +45,31 @@
 - Anti-spam: 30/30
 
 ---
-### 5. [raiyanyahya/recall](https://github.com/raiyanyahya/recall)
+### 3. [overflowy/make-look-scanned](https://github.com/overflowy/make-look-scanned)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 347 |
+| ⭐ Stars | 362 |
+| 📅 Age | 2 days |
+| 🚀 Daily Growth | 181.0 stars/day |
+| 🔤 Language | Go |
+| 📡 Source | search |
+
+> Makes PDFs look scanned (CLI or in the browser via WASM)
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 4. [raiyanyahya/recall](https://github.com/raiyanyahya/recall)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 356 |
 | 📅 Age | 3 days |
-| 🚀 Daily Growth | 115.7 stars/day |
+| 🚀 Daily Growth | 118.7 stars/day |
 | 🔤 Language | Python |
 | 📡 Source | search |
 
@@ -95,13 +81,13 @@
 - Anti-spam: 30/30
 
 ---
-### 6. [HKUDS/AgentSpace](https://github.com/HKUDS/AgentSpace)
+### 5. [HKUDS/AgentSpace](https://github.com/HKUDS/AgentSpace)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 275 |
+| ⭐ Stars | 287 |
 | 📅 Age | 1 days |
-| 🚀 Daily Growth | 275.0 stars/day |
+| 🚀 Daily Growth | 287.0 stars/day |
 | 🔤 Language | TypeScript |
 | 📡 Source | search |
 
@@ -113,31 +99,13 @@
 - Anti-spam: 30/30
 
 ---
-### 7. [M-S-ibrahim/007-First-Light-Trainer-And-Optimizer_v_2](https://github.com/M-S-ibrahim/007-First-Light-Trainer-And-Optimizer_v_2)
+### 6. [qwer-xyz/incudal](https://github.com/qwer-xyz/incudal)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 160 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 160.0 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | search |
-
-> Advanced trainer and performance utility for 007 First Light. Features God Mode, stealth mechanics, instant gadget/outfit unlocks, map intel reveal, and deep FPS/stutter optimization.
-
-**Score: 100/100** `████████████████████`
-- Acceleration: 40/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 8. [qwer-xyz/incudal](https://github.com/qwer-xyz/incudal)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 129 |
+| ⭐ Stars | 133 |
 | 📅 Age | 3 days |
-| 🚀 Daily Growth | 43.0 stars/day |
+| 🚀 Daily Growth | 44.3 stars/day |
 | 🔤 Language | TypeScript |
 | 📡 Source | search |
 
@@ -149,138 +117,85 @@
 - Anti-spam: 30/30
 
 ---
-### 9. [binghe1980/AI-Canvas](https://github.com/binghe1980/AI-Canvas)
+### 7. [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 104 |
-| 📅 Age | 2 days |
-| 🚀 Daily Growth | 52.0 stars/day |
+| ⭐ Stars | 13,994 |
+| 📅 Age | 85 days |
+| 🚀 Daily Growth | 164.6 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.
+
+**Score: 96/100** `███████████████████░`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 8. [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 46,504 |
+| 📅 Age | 164 days |
+| 🚀 Daily Growth | 283.6 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.
+
+**Score: 96/100** `███████████████████░`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 9. [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 19,210 |
+| 📅 Age | 118 days |
+| 🚀 Daily Growth | 162.8 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0
+
+**Score: 96/100** `███████████████████░`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 10. [garrytan/gstack](https://github.com/garrytan/gstack)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 113,655 |
+| 📅 Age | 103 days |
+| 🚀 Daily Growth | 1103.4 stars/day |
 | 🔤 Language | TypeScript |
-| 📡 Source | search |
+| 📡 Source | trending |
 
-> Codex-integrated infinite canvas for AI image generation, annotation, and iterative editing.
+> Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
 
-**Score: 100/100** `████████████████████`
-- Acceleration: 40/40
+**Score: 96/100** `███████████████████░`
+- Acceleration: 36/40
 - Quality: 30/30
 - Anti-spam: 30/30
-
----
-### 10. [Forsy-AI/agent-apprenticeship](https://github.com/Forsy-AI/agent-apprenticeship)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 744 |
-| 📅 Age | 3 days |
-| 🚀 Daily Growth | 248.0 stars/day |
-| 🔤 Language |  |
-| 📡 Source | search |
-
-> The living ecosystem where AI agents learn from real-world work through iterative workflow loops, reusable experience, and collective training signal exchange.
-
-**Score: 95/100** `███████████████████░`
-- Acceleration: 40/40
-- Quality: 25/30
-- Anti-spam: 30/30
-
----
-### 11. [eooce/transfer-api](https://github.com/eooce/transfer-api)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 307 |
-| 📅 Age | 3 days |
-| 🚀 Daily Growth | 102.3 stars/day |
-| 🔤 Language | JavaScript |
-| 📡 Source | search |
-
-> Cloudflare Worker adapter for unlimited.surf OpenAI/Anthropic-compatible API routes.
-
-**Score: 95/100** `███████████████████░`
-- Acceleration: 40/40
-- Quality: 25/30
-- Anti-spam: 30/30
-
----
-### 12. [ma7mod7/Resident-Evil-Requiem-Ultimate-Trainer-2026_v_2](https://github.com/ma7mod7/Resident-Evil-Requiem-Ultimate-Trainer-2026_v_2)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 160 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 160.0 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | search |
-
-> Ultimate trainer for Resident Evil Requiem (RE9) – 42+ features including God Mode, Infinite Ammo, CP Editor, FOV fix, and more.
-
-**Score: 95/100** `███████████████████░`
-- Acceleration: 40/40
-- Quality: 30/30
-- Anti-spam: 25/30
-
----
-### 13. [Sam50x/Paralives-Ultimate-Trainer-2026_v_2](https://github.com/Sam50x/Paralives-Ultimate-Trainer-2026_v_2)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 160 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 160.0 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | search |
-
-> Ultimate trainer for Paralives – infinite money, max needs, freeze aging, unlock all items, and more.
-
-**Score: 95/100** `███████████████████░`
-- Acceleration: 40/40
-- Quality: 30/30
-- Anti-spam: 25/30
-
----
-### 14. [muneeb1097m/Paralives-Ultimate-Trainer-2026_v_2](https://github.com/muneeb1097m/Paralives-Ultimate-Trainer-2026_v_2)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 160 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 160.0 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | search |
-
-> Ultimate trainer for Paralives – infinite money, max needs, freeze aging, unlock all items, and more.
-
-**Score: 95/100** `███████████████████░`
-- Acceleration: 40/40
-- Quality: 30/30
-- Anti-spam: 25/30
-
----
-### 15. [M-S-ibrahim/Paralives-Ultimate-Trainer-2026_v_2](https://github.com/M-S-ibrahim/Paralives-Ultimate-Trainer-2026_v_2)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 160 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 160.0 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | search |
-
-> Ultimate trainer for Paralives – infinite money, max needs, freeze aging, unlock all items, and more.
-
-**Score: 95/100** `███████████████████░`
-- Acceleration: 40/40
-- Quality: 30/30
-- Anti-spam: 25/30
 
 ---
 
 ## 📊 Summary
 
-- **Total repos analyzed:** 15 candidates scored
-- **Score range:** 95 - 100
-- **Top pick:** [lyra81604/zhengxi-views](https://github.com/lyra81604/zhengxi-views)
+- **New discoveries:** 10 repos
+- **Repeat performers:** 0 repos
+- **Score range:** 96 - 100
+- **Top pick:** [sums001/Windows-Copilot-API](https://github.com/sums001/Windows-Copilot-API)
 
 ---
 *Generated by GitHub Discovery Tool*
