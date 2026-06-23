@@ -1,486 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>GitHub Discovery - 2026-06-23</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:title" content="GitHub Discovery - 2026-06-23" />
+  <title>🔥 GitHub Discovery — 2026-06-23</title>
+  <meta property="og:title" content="GitHub Discovery — 2026-06-23" />
   <meta property="og:description" content="Discover trending GitHub repos before they go viral" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://alloevil.github.io/github-discovery" />
-  <link rel="alternate" type="application/rss+xml" title="GitHub Discovery RSS" href="https://alloevil.github.io/github-discovery/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://alloevil.github.io/github-discovery/feed.xml" />
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; background: #0d1117; color: #a8a8a8; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; background: #0d1117; color: #e6edf3; line-height: 1.5; }
     a { color: #58a6ff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    a:hover { color: #79c0ff; text-decoration: underline; }
 
-    /* Top bar */
-    .top-bar { background: #010409; padding: 8px 0; }
-    .top-bar p { font-size: 12px; line-height: 28px; text-align: center; color: #8b949e; }
-    .top-bar a { color: #8b949e; }
+    .page-header { background: #161b22; border-bottom: 1px solid #30363d; padding: 16px 0; }
+    .container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
+    .page-body { padding: 24px 0 48px; }
 
-    /* Wrapper */
-    .wrapper { background: #0d1117; }
+    .site-header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+    .site-title { display: flex; align-items: center; gap: 12px; }
+    .site-title h1 { font-size: 24px; font-weight: 600; color: #e6edf3; }
+    .site-title .emoji { font-size: 28px; }
+    .site-nav { display: flex; align-items: center; gap: 12px; }
+    .site-nav a { color: #e6edf3; font-size: 14px; font-weight: 500; padding: 6px 16px; border-radius: 6px; transition: all 0.15s; }
+    .site-nav a:hover { text-decoration: none; }
+    .btn-rss { background: #f0883e; color: #fff !important; }
+    .btn-rss:hover { background: #d2701e; }
+    .btn-gh { border: 1px solid #30363d; }
+    .btn-gh:hover { border-color: #8b949e; background: rgba(136,147,158,0.1); }
 
-    /* Header */
-    .header { padding: 30px 20px 10px; }
-    .header h1 { color: #fff; font-size: 24px; font-weight: 600; }
-    .header .subtitle { color: #8b949e; font-size: 14px; margin-top: 6px; }
-    .header .subscribe { display: inline-block; background: #f0883e; color: #fff; padding: 4px 12px; border-radius: 4px; font-size: 12px; text-decoration: none; margin-top: 10px; }
-    .header .subscribe:hover { background: #d2701e; text-decoration: none; }
+    .summary-bar { display: flex; gap: 40px; padding: 24px 0; border-bottom: 1px solid #21262d; margin-bottom: 24px; flex-wrap: wrap; }
+    .summary-item .num { font-size: 28px; font-weight: 700; color: #58a6ff; display: block; }
+    .summary-item .label { font-size: 12px; color: #8b949e; text-transform: uppercase; letter-spacing: 0.05em; }
 
-    /* Section */
-    .section { padding-bottom: 20px; }
-    .section h2 { color: #fff; font-size: 16px; margin-bottom: 15px; font-weight: 600; }
+    .date-heading { display: flex; align-items: center; gap: 12px; margin: 32px 0 16px; padding-bottom: 8px; border-bottom: 1px solid #21262d; }
+    .date-heading h2 { font-size: 18px; font-weight: 600; color: #e6edf3; }
+    .date-heading .count { font-size: 12px; color: #8b949e; background: #21262d; padding: 2px 10px; border-radius: 10px; }
 
-    /* Repository */
-    .repository { margin-bottom: 12px; }
-    .repository h3 { font-size: 14px; font-weight: 600; line-height: 1.3; margin-bottom: 4px; }
-    .repository h3 a { color: #fff; }
-    .repository p { font-size: 13px; line-height: 1.5; color: #8b949e; }
-    .stats p { font-size: 12px; line-height: 1; margin-bottom: 4px; }
-    .stats p img { margin-right: 2px; vertical-align: middle; }
-    .avatar { border-radius: 4px; margin-top: 2px; }
-    .separator { border: none; border-top: 1px solid #21262d; margin: 12px 0; }
+    .Box-row { padding: 16px; border: 1px solid #30363d; border-radius: 6px; margin-bottom: 8px; transition: border-color 0.15s; }
+    .Box-row:hover { border-color: rgba(88,166,255,0.25); }
+    .Box-row-header { display: flex; align-items: flex-start; gap: 10px; }
+    .Box-row-header .avatar { width: 26px; height: 26px; border-radius: 50%; flex-shrink: 0; margin-top: 2px; }
+    .Box-row-header h3 { font-size: 16px; font-weight: 600; line-height: 1.3; }
+    .Box-row-header h3 a { color: #58a6ff; }
+    .Box-row-header .owner { color: #8b949e; font-weight: 400; }
+    .Box-row-desc { font-size: 14px; color: #8b949e; line-height: 1.5; padding-left: 36px; margin-top: 4px; }
+    .Box-row-meta { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; padding-left: 36px; margin-top: 8px; font-size: 12px; }
+    .meta-item { display: inline-flex; align-items: center; gap: 4px; color: #8b949e; }
+    .lang-dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+    .score-pill { padding: 2px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+    .score-high { background: #238636; color: #fff; }
+    .score-mid { background: #1f6feb; color: #fff; }
+    .score-low { background: #30363d; color: #8b949e; }
 
-    /* Language dot */
-    .lang-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; vertical-align: middle; }
-    .repository-language { color: #8b949e; font-size: 12px; }
+    .site-footer { border-top: 1px solid #21262d; padding: 32px 0; text-align: center; color: #484f58; font-size: 13px; margin-top: 48px; }
+    .site-footer p { margin-bottom: 8px; }
+    .site-footer a { color: #8b949e; }
 
-    /* Score badge */
-    .score-badge { display: inline-block; padding: 1px 6px; border-radius: 3px; color: #fff; font-size: 11px; font-weight: 600; margin-right: 8px; vertical-align: middle; }
-
-    /* Footer */
-    .footer { color: #484f58; padding: 30px 20px; text-align: center; font-size: 13px; }
-    .footer a { color: #8b949e; }
-    .footer p { margin-bottom: 8px; }
-
-    /* Cross-promotion */
-    .cross-promotion { background: #161b22; text-align: center; padding: 14px; border-top: 1px solid #21262d; border-bottom: 1px solid #21262d; }
-    .cross-promotion p { color: #8b949e; font-size: 13px; }
-    .cross-promotion a { color: #58a6ff; font-weight: 600; }
-
-    /* Stats bar */
-    .stats-bar { display: flex; justify-content: center; gap: 40px; padding: 20px; }
-    .stat-item { text-align: center; }
-    .stat-num { color: #58a6ff; font-size: 20px; font-weight: 700; }
-    .stat-label { color: #8b949e; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; }
-
-    @media (min-width: 1200px) {
-      .wrapper > tbody > tr > td > table { max-width: 1100px; }
-    }
-    @media (max-width: 480px) {
-      .stats-bar { flex-wrap: wrap; gap: 15px; }
-      table { width: 100% !important; }
+    @media (max-width: 768px) {
+      .container { padding: 0 16px; }
+      .site-header { flex-direction: column; align-items: flex-start; }
+      .summary-bar { gap: 20px; }
+      .summary-item .num { font-size: 22px; }
+      .Box-row-desc, .Box-row-meta { padding-left: 0; }
     }
   </style>
 </head>
 <body>
-  <!-- Top Bar -->
-  <table class="top-bar" width="100%" cellpadding="0" cellspacing="0" border="0">
-    <tr>
-      <td width="100%">
-        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:1100px; margin:0 auto;">
-          <tr>
-            <td>
-              <p>
-                <a href="https://alloevil.github.io/github-discovery">View on Web</a>
-                &nbsp;&nbsp;/&nbsp;&nbsp;
-                <a href="https://github.com/alloevil/github-discovery">Fork on GitHub</a>
-                &nbsp;&nbsp;/&nbsp;&nbsp;
-                <a href="https://alloevil.github.io/github-discovery/feed.xml">RSS Feed</a>
-              </p>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-
-  <!-- Header -->
-  <table class="wrapper" width="100%" cellpadding="0" cellspacing="0" border="0">
-    <tr>
-      <td width="100%">
-        <table width="100%" cellpadding="20" cellspacing="0" border="0" align="center" style="max-width:1100px; margin:0 auto;">
-          <tr>
-            <td class="header" width="100%">
-              <h1>🔥 GitHub Discovery</h1>
-              <p class="subtitle">Discover trending repos before they go viral</p>
-              <a class="subscribe" href="https://alloevil.github.io/github-discovery/feed.xml">📡 Subscribe via RSS</a>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-
-  <!-- Stats -->
-  <table class="wrapper" width="100%" cellpadding="0" cellspacing="0" border="0">
-    <tr>
-      <td width="100%">
-        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:1100px; margin:0 auto;">
-          <tr>
-            <td class="stats-bar" width="100%">
-              <div class="stat-item">
-                <div class="stat-num">1</div>
-                <div class="stat-label">Days Tracked</div>
-              </div>
-              <div class="stat-item">
-                <div class="stat-num">15</div>
-                <div class="stat-label">Repos Found</div>
-              </div>
-              <div class="stat-item">
-                <div class="stat-num">100</div>
-                <div class="stat-label">Top Score</div>
-              </div>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-
-  <!-- Cross-promotion -->
-  <table class="wrapper" width="100%" cellpadding="0" cellspacing="0" border="0">
-    <tr>
-      <td width="100%">
-        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:1100px; margin:0 auto;">
-          <tr>
-            <td class="cross-promotion" width="100%">
-              <p>🚀 Found by GitHub Discovery &mdash; <a href="https://github.com/alloevil/github-discovery">Star on GitHub</a> &middot; <a href="https://alloevil.github.io/github-discovery/feed.xml">RSS</a></p>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-
-  <!-- Daily Sections -->
-  
-    <table class="wrapper" width="100%" cellpadding="0" cellspacing="0" border="0">
-      <tr>
-        <td width="100%">
-          <table width="100%" cellpadding="20" cellspacing="0" border="0" align="center" style="max-width:1100px; margin:0 auto;">
-            <tr>
-              <td class="section" width="100%">
-                <h2>🔥 2026-06-23 &mdash; Top Discoveries</h2>
-                <div class="repositories">
-                  
-    <div class="repository">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0">
-        <tr class="stats">
-          <td width="28" valign="top">
-            <a href="https://github.com/lyra81604" title="lyra81604">
-              <img class="avatar" src="https://github.com/lyra81604.png" width="20" height="20" onerror="this.style.display='none'">
-            </a>
-          </td>
-          <td valign="middle">
-            <p>
-              <span class="score-badge" style="background:#3fb950">100</span>
-              <span title="Total Stars"><img height="10" alt="Star" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI2UzYzMwMCI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIC40MTYgMS4yNzlsLTMuMDQ2IDIuOTcuNzE5IDQuMTkyYS43NS43NSAwIDAgMS0xLjA4OC43OTFMOCAxMi4zNDdsLTMuNzY2IDEuOTlhLjc1Ljc1IDAgMCAxLTEuMDg4LS43OWwuNzItNC4xOUwuMjkzIDYuODdhLjc1Ljc1IDAgMCAuNDE2LTEuMjhsNC4yMS0uNjEzTDEuMzI3LjY2OEEuNzUuNzUgMCAwIDEgMi4wMDQuMjVIOHoiLz48L3N2Zz4=" />&nbsp;771</span>
-              &nbsp;&nbsp;
-              <span title="Daily Growth"><img height="10" alt="Up" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iIzNiODJmNiI+PHBhdGggZD0iTTggMTRWMS41bC02IDZIMHY3aDhoMHoiLz48L3N2Zz4=" />&nbsp;257.0/d</span>
-              &nbsp;&nbsp;<span class="lang-dot" style="background:#3572A5"></span>&nbsp;<a class="repository-language" href="https://github.com/trending/python">Python</a>
-            </p>
-          </td>
-        </tr>
-        <tr class="about">
-          <td width="28" valign="top"></td>
-          <td valign="top">
-            <h3><a href="https://github.com/lyra81604/zhengxi-views" title="lyra81604/zhengxi-views">lyra81604/zhengxi-views</a></h3>
-            <p>可溯源的郑希(易方达基金经理)投研 Agent Skill——基于他全部公开观点原文 + 有原话佐证的投资方法 + 全市场基金真实数据，能溯源问答、按他框架给基金打分，绝不杜撰。⚠️仅研究学习辅助，不构成投资建议‼️website是郑希主页！</p>
-          </td>
-        </tr>
-      </table>
+  <header class="page-header">
+    <div class="container">
+      <div class="site-header">
+        <div class="site-title">
+          <span class="emoji">🔥</span>
+          <h1>GitHub Discovery</h1>
+        </div>
+        <nav class="site-nav">
+          <a class="btn-gh" href="https://github.com/alloevil/github-discovery">⭐ GitHub</a>
+          <a class="btn-rss" href="https://alloevil.github.io/github-discovery/feed.xml">📡 RSS</a>
+        </nav>
+      </div>
     </div>
-    <hr class="separator">
+  </header>
 
-    <div class="repository">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0">
-        <tr class="stats">
-          <td width="28" valign="top">
-            <a href="https://github.com/sums001" title="sums001">
-              <img class="avatar" src="https://github.com/sums001.png" width="20" height="20" onerror="this.style.display='none'">
-            </a>
-          </td>
-          <td valign="middle">
-            <p>
-              <span class="score-badge" style="background:#3fb950">100</span>
-              <span title="Total Stars"><img height="10" alt="Star" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI2UzYzMwMCI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIC40MTYgMS4yNzlsLTMuMDQ2IDIuOTcuNzE5IDQuMTkyYS43NS43NSAwIDAgMS0xLjA4OC43OTFMOCAxMi4zNDdsLTMuNzY2IDEuOTlhLjc1Ljc1IDAgMCAxLTEuMDg4LS43OWwuNzItNC4xOUwuMjkzIDYuODdhLjc1Ljc1IDAgMCAuNDE2LTEuMjhsNC4yMS0uNjEzTDEuMzI3LjY2OEEuNzUuNzUgMCAwIDEgMi4wMDQuMjVIOHoiLz48L3N2Zz4=" />&nbsp;412</span>
-              &nbsp;&nbsp;
-              <span title="Daily Growth"><img height="10" alt="Up" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iIzNiODJmNiI+PHBhdGggZD0iTTggMTRWMS41bC02IDZIMHY3aDhoMHoiLz48L3N2Zz4=" />&nbsp;137.3/d</span>
-              &nbsp;&nbsp;<span class="lang-dot" style="background:#3572A5"></span>&nbsp;<a class="repository-language" href="https://github.com/trending/python">Python</a>
-            </p>
-          </td>
-        </tr>
-        <tr class="about">
-          <td width="28" valign="top"></td>
-          <td valign="top">
-            <h3><a href="https://github.com/sums001/Windows-Copilot-API" title="sums001/Windows-Copilot-API">sums001/Windows-Copilot-API</a></h3>
-            <p>Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing.</p>
-          </td>
-        </tr>
-      </table>
+  <main class="page-body">
+    <div class="container">
+      <div class="summary-bar">
+        <div class="summary-item"><span class="num">1</span><span class="label">Days Tracked</span></div>
+        <div class="summary-item"><span class="num">15</span><span class="label">Repos Discovered</span></div>
+        <div class="summary-item"><span class="num">100</span><span class="label">Top Score</span></div>
+      </div>
+
+      <div class="date-heading">
+        <h2>📅 2026-06-23</h2>
+        <span class="count">15 repos</span>
+      </div>
+    <div class="Box-row">
+      <div class="Box-row-header">
+        <img class="avatar" src="https://github.com/lyra81604.png" alt="lyra81604" onerror="this.style.display='none'">
+        <h3><a href="https://github.com/lyra81604/zhengxi-views"><span class="owner">lyra81604 /</span> zhengxi-views</a></h3>
+      </div>
+      <div class="Box-row-desc">可溯源的郑希(易方达基金经理)投研 Agent Skill——基于他全部公开观点原文 + 有原话佐证的投资方法 + 全市场基金真实数据，能溯源问答、按他框架给基金打分，绝不杜撰。⚠️仅研究学习辅助，不构成投资建议‼️website是郑希主页！</div>
+      <div class="Box-row-meta">
+        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 771</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 257.0/day</span>
+        <span class="score-pill score-high">Score: 100</span>
+      </div>
     </div>
-    <hr class="separator">
-
-    <div class="repository">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0">
-        <tr class="stats">
-          <td width="28" valign="top">
-            <a href="https://github.com/overflowy" title="overflowy">
-              <img class="avatar" src="https://github.com/overflowy.png" width="20" height="20" onerror="this.style.display='none'">
-            </a>
-          </td>
-          <td valign="middle">
-            <p>
-              <span class="score-badge" style="background:#3fb950">100</span>
-              <span title="Total Stars"><img height="10" alt="Star" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI2UzYzMwMCI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIC40MTYgMS4yNzlsLTMuMDQ2IDIuOTcuNzE5IDQuMTkyYS43NS43NSAwIDAgMS0xLjA4OC43OTFMOCAxMi4zNDdsLTMuNzY2IDEuOTlhLjc1Ljc1IDAgMCAxLTEuMDg4LS43OWwuNzItNC4xOUwuMjkzIDYuODdhLjc1Ljc1IDAgMCAuNDE2LTEuMjhsNC4yMS0uNjEzTDEuMzI3LjY2OEEuNzUuNzUgMCAwIDEgMi4wMDQuMjVIOHoiLz48L3N2Zz4=" />&nbsp;354</span>
-              &nbsp;&nbsp;
-              <span title="Daily Growth"><img height="10" alt="Up" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iIzNiODJmNiI+PHBhdGggZD0iTTggMTRWMS41bC02IDZIMHY3aDhoMHoiLz48L3N2Zz4=" />&nbsp;177.0/d</span>
-              &nbsp;&nbsp;<span class="lang-dot" style="background:#00ADD8"></span>&nbsp;<a class="repository-language" href="https://github.com/trending/go">Go</a>
-            </p>
-          </td>
-        </tr>
-        <tr class="about">
-          <td width="28" valign="top"></td>
-          <td valign="top">
-            <h3><a href="https://github.com/overflowy/make-look-scanned" title="overflowy/make-look-scanned">overflowy/make-look-scanned</a></h3>
-            <p>Makes PDFs look scanned (CLI or in the browser via WASM)</p>
-          </td>
-        </tr>
-      </table>
+    <div class="Box-row">
+      <div class="Box-row-header">
+        <img class="avatar" src="https://github.com/sums001.png" alt="sums001" onerror="this.style.display='none'">
+        <h3><a href="https://github.com/sums001/Windows-Copilot-API"><span class="owner">sums001 /</span> Windows-Copilot-API</a></h3>
+      </div>
+      <div class="Box-row-desc">Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing.</div>
+      <div class="Box-row-meta">
+        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 412</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 137.3/day</span>
+        <span class="score-pill score-high">Score: 100</span>
+      </div>
     </div>
-    <hr class="separator">
-
-    <div class="repository">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0">
-        <tr class="stats">
-          <td width="28" valign="top">
-            <a href="https://github.com/yo-WASSUP" title="yo-WASSUP">
-              <img class="avatar" src="https://github.com/yo-WASSUP.png" width="20" height="20" onerror="this.style.display='none'">
-            </a>
-          </td>
-          <td valign="middle">
-            <p>
-              <span class="score-badge" style="background:#3fb950">100</span>
-              <span title="Total Stars"><img height="10" alt="Star" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI2UzYzMwMCI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIC40MTYgMS4yNzlsLTMuMDQ2IDIuOTcuNzE5IDQuMTkyYS43NS43NSAwIDAgMS0xLjA4OC43OTFMOCAxMi4zNDdsLTMuNzY2IDEuOTlhLjc1Ljc1IDAgMCAxLTEuMDg4LS43OWwuNzItNC4xOUwuMjkzIDYuODdhLjc1Ljc1IDAgMCAuNDE2LTEuMjhsNC4yMS0uNjEzTDEuMzI3LjY2OEEuNzUuNzUgMCAwIDEgMi4wMDQuMjVIOHoiLz48L3N2Zz4=" />&nbsp;352</span>
-              &nbsp;&nbsp;
-              <span title="Daily Growth"><img height="10" alt="Up" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iIzNiODJmNiI+PHBhdGggZD0iTTggMTRWMS41bC02IDZIMHY3aDhoMHoiLz48L3N2Zz4=" />&nbsp;176.0/d</span>
-              &nbsp;&nbsp;<span class="lang-dot" style="background:#3572A5"></span>&nbsp;<a class="repository-language" href="https://github.com/trending/python">Python</a>
-            </p>
-          </td>
-        </tr>
-        <tr class="about">
-          <td width="28" valign="top"></td>
-          <td valign="top">
-            <h3><a href="https://github.com/yo-WASSUP/Good-Badminton" title="yo-WASSUP/Good-Badminton">yo-WASSUP/Good-Badminton</a></h3>
-            <p>🏸  AI Badminton Hawk-Eye System</p>
-          </td>
-        </tr>
-      </table>
+    <div class="Box-row">
+      <div class="Box-row-header">
+        <img class="avatar" src="https://github.com/overflowy.png" alt="overflowy" onerror="this.style.display='none'">
+        <h3><a href="https://github.com/overflowy/make-look-scanned"><span class="owner">overflowy /</span> make-look-scanned</a></h3>
+      </div>
+      <div class="Box-row-desc">Makes PDFs look scanned (CLI or in the browser via WASM)</div>
+      <div class="Box-row-meta">
+        <span class="meta-item"><span class="lang-dot" style="background:#00ADD8"></span>Go</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 354</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 177.0/day</span>
+        <span class="score-pill score-high">Score: 100</span>
+      </div>
     </div>
-    <hr class="separator">
-
-    <div class="repository">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0">
-        <tr class="stats">
-          <td width="28" valign="top">
-            <a href="https://github.com/raiyanyahya" title="raiyanyahya">
-              <img class="avatar" src="https://github.com/raiyanyahya.png" width="20" height="20" onerror="this.style.display='none'">
-            </a>
-          </td>
-          <td valign="middle">
-            <p>
-              <span class="score-badge" style="background:#3fb950">100</span>
-              <span title="Total Stars"><img height="10" alt="Star" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI2UzYzMwMCI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIC40MTYgMS4yNzlsLTMuMDQ2IDIuOTcuNzE5IDQuMTkyYS43NS43NSAwIDAgMS0xLjA4OC43OTFMOCAxMi4zNDdsLTMuNzY2IDEuOTlhLjc1Ljc1IDAgMCAxLTEuMDg4LS43OWwuNzItNC4xOUwuMjkzIDYuODdhLjc1Ljc1IDAgMCAuNDE2LTEuMjhsNC4yMS0uNjEzTDEuMzI3LjY2OEEuNzUuNzUgMCAwIDEgMi4wMDQuMjVIOHoiLz48L3N2Zz4=" />&nbsp;347</span>
-              &nbsp;&nbsp;
-              <span title="Daily Growth"><img height="10" alt="Up" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iIzNiODJmNiI+PHBhdGggZD0iTTggMTRWMS41bC02IDZIMHY3aDhoMHoiLz48L3N2Zz4=" />&nbsp;115.7/d</span>
-              &nbsp;&nbsp;<span class="lang-dot" style="background:#3572A5"></span>&nbsp;<a class="repository-language" href="https://github.com/trending/python">Python</a>
-            </p>
-          </td>
-        </tr>
-        <tr class="about">
-          <td width="28" valign="top"></td>
-          <td valign="top">
-            <h3><a href="https://github.com/raiyanyahya/recall" title="raiyanyahya/recall">raiyanyahya/recall</a></h3>
-            <p>Stop wasting tokens and re-explaining your project every session. Recall gives Claude Code durable memory — entirely offline.</p>
-          </td>
-        </tr>
-      </table>
+    <div class="Box-row">
+      <div class="Box-row-header">
+        <img class="avatar" src="https://github.com/yo-WASSUP.png" alt="yo-WASSUP" onerror="this.style.display='none'">
+        <h3><a href="https://github.com/yo-WASSUP/Good-Badminton"><span class="owner">yo-WASSUP /</span> Good-Badminton</a></h3>
+      </div>
+      <div class="Box-row-desc">🏸  AI Badminton Hawk-Eye System</div>
+      <div class="Box-row-meta">
+        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 352</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 176.0/day</span>
+        <span class="score-pill score-high">Score: 100</span>
+      </div>
     </div>
-    <hr class="separator">
-
-    <div class="repository">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0">
-        <tr class="stats">
-          <td width="28" valign="top">
-            <a href="https://github.com/HKUDS" title="HKUDS">
-              <img class="avatar" src="https://github.com/HKUDS.png" width="20" height="20" onerror="this.style.display='none'">
-            </a>
-          </td>
-          <td valign="middle">
-            <p>
-              <span class="score-badge" style="background:#3fb950">100</span>
-              <span title="Total Stars"><img height="10" alt="Star" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI2UzYzMwMCI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIC40MTYgMS4yNzlsLTMuMDQ2IDIuOTcuNzE5IDQuMTkyYS43NS43NSAwIDAgMS0xLjA4OC43OTFMOCAxMi4zNDdsLTMuNzY2IDEuOTlhLjc1Ljc1IDAgMCAxLTEuMDg4LS43OWwuNzItNC4xOUwuMjkzIDYuODdhLjc1Ljc1IDAgMCAuNDE2LTEuMjhsNC4yMS0uNjEzTDEuMzI3LjY2OEEuNzUuNzUgMCAwIDEgMi4wMDQuMjVIOHoiLz48L3N2Zz4=" />&nbsp;275</span>
-              &nbsp;&nbsp;
-              <span title="Daily Growth"><img height="10" alt="Up" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iIzNiODJmNiI+PHBhdGggZD0iTTggMTRWMS41bC02IDZIMHY3aDhoMHoiLz48L3N2Zz4=" />&nbsp;275.0/d</span>
-              &nbsp;&nbsp;<span class="lang-dot" style="background:#3178c6"></span>&nbsp;<a class="repository-language" href="https://github.com/trending/typescript">TypeScript</a>
-            </p>
-          </td>
-        </tr>
-        <tr class="about">
-          <td width="28" valign="top"></td>
-          <td valign="top">
-            <h3><a href="https://github.com/HKUDS/AgentSpace" title="HKUDS/AgentSpace">HKUDS/AgentSpace</a></h3>
-            <p>"AgentSpace: Human + Agents. One Team. One Workspace"</p>
-          </td>
-        </tr>
-      </table>
+    <div class="Box-row">
+      <div class="Box-row-header">
+        <img class="avatar" src="https://github.com/raiyanyahya.png" alt="raiyanyahya" onerror="this.style.display='none'">
+        <h3><a href="https://github.com/raiyanyahya/recall"><span class="owner">raiyanyahya /</span> recall</a></h3>
+      </div>
+      <div class="Box-row-desc">Stop wasting tokens and re-explaining your project every session. Recall gives Claude Code durable memory — entirely offline.</div>
+      <div class="Box-row-meta">
+        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 347</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 115.7/day</span>
+        <span class="score-pill score-high">Score: 100</span>
+      </div>
     </div>
-    <hr class="separator">
-
-    <div class="repository">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0">
-        <tr class="stats">
-          <td width="28" valign="top">
-            <a href="https://github.com/M-S-ibrahim" title="M-S-ibrahim">
-              <img class="avatar" src="https://github.com/M-S-ibrahim.png" width="20" height="20" onerror="this.style.display='none'">
-            </a>
-          </td>
-          <td valign="middle">
-            <p>
-              <span class="score-badge" style="background:#3fb950">100</span>
-              <span title="Total Stars"><img height="10" alt="Star" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI2UzYzMwMCI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIC40MTYgMS4yNzlsLTMuMDQ2IDIuOTcuNzE5IDQuMTkyYS43NS43NSAwIDAgMS0xLjA4OC43OTFMOCAxMi4zNDdsLTMuNzY2IDEuOTlhLjc1Ljc1IDAgMCAxLTEuMDg4LS43OWwuNzItNC4xOUwuMjkzIDYuODdhLjc1Ljc1IDAgMCAuNDE2LTEuMjhsNC4yMS0uNjEzTDEuMzI3LjY2OEEuNzUuNzUgMCAwIDEgMi4wMDQuMjVIOHoiLz48L3N2Zz4=" />&nbsp;160</span>
-              &nbsp;&nbsp;
-              <span title="Daily Growth"><img height="10" alt="Up" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iIzNiODJmNiI+PHBhdGggZD0iTTggMTRWMS41bC02IDZIMHY3aDhoMHoiLz48L3N2Zz4=" />&nbsp;160.0/d</span>
-              &nbsp;&nbsp;<span class="lang-dot" style="background:#3572A5"></span>&nbsp;<a class="repository-language" href="https://github.com/trending/python">Python</a>
-            </p>
-          </td>
-        </tr>
-        <tr class="about">
-          <td width="28" valign="top"></td>
-          <td valign="top">
-            <h3><a href="https://github.com/M-S-ibrahim/007-First-Light-Trainer-And-Optimizer_v_2" title="M-S-ibrahim/007-First-Light-Trainer-And-Optimizer_v_2">M-S-ibrahim/007-First-Light-Trainer-And-Optimizer_v_2</a></h3>
-            <p>Advanced trainer and performance utility for 007 First Light. Features God Mode, stealth mechanics, instant gadget/outfit unlocks, map intel reveal, and deep FPS/stutter optimization.</p>
-          </td>
-        </tr>
-      </table>
+    <div class="Box-row">
+      <div class="Box-row-header">
+        <img class="avatar" src="https://github.com/HKUDS.png" alt="HKUDS" onerror="this.style.display='none'">
+        <h3><a href="https://github.com/HKUDS/AgentSpace"><span class="owner">HKUDS /</span> AgentSpace</a></h3>
+      </div>
+      <div class="Box-row-desc">"AgentSpace: Human + Agents. One Team. One Workspace"</div>
+      <div class="Box-row-meta">
+        <span class="meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 275</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 275.0/day</span>
+        <span class="score-pill score-high">Score: 100</span>
+      </div>
     </div>
-    <hr class="separator">
-
-    <div class="repository">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0">
-        <tr class="stats">
-          <td width="28" valign="top">
-            <a href="https://github.com/qwer-xyz" title="qwer-xyz">
-              <img class="avatar" src="https://github.com/qwer-xyz.png" width="20" height="20" onerror="this.style.display='none'">
-            </a>
-          </td>
-          <td valign="middle">
-            <p>
-              <span class="score-badge" style="background:#3fb950">100</span>
-              <span title="Total Stars"><img height="10" alt="Star" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI2UzYzMwMCI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIC40MTYgMS4yNzlsLTMuMDQ2IDIuOTcuNzE5IDQuMTkyYS43NS43NSAwIDAgMS0xLjA4OC43OTFMOCAxMi4zNDdsLTMuNzY2IDEuOTlhLjc1Ljc1IDAgMCAxLTEuMDg4LS43OWwuNzItNC4xOUwuMjkzIDYuODdhLjc1Ljc1IDAgMCAuNDE2LTEuMjhsNC4yMS0uNjEzTDEuMzI3LjY2OEEuNzUuNzUgMCAwIDEgMi4wMDQuMjVIOHoiLz48L3N2Zz4=" />&nbsp;129</span>
-              &nbsp;&nbsp;
-              <span title="Daily Growth"><img height="10" alt="Up" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iIzNiODJmNiI+PHBhdGggZD0iTTggMTRWMS41bC02IDZIMHY3aDhoMHoiLz48L3N2Zz4=" />&nbsp;43.0/d</span>
-              &nbsp;&nbsp;<span class="lang-dot" style="background:#3178c6"></span>&nbsp;<a class="repository-language" href="https://github.com/trending/typescript">TypeScript</a>
-            </p>
-          </td>
-        </tr>
-        <tr class="about">
-          <td width="28" valign="top"></td>
-          <td valign="top">
-            <h3><a href="https://github.com/qwer-xyz/incudal" title="qwer-xyz/incudal">qwer-xyz/incudal</a></h3>
-            <p>基于 Incus 的 LXC / KVM NAT VPS 销售、交付与管理面板。</p>
-          </td>
-        </tr>
-      </table>
+    <div class="Box-row">
+      <div class="Box-row-header">
+        <img class="avatar" src="https://github.com/M-S-ibrahim.png" alt="M-S-ibrahim" onerror="this.style.display='none'">
+        <h3><a href="https://github.com/M-S-ibrahim/007-First-Light-Trainer-And-Optimizer_v_2"><span class="owner">M-S-ibrahim /</span> 007-First-Light-Trainer-And-Optimizer_v_2</a></h3>
+      </div>
+      <div class="Box-row-desc">Advanced trainer and performance utility for 007 First Light. Features God Mode, stealth mechanics, instant gadget/outfit unlocks, map intel reveal, and deep FPS/stutter optimization.</div>
+      <div class="Box-row-meta">
+        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 160</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 160.0/day</span>
+        <span class="score-pill score-high">Score: 100</span>
+      </div>
     </div>
-    <hr class="separator">
-
-    <div class="repository">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0">
-        <tr class="stats">
-          <td width="28" valign="top">
-            <a href="https://github.com/binghe1980" title="binghe1980">
-              <img class="avatar" src="https://github.com/binghe1980.png" width="20" height="20" onerror="this.style.display='none'">
-            </a>
-          </td>
-          <td valign="middle">
-            <p>
-              <span class="score-badge" style="background:#3fb950">100</span>
-              <span title="Total Stars"><img height="10" alt="Star" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI2UzYzMwMCI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIC40MTYgMS4yNzlsLTMuMDQ2IDIuOTcuNzE5IDQuMTkyYS43NS43NSAwIDAgMS0xLjA4OC43OTFMOCAxMi4zNDdsLTMuNzY2IDEuOTlhLjc1Ljc1IDAgMCAxLTEuMDg4LS43OWwuNzItNC4xOUwuMjkzIDYuODdhLjc1Ljc1IDAgMCAuNDE2LTEuMjhsNC4yMS0uNjEzTDEuMzI3LjY2OEEuNzUuNzUgMCAwIDEgMi4wMDQuMjVIOHoiLz48L3N2Zz4=" />&nbsp;104</span>
-              &nbsp;&nbsp;
-              <span title="Daily Growth"><img height="10" alt="Up" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iIzNiODJmNiI+PHBhdGggZD0iTTggMTRWMS41bC02IDZIMHY3aDhoMHoiLz48L3N2Zz4=" />&nbsp;52.0/d</span>
-              &nbsp;&nbsp;<span class="lang-dot" style="background:#3178c6"></span>&nbsp;<a class="repository-language" href="https://github.com/trending/typescript">TypeScript</a>
-            </p>
-          </td>
-        </tr>
-        <tr class="about">
-          <td width="28" valign="top"></td>
-          <td valign="top">
-            <h3><a href="https://github.com/binghe1980/AI-Canvas" title="binghe1980/AI-Canvas">binghe1980/AI-Canvas</a></h3>
-            <p>Codex-integrated infinite canvas for AI image generation, annotation, and iterative editing.</p>
-          </td>
-        </tr>
-      </table>
+    <div class="Box-row">
+      <div class="Box-row-header">
+        <img class="avatar" src="https://github.com/qwer-xyz.png" alt="qwer-xyz" onerror="this.style.display='none'">
+        <h3><a href="https://github.com/qwer-xyz/incudal"><span class="owner">qwer-xyz /</span> incudal</a></h3>
+      </div>
+      <div class="Box-row-desc">基于 Incus 的 LXC / KVM NAT VPS 销售、交付与管理面板。</div>
+      <div class="Box-row-meta">
+        <span class="meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 129</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 43.0/day</span>
+        <span class="score-pill score-high">Score: 100</span>
+      </div>
     </div>
-    <hr class="separator">
-
-    <div class="repository">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0">
-        <tr class="stats">
-          <td width="28" valign="top">
-            <a href="https://github.com/Forsy-AI" title="Forsy-AI">
-              <img class="avatar" src="https://github.com/Forsy-AI.png" width="20" height="20" onerror="this.style.display='none'">
-            </a>
-          </td>
-          <td valign="middle">
-            <p>
-              <span class="score-badge" style="background:#3fb950">95</span>
-              <span title="Total Stars"><img height="10" alt="Star" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iI2UzYzMwMCI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIC40MTYgMS4yNzlsLTMuMDQ2IDIuOTcuNzE5IDQuMTkyYS43NS43NSAwIDAgMS0xLjA4OC43OTFMOCAxMi4zNDdsLTMuNzY2IDEuOTlhLjc1Ljc1IDAgMCAxLTEuMDg4LS43OWwuNzItNC4xOUwuMjkzIDYuODdhLjc1Ljc1IDAgMCAuNDE2LTEuMjhsNC4yMS0uNjEzTDEuMzI3LjY2OEEuNzUuNzUgMCAwIDEgMi4wMDQuMjVIOHoiLz48L3N2Zz4=" />&nbsp;744</span>
-              &nbsp;&nbsp;
-              <span title="Daily Growth"><img height="10" alt="Up" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0iIzNiODJmNiI+PHBhdGggZD0iTTggMTRWMS41bC02IDZIMHY3aDhoMHoiLz48L3N2Zz4=" />&nbsp;248.0/d</span>
-              
-            </p>
-          </td>
-        </tr>
-        <tr class="about">
-          <td width="28" valign="top"></td>
-          <td valign="top">
-            <h3><a href="https://github.com/Forsy-AI/agent-apprenticeship" title="Forsy-AI/agent-apprenticeship">Forsy-AI/agent-apprenticeship</a></h3>
-            <p>The living ecosystem where AI agents learn from real-world work through iterative workflow loops, reusable experience, and collective training signal exchange.</p>
-          </td>
-        </tr>
-      </table>
+    <div class="Box-row">
+      <div class="Box-row-header">
+        <img class="avatar" src="https://github.com/binghe1980.png" alt="binghe1980" onerror="this.style.display='none'">
+        <h3><a href="https://github.com/binghe1980/AI-Canvas"><span class="owner">binghe1980 /</span> AI-Canvas</a></h3>
+      </div>
+      <div class="Box-row-desc">Codex-integrated infinite canvas for AI image generation, annotation, and iterative editing.</div>
+      <div class="Box-row-meta">
+        <span class="meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 104</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 52.0/day</span>
+        <span class="score-pill score-high">Score: 100</span>
+      </div>
     </div>
-    <hr class="separator">
+    <div class="Box-row">
+      <div class="Box-row-header">
+        <img class="avatar" src="https://github.com/Forsy-AI.png" alt="Forsy-AI" onerror="this.style.display='none'">
+        <h3><a href="https://github.com/Forsy-AI/agent-apprenticeship"><span class="owner">Forsy-AI /</span> agent-apprenticeship</a></h3>
+      </div>
+      <div class="Box-row-desc">The living ecosystem where AI agents learn from real-world work through iterative workflow loops, reusable experience, and collective training signal exchange.</div>
+      <div class="Box-row-meta">
+        
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 744</span>
+        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 248.0/day</span>
+        <span class="score-pill score-high">Score: 95</span>
+      </div>
+    </div>
 
-                </div>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
+    </div>
+  </main>
 
-
-  <!-- Footer -->
-  <table class="wrapper" width="100%" cellpadding="0" cellspacing="0" border="0">
-    <tr>
-      <td width="100%">
-        <table width="100%" cellpadding="20" cellspacing="0" border="0" align="center" style="max-width:1100px; margin:0 auto;">
-          <tr>
-            <td class="footer" width="100%">
-              <p>Generated by <a href="https://github.com/alloevil/github-discovery">GitHub Discovery</a></p>
-              <p>Updated daily at 18:00 CST &middot; <a href="https://alloevil.github.io/github-discovery/feed.xml">RSS</a></p>
-              <p style="font-size:11px; color:#484f58; margin-top:15px;">Inspired by <a href="https://github.com/thechangelog/nightly">Changelog Nightly</a></p>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Generated by <a href="https://github.com/alloevil/github-discovery">GitHub Discovery</a> · Updated daily at 18:00 CST</p>
+      <p><a href="https://alloevil.github.io/github-discovery/feed.xml">📡 RSS Feed</a> · Inspired by <a href="https://github.com/thechangelog/nightly">Changelog Nightly</a></p>
+    </div>
+  </footer>
 </body>
 </html>
