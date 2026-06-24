@@ -1,60 +1,95 @@
-// GitHub Discovery Newsletter Subscriber Webhook
-// Deploy as Google Apps Script Web App
-// 1. Go to script.google.com
-// 2. Create new project, paste this code
-// 3. Deploy → Web App → Execute as: Me → Who has access: Anyone
-// 4. Copy the web app URL
+// GitHub Discovery Newsletter - Google Apps Script Web App
+// 功能：
+//   1. doPost: 接收表单订阅，写入 Google Sheet
+//   2. doGet: 返回订阅者列表 JSON
+//   3. 每次新增订阅后，自动同步到 GitHub 的 subscribers.txt
+
+// ========== 配置 ==========
+var SHEET_ID = 'YOUR_SHEET_ID_HERE';  // 替换为你的 Google Sheet ID
+var GITHUB_TOKEN = 'YOUR_GITHUB_TOKEN_HERE';  // 替换为 GitHub Personal Access Token
+var GITHUB_REPO = 'alloevil/github-discovery';
+// ===========================
 
 function doPost(e) {
   try {
     var data = JSON.parse(e.postData.contents);
     var email = data.email;
     if (!email || !email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
-      return ContentService.createTextOutput(JSON.stringify({error: 'Invalid email'}))
-        .setMimeType(ContentService.MimeType.JSON);
+      return jsonResponse({error: 'Invalid email'});
     }
 
-    // Open the spreadsheet (create one first, put its ID here)
-    var SHEET_ID = 'YOUR_SHEET_ID_HERE';
     var sheet = SpreadsheetApp.openById(SHEET_ID).getActiveSheet();
+    var rows = sheet.getDataRange().getValues();
 
-    // Check if email already exists
-    var data = sheet.getDataRange().getValues();
-    for (var i = 0; i < data.length; i++) {
-      if (data[i][0] === email) {
-        return ContentService.createTextOutput(JSON.stringify({status: 'already_subscribed'}))
-          .setMimeType(ContentService.MimeType.JSON);
+    // 检查是否已订阅
+    for (var i = 0; i < rows.length; i++) {
+      if (rows[i][0] === email) {
+        return jsonResponse({status: 'already_subscribed'});
       }
     }
 
-    // Add new subscriber
+    // 写入 Sheet
     sheet.appendRow([email, new Date().toISOString()]);
 
-    return ContentService.createTextOutput(JSON.stringify({status: 'ok'}))
-      .setMimeType(ContentService.MimeType.JSON);
+    // 同步到 GitHub
+    syncToGitHub(email);
+
+    return jsonResponse({status: 'ok'});
   } catch (err) {
-    return ContentService.createTextOutput(JSON.stringify({error: err.message}))
-      .setMimeType(ContentService.MimeType.JSON);
+    return jsonResponse({error: err.message});
   }
 }
 
 function doGet(e) {
-  // Return subscriber list (for cron to read)
   try {
-    var SHEET_ID = 'YOUR_SHEET_ID_HERE';
     var sheet = SpreadsheetApp.openById(SHEET_ID).getActiveSheet();
-    var data = sheet.getDataRange().getValues();
+    var rows = sheet.getDataRange().getValues();
     var emails = [];
-    for (var i = 0; i < data.length; i++) {
-      var email = data[i][0];
-      if (email && email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
-        emails.push(email);
+    for (var i = 0; i < rows.length; i++) {
+      if (rows[i][0] && rows[i][0].match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+        emails.push(rows[i][0]);
       }
     }
-    return ContentService.createTextOutput(JSON.stringify({subscribers: emails}))
-      .setMimeType(ContentService.MimeType.JSON);
+    return jsonResponse({subscribers: emails});
   } catch (err) {
-    return ContentService.createTextOutput(JSON.stringify({error: err.message}))
-      .setMimeType(ContentService.MimeType.JSON);
+    return jsonResponse({error: err.message});
   }
+}
+
+function syncToGitHub(newEmail) {
+  try {
+    // 获取当前 subscribers.txt 内容
+    var url = 'https://api.github.com/repos/' + GITHUB_REPO + '/contents/subscribers.txt';
+    var resp = UrlFetchApp.fetch(url, {
+      headers: {'Authorization': 'token ' + GITHUB_TOKEN, 'User-Agent': 'GitHub-Discovery'},
+      muteHttpExceptions: true
+    });
+    var file = JSON.parse(resp.getContentText());
+    var sha = file.sha;
+    var content = Utilities.newString(Utilities.base64Decode(file.content));
+
+    // 追加新邮箱
+    content = content.trim() + '\n' + newEmail + '\n';
+    var encoded = Utilities.base64Encode(content);
+
+    // 更新文件
+    UrlFetchApp.fetch(url, {
+      method: 'put',
+      contentType: 'application/json',
+      headers: {'Authorization': 'token ' + GITHUB_TOKEN, 'User-Agent': 'GitHub-Discovery'},
+      payload: JSON.stringify({
+        message: '📧 New subscriber: ' + newEmail,
+        content: encoded,
+        sha: sha
+      }),
+      muteHttpExceptions: true
+    });
+  } catch (err) {
+    Logger.log('GitHub sync failed: ' + err.message);
+  }
+}
+
+function jsonResponse(obj) {
+  return ContentService.createTextOutput(JSON.stringify(obj))
+    .setMimeType(ContentService.MimeType.JSON);
 }
