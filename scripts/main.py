@@ -86,35 +86,56 @@ def send_email_via_resend(to: list[str], subject: str, html_body: str) -> bool:
 
 def send_buttondown_email(date_str: str, top_new: list) -> bool:
     """Send discovery report email to all subscribers."""
-    # 1. Get subscribers from Buttondown
     subscribers = get_buttondown_subscribers()
     if not subscribers:
         print("[SKIP] No subscribers found.")
         return False
     print(f"[INFO] Found {len(subscribers)} subscribers.")
 
-    # 2. Build email body
-    top5_lines = []
-    for i, (repo, scores) in enumerate(top_new[:5], 1):
+    repo_lines = []
+    for i, (repo, scores) in enumerate(top_new, 1):
         name = repo['full_name']
         url = repo['url']
         stars = repo.get('stars', 0)
-        desc = (repo.get('description') or 'No description')[:80]
-        top5_lines.append(f"{i}. <b><a href=\"{url}\">{name}</a></b> — ⭐{stars:,} — {desc}")
+        daily = repo.get('daily_stars', 0)
+        lang = repo.get('language', '')
+        desc = (repo.get('description') or 'No description')[:120]
+        score = scores.get('total', 0)
+        repo_lines.append(
+            f'<tr style="border-bottom:1px solid #1a1a2e;">'
+            f'<td style="padding:8px;color:#00ffff;font-weight:600;">{i}</td>'
+            f'<td style="padding:8px;">'
+            f'<a href="{url}" style="color:#00ffff;text-decoration:none;">{name}</a>'
+            f'<br><span style="color:#666;font-size:12px;">{desc}</span>'
+            f'</td>'
+            f'<td style="padding:8px;color:#888;text-align:right;">⭐{stars:,}<br><span style="font-size:11px;">{daily:.0f}/day</span></td>'
+            f'<td style="padding:8px;color:#888;">{lang}</td>'
+            f'<td style="padding:8px;text-align:center;">'
+            f'<span style="color:{'#ffaa00' if score>=98 else '#00ff88' if score>=95 else '#00ffff' if score>=90 else '#444'};">{score}</span>'
+            f'</td></tr>'
+        )
 
-    top5_html = "<br>".join(top5_lines)
+    repo_rows = "\n".join(repo_lines)
     total = len(top_new)
 
-    html_body = f"""<div style="font-family:monospace;background:#0a0a0f;color:#c0c0d0;padding:24px;max-width:600px;margin:0 auto;">
-<h2 style="color:#00ffff;">🔥 GitHub Discovery — {date_str}</h2>
-<p><b>{total} new repos</b> discovered today. Top 5:</p>
-<p>{top5_html}</p>
-<hr style="border-color:#00ffff33;">
-<p><a href="https://alloevil.github.io/github-discovery/" style="color:#00ffff;">View full report →</a></p>
-<p style="color:#666;font-size:12px;">Sent by <a href="https://github.com/alloevil/github-discovery" style="color:#888;">GitHub Discovery</a></p>
+    html_body = f"""<div style="font-family:'Courier New',monospace;background:#0a0a0f;color:#c0c0d0;padding:24px;max-width:700px;margin:0 auto;">
+<h2 style="color:#00ffff;font-size:18px;">🔥 GitHub Discovery — {date_str}</h2>
+<p style="color:#888;">{total} new repos discovered today:</p>
+<table style="width:100%;border-collapse:collapse;margin:16px 0;">
+<tr style="border-bottom:2px solid #00ffff33;color:#666;font-size:11px;text-transform:uppercase;">
+<th style="padding:8px;text-align:left;">#</th>
+<th style="padding:8px;text-align:left;">Repo</th>
+<th style="padding:8px;text-align:right;">Stars</th>
+<th style="padding:8px;">Lang</th>
+<th style="padding:8px;">Score</th>
+</tr>
+{repo_rows}
+</table>
+<hr style="border-color:#00ffff33;margin:24px 0;">
+<p><a href="https://alloevil.github.io/github-discovery/" style="color:#00ffff;">View on GitHub Discovery →</a></p>
+<p style="color:#333;font-size:11px;">Sent by <a href="https://github.com/alloevil/github-discovery" style="color:#555;">GitHub Discovery</a></p>
 </div>"""
 
-    # 3. Send via Resend
     return send_email_via_resend(subscribers, f"🔥 GitHub Discovery — {date_str}", html_body)
 
 
