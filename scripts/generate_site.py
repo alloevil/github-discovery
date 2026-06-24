@@ -104,11 +104,15 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
     top_score = reports[0][1][0]['score'] if reports and reports[0][1] else '?'
 
     sections = ""
-    for date_str, first_timers, repeat_performers in reports[:7]:
+    date_tabs = ""
+    for i, (date_str, first_timers, repeat_performers) in enumerate(reports[:7]):
+        active_cls = ' active' if i == 0 else ''
+        date_tabs += f'        <button class="date-tab{active_cls}" onclick="switchDate(\'{date_str}\')">{date_str}</button>\n'
+        section_cards = ""
         # First Timers section
         if first_timers:
             cards = "\n".join(card(r) for r in first_timers[:10])
-            sections += f"""
+            section_cards += f"""
       <div class="date-heading">
         <h2>⭐ {date_str} — First Timers</h2>
         <span class="count">{len(first_timers)} repos</span>
@@ -118,13 +122,15 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
         # Repeat Performers section
         if repeat_performers:
             cards = "\n".join(card(r) for r in repeat_performers[:5])
-            sections += f"""
+            section_cards += f"""
       <div class="date-heading">
         <h2>🔄 {date_str} — Repeat Performers</h2>
         <span class="count">{len(repeat_performers)} repos</span>
       </div>
 {cards}
 """
+        display = '' if i == 0 else 'none'
+        sections += f'      <div class="date-section" data-date="{date_str}" style="display:{display}">\n{section_cards}      </div>\n'
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -195,6 +201,11 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
     .score-low {{ background: #ffffff08; color: #444460; border: 1px solid #ffffff11; }}
     .score-gold {{ background: linear-gradient(135deg, #ffaa0022, #ff660022); color: #ffaa00; border: 1px solid #ffaa0044; text-shadow: 0 0 8px #ffaa0044; }}
 
+    .date-nav {{ display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px; padding: 12px 0; border-bottom: 1px solid #00ffff15; }}
+    .date-tab {{ padding: 8px 16px; border: 1px solid #ffffff15; background: #ffffff05; color: #666680; font-size: 13px; cursor: pointer; transition: all 0.2s; font-family: 'Orbitron', sans-serif; font-weight: 700; letter-spacing: 0.5px; clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px); }}
+    .date-tab:hover {{ border-color: #00ffff44; color: #00ffff; background: #00ffff08; }}
+    .date-tab.active {{ background: linear-gradient(135deg, #00ffff18, #ff00ff10); border-color: #00ffff66; color: #00ffff; box-shadow: 0 0 12px #00ffff22, inset 0 0 12px #00ffff08; text-shadow: 0 0 6px #00ffff66; }}
+
     .lang-filter {{ display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }}
     .lang-filter button {{ padding: 6px 14px; border: 1px solid #ffffff15; background: #ffffff05; color: #8888a0; font-size: 12px; cursor: pointer; transition: all 0.2s; white-space: nowrap; font-family: 'Share Tech Mono', monospace; letter-spacing: 0.5px; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }}
     .lang-filter button:hover {{ border-color: #00ffff44; color: #00ffff; background: #00ffff08; }}
@@ -219,6 +230,8 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
       .Box-row-header h3 {{ font-size: 14px; }}
       .date-heading {{ margin: 28px 0 12px; }}
       .date-heading h2 {{ font-size: 13px; }}
+      .date-nav {{ gap: 4px; margin-bottom: 16px; }}
+      .date-tab {{ padding: 6px 12px; font-size: 11px; }}
     }}
 
     @media (max-width: 480px) {{
@@ -227,6 +240,7 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
       .summary-bar {{ gap: 8px; }}
       .Box-row-meta {{ gap: 8px; font-size: 10px; }}
       .score-pill {{ padding: 1px 8px; font-size: 10px; }}
+      .date-tab {{ padding: 5px 10px; font-size: 10px; }}
     }}
   </style>
 </head>
@@ -253,6 +267,8 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
         <div class="summary-item"><span class="num">{total_repos}</span><span class="label">Repos Discovered</span></div>
         <div class="summary-item"><span class="num">{top_score}</span><span class="label">Top Score</span></div>
       </div>
+      <div class="date-nav">
+{date_tabs}      </div>
       <div class="lang-filter">
         <button class="active" onclick="filterLang('all')">All</button>
         <button onclick="filterLang('python')">Python</button>
@@ -269,6 +285,17 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
   </main>
 
   <script>
+    function switchDate(date) {{
+      document.querySelectorAll('.date-tab').forEach(t => t.classList.remove('active'));
+      event.target.classList.add('active');
+      document.querySelectorAll('.date-section').forEach(s => {{
+        s.style.display = s.getAttribute('data-date') === date ? '' : 'none';
+      }});
+      // Reset lang filter to All when switching date
+      document.querySelectorAll('.lang-filter button').forEach(b => b.classList.remove('active'));
+      document.querySelector('.lang-filter button').classList.add('active');
+      document.querySelectorAll('.Box-row').forEach(row => {{ row.style.display = ''; }});
+    }}
     function filterLang(lang) {{
       document.querySelectorAll('.lang-filter button').forEach(b => b.classList.remove('active'));
       event.target.classList.add('active');
