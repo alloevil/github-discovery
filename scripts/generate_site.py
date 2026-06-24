@@ -288,11 +288,11 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
       <div class="subscribe-box">
         <div class="subscribe-title">📡 Subscribe to GitHub Discovery</div>
         <div class="subscribe-desc">Get the top trending repos delivered to your inbox daily.</div>
-        <form class="subscribe-form" action="https://formsubmit.co/alloevil@gmail.com" method="POST" onsubmit="handleSubscribe(event)">
+        <form class="subscribe-form" action="https://formsubmit.co/alloevil@gmail.com" method="POST" target="_blank" onsubmit="handleSubscribe(event)">
           <input type="email" name="email" placeholder="your@email.com" required />
           <input type="hidden" name="_subject" value="New GitHub Discovery Subscriber" />
           <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_next" value="https://alloevil.github.io/github-discovery/" />
           <button type="submit">Subscribe</button>
         </form>
         <div class="subscribe-success">✅ Subscribed! You'll receive daily updates.</div>
@@ -318,25 +318,17 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
     function handleSubscribe(e) {{
       e.preventDefault();
       const form = e.target;
-      const btn = form.querySelector('button');
-      btn.textContent = '...';
-      btn.disabled = true;
-      fetch(form.action, {{
-        method: 'POST',
-        headers: {{ 'Content-Type': 'application/json', 'Accept': 'application/json' }},
-        body: JSON.stringify({{
-          email: form.querySelector('input[name="email"]').value,
-          _subject: 'New GitHub Discovery Subscriber',
-          _captcha: 'false',
-          _template: 'table'
-        }})
-      }}).then(r => r.json()).then(d => {{
-        form.style.display = 'none';
-        form.nextElementSibling.style.display = 'block';
-      }}).catch(() => {{
-        form.style.display = 'none';
-        form.nextElementSibling.style.display = 'block';
-      }});
+      const email = form.querySelector('input[name="email"]').value;
+      if (!email) return;
+      // Submit via hidden iframe
+      const iframe = document.createElement('iframe');
+      iframe.name = 'subframe';
+      iframe.style.display = 'none';
+      document.body.appendChild(iframe);
+      form.target = 'subframe';
+      form.submit();
+      form.style.display = 'none';
+      form.nextElementSibling.style.display = 'block';
     }}
     function switchDate(date) {{
       document.querySelectorAll('.date-tab').forEach(t => t.classList.remove('active'));
