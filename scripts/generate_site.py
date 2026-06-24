@@ -288,11 +288,14 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
       <div class="subscribe-box">
         <div class="subscribe-title">📡 Subscribe to GitHub Discovery</div>
         <div class="subscribe-desc">Get the top trending repos delivered to your inbox daily.</div>
-        <form class="subscribe-form" onsubmit="handleSubscribe(event)">
-          <input type="email" name="email" id="sub-email" placeholder="your@email.com" required />
+        <form class="subscribe-form" action="https://formsubmit.co/alloevil@gmail.com" method="POST" onsubmit="handleSubscribe(event)">
+          <input type="email" name="email" placeholder="your@email.com" required />
+          <input type="hidden" name="_subject" value="New GitHub Discovery Subscriber" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
           <button type="submit">Subscribe</button>
         </form>
-        <div class="subscribe-hint">Free, no spam. Unsubscribe anytime.</div>
+        <div class="subscribe-success">✅ Subscribed! You'll receive daily updates.</div>
       </div>
       <div class="date-nav">
 {date_tabs}      </div>
@@ -314,12 +317,26 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
   <script>
     function handleSubscribe(e) {{
       e.preventDefault();
-      const email = document.getElementById('sub-email').value;
-      if (!email) return;
-      const title = encodeURIComponent('Subscribe: ' + email);
-      const url = 'https://github.com/alloevil/github-discovery/issues/new?title=' + title + '&body=' + encodeURIComponent('Please add ' + email + ' to the newsletter subscriber list.');
-      window.open(url, '_blank');
-      e.target.innerHTML = '<div class="subscribe-success">✅ GitHub Issue opened! Click "Submit new issue" to confirm.</div>';
+      const form = e.target;
+      const btn = form.querySelector('button');
+      btn.textContent = '...';
+      btn.disabled = true;
+      fetch(form.action, {{
+        method: 'POST',
+        headers: {{ 'Content-Type': 'application/json', 'Accept': 'application/json' }},
+        body: JSON.stringify({{
+          email: form.querySelector('input[name="email"]').value,
+          _subject: 'New GitHub Discovery Subscriber',
+          _captcha: 'false',
+          _template: 'table'
+        }})
+      }}).then(r => r.json()).then(d => {{
+        form.style.display = 'none';
+        form.nextElementSibling.style.display = 'block';
+      }}).catch(() => {{
+        form.style.display = 'none';
+        form.nextElementSibling.style.display = 'block';
+      }});
     }}
     function switchDate(date) {{
       document.querySelectorAll('.date-tab').forEach(t => t.classList.remove('active'));

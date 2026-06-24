@@ -22,32 +22,18 @@ from scorer import calculate_score
 
 
 def get_subscribers() -> list[str]:
-    """Fetch subscriber emails from GitHub Issues (title starts with 'Subscribe:')."""
-    import re
+    """Fetch subscriber emails from subscribers.txt file."""
+    sub_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'subscribers.txt')
     emails = []
-    page = 1
-    while True:
-        try:
-            result = subprocess.run(
-                ["curl", "-s",
-                 f"https://api.github.com/repos/alloevil/github-discovery/issues?state=open&per_page=100&page={page}",
-                 "-H", "Accept: application/vnd.github.v3+json"],
-                capture_output=True, text=True, timeout=15,
-            )
-            issues = json.loads(result.stdout)
-            if not isinstance(issues, list) or not issues:
-                break
-            for issue in issues:
-                title = issue.get("title", "")
-                if title.startswith("Subscribe:"):
-                    email = title.replace("Subscribe:", "").strip()
-                    if re.match(r'[\w.+-]+@[\w-]+\.[\w.]+', email):
-                        emails.append(email)
-            page += 1
-        except Exception as e:
-            print(f"[WARN] GitHub Issues fetch failed: {e}")
-            break
-    return list(dict.fromkeys(emails))
+    try:
+        with open(sub_file, 'r') as f:
+            for line in f:
+                email = line.strip()
+                if email and not email.startswith('#') and '@' in email:
+                    emails.append(email)
+    except FileNotFoundError:
+        print("[WARN] subscribers.txt not found")
+    return emails
 
 
 def send_email_via_resend(to: list[str], subject: str, html_body: str) -> bool:
