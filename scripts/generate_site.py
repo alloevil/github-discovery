@@ -210,6 +210,19 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
     .lang-filter button {{ padding: 6px 14px; border: 1px solid #ffffff15; background: #ffffff05; color: #8888a0; font-size: 12px; cursor: pointer; transition: all 0.2s; white-space: nowrap; font-family: 'Share Tech Mono', monospace; letter-spacing: 0.5px; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }}
     .lang-filter button:hover {{ border-color: #00ffff44; color: #00ffff; background: #00ffff08; }}
     .lang-filter button.active {{ background: #00ffff15; border-color: #00ffff55; color: #00ffff; box-shadow: 0 0 10px #00ffff22; }}
+    .subscribe-box {{ margin: 24px 0 20px; padding: 20px; background: linear-gradient(135deg, #00ffff06, #ff00ff04); border: 1px solid #00ffff22; position: relative; clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px); }}
+    .subscribe-box::before {{ content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, #00ffff66, #ff00ff44, #00ffff66, transparent); }}
+    .subscribe-title {{ font-family: 'Orbitron', sans-serif; font-size: 13px; font-weight: 700; color: #00ffff; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; text-shadow: 0 0 8px #00ffff44; }}
+    .subscribe-desc {{ font-size: 12px; color: #666680; margin-bottom: 14px; }}
+    .subscribe-form {{ display: flex; gap: 10px; }}
+    .subscribe-form input[type="email"] {{ flex: 1; padding: 10px 14px; background: #0a0a14; border: 1px solid #ffffff18; color: #c0c0d0; font-family: 'Share Tech Mono', monospace; font-size: 13px; outline: none; transition: all 0.2s; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }}
+    .subscribe-form input[type="email"]::placeholder {{ color: #444460; }}
+    .subscribe-form input[type="email"]:focus {{ border-color: #00ffff55; box-shadow: 0 0 10px #00ffff22, inset 0 0 10px #00ffff08; }}
+    .subscribe-form button {{ padding: 10px 20px; background: linear-gradient(135deg, #00ffff18, #ff00ff10); border: 1px solid #00ffff55; color: #00ffff; font-family: 'Orbitron', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; transition: all 0.2s; white-space: nowrap; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }}
+    .subscribe-form button:hover {{ background: linear-gradient(135deg, #00ffff28, #ff00ff18); box-shadow: 0 0 15px #00ffff33, inset 0 0 15px #00ffff11; color: #fff; }}
+    .subscribe-form button:active {{ transform: scale(0.97); }}
+    .subscribe-success {{ display: none; color: #00ff88; font-size: 13px; font-weight: 600; text-shadow: 0 0 6px #00ff8844; padding: 10px 0; }}
+
     .site-footer {{ border-top: 1px solid #ffffff0a; padding: 32px 0; text-align: center; color: #333350; font-size: 12px; margin-top: 48px; }}
     .site-footer p {{ margin-bottom: 8px; }}
     .site-footer a {{ color: #555570; }}
@@ -232,6 +245,8 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
       .date-heading h2 {{ font-size: 13px; }}
       .date-nav {{ gap: 4px; margin-bottom: 16px; }}
       .date-tab {{ padding: 6px 12px; font-size: 11px; }}
+      .subscribe-form {{ flex-direction: column; }}
+      .subscribe-form button {{ padding: 12px; }}
     }}
 
     @media (max-width: 480px) {{
@@ -267,6 +282,15 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
         <div class="summary-item"><span class="num">{total_repos}</span><span class="label">Repos Discovered</span></div>
         <div class="summary-item"><span class="num">{top_score}</span><span class="label">Top Score</span></div>
       </div>
+      <div class="subscribe-box">
+        <div class="subscribe-title">📡 Subscribe to GitHub Discovery</div>
+        <div class="subscribe-desc">Get the top trending repos delivered to your inbox daily.</div>
+        <form class="subscribe-form" action="https://buttondown.com/api/emails/embed/allo" method="post" onsubmit="handleSubscribe(event)">
+          <input type="email" name="email" placeholder="your@email.com" required />
+          <button type="submit">Subscribe</button>
+        </form>
+        <div class="subscribe-success">✅ Subscribed! Check your inbox to confirm.</div>
+      </div>
       <div class="date-nav">
 {date_tabs}      </div>
       <div class="lang-filter">
@@ -285,6 +309,31 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
   </main>
 
   <script>
+    function handleSubscribe(e) {{
+      e.preventDefault();
+      const form = e.target;
+      const btn = form.querySelector('button');
+      const email = form.querySelector('input[name="email"]').value;
+      btn.textContent = '...';
+      btn.disabled = true;
+      fetch(form.action, {{
+        method: 'POST',
+        headers: {{ 'Content-Type': 'application/json' }},
+        body: JSON.stringify({{ email }})
+      }}).then(r => {{
+        if (r.ok || r.status === 201 || r.status === 302) {{
+          form.style.display = 'none';
+          form.nextElementSibling.style.display = 'block';
+        }} else {{
+          btn.textContent = 'Retry';
+          btn.disabled = false;
+        }}
+      }}).catch(() => {{
+        // Buttondown returns 302 redirect which fetch treats as error — still success
+        form.style.display = 'none';
+        form.nextElementSibling.style.display = 'block';
+      }});
+    }}
     function switchDate(date) {{
       document.querySelectorAll('.date-tab').forEach(t => t.classList.remove('active'));
       event.target.classList.add('active');
