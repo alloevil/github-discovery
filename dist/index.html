@@ -3,92 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🔥 GitHub Discovery — 2026-06-23</title>
-  <meta property="og:title" content="GitHub Discovery — 2026-06-23" />
+  <title>🔥 GitHub Discovery — 2026-06-24</title>
+  <meta property="og:title" content="GitHub Discovery — 2026-06-24" />
   <meta property="og:description" content="Discover trending GitHub repos before they go viral" />
   <link rel="alternate" type="application/rss+xml" title="RSS" href="https://alloevil.github.io/github-discovery/feed.xml" />
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap');
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; background: #0d1117; color: #e6edf3; line-height: 1.5; }
-    a { color: #58a6ff; text-decoration: none; }
-    a:hover { color: #79c0ff; text-decoration: underline; }
-    a:active { color: #58a6ff; opacity: 0.7; }
+    body { font-family: 'Share Tech Mono', 'Courier New', monospace; background: #0a0a0f; color: #c0c0d0; line-height: 1.6; position: relative; overflow-x: hidden; }
+    /* Scanline overlay */
+    body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px); pointer-events: none; z-index: 9999; }
+    /* Noise texture */
+    body::after { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E"); pointer-events: none; z-index: 9998; }
+    a { color: #00ffff; text-decoration: none; transition: all 0.2s; }
+    a:hover { color: #ff00ff; text-shadow: 0 0 8px #ff00ff; text-decoration: none; }
+    a:active { opacity: 0.7; }
 
-    .page-header { background: #161b22; border-bottom: 1px solid #30363d; padding: 16px 0; }
+    .page-header { background: linear-gradient(180deg, #0f0f1a 0%, #0a0a0f 100%); border-bottom: 1px solid #00ffff33; padding: 16px 0; position: relative; }
+    .page-header::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 1px; background: linear-gradient(90deg, transparent, #00ffff, #ff00ff, #00ffff, transparent); opacity: 0.6; }
     .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
     .page-body { padding: 24px 0 48px; }
 
     .site-header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
     .site-title { display: flex; align-items: center; gap: 12px; }
-    .site-title h1 { font-size: 24px; font-weight: 600; color: #e6edf3; }
-    .site-title .emoji { font-size: 28px; }
+    .site-title h1 { font-family: 'Orbitron', sans-serif; font-size: 22px; font-weight: 900; color: #fff; letter-spacing: 2px; text-transform: uppercase; text-shadow: 0 0 10px #00ffff88, 0 0 30px #00ffff44; }
+    .site-title .emoji { font-size: 28px; filter: drop-shadow(0 0 6px #ff6600); }
     .site-nav { display: flex; align-items: center; gap: 12px; }
-    .site-nav a { color: #e6edf3; font-size: 14px; font-weight: 500; padding: 6px 16px; border-radius: 6px; transition: all 0.15s; }
-    .site-nav a:hover { text-decoration: none; }
-    .btn-rss { background: #f0883e; color: #fff !important; }
-    .btn-rss:hover { background: #d2701e; }
-    .btn-gh { border: 1px solid #30363d; }
-    .btn-gh:hover { border-color: #8b949e; background: rgba(136,147,158,0.1); }
+    .site-nav a { color: #e6edf3; font-size: 13px; font-weight: 500; padding: 8px 18px; border: 1px solid #00ffff55; clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px); transition: all 0.2s; letter-spacing: 1px; text-transform: uppercase; font-family: 'Orbitron', sans-serif; font-size: 11px; }
+    .site-nav a:hover { text-decoration: none; background: #00ffff11; box-shadow: 0 0 15px #00ffff33, inset 0 0 15px #00ffff11; }
+    .btn-rss { background: linear-gradient(135deg, #ff00ff22, #ff00ff44); border-color: #ff00ff55; color: #ff88ff !important; }
+    .btn-rss:hover { background: #ff00ff22; box-shadow: 0 0 15px #ff00ff33, inset 0 0 15px #ff00ff11; }
+    .btn-gh { background: transparent; }
+    .btn-gh:hover { background: #00ffff11; }
 
-    .summary-bar { display: flex; gap: 32px; padding: 20px 0; border-bottom: 1px solid #21262d; margin-bottom: 20px; flex-wrap: wrap; }
-    .summary-item { text-align: center; flex: 1; min-width: 80px; }
-    .summary-item .num { font-size: 28px; font-weight: 700; color: #58a6ff; display: block; line-height: 1.2; }
-    .summary-item .label { font-size: 11px; color: #8b949e; text-transform: uppercase; letter-spacing: 0.06em; margin-top: 2px; }
+    .summary-bar { display: flex; gap: 24px; padding: 20px 0; border-bottom: 1px solid #ffffff0a; margin-bottom: 20px; flex-wrap: wrap; }
+    .summary-item { text-align: center; flex: 1; min-width: 80px; padding: 16px 8px; background: linear-gradient(135deg, #00ffff08, #ff00ff05); border: 1px solid #00ffff15; clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px); }
+    .summary-item .num { font-family: 'Orbitron', sans-serif; font-size: 28px; font-weight: 900; color: #00ffff; display: block; line-height: 1.2; text-shadow: 0 0 10px #00ffff66; }
+    .summary-item .label { font-size: 10px; color: #666680; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px; }
 
-    .date-heading { display: flex; align-items: center; gap: 12px; margin: 36px 0 14px; padding: 10px 0; border-bottom: 2px solid #21262d; }
-    .date-heading h2 { font-size: 18px; font-weight: 600; color: #e6edf3; }
-    .date-heading .count { font-size: 12px; color: #8b949e; background: #21262d; padding: 2px 10px; border-radius: 10px; white-space: nowrap; }
+    .date-heading { display: flex; align-items: center; gap: 12px; margin: 36px 0 14px; padding: 10px 0; border-bottom: 1px solid #00ffff22; position: relative; }
+    .date-heading::before { content: '>'; color: #ff00ff; font-weight: 700; margin-right: 4px; }
+    .date-heading h2 { font-family: 'Orbitron', sans-serif; font-size: 15px; font-weight: 700; color: #fff; letter-spacing: 1px; text-transform: uppercase; }
+    .date-heading .count { font-size: 11px; color: #00ffff; background: #00ffff11; padding: 2px 10px; border: 1px solid #00ffff33; white-space: nowrap; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
 
-    .Box-row { padding: 16px 18px; border: 1px solid #30363d; border-radius: 8px; margin-bottom: 10px; transition: all 0.2s ease; cursor: pointer; }
-    .Box-row:hover { border-color: rgba(88,166,255,0.3); background: rgba(88,166,255,0.04); transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+    .Box-row { padding: 16px 18px; border: 1px solid #ffffff0f; margin-bottom: 10px; transition: all 0.25s ease; cursor: pointer; position: relative; background: linear-gradient(135deg, #0a0a14, #0d0d1a); clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px); }
+    .Box-row::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, #00ffff44, transparent); opacity: 0; transition: opacity 0.3s; }
+    .Box-row:hover { border-color: #00ffff44; background: linear-gradient(135deg, #0a0a1a, #0f0f22); transform: translateY(-2px); box-shadow: 0 0 20px #00ffff11, 0 4px 12px rgba(0,0,0,0.3), inset 0 0 30px #00ffff05; }
+    .Box-row:hover::before { opacity: 1; }
     .Box-row:active { transform: translateY(0); }
     .Box-row-header { display: flex; align-items: flex-start; gap: 10px; }
-    .Box-row-header .avatar { width: 26px; height: 26px; border-radius: 50%; flex-shrink: 0; margin-top: 2px; }
-    .Box-row-header h3 { font-size: 16px; font-weight: 600; line-height: 1.3; }
-    .Box-row-header h3 a { color: #58a6ff; transition: color 0.15s; }
-    .Box-row-header h3 a:hover { color: #79c0ff; text-decoration: none; }
-    .Box-row-header .owner { color: #8b949e; font-weight: 400; }
-    .Box-row-desc { font-size: 14px; color: #8b949e; line-height: 1.5; padding-left: 36px; margin-top: 4px; }
-    .Box-row-meta { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; padding-left: 36px; margin-top: 8px; font-size: 12px; }
-    .meta-item { display: inline-flex; align-items: center; gap: 4px; color: #8b949e; white-space: nowrap; }
-    .lang-dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
-    .score-pill { padding: 2px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; white-space: nowrap; }
-    .score-high { background: #238636; color: #fff; }
-    .score-mid { background: #1f6feb; color: #fff; }
-    .score-low { background: #30363d; color: #8b949e; }
-    .score-gold { background: linear-gradient(135deg, #d4a017, #f0c040); color: #1a1a1a; }
+    .Box-row-header .avatar { width: 26px; height: 26px; border-radius: 50%; flex-shrink: 0; margin-top: 2px; border: 1px solid #00ffff33; filter: saturate(0.8); }
+    .Box-row-header h3 { font-size: 15px; font-weight: 600; line-height: 1.3; font-family: 'Share Tech Mono', monospace; }
+    .Box-row-header h3 a { color: #00ffff; transition: all 0.2s; }
+    .Box-row-header h3 a:hover { color: #ff00ff; text-shadow: 0 0 8px #ff00ff66; text-decoration: none; }
+    .Box-row-header .owner { color: #666680; font-weight: 400; }
+    .Box-row-desc { font-size: 13px; color: #8888a0; line-height: 1.5; padding-left: 36px; margin-top: 4px; }
+    .Box-row-meta { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; padding-left: 36px; margin-top: 8px; font-size: 11px; }
+    .meta-item { display: inline-flex; align-items: center; gap: 4px; color: #666680; white-space: nowrap; }
+    .lang-dot { width: 10px; height: 10px; border-radius: 2px; display: inline-block; flex-shrink: 0; border: 1px solid rgba(255,255,255,0.1); }
+    .score-pill { padding: 2px 10px; font-size: 11px; font-weight: 700; white-space: nowrap; font-family: 'Orbitron', sans-serif; letter-spacing: 0.5px; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
+    .score-high { background: #00ff8822; color: #00ff88; border: 1px solid #00ff8844; text-shadow: 0 0 6px #00ff8844; }
+    .score-mid { background: #00ffff22; color: #00ffff; border: 1px solid #00ffff44; }
+    .score-low { background: #ffffff08; color: #444460; border: 1px solid #ffffff11; }
+    .score-gold { background: linear-gradient(135deg, #ffaa0022, #ff660022); color: #ffaa00; border: 1px solid #ffaa0044; text-shadow: 0 0 8px #ffaa0044; }
 
-    .lang-filter { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
-    .lang-filter button { padding: 6px 14px; border-radius: 20px; border: 1px solid #30363d; background: #21262d; color: #e6edf3; font-size: 13px; cursor: pointer; transition: all 0.15s; white-space: nowrap; }
-    .lang-filter button:hover { border-color: #58a6ff; color: #58a6ff; }
-    .lang-filter button.active { background: #1f6feb; border-color: #1f6feb; color: #fff; }
-    .site-footer { border-top: 1px solid #21262d; padding: 32px 0; text-align: center; color: #484f58; font-size: 13px; margin-top: 48px; }
+    .lang-filter { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }
+    .lang-filter button { padding: 6px 14px; border: 1px solid #ffffff15; background: #ffffff05; color: #8888a0; font-size: 12px; cursor: pointer; transition: all 0.2s; white-space: nowrap; font-family: 'Share Tech Mono', monospace; letter-spacing: 0.5px; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
+    .lang-filter button:hover { border-color: #00ffff44; color: #00ffff; background: #00ffff08; }
+    .lang-filter button.active { background: #00ffff15; border-color: #00ffff55; color: #00ffff; box-shadow: 0 0 10px #00ffff22; }
+    .site-footer { border-top: 1px solid #ffffff0a; padding: 32px 0; text-align: center; color: #333350; font-size: 12px; margin-top: 48px; }
     .site-footer p { margin-bottom: 8px; }
-    .site-footer a { color: #8b949e; }
+    .site-footer a { color: #555570; }
+    .site-footer a:hover { color: #00ffff; }
 
     @media (max-width: 768px) {
       .container { padding: 0 16px; }
       .site-header { flex-direction: column; align-items: flex-start; gap: 12px; }
       .site-nav { width: 100%; }
-      .site-nav a { flex: 1; text-align: center; padding: 8px 12px; }
-      .summary-bar { gap: 16px; padding: 16px 0; }
-      .summary-item { min-width: 60px; }
+      .site-nav a { flex: 1; text-align: center; padding: 10px 12px; font-size: 10px; }
+      .summary-bar { gap: 12px; padding: 16px 0; }
+      .summary-item { min-width: 60px; padding: 12px 6px; }
       .summary-item .num { font-size: 22px; }
-      .summary-item .label { font-size: 10px; }
+      .summary-item .label { font-size: 9px; }
       .Box-row { padding: 14px; }
       .Box-row-desc { padding-left: 0; }
       .Box-row-meta { padding-left: 0; gap: 10px; margin-top: 10px; }
-      .Box-row-header h3 { font-size: 15px; }
+      .Box-row-header h3 { font-size: 14px; }
       .date-heading { margin: 28px 0 12px; }
-      .date-heading h2 { font-size: 16px; }
+      .date-heading h2 { font-size: 13px; }
     }
 
     @media (max-width: 480px) {
-      .lang-filter { gap: 6px; }
-      .lang-filter button { padding: 5px 10px; font-size: 12px; }
-      .summary-bar { gap: 12px; }
-      .Box-row-meta { gap: 8px; font-size: 11px; }
-      .score-pill { padding: 1px 8px; font-size: 11px; }
+      .lang-filter { gap: 4px; }
+      .lang-filter button { padding: 5px 10px; font-size: 11px; }
+      .summary-bar { gap: 8px; }
+      .Box-row-meta { gap: 8px; font-size: 10px; }
+      .score-pill { padding: 1px 8px; font-size: 10px; }
     }
   </style>
 </head>
