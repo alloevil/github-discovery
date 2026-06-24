@@ -1,1 +1,4 @@
-test
+# GitHub Discovery Newsletter Subscribers
+# One email per line. Add your email to subscribe.
+# This file is read by the cron job to send daily emails.
+
