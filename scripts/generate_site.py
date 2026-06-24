@@ -138,6 +138,7 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>🔥 GitHub Discovery — {now}</title>
+  <link rel="icon" type="image/svg+xml" href="{SITE_URL}/favicon.svg" />
   <meta property="og:title" content="GitHub Discovery — {now}" />
   <meta property="og:description" content="{SITE_DESC}" />
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{SITE_URL}/feed.xml" />
