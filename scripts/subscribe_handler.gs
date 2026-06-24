@@ -5,7 +5,7 @@
 //   3. 每次新增订阅后，自动同步到 GitHub 的 subscribers.txt
 
 // ========== 配置 ==========
-var SHEET_ID = 'YOUR_SHEET_ID_HERE';  // 替换为你的 Google Sheet ID
+var SHEET_ID = '1YoiRZ73frrij_98gcUtEjmw29yuXGFhoHUHzkwO';  // 替换为你的 Google Sheet ID
 var GITHUB_TOKEN = 'YOUR_GITHUB_TOKEN_HERE';  // 替换为 GitHub Personal Access Token
 var GITHUB_REPO = 'alloevil/github-discovery';
 // ===========================

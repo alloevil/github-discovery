@@ -320,7 +320,7 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
       if (!email) return;
       btn.textContent = '...';
       btn.disabled = true;
-      fetch('https://script.google.com/macros/s/AKfycbwvNM5AhAufcMjzMu4btbBYePeDliJlbGAcpDPmqthjURMJjryVqTH5kSNecnd7zuShzw/exec', {{
+      fetch('https://script.google.com/macros/s/AKfycbzCnDRaclzhiaIlj7Jo9mdXXKDp-wHe51TvNTjMFdDVde8_b3oLAwfvQjr-eV3MpfnYbA/exec', {{
         method: 'POST',
         headers: {{ 'Content-Type': 'application/json' }},
         body: JSON.stringify({{ email: email }}),
