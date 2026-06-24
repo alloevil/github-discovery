@@ -462,7 +462,7 @@
       if (!email) return;
       btn.textContent = '...';
       btn.disabled = true;
-      fetch('https://script.google.com/macros/s/AKfycbzCnDRaclzhiaIlj7Jo9mdXXKDp-wHe51TvNTjMFdDVde8_b3oLAwfvQjr-eV3MpfnYbA/exec', {
+      fetch('https://script.google.com/macros/s/AKfycbx22MYZtQOzTrfpbE1AIkeVbfXOJAAkvSTUGaaM0oWUaQ7KRqFfz_ledH4k5zNSdC9MFQ/exec', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email: email }),
