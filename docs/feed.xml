@@ -5,10 +5,55 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Jun 2026 11:54:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 01:44:14 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>🔥 sums001/Windows-Copilot-API — 430⭐ (143.3/day)</title>
+      <title>🔥 sums001/Windows-Copilot-API — 434⭐ (144.7/day)</title>
+      <description>Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/sums001/Windows-Copilot-API</link>
+      <guid>https://github.com/sums001/Windows-Copilot-API#2026-06-24</guid>
+      <pubDate>Wed, 24 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 yo-WASSUP/Good-Badminton — 383⭐ (127.7/day)</title>
+      <description>🏸  AI Badminton Hawk-Eye System
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/yo-WASSUP/Good-Badminton</link>
+      <guid>https://github.com/yo-WASSUP/Good-Badminton#2026-06-24</guid>
+      <pubDate>Wed, 24 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 overflowy/make-look-scanned — 362⭐ (181.0/day)</title>
+      <description>Makes PDFs look scanned (CLI or in the browser via WASM)
+
+Score: 100/100 | Language: Go</description>
+      <link>https://github.com/overflowy/make-look-scanned</link>
+      <guid>https://github.com/overflowy/make-look-scanned#2026-06-24</guid>
+      <pubDate>Wed, 24 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 raiyanyahya/recall — 360⭐ (120.0/day)</title>
+      <description>Stop wasting tokens and re-explaining your project every session. Recall gives Claude Code durable memory — entirely offline.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/raiyanyahya/recall</link>
+      <guid>https://github.com/raiyanyahya/recall#2026-06-24</guid>
+      <pubDate>Wed, 24 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 HKUDS/AgentSpace — 288⭐ (288.0/day)</title>
+      <description>"AgentSpace: Human + Agents. One Team. One Workspace"
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/HKUDS/AgentSpace</link>
+      <guid>https://github.com/HKUDS/AgentSpace#2026-06-24</guid>
+      <pubDate>Wed, 24 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 sums001/Windows-Copilot-API — 434⭐ (144.7/day)</title>
       <description>Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing.
 
 Score: 100/100 | Language: Python</description>
@@ -17,7 +62,7 @@ Score: 100/100 | Language: Python</description>
       <pubDate>Tue, 23 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 yo-WASSUP/Good-Badminton — 381⭐ (127.0/day)</title>
+      <title>🔥 yo-WASSUP/Good-Badminton — 383⭐ (127.7/day)</title>
       <description>🏸  AI Badminton Hawk-Eye System
 
 Score: 100/100 | Language: Python</description>
@@ -35,7 +80,7 @@ Score: 100/100 | Language: Go</description>
       <pubDate>Tue, 23 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 raiyanyahya/recall — 356⭐ (118.7/day)</title>
+      <title>🔥 raiyanyahya/recall — 360⭐ (120.0/day)</title>
       <description>Stop wasting tokens and re-explaining your project every session. Recall gives Claude Code durable memory — entirely offline.
 
 Score: 100/100 | Language: Python</description>
@@ -44,7 +89,7 @@ Score: 100/100 | Language: Python</description>
       <pubDate>Tue, 23 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 HKUDS/AgentSpace — 287⭐ (287.0/day)</title>
+      <title>🔥 HKUDS/AgentSpace — 288⭐ (288.0/day)</title>
       <description>"AgentSpace: Human + Agents. One Team. One Workspace"
 
 Score: 100/100 | Language: TypeScript</description>
