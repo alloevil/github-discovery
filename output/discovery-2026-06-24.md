@@ -1,6 +1,6 @@
 # 🔥 GitHub Discovery Report
 
-> **Generated:** 2026-06-24 10:00
+> **Generated:** 2026-06-24 18:04
 > **10 new repos + 0 repeat performers**
 
 ---
@@ -9,132 +9,193 @@
 
 *These repos were first featured in GitHub Discovery*
 
-### 1. [bozhouDev/codex-orange-book](https://github.com/bozhouDev/codex-orange-book)
+### 1. [yo-WASSUP/Good-Badminton](https://github.com/yo-WASSUP/Good-Badminton)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 542 |
-| 📅 Age | 1 day |
-| 🚀 Daily Growth | 542.0 stars/day |
-| 🔤 Language | HTML |
+| ⭐ Stars | 448 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 149.3 stars/day |
+| 🔤 Language | Python |
 | 📡 Source | search |
-| **Score: 100/100** `████████████████████`|
+
+> 🏸  AI Badminton Hawk-Eye System
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 2. [overflowy/make-look-scanned](https://github.com/overflowy/make-look-scanned)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 390 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 130.0 stars/day |
+| 🔤 Language | Go |
+| 📡 Source | search |
+
+> Makes PDFs look scanned (CLI or in the browser via WASM)
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [HKUDS/AgentSpace](https://github.com/HKUDS/AgentSpace)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 334 |
+| 📅 Age | 2 days |
+| 🚀 Daily Growth | 167.0 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
+
+> "AgentSpace: Human + Agents. One Team. One Workspace"
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 4. [samasante/liquid-glass](https://github.com/samasante/liquid-glass)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 257 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 257.0 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
+
+> Apple-style Liquid Glass for the web — a headless React lens that refracts the live DOM in Safari, Firefox and Chrome. Zero dependencies.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 5. [nova452/ComfyUI-ConditioningKrea2Rebalance](https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 154 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 154.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> A conditioning optimizer with per layer weighting that offers IP-Adapter-like features for Krea 2 along with bypassing the built in quality diluation from the trained safety filter and also works as a means to unfilter the model.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 6. [bozhouDev/codex-orange-book](https://github.com/bozhouDev/codex-orange-book)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 887 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 887.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
 
 > Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）
 
-### 2. [goehou/tabbit-toy](https://github.com/goehou/tabbit-toy)
+**Score: 95/100** `███████████████████░`
+- Acceleration: 40/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 7. [goehou/tabbit-toy](https://github.com/goehou/tabbit-toy)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 198 |
-| 📅 Age | 1 day |
-| 🚀 Daily Growth | 198.0 stars/day |
+| ⭐ Stars | 245 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 245.0 stars/day |
 | 🔤 Language | JavaScript |
 | 📡 Source | search |
-| **Score: 100/100** `████████████████████`|
 
-> 这是一个基于tabbit的研究包，可以转化成OAI格式出来，同时增加了会员认证功能和一键提取cookie的浏览器拓展，方便快速本地快速使用claude gpt等
+> 这是一个基于tabbit的研究包，可以转化成OAI格式出来，同时增加了会员认证功能和一键提取cookie的浏览器拓展，方便快速本地快速使用claude gpt等模型
 
-### 3. [nova452/ComfyUI-ConditioningKrea2Rebalance](https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance)
+**Score: 95/100** `███████████████████░`
+- Acceleration: 40/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 8. [binghe1980/AI-Canvas](https://github.com/binghe1980/AI-Canvas)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 103 |
-| 📅 Age | 1 day |
-| 🚀 Daily Growth | 103.0 stars/day |
+| ⭐ Stars | 113 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 37.7 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
+
+> Codex-integrated infinite canvas for AI image generation, annotation, and iterative editing.
+
+**Score: 95/100** `███████████████████░`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 25/30
+
+---
+### 9. [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 5,016 |
+| 📅 Age | 6 days |
+| 🚀 Daily Growth | 836.0 stars/day |
 | 🔤 Language | Python |
 | 📡 Source | search |
-| **Score: 97/100** `████████████████████`|
 
-> A conditioning optimizer with per layer weighting that offers IP-Adapter-like fe
+> Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.
 
-### 4. [Simpl3x3/ESEILANE](https://github.com/Simpl3x3/ESEILANE)
+**Score: 94/100** `██████████████████░░`
+- Acceleration: 34/40
+- Quality: 30/30
+- Anti-spam: 30/30
 
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 91 |
-| 📅 Age | 1 day |
-| 🚀 Daily Growth | 91.0 stars/day |
-| 🔤 Language | Ruby |
-| 📡 Source | search |
-| **Score: 95/100** `████████████████████`|
-
-> High-performance Knowledge Graph engine for AI, LLMs, and GraphRAG — built for the age of agents
-
-### 5. [ObsidianOwl123/AgentLens](https://github.com/ObsidianOwl123/AgentLens)
+---
+### 10. [sums001/Windows-Copilot-API](https://github.com/sums001/Windows-Copilot-API)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 80 |
-| 📅 Age | 1 day |
-| 🚀 Daily Growth | 80.0 stars/day |
+| ⭐ Stars | 593 |
+| 📅 Age | 4 days |
+| 🚀 Daily Growth | 148.2 stars/day |
 | 🔤 Language | Python |
 | 📡 Source | search |
-| **Score: 94/100** `████████████████████`|
 
-> Lightweight AI context compressor for LLM agents
+> Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing.
 
-### 6. [egorpavlov0/Flash-USDT-Sender](https://github.com/egorpavlov0/Flash-USDT-Sender)
+**Score: 94/100** `██████████████████░░`
+- Acceleration: 34/40
+- Quality: 30/30
+- Anti-spam: 30/30
 
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 105 |
-| 📅 Age | 1 day |
-| 🚀 Daily Growth | 105.0 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | search |
-| **Score: 92/100** `████████████████████`|
+---
 
-> Flash USDT Sender — Multi-network flash transaction tool for USDT, BTC, and ETH
+## 📊 Summary
 
-### 7. [MaxBelov9/Crypto-Recovery](https://github.com/MaxBelov9/Crypto-Recovery)
+- **New discoveries:** 10 repos
+- **Repeat performers:** 0 repos
+- **Score range:** 94 - 100
+- **Top pick:** [yo-WASSUP/Good-Badminton](https://github.com/yo-WASSUP/Good-Badminton)
 
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 98 |
-| 📅 Age | 1 day |
-| 🚀 Daily Growth | 98.0 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | search |
-| **Score: 90/100** `████████████████████`|
-
-> Python-based cryptocurrency wallet forensics suite supporting 40+ wallet types
-
-### 8. [HaNAnOvIl/Seed-Generator](https://github.com/HaNAnOvIl/Seed-Generator)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 91 |
-| 📅 Age | 1 day |
-| 🚀 Daily Growth | 91.0 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | search |
-| **Score: 88/100** `████████████████████`|
-
-> Professional BIP-39 Seed & HD Wallet Toolkit with 12–24 word mnemonics, checksum
-
-### 9. [Valorant-AI/valorant-ai-aimbot-undetected](https://github.com/Valorant-AI/valorant-ai-aimbot-undetected)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 87 |
-| 📅 Age | 1 day |
-| 🚀 Daily Growth | 87.0 stars/day |
-| 🔤 Language | C++ |
-| 📡 Source | search |
-| **Score: 85/100** `████████████████████`|
-
-> Master Valorant with an undetectable AI aimbot and hardware-driven ESP overlay
-
-### 10. [dama-cyber/Casting-Workflow](https://github.com/dama-cyber/Casting-Workflow)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 73 |
-| 📅 Age | 1 day |
-| 🚀 Daily Growth | 73.0 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | search |
-| **Score: 82/100** `████████████████████`|
-
-> Casting Workflow — No-code casting pipeline builder
+---
+*Generated by GitHub Discovery Tool*
