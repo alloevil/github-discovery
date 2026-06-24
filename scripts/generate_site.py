@@ -285,7 +285,7 @@ def generate_index_html(reports: list[tuple[str, list[dict], list[dict]]]) -> st
       <div class="subscribe-box">
         <div class="subscribe-title">📡 Subscribe to GitHub Discovery</div>
         <div class="subscribe-desc">Get the top trending repos delivered to your inbox daily.</div>
-        <form class="subscribe-form" action="https://buttondown.com/allo" method="post" onsubmit="handleSubscribe(event)">
+        <form class="subscribe-form" action="https://buttondown.com/api/emails/embed/allo" method="post" onsubmit="handleSubscribe(event)">
           <input type="email" name="email" placeholder="your@email.com" required />
           <button type="submit">Subscribe</button>
         </form>
