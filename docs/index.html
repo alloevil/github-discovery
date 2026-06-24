@@ -82,6 +82,13 @@
     .subscribe-desc { font-size: 12px; color: #666680; margin-bottom: 14px; }
     .subscribe-btn-link { display: inline-block; padding: 10px 24px; background: linear-gradient(135deg, #00ffff18, #ff00ff10); border: 1px solid #00ffff55; color: #00ffff; font-family: 'Orbitron', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; cursor: pointer; transition: all 0.2s; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
     .subscribe-btn-link:hover { background: linear-gradient(135deg, #00ffff28, #ff00ff18); box-shadow: 0 0 15px #00ffff33, inset 0 0 15px #00ffff11; color: #fff; }
+    .subscribe-form { display: flex; gap: 10px; }
+    .subscribe-form input[type="email"] { flex: 1; padding: 10px 14px; background: #0a0a14; border: 1px solid #ffffff18; color: #c0c0d0; font-family: 'Share Tech Mono', monospace; font-size: 13px; outline: none; transition: all 0.2s; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
+    .subscribe-form input[type="email"]::placeholder { color: #444460; }
+    .subscribe-form input[type="email"]:focus { border-color: #00ffff55; box-shadow: 0 0 10px #00ffff22, inset 0 0 10px #00ffff08; }
+    .subscribe-form button { padding: 10px 20px; background: linear-gradient(135deg, #00ffff18, #ff00ff10); border: 1px solid #00ffff55; color: #00ffff; font-family: 'Orbitron', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; transition: all 0.2s; white-space: nowrap; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
+    .subscribe-form button:hover { background: linear-gradient(135deg, #00ffff28, #ff00ff18); box-shadow: 0 0 15px #00ffff33, inset 0 0 15px #00ffff11; color: #fff; }
+    .subscribe-form button:active { transform: scale(0.97); }
     .subscribe-hint { font-size: 11px; color: #444460; margin-top: 10px; }
 
     .site-footer { border-top: 1px solid #ffffff0a; padding: 32px 0; text-align: center; color: #333350; font-size: 12px; margin-top: 48px; }
@@ -107,6 +114,8 @@
       .date-nav { gap: 4px; margin-bottom: 16px; }
       .date-tab { padding: 6px 12px; font-size: 11px; }
       .subscribe-btn-link { width: 100%; text-align: center; padding: 12px; }
+      .subscribe-form { flex-direction: column; }
+      .subscribe-form button { padding: 12px; }
     }
 
     @media (max-width: 480px) {
@@ -145,8 +154,11 @@
       <div class="subscribe-box">
         <div class="subscribe-title">📡 Subscribe to GitHub Discovery</div>
         <div class="subscribe-desc">Get the top trending repos delivered to your inbox daily.</div>
-        <a href="https://github.com/alloevil/github-discovery/issues/1" target="_blank" class="subscribe-btn-link">Subscribe via GitHub Issue →</a>
-        <div class="subscribe-hint">Leave your email in the issue comments to subscribe. Free, no spam.</div>
+        <form class="subscribe-form" onsubmit="handleSubscribe(event)">
+          <input type="email" name="email" id="sub-email" placeholder="your@email.com" required />
+          <button type="submit">Subscribe</button>
+        </form>
+        <div class="subscribe-hint">Free, no spam. Unsubscribe anytime.</div>
       </div>
       <div class="date-nav">
         <button class="date-tab active" onclick="switchDate('2026-06-24')">2026-06-24</button>
@@ -442,6 +454,15 @@
   </main>
 
   <script>
+    function handleSubscribe(e) {
+      e.preventDefault();
+      const email = document.getElementById('sub-email').value;
+      if (!email) return;
+      const title = encodeURIComponent('Subscribe: ' + email);
+      const url = 'https://github.com/alloevil/github-discovery/issues/new?title=' + title + '&body=' + encodeURIComponent('Please add ' + email + ' to the newsletter subscriber list.');
+      window.open(url, '_blank');
+      e.target.innerHTML = '<div class="subscribe-success">✅ GitHub Issue opened! Click "Submit new issue" to confirm.</div>';
+    }
     function switchDate(date) {
       document.querySelectorAll('.date-tab').forEach(t => t.classList.remove('active'));
       event.target.classList.add('active');

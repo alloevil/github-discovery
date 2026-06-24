@@ -22,7 +22,7 @@ from scorer import calculate_score
 
 
 def get_subscribers() -> list[str]:
-    """Fetch subscriber emails from GitHub Issue #1 comments using curl."""
+    """Fetch subscriber emails from GitHub Issues (title starts with 'Subscribe:')."""
     import re
     emails = []
     page = 1
@@ -30,20 +30,22 @@ def get_subscribers() -> list[str]:
         try:
             result = subprocess.run(
                 ["curl", "-s",
-                 f"https://api.github.com/repos/alloevil/github-discovery/issues/1/comments?per_page=100&page={page}",
+                 f"https://api.github.com/repos/alloevil/github-discovery/issues?state=open&per_page=100&page={page}",
                  "-H", "Accept: application/vnd.github.v3+json"],
                 capture_output=True, text=True, timeout=15,
             )
-            comments = json.loads(result.stdout)
-            if not isinstance(comments, list) or not comments:
+            issues = json.loads(result.stdout)
+            if not isinstance(issues, list) or not issues:
                 break
-            for c in comments:
-                body = c.get("body", "")
-                found = re.findall(r'[\w.+-]+@[\w-]+\.[\w.]+', body)
-                emails.extend(found)
+            for issue in issues:
+                title = issue.get("title", "")
+                if title.startswith("Subscribe:"):
+                    email = title.replace("Subscribe:", "").strip()
+                    if re.match(r'[\w.+-]+@[\w-]+\.[\w.]+', email):
+                        emails.append(email)
             page += 1
         except Exception as e:
-            print(f"[WARN] GitHub Issue fetch failed: {e}")
+            print(f"[WARN] GitHub Issues fetch failed: {e}")
             break
     return list(dict.fromkeys(emails))
 
