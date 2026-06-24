@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom.minidom import parseString
 
-DIST_DIR = "dist"
+DIST_DIR = "docs"
 OUTPUT_DIR = "output"
 SITE_TITLE = "GitHub Discovery"
 SITE_DESC = "Discover trending GitHub repos before they go viral"
