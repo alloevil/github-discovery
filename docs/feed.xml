@@ -5,51 +5,51 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jun 2026 01:44:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2026 01:57:11 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>🔥 sums001/Windows-Copilot-API — 434⭐ (144.7/day)</title>
-      <description>Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing.
+      <title>🔥 bozhouDev/codex-orange-book — 542⭐ (542.0/day)</title>
+      <description>Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/sums001/Windows-Copilot-API</link>
-      <guid>https://github.com/sums001/Windows-Copilot-API#2026-06-24</guid>
+Score: 100/100 | Language: HTML</description>
+      <link>https://github.com/bozhouDev/codex-orange-book</link>
+      <guid>https://github.com/bozhouDev/codex-orange-book#2026-06-24</guid>
       <pubDate>Wed, 24 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 yo-WASSUP/Good-Badminton — 383⭐ (127.7/day)</title>
-      <description>🏸  AI Badminton Hawk-Eye System
+      <title>🔥 goehou/tabbit-toy — 198⭐ (198.0/day)</title>
+      <description>这是一个基于tabbit的研究包，可以转化成OAI格式出来，同时增加了会员认证功能和一键提取cookie的浏览器拓展，方便快速本地快速使用claude gpt等
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/yo-WASSUP/Good-Badminton</link>
-      <guid>https://github.com/yo-WASSUP/Good-Badminton#2026-06-24</guid>
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/goehou/tabbit-toy</link>
+      <guid>https://github.com/goehou/tabbit-toy#2026-06-24</guid>
       <pubDate>Wed, 24 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 overflowy/make-look-scanned — 362⭐ (181.0/day)</title>
-      <description>Makes PDFs look scanned (CLI or in the browser via WASM)
+      <title>🔥 nova452/ComfyUI-ConditioningKrea2Rebalance — 103⭐ (103.0/day)</title>
+      <description>A conditioning optimizer with per layer weighting that offers IP-Adapter-like fe
 
-Score: 100/100 | Language: Go</description>
-      <link>https://github.com/overflowy/make-look-scanned</link>
-      <guid>https://github.com/overflowy/make-look-scanned#2026-06-24</guid>
+Score: 97/100 | Language: Python</description>
+      <link>https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance</link>
+      <guid>https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance#2026-06-24</guid>
       <pubDate>Wed, 24 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 raiyanyahya/recall — 360⭐ (120.0/day)</title>
-      <description>Stop wasting tokens and re-explaining your project every session. Recall gives Claude Code durable memory — entirely offline.
+      <title>🔥 Simpl3x3/ESEILANE — 91⭐ (91.0/day)</title>
+      <description>High-performance Knowledge Graph engine for AI, LLMs, and GraphRAG — built for the age of agents
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/raiyanyahya/recall</link>
-      <guid>https://github.com/raiyanyahya/recall#2026-06-24</guid>
+Score: 95/100 | Language: Ruby</description>
+      <link>https://github.com/Simpl3x3/ESEILANE</link>
+      <guid>https://github.com/Simpl3x3/ESEILANE#2026-06-24</guid>
       <pubDate>Wed, 24 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 HKUDS/AgentSpace — 288⭐ (288.0/day)</title>
-      <description>"AgentSpace: Human + Agents. One Team. One Workspace"
+      <title>🔥 ObsidianOwl123/AgentLens — 80⭐ (80.0/day)</title>
+      <description>Lightweight AI context compressor for LLM agents
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/HKUDS/AgentSpace</link>
-      <guid>https://github.com/HKUDS/AgentSpace#2026-06-24</guid>
+Score: 94/100 | Language: Python</description>
+      <link>https://github.com/ObsidianOwl123/AgentLens</link>
+      <guid>https://github.com/ObsidianOwl123/AgentLens#2026-06-24</guid>
       <pubDate>Wed, 24 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
