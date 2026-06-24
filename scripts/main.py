@@ -21,28 +21,31 @@ from sources import fetch_all
 from scorer import calculate_score
 
 
-def get_buttondown_subscribers() -> list[str]:
-    """Fetch confirmed subscriber emails from Buttondown using curl."""
-    if not BUTTONDOWN_API_KEY:
-        return []
+def get_subscribers() -> list[str]:
+    """Fetch subscriber emails from GitHub Issue #1 comments using curl."""
+    import re
     emails = []
-    url = "https://api.buttondown.com/v1/subscribers?status=active"
-    while url:
+    page = 1
+    while True:
         try:
             result = subprocess.run(
-                ["curl", "-s", url, "-H", f"Authorization: Token {BUTTONDOWN_API_KEY}"],
+                ["curl", "-s",
+                 f"https://api.github.com/repos/alloevil/github-discovery/issues/1/comments?per_page=100&page={page}",
+                 "-H", "Accept: application/vnd.github.v3+json"],
                 capture_output=True, text=True, timeout=15,
             )
-            data = json.loads(result.stdout)
-            for sub in data.get("results", data) if isinstance(data, dict) else data:
-                email = sub.get("email", "") if isinstance(sub, dict) else ""
-                if email:
-                    emails.append(email)
-            url = data.get("next") if isinstance(data, dict) else None
+            comments = json.loads(result.stdout)
+            if not isinstance(comments, list) or not comments:
+                break
+            for c in comments:
+                body = c.get("body", "")
+                found = re.findall(r'[\w.+-]+@[\w-]+\.[\w.]+', body)
+                emails.extend(found)
+            page += 1
         except Exception as e:
-            print(f"[WARN] Buttondown subscribers fetch failed: {e}")
+            print(f"[WARN] GitHub Issue fetch failed: {e}")
             break
-    return emails
+    return list(dict.fromkeys(emails))
 
 
 def send_email_via_resend(to: list[str], subject: str, html_body: str) -> bool:
@@ -86,7 +89,7 @@ def send_email_via_resend(to: list[str], subject: str, html_body: str) -> bool:
 
 def send_buttondown_email(date_str: str, top_new: list) -> bool:
     """Send discovery report email to all subscribers."""
-    subscribers = get_buttondown_subscribers()
+    subscribers = get_subscribers()
     if not subscribers:
         print("[SKIP] No subscribers found.")
         return False
