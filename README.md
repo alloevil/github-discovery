@@ -1,34 +1,50 @@
-# 🔥 GitHub Discovery
+# GitHub Discovery
 
-[![GitHub Actions](https://github.com/alloevil/github-discovery/actions/workflows/daily.yml/badge.svg)](https://github.com/alloevil/github-discovery/actions)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Stars](https://img.shields.io/github/stars/alloevil/github-discovery?style=social)](https://github.com/alloevil/github-discovery/stargazers)
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://alloevil.github.io/github-discovery/)
+<p align="center">
+  <img src="https://img.shields.io/github/actions/workflow/status/alloevil/github-discovery/daily.yml?branch=main&label=CI&logo=github&logoColor=white&color=00ccff" alt="CI" />
+  <img src="https://img.shields.io/badge/license-MIT-00ccff?style=flat" alt="License" />
+  <img src="https://img.shields.io/github/stars/alloevil/github-discovery?style=flat&logo=github&color=00ccff" alt="Stars" />
+  <a href="https://alloevil.github.io/github-discovery/"><img src="https://img.shields.io/badge/website-live-00ccff?style=flat" alt="Website" /></a>
+</p>
 
-> **Discover trending GitHub repos before they go mainstream.**
+<p align="center">
+  <strong>Discover trending GitHub repos before they go mainstream.</strong><br/>
+  <em>5 data sources · smart scoring · anti-spam · daily email digest</em>
+</p>
 
-🔗 **Website**: [alloevil.github.io/github-discovery](https://alloevil.github.io/github-discovery/) — Daily reports, subscribe, and vote
-
-GitHub Discovery automatically collects signals from multiple data sources every day, uses a smart scoring system to filter the most promising projects, and delivers them to you via email and web.
+<p align="center">
+  <a href="https://alloevil.github.io/github-discovery/">Website</a> · 
+  <a href="#quick-start">Quick Start</a> · 
+  <a href="#features">Features</a> · 
+  <a href="#development">Development</a>
+</p>
 
 ---
 
-## ✨ Features
+## What it does
 
-### 📡 5 Data Sources
+GitHub Discovery automatically collects signals from 5 data sources every day, uses a smart scoring system (100 points) to filter the most promising projects, and delivers them to you via email and web.
 
-| Source | Signal | Description |
-|--------|--------|-------------|
+**The problem it solves:** GitHub Trending shows you what's popular *today*. GitHub Discovery shows you what's *about to be popular* — repos with unusual growth patterns, community picks from Hacker News and Reddit, and early-stage projects gaining traction.
+
+---
+
+## Features
+
+### 5 Data Sources
+
+| Source | Signal | What it catches |
+|--------|--------|-----------------|
 | [GitHub Trending](https://github.com/trending) | Popularity | Daily trending repositories |
 | GitHub Search | New & rising | Repos created in the last 7 days with fast star growth |
 | [Hacker News](https://news.ycombinator.com/) | Community picks | GitHub repos from Show HN posts |
 | [Reddit](https://reddit.com/r/programming) | Discussion | GitHub links from /r/programming hot posts |
 | Rising Detection | Early signal | Unusual Fork/Watch growth patterns |
 
-### 📊 Smart Scoring System (100 pts)
+### Smart Scoring (100 points)
 
-| Dimension | Points | Description |
-|-----------|--------|-------------|
+| Dimension | Points | What it measures |
+|-----------|--------|------------------|
 | **Acceleration** | 40 | Star growth rate, acceleration trend |
 | **Quality** | 30 | Age, language, license, content completeness |
 | **Anti-spam** | 30 | Fork ratio, description quality |
@@ -37,34 +53,34 @@ GitHub Discovery automatically collects signals from multiple data sources every
 | **User Feedback** | ±10 | 👍👎 voting integrated into scoring |
 | **Batch Fraud** | -40 | Multiple repos from same owner growing simultaneously |
 
-### 🛡️ Anti-spam
+### Anti-spam
 
 - **Star fraud detection**: 1000+ stars in 1 day with age < 1 day → flagged
 - **Batch fraud detection**: Same owner with multiple repos growing at once → flagged
 - **Content quality**: No description or no README → penalty
 - **Cross-day dedup**: 7-day window, no duplicate recommendations
 
-### 👍👎 User Feedback
+### User Feedback
 
 - Vote on every recommendation (👍/👎)
 - Feedback integrated into scoring algorithm
 - localStorage persistence
 
-### 📬 Email Subscription
+### Email Subscription
 
 - Daily curated repos delivered to your inbox
 - Dark mode support (Apple Mail / iOS)
 - Powered by Resend API
 
-### 🎨 GitHub Pages
+### GitHub Pages
 
-- Cyberpunk-style web interface
+- Modern, professional web interface
 - Filter by date and language
 - Real-time scoring display
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Fork this repo
 
@@ -94,7 +110,7 @@ Go to **Actions → Daily Discovery → Run workflow** to trigger a test run.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 github-discovery/
@@ -108,29 +124,16 @@ github-discovery/
 │   ├── verify_scoring.py    # Scoring verification / backtesting
 │   ├── main.py              # Entry point
 │   └── config.py            # Configuration
-├── tests/
-│   ├── test_sources.py      # Data source tests
-│   ├── test_scorer.py       # Scoring algorithm tests
-│   ├── test_dedup.py        # Dedup logic tests
-│   ├── test_feedback.py     # Feedback system tests
-│   ├── test_quality.py      # Quality detection tests
-│   └── test_fraud_detection.py  # Fraud detection tests
-├── data/
-│   ├── feedback.json        # User voting data
-│   └── recommend_history.json  # Recommendation history (for dedup)
-├── docs/
-│   └── index.html           # GitHub Pages
-├── .github/
-│   └── workflows/
-│       └── daily.yml        # Daily automation
+├── tests/                   # 117 unit tests
+├── docs/index.html          # GitHub Pages
+├── .github/workflows/       # Daily automation
 ├── subscribers.txt          # Email subscriber list
-├── config.yaml              # Runtime configuration
-└── README.md                # This file
+└── config.yaml              # Runtime configuration
 ```
 
 ---
 
-## 🔧 Development
+## Development
 
 ### Local Run
 
@@ -168,7 +171,7 @@ SCORING_WEIGHTS = {
 
 ---
 
-## 📊 Scoring Verification
+## Scoring Verification
 
 Run backtesting to verify whether high-scored repos actually took off:
 
@@ -178,7 +181,7 @@ python scripts/verify_scoring.py --days 30
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -198,13 +201,13 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [GitHub API](https://docs.github.com/en/rest)
 - [Hacker News API](https://github.com/HackerNews/API)
@@ -213,4 +216,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-**⭐ If you find this useful, please give it a star!**
+<p align="center">
+  <strong>⭐ If you find this useful, please give it a star!</strong>
+</p>
