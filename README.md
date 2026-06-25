@@ -1,87 +1,54 @@
 # 🔥 GitHub Discovery
 
-**Discover trending GitHub repos before they go viral.**
+> 发现正在爆发的 GitHub 仓库，在它们变成热门之前。
 
-A daily automated tool that finds open-source projects gaining rapid traction — before they hit the mainstream trending pages. Inspired by [Changelog Nightly](https://github.com/thechangelog/nightly).
+## ✨ 特性
 
-[![Daily Discovery](https://github.com/alloevil/github-discovery/actions/workflows/daily.yml/badge.svg)](https://github.com/alloevil/github-discovery/actions/workflows/daily.yml)
+- 🔍 **多源采集**：GitHub Trending + Hacker News + Reddit + Fork/Watch 增速异常检测
+- 📊 **智能评分**：加速度 + 质量 + 反垃圾 + 用户反馈，100 分制
+- 👍👎 **用户反馈**：每条推荐可投票，反馈融入评分算法
+- 📬 **邮件订阅**：每日推送精选仓库到邮箱（支持暗模式）
+- 🎨 **GitHub Pages**：赛博朋克风格在线展示
+- 🆓 **完全免费**：基于 GitHub Actions 运行，无需服务器
 
-## How It Works
+## 📡 数据源
 
-GitHub Discovery uses three data sources to find rising repos:
+| 数据源 | 说明 |
+|--------|------|
+| GitHub Trending | 每日热门仓库 |
+| GitHub Search | 新创建的高星仓库 |
+| Hacker News | Show HN 中的 GitHub 项目 |
+| Reddit | /r/programming 热门帖子中的 GitHub 链接 |
+| Rising Detection | Fork/Watch 增速异常检测（早期信号） |
 
-1. **GitHub Trending** — Scrapes the daily trending page
-2. **GitHub Search API** — Finds newly created repos with fast star growth
-3. **Hacker News** — Monitors "Show HN" posts linking to GitHub repos
+## 🚀 快速开始
 
-Each candidate is scored on three dimensions:
+1. Fork 本仓库
+2. 配置 Secrets（`RESEND_API_KEY` 用于邮件推送）
+3. 启用 GitHub Actions
+4. 访问 GitHub Pages 查看每日报告
 
-| Dimension | Weight | What It Measures |
-|-----------|--------|------------------|
-| 🚀 Acceleration | 40pts | Star velocity (stars/day), repo age, growth curve |
-| ✅ Quality | 30pts | README, description, license, language, non-fork |
-| 🛡️ Anti-spam | 30pts | Fake star detection, marketing spam, anomaly patterns |
-
-## Quick Start
-
-```bash
-# Clone
-git clone https://github.com/alloevil/github-discovery.git
-cd github-discovery
-
-# Run
-export GITHUB_TOKEN=your_token_here
-python3 scripts/main.py
-```
-
-Output is saved to `output/discovery-YYYY-MM-DD.md`.
-
-## Automated Daily Runs
-
-The GitHub Action runs daily at 10:00 UTC and:
-1. Runs the discovery script
-2. Commits results to the `output/` directory
-3. Publishes to GitHub Pages at `https://alloevil.github.io/github-discovery/`
-
-## Subscribe
-
-- **RSS**: `https://alloevil.github.io/github-discovery/feed.xml`
-- **GitHub Pages**: `https://alloevil.github.io/github-discovery/`
-
-## Project Structure
+## 📁 项目结构
 
 ```
 github-discovery/
 ├── scripts/
-│   ├── main.py          # Entry point
-│   ├── sources.py       # Data source collectors
-│   ├── scorer.py        # Scoring engine
-│   ├── anti_spam.py     # Anti-spam/fraud detection
-│   ├── db.py            # SQLite dedup history
-│   └── config.py        # Configuration
-├── output/              # Generated reports (git-tracked)
-├── .github/workflows/   # GitHub Actions
-└── dist/                # GitHub Pages output
+│   ├── sources.py        # 数据源（5 个）
+│   ├── scorer.py         # 评分算法
+│   ├── feedback.py       # 用户反馈系统
+│   ├── main.py           # 入口
+│   └── ...
+├── data/
+│   └── feedback.json     # 反馈数据
+├── docs/
+│   └── index.html        # GitHub Pages
+└── .github/workflows/    # CI/CD
 ```
 
-## Scoring Algorithm
+## 🤝 Contributing
 
-**Acceleration Score (40pts)**
-- `daily_stars = total_stars / repo_age_days`
-- 3-day repo with 100+ stars → full marks
-- 7-day repo with 200+ stars → high marks
-- 30-day repo with 500+ stars → medium marks
+欢迎提交 PR 添加新的数据源！
 
-**Anti-Spam Detection (30pts, starts at 30, deducts)**
-- Star/fork ratio anomaly (>50:1) → -10
-- Repo < 3 days old with 5000+ stars → -15
-- Marketing keywords in description → -5
-
-Based on research from:
-- [StarScout](https://arxiv.org/abs/2412.13459) (ICSE'26) — Fake star detection
-- [Launch-Day Diffusion](https://arxiv.org/abs/2511.04453) — HN launch velocity patterns
-- [Predicting GitHub Popularity](https://arxiv.org/abs/1607.04342) — Star growth modeling
-
-## License
+## 📄 License
 
 MIT
