@@ -31,7 +31,7 @@ GitHub Discovery automatically collects signals from 5 data sources every day, u
 
 ## Features
 
-### 5 Data Sources
+### 6 Data Sources
 
 | Source | Signal | What it catches |
 |--------|--------|-----------------|
