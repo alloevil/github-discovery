@@ -109,7 +109,16 @@ def send_buttondown_email(date_str: str, top_new: list) -> bool:
     repo_rows = "\n".join(repo_lines)
     total = len(top_new)
 
-    html_body = f"""<div style="font-family:'Courier New',monospace;background:#0a0a0f;color:#c0c0d0;padding:24px;max-width:700px;margin:0 auto;">
+    html_body = f"""<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+</head>
+<body style="margin:0;padding:0;background:#0a0a0f;color-scheme:dark;">
+<div style="font-family:'Courier New',monospace;background:#0a0a0f;color:#c0c0d0;padding:24px;max-width:700px;margin:0 auto;">
 <h2 style="color:#00ffff;font-size:18px;">🔥 GitHub Discovery — {date_str}</h2>
 <p style="color:#888;">{total} new repos discovered today:</p>
 <table style="width:100%;border-collapse:collapse;margin:16px 0;">
@@ -125,7 +134,9 @@ def send_buttondown_email(date_str: str, top_new: list) -> bool:
 <hr style="border-color:#00ffff33;margin:24px 0;">
 <p><a href="https://alloevil.github.io/github-discovery/" style="color:#00ffff;">View on GitHub Discovery →</a></p>
 <p style="color:#333;font-size:11px;">Sent by <a href="https://github.com/alloevil/github-discovery" style="color:#555;">GitHub Discovery</a></p>
-</div>"""
+</div>
+</body>
+</html>"""
 
     return send_email_via_resend(subscribers, f"🔥 GitHub Discovery — {date_str}", html_body)
 
