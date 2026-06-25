@@ -3,8 +3,11 @@
 [![GitHub Actions](https://github.com/alloevil/github-discovery/actions/workflows/daily.yml/badge.svg)](https://github.com/alloevil/github-discovery/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Stars](https://img.shields.io/github/stars/alloevil/github-discovery?style=social)](https://github.com/alloevil/github-discovery/stargazers)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://alloevil.github.io/github-discovery/)
 
 > **Discover trending GitHub repos before they go mainstream.**
+
+🔗 **Live Demo**: [alloevil.github.io/github-discovery](https://alloevil.github.io/github-discovery/)
 
 GitHub Discovery automatically collects signals from multiple data sources every day, uses a smart scoring system to filter the most promising projects, and delivers them to you via email and web.
 
