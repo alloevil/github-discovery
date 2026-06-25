@@ -19,6 +19,7 @@ from config import TOP_N, OUTPUT_DIR, BUTTONDOWN_API_KEY, RESEND_API_KEY
 from db import init_db, repo_exists, save_repo, save_run
 from sources import fetch_all
 from scorer import calculate_score
+from feedback import get_all_feedback
 
 
 def get_subscribers() -> list[str]:
@@ -246,8 +247,22 @@ def main():
     # Score and filter
     new_scored = []
     repeat_scored = []
+    # Load user feedback
+    all_feedback = get_all_feedback()
+
     for repo in all_repos:
         scores = calculate_score(repo)
+        
+        # Adjust score based on user feedback
+        fb = all_feedback.get(repo["full_name"], {})
+        fb_score = fb.get("score", 0)
+        if fb_score > 0:
+            scores["total"] = min(100, scores["total"] + min(10, fb_score * 2))
+            scores["feedback_boost"] = fb_score
+        elif fb_score < 0:
+            scores["total"] = max(0, scores["total"] + max(-10, fb_score * 2))
+            scores["feedback_penalty"] = fb_score
+
         if repo_exists(repo["id"]):
             repeat_scored.append((repo, scores))
         else:
