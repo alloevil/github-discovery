@@ -86,7 +86,7 @@ def check_quality(repo_full_name: str) -> dict:
 def check_star_authenticity(repo_full_name: str, stars: int, age_days: int) -> dict:
     """
     检测 Star 真实性。
-    异常模式：Star 暴涨但无实质内容、年龄极短但 Star 极高。
+    只检测高置信度的刷量模式，避免误伤优质独立项目。
     """
     result = {
         "is_suspicious": False,
@@ -96,20 +96,34 @@ def check_star_authenticity(repo_full_name: str, stars: int, age_days: int) -> d
     
     daily_stars = stars / max(1, age_days)
     
-    # 1 天内超过 500 Star 且年龄小于 3 天 → 可疑
-    if daily_stars > 500 and age_days < 3:
+    # 检测 1：年龄 <1 天且 Star >1000 → 高度可疑（新仓库暴涨）
+    if age_days < 1 and stars > 1000:
         result["is_suspicious"] = True
-        result["reason"] = "star_growth_too_fast"
+        result["reason"] = "brand_new_repo_1k_stars_in_1_day"
+        result["penalty"] = -20
+        return result
+    
+    # 检测 2：年龄 <2 天且 Star >2000 → 可疑
+    if age_days < 2 and stars > 2000:
+        result["is_suspicious"] = True
+        result["reason"] = "new_repo_2k_stars_in_2_days"
         result["penalty"] = -15
         return result
     
-    # 检查贡献者数量（单人仓库高 Star 可能是刷的）
-    time.sleep(API_DELAY)
-    contributors = _gh_api(f"/repos/{repo_full_name}/contributors", {"per_page": "5"})
-    if contributors and isinstance(contributors, list):
-        if len(contributors) == 1 and stars > 200:
-            result["is_suspicious"] = True
-            result["reason"] = "single_contributor_high_stars"
-            result["penalty"] = -8
+    # 检测 3：Star 增速异常（>1000/天）但无 README 或描述为空 → 可疑
+    if daily_stars > 1000:
+        time.sleep(API_DELAY)
+        repo_data = _gh_api(f"/repos/{repo_full_name}")
+        if repo_data:
+            desc = (repo_data.get("description") or "").strip()
+            if not desc:
+                result["is_suspicious"] = True
+                result["reason"] = "massive_stars_no_description"
+                result["penalty"] = -15
+                return result
     
+    # 检测 4：同一 owner 下多个相似仓库同时暴涨 → 批量刷量
+    # （这个检测成本较高，暂不实现）
+    
+    # 其他情况不扣分 — 宁可放过，不要误伤
     return result
