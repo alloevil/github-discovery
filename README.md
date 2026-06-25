@@ -7,7 +7,7 @@
 
 > **Discover trending GitHub repos before they go mainstream.**
 
-🔗 **Live Demo**: [alloevil.github.io/github-discovery](https://alloevil.github.io/github-discovery/)
+🔗 **Website**: [alloevil.github.io/github-discovery](https://alloevil.github.io/github-discovery/) — Daily reports, subscribe, and vote
 
 GitHub Discovery automatically collects signals from multiple data sources every day, uses a smart scoring system to filter the most promising projects, and delivers them to you via email and web.
 
