@@ -1,975 +1,1095 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🔥 GitHub Discovery — 2026-06-25</title>
-  <link rel="icon" type="image/svg+xml" href="https://alloevil.github.io/github-discovery/favicon.svg" />
-  <meta property="og:title" content="GitHub Discovery — 2026-06-25" />
-  <meta property="og:description" content="Discover trending GitHub repos before they go viral" />
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://alloevil.github.io/github-discovery/feed.xml" />
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap');
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'Share Tech Mono', 'Courier New', monospace; background: #0a0a0f; color: #c0c0d0; line-height: 1.6; position: relative; overflow-x: hidden; }
-    /* Scanline overlay */
-    body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px); pointer-events: none; z-index: 9999; }
-    /* Noise texture */
-    body::after { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E"); pointer-events: none; z-index: 9998; }
-    a { color: #00ffff; text-decoration: none; transition: all 0.2s; }
-    a:hover { color: #ff00ff; text-shadow: 0 0 8px #ff00ff; text-decoration: none; }
-    a:active { opacity: 0.7; }
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub Discovery — Trending Repos</title>
+<meta name="description" content="Discover trending GitHub repos before they go mainstream. 6 data sources, smart scoring, anti-spam.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
-    .page-header { background: linear-gradient(180deg, #0f0f1a 0%, #0a0a0f 100%); border-bottom: 1px solid #00ffff33; padding: 16px 0; position: relative; }
-    .page-header::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 1px; background: linear-gradient(90deg, transparent, #00ffff, #ff00ff, #00ffff, transparent); opacity: 0.6; }
-    .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
-    .page-body { padding: 24px 0 48px; }
+  /* Linear Design System Tokens */
+  :root {
+    --primary: #5e6ad2;
+    --primary-hover: #828fff;
+    --on-primary: #ffffff;
+    --ink: #f7f8f8;
+    --ink-muted: #d0d6e0;
+    --ink-subtle: #8a8f98;
+    --ink-tertiary: #62666d;
+    --canvas: #010102;
+    --surface-1: #0f1011;
+    --surface-2: #141516;
+    --surface-3: #18191a;
+    --hairline: #23252a;
+    --hairline-strong: #34343a;
+    --success: #27a644;
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+    --font-mono: 'JetBrains Mono', 'SF Mono', monospace;
+  }
 
-    .site-header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
-    .site-title { display: flex; align-items: center; gap: 12px; }
-    .site-title h1 { font-family: var(--font-sans); font-size: 22px; font-weight: 900; color: #fff; letter-spacing: 2px; text-transform: uppercase; text-shadow: 0 0 10px #00ffff88, 0 0 30px #00ffff44; }
-    .site-title .emoji { font-size: 28px; filter: drop-shadow(0 0 6px #ff6600); }
-    .site-nav { display: flex; align-items: center; gap: 12px; }
-    .site-nav a { color: #e6edf3; font-size: 13px; font-weight: 500; padding: 8px 18px; border: 1px solid #00ffff55; clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px); transition: all 0.2s; letter-spacing: 1px; text-transform: uppercase; font-family: var(--font-sans); font-size: 11px; }
-    .site-nav a:hover { text-decoration: none; background: #00ffff11; box-shadow: 0 0 15px #00ffff33, inset 0 0 15px #00ffff11; }
-    .btn-rss { background: linear-gradient(135deg, #ff00ff22, #ff00ff44); border-color: #ff00ff55; color: #ff88ff !important; }
-    .btn-rss:hover { background: #ff00ff22; box-shadow: 0 0 15px #ff00ff33, inset 0 0 15px #ff00ff11; }
-    .btn-gh { background: transparent; }
-    .btn-gh:hover { background: #00ffff11; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
 
-    .summary-bar { display: flex; gap: 24px; padding: 20px 0; border-bottom: 1px solid #ffffff0a; margin-bottom: 20px; flex-wrap: wrap; }
-    .summary-item { text-align: center; flex: 1; min-width: 80px; padding: 16px 8px; background: linear-gradient(135deg, #00ffff08, #ff00ff05); border: 1px solid #00ffff15; clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px); }
-    .summary-item .num { font-family: var(--font-sans); font-size: 28px; font-weight: 900; color: #00ffff; display: block; line-height: 1.2; text-shadow: 0 0 10px #00ffff66; }
-    .summary-item .label { font-size: 10px; color: #666680; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px; }
+  body {
+    font-family: var(--font-sans);
+    background: var(--canvas);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+  }
 
-    .date-heading { display: flex; align-items: center; gap: 12px; margin: 36px 0 14px; padding: 10px 0; border-bottom: 1px solid #00ffff22; position: relative; }
-    .date-heading::before { content: '>'; color: #ff00ff; font-weight: 700; margin-right: 4px; }
-    .date-heading h2 { font-family: var(--font-sans); font-size: 15px; font-weight: 700; color: #fff; letter-spacing: 1px; text-transform: uppercase; }
-    .date-heading .count { font-size: 11px; color: #00ffff; background: #00ffff11; padding: 2px 10px; border: 1px solid #00ffff33; white-space: nowrap; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
+  /* Layout */
+  .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
 
-    .Box-row { padding: 16px 18px; border: 1px solid #ffffff0f; margin-bottom: 10px; transition: all 0.25s ease; cursor: pointer; position: relative; background: linear-gradient(135deg, #0a0a14, #0d0d1a); clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px); }
-    .Box-row::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, #00ffff44, transparent); opacity: 0; transition: opacity 0.3s; }
-    .Box-row:hover { border-color: #00ffff44; background: linear-gradient(135deg, #0a0a1a, #0f0f22); transform: translateY(-2px); box-shadow: 0 0 20px #00ffff11, 0 4px 12px rgba(0,0,0,0.3), inset 0 0 30px #00ffff05; }
-    .Box-row:hover::before { opacity: 1; }
-    .Box-row:active { transform: translateY(0); }
-    .Box-row-header { display: flex; align-items: flex-start; gap: 10px; }
-    .Box-row-header .avatar { width: 26px; height: 26px; border-radius: 50%; flex-shrink: 0; margin-top: 2px; border: 1px solid #00ffff33; filter: saturate(0.8); }
-    .Box-row-header h3 { font-size: 15px; font-weight: 600; line-height: 1.3; font-family: 'Share Tech Mono', monospace; }
-    .Box-row-header h3 a { color: #00ffff; transition: all 0.2s; }
-    .Box-row-header h3 a:hover { color: #ff00ff; text-shadow: 0 0 8px #ff00ff66; text-decoration: none; }
-    .Box-row-header .owner { color: #666680; font-weight: 400; }
-    .Box-row-desc { font-size: 13px; color: #8888a0; line-height: 1.5; padding-left: 36px; margin-top: 4px; }
-    .Box-row-meta { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; padding-left: 36px; margin-top: 8px; font-size: 11px; }
-    .meta-item { display: inline-flex; align-items: center; gap: 4px; color: #666680; white-space: nowrap; }
-    .lang-dot { width: 10px; height: 10px; border-radius: 2px; display: inline-block; flex-shrink: 0; border: 1px solid rgba(255,255,255,0.1); }
-    .score-pill { padding: 2px 10px; font-size: 11px; font-weight: 700; white-space: nowrap; font-family: var(--font-sans); letter-spacing: 0.5px; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
-    .score-high { background: #00ff8822; color: #00ff88; border: 1px solid #00ff8844; text-shadow: 0 0 6px #00ff8844; }
-    .score-mid { background: #00ffff22; color: #00ffff; border: 1px solid #00ffff44; }
-    .score-low { background: #ffffff08; color: #444460; border: 1px solid #ffffff11; }
-    .score-gold { background: linear-gradient(135deg, #ffaa0022, #ff660022); color: #ffaa00; border: 1px solid #ffaa0044; text-shadow: 0 0 8px #ffaa0044; }
+  /* Header */
+  .header {
+    padding: 48px 0 40px;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .brand-icon { font-size: 28px; }
+  .brand h1 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    color: var(--ink);
+  }
+  .header-links {
+    display: flex;
+    gap: 8px;
+  }
+  .header-links a {
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink-muted);
+    text-decoration: none;
+    border: 1px solid var(--hairline);
+    border-radius: 6px;
+    transition: all 0.15s;
+  }
+  .header-links a:hover {
+    color: var(--ink);
+    border-color: var(--hairline-strong);
+  }
 
-    .date-nav { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px; padding: 12px 0; border-bottom: 1px solid #00ffff15; }
-    .date-tab { padding: 8px 16px; border: 1px solid #ffffff15; background: #ffffff05; color: #666680; font-size: 13px; cursor: pointer; transition: all 0.2s; font-family: var(--font-sans); font-weight: 700; letter-spacing: 0.5px; clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px); }
-    .date-tab:hover { border-color: #00ffff44; color: #00ffff; background: #00ffff08; }
-    .date-tab.active { background: linear-gradient(135deg, #00ffff18, #ff00ff10); border-color: #00ffff66; color: #00ffff; box-shadow: 0 0 12px #00ffff22, inset 0 0 12px #00ffff08; text-shadow: 0 0 6px #00ffff66; }
+  /* Hero */
+  .hero {
+    padding: 40px 0 32px;
+    text-align: center;
+  }
+  .hero h2 {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -1.8px;
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 12px;
+  }
+  .hero p {
+    font-size: 16px;
+    color: var(--ink-subtle);
+    max-width: 500px;
+    margin: 0 auto;
+  }
 
-    .lang-filter { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }
-    .lang-filter button { padding: 6px 14px; border: 1px solid #ffffff15; background: #ffffff05; color: #8888a0; font-size: 12px; cursor: pointer; transition: all 0.2s; white-space: nowrap; font-family: 'Share Tech Mono', monospace; letter-spacing: 0.5px; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
-    .lang-filter button:hover { border-color: #00ffff44; color: #00ffff; background: #00ffff08; }
-    .lang-filter button.active { background: #00ffff15; border-color: #00ffff55; color: #00ffff; box-shadow: 0 0 10px #00ffff22; }
-    .subscribe-box { margin: 24px 0 20px; padding: 20px; background: linear-gradient(135deg, #00ffff06, #ff00ff04); border: 1px solid #00ffff22; position: relative; clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px); }
-    .subscribe-box::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, #00ffff66, #ff00ff44, #00ffff66, transparent); }
-    .subscribe-title { font-family: var(--font-sans); font-size: 13px; font-weight: 700; color: #00ffff; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; text-shadow: 0 0 8px #00ffff44; }
-    .subscribe-desc { font-size: 12px; color: #666680; margin-bottom: 14px; }
-    .subscribe-btn-link { display: inline-block; padding: 10px 24px; background: linear-gradient(135deg, #00ffff18, #ff00ff10); border: 1px solid #00ffff55; color: #00ffff; font-family: var(--font-sans); font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; cursor: pointer; transition: all 0.2s; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
-    .subscribe-btn-link:hover { background: linear-gradient(135deg, #00ffff28, #ff00ff18); box-shadow: 0 0 15px #00ffff33, inset 0 0 15px #00ffff11; color: #fff; }
-    .subscribe-form { display: flex; gap: 10px; }
-    .subscribe-form input[type="email"] { flex: 1; padding: 10px 14px; background: #0a0a14; border: 1px solid #ffffff18; color: #c0c0d0; font-family: 'Share Tech Mono', monospace; font-size: 13px; outline: none; transition: all 0.2s; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
-    .subscribe-form input[type="email"]::placeholder { color: #444460; }
-    .subscribe-form input[type="email"]:focus { border-color: #00ffff55; box-shadow: 0 0 10px #00ffff22, inset 0 0 10px #00ffff08; }
-    .subscribe-form button { padding: 10px 20px; background: linear-gradient(135deg, #00ffff18, #ff00ff10); border: 1px solid #00ffff55; color: #00ffff; font-family: var(--font-sans); font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; transition: all 0.2s; white-space: nowrap; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
-    .subscribe-form button:hover { background: linear-gradient(135deg, #00ffff28, #ff00ff18); box-shadow: 0 0 15px #00ffff33, inset 0 0 15px #00ffff11; color: #fff; }
-    .subscribe-form button:active { transform: scale(0.97); }
-    .subscribe-hint { font-size: 11px; color: #444460; margin-top: 10px; }
+  /* Stats */
+  .stats {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    padding: 24px 0;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .stat { text-align: center; }
+  .stat-num {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+    color: var(--ink);
+  }
+  .stat-label {
+    font-size: 12px;
+    color: var(--ink-tertiary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+  }
 
-    .site-footer { border-top: 1px solid #ffffff0a; padding: 32px 0; text-align: center; color: #333350; font-size: 12px; margin-top: 48px; }
-    .site-footer p { margin-bottom: 8px; }
-    .site-footer a { color: #555570; }
-    .site-footer a:hover { color: #00ffff; }
+  /* Filters */
+  .filters {
+    padding: 24px 0;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .filter-group {
+    display: flex;
+    gap: 4px;
+  }
+  .filter-btn {
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink-subtle);
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: var(--font-sans);
+  }
+  .filter-btn:hover { color: var(--ink-muted); }
+  .filter-btn.active {
+    color: var(--ink);
+    background: var(--surface-2);
+    border-color: var(--hairline);
+  }
 
-    @media (max-width: 768px) {
-      .container { padding: 0 16px; }
-      .site-header { flex-direction: column; align-items: flex-start; gap: 12px; }
-      .site-nav { width: 100%; }
-      .site-nav a { flex: 1; text-align: center; padding: 10px 12px; font-size: 10px; }
-      .summary-bar { gap: 12px; padding: 16px 0; }
-      .summary-item { min-width: 60px; padding: 12px 6px; }
-      .summary-item .num { font-size: 22px; }
-      .summary-item .label { font-size: 9px; }
-      .Box-row { padding: 14px; }
-      .Box-row-desc { padding-left: 0; }
-      .Box-row-meta { padding-left: 0; gap: 10px; margin-top: 10px; }
-      .Box-row-header h3 { font-size: 14px; }
-      .date-heading { margin: 28px 0 12px; }
-      .date-heading h2 { font-size: 13px; }
-      .date-nav { gap: 4px; margin-bottom: 16px; }
-      .date-tab { padding: 6px 12px; font-size: 11px; }
-      .subscribe-btn-link { width: 100%; text-align: center; padding: 12px; }
-      .subscribe-form { flex-direction: column; }
-      .subscribe-form button { padding: 12px; }
-    }
+  /* Date Section */
+  .date-section { margin-bottom: 40px; }
+  .date-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--hairline);
+    margin-bottom: 4px;
+  }
+  .date-header h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--ink);
+    letter-spacing: -0.2px;
+  }
+  .date-count {
+    font-size: 13px;
+    color: var(--ink-tertiary);
+  }
 
-    @media (max-width: 480px) {
-      .lang-filter { gap: 4px; }
-      .lang-filter button { padding: 5px 10px; font-size: 11px; }
-      .summary-bar { gap: 8px; }
-      .Box-row-meta { gap: 8px; font-size: 10px; }
-      .score-pill { padding: 1px 8px; font-size: 10px; }
-      .date-tab { padding: 5px 10px; font-size: 10px; }
-    }
-  
-    .site-footer { margin-top: 48px; padding: 32px 0 24px; background: #0a0a14; border-top: 1px solid #1a1a2e; }
-    .footer-content { display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
-    .footer-brand { font-family: var(--font-sans); font-size: 16px; color: #00ffff; margin: 0 0 4px; }
-    .footer-tagline { font-size: 12px; color: #666680; margin: 0; }
-    .footer-subscribe-form { display: flex; gap: 8px; }
-    .footer-subscribe-form input[type="email"] { padding: 8px 12px; background: #0a0a14; border: 1px solid #1a1a2e; border-radius: 6px; color: #c0c0d0; font-size: 13px; min-width: 200px; }
-    .footer-subscribe-form input[type="email"]:focus { border-color: #00ffff55; outline: none; }
-    .footer-subscribe-form button { padding: 8px 16px; background: linear-gradient(135deg, #00ffff18, #ff00ff12); border: 1px solid #00ffff33; border-radius: 6px; color: #00ffff; font-size: 13px; cursor: pointer; white-space: nowrap; }
-    .footer-subscribe-form button:hover { background: linear-gradient(135deg, #00ffff28, #ff00ff18); }
-    .footer-bottom { margin-top: 20px; padding-top: 16px; border-top: 1px solid #1a1a2e; text-align: center; }
-    .footer-bottom p { font-size: 11px; color: #444460; margin: 0; }
-    .footer-bottom a { color: #666680; text-decoration: none; }
-    .footer-bottom a:hover { color: #00ffff; }
-    @media (max-width: 640px) {
-      .footer-content { flex-direction: column; text-align: center; }
-      .footer-subscribe-form { flex-direction: column; }
-      .footer-subscribe-form input[type="email"] { min-width: auto; }
-    }
+  /* Repo Card */
+  .repo {
+    padding: 16px 20px;
+    border-radius: 8px;
+    transition: background 0.15s;
+  }
+  .repo:hover {
+    background: var(--surface-1);
+  }
+  .repo + .repo {
+    border-top: 1px solid var(--hairline);
+  }
+  .repo-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  .repo-avatar {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+  .repo-name {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--ink);
+  }
+  .repo-name a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .repo-name a:hover { color: var(--primary-hover); }
+  .repo-owner { color: var(--ink-tertiary); font-weight: 400; }
+  .repo-desc {
+    font-size: 14px;
+    color: var(--ink-subtle);
+    margin-bottom: 8px;
+    line-height: 1.5;
+    padding-left: 30px;
+  }
+  .repo-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 12px;
+    color: var(--ink-tertiary);
+    padding-left: 30px;
+    flex-wrap: wrap;
+  }
+  .repo-meta-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .lang-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .score-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 4px;
+    background: var(--surface-2);
+    color: var(--ink-muted);
+    border: 1px solid var(--hairline);
+  }
+  .score-tag.high {
+    background: rgba(94, 106, 210, 0.15);
+    color: var(--primary-hover);
+    border-color: rgba(94, 106, 210, 0.3);
+  }
 
-  </style>
+  /* Vote buttons */
+  .vote-btns {
+    display: inline-flex;
+    gap: 2px;
+    margin-left: 8px;
+  }
+  .vote-btn {
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 2px 6px;
+    cursor: pointer;
+    font-size: 12px;
+    opacity: 0.4;
+    transition: all 0.15s;
+  }
+  .vote-btn:hover { opacity: 0.8; }
+  .vote-btn.voted {
+    opacity: 1;
+    border-color: var(--hairline);
+    background: var(--surface-2);
+  }
+
+  /* Subscribe Footer */
+  .footer {
+    margin-top: 48px;
+    padding: 32px 0;
+    border-top: 1px solid var(--hairline);
+  }
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .footer-brand {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+  .footer-tagline {
+    font-size: 13px;
+    color: var(--ink-tertiary);
+  }
+  .footer-sub-form {
+    display: flex;
+    gap: 8px;
+  }
+  .footer-sub-form input[type="email"] {
+    padding: 8px 14px;
+    background: var(--surface-1);
+    border: 1px solid var(--hairline);
+    border-radius: 6px;
+    color: var(--ink);
+    font-size: 13px;
+    font-family: var(--font-sans);
+    min-width: 220px;
+  }
+  .footer-sub-form input[type="email"]:focus {
+    outline: none;
+    border-color: var(--primary);
+  }
+  .footer-sub-form input[type="email"]::placeholder {
+    color: var(--ink-tertiary);
+  }
+  .footer-sub-form button {
+    padding: 8px 18px;
+    background: var(--primary);
+    border: none;
+    border-radius: 6px;
+    color: var(--on-primary);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: var(--font-sans);
+    transition: background 0.15s;
+  }
+  .footer-sub-form button:hover { background: var(--primary-hover); }
+  .subscribe-success {
+    display: none;
+    font-size: 13px;
+    color: var(--success);
+    margin-top: 8px;
+  }
+  .footer-bottom {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--hairline);
+    text-align: center;
+  }
+  .footer-bottom p {
+    font-size: 12px;
+    color: var(--ink-tertiary);
+  }
+  .footer-bottom a {
+    color: var(--ink-subtle);
+    text-decoration: none;
+  }
+  .footer-bottom a:hover { color: var(--ink); }
+
+  /* Responsive */
+  @media (max-width: 640px) {
+    .hero h2 { font-size: 32px; letter-spacing: -1px; }
+    .stats { gap: 24px; }
+    .stat-num { font-size: 22px; }
+    .footer-inner { flex-direction: column; text-align: center; }
+    .footer-sub-form { flex-direction: column; width: 100%; }
+    .footer-sub-form input[type="email"] { min-width: auto; width: 100%; }
+    .repo-meta { gap: 10px; }
+  }
+</style>
 </head>
 <body>
-  <header class="page-header">
-    <div class="container">
-      <div class="site-header">
-        <div class="site-title">
-          <span class="emoji">🔥</span>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-inner">
+        <div class="brand">
+          <span class="brand-icon">🔥</span>
           <h1>GitHub Discovery</h1>
         </div>
-        <nav class="site-nav">
-          <a class="btn-gh" href="https://github.com/alloevil/github-discovery">⭐ GitHub</a>
-          <a class="btn-rss" href="https://alloevil.github.io/github-discovery/feed.xml">📡 RSS</a>
+        <nav class="header-links">
+          <a href="https://github.com/alloevil/github-discovery">GitHub</a>
+          <a href="https://alloevil.github.io/github-discovery/feed.xml">RSS</a>
         </nav>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <main class="page-body">
-    <div class="container">
-      <div class="summary-bar">
-        <div class="summary-item"><span class="num">3</span><span class="label">Days Tracked</span></div>
-        <div class="summary-item"><span class="num">35</span><span class="label">Repos Discovered</span></div>
-        <div class="summary-item"><span class="num">100</span><span class="label">Top Score</span></div>
-      </div>
+    <!-- Hero -->
+    <section class="hero">
+      <h2>Discover what's next.</h2>
+      <p>Trending GitHub repos scored by growth, quality, and community signals. Updated daily.</p>
+    </section>
 
-      <div class="date-nav">
-        <button class="date-tab active" onclick="switchDate('2026-06-25')">2026-06-25</button>
-        <button class="date-tab" onclick="switchDate('2026-06-24')">2026-06-24</button>
-        <button class="date-tab" onclick="switchDate('2026-06-23')">2026-06-23</button>
+    <!-- Stats -->
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-num">6</div>
+        <div class="stat-label">Data Sources</div>
       </div>
-      <div class="lang-filter">
-        <button class="active" onclick="filterLang('all')">All</button>
-        <button onclick="filterLang('python')">Python</button>
-        <button onclick="filterLang('typescript')">TypeScript</button>
-        <button onclick="filterLang('javascript')">JavaScript</button>
-        <button onclick="filterLang('rust')">Rust</button>
-        <button onclick="filterLang('go')">Go</button>
-        <button onclick="filterLang('java')">Java</button>
-        <button onclick="filterLang('c++')">C++</button>
-        <button onclick="filterLang('other')">Other</button>
+      <div class="stat">
+        <div class="stat-num">33</div>
+        <div class="stat-label">Repos Tracked</div>
       </div>
-      <div class="date-section" data-date="2026-06-25" style="display:">
-
-      <div class="date-heading">
-        <h2>⭐ 2026-06-25 — First Timers</h2>
-        <span class="count">10 repos</span>
-      </div>
-    <div class="Box-row" data-lang="python">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/QwenLM.png" alt="QwenLM" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/QwenLM/Qwen-AgentWorld"><span class="owner">QwenLM /</span> Qwen-AgentWorld</a></h3>
-      </div>
-      <div class="Box-row-desc">Qwen-AgentWorld: Language World Models for General Agents</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 338</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 169.0/day</span>
-        <span class="score-pill score-gold">Score: 100</span>
-        <span class="vote-btns" data-repo="QwenLM/Qwen-AgentWorld">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-        <span class="vote-btns" data-repo="PLACEHOLDER"><button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button><button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button></span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="c">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/BohemiaInteractive.png" alt="BohemiaInteractive" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/BohemiaInteractive/CWR"><span class="owner">BohemiaInteractive /</span> CWR</a></h3>
-      </div>
-      <div class="Box-row-desc">Arma: Cold War Assault Remastered Source Code Repository.</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#555555"></span>C</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 257</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 128.5/day</span>
-        <span class="score-pill score-gold">Score: 100</span>
-        <span class="vote-btns" data-repo="BohemiaInteractive/CWR">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-        <span class="vote-btns" data-repo="PLACEHOLDER"><button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button><button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button></span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="python">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/krea-ai.png" alt="krea-ai" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/krea-ai/krea-2"><span class="owner">krea-ai /</span> krea-2</a></h3>
-      </div>
-      <div class="Box-row-desc">Official inference code for Krea 2</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 193</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 96.5/day</span>
-        <span class="score-pill score-gold">Score: 100</span>
-        <span class="vote-btns" data-repo="krea-ai/krea-2">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-        <span class="vote-btns" data-repo="PLACEHOLDER"><button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button><button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button></span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="python">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/calesthio.png" alt="calesthio" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/calesthio/OpenMontage"><span class="owner">calesthio /</span> OpenMontage</a></h3>
-      </div>
-      <div class="Box-row-desc">World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 19963</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 229.5/day</span>
-        <span class="score-pill score-high">Score: 96</span>
-        <span class="vote-btns" data-repo="calesthio/OpenMontage">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="python">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/ZhuLinsen.png" alt="ZhuLinsen" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/ZhuLinsen/daily_stock_analysis"><span class="owner">ZhuLinsen /</span> daily_stock_analysis</a></h3>
-      </div>
-      <div class="Box-row-desc">LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 48782</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 295.6/day</span>
-        <span class="score-pill score-high">Score: 96</span>
-        <span class="vote-btns" data-repo="ZhuLinsen/daily_stock_analysis">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="swift">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/apple.png" alt="apple" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/apple/container"><span class="owner">apple /</span> container</a></h3>
-      </div>
-      <div class="Box-row-desc">A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#F05138"></span>Swift</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 42421</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 108.8/day</span>
-        <span class="score-pill score-high">Score: 96</span>
-        <span class="vote-btns" data-repo="apple/container">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="typescript">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/JCodesMore.png" alt="JCodesMore" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/JCodesMore/ai-website-cloner-template"><span class="owner">JCodesMore /</span> ai-website-cloner-template</a></h3>
-      </div>
-      <div class="Box-row-desc">Clone any website with one command using AI coding agents</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 19489</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 189.2/day</span>
-        <span class="score-pill score-high">Score: 96</span>
-        <span class="vote-btns" data-repo="JCodesMore/ai-website-cloner-template">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="typescript">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/google-labs-code.png" alt="google-labs-code" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/google-labs-code/design.md"><span class="owner">google-labs-code /</span> design.md</a></h3>
-      </div>
-      <div class="Box-row-desc">A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 17521</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 233.6/day</span>
-        <span class="score-pill score-high">Score: 96</span>
-        <span class="vote-btns" data-repo="google-labs-code/design.md">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="python">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/NousResearch.png" alt="NousResearch" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/NousResearch/hermes-agent"><span class="owner">NousResearch /</span> hermes-agent</a></h3>
-      </div>
-      <div class="Box-row-desc">The agent that grows with you</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 202220</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 600.1/day</span>
-        <span class="score-pill score-high">Score: 96</span>
-        <span class="vote-btns" data-repo="NousResearch/hermes-agent">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="javascript">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/Yu9191.png" alt="Yu9191" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/Yu9191/wloc"><span class="owner">Yu9191 /</span> wloc</a></h3>
-      </div>
-      <div class="Box-row-desc">Apple WLOC Location Spoofer</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 217</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 217.0/day</span>
-        <span class="score-pill score-high">Score: 95</span>
-        <span class="vote-btns" data-repo="Yu9191/wloc">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
+      <div class="stat">
+        <div class="stat-num">100</div>
+        <div class="stat-label">Top Score</div>
       </div>
     </div>
 
-      <div class="date-heading">
-        <h2>🔄 2026-06-25 — Repeat Performers</h2>
-        <span class="count">5 repos</span>
+    <!-- Filters -->
+    <div class="filters">
+      <div class="filter-group" id="date-filters">
+        <button class="filter-btn active" onclick="switchDate('2026-06-25')">2026-06-25</button>
+        <button class="filter-btn" onclick="switchDate('2026-06-24')">2026-06-24</button>
+        <button class="filter-btn" onclick="switchDate('2026-06-23')">2026-06-23</button>
       </div>
-    <div class="Box-row" data-lang="typescript">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/HKUDS.png" alt="HKUDS" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/HKUDS/AgentSpace"><span class="owner">HKUDS /</span> AgentSpace</a></h3>
-      </div>
-      <div class="Box-row-desc">"AgentSpace: Human + Agents. One Team. One Workspace"</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 365</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 182.5/day</span>
-        <span class="score-pill score-gold">Score: 100</span>
-        <span class="vote-btns" data-repo="HKUDS/AgentSpace">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-        <span class="vote-btns" data-repo="PLACEHOLDER"><button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button><button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button></span>
+      <div class="filter-group" id="lang-filters">
+        <button class="filter-btn active" onclick="filterLang('all')">All</button>
+        <button class="filter-btn" onclick="filterLang('python')">Python</button>
+        <button class="filter-btn" onclick="filterLang('typescript')">TypeScript</button>
+        <button class="filter-btn" onclick="filterLang('javascript')">JavaScript</button>
+        <button class="filter-btn" onclick="filterLang('rust')">Rust</button>
+        <button class="filter-btn" onclick="filterLang('go')">Go</button>
       </div>
     </div>
-    <div class="Box-row" data-lang="typescript">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/samasante.png" alt="samasante" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/samasante/liquid-glass"><span class="owner">samasante /</span> liquid-glass</a></h3>
-      </div>
-      <div class="Box-row-desc">Apple-style Liquid Glass for the web — a headless React lens that refracts the live DOM in Safari, Firefox and Chrome. Zero dependencies.</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 293</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 146.5/day</span>
-        <span class="score-pill score-gold">Score: 100</span>
-        <span class="vote-btns" data-repo="samasante/liquid-glass">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-        <span class="vote-btns" data-repo="PLACEHOLDER"><button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button><button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button></span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="python">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/nova452.png" alt="nova452" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance"><span class="owner">nova452 /</span> ComfyUI-ConditioningKrea2Rebalance</a></h3>
-      </div>
-      <div class="Box-row-desc">A conditioning optimizer with per layer weighting that offers IP-Adapter-like features for Krea 2 along with bypassing the built in quality diluation from the trained safety filter and also works as a means to unfilter the model.</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 205</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 205.0/day</span>
-        <span class="score-pill score-gold">Score: 100</span>
-        <span class="vote-btns" data-repo="nova452/ComfyUI-ConditioningKrea2Rebalance">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-        <span class="vote-btns" data-repo="PLACEHOLDER"><button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button><button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button></span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="html">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/bozhouDev.png" alt="bozhouDev" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/bozhouDev/codex-orange-book"><span class="owner">bozhouDev /</span> codex-orange-book</a></h3>
-      </div>
-      <div class="Box-row-desc">Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#e34c26"></span>HTML</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 1541</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 770.5/day</span>
-        <span class="score-pill score-high">Score: 95</span>
-        <span class="vote-btns" data-repo="bozhouDev/codex-orange-book">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="javascript">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/goehou.png" alt="goehou" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/goehou/tabbit-toy"><span class="owner">goehou /</span> tabbit-toy</a></h3>
-      </div>
-      <div class="Box-row-desc">这是一个基于tabbit的研究包，可以转化成OAI格式出来，同时增加了会员认证功能和一键提取cookie的浏览器拓展，方便快速本地快速使用claude gpt等模型</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 278</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 139.0/day</span>
-        <span class="score-pill score-high">Score: 95</span>
-        <span class="vote-btns" data-repo="goehou/tabbit-toy">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-      </div>
-    </div>
-      </div>
-      <div class="date-section" data-date="2026-06-24" style="display:none">
 
-      <div class="date-heading">
-        <h2>⭐ 2026-06-24 — First Timers</h2>
-        <span class="count">10 repos</span>
+    <!-- Repo List -->
+    <div class="date-section" data-date="2026-06-25" style="display:">
+      <div class="date-header">
+        <h3>2026-06-25</h3>
+        <span class="date-count">14 repos</span>
       </div>
-    <div class="Box-row" data-lang="python">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/yo-WASSUP.png" alt="yo-WASSUP" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/yo-WASSUP/Good-Badminton"><span class="owner">yo-WASSUP /</span> Good-Badminton</a></h3>
-      </div>
-      <div class="Box-row-desc">🏸  AI Badminton Hawk-Eye System</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 448</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 149.3/day</span>
-        <span class="score-pill score-gold">Score: 100</span>
-        <span class="vote-btns" data-repo="yo-WASSUP/Good-Badminton">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-        <span class="vote-btns" data-repo="PLACEHOLDER"><button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button><button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button></span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="go">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/overflowy.png" alt="overflowy" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/overflowy/make-look-scanned"><span class="owner">overflowy /</span> make-look-scanned</a></h3>
-      </div>
-      <div class="Box-row-desc">Makes PDFs look scanned (CLI or in the browser via WASM)</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#00ADD8"></span>Go</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 390</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 130.0/day</span>
-        <span class="score-pill score-gold">Score: 100</span>
-        <span class="vote-btns" data-repo="overflowy/make-look-scanned">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-        <span class="vote-btns" data-repo="PLACEHOLDER"><button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button><button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button></span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="typescript">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/HKUDS.png" alt="HKUDS" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/HKUDS/AgentSpace"><span class="owner">HKUDS /</span> AgentSpace</a></h3>
-      </div>
-      <div class="Box-row-desc">"AgentSpace: Human + Agents. One Team. One Workspace"</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 334</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 167.0/day</span>
-        <span class="score-pill score-gold">Score: 100</span>
-        <span class="vote-btns" data-repo="HKUDS/AgentSpace">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-        <span class="vote-btns" data-repo="PLACEHOLDER"><button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button><button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button></span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="typescript">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/samasante.png" alt="samasante" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/samasante/liquid-glass"><span class="owner">samasante /</span> liquid-glass</a></h3>
-      </div>
-      <div class="Box-row-desc">Apple-style Liquid Glass for the web — a headless React lens that refracts the live DOM in Safari, Firefox and Chrome. Zero dependencies.</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 257</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 257.0/day</span>
-        <span class="score-pill score-gold">Score: 100</span>
-        <span class="vote-btns" data-repo="samasante/liquid-glass">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-        <span class="vote-btns" data-repo="PLACEHOLDER"><button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button><button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button></span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="python">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/nova452.png" alt="nova452" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance"><span class="owner">nova452 /</span> ComfyUI-ConditioningKrea2Rebalance</a></h3>
-      </div>
-      <div class="Box-row-desc">A conditioning optimizer with per layer weighting that offers IP-Adapter-like features for Krea 2 along with bypassing the built in quality diluation from the trained safety filter and also works as a means to unfilter the model.</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 154</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 154.0/day</span>
-        <span class="score-pill score-gold">Score: 100</span>
-        <span class="vote-btns" data-repo="nova452/ComfyUI-ConditioningKrea2Rebalance">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-        <span class="vote-btns" data-repo="PLACEHOLDER"><button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button><button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button></span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="python">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/bozhouDev.png" alt="bozhouDev" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/bozhouDev/codex-orange-book"><span class="owner">bozhouDev /</span> codex-orange-book</a></h3>
-      </div>
-      <div class="Box-row-desc">Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 887</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 887.0/day</span>
-        <span class="score-pill score-high">Score: 95</span>
-        <span class="vote-btns" data-repo="bozhouDev/codex-orange-book">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="javascript">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/goehou.png" alt="goehou" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/goehou/tabbit-toy"><span class="owner">goehou /</span> tabbit-toy</a></h3>
-      </div>
-      <div class="Box-row-desc">这是一个基于tabbit的研究包，可以转化成OAI格式出来，同时增加了会员认证功能和一键提取cookie的浏览器拓展，方便快速本地快速使用claude gpt等模型</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 245</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 245.0/day</span>
-        <span class="score-pill score-high">Score: 95</span>
-        <span class="vote-btns" data-repo="goehou/tabbit-toy">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="typescript">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/binghe1980.png" alt="binghe1980" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/binghe1980/AI-Canvas"><span class="owner">binghe1980 /</span> AI-Canvas</a></h3>
-      </div>
-      <div class="Box-row-desc">Codex-integrated infinite canvas for AI image generation, annotation, and iterative editing.</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 113</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 37.7/day</span>
-        <span class="score-pill score-high">Score: 95</span>
-        <span class="vote-btns" data-repo="binghe1980/AI-Canvas">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="python">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/baidu.png" alt="baidu" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/baidu/Unlimited-OCR"><span class="owner">baidu /</span> Unlimited-OCR</a></h3>
-      </div>
-      <div class="Box-row-desc">Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 5016</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 836.0/day</span>
-        <span class="score-pill score-mid">Score: 94</span>
-        <span class="vote-btns" data-repo="baidu/Unlimited-OCR">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="python">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/sums001.png" alt="sums001" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/sums001/Windows-Copilot-API"><span class="owner">sums001 /</span> Windows-Copilot-API</a></h3>
-      </div>
-      <div class="Box-row-desc">Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing.</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 593</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 148.2/day</span>
-        <span class="score-pill score-mid">Score: 94</span>
-        <span class="vote-btns" data-repo="sums001/Windows-Copilot-API">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-      </div>
-    </div>
-      </div>
-      <div class="date-section" data-date="2026-06-23" style="display:none">
-
-      <div class="date-heading">
-        <h2>⭐ 2026-06-23 — First Timers</h2>
-        <span class="count">10 repos</span>
-      </div>
-    <div class="Box-row" data-lang="python">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/sums001.png" alt="sums001" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/sums001/Windows-Copilot-API"><span class="owner">sums001 /</span> Windows-Copilot-API</a></h3>
-      </div>
-      <div class="Box-row-desc">Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing.</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 434</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 144.7/day</span>
-        <span class="score-pill score-gold">Score: 100</span>
-        <span class="vote-btns" data-repo="sums001/Windows-Copilot-API">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-        <span class="vote-btns" data-repo="PLACEHOLDER"><button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button><button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button></span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="python">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/yo-WASSUP.png" alt="yo-WASSUP" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/yo-WASSUP/Good-Badminton"><span class="owner">yo-WASSUP /</span> Good-Badminton</a></h3>
-      </div>
-      <div class="Box-row-desc">🏸  AI Badminton Hawk-Eye System</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 383</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 127.7/day</span>
-        <span class="score-pill score-gold">Score: 100</span>
-        <span class="vote-btns" data-repo="yo-WASSUP/Good-Badminton">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-        <span class="vote-btns" data-repo="PLACEHOLDER"><button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button><button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button></span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="go">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/overflowy.png" alt="overflowy" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/overflowy/make-look-scanned"><span class="owner">overflowy /</span> make-look-scanned</a></h3>
-      </div>
-      <div class="Box-row-desc">Makes PDFs look scanned (CLI or in the browser via WASM)</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#00ADD8"></span>Go</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 362</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 181.0/day</span>
-        <span class="score-pill score-gold">Score: 100</span>
-        <span class="vote-btns" data-repo="overflowy/make-look-scanned">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-        <span class="vote-btns" data-repo="PLACEHOLDER"><button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button><button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button></span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="python">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/raiyanyahya.png" alt="raiyanyahya" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/raiyanyahya/recall"><span class="owner">raiyanyahya /</span> recall</a></h3>
-      </div>
-      <div class="Box-row-desc">Stop wasting tokens and re-explaining your project every session. Recall gives Claude Code durable memory — entirely offline.</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 360</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 120.0/day</span>
-        <span class="score-pill score-gold">Score: 100</span>
-        <span class="vote-btns" data-repo="raiyanyahya/recall">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-        <span class="vote-btns" data-repo="PLACEHOLDER"><button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button><button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button></span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="typescript">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/HKUDS.png" alt="HKUDS" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/HKUDS/AgentSpace"><span class="owner">HKUDS /</span> AgentSpace</a></h3>
-      </div>
-      <div class="Box-row-desc">"AgentSpace: Human + Agents. One Team. One Workspace"</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 288</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 288.0/day</span>
-        <span class="score-pill score-gold">Score: 100</span>
-        <span class="vote-btns" data-repo="HKUDS/AgentSpace">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-        <span class="vote-btns" data-repo="PLACEHOLDER"><button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button><button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button></span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="typescript">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/qwer-xyz.png" alt="qwer-xyz" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/qwer-xyz/incudal"><span class="owner">qwer-xyz /</span> incudal</a></h3>
-      </div>
-      <div class="Box-row-desc">基于 Incus 的 LXC / KVM NAT VPS 销售、交付与管理面板。</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 133</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 44.3/day</span>
-        <span class="score-pill score-gold">Score: 100</span>
-        <span class="vote-btns" data-repo="qwer-xyz/incudal">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-        <span class="vote-btns" data-repo="PLACEHOLDER"><button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button><button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button></span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="python">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/calesthio.png" alt="calesthio" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/calesthio/OpenMontage"><span class="owner">calesthio /</span> OpenMontage</a></h3>
-      </div>
-      <div class="Box-row-desc">World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 14097</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 165.8/day</span>
-        <span class="score-pill score-high">Score: 96</span>
-        <span class="vote-btns" data-repo="calesthio/OpenMontage">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="python">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/ZhuLinsen.png" alt="ZhuLinsen" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/ZhuLinsen/daily_stock_analysis"><span class="owner">ZhuLinsen /</span> daily_stock_analysis</a></h3>
-      </div>
-      <div class="Box-row-desc">LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 46548</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 283.8/day</span>
-        <span class="score-pill score-high">Score: 96</span>
-        <span class="vote-btns" data-repo="ZhuLinsen/daily_stock_analysis">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="python">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/mukul975.png" alt="mukul975" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills"><span class="owner">mukul975 /</span> Anthropic-Cybersecurity-Skills</a></h3>
-      </div>
-      <div class="Box-row-desc">817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 19236</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 163.0/day</span>
-        <span class="score-pill score-high">Score: 96</span>
-        <span class="vote-btns" data-repo="mukul975/Anthropic-Cybersecurity-Skills">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-      </div>
-    </div>
-    <div class="Box-row" data-lang="typescript">
-      <div class="Box-row-header">
-        <img class="avatar" src="https://github.com/garrytan.png" alt="garrytan" onerror="this.style.display='none'">
-        <h3><a href="https://github.com/garrytan/gstack"><span class="owner">garrytan /</span> gstack</a></h3>
-      </div>
-      <div class="Box-row-desc">Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA</div>
-      <div class="Box-row-meta">
-        <span class="meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg> 113685</span>
-        <span class="meta-item"><svg viewBox="0 0 16 16" width="14" height="14" fill="#3fb950"><path d="M8 14V2.5l-6 6H0v7h8z"/></svg> 1103.7/day</span>
-        <span class="score-pill score-high">Score: 96</span>
-        <span class="vote-btns" data-repo="garrytan/gstack">
-          <button class="vote-btn vote-up" onclick="vote(this, 'up')" title="Worth watching">👍</button>
-          <button class="vote-btn vote-down" onclick="vote(this, 'down')" title="Not interesting">👎</button>
-        </span>
-      </div>
-    </div>
-      </div>
-
-    </div>
-  </main>
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-left">
-          <p class="footer-brand">🔥 GitHub Discovery</p>
-          <p class="footer-tagline">Discover trending repos before they go mainstream.</p>
+      <div class="repo" data-lang="python">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/QwenLM.png" alt="QwenLM" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/QwenLM/Qwen-AgentWorld"><span class="repo-owner">QwenLM /</span> Qwen-AgentWorld</a></div>
         </div>
-        <div class="footer-right">
-          <div class="footer-subscribe">
-            <form class="footer-subscribe-form" onsubmit="handleSubscribe(event)">
-              <input type="email" name="email" placeholder="your@email.com" required />
-              <button type="submit">📡 Subscribe</button>
-            </form>
-            <div class="subscribe-success">✅ Subscribed!</div>
-          </div>
+        <div class="repo-desc">Qwen-AgentWorld: Language World Models for General Agents</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>python</span>
+          <span class="repo-meta-item">⭐ 338</span>
+          <span class="repo-meta-item">📈 +169.0/day/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="vote-btns" data-repo="QwenLM/Qwen-AgentWorld">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="c">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/BohemiaInteractive.png" alt="BohemiaInteractive" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/BohemiaInteractive/CWR"><span class="repo-owner">BohemiaInteractive /</span> CWR</a></div>
+        </div>
+        <div class="repo-desc">Arma: Cold War Assault Remastered Source Code Repository.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#555555"></span>c</span>
+          <span class="repo-meta-item">⭐ 257</span>
+          <span class="repo-meta-item">📈 +128.5/day/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="vote-btns" data-repo="BohemiaInteractive/CWR">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/krea-ai.png" alt="krea-ai" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/krea-ai/krea-2"><span class="repo-owner">krea-ai /</span> krea-2</a></div>
+        </div>
+        <div class="repo-desc">Official inference code for Krea 2</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>python</span>
+          <span class="repo-meta-item">⭐ 193</span>
+          <span class="repo-meta-item">📈 +96.5/day/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="vote-btns" data-repo="krea-ai/krea-2">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/calesthio.png" alt="calesthio" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/calesthio/OpenMontage"><span class="repo-owner">calesthio /</span> OpenMontage</a></div>
+        </div>
+        <div class="repo-desc">World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>python</span>
+          <span class="repo-meta-item">⭐ 19963</span>
+          <span class="repo-meta-item">📈 +229.5/day/day</span>
+          <span class="score-tag high">Score 96</span>
+          <span class="vote-btns" data-repo="calesthio/OpenMontage">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/ZhuLinsen.png" alt="ZhuLinsen" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/ZhuLinsen/daily_stock_analysis"><span class="repo-owner">ZhuLinsen /</span> daily_stock_analysis</a></div>
+        </div>
+        <div class="repo-desc">LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>python</span>
+          <span class="repo-meta-item">⭐ 48782</span>
+          <span class="repo-meta-item">📈 +295.6/day/day</span>
+          <span class="score-tag high">Score 96</span>
+          <span class="vote-btns" data-repo="ZhuLinsen/daily_stock_analysis">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="swift">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/apple.png" alt="apple" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/apple/container"><span class="repo-owner">apple /</span> container</a></div>
+        </div>
+        <div class="repo-desc">A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#F05138"></span>swift</span>
+          <span class="repo-meta-item">⭐ 42421</span>
+          <span class="repo-meta-item">📈 +108.8/day/day</span>
+          <span class="score-tag high">Score 96</span>
+          <span class="vote-btns" data-repo="apple/container">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/JCodesMore.png" alt="JCodesMore" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/JCodesMore/ai-website-cloner-template"><span class="repo-owner">JCodesMore /</span> ai-website-cloner-template</a></div>
+        </div>
+        <div class="repo-desc">Clone any website with one command using AI coding agents</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>typescript</span>
+          <span class="repo-meta-item">⭐ 19489</span>
+          <span class="repo-meta-item">📈 +189.2/day/day</span>
+          <span class="score-tag high">Score 96</span>
+          <span class="vote-btns" data-repo="JCodesMore/ai-website-cloner-template">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/google-labs-code.png" alt="google-labs-code" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/google-labs-code/design.md"><span class="repo-owner">google-labs-code /</span> design.md</a></div>
+        </div>
+        <div class="repo-desc">A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>typescript</span>
+          <span class="repo-meta-item">⭐ 17521</span>
+          <span class="repo-meta-item">📈 +233.6/day/day</span>
+          <span class="score-tag high">Score 96</span>
+          <span class="vote-btns" data-repo="google-labs-code/design.md">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/NousResearch.png" alt="NousResearch" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/NousResearch/hermes-agent"><span class="repo-owner">NousResearch /</span> hermes-agent</a></div>
+        </div>
+        <div class="repo-desc">The agent that grows with you</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>python</span>
+          <span class="repo-meta-item">⭐ 202220</span>
+          <span class="repo-meta-item">📈 +600.1/day/day</span>
+          <span class="score-tag high">Score 96</span>
+          <span class="vote-btns" data-repo="NousResearch/hermes-agent">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="javascript">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/Yu9191.png" alt="Yu9191" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/Yu9191/wloc"><span class="repo-owner">Yu9191 /</span> wloc</a></div>
+        </div>
+        <div class="repo-desc">Apple WLOC Location Spoofer</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#f1e05a"></span>javascript</span>
+          <span class="repo-meta-item">⭐ 217</span>
+          <span class="repo-meta-item">📈 +217.0/day/day</span>
+          <span class="score-tag high">Score 95</span>
+          <span class="vote-btns" data-repo="Yu9191/wloc">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/HKUDS.png" alt="HKUDS" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/HKUDS/AgentSpace"><span class="repo-owner">HKUDS /</span> AgentSpace</a></div>
+        </div>
+        <div class="repo-desc">"AgentSpace: Human + Agents. One Team. One Workspace"</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>typescript</span>
+          <span class="repo-meta-item">⭐ 365</span>
+          <span class="repo-meta-item">📈 +182.5/day/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="vote-btns" data-repo="HKUDS/AgentSpace">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/samasante.png" alt="samasante" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/samasante/liquid-glass"><span class="repo-owner">samasante /</span> liquid-glass</a></div>
+        </div>
+        <div class="repo-desc">Apple-style Liquid Glass for the web — a headless React lens that refracts the live DOM in Safari, Firefox and Chrome. Zero dependencies.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>typescript</span>
+          <span class="repo-meta-item">⭐ 293</span>
+          <span class="repo-meta-item">📈 +146.5/day/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="vote-btns" data-repo="samasante/liquid-glass">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/nova452.png" alt="nova452" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance"><span class="repo-owner">nova452 /</span> ComfyUI-ConditioningKrea2Rebalance</a></div>
+        </div>
+        <div class="repo-desc">A conditioning optimizer with per layer weighting that offers IP-Adapter-like features for Krea 2 along with bypassing the built in quality diluation from the trained safety filter and also works as a means to unfilter the model.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>python</span>
+          <span class="repo-meta-item">⭐ 205</span>
+          <span class="repo-meta-item">📈 +205.0/day/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="vote-btns" data-repo="nova452/ComfyUI-ConditioningKrea2Rebalance">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="html">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/bozhouDev.png" alt="bozhouDev" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/bozhouDev/codex-orange-book"><span class="repo-owner">bozhouDev /</span> codex-orange-book</a></div>
+        </div>
+        <div class="repo-desc">Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#e34c26"></span>html</span>
+          <span class="repo-meta-item">⭐ 1541</span>
+          <span class="repo-meta-item">📈 +770.5/day/day</span>
+          <span class="score-tag high">Score 95</span>
+          <span class="vote-btns" data-repo="bozhouDev/codex-orange-book">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="date-section" data-date="2026-06-24" style="display:none">
+      <div class="date-header">
+        <h3>2026-06-24</h3>
+        <span class="date-count">9 repos</span>
+      </div>
+      <div class="repo" data-lang="python">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/yo-WASSUP.png" alt="yo-WASSUP" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/yo-WASSUP/Good-Badminton"><span class="repo-owner">yo-WASSUP /</span> Good-Badminton</a></div>
+        </div>
+        <div class="repo-desc">🏸  AI Badminton Hawk-Eye System</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>python</span>
+          <span class="repo-meta-item">⭐ 448</span>
+          <span class="repo-meta-item">📈 +149.3/day/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="vote-btns" data-repo="yo-WASSUP/Good-Badminton">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="go">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/overflowy.png" alt="overflowy" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/overflowy/make-look-scanned"><span class="repo-owner">overflowy /</span> make-look-scanned</a></div>
+        </div>
+        <div class="repo-desc">Makes PDFs look scanned (CLI or in the browser via WASM)</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#00ADD8"></span>go</span>
+          <span class="repo-meta-item">⭐ 390</span>
+          <span class="repo-meta-item">📈 +130.0/day/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="vote-btns" data-repo="overflowy/make-look-scanned">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/HKUDS.png" alt="HKUDS" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/HKUDS/AgentSpace"><span class="repo-owner">HKUDS /</span> AgentSpace</a></div>
+        </div>
+        <div class="repo-desc">"AgentSpace: Human + Agents. One Team. One Workspace"</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>typescript</span>
+          <span class="repo-meta-item">⭐ 334</span>
+          <span class="repo-meta-item">📈 +167.0/day/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="vote-btns" data-repo="HKUDS/AgentSpace">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/samasante.png" alt="samasante" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/samasante/liquid-glass"><span class="repo-owner">samasante /</span> liquid-glass</a></div>
+        </div>
+        <div class="repo-desc">Apple-style Liquid Glass for the web — a headless React lens that refracts the live DOM in Safari, Firefox and Chrome. Zero dependencies.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>typescript</span>
+          <span class="repo-meta-item">⭐ 257</span>
+          <span class="repo-meta-item">📈 +257.0/day/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="vote-btns" data-repo="samasante/liquid-glass">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/nova452.png" alt="nova452" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance"><span class="repo-owner">nova452 /</span> ComfyUI-ConditioningKrea2Rebalance</a></div>
+        </div>
+        <div class="repo-desc">A conditioning optimizer with per layer weighting that offers IP-Adapter-like features for Krea 2 along with bypassing the built in quality diluation from the trained safety filter and also works as a means to unfilter the model.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>python</span>
+          <span class="repo-meta-item">⭐ 154</span>
+          <span class="repo-meta-item">📈 +154.0/day/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="vote-btns" data-repo="nova452/ComfyUI-ConditioningKrea2Rebalance">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/bozhouDev.png" alt="bozhouDev" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/bozhouDev/codex-orange-book"><span class="repo-owner">bozhouDev /</span> codex-orange-book</a></div>
+        </div>
+        <div class="repo-desc">Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>python</span>
+          <span class="repo-meta-item">⭐ 887</span>
+          <span class="repo-meta-item">📈 +887.0/day/day</span>
+          <span class="score-tag high">Score 95</span>
+          <span class="vote-btns" data-repo="bozhouDev/codex-orange-book">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="javascript">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/goehou.png" alt="goehou" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/goehou/tabbit-toy"><span class="repo-owner">goehou /</span> tabbit-toy</a></div>
+        </div>
+        <div class="repo-desc">这是一个基于tabbit的研究包，可以转化成OAI格式出来，同时增加了会员认证功能和一键提取cookie的浏览器拓展，方便快速本地快速使用claude gpt等模型</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#f1e05a"></span>javascript</span>
+          <span class="repo-meta-item">⭐ 245</span>
+          <span class="repo-meta-item">📈 +245.0/day/day</span>
+          <span class="score-tag high">Score 95</span>
+          <span class="vote-btns" data-repo="goehou/tabbit-toy">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/binghe1980.png" alt="binghe1980" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/binghe1980/AI-Canvas"><span class="repo-owner">binghe1980 /</span> AI-Canvas</a></div>
+        </div>
+        <div class="repo-desc">Codex-integrated infinite canvas for AI image generation, annotation, and iterative editing.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>typescript</span>
+          <span class="repo-meta-item">⭐ 113</span>
+          <span class="repo-meta-item">📈 +37.7/day/day</span>
+          <span class="score-tag high">Score 95</span>
+          <span class="vote-btns" data-repo="binghe1980/AI-Canvas">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/baidu.png" alt="baidu" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/baidu/Unlimited-OCR"><span class="repo-owner">baidu /</span> Unlimited-OCR</a></div>
+        </div>
+        <div class="repo-desc">Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>python</span>
+          <span class="repo-meta-item">⭐ 5016</span>
+          <span class="repo-meta-item">📈 +836.0/day/day</span>
+          <span class="score-tag high">Score 94</span>
+          <span class="vote-btns" data-repo="baidu/Unlimited-OCR">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="date-section" data-date="2026-06-23" style="display:none">
+      <div class="date-header">
+        <h3>2026-06-23</h3>
+        <span class="date-count">10 repos</span>
+      </div>
+      <div class="repo" data-lang="python">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/sums001.png" alt="sums001" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/sums001/Windows-Copilot-API"><span class="repo-owner">sums001 /</span> Windows-Copilot-API</a></div>
+        </div>
+        <div class="repo-desc">Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>python</span>
+          <span class="repo-meta-item">⭐ 434</span>
+          <span class="repo-meta-item">📈 +144.7/day/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="vote-btns" data-repo="sums001/Windows-Copilot-API">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/yo-WASSUP.png" alt="yo-WASSUP" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/yo-WASSUP/Good-Badminton"><span class="repo-owner">yo-WASSUP /</span> Good-Badminton</a></div>
+        </div>
+        <div class="repo-desc">🏸  AI Badminton Hawk-Eye System</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>python</span>
+          <span class="repo-meta-item">⭐ 383</span>
+          <span class="repo-meta-item">📈 +127.7/day/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="vote-btns" data-repo="yo-WASSUP/Good-Badminton">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="go">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/overflowy.png" alt="overflowy" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/overflowy/make-look-scanned"><span class="repo-owner">overflowy /</span> make-look-scanned</a></div>
+        </div>
+        <div class="repo-desc">Makes PDFs look scanned (CLI or in the browser via WASM)</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#00ADD8"></span>go</span>
+          <span class="repo-meta-item">⭐ 362</span>
+          <span class="repo-meta-item">📈 +181.0/day/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="vote-btns" data-repo="overflowy/make-look-scanned">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/raiyanyahya.png" alt="raiyanyahya" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/raiyanyahya/recall"><span class="repo-owner">raiyanyahya /</span> recall</a></div>
+        </div>
+        <div class="repo-desc">Stop wasting tokens and re-explaining your project every session. Recall gives Claude Code durable memory — entirely offline.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>python</span>
+          <span class="repo-meta-item">⭐ 360</span>
+          <span class="repo-meta-item">📈 +120.0/day/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="vote-btns" data-repo="raiyanyahya/recall">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/HKUDS.png" alt="HKUDS" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/HKUDS/AgentSpace"><span class="repo-owner">HKUDS /</span> AgentSpace</a></div>
+        </div>
+        <div class="repo-desc">"AgentSpace: Human + Agents. One Team. One Workspace"</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>typescript</span>
+          <span class="repo-meta-item">⭐ 288</span>
+          <span class="repo-meta-item">📈 +288.0/day/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="vote-btns" data-repo="HKUDS/AgentSpace">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/qwer-xyz.png" alt="qwer-xyz" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/qwer-xyz/incudal"><span class="repo-owner">qwer-xyz /</span> incudal</a></div>
+        </div>
+        <div class="repo-desc">基于 Incus 的 LXC / KVM NAT VPS 销售、交付与管理面板。</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>typescript</span>
+          <span class="repo-meta-item">⭐ 133</span>
+          <span class="repo-meta-item">📈 +44.3/day/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="vote-btns" data-repo="qwer-xyz/incudal">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/calesthio.png" alt="calesthio" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/calesthio/OpenMontage"><span class="repo-owner">calesthio /</span> OpenMontage</a></div>
+        </div>
+        <div class="repo-desc">World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>python</span>
+          <span class="repo-meta-item">⭐ 14097</span>
+          <span class="repo-meta-item">📈 +165.8/day/day</span>
+          <span class="score-tag high">Score 96</span>
+          <span class="vote-btns" data-repo="calesthio/OpenMontage">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/ZhuLinsen.png" alt="ZhuLinsen" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/ZhuLinsen/daily_stock_analysis"><span class="repo-owner">ZhuLinsen /</span> daily_stock_analysis</a></div>
+        </div>
+        <div class="repo-desc">LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>python</span>
+          <span class="repo-meta-item">⭐ 46548</span>
+          <span class="repo-meta-item">📈 +283.8/day/day</span>
+          <span class="score-tag high">Score 96</span>
+          <span class="vote-btns" data-repo="ZhuLinsen/daily_stock_analysis">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/mukul975.png" alt="mukul975" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills"><span class="repo-owner">mukul975 /</span> Anthropic-Cybersecurity-Skills</a></div>
+        </div>
+        <div class="repo-desc">817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>python</span>
+          <span class="repo-meta-item">⭐ 19236</span>
+          <span class="repo-meta-item">📈 +163.0/day/day</span>
+          <span class="score-tag high">Score 96</span>
+          <span class="vote-btns" data-repo="mukul975/Anthropic-Cybersecurity-Skills">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/garrytan.png" alt="garrytan" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/garrytan/gstack"><span class="repo-owner">garrytan /</span> gstack</a></div>
+        </div>
+        <div class="repo-desc">Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>typescript</span>
+          <span class="repo-meta-item">⭐ 113685</span>
+          <span class="repo-meta-item">📈 +1103.7/day/day</span>
+          <span class="score-tag high">Score 96</span>
+          <span class="vote-btns" data-repo="garrytan/gstack">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <div>
+          <div class="footer-brand">🔥 GitHub Discovery</div>
+          <div class="footer-tagline">Discover trending repos before they go mainstream.</div>
+        </div>
+        <div>
+          <form class="footer-sub-form" onsubmit="handleSubscribe(event)">
+            <input type="email" name="email" placeholder="your@email.com" required>
+            <button type="submit">Subscribe</button>
+          </form>
+          <div class="subscribe-success">✅ Subscribed!</div>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>Built by <a href="https://github.com/alloevil">alloevil</a> · <a href="https://github.com/alloevil/github-discovery">Source Code</a> · <a href="https://alloevil.github.io/github-discovery/feed.xml">RSS</a></p>
+        <p>Built by <a href="https://github.com/alloevil">alloevil</a> · <a href="https://github.com/alloevil/github-discovery">Source</a> · <a href="https://alloevil.github.io/github-discovery/feed.xml">RSS</a></p>
       </div>
-    </div>
-  </footer>
-
-  <script>
-    function handleSubscribe(e) {
-      e.preventDefault();
-      const form = e.target;
-      const btn = form.querySelector('button');
-      const email = form.querySelector('input[name="email"]').value;
-      if (!email) return;
-      btn.textContent = '...';
-      btn.disabled = true;
-      fetch('https://script.google.com/macros/s/AKfycbz2t4LqKJrEIYMV0pBWVy9se7vIYZ8Ey070BhWKKyjlO0LDrzgcIYU863Am9-9VcLKzyQ/exec', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email: email }),
-        mode: 'no-cors'
-      }).then(() => {
-        form.style.display = 'none';
-        form.nextElementSibling.style.display = 'block';
-      }).catch(() => {
-        form.style.display = 'none';
-        form.nextElementSibling.style.display = 'block';
-      });
-    }
-    function switchDate(date) {
-      document.querySelectorAll('.date-tab').forEach(t => t.classList.remove('active'));
-      event.target.classList.add('active');
-      document.querySelectorAll('.date-section').forEach(s => {
-        s.style.display = s.getAttribute('data-date') === date ? '' : 'none';
-      });
-      // Reset lang filter to All when switching date
-      document.querySelectorAll('.lang-filter button').forEach(b => b.classList.remove('active'));
-      document.querySelector('.lang-filter button').classList.add('active');
-      document.querySelectorAll('.Box-row').forEach(row => { row.style.display = ''; });
-    }
-    function filterLang(lang) {
-      document.querySelectorAll('.lang-filter button').forEach(b => b.classList.remove('active'));
-      event.target.classList.add('active');
-      document.querySelectorAll('.Box-row').forEach(row => {
-        const rowLang = row.getAttribute('data-lang') || 'unknown';
-        if (lang === 'all') {
-          row.style.display = '';
-        } else if (lang === 'other') {
-          const mainLangs = ['python','typescript','javascript','rust','go','java','c++'];
-          row.style.display = mainLangs.includes(rowLang) ? 'none' : '';
-        } else {
-          row.style.display = rowLang === lang ? '' : 'none';
-        }
-      });
-    }
-  </script>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>Generated by <a href="https://github.com/alloevil/github-discovery">GitHub Discovery</a> · Updated daily at 18:00 CST</p>
-      <p><a href="https://alloevil.github.io/github-discovery/feed.xml">📡 RSS Feed</a> · Inspired by <a href="https://github.com/thechangelog/nightly">Changelog Nightly</a></p>
-    </div>
-  </footer>
-
-<style>
-.vote-btns { display: inline-flex; gap: 4px; margin-left: 8px; }
-.vote-btn {
-  background: none; border: 1px solid #30363d; border-radius: 6px;
-  padding: 2px 8px; cursor: pointer; font-size: 14px; opacity: 0.5;
-  transition: all 0.2s;
-}
-.vote-btn:hover { opacity: 1; transform: scale(1.1); }
-.vote-btn.voted { opacity: 1; border-color: #58a6ff; background: #161b22; }
-.vote-btn.vote-up.voted { border-color: #3fb950; }
-.vote-btn.vote-down.voted { border-color: #f85149; }
-
-    .site-footer { margin-top: 48px; padding: 32px 0 24px; background: #0a0a14; border-top: 1px solid #1a1a2e; }
-    .footer-content { display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
-    .footer-brand { font-family: var(--font-sans); font-size: 16px; color: #00ffff; margin: 0 0 4px; }
-    .footer-tagline { font-size: 12px; color: #666680; margin: 0; }
-    .footer-subscribe-form { display: flex; gap: 8px; }
-    .footer-subscribe-form input[type="email"] { padding: 8px 12px; background: #0a0a14; border: 1px solid #1a1a2e; border-radius: 6px; color: #c0c0d0; font-size: 13px; min-width: 200px; }
-    .footer-subscribe-form input[type="email"]:focus { border-color: #00ffff55; outline: none; }
-    .footer-subscribe-form button { padding: 8px 16px; background: linear-gradient(135deg, #00ffff18, #ff00ff12); border: 1px solid #00ffff33; border-radius: 6px; color: #00ffff; font-size: 13px; cursor: pointer; white-space: nowrap; }
-    .footer-subscribe-form button:hover { background: linear-gradient(135deg, #00ffff28, #ff00ff18); }
-    .footer-bottom { margin-top: 20px; padding-top: 16px; border-top: 1px solid #1a1a2e; text-align: center; }
-    .footer-bottom p { font-size: 11px; color: #444460; margin: 0; }
-    .footer-bottom a { color: #666680; text-decoration: none; }
-    .footer-bottom a:hover { color: #00ffff; }
-    @media (max-width: 640px) {
-      .footer-content { flex-direction: column; text-align: center; }
-      .footer-subscribe-form { flex-direction: column; }
-      .footer-subscribe-form input[type="email"] { min-width: auto; }
-    }
-
-  </style>
+    </footer>
+  </div>
 
 <script>
+function switchDate(date) {
+  document.querySelectorAll('.date-section').forEach(s => s.style.display = 'none');
+  document.querySelector('[data-date="' + date + '"]').style.display = '';
+  document.querySelectorAll('#date-filters .filter-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+}
+
+function filterLang(lang) {
+  document.querySelectorAll('.repo').forEach(r => {
+    const rl = r.getAttribute('data-lang') || '';
+    r.style.display = (lang === 'all' || rl === lang) ? '' : 'none';
+  });
+  document.querySelectorAll('#lang-filters .filter-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+}
+
 function vote(btn, type) {
   const container = btn.closest('.vote-btns');
   const repo = container.dataset.repo;
   const key = 'ghd-vote-' + repo;
   const existing = localStorage.getItem(key);
-  
-  // 撤销已有投票
   if (existing === type) {
     localStorage.removeItem(key);
     container.querySelectorAll('.vote-btn').forEach(b => b.classList.remove('voted'));
     return;
   }
-  
-  // 记录新投票
   localStorage.setItem(key, type);
   container.querySelectorAll('.vote-btn').forEach(b => b.classList.remove('voted'));
   btn.classList.add('voted');
 }
 
-// 页面加载时恢复投票状态
+function handleSubscribe(e) {
+  e.preventDefault();
+  const form = e.target;
+  const btn = form.querySelector('button');
+  const email = form.querySelector('input[name="email"]').value;
+  btn.textContent = '...';
+  btn.disabled = true;
+  fetch('https://script.google.com/macros/s/AKfycbzU-my3_JCqauuMwIWL2ps84hZ46lKWSeQ9zSYFay-xhoE9MaXpXH_i08roJo4fRuPf1Q/exec', {
+    method: 'POST',
+    body: JSON.stringify({ email: email }),
+    headers: { 'Content-Type': 'application/json' }
+  })
+  .then(r => r.json())
+  .then(data => {
+    form.style.display = 'none';
+    form.nextElementSibling.style.display = 'block';
+  })
+  .catch(err => {
+    btn.textContent = 'Subscribe';
+    btn.disabled = false;
+    alert('Subscription failed. Please try again.');
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.vote-btns').forEach(container => {
     const repo = container.dataset.repo;
-    const vote = localStorage.getItem('ghd-vote-' + repo);
-    if (vote) {
-      const btn = container.querySelector('.vote-' + vote);
+    const v = localStorage.getItem('ghd-vote-' + repo);
+    if (v) {
+      const btn = container.querySelector('.vote-' + v);
       if (btn) btn.classList.add('voted');
     }
   });
