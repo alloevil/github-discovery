@@ -322,6 +322,11 @@ def fetch_all() -> list[dict]:
         r["source"] = "rising"
     all_repos.extend(rising)
 
+    ai_trending = fetch_ai_trending()
+    for r in ai_trending:
+        r["source"] = "ai-trending"
+    all_repos.extend(ai_trending)
+
     # Deduplicate by full_name, keep first occurrence
     seen = set()
     unique = []
@@ -332,3 +337,52 @@ def fetch_all() -> list[dict]:
 
     print(f"\n[Total] {len(unique)} unique repos from all sources")
     return unique
+
+def fetch_ai_trending() -> list[dict]:
+    """
+    Find trending AI/ML repositories with fast growth.
+    Inspired by OSSInsight's trending/ai page.
+    """
+    ai_keywords = [
+        "llm", "large language model", "ai agent", "machine learning",
+        "deep learning", "transformer", "gpt", "claude", "diffusion",
+        "stable diffusion", "computer vision", "nlp", "reinforcement learning",
+        "rag", "retrieval augmented generation", "vector database",
+        "embedding", "fine-tuning", "lora", "qlora", "inference", "mlops"
+    ]
+    
+    date_from = (datetime.now(timezone.utc) - __import__('datetime').timedelta(days=7)).strftime('%Y-%m-%d')
+    all_repos = []
+    
+    for keyword in ai_keywords[:5]:  # 限制请求数量
+        try:
+            query = f'"{keyword}" created:>{date_from} stars:>50'
+            data = _gh_api("/search/repositories", {
+                "q": query,
+                "sort": "stars",
+                "order": "desc",
+                "per_page": 10
+            })
+            
+            if data and "items" in data:
+                for repo in data["items"]:
+                    all_repos.append(_normalize_repo(repo))
+            
+            time.sleep(API_DELAY)
+        except Exception as e:
+            print(f"  [WARN] AI trending error for {keyword}: {e}")
+            continue
+    
+    # 去重
+    seen = set()
+    unique = []
+    for r in all_repos:
+        if r["full_name"] not in seen:
+            seen.add(r["full_name"])
+            unique.append(r)
+    
+    # 按星标数排序
+    unique.sort(key=lambda x: x.get("stars", 0), reverse=True)
+    
+    print(f"[AI Trending] {len(unique)} repos")
+    return unique[:30]  # 返回前 30 个
