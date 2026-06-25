@@ -1,12 +1,12 @@
 // GitHub Discovery Newsletter - Google Apps Script Web App
 // 功能：
-//   1. doPost: 接收表单订阅，写入 Google Sheet
+//   1. doPost: 接收表单订阅，写入 Google Sheet，发送确认邮件
 //   2. doGet: 返回订阅者列表 JSON
 //   3. 每次新增订阅后，自动同步到 GitHub 的 subscribers.txt
 
 // ========== 配置 ==========
 var SHEET_ID = '1YoiRZ73frrij_98gcUtEjmw29yuXGFhoHUHzkwO-Ubo';
-var GITHUB_TOKEN = 'YOUR_GITHUB_TOKEN_HERE';
+var GITHUB_TOKEN = 'YOUR_G…HERE';
 var GITHUB_REPO = 'alloevil/github-discovery';
 // ===========================
 
@@ -33,6 +33,10 @@ function doPost(e) {
 
     // 同步到 GitHub
     var syncResult = syncToGitHub(email);
+
+    // 发送确认邮件
+    sendConfirmEmail(email);
+
     return jsonResponse({status: 'ok', sync: syncResult});
   } catch (err) {
     return jsonResponse({error: err.message});
@@ -52,6 +56,26 @@ function doGet(e) {
     return jsonResponse({subscribers: emails});
   } catch (err) {
     return jsonResponse({error: err.message});
+  }
+}
+
+function sendConfirmEmail(email) {
+  try {
+    MailApp.sendEmail({
+      to: email,
+      subject: '✅ GitHub Discovery Newsletter 订阅确认',
+      htmlBody: '<div style="font-family:sans-serif;max-width:600px;margin:0 auto;padding:20px;">' +
+        '<h2 style="color:#1a73e8;">🎉 订阅成功！</h2>' +
+        '<p>感谢你订阅 <strong>GitHub Discovery Newsletter</strong>！</p>' +
+        '<p>你将收到精选的 GitHub 优质项目推荐，帮助你发现更多好项目。</p>' +
+        '<hr style="border:none;border-top:1px solid #eee;margin:20px 0;">' +
+        '<p style="color:#666;font-size:12px;">如需退订，请回复邮件说明即可。</p>' +
+        '</div>',
+      noReply: true
+    });
+    Logger.log('✅ Confirmation email sent to: ' + email);
+  } catch (err) {
+    Logger.log('❌ Email send failed: ' + err.message);
   }
 }
 
