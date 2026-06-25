@@ -71,10 +71,11 @@ def _normalize_repo(data: dict) -> dict:
         "forks": data.get("forks_count", 0),
         "fork": data.get("fork", False),
         "license": (data.get("license") or {}).get("spdx_id", ""),
-        "has_readme": True,  # API repos typically have README if popular
+        "has_readme": True,
         "created_at": created,
         "age_days": age_days,
         "daily_stars": stars / age_days if age_days > 0 else stars,
+        "watchers": data.get("subscribers_count", 0),
     }
 
 
@@ -89,14 +90,12 @@ def fetch_trending() -> list[dict]:
         print(f"  [WARN] Trending fetch failed: {e}")
         return []
 
-    # Extract repo names from <h2 class="h3 ...">  <a href="/owner/repo">
     repos = re.findall(r'<h2[^>]*>\s*<a[^>]*href="(/[^/]+/[^"]+)"', html)
     if not repos:
-        # fallback pattern
         repos = re.findall(r'href="(/[^/]+/[^"]+)"[^>]*class="[^"]*color-fg-default', html)
 
     results = []
-    for path in repos[:25]:  # top 25 from trending
+    for path in repos[:25]:
         full_name = path.strip("/")
         if "/" not in full_name:
             continue
@@ -116,7 +115,6 @@ def fetch_search() -> list[dict]:
     print("[Source] Fetching from GitHub Search API...")
     results = []
 
-    # Query: repos created in last 7 days, sorted by stars
     from datetime import timedelta
     date_since = (datetime.now(timezone.utc) - timedelta(days=7)).strftime("%Y-%m-%d")
     queries = [
@@ -154,11 +152,10 @@ def fetch_hn() -> list[dict]:
     print("[Source] Fetching Show HN stories...")
     results = []
 
-    # Get top and new stories
     try:
         top_url = f"{HN_API}/showstories.json"
         ids_json = _fetch_url(top_url, timeout=8)
-        story_ids = json.loads(ids_json)[:8]  # top 10 Show HN (speed-optimized)
+        story_ids = json.loads(ids_json)[:8]
     except Exception as e:
         print(f"  [WARN] HN fetch failed: {e}")
         return []
@@ -178,10 +175,8 @@ def fetch_hn() -> list[dict]:
         url = story.get("url", "")
         title = story.get("title", "")
 
-        # Extract GitHub repo URL
         gh_match = re.match(r"https?://github\.com/([^/]+/[^/]+)", url)
         if not gh_match:
-            # Check title for GitHub links
             gh_match = re.search(r"github\.com/([^/]+/[^/\s]+)", title)
 
         if gh_match:
@@ -196,6 +191,105 @@ def fetch_hn() -> list[dict]:
                 results.append(repo)
 
     print(f"  Found {len(results)} repos from HN")
+    return results
+
+
+# ── Source 4: Reddit /r/programming ────────────────────────────────────
+
+def fetch_reddit() -> list[dict]:
+    """Fetch GitHub repos from Reddit /r/programming hot posts."""
+    print("[Source] Fetching Reddit /r/programming...")
+    results = []
+
+    try:
+        url = "https://www.reddit.com/r/programming/hot.json?limit=25"
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "github-discovery-bot/1.0"
+        })
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read())
+    except Exception as e:
+        print(f"  [WARN] Reddit fetch failed: {e}")
+        return []
+
+    seen = set()
+    for post in data.get("data", {}).get("children", []):
+        post_data = post.get("data", {})
+        post_url = post_data.get("url", "")
+        title = post_data.get("title", "")
+        ups = post_data.get("ups", 0)
+
+        # 提取 GitHub 链接
+        gh_match = re.match(r"https?://github\.com/([^/]+/[^/]+)", post_url)
+        if not gh_match:
+            gh_match = re.search(r"github\.com/([^/]+/[^/\s]+)", title)
+
+        if gh_match:
+            full_name = gh_match.group(1).rstrip("/")
+            if full_name in seen:
+                continue
+            seen.add(full_name)
+            repo = _parse_repo(full_name)
+            if repo:
+                repo["reddit_title"] = title
+                repo["reddit_score"] = ups
+                results.append(repo)
+
+    print(f"  Found {len(results)} repos from Reddit")
+    return results
+
+
+# ── Source 5: GitHub Watch/Fork 增速异常检测 ───────────────────────────
+
+def fetch_rising() -> list[dict]:
+    """Detect repos with unusual Fork/Watch growth (early signal)."""
+    print("[Source] Detecting rising repos (fork/watch signals)...")
+    results = []
+
+    from datetime import timedelta
+    date_since = (datetime.now(timezone.utc) - timedelta(days=3)).strftime("%Y-%m-%d")
+
+    # 搜索最近 3 天 fork 数异常高的仓库（fork > stars * 0.3 说明有实际使用）
+    queries = [
+        f"created:>{date_since} forks:>20 stars:>30",
+        f"created:>{date_since} forks:>50",
+    ]
+
+    seen = set()
+    for q in queries:
+        time.sleep(API_DELAY)
+        data = _gh_api("/search/repositories", {
+            "q": q,
+            "sort": "forks",
+            "order": "desc",
+            "per_page": "15",
+        })
+        if not data or "items" not in data:
+            continue
+        for item in data["items"]:
+            full_name = item["full_name"]
+            if full_name in seen:
+                continue
+            seen.add(full_name)
+
+            repo = _normalize_repo(item)
+            stars = repo.get("stars", 0)
+            forks = repo.get("forks", 0)
+            watchers = repo.get("watchers", 0)
+
+            # 计算 fork/star 比率（越高说明实际使用越多）
+            fork_ratio = forks / stars if stars > 0 else 0
+            # 计算 watcher/star 比率（越高说明关注度越集中）
+            watch_ratio = watchers / stars if stars > 0 else 0
+
+            repo["fork_ratio"] = round(fork_ratio, 2)
+            repo["watch_ratio"] = round(watch_ratio, 2)
+            repo["rising_signal"] = "high_fork" if fork_ratio > 0.3 else "high_watch" if watch_ratio > 0.1 else ""
+
+            if repo["rising_signal"]:
+                results.append(repo)
+
+    print(f"  Found {len(results)} rising repos")
     return results
 
 
@@ -218,7 +312,17 @@ def fetch_all() -> list[dict]:
         r["source"] = "hn"
     all_repos.extend(hn)
 
-    # Deduplicate by full_name, keep first occurrence (prioritize trending > search > hn)
+    reddit = fetch_reddit()
+    for r in reddit:
+        r["source"] = "reddit"
+    all_repos.extend(reddit)
+
+    rising = fetch_rising()
+    for r in rising:
+        r["source"] = "rising"
+    all_repos.extend(rising)
+
+    # Deduplicate by full_name, keep first occurrence
     seen = set()
     unique = []
     for r in all_repos:
