@@ -127,6 +127,26 @@
       .score-pill { padding: 1px 8px; font-size: 10px; }
       .date-tab { padding: 5px 10px; font-size: 10px; }
     }
+  
+    .site-footer { margin-top: 48px; padding: 32px 0 24px; background: #0a0a14; border-top: 1px solid #1a1a2e; }
+    .footer-content { display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
+    .footer-brand { font-family: 'Orbitron', sans-serif; font-size: 16px; color: #00ffff; margin: 0 0 4px; }
+    .footer-tagline { font-size: 12px; color: #666680; margin: 0; }
+    .footer-subscribe-form { display: flex; gap: 8px; }
+    .footer-subscribe-form input[type="email"] { padding: 8px 12px; background: #0a0a14; border: 1px solid #1a1a2e; border-radius: 6px; color: #c0c0d0; font-size: 13px; min-width: 200px; }
+    .footer-subscribe-form input[type="email"]:focus { border-color: #00ffff55; outline: none; }
+    .footer-subscribe-form button { padding: 8px 16px; background: linear-gradient(135deg, #00ffff18, #ff00ff12); border: 1px solid #00ffff33; border-radius: 6px; color: #00ffff; font-size: 13px; cursor: pointer; white-space: nowrap; }
+    .footer-subscribe-form button:hover { background: linear-gradient(135deg, #00ffff28, #ff00ff18); }
+    .footer-bottom { margin-top: 20px; padding-top: 16px; border-top: 1px solid #1a1a2e; text-align: center; }
+    .footer-bottom p { font-size: 11px; color: #444460; margin: 0; }
+    .footer-bottom a { color: #666680; text-decoration: none; }
+    .footer-bottom a:hover { color: #00ffff; }
+    @media (max-width: 640px) {
+      .footer-content { flex-direction: column; text-align: center; }
+      .footer-subscribe-form { flex-direction: column; }
+      .footer-subscribe-form input[type="email"] { min-width: auto; }
+    }
+
   </style>
 </head>
 <body>
@@ -152,15 +172,7 @@
         <div class="summary-item"><span class="num">35</span><span class="label">Repos Discovered</span></div>
         <div class="summary-item"><span class="num">100</span><span class="label">Top Score</span></div>
       </div>
-      <div class="subscribe-box">
-        <div class="subscribe-title">📡 Subscribe to GitHub Discovery</div>
-        <div class="subscribe-desc">Get the top trending repos delivered to your inbox daily.</div>
-        <form class="subscribe-form" onsubmit="handleSubscribe(event)">
-          <input type="email" name="email" placeholder="your@email.com" required />
-          <button type="submit">Subscribe</button>
-        </form>
-        <div class="subscribe-success">✅ Subscribed! You'll receive daily updates.</div>
-      </div>
+
       <div class="date-nav">
         <button class="date-tab active" onclick="switchDate('2026-06-25')">2026-06-25</button>
         <button class="date-tab" onclick="switchDate('2026-06-24')">2026-06-24</button>
@@ -818,6 +830,28 @@
 
     </div>
   </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <p class="footer-brand">🔥 GitHub Discovery</p>
+          <p class="footer-tagline">Discover trending repos before they go mainstream.</p>
+        </div>
+        <div class="footer-right">
+          <div class="footer-subscribe">
+            <form class="footer-subscribe-form" onsubmit="handleSubscribe(event)">
+              <input type="email" name="email" placeholder="your@email.com" required />
+              <button type="submit">📡 Subscribe</button>
+            </form>
+            <div class="subscribe-success">✅ Subscribed!</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Built by <a href="https://github.com/alloevil">alloevil</a> · <a href="https://github.com/alloevil/github-discovery">Source Code</a> · <a href="https://alloevil.github.io/github-discovery/feed.xml">RSS</a></p>
+      </div>
+    </div>
+  </footer>
 
   <script>
     function handleSubscribe(e) {
@@ -887,7 +921,27 @@
 .vote-btn.voted { opacity: 1; border-color: #58a6ff; background: #161b22; }
 .vote-btn.vote-up.voted { border-color: #3fb950; }
 .vote-btn.vote-down.voted { border-color: #f85149; }
-</style>
+
+    .site-footer { margin-top: 48px; padding: 32px 0 24px; background: #0a0a14; border-top: 1px solid #1a1a2e; }
+    .footer-content { display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
+    .footer-brand { font-family: 'Orbitron', sans-serif; font-size: 16px; color: #00ffff; margin: 0 0 4px; }
+    .footer-tagline { font-size: 12px; color: #666680; margin: 0; }
+    .footer-subscribe-form { display: flex; gap: 8px; }
+    .footer-subscribe-form input[type="email"] { padding: 8px 12px; background: #0a0a14; border: 1px solid #1a1a2e; border-radius: 6px; color: #c0c0d0; font-size: 13px; min-width: 200px; }
+    .footer-subscribe-form input[type="email"]:focus { border-color: #00ffff55; outline: none; }
+    .footer-subscribe-form button { padding: 8px 16px; background: linear-gradient(135deg, #00ffff18, #ff00ff12); border: 1px solid #00ffff33; border-radius: 6px; color: #00ffff; font-size: 13px; cursor: pointer; white-space: nowrap; }
+    .footer-subscribe-form button:hover { background: linear-gradient(135deg, #00ffff28, #ff00ff18); }
+    .footer-bottom { margin-top: 20px; padding-top: 16px; border-top: 1px solid #1a1a2e; text-align: center; }
+    .footer-bottom p { font-size: 11px; color: #444460; margin: 0; }
+    .footer-bottom a { color: #666680; text-decoration: none; }
+    .footer-bottom a:hover { color: #00ffff; }
+    @media (max-width: 640px) {
+      .footer-content { flex-direction: column; text-align: center; }
+      .footer-subscribe-form { flex-direction: column; }
+      .footer-subscribe-form input[type="email"] { min-width: auto; }
+    }
+
+  </style>
 
 <script>
 function vote(btn, type) {
