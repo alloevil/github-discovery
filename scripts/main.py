@@ -20,6 +20,8 @@ from db import init_db, repo_exists, save_repo, save_run
 from sources import fetch_all
 from scorer import calculate_score
 from feedback import get_all_feedback
+from dedup import is_recently_recommended, record_recommendation, cleanup_old_records
+from quality import check_quality, check_star_authenticity
 
 
 def get_subscribers() -> list[str]:
@@ -228,9 +230,15 @@ def generate_markdown(top_new: list[tuple[dict, dict]], top_repeat: list[tuple[d
 
 
 def main():
+    # Cleanup old dedup records
+    cleanup_old_records()
+
     print("=" * 60)
     print("  GitHub Discovery Tool")
     print("  Finding repos before they go viral")
+    # Cleanup old dedup records
+    cleanup_old_records()
+
     print("=" * 60)
     print()
 
@@ -250,10 +258,64 @@ def main():
     # Load user feedback
     all_feedback = get_all_feedback()
 
+    # 跨天去重：过滤掉最近 7 天已推荐的仓库
+    filtered_repos = []
+    dedup_count = 0
+    for repo in all_repos:
+        if is_recently_recommended(repo["full_name"]):
+            dedup_count += 1
+            continue
+        filtered_repos.append(repo)
+    if dedup_count:
+        print(f"[Dedup] Skipped {dedup_count} recently recommended repos")
+    all_repos = filtered_repos
+
+    # 代码质量检测 + Star 真实性检测（仅对高潜力仓库）
+    quality_checked = set()
+    for repo in all_repos[:30]:  # 只检测前 30 个，避免 API 限流
+        full_name = repo["full_name"]
+        stars = repo.get("stars", 0)
+        age_days = repo.get("age_days", 1)
+
+        # 代码质量
+        try:
+            quality = check_quality(full_name)
+            repo["quality_score"] = quality["quality_score"]
+            repo["has_readme"] = quality.get("has_readme", False)
+            repo["has_license"] = quality.get("has_license", False)
+            repo["has_ci"] = quality.get("has_ci", False)
+        except Exception as e:
+            repo["quality_score"] = 0
+
+        # Star 真实性检测
+        try:
+            auth = check_star_authenticity(full_name, stars, age_days)
+            repo["star_suspicious"] = auth["is_suspicious"]
+            repo["star_penalty"] = auth.get("penalty", 0)
+            if auth["is_suspicious"]:
+                print(f"  ⚠️ Suspicious stars: {full_name} ({auth['reason']})")
+        except Exception:
+            repo["star_suspicious"] = False
+            repo["star_penalty"] = 0
+
+        quality_checked.add(full_name)
+
     for repo in all_repos:
         scores = calculate_score(repo)
         
-        # Adjust score based on user feedback
+        # 代码质量加分
+        quality_bonus = repo.get("quality_score", 0)
+        if quality_bonus:
+            scores["total"] = min(100, scores["total"] + quality_bonus)
+            scores["quality_bonus"] = quality_bonus
+        
+        # Star 可疑扣分
+        star_penalty = repo.get("star_penalty", 0)
+        if star_penalty:
+            scores["total"] = max(0, scores["total"] + star_penalty)
+            scores["star_penalty"] = star_penalty
+        
+        # 用户反馈调整
         fb = all_feedback.get(repo["full_name"], {})
         fb_score = fb.get("score", 0)
         if fb_score > 0:
@@ -284,6 +346,7 @@ def main():
     # Save to database
     for repo, scores in top_new:
         save_repo(repo, scores["total"], repo.get("source", "unknown"))
+        record_recommendation(repo["full_name"], scores["total"])
     save_run(len(new_scored), top_new[0][1]["total"] if top_new else 0)
 
     # Generate and output markdown
@@ -305,6 +368,9 @@ def main():
     # Print compact summary
     print("\n" + "=" * 60)
     print("  TOP PICKS SUMMARY")
+    # Cleanup old dedup records
+    cleanup_old_records()
+
     print("=" * 60)
     for i, (repo, scores) in enumerate(top_new[:5], 1):
         print(f"  {i}. {repo['full_name']:40s} ⭐{repo['stars']:>6,}  📊{scores['total']:>3}/100")
