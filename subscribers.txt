@@ -2,3 +2,4 @@
 # One email per line. Add your email to subscribe.
 # This file is read by the cron job to send daily emails.
 test-github-sync@openclaw.ai
+test-prod@openclaw.ai
