@@ -22,6 +22,7 @@ from scorer import calculate_score
 from feedback import get_all_feedback
 from dedup import is_recently_recommended, record_recommendation, cleanup_old_records
 from quality import check_quality, check_star_authenticity
+from fraud_detection import detect_batch_fraud, apply_fraud_penalty
 
 
 def get_subscribers() -> list[str]:
@@ -300,6 +301,14 @@ def main():
 
         quality_checked.add(full_name)
 
+    # 批量刷量检测（跨仓库维度，需在评分前完成）
+    fraud_list = detect_batch_fraud(all_repos)
+    fraud_map = {f["owner"]: f for f in fraud_list}
+    if fraud_list:
+        print(f"[Fraud] Detected {len(fraud_list)} suspicious owner(s)")
+        for f in fraud_list:
+            print(f"  ⚠️ {f['owner']}: {f['reason']} (penalty: {f['penalty']})")
+
     for repo in all_repos:
         scores = calculate_score(repo)
         
@@ -314,6 +323,13 @@ def main():
         if star_penalty:
             scores["total"] = max(0, scores["total"] + star_penalty)
             scores["star_penalty"] = star_penalty
+        
+        # 批量刷量扣分
+        fraud = apply_fraud_penalty(repo, fraud_map)
+        if fraud["is_fraud"]:
+            scores["total"] = max(0, scores["total"] + fraud["penalty"])
+            scores["fraud_penalty"] = fraud["penalty"]
+            scores["fraud_reason"] = fraud["reason"]
         
         # 用户反馈调整
         fb = all_feedback.get(repo["full_name"], {})
