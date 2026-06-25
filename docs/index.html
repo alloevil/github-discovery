@@ -27,10 +27,10 @@
 
     .site-header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
     .site-title { display: flex; align-items: center; gap: 12px; }
-    .site-title h1 { font-family: 'Orbitron', sans-serif; font-size: 22px; font-weight: 900; color: #fff; letter-spacing: 2px; text-transform: uppercase; text-shadow: 0 0 10px #00ffff88, 0 0 30px #00ffff44; }
+    .site-title h1 { font-family: var(--font-sans); font-size: 22px; font-weight: 900; color: #fff; letter-spacing: 2px; text-transform: uppercase; text-shadow: 0 0 10px #00ffff88, 0 0 30px #00ffff44; }
     .site-title .emoji { font-size: 28px; filter: drop-shadow(0 0 6px #ff6600); }
     .site-nav { display: flex; align-items: center; gap: 12px; }
-    .site-nav a { color: #e6edf3; font-size: 13px; font-weight: 500; padding: 8px 18px; border: 1px solid #00ffff55; clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px); transition: all 0.2s; letter-spacing: 1px; text-transform: uppercase; font-family: 'Orbitron', sans-serif; font-size: 11px; }
+    .site-nav a { color: #e6edf3; font-size: 13px; font-weight: 500; padding: 8px 18px; border: 1px solid #00ffff55; clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px); transition: all 0.2s; letter-spacing: 1px; text-transform: uppercase; font-family: var(--font-sans); font-size: 11px; }
     .site-nav a:hover { text-decoration: none; background: #00ffff11; box-shadow: 0 0 15px #00ffff33, inset 0 0 15px #00ffff11; }
     .btn-rss { background: linear-gradient(135deg, #ff00ff22, #ff00ff44); border-color: #ff00ff55; color: #ff88ff !important; }
     .btn-rss:hover { background: #ff00ff22; box-shadow: 0 0 15px #ff00ff33, inset 0 0 15px #ff00ff11; }
@@ -39,12 +39,12 @@
 
     .summary-bar { display: flex; gap: 24px; padding: 20px 0; border-bottom: 1px solid #ffffff0a; margin-bottom: 20px; flex-wrap: wrap; }
     .summary-item { text-align: center; flex: 1; min-width: 80px; padding: 16px 8px; background: linear-gradient(135deg, #00ffff08, #ff00ff05); border: 1px solid #00ffff15; clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px); }
-    .summary-item .num { font-family: 'Orbitron', sans-serif; font-size: 28px; font-weight: 900; color: #00ffff; display: block; line-height: 1.2; text-shadow: 0 0 10px #00ffff66; }
+    .summary-item .num { font-family: var(--font-sans); font-size: 28px; font-weight: 900; color: #00ffff; display: block; line-height: 1.2; text-shadow: 0 0 10px #00ffff66; }
     .summary-item .label { font-size: 10px; color: #666680; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px; }
 
     .date-heading { display: flex; align-items: center; gap: 12px; margin: 36px 0 14px; padding: 10px 0; border-bottom: 1px solid #00ffff22; position: relative; }
     .date-heading::before { content: '>'; color: #ff00ff; font-weight: 700; margin-right: 4px; }
-    .date-heading h2 { font-family: 'Orbitron', sans-serif; font-size: 15px; font-weight: 700; color: #fff; letter-spacing: 1px; text-transform: uppercase; }
+    .date-heading h2 { font-family: var(--font-sans); font-size: 15px; font-weight: 700; color: #fff; letter-spacing: 1px; text-transform: uppercase; }
     .date-heading .count { font-size: 11px; color: #00ffff; background: #00ffff11; padding: 2px 10px; border: 1px solid #00ffff33; white-space: nowrap; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
 
     .Box-row { padding: 16px 18px; border: 1px solid #ffffff0f; margin-bottom: 10px; transition: all 0.25s ease; cursor: pointer; position: relative; background: linear-gradient(135deg, #0a0a14, #0d0d1a); clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px); }
@@ -62,14 +62,14 @@
     .Box-row-meta { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; padding-left: 36px; margin-top: 8px; font-size: 11px; }
     .meta-item { display: inline-flex; align-items: center; gap: 4px; color: #666680; white-space: nowrap; }
     .lang-dot { width: 10px; height: 10px; border-radius: 2px; display: inline-block; flex-shrink: 0; border: 1px solid rgba(255,255,255,0.1); }
-    .score-pill { padding: 2px 10px; font-size: 11px; font-weight: 700; white-space: nowrap; font-family: 'Orbitron', sans-serif; letter-spacing: 0.5px; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
+    .score-pill { padding: 2px 10px; font-size: 11px; font-weight: 700; white-space: nowrap; font-family: var(--font-sans); letter-spacing: 0.5px; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
     .score-high { background: #00ff8822; color: #00ff88; border: 1px solid #00ff8844; text-shadow: 0 0 6px #00ff8844; }
     .score-mid { background: #00ffff22; color: #00ffff; border: 1px solid #00ffff44; }
     .score-low { background: #ffffff08; color: #444460; border: 1px solid #ffffff11; }
     .score-gold { background: linear-gradient(135deg, #ffaa0022, #ff660022); color: #ffaa00; border: 1px solid #ffaa0044; text-shadow: 0 0 8px #ffaa0044; }
 
     .date-nav { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px; padding: 12px 0; border-bottom: 1px solid #00ffff15; }
-    .date-tab { padding: 8px 16px; border: 1px solid #ffffff15; background: #ffffff05; color: #666680; font-size: 13px; cursor: pointer; transition: all 0.2s; font-family: 'Orbitron', sans-serif; font-weight: 700; letter-spacing: 0.5px; clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px); }
+    .date-tab { padding: 8px 16px; border: 1px solid #ffffff15; background: #ffffff05; color: #666680; font-size: 13px; cursor: pointer; transition: all 0.2s; font-family: var(--font-sans); font-weight: 700; letter-spacing: 0.5px; clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px); }
     .date-tab:hover { border-color: #00ffff44; color: #00ffff; background: #00ffff08; }
     .date-tab.active { background: linear-gradient(135deg, #00ffff18, #ff00ff10); border-color: #00ffff66; color: #00ffff; box-shadow: 0 0 12px #00ffff22, inset 0 0 12px #00ffff08; text-shadow: 0 0 6px #00ffff66; }
 
@@ -79,15 +79,15 @@
     .lang-filter button.active { background: #00ffff15; border-color: #00ffff55; color: #00ffff; box-shadow: 0 0 10px #00ffff22; }
     .subscribe-box { margin: 24px 0 20px; padding: 20px; background: linear-gradient(135deg, #00ffff06, #ff00ff04); border: 1px solid #00ffff22; position: relative; clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px); }
     .subscribe-box::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, #00ffff66, #ff00ff44, #00ffff66, transparent); }
-    .subscribe-title { font-family: 'Orbitron', sans-serif; font-size: 13px; font-weight: 700; color: #00ffff; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; text-shadow: 0 0 8px #00ffff44; }
+    .subscribe-title { font-family: var(--font-sans); font-size: 13px; font-weight: 700; color: #00ffff; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; text-shadow: 0 0 8px #00ffff44; }
     .subscribe-desc { font-size: 12px; color: #666680; margin-bottom: 14px; }
-    .subscribe-btn-link { display: inline-block; padding: 10px 24px; background: linear-gradient(135deg, #00ffff18, #ff00ff10); border: 1px solid #00ffff55; color: #00ffff; font-family: 'Orbitron', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; cursor: pointer; transition: all 0.2s; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
+    .subscribe-btn-link { display: inline-block; padding: 10px 24px; background: linear-gradient(135deg, #00ffff18, #ff00ff10); border: 1px solid #00ffff55; color: #00ffff; font-family: var(--font-sans); font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; cursor: pointer; transition: all 0.2s; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
     .subscribe-btn-link:hover { background: linear-gradient(135deg, #00ffff28, #ff00ff18); box-shadow: 0 0 15px #00ffff33, inset 0 0 15px #00ffff11; color: #fff; }
     .subscribe-form { display: flex; gap: 10px; }
     .subscribe-form input[type="email"] { flex: 1; padding: 10px 14px; background: #0a0a14; border: 1px solid #ffffff18; color: #c0c0d0; font-family: 'Share Tech Mono', monospace; font-size: 13px; outline: none; transition: all 0.2s; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
     .subscribe-form input[type="email"]::placeholder { color: #444460; }
     .subscribe-form input[type="email"]:focus { border-color: #00ffff55; box-shadow: 0 0 10px #00ffff22, inset 0 0 10px #00ffff08; }
-    .subscribe-form button { padding: 10px 20px; background: linear-gradient(135deg, #00ffff18, #ff00ff10); border: 1px solid #00ffff55; color: #00ffff; font-family: 'Orbitron', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; transition: all 0.2s; white-space: nowrap; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
+    .subscribe-form button { padding: 10px 20px; background: linear-gradient(135deg, #00ffff18, #ff00ff10); border: 1px solid #00ffff55; color: #00ffff; font-family: var(--font-sans); font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; transition: all 0.2s; white-space: nowrap; clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 4px), calc(100% - 4px) 100%, 0 100%, 0 4px); }
     .subscribe-form button:hover { background: linear-gradient(135deg, #00ffff28, #ff00ff18); box-shadow: 0 0 15px #00ffff33, inset 0 0 15px #00ffff11; color: #fff; }
     .subscribe-form button:active { transform: scale(0.97); }
     .subscribe-hint { font-size: 11px; color: #444460; margin-top: 10px; }
@@ -130,7 +130,7 @@
   
     .site-footer { margin-top: 48px; padding: 32px 0 24px; background: #0a0a14; border-top: 1px solid #1a1a2e; }
     .footer-content { display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
-    .footer-brand { font-family: 'Orbitron', sans-serif; font-size: 16px; color: #00ffff; margin: 0 0 4px; }
+    .footer-brand { font-family: var(--font-sans); font-size: 16px; color: #00ffff; margin: 0 0 4px; }
     .footer-tagline { font-size: 12px; color: #666680; margin: 0; }
     .footer-subscribe-form { display: flex; gap: 8px; }
     .footer-subscribe-form input[type="email"] { padding: 8px 12px; background: #0a0a14; border: 1px solid #1a1a2e; border-radius: 6px; color: #c0c0d0; font-size: 13px; min-width: 200px; }
@@ -924,7 +924,7 @@
 
     .site-footer { margin-top: 48px; padding: 32px 0 24px; background: #0a0a14; border-top: 1px solid #1a1a2e; }
     .footer-content { display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
-    .footer-brand { font-family: 'Orbitron', sans-serif; font-size: 16px; color: #00ffff; margin: 0 0 4px; }
+    .footer-brand { font-family: var(--font-sans); font-size: 16px; color: #00ffff; margin: 0 0 4px; }
     .footer-tagline { font-size: 12px; color: #666680; margin: 0; }
     .footer-subscribe-form { display: flex; gap: 8px; }
     .footer-subscribe-form input[type="email"] { padding: 8px 12px; background: #0a0a14; border: 1px solid #1a1a2e; border-radius: 6px; color: #c0c0d0; font-size: 13px; min-width: 200px; }
