@@ -9,7 +9,7 @@
 
 <p align="center">
   <strong>Discover trending GitHub repos before they go mainstream.</strong><br/>
-  <em>5 data sources · smart scoring · anti-spam · daily email digest</em>
+  <em>6 data sources · smart scoring · anti-spam · daily email digest</em>
 </p>
 
 <p align="center">
@@ -40,6 +40,7 @@ GitHub Discovery automatically collects signals from 5 data sources every day, u
 | [Hacker News](https://news.ycombinator.com/) | Community picks | GitHub repos from Show HN posts |
 | [Reddit](https://reddit.com/r/programming) | Discussion | GitHub links from /r/programming hot posts |
 | Rising Detection | Early signal | Unusual Fork/Watch growth patterns |
+| [AI/ML Trending](https://ossinsight.io/trending/ai) | AI focus | AI/ML repositories with fast growth (inspired by OSSInsight) |
 
 ### Smart Scoring (100 points)
 
@@ -212,6 +213,7 @@ This project is licensed under the [MIT License](LICENSE).
 - [GitHub API](https://docs.github.com/en/rest)
 - [Hacker News API](https://github.com/HackerNews/API)
 - [Reddit API](https://www.reddit.com/dev/api/)
+- [OSSInsight](https://ossinsight.io/) — AI/ML repository trends and analytics
 - [Resend](https://resend.com/)
 
 ---
