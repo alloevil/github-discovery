@@ -96,17 +96,33 @@ def send_buttondown_email(date_str: str, top_new: list) -> bool:
         lang = repo.get('language', '')
         desc = (repo.get('description') or 'No description')[:120]
         score = scores.get('total', 0)
+        owner = name.split('/')[0] if '/' in name else ''
+        repo_short = name.split('/')[1] if '/' in name else name
+        avatar = f"https://github.com/{owner}.png" if owner else ""
+        sc_color = '#f0ad4e' if score >= 98 else '#5e6ad2' if score >= 95 else '#8a8f98'
+        sc_bg = '#f0ad4e18' if score >= 98 else '#5e6ad218' if score >= 95 else '#ffffff08'
+        lang_color = '#3572A5' if lang.lower() == 'python' else '#3178c6' if lang.lower() == 'typescript' else '#f1e05a' if lang.lower() == 'javascript' else '#dea584' if lang.lower() == 'rust' else '#00ADD8' if lang.lower() == 'go' else '#8a8f98'
+
         repo_lines.append(
-            f'<tr style="border-bottom:1px solid #1a1a2e;">'
-            f'<td style="padding:8px;color:#00ffff;font-weight:600;">{i}</td>'
-            f'<td style="padding:8px;">'
-            f'<a href="{url}" style="color:#00ffff;text-decoration:none;">{name}</a>'
-            f'<br><span style="color:#666;font-size:12px;">{desc}</span>'
-            f'</td>'
-            f'<td style="padding:8px;color:#888;text-align:right;">⭐{stars:,}<br><span style="font-size:11px;">{daily:.0f}/day</span></td>'
-            f'<td style="padding:8px;color:#888;">{lang}</td>'
-            f'<td style="padding:8px;text-align:center;">'
-            f'<span style="color:{'#ffaa00' if score>=98 else '#00ff88' if score>=95 else '#00ffff' if score>=90 else '#444'};">{score}</span>'
+            f'<tr style="border-bottom:1px solid #23252a;">'
+            f'<td style="padding:12px 8px;color:#8a8f98;font-size:13px;">{i}</td>'
+            f'<td style="padding:12px 8px;">'
+            f'<div style="display:flex;align-items:center;gap:8px;">'
+            f'<img src="{avatar}" width="20" height="20" style="border-radius:4px;" alt="">'
+            f'<div>'
+            f'<a href="{url}" style="color:#5e6ad2;text-decoration:none;font-weight:500;font-size:14px;">{repo_short}</a>'
+            f'<span style="color:#62666d;font-size:12px;margin-left:4px;">{owner}</span>'
+            f'<br><span style="color:#8a8f98;font-size:12px;line-height:1.4;">{desc}</span>'
+            f'</div></div></td>'
+            f'<td style="padding:12px 8px;text-align:right;">'
+            f'<span style="color:#d0d6e0;font-size:13px;">{stars:,}</span>'
+            f'<br><span style="color:#62666d;font-size:11px;">+{daily:.0f}/d</span></td>'
+            f'<td style="padding:12px 8px;">'
+            f'<span style="display:inline-flex;align-items:center;gap:4px;color:#8a8f98;font-size:12px;">'
+            f'<span style="width:8px;height:8px;border-radius:2px;background:{lang_color};display:inline-block;"></span>'
+            f'{lang}</span></td>'
+            f'<td style="padding:12px 8px;text-align:center;">'
+            f'<span style="background:{sc_bg};color:{sc_color};padding:2px 8px;border-radius:4px;font-size:12px;font-weight:600;">{score}</span>'
             f'</td></tr>'
         )
 
@@ -121,23 +137,36 @@ def send_buttondown_email(date_str: str, top_new: list) -> bool:
 <meta name="color-scheme" content="light dark">
 <meta name="supported-color-schemes" content="light dark">
 </head>
-<body style="margin:0;padding:0;background:#0a0a0f;color-scheme:dark;">
-<div style="font-family:'Courier New',monospace;background:#0a0a0f;color:#c0c0d0;padding:24px;max-width:700px;margin:0 auto;">
-<h2 style="color:#00ffff;font-size:18px;">🔥 GitHub Discovery — {date_str}</h2>
-<p style="color:#888;">{total} new repos discovered today:</p>
-<table style="width:100%;border-collapse:collapse;margin:16px 0;">
-<tr style="border-bottom:2px solid #00ffff33;color:#666;font-size:11px;text-transform:uppercase;">
-<th style="padding:8px;text-align:left;">#</th>
-<th style="padding:8px;text-align:left;">Repo</th>
-<th style="padding:8px;text-align:right;">Stars</th>
-<th style="padding:8px;">Lang</th>
-<th style="padding:8px;">Score</th>
+<body style="margin:0;padding:0;background:#010102;color-scheme:dark;">
+<div style="font-family:'Inter',-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif;background:#010102;color:#f7f8f8;padding:32px 24px;max-width:700px;margin:0 auto;">
+
+<div style="padding:24px 0 20px;border-bottom:1px solid #23252a;margin-bottom:24px;">
+<div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
+<span style="font-size:24px;">🔥</span>
+<span style="font-size:18px;font-weight:600;color:#f7f8f8;letter-spacing:-0.3px;">GitHub Discovery</span>
+</div>
+<p style="color:#8a8f98;font-size:13px;margin:0;">{date_str} · {total} new repos discovered</p>
+</div>
+
+<table style="width:100%;border-collapse:collapse;margin:0 0 24px;">
+<tr style="border-bottom:1px solid #23252a;color:#62666d;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;">
+<th style="padding:8px 8px 12px;text-align:left;font-weight:500;">#</th>
+<th style="padding:8px 8px 12px;text-align:left;font-weight:500;">Repository</th>
+<th style="padding:8px 8px 12px;text-align:right;font-weight:500;">Stars</th>
+<th style="padding:8px 8px 12px;font-weight:500;">Lang</th>
+<th style="padding:8px 8px 12px;font-weight:500;">Score</th>
 </tr>
 {repo_rows}
 </table>
-<hr style="border-color:#00ffff33;margin:24px 0;">
-<p><a href="https://alloevil.github.io/github-discovery/" style="color:#00ffff;">View on GitHub Discovery →</a></p>
-<p style="color:#333;font-size:11px;">Sent by <a href="https://github.com/alloevil/github-discovery" style="color:#555;">GitHub Discovery</a></p>
+
+<div style="border-top:1px solid #23252a;padding-top:20px;">
+<a href="https://alloevil.github.io/github-discovery/" style="display:inline-block;padding:8px 20px;background:#5e6ad218;color:#5e6ad2;text-decoration:none;font-size:13px;font-weight:500;border:1px solid #5e6ad244;border-radius:6px;">View Full Report →</a>
+</div>
+
+<div style="margin-top:24px;padding-top:16px;border-top:1px solid #23252a;">
+<p style="color:#62666d;font-size:11px;margin:0;">Sent by <a href="https://github.com/alloevil/github-discovery" style="color:#8a8f98;">GitHub Discovery</a></p>
+</div>
+
 </div>
 </body>
 </html>"""
