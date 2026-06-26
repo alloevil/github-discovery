@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub Discovery — Trending Repos</title>
+<meta name="description" content="Discover trending GitHub repos before they go mainstream. 6 data sources, smart scoring, anti-spam.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  /* Linear Design System Tokens */
+  :root {
+    --primary: #5e6ad2;
+    --primary-hover: #828fff;
+    --on-primary: #ffffff;
+    --ink: #f7f8f8;
+    --ink-muted: #d0d6e0;
+    --ink-subtle: #8a8f98;
+    --ink-tertiary: #62666d;
+    --canvas: #010102;
+    --surface-1: #0f1011;
+    --surface-2: #141516;
+    --surface-3: #18191a;
+    --hairline: #23252a;
+    --hairline-strong: #34343a;
+    --success: #27a644;
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+    --font-mono: 'JetBrains Mono', 'SF Mono', monospace;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: var(--font-sans);
+    background: var(--canvas);
+    color: var(--ink);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+  }
+
+  /* Layout */
+  .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+  /* Header */
+  .header {
+    padding: 48px 0 40px;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .brand-icon { font-size: 28px; }
+  .brand h1 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    color: var(--ink);
+  }
+  .header-links {
+    display: flex;
+    gap: 8px;
+  }
+  .header-links a {
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink-muted);
+    text-decoration: none;
+    border: 1px solid var(--hairline);
+    border-radius: 6px;
+    transition: all 0.15s;
+  }
+  .header-links a:hover {
+    color: var(--ink);
+    border-color: var(--hairline-strong);
+  }
+
+  /* Hero */
+  .hero {
+    padding: 40px 0 32px;
+    text-align: center;
+  }
+  .hero h2 {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -1.8px;
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 12px;
+  }
+  .hero p {
+    font-size: 16px;
+    color: var(--ink-subtle);
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  /* Stats */
+  .stats {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    padding: 24px 0;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .stat { text-align: center; }
+  .stat-num {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+    color: var(--ink);
+  }
+  .stat-label {
+    font-size: 12px;
+    color: var(--ink-tertiary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+  }
+
+  /* Filters */
+  .filters {
+    padding: 24px 0;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .filter-group {
+    display: flex;
+    gap: 4px;
+  }
+  .filter-btn {
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink-subtle);
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: var(--font-sans);
+  }
+  .filter-btn:hover { color: var(--ink-muted); }
+  .filter-btn.active {
+    color: var(--ink);
+    background: var(--surface-2);
+    border-color: var(--hairline);
+  }
+
+  /* Date Section */
+  .date-section { margin-bottom: 40px; }
+  .date-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--hairline);
+    margin-bottom: 4px;
+  }
+  .date-header h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--ink);
+    letter-spacing: -0.2px;
+  }
+  .date-count {
+    font-size: 13px;
+    color: var(--ink-tertiary);
+  }
+
+  /* Repo Card */
+  .repo {
+    padding: 16px 20px;
+    border-radius: 8px;
+    transition: background 0.15s;
+  }
+  .repo:hover {
+    background: var(--surface-1);
+  }
+  .repo + .repo {
+    border-top: 1px solid var(--hairline);
+  }
+  .repo-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  .repo-avatar {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+  .repo-name {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--ink);
+  }
+  .repo-name a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .repo-name a:hover { color: var(--primary-hover); }
+  .repo-owner { color: var(--ink-tertiary); font-weight: 400; }
+  .repo-desc {
+    font-size: 14px;
+    color: var(--ink-subtle);
+    margin-bottom: 8px;
+    line-height: 1.5;
+    padding-left: 30px;
+  }
+  .repo-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 12px;
+    color: var(--ink-tertiary);
+    padding-left: 30px;
+    flex-wrap: wrap;
+  }
+  .repo-meta-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .lang-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .score-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 4px;
+    background: var(--surface-2);
+    color: var(--ink-muted);
+    border: 1px solid var(--hairline);
+  }
+  .score-tag.high {
+    background: rgba(94, 106, 210, 0.15);
+    color: var(--primary-hover);
+    border-color: rgba(94, 106, 210, 0.3);
+  }
+
+  /* Vote buttons */
+  .vote-btns {
+    display: inline-flex;
+    gap: 2px;
+    margin-left: 8px;
+  }
+  .vote-btn {
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 2px 6px;
+    cursor: pointer;
+    font-size: 12px;
+    opacity: 0.4;
+    transition: all 0.15s;
+  }
+  .vote-btn:hover { opacity: 0.8; }
+  .vote-btn.voted {
+    opacity: 1;
+    border-color: var(--hairline);
+    background: var(--surface-2);
+  }
+
+  /* Subscribe Footer */
+  .footer {
+    margin-top: 48px;
+    padding: 32px 0;
+    border-top: 1px solid var(--hairline);
+  }
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .footer-brand {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 4px;
+  }
+  .footer-tagline {
+    font-size: 13px;
+    color: var(--ink-tertiary);
+  }
+  .footer-sub-form {
+    display: flex;
+    gap: 8px;
+  }
+  .footer-sub-form input[type="email"] {
+    padding: 8px 14px;
+    background: var(--surface-1);
+    border: 1px solid var(--hairline);
+    border-radius: 6px;
+    color: var(--ink);
+    font-size: 13px;
+    font-family: var(--font-sans);
+    min-width: 220px;
+  }
+  .footer-sub-form input[type="email"]:focus {
+    outline: none;
+    border-color: var(--primary);
+  }
+  .footer-sub-form input[type="email"]::placeholder {
+    color: var(--ink-tertiary);
+  }
+  .footer-sub-form button {
+    padding: 8px 18px;
+    background: var(--primary);
+    border: none;
+    border-radius: 6px;
+    color: var(--on-primary);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: var(--font-sans);
+    transition: background 0.15s;
+  }
+  .footer-sub-form button:hover { background: var(--primary-hover); }
+  .subscribe-success {
+    display: none;
+    font-size: 13px;
+    color: var(--success);
+    margin-top: 8px;
+  }
+  .footer-bottom {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--hairline);
+    text-align: center;
+  }
+  .footer-bottom p {
+    font-size: 12px;
+    color: var(--ink-tertiary);
+  }
+  .footer-bottom a {
+    color: var(--ink-subtle);
+    text-decoration: none;
+  }
+  .footer-bottom a:hover { color: var(--ink); }
+
+  /* Responsive */
+  @media (max-width: 640px) {
+    .hero h2 { font-size: 32px; letter-spacing: -1px; }
+    .stats { gap: 24px; }
+    .stat-num { font-size: 22px; }
+    .footer-inner { flex-direction: column; text-align: center; }
+    .footer-sub-form { flex-direction: column; width: 100%; }
+    .footer-sub-form input[type="email"] { min-width: auto; width: 100%; }
+    .repo-meta { gap: 10px; }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-inner">
+        <div class="brand">
+          <span class="brand-icon">🔥</span>
+          <h1>GitHub Discovery</h1>
+        </div>
+        <nav class="header-links">
+          <a href="https://github.com/alloevil/github-discovery">GitHub</a>
+          <a href="https://alloevil.github.io/github-discovery/feed.xml">RSS</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <h2>Discover what's next.</h2>
+      <p>Trending GitHub repos scored by growth, quality, and community signals. Updated daily.</p>
+    </section>
+
+    <!-- Stats -->
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-num" id="stat-sources">6</div>
+        <div class="stat-label">Data Sources</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" id="stat-repos">33</div>
+        <div class="stat-label">Repos Tracked</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" id="stat-score">100</div>
+        <div class="stat-label">Top Score</div>
+      </div>
+    </div>
+
+    <!-- Filters -->
+    <div class="filters">
+      <div class="filter-group" id="date-filters">
+        <button class="filter-btn active" onclick="switchDate('2026-06-25')">2026-06-25</button>
+        <button class="filter-btn" onclick="switchDate('2026-06-24')">2026-06-24</button>
+        <button class="filter-btn" onclick="switchDate('2026-06-23')">2026-06-23</button>
+      </div>
+      <div class="filter-group" id="lang-filters">
+        <button class="filter-btn active" onclick="filterLang('all')">All</button>
+        <button class="filter-btn" onclick="filterLang('python')">Python</button>
+        <button class="filter-btn" onclick="filterLang('typescript')">TypeScript</button>
+        <button class="filter-btn" onclick="filterLang('javascript')">JavaScript</button>
+        <button class="filter-btn" onclick="filterLang('rust')">Rust</button>
+        <button class="filter-btn" onclick="filterLang('go')">Go</button>
+      </div>
+    </div>
+
+
+    <!-- CONTENT_MARKER -->
+          <span class="repo-meta-item">📈 +1103.7/day/day</span>
+          <span class="score-tag high">Score 96</span>
+          <span class="vote-btns" data-repo="garrytan/gstack">
+            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
+            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <div>
+          <div class="footer-brand">🔥 GitHub Discovery</div>
+          <div class="footer-tagline">Discover trending repos before they go mainstream.</div>
+        </div>
+        <div>
+          <form class="footer-sub-form" onsubmit="handleSubscribe(event)">
+            <input type="email" name="email" placeholder="your@email.com" required>
+            <button type="submit">Subscribe</button>
+          </form>
+          <div class="subscribe-success">✅ Subscribed!</div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Built by <a href="https://github.com/alloevil">alloevil</a> · <a href="https://github.com/alloevil/github-discovery">Source</a> · <a href="https://alloevil.github.io/github-discovery/feed.xml">RSS</a></p>
+      </div>
+    </footer>
+  </div>
+
+<script>
+function switchDate(date) {
+  document.querySelectorAll('.date-section').forEach(s => s.style.display = 'none');
+  document.querySelector('[data-date="' + date + '"]').style.display = '';
+  document.querySelectorAll('#date-filters .filter-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+}
+
+function filterLang(lang) {
+  document.querySelectorAll('.repo').forEach(r => {
+    const rl = r.getAttribute('data-lang') || '';
+    r.style.display = (lang === 'all' || rl === lang) ? '' : 'none';
+  });
+  document.querySelectorAll('#lang-filters .filter-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+}
+
+function vote(btn, type) {
+  const container = btn.closest('.vote-btns');
+  const repo = container.dataset.repo;
+  const key = 'ghd-vote-' + repo;
+  const existing = localStorage.getItem(key);
+  if (existing === type) {
+    localStorage.removeItem(key);
+    container.querySelectorAll('.vote-btn').forEach(b => b.classList.remove('voted'));
+    return;
+  }
+  localStorage.setItem(key, type);
+  container.querySelectorAll('.vote-btn').forEach(b => b.classList.remove('voted'));
+  btn.classList.add('voted');
+}
+
+function handleSubscribe(e) {
+  e.preventDefault();
+  const form = e.target;
+  const btn = form.querySelector('button');
+  const email = form.querySelector('input[name="email"]').value;
+  btn.textContent = '...';
+  btn.disabled = true;
+  fetch('https://script.google.com/macros/s/AKfycbzU-my3_JCqauuMwIWL2ps84hZ46lKWSeQ9zSYFay-xhoE9MaXpXH_i08roJo4fRuPf1Q/exec', {
+    method: 'POST',
+    body: JSON.stringify({ email: email }),
+    headers: { 'Content-Type': 'application/json' }
+  })
+  .then(r => r.json())
+  .then(data => {
+    form.style.display = 'none';
+    form.nextElementSibling.style.display = 'block';
+  })
+  .catch(err => {
+    btn.textContent = 'Subscribe';
+    btn.disabled = false;
+    alert('Subscription failed. Please try again.');
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.vote-btns').forEach(container => {
+    const repo = container.dataset.repo;
+    const v = localStorage.getItem('ghd-vote-' + repo);
+    if (v) {
+      const btn = container.querySelector('.vote-' + v);
+      if (btn) btn.classList.add('voted');
+    }
+  });
+});
+</script>
+</body>
+</html>
