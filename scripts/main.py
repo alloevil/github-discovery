@@ -273,7 +273,7 @@ def main():
 
     # 代码质量检测 + Star 真实性检测（仅对高潜力仓库）
     quality_checked = set()
-    for repo in all_repos[:30]:  # 只检测前 30 个，避免 API 限流
+    for repo in all_repos[:15]:  # 只检测前 15 个，避免 API 限流
         full_name = repo["full_name"]
         stars = repo.get("stars", 0)
         age_days = repo.get("age_days", 1)

@@ -5,8 +5,80 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jun 2026 04:04:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 04:19:45 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 mauriceboe/TREK — 6856⭐ (70.0/day)</title>
+      <description>A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/mauriceboe/TREK</link>
+      <guid>https://github.com/mauriceboe/TREK#2026-06-26</guid>
+      <pubDate>Fri, 26 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 every-app/open-seo — 2622⭐ (22.2/day)</title>
+      <description>Open source alternative to Semrush and Ahrefs
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/every-app/open-seo</link>
+      <guid>https://github.com/every-app/open-seo#2026-06-26</guid>
+      <pubDate>Fri, 26 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 garrytan/gstack — 115938⭐ (1093.8/day)</title>
+      <description>Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/garrytan/gstack</link>
+      <guid>https://github.com/garrytan/gstack#2026-06-26</guid>
+      <pubDate>Fri, 26 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 mukul975/Anthropic-Cybersecurity-Skills — 21359⭐ (178.0/day)</title>
+      <description>817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/mukul975/Anthropic-Cybersecurity-Skills</link>
+      <guid>https://github.com/mukul975/Anthropic-Cybersecurity-Skills#2026-06-26</guid>
+      <pubDate>Fri, 26 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 alibaba/page-agent — 19937⭐ (72.5/day)</title>
+      <description>JavaScript in-page GUI agent. Control web interfaces with natural language.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/alibaba/page-agent</link>
+      <guid>https://github.com/alibaba/page-agent#2026-06-26</guid>
+      <pubDate>Fri, 26 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 google-labs-code/design.md — 19625⭐ (258.2/day)</title>
+      <description>A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/google-labs-code/design.md</link>
+      <guid>https://github.com/google-labs-code/design.md#2026-06-26</guid>
+      <pubDate>Fri, 26 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 calesthio/OpenMontage — 22387⭐ (254.4/day)</title>
+      <description>World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/calesthio/OpenMontage</link>
+      <guid>https://github.com/calesthio/OpenMontage#2026-06-26</guid>
+      <pubDate>Fri, 26 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 apple/container — 43304⭐ (110.8/day)</title>
+      <description>A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.
+
+Score: 100/100 | Language: Swift</description>
+      <link>https://github.com/apple/container</link>
+      <guid>https://github.com/apple/container#2026-06-26</guid>
+      <pubDate>Fri, 26 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 QwenLM/Qwen-AgentWorld — 338⭐ (169.0/day)</title>
       <description>Qwen-AgentWorld: Language World Models for General Agents

@@ -18,7 +18,7 @@ HN_API = "https://hacker-news.firebaseio.com/v0"
 
 # Scoring thresholds
 TOP_N = 10
-API_DELAY = 1.0  # seconds between API calls
+API_DELAY = 0.3  # seconds between API calls (reduced for faster execution)
 
 # Scoring weights
 ACCELERATION_MAX = 40

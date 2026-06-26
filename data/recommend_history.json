@@ -1,4 +1,145 @@
 {
-  "repos": {},
-  "updated_at": ""
+  "repos": {
+    "lyra81604/zhengxi-views": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:10:32.207031+00:00"
+    },
+    "m1ckc3s/claude-status-bar": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:10:32.209771+00:00"
+    },
+    "benchflow-ai/awesome-evals": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:10:32.212399+00:00"
+    },
+    "Th0rgal/open_oura": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:10:32.215042+00:00"
+    },
+    "WangJunqing-coder/huasheng13-skill": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:10:32.218011+00:00"
+    },
+    "trotsky1997/OpenFugu": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:10:32.223235+00:00"
+    },
+    "aleishawei1983/Seed-Generator": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:10:32.226015+00:00"
+    },
+    "dama-cyber/Casting-Workflow": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:10:32.228774+00:00"
+    },
+    "ccrpRepo/robot_retargeter": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:10:32.231327+00:00"
+    },
+    "amplifthq/opentag": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:10:32.235053+00:00"
+    },
+    "mauriceboe/TREK": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:19:37.535798+00:00"
+    },
+    "every-app/open-seo": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:19:37.538435+00:00"
+    },
+    "garrytan/gstack": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:19:37.541023+00:00"
+    },
+    "mukul975/Anthropic-Cybersecurity-Skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:19:37.543627+00:00"
+    },
+    "alibaba/page-agent": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:19:37.546184+00:00"
+    },
+    "opendatalab/MinerU": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:19:37.548730+00:00"
+    },
+    "shanraisshan/claude-code-best-practice": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:19:37.551291+00:00"
+    },
+    "maria-rcks/dinorip": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:19:37.553818+00:00"
+    },
+    "humation-labs/humation": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:19:37.556370+00:00"
+    },
+    "samuto69/claude-ai-desktop-app": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-26T04:19:37.558875+00:00"
+    }
+  },
+  "updated_at": "2026-06-26T04:19:38.863513+00:00"
 }
