@@ -9,24 +9,6 @@
 
 *These repos were first featured in GitHub Discovery*
 
-### 1. [winsznx/theeleven](https://github.com/winsznx/theeleven)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 472 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 472.0 stars/day |
-| 🔤 Language | TypeScript |
-| 📡 Source | search |
-
-> Eleven autonomous AI agents open live football prop markets on X Layer — custom Uniswap v4 hook, gasless USDT0 staking.
-
-**Score: 100/100** `████████████████████`
-- Acceleration: 40/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
 ### 2. [Pluviobyte/video-production-skills](https://github.com/Pluviobyte/video-production-skills)
 
 | Metric | Value |
@@ -45,24 +27,6 @@
 - Anti-spam: 30/30
 
 ---
-### 3. [bikini/exploitarium](https://github.com/bikini/exploitarium)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 218 |
-| 📅 Age | 3 days |
-| 🚀 Daily Growth | 72.7 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | search |
-
-> A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz
-
-**Score: 100/100** `████████████████████`
-- Acceleration: 40/40
-- Quality: 25/30
-- Anti-spam: 30/30
-
----
 ### 4. [tutusagi/ai-fishing-game](https://github.com/tutusagi/ai-fishing-game)
 
 | Metric | Value |
@@ -74,24 +38,6 @@
 | 📡 Source | search |
 
 > 🎣 给 AI 玩的确定性文字钓鱼小游戏 · 单文件零依赖 · 让你的 AI 伴侣来钓鱼
-
-**Score: 100/100** `████████████████████`
-- Acceleration: 40/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 5. [MalcolmMcGough/polymarket-trading-bot-scalping](https://github.com/MalcolmMcGough/polymarket-trading-bot-scalping)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 155 |
-| 📅 Age | 2 days |
-| 🚀 Daily Growth | 77.5 stars/day |
-| 🔤 Language | TypeScript |
-| 📡 Source | search |
-
-> A high-perforomance automated trading bot for Polymarket's ultra-short crypto prediction markets - 5-minute and 15-minute Up/Down markets on XRP, BNB, ETH, SOL, BTC, and DOGE. Built around a crowd-momentum confirmation strategy rather than news prediction, latency arbitrage, or pure arbitrage.
 
 **Score: 100/100** `████████████████████`
 - Acceleration: 40/40
@@ -171,23 +117,6 @@
 - Anti-spam: 30/30
 
 ---
-### 10. [xxniiinxx/coinflip-casino](https://github.com/xxniiinxx/coinflip-casino)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 166 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 166.0 stars/day |
-| 🔤 Language | TypeScript |
-| 📡 Source | search |
-
-> A full-stack, peer-to-peer coinflip betting game on Solana. Players connect a wallet, create or join on-chain game rooms, and compete head-to-head for 2× the stake. The UI updates in real time over WebSockets, outcomes are resolved on-chain with Orao VRF, and the backend tracks rooms, chat, and match history in MongoDB. 
-
-**Score: 95/100** `███████████████████░`
-- Acceleration: 40/40
-- Quality: 25/30
-- Anti-spam: 30/30
-
 ---
 
 ## 🔄 Top Starred Repositories — Repeat Performers
