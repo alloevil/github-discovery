@@ -127,3 +127,56 @@ def check_star_authenticity(repo_full_name: str, stars: int, age_days: int) -> d
     
     # 其他情况不扣分 — 宁可放过，不要误伤
     return result
+
+
+# ── 内容过滤（赌博/色情/违法/恶意利用）──────────────────────────────
+
+BLOCKED_KEYWORDS = [
+    # 赌博
+    "casino", "gambling", "betting", "bookie", "sportsbook",
+    "slot machine", "roulette", "blackjack", "poker bot",
+    "coinflip", "dice roll", "lottery", "wager",
+    "prediction market", "polymarket", "betfair",
+    # 球赛赌盘
+    "prop market", "parlay", "spread betting",
+    # 漏洞利用 / 恶意工具
+    "exploit poc", "cve exploit", "vulnerability research writeup",
+    "ransomware", "keylogger", "rat tool", "stealer",
+    # 色情
+    "porn", "nsfw", "xxx", "adult content",
+]
+
+BLOCKED_NAME_PATTERNS = [
+    "casino", "gambling", "betting", "exploit-poc", "exploitarium",
+    "coinflip-casino", "slot-machine",
+]
+
+
+def is_blocked_content(repo: dict) -> tuple:
+    """
+    Check if a repo should be blocked due to gambling / malicious / NSFW content.
+    Returns (blocked, reason).
+    """
+    name = (repo.get("full_name") or repo.get("name") or "").lower()
+    desc = (repo.get("description") or "").lower()
+    topics = " ".join(repo.get("topics") or []).lower()
+    combined = f"{name} {desc} {topics}"
+
+    # 1. 仓库名精确匹配
+    for pat in BLOCKED_NAME_PATTERNS:
+        if pat in name:
+            return True, f"blocked_name:{pat}"
+
+    # 2. 描述/主题关键词匹配（需要 ≥2 个命中才触发，避免误伤）
+    hits = [kw for kw in BLOCKED_KEYWORDS if kw in combined]
+    if len(hits) >= 2:
+        return True, f"blocked_keywords:{','.join(hits[:3])}"
+
+    # 3. 单关键词强命中（赌博核心词，一个就够了）
+    STRONG_SINGLE = ["casino", "gambling", "sportsbook", "coinflip-casino",
+                     "polymarket-trading", "prop market"]
+    for kw in STRONG_SINGLE:
+        if kw in combined:
+            return True, f"blocked_strong:{kw}"
+
+    return False, ""

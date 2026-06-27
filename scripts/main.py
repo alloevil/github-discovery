@@ -21,7 +21,7 @@ from sources import fetch_all
 from scorer import calculate_score
 from feedback import get_all_feedback
 from dedup import is_recently_recommended, record_recommendation, cleanup_old_records
-from quality import check_quality, check_star_authenticity
+from quality import check_quality, check_star_authenticity, is_blocked_content
 from fraud_detection import detect_batch_fraud, apply_fraud_penalty
 
 
@@ -299,6 +299,20 @@ def main():
     if dedup_count:
         print(f"[Dedup] Skipped {dedup_count} recently recommended repos")
     all_repos = filtered_repos
+
+    # 内容过滤：赌博/色情/恶意利用
+    content_blocked = 0
+    clean_repos = []
+    for repo in all_repos:
+        blocked, reason = is_blocked_content(repo)
+        if blocked:
+            content_blocked += 1
+            print(f"  🚫 Blocked: {repo['full_name']} ({reason})")
+        else:
+            clean_repos.append(repo)
+    if content_blocked:
+        print(f"[ContentFilter] Blocked {content_blocked} repos (gambling/malicious/NSFW)")
+    all_repos = clean_repos
 
     # 代码质量检测 + Star 真实性检测（仅对高潜力仓库）
     quality_checked = set()
