@@ -209,7 +209,77 @@
         95
       ],
       "last_recommended": "2026-06-27T04:08:26.042473+00:00"
+    },
+    "deepseek-ai/DeepSpec": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-28T04:10:03.392461+00:00"
+    },
+    "AlexandrosGounis/pdfx": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-28T04:10:03.395219+00:00"
+    },
+    "iebb/mithka": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-28T04:10:03.397767+00:00"
+    },
+    "cclank/lanshu-animated-architecture-diagram": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-28T04:10:03.400537+00:00"
+    },
+    "zanetanasta/Seed-Generator": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-28T04:10:03.403079+00:00"
+    },
+    "FossPrime/Steam-Controller-Auto-Charge": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-28T04:10:03.405771+00:00"
+    },
+    "eli-labz/Godcoder": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-28T04:10:03.408451+00:00"
+    },
+    "playPlumtown/Plumtown": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-06-28T04:10:03.411999+00:00"
+    },
+    "uphiago/recon-skills": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-06-28T04:10:03.414634+00:00"
+    },
+    "CopilotKit/OpenTag": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-06-28T04:10:03.417172+00:00"
     }
   },
-  "updated_at": "2026-06-27T04:08:27.213240+00:00"
+  "updated_at": "2026-06-28T04:10:04.421101+00:00"
 }
