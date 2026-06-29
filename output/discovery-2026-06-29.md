@@ -1,0 +1,201 @@
+# 🔥 GitHub Discovery Report
+
+> **Generated:** 2026-06-29 12:07
+> **10 new repos + 0 repeat performers**
+
+---
+
+## ⭐ Top Starred Repositories — First Timers
+
+*These repos were first featured in GitHub Discovery*
+
+### 1. [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 5,646 |
+| 📅 Age | 82 days |
+| 🚀 Daily Growth | 68.9 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 2. [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 8,310 |
+| 📅 Age | 74 days |
+| 🚀 Daily Growth | 112.3 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> A feed-forward 3D foundation model for reconstructing scenes from streaming data
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 20,045 |
+| 📅 Age | 124 days |
+| 🚀 Daily Growth | 161.7 stars/day |
+| 🔤 Language | C |
+| 📡 Source | trending |
+
+> High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 4. [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 14,473 |
+| 📅 Age | 88 days |
+| 🚀 Daily Growth | 164.5 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> "Vibe-Trading: Your Personal Trading Agent"
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 5. [browser-use/video-use](https://github.com/browser-use/video-use)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 11,221 |
+| 📅 Age | 78 days |
+| 🚀 Daily Growth | 143.9 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> Edit videos with coding agents
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 6. [Yu9191/wloc](https://github.com/Yu9191/wloc)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 1,168 |
+| 📅 Age | 4 days |
+| 🚀 Daily Growth | 292.0 stars/day |
+| 🔤 Language | JavaScript |
+| 📡 Source | search |
+
+> 修改 Apple 网络定位（gs-loc）返回坐标 · 支持 Surge / Quantumult X / Loon / Stash · 快捷指令一键设置/恢复定位
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 7. [goehou/tabbit-toy](https://github.com/goehou/tabbit-toy)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 382 |
+| 📅 Age | 6 days |
+| 🚀 Daily Growth | 63.7 stars/day |
+| 🔤 Language | JavaScript |
+| 📡 Source | search |
+
+> 这是一个基于tabbit的研究包，可以转化成OAI格式出来，同时增加了会员认证功能和一键提取cookie的浏览器拓展，方便快速本地快速使用claude gpt等模型
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 8. [bozhouDev/codex-orange-book](https://github.com/bozhouDev/codex-orange-book)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 2,296 |
+| 📅 Age | 6 days |
+| 🚀 Daily Growth | 382.7 stars/day |
+| 🔤 Language | HTML |
+| 📡 Source | search |
+
+> Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）
+
+**Score: 98/100** `███████████████████░`
+- Acceleration: 34/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 9. [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 84,624 |
+| 📅 Age | 1014 days |
+| 🚀 Daily Growth | 83.5 stars/day |
+| 🔤 Language |  |
+| 📡 Source | trending |
+
+> Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.
+
+**Score: 96/100** `███████████████████░`
+- Acceleration: 28/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 10. [usestrix/strix](https://github.com/usestrix/strix)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 26,854 |
+| 📅 Age | 327 days |
+| 🚀 Daily Growth | 82.1 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> Open-source AI hackers to find and fix your app’s vulnerabilities.
+
+**Score: 94/100** `██████████████████░░`
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 20/30
+
+---
+
+## 📊 Summary
+
+- **New discoveries:** 10 repos
+- **Repeat performers:** 0 repos
+- **Score range:** 94 - 100
+- **Top pick:** [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire)
+
+---
+*Generated by GitHub Discovery Tool*
