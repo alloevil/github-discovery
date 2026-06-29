@@ -1,6 +1,6 @@
 # 🔥 GitHub Discovery Report
 
-> **Generated:** 2026-06-29 05:18
+> **Generated:** 2026-06-29 06:38
 > **10 new repos + 0 repeat performers**
 
 ---
@@ -9,17 +9,17 @@
 
 *These repos were first featured in GitHub Discovery*
 
-### 1. [downclash/clash](https://github.com/downclash/clash)
+### 1. [Krishnagangwal/CS-Fundamentals](https://github.com/Krishnagangwal/CS-Fundamentals)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 343 |
-| 📅 Age | 2 days |
-| 🚀 Daily Growth | 171.5 stars/day |
-| 🔤 Language | JavaScript |
+| ⭐ Stars | 402 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 402.0 stars/day |
+| 🔤 Language |  |
 | 📡 Source | search |
 
-> 
+> Curated CS fundamentals for placement prep: DSA,Computer Networks, DBMS & SQL, OOPs, Operating Systems, System Design & Software Engineering
 
 **Score: 100/100** `████████████████████`
 - Acceleration: 40/40
@@ -27,61 +27,79 @@
 - Anti-spam: 30/30
 
 ---
-### 2. [nova452/ComfyUI-Conditioning-Rebalance](https://github.com/nova452/ComfyUI-Conditioning-Rebalance)
+### 2. [MuhammadHanzalaIqbal/Pet-Simulator-99-Auto-Farm-Trainer-2026-Turbo](https://github.com/MuhammadHanzalaIqbal/Pet-Simulator-99-Auto-Farm-Trainer-2026-Turbo)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 302 |
-| 📅 Age | 5 days |
-| 🚀 Daily Growth | 60.4 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | search |
-
-> Conditioning optimizer nodes offering IP-Adapter-like features for Krea 2 image reference editing along with bypassing the built in quality diluation from the trained safety filter and also works as a means to unfilter the model.
-
-**Score: 100/100** `████████████████████`
-- Acceleration: 34/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 3. [abundantbeing/hermes-browser-extension](https://github.com/abundantbeing/hermes-browser-extension)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 293 |
-| 📅 Age | 5 days |
-| 🚀 Daily Growth | 58.6 stars/day |
-| 🔤 Language | JavaScript |
-| 📡 Source | search |
-
-> Browser-native side panel for Hermes Agent — connect web context to your local Hermes runtime.
-
-**Score: 100/100** `████████████████████`
-- Acceleration: 34/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 4. [yynxxxxx/Codex-5.5-codex-instruct-5.5](https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 221 |
+| ⭐ Stars | 212 |
 | 📅 Age | 1 days |
-| 🚀 Daily Growth | 221.0 stars/day |
+| 🚀 Daily Growth | 212.0 stars/day |
 | 🔤 Language | Python |
+| 📡 Source | search |
+
+> Turbo edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 20/30
+
+---
+### 3. [fajarakpdev/Hades-II-Trainer-Z](https://github.com/fajarakpdev/Hades-II-Trainer-Z)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 209 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 209.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> Free Hades II Trainer with God Mode, Unlimited Health, Max Gold, One-Hit Kill and more. No survey, instant download.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 15/30
+
+---
+### 4. [Aliu-AiRobot/ESEILANE](https://github.com/Aliu-AiRobot/ESEILANE)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 107 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 107.0 stars/day |
+| 🔤 Language | HTML |
+| 📡 Source | ai-trending |
+
+> High-performance Knowledge Graph engine for AI, LLMs, and GraphRAG — built for the next generation of intelligent applications.
+
+**Score: 90/100** `██████████████████░░`
+- Acceleration: 40/40
+- Quality: 20/30
+- Anti-spam: 30/30
+
+---
+### 5. [slimopump/sillygoose](https://github.com/slimopump/sillygoose)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 307 |
+| 📅 Age | 4 days |
+| 🚀 Daily Growth | 76.8 stars/day |
+| 🔤 Language |  |
 | 📡 Source | search |
 
 > 
 
-**Score: 100/100** `████████████████████`
-- Acceleration: 40/40
-- Quality: 25/30
+**Score: 89/100** `█████████████████░░░`
+- Acceleration: 34/40
+- Quality: 15/30
 - Anti-spam: 30/30
 
 ---
-### 5. [vanroon/Pet-Simulator-99-Auto-Farm-Trainer-2026-Prime](https://github.com/vanroon/Pet-Simulator-99-Auto-Farm-Trainer-2026-Prime)
+### 6. [dimasarestuprasmanto/Pet-Simulator-99-Auto-Farm-Trainer-2026-Tera](https://github.com/dimasarestuprasmanto/Pet-Simulator-99-Auto-Farm-Trainer-2026-Tera)
 
 | Metric | Value |
 |--------|-------|
@@ -91,102 +109,84 @@
 | 🔤 Language | Python |
 | 📡 Source | search |
 
-> Maximize your efficiency in Pet Simulator 99 with the Prime auto trainer. From coin collection to Backrooms League rewards, everything is automated. Safe and undetectable.
+> Tera edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.
 
-**Score: 100/100** `████████████████████`
+**Score: 85/100** `█████████████████░░░`
 - Acceleration: 40/40
 - Quality: 30/30
 - Anti-spam: 20/30
 
 ---
-### 6. [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
+### 7. [NagaaSaketh/Pet-Simulator-99-Auto-Farm-Trainer-2026-Ultimate](https://github.com/NagaaSaketh/Pet-Simulator-99-Auto-Farm-Trainer-2026-Ultimate)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 125,651 |
-| 📅 Age | 4120 days |
-| 🚀 Daily Growth | 30.5 stars/day |
-| 🔤 Language | HTML |
-| 📡 Source | trending |
-
-> A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
-
-**Score: 92/100** `██████████████████░░`
-- Acceleration: 20/40
-- Quality: 25/30
-- Anti-spam: 30/30
-
----
-### 7. [commaai/openpilot](https://github.com/commaai/openpilot)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 62,514 |
-| 📅 Age | 3504 days |
-| 🚀 Daily Growth | 17.8 stars/day |
+| ⭐ Stars | 213 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 213.0 stars/day |
 | 🔤 Language | Python |
-| 📡 Source | trending |
-
-> openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.
-
-**Score: 92/100** `██████████████████░░`
-- Acceleration: 12/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 8. [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 3,866 |
-| 📅 Age | 280 days |
-| 🚀 Daily Growth | 13.8 stars/day |
-| 🔤 Language | Swift |
-| 📡 Source | trending |
-
-> FluidVoice - Fastest macOS Offline Dictation app - Voice to Text fully Local. One ⭐ takes us a long way :)) 
-
-**Score: 92/100** `██████████████████░░`
-- Acceleration: 12/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 9. [baairon/torlink](https://github.com/baairon/torlink)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 199 |
-| 📅 Age | 3 days |
-| 🚀 Daily Growth | 66.3 stars/day |
-| 🔤 Language | TypeScript |
 | 📡 Source | search |
 
-> A sleek, zero-setup torrent finder and downloader that lives right in your terminal.
+> Ultimate edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.
 
-**Score: 90/100** `██████████████████░░`
+**Score: 85/100** `█████████████████░░░`
 - Acceleration: 40/40
-- Quality: 20/30
-- Anti-spam: 30/30
+- Quality: 30/30
+- Anti-spam: 15/30
 
 ---
-### 10. [realchendahuang/sub-store-cloudflare](https://github.com/realchendahuang/sub-store-cloudflare)
+### 8. [mofouly/Pet-Simulator-99-Auto-Farm-Trainer-2026-Giga](https://github.com/mofouly/Pet-Simulator-99-Auto-Farm-Trainer-2026-Giga)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 120 |
-| 📅 Age | 2 days |
-| 🚀 Daily Growth | 60.0 stars/day |
-| 🔤 Language | TypeScript |
+| ⭐ Stars | 208 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 208.0 stars/day |
+| 🔤 Language | Python |
 | 📡 Source | search |
 
-> 一个部署在 Cloudflare Workers 上的订阅聚合与规则配置工具。它把订阅源、节点处理、组合订阅和分流规则模板放在云端，客户端只需要订阅最终生成的链接。
+> Giga edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.
 
-**Score: 90/100** `██████████████████░░`
+**Score: 85/100** `█████████████████░░░`
 - Acceleration: 40/40
-- Quality: 20/30
-- Anti-spam: 30/30
+- Quality: 30/30
+- Anti-spam: 20/30
+
+---
+### 9. [mofouly/Pet-Simulator-99-Auto-Farm-Trainer-2026-Quantum](https://github.com/mofouly/Pet-Simulator-99-Auto-Farm-Trainer-2026-Quantum)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 207 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 207.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> Maximize your efficiency in Pet Simulator 99 with the Quantum auto trainer. From coin collection to Backrooms League rewards, everything is automated. Safe and undetectable.
+
+**Score: 85/100** `█████████████████░░░`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 20/30
+
+---
+### 10. [NagaaSaketh/Pet-Simulator-99-Auto-Farm-Trainer-2026-Nitro](https://github.com/NagaaSaketh/Pet-Simulator-99-Auto-Farm-Trainer-2026-Nitro)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 207 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 207.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> Boost your Pet Simulator 99 progress with the Nitro trainer. Auto-farm, auto-hatch, instant break, and League auto-grind – all in one sleek GUI. Works with the June 2026 update.
+
+**Score: 85/100** `█████████████████░░░`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 15/30
 
 ---
 
@@ -194,8 +194,8 @@
 
 - **New discoveries:** 10 repos
 - **Repeat performers:** 0 repos
-- **Score range:** 90 - 100
-- **Top pick:** [downclash/clash](https://github.com/downclash/clash)
+- **Score range:** 85 - 100
+- **Top pick:** [Krishnagangwal/CS-Fundamentals](https://github.com/Krishnagangwal/CS-Fundamentals)
 
 ---
 *Generated by GitHub Discovery Tool*
