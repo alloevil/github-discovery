@@ -7,10 +7,10 @@ GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 GITHUB_API = "https://api.github.com"
 
 # Buttondown API (subscriber list only)
-BUTTONDOWN_API_KEY = os.environ.get("BUTTONDOWN_API_KEY", "6aad7fd3-1044-44c8-9fc7-da40ce6ed632")
+BUTTONDOWN_API_KEY = os.environ.get("BUTTONDOWN_API_KEY", "")
 
 # Resend API (email sending)
-RESEND_API_KEY = os.environ.get("RESEND_API_KEY", "re_RaVheMwH_PqGhZNK9LLjpog1hyLyccpVV")
+RESEND_API_KEY = os.environ.get("RESEND_API_KEY", "")
 GITHUB_TRENDING_URL = "https://github.com/trending?since=daily"
 
 # Hacker News API

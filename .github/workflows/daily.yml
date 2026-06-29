@@ -25,6 +25,8 @@ jobs:
       - name: Run Discovery
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
         run: python3 scripts/main.py
 
       - name: Generate index.html
