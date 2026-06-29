@@ -21,7 +21,25 @@ class TestIsRecentlyRecommended:
             assert dedup.is_recently_recommended("user/new-repo") is False
 
     def test_returns_true_for_recently_recommended(self, tmp_path):
-        """最近 7 天内推荐过的仓库应返回 True。"""
+        """最近 7 天内（往日）推荐过的仓库应返回 True。"""
+        history_file = tmp_path / "recommend_history.json"
+        data = {
+            "repos": {
+                "user/repo": {
+                    "last_recommended": (datetime.now(timezone.utc) - timedelta(days=2)).isoformat(),
+                    "count": 1,
+                    "scores": [85],
+                }
+            },
+            "updated_at": "",
+        }
+        history_file.write_text(json.dumps(data))
+
+        with patch.object(dedup, "HISTORY_FILE", history_file):
+            assert dedup.is_recently_recommended("user/repo") is True
+
+    def test_returns_false_for_same_day_recommendation(self, tmp_path):
+        """同一天（今天）已推荐的仓库应返回 False，使同日重跑可再次入选。"""
         history_file = tmp_path / "recommend_history.json"
         data = {
             "repos": {
@@ -36,7 +54,7 @@ class TestIsRecentlyRecommended:
         history_file.write_text(json.dumps(data))
 
         with patch.object(dedup, "HISTORY_FILE", history_file):
-            assert dedup.is_recently_recommended("user/repo") is True
+            assert dedup.is_recently_recommended("user/repo") is False
 
     def test_returns_false_for_old_recommendation(self, tmp_path):
         """超过 7 天前推荐的仓库应返回 False。"""
@@ -117,7 +135,7 @@ class TestIsRecentlyRecommended:
         data = {
             "repos": {
                 "user/repo": {
-                    "last_recommended": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                    "last_recommended": (datetime.now(timezone.utc) - timedelta(days=2)).strftime("%Y-%m-%dT%H:%M:%SZ"),
                     "count": 1,
                     "scores": [75],
                 }

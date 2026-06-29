@@ -34,7 +34,13 @@ def is_recently_recommended(repo_full_name: str, days: int = 7) -> bool:
     
     try:
         last_date = datetime.fromisoformat(last_recommended.replace("Z", "+00:00"))
-        cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+        now = datetime.now(timezone.utc)
+        # Same-day reruns must not starve the candidate pool: a repo
+        # recommended earlier *today* is still eligible this run. The 7-day
+        # dedup only blocks repos from *previous* days.
+        if last_date.date() == now.date():
+            return False
+        cutoff = now - timedelta(days=days)
         return last_date > cutoff
     except (ValueError, TypeError):
         return False
