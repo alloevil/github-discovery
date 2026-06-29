@@ -42,29 +42,33 @@
   /* Layout */
   .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
 
-  /* Header */
-  .header {
-    padding: 48px 0 40px;
+  /* Masthead (compact header + tagline + stats in one band) */
+  .masthead {
+    padding: 20px 0 16px;
     border-bottom: 1px solid var(--hairline);
   }
-  .header-inner {
+  .masthead-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 12px;
   }
   .brand {
     display: flex;
-    align-items: center;
-    gap: 12px;
+    align-items: baseline;
+    gap: 10px;
   }
-  .brand-icon { font-size: 28px; }
+  .brand-icon { font-size: 22px; }
   .brand h1 {
     font-size: 20px;
     font-weight: 600;
     letter-spacing: -0.4px;
     color: var(--ink);
+  }
+  .brand .tagline {
+    font-size: 13px;
+    color: var(--ink-subtle);
   }
   .header-links {
     display: flex;
@@ -84,53 +88,21 @@
     color: var(--ink);
     border-color: var(--hairline-strong);
   }
-
-  /* Hero */
-  .hero {
-    padding: 40px 0 32px;
-    text-align: center;
-  }
-  .hero h2 {
-    font-size: 48px;
-    font-weight: 600;
-    letter-spacing: -1.8px;
-    line-height: 1.1;
-    color: var(--ink);
-    margin-bottom: 12px;
-  }
-  .hero p {
-    font-size: 16px;
-    color: var(--ink-subtle);
-    max-width: 500px;
-    margin: 0 auto;
-  }
-
-  /* Stats */
   .stats {
     display: flex;
-    gap: 32px;
-    justify-content: center;
-    padding: 24px 0;
-    border-bottom: 1px solid var(--hairline);
-  }
-  .stat { text-align: center; }
-  .stat-num {
-    font-size: 28px;
-    font-weight: 600;
-    letter-spacing: -0.6px;
-    color: var(--ink);
-  }
-  .stat-label {
-    font-size: 12px;
+    gap: 20px;
+    margin-top: 12px;
+    font-size: 13px;
     color: var(--ink-tertiary);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-top: 4px;
+  }
+  .stat-num {
+    font-weight: 600;
+    color: var(--ink);
   }
 
   /* Filters */
   .filters {
-    padding: 24px 0;
+    padding: 16px 0;
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
@@ -249,6 +221,22 @@
     font-size: 11px;
     color: var(--ink-muted);
   }
+  .source-legend {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 0 0 16px;
+    font-size: 12px;
+    color: var(--ink-tertiary);
+  }
+  .source-legend .legend-label {
+    color: var(--ink-muted);
+    font-weight: 500;
+  }
+  .source-legend .legend-item {
+    white-space: nowrap;
+  }
   .score-tag {
     display: inline-block;
     padding: 2px 8px;
@@ -346,9 +334,7 @@
 
   /* Responsive */
   @media (max-width: 640px) {
-    .hero h2 { font-size: 32px; letter-spacing: -1px; }
-    .stats { gap: 24px; }
-    .stat-num { font-size: 22px; }
+    .stats { gap: 14px; flex-wrap: wrap; }
     .footer-inner { flex-direction: column; text-align: center; }
     .footer-sub-form { flex-direction: column; width: 100%; }
     .footer-sub-form input[type="email"] { min-width: auto; width: 100%; }
@@ -358,41 +344,25 @@
 </head>
 <body>
   <div class="container">
-    <!-- Header -->
-    <header class="header">
-      <div class="header-inner">
+    <!-- Masthead: compact brand + tagline + stats -->
+    <header class="masthead">
+      <div class="masthead-top">
         <div class="brand">
           <span class="brand-icon">🔥</span>
           <h1>GitHub Discovery</h1>
+          <span class="tagline">Trending repos before they go mainstream · updated daily</span>
         </div>
         <nav class="header-links">
           <a href="https://github.com/alloevil/github-discovery">GitHub</a>
           <a href="https://alloevil.github.io/github-discovery/feed.xml">RSS</a>
         </nav>
       </div>
+      <div class="stats">
+        <span><span class="stat-num" id="stat-sources">5</span> data sources</span>
+        <span><span class="stat-num" id="stat-repos">90</span> repos tracked</span>
+        <span>top score <span class="stat-num" id="stat-score">100</span></span>
+      </div>
     </header>
-
-    <!-- Hero -->
-    <section class="hero">
-      <h2>Discover what's next.</h2>
-      <p>Trending GitHub repos scored by growth, quality, and community signals. Updated daily.</p>
-    </section>
-
-    <!-- Stats -->
-    <div class="stats">
-      <div class="stat">
-        <div class="stat-num" id="stat-sources">7</div>
-        <div class="stat-label">Data Sources</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num" id="stat-repos">90</div>
-        <div class="stat-label">Repos Tracked</div>
-      </div>
-      <div class="stat">
-        <div class="stat-num" id="stat-score">100</div>
-        <div class="stat-label">Top Score</div>
-      </div>
-    </div>
 
     <!-- Filters -->
     <div class="filters">
@@ -415,147 +385,156 @@
       </div>
     </div>
 
+    <!-- Source legend: explains the chip on each repo card -->
+    <div class="source-legend">
+      <span class="legend-label">Source:</span>
+      <span class="legend-item">🔥 Trending</span>
+      <span class="legend-item">🔍 Search</span>
+      <span class="legend-item">🟠 HN</span>
+      <span class="legend-item">📈 Rising</span>
+      <span class="legend-item">🤖 AI</span>
+    </div>
 
         <div class="date-section" data-date="2026-06-29" style="display:">
       <div class="date-header"><h3>2026-06-29</h3><span class="date-count">10 repos</span></div>
       <div class="section-label"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></div>
-      <div class="repo" data-lang="unknown" data-source="search">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/Krishnagangwal.png" alt="Krishnagangwal" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/Krishnagangwal/CS-Fundamentals"><span class="repo-owner">Krishnagangwal /</span> CS-Fundamentals</a></div>
-        </div>
-        <div class="repo-desc">Curated CS fundamentals for placement prep: DSA,Computer Networks, DBMS & SQL, OOPs, Operating Systems, System Design & Software Engineering</div>
-        <div class="repo-meta">
-          
-          <span class="repo-meta-item">⭐ 402</span>
-          <span class="repo-meta-item">📈 +402.0/day</span>
-          <span class="score-tag high">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="python" data-source="search">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/MuhammadHanzalaIqbal.png" alt="MuhammadHanzalaIqbal" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/MuhammadHanzalaIqbal/Pet-Simulator-99-Auto-Farm-Trainer-2026-Turbo"><span class="repo-owner">MuhammadHanzalaIqbal /</span> Pet-Simulator-99-Auto-Farm-Trainer-2026-Turbo</a></div>
-        </div>
-        <div class="repo-desc">Turbo edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-          <span class="repo-meta-item">⭐ 212</span>
-          <span class="repo-meta-item">📈 +212.0/day</span>
-          <span class="score-tag high">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="python" data-source="search">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/fajarakpdev.png" alt="fajarakpdev" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/fajarakpdev/Hades-II-Trainer-Z"><span class="repo-owner">fajarakpdev /</span> Hades-II-Trainer-Z</a></div>
-        </div>
-        <div class="repo-desc">Free Hades II Trainer with God Mode, Unlimited Health, Max Gold, One-Hit Kill and more. No survey, instant download.</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-          <span class="repo-meta-item">⭐ 209</span>
-          <span class="repo-meta-item">📈 +209.0/day</span>
-          <span class="score-tag high">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="html" data-source="ai-trending">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/Aliu-AiRobot.png" alt="Aliu-AiRobot" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/Aliu-AiRobot/ESEILANE"><span class="repo-owner">Aliu-AiRobot /</span> ESEILANE</a></div>
-        </div>
-        <div class="repo-desc">High-performance Knowledge Graph engine for AI, LLMs, and GraphRAG — built for the next generation of intelligent applications.</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#e34c26"></span>HTML</span>
-          <span class="repo-meta-item">⭐ 107</span>
-          <span class="repo-meta-item">📈 +107.0/day</span>
-          <span class="score-tag mid">Score 90</span>
-          <span class="repo-meta-item source-tag" title="Discovered via ai-trending">🤖 AI</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="unknown" data-source="search">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/slimopump.png" alt="slimopump" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/slimopump/sillygoose"><span class="repo-owner">slimopump /</span> sillygoose</a></div>
-        </div>
-        <div class="repo-desc">No description</div>
-        <div class="repo-meta">
-          
-          <span class="repo-meta-item">⭐ 307</span>
-          <span class="repo-meta-item">📈 +76.8/day</span>
-          <span class="score-tag low">Score 89</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
-        </div>
-      </div>
       <div class="repo" data-lang="python" data-source="search">
         <div class="repo-top">
           <img class="repo-avatar" src="https://github.com/dimasarestuprasmanto.png" alt="dimasarestuprasmanto" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/dimasarestuprasmanto/Pet-Simulator-99-Auto-Farm-Trainer-2026-Tera"><span class="repo-owner">dimasarestuprasmanto /</span> Pet-Simulator-99-Auto-Farm-Trainer-2026-Tera</a></div>
+          <div class="repo-name"><a href="https://github.com/dimasarestuprasmanto/Pet-Simulator-99-Auto-Farm-Trainer-2026-Peta"><span class="repo-owner">dimasarestuprasmanto /</span> Pet-Simulator-99-Auto-Farm-Trainer-2026-Peta</a></div>
         </div>
-        <div class="repo-desc">Tera edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-          <span class="repo-meta-item">⭐ 213</span>
-          <span class="repo-meta-item">📈 +213.0/day</span>
-          <span class="score-tag low">Score 85</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="python" data-source="search">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/NagaaSaketh.png" alt="NagaaSaketh" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/NagaaSaketh/Pet-Simulator-99-Auto-Farm-Trainer-2026-Ultimate"><span class="repo-owner">NagaaSaketh /</span> Pet-Simulator-99-Auto-Farm-Trainer-2026-Ultimate</a></div>
-        </div>
-        <div class="repo-desc">Ultimate edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-          <span class="repo-meta-item">⭐ 213</span>
-          <span class="repo-meta-item">📈 +213.0/day</span>
-          <span class="score-tag low">Score 85</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="python" data-source="search">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/mofouly.png" alt="mofouly" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/mofouly/Pet-Simulator-99-Auto-Farm-Trainer-2026-Giga"><span class="repo-owner">mofouly /</span> Pet-Simulator-99-Auto-Farm-Trainer-2026-Giga</a></div>
-        </div>
-        <div class="repo-desc">Giga edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-          <span class="repo-meta-item">⭐ 208</span>
-          <span class="repo-meta-item">📈 +208.0/day</span>
-          <span class="score-tag low">Score 85</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="python" data-source="search">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/mofouly.png" alt="mofouly" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/mofouly/Pet-Simulator-99-Auto-Farm-Trainer-2026-Quantum"><span class="repo-owner">mofouly /</span> Pet-Simulator-99-Auto-Farm-Trainer-2026-Quantum</a></div>
-        </div>
-        <div class="repo-desc">Maximize your efficiency in Pet Simulator 99 with the Quantum auto trainer. From coin collection to Backrooms League rewards, everything is automated. Safe and undetectable.</div>
+        <div class="repo-desc">Boost your Pet Simulator 99 progress with the Peta trainer. Auto-farm, auto-hatch, instant break, and League auto-grind – all in one sleek GUI. Works with the June 2026 update.</div>
         <div class="repo-meta">
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 207</span>
           <span class="repo-meta-item">📈 +207.0/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript" data-source="search">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/Einsia.png" alt="Einsia" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/Einsia/Browser-BC"><span class="repo-owner">Einsia /</span> Browser-BC</a></div>
+        </div>
+        <div class="repo-desc">Agent behavior clone for browser using, targeting general GUI using and distributed trajectory collecting.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
+          <span class="repo-meta-item">⭐ 229</span>
+          <span class="repo-meta-item">📈 +114.5/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript" data-source="search">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/Lutschippi.png" alt="Lutschippi" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/Lutschippi/DEHUB"><span class="repo-owner">Lutschippi /</span> DEHUB</a></div>
+        </div>
+        <div class="repo-desc">The Ultimate Data Engineering Hub — 500+ Resources, 50+ Tools, Roadmaps & Community for Data Engineers Worldwide</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
+          <span class="repo-meta-item">⭐ 131</span>
+          <span class="repo-meta-item">📈 +65.5/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript" data-source="search">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/GraeLefix.png" alt="GraeLefix" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/GraeLefix/GITVERSE"><span class="repo-owner">GraeLefix /</span> GITVERSE</a></div>
+        </div>
+        <div class="repo-desc">🔍 Reverse engineer any codebase into a build prompt — architecture breakdown, ASCII blueprint, and AI-ready reconstruction prompt</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
+          <span class="repo-meta-item">⭐ 131</span>
+          <span class="repo-meta-item">📈 +43.7/day</span>
+          <span class="score-tag high">Score 100</span>
+          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript" data-source="search">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/dreiachse-cyber.png" alt="dreiachse-cyber" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/dreiachse-cyber/image-cockpit-for-codex-workflows"><span class="repo-owner">dreiachse-cyber /</span> image-cockpit-for-codex-workflows</a></div>
+        </div>
+        <div class="repo-desc">Local cockpit for Codex imagegen, pixel art, image editing, animation, and sprite-sheet workflows.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
+          <span class="repo-meta-item">⭐ 139</span>
+          <span class="repo-meta-item">📈 +23.2/day</span>
+          <span class="score-tag high">Score 99</span>
+          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript" data-source="search">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/martinkoutecky.png" alt="martinkoutecky" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/martinkoutecky/tine"><span class="repo-owner">martinkoutecky /</span> tine</a></div>
+        </div>
+        <div class="repo-desc">No description</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
+          <span class="repo-meta-item">⭐ 137</span>
+          <span class="repo-meta-item">📈 +34.2/day</span>
+          <span class="score-tag mid">Score 94</span>
+          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript" data-source="search">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/lightbearco.png" alt="lightbearco" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/lightbearco/tupper"><span class="repo-owner">lightbearco /</span> tupper</a></div>
+        </div>
+        <div class="repo-desc">Open-source sandboxes for AI agents — run untrusted, AI-generated code safely on your own machine.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
+          <span class="repo-meta-item">⭐ 135</span>
+          <span class="repo-meta-item">📈 +27.0/day</span>
           <span class="score-tag low">Score 85</span>
           <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
         </div>
       </div>
-      <div class="repo" data-lang="python" data-source="search">
+      <div class="repo" data-lang="haskell" data-source="trending">
         <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/NagaaSaketh.png" alt="NagaaSaketh" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/NagaaSaketh/Pet-Simulator-99-Auto-Farm-Trainer-2026-Nitro"><span class="repo-owner">NagaaSaketh /</span> Pet-Simulator-99-Auto-Farm-Trainer-2026-Nitro</a></div>
+          <img class="repo-avatar" src="https://github.com/simplex-chat.png" alt="simplex-chat" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/simplex-chat/simplex-chat"><span class="repo-owner">simplex-chat /</span> simplex-chat</a></div>
         </div>
-        <div class="repo-desc">Boost your Pet Simulator 99 progress with the Nitro trainer. Auto-farm, auto-hatch, instant break, and League auto-grind – all in one sleek GUI. Works with the June 2026 update.</div>
+        <div class="repo-desc">SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!</div>
         <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-          <span class="repo-meta-item">⭐ 207</span>
-          <span class="repo-meta-item">📈 +207.0/day</span>
-          <span class="score-tag low">Score 85</span>
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#8b949e"></span>Haskell</span>
+          <span class="repo-meta-item">⭐ 15482</span>
+          <span class="repo-meta-item">📈 +6.5/day</span>
+          <span class="score-tag low">Score 82</span>
+          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript" data-source="search">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/ikarma.png" alt="ikarma" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/ikarma/claude-mythos-ai-anthropic-desktop-app"><span class="repo-owner">ikarma /</span> claude-mythos-ai-anthropic-desktop-app</a></div>
+        </div>
+        <div class="repo-desc">claude mythos ai anthropic free large language model llm frontier model project glasswing cybersecurity agent vulnerability research software engineering agentic workflows multi step reasoning recurrent depth transformer rdt openmythos repository open source claude fable 5 multi agent</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
+          <span class="repo-meta-item">⭐ 137</span>
+          <span class="repo-meta-item">📈 +27.4/day</span>
+          <span class="score-tag low">Score 82</span>
+          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript" data-source="search">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/PMTraderAdam.png" alt="PMTraderAdam" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/PMTraderAdam/pm-adam-trader"><span class="repo-owner">PMTraderAdam /</span> pm-adam-trader</a></div>
+        </div>
+        <div class="repo-desc">No description</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
+          <span class="repo-meta-item">⭐ 328</span>
+          <span class="repo-meta-item">📈 +82.0/day</span>
+          <span class="score-tag low">Score 81</span>
           <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
         </div>
       </div>
