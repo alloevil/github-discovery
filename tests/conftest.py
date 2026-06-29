@@ -157,31 +157,6 @@ def hn_story_response():
     }
 
 
-@pytest.fixture
-def reddit_response():
-    """模拟 Reddit /r/programming hot API 返回。"""
-    return {
-        "data": {
-            "children": [
-                {
-                    "data": {
-                        "title": "Check out this new Python framework",
-                        "url": "https://github.com/user/awesome-project",
-                        "ups": 350,
-                    }
-                },
-                {
-                    "data": {
-                        "title": "Some unrelated article",
-                        "url": "https://example.com/article",
-                        "ups": 200,
-                    }
-                },
-            ]
-        }
-    }
-
-
 # ── Mock 工具函数 ──────────────────────────────────────────────────────
 
 @pytest.fixture

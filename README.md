@@ -9,7 +9,7 @@
 
 <p align="center">
   <strong>Discover trending GitHub repos before they go mainstream.</strong><br/>
-  <em>6 data sources · smart scoring · anti-spam · daily email digest</em>
+  <em>5 data sources · smart scoring · anti-spam · daily email digest</em>
 </p>
 
 <p align="center">
@@ -25,20 +25,19 @@
 
 GitHub Discovery automatically collects signals from 5 data sources every day, uses a smart scoring system (100 points) to filter the most promising projects, and delivers them to you via email and web.
 
-**The problem it solves:** GitHub Trending shows you what's popular *today*. GitHub Discovery shows you what's *about to be popular* — repos with unusual growth patterns, community picks from Hacker News and Reddit, and early-stage projects gaining traction.
+**The problem it solves:** GitHub Trending shows you what's popular *today*. GitHub Discovery shows you what's *about to be popular* — repos with unusual growth patterns, community picks from Hacker News, and early-stage projects gaining traction.
 
 ---
 
 ## Features
 
-### 6 Data Sources
+### 5 Data Sources
 
 | Source | Signal | What it catches |
 |--------|--------|-----------------|
 | [GitHub Trending](https://github.com/trending) | Popularity | Daily trending repositories |
 | GitHub Search | New & rising | Repos created in the last 7 days with fast star growth |
 | [Hacker News](https://news.ycombinator.com/) | Community picks | GitHub repos from Show HN posts |
-| [Reddit](https://reddit.com/r/programming) | Discussion | GitHub links from /r/programming hot posts |
 | Rising Detection | Early signal | Unusual Fork/Watch growth patterns |
 | [AI/ML Trending](https://ossinsight.io/trending/ai) | AI focus | AI/ML repositories with fast growth (inspired by OSSInsight) |
 
@@ -95,9 +94,7 @@ Go to **Settings → Secrets and variables → Actions** and add:
 |--------|----------|-------------|
 | `RESEND_API_KEY` | ✅ | [Resend](https://resend.com/) API Key for sending emails |
 | `GITHUB_TOKEN` | ❌ | GitHub Personal Access Token (optional, uses GITHUB_TOKEN by default) |
-| `FIRECRAWL_API_KEY` | ❌ | [Firecrawl](https://firecrawl.dev) key. Makes GitHub Trending parsing robust (scrapes the page instead of regex-matching raw HTML). Note: Firecrawl does **not** support Reddit, so it does not help that source. Without it, Trending falls back to direct HTML scraping. |
-| `REDDIT_CLIENT_ID` | ❌ | Reddit OAuth app ID — the working way to enable the Reddit source (Reddit blocks anonymous cloud-IP access and Firecrawl refuses the site). Create a "script" app at [reddit.com/prefs/apps](https://www.reddit.com/prefs/apps). |
-| `REDDIT_CLIENT_SECRET` | ❌ | Reddit OAuth app secret (paired with `REDDIT_CLIENT_ID`) |
+| `FIRECRAWL_API_KEY` | ❌ | [Firecrawl](https://firecrawl.dev) key. Makes GitHub Trending parsing robust (scrapes the page instead of regex-matching raw HTML). Without it, Trending falls back to direct HTML scraping. |
 
 ### 3. Enable GitHub Actions
 
@@ -215,9 +212,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [GitHub API](https://docs.github.com/en/rest)
 - [Hacker News API](https://github.com/HackerNews/API)
-- [Reddit API](https://www.reddit.com/dev/api/)
 - [OSSInsight](https://ossinsight.io/) — AI/ML repository trends and analytics
 - [Resend](https://resend.com/)
+- [Firecrawl](https://firecrawl.dev/) — robust web scraping for GitHub Trending
 
 ---
 

@@ -219,47 +219,6 @@ class TestFetchHN:
         assert results == []
 
 
-class TestFetchReddit:
-    """测试 Reddit 数据源。"""
-
-    @patch("sources._reddit_token", return_value="fake-token")
-    @patch("sources._parse_repo")
-    @patch("sources.urllib.request.urlopen")
-    @patch("time.sleep")
-    def test_extracts_github_links(self, mock_sleep, mock_urlopen, mock_parse, mock_token, reddit_response):
-        """应从 Reddit 帖子中提取 GitHub 链接。"""
-        mock_parse.return_value = {"full_name": "user/awesome-project", "id": "1"}
-
-        resp = MagicMock()
-        resp.read.return_value = json.dumps(reddit_response).encode()
-        resp.__enter__ = lambda s: s
-        resp.__exit__ = MagicMock(return_value=False)
-        mock_urlopen.return_value = resp
-
-        results = sources.fetch_reddit()
-
-        assert len(results) == 1
-        assert results[0]["reddit_title"] == "Check out this new Python framework"
-        assert results[0]["reddit_score"] == 350
-
-    @patch("sources._reddit_token", return_value="fake-token")
-    @patch("sources.urllib.request.urlopen")
-    @patch("time.sleep")
-    def test_skips_non_github_posts(self, mock_sleep, mock_urlopen, mock_token, reddit_response):
-        """应跳过不包含 GitHub 链接的帖子。"""
-        # reddit_response 中第二个帖子不是 GitHub 链接
-        resp = MagicMock()
-        resp.read.return_value = json.dumps(reddit_response).encode()
-        resp.__enter__ = lambda s: s
-        resp.__exit__ = MagicMock(return_value=False)
-        mock_urlopen.return_value = resp
-
-        with patch("sources._parse_repo", return_value={"full_name": "user/awesome-project", "id": "1"}):
-            results = sources.fetch_reddit()
-            # 只有第一个帖子匹配
-            assert len(results) == 1
-
-
 class TestFetchRising:
     """测试 Rising 仓库检测源。"""
 
@@ -295,11 +254,8 @@ class TestFetchRising:
 class TestFetchAll:
     """测试 fetch_all 聚合逻辑。"""
 
-    @patch("sources.fetch_rising", return_value=[])
-    @patch("sources.fetch_reddit", return_value=[])
     @patch("sources.fetch_ai_trending", return_value=[])
     @patch("sources.fetch_rising", return_value=[])
-    @patch("sources.fetch_reddit", return_value=[])
     @patch("sources.fetch_hn", return_value=[])
     @patch("sources.fetch_search", return_value=[])
     @patch("sources.fetch_trending", return_value=[])
@@ -318,7 +274,6 @@ class TestFetchAll:
 
     @patch("sources.fetch_ai_trending", return_value=[])
     @patch("sources.fetch_rising", return_value=[])
-    @patch("sources.fetch_reddit", return_value=[])
     @patch("sources.fetch_hn", return_value=[])
     @patch("sources.fetch_search", return_value=[])
     @patch("sources.fetch_trending", return_value=[])
@@ -327,7 +282,6 @@ class TestFetchAll:
         sources.fetch_trending.return_value = [{"full_name": "a/b", "id": "1"}]
         sources.fetch_search.return_value = [{"full_name": "c/d", "id": "2"}]
         sources.fetch_hn.return_value = [{"full_name": "e/f", "id": "3"}]
-        sources.fetch_reddit.return_value = [{"full_name": "g/h", "id": "4"}]
         sources.fetch_rising.return_value = [{"full_name": "i/j", "id": "5"}]
 
         results = sources.fetch_all()
@@ -336,5 +290,4 @@ class TestFetchAll:
         assert sources_map["a/b"] == "trending"
         assert sources_map["c/d"] == "search"
         assert sources_map["e/f"] == "hn"
-        assert sources_map["g/h"] == "reddit"
         assert sources_map["i/j"] == "rising"

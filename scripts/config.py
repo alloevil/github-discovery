@@ -13,16 +13,8 @@ GITHUB_TRENDING_URL = "https://github.com/trending?since=daily"
 # Hacker News API
 HN_API = "https://hacker-news.firebaseio.com/v0"
 
-# Reddit OAuth (script app, client_credentials flow).
-# Reddit blocks unauthenticated .json from cloud IPs (GitHub Actions),
-# so the OAuth API is required. Create a "script" app at
-# https://www.reddit.com/prefs/apps to get these.
-REDDIT_CLIENT_ID = os.environ.get("REDDIT_CLIENT_ID", "")
-REDDIT_CLIENT_SECRET = os.environ.get("REDDIT_CLIENT_SECRET", "")
-
-# Firecrawl (https://firecrawl.dev) — used to scrape sites that block
-# anonymous/cloud-IP access (Reddit) or whose HTML is brittle to parse
-# (GitHub Trending). Optional: sources fall back / skip when unset.
+# Firecrawl (https://firecrawl.dev) — used to make GitHub Trending parsing
+# robust (its raw HTML structure is brittle to regex).
 FIRECRAWL_API_KEY = os.environ.get("FIRECRAWL_API_KEY", "")
 FIRECRAWL_API = "https://api.firecrawl.dev/v2/scrape"
 

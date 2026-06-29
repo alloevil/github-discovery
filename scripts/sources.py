@@ -3,7 +3,6 @@
 import json
 import re
 import time
-import base64
 import subprocess
 import urllib.request
 import urllib.error
@@ -11,7 +10,7 @@ import urllib.parse
 from datetime import datetime, timezone, timedelta
 from config import (
     GITHUB_TOKEN, GITHUB_API, GITHUB_TRENDING_URL, HN_API, API_DELAY,
-    REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, FIRECRAWL_API_KEY, FIRECRAWL_API,
+    FIRECRAWL_API_KEY, FIRECRAWL_API,
 )
 
 
@@ -255,103 +254,6 @@ def fetch_hn() -> list[dict]:
     return results
 
 
-# ── Source 4: Reddit /r/programming ────────────────────────────────────
-
-REDDIT_USER_AGENT = "github-discovery/1.0 (https://github.com/alloevil/github-discovery)"
-REDDIT_JSON_URL = "https://www.reddit.com/r/programming/hot.json?limit=25"
-
-
-def _reddit_token() -> str | None:
-    """Get a Reddit OAuth access token via client_credentials. None if unconfigured/failed."""
-    if not (REDDIT_CLIENT_ID and REDDIT_CLIENT_SECRET):
-        return None
-    try:
-        creds = base64.b64encode(f"{REDDIT_CLIENT_ID}:{REDDIT_CLIENT_SECRET}".encode()).decode()
-        req = urllib.request.Request(
-            "https://www.reddit.com/api/v1/access_token",
-            data=urllib.parse.urlencode({"grant_type": "client_credentials"}).encode(),
-            headers={"Authorization": f"Basic {creds}", "User-Agent": REDDIT_USER_AGENT},
-            method="POST",
-        )
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            return json.loads(resp.read()).get("access_token")
-    except Exception as e:
-        print(f"  [WARN] Reddit token fetch failed: {e}")
-        return None
-
-
-def _reddit_listing() -> dict | None:
-    """Fetch the /r/programming hot listing JSON.
-
-    Tries Firecrawl first, but Firecrawl currently refuses Reddit
-    ("we do not support this site"), so in practice the OAuth API is the
-    working path. Returns None if neither is available.
-    """
-    # 1) Firecrawl (kept as a cheap attempt; falls through if unsupported).
-    fc = _firecrawl_scrape(REDDIT_JSON_URL, formats=["markdown"])
-    if fc:
-        text = fc.get("markdown") or ""
-        # Firecrawl may wrap the JSON in code fences or prose; grab the object.
-        m = re.search(r'\{.*\}', text, re.DOTALL)
-        if m:
-            try:
-                return json.loads(m.group(0))
-            except Exception as e:
-                print(f"  [WARN] Reddit Firecrawl JSON parse failed: {e}")
-
-    # 2) Fall back to OAuth API.
-    token = _reddit_token()
-    if token:
-        try:
-            req = urllib.request.Request(
-                "https://oauth.reddit.com/r/programming/hot?limit=25",
-                headers={"Authorization": f"Bearer {token}", "User-Agent": REDDIT_USER_AGENT},
-            )
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                return json.loads(resp.read())
-        except Exception as e:
-            print(f"  [WARN] Reddit OAuth fetch failed: {e}")
-
-    return None
-
-
-def fetch_reddit() -> list[dict]:
-    """Fetch GitHub repos from Reddit /r/programming hot posts."""
-    print("[Source] Fetching Reddit /r/programming...")
-    results = []
-
-    data = _reddit_listing()
-    if not data:
-        print("  [SKIP] Reddit unavailable (set FIRECRAWL_API_KEY or REDDIT_CLIENT_ID/SECRET).")
-        return []
-
-    seen = set()
-    for post in data.get("data", {}).get("children", []):
-        post_data = post.get("data", {})
-        post_url = post_data.get("url", "")
-        title = post_data.get("title", "")
-        ups = post_data.get("ups", 0)
-
-        # 提取 GitHub 链接
-        gh_match = re.match(r"https?://github\.com/([^/]+/[^/]+)", post_url)
-        if not gh_match:
-            gh_match = re.search(r"github\.com/([^/]+/[^/\s]+)", title)
-
-        if gh_match:
-            full_name = gh_match.group(1).rstrip("/")
-            if full_name in seen:
-                continue
-            seen.add(full_name)
-            repo = _parse_repo(full_name)
-            if repo:
-                repo["reddit_title"] = title
-                repo["reddit_score"] = ups
-                results.append(repo)
-
-    print(f"  Found {len(results)} repos from Reddit")
-    return results
-
-
 # ── Source 5: GitHub Watch/Fork 增速异常检测 ───────────────────────────
 
 def fetch_rising() -> list[dict]:
@@ -427,11 +329,6 @@ def fetch_all() -> list[dict]:
     for r in hn:
         r["source"] = "hn"
     all_repos.extend(hn)
-
-    reddit = fetch_reddit()
-    for r in reddit:
-        r["source"] = "reddit"
-    all_repos.extend(reddit)
 
     rising = fetch_rising()
     for r in rising:
