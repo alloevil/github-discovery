@@ -629,7 +629,56 @@
         80
       ],
       "last_recommended": "2026-06-29T06:55:37.604782+00:00"
+    },
+    "huytranvan2010/AI-auto-generate-video": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-06-29T07:03:17.526738+00:00"
+    },
+    "lxcshine/nexusbox": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-06-29T07:03:17.529966+00:00"
+    },
+    "kamaludu/bash4llm": {
+      "count": 1,
+      "scores": [
+        79
+      ],
+      "last_recommended": "2026-06-29T07:03:17.531717+00:00"
+    },
+    "perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-X": {
+      "count": 1,
+      "scores": [
+        75
+      ],
+      "last_recommended": "2026-06-29T07:03:17.533359+00:00"
+    },
+    "perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-Premium": {
+      "count": 1,
+      "scores": [
+        75
+      ],
+      "last_recommended": "2026-06-29T07:03:17.535106+00:00"
+    },
+    "shreyashankar/error-discovery-skill": {
+      "count": 1,
+      "scores": [
+        72
+      ],
+      "last_recommended": "2026-06-29T07:03:17.536782+00:00"
+    },
+    "JustVugg/nanoeuler": {
+      "count": 1,
+      "scores": [
+        68
+      ],
+      "last_recommended": "2026-06-29T07:03:17.538430+00:00"
     }
   },
-  "updated_at": "2026-06-29T06:55:37.604809+00:00"
+  "updated_at": "2026-06-29T07:03:17.538461+00:00"
 }

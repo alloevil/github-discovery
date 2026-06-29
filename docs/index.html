@@ -123,6 +123,23 @@
     background: var(--surface-2);
     border-color: var(--hairline);
   }
+  .date-select {
+    padding: 6px 28px 6px 12px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink);
+    background: var(--surface-2);
+    border: 1px solid var(--hairline);
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: var(--font-sans);
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%238a8f98' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }
+  .date-select:hover { border-color: var(--hairline-strong); }
 
   /* Date Section */
   .date-section { margin-bottom: 40px; }
@@ -238,6 +255,13 @@
   }
   .meta-bar .legend-item {
     white-space: nowrap;
+    color: var(--ink-tertiary);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+  .meta-bar a.legend-item:hover {
+    color: var(--ink);
+    text-decoration: underline;
   }
   .score-tag {
     display: inline-block;
@@ -364,13 +388,15 @@
     <!-- Filters -->
     <div class="filters">
       <div class="filter-group" id="date-filters">
-        <button class="filter-btn active" onclick="switchDate('2026-06-29')">2026-06-29</button>
-        <button class="filter-btn" onclick="switchDate('2026-06-28')">2026-06-28</button>
-        <button class="filter-btn" onclick="switchDate('2026-06-27')">2026-06-27</button>
-        <button class="filter-btn" onclick="switchDate('2026-06-26')">2026-06-26</button>
-        <button class="filter-btn" onclick="switchDate('2026-06-25')">2026-06-25</button>
-        <button class="filter-btn" onclick="switchDate('2026-06-24')">2026-06-24</button>
-        <button class="filter-btn" onclick="switchDate('2026-06-23')">2026-06-23</button>
+        <select class="date-select" id="date-select" onchange="switchDate(this.value)">
+        <option value="2026-06-29" selected>2026-06-29</option>
+        <option value="2026-06-28">2026-06-28</option>
+        <option value="2026-06-27">2026-06-27</option>
+        <option value="2026-06-26">2026-06-26</option>
+        <option value="2026-06-25">2026-06-25</option>
+        <option value="2026-06-24">2026-06-24</option>
+        <option value="2026-06-23">2026-06-23</option>
+        </select>
       </div>
       <div class="filter-group" id="lang-filters">
         <button class="filter-btn active" onclick="filterLang('all')">All</button>
@@ -386,159 +412,117 @@
     <div class="meta-bar">
       <span class="meta-stats">
         <span><span class="stat-num" id="stat-sources">5</span> sources</span>
-        <span><span class="stat-num" id="stat-repos">90</span> repos</span>
-        <span>top <span class="stat-num" id="stat-score">100</span></span>
+        <span><span class="stat-num" id="stat-repos">87</span> repos</span>
+        <span>top <span class="stat-num" id="stat-score">95</span></span>
       </span>
       <span class="meta-sep">·</span>
       <span class="legend-label">Source:</span>
-      <span class="legend-item">🔥 Trending</span>
-      <span class="legend-item">🔍 Search</span>
-      <span class="legend-item">🟠 HN</span>
-      <span class="legend-item">📈 Rising</span>
-      <span class="legend-item">🤖 AI</span>
+      <a class="legend-item" href="https://github.com/trending" target="_blank" rel="noopener">🔥 Trending</a>
+      <a class="legend-item" href="https://github.com/search?q=created%3A%3E2024-01-01+stars%3A%3E50&type=repositories&s=stars&o=desc" target="_blank" rel="noopener">🔍 Search</a>
+      <a class="legend-item" href="https://news.ycombinator.com/show" target="_blank" rel="noopener">🟠 HN</a>
+      <a class="legend-item" href="https://github.com/search?q=created%3A%3E2024-01-01+forks%3A%3E20&type=repositories&s=forks&o=desc" target="_blank" rel="noopener">📈 Rising</a>
+      <a class="legend-item" href="https://ossinsight.io/collections/artificial-intelligence/" target="_blank" rel="noopener">🤖 AI</a>
     </div>
 
         <div class="date-section" data-date="2026-06-29" style="display:">
-      <div class="date-header"><h3>2026-06-29</h3><span class="date-count">10 repos</span></div>
-      <div class="section-label"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></div>
+      <div class="date-header"><h3>2026-06-29</h3><span class="date-count">7 repos</span></div>
+      <div class="section-label"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">7</span></div>
       <div class="repo" data-lang="html" data-source="rising">
         <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/revfactory.png" alt="revfactory" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/revfactory/webtoon-harness"><span class="repo-owner">revfactory /</span> webtoon-harness</a></div>
+          <img class="repo-avatar" src="https://github.com/huytranvan2010.png" alt="huytranvan2010" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/huytranvan2010/AI-auto-generate-video"><span class="repo-owner">huytranvan2010 /</span> AI-auto-generate-video</a></div>
         </div>
-        <div class="repo-desc">트렌드 조사부터 세로 스크롤 뷰어 완성까지, 웹툰 한 회차를 27개 AI 에이전트 팀이 만들어내는 Claude Code 하네스</div>
+        <div class="repo-desc">Auto generate AI video with hyperframes</div>
         <div class="repo-meta">
           <span class="repo-meta-item"><span class="lang-dot" style="background:#e34c26"></span>HTML</span>
-          <span class="repo-meta-item">⭐ 80</span>
-          <span class="repo-meta-item">📈 +80.0/day</span>
-          <span class="score-tag high">Score 100</span>
+          <span class="repo-meta-item">⭐ 35</span>
+          <span class="repo-meta-item">📈 +35.0/day</span>
+          <span class="score-tag high">Score 95</span>
           <span class="repo-meta-item source-tag" title="Discovered via rising">📈 Rising</span>
         </div>
       </div>
-      <div class="repo" data-lang="python" data-source="ai-trending">
+      <div class="repo" data-lang="go" data-source="ai-trending">
         <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/sums001.png" alt="sums001" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/sums001/Deepseek-API"><span class="repo-owner">sums001 /</span> Deepseek-API</a></div>
+          <img class="repo-avatar" src="https://github.com/lxcshine.png" alt="lxcshine" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/lxcshine/nexusbox"><span class="repo-owner">lxcshine /</span> nexusbox</a></div>
         </div>
-        <div class="repo-desc">Reverse engineered Deepseek chat into an OpenAI compatible API. Access V4 and R1 models through a simple REST interface without API keys or billing.</div>
+        <div class="repo-desc">Secure sandbox for AI Agents — execute shell, file, code, and browser commands in isolation via MCP.</div>
         <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-          <span class="repo-meta-item">⭐ 90</span>
-          <span class="repo-meta-item">📈 +90.0/day</span>
-          <span class="score-tag high">Score 100</span>
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#00ADD8"></span>Go</span>
+          <span class="repo-meta-item">⭐ 57</span>
+          <span class="repo-meta-item">📈 +11.4/day</span>
+          <span class="score-tag mid">Score 92</span>
           <span class="repo-meta-item source-tag" title="Discovered via ai-trending">🤖 AI</span>
         </div>
       </div>
-      <div class="repo" data-lang="python" data-source="ai-trending">
+      <div class="repo" data-lang="shell" data-source="hn">
         <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/kevin333353.png" alt="kevin333353" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/kevin333353/jobsmith"><span class="repo-owner">kevin333353 /</span> jobsmith</a></div>
+          <img class="repo-avatar" src="https://github.com/kamaludu.png" alt="kamaludu" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/kamaludu/bash4llm"><span class="repo-owner">kamaludu /</span> bash4llm</a></div>
         </div>
-        <div class="repo-desc">針對台灣求職市場的開源多代理 AI 求職 co-pilot：自動找職缺、履歷健檢、一鍵產生客製投遞包（履歷・求職信・面試準備・公司情報）與模擬面試。本機 Claude Code／Codex CLI 免 API key，也可自備金鑰接 OpenAI 相容模型。</div>
+        <div class="repo-desc">Bash-first wrapper for Groq’s OpenAI-compatible API. Secure, portable, Termux-friendly.</div>
         <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-          <span class="repo-meta-item">⭐ 103</span>
-          <span class="repo-meta-item">📈 +20.6/day</span>
-          <span class="score-tag high">Score 95</span>
-          <span class="repo-meta-item source-tag" title="Discovered via ai-trending">🤖 AI</span>
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#89e051"></span>Shell</span>
+          <span class="repo-meta-item">⭐ 34</span>
+          <span class="repo-meta-item">📈 +0.2/day</span>
+          <span class="score-tag low">Score 79</span>
+          <span class="repo-meta-item source-tag" title="Discovered via hn">🟠 HN</span>
         </div>
       </div>
-      <div class="repo" data-lang="typescript" data-source="search">
+      <div class="repo" data-lang="python" data-source="search">
         <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/PMTraderAdam.png" alt="PMTraderAdam" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/PMTraderAdam/pm-copy-trader"><span class="repo-owner">PMTraderAdam /</span> pm-copy-trader</a></div>
+          <img class="repo-avatar" src="https://github.com/perglervitek.png" alt="perglervitek" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-X"><span class="repo-owner">perglervitek /</span> Pet-Simulator-99-Auto-Farm-Trainer-2026-X</a></div>
         </div>
-        <div class="repo-desc">No description</div>
+        <div class="repo-desc">X edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.</div>
         <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
-          <span class="repo-meta-item">⭐ 299</span>
-          <span class="repo-meta-item">📈 +74.8/day</span>
-          <span class="score-tag mid">Score 94</span>
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
+          <span class="repo-meta-item">⭐ 208</span>
+          <span class="repo-meta-item">📈 +208.0/day</span>
+          <span class="score-tag low">Score 75</span>
           <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
         </div>
       </div>
-      <div class="repo" data-lang="unknown" data-source="rising">
+      <div class="repo" data-lang="python" data-source="search">
         <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/ethgan.png" alt="ethgan" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/ethgan/CF-ips-scanner"><span class="repo-owner">ethgan /</span> CF-ips-scanner</a></div>
+          <img class="repo-avatar" src="https://github.com/perglervitek.png" alt="perglervitek" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-Premium"><span class="repo-owner">perglervitek /</span> Pet-Simulator-99-Auto-Farm-Trainer-2026-Premium</a></div>
         </div>
-        <div class="repo-desc">优选ips</div>
+        <div class="repo-desc">Premium edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
+          <span class="repo-meta-item">⭐ 206</span>
+          <span class="repo-meta-item">📈 +206.0/day</span>
+          <span class="score-tag low">Score 75</span>
+          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="unknown" data-source="ai-trending">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/shreyashankar.png" alt="shreyashankar" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/shreyashankar/error-discovery-skill"><span class="repo-owner">shreyashankar /</span> error-discovery-skill</a></div>
+        </div>
+        <div class="repo-desc">Interactive error analysis skill for AI agents. Studies LLM trace datasets, builds a review UI, monitors annotations, categorizes failure modes, proposes new samples.</div>
         <div class="repo-meta">
           
-          <span class="repo-meta-item">⭐ 60</span>
-          <span class="repo-meta-item">📈 +60.0/day</span>
-          <span class="score-tag mid">Score 94</span>
-          <span class="repo-meta-item source-tag" title="Discovered via rising">📈 Rising</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="typescript" data-source="ai-trending">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/HiyuCat.png" alt="HiyuCat" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/HiyuCat/deepseek-v4-pro-flash-desktop-app"><span class="repo-owner">HiyuCat /</span> deepseek-v4-pro-flash-desktop-app</a></div>
-        </div>
-        <div class="repo-desc">deepseek-v4-pro-flash deepseek ai large language model llm mixture of experts moe 1m context window hybrid attention architecture compressed sparse attention csa heavily compressed attention hca manifold constrained hyper deepseek-v4-pro deepseek-v4-flash open source hugging face github repository api access local llm inference vllm ollama</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
-          <span class="repo-meta-item">⭐ 87</span>
-          <span class="repo-meta-item">📈 +29.0/day</span>
-          <span class="score-tag mid">Score 93</span>
+          <span class="repo-meta-item">⭐ 83</span>
+          <span class="repo-meta-item">📈 +16.6/day</span>
+          <span class="score-tag low">Score 72</span>
           <span class="repo-meta-item source-tag" title="Discovered via ai-trending">🤖 AI</span>
         </div>
       </div>
-      <div class="repo" data-lang="powershell" data-source="ai-trending">
+      <div class="repo" data-lang="cuda" data-source="hn">
         <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/zunmax.png" alt="zunmax" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/zunmax/ritual-agent-deployment"><span class="repo-owner">zunmax /</span> ritual-agent-deployment</a></div>
+          <img class="repo-avatar" src="https://github.com/JustVugg.png" alt="JustVugg" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/JustVugg/nanoeuler"><span class="repo-owner">JustVugg /</span> nanoeuler</a></div>
         </div>
-        <div class="repo-desc">Deploy a recurring, self-funding sovereign AI agent on Ritual testnet with one command.</div>
+        <div class="repo-desc">GPT-2-style LLM built from scratch in C/CUDA with hand-written backprop, BPE tokenizer, FlashAttention, pretraining, and SFT.</div>
         <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#8b949e"></span>PowerShell</span>
-          <span class="repo-meta-item">⭐ 66</span>
-          <span class="repo-meta-item">📈 +33.0/day</span>
-          <span class="score-tag mid">Score 93</span>
-          <span class="repo-meta-item source-tag" title="Discovered via ai-trending">🤖 AI</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="python" data-source="ai-trending">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/Reyzowter.png" alt="Reyzowter" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/Reyzowter/Hello-Agents"><span class="repo-owner">Reyzowter /</span> Hello-Agents</a></div>
-        </div>
-        <div class="repo-desc">🤖 Building AI Agent Systems from Scratch — A comprehensive, practical tutorial from fundamentals to production-grade multi-agent applications</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-          <span class="repo-meta-item">⭐ 137</span>
-          <span class="repo-meta-item">📈 +27.4/day</span>
-          <span class="score-tag low">Score 87</span>
-          <span class="repo-meta-item source-tag" title="Discovered via ai-trending">🤖 AI</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="typescript" data-source="ai-trending">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/revztune.png" alt="revztune" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/revztune/qwen-3.6-free-api-desktop-app"><span class="repo-owner">revztune /</span> qwen-3.6-free-api-desktop-app</a></div>
-        </div>
-        <div class="repo-desc">qwen 3.6 qwen3.6 alibaba open source llm large language model github download repository hugging face qwen3.6-27b qwen3.6-35b-a3b mixture of experts moe gated delta networks hybrid attention architecture mtp speculative decoding 262k context window 1m context yarn rope scaling agentic coding frontend workflows</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
-          <span class="repo-meta-item">⭐ 68</span>
-          <span class="repo-meta-item">📈 +34.0/day</span>
-          <span class="score-tag low">Score 83</span>
-          <span class="repo-meta-item source-tag" title="Discovered via ai-trending">🤖 AI</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="python" data-source="trending">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/cupy.png" alt="cupy" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/cupy/cupy"><span class="repo-owner">cupy /</span> cupy</a></div>
-        </div>
-        <div class="repo-desc">NumPy & SciPy for GPU</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-          <span class="repo-meta-item">⭐ 11608</span>
-          <span class="repo-meta-item">📈 +3.3/day</span>
-          <span class="score-tag low">Score 80</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#8b949e"></span>Cuda</span>
+          <span class="repo-meta-item">⭐ 58</span>
+          <span class="repo-meta-item">📈 +4.5/day</span>
+          <span class="score-tag low">Score 68</span>
+          <span class="repo-meta-item source-tag" title="Discovered via hn">🟠 HN</span>
         </div>
       </div>
     </div>
@@ -1716,9 +1700,8 @@
 <script>
 function switchDate(date) {
   document.querySelectorAll('.date-section').forEach(s => s.style.display = 'none');
-  document.querySelector('[data-date="' + date + '"]').style.display = '';
-  document.querySelectorAll('#date-filters .filter-btn').forEach(b => b.classList.remove('active'));
-  event.target.classList.add('active');
+  const sec = document.querySelector('[data-date="' + date + '"]');
+  if (sec) sec.style.display = '';
 }
 
 function filterLang(lang) {

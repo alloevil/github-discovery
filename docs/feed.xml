@@ -5,51 +5,51 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 06:55:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 07:03:17 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>🔥 revfactory/webtoon-harness — 80⭐ (80.0/day)</title>
-      <description>트렌드 조사부터 세로 스크롤 뷰어 완성까지, 웹툰 한 회차를 27개 AI 에이전트 팀이 만들어내는 Claude Code 하네스
+      <title>🔥 huytranvan2010/AI-auto-generate-video — 35⭐ (35.0/day)</title>
+      <description>Auto generate AI video with hyperframes
 
-Score: 100/100 | Language: HTML</description>
-      <link>https://github.com/revfactory/webtoon-harness</link>
-      <guid>https://github.com/revfactory/webtoon-harness#2026-06-29</guid>
+Score: 95/100 | Language: HTML</description>
+      <link>https://github.com/huytranvan2010/AI-auto-generate-video</link>
+      <guid>https://github.com/huytranvan2010/AI-auto-generate-video#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 sums001/Deepseek-API — 90⭐ (90.0/day)</title>
-      <description>Reverse engineered Deepseek chat into an OpenAI compatible API. Access V4 and R1 models through a simple REST interface without API keys or billing.
+      <title>🔥 lxcshine/nexusbox — 57⭐ (11.4/day)</title>
+      <description>Secure sandbox for AI Agents — execute shell, file, code, and browser commands in isolation via MCP.
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/sums001/Deepseek-API</link>
-      <guid>https://github.com/sums001/Deepseek-API#2026-06-29</guid>
+Score: 92/100 | Language: Go</description>
+      <link>https://github.com/lxcshine/nexusbox</link>
+      <guid>https://github.com/lxcshine/nexusbox#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 kevin333353/jobsmith — 103⭐ (20.6/day)</title>
-      <description>針對台灣求職市場的開源多代理 AI 求職 co-pilot：自動找職缺、履歷健檢、一鍵產生客製投遞包（履歷・求職信・面試準備・公司情報）與模擬面試。本機 Claude Code／Codex CLI 免 API key，也可自備金鑰接 OpenAI 相容模型。
+      <title>🔥 kamaludu/bash4llm — 34⭐ (0.2/day)</title>
+      <description>Bash-first wrapper for Groq’s OpenAI-compatible API. Secure, portable, Termux-friendly.
 
-Score: 95/100 | Language: Python</description>
-      <link>https://github.com/kevin333353/jobsmith</link>
-      <guid>https://github.com/kevin333353/jobsmith#2026-06-29</guid>
+Score: 79/100 | Language: Shell</description>
+      <link>https://github.com/kamaludu/bash4llm</link>
+      <guid>https://github.com/kamaludu/bash4llm#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 PMTraderAdam/pm-copy-trader — 299⭐ (74.8/day)</title>
-      <description>
+      <title>🔥 perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-X — 208⭐ (208.0/day)</title>
+      <description>X edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.
 
-Score: 94/100 | Language: TypeScript</description>
-      <link>https://github.com/PMTraderAdam/pm-copy-trader</link>
-      <guid>https://github.com/PMTraderAdam/pm-copy-trader#2026-06-29</guid>
+Score: 75/100 | Language: Python</description>
+      <link>https://github.com/perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-X</link>
+      <guid>https://github.com/perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-X#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 ethgan/CF-ips-scanner — 60⭐ (60.0/day)</title>
-      <description>优选ips
+      <title>🔥 perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-Premium — 206⭐ (206.0/day)</title>
+      <description>Premium edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.
 
-Score: 94/100 | Language: ?</description>
-      <link>https://github.com/ethgan/CF-ips-scanner</link>
-      <guid>https://github.com/ethgan/CF-ips-scanner#2026-06-29</guid>
+Score: 75/100 | Language: Python</description>
+      <link>https://github.com/perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-Premium</link>
+      <guid>https://github.com/perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-Premium#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>

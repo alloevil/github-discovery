@@ -1,7 +1,7 @@
 # 🔥 GitHub Discovery Report
 
-> **Generated:** 2026-06-29 06:55
-> **10 new repos + 0 repeat performers**
+> **Generated:** 2026-06-29 07:03
+> **7 new repos + 0 repeat performers**
 
 ---
 
@@ -9,193 +9,143 @@
 
 *These repos were first featured in GitHub Discovery*
 
-### 1. [revfactory/webtoon-harness](https://github.com/revfactory/webtoon-harness)
+### 1. [huytranvan2010/AI-auto-generate-video](https://github.com/huytranvan2010/AI-auto-generate-video)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 80 |
+| ⭐ Stars | 35 |
 | 📅 Age | 1 days |
-| 🚀 Daily Growth | 80.0 stars/day |
+| 🚀 Daily Growth | 35.0 stars/day |
 | 🔤 Language | HTML |
 | 📡 Source | rising |
 
-> 트렌드 조사부터 세로 스크롤 뷰어 완성까지, 웹툰 한 회차를 27개 AI 에이전트 팀이 만들어내는 Claude Code 하네스
-
-**Score: 100/100** `████████████████████`
-- Acceleration: 28/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 2. [sums001/Deepseek-API](https://github.com/sums001/Deepseek-API)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 90 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 90.0 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | ai-trending |
-
-> Reverse engineered Deepseek chat into an OpenAI compatible API. Access V4 and R1 models through a simple REST interface without API keys or billing.
-
-**Score: 100/100** `████████████████████`
-- Acceleration: 28/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 3. [kevin333353/jobsmith](https://github.com/kevin333353/jobsmith)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 103 |
-| 📅 Age | 5 days |
-| 🚀 Daily Growth | 20.6 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | ai-trending |
-
-> 針對台灣求職市場的開源多代理 AI 求職 co-pilot：自動找職缺、履歷健檢、一鍵產生客製投遞包（履歷・求職信・面試準備・公司情報）與模擬面試。本機 Claude Code／Codex CLI 免 API key，也可自備金鑰接 OpenAI 相容模型。
+> Auto generate AI video with hyperframes
 
 **Score: 95/100** `███████████████████░`
 - Acceleration: 20/40
 - Quality: 30/30
-- Anti-spam: 25/30
+- Anti-spam: 30/30
 
 ---
-### 4. [PMTraderAdam/pm-copy-trader](https://github.com/PMTraderAdam/pm-copy-trader)
+### 2. [lxcshine/nexusbox](https://github.com/lxcshine/nexusbox)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 299 |
-| 📅 Age | 4 days |
-| 🚀 Daily Growth | 74.8 stars/day |
-| 🔤 Language | TypeScript |
+| ⭐ Stars | 57 |
+| 📅 Age | 5 days |
+| 🚀 Daily Growth | 11.4 stars/day |
+| 🔤 Language | Go |
+| 📡 Source | ai-trending |
+
+> Secure sandbox for AI Agents — execute shell, file, code, and browser commands in isolation via MCP.
+
+**Score: 92/100** `██████████████████░░`
+- Acceleration: 12/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [kamaludu/bash4llm](https://github.com/kamaludu/bash4llm)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 34 |
+| 📅 Age | 161 days |
+| 🚀 Daily Growth | 0.2 stars/day |
+| 🔤 Language | Shell |
+| 📡 Source | hn |
+
+> Bash-first wrapper for Groq’s OpenAI-compatible API. Secure, portable, Termux-friendly. 
+
+**Score: 79/100** `███████████████░░░░░`
+- Acceleration: 0/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+- 🔶 HN: [Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs](https://news.ycombinator.com) (score: 46)
+
+---
+### 4. [perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-X](https://github.com/perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-X)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 208 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 208.0 stars/day |
+| 🔤 Language | Python |
 | 📡 Source | search |
 
-> 
+> X edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.
 
-**Score: 94/100** `██████████████████░░`
-- Acceleration: 34/40
-- Quality: 20/30
-- Anti-spam: 30/30
-
----
-### 5. [ethgan/CF-ips-scanner](https://github.com/ethgan/CF-ips-scanner)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 60 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 60.0 stars/day |
-| 🔤 Language |  |
-| 📡 Source | rising |
-
-> 优选ips
-
-**Score: 94/100** `██████████████████░░`
-- Acceleration: 28/40
-- Quality: 20/30
-- Anti-spam: 30/30
-
----
-### 6. [HiyuCat/deepseek-v4-pro-flash-desktop-app](https://github.com/HiyuCat/deepseek-v4-pro-flash-desktop-app)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 87 |
-| 📅 Age | 3 days |
-| 🚀 Daily Growth | 29.0 stars/day |
-| 🔤 Language | TypeScript |
-| 📡 Source | ai-trending |
-
-> deepseek-v4-pro-flash deepseek ai large language model llm mixture of experts moe 1m context window hybrid attention architecture compressed sparse attention csa heavily compressed attention hca manifold constrained hyper deepseek-v4-pro deepseek-v4-flash open source hugging face github repository api access local llm inference vllm ollama
-
-**Score: 93/100** `██████████████████░░`
-- Acceleration: 20/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 7. [zunmax/ritual-agent-deployment](https://github.com/zunmax/ritual-agent-deployment)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 66 |
-| 📅 Age | 2 days |
-| 🚀 Daily Growth | 33.0 stars/day |
-| 🔤 Language | PowerShell |
-| 📡 Source | ai-trending |
-
-> Deploy a recurring, self-funding sovereign AI agent on Ritual testnet with one command.
-
-**Score: 93/100** `██████████████████░░`
-- Acceleration: 20/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 8. [Reyzowter/Hello-Agents](https://github.com/Reyzowter/Hello-Agents)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 137 |
-| 📅 Age | 5 days |
-| 🚀 Daily Growth | 27.4 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | ai-trending |
-
-> 🤖 Building AI Agent Systems from Scratch — A comprehensive, practical tutorial from fundamentals to production-grade multi-agent applications
-
-**Score: 87/100** `█████████████████░░░`
-- Acceleration: 20/40
-- Quality: 25/30
-- Anti-spam: 30/30
-
----
-### 9. [revztune/qwen-3.6-free-api-desktop-app](https://github.com/revztune/qwen-3.6-free-api-desktop-app)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 68 |
-| 📅 Age | 2 days |
-| 🚀 Daily Growth | 34.0 stars/day |
-| 🔤 Language | TypeScript |
-| 📡 Source | ai-trending |
-
-> qwen 3.6 qwen3.6 alibaba open source llm large language model github download repository hugging face qwen3.6-27b qwen3.6-35b-a3b mixture of experts moe gated delta networks hybrid attention architecture mtp speculative decoding 262k context window 1m context yarn rope scaling agentic coding frontend workflows
-
-**Score: 83/100** `████████████████░░░░`
-- Acceleration: 20/40
+**Score: 75/100** `███████████████░░░░░`
+- Acceleration: 40/40
 - Quality: 30/30
 - Anti-spam: 20/30
 
 ---
-### 10. [cupy/cupy](https://github.com/cupy/cupy)
+### 5. [perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-Premium](https://github.com/perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-Premium)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 11,608 |
-| 📅 Age | 3526 days |
-| 🚀 Daily Growth | 3.3 stars/day |
+| ⭐ Stars | 206 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 206.0 stars/day |
 | 🔤 Language | Python |
-| 📡 Source | trending |
+| 📡 Source | search |
 
-> NumPy & SciPy for GPU
+> Premium edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.
 
-**Score: 80/100** `████████████████░░░░`
+**Score: 75/100** `███████████████░░░░░`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 20/30
+
+---
+### 6. [shreyashankar/error-discovery-skill](https://github.com/shreyashankar/error-discovery-skill)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 83 |
+| 📅 Age | 5 days |
+| 🚀 Daily Growth | 16.6 stars/day |
+| 🔤 Language |  |
+| 📡 Source | ai-trending |
+
+> Interactive error analysis skill for AI agents. Studies LLM trace datasets, builds a review UI, monitors annotations, categorizes failure modes, proposes new samples.
+
+**Score: 72/100** `██████████████░░░░░░`
+- Acceleration: 12/40
+- Quality: 20/30
+- Anti-spam: 30/30
+
+---
+### 7. [JustVugg/nanoeuler](https://github.com/JustVugg/nanoeuler)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 58 |
+| 📅 Age | 13 days |
+| 🚀 Daily Growth | 4.5 stars/day |
+| 🔤 Language | Cuda |
+| 📡 Source | hn |
+
+> GPT-2-style LLM built from scratch in C/CUDA with hand-written backprop, BPE tokenizer, FlashAttention, pretraining, and SFT.
+
+**Score: 68/100** `█████████████░░░░░░░`
 - Acceleration: 0/40
 - Quality: 30/30
 - Anti-spam: 30/30
+
+- 🔶 HN: [Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch](https://news.ycombinator.com) (score: 45)
 
 ---
 
 ## 📊 Summary
 
-- **New discoveries:** 10 repos
+- **New discoveries:** 7 repos
 - **Repeat performers:** 0 repos
-- **Score range:** 80 - 100
-- **Top pick:** [revfactory/webtoon-harness](https://github.com/revfactory/webtoon-harness)
+- **Score range:** 68 - 95
+- **Top pick:** [huytranvan2010/AI-auto-generate-video](https://github.com/huytranvan2010/AI-auto-generate-video)
 
 ---
 *Generated by GitHub Discovery Tool*
