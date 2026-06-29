@@ -37,7 +37,7 @@ jobs:
         run: |
           git config user.name "github-discovery-bot"
           git config user.email "bot@github-discovery"
-          git add output/ dist/
+          git add output/ docs/
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
@@ -50,4 +50,4 @@ jobs:
         if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./docs
