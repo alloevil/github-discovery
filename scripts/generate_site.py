@@ -37,7 +37,7 @@ SOURCE_LABELS = {
     "search": "🔍 Search",
     "hn": "🟠 HN",
     "rising": "📈 Rising",
-    "ai-trending": "🤖 AI",
+    "ai-trending": "🤖 AI/ML",
 }
 
 
