@@ -5,8 +5,12 @@
 //   3. 每次新增订阅后，自动同步到 GitHub 的 subscribers.txt
 
 // ========== 配置 ==========
+// 注意：不要把真实 token 写进这里并提交到 git。
+// 在 Apps Script 控制台用 PropertiesService 存储敏感值：
+//   项目设置 → 脚本属性 添加 GITHUB_TOKEN，然后：
+//   var GITHUB_TOKEN = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
 var SHEET_ID = '1YoiRZ73frrij_98gcUtEjmw29yuXGFhoHUHzkwO-Ubo';
-var GITHUB_TOKEN = 'YOUR_G…HERE';
+var GITHUB_TOKEN = 'YOUR_GITHUB_TOKEN_HERE';  // 占位符；真实值请用脚本属性，勿提交
 var GITHUB_REPO = 'alloevil/github-discovery';
 // ===========================
 

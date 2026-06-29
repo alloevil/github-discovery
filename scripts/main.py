@@ -20,7 +20,6 @@ from config import TOP_N, OUTPUT_DIR, RESEND_API_KEY
 from db import init_db, repo_exists, save_repo, save_run
 from sources import fetch_all
 from scorer import calculate_score
-from feedback import get_all_feedback
 from dedup import is_recently_recommended, record_recommendation, cleanup_old_records
 from quality import check_quality, check_star_authenticity, is_blocked_content
 from fraud_detection import detect_batch_fraud, apply_fraud_penalty
@@ -283,8 +282,6 @@ def main():
     # Score and filter
     new_scored = []
     repeat_scored = []
-    # Load user feedback
-    all_feedback = get_all_feedback()
 
     # 跨天去重：过滤掉最近 7 天已推荐的仓库
     filtered_repos = []
@@ -371,16 +368,6 @@ def main():
             scores["total"] = max(0, scores["total"] + fraud["penalty"])
             scores["fraud_penalty"] = fraud["penalty"]
             scores["fraud_reason"] = fraud["reason"]
-        
-        # 用户反馈调整
-        fb = all_feedback.get(repo["full_name"], {})
-        fb_score = fb.get("score", 0)
-        if fb_score > 0:
-            scores["total"] = min(100, scores["total"] + min(10, fb_score * 2))
-            scores["feedback_boost"] = fb_score
-        elif fb_score < 0:
-            scores["total"] = max(0, scores["total"] + max(-10, fb_score * 2))
-            scores["feedback_penalty"] = fb_score
 
         if repo_exists(repo["id"]):
             repeat_scored.append((repo, scores))

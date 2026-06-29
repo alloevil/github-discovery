@@ -91,10 +91,6 @@ def repo_card(r: dict) -> str:
           <span class="repo-meta-item">⭐ {stars}</span>
           <span class="repo-meta-item">📈 +{daily}/day</span>
           <span class="score-tag {sc}">Score {score}</span>
-          <span class="vote-btns" data-repo="{owner}/{repo_name}">
-            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
-            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
-          </span>
         </div>
       </div>'''
 

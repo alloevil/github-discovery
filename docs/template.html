@@ -257,29 +257,6 @@
     border-color: rgba(94, 106, 210, 0.3);
   }
 
-  /* Vote buttons */
-  .vote-btns {
-    display: inline-flex;
-    gap: 2px;
-    margin-left: 8px;
-  }
-  .vote-btn {
-    background: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    padding: 2px 6px;
-    cursor: pointer;
-    font-size: 12px;
-    opacity: 0.4;
-    transition: all 0.15s;
-  }
-  .vote-btn:hover { opacity: 0.8; }
-  .vote-btn.voted {
-    opacity: 1;
-    border-color: var(--hairline);
-    background: var(--surface-2);
-  }
-
   /* Subscribe Footer */
   .footer {
     margin-top: 48px;
@@ -428,15 +405,6 @@
 
 
     <!-- CONTENT_MARKER -->
-          <span class="repo-meta-item">📈 +1103.7/day/day</span>
-          <span class="score-tag high">Score 96</span>
-          <span class="vote-btns" data-repo="garrytan/gstack">
-            <button class="vote-btn vote-up" onclick="vote(this, 'up')">👍</button>
-            <button class="vote-btn vote-down" onclick="vote(this, 'down')">👎</button>
-          </span>
-        </div>
-      </div>
-    </div>
 
     <!-- Footer -->
     <footer class="footer">
@@ -476,21 +444,6 @@ function filterLang(lang) {
   event.target.classList.add('active');
 }
 
-function vote(btn, type) {
-  const container = btn.closest('.vote-btns');
-  const repo = container.dataset.repo;
-  const key = 'ghd-vote-' + repo;
-  const existing = localStorage.getItem(key);
-  if (existing === type) {
-    localStorage.removeItem(key);
-    container.querySelectorAll('.vote-btn').forEach(b => b.classList.remove('voted'));
-    return;
-  }
-  localStorage.setItem(key, type);
-  container.querySelectorAll('.vote-btn').forEach(b => b.classList.remove('voted'));
-  btn.classList.add('voted');
-}
-
 function handleSubscribe(e) {
   e.preventDefault();
   const form = e.target;
@@ -516,14 +469,6 @@ function handleSubscribe(e) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.vote-btns').forEach(container => {
-    const repo = container.dataset.repo;
-    const v = localStorage.getItem('ghd-vote-' + repo);
-    if (v) {
-      const btn = container.querySelector('.vote-' + v);
-      if (btn) btn.classList.add('voted');
-    }
-  });
 });
 </script>
 </body>

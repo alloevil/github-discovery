@@ -6,9 +6,6 @@ import os
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 GITHUB_API = "https://api.github.com"
 
-# Buttondown API (subscriber list only)
-BUTTONDOWN_API_KEY = os.environ.get("BUTTONDOWN_API_KEY", "")
-
 # Resend API (email sending)
 RESEND_API_KEY = os.environ.get("RESEND_API_KEY", "")
 GITHUB_TRENDING_URL = "https://github.com/trending?since=daily"
