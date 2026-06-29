@@ -125,9 +125,14 @@ def _extract_trending_paths(html: str, markdown: str = "") -> list[str]:
     paths = re.findall(r'<h2[^>]*>\s*<a[^>]*href="(/[^/]+/[^"]+)"', html)
     if not paths:
         paths = re.findall(r'href="(/[^/]+/[^"]+)"[^>]*class="[^"]*color-fg-default', html)
-    # Fallback: pull github.com/owner/repo out of Firecrawl markdown
+    # Fallback: Firecrawl markdown renders each repo as a heading like
+    #   ## [owner / repo](https://github.com/owner/repo)
+    # Match that precisely — a broad github.com/... grab also catches the
+    # language-filter links (github.com/trending/abap) and avatar URLs.
     if not paths and markdown:
-        paths = ["/" + m for m in re.findall(r'github\.com/([\w.-]+/[\w.-]+)', markdown)]
+        paths = ["/" + m for m in re.findall(
+            r'^##\s+\[.*?\]\(https://github\.com/([\w.-]+/[\w.-]+)\)',
+            markdown, re.MULTILINE)]
     return paths
 
 
@@ -278,10 +283,11 @@ def _reddit_token() -> str | None:
 def _reddit_listing() -> dict | None:
     """Fetch the /r/programming hot listing JSON.
 
-    Prefers Firecrawl (bypasses Reddit's cloud-IP 403), falls back to the
-    OAuth API, and returns None if neither is available.
+    Tries Firecrawl first, but Firecrawl currently refuses Reddit
+    ("we do not support this site"), so in practice the OAuth API is the
+    working path. Returns None if neither is available.
     """
-    # 1) Firecrawl scrapes the .json page; the JSON arrives inside markdown.
+    # 1) Firecrawl (kept as a cheap attempt; falls through if unsupported).
     fc = _firecrawl_scrape(REDDIT_JSON_URL, formats=["markdown"])
     if fc:
         text = fc.get("markdown") or ""
