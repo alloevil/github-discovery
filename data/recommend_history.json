@@ -559,7 +559,77 @@
         81
       ],
       "last_recommended": "2026-06-29T06:47:32.822173+00:00"
+    },
+    "revfactory/webtoon-harness": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-29T06:55:37.587763+00:00"
+    },
+    "sums001/Deepseek-API": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-29T06:55:37.590034+00:00"
+    },
+    "kevin333353/jobsmith": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-06-29T06:55:37.591849+00:00"
+    },
+    "PMTraderAdam/pm-copy-trader": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-06-29T06:55:37.593546+00:00"
+    },
+    "ethgan/CF-ips-scanner": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-06-29T06:55:37.595372+00:00"
+    },
+    "HiyuCat/deepseek-v4-pro-flash-desktop-app": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-06-29T06:55:37.597291+00:00"
+    },
+    "zunmax/ritual-agent-deployment": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-06-29T06:55:37.599163+00:00"
+    },
+    "Reyzowter/Hello-Agents": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-06-29T06:55:37.601114+00:00"
+    },
+    "revztune/qwen-3.6-free-api-desktop-app": {
+      "count": 1,
+      "scores": [
+        83
+      ],
+      "last_recommended": "2026-06-29T06:55:37.602972+00:00"
+    },
+    "cupy/cupy": {
+      "count": 1,
+      "scores": [
+        80
+      ],
+      "last_recommended": "2026-06-29T06:55:37.604782+00:00"
     }
   },
-  "updated_at": "2026-06-29T06:47:32.822199+00:00"
+  "updated_at": "2026-06-29T06:55:37.604809+00:00"
 }

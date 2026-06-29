@@ -5,51 +5,51 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 06:47:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 06:55:38 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>🔥 dimasarestuprasmanto/Pet-Simulator-99-Auto-Farm-Trainer-2026-Peta — 207⭐ (207.0/day)</title>
-      <description>Boost your Pet Simulator 99 progress with the Peta trainer. Auto-farm, auto-hatch, instant break, and League auto-grind – all in one sleek GUI. Works with the June 2026 update.
+      <title>🔥 revfactory/webtoon-harness — 80⭐ (80.0/day)</title>
+      <description>트렌드 조사부터 세로 스크롤 뷰어 완성까지, 웹툰 한 회차를 27개 AI 에이전트 팀이 만들어내는 Claude Code 하네스
+
+Score: 100/100 | Language: HTML</description>
+      <link>https://github.com/revfactory/webtoon-harness</link>
+      <guid>https://github.com/revfactory/webtoon-harness#2026-06-29</guid>
+      <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 sums001/Deepseek-API — 90⭐ (90.0/day)</title>
+      <description>Reverse engineered Deepseek chat into an OpenAI compatible API. Access V4 and R1 models through a simple REST interface without API keys or billing.
 
 Score: 100/100 | Language: Python</description>
-      <link>https://github.com/dimasarestuprasmanto/Pet-Simulator-99-Auto-Farm-Trainer-2026-Peta</link>
-      <guid>https://github.com/dimasarestuprasmanto/Pet-Simulator-99-Auto-Farm-Trainer-2026-Peta#2026-06-29</guid>
+      <link>https://github.com/sums001/Deepseek-API</link>
+      <guid>https://github.com/sums001/Deepseek-API#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 Einsia/Browser-BC — 229⭐ (114.5/day)</title>
-      <description>Agent behavior clone for browser using, targeting general GUI using and distributed trajectory collecting.
+      <title>🔥 kevin333353/jobsmith — 103⭐ (20.6/day)</title>
+      <description>針對台灣求職市場的開源多代理 AI 求職 co-pilot：自動找職缺、履歷健檢、一鍵產生客製投遞包（履歷・求職信・面試準備・公司情報）與模擬面試。本機 Claude Code／Codex CLI 免 API key，也可自備金鑰接 OpenAI 相容模型。
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/Einsia/Browser-BC</link>
-      <guid>https://github.com/Einsia/Browser-BC#2026-06-29</guid>
+Score: 95/100 | Language: Python</description>
+      <link>https://github.com/kevin333353/jobsmith</link>
+      <guid>https://github.com/kevin333353/jobsmith#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 Lutschippi/DEHUB — 131⭐ (65.5/day)</title>
-      <description>The Ultimate Data Engineering Hub — 500+ Resources, 50+ Tools, Roadmaps &amp; Community for Data Engineers Worldwide
+      <title>🔥 PMTraderAdam/pm-copy-trader — 299⭐ (74.8/day)</title>
+      <description>
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/Lutschippi/DEHUB</link>
-      <guid>https://github.com/Lutschippi/DEHUB#2026-06-29</guid>
+Score: 94/100 | Language: TypeScript</description>
+      <link>https://github.com/PMTraderAdam/pm-copy-trader</link>
+      <guid>https://github.com/PMTraderAdam/pm-copy-trader#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 GraeLefix/GITVERSE — 131⭐ (43.7/day)</title>
-      <description>🔍 Reverse engineer any codebase into a build prompt — architecture breakdown, ASCII blueprint, and AI-ready reconstruction prompt
+      <title>🔥 ethgan/CF-ips-scanner — 60⭐ (60.0/day)</title>
+      <description>优选ips
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/GraeLefix/GITVERSE</link>
-      <guid>https://github.com/GraeLefix/GITVERSE#2026-06-29</guid>
-      <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 dreiachse-cyber/image-cockpit-for-codex-workflows — 139⭐ (23.2/day)</title>
-      <description>Local cockpit for Codex imagegen, pixel art, image editing, animation, and sprite-sheet workflows.
-
-Score: 99/100 | Language: TypeScript</description>
-      <link>https://github.com/dreiachse-cyber/image-cockpit-for-codex-workflows</link>
-      <guid>https://github.com/dreiachse-cyber/image-cockpit-for-codex-workflows#2026-06-29</guid>
+Score: 94/100 | Language: ?</description>
+      <link>https://github.com/ethgan/CF-ips-scanner</link>
+      <guid>https://github.com/ethgan/CF-ips-scanner#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
