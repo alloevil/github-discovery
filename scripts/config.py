@@ -20,6 +20,12 @@ HN_API = "https://hacker-news.firebaseio.com/v0"
 REDDIT_CLIENT_ID = os.environ.get("REDDIT_CLIENT_ID", "")
 REDDIT_CLIENT_SECRET = os.environ.get("REDDIT_CLIENT_SECRET", "")
 
+# Firecrawl (https://firecrawl.dev) — used to scrape sites that block
+# anonymous/cloud-IP access (Reddit) or whose HTML is brittle to parse
+# (GitHub Trending). Optional: sources fall back / skip when unset.
+FIRECRAWL_API_KEY = os.environ.get("FIRECRAWL_API_KEY", "")
+FIRECRAWL_API = "https://api.firecrawl.dev/v2/scrape"
+
 # Scoring thresholds
 TOP_N = 10
 API_DELAY = 0.3  # seconds between API calls (reduced for faster execution)

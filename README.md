@@ -95,7 +95,8 @@ Go to **Settings → Secrets and variables → Actions** and add:
 |--------|----------|-------------|
 | `RESEND_API_KEY` | ✅ | [Resend](https://resend.com/) API Key for sending emails |
 | `GITHUB_TOKEN` | ❌ | GitHub Personal Access Token (optional, uses GITHUB_TOKEN by default) |
-| `REDDIT_CLIENT_ID` | ❌ | Reddit OAuth app ID — without it the Reddit source is skipped (Reddit blocks anonymous access from cloud IPs). Create a "script" app at [reddit.com/prefs/apps](https://www.reddit.com/prefs/apps). |
+| `FIRECRAWL_API_KEY` | ❌ | [Firecrawl](https://firecrawl.dev) key. Used to scrape the Reddit source (which blocks cloud IPs) and to make GitHub Trending parsing more robust. Without it, Reddit is skipped and Trending falls back to direct HTML scraping. |
+| `REDDIT_CLIENT_ID` | ❌ | Reddit OAuth app ID — alternative to Firecrawl for the Reddit source. Create a "script" app at [reddit.com/prefs/apps](https://www.reddit.com/prefs/apps). Only used if `FIRECRAWL_API_KEY` is unset. |
 | `REDDIT_CLIENT_SECRET` | ❌ | Reddit OAuth app secret (paired with `REDDIT_CLIENT_ID`) |
 
 ### 3. Enable GitHub Actions

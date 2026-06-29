@@ -4,11 +4,15 @@ import json
 import re
 import time
 import base64
+import subprocess
 import urllib.request
 import urllib.error
 import urllib.parse
 from datetime import datetime, timezone, timedelta
-from config import GITHUB_TOKEN, GITHUB_API, GITHUB_TRENDING_URL, HN_API, API_DELAY, REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET
+from config import (
+    GITHUB_TOKEN, GITHUB_API, GITHUB_TRENDING_URL, HN_API, API_DELAY,
+    REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, FIRECRAWL_API_KEY, FIRECRAWL_API,
+)
 
 
 def _gh_headers():
@@ -40,6 +44,39 @@ def _fetch_url(url: str, timeout: int = 15) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": "github-discovery-bot"})
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read().decode("utf-8", errors="replace")
+
+
+def _firecrawl_scrape(url: str, formats: list[str] = None, timeout: int = 60) -> dict | None:
+    """Scrape a URL via Firecrawl /v2/scrape. Returns the `data` dict or None.
+
+    Uses curl (consistent with the email sender, and robust against the
+    proxies/TLS quirks that sometimes trip urllib in CI). Returns None when
+    no API key is configured or the request fails.
+    """
+    if not FIRECRAWL_API_KEY:
+        return None
+    payload = json.dumps({"url": url, "formats": formats or ["markdown"]})
+    try:
+        result = subprocess.run(
+            [
+                "curl", "-s", "-X", "POST", FIRECRAWL_API,
+                "-H", f"Authorization: Bearer {FIRECRAWL_API_KEY}",
+                "-H", "Content-Type: application/json",
+                "-d", payload,
+            ],
+            capture_output=True, text=True, timeout=timeout,
+        )
+        if result.returncode != 0:
+            print(f"  [WARN] Firecrawl curl failed: {result.stderr[:200]}")
+            return None
+        resp = json.loads(result.stdout)
+        if not resp.get("success"):
+            print(f"  [WARN] Firecrawl error: {str(resp)[:200]}")
+            return None
+        return resp.get("data", {})
+    except Exception as e:
+        print(f"  [WARN] Firecrawl scrape failed: {e}")
+        return None
 
 
 def _parse_repo(full_name: str) -> dict | None:
@@ -83,24 +120,42 @@ def _normalize_repo(data: dict) -> dict:
 
 # ── Source 1: GitHub Trending (HTML scraping) ──────────────────────────
 
-def fetch_trending() -> list[dict]:
-    """Scrape GitHub trending daily page."""
-    print("[Source] Fetching GitHub Trending...")
-    try:
-        html = _fetch_url(GITHUB_TRENDING_URL, timeout=10)
-    except Exception as e:
-        print(f"  [WARN] Trending fetch failed: {e}")
-        return []
+def _extract_trending_paths(html: str, markdown: str = "") -> list[str]:
+    """Extract owner/repo paths from trending HTML and/or Firecrawl markdown."""
+    paths = re.findall(r'<h2[^>]*>\s*<a[^>]*href="(/[^/]+/[^"]+)"', html)
+    if not paths:
+        paths = re.findall(r'href="(/[^/]+/[^"]+)"[^>]*class="[^"]*color-fg-default', html)
+    # Fallback: pull github.com/owner/repo out of Firecrawl markdown
+    if not paths and markdown:
+        paths = ["/" + m for m in re.findall(r'github\.com/([\w.-]+/[\w.-]+)', markdown)]
+    return paths
 
-    repos = re.findall(r'<h2[^>]*>\s*<a[^>]*href="(/[^/]+/[^"]+)"', html)
-    if not repos:
-        repos = re.findall(r'href="(/[^/]+/[^"]+)"[^>]*class="[^"]*color-fg-default', html)
+
+def fetch_trending() -> list[dict]:
+    """Scrape GitHub trending daily page (Firecrawl if configured, else direct)."""
+    print("[Source] Fetching GitHub Trending...")
+    html, markdown = "", ""
+
+    fc = _firecrawl_scrape(GITHUB_TRENDING_URL, formats=["markdown", "html"])
+    if fc:
+        html = fc.get("html", "") or ""
+        markdown = fc.get("markdown", "") or ""
+    else:
+        try:
+            html = _fetch_url(GITHUB_TRENDING_URL, timeout=10)
+        except Exception as e:
+            print(f"  [WARN] Trending fetch failed: {e}")
+            return []
+
+    repos = _extract_trending_paths(html, markdown)
 
     results = []
+    seen = set()
     for path in repos[:25]:
         full_name = path.strip("/")
-        if "/" not in full_name:
+        if "/" not in full_name or full_name in seen:
             continue
+        seen.add(full_name)
         repo = _parse_repo(full_name)
         if repo:
             results.append(repo)
@@ -198,6 +253,7 @@ def fetch_hn() -> list[dict]:
 # ── Source 4: Reddit /r/programming ────────────────────────────────────
 
 REDDIT_USER_AGENT = "github-discovery/1.0 (https://github.com/alloevil/github-discovery)"
+REDDIT_JSON_URL = "https://www.reddit.com/r/programming/hot.json?limit=25"
 
 
 def _reddit_token() -> str | None:
@@ -219,26 +275,48 @@ def _reddit_token() -> str | None:
         return None
 
 
+def _reddit_listing() -> dict | None:
+    """Fetch the /r/programming hot listing JSON.
+
+    Prefers Firecrawl (bypasses Reddit's cloud-IP 403), falls back to the
+    OAuth API, and returns None if neither is available.
+    """
+    # 1) Firecrawl scrapes the .json page; the JSON arrives inside markdown.
+    fc = _firecrawl_scrape(REDDIT_JSON_URL, formats=["markdown"])
+    if fc:
+        text = fc.get("markdown") or ""
+        # Firecrawl may wrap the JSON in code fences or prose; grab the object.
+        m = re.search(r'\{.*\}', text, re.DOTALL)
+        if m:
+            try:
+                return json.loads(m.group(0))
+            except Exception as e:
+                print(f"  [WARN] Reddit Firecrawl JSON parse failed: {e}")
+
+    # 2) Fall back to OAuth API.
+    token = _reddit_token()
+    if token:
+        try:
+            req = urllib.request.Request(
+                "https://oauth.reddit.com/r/programming/hot?limit=25",
+                headers={"Authorization": f"Bearer {token}", "User-Agent": REDDIT_USER_AGENT},
+            )
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                return json.loads(resp.read())
+        except Exception as e:
+            print(f"  [WARN] Reddit OAuth fetch failed: {e}")
+
+    return None
+
+
 def fetch_reddit() -> list[dict]:
-    """Fetch GitHub repos from Reddit /r/programming hot posts (OAuth API)."""
+    """Fetch GitHub repos from Reddit /r/programming hot posts."""
     print("[Source] Fetching Reddit /r/programming...")
     results = []
 
-    token = _reddit_token()
-    if not token:
-        print("  [SKIP] Reddit OAuth not configured (set REDDIT_CLIENT_ID/SECRET).")
-        return []
-
-    try:
-        url = "https://oauth.reddit.com/r/programming/hot?limit=25"
-        req = urllib.request.Request(url, headers={
-            "Authorization": f"Bearer {token}",
-            "User-Agent": REDDIT_USER_AGENT,
-        })
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read())
-    except Exception as e:
-        print(f"  [WARN] Reddit fetch failed: {e}")
+    data = _reddit_listing()
+    if not data:
+        print("  [SKIP] Reddit unavailable (set FIRECRAWL_API_KEY or REDDIT_CLIENT_ID/SECRET).")
         return []
 
     seen = set()
