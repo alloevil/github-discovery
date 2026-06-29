@@ -222,10 +222,11 @@ class TestFetchHN:
 class TestFetchReddit:
     """测试 Reddit 数据源。"""
 
+    @patch("sources._reddit_token", return_value="fake-token")
     @patch("sources._parse_repo")
     @patch("sources.urllib.request.urlopen")
     @patch("time.sleep")
-    def test_extracts_github_links(self, mock_sleep, mock_urlopen, mock_parse, reddit_response):
+    def test_extracts_github_links(self, mock_sleep, mock_urlopen, mock_parse, mock_token, reddit_response):
         """应从 Reddit 帖子中提取 GitHub 链接。"""
         mock_parse.return_value = {"full_name": "user/awesome-project", "id": "1"}
 
@@ -241,9 +242,10 @@ class TestFetchReddit:
         assert results[0]["reddit_title"] == "Check out this new Python framework"
         assert results[0]["reddit_score"] == 350
 
+    @patch("sources._reddit_token", return_value="fake-token")
     @patch("sources.urllib.request.urlopen")
     @patch("time.sleep")
-    def test_skips_non_github_posts(self, mock_sleep, mock_urlopen, reddit_response):
+    def test_skips_non_github_posts(self, mock_sleep, mock_urlopen, mock_token, reddit_response):
         """应跳过不包含 GitHub 链接的帖子。"""
         # reddit_response 中第二个帖子不是 GitHub 链接
         resp = MagicMock()

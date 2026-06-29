@@ -13,6 +13,13 @@ GITHUB_TRENDING_URL = "https://github.com/trending?since=daily"
 # Hacker News API
 HN_API = "https://hacker-news.firebaseio.com/v0"
 
+# Reddit OAuth (script app, client_credentials flow).
+# Reddit blocks unauthenticated .json from cloud IPs (GitHub Actions),
+# so the OAuth API is required. Create a "script" app at
+# https://www.reddit.com/prefs/apps to get these.
+REDDIT_CLIENT_ID = os.environ.get("REDDIT_CLIENT_ID", "")
+REDDIT_CLIENT_SECRET = os.environ.get("REDDIT_CLIENT_SECRET", "")
+
 # Scoring thresholds
 TOP_N = 10
 API_DELAY = 0.3  # seconds between API calls (reduced for faster execution)

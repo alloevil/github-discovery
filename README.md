@@ -95,6 +95,8 @@ Go to **Settings → Secrets and variables → Actions** and add:
 |--------|----------|-------------|
 | `RESEND_API_KEY` | ✅ | [Resend](https://resend.com/) API Key for sending emails |
 | `GITHUB_TOKEN` | ❌ | GitHub Personal Access Token (optional, uses GITHUB_TOKEN by default) |
+| `REDDIT_CLIENT_ID` | ❌ | Reddit OAuth app ID — without it the Reddit source is skipped (Reddit blocks anonymous access from cloud IPs). Create a "script" app at [reddit.com/prefs/apps](https://www.reddit.com/prefs/apps). |
+| `REDDIT_CLIENT_SECRET` | ❌ | Reddit OAuth app secret (paired with `REDDIT_CLIENT_ID`) |
 
 ### 3. Enable GitHub Actions
 

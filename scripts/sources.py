@@ -3,11 +3,12 @@
 import json
 import re
 import time
+import base64
 import urllib.request
 import urllib.error
 import urllib.parse
 from datetime import datetime, timezone, timedelta
-from config import GITHUB_TOKEN, GITHUB_API, GITHUB_TRENDING_URL, HN_API, API_DELAY
+from config import GITHUB_TOKEN, GITHUB_API, GITHUB_TRENDING_URL, HN_API, API_DELAY, REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET
 
 
 def _gh_headers():
@@ -196,15 +197,43 @@ def fetch_hn() -> list[dict]:
 
 # ── Source 4: Reddit /r/programming ────────────────────────────────────
 
+REDDIT_USER_AGENT = "github-discovery/1.0 (https://github.com/alloevil/github-discovery)"
+
+
+def _reddit_token() -> str | None:
+    """Get a Reddit OAuth access token via client_credentials. None if unconfigured/failed."""
+    if not (REDDIT_CLIENT_ID and REDDIT_CLIENT_SECRET):
+        return None
+    try:
+        creds = base64.b64encode(f"{REDDIT_CLIENT_ID}:{REDDIT_CLIENT_SECRET}".encode()).decode()
+        req = urllib.request.Request(
+            "https://www.reddit.com/api/v1/access_token",
+            data=urllib.parse.urlencode({"grant_type": "client_credentials"}).encode(),
+            headers={"Authorization": f"Basic {creds}", "User-Agent": REDDIT_USER_AGENT},
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            return json.loads(resp.read()).get("access_token")
+    except Exception as e:
+        print(f"  [WARN] Reddit token fetch failed: {e}")
+        return None
+
+
 def fetch_reddit() -> list[dict]:
-    """Fetch GitHub repos from Reddit /r/programming hot posts."""
+    """Fetch GitHub repos from Reddit /r/programming hot posts (OAuth API)."""
     print("[Source] Fetching Reddit /r/programming...")
     results = []
 
+    token = _reddit_token()
+    if not token:
+        print("  [SKIP] Reddit OAuth not configured (set REDDIT_CLIENT_ID/SECRET).")
+        return []
+
     try:
-        url = "https://www.reddit.com/r/programming/hot.json?limit=25"
+        url = "https://oauth.reddit.com/r/programming/hot?limit=25"
         req = urllib.request.Request(url, headers={
-            "User-Agent": "github-discovery-bot/1.0"
+            "Authorization": f"Bearer {token}",
+            "User-Agent": REDDIT_USER_AGENT,
         })
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read())
