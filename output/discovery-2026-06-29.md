@@ -1,6 +1,6 @@
 # 🔥 GitHub Discovery Report
 
-> **Generated:** 2026-06-29 06:38
+> **Generated:** 2026-06-29 06:47
 > **10 new repos + 0 repeat performers**
 
 ---
@@ -9,53 +9,17 @@
 
 *These repos were first featured in GitHub Discovery*
 
-### 1. [Krishnagangwal/CS-Fundamentals](https://github.com/Krishnagangwal/CS-Fundamentals)
+### 1. [dimasarestuprasmanto/Pet-Simulator-99-Auto-Farm-Trainer-2026-Peta](https://github.com/dimasarestuprasmanto/Pet-Simulator-99-Auto-Farm-Trainer-2026-Peta)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 402 |
+| ⭐ Stars | 207 |
 | 📅 Age | 1 days |
-| 🚀 Daily Growth | 402.0 stars/day |
-| 🔤 Language |  |
-| 📡 Source | search |
-
-> Curated CS fundamentals for placement prep: DSA,Computer Networks, DBMS & SQL, OOPs, Operating Systems, System Design & Software Engineering
-
-**Score: 100/100** `████████████████████`
-- Acceleration: 40/40
-- Quality: 20/30
-- Anti-spam: 30/30
-
----
-### 2. [MuhammadHanzalaIqbal/Pet-Simulator-99-Auto-Farm-Trainer-2026-Turbo](https://github.com/MuhammadHanzalaIqbal/Pet-Simulator-99-Auto-Farm-Trainer-2026-Turbo)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 212 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 212.0 stars/day |
+| 🚀 Daily Growth | 207.0 stars/day |
 | 🔤 Language | Python |
 | 📡 Source | search |
 
-> Turbo edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.
-
-**Score: 100/100** `████████████████████`
-- Acceleration: 40/40
-- Quality: 30/30
-- Anti-spam: 20/30
-
----
-### 3. [fajarakpdev/Hades-II-Trainer-Z](https://github.com/fajarakpdev/Hades-II-Trainer-Z)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 209 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 209.0 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | search |
-
-> Free Hades II Trainer with God Mode, Unlimited Health, Max Gold, One-Hit Kill and more. No survey, instant download.
+> Boost your Pet Simulator 99 progress with the Peta trainer. Auto-farm, auto-hatch, instant break, and League auto-grind – all in one sleek GUI. Works with the June 2026 update.
 
 **Score: 100/100** `████████████████████`
 - Acceleration: 40/40
@@ -63,130 +27,166 @@
 - Anti-spam: 15/30
 
 ---
-### 4. [Aliu-AiRobot/ESEILANE](https://github.com/Aliu-AiRobot/ESEILANE)
+### 2. [Einsia/Browser-BC](https://github.com/Einsia/Browser-BC)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 107 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 107.0 stars/day |
-| 🔤 Language | HTML |
-| 📡 Source | ai-trending |
+| ⭐ Stars | 229 |
+| 📅 Age | 2 days |
+| 🚀 Daily Growth | 114.5 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
 
-> High-performance Knowledge Graph engine for AI, LLMs, and GraphRAG — built for the next generation of intelligent applications.
+> Agent behavior clone for browser using, targeting general GUI using and distributed trajectory collecting.
 
-**Score: 90/100** `██████████████████░░`
+**Score: 100/100** `████████████████████`
 - Acceleration: 40/40
-- Quality: 20/30
+- Quality: 25/30
 - Anti-spam: 30/30
 
 ---
-### 5. [slimopump/sillygoose](https://github.com/slimopump/sillygoose)
+### 3. [Lutschippi/DEHUB](https://github.com/Lutschippi/DEHUB)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 307 |
+| ⭐ Stars | 131 |
+| 📅 Age | 2 days |
+| 🚀 Daily Growth | 65.5 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
+
+> The Ultimate Data Engineering Hub — 500+ Resources, 50+ Tools, Roadmaps & Community for Data Engineers Worldwide
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 15/30
+
+---
+### 4. [GraeLefix/GITVERSE](https://github.com/GraeLefix/GITVERSE)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 131 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 43.7 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
+
+> 🔍 Reverse engineer any codebase into a build prompt — architecture breakdown, ASCII blueprint, and AI-ready reconstruction prompt
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 20/30
+
+---
+### 5. [dreiachse-cyber/image-cockpit-for-codex-workflows](https://github.com/dreiachse-cyber/image-cockpit-for-codex-workflows)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 139 |
+| 📅 Age | 6 days |
+| 🚀 Daily Growth | 23.2 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
+
+> Local cockpit for Codex imagegen, pixel art, image editing, animation, and sprite-sheet workflows.
+
+**Score: 99/100** `███████████████████░`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 6. [martinkoutecky/tine](https://github.com/martinkoutecky/tine)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 137 |
 | 📅 Age | 4 days |
-| 🚀 Daily Growth | 76.8 stars/day |
-| 🔤 Language |  |
+| 🚀 Daily Growth | 34.2 stars/day |
+| 🔤 Language | TypeScript |
 | 📡 Source | search |
 
 > 
 
-**Score: 89/100** `█████████████████░░░`
-- Acceleration: 34/40
-- Quality: 15/30
+**Score: 94/100** `██████████████████░░`
+- Acceleration: 20/40
+- Quality: 25/30
 - Anti-spam: 30/30
 
 ---
-### 6. [dimasarestuprasmanto/Pet-Simulator-99-Auto-Farm-Trainer-2026-Tera](https://github.com/dimasarestuprasmanto/Pet-Simulator-99-Auto-Farm-Trainer-2026-Tera)
+### 7. [lightbearco/tupper](https://github.com/lightbearco/tupper)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 213 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 213.0 stars/day |
-| 🔤 Language | Python |
+| ⭐ Stars | 135 |
+| 📅 Age | 5 days |
+| 🚀 Daily Growth | 27.0 stars/day |
+| 🔤 Language | TypeScript |
 | 📡 Source | search |
 
-> Tera edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.
+> Open-source sandboxes for AI agents — run untrusted, AI-generated code safely on your own machine.
 
 **Score: 85/100** `█████████████████░░░`
-- Acceleration: 40/40
+- Acceleration: 20/40
 - Quality: 30/30
 - Anti-spam: 20/30
 
 ---
-### 7. [NagaaSaketh/Pet-Simulator-99-Auto-Farm-Trainer-2026-Ultimate](https://github.com/NagaaSaketh/Pet-Simulator-99-Auto-Farm-Trainer-2026-Ultimate)
+### 8. [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 213 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 213.0 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | search |
+| ⭐ Stars | 15,482 |
+| 📅 Age | 2381 days |
+| 🚀 Daily Growth | 6.5 stars/day |
+| 🔤 Language | Haskell |
+| 📡 Source | trending |
 
-> Ultimate edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.
+> SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!
 
-**Score: 85/100** `█████████████████░░░`
-- Acceleration: 40/40
+**Score: 82/100** `████████████████░░░░`
+- Acceleration: 6/40
 - Quality: 30/30
-- Anti-spam: 15/30
+- Anti-spam: 30/30
 
 ---
-### 8. [mofouly/Pet-Simulator-99-Auto-Farm-Trainer-2026-Giga](https://github.com/mofouly/Pet-Simulator-99-Auto-Farm-Trainer-2026-Giga)
+### 9. [ikarma/claude-mythos-ai-anthropic-desktop-app](https://github.com/ikarma/claude-mythos-ai-anthropic-desktop-app)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 208 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 208.0 stars/day |
-| 🔤 Language | Python |
+| ⭐ Stars | 137 |
+| 📅 Age | 5 days |
+| 🚀 Daily Growth | 27.4 stars/day |
+| 🔤 Language | TypeScript |
 | 📡 Source | search |
 
-> Giga edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.
+> claude mythos ai anthropic free large language model llm frontier model project glasswing cybersecurity agent vulnerability research software engineering agentic workflows multi step reasoning recurrent depth transformer rdt openmythos repository open source claude fable 5 multi agent
 
-**Score: 85/100** `█████████████████░░░`
-- Acceleration: 40/40
+**Score: 82/100** `████████████████░░░░`
+- Acceleration: 20/40
 - Quality: 30/30
 - Anti-spam: 20/30
 
 ---
-### 9. [mofouly/Pet-Simulator-99-Auto-Farm-Trainer-2026-Quantum](https://github.com/mofouly/Pet-Simulator-99-Auto-Farm-Trainer-2026-Quantum)
+### 10. [PMTraderAdam/pm-adam-trader](https://github.com/PMTraderAdam/pm-adam-trader)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 207 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 207.0 stars/day |
-| 🔤 Language | Python |
+| ⭐ Stars | 328 |
+| 📅 Age | 4 days |
+| 🚀 Daily Growth | 82.0 stars/day |
+| 🔤 Language | TypeScript |
 | 📡 Source | search |
 
-> Maximize your efficiency in Pet Simulator 99 with the Quantum auto trainer. From coin collection to Backrooms League rewards, everything is automated. Safe and undetectable.
+> 
 
-**Score: 85/100** `█████████████████░░░`
-- Acceleration: 40/40
-- Quality: 30/30
-- Anti-spam: 20/30
-
----
-### 10. [NagaaSaketh/Pet-Simulator-99-Auto-Farm-Trainer-2026-Nitro](https://github.com/NagaaSaketh/Pet-Simulator-99-Auto-Farm-Trainer-2026-Nitro)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 207 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 207.0 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | search |
-
-> Boost your Pet Simulator 99 progress with the Nitro trainer. Auto-farm, auto-hatch, instant break, and League auto-grind – all in one sleek GUI. Works with the June 2026 update.
-
-**Score: 85/100** `█████████████████░░░`
-- Acceleration: 40/40
-- Quality: 30/30
-- Anti-spam: 15/30
+**Score: 81/100** `████████████████░░░░`
+- Acceleration: 34/40
+- Quality: 20/30
+- Anti-spam: 30/30
 
 ---
 
@@ -194,8 +194,8 @@
 
 - **New discoveries:** 10 repos
 - **Repeat performers:** 0 repos
-- **Score range:** 85 - 100
-- **Top pick:** [Krishnagangwal/CS-Fundamentals](https://github.com/Krishnagangwal/CS-Fundamentals)
+- **Score range:** 81 - 100
+- **Top pick:** [dimasarestuprasmanto/Pet-Simulator-99-Auto-Farm-Trainer-2026-Peta](https://github.com/dimasarestuprasmanto/Pet-Simulator-99-Auto-Farm-Trainer-2026-Peta)
 
 ---
 *Generated by GitHub Discovery Tool*
