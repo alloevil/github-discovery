@@ -142,6 +142,7 @@ def generate_content(reports):
         'total_repos': str(total_repos),
         'top_score': str(top_score),
         'days_tracked': str(len(reports)),
+        'num_sources': str(len(SOURCE_LABELS)),
     }
 
 
@@ -172,7 +173,7 @@ def main():
     data = generate_content(reports)
 
     html = template
-    html = html.replace('id="stat-sources">6<', f'id="stat-sources">{data["days_tracked"]}<')
+    html = html.replace('id="stat-sources">6<', f'id="stat-sources">{data["num_sources"]}<')
     html = html.replace('id="stat-repos">33<', f'id="stat-repos">{data["total_repos"]}<')
     html = html.replace('id="stat-score">100<', f'id="stat-score">{data["top_score"]}<')
 
