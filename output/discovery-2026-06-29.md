@@ -1,7 +1,7 @@
 # 🔥 GitHub Discovery Report
 
-> **Generated:** 2026-06-29 07:03
-> **7 new repos + 0 repeat performers**
+> **Generated:** 2026-06-29 07:22
+> **2 new repos + 0 repeat performers**
 
 ---
 
@@ -9,143 +9,49 @@
 
 *These repos were first featured in GitHub Discovery*
 
-### 1. [huytranvan2010/AI-auto-generate-video](https://github.com/huytranvan2010/AI-auto-generate-video)
+### 1. [ricccrd/dd](https://github.com/ricccrd/dd)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 35 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 35.0 stars/day |
-| 🔤 Language | HTML |
-| 📡 Source | rising |
+| ⭐ Stars | 301 |
+| 📅 Age | 2 days |
+| 🚀 Daily Growth | 150.5 stars/day |
+| 🔤 Language | C |
+| 📡 Source | search |
 
-> Auto generate AI video with hyperframes
+> 
 
-**Score: 95/100** `███████████████████░`
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 2. [ardhaecosystem/synapse](https://github.com/ardhaecosystem/synapse)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 59 |
+| 📅 Age | 2 days |
+| 🚀 Daily Growth | 29.5 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | ai-trending |
+
+> Synapse — Temporal knowledge graph memory for AI agents. Self-hosted FalkorDB + Graphiti with hippocampus-layer memory management.
+
+**Score: 97/100** `███████████████████░`
 - Acceleration: 20/40
 - Quality: 30/30
 - Anti-spam: 30/30
 
 ---
-### 2. [lxcshine/nexusbox](https://github.com/lxcshine/nexusbox)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 57 |
-| 📅 Age | 5 days |
-| 🚀 Daily Growth | 11.4 stars/day |
-| 🔤 Language | Go |
-| 📡 Source | ai-trending |
-
-> Secure sandbox for AI Agents — execute shell, file, code, and browser commands in isolation via MCP.
-
-**Score: 92/100** `██████████████████░░`
-- Acceleration: 12/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 3. [kamaludu/bash4llm](https://github.com/kamaludu/bash4llm)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 34 |
-| 📅 Age | 161 days |
-| 🚀 Daily Growth | 0.2 stars/day |
-| 🔤 Language | Shell |
-| 📡 Source | hn |
-
-> Bash-first wrapper for Groq’s OpenAI-compatible API. Secure, portable, Termux-friendly. 
-
-**Score: 79/100** `███████████████░░░░░`
-- Acceleration: 0/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
-- 🔶 HN: [Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs](https://news.ycombinator.com) (score: 46)
-
----
-### 4. [perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-X](https://github.com/perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-X)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 208 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 208.0 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | search |
-
-> X edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.
-
-**Score: 75/100** `███████████████░░░░░`
-- Acceleration: 40/40
-- Quality: 30/30
-- Anti-spam: 20/30
-
----
-### 5. [perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-Premium](https://github.com/perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-Premium)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 206 |
-| 📅 Age | 1 days |
-| 🚀 Daily Growth | 206.0 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | search |
-
-> Premium edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.
-
-**Score: 75/100** `███████████████░░░░░`
-- Acceleration: 40/40
-- Quality: 30/30
-- Anti-spam: 20/30
-
----
-### 6. [shreyashankar/error-discovery-skill](https://github.com/shreyashankar/error-discovery-skill)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 83 |
-| 📅 Age | 5 days |
-| 🚀 Daily Growth | 16.6 stars/day |
-| 🔤 Language |  |
-| 📡 Source | ai-trending |
-
-> Interactive error analysis skill for AI agents. Studies LLM trace datasets, builds a review UI, monitors annotations, categorizes failure modes, proposes new samples.
-
-**Score: 72/100** `██████████████░░░░░░`
-- Acceleration: 12/40
-- Quality: 20/30
-- Anti-spam: 30/30
-
----
-### 7. [JustVugg/nanoeuler](https://github.com/JustVugg/nanoeuler)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 58 |
-| 📅 Age | 13 days |
-| 🚀 Daily Growth | 4.5 stars/day |
-| 🔤 Language | Cuda |
-| 📡 Source | hn |
-
-> GPT-2-style LLM built from scratch in C/CUDA with hand-written backprop, BPE tokenizer, FlashAttention, pretraining, and SFT.
-
-**Score: 68/100** `█████████████░░░░░░░`
-- Acceleration: 0/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
-- 🔶 HN: [Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch](https://news.ycombinator.com) (score: 45)
-
----
 
 ## 📊 Summary
 
-- **New discoveries:** 7 repos
+- **New discoveries:** 2 repos
 - **Repeat performers:** 0 repos
-- **Score range:** 68 - 95
-- **Top pick:** [huytranvan2010/AI-auto-generate-video](https://github.com/huytranvan2010/AI-auto-generate-video)
+- **Score range:** 97 - 100
+- **Top pick:** [ricccrd/dd](https://github.com/ricccrd/dd)
 
 ---
 *Generated by GitHub Discovery Tool*

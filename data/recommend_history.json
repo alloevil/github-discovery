@@ -678,7 +678,21 @@
         68
       ],
       "last_recommended": "2026-06-29T07:03:17.538430+00:00"
+    },
+    "ricccrd/dd": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-29T07:22:42.988178+00:00"
+    },
+    "ardhaecosystem/synapse": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-06-29T07:22:42.990617+00:00"
     }
   },
-  "updated_at": "2026-06-29T07:03:17.538461+00:00"
+  "updated_at": "2026-06-29T07:22:42.990646+00:00"
 }

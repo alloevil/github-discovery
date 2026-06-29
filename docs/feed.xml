@@ -5,51 +5,24 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 07:03:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 07:22:43 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>🔥 huytranvan2010/AI-auto-generate-video — 35⭐ (35.0/day)</title>
-      <description>Auto generate AI video with hyperframes
+      <title>🔥 ricccrd/dd — 301⭐ (150.5/day)</title>
+      <description>
 
-Score: 95/100 | Language: HTML</description>
-      <link>https://github.com/huytranvan2010/AI-auto-generate-video</link>
-      <guid>https://github.com/huytranvan2010/AI-auto-generate-video#2026-06-29</guid>
+Score: 100/100 | Language: C</description>
+      <link>https://github.com/ricccrd/dd</link>
+      <guid>https://github.com/ricccrd/dd#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 lxcshine/nexusbox — 57⭐ (11.4/day)</title>
-      <description>Secure sandbox for AI Agents — execute shell, file, code, and browser commands in isolation via MCP.
+      <title>🔥 ardhaecosystem/synapse — 59⭐ (29.5/day)</title>
+      <description>Synapse — Temporal knowledge graph memory for AI agents. Self-hosted FalkorDB + Graphiti with hippocampus-layer memory management.
 
-Score: 92/100 | Language: Go</description>
-      <link>https://github.com/lxcshine/nexusbox</link>
-      <guid>https://github.com/lxcshine/nexusbox#2026-06-29</guid>
-      <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 kamaludu/bash4llm — 34⭐ (0.2/day)</title>
-      <description>Bash-first wrapper for Groq’s OpenAI-compatible API. Secure, portable, Termux-friendly.
-
-Score: 79/100 | Language: Shell</description>
-      <link>https://github.com/kamaludu/bash4llm</link>
-      <guid>https://github.com/kamaludu/bash4llm#2026-06-29</guid>
-      <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-X — 208⭐ (208.0/day)</title>
-      <description>X edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.
-
-Score: 75/100 | Language: Python</description>
-      <link>https://github.com/perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-X</link>
-      <guid>https://github.com/perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-X#2026-06-29</guid>
-      <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-Premium — 206⭐ (206.0/day)</title>
-      <description>Premium edition of the most advanced Pet Simulator 99 automation tool. Farm coins, hatch eggs, complete Backrooms League tasks automatically. Fully undetected and user-friendly.
-
-Score: 75/100 | Language: Python</description>
-      <link>https://github.com/perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-Premium</link>
-      <guid>https://github.com/perglervitek/Pet-Simulator-99-Auto-Farm-Trainer-2026-Premium#2026-06-29</guid>
+Score: 97/100 | Language: Python</description>
+      <link>https://github.com/ardhaecosystem/synapse</link>
+      <guid>https://github.com/ardhaecosystem/synapse#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
