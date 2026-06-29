@@ -119,8 +119,8 @@ def generate_content(reports):
 
     date_buttons = []
     for i, (date_str, _, _) in enumerate(reports[:7]):
-        active = ' active' if i == 0 else ''
-        date_buttons.append(f'<button class="filter-btn{active}" onclick="switchDate(\'{date_str}\')">{date_str}</button>')
+        selected = ' selected' if i == 0 else ''
+        date_buttons.append(f'<option value="{date_str}"{selected}>{date_str}</option>')
 
     sections = []
     for i, (date_str, first_timers, repeat_performers) in enumerate(reports[:7]):
@@ -178,7 +178,7 @@ def main():
     html = html.replace('id="stat-score">100<', f'id="stat-score">{data["top_score"]}<')
 
     html = re.sub(
-        r'(<div class="filter-group" id="date-filters">)\s*\n(.*?)\s*\n(\s*</div>)',
+        r'(<select class="date-select" id="date-select"[^>]*>)\s*\n(.*?)\s*\n(\s*</select>)',
         lambda m: f'{m.group(1)}\n        {data["date_filters"]}\n{m.group(3)}',
         html, flags=re.DOTALL
     )
