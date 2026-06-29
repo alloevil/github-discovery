@@ -1,53 +1,36 @@
-name: Daily Discovery
+name: Deploy to Pages
+
+# Content (discovery + email + site generation) is produced by the external
+# "openclaw" runner, which pushes output/ and docs/ to main once a day.
+# This workflow's ONLY job is to publish docs/ to the gh-pages branch.
+# It deliberately does NOT run scripts/main.py — doing so would send a
+# second daily email and create a push -> trigger -> push loop.
 
 on:
-  # NOTE: Daily scheduled run is handled by the external "openclaw" runner
-  # (~12:00 Beijing time). The GitHub Actions cron is disabled to avoid
-  # sending the digest email twice per day. Manual trigger remains available.
-  workflow_dispatch:  # Allow manual trigger
+  push:
+    branches: [main, master]
+    paths:
+      - 'docs/**'
+  workflow_dispatch:  # Allow manual deploy
 
 permissions:
   contents: write
   pages: write
 
+# Avoid overlapping deploys if several docs/ pushes land close together
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: true
+
 jobs:
-  discover:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Run Discovery
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
-        run: python3 scripts/main.py
-
-      - name: Generate index.html
-        run: |
-          python3 scripts/generate_site.py
-
-      - name: Commit and push
-        run: |
-          git config user.name "github-discovery-bot"
-          git config user.email "bot@github-discovery"
-          git add output/ docs/
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "🔄 Daily discovery $(date -u +%Y-%m-%d)"
-            git push
-          fi
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
