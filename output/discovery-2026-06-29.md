@@ -1,6 +1,6 @@
 # 🔥 GitHub Discovery Report
 
-> **Generated:** 2026-06-29 12:07
+> **Generated:** 2026-06-29 05:18
 > **10 new repos + 0 repeat performers**
 
 ---
@@ -9,184 +9,184 @@
 
 *These repos were first featured in GitHub Discovery*
 
-### 1. [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire)
+### 1. [downclash/clash](https://github.com/downclash/clash)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 5,646 |
-| 📅 Age | 82 days |
-| 🚀 Daily Growth | 68.9 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | trending |
-
-> AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.
-
-**Score: 100/100** `████████████████████`
-- Acceleration: 28/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 2. [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 8,310 |
-| 📅 Age | 74 days |
-| 🚀 Daily Growth | 112.3 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | trending |
-
-> A feed-forward 3D foundation model for reconstructing scenes from streaming data
-
-**Score: 100/100** `████████████████████`
-- Acceleration: 36/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 3. [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 20,045 |
-| 📅 Age | 124 days |
-| 🚀 Daily Growth | 161.7 stars/day |
-| 🔤 Language | C |
-| 📡 Source | trending |
-
-> High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
-
-**Score: 100/100** `████████████████████`
-- Acceleration: 36/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 4. [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 14,473 |
-| 📅 Age | 88 days |
-| 🚀 Daily Growth | 164.5 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | trending |
-
-> "Vibe-Trading: Your Personal Trading Agent"
-
-**Score: 100/100** `████████████████████`
-- Acceleration: 36/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 5. [browser-use/video-use](https://github.com/browser-use/video-use)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 11,221 |
-| 📅 Age | 78 days |
-| 🚀 Daily Growth | 143.9 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | trending |
-
-> Edit videos with coding agents
-
-**Score: 100/100** `████████████████████`
-- Acceleration: 36/40
-- Quality: 30/30
-- Anti-spam: 30/30
-
----
-### 6. [Yu9191/wloc](https://github.com/Yu9191/wloc)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 1,168 |
-| 📅 Age | 4 days |
-| 🚀 Daily Growth | 292.0 stars/day |
+| ⭐ Stars | 343 |
+| 📅 Age | 2 days |
+| 🚀 Daily Growth | 171.5 stars/day |
 | 🔤 Language | JavaScript |
 | 📡 Source | search |
 
-> 修改 Apple 网络定位（gs-loc）返回坐标 · 支持 Surge / Quantumult X / Loon / Stash · 快捷指令一键设置/恢复定位
+> 
 
 **Score: 100/100** `████████████████████`
-- Acceleration: 34/40
-- Quality: 25/30
+- Acceleration: 40/40
+- Quality: 20/30
 - Anti-spam: 30/30
 
 ---
-### 7. [goehou/tabbit-toy](https://github.com/goehou/tabbit-toy)
+### 2. [nova452/ComfyUI-Conditioning-Rebalance](https://github.com/nova452/ComfyUI-Conditioning-Rebalance)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 382 |
-| 📅 Age | 6 days |
-| 🚀 Daily Growth | 63.7 stars/day |
+| ⭐ Stars | 302 |
+| 📅 Age | 5 days |
+| 🚀 Daily Growth | 60.4 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> Conditioning optimizer nodes offering IP-Adapter-like features for Krea 2 image reference editing along with bypassing the built in quality diluation from the trained safety filter and also works as a means to unfilter the model.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [abundantbeing/hermes-browser-extension](https://github.com/abundantbeing/hermes-browser-extension)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 293 |
+| 📅 Age | 5 days |
+| 🚀 Daily Growth | 58.6 stars/day |
 | 🔤 Language | JavaScript |
 | 📡 Source | search |
 
-> 这是一个基于tabbit的研究包，可以转化成OAI格式出来，同时增加了会员认证功能和一键提取cookie的浏览器拓展，方便快速本地快速使用claude gpt等模型
+> Browser-native side panel for Hermes Agent — connect web context to your local Hermes runtime.
 
 **Score: 100/100** `████████████████████`
 - Acceleration: 34/40
-- Quality: 25/30
+- Quality: 30/30
 - Anti-spam: 30/30
 
 ---
-### 8. [bozhouDev/codex-orange-book](https://github.com/bozhouDev/codex-orange-book)
+### 4. [yynxxxxx/Codex-5.5-codex-instruct-5.5](https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 2,296 |
-| 📅 Age | 6 days |
-| 🚀 Daily Growth | 382.7 stars/day |
-| 🔤 Language | HTML |
+| ⭐ Stars | 221 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 221.0 stars/day |
+| 🔤 Language | Python |
 | 📡 Source | search |
 
-> Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）
+> 
 
-**Score: 98/100** `███████████████████░`
-- Acceleration: 34/40
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
 - Quality: 25/30
 - Anti-spam: 30/30
 
 ---
-### 9. [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101)
+### 5. [vanroon/Pet-Simulator-99-Auto-Farm-Trainer-2026-Prime](https://github.com/vanroon/Pet-Simulator-99-Auto-Farm-Trainer-2026-Prime)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 84,624 |
-| 📅 Age | 1014 days |
-| 🚀 Daily Growth | 83.5 stars/day |
-| 🔤 Language |  |
-| 📡 Source | trending |
-
-> Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.
-
-**Score: 96/100** `███████████████████░`
-- Acceleration: 28/40
-- Quality: 25/30
-- Anti-spam: 30/30
-
----
-### 10. [usestrix/strix](https://github.com/usestrix/strix)
-
-| Metric | Value |
-|--------|-------|
-| ⭐ Stars | 26,854 |
-| 📅 Age | 327 days |
-| 🚀 Daily Growth | 82.1 stars/day |
+| ⭐ Stars | 213 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 213.0 stars/day |
 | 🔤 Language | Python |
-| 📡 Source | trending |
+| 📡 Source | search |
 
-> Open-source AI hackers to find and fix your app’s vulnerabilities.
+> Maximize your efficiency in Pet Simulator 99 with the Prime auto trainer. From coin collection to Backrooms League rewards, everything is automated. Safe and undetectable.
 
-**Score: 94/100** `██████████████████░░`
-- Acceleration: 28/40
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
 - Quality: 30/30
 - Anti-spam: 20/30
+
+---
+### 6. [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 125,651 |
+| 📅 Age | 4120 days |
+| 🚀 Daily Growth | 30.5 stars/day |
+| 🔤 Language | HTML |
+| 📡 Source | trending |
+
+> A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
+
+**Score: 92/100** `██████████████████░░`
+- Acceleration: 20/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 7. [commaai/openpilot](https://github.com/commaai/openpilot)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 62,514 |
+| 📅 Age | 3504 days |
+| 🚀 Daily Growth | 17.8 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.
+
+**Score: 92/100** `██████████████████░░`
+- Acceleration: 12/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 8. [altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 3,866 |
+| 📅 Age | 280 days |
+| 🚀 Daily Growth | 13.8 stars/day |
+| 🔤 Language | Swift |
+| 📡 Source | trending |
+
+> FluidVoice - Fastest macOS Offline Dictation app - Voice to Text fully Local. One ⭐ takes us a long way :)) 
+
+**Score: 92/100** `██████████████████░░`
+- Acceleration: 12/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 9. [baairon/torlink](https://github.com/baairon/torlink)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 199 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 66.3 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
+
+> A sleek, zero-setup torrent finder and downloader that lives right in your terminal.
+
+**Score: 90/100** `██████████████████░░`
+- Acceleration: 40/40
+- Quality: 20/30
+- Anti-spam: 30/30
+
+---
+### 10. [realchendahuang/sub-store-cloudflare](https://github.com/realchendahuang/sub-store-cloudflare)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 120 |
+| 📅 Age | 2 days |
+| 🚀 Daily Growth | 60.0 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
+
+> 一个部署在 Cloudflare Workers 上的订阅聚合与规则配置工具。它把订阅源、节点处理、组合订阅和分流规则模板放在云端，客户端只需要订阅最终生成的链接。
+
+**Score: 90/100** `██████████████████░░`
+- Acceleration: 40/40
+- Quality: 20/30
+- Anti-spam: 30/30
 
 ---
 
@@ -194,8 +194,8 @@
 
 - **New discoveries:** 10 repos
 - **Repeat performers:** 0 repos
-- **Score range:** 94 - 100
-- **Top pick:** [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire)
+- **Score range:** 90 - 100
+- **Top pick:** [downclash/clash](https://github.com/downclash/clash)
 
 ---
 *Generated by GitHub Discovery Tool*

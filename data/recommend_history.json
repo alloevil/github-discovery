@@ -349,7 +349,77 @@
         94
       ],
       "last_recommended": "2026-06-29T04:07:46.717009+00:00"
+    },
+    "downclash/clash": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-29T05:18:42.502246+00:00"
+    },
+    "nova452/ComfyUI-Conditioning-Rebalance": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-29T05:18:42.504002+00:00"
+    },
+    "abundantbeing/hermes-browser-extension": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-29T05:18:42.505331+00:00"
+    },
+    "yynxxxxx/Codex-5.5-codex-instruct-5.5": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-29T05:18:42.506776+00:00"
+    },
+    "vanroon/Pet-Simulator-99-Auto-Farm-Trainer-2026-Prime": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-29T05:18:42.508270+00:00"
+    },
+    "ripienaar/free-for-dev": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-06-29T05:18:42.509824+00:00"
+    },
+    "commaai/openpilot": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-06-29T05:18:42.511167+00:00"
+    },
+    "altic-dev/FluidVoice": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-06-29T05:18:42.512447+00:00"
+    },
+    "baairon/torlink": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-06-29T05:18:42.513952+00:00"
+    },
+    "realchendahuang/sub-store-cloudflare": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-06-29T05:18:42.515458+00:00"
     }
   },
-  "updated_at": "2026-06-29T04:07:46.717033+00:00"
+  "updated_at": "2026-06-29T05:18:42.515483+00:00"
 }

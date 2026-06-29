@@ -5,51 +5,51 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 04:07:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 05:18:43 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>🔥 xbtlin/ai-berkshire — 5646⭐ (68.9/day)</title>
-      <description>AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.
+      <title>🔥 downclash/clash — 343⭐ (171.5/day)</title>
+      <description>
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/xbtlin/ai-berkshire</link>
-      <guid>https://github.com/xbtlin/ai-berkshire#2026-06-29</guid>
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/downclash/clash</link>
+      <guid>https://github.com/downclash/clash#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 Robbyant/lingbot-map — 8310⭐ (112.3/day)</title>
-      <description>A feed-forward 3D foundation model for reconstructing scenes from streaming data
+      <title>🔥 nova452/ComfyUI-Conditioning-Rebalance — 302⭐ (60.4/day)</title>
+      <description>Conditioning optimizer nodes offering IP-Adapter-like features for Krea 2 image reference editing along with bypassing the built in quality diluation from the trained safety filter and also works as a means to unfilter the model.
 
 Score: 100/100 | Language: Python</description>
-      <link>https://github.com/Robbyant/lingbot-map</link>
-      <guid>https://github.com/Robbyant/lingbot-map#2026-06-29</guid>
+      <link>https://github.com/nova452/ComfyUI-Conditioning-Rebalance</link>
+      <guid>https://github.com/nova452/ComfyUI-Conditioning-Rebalance#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 DeusData/codebase-memory-mcp — 20045⭐ (161.7/day)</title>
-      <description>High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
+      <title>🔥 abundantbeing/hermes-browser-extension — 293⭐ (58.6/day)</title>
+      <description>Browser-native side panel for Hermes Agent — connect web context to your local Hermes runtime.
 
-Score: 100/100 | Language: C</description>
-      <link>https://github.com/DeusData/codebase-memory-mcp</link>
-      <guid>https://github.com/DeusData/codebase-memory-mcp#2026-06-29</guid>
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/abundantbeing/hermes-browser-extension</link>
+      <guid>https://github.com/abundantbeing/hermes-browser-extension#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 HKUDS/Vibe-Trading — 14473⭐ (164.5/day)</title>
-      <description>"Vibe-Trading: Your Personal Trading Agent"
+      <title>🔥 yynxxxxx/Codex-5.5-codex-instruct-5.5 — 221⭐ (221.0/day)</title>
+      <description>
 
 Score: 100/100 | Language: Python</description>
-      <link>https://github.com/HKUDS/Vibe-Trading</link>
-      <guid>https://github.com/HKUDS/Vibe-Trading#2026-06-29</guid>
+      <link>https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5</link>
+      <guid>https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 browser-use/video-use — 11221⭐ (143.9/day)</title>
-      <description>Edit videos with coding agents
+      <title>🔥 vanroon/Pet-Simulator-99-Auto-Farm-Trainer-2026-Prime — 213⭐ (213.0/day)</title>
+      <description>Maximize your efficiency in Pet Simulator 99 with the Prime auto trainer. From coin collection to Backrooms League rewards, everything is automated. Safe and undetectable.
 
 Score: 100/100 | Language: Python</description>
-      <link>https://github.com/browser-use/video-use</link>
-      <guid>https://github.com/browser-use/video-use#2026-06-29</guid>
+      <link>https://github.com/vanroon/Pet-Simulator-99-Auto-Farm-Trainer-2026-Prime</link>
+      <guid>https://github.com/vanroon/Pet-Simulator-99-Auto-Farm-Trainer-2026-Prime#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
@@ -81,7 +81,7 @@ Score: 100/100 | Language: C</description>
     </item>
     <item>
       <title>🔥 HKUDS/Vibe-Trading — 13952⭐ (158.5/day)</title>
-      <description>"Vibe-Trading: Your Personal Trading Agent"
+      <description>&quot;Vibe-Trading: Your Personal Trading Agent&quot;
 
 Score: 100/100 | Language: Python</description>
       <link>https://github.com/HKUDS/Vibe-Trading</link>
@@ -315,7 +315,7 @@ Score: 96/100 | Language: Python</description>
     </item>
     <item>
       <title>🔥 HKUDS/AgentSpace — 365⭐ (182.5/day)</title>
-      <description>"AgentSpace: Human + Agents. One Team. One Workspace"
+      <description>&quot;AgentSpace: Human + Agents. One Team. One Workspace&quot;
 
 Score: 100/100 | Language: TypeScript</description>
       <link>https://github.com/HKUDS/AgentSpace</link>
@@ -360,7 +360,7 @@ Score: 100/100 | Language: Go</description>
     </item>
     <item>
       <title>🔥 HKUDS/AgentSpace — 334⭐ (167.0/day)</title>
-      <description>"AgentSpace: Human + Agents. One Team. One Workspace"
+      <description>&quot;AgentSpace: Human + Agents. One Team. One Workspace&quot;
 
 Score: 100/100 | Language: TypeScript</description>
       <link>https://github.com/HKUDS/AgentSpace</link>
@@ -423,7 +423,7 @@ Score: 100/100 | Language: Python</description>
     </item>
     <item>
       <title>🔥 HKUDS/AgentSpace — 288⭐ (288.0/day)</title>
-      <description>"AgentSpace: Human + Agents. One Team. One Workspace"
+      <description>&quot;AgentSpace: Human + Agents. One Team. One Workspace&quot;
 
 Score: 100/100 | Language: TypeScript</description>
       <link>https://github.com/HKUDS/AgentSpace</link>
