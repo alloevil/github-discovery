@@ -279,7 +279,77 @@
         95
       ],
       "last_recommended": "2026-06-28T04:10:03.417172+00:00"
+    },
+    "xbtlin/ai-berkshire": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-29T07:31:26.592071+00:00"
+    },
+    "Robbyant/lingbot-map": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-29T07:31:26.593602+00:00"
+    },
+    "DeusData/codebase-memory-mcp": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-29T07:31:26.594857+00:00"
+    },
+    "HKUDS/Vibe-Trading": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-29T07:31:26.596072+00:00"
+    },
+    "browser-use/video-use": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-29T07:31:26.597246+00:00"
+    },
+    "Yu9191/wloc": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-29T07:31:26.598680+00:00"
+    },
+    "Krishnagangwal/CS-Fundamentals": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-29T07:31:26.600098+00:00"
+    },
+    "bozhouDev/codex-orange-book": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-06-29T07:31:26.601393+00:00"
+    },
+    "ByteByteGoHq/system-design-101": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-06-29T07:31:26.602783+00:00"
+    },
+    "usestrix/strix": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-06-29T07:31:26.604130+00:00"
     }
   },
-  "updated_at": "2026-06-29T07:22:42.990646+00:00"
+  "updated_at": "2026-06-29T07:31:26.604156+00:00"
 }

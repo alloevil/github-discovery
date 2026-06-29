@@ -1,7 +1,7 @@
 # 🔥 GitHub Discovery Report
 
-> **Generated:** 2026-06-29 07:22
-> **2 new repos + 0 repeat performers**
+> **Generated:** 2026-06-29 07:31
+> **10 new repos + 0 repeat performers**
 
 ---
 
@@ -9,49 +9,193 @@
 
 *These repos were first featured in GitHub Discovery*
 
-### 1. [ricccrd/dd](https://github.com/ricccrd/dd)
+### 1. [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 301 |
-| 📅 Age | 2 days |
-| 🚀 Daily Growth | 150.5 stars/day |
-| 🔤 Language | C |
-| 📡 Source | search |
+| ⭐ Stars | 5,905 |
+| 📅 Age | 82 days |
+| 🚀 Daily Growth | 72.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
 
-> 
+> AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.
 
 **Score: 100/100** `████████████████████`
-- Acceleration: 40/40
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 2. [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 8,389 |
+| 📅 Age | 74 days |
+| 🚀 Daily Growth | 113.4 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> A feed-forward 3D foundation model for reconstructing scenes from streaming data
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 20,367 |
+| 📅 Age | 124 days |
+| 🚀 Daily Growth | 164.2 stars/day |
+| 🔤 Language | C |
+| 📡 Source | trending |
+
+> High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 4. [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 14,609 |
+| 📅 Age | 88 days |
+| 🚀 Daily Growth | 166.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> "Vibe-Trading: Your Personal Trading Agent"
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 5. [browser-use/video-use](https://github.com/browser-use/video-use)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 11,392 |
+| 📅 Age | 78 days |
+| 🚀 Daily Growth | 146.1 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> Edit videos with coding agents
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 6. [Yu9191/wloc](https://github.com/Yu9191/wloc)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 1,257 |
+| 📅 Age | 5 days |
+| 🚀 Daily Growth | 251.4 stars/day |
+| 🔤 Language | JavaScript |
+| 📡 Source | search |
+
+> 修改 Apple 网络定位（gs-loc）返回坐标 · 支持 Surge / Quantumult X / Loon / Stash · 快捷指令一键设置/恢复定位
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
 - Quality: 25/30
 - Anti-spam: 30/30
 
 ---
-### 2. [ardhaecosystem/synapse](https://github.com/ardhaecosystem/synapse)
+### 7. [Krishnagangwal/CS-Fundamentals](https://github.com/Krishnagangwal/CS-Fundamentals)
 
 | Metric | Value |
 |--------|-------|
-| ⭐ Stars | 59 |
-| 📅 Age | 2 days |
-| 🚀 Daily Growth | 29.5 stars/day |
-| 🔤 Language | Python |
-| 📡 Source | ai-trending |
+| ⭐ Stars | 466 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 466.0 stars/day |
+| 🔤 Language |  |
+| 📡 Source | search |
 
-> Synapse — Temporal knowledge graph memory for AI agents. Self-hosted FalkorDB + Graphiti with hippocampus-layer memory management.
+> Curated CS fundamentals for placement prep: DSA,Computer Networks, DBMS & SQL, OOPs, Operating Systems, System Design & Software Engineering
 
-**Score: 97/100** `███████████████████░`
-- Acceleration: 20/40
-- Quality: 30/30
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 20/30
 - Anti-spam: 30/30
+
+---
+### 8. [bozhouDev/codex-orange-book](https://github.com/bozhouDev/codex-orange-book)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 2,312 |
+| 📅 Age | 6 days |
+| 🚀 Daily Growth | 385.3 stars/day |
+| 🔤 Language | HTML |
+| 📡 Source | search |
+
+> Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）
+
+**Score: 98/100** `███████████████████░`
+- Acceleration: 34/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 9. [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 84,766 |
+| 📅 Age | 1014 days |
+| 🚀 Daily Growth | 83.6 stars/day |
+| 🔤 Language |  |
+| 📡 Source | trending |
+
+> Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.
+
+**Score: 96/100** `███████████████████░`
+- Acceleration: 28/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 10. [usestrix/strix](https://github.com/usestrix/strix)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 26,974 |
+| 📅 Age | 327 days |
+| 🚀 Daily Growth | 82.5 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> Open-source AI hackers to find and fix your app’s vulnerabilities.
+
+**Score: 94/100** `██████████████████░░`
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 20/30
 
 ---
 
 ## 📊 Summary
 
-- **New discoveries:** 2 repos
+- **New discoveries:** 10 repos
 - **Repeat performers:** 0 repos
-- **Score range:** 97 - 100
-- **Top pick:** [ricccrd/dd](https://github.com/ricccrd/dd)
+- **Score range:** 94 - 100
+- **Top pick:** [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire)
 
 ---
 *Generated by GitHub Discovery Tool*
