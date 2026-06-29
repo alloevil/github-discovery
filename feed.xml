@@ -5,24 +5,51 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 07:22:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 07:31:27 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>🔥 ricccrd/dd — 301⭐ (150.5/day)</title>
-      <description>
+      <title>🔥 xbtlin/ai-berkshire — 5905⭐ (72.0/day)</title>
+      <description>AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.
 
-Score: 100/100 | Language: C</description>
-      <link>https://github.com/ricccrd/dd</link>
-      <guid>https://github.com/ricccrd/dd#2026-06-29</guid>
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/xbtlin/ai-berkshire</link>
+      <guid>https://github.com/xbtlin/ai-berkshire#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔥 ardhaecosystem/synapse — 59⭐ (29.5/day)</title>
-      <description>Synapse — Temporal knowledge graph memory for AI agents. Self-hosted FalkorDB + Graphiti with hippocampus-layer memory management.
+      <title>🔥 Robbyant/lingbot-map — 8389⭐ (113.4/day)</title>
+      <description>A feed-forward 3D foundation model for reconstructing scenes from streaming data
 
-Score: 97/100 | Language: Python</description>
-      <link>https://github.com/ardhaecosystem/synapse</link>
-      <guid>https://github.com/ardhaecosystem/synapse#2026-06-29</guid>
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/Robbyant/lingbot-map</link>
+      <guid>https://github.com/Robbyant/lingbot-map#2026-06-29</guid>
+      <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 DeusData/codebase-memory-mcp — 20367⭐ (164.2/day)</title>
+      <description>High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
+
+Score: 100/100 | Language: C</description>
+      <link>https://github.com/DeusData/codebase-memory-mcp</link>
+      <guid>https://github.com/DeusData/codebase-memory-mcp#2026-06-29</guid>
+      <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 HKUDS/Vibe-Trading — 14609⭐ (166.0/day)</title>
+      <description>&quot;Vibe-Trading: Your Personal Trading Agent&quot;
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/HKUDS/Vibe-Trading</link>
+      <guid>https://github.com/HKUDS/Vibe-Trading#2026-06-29</guid>
+      <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 browser-use/video-use — 11392⭐ (146.1/day)</title>
+      <description>Edit videos with coding agents
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/browser-use/video-use</link>
+      <guid>https://github.com/browser-use/video-use#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
