@@ -123,6 +123,23 @@
     background: var(--surface-2);
     border-color: var(--hairline);
   }
+  .date-select {
+    padding: 6px 28px 6px 12px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink);
+    background: var(--surface-2);
+    border: 1px solid var(--hairline);
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: var(--font-sans);
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%238a8f98' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }
+  .date-select:hover { border-color: var(--hairline-strong); }
 
   /* Date Section */
   .date-section { margin-bottom: 40px; }
@@ -238,6 +255,13 @@
   }
   .meta-bar .legend-item {
     white-space: nowrap;
+    color: var(--ink-tertiary);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+  .meta-bar a.legend-item:hover {
+    color: var(--ink);
+    text-decoration: underline;
   }
   .score-tag {
     display: inline-block;
@@ -364,9 +388,9 @@
     <!-- Filters -->
     <div class="filters">
       <div class="filter-group" id="date-filters">
-        <button class="filter-btn active" onclick="switchDate('2026-06-25')">2026-06-25</button>
-        <button class="filter-btn" onclick="switchDate('2026-06-24')">2026-06-24</button>
-        <button class="filter-btn" onclick="switchDate('2026-06-23')">2026-06-23</button>
+        <select class="date-select" id="date-select" onchange="switchDate(this.value)">
+        <option value="2026-06-25" selected>2026-06-25</option>
+        </select>
       </div>
       <div class="filter-group" id="lang-filters">
         <button class="filter-btn active" onclick="filterLang('all')">All</button>
@@ -387,11 +411,11 @@
       </span>
       <span class="meta-sep">·</span>
       <span class="legend-label">Source:</span>
-      <span class="legend-item">🔥 Trending</span>
-      <span class="legend-item">🔍 Search</span>
-      <span class="legend-item">🟠 HN</span>
-      <span class="legend-item">📈 Rising</span>
-      <span class="legend-item">🤖 AI</span>
+      <a class="legend-item" href="https://github.com/trending" target="_blank" rel="noopener">🔥 Trending</a>
+      <a class="legend-item" href="https://github.com/search?q=created%3A%3E2024-01-01+stars%3A%3E50&type=repositories&s=stars&o=desc" target="_blank" rel="noopener">🔍 Search</a>
+      <a class="legend-item" href="https://news.ycombinator.com/show" target="_blank" rel="noopener">🟠 HN</a>
+      <a class="legend-item" href="https://github.com/search?q=created%3A%3E2024-01-01+forks%3A%3E20&type=repositories&s=forks&o=desc" target="_blank" rel="noopener">📈 Rising</a>
+      <a class="legend-item" href="https://ossinsight.io/collections/artificial-intelligence/" target="_blank" rel="noopener">🤖 AI</a>
     </div>
 
     <!-- CONTENT_MARKER -->
@@ -420,9 +444,8 @@
 <script>
 function switchDate(date) {
   document.querySelectorAll('.date-section').forEach(s => s.style.display = 'none');
-  document.querySelector('[data-date="' + date + '"]').style.display = '';
-  document.querySelectorAll('#date-filters .filter-btn').forEach(b => b.classList.remove('active'));
-  event.target.classList.add('active');
+  const sec = document.querySelector('[data-date="' + date + '"]');
+  if (sec) sec.style.display = '';
 }
 
 function filterLang(lang) {
