@@ -79,6 +79,16 @@ def send_email_via_resend(to: list[str], subject: str, html_body: str) -> bool:
         return False
 
 
+EMAIL_SOURCE_LABELS = {
+    "trending": "🔥 Trending",
+    "search": "🔍 Search",
+    "hn": "🟠 HN",
+    "reddit": "👽 Reddit",
+    "rising": "📈 Rising",
+    "ai-trending": "🤖 AI",
+}
+
+
 def send_digest_email(date_str: str, top_new: list) -> bool:
     """Send the daily discovery digest email to all subscribers (via Resend)."""
     subscribers = get_subscribers()
@@ -102,6 +112,7 @@ def send_digest_email(date_str: str, top_new: list) -> bool:
         sc_color = '#f0ad4e' if score >= 98 else '#5e6ad2' if score >= 95 else '#8a8f98'
         sc_bg = '#f0ad4e18' if score >= 98 else '#5e6ad218' if score >= 95 else '#ffffff08'
         lang_color = '#3572A5' if lang.lower() == 'python' else '#3178c6' if lang.lower() == 'typescript' else '#f1e05a' if lang.lower() == 'javascript' else '#dea584' if lang.lower() == 'rust' else '#00ADD8' if lang.lower() == 'go' else '#8a8f98'
+        src_label = html.escape(EMAIL_SOURCE_LABELS.get((repo.get('source') or '').lower(), repo.get('source') or ''))
 
         repo_lines.append(
             f'<tr style="border-bottom:1px solid #23252a;">'
@@ -123,6 +134,9 @@ def send_digest_email(date_str: str, top_new: list) -> bool:
             f'{lang}</span></td>'
             f'<td style="padding:12px 8px;text-align:center;">'
             f'<span style="background:{sc_bg};color:{sc_color};padding:2px 8px;border-radius:4px;font-size:12px;font-weight:600;">{score}</span>'
+            f'</td>'
+            f'<td style="padding:12px 8px;text-align:center;">'
+            f'<span style="color:#8a8f98;font-size:12px;white-space:nowrap;">{src_label}</span>'
             f'</td></tr>'
         )
 
@@ -155,6 +169,7 @@ def send_digest_email(date_str: str, top_new: list) -> bool:
 <th style="padding:8px 8px 12px;text-align:right;font-weight:500;">Stars</th>
 <th style="padding:8px 8px 12px;font-weight:500;">Lang</th>
 <th style="padding:8px 8px 12px;font-weight:500;">Score</th>
+<th style="padding:8px 8px 12px;font-weight:500;">Source</th>
 </tr>
 {repo_rows}
 </table>

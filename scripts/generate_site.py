@@ -31,6 +31,21 @@ def lang_color(lang: str) -> str:
     return LANG_COLORS.get(lang.lower(), "#8b949e") if lang else "#8b949e"
 
 
+# Display label (emoji + friendly name) for each discovery source.
+SOURCE_LABELS = {
+    "trending": "🔥 Trending",
+    "search": "🔍 Search",
+    "hn": "🟠 HN",
+    "reddit": "👽 Reddit",
+    "rising": "📈 Rising",
+    "ai-trending": "🤖 AI",
+}
+
+
+def source_label(source: str) -> str:
+    return SOURCE_LABELS.get((source or "").lower(), source or "")
+
+
 def _parse_sections(content: str) -> list[dict]:
     repos = []
     for section in re.split(r'### \d+\.', content)[1:]:
@@ -44,7 +59,7 @@ def _parse_sections(content: str) -> list[dict]:
             repo['repo'] = parts[1] if len(parts) > 1 else repo['name']
         for key, pattern in [('stars', r'⭐ Stars \| ([\d,]+)'), ('age', r'📅 Age \| (\d+)'),
                              ('daily', r'🚀 Daily Growth \| ([\d.]+)'), ('language', r'🔤 Language \| (\w+)'),
-                             ('score', r'Score: (\d+)/100'), ('source', r'📡 Source \| (\w+)')]:
+                             ('score', r'Score: (\d+)/100'), ('source', r'📡 Source \| ([\w-]+)')]:
             m = re.search(pattern, section)
             if m:
                 repo[key] = m.group(1).replace(',', '') if key == 'stars' else m.group(1)
@@ -80,7 +95,10 @@ def repo_card(r: dict) -> str:
     sc = "high" if si >= 95 else ("mid" if si >= 90 else "low")
     lang_html = f'<span class="repo-meta-item"><span class="lang-dot" style="background:{color}"></span>{lang}</span>' if lang else ''
     lang_attr = lang.lower() if lang else 'unknown'
-    return f'''      <div class="repo" data-lang="{lang_attr}">
+    src = r.get('source', '')
+    src_label = source_label(src)
+    src_html = f'<span class="repo-meta-item source-tag" title="Discovered via {src}">{src_label}</span>' if src_label else ''
+    return f'''      <div class="repo" data-lang="{lang_attr}" data-source="{src.lower()}">
         <div class="repo-top">
           <img class="repo-avatar" src="{avatar}" alt="{owner}" onerror="this.style.display='none'">
           <div class="repo-name"><a href="{url}"><span class="repo-owner">{owner} /</span> {repo_name}</a></div>
@@ -91,6 +109,7 @@ def repo_card(r: dict) -> str:
           <span class="repo-meta-item">⭐ {stars}</span>
           <span class="repo-meta-item">📈 +{daily}/day</span>
           <span class="score-tag {sc}">Score {score}</span>
+          {src_html}
         </div>
       </div>'''
 
