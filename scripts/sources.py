@@ -6,7 +6,7 @@ import time
 import urllib.request
 import urllib.error
 import urllib.parse
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from config import GITHUB_TOKEN, GITHUB_API, GITHUB_TRENDING_URL, HN_API, API_DELAY
 
 
@@ -71,7 +71,8 @@ def _normalize_repo(data: dict) -> dict:
         "forks": data.get("forks_count", 0),
         "fork": data.get("fork", False),
         "license": (data.get("license") or {}).get("spdx_id", ""),
-        "has_readme": True,
+        # NOTE: real README presence is verified later by quality.check_quality()
+        # for top candidates; do not assume it here.
         "created_at": created,
         "age_days": age_days,
         "daily_stars": stars / age_days if age_days > 0 else stars,
@@ -115,7 +116,6 @@ def fetch_search() -> list[dict]:
     print("[Source] Fetching from GitHub Search API...")
     results = []
 
-    from datetime import timedelta
     date_since = (datetime.now(timezone.utc) - timedelta(days=7)).strftime("%Y-%m-%d")
     queries = [
         f"created:>{date_since} stars:>50",
@@ -246,7 +246,6 @@ def fetch_rising() -> list[dict]:
     print("[Source] Detecting rising repos (fork/watch signals)...")
     results = []
 
-    from datetime import timedelta
     date_since = (datetime.now(timezone.utc) - timedelta(days=3)).strftime("%Y-%m-%d")
 
     # 搜索最近 3 天 fork 数异常高的仓库（fork > stars * 0.3 说明有实际使用）
@@ -295,6 +294,10 @@ def fetch_rising() -> list[dict]:
 
 def fetch_all() -> list[dict]:
     """Fetch from all sources, deduplicate by full_name."""
+    if not GITHUB_TOKEN:
+        print("[WARN] No GITHUB_TOKEN set — GitHub API limited to 60 req/hour. "
+              "Results will likely be incomplete. Set GITHUB_TOKEN to raise the limit to 5000/hour.")
+
     all_repos = []
 
     trending = fetch_trending()
@@ -351,7 +354,7 @@ def fetch_ai_trending() -> list[dict]:
         "embedding", "fine-tuning", "lora", "qlora", "inference", "mlops"
     ]
     
-    date_from = (datetime.now(timezone.utc) - __import__('datetime').timedelta(days=7)).strftime('%Y-%m-%d')
+    date_from = (datetime.now(timezone.utc) - timedelta(days=7)).strftime('%Y-%m-%d')
     all_repos = []
     
     for keyword in ai_keywords[:5]:  # 限制请求数量

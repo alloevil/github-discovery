@@ -7,6 +7,7 @@ Outputs top repos as markdown to stdout and file.
 import os
 import sys
 import json
+import html
 import subprocess
 import urllib.request
 import urllib.error
@@ -15,7 +16,7 @@ from datetime import datetime
 # Ensure we can import sibling modules
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from config import TOP_N, OUTPUT_DIR, BUTTONDOWN_API_KEY, RESEND_API_KEY
+from config import TOP_N, OUTPUT_DIR, RESEND_API_KEY
 from db import init_db, repo_exists, save_repo, save_run
 from sources import fetch_all
 from scorer import calculate_score
@@ -79,8 +80,8 @@ def send_email_via_resend(to: list[str], subject: str, html_body: str) -> bool:
         return False
 
 
-def send_buttondown_email(date_str: str, top_new: list) -> bool:
-    """Send discovery report email to all subscribers."""
+def send_digest_email(date_str: str, top_new: list) -> bool:
+    """Send the daily discovery digest email to all subscribers (via Resend)."""
     subscribers = get_subscribers()
     if not subscribers:
         print("[SKIP] No subscribers found.")
@@ -90,15 +91,15 @@ def send_buttondown_email(date_str: str, top_new: list) -> bool:
     repo_lines = []
     for i, (repo, scores) in enumerate(top_new, 1):
         name = repo['full_name']
-        url = repo['url']
+        url = html.escape(repo['url'], quote=True)
         stars = repo.get('stars', 0)
         daily = repo.get('daily_stars', 0)
         lang = repo.get('language', '')
-        desc = (repo.get('description') or 'No description')[:120]
+        desc = html.escape((repo.get('description') or 'No description')[:120])
         score = scores.get('total', 0)
-        owner = name.split('/')[0] if '/' in name else ''
-        repo_short = name.split('/')[1] if '/' in name else name
-        avatar = f"https://github.com/{owner}.png" if owner else ""
+        owner = html.escape(name.split('/')[0] if '/' in name else '')
+        repo_short = html.escape(name.split('/')[1] if '/' in name else name)
+        avatar = html.escape(f"https://github.com/{owner}.png" if owner else "", quote=True)
         sc_color = '#f0ad4e' if score >= 98 else '#5e6ad2' if score >= 95 else '#8a8f98'
         sc_bg = '#f0ad4e18' if score >= 98 else '#5e6ad218' if score >= 95 else '#ffffff08'
         lang_color = '#3572A5' if lang.lower() == 'python' else '#3178c6' if lang.lower() == 'typescript' else '#f1e05a' if lang.lower() == 'javascript' else '#dea584' if lang.lower() == 'rust' else '#00ADD8' if lang.lower() == 'go' else '#8a8f98'
@@ -266,9 +267,6 @@ def main():
     print("=" * 60)
     print("  GitHub Discovery Tool")
     print("  Finding repos before they go viral")
-    # Cleanup old dedup records
-    cleanup_old_records()
-
     print("=" * 60)
     print()
 
@@ -420,16 +418,13 @@ def main():
         f.write(md)
     print(f"\n[Saved] Report written to {out_path}")
 
-    # Send email via Buttondown
+    # Send digest email to subscribers (via Resend)
     date_str = datetime.now().strftime("%Y-%m-%d")
-    send_buttondown_email(date_str, top_new)
+    send_digest_email(date_str, top_new)
 
     # Print compact summary
     print("\n" + "=" * 60)
     print("  TOP PICKS SUMMARY")
-    # Cleanup old dedup records
-    cleanup_old_records()
-
     print("=" * 60)
     for i, (repo, scores) in enumerate(top_new[:5], 1):
         print(f"  {i}. {repo['full_name']:40s} ⭐{repo['stars']:>6,}  📊{scores['total']:>3}/100")

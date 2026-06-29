@@ -295,6 +295,9 @@ class TestFetchAll:
 
     @patch("sources.fetch_rising", return_value=[])
     @patch("sources.fetch_reddit", return_value=[])
+    @patch("sources.fetch_ai_trending", return_value=[])
+    @patch("sources.fetch_rising", return_value=[])
+    @patch("sources.fetch_reddit", return_value=[])
     @patch("sources.fetch_hn", return_value=[])
     @patch("sources.fetch_search", return_value=[])
     @patch("sources.fetch_trending", return_value=[])
@@ -311,6 +314,7 @@ class TestFetchAll:
         # 应保留 trending 的 source 标签
         assert results[0]["source"] == "trending"
 
+    @patch("sources.fetch_ai_trending", return_value=[])
     @patch("sources.fetch_rising", return_value=[])
     @patch("sources.fetch_reddit", return_value=[])
     @patch("sources.fetch_hn", return_value=[])

@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .env
+
+# Local SQLite DB — regenerated on each run, must not be versioned
+*.db

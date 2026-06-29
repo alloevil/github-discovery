@@ -176,8 +176,13 @@ def main():
     with open(os.path.join(DIST_DIR, 'index.html'), 'w') as f:
         f.write(html)
 
+    # Generate RSS feed alongside index.html
+    rss_xml = generate_rss(reports)
+    with open(os.path.join(DIST_DIR, 'feed.xml'), 'w') as f:
+        f.write(rss_xml)
+
     print(f"[OK] index.html ({len(reports)} reports, template-based)")
-    print("[OK] feed.xml")
+    print(f"[OK] feed.xml ({sum(len(ft[:5]) + len(rp[:3]) for _, ft, rp in reports[:10])} items)")
 
 
 def generate_rss(reports):
