@@ -1,0 +1,62 @@
+name: Daily Discovery
+
+# Self-contained daily pipeline, run entirely by GitHub Actions:
+#   discover repos -> send digest email -> generate site -> commit -> deploy.
+# Everything happens in one job so we do NOT rely on a push triggering a
+# separate deploy workflow (commits made with the default GITHUB_TOKEN do
+# not trigger other workflows). The external "openclaw" runner is no longer
+# involved — disable any local cron that runs main.py to avoid double emails.
+
+on:
+  schedule:
+    # 04:07 UTC = 12:07 Beijing time (CST, UTC+8)
+    - cron: '7 4 * * *'
+  workflow_dispatch:  # Allow manual run
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: daily-discovery
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run discovery + send email
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: python3 scripts/main.py
+
+      - name: Generate site (index.html + feed.xml)
+        run: python3 scripts/generate_site.py
+
+      - name: Commit updated content
+        run: |
+          git config user.name "github-discovery-bot"
+          git config user.email "bot@github-discovery"
+          git add output/ docs/ data/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🔄 Daily discovery $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
