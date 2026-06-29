@@ -1,9 +1,9 @@
 name: Daily Discovery
 
 on:
-  schedule:
-    # Run daily at 10:00 UTC (18:00 CST)
-    - cron: '0 10 * * *'
+  # NOTE: Daily scheduled run is handled by the external "openclaw" runner
+  # (~12:00 Beijing time). The GitHub Actions cron is disabled to avoid
+  # sending the digest email twice per day. Manual trigger remains available.
   workflow_dispatch:  # Allow manual trigger
 
 permissions:
