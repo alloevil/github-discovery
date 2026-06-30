@@ -349,7 +349,77 @@
         94
       ],
       "last_recommended": "2026-06-29T07:31:26.604130+00:00"
+    },
+    "msitarzewski/agency-agents": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-30T08:01:07.215363+00:00"
+    },
+    "refactoringhq/tolaria": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-30T08:01:07.216979+00:00"
+    },
+    "baairon/torlink": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-30T08:01:07.218888+00:00"
+    },
+    "yynxxxxx/Codex-5.5-codex-instruct-5.5": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-30T08:01:07.220503+00:00"
+    },
+    "tdeverx/contained-app": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-06-30T08:01:07.222072+00:00"
+    },
+    "altic-dev/FluidVoice": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-06-30T08:01:07.223672+00:00"
+    },
+    "soxoj/maigret": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-06-30T08:01:07.225209+00:00"
+    },
+    "commaai/openpilot": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-06-30T08:01:07.226826+00:00"
+    },
+    "ripienaar/free-for-dev": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-06-30T08:01:07.228398+00:00"
+    },
+    "Unclecheng-li/VulnClaw": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-06-30T08:01:07.230106+00:00"
     }
   },
-  "updated_at": "2026-06-29T07:31:26.604156+00:00"
+  "updated_at": "2026-06-30T08:01:07.230132+00:00"
 }

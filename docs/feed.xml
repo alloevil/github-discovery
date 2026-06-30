@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jun 2026 07:31:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 08:01:07 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 msitarzewski/agency-agents — 119556⭐ (461.6/day)</title>
+      <description>A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
+
+Score: 100/100 | Language: Shell</description>
+      <link>https://github.com/msitarzewski/agency-agents</link>
+      <guid>https://github.com/msitarzewski/agency-agents#2026-06-30</guid>
+      <pubDate>Tue, 30 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 refactoringhq/tolaria — 17707⭐ (131.2/day)</title>
+      <description>Desktop app to manage markdown knowledge bases
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/refactoringhq/tolaria</link>
+      <guid>https://github.com/refactoringhq/tolaria#2026-06-30</guid>
+      <pubDate>Tue, 30 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 baairon/torlink — 837⭐ (209.2/day)</title>
+      <description>A sleek, zero-setup torrent finder and downloader that lives right in your terminal.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/baairon/torlink</link>
+      <guid>https://github.com/baairon/torlink#2026-06-30</guid>
+      <pubDate>Tue, 30 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 yynxxxxx/Codex-5.5-codex-instruct-5.5 — 621⭐ (621.0/day)</title>
+      <description>
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5</link>
+      <guid>https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5#2026-06-30</guid>
+      <pubDate>Tue, 30 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 tdeverx/contained-app — 415⭐ (103.8/day)</title>
+      <description>A native macOS app for Apple's Container CLI
+
+Score: 100/100 | Language: Swift</description>
+      <link>https://github.com/tdeverx/contained-app</link>
+      <guid>https://github.com/tdeverx/contained-app#2026-06-30</guid>
+      <pubDate>Tue, 30 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 xbtlin/ai-berkshire — 5905⭐ (72.0/day)</title>
       <description>AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.
