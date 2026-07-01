@@ -1,0 +1,201 @@
+# 🔥 GitHub Discovery Report
+
+> **Generated:** 2026-07-01 07:35
+> **10 new repos + 0 repeat performers**
+
+---
+
+## ⭐ Top Starred Repositories — First Timers
+
+*These repos were first featured in GitHub Discovery*
+
+### 1. [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 8,876 |
+| 📅 Age | 137 days |
+| 🚀 Daily Growth | 64.8 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 2. [google/agents-cli](https://github.com/google/agents-cli)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 4,396 |
+| 📅 Age | 83 days |
+| 🚀 Daily Growth | 53.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [roboflow/supervision](https://github.com/roboflow/supervision)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 46,033 |
+| 📅 Age | 1310 days |
+| 🚀 Daily Growth | 35.1 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> We write your reusable computer vision tools. 💜
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 4. [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 9,181 |
+| 📅 Age | 95 days |
+| 🚀 Daily Growth | 96.6 stars/day |
+| 🔤 Language | Rust |
+| 📡 Source | trending |
+
+> agent multiplexer that lives in your terminal.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 5. [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 1,667 |
+| 📅 Age | 61 days |
+| 🚀 Daily Growth | 27.3 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> Instatic is a modern self-hosted visual CMS - get it running in 1 minute
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 6. [obra/superpowers](https://github.com/obra/superpowers)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 242,875 |
+| 📅 Age | 264 days |
+| 🚀 Daily Growth | 920.0 stars/day |
+| 🔤 Language | Shell |
+| 📡 Source | trending |
+
+> An agentic skills framework & software development methodology that works.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 7. [TianhangZhuzth/Fundamental-Ava](https://github.com/TianhangZhuzth/Fundamental-Ava)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 649 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 649.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> Build digital human beings — autonomous, collaborative, and socially intelligent agents. FNzgGxU31RWiDgLr3GvxxSa42nRntvZNSG6aBMQ1pump
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 8. [wlzh/dji-4g-vohive-mac](https://github.com/wlzh/dji-4g-vohive-mac)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 373 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 124.3 stars/day |
+| 🔤 Language |  |
+| 📡 Source | search |
+
+> 在 Mac（Apple Silicon / Intel）上用 UTM 跑 Linux 虚拟机，把大疆 4G 模块（EG25-G）伪装成移远 Quectel EC25 并部署 vohive 平台的完整步骤
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 20/30
+- Anti-spam: 30/30
+
+---
+### 9. [diinki/linux-antiquity](https://github.com/diinki/linux-antiquity)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 362 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 120.7 stars/day |
+| 🔤 Language | QML |
+| 📡 Source | search |
+
+> A highly tasteful Linux-theme, reminiscent of art-nouveau and old drawings related to astronomy, science, and mythology.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 20/30
+
+---
+### 10. [lycorp-jp/sim-use](https://github.com/lycorp-jp/sim-use)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 361 |
+| 📅 Age | 5 days |
+| 🚀 Daily Growth | 72.2 stars/day |
+| 🔤 Language | Swift |
+| 📡 Source | search |
+
+> Give your AI agent eyes and hands on iOS Simulator and Android emulator/devices.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+
+## 📊 Summary
+
+- **New discoveries:** 10 repos
+- **Repeat performers:** 0 repos
+- **Score range:** 100 - 100
+- **Top pick:** [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)
+
+---
+*Generated by GitHub Discovery Tool*

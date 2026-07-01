@@ -419,7 +419,77 @@
         92
       ],
       "last_recommended": "2026-06-30T08:01:07.230106+00:00"
+    },
+    "diegosouzapw/OmniRoute": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-01T07:35:34.189325+00:00"
+    },
+    "google/agents-cli": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-01T07:35:34.191848+00:00"
+    },
+    "roboflow/supervision": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-01T07:35:34.193309+00:00"
+    },
+    "ogulcancelik/herdr": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-01T07:35:34.194783+00:00"
+    },
+    "CoreBunch/Instatic": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-01T07:35:34.196184+00:00"
+    },
+    "obra/superpowers": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-01T07:35:34.197764+00:00"
+    },
+    "TianhangZhuzth/Fundamental-Ava": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-01T07:35:34.199230+00:00"
+    },
+    "wlzh/dji-4g-vohive-mac": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-01T07:35:34.200603+00:00"
+    },
+    "diinki/linux-antiquity": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-01T07:35:34.201968+00:00"
+    },
+    "lycorp-jp/sim-use": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-01T07:35:34.203288+00:00"
     }
   },
-  "updated_at": "2026-06-30T08:01:07.230132+00:00"
+  "updated_at": "2026-07-01T07:35:34.203314+00:00"
 }
