@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Jun 2026 08:01:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 07:35:34 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 diegosouzapw/OmniRoute — 8876⭐ (64.8/day)</title>
+      <description>Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline &amp; Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/diegosouzapw/OmniRoute</link>
+      <guid>https://github.com/diegosouzapw/OmniRoute#2026-07-01</guid>
+      <pubDate>Wed, 01 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 google/agents-cli — 4396⭐ (53.0/day)</title>
+      <description>The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/google/agents-cli</link>
+      <guid>https://github.com/google/agents-cli#2026-07-01</guid>
+      <pubDate>Wed, 01 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 roboflow/supervision — 46033⭐ (35.1/day)</title>
+      <description>We write your reusable computer vision tools. 💜
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/roboflow/supervision</link>
+      <guid>https://github.com/roboflow/supervision#2026-07-01</guid>
+      <pubDate>Wed, 01 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 ogulcancelik/herdr — 9181⭐ (96.6/day)</title>
+      <description>agent multiplexer that lives in your terminal.
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/ogulcancelik/herdr</link>
+      <guid>https://github.com/ogulcancelik/herdr#2026-07-01</guid>
+      <pubDate>Wed, 01 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 CoreBunch/Instatic — 1667⭐ (27.3/day)</title>
+      <description>Instatic is a modern self-hosted visual CMS - get it running in 1 minute
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/CoreBunch/Instatic</link>
+      <guid>https://github.com/CoreBunch/Instatic#2026-07-01</guid>
+      <pubDate>Wed, 01 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 msitarzewski/agency-agents — 119556⭐ (461.6/day)</title>
       <description>A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
