@@ -9,8 +9,10 @@ name: Daily Discovery
 
 on:
   schedule:
-    # 04:07 UTC = 12:07 Beijing time (CST, UTC+8)
-    - cron: '7 4 * * *'
+    # GitHub cron is best-effort and gets delayed/dropped at popular times
+    # (top of the hour, :00/:30). Use an off-peak minute to reduce misses.
+    # 04:43 UTC = 12:43 Beijing time (CST, UTC+8).
+    - cron: '43 4 * * *'
   workflow_dispatch:  # Allow manual run
 
 permissions:
