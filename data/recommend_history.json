@@ -489,7 +489,77 @@
         100
       ],
       "last_recommended": "2026-07-01T07:35:34.203288+00:00"
+    },
+    "TencentCloud/CubeSandbox": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-02T07:57:21.591811+00:00"
+    },
+    "mekos2772/ios-location-spoofer": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-02T07:57:21.593816+00:00"
+    },
+    "Kulaxyz/self-learning-skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-02T07:57:21.595712+00:00"
+    },
+    "Leron-X/leronx": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-02T07:57:21.597456+00:00"
+    },
+    "tryOpenRAM/OpenRAM": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-02T07:57:21.599374+00:00"
+    },
+    "aquace/CVE-2026-41940-PoC": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-07-02T07:57:21.601225+00:00"
+    },
+    "hasaneyldrm/exercises-dataset": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-07-02T07:57:21.603033+00:00"
+    },
+    "0xNyk/council-of-high-intelligence": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-07-02T07:57:21.604869+00:00"
+    },
+    "yikart/AiToEarn": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-07-02T07:57:21.606679+00:00"
+    },
+    "allenai/olmocr": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-07-02T07:57:21.608473+00:00"
     }
   },
-  "updated_at": "2026-07-01T07:35:34.203314+00:00"
+  "updated_at": "2026-07-02T07:57:21.608499+00:00"
 }

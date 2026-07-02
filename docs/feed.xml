@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Jul 2026 07:35:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 07:57:21 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 TencentCloud/CubeSandbox — 6934⭐ (83.5/day)</title>
+      <description>Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents.
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/TencentCloud/CubeSandbox</link>
+      <guid>https://github.com/TencentCloud/CubeSandbox#2026-07-02</guid>
+      <pubDate>Thu, 02 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 mekos2772/ios-location-spoofer — 869⭐ (869.0/day)</title>
+      <description>Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/mekos2772/ios-location-spoofer</link>
+      <guid>https://github.com/mekos2772/ios-location-spoofer#2026-07-02</guid>
+      <pubDate>Thu, 02 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 Kulaxyz/self-learning-skills — 792⭐ (264.0/day)</title>
+      <description>A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reusable skill/rule for next time.
+
+Score: 100/100 | Language: ?</description>
+      <link>https://github.com/Kulaxyz/self-learning-skills</link>
+      <guid>https://github.com/Kulaxyz/self-learning-skills#2026-07-02</guid>
+      <pubDate>Thu, 02 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 Leron-X/leronx — 420⭐ (84.0/day)</title>
+      <description>LeronX — AI Image &amp; Video Generation Platform
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/Leron-X/leronx</link>
+      <guid>https://github.com/Leron-X/leronx#2026-07-02</guid>
+      <pubDate>Thu, 02 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 tryOpenRAM/OpenRAM — 391⭐ (78.2/day)</title>
+      <description>Rent GPUs and run any AI model, paid in SOL. Buy with $RAM and every $RAM spent gets burned.
+
+Score: 100/100 | Language: Vue</description>
+      <link>https://github.com/tryOpenRAM/OpenRAM</link>
+      <guid>https://github.com/tryOpenRAM/OpenRAM#2026-07-02</guid>
+      <pubDate>Thu, 02 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 diegosouzapw/OmniRoute — 8876⭐ (64.8/day)</title>
       <description>Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline &amp; Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.

@@ -1,0 +1,201 @@
+# 🔥 GitHub Discovery Report
+
+> **Generated:** 2026-07-02 07:57
+> **10 new repos + 0 repeat performers**
+
+---
+
+## ⭐ Top Starred Repositories — First Timers
+
+*These repos were first featured in GitHub Discovery*
+
+### 1. [TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 6,934 |
+| 📅 Age | 83 days |
+| 🚀 Daily Growth | 83.5 stars/day |
+| 🔤 Language | Rust |
+| 📡 Source | trending |
+
+> Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 25/30
+
+---
+### 2. [mekos2772/ios-location-spoofer](https://github.com/mekos2772/ios-location-spoofer)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 869 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 869.0 stars/day |
+| 🔤 Language | JavaScript |
+| 📡 Source | search |
+
+> Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 25/30
+
+---
+### 3. [Kulaxyz/self-learning-skills](https://github.com/Kulaxyz/self-learning-skills)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 792 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 264.0 stars/day |
+| 🔤 Language |  |
+| 📡 Source | search |
+
+> A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reusable skill/rule for next time.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 25/30
+- Anti-spam: 20/30
+
+---
+### 4. [Leron-X/leronx](https://github.com/Leron-X/leronx)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 420 |
+| 📅 Age | 5 days |
+| 🚀 Daily Growth | 84.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> LeronX — AI Image & Video Generation Platform
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 5. [tryOpenRAM/OpenRAM](https://github.com/tryOpenRAM/OpenRAM)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 391 |
+| 📅 Age | 5 days |
+| 🚀 Daily Growth | 78.2 stars/day |
+| 🔤 Language | Vue |
+| 📡 Source | search |
+
+> Rent GPUs and run any AI model, paid in SOL. Buy with $RAM and every $RAM spent gets burned. 
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 30/30
+- Anti-spam: 20/30
+
+---
+### 6. [aquace/CVE-2026-41940-PoC](https://github.com/aquace/CVE-2026-41940-PoC)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 571 |
+| 📅 Age | 4 days |
+| 🚀 Daily Growth | 142.8 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> CVE-2026-41940 authentication bypass vulnerability proof-of-concept
+
+**Score: 97/100** `███████████████████░`
+- Acceleration: 34/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 7. [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 8,731 |
+| 📅 Age | 106 days |
+| 🚀 Daily Growth | 82.4 stars/day |
+| 🔤 Language | HTML |
+| 📡 Source | trending |
+
+> A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.
+
+**Score: 96/100** `███████████████████░`
+- Acceleration: 28/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 8. [0xNyk/council-of-high-intelligence](https://github.com/0xNyk/council-of-high-intelligence)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 2,810 |
+| 📅 Age | 121 days |
+| 🚀 Daily Growth | 23.2 stars/day |
+| 🔤 Language | Shell |
+| 📡 Source | trending |
+
+> 18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds & more — structured multi-round deliberation with genuine model diversity. One command: /council
+
+**Score: 96/100** `███████████████████░`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 9. [yikart/AiToEarn](https://github.com/yikart/AiToEarn)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 22,759 |
+| 📅 Age | 492 days |
+| 🚀 Daily Growth | 46.3 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> Let's use AI to Earn!
+
+**Score: 96/100** `███████████████████░`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 10. [allenai/olmocr](https://github.com/allenai/olmocr)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 18,426 |
+| 📅 Age | 652 days |
+| 🚀 Daily Growth | 28.3 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> Toolkit for linearizing PDFs for LLM datasets/training
+
+**Score: 93/100** `██████████████████░░`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+
+## 📊 Summary
+
+- **New discoveries:** 10 repos
+- **Repeat performers:** 0 repos
+- **Score range:** 93 - 100
+- **Top pick:** [TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox)
+
+---
+*Generated by GitHub Discovery Tool*
