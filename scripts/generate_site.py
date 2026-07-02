@@ -7,6 +7,7 @@ and only injects the dynamic repo data sections.
 import os
 import re
 import glob
+import statistics
 from datetime import datetime, timezone
 from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom.minidom import parseString
@@ -115,7 +116,16 @@ def repo_card(r: dict) -> str:
 
 def generate_content(reports):
     total_repos = sum(len(ft) + len(rp) for _, ft, rp in reports)
-    top_score = reports[0][1][0]['score'] if reports and reports[0][1] else '?'
+    # Median score of the latest report's repos — more informative than the
+    # top score, which is almost always 100.
+    latest_scores = []
+    if reports:
+        for r in reports[0][1] + reports[0][2]:
+            try:
+                latest_scores.append(int(r.get('score', 0)))
+            except (ValueError, TypeError):
+                pass
+    median_score = int(statistics.median(latest_scores)) if latest_scores else '?'
 
     date_buttons = []
     for i, (date_str, _, _) in enumerate(reports[:7]):
@@ -140,7 +150,7 @@ def generate_content(reports):
         'date_filters': '\n        '.join(date_buttons),
         'sections': '\n'.join(sections),
         'total_repos': str(total_repos),
-        'top_score': str(top_score),
+        'top_score': str(median_score),
         'days_tracked': str(len(reports)),
         'num_sources': str(len(SOURCE_LABELS)),
     }

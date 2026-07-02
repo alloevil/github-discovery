@@ -10,9 +10,12 @@ name: Daily Discovery
 on:
   schedule:
     # GitHub cron is best-effort and gets delayed/dropped at popular times
-    # (top of the hour, :00/:30). Use an off-peak minute to reduce misses.
-    # 04:43 UTC = 12:43 Beijing time (CST, UTC+8).
+    # (top of the hour, :00/:30). Use off-peak minutes, and run twice as a
+    # safety net — main.py is idempotent (skips if today's report exists),
+    # so the second run only does work if the first was missed by GitHub.
+    # 04:43 UTC = 12:43 Beijing; 08:43 UTC = 16:43 Beijing.
     - cron: '43 4 * * *'
+    - cron: '43 8 * * *'
   workflow_dispatch:  # Allow manual run
 
 permissions:

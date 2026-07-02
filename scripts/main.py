@@ -40,14 +40,18 @@ def get_subscribers() -> list[str]:
     return emails
 
 
-def send_email_via_resend(to: list[str], subject: str, html_body: str) -> bool:
-    """Send email via Resend API using curl (urllib blocked by Cloudflare)."""
+def send_email_via_resend(to: list[str], subject: str, html_body: str) -> str:
+    """Send email via Resend API using curl (urllib blocked by Cloudflare).
+
+    Returns: "sent" on success, "skipped" when there is nothing to do
+    (no key / no subscribers), or "failed" on a real send error.
+    """
     if not RESEND_API_KEY:
         print("[SKIP] No Resend API key configured.")
-        return False
+        return "skipped"
     if not to:
         print("[SKIP] No subscribers to send to.")
-        return False
+        return "skipped"
 
     payload = json.dumps({
         "from": "onboarding@resend.dev",
@@ -67,16 +71,25 @@ def send_email_via_resend(to: list[str], subject: str, html_body: str) -> bool:
             ],
             capture_output=True, text=True, timeout=30,
         )
-        if result.returncode == 0:
-            resp = json.loads(result.stdout)
-            print(f"[OK] Resend email sent: {resp.get('id', 'ok')}")
-            return True
-        else:
+        if result.returncode != 0:
             print(f"[ERROR] Resend curl failed: {result.stderr[:200]}")
-            return False
+            return "failed"
+        # curl exit 0 only means the request was sent; Resend signals
+        # success by returning an "id". An error body (bad key, etc.) has
+        # no id, so treat that as a failure too.
+        try:
+            resp = json.loads(result.stdout)
+        except (ValueError, TypeError):
+            print(f"[ERROR] Resend returned non-JSON: {result.stdout[:200]}")
+            return "failed"
+        if resp.get("id"):
+            print(f"[OK] Resend email sent: {resp['id']}")
+            return "sent"
+        print(f"[ERROR] Resend rejected the request: {str(resp)[:200]}")
+        return "failed"
     except Exception as e:
         print(f"[ERROR] Resend send failed: {e}")
-        return False
+        return "failed"
 
 
 EMAIL_SOURCE_LABELS = {
@@ -88,12 +101,15 @@ EMAIL_SOURCE_LABELS = {
 }
 
 
-def send_digest_email(date_str: str, top_new: list) -> bool:
-    """Send the daily discovery digest email to all subscribers (via Resend)."""
+def send_digest_email(date_str: str, top_new: list) -> str:
+    """Send the daily discovery digest email to all subscribers (via Resend).
+
+    Returns "sent" / "skipped" / "failed" (see send_email_via_resend).
+    """
     subscribers = get_subscribers()
     if not subscribers:
         print("[SKIP] No subscribers found.")
-        return False
+        return "skipped"
     print(f"[INFO] Found {len(subscribers)} subscribers.")
 
     repo_lines = []
@@ -274,6 +290,15 @@ def generate_markdown(top_new: list[tuple[dict, dict]], top_repeat: list[tuple[d
 
 
 def main():
+    # Idempotency guard: GitHub cron is unreliable, so we schedule the
+    # workflow twice a day. If today's report was already produced by an
+    # earlier run, skip entirely — no duplicate email, no duplicate commit.
+    today = datetime.now().strftime("%Y-%m-%d")
+    today_report = os.path.join(OUTPUT_DIR, f"discovery-{today}.md")
+    if os.path.exists(today_report):
+        print(f"[SKIP] Today's report already exists ({today_report}). Nothing to do.")
+        return
+
     # Cleanup old dedup records
     cleanup_old_records()
 
@@ -411,17 +436,23 @@ def main():
     md = generate_markdown(top_new, top_repeat)
     print(md)
 
-    # Save to file
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    # Send digest email FIRST. The report file doubles as the idempotency
+    # marker (see main() top), so we must not write it until the email has
+    # been sent (or benignly skipped). If the email fails, we exit non-zero
+    # without writing the marker, so the next scheduled run retries.
     date_str = datetime.now().strftime("%Y-%m-%d")
+    email_result = send_digest_email(date_str, top_new)
+    if email_result == "failed":
+        print("[ERROR] Email send failed — not writing today's report so the "
+              "next run retries. Exiting non-zero to flag the failure.")
+        sys.exit(1)
+
+    # Save to file (also the idempotency marker for same-day reruns)
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
     out_path = os.path.join(OUTPUT_DIR, f"discovery-{date_str}.md")
     with open(out_path, "w") as f:
         f.write(md)
     print(f"\n[Saved] Report written to {out_path}")
-
-    # Send digest email to subscribers (via Resend)
-    date_str = datetime.now().strftime("%Y-%m-%d")
-    send_digest_email(date_str, top_new)
 
     # Print compact summary
     print("\n" + "=" * 60)
