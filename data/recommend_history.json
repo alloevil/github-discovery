@@ -559,7 +559,77 @@
         93
       ],
       "last_recommended": "2026-07-02T07:57:21.608473+00:00"
+    },
+    "JuliusBrussee/caveman": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-03T07:51:39.667428+00:00"
+    },
+    "santifer/career-ops": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-03T07:51:39.669027+00:00"
+    },
+    "ChromeDevTools/chrome-devtools-mcp": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-03T07:51:39.670600+00:00"
+    },
+    "affaan-m/ECC": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-03T07:51:39.672189+00:00"
+    },
+    "agentskills/agentskills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-03T07:51:39.673645+00:00"
+    },
+    "openai/codex-plugin-cc": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-03T07:51:39.675314+00:00"
+    },
+    "langflow-ai/langflow": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-03T07:51:39.676869+00:00"
+    },
+    "pytorch/pytorch": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-03T07:51:39.678380+00:00"
+    },
+    "harvard-edge/cs249r_book": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-03T07:51:39.680049+00:00"
+    },
+    "Jia-Ethan/codex-keysmith": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-03T07:51:39.681597+00:00"
     }
   },
-  "updated_at": "2026-07-02T07:57:21.608499+00:00"
+  "updated_at": "2026-07-03T07:51:39.681624+00:00"
 }
