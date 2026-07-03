@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Jul 2026 11:19:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 07:51:40 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 JuliusBrussee/caveman — 81816⭐ (919.3/day)</title>
+      <description>🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/JuliusBrussee/caveman</link>
+      <guid>https://github.com/JuliusBrussee/caveman#2026-07-03</guid>
+      <pubDate>Fri, 03 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 santifer/career-ops — 58164⭐ (653.5/day)</title>
+      <description>AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/santifer/career-ops</link>
+      <guid>https://github.com/santifer/career-ops#2026-07-03</guid>
+      <pubDate>Fri, 03 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 ChromeDevTools/chrome-devtools-mcp — 45224⭐ (153.8/day)</title>
+      <description>Chrome DevTools for coding agents
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
+      <guid>https://github.com/ChromeDevTools/chrome-devtools-mcp#2026-07-03</guid>
+      <pubDate>Fri, 03 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 affaan-m/ECC — 225377⭐ (1357.7/day)</title>
+      <description>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/affaan-m/ECC</link>
+      <guid>https://github.com/affaan-m/ECC#2026-07-03</guid>
+      <pubDate>Fri, 03 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 agentskills/agentskills — 21741⭐ (109.8/day)</title>
+      <description>Specification and documentation for Agent Skills
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/agentskills/agentskills</link>
+      <guid>https://github.com/agentskills/agentskills#2026-07-03</guid>
+      <pubDate>Fri, 03 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 TencentCloud/CubeSandbox — 6934⭐ (83.5/day)</title>
       <description>Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents.
@@ -519,51 +564,6 @@ Score: 100/100 | Language: Python</description>
       <link>https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance</link>
       <guid>https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance#2026-06-24</guid>
       <pubDate>Wed, 24 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 sums001/Windows-Copilot-API — 434⭐ (144.7/day)</title>
-      <description>Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/sums001/Windows-Copilot-API</link>
-      <guid>https://github.com/sums001/Windows-Copilot-API#2026-06-23</guid>
-      <pubDate>Tue, 23 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 yo-WASSUP/Good-Badminton — 383⭐ (127.7/day)</title>
-      <description>🏸  AI Badminton Hawk-Eye System
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/yo-WASSUP/Good-Badminton</link>
-      <guid>https://github.com/yo-WASSUP/Good-Badminton#2026-06-23</guid>
-      <pubDate>Tue, 23 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 overflowy/make-look-scanned — 362⭐ (181.0/day)</title>
-      <description>Makes PDFs look scanned (CLI or in the browser via WASM)
-
-Score: 100/100 | Language: Go</description>
-      <link>https://github.com/overflowy/make-look-scanned</link>
-      <guid>https://github.com/overflowy/make-look-scanned#2026-06-23</guid>
-      <pubDate>Tue, 23 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 raiyanyahya/recall — 360⭐ (120.0/day)</title>
-      <description>Stop wasting tokens and re-explaining your project every session. Recall gives Claude Code durable memory — entirely offline.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/raiyanyahya/recall</link>
-      <guid>https://github.com/raiyanyahya/recall#2026-06-23</guid>
-      <pubDate>Tue, 23 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 HKUDS/AgentSpace — 288⭐ (288.0/day)</title>
-      <description>&quot;AgentSpace: Human + Agents. One Team. One Workspace&quot;
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/HKUDS/AgentSpace</link>
-      <guid>https://github.com/HKUDS/AgentSpace#2026-06-23</guid>
-      <pubDate>Tue, 23 Jun 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
