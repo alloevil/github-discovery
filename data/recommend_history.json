@@ -629,7 +629,77 @@
         100
       ],
       "last_recommended": "2026-07-03T07:51:39.681597+00:00"
+    },
+    "facebook/astryx": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-04T07:30:40.517077+00:00"
+    },
+    "anthropics/claude-code": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-04T07:30:40.518908+00:00"
+    },
+    "supabase/supabase": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-04T07:30:40.520704+00:00"
+    },
+    "HUANGCHIHHUNGLeo/claude-real-video": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-04T07:30:40.522485+00:00"
+    },
+    "xuchonglang/investing-for-beginners": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-04T07:30:40.524382+00:00"
+    },
+    "uzairansaruzi/hermex": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-04T07:30:40.526223+00:00"
+    },
+    "jamesob/local-llm": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-04T07:30:40.528085+00:00"
+    },
+    "jmerelnyc/Talos": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-04T07:30:40.530098+00:00"
+    },
+    "asz798838958/FrciblyK12": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-04T07:30:40.532152+00:00"
+    },
+    "spiritov/ds.css": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-07-04T07:30:40.534196+00:00"
     }
   },
-  "updated_at": "2026-07-03T07:51:39.681624+00:00"
+  "updated_at": "2026-07-04T07:30:40.534223+00:00"
 }
