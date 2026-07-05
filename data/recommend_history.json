@@ -99,11 +99,12 @@
       "last_recommended": "2026-06-26T04:19:37.543627+00:00"
     },
     "alibaba/page-agent": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-06-26T04:19:37.546184+00:00"
+      "last_recommended": "2026-07-05T07:49:18.046308+00:00"
     },
     "opendatalab/MinerU": {
       "count": 1,
@@ -699,7 +700,70 @@
         99
       ],
       "last_recommended": "2026-07-04T07:30:40.534196+00:00"
+    },
+    "asgeirtj/system_prompts_leaks": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-05T07:49:18.048785+00:00"
+    },
+    "immich-app/immich": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-05T07:49:18.050940+00:00"
+    },
+    "mattpocock/skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-05T07:49:18.052618+00:00"
+    },
+    "CoplayDev/unity-mcp": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-05T07:49:18.054371+00:00"
+    },
+    "alirezarezvani/claude-skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-05T07:49:18.056075+00:00"
+    },
+    "crynta/terax-ai": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-05T07:49:18.057737+00:00"
+    },
+    "elder-plinius/T3MP3ST": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-05T07:49:18.059465+00:00"
+    },
+    "Kulaxyz/token-diet": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-05T07:49:18.061133+00:00"
+    },
+    "ammaarreshi/Generals-Mac-iOS-iPad": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-05T07:49:18.062806+00:00"
     }
   },
-  "updated_at": "2026-07-04T07:30:40.534223+00:00"
+  "updated_at": "2026-07-05T07:49:18.062833+00:00"
 }
