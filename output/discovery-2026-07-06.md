@@ -1,0 +1,201 @@
+# 🔥 GitHub Discovery Report
+
+> **Generated:** 2026-07-06 08:51
+> **10 new repos + 0 repeat performers**
+
+---
+
+## ⭐ Top Starred Repositories — First Timers
+
+*These repos were first featured in GitHub Discovery*
+
+### 1. [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 58,107 |
+| 📅 Age | 136 days |
+| 🚀 Daily Growth | 427.3 stars/day |
+| 🔤 Language | JavaScript |
+| 📡 Source | trending |
+
+> Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop 
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 2. [usestrix/strix](https://github.com/usestrix/strix)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 37,537 |
+| 📅 Age | 334 days |
+| 🚀 Daily Growth | 112.4 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 48,609 |
+| 📅 Age | 442 days |
+| 🚀 Daily Growth | 110.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 4. [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 36,698 |
+| 📅 Age | 171 days |
+| 🚀 Daily Growth | 214.6 stars/day |
+| 🔤 Language | JavaScript |
+| 📡 Source | trending |
+
+> Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 5. [ruvnet/RuView](https://github.com/ruvnet/RuView)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 76,884 |
+| 📅 Age | 394 days |
+| 🚀 Daily Growth | 195.1 stars/day |
+| 🔤 Language | Rust |
+| 📡 Source | trending |
+
+> π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 6. [gastownhall/gastown](https://github.com/gastownhall/gastown)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 16,493 |
+| 📅 Age | 202 days |
+| 🚀 Daily Growth | 81.6 stars/day |
+| 🔤 Language | Go |
+| 📡 Source | trending |
+
+> Gas Town - multi-agent workspace manager
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 7. [dotnet/skills](https://github.com/dotnet/skills)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 4,134 |
+| 📅 Age | 152 days |
+| 🚀 Daily Growth | 27.2 stars/day |
+| 🔤 Language | C# |
+| 📡 Source | trending |
+
+> Repository for skills to assist AI coding agents with .NET and C#
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 8. [steipete/CodexBar](https://github.com/steipete/CodexBar)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 16,451 |
+| 📅 Age | 231 days |
+| 🚀 Daily Growth | 71.2 stars/day |
+| 🔤 Language | Swift |
+| 📡 Source | trending |
+
+> Show usage stats for OpenAI Codex and Claude Code, without having to login.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 9. [LinXiaoTao/FuckClaude](https://github.com/LinXiaoTao/FuckClaude)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 575 |
+| 📅 Age | 4 days |
+| 🚀 Daily Growth | 143.8 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
+
+> 
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 10. [HKUDS/OpenOPC](https://github.com/HKUDS/OpenOPC)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 438 |
+| 📅 Age | 4 days |
+| 🚀 Daily Growth | 109.5 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> OpenOPC: Build Your Personal AI-Native Company — Self-Built, Self-Run, Self-Grown
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+
+## 📊 Summary
+
+- **New discoveries:** 10 repos
+- **Repeat performers:** 0 repos
+- **Score range:** 100 - 100
+- **Top pick:** [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
+
+---
+*Generated by GitHub Discovery Tool*

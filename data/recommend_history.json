@@ -345,11 +345,12 @@
       "last_recommended": "2026-06-29T07:31:26.602783+00:00"
     },
     "usestrix/strix": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        94
+        94,
+        100
       ],
-      "last_recommended": "2026-06-29T07:31:26.604130+00:00"
+      "last_recommended": "2026-07-06T08:51:29.543812+00:00"
     },
     "msitarzewski/agency-agents": {
       "count": 1,
@@ -763,7 +764,70 @@
         100
       ],
       "last_recommended": "2026-07-05T07:49:18.062806+00:00"
+    },
+    "Leonxlnx/taste-skill": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-06T08:51:29.541728+00:00"
+    },
+    "hesreallyhim/awesome-claude-code": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-06T08:51:29.545739+00:00"
+    },
+    "coreyhaines31/marketingskills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-06T08:51:29.548280+00:00"
+    },
+    "ruvnet/RuView": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-06T08:51:29.550314+00:00"
+    },
+    "gastownhall/gastown": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-06T08:51:29.552252+00:00"
+    },
+    "dotnet/skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-06T08:51:29.554179+00:00"
+    },
+    "steipete/CodexBar": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-06T08:51:29.556081+00:00"
+    },
+    "LinXiaoTao/FuckClaude": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-06T08:51:29.558089+00:00"
+    },
+    "HKUDS/OpenOPC": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-06T08:51:29.560087+00:00"
     }
   },
-  "updated_at": "2026-07-05T07:49:18.062833+00:00"
+  "updated_at": "2026-07-06T08:51:29.560115+00:00"
 }

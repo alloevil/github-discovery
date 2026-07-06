@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Jul 2026 10:51:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 08:51:30 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 Leonxlnx/taste-skill — 58107⭐ (427.3/day)</title>
+      <description>Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/Leonxlnx/taste-skill</link>
+      <guid>https://github.com/Leonxlnx/taste-skill#2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 usestrix/strix — 37537⭐ (112.4/day)</title>
+      <description>Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/usestrix/strix</link>
+      <guid>https://github.com/usestrix/strix#2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 hesreallyhim/awesome-claude-code — 48609⭐ (110.0/day)</title>
+      <description>A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/hesreallyhim/awesome-claude-code</link>
+      <guid>https://github.com/hesreallyhim/awesome-claude-code#2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 coreyhaines31/marketingskills — 36698⭐ (214.6/day)</title>
+      <description>Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/coreyhaines31/marketingskills</link>
+      <guid>https://github.com/coreyhaines31/marketingskills#2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 ruvnet/RuView — 76884⭐ (195.1/day)</title>
+      <description>π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/ruvnet/RuView</link>
+      <guid>https://github.com/ruvnet/RuView#2026-07-06</guid>
+      <pubDate>Mon, 06 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 alibaba/page-agent — 23342⭐ (82.2/day)</title>
       <description>JavaScript in-page GUI agent. Control web interfaces with natural language.
@@ -465,78 +510,6 @@ Score: 100/100 | Language: Python</description>
       <link>https://github.com/nova452/ComfyUI-Conditioning-Rebalance</link>
       <guid>https://github.com/nova452/ComfyUI-Conditioning-Rebalance#2026-06-27</guid>
       <pubDate>Sat, 27 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 alchaincyf/zhangxuefeng-skill — 9148⭐ (111.6/day)</title>
-      <description>张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。
-
-Score: 100/100 | Language: ?</description>
-      <link>https://github.com/alchaincyf/zhangxuefeng-skill</link>
-      <guid>https://github.com/alchaincyf/zhangxuefeng-skill#2026-06-26</guid>
-      <pubDate>Fri, 26 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Panniantong/Agent-Reach — 41843⭐ (343.0/day)</title>
-      <description>Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/Panniantong/Agent-Reach</link>
-      <guid>https://github.com/Panniantong/Agent-Reach#2026-06-26</guid>
-      <pubDate>Fri, 26 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 NVIDIA-BioNeMo/bionemo-agent-toolkit — 145⭐ (48.3/day)</title>
-      <description>Turn any agent into a life science expert with NVIDIA BioNeMo skills.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit</link>
-      <guid>https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit#2026-06-26</guid>
-      <pubDate>Fri, 26 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 winsznx/theeleven — 230⭐ (230.0/day)</title>
-      <description>Eleven autonomous AI agents open live football prop markets on X Layer — custom Uniswap v4 hook, gasless USDT0 staking.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/winsznx/theeleven</link>
-      <guid>https://github.com/winsznx/theeleven#2026-06-26</guid>
-      <pubDate>Fri, 26 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Johell1NS/browser-search — 175⭐ (58.3/day)</title>
-      <description>A skill for AI agents: search the web with SearXNG, browse with Camofox, bypass protections with CloakBrowser. Anti-hallucination by design. Self-hosted, free, unlimited.
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/Johell1NS/browser-search</link>
-      <guid>https://github.com/Johell1NS/browser-search#2026-06-26</guid>
-      <pubDate>Fri, 26 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 google-labs-code/design.md — 20435⭐ (268.9/day)</title>
-      <description>A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/google-labs-code/design.md</link>
-      <guid>https://github.com/google-labs-code/design.md#2026-06-26</guid>
-      <pubDate>Fri, 26 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 calesthio/OpenMontage — 22999⭐ (261.4/day)</title>
-      <description>World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/calesthio/OpenMontage</link>
-      <guid>https://github.com/calesthio/OpenMontage#2026-06-26</guid>
-      <pubDate>Fri, 26 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 JCodesMore/ai-website-cloner-template — 20991⭐ (199.9/day)</title>
-      <description>Clone any website with one command using AI coding agents
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/JCodesMore/ai-website-cloner-template</link>
-      <guid>https://github.com/JCodesMore/ai-website-cloner-template#2026-06-26</guid>
-      <pubDate>Fri, 26 Jun 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
