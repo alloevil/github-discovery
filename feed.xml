@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Jul 2026 12:27:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 08:03:52 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 addyosmani/agent-skills — 71284⭐ (505.6/day)</title>
+      <description>Production-grade engineering skills for AI coding agents.
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/addyosmani/agent-skills</link>
+      <guid>https://github.com/addyosmani/agent-skills#2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 mvanhorn/last30days-skill — 50024⭐ (305.0/day)</title>
+      <description>AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/mvanhorn/last30days-skill</link>
+      <guid>https://github.com/mvanhorn/last30days-skill#2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 bradautomates/claude-video — 4574⭐ (61.8/day)</title>
+      <description>Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/bradautomates/claude-video</link>
+      <guid>https://github.com/bradautomates/claude-video#2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 karakeep-app/karakeep — 27046⭐ (30.7/day)</title>
+      <description>A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/karakeep-app/karakeep</link>
+      <guid>https://github.com/karakeep-app/karakeep#2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 firecrawl/firecrawl — 146711⭐ (180.7/day)</title>
+      <description>The API to search, scrape, and interact with the web at scale. 🔥
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/firecrawl/firecrawl</link>
+      <guid>https://github.com/firecrawl/firecrawl#2026-07-07</guid>
+      <pubDate>Tue, 07 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 Leonxlnx/taste-skill — 58107⭐ (427.3/day)</title>
       <description>Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop
@@ -438,78 +483,6 @@ Score: 98/100 | Language: HTML</description>
       <link>https://github.com/bozhouDev/codex-orange-book</link>
       <guid>https://github.com/bozhouDev/codex-orange-book#2026-06-28</guid>
       <pubDate>Sun, 28 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 microsoft/PowerToys — 135578⭐ (51.9/day)</title>
-      <description>Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows
-
-Score: 100/100 | Language: C</description>
-      <link>https://github.com/microsoft/PowerToys</link>
-      <guid>https://github.com/microsoft/PowerToys#2026-06-27</guid>
-      <pubDate>Sat, 27 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 hugohe3/ppt-master — 32616⭐ (163.9/day)</title>
-      <description>AI generates a real, editable PowerPoint from any document — native shapes &amp; animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/hugohe3/ppt-master</link>
-      <guid>https://github.com/hugohe3/ppt-master#2026-06-27</guid>
-      <pubDate>Sat, 27 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 topoteretes/cognee — 23535⭐ (22.5/day)</title>
-      <description>Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/topoteretes/cognee</link>
-      <guid>https://github.com/topoteretes/cognee#2026-06-27</guid>
-      <pubDate>Sat, 27 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 luongnv89/claude-howto — 38420⭐ (166.3/day)</title>
-      <description>A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/luongnv89/claude-howto</link>
-      <guid>https://github.com/luongnv89/claude-howto#2026-06-27</guid>
-      <pubDate>Sat, 27 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 anomalyco/opencode — 179357⭐ (425.0/day)</title>
-      <description>The open source coding agent.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/anomalyco/opencode</link>
-      <guid>https://github.com/anomalyco/opencode#2026-06-27</guid>
-      <pubDate>Sat, 27 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 google-labs-code/design.md — 21919⭐ (284.7/day)</title>
-      <description>A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/google-labs-code/design.md</link>
-      <guid>https://github.com/google-labs-code/design.md#2026-06-27</guid>
-      <pubDate>Sat, 27 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 JCodesMore/ai-website-cloner-template — 21702⭐ (204.7/day)</title>
-      <description>Clone any website with one command using AI coding agents
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/JCodesMore/ai-website-cloner-template</link>
-      <guid>https://github.com/JCodesMore/ai-website-cloner-template#2026-06-27</guid>
-      <pubDate>Sat, 27 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 nova452/ComfyUI-Conditioning-Rebalance — 274⭐ (91.3/day)</title>
-      <description>Conditioning optimizer nodes offering IP-Adapter-like features for Krea 2 image reference editing along with bypassing the built in quality diluation from the trained safety filter and also works as a means to unfilter the model.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/nova452/ComfyUI-Conditioning-Rebalance</link>
-      <guid>https://github.com/nova452/ComfyUI-Conditioning-Rebalance#2026-06-27</guid>
-      <pubDate>Sat, 27 Jun 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
