@@ -1,0 +1,201 @@
+# 🔥 GitHub Discovery Report
+
+> **Generated:** 2026-07-07 08:03
+> **10 new repos + 0 repeat performers**
+
+---
+
+## ⭐ Top Starred Repositories — First Timers
+
+*These repos were first featured in GitHub Discovery*
+
+### 1. [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 71,284 |
+| 📅 Age | 141 days |
+| 🚀 Daily Growth | 505.6 stars/day |
+| 🔤 Language | JavaScript |
+| 📡 Source | trending |
+
+> Production-grade engineering skills for AI coding agents.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 2. [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 50,024 |
+| 📅 Age | 164 days |
+| 🚀 Daily Growth | 305.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [bradautomates/claude-video](https://github.com/bradautomates/claude-video)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 4,574 |
+| 📅 Age | 74 days |
+| 🚀 Daily Growth | 61.8 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 4. [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 27,046 |
+| 📅 Age | 881 days |
+| 🚀 Daily Growth | 30.7 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 5. [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 146,711 |
+| 📅 Age | 812 days |
+| 🚀 Daily Growth | 180.7 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> The API to search, scrape, and interact with the web at scale. 🔥
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 6. [alibaba/zvec](https://github.com/alibaba/zvec)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 13,682 |
+| 📅 Age | 214 days |
+| 🚀 Daily Growth | 63.9 stars/day |
+| 🔤 Language | C++ |
+| 📡 Source | trending |
+
+> A lightweight, lightning-fast, in-process vector database
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 7. [sindresorhus/awesome](https://github.com/sindresorhus/awesome)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 482,539 |
+| 📅 Age | 4378 days |
+| 🚀 Daily Growth | 110.2 stars/day |
+| 🔤 Language |  |
+| 📡 Source | trending |
+
+> 😎 Awesome lists about all kinds of interesting topics
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 8. [synthetic-sciences/openscience](https://github.com/synthetic-sciences/openscience)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 967 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 322.3 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
+
+> The open-source AI workbench for scientific research
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 9. [MaximeRivest/riddle](https://github.com/MaximeRivest/riddle)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 749 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 749.0 stars/day |
+| 🔤 Language | Rust |
+| 📡 Source | search |
+
+> The diary of Tom Riddle for the reMarkable Paper Pro — write with your pen, the page drinks your ink and answers in a flowing hand
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 10. [514-labs/dnsglobe](https://github.com/514-labs/dnsglobe)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 581 |
+| 📅 Age | 2 days |
+| 🚀 Daily Growth | 290.5 stars/day |
+| 🔤 Language | Rust |
+| 📡 Source | search |
+
+> Global DNS propagation checker TUI — watch a DNS record propagate across 34 public resolvers worldwide, on a world map in your terminal
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+
+## 📊 Summary
+
+- **New discoveries:** 10 repos
+- **Repeat performers:** 0 repos
+- **Score range:** 100 - 100
+- **Top pick:** [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
+
+---
+*Generated by GitHub Discovery Tool*

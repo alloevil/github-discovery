@@ -827,7 +827,77 @@
         100
       ],
       "last_recommended": "2026-07-06T08:51:29.560087+00:00"
+    },
+    "addyosmani/agent-skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-07T08:03:52.280549+00:00"
+    },
+    "mvanhorn/last30days-skill": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-07T08:03:52.282735+00:00"
+    },
+    "bradautomates/claude-video": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-07T08:03:52.285035+00:00"
+    },
+    "karakeep-app/karakeep": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-07T08:03:52.287130+00:00"
+    },
+    "firecrawl/firecrawl": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-07T08:03:52.289116+00:00"
+    },
+    "alibaba/zvec": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-07T08:03:52.291168+00:00"
+    },
+    "sindresorhus/awesome": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-07T08:03:52.293284+00:00"
+    },
+    "synthetic-sciences/openscience": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-07T08:03:52.295368+00:00"
+    },
+    "MaximeRivest/riddle": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-07T08:03:52.297330+00:00"
+    },
+    "514-labs/dnsglobe": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-07T08:03:52.299534+00:00"
     }
   },
-  "updated_at": "2026-07-06T08:51:29.560115+00:00"
+  "updated_at": "2026-07-07T08:03:52.299561+00:00"
 }
