@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Jul 2026 11:30:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 07:15:29 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 MadsLorentzen/ai-job-search — 12251⭐ (110.4/day)</title>
+      <description>AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/MadsLorentzen/ai-job-search</link>
+      <guid>https://github.com/MadsLorentzen/ai-job-search#2026-07-08</guid>
+      <pubDate>Wed, 08 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 iOfficeAI/OfficeCLI — 10584⭐ (92.8/day)</title>
+      <description>OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.
+
+Score: 100/100 | Language: C</description>
+      <link>https://github.com/iOfficeAI/OfficeCLI</link>
+      <guid>https://github.com/iOfficeAI/OfficeCLI#2026-07-08</guid>
+      <pubDate>Wed, 08 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 Shpigford/knockoff — 1132⭐ (1132.0/day)</title>
+      <description>Chrome extension that filters pseudo-brand junk out of Amazon. Buy from real, established brands.
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/Shpigford/knockoff</link>
+      <guid>https://github.com/Shpigford/knockoff#2026-07-08</guid>
+      <pubDate>Wed, 08 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 anthropics/jacobian-lens — 679⭐ (135.8/day)</title>
+      <description>Companion code for the global workspace interpretability paper
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/anthropics/jacobian-lens</link>
+      <guid>https://github.com/anthropics/jacobian-lens#2026-07-08</guid>
+      <pubDate>Wed, 08 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 yynxxxxx/Codex-X — 545⭐ (136.2/day)</title>
+      <description>Codex Switch &amp; Instruct desktop manager
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/yynxxxxx/Codex-X</link>
+      <guid>https://github.com/yynxxxxx/Codex-X#2026-07-08</guid>
+      <pubDate>Wed, 08 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 addyosmani/agent-skills — 71284⭐ (505.6/day)</title>
       <description>Production-grade engineering skills for AI coding agents.
@@ -411,78 +456,6 @@ Score: 100/100 | Language: Python</description>
       <link>https://github.com/browser-use/video-use</link>
       <guid>https://github.com/browser-use/video-use#2026-06-29</guid>
       <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 xbtlin/ai-berkshire — 4911⭐ (59.9/day)</title>
-      <description>AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/xbtlin/ai-berkshire</link>
-      <guid>https://github.com/xbtlin/ai-berkshire#2026-06-28</guid>
-      <pubDate>Sun, 28 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Robbyant/lingbot-map — 7964⭐ (109.1/day)</title>
-      <description>A feed-forward 3D foundation model for reconstructing scenes from streaming data
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/Robbyant/lingbot-map</link>
-      <guid>https://github.com/Robbyant/lingbot-map#2026-06-28</guid>
-      <pubDate>Sun, 28 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 DeusData/codebase-memory-mcp — 18528⭐ (150.6/day)</title>
-      <description>High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
-
-Score: 100/100 | Language: C</description>
-      <link>https://github.com/DeusData/codebase-memory-mcp</link>
-      <guid>https://github.com/DeusData/codebase-memory-mcp#2026-06-28</guid>
-      <pubDate>Sun, 28 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 HKUDS/Vibe-Trading — 13952⭐ (158.5/day)</title>
-      <description>&quot;Vibe-Trading: Your Personal Trading Agent&quot;
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/HKUDS/Vibe-Trading</link>
-      <guid>https://github.com/HKUDS/Vibe-Trading#2026-06-28</guid>
-      <pubDate>Sun, 28 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 browser-use/video-use — 10598⭐ (137.6/day)</title>
-      <description>Edit videos with coding agents
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/browser-use/video-use</link>
-      <guid>https://github.com/browser-use/video-use#2026-06-28</guid>
-      <pubDate>Sun, 28 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Yu9191/wloc — 923⭐ (230.8/day)</title>
-      <description>修改 Apple 网络定位（gs-loc）返回坐标 · 支持 Surge / Quantumult X / Loon / Stash · 快捷指令一键设置/恢复定位
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/Yu9191/wloc</link>
-      <guid>https://github.com/Yu9191/wloc#2026-06-28</guid>
-      <pubDate>Sun, 28 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 BohemiaInteractive/CWR — 673⭐ (134.6/day)</title>
-      <description>Arma: Cold War Assault Remastered Source Code Repository.
-
-Score: 100/100 | Language: C</description>
-      <link>https://github.com/BohemiaInteractive/CWR</link>
-      <guid>https://github.com/BohemiaInteractive/CWR#2026-06-28</guid>
-      <pubDate>Sun, 28 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 bozhouDev/codex-orange-book — 2246⭐ (449.2/day)</title>
-      <description>Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）
-
-Score: 98/100 | Language: HTML</description>
-      <link>https://github.com/bozhouDev/codex-orange-book</link>
-      <guid>https://github.com/bozhouDev/codex-orange-book#2026-06-28</guid>
-      <pubDate>Sun, 28 Jun 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
