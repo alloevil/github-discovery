@@ -897,7 +897,77 @@
         100
       ],
       "last_recommended": "2026-07-07T08:03:52.299534+00:00"
+    },
+    "MadsLorentzen/ai-job-search": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-08T07:15:28.526716+00:00"
+    },
+    "iOfficeAI/OfficeCLI": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-08T07:15:28.528894+00:00"
+    },
+    "Shpigford/knockoff": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-08T07:15:28.530844+00:00"
+    },
+    "anthropics/jacobian-lens": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-08T07:15:28.532790+00:00"
+    },
+    "yynxxxxx/Codex-X": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-08T07:15:28.534905+00:00"
+    },
+    "dzhng/skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-08T07:15:28.536933+00:00"
+    },
+    "simonlin1212/Vibe-Research": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-08T07:15:28.538940+00:00"
+    },
+    "pocket-stack/pocketjs": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-08T07:15:28.540930+00:00"
+    },
+    "Robbyant/lingbot-vision": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-08T07:15:28.543016+00:00"
+    },
+    "nagisanzenin/engram": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-08T07:15:28.545088+00:00"
     }
   },
-  "updated_at": "2026-07-07T08:03:52.299561+00:00"
+  "updated_at": "2026-07-08T07:15:28.545115+00:00"
 }
