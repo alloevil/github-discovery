@@ -458,11 +458,12 @@
       "last_recommended": "2026-07-01T07:35:34.196184+00:00"
     },
     "obra/superpowers": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-01T07:35:34.197764+00:00"
+      "last_recommended": "2026-07-09T08:17:11.606767+00:00"
     },
     "TianhangZhuzth/Fundamental-Ava": {
       "count": 1,
@@ -493,11 +494,12 @@
       "last_recommended": "2026-07-01T07:35:34.203288+00:00"
     },
     "TencentCloud/CubeSandbox": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-02T07:57:21.591811+00:00"
+      "last_recommended": "2026-07-09T08:17:11.608728+00:00"
     },
     "mekos2772/ios-location-spoofer": {
       "count": 1,
@@ -967,7 +969,63 @@
         100
       ],
       "last_recommended": "2026-07-08T07:15:28.545088+00:00"
+    },
+    "TencentCloud/TencentDB-Agent-Memory": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-09T08:17:11.603673+00:00"
+    },
+    "withmarbleapp/os-taxonomy": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-09T08:17:11.610545+00:00"
+    },
+    "wouterdebie/davit": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-09T08:17:11.612460+00:00"
+    },
+    "ai4s-research/open-science": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-09T08:17:11.614475+00:00"
+    },
+    "V4bel/Januscape": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-09T08:17:11.616435+00:00"
+    },
+    "op7418/guizang-material-illustration": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-09T08:17:11.618975+00:00"
+    },
+    "prisma/prisma": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-07-09T08:17:11.620996+00:00"
+    },
+    "wonderwhy-er/DesktopCommanderMCP": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-07-09T08:17:11.623044+00:00"
     }
   },
-  "updated_at": "2026-07-08T07:15:28.545115+00:00"
+  "updated_at": "2026-07-09T08:17:11.623070+00:00"
 }

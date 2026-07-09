@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jul 2026 10:48:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 08:17:12 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 TencentCloud/TencentDB-Agent-Memory — 7868⭐ (84.6/day)</title>
+      <description>TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/TencentCloud/TencentDB-Agent-Memory</link>
+      <guid>https://github.com/TencentCloud/TencentDB-Agent-Memory#2026-07-09</guid>
+      <pubDate>Thu, 09 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 obra/superpowers — 250258⭐ (920.1/day)</title>
+      <description>An agentic skills framework &amp; software development methodology that works.
+
+Score: 100/100 | Language: Shell</description>
+      <link>https://github.com/obra/superpowers</link>
+      <guid>https://github.com/obra/superpowers#2026-07-09</guid>
+      <pubDate>Thu, 09 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 TencentCloud/CubeSandbox — 9110⭐ (101.2/day)</title>
+      <description>Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents.
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/TencentCloud/CubeSandbox</link>
+      <guid>https://github.com/TencentCloud/CubeSandbox#2026-07-09</guid>
+      <pubDate>Thu, 09 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 withmarbleapp/os-taxonomy — 775⭐ (775.0/day)</title>
+      <description>
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/withmarbleapp/os-taxonomy</link>
+      <guid>https://github.com/withmarbleapp/os-taxonomy#2026-07-09</guid>
+      <pubDate>Thu, 09 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 wouterdebie/davit — 620⭐ (155.0/day)</title>
+      <description>A native macOS UI for Apple's platform
+
+Score: 100/100 | Language: Swift</description>
+      <link>https://github.com/wouterdebie/davit</link>
+      <guid>https://github.com/wouterdebie/davit#2026-07-09</guid>
+      <pubDate>Thu, 09 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 MadsLorentzen/ai-job-search — 12251⭐ (110.4/day)</title>
       <description>AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.
@@ -411,51 +456,6 @@ Score: 100/100 | Language: Swift</description>
       <link>https://github.com/tdeverx/contained-app</link>
       <guid>https://github.com/tdeverx/contained-app#2026-06-30</guid>
       <pubDate>Tue, 30 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 xbtlin/ai-berkshire — 5905⭐ (72.0/day)</title>
-      <description>AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/xbtlin/ai-berkshire</link>
-      <guid>https://github.com/xbtlin/ai-berkshire#2026-06-29</guid>
-      <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Robbyant/lingbot-map — 8389⭐ (113.4/day)</title>
-      <description>A feed-forward 3D foundation model for reconstructing scenes from streaming data
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/Robbyant/lingbot-map</link>
-      <guid>https://github.com/Robbyant/lingbot-map#2026-06-29</guid>
-      <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 DeusData/codebase-memory-mcp — 20367⭐ (164.2/day)</title>
-      <description>High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
-
-Score: 100/100 | Language: C</description>
-      <link>https://github.com/DeusData/codebase-memory-mcp</link>
-      <guid>https://github.com/DeusData/codebase-memory-mcp#2026-06-29</guid>
-      <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 HKUDS/Vibe-Trading — 14609⭐ (166.0/day)</title>
-      <description>&quot;Vibe-Trading: Your Personal Trading Agent&quot;
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/HKUDS/Vibe-Trading</link>
-      <guid>https://github.com/HKUDS/Vibe-Trading#2026-06-29</guid>
-      <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 browser-use/video-use — 11392⭐ (146.1/day)</title>
-      <description>Edit videos with coding agents
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/browser-use/video-use</link>
-      <guid>https://github.com/browser-use/video-use#2026-06-29</guid>
-      <pubDate>Mon, 29 Jun 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
