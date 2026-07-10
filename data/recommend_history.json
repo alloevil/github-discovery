@@ -1025,7 +1025,77 @@
         92
       ],
       "last_recommended": "2026-07-09T08:17:11.623044+00:00"
+    },
+    "VoltAgent/awesome-design-md": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-10T08:04:53.593018+00:00"
+    },
+    "unclecode/crawl4ai": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-10T08:04:53.595263+00:00"
+    },
+    "oso95/scroll-world": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-10T08:04:53.597293+00:00"
+    },
+    "anthropics/claude-cookbooks": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-07-10T08:04:53.599259+00:00"
+    },
+    "vxcontrol/pentagi": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-07-10T08:04:53.601293+00:00"
+    },
+    "kyutai-labs/pocket-tts": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-07-10T08:04:53.603375+00:00"
+    },
+    "WeZZard/jlens-qwen36": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-07-10T08:04:53.605454+00:00"
+    },
+    "OmarH-creator/Autonomous-Forge": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-07-10T08:04:53.610186+00:00"
+    },
+    "CWS6206/EasyLastSkill": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-07-10T08:04:53.612890+00:00"
+    },
+    "Doriandarko/texts-to-transformer": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-07-10T08:04:53.614935+00:00"
     }
   },
-  "updated_at": "2026-07-09T08:17:11.623070+00:00"
+  "updated_at": "2026-07-10T08:04:53.614962+00:00"
 }

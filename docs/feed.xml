@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jul 2026 11:33:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 08:04:54 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 VoltAgent/awesome-design-md — 100246⭐ (1002.5/day)</title>
+      <description>A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.
+
+Score: 100/100 | Language: ?</description>
+      <link>https://github.com/VoltAgent/awesome-design-md</link>
+      <guid>https://github.com/VoltAgent/awesome-design-md#2026-07-10</guid>
+      <pubDate>Fri, 10 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 unclecode/crawl4ai — 72033⭐ (91.1/day)</title>
+      <description>🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/unclecode/crawl4ai</link>
+      <guid>https://github.com/unclecode/crawl4ai#2026-07-10</guid>
+      <pubDate>Fri, 10 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 oso95/scroll-world — 477⭐ (159.0/day)</title>
+      <description>A skill that turn any brand into a scrollable 3D world
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/oso95/scroll-world</link>
+      <guid>https://github.com/oso95/scroll-world#2026-07-10</guid>
+      <pubDate>Fri, 10 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 anthropics/claude-cookbooks — 47328⭐ (44.7/day)</title>
+      <description>A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
+
+Score: 98/100 | Language: Jupyter</description>
+      <link>https://github.com/anthropics/claude-cookbooks</link>
+      <guid>https://github.com/anthropics/claude-cookbooks#2026-07-10</guid>
+      <pubDate>Fri, 10 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 vxcontrol/pentagi — 19645⭐ (35.8/day)</title>
+      <description>Fully autonomous AI Agents system capable of performing complex penetration testing tasks
+
+Score: 93/100 | Language: Go</description>
+      <link>https://github.com/vxcontrol/pentagi</link>
+      <guid>https://github.com/vxcontrol/pentagi#2026-07-10</guid>
+      <pubDate>Fri, 10 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 TencentCloud/TencentDB-Agent-Memory — 7868⭐ (84.6/day)</title>
       <description>TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.
@@ -411,51 +456,6 @@ Score: 100/100 | Language: TypeScript</description>
       <link>https://github.com/CoreBunch/Instatic</link>
       <guid>https://github.com/CoreBunch/Instatic#2026-07-01</guid>
       <pubDate>Wed, 01 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 msitarzewski/agency-agents — 119556⭐ (461.6/day)</title>
-      <description>A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-
-Score: 100/100 | Language: Shell</description>
-      <link>https://github.com/msitarzewski/agency-agents</link>
-      <guid>https://github.com/msitarzewski/agency-agents#2026-06-30</guid>
-      <pubDate>Tue, 30 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 refactoringhq/tolaria — 17707⭐ (131.2/day)</title>
-      <description>Desktop app to manage markdown knowledge bases
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/refactoringhq/tolaria</link>
-      <guid>https://github.com/refactoringhq/tolaria#2026-06-30</guid>
-      <pubDate>Tue, 30 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 baairon/torlink — 837⭐ (209.2/day)</title>
-      <description>A sleek, zero-setup torrent finder and downloader that lives right in your terminal.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/baairon/torlink</link>
-      <guid>https://github.com/baairon/torlink#2026-06-30</guid>
-      <pubDate>Tue, 30 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 yynxxxxx/Codex-5.5-codex-instruct-5.5 — 621⭐ (621.0/day)</title>
-      <description>
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5</link>
-      <guid>https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5#2026-06-30</guid>
-      <pubDate>Tue, 30 Jun 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 tdeverx/contained-app — 415⭐ (103.8/day)</title>
-      <description>A native macOS app for Apple's Container CLI
-
-Score: 100/100 | Language: Swift</description>
-      <link>https://github.com/tdeverx/contained-app</link>
-      <guid>https://github.com/tdeverx/contained-app#2026-06-30</guid>
-      <pubDate>Tue, 30 Jun 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
