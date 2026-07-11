@@ -1095,7 +1095,77 @@
         90
       ],
       "last_recommended": "2026-07-10T08:04:53.614935+00:00"
+    },
+    "oven-sh/bun": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-11T06:59:10.370934+00:00"
+    },
+    "davila7/claude-code-templates": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-11T06:59:10.373360+00:00"
+    },
+    "vercel/next.js": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-07-11T06:59:10.375406+00:00"
+    },
+    "microsoft/TypeScript": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-07-11T06:59:10.377421+00:00"
+    },
+    "google-labs-code/stitch-skills": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-07-11T06:59:10.379772+00:00"
+    },
+    "tailscale/tailscale": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-07-11T06:59:10.381794+00:00"
+    },
+    "hashicorp/terraform": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-07-11T06:59:10.383912+00:00"
+    },
+    "grpc/grpc": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-07-11T06:59:10.386134+00:00"
+    },
+    "xiaotianfotos/homerail": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-07-11T06:59:10.388231+00:00"
+    },
+    "Moore-developers/moore-wechat-article-downloader": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-07-11T06:59:10.390356+00:00"
     }
   },
-  "updated_at": "2026-07-10T08:04:53.614962+00:00"
+  "updated_at": "2026-07-11T06:59:10.390382+00:00"
 }

@@ -1,0 +1,201 @@
+# 🔥 GitHub Discovery Report
+
+> **Generated:** 2026-07-11 06:59
+> **10 new repos + 0 repeat performers**
+
+---
+
+## ⭐ Top Starred Repositories — First Timers
+
+*These repos were first featured in GitHub Discovery*
+
+### 1. [oven-sh/bun](https://github.com/oven-sh/bun)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 94,399 |
+| 📅 Age | 1914 days |
+| 🚀 Daily Growth | 49.3 stars/day |
+| 🔤 Language | Rust |
+| 📡 Source | trending |
+
+> Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 2. [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 28,817 |
+| 📅 Age | 372 days |
+| 🚀 Daily Growth | 77.5 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> CLI tool for configuring and monitoring Claude Code
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [vercel/next.js](https://github.com/vercel/next.js)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 140,785 |
+| 📅 Age | 3565 days |
+| 🚀 Daily Growth | 39.5 stars/day |
+| 🔤 Language | JavaScript |
+| 📡 Source | trending |
+
+> The React Framework
+
+**Score: 95/100** `███████████████████░`
+- Acceleration: 20/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 4. [microsoft/TypeScript](https://github.com/microsoft/TypeScript)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 109,822 |
+| 📅 Age | 4406 days |
+| 🚀 Daily Growth | 24.9 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
+
+**Score: 93/100** `██████████████████░░`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 5. [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 6,827 |
+| 📅 Age | 175 days |
+| 🚀 Daily Growth | 39.0 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.
+
+**Score: 93/100** `██████████████████░░`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 6. [tailscale/tailscale](https://github.com/tailscale/tailscale)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 33,749 |
+| 📅 Age | 2352 days |
+| 🚀 Daily Growth | 14.3 stars/day |
+| 🔤 Language | Go |
+| 📡 Source | trending |
+
+> The easiest, most secure way to use WireGuard and 2FA.
+
+**Score: 92/100** `██████████████████░░`
+- Acceleration: 12/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 7. [hashicorp/terraform](https://github.com/hashicorp/terraform)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 49,227 |
+| 📅 Age | 4502 days |
+| 🚀 Daily Growth | 10.9 stars/day |
+| 🔤 Language | Go |
+| 📡 Source | trending |
+
+> Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
+
+**Score: 92/100** `██████████████████░░`
+- Acceleration: 12/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 8. [grpc/grpc](https://github.com/grpc/grpc)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 45,166 |
+| 📅 Age | 4232 days |
+| 🚀 Daily Growth | 10.7 stars/day |
+| 🔤 Language | C++ |
+| 📡 Source | trending |
+
+> C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)
+
+**Score: 92/100** `██████████████████░░`
+- Acceleration: 12/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 9. [xiaotianfotos/homerail](https://github.com/xiaotianfotos/homerail)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 426 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 142.0 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
+
+> Voice-first local agent orchestration runtime for auditable DAG workflows.
+
+**Score: 90/100** `██████████████████░░`
+- Acceleration: 40/40
+- Quality: 20/30
+- Anti-spam: 30/30
+
+---
+### 10. [Moore-developers/moore-wechat-article-downloader](https://github.com/Moore-developers/moore-wechat-article-downloader)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 242 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 80.7 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> 本地优先的微信内容情报库：同步公众号文章，保存精选评论和互动数据，供 Codex/Claude Code 做内容研究。
+
+**Score: 90/100** `██████████████████░░`
+- Acceleration: 40/40
+- Quality: 20/30
+- Anti-spam: 30/30
+
+---
+
+## 📊 Summary
+
+- **New discoveries:** 10 repos
+- **Repeat performers:** 0 repos
+- **Score range:** 90 - 100
+- **Top pick:** [oven-sh/bun](https://github.com/oven-sh/bun)
+
+---
+*Generated by GitHub Discovery Tool*
