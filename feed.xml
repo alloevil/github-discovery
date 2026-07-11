@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Jul 2026 11:32:42 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 06:59:10 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 oven-sh/bun — 94399⭐ (49.3/day)</title>
+      <description>Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/oven-sh/bun</link>
+      <guid>https://github.com/oven-sh/bun#2026-07-11</guid>
+      <pubDate>Sat, 11 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 davila7/claude-code-templates — 28817⭐ (77.5/day)</title>
+      <description>CLI tool for configuring and monitoring Claude Code
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/davila7/claude-code-templates</link>
+      <guid>https://github.com/davila7/claude-code-templates#2026-07-11</guid>
+      <pubDate>Sat, 11 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 vercel/next.js — 140785⭐ (39.5/day)</title>
+      <description>The React Framework
+
+Score: 95/100 | Language: JavaScript</description>
+      <link>https://github.com/vercel/next.js</link>
+      <guid>https://github.com/vercel/next.js#2026-07-11</guid>
+      <pubDate>Sat, 11 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 microsoft/TypeScript — 109822⭐ (24.9/day)</title>
+      <description>TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
+
+Score: 93/100 | Language: TypeScript</description>
+      <link>https://github.com/microsoft/TypeScript</link>
+      <guid>https://github.com/microsoft/TypeScript#2026-07-11</guid>
+      <pubDate>Sat, 11 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 google-labs-code/stitch-skills — 6827⭐ (39.0/day)</title>
+      <description>A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.
+
+Score: 93/100 | Language: TypeScript</description>
+      <link>https://github.com/google-labs-code/stitch-skills</link>
+      <guid>https://github.com/google-labs-code/stitch-skills#2026-07-11</guid>
+      <pubDate>Sat, 11 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 VoltAgent/awesome-design-md — 100246⭐ (1002.5/day)</title>
       <description>A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.
@@ -411,51 +456,6 @@ Score: 100/100 | Language: Vue</description>
       <link>https://github.com/tryOpenRAM/OpenRAM</link>
       <guid>https://github.com/tryOpenRAM/OpenRAM#2026-07-02</guid>
       <pubDate>Thu, 02 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 diegosouzapw/OmniRoute — 8876⭐ (64.8/day)</title>
-      <description>Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline &amp; Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/diegosouzapw/OmniRoute</link>
-      <guid>https://github.com/diegosouzapw/OmniRoute#2026-07-01</guid>
-      <pubDate>Wed, 01 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 google/agents-cli — 4396⭐ (53.0/day)</title>
-      <description>The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/google/agents-cli</link>
-      <guid>https://github.com/google/agents-cli#2026-07-01</guid>
-      <pubDate>Wed, 01 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 roboflow/supervision — 46033⭐ (35.1/day)</title>
-      <description>We write your reusable computer vision tools. 💜
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/roboflow/supervision</link>
-      <guid>https://github.com/roboflow/supervision#2026-07-01</guid>
-      <pubDate>Wed, 01 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 ogulcancelik/herdr — 9181⭐ (96.6/day)</title>
-      <description>agent multiplexer that lives in your terminal.
-
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/ogulcancelik/herdr</link>
-      <guid>https://github.com/ogulcancelik/herdr#2026-07-01</guid>
-      <pubDate>Wed, 01 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 CoreBunch/Instatic — 1667⭐ (27.3/day)</title>
-      <description>Instatic is a modern self-hosted visual CMS - get it running in 1 minute
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/CoreBunch/Instatic</link>
-      <guid>https://github.com/CoreBunch/Instatic#2026-07-01</guid>
-      <pubDate>Wed, 01 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
