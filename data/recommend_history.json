@@ -1165,7 +1165,77 @@
         90
       ],
       "last_recommended": "2026-07-11T06:59:10.390356+00:00"
+    },
+    "microsoft/PowerToys": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-12T07:16:59.594583+00:00"
+    },
+    "DayuanJiang/next-ai-draw-io": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-12T07:16:59.597046+00:00"
+    },
+    "malisper/pgrust": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-07-12T07:16:59.599166+00:00"
+    },
+    "home-assistant/core": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-07-12T07:16:59.601396+00:00"
+    },
+    "cypress-io/cypress": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-07-12T07:16:59.603576+00:00"
+    },
+    "nuxt/nuxt": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-07-12T07:16:59.605679+00:00"
+    },
+    "ansible/ansible": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-07-12T07:16:59.607916+00:00"
+    },
+    "gostonx/uninstally": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-07-12T07:16:59.610452+00:00"
+    },
+    "vinhhien112/Three.js-Object-Sculptor-Codex-Plugin": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-07-12T07:16:59.612629+00:00"
+    },
+    "dongguatanglinux/grok-build-auth": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-07-12T07:16:59.614795+00:00"
     }
   },
-  "updated_at": "2026-07-11T06:59:10.390382+00:00"
+  "updated_at": "2026-07-12T07:16:59.614822+00:00"
 }
