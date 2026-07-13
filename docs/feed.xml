@@ -5,8 +5,62 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Jul 2026 10:13:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 04:08:06 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 Shubhamsaboo/awesome-llm-apps — 118751⭐ (147.7/day)</title>
+      <description>100+ AI Agent &amp; RAG apps you can actually run — clone, customize, ship.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
+      <guid>https://github.com/Shubhamsaboo/awesome-llm-apps#2026-07-13</guid>
+      <pubDate>Mon, 13 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 Crosstalk-Solutions/project-nomad — 33872⭐ (88.4/day)</title>
+      <description>Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/Crosstalk-Solutions/project-nomad</link>
+      <guid>https://github.com/Crosstalk-Solutions/project-nomad#2026-07-13</guid>
+      <pubDate>Mon, 13 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 pingdotgg/t3code — 13785⭐ (89.5/day)</title>
+      <description>
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/pingdotgg/t3code</link>
+      <guid>https://github.com/pingdotgg/t3code#2026-07-13</guid>
+      <pubDate>Mon, 13 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 virattt/ai-hedge-fund — 61464⭐ (104.2/day)</title>
+      <description>An AI Hedge Fund Team
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/virattt/ai-hedge-fund</link>
+      <guid>https://github.com/virattt/ai-hedge-fund#2026-07-13</guid>
+      <pubDate>Mon, 13 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 Nutlope/hallmark — 4410⭐ (58.0/day)</title>
+      <description>Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
+
+Score: 97/100 | Language: CSS</description>
+      <link>https://github.com/Nutlope/hallmark</link>
+      <guid>https://github.com/Nutlope/hallmark#2026-07-13</guid>
+      <pubDate>Mon, 13 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 HKUDS/Vibe-Trading — 20746⭐ (203.4/day)</title>
+      <description>"Vibe-Trading: Your Personal Trading Agent"
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/HKUDS/Vibe-Trading</link>
+      <guid>https://github.com/HKUDS/Vibe-Trading#2026-07-13</guid>
+      <pubDate>Mon, 13 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 microsoft/PowerToys — 136481⭐ (51.9/day)</title>
       <description>Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows
@@ -411,51 +465,6 @@ Score: 100/100 | Language: ?</description>
       <link>https://github.com/xuchonglang/investing-for-beginners</link>
       <guid>https://github.com/xuchonglang/investing-for-beginners#2026-07-04</guid>
       <pubDate>Sat, 04 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 JuliusBrussee/caveman — 81816⭐ (919.3/day)</title>
-      <description>🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/JuliusBrussee/caveman</link>
-      <guid>https://github.com/JuliusBrussee/caveman#2026-07-03</guid>
-      <pubDate>Fri, 03 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 santifer/career-ops — 58164⭐ (653.5/day)</title>
-      <description>AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/santifer/career-ops</link>
-      <guid>https://github.com/santifer/career-ops#2026-07-03</guid>
-      <pubDate>Fri, 03 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 ChromeDevTools/chrome-devtools-mcp — 45224⭐ (153.8/day)</title>
-      <description>Chrome DevTools for coding agents
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
-      <guid>https://github.com/ChromeDevTools/chrome-devtools-mcp#2026-07-03</guid>
-      <pubDate>Fri, 03 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 affaan-m/ECC — 225377⭐ (1357.7/day)</title>
-      <description>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/affaan-m/ECC</link>
-      <guid>https://github.com/affaan-m/ECC#2026-07-03</guid>
-      <pubDate>Fri, 03 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 agentskills/agentskills — 21741⭐ (109.8/day)</title>
-      <description>Specification and documentation for Agent Skills
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/agentskills/agentskills</link>
-      <guid>https://github.com/agentskills/agentskills#2026-07-03</guid>
-      <pubDate>Fri, 03 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
