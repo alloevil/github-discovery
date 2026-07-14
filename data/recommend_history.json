@@ -303,11 +303,12 @@
       "last_recommended": "2026-06-29T07:31:26.594857+00:00"
     },
     "HKUDS/Vibe-Trading": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-06-29T07:31:26.596072+00:00"
+      "last_recommended": "2026-07-14T06:58:01.458520+00:00"
     },
     "browser-use/video-use": {
       "count": 1,
@@ -537,11 +538,12 @@
       "last_recommended": "2026-07-02T07:57:21.601225+00:00"
     },
     "hasaneyldrm/exercises-dataset": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        96
+        96,
+        100
       ],
-      "last_recommended": "2026-07-02T07:57:21.603033+00:00"
+      "last_recommended": "2026-07-14T06:58:01.464950+00:00"
     },
     "0xNyk/council-of-high-intelligence": {
       "count": 1,
@@ -782,11 +784,12 @@
       "last_recommended": "2026-07-06T08:51:29.545739+00:00"
     },
     "coreyhaines31/marketingskills": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-06T08:51:29.548280+00:00"
+      "last_recommended": "2026-07-14T06:58:01.469143+00:00"
     },
     "ruvnet/RuView": {
       "count": 1,
@@ -1305,7 +1308,56 @@
         92
       ],
       "last_recommended": "2026-07-13T04:07:58.499552+00:00"
+    },
+    "OpenCut-app/OpenCut": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-14T06:58:01.455144+00:00"
+    },
+    "moeru-ai/airi": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-14T06:58:01.460601+00:00"
+    },
+    "Graphify-Labs/graphify": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-14T06:58:01.462771+00:00"
+    },
+    "github/spec-kit": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-14T06:58:01.467053+00:00"
+    },
+    "MDX-Tom/gpt-5.6-instruct": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-14T06:58:01.471309+00:00"
+    },
+    "littledivy/mimic": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-14T06:58:01.473447+00:00"
+    },
+    "mereyabdenbekuly-ctrl/clodex-ide": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-14T06:58:01.475548+00:00"
     }
   },
-  "updated_at": "2026-07-13T04:07:58.499578+00:00"
+  "updated_at": "2026-07-14T06:58:01.475575+00:00"
 }
