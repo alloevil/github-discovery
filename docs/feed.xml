@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Jul 2026 10:23:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 07:00:05 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 mattpocock/skills — 170907⭐ (1061.5/day)</title>
+      <description>Skills for Real Engineers. Straight from my .claude directory.
+
+Score: 100/100 | Language: Shell</description>
+      <link>https://github.com/mattpocock/skills</link>
+      <guid>https://github.com/mattpocock/skills#2026-07-15</guid>
+      <pubDate>Wed, 15 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 Raphire/Win11Debloat — 51961⭐ (24.9/day)</title>
+      <description>A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.
+
+Score: 100/100 | Language: PowerShell</description>
+      <link>https://github.com/Raphire/Win11Debloat</link>
+      <guid>https://github.com/Raphire/Win11Debloat#2026-07-15</guid>
+      <pubDate>Wed, 15 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 AIEraDev/Clypra — 2742⭐ (34.7/day)</title>
+      <description>A modern video editor built with Tauri, React, and TypeScript. Focus on building free capabilities of premium capcut functionalities
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/AIEraDev/Clypra</link>
+      <guid>https://github.com/AIEraDev/Clypra#2026-07-15</guid>
+      <pubDate>Wed, 15 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 chenyme/grok2api — 5942⭐ (21.5/day)</title>
+      <description>面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关
+
+Score: 100/100 | Language: Go</description>
+      <link>https://github.com/chenyme/grok2api</link>
+      <guid>https://github.com/chenyme/grok2api#2026-07-15</guid>
+      <pubDate>Wed, 15 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 AlephAITech/WorkBuddyGuide — 732⭐ (146.4/day)</title>
+      <description>A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/AlephAITech/WorkBuddyGuide</link>
+      <guid>https://github.com/AlephAITech/WorkBuddyGuide#2026-07-15</guid>
+      <pubDate>Wed, 15 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 OpenCut-app/OpenCut — 67633⭐ (175.2/day)</title>
       <description>The open-source CapCut alternative
@@ -420,51 +465,6 @@ Score: 100/100 | Language: Rust</description>
       <link>https://github.com/ruvnet/RuView</link>
       <guid>https://github.com/ruvnet/RuView#2026-07-06</guid>
       <pubDate>Mon, 06 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 alibaba/page-agent — 23342⭐ (82.2/day)</title>
-      <description>JavaScript in-page GUI agent. Control web interfaces with natural language.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/alibaba/page-agent</link>
-      <guid>https://github.com/alibaba/page-agent#2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 asgeirtj/system_prompts_leaks — 49161⭐ (114.9/day)</title>
-      <description>Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/asgeirtj/system_prompts_leaks</link>
-      <guid>https://github.com/asgeirtj/system_prompts_leaks#2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 immich-app/immich — 105759⭐ (65.6/day)</title>
-      <description>High performance self-hosted photo and video management solution.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/immich-app/immich</link>
-      <guid>https://github.com/immich-app/immich#2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 mattpocock/skills — 156869⭐ (1038.9/day)</title>
-      <description>Skills for Real Engineers. Straight from my .claude directory.
-
-Score: 100/100 | Language: Shell</description>
-      <link>https://github.com/mattpocock/skills</link>
-      <guid>https://github.com/mattpocock/skills#2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 CoplayDev/unity-mcp — 11712⭐ (24.8/day)</title>
-      <description>Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.
-
-Score: 100/100 | Language: C</description>
-      <link>https://github.com/CoplayDev/unity-mcp</link>
-      <guid>https://github.com/CoplayDev/unity-mcp#2026-07-05</guid>
-      <pubDate>Sun, 05 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

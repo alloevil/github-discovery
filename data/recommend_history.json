@@ -721,11 +721,12 @@
       "last_recommended": "2026-07-05T07:49:18.050940+00:00"
     },
     "mattpocock/skills": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-05T07:49:18.052618+00:00"
+      "last_recommended": "2026-07-15T07:00:01.867991+00:00"
     },
     "CoplayDev/unity-mcp": {
       "count": 1,
@@ -1357,7 +1358,70 @@
         100
       ],
       "last_recommended": "2026-07-14T06:58:01.475548+00:00"
+    },
+    "Raphire/Win11Debloat": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-15T07:00:01.870749+00:00"
+    },
+    "AIEraDev/Clypra": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-15T07:00:01.873147+00:00"
+    },
+    "chenyme/grok2api": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-15T07:00:01.875612+00:00"
+    },
+    "AlephAITech/WorkBuddyGuide": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-15T07:00:01.878563+00:00"
+    },
+    "Kappaemme-git/codex-first-customer-finder-skill": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-15T07:00:01.880867+00:00"
+    },
+    "William-Lu-stack/Flawless": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-15T07:00:01.883245+00:00"
+    },
+    "pengchujin/jzsub": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-15T07:00:01.885945+00:00"
+    },
+    "cosmtrek/mindwalk": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-15T07:00:01.888413+00:00"
+    },
+    "yetone/kill-ai-slop": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-15T07:00:01.891421+00:00"
     }
   },
-  "updated_at": "2026-07-14T06:58:01.475575+00:00"
+  "updated_at": "2026-07-15T07:00:01.891449+00:00"
 }

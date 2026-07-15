@@ -1,0 +1,201 @@
+# 🔥 GitHub Discovery Report
+
+> **Generated:** 2026-07-15 07:00
+> **10 new repos + 0 repeat performers**
+
+---
+
+## ⭐ Top Starred Repositories — First Timers
+
+*These repos were first featured in GitHub Discovery*
+
+### 1. [mattpocock/skills](https://github.com/mattpocock/skills)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 170,907 |
+| 📅 Age | 161 days |
+| 🚀 Daily Growth | 1061.5 stars/day |
+| 🔤 Language | Shell |
+| 📡 Source | trending |
+
+> Skills for Real Engineers. Straight from my .claude directory.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 2. [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 51,961 |
+| 📅 Age | 2086 days |
+| 🚀 Daily Growth | 24.9 stars/day |
+| 🔤 Language | PowerShell |
+| 📡 Source | trending |
+
+> A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [AIEraDev/Clypra](https://github.com/AIEraDev/Clypra)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 2,742 |
+| 📅 Age | 79 days |
+| 🚀 Daily Growth | 34.7 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> A modern video editor built with Tauri, React, and TypeScript. Focus on building free capabilities of premium capcut functionalities
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 4. [chenyme/grok2api](https://github.com/chenyme/grok2api)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 5,942 |
+| 📅 Age | 277 days |
+| 🚀 Daily Growth | 21.5 stars/day |
+| 🔤 Language | Go |
+| 📡 Source | trending |
+
+> 面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 5. [AlephAITech/WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 732 |
+| 📅 Age | 5 days |
+| 🚀 Daily Growth | 146.4 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 6. [Kappaemme-git/codex-first-customer-finder-skill](https://github.com/Kappaemme-git/codex-first-customer-finder-skill)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 638 |
+| 📅 Age | 2 days |
+| 🚀 Daily Growth | 319.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> A Codex skill that finds evidence-backed potential first customers from recent public signals.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 7. [William-Lu-stack/Flawless](https://github.com/William-Lu-stack/Flawless)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 620 |
+| 📅 Age | 5 days |
+| 🚀 Daily Growth | 124.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> AI SRE AgenticOps for Kubernetes and cloud infrastructure.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 8. [pengchujin/jzsub](https://github.com/pengchujin/jzsub)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 608 |
+| 📅 Age | 4 days |
+| 🚀 Daily Growth | 152.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> JZSub — 一条视频链接，自动交付最高画质、封面和 GPT 双语字幕 MP4。
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 9. [cosmtrek/mindwalk](https://github.com/cosmtrek/mindwalk)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 593 |
+| 📅 Age | 5 days |
+| 🚀 Daily Growth | 118.6 stars/day |
+| 🔤 Language | Go |
+| 📡 Source | search |
+
+> A visualization tool that replays coding-agent sessions on a 3D map of your codebase.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 10. [yetone/kill-ai-slop](https://github.com/yetone/kill-ai-slop)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 443 |
+| 📅 Age | 4 days |
+| 🚀 Daily Growth | 110.8 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
+
+> A field guide to the visual & copy tics of AI-generated products — and an Agent Skill that scans your project and strips them out. https://killaislop.com
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+
+## 📊 Summary
+
+- **New discoveries:** 10 repos
+- **Repeat performers:** 0 repos
+- **Score range:** 100 - 100
+- **Top pick:** [mattpocock/skills](https://github.com/mattpocock/skills)
+
+---
+*Generated by GitHub Discovery Tool*
