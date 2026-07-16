@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Jul 2026 10:28:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 07:10:04 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 openinterpreter/openinterpreter — 65656⭐ (59.9/day)</title>
+      <description>A coding agent for low-cost models
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/openinterpreter/openinterpreter</link>
+      <guid>https://github.com/openinterpreter/openinterpreter#2026-07-16</guid>
+      <pubDate>Thu, 16 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 HKUDS/DeepTutor — 26506⭐ (133.2/day)</title>
+      <description>DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/HKUDS/DeepTutor</link>
+      <guid>https://github.com/HKUDS/DeepTutor#2026-07-16</guid>
+      <pubDate>Thu, 16 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 HenryNdubuaku/maths-cs-ai-compendium — 6075⭐ (37.5/day)</title>
+      <description>Become a cracked AI/ML Research Engineer
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/HenryNdubuaku/maths-cs-ai-compendium</link>
+      <guid>https://github.com/HenryNdubuaku/maths-cs-ai-compendium#2026-07-16</guid>
+      <pubDate>Thu, 16 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 Fei-Away/Codex-Dream-Skin — 1693⭐ (1693.0/day)</title>
+      <description>Codex Dream Skin
+
+Score: 100/100 | Language: Shell</description>
+      <link>https://github.com/Fei-Away/Codex-Dream-Skin</link>
+      <guid>https://github.com/Fei-Away/Codex-Dream-Skin#2026-07-16</guid>
+      <pubDate>Thu, 16 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 pixel-point/aval — 751⭐ (375.5/day)</title>
+      <description>A new open-source format for interactive video on the web, with a built-in state machine, frame-accurate transitions, and packed-alpha transparency.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/pixel-point/aval</link>
+      <guid>https://github.com/pixel-point/aval#2026-07-16</guid>
+      <pubDate>Thu, 16 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 mattpocock/skills — 170907⭐ (1061.5/day)</title>
       <description>Skills for Real Engineers. Straight from my .claude directory.
@@ -420,51 +465,6 @@ Score: 100/100 | Language: TypeScript</description>
       <link>https://github.com/firecrawl/firecrawl</link>
       <guid>https://github.com/firecrawl/firecrawl#2026-07-07</guid>
       <pubDate>Tue, 07 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Leonxlnx/taste-skill — 58107⭐ (427.3/day)</title>
-      <description>Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/Leonxlnx/taste-skill</link>
-      <guid>https://github.com/Leonxlnx/taste-skill#2026-07-06</guid>
-      <pubDate>Mon, 06 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 usestrix/strix — 37537⭐ (112.4/day)</title>
-      <description>Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/usestrix/strix</link>
-      <guid>https://github.com/usestrix/strix#2026-07-06</guid>
-      <pubDate>Mon, 06 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 hesreallyhim/awesome-claude-code — 48609⭐ (110.0/day)</title>
-      <description>A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/hesreallyhim/awesome-claude-code</link>
-      <guid>https://github.com/hesreallyhim/awesome-claude-code#2026-07-06</guid>
-      <pubDate>Mon, 06 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 coreyhaines31/marketingskills — 36698⭐ (214.6/day)</title>
-      <description>Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/coreyhaines31/marketingskills</link>
-      <guid>https://github.com/coreyhaines31/marketingskills#2026-07-06</guid>
-      <pubDate>Mon, 06 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 ruvnet/RuView — 76884⭐ (195.1/day)</title>
-      <description>π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
-
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/ruvnet/RuView</link>
-      <guid>https://github.com/ruvnet/RuView#2026-07-06</guid>
-      <pubDate>Mon, 06 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

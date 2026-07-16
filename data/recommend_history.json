@@ -1421,7 +1421,77 @@
         100
       ],
       "last_recommended": "2026-07-15T07:00:01.891421+00:00"
+    },
+    "openinterpreter/openinterpreter": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-16T07:10:03.904202+00:00"
+    },
+    "HKUDS/DeepTutor": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-16T07:10:03.906718+00:00"
+    },
+    "HenryNdubuaku/maths-cs-ai-compendium": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-16T07:10:03.909071+00:00"
+    },
+    "Fei-Away/Codex-Dream-Skin": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-16T07:10:03.911365+00:00"
+    },
+    "pixel-point/aval": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-16T07:10:03.913679+00:00"
+    },
+    "oil-oil/beautify-github-readme": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-16T07:10:03.915819+00:00"
+    },
+    "CluvexStudio/Aether": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-16T07:10:03.917912+00:00"
+    },
+    "jakubkrehel/skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-16T07:10:03.919969+00:00"
+    },
+    "MatinSenPai/Aether-GUI": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-16T07:10:03.922484+00:00"
+    },
+    "Intuition-Lab/personal-model": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-16T07:10:03.924618+00:00"
     }
   },
-  "updated_at": "2026-07-15T07:00:01.891449+00:00"
+  "updated_at": "2026-07-16T07:10:03.924643+00:00"
 }
