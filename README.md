@@ -1,15 +1,12 @@
-# GitHub Discovery
+<p align="center">
+  <img src="./assets/hero.svg" width="100%" alt="GitHub Discovery — spot trending repos before they go mainstream. 6 data sources, smart scoring, anti-spam, daily email digest.">
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/github/actions/workflow/status/alloevil/github-discovery/daily.yml?branch=main&label=CI&logo=github&logoColor=white&color=00ccff" alt="CI" />
   <img src="https://img.shields.io/badge/license-MIT-00ccff?style=flat" alt="License" />
   <img src="https://img.shields.io/github/stars/alloevil/github-discovery?style=flat&logo=github&color=00ccff" alt="Stars" />
   <a href="https://alloevil.github.io/github-discovery/"><img src="https://img.shields.io/badge/website-live-00ccff?style=flat" alt="Website" /></a>
-</p>
-
-<p align="center">
-  <strong>Discover trending GitHub repos before they go mainstream.</strong><br/>
-  <em>5 data sources · smart scoring · anti-spam · daily email digest</em>
 </p>
 
 <p align="center">
@@ -23,15 +20,56 @@
 
 ## What it does
 
-GitHub Discovery automatically collects signals from 5 data sources every day, uses a smart scoring system (100 points) to filter the most promising projects, and delivers them to you via email and web.
+GitHub Trending shows you what's popular **today**.
 
-**The problem it solves:** GitHub Trending shows you what's popular *today*. GitHub Discovery shows you what's *about to be popular* — repos with unusual growth patterns, community picks from Hacker News, and early-stage projects gaining traction.
+GitHub Discovery shows you what's **about to be popular** — repos with unusual growth patterns, community picks from Hacker News, and early-stage projects gaining traction.
+
+Every day it collects signals from 6 data sources, runs them through a smart scoring system (100 points), and delivers curated results via email and web.
+
+---
+
+## How it works
+
+```
+  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
+  │   GitHub    │  │   GitHub    │  │   Hacker    │
+  │  Trending   │  │   Search    │  │    News     │
+  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘
+         │                │                │
+  ┌──────┴──────┐  ┌──────┴──────┐        │
+  │  AI/ML      │  │    Web      │        │
+  │  Trending   │  │   Scrape    │        │
+  └──────┬──────┘  └──────┬──────┘        │
+         │                │                │
+         └────────────────┼────────────────┘
+                          ▼
+              ┌───────────────────────┐
+              │    Smart Scorer       │
+              │    (100 points)       │
+              │  ─────────────────    │
+              │  acceleration : 40    │
+              │  quality      : 30    │
+              │  anti-spam    : 30    │
+              └───────────┬───────────┘
+                          ▼
+              ┌───────────────────────┐
+              │  Cross-day Dedup      │
+              │  (7-day window)       │
+              └───────────┬───────────┘
+                          ▼
+         ┌────────────────┴────────────────┐
+         ▼                                 ▼
+  ┌─────────────┐                  ┌─────────────┐
+  │ 📧 Email    │                  │ 🌐 GitHub   │
+  │   Digest    │                  │    Pages    │
+  └─────────────┘                  └─────────────┘
+```
 
 ---
 
 ## Features
 
-### 5 Data Sources
+### 6 Data Sources
 
 | Source | Signal | What it catches |
 |--------|--------|-----------------|
@@ -40,6 +78,7 @@ GitHub Discovery automatically collects signals from 5 data sources every day, u
 | [Hacker News](https://news.ycombinator.com/) | Community picks | GitHub repos from Show HN posts |
 | Rising Detection | Early signal | Unusual Fork/Watch growth patterns |
 | [AI/ML Trending](https://ossinsight.io/trending/ai) | AI focus | AI/ML repositories with fast growth (inspired by OSSInsight) |
+| Web Scrape | Supplement | Enhanced page parsing via Firecrawl (optional) |
 
 ### Smart Scoring (100 points)
 
@@ -116,7 +155,7 @@ Go to **Actions → Daily Discovery → Run workflow** to trigger a test run.
 ```
 github-discovery/
 ├── scripts/
-│   ├── sources.py           # 5 data source collectors
+│   ├── sources.py           # 6 data source collectors
 │   ├── scorer.py            # Scoring algorithm
 │   ├── quality.py           # Code quality detection
 │   ├── dedup.py             # Cross-day deduplication (7-day window)

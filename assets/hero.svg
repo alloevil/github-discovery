@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="360" viewBox="0 0 1200 360"
+     role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Discovery</title>
+  <desc id="desc">A dark-themed hero showing 6 data sources flowing into a smart scoring engine, producing curated GitHub repository recommendations.</desc>
+
+  <defs>
+    <linearGradient id="accent-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#FF9F1C"/>
+    </linearGradient>
+    <linearGradient id="flow-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF6B35" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FF6B35" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="0" fill="#0d1117"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.04">
+    <line x1="0" y1="60" x2="1200" y2="60" stroke="#c9d1d9" stroke-width="1"/>
+    <line x1="0" y1="120" x2="1200" y2="120" stroke="#c9d1d9" stroke-width="1"/>
+    <line x1="0" y1="180" x2="1200" y2="180" stroke="#c9d1d9" stroke-width="1"/>
+    <line x1="0" y1="240" x2="1200" y2="240" stroke="#c9d1d9" stroke-width="1"/>
+    <line x1="0" y1="300" x2="1200" y2="300" stroke="#c9d1d9" stroke-width="1"/>
+  </g>
+
+  <!-- Left: Title block -->
+  <g id="title-block" transform="translate(64 48)">
+    <!-- Category eyebrow -->
+    <text x="0" y="0" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="500" letter-spacing="2">
+      DEVELOPER TOOL · OPEN SOURCE
+    </text>
+
+    <!-- Project name -->
+    <text x="0" y="52" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="48" font-weight="700">
+      GitHub Discovery
+    </text>
+
+    <!-- Concrete description -->
+    <text x="0" y="90" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="400">
+      Spot trending repos before they go mainstream
+    </text>
+
+    <!-- Metadata row -->
+    <g transform="translate(0 120)">
+      <g>
+        <rect x="0" y="0" width="88" height="28" rx="14" fill="none" stroke="#30363d" stroke-width="1"/>
+        <circle cx="14" cy="14" r="4" fill="#FF6B35"/>
+        <text x="24" y="18" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">6 sources</text>
+      </g>
+      <g transform="translate(96 0)">
+        <rect x="0" y="0" width="100" height="28" rx="14" fill="none" stroke="#30363d" stroke-width="1"/>
+        <circle cx="14" cy="14" r="4" fill="#3FB950"/>
+        <text x="24" y="18" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">100pt score</text>
+      </g>
+      <g transform="translate(204 0)">
+        <rect x="0" y="0" width="88" height="28" rx="14" fill="none" stroke="#30363d" stroke-width="1"/>
+        <circle cx="14" cy="14" r="4" fill="#58A6FF"/>
+        <text x="24" y="18" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">anti-spam</text>
+      </g>
+      <g transform="translate(300 0)">
+        <rect x="0" y="0" width="68" height="28" rx="14" fill="none" stroke="#30363d" stroke-width="1"/>
+        <circle cx="14" cy="14" r="4" fill="#F778BA"/>
+        <text x="24" y="18" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">daily</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right: Data flow diagram -->
+  <g id="data-flow" transform="translate(620 32)">
+    <!-- Source nodes -->
+    <g id="sources">
+      <rect x="0" y="0" width="120" height="32" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="60" y="21" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="middle">GitHub Trending</text>
+
+      <rect x="0" y="44" width="120" height="32" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="60" y="65" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="middle">GitHub Search</text>
+
+      <rect x="0" y="88" width="120" height="32" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="60" y="109" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="middle">Hacker News</text>
+
+      <rect x="0" y="132" width="120" height="32" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="60" y="153" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="middle">Rising Detect</text>
+
+      <rect x="0" y="176" width="120" height="32" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="60" y="197" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="middle">AI/ML Trending</text>
+
+      <rect x="0" y="220" width="120" height="32" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="60" y="241" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="middle">Web Scrape</text>
+    </g>
+
+    <!-- Flow arrows -->
+    <g stroke="#FF6B35" stroke-opacity="0.4" stroke-width="1.5" fill="none">
+      <path d="M120 16 L170 110"/>
+      <path d="M120 60 L170 110"/>
+      <path d="M120 104 L170 110"/>
+      <path d="M120 148 L170 110"/>
+      <path d="M120 192 L170 110"/>
+      <path d="M120 236 L170 110"/>
+    </g>
+
+    <!-- Scorer engine -->
+    <g transform="translate(170 72)">
+      <rect x="0" y="0" width="140" height="76" rx="8" fill="#161b22" stroke="#FF6B35" stroke-width="1.5" stroke-opacity="0.6"/>
+      <text x="70" y="28" fill="#FF6B35" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Smart Scorer</text>
+      <text x="70" y="48" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="middle">100 points</text>
+      <text x="70" y="64" fill="#484f58" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" text-anchor="middle">anti-spam · dedup</text>
+    </g>
+
+    <!-- Flow arrow to output -->
+    <path d="M310 110 L370 110" stroke="#FF6B35" stroke-opacity="0.4" stroke-width="1.5" fill="none"/>
+
+    <!-- Output nodes -->
+    <g transform="translate(370 64)">
+      <rect x="0" y="0" width="130" height="44" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="65" y="18" fill="#58A6FF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="600" text-anchor="middle">📧 Email Digest</text>
+      <text x="65" y="34" fill="#484f58" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" text-anchor="middle">Resend API</text>
+
+      <rect x="0" y="56" width="130" height="44" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="65" y="74" fill="#3FB950" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🌐 GitHub Pages</text>
+      <text x="65" y="90" fill="#484f58" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" text-anchor="middle">Filter · Score</text>
+    </g>
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="64" y="340" width="200" height="3" rx="1.5" fill="url(#accent-grad)" opacity="0.6"/>
+</svg>
