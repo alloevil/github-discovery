@@ -1491,7 +1491,77 @@
         100
       ],
       "last_recommended": "2026-07-16T07:10:03.924618+00:00"
+    },
+    "lobehub/lobehub": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-17T07:03:38.752709+00:00"
+    },
+    "github/copilot-sdk": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-17T07:03:38.755407+00:00"
+    },
+    "ibelick/ui-skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-17T07:03:38.758105+00:00"
+    },
+    "codecrafters-io/build-your-own-x": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-17T07:03:38.760614+00:00"
+    },
+    "xai-org/grok-build": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-17T07:03:38.763092+00:00"
+    },
+    "tandpfun/wardrobe": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-17T07:03:38.765666+00:00"
+    },
+    "PengZhang64/circuit-framework": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-17T07:03:38.768169+00:00"
+    },
+    "ossu/computer-science": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-07-17T07:03:38.770852+00:00"
+    },
+    "KubeezMedia/kubeez-scroll-world-video": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-07-17T07:03:38.773477+00:00"
+    },
+    "PostHog/posthog": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-07-17T07:03:38.776064+00:00"
     }
   },
-  "updated_at": "2026-07-16T07:10:03.924643+00:00"
+  "updated_at": "2026-07-17T07:03:38.776091+00:00"
 }

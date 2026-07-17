@@ -1,0 +1,201 @@
+# 🔥 GitHub Discovery Report
+
+> **Generated:** 2026-07-17 07:03
+> **10 new repos + 0 repeat performers**
+
+---
+
+## ⭐ Top Starred Repositories — First Timers
+
+*These repos were first featured in GitHub Discovery*
+
+### 1. [lobehub/lobehub](https://github.com/lobehub/lobehub)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 80,319 |
+| 📅 Age | 1152 days |
+| 🚀 Daily Growth | 69.7 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> 🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 2. [github/copilot-sdk](https://github.com/github/copilot-sdk)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 9,708 |
+| 📅 Age | 184 days |
+| 🚀 Daily Growth | 52.8 stars/day |
+| 🔤 Language | Java |
+| 📡 Source | trending |
+
+> Multi-platform SDK for integrating GitHub Copilot Agent into apps and services
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [ibelick/ui-skills](https://github.com/ibelick/ui-skills)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 4,466 |
+| 📅 Age | 190 days |
+| 🚀 Daily Growth | 23.5 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> Skills for Design Engineers
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 4. [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 526,582 |
+| 📅 Age | 2990 days |
+| 🚀 Daily Growth | 176.1 stars/day |
+| 🔤 Language | Markdown |
+| 📡 Source | trending |
+
+> Master programming by recreating your favorite technologies from scratch.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 5. [xai-org/grok-build](https://github.com/xai-org/grok-build)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 13,634 |
+| 📅 Age | 2 days |
+| 🚀 Daily Growth | 6817.0 stars/day |
+| 🔤 Language | Rust |
+| 📡 Source | search |
+
+> SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 15/30
+
+---
+### 6. [tandpfun/wardrobe](https://github.com/tandpfun/wardrobe)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 708 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 708.0 stars/day |
+| 🔤 Language | JavaScript |
+| 📡 Source | search |
+
+> Your clothes, extracted and organized with gpt-image.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 7. [PengZhang64/circuit-framework](https://github.com/PengZhang64/circuit-framework)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 379 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 379.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> Circuit Framework — multi-agent LLM trading research system
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 8. [ossu/computer-science](https://github.com/ossu/computer-science)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 206,707 |
+| 📅 Age | 4457 days |
+| 🚀 Daily Growth | 46.4 stars/day |
+| 🔤 Language | HTML |
+| 📡 Source | trending |
+
+> 🎓 Path to a free self-taught education in Computer Science!
+
+**Score: 98/100** `███████████████████░`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 9. [KubeezMedia/kubeez-scroll-world-video](https://github.com/KubeezMedia/kubeez-scroll-world-video)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 609 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 203.0 stars/day |
+| 🔤 Language | JavaScript |
+| 📡 Source | search |
+
+> Scroll-scrubbed 'fly through the world' burger demo, generated with Kubeez. Live: meepcastana.github.io/kubeez-scroll-world-video
+
+**Score: 95/100** `███████████████████░`
+- Acceleration: 40/40
+- Quality: 25/30
+- Anti-spam: 20/30
+
+---
+### 10. [PostHog/posthog](https://github.com/PostHog/posthog)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 35,954 |
+| 📅 Age | 2366 days |
+| 🚀 Daily Growth | 15.2 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> :hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.
+
+**Score: 92/100** `██████████████████░░`
+- Acceleration: 12/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+
+## 📊 Summary
+
+- **New discoveries:** 10 repos
+- **Repeat performers:** 0 repos
+- **Score range:** 92 - 100
+- **Top pick:** [lobehub/lobehub](https://github.com/lobehub/lobehub)
+
+---
+*Generated by GitHub Discovery Tool*

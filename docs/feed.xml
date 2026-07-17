@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Jul 2026 10:34:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 07:03:39 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 lobehub/lobehub — 80319⭐ (69.7/day)</title>
+      <description>🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/lobehub/lobehub</link>
+      <guid>https://github.com/lobehub/lobehub#2026-07-17</guid>
+      <pubDate>Fri, 17 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 github/copilot-sdk — 9708⭐ (52.8/day)</title>
+      <description>Multi-platform SDK for integrating GitHub Copilot Agent into apps and services
+
+Score: 100/100 | Language: Java</description>
+      <link>https://github.com/github/copilot-sdk</link>
+      <guid>https://github.com/github/copilot-sdk#2026-07-17</guid>
+      <pubDate>Fri, 17 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 ibelick/ui-skills — 4466⭐ (23.5/day)</title>
+      <description>Skills for Design Engineers
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/ibelick/ui-skills</link>
+      <guid>https://github.com/ibelick/ui-skills#2026-07-17</guid>
+      <pubDate>Fri, 17 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 codecrafters-io/build-your-own-x — 526582⭐ (176.1/day)</title>
+      <description>Master programming by recreating your favorite technologies from scratch.
+
+Score: 100/100 | Language: Markdown</description>
+      <link>https://github.com/codecrafters-io/build-your-own-x</link>
+      <guid>https://github.com/codecrafters-io/build-your-own-x#2026-07-17</guid>
+      <pubDate>Fri, 17 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 xai-org/grok-build — 13634⭐ (6817.0/day)</title>
+      <description>SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/xai-org/grok-build</link>
+      <guid>https://github.com/xai-org/grok-build#2026-07-17</guid>
+      <pubDate>Fri, 17 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 openinterpreter/openinterpreter — 65656⭐ (59.9/day)</title>
       <description>A coding agent for low-cost models
@@ -420,51 +465,6 @@ Score: 100/100 | Language: Rust</description>
       <link>https://github.com/yynxxxxx/Codex-X</link>
       <guid>https://github.com/yynxxxxx/Codex-X#2026-07-08</guid>
       <pubDate>Wed, 08 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 addyosmani/agent-skills — 71284⭐ (505.6/day)</title>
-      <description>Production-grade engineering skills for AI coding agents.
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/addyosmani/agent-skills</link>
-      <guid>https://github.com/addyosmani/agent-skills#2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 mvanhorn/last30days-skill — 50024⭐ (305.0/day)</title>
-      <description>AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/mvanhorn/last30days-skill</link>
-      <guid>https://github.com/mvanhorn/last30days-skill#2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 bradautomates/claude-video — 4574⭐ (61.8/day)</title>
-      <description>Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/bradautomates/claude-video</link>
-      <guid>https://github.com/bradautomates/claude-video#2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 karakeep-app/karakeep — 27046⭐ (30.7/day)</title>
-      <description>A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/karakeep-app/karakeep</link>
-      <guid>https://github.com/karakeep-app/karakeep#2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 firecrawl/firecrawl — 146711⭐ (180.7/day)</title>
-      <description>The API to search, scrape, and interact with the web at scale. 🔥
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/firecrawl/firecrawl</link>
-      <guid>https://github.com/firecrawl/firecrawl#2026-07-07</guid>
-      <pubDate>Tue, 07 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
