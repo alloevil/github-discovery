@@ -1,0 +1,201 @@
+# 🔥 GitHub Discovery Report
+
+> **Generated:** 2026-07-18 06:33
+> **10 new repos + 0 repeat performers**
+
+---
+
+## ⭐ Top Starred Repositories — First Timers
+
+*These repos were first featured in GitHub Discovery*
+
+### 1. [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 19,861 |
+| 📅 Age | 141 days |
+| 🚀 Daily Growth | 140.9 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 25/30
+
+---
+### 2. [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 13,398 |
+| 📅 Age | 113 days |
+| 🚀 Daily Growth | 118.6 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> A vector index built on TurboQuant, written in Rust with Python bindings
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [Blueturboguy07/cue](https://github.com/Blueturboguy07/cue)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 497 |
+| 📅 Age | 2 days |
+| 🚀 Daily Growth | 248.5 stars/day |
+| 🔤 Language | JavaScript |
+| 📡 Source | search |
+
+> Open-source macOS AI copilot that floats over your screen, sees/hears your meetings, and stays hidden from screen shares. Cluely alternative, bring-your-own-key.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 4. [pablostanley/yoinks](https://github.com/pablostanley/yoinks)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 462 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 462.0 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
+
+> yoink any video from your terminal. no shady ads.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 5. [nethical6/conversation-steganography](https://github.com/nethical6/conversation-steganography)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 355 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 355.0 stars/day |
+| 🔤 Language | Go |
+| 📡 Source | search |
+
+> Use LLMs to hide secret messages inside normal looking conversations
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 6. [vshulcz/deja-vu](https://github.com/vshulcz/deja-vu)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 342 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 114.0 stars/day |
+| 🔤 Language | Go |
+| 📡 Source | search |
+
+> Memory layer for coding agents: search, MCP recall, auto-context, secret redaction, stats, share and sync over the session logs Claude Code, Codex, opencode, Cursor, Gemini CLI, aider, Antigravity, Grok Build and Qwen Code already write. One zero-dep binary.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 7. [Shadow-Weave/HMS](https://github.com/Shadow-Weave/HMS)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 341 |
+| 📅 Age | 5 days |
+| 🚀 Daily Growth | 68.2 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> 
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 8. [QuantumByteOSS/quantumbyte](https://github.com/QuantumByteOSS/quantumbyte)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 324 |
+| 📅 Age | 4 days |
+| 🚀 Daily Growth | 81.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> Open-source app builder engine — intent to working app
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 9. [Wan-Video/Wan-Dancer](https://github.com/Wan-Video/Wan-Dancer)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 302 |
+| 📅 Age | 4 days |
+| 🚀 Daily Growth | 75.5 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> 
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 10. [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 71,560 |
+| 📅 Age | 4343 days |
+| 🚀 Daily Growth | 16.5 stars/day |
+| 🔤 Language | C++ |
+| 📡 Source | trending |
+
+> Protocol Buffers - Google's data interchange format
+
+**Score: 92/100** `██████████████████░░`
+- Acceleration: 12/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+
+## 📊 Summary
+
+- **New discoveries:** 10 repos
+- **Repeat performers:** 0 repos
+- **Score range:** 92 - 100
+- **Top pick:** [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)
+
+---
+*Generated by GitHub Discovery Tool*

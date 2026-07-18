@@ -1561,7 +1561,77 @@
         92
       ],
       "last_recommended": "2026-07-17T07:03:38.776064+00:00"
+    },
+    "tirth8205/code-review-graph": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-18T06:33:52.683290+00:00"
+    },
+    "RyanCodrai/turbovec": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-18T06:33:52.686929+00:00"
+    },
+    "Blueturboguy07/cue": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-18T06:33:52.689213+00:00"
+    },
+    "pablostanley/yoinks": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-18T06:33:52.691579+00:00"
+    },
+    "nethical6/conversation-steganography": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-18T06:33:52.693915+00:00"
+    },
+    "vshulcz/deja-vu": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-18T06:33:52.696241+00:00"
+    },
+    "Shadow-Weave/HMS": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-18T06:33:52.698598+00:00"
+    },
+    "QuantumByteOSS/quantumbyte": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-18T06:33:52.700904+00:00"
+    },
+    "Wan-Video/Wan-Dancer": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-18T06:33:52.703202+00:00"
+    },
+    "protocolbuffers/protobuf": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-07-18T06:33:52.705682+00:00"
     }
   },
-  "updated_at": "2026-07-17T07:03:38.776091+00:00"
+  "updated_at": "2026-07-18T06:33:52.705710+00:00"
 }

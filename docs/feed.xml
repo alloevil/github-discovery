@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Jul 2026 10:25:34 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 06:33:53 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 tirth8205/code-review-graph — 19861⭐ (140.9/day)</title>
+      <description>Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/tirth8205/code-review-graph</link>
+      <guid>https://github.com/tirth8205/code-review-graph#2026-07-18</guid>
+      <pubDate>Sat, 18 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 RyanCodrai/turbovec — 13398⭐ (118.6/day)</title>
+      <description>A vector index built on TurboQuant, written in Rust with Python bindings
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/RyanCodrai/turbovec</link>
+      <guid>https://github.com/RyanCodrai/turbovec#2026-07-18</guid>
+      <pubDate>Sat, 18 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 Blueturboguy07/cue — 497⭐ (248.5/day)</title>
+      <description>Open-source macOS AI copilot that floats over your screen, sees/hears your meetings, and stays hidden from screen shares. Cluely alternative, bring-your-own-key.
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/Blueturboguy07/cue</link>
+      <guid>https://github.com/Blueturboguy07/cue#2026-07-18</guid>
+      <pubDate>Sat, 18 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 pablostanley/yoinks — 462⭐ (462.0/day)</title>
+      <description>yoink any video from your terminal. no shady ads.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/pablostanley/yoinks</link>
+      <guid>https://github.com/pablostanley/yoinks#2026-07-18</guid>
+      <pubDate>Sat, 18 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 nethical6/conversation-steganography — 355⭐ (355.0/day)</title>
+      <description>Use LLMs to hide secret messages inside normal looking conversations
+
+Score: 100/100 | Language: Go</description>
+      <link>https://github.com/nethical6/conversation-steganography</link>
+      <guid>https://github.com/nethical6/conversation-steganography#2026-07-18</guid>
+      <pubDate>Sat, 18 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 lobehub/lobehub — 80319⭐ (69.7/day)</title>
       <description>🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.
@@ -420,51 +465,6 @@ Score: 100/100 | Language: Swift</description>
       <link>https://github.com/wouterdebie/davit</link>
       <guid>https://github.com/wouterdebie/davit#2026-07-09</guid>
       <pubDate>Thu, 09 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 MadsLorentzen/ai-job-search — 12251⭐ (110.4/day)</title>
-      <description>AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/MadsLorentzen/ai-job-search</link>
-      <guid>https://github.com/MadsLorentzen/ai-job-search#2026-07-08</guid>
-      <pubDate>Wed, 08 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 iOfficeAI/OfficeCLI — 10584⭐ (92.8/day)</title>
-      <description>OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.
-
-Score: 100/100 | Language: C</description>
-      <link>https://github.com/iOfficeAI/OfficeCLI</link>
-      <guid>https://github.com/iOfficeAI/OfficeCLI#2026-07-08</guid>
-      <pubDate>Wed, 08 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Shpigford/knockoff — 1132⭐ (1132.0/day)</title>
-      <description>Chrome extension that filters pseudo-brand junk out of Amazon. Buy from real, established brands.
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/Shpigford/knockoff</link>
-      <guid>https://github.com/Shpigford/knockoff#2026-07-08</guid>
-      <pubDate>Wed, 08 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 anthropics/jacobian-lens — 679⭐ (135.8/day)</title>
-      <description>Companion code for the global workspace interpretability paper
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/anthropics/jacobian-lens</link>
-      <guid>https://github.com/anthropics/jacobian-lens#2026-07-08</guid>
-      <pubDate>Wed, 08 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 yynxxxxx/Codex-X — 545⭐ (136.2/day)</title>
-      <description>Codex Switch &amp; Instruct desktop manager
-
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/yynxxxxx/Codex-X</link>
-      <guid>https://github.com/yynxxxxx/Codex-X#2026-07-08</guid>
-      <pubDate>Wed, 08 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
