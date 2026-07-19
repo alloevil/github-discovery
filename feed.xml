@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Jul 2026 10:03:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 07:15:40 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 Robbyant/lingbot-map — 13156⭐ (140.0/day)</title>
+      <description>A feed-forward 3D foundation model for reconstructing scenes from streaming data
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/Robbyant/lingbot-map</link>
+      <guid>https://github.com/Robbyant/lingbot-map#2026-07-19</guid>
+      <pubDate>Sun, 19 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 rohitg00/ai-engineering-from-scratch — 39235⭐ (321.6/day)</title>
+      <description>Learn it. Build it. Ship it for others.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/rohitg00/ai-engineering-from-scratch</link>
+      <guid>https://github.com/rohitg00/ai-engineering-from-scratch#2026-07-19</guid>
+      <pubDate>Sun, 19 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 stackblitz/bolt-slides — 396⭐ (99.0/day)</title>
+      <description>Use any agent to create stunning, interactive presentations
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/stackblitz/bolt-slides</link>
+      <guid>https://github.com/stackblitz/bolt-slides#2026-07-19</guid>
+      <pubDate>Sun, 19 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 pyang5166/gbro-collage-broll — 368⭐ (122.7/day)</title>
+      <description>半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/pyang5166/gbro-collage-broll</link>
+      <guid>https://github.com/pyang5166/gbro-collage-broll#2026-07-19</guid>
+      <pubDate>Sun, 19 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 JustinGamer191/Holo — 312⭐ (312.0/day)</title>
+      <description>
+
+Score: 100/100 | Language: Swift</description>
+      <link>https://github.com/JustinGamer191/Holo</link>
+      <guid>https://github.com/JustinGamer191/Holo#2026-07-19</guid>
+      <pubDate>Sun, 19 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 tirth8205/code-review-graph — 19861⭐ (140.9/day)</title>
       <description>Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.
@@ -420,51 +465,6 @@ Score: 93/100 | Language: Go</description>
       <link>https://github.com/vxcontrol/pentagi</link>
       <guid>https://github.com/vxcontrol/pentagi#2026-07-10</guid>
       <pubDate>Fri, 10 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 TencentCloud/TencentDB-Agent-Memory — 7868⭐ (84.6/day)</title>
-      <description>TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/TencentCloud/TencentDB-Agent-Memory</link>
-      <guid>https://github.com/TencentCloud/TencentDB-Agent-Memory#2026-07-09</guid>
-      <pubDate>Thu, 09 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 obra/superpowers — 250258⭐ (920.1/day)</title>
-      <description>An agentic skills framework &amp; software development methodology that works.
-
-Score: 100/100 | Language: Shell</description>
-      <link>https://github.com/obra/superpowers</link>
-      <guid>https://github.com/obra/superpowers#2026-07-09</guid>
-      <pubDate>Thu, 09 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 TencentCloud/CubeSandbox — 9110⭐ (101.2/day)</title>
-      <description>Instant, Concurrent, Secure &amp; Lightweight Sandbox for AI Agents.
-
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/TencentCloud/CubeSandbox</link>
-      <guid>https://github.com/TencentCloud/CubeSandbox#2026-07-09</guid>
-      <pubDate>Thu, 09 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 withmarbleapp/os-taxonomy — 775⭐ (775.0/day)</title>
-      <description>
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/withmarbleapp/os-taxonomy</link>
-      <guid>https://github.com/withmarbleapp/os-taxonomy#2026-07-09</guid>
-      <pubDate>Thu, 09 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 wouterdebie/davit — 620⭐ (155.0/day)</title>
-      <description>A native macOS UI for Apple's platform
-
-Score: 100/100 | Language: Swift</description>
-      <link>https://github.com/wouterdebie/davit</link>
-      <guid>https://github.com/wouterdebie/davit#2026-07-09</guid>
-      <pubDate>Thu, 09 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
