@@ -289,11 +289,12 @@
       "last_recommended": "2026-06-29T07:31:26.592071+00:00"
     },
     "Robbyant/lingbot-map": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-06-29T07:31:26.593602+00:00"
+      "last_recommended": "2026-07-19T07:15:39.717344+00:00"
     },
     "DeusData/codebase-memory-mcp": {
       "count": 1,
@@ -1631,7 +1632,70 @@
         92
       ],
       "last_recommended": "2026-07-18T06:33:52.705682+00:00"
+    },
+    "rohitg00/ai-engineering-from-scratch": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-19T07:15:39.721028+00:00"
+    },
+    "stackblitz/bolt-slides": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-19T07:15:39.723548+00:00"
+    },
+    "pyang5166/gbro-collage-broll": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-19T07:15:39.726470+00:00"
+    },
+    "JustinGamer191/Holo": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-19T07:15:39.729072+00:00"
+    },
+    "lopopolo/harness-engineering": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-19T07:15:39.731565+00:00"
+    },
+    "Icex0/wp2shell-poc": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-19T07:15:39.734054+00:00"
+    },
+    "yuwen-cool/yuwen-publish-precheck": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-19T07:15:39.736547+00:00"
+    },
+    "lyogavin/airllm": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-07-19T07:15:39.739086+00:00"
+    },
+    "MoonshotAI/kimi-cli": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-07-19T07:15:39.741586+00:00"
     }
   },
-  "updated_at": "2026-07-18T06:33:52.705710+00:00"
+  "updated_at": "2026-07-19T07:15:39.741610+00:00"
 }
