@@ -1695,7 +1695,77 @@
         98
       ],
       "last_recommended": "2026-07-19T07:15:39.741586+00:00"
+    },
+    "bojieli/ai-agent-book": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-20T07:46:16.166796+00:00"
+    },
+    "kvcache-ai/ktransformers": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-20T07:46:16.169644+00:00"
+    },
+    "jamiepine/voicebox": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-20T07:46:16.172333+00:00"
+    },
+    "KnockOutEZ/wigolo": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-20T07:46:16.174888+00:00"
+    },
+    "AstrBotDevs/AstrBot": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-20T07:46:16.177536+00:00"
+    },
+    "trycua/cua": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-20T07:46:16.180177+00:00"
+    },
+    "v-modal/vmodal_sdk_flutter": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-20T07:46:16.182705+00:00"
+    },
+    "hoainho/img2threejs": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-20T07:46:16.185257+00:00"
+    },
+    "xiejunjie524/handdraw-story-video": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-20T07:46:16.188333+00:00"
+    },
+    "microsoft/terminal": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-07-20T07:46:16.191071+00:00"
     }
   },
-  "updated_at": "2026-07-19T07:15:39.741610+00:00"
+  "updated_at": "2026-07-20T07:46:16.191099+00:00"
 }

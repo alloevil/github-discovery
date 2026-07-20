@@ -1,0 +1,201 @@
+# 🔥 GitHub Discovery Report
+
+> **Generated:** 2026-07-20 07:46
+> **10 new repos + 0 repeat performers**
+
+---
+
+## ⭐ Top Starred Repositories — First Timers
+
+*These repos were first featured in GitHub Discovery*
+
+### 1. [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 7,740 |
+| 📅 Age | 314 days |
+| 🚀 Daily Growth | 24.6 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 2. [kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 18,511 |
+| 📅 Age | 724 days |
+| 🚀 Daily Growth | 25.6 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [jamiepine/voicebox](https://github.com/jamiepine/voicebox)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 43,647 |
+| 📅 Age | 175 days |
+| 🚀 Daily Growth | 249.4 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> The open-source AI voice studio. Clone, dictate, create.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 4. [KnockOutEZ/wigolo](https://github.com/KnockOutEZ/wigolo)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 2,094 |
+| 📅 Age | 98 days |
+| 🚀 Daily Growth | 21.4 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 5. [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 36,808 |
+| 📅 Age | 1319 days |
+| 🚀 Daily Growth | 27.9 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 6. [trycua/cua](https://github.com/trycua/cua)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 20,301 |
+| 📅 Age | 534 days |
+| 🚀 Daily Growth | 38.0 stars/day |
+| 🔤 Language | HTML |
+| 📡 Source | trending |
+
+> Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 7. [v-modal/vmodal_sdk_flutter](https://github.com/v-modal/vmodal_sdk_flutter)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 635 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 211.7 stars/day |
+| 🔤 Language | Dart |
+| 📡 Source | search |
+
+> V- Modal AI: Search anything anywhere SDK Flutter
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 20/30
+
+---
+### 8. [hoainho/img2threejs](https://github.com/hoainho/img2threejs)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 629 |
+| 📅 Age | 5 days |
+| 🚀 Daily Growth | 125.8 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 9. [xiejunjie524/handdraw-story-video](https://github.com/xiejunjie524/handdraw-story-video)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 408 |
+| 📅 Age | 2 days |
+| 🚀 Daily Growth | 204.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> Turn hand-drawn story illustrations into 35–45 second line-reveal and gradual-coloring videos with HyperFrames.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 10. [microsoft/terminal](https://github.com/microsoft/terminal)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 104,257 |
+| 📅 Age | 3264 days |
+| 🚀 Daily Growth | 31.9 stars/day |
+| 🔤 Language | C++ |
+| 📡 Source | trending |
+
+> The new Windows Terminal and the original Windows console host, all in the same place!
+
+**Score: 98/100** `███████████████████░`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+
+## 📊 Summary
+
+- **New discoveries:** 10 repos
+- **Repeat performers:** 0 repos
+- **Score range:** 98 - 100
+- **Top pick:** [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book)
+
+---
+*Generated by GitHub Discovery Tool*
