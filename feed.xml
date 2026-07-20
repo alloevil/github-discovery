@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Jul 2026 10:14:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 07:46:16 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 bojieli/ai-agent-book — 7740⭐ (24.6/day)</title>
+      <description>《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/bojieli/ai-agent-book</link>
+      <guid>https://github.com/bojieli/ai-agent-book#2026-07-20</guid>
+      <pubDate>Mon, 20 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 kvcache-ai/ktransformers — 18511⭐ (25.6/day)</title>
+      <description>A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/kvcache-ai/ktransformers</link>
+      <guid>https://github.com/kvcache-ai/ktransformers#2026-07-20</guid>
+      <pubDate>Mon, 20 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 jamiepine/voicebox — 43647⭐ (249.4/day)</title>
+      <description>The open-source AI voice studio. Clone, dictate, create.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/jamiepine/voicebox</link>
+      <guid>https://github.com/jamiepine/voicebox#2026-07-20</guid>
+      <pubDate>Mon, 20 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 KnockOutEZ/wigolo — 2094⭐ (21.4/day)</title>
+      <description>The go-to web for your AI coding agent — local-first search, fetch, crawl &amp; research over MCP. No API keys, no cloud, $0/query. Public beta.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/KnockOutEZ/wigolo</link>
+      <guid>https://github.com/KnockOutEZ/wigolo#2026-07-20</guid>
+      <pubDate>Mon, 20 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 AstrBotDevs/AstrBot — 36808⭐ (27.9/day)</title>
+      <description>AI Agent Assistant &amp; development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/AstrBotDevs/AstrBot</link>
+      <guid>https://github.com/AstrBotDevs/AstrBot#2026-07-20</guid>
+      <pubDate>Mon, 20 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 Robbyant/lingbot-map — 13156⭐ (140.0/day)</title>
       <description>A feed-forward 3D foundation model for reconstructing scenes from streaming data
@@ -420,51 +465,6 @@ Score: 93/100 | Language: TypeScript</description>
       <link>https://github.com/google-labs-code/stitch-skills</link>
       <guid>https://github.com/google-labs-code/stitch-skills#2026-07-11</guid>
       <pubDate>Sat, 11 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 VoltAgent/awesome-design-md — 100246⭐ (1002.5/day)</title>
-      <description>A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.
-
-Score: 100/100 | Language: ?</description>
-      <link>https://github.com/VoltAgent/awesome-design-md</link>
-      <guid>https://github.com/VoltAgent/awesome-design-md#2026-07-10</guid>
-      <pubDate>Fri, 10 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 unclecode/crawl4ai — 72033⭐ (91.1/day)</title>
-      <description>🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/unclecode/crawl4ai</link>
-      <guid>https://github.com/unclecode/crawl4ai#2026-07-10</guid>
-      <pubDate>Fri, 10 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 oso95/scroll-world — 477⭐ (159.0/day)</title>
-      <description>A skill that turn any brand into a scrollable 3D world
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/oso95/scroll-world</link>
-      <guid>https://github.com/oso95/scroll-world#2026-07-10</guid>
-      <pubDate>Fri, 10 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 anthropics/claude-cookbooks — 47328⭐ (44.7/day)</title>
-      <description>A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.
-
-Score: 98/100 | Language: Jupyter</description>
-      <link>https://github.com/anthropics/claude-cookbooks</link>
-      <guid>https://github.com/anthropics/claude-cookbooks#2026-07-10</guid>
-      <pubDate>Fri, 10 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 vxcontrol/pentagi — 19645⭐ (35.8/day)</title>
-      <description>Fully autonomous AI Agents system capable of performing complex penetration testing tasks
-
-Score: 93/100 | Language: Go</description>
-      <link>https://github.com/vxcontrol/pentagi</link>
-      <guid>https://github.com/vxcontrol/pentagi#2026-07-10</guid>
-      <pubDate>Fri, 10 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
