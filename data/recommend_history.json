@@ -78,11 +78,12 @@
       "last_recommended": "2026-06-26T04:19:37.535798+00:00"
     },
     "every-app/open-seo": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-06-26T04:19:37.538435+00:00"
+      "last_recommended": "2026-07-21T07:20:10.082853+00:00"
     },
     "garrytan/gstack": {
       "count": 1,
@@ -355,11 +356,12 @@
       "last_recommended": "2026-07-06T08:51:29.543812+00:00"
     },
     "msitarzewski/agency-agents": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-06-30T08:01:07.215363+00:00"
+      "last_recommended": "2026-07-21T07:20:09.873375+00:00"
     },
     "refactoringhq/tolaria": {
       "count": 1,
@@ -425,11 +427,12 @@
       "last_recommended": "2026-06-30T08:01:07.230106+00:00"
     },
     "diegosouzapw/OmniRoute": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-01T07:35:34.189325+00:00"
+      "last_recommended": "2026-07-21T07:20:09.870016+00:00"
     },
     "google/agents-cli": {
       "count": 1,
@@ -1765,7 +1768,56 @@
         98
       ],
       "last_recommended": "2026-07-20T07:46:16.191071+00:00"
+    },
+    "1jehuang/jcode": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-21T07:20:09.550069+00:00"
+    },
+    "topoteretes/cognee": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-21T07:20:10.079665+00:00"
+    },
+    "PrefectHQ/fastmcp": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-21T07:20:10.160236+00:00"
+    },
+    "iptv-org/iptv": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-21T07:20:10.163233+00:00"
+    },
+    "oblien/openship": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-21T07:20:10.176201+00:00"
+    },
+    "EthanXiang777/circuit-framework": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-21T07:20:10.179299+00:00"
+    },
+    "MIgHTy-alIeN/Trading-Bot": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-21T07:20:10.181972+00:00"
     }
   },
-  "updated_at": "2026-07-20T07:46:16.191099+00:00"
+  "updated_at": "2026-07-21T07:20:10.182001+00:00"
 }

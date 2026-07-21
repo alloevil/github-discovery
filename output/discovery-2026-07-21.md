@@ -1,0 +1,201 @@
+# 🔥 GitHub Discovery Report
+
+> **Generated:** 2026-07-21 07:20
+> **10 new repos + 0 repeat performers**
+
+---
+
+## ⭐ Top Starred Repositories — First Timers
+
+*These repos were first featured in GitHub Discovery*
+
+### 1. [1jehuang/jcode](https://github.com/1jehuang/jcode)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 9,873 |
+| 📅 Age | 196 days |
+| 🚀 Daily Growth | 50.4 stars/day |
+| 🔤 Language | Rust |
+| 📡 Source | trending |
+
+> The most intelligent agent harness for code
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 2. [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 22,383 |
+| 📅 Age | 157 days |
+| 🚀 Daily Growth | 142.6 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, multimodal, Desktop/PWA. Built by 500+ contributors.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 134,986 |
+| 📅 Age | 280 days |
+| 🚀 Daily Growth | 482.1 stars/day |
+| 🔤 Language | Shell |
+| 📡 Source | trending |
+
+> A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 4. [topoteretes/cognee](https://github.com/topoteretes/cognee)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 28,891 |
+| 📅 Age | 1069 days |
+| 🚀 Daily Growth | 27.0 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 5. [every-app/open-seo](https://github.com/every-app/open-seo)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 6,111 |
+| 📅 Age | 143 days |
+| 🚀 Daily Growth | 42.7 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> Open source alternative to Semrush and Ahrefs
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 6. [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 26,643 |
+| 📅 Age | 598 days |
+| 🚀 Daily Growth | 44.6 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> 🚀 The fast, Pythonic way to build MCP servers and clients.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 7. [iptv-org/iptv](https://github.com/iptv-org/iptv)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 133,879 |
+| 📅 Age | 2805 days |
+| 🚀 Daily Growth | 47.7 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> Collection of publicly available IPTV channels from all over the world
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 8. [oblien/openship](https://github.com/oblien/openship)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 5,189 |
+| 📅 Age | 137 days |
+| 🚀 Daily Growth | 37.9 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> Self-hosted deployment platform
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 9. [EthanXiang777/circuit-framework](https://github.com/EthanXiang777/circuit-framework)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 487 |
+| 📅 Age | 4 days |
+| 🚀 Daily Growth | 121.8 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> Circuit Framework — multi-agent LLM trading research system
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 10. [MIgHTy-alIeN/Trading-Bot](https://github.com/MIgHTy-alIeN/Trading-Bot)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 467 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 155.7 stars/day |
+| 🔤 Language | Solidity |
+| 📡 Source | search |
+
+> An arbitrage bot is a smart contract connected to an external automation script that controls its operation.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+
+## 📊 Summary
+
+- **New discoveries:** 10 repos
+- **Repeat performers:** 0 repos
+- **Score range:** 100 - 100
+- **Top pick:** [1jehuang/jcode](https://github.com/1jehuang/jcode)
+
+---
+*Generated by GitHub Discovery Tool*
