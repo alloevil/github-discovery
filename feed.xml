@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Jul 2026 11:27:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 07:20:10 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 1jehuang/jcode — 9873⭐ (50.4/day)</title>
+      <description>The most intelligent agent harness for code
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/1jehuang/jcode</link>
+      <guid>https://github.com/1jehuang/jcode#2026-07-21</guid>
+      <pubDate>Tue, 21 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 diegosouzapw/OmniRoute — 22383⭐ (142.6/day)</title>
+      <description>Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline &amp; Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, multimodal, Desktop/PWA. Built by 500+ contributors.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/diegosouzapw/OmniRoute</link>
+      <guid>https://github.com/diegosouzapw/OmniRoute#2026-07-21</guid>
+      <pubDate>Tue, 21 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 msitarzewski/agency-agents — 134986⭐ (482.1/day)</title>
+      <description>A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
+
+Score: 100/100 | Language: Shell</description>
+      <link>https://github.com/msitarzewski/agency-agents</link>
+      <guid>https://github.com/msitarzewski/agency-agents#2026-07-21</guid>
+      <pubDate>Tue, 21 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 topoteretes/cognee — 28891⭐ (27.0/day)</title>
+      <description>Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/topoteretes/cognee</link>
+      <guid>https://github.com/topoteretes/cognee#2026-07-21</guid>
+      <pubDate>Tue, 21 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 every-app/open-seo — 6111⭐ (42.7/day)</title>
+      <description>Open source alternative to Semrush and Ahrefs
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/every-app/open-seo</link>
+      <guid>https://github.com/every-app/open-seo#2026-07-21</guid>
+      <pubDate>Tue, 21 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 bojieli/ai-agent-book — 7740⭐ (24.6/day)</title>
       <description>《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码
@@ -420,51 +465,6 @@ Score: 92/100 | Language: TypeScript</description>
       <link>https://github.com/cypress-io/cypress</link>
       <guid>https://github.com/cypress-io/cypress#2026-07-12</guid>
       <pubDate>Sun, 12 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 oven-sh/bun — 94399⭐ (49.3/day)</title>
-      <description>Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one
-
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/oven-sh/bun</link>
-      <guid>https://github.com/oven-sh/bun#2026-07-11</guid>
-      <pubDate>Sat, 11 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 davila7/claude-code-templates — 28817⭐ (77.5/day)</title>
-      <description>CLI tool for configuring and monitoring Claude Code
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/davila7/claude-code-templates</link>
-      <guid>https://github.com/davila7/claude-code-templates#2026-07-11</guid>
-      <pubDate>Sat, 11 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 vercel/next.js — 140785⭐ (39.5/day)</title>
-      <description>The React Framework
-
-Score: 95/100 | Language: JavaScript</description>
-      <link>https://github.com/vercel/next.js</link>
-      <guid>https://github.com/vercel/next.js#2026-07-11</guid>
-      <pubDate>Sat, 11 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 microsoft/TypeScript — 109822⭐ (24.9/day)</title>
-      <description>TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
-
-Score: 93/100 | Language: TypeScript</description>
-      <link>https://github.com/microsoft/TypeScript</link>
-      <guid>https://github.com/microsoft/TypeScript#2026-07-11</guid>
-      <pubDate>Sat, 11 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 google-labs-code/stitch-skills — 6827⭐ (39.0/day)</title>
-      <description>A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.
-
-Score: 93/100 | Language: TypeScript</description>
-      <link>https://github.com/google-labs-code/stitch-skills</link>
-      <guid>https://github.com/google-labs-code/stitch-skills#2026-07-11</guid>
-      <pubDate>Sat, 11 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
