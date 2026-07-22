@@ -1817,7 +1817,77 @@
         100
       ],
       "last_recommended": "2026-07-21T07:20:10.181972+00:00"
+    },
+    "koala73/worldmonitor": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-22T07:21:42.098955+00:00"
+    },
+    "earthtojake/text-to-cad": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-22T07:21:42.101910+00:00"
+    },
+    "tradesdontlie/tradingview-mcp": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-22T07:21:42.104541+00:00"
+    },
+    "AlexsJones/llmfit": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-22T07:21:42.107366+00:00"
+    },
+    "hyprwm/Hyprland": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-22T07:21:42.110304+00:00"
+    },
+    "MIgHTy-alIeN/MEV-Arbitrage-Bot": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-22T07:21:42.113111+00:00"
+    },
+    "Blaizzy/nativ": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-22T07:21:42.115970+00:00"
+    },
+    "smixs/pohuy": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-07-22T07:21:42.118544+00:00"
+    },
+    "schollz/croc": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-07-22T07:21:42.121278+00:00"
+    },
+    "langchain-ai/open_deep_research": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-07-22T07:21:42.124020+00:00"
     }
   },
-  "updated_at": "2026-07-21T07:20:10.182001+00:00"
+  "updated_at": "2026-07-22T07:21:42.124047+00:00"
 }

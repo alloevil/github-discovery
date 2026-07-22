@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Jul 2026 10:48:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 07:21:42 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 koala73/worldmonitor — 66573⭐ (343.2/day)</title>
+      <description>Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/koala73/worldmonitor</link>
+      <guid>https://github.com/koala73/worldmonitor#2026-07-22</guid>
+      <pubDate>Wed, 22 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 earthtojake/text-to-cad — 9364⭐ (102.9/day)</title>
+      <description>A collection of agent skills for CAD, robotics and hardware design
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/earthtojake/text-to-cad</link>
+      <guid>https://github.com/earthtojake/text-to-cad#2026-07-22</guid>
+      <pubDate>Wed, 22 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 tradesdontlie/tradingview-mcp — 4947⭐ (43.4/day)</title>
+      <description>AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/tradesdontlie/tradingview-mcp</link>
+      <guid>https://github.com/tradesdontlie/tradingview-mcp#2026-07-22</guid>
+      <pubDate>Wed, 22 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 AlexsJones/llmfit — 30332⭐ (194.4/day)</title>
+      <description>Hundreds of models &amp; providers. One command to find what runs on your hardware.
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/AlexsJones/llmfit</link>
+      <guid>https://github.com/AlexsJones/llmfit#2026-07-22</guid>
+      <pubDate>Wed, 22 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 hyprwm/Hyprland — 37118⭐ (23.4/day)</title>
+      <description>Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
+
+Score: 100/100 | Language: C</description>
+      <link>https://github.com/hyprwm/Hyprland</link>
+      <guid>https://github.com/hyprwm/Hyprland#2026-07-22</guid>
+      <pubDate>Wed, 22 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 1jehuang/jcode — 9873⭐ (50.4/day)</title>
       <description>The most intelligent agent harness for code
@@ -420,51 +465,6 @@ Score: 100/100 | Language: Python</description>
       <link>https://github.com/HKUDS/Vibe-Trading</link>
       <guid>https://github.com/HKUDS/Vibe-Trading#2026-07-13</guid>
       <pubDate>Mon, 13 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 microsoft/PowerToys — 136481⭐ (51.9/day)</title>
-      <description>Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows
-
-Score: 100/100 | Language: C</description>
-      <link>https://github.com/microsoft/PowerToys</link>
-      <guid>https://github.com/microsoft/PowerToys#2026-07-12</guid>
-      <pubDate>Sun, 12 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 DayuanJiang/next-ai-draw-io — 33364⭐ (70.2/day)</title>
-      <description>A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/DayuanJiang/next-ai-draw-io</link>
-      <guid>https://github.com/DayuanJiang/next-ai-draw-io#2026-07-12</guid>
-      <pubDate>Sun, 12 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 malisper/pgrust — 2180⭐ (26.3/day)</title>
-      <description>Postgres rewritten in Rust, now passing 100% of the Postgres regression tests
-
-Score: 94/100 | Language: Rust</description>
-      <link>https://github.com/malisper/pgrust</link>
-      <guid>https://github.com/malisper/pgrust#2026-07-12</guid>
-      <pubDate>Sun, 12 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 home-assistant/core — 88771⭐ (19.0/day)</title>
-      <description>:house_with_garden: Open source home automation that puts local control and privacy first.
-
-Score: 92/100 | Language: Python</description>
-      <link>https://github.com/home-assistant/core</link>
-      <guid>https://github.com/home-assistant/core#2026-07-12</guid>
-      <pubDate>Sun, 12 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 cypress-io/cypress — 50649⭐ (12.2/day)</title>
-      <description>Fast, easy and reliable testing for anything that runs in a browser.
-
-Score: 92/100 | Language: TypeScript</description>
-      <link>https://github.com/cypress-io/cypress</link>
-      <guid>https://github.com/cypress-io/cypress#2026-07-12</guid>
-      <pubDate>Sun, 12 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
