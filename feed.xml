@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Jul 2026 10:50:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 07:18:40 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 ruvnet/RuView — 84259⭐ (205.0/day)</title>
+      <description>π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/ruvnet/RuView</link>
+      <guid>https://github.com/ruvnet/RuView#2026-07-23</guid>
+      <pubDate>Thu, 23 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 ayghri/i-have-adhd — 8648⭐ (123.5/day)</title>
+      <description>A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/ayghri/i-have-adhd</link>
+      <guid>https://github.com/ayghri/i-have-adhd#2026-07-23</guid>
+      <pubDate>Thu, 23 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 ComposioHQ/awesome-claude-skills — 68988⭐ (247.3/day)</title>
+      <description>A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/ComposioHQ/awesome-claude-skills</link>
+      <guid>https://github.com/ComposioHQ/awesome-claude-skills#2026-07-23</guid>
+      <pubDate>Thu, 23 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 Jakubantalik/thinking-orbs — 686⭐ (343.0/day)</title>
+      <description>Dotted thought-orb loading indicators for AI &amp; agent UIs — six tuned states, two sizes, auto dark/light
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/Jakubantalik/thinking-orbs</link>
+      <guid>https://github.com/Jakubantalik/thinking-orbs#2026-07-23</guid>
+      <pubDate>Thu, 23 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 nyblnet/bento — 648⭐ (129.6/day)</title>
+      <description>
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/nyblnet/bento</link>
+      <guid>https://github.com/nyblnet/bento#2026-07-23</guid>
+      <pubDate>Thu, 23 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 koala73/worldmonitor — 66573⭐ (343.2/day)</title>
       <description>Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
@@ -411,60 +456,6 @@ Score: 100/100 | Language: HTML</description>
       <link>https://github.com/hasaneyldrm/exercises-dataset</link>
       <guid>https://github.com/hasaneyldrm/exercises-dataset#2026-07-14</guid>
       <pubDate>Tue, 14 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Shubhamsaboo/awesome-llm-apps — 118751⭐ (147.7/day)</title>
-      <description>100+ AI Agent &amp; RAG apps you can actually run — clone, customize, ship.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
-      <guid>https://github.com/Shubhamsaboo/awesome-llm-apps#2026-07-13</guid>
-      <pubDate>Mon, 13 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Crosstalk-Solutions/project-nomad — 33872⭐ (88.4/day)</title>
-      <description>Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/Crosstalk-Solutions/project-nomad</link>
-      <guid>https://github.com/Crosstalk-Solutions/project-nomad#2026-07-13</guid>
-      <pubDate>Mon, 13 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 pingdotgg/t3code — 13785⭐ (89.5/day)</title>
-      <description>
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/pingdotgg/t3code</link>
-      <guid>https://github.com/pingdotgg/t3code#2026-07-13</guid>
-      <pubDate>Mon, 13 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 virattt/ai-hedge-fund — 61464⭐ (104.2/day)</title>
-      <description>An AI Hedge Fund Team
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/virattt/ai-hedge-fund</link>
-      <guid>https://github.com/virattt/ai-hedge-fund#2026-07-13</guid>
-      <pubDate>Mon, 13 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Nutlope/hallmark — 4410⭐ (58.0/day)</title>
-      <description>Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
-
-Score: 97/100 | Language: CSS</description>
-      <link>https://github.com/Nutlope/hallmark</link>
-      <guid>https://github.com/Nutlope/hallmark#2026-07-13</guid>
-      <pubDate>Mon, 13 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 HKUDS/Vibe-Trading — 20746⭐ (203.4/day)</title>
-      <description>&quot;Vibe-Trading: Your Personal Trading Agent&quot;
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/HKUDS/Vibe-Trading</link>
-      <guid>https://github.com/HKUDS/Vibe-Trading#2026-07-13</guid>
-      <pubDate>Mon, 13 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
