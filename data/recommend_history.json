@@ -797,11 +797,12 @@
       "last_recommended": "2026-07-14T06:58:01.469143+00:00"
     },
     "ruvnet/RuView": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-06T08:51:29.550314+00:00"
+      "last_recommended": "2026-07-23T07:18:39.988843+00:00"
     },
     "gastownhall/gastown": {
       "count": 1,
@@ -1887,7 +1888,70 @@
         91
       ],
       "last_recommended": "2026-07-22T07:21:42.124020+00:00"
+    },
+    "ayghri/i-have-adhd": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-23T07:18:39.991748+00:00"
+    },
+    "ComposioHQ/awesome-claude-skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-23T07:18:39.994372+00:00"
+    },
+    "Jakubantalik/thinking-orbs": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-23T07:18:39.997231+00:00"
+    },
+    "nyblnet/bento": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-23T07:18:39.999955+00:00"
+    },
+    "powerycy/goutoujunshi": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-23T07:18:40.002648+00:00"
+    },
+    "Vincentwei1021/video-shotcraft": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-23T07:18:40.005407+00:00"
+    },
+    "shiyu-coder/Kronos": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-07-23T07:18:40.008331+00:00"
+    },
+    "dreamhunter2333/cloudflare_temp_email": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-07-23T07:18:40.011407+00:00"
+    },
+    "DioxusLabs/dioxus": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-07-23T07:18:40.014289+00:00"
     }
   },
-  "updated_at": "2026-07-22T07:21:42.124047+00:00"
+  "updated_at": "2026-07-23T07:18:40.014318+00:00"
 }
