@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Jul 2026 10:51:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 07:17:42 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 block/buzz — 7720⭐ (55.5/day)</title>
+      <description>A hive mind communication platform
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/block/buzz</link>
+      <guid>https://github.com/block/buzz#2026-07-24</guid>
+      <pubDate>Fri, 24 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 alibaba/open-code-review — 11885⭐ (177.4/day)</title>
+      <description>Open-source &amp; free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.
+
+Score: 100/100 | Language: Go</description>
+      <link>https://github.com/alibaba/open-code-review</link>
+      <guid>https://github.com/alibaba/open-code-review#2026-07-24</guid>
+      <pubDate>Fri, 24 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 andrewyng/openworker — 2089⭐ (522.2/day)</title>
+      <description>
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/andrewyng/openworker</link>
+      <guid>https://github.com/andrewyng/openworker#2026-07-24</guid>
+      <pubDate>Fri, 24 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 pireel/pireel — 675⭐ (225.0/day)</title>
+      <description>Open-source, backend-free AI video editor for talking-head video — storyboarding, designed graphics, kinetic captions, themes and in-browser WebCodecs export. Drivable by any AI agent over MCP.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/pireel/pireel</link>
+      <guid>https://github.com/pireel/pireel#2026-07-24</guid>
+      <pubDate>Fri, 24 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 gnipbao/story-to-handdrawn-video — 584⭐ (292.0/day)</title>
+      <description>Agent skill: convert Chinese story copy or ordered images into a hand-drawn diary-comic animation (silent MP4 picture track).
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/gnipbao/story-to-handdrawn-video</link>
+      <guid>https://github.com/gnipbao/story-to-handdrawn-video#2026-07-24</guid>
+      <pubDate>Fri, 24 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 ruvnet/RuView — 84259⭐ (205.0/day)</title>
       <description>π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
@@ -411,51 +456,6 @@ Score: 100/100 | Language: Python</description>
       <link>https://github.com/AlephAITech/WorkBuddyGuide</link>
       <guid>https://github.com/AlephAITech/WorkBuddyGuide#2026-07-15</guid>
       <pubDate>Wed, 15 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 OpenCut-app/OpenCut — 67633⭐ (175.2/day)</title>
-      <description>The open-source CapCut alternative
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/OpenCut-app/OpenCut</link>
-      <guid>https://github.com/OpenCut-app/OpenCut#2026-07-14</guid>
-      <pubDate>Tue, 14 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 HKUDS/Vibe-Trading — 22151⭐ (215.1/day)</title>
-      <description>&quot;Vibe-Trading: Your Personal Trading Agent&quot;
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/HKUDS/Vibe-Trading</link>
-      <guid>https://github.com/HKUDS/Vibe-Trading#2026-07-14</guid>
-      <pubDate>Tue, 14 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 moeru-ai/airi — 42124⭐ (71.5/day)</title>
-      <description>💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/moeru-ai/airi</link>
-      <guid>https://github.com/moeru-ai/airi#2026-07-14</guid>
-      <pubDate>Tue, 14 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Graphify-Labs/graphify — 85203⭐ (843.6/day)</title>
-      <description>AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/Graphify-Labs/graphify</link>
-      <guid>https://github.com/Graphify-Labs/graphify#2026-07-14</guid>
-      <pubDate>Tue, 14 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 hasaneyldrm/exercises-dataset — 12887⭐ (109.2/day)</title>
-      <description>1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group &amp; equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.
-
-Score: 100/100 | Language: HTML</description>
-      <link>https://github.com/hasaneyldrm/exercises-dataset</link>
-      <guid>https://github.com/hasaneyldrm/exercises-dataset#2026-07-14</guid>
-      <pubDate>Tue, 14 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
