@@ -1951,7 +1951,77 @@
         92
       ],
       "last_recommended": "2026-07-23T07:18:40.014289+00:00"
+    },
+    "block/buzz": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-24T07:17:41.251230+00:00"
+    },
+    "alibaba/open-code-review": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-24T07:17:41.257808+00:00"
+    },
+    "andrewyng/openworker": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-24T07:17:41.260929+00:00"
+    },
+    "pireel/pireel": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-24T07:17:41.264227+00:00"
+    },
+    "gnipbao/story-to-handdrawn-video": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-24T07:17:41.267508+00:00"
+    },
+    "CatsJuice/sticker-forge": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-24T07:17:41.270838+00:00"
+    },
+    "KinetiNode/claude-fable-5-system-prompt-clean": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-24T07:17:41.273831+00:00"
+    },
+    "agegr/pi-web": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-07-24T07:17:41.276908+00:00"
+    },
+    "Automattic/harper": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-07-24T07:17:41.279774+00:00"
+    },
+    "jellyfin/jellyfin": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-07-24T07:17:41.282686+00:00"
     }
   },
-  "updated_at": "2026-07-23T07:18:40.014318+00:00"
+  "updated_at": "2026-07-24T07:17:41.282713+00:00"
 }

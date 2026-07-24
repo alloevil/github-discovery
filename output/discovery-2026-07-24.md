@@ -1,0 +1,201 @@
+# 🔥 GitHub Discovery Report
+
+> **Generated:** 2026-07-24 07:17
+> **10 new repos + 0 repeat performers**
+
+---
+
+## ⭐ Top Starred Repositories — First Timers
+
+*These repos were first featured in GitHub Discovery*
+
+### 1. [block/buzz](https://github.com/block/buzz)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 7,720 |
+| 📅 Age | 139 days |
+| 🚀 Daily Growth | 55.5 stars/day |
+| 🔤 Language | Rust |
+| 📡 Source | trending |
+
+> A hive mind communication platform
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 2. [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 11,885 |
+| 📅 Age | 67 days |
+| 🚀 Daily Growth | 177.4 stars/day |
+| 🔤 Language | Go |
+| 📡 Source | trending |
+
+> Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [andrewyng/openworker](https://github.com/andrewyng/openworker)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 2,089 |
+| 📅 Age | 4 days |
+| 🚀 Daily Growth | 522.2 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> 
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 4. [pireel/pireel](https://github.com/pireel/pireel)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 675 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 225.0 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
+
+> Open-source, backend-free AI video editor for talking-head video — storyboarding, designed graphics, kinetic captions, themes and in-browser WebCodecs export. Drivable by any AI agent over MCP.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 5. [gnipbao/story-to-handdrawn-video](https://github.com/gnipbao/story-to-handdrawn-video)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 584 |
+| 📅 Age | 2 days |
+| 🚀 Daily Growth | 292.0 stars/day |
+| 🔤 Language | JavaScript |
+| 📡 Source | search |
+
+> Agent skill: convert Chinese story copy or ordered images into a hand-drawn diary-comic animation (silent MP4 picture track).
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 6. [CatsJuice/sticker-forge](https://github.com/CatsJuice/sticker-forge)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 465 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 155.0 stars/day |
+| 🔤 Language | JavaScript |
+| 📡 Source | search |
+
+> A tactile WebGL sticker maker with rich text, image uploads, and interactive peel physics.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 7. [KinetiNode/claude-fable-5-system-prompt-clean](https://github.com/KinetiNode/claude-fable-5-system-prompt-clean)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 396 |
+| 📅 Age | 5 days |
+| 🚀 Daily Growth | 79.2 stars/day |
+| 🔤 Language |  |
+| 📡 Source | search |
+
+> the optimized, token-efficient version of the leaked Claude Fable 5 / Mythos 5 system prompt. Re-engineered into clean Markdown for universal execution on Gemini 3.1 Pro, ChatGPT 5.6, and advanced LLM agents.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 8. [agegr/pi-web](https://github.com/agegr/pi-web)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 2,490 |
+| 📅 Age | 123 days |
+| 🚀 Daily Growth | 20.2 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> Web UI for the pi coding agent
+
+**Score: 96/100** `███████████████████░`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 9. [Automattic/harper](https://github.com/Automattic/harper)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 12,545 |
+| 📅 Age | 1006 days |
+| 🚀 Daily Growth | 12.5 stars/day |
+| 🔤 Language | Rust |
+| 📡 Source | trending |
+
+> Offline, privacy-first grammar checker. Fast, open-source, Rust-powered
+
+**Score: 92/100** `██████████████████░░`
+- Acceleration: 12/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 10. [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 54,827 |
+| 📅 Age | 2784 days |
+| 🚀 Daily Growth | 19.7 stars/day |
+| 🔤 Language | C# |
+| 📡 Source | trending |
+
+> The Free Software Media System - Server Backend & API
+
+**Score: 92/100** `██████████████████░░`
+- Acceleration: 12/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+
+## 📊 Summary
+
+- **New discoveries:** 10 repos
+- **Repeat performers:** 0 repos
+- **Score range:** 92 - 100
+- **Top pick:** [block/buzz](https://github.com/block/buzz)
+
+---
+*Generated by GitHub Discovery Tool*
