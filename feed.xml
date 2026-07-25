@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Jul 2026 10:47:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 07:03:08 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 citrolabs/ego-lite — 2861⭐ (28.9/day)</title>
+      <description>The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/citrolabs/ego-lite</link>
+      <guid>https://github.com/citrolabs/ego-lite#2026-07-25</guid>
+      <pubDate>Sat, 25 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 yorukot/superfile — 19725⭐ (23.0/day)</title>
+      <description>Pretty fancy and modern terminal file manager
+
+Score: 100/100 | Language: Go</description>
+      <link>https://github.com/yorukot/superfile</link>
+      <guid>https://github.com/yorukot/superfile#2026-07-25</guid>
+      <pubDate>Sat, 25 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 CoreBunch/Instatic — 4384⭐ (51.6/day)</title>
+      <description>The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/CoreBunch/Instatic</link>
+      <guid>https://github.com/CoreBunch/Instatic#2026-07-25</guid>
+      <pubDate>Sat, 25 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 mattpocock/skills — 187195⭐ (1094.7/day)</title>
+      <description>Skills for Real Engineers. Straight from my .agents directory.
+
+Score: 100/100 | Language: Shell</description>
+      <link>https://github.com/mattpocock/skills</link>
+      <guid>https://github.com/mattpocock/skills#2026-07-25</guid>
+      <pubDate>Sat, 25 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 OtterMind/Chat2DB — 26432⭐ (23.4/day)</title>
+      <description>🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.
+
+Score: 100/100 | Language: Java</description>
+      <link>https://github.com/OtterMind/Chat2DB</link>
+      <guid>https://github.com/OtterMind/Chat2DB#2026-07-25</guid>
+      <pubDate>Sat, 25 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 block/buzz — 7720⭐ (55.5/day)</title>
       <description>A hive mind communication platform
@@ -411,51 +456,6 @@ Score: 100/100 | Language: TypeScript</description>
       <link>https://github.com/pixel-point/aval</link>
       <guid>https://github.com/pixel-point/aval#2026-07-16</guid>
       <pubDate>Thu, 16 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 mattpocock/skills — 170907⭐ (1061.5/day)</title>
-      <description>Skills for Real Engineers. Straight from my .claude directory.
-
-Score: 100/100 | Language: Shell</description>
-      <link>https://github.com/mattpocock/skills</link>
-      <guid>https://github.com/mattpocock/skills#2026-07-15</guid>
-      <pubDate>Wed, 15 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Raphire/Win11Debloat — 51961⭐ (24.9/day)</title>
-      <description>A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.
-
-Score: 100/100 | Language: PowerShell</description>
-      <link>https://github.com/Raphire/Win11Debloat</link>
-      <guid>https://github.com/Raphire/Win11Debloat#2026-07-15</guid>
-      <pubDate>Wed, 15 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 AIEraDev/Clypra — 2742⭐ (34.7/day)</title>
-      <description>A modern video editor built with Tauri, React, and TypeScript. Focus on building free capabilities of premium capcut functionalities
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/AIEraDev/Clypra</link>
-      <guid>https://github.com/AIEraDev/Clypra#2026-07-15</guid>
-      <pubDate>Wed, 15 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 chenyme/grok2api — 5942⭐ (21.5/day)</title>
-      <description>面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关
-
-Score: 100/100 | Language: Go</description>
-      <link>https://github.com/chenyme/grok2api</link>
-      <guid>https://github.com/chenyme/grok2api#2026-07-15</guid>
-      <pubDate>Wed, 15 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 AlephAITech/WorkBuddyGuide — 732⭐ (146.4/day)</title>
-      <description>A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/AlephAITech/WorkBuddyGuide</link>
-      <guid>https://github.com/AlephAITech/WorkBuddyGuide#2026-07-15</guid>
-      <pubDate>Wed, 15 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
