@@ -456,11 +456,12 @@
       "last_recommended": "2026-07-01T07:35:34.194783+00:00"
     },
     "CoreBunch/Instatic": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-01T07:35:34.196184+00:00"
+      "last_recommended": "2026-07-25T07:03:07.358250+00:00"
     },
     "obra/superpowers": {
       "count": 2,
@@ -725,12 +726,13 @@
       "last_recommended": "2026-07-05T07:49:18.050940+00:00"
     },
     "mattpocock/skills": {
-      "count": 2,
+      "count": 3,
       "scores": [
+        100,
         100,
         100
       ],
-      "last_recommended": "2026-07-15T07:00:01.867991+00:00"
+      "last_recommended": "2026-07-25T07:03:07.360673+00:00"
     },
     "CoplayDev/unity-mcp": {
       "count": 1,
@@ -2021,7 +2023,63 @@
         92
       ],
       "last_recommended": "2026-07-24T07:17:41.282686+00:00"
+    },
+    "citrolabs/ego-lite": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-25T07:03:07.352856+00:00"
+    },
+    "yorukot/superfile": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-25T07:03:07.355725+00:00"
+    },
+    "OtterMind/Chat2DB": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-25T07:03:07.364840+00:00"
+    },
+    "slvDev/esp32-ai": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-25T07:03:07.367442+00:00"
+    },
+    "AdelanSoulX/PM-Sniper": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-25T07:03:07.430446+00:00"
+    },
+    "AdelanSupport/adelan-support": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-25T07:03:07.433175+00:00"
+    },
+    "berabuddies/redis-poc": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-25T07:03:07.435626+00:00"
+    },
+    "Charles-0509/Grok-Register": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-07-25T07:03:07.438140+00:00"
     }
   },
-  "updated_at": "2026-07-24T07:17:41.282713+00:00"
+  "updated_at": "2026-07-25T07:03:07.438162+00:00"
 }
