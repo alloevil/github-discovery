@@ -1,82 +1,5 @@
 {
   "repos": {
-    "lyra81604/zhengxi-views": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:10:32.207031+00:00"
-    },
-    "m1ckc3s/claude-status-bar": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:10:32.209771+00:00"
-    },
-    "benchflow-ai/awesome-evals": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:10:32.212399+00:00"
-    },
-    "Th0rgal/open_oura": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:10:32.215042+00:00"
-    },
-    "WangJunqing-coder/huasheng13-skill": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:10:32.218011+00:00"
-    },
-    "trotsky1997/OpenFugu": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:10:32.223235+00:00"
-    },
-    "aleishawei1983/Seed-Generator": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:10:32.226015+00:00"
-    },
-    "dama-cyber/Casting-Workflow": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:10:32.228774+00:00"
-    },
-    "ccrpRepo/robot_retargeter": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:10:32.231327+00:00"
-    },
-    "amplifthq/opentag": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:10:32.235053+00:00"
-    },
-    "mauriceboe/TREK": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:19:37.535798+00:00"
-    },
     "every-app/open-seo": {
       "count": 2,
       "scores": [
@@ -85,20 +8,6 @@
       ],
       "last_recommended": "2026-07-21T07:20:10.082853+00:00"
     },
-    "garrytan/gstack": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:19:37.541023+00:00"
-    },
-    "mukul975/Anthropic-Cybersecurity-Skills": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:19:37.543627+00:00"
-    },
     "alibaba/page-agent": {
       "count": 2,
       "scores": [
@@ -106,41 +15,6 @@
         100
       ],
       "last_recommended": "2026-07-05T07:49:18.046308+00:00"
-    },
-    "opendatalab/MinerU": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:19:37.548730+00:00"
-    },
-    "shanraisshan/claude-code-best-practice": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:19:37.551291+00:00"
-    },
-    "maria-rcks/dinorip": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:19:37.553818+00:00"
-    },
-    "humation-labs/humation": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:19:37.556370+00:00"
-    },
-    "samuto69/claude-ai-desktop-app": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-26T04:19:37.558875+00:00"
     },
     "winsznx/theeleven": {
       "count": 1,
@@ -464,12 +338,13 @@
       "last_recommended": "2026-07-25T07:03:07.358250+00:00"
     },
     "obra/superpowers": {
-      "count": 2,
+      "count": 3,
       "scores": [
+        100,
         100,
         100
       ],
-      "last_recommended": "2026-07-09T08:17:11.606767+00:00"
+      "last_recommended": "2026-07-26T07:19:52.628251+00:00"
     },
     "TianhangZhuzth/Fundamental-Ava": {
       "count": 1,
@@ -593,11 +468,12 @@
       "last_recommended": "2026-07-03T07:51:39.670600+00:00"
     },
     "affaan-m/ECC": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-03T07:51:39.672189+00:00"
+      "last_recommended": "2026-07-26T07:19:52.642714+00:00"
     },
     "agentskills/agentskills": {
       "count": 1,
@@ -1577,11 +1453,12 @@
       "last_recommended": "2026-07-18T06:33:52.683290+00:00"
     },
     "RyanCodrai/turbovec": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-18T06:33:52.686929+00:00"
+      "last_recommended": "2026-07-26T07:19:52.637179+00:00"
     },
     "Blueturboguy07/cue": {
       "count": 1,
@@ -2079,7 +1956,56 @@
         97
       ],
       "last_recommended": "2026-07-25T07:03:07.438140+00:00"
+    },
+    "permissionlesstech/bitchat": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-26T07:19:52.631501+00:00"
+    },
+    "palmier-io/palmier-pro": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-26T07:19:52.634407+00:00"
+    },
+    "andrewyng/aisuite": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-26T07:19:52.639928+00:00"
+    },
+    "mikiarlo3/ai-copywriter": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-26T07:19:52.645555+00:00"
+    },
+    "zeus-panel/ZEUS-PANEL": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-26T07:19:52.648569+00:00"
+    },
+    "Kritt-ai/open-kritt": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-26T07:19:52.651366+00:00"
+    },
+    "melloworchid8rr6g/TG-Polymarket-bot": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-26T07:19:52.654272+00:00"
     }
   },
-  "updated_at": "2026-07-25T07:03:07.438162+00:00"
+  "updated_at": "2026-07-26T07:19:52.654301+00:00"
 }

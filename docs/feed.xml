@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Jul 2026 10:15:42 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 07:19:53 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 obra/superpowers — 261235⭐ (903.9/day)</title>
+      <description>An agentic skills framework &amp; software development methodology that works.
+
+Score: 100/100 | Language: Shell</description>
+      <link>https://github.com/obra/superpowers</link>
+      <guid>https://github.com/obra/superpowers#2026-07-26</guid>
+      <pubDate>Sun, 26 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 permissionlesstech/bitchat — 28923⭐ (74.9/day)</title>
+      <description>bluetooth mesh chat, IRC vibes
+
+Score: 100/100 | Language: Swift</description>
+      <link>https://github.com/permissionlesstech/bitchat</link>
+      <guid>https://github.com/permissionlesstech/bitchat#2026-07-26</guid>
+      <pubDate>Sun, 26 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 palmier-io/palmier-pro — 12315⭐ (112.0/day)</title>
+      <description>macOS video editor built for AI
+
+Score: 100/100 | Language: Swift</description>
+      <link>https://github.com/palmier-io/palmier-pro</link>
+      <guid>https://github.com/palmier-io/palmier-pro#2026-07-26</guid>
+      <pubDate>Sun, 26 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 RyanCodrai/turbovec — 14337⭐ (118.5/day)</title>
+      <description>A vector index built on TurboQuant, written in Rust with Python bindings
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/RyanCodrai/turbovec</link>
+      <guid>https://github.com/RyanCodrai/turbovec#2026-07-26</guid>
+      <pubDate>Sun, 26 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 andrewyng/aisuite — 15274⭐ (20.2/day)</title>
+      <description>Simple, unified interface to multiple Generative AI providers
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/andrewyng/aisuite</link>
+      <guid>https://github.com/andrewyng/aisuite#2026-07-26</guid>
+      <pubDate>Sun, 26 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 citrolabs/ego-lite — 2861⭐ (28.9/day)</title>
       <description>The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.
@@ -411,51 +456,6 @@ Score: 100/100 | Language: Rust</description>
       <link>https://github.com/xai-org/grok-build</link>
       <guid>https://github.com/xai-org/grok-build#2026-07-17</guid>
       <pubDate>Fri, 17 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 openinterpreter/openinterpreter — 65656⭐ (59.9/day)</title>
-      <description>A coding agent for low-cost models
-
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/openinterpreter/openinterpreter</link>
-      <guid>https://github.com/openinterpreter/openinterpreter#2026-07-16</guid>
-      <pubDate>Thu, 16 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 HKUDS/DeepTutor — 26506⭐ (133.2/day)</title>
-      <description>DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/HKUDS/DeepTutor</link>
-      <guid>https://github.com/HKUDS/DeepTutor#2026-07-16</guid>
-      <pubDate>Thu, 16 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 HenryNdubuaku/maths-cs-ai-compendium — 6075⭐ (37.5/day)</title>
-      <description>Become a cracked AI/ML Research Engineer
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/HenryNdubuaku/maths-cs-ai-compendium</link>
-      <guid>https://github.com/HenryNdubuaku/maths-cs-ai-compendium#2026-07-16</guid>
-      <pubDate>Thu, 16 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Fei-Away/Codex-Dream-Skin — 1693⭐ (1693.0/day)</title>
-      <description>Codex Dream Skin
-
-Score: 100/100 | Language: Shell</description>
-      <link>https://github.com/Fei-Away/Codex-Dream-Skin</link>
-      <guid>https://github.com/Fei-Away/Codex-Dream-Skin#2026-07-16</guid>
-      <pubDate>Thu, 16 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 pixel-point/aval — 751⭐ (375.5/day)</title>
-      <description>A new open-source format for interactive video on the web, with a built-in state machine, frame-accurate transitions, and packed-alpha transparency.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/pixel-point/aval</link>
-      <guid>https://github.com/pixel-point/aval#2026-07-16</guid>
-      <pubDate>Thu, 16 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
