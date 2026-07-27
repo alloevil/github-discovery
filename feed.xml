@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Jul 2026 10:22:10 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 08:07:17 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 pingdotgg/t3code — 15159⭐ (90.2/day)</title>
+      <description>
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/pingdotgg/t3code</link>
+      <guid>https://github.com/pingdotgg/t3code#2026-07-27</guid>
+      <pubDate>Mon, 27 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 nodejs/node — 118532⭐ (27.8/day)</title>
+      <description>Node.js JavaScript runtime ✨🐢🚀✨
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/nodejs/node</link>
+      <guid>https://github.com/nodejs/node#2026-07-27</guid>
+      <pubDate>Mon, 27 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 pbakaus/impeccable — 50957⭐ (201.4/day)</title>
+      <description>The design language that makes your AI harness better at design.
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/pbakaus/impeccable</link>
+      <guid>https://github.com/pbakaus/impeccable#2026-07-27</guid>
+      <pubDate>Mon, 27 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 vercel-labs/scriptc — 858⭐ (214.5/day)</title>
+      <description>TypeScript-to-Native Compiler
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/vercel-labs/scriptc</link>
+      <guid>https://github.com/vercel-labs/scriptc#2026-07-27</guid>
+      <pubDate>Mon, 27 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 mshumer/Claude-of-Duty — 784⭐ (784.0/day)</title>
+      <description>A Call of Duty-quality FPS in Three.js, built from a single prompt.
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/mshumer/Claude-of-Duty</link>
+      <guid>https://github.com/mshumer/Claude-of-Duty#2026-07-27</guid>
+      <pubDate>Mon, 27 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 obra/superpowers — 261235⭐ (903.9/day)</title>
       <description>An agentic skills framework &amp; software development methodology that works.
@@ -411,51 +456,6 @@ Score: 100/100 | Language: Go</description>
       <link>https://github.com/nethical6/conversation-steganography</link>
       <guid>https://github.com/nethical6/conversation-steganography#2026-07-18</guid>
       <pubDate>Sat, 18 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 lobehub/lobehub — 80319⭐ (69.7/day)</title>
-      <description>🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/lobehub/lobehub</link>
-      <guid>https://github.com/lobehub/lobehub#2026-07-17</guid>
-      <pubDate>Fri, 17 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 github/copilot-sdk — 9708⭐ (52.8/day)</title>
-      <description>Multi-platform SDK for integrating GitHub Copilot Agent into apps and services
-
-Score: 100/100 | Language: Java</description>
-      <link>https://github.com/github/copilot-sdk</link>
-      <guid>https://github.com/github/copilot-sdk#2026-07-17</guid>
-      <pubDate>Fri, 17 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 ibelick/ui-skills — 4466⭐ (23.5/day)</title>
-      <description>Skills for Design Engineers
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/ibelick/ui-skills</link>
-      <guid>https://github.com/ibelick/ui-skills#2026-07-17</guid>
-      <pubDate>Fri, 17 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 codecrafters-io/build-your-own-x — 526582⭐ (176.1/day)</title>
-      <description>Master programming by recreating your favorite technologies from scratch.
-
-Score: 100/100 | Language: Markdown</description>
-      <link>https://github.com/codecrafters-io/build-your-own-x</link>
-      <guid>https://github.com/codecrafters-io/build-your-own-x#2026-07-17</guid>
-      <pubDate>Fri, 17 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 xai-org/grok-build — 13634⭐ (6817.0/day)</title>
-      <description>SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.
-
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/xai-org/grok-build</link>
-      <guid>https://github.com/xai-org/grok-build#2026-07-17</guid>
-      <pubDate>Fri, 17 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
