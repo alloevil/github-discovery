@@ -16,76 +16,6 @@
       ],
       "last_recommended": "2026-07-05T07:49:18.046308+00:00"
     },
-    "winsznx/theeleven": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-27T04:08:26.017853+00:00"
-    },
-    "Pluviobyte/video-production-skills": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-27T04:08:26.020517+00:00"
-    },
-    "bikini/exploitarium": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-27T04:08:26.023064+00:00"
-    },
-    "tutusagi/ai-fishing-game": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-27T04:08:26.026758+00:00"
-    },
-    "MalcolmMcGough/polymarket-trading-bot-scalping": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-27T04:08:26.029318+00:00"
-    },
-    "lemma-work/lemma-platform": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-27T04:08:26.032328+00:00"
-    },
-    "FishCodeTech/muteki": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-27T04:08:26.034850+00:00"
-    },
-    "Simpl3x3/ESEILANE": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-27T04:08:26.037411+00:00"
-    },
-    "FlavioAdamo/openfit": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-06-27T04:08:26.039918+00:00"
-    },
-    "xxniiinxx/coinflip-casino": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-06-27T04:08:26.042473+00:00"
-    },
     "deepseek-ai/DeepSpec": {
       "count": 1,
       "scores": [
@@ -935,11 +865,12 @@
       "last_recommended": "2026-07-10T08:04:53.597293+00:00"
     },
     "anthropics/claude-cookbooks": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        98,
         98
       ],
-      "last_recommended": "2026-07-10T08:04:53.599259+00:00"
+      "last_recommended": "2026-07-27T08:07:16.620144+00:00"
     },
     "vxcontrol/pentagi": {
       "count": 1,
@@ -1138,11 +1069,12 @@
       "last_recommended": "2026-07-13T04:07:58.475919+00:00"
     },
     "pingdotgg/t3code": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-13T04:07:58.478723+00:00"
+      "last_recommended": "2026-07-27T08:07:16.595647+00:00"
     },
     "virattt/ai-hedge-fund": {
       "count": 1,
@@ -2005,7 +1937,63 @@
         100
       ],
       "last_recommended": "2026-07-26T07:19:52.654272+00:00"
+    },
+    "nodejs/node": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-27T08:07:16.598571+00:00"
+    },
+    "pbakaus/impeccable": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-27T08:07:16.601394+00:00"
+    },
+    "vercel-labs/scriptc": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-27T08:07:16.603989+00:00"
+    },
+    "mshumer/Claude-of-Duty": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-27T08:07:16.606499+00:00"
+    },
+    "makecindy/cindy": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-27T08:07:16.609187+00:00"
+    },
+    "hahhforest/pi-textbook": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-27T08:07:16.611832+00:00"
+    },
+    "mikehasa/agentacct": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-27T08:07:16.614596+00:00"
+    },
+    "VictorTaelin/OptMem": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-27T08:07:16.617362+00:00"
     }
   },
-  "updated_at": "2026-07-26T07:19:52.654301+00:00"
+  "updated_at": "2026-07-27T08:07:16.620171+00:00"
 }
