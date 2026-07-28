@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jul 2026 11:57:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 07:24:37 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 moeru-ai/airi — 44311⭐ (73.5/day)</title>
+      <description>💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/moeru-ai/airi</link>
+      <guid>https://github.com/moeru-ai/airi#2026-07-28</guid>
+      <pubDate>Tue, 28 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 opengeos/GeoLibre — 2924⭐ (47.9/day)</title>
+      <description>A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/opengeos/GeoLibre</link>
+      <guid>https://github.com/opengeos/GeoLibre#2026-07-28</guid>
+      <pubDate>Tue, 28 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 NanmiCoder/MediaCrawler — 58583⭐ (51.2/day)</title>
+      <description>小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/NanmiCoder/MediaCrawler</link>
+      <guid>https://github.com/NanmiCoder/MediaCrawler#2026-07-28</guid>
+      <pubDate>Tue, 28 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 bradautomates/claude-video — 11414⭐ (120.1/day)</title>
+      <description>Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/bradautomates/claude-video</link>
+      <guid>https://github.com/bradautomates/claude-video#2026-07-28</guid>
+      <pubDate>Tue, 28 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 mvanhorn/last30days-skill — 54364⭐ (293.9/day)</title>
+      <description>AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/mvanhorn/last30days-skill</link>
+      <guid>https://github.com/mvanhorn/last30days-skill#2026-07-28</guid>
+      <pubDate>Tue, 28 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 pingdotgg/t3code — 15159⭐ (90.2/day)</title>
       <description>
@@ -411,51 +456,6 @@ Score: 100/100 | Language: Swift</description>
       <link>https://github.com/JustinGamer191/Holo</link>
       <guid>https://github.com/JustinGamer191/Holo#2026-07-19</guid>
       <pubDate>Sun, 19 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 tirth8205/code-review-graph — 19861⭐ (140.9/day)</title>
-      <description>Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/tirth8205/code-review-graph</link>
-      <guid>https://github.com/tirth8205/code-review-graph#2026-07-18</guid>
-      <pubDate>Sat, 18 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 RyanCodrai/turbovec — 13398⭐ (118.6/day)</title>
-      <description>A vector index built on TurboQuant, written in Rust with Python bindings
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/RyanCodrai/turbovec</link>
-      <guid>https://github.com/RyanCodrai/turbovec#2026-07-18</guid>
-      <pubDate>Sat, 18 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Blueturboguy07/cue — 497⭐ (248.5/day)</title>
-      <description>Open-source macOS AI copilot that floats over your screen, sees/hears your meetings, and stays hidden from screen shares. Cluely alternative, bring-your-own-key.
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/Blueturboguy07/cue</link>
-      <guid>https://github.com/Blueturboguy07/cue#2026-07-18</guid>
-      <pubDate>Sat, 18 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 pablostanley/yoinks — 462⭐ (462.0/day)</title>
-      <description>yoink any video from your terminal. no shady ads.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/pablostanley/yoinks</link>
-      <guid>https://github.com/pablostanley/yoinks#2026-07-18</guid>
-      <pubDate>Sat, 18 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 nethical6/conversation-steganography — 355⭐ (355.0/day)</title>
-      <description>Use LLMs to hide secret messages inside normal looking conversations
-
-Score: 100/100 | Language: Go</description>
-      <link>https://github.com/nethical6/conversation-steganography</link>
-      <guid>https://github.com/nethical6/conversation-steganography#2026-07-18</guid>
-      <pubDate>Sat, 18 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
