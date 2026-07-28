@@ -16,76 +16,6 @@
       ],
       "last_recommended": "2026-07-05T07:49:18.046308+00:00"
     },
-    "deepseek-ai/DeepSpec": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-28T04:10:03.392461+00:00"
-    },
-    "AlexandrosGounis/pdfx": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-28T04:10:03.395219+00:00"
-    },
-    "iebb/mithka": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-28T04:10:03.397767+00:00"
-    },
-    "cclank/lanshu-animated-architecture-diagram": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-28T04:10:03.400537+00:00"
-    },
-    "zanetanasta/Seed-Generator": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-28T04:10:03.403079+00:00"
-    },
-    "FossPrime/Steam-Controller-Auto-Charge": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-28T04:10:03.405771+00:00"
-    },
-    "eli-labz/Godcoder": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-28T04:10:03.408451+00:00"
-    },
-    "playPlumtown/Plumtown": {
-      "count": 1,
-      "scores": [
-        97
-      ],
-      "last_recommended": "2026-06-28T04:10:03.411999+00:00"
-    },
-    "uphiago/recon-skills": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-06-28T04:10:03.414634+00:00"
-    },
-    "CopilotKit/OpenTag": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-06-28T04:10:03.417172+00:00"
-    },
     "xbtlin/ai-berkshire": {
       "count": 1,
       "scores": [
@@ -655,18 +585,20 @@
       "last_recommended": "2026-07-07T08:03:52.280549+00:00"
     },
     "mvanhorn/last30days-skill": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-07T08:03:52.282735+00:00"
+      "last_recommended": "2026-07-28T07:24:36.736362+00:00"
     },
     "bradautomates/claude-video": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-07T08:03:52.285035+00:00"
+      "last_recommended": "2026-07-28T07:24:36.733355+00:00"
     },
     "karakeep-app/karakeep": {
       "count": 1,
@@ -1133,11 +1065,12 @@
       "last_recommended": "2026-07-14T06:58:01.455144+00:00"
     },
     "moeru-ai/airi": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-14T06:58:01.460601+00:00"
+      "last_recommended": "2026-07-28T07:24:36.724636+00:00"
     },
     "Graphify-Labs/graphify": {
       "count": 1,
@@ -1993,7 +1926,56 @@
         100
       ],
       "last_recommended": "2026-07-27T08:07:16.617362+00:00"
+    },
+    "opengeos/GeoLibre": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-28T07:24:36.727714+00:00"
+    },
+    "NanmiCoder/MediaCrawler": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-28T07:24:36.730487+00:00"
+    },
+    "kvcache-ai/AgentENV": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-28T07:24:36.739354+00:00"
+    },
+    "0xwilliamortiz/openclaude-improved": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-28T07:24:36.742390+00:00"
+    },
+    "didriksg/Crisp": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-28T07:24:36.745262+00:00"
+    },
+    "vudovn/ag-kit": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-07-28T07:24:36.748049+00:00"
+    },
+    "dboudreau00/NocTORnal": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-07-28T07:24:36.750861+00:00"
     }
   },
-  "updated_at": "2026-07-27T08:07:16.620171+00:00"
+  "updated_at": "2026-07-28T07:24:36.750888+00:00"
 }
