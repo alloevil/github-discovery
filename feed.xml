@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jul 2026 11:01:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 07:31:16 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 pascalorg/editor — 19046⭐ (66.8/day)</title>
+      <description>Create and share 3D architectural projects.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/pascalorg/editor</link>
+      <guid>https://github.com/pascalorg/editor#2026-07-29</guid>
+      <pubDate>Wed, 29 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 virgiliojr94/book-to-skill — 11870⭐ (133.4/day)</title>
+      <description>Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/virgiliojr94/book-to-skill</link>
+      <guid>https://github.com/virgiliojr94/book-to-skill#2026-07-29</guid>
+      <pubDate>Wed, 29 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 microsoft/agent-governance-toolkit — 5360⭐ (36.2/day)</title>
+      <description>AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/microsoft/agent-governance-toolkit</link>
+      <guid>https://github.com/microsoft/agent-governance-toolkit#2026-07-29</guid>
+      <pubDate>Wed, 29 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 fuadmefleh/Shared-Claude-Chats — 801⭐ (267.0/day)</title>
+      <description>An archive of public Claude and Grok conversations, exported from their share links as plain markdown, plus the two scripts that produce it.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/fuadmefleh/Shared-Claude-Chats</link>
+      <guid>https://github.com/fuadmefleh/Shared-Claude-Chats#2026-07-29</guid>
+      <pubDate>Wed, 29 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 digimata/quill — 667⭐ (166.8/day)</title>
+      <description>Ultraminimalist macOS recording + transcription.
+
+Score: 100/100 | Language: Swift</description>
+      <link>https://github.com/digimata/quill</link>
+      <guid>https://github.com/digimata/quill#2026-07-29</guid>
+      <pubDate>Wed, 29 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 moeru-ai/airi — 44311⭐ (73.5/day)</title>
       <description>💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.
@@ -411,51 +456,6 @@ Score: 100/100 | Language: Python</description>
       <link>https://github.com/AstrBotDevs/AstrBot</link>
       <guid>https://github.com/AstrBotDevs/AstrBot#2026-07-20</guid>
       <pubDate>Mon, 20 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Robbyant/lingbot-map — 13156⭐ (140.0/day)</title>
-      <description>A feed-forward 3D foundation model for reconstructing scenes from streaming data
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/Robbyant/lingbot-map</link>
-      <guid>https://github.com/Robbyant/lingbot-map#2026-07-19</guid>
-      <pubDate>Sun, 19 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 rohitg00/ai-engineering-from-scratch — 39235⭐ (321.6/day)</title>
-      <description>Learn it. Build it. Ship it for others.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/rohitg00/ai-engineering-from-scratch</link>
-      <guid>https://github.com/rohitg00/ai-engineering-from-scratch#2026-07-19</guid>
-      <pubDate>Sun, 19 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 stackblitz/bolt-slides — 396⭐ (99.0/day)</title>
-      <description>Use any agent to create stunning, interactive presentations
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/stackblitz/bolt-slides</link>
-      <guid>https://github.com/stackblitz/bolt-slides#2026-07-19</guid>
-      <pubDate>Sun, 19 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 pyang5166/gbro-collage-broll — 368⭐ (122.7/day)</title>
-      <description>半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/pyang5166/gbro-collage-broll</link>
-      <guid>https://github.com/pyang5166/gbro-collage-broll#2026-07-19</guid>
-      <pubDate>Sun, 19 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 JustinGamer191/Holo — 312⭐ (312.0/day)</title>
-      <description>
-
-Score: 100/100 | Language: Swift</description>
-      <link>https://github.com/JustinGamer191/Holo</link>
-      <guid>https://github.com/JustinGamer191/Holo#2026-07-19</guid>
-      <pubDate>Sun, 19 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
