@@ -1975,7 +1975,77 @@
         90
       ],
       "last_recommended": "2026-07-28T07:24:36.750861+00:00"
+    },
+    "pascalorg/editor": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-29T07:31:15.736402+00:00"
+    },
+    "virgiliojr94/book-to-skill": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-29T07:31:15.740948+00:00"
+    },
+    "microsoft/agent-governance-toolkit": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-29T07:31:15.743768+00:00"
+    },
+    "fuadmefleh/Shared-Claude-Chats": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-29T07:31:15.746475+00:00"
+    },
+    "digimata/quill": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-29T07:31:15.749209+00:00"
+    },
+    "0xwilliamortiz/ponytail-improved": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-29T07:31:15.752003+00:00"
+    },
+    "daimon3332/OutlookRegister": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-29T07:31:15.754736+00:00"
+    },
+    "NikolayS/PGSimCity": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-07-29T07:31:15.757356+00:00"
+    },
+    "deerwork-ai/deer-workflow": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-07-29T07:31:15.760041+00:00"
+    },
+    "gavamedia/deltafin": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-07-29T07:31:15.762766+00:00"
     }
   },
-  "updated_at": "2026-07-28T07:24:36.750888+00:00"
+  "updated_at": "2026-07-29T07:31:15.762796+00:00"
 }
