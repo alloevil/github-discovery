@@ -16,13 +16,6 @@
       ],
       "last_recommended": "2026-07-05T07:49:18.046308+00:00"
     },
-    "xbtlin/ai-berkshire": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-29T07:31:26.592071+00:00"
-    },
     "Robbyant/lingbot-map": {
       "count": 2,
       "scores": [
@@ -31,13 +24,6 @@
       ],
       "last_recommended": "2026-07-19T07:15:39.717344+00:00"
     },
-    "DeusData/codebase-memory-mcp": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-29T07:31:26.594857+00:00"
-    },
     "HKUDS/Vibe-Trading": {
       "count": 2,
       "scores": [
@@ -45,41 +31,6 @@
         100
       ],
       "last_recommended": "2026-07-14T06:58:01.458520+00:00"
-    },
-    "browser-use/video-use": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-29T07:31:26.597246+00:00"
-    },
-    "Yu9191/wloc": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-29T07:31:26.598680+00:00"
-    },
-    "Krishnagangwal/CS-Fundamentals": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-06-29T07:31:26.600098+00:00"
-    },
-    "bozhouDev/codex-orange-book": {
-      "count": 1,
-      "scores": [
-        98
-      ],
-      "last_recommended": "2026-06-29T07:31:26.601393+00:00"
-    },
-    "ByteByteGoHq/system-design-101": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-06-29T07:31:26.602783+00:00"
     },
     "usestrix/strix": {
       "count": 2,
@@ -1515,11 +1466,12 @@
       "last_recommended": "2026-07-20T07:46:16.191071+00:00"
     },
     "1jehuang/jcode": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-21T07:20:09.550069+00:00"
+      "last_recommended": "2026-07-30T07:20:26.214951+00:00"
     },
     "topoteretes/cognee": {
       "count": 1,
@@ -2045,7 +1997,70 @@
         90
       ],
       "last_recommended": "2026-07-29T07:31:15.762766+00:00"
+    },
+    "microsoft/VibeVoice": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-30T07:20:26.219108+00:00"
+    },
+    "different-ai/openwork": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-30T07:20:26.221980+00:00"
+    },
+    "xikhar/persona": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-30T07:20:26.224949+00:00"
+    },
+    "talivia-group/talivia": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-30T07:20:26.227879+00:00"
+    },
+    "wassgha/rescript": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-30T07:20:26.230822+00:00"
+    },
+    "achimala/TheLongSilence": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-07-30T07:20:26.234037+00:00"
+    },
+    "huggingface/speech-to-speech": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-07-30T07:20:26.237393+00:00"
+    },
+    "sii-research/tau-0-vla": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-07-30T07:20:26.241758+00:00"
+    },
+    "AmazingAng/old-coder": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-07-30T07:20:26.244573+00:00"
     }
   },
-  "updated_at": "2026-07-29T07:31:15.762796+00:00"
+  "updated_at": "2026-07-30T07:20:26.244600+00:00"
 }
