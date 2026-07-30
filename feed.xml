@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jul 2026 11:08:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 07:20:26 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 1jehuang/jcode — 13660⭐ (66.6/day)</title>
+      <description>The most RAM efficient harness
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/1jehuang/jcode</link>
+      <guid>https://github.com/1jehuang/jcode#2026-07-30</guid>
+      <pubDate>Thu, 30 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 microsoft/VibeVoice — 51482⭐ (152.3/day)</title>
+      <description>Open-Source Frontier Voice AI
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/microsoft/VibeVoice</link>
+      <guid>https://github.com/microsoft/VibeVoice#2026-07-30</guid>
+      <pubDate>Thu, 30 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 different-ai/openwork — 18181⭐ (92.3/day)</title>
+      <description>The open-source alternative to Claude Cowork (powered by opencode)
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/different-ai/openwork</link>
+      <guid>https://github.com/different-ai/openwork#2026-07-30</guid>
+      <pubDate>Thu, 30 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 xikhar/persona — 593⭐ (593.0/day)</title>
+      <description>Bringing real-time voice to life.
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/xikhar/persona</link>
+      <guid>https://github.com/xikhar/persona#2026-07-30</guid>
+      <pubDate>Thu, 30 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 talivia-group/talivia — 459⭐ (459.0/day)</title>
+      <description>Open-source, self-hosted revenue-first analytics for founders: web analytics, Session Replay, revenue attribution, and customer revenue integrations. datafast alternative
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/talivia-group/talivia</link>
+      <guid>https://github.com/talivia-group/talivia#2026-07-30</guid>
+      <pubDate>Thu, 30 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 pascalorg/editor — 19046⭐ (66.8/day)</title>
       <description>Create and share 3D architectural projects.
@@ -411,51 +456,6 @@ Score: 100/100 | Language: TypeScript</description>
       <link>https://github.com/every-app/open-seo</link>
       <guid>https://github.com/every-app/open-seo#2026-07-21</guid>
       <pubDate>Tue, 21 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 bojieli/ai-agent-book — 7740⭐ (24.6/day)</title>
-      <description>《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/bojieli/ai-agent-book</link>
-      <guid>https://github.com/bojieli/ai-agent-book#2026-07-20</guid>
-      <pubDate>Mon, 20 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 kvcache-ai/ktransformers — 18511⭐ (25.6/day)</title>
-      <description>A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/kvcache-ai/ktransformers</link>
-      <guid>https://github.com/kvcache-ai/ktransformers#2026-07-20</guid>
-      <pubDate>Mon, 20 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 jamiepine/voicebox — 43647⭐ (249.4/day)</title>
-      <description>The open-source AI voice studio. Clone, dictate, create.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/jamiepine/voicebox</link>
-      <guid>https://github.com/jamiepine/voicebox#2026-07-20</guid>
-      <pubDate>Mon, 20 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 KnockOutEZ/wigolo — 2094⭐ (21.4/day)</title>
-      <description>The go-to web for your AI coding agent — local-first search, fetch, crawl &amp; research over MCP. No API keys, no cloud, $0/query. Public beta.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/KnockOutEZ/wigolo</link>
-      <guid>https://github.com/KnockOutEZ/wigolo#2026-07-20</guid>
-      <pubDate>Mon, 20 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 AstrBotDevs/AstrBot — 36808⭐ (27.9/day)</title>
-      <description>AI Agent Assistant &amp; development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/AstrBotDevs/AstrBot</link>
-      <guid>https://github.com/AstrBotDevs/AstrBot#2026-07-20</guid>
-      <pubDate>Mon, 20 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
