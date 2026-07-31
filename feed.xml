@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jul 2026 10:50:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 07:35:05 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 microsoft/PowerToys — 137244⭐ (51.8/day)</title>
+      <description>Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows
+
+Score: 100/100 | Language: C</description>
+      <link>https://github.com/microsoft/PowerToys</link>
+      <guid>https://github.com/microsoft/PowerToys#2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 ChromeDevTools/chrome-devtools-mcp — 48180⭐ (149.6/day)</title>
+      <description>Chrome DevTools for coding agents
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
+      <guid>https://github.com/ChromeDevTools/chrome-devtools-mcp#2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 MoonshotAI/Kimi-K3 — 7592⭐ (2530.7/day)</title>
+      <description>Open Frontier Intelligence
+
+Score: 100/100 | Language: ?</description>
+      <link>https://github.com/MoonshotAI/Kimi-K3</link>
+      <guid>https://github.com/MoonshotAI/Kimi-K3#2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 bashalarmistalt/decimen-optical-transfer — 514⭐ (514.0/day)</title>
+      <description>
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/bashalarmistalt/decimen-optical-transfer</link>
+      <guid>https://github.com/bashalarmistalt/decimen-optical-transfer#2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 QwenAudio/qwen-audio-agent — 505⭐ (126.2/day)</title>
+      <description>A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime for AI Agents
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/QwenAudio/qwen-audio-agent</link>
+      <guid>https://github.com/QwenAudio/qwen-audio-agent#2026-07-31</guid>
+      <pubDate>Fri, 31 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 1jehuang/jcode — 13660⭐ (66.6/day)</title>
       <description>The most RAM efficient harness
@@ -411,51 +456,6 @@ Score: 100/100 | Language: C</description>
       <link>https://github.com/hyprwm/Hyprland</link>
       <guid>https://github.com/hyprwm/Hyprland#2026-07-22</guid>
       <pubDate>Wed, 22 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 1jehuang/jcode — 9873⭐ (50.4/day)</title>
-      <description>The most intelligent agent harness for code
-
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/1jehuang/jcode</link>
-      <guid>https://github.com/1jehuang/jcode#2026-07-21</guid>
-      <pubDate>Tue, 21 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 diegosouzapw/OmniRoute — 22383⭐ (142.6/day)</title>
-      <description>Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline &amp; Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, multimodal, Desktop/PWA. Built by 500+ contributors.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/diegosouzapw/OmniRoute</link>
-      <guid>https://github.com/diegosouzapw/OmniRoute#2026-07-21</guid>
-      <pubDate>Tue, 21 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 msitarzewski/agency-agents — 134986⭐ (482.1/day)</title>
-      <description>A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-
-Score: 100/100 | Language: Shell</description>
-      <link>https://github.com/msitarzewski/agency-agents</link>
-      <guid>https://github.com/msitarzewski/agency-agents#2026-07-21</guid>
-      <pubDate>Tue, 21 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 topoteretes/cognee — 28891⭐ (27.0/day)</title>
-      <description>Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/topoteretes/cognee</link>
-      <guid>https://github.com/topoteretes/cognee#2026-07-21</guid>
-      <pubDate>Tue, 21 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 every-app/open-seo — 6111⭐ (42.7/day)</title>
-      <description>Open source alternative to Semrush and Ahrefs
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/every-app/open-seo</link>
-      <guid>https://github.com/every-app/open-seo#2026-07-21</guid>
-      <pubDate>Tue, 21 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
