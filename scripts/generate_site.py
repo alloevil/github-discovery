@@ -41,6 +41,7 @@ SOURCE_LABELS = {
     "hn": "🟠 HN",
     "rising": "📈 Rising",
     "ai-trending": "🤖 AI/ML",
+    "hf-papers": "🤗 HF Papers",
 }
 
 

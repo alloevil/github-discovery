@@ -13,6 +13,10 @@ GITHUB_TRENDING_URL = "https://github.com/trending?since=daily"
 # Hacker News API
 HN_API = "https://hacker-news.firebaseio.com/v0"
 
+# Hugging Face Daily Papers — AI 论文社区热榜，~2/3 的论文直接带
+# githubRepo 字段；论文热度往往领先 GitHub star 数天，是很好的早期信号。
+HF_PAPERS_API = "https://huggingface.co/api/daily_papers"
+
 # Firecrawl (https://firecrawl.dev) — used to make GitHub Trending parsing
 # robust (its raw HTML structure is brittle to regex).
 FIRECRAWL_API_KEY = os.environ.get("FIRECRAWL_API_KEY", "")
