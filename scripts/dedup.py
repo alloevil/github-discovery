@@ -46,6 +46,17 @@ def is_recently_recommended(repo_full_name: str, days: int = 7) -> bool:
         return False
 
 
+def was_recommended_before(repo_full_name: str) -> bool:
+    """该仓库是否在历史上（最近 30 天内，见 cleanup_old_records）被推荐过。
+
+    用于区分 First Timer / Repeat Performer。之前用 SQLite（discovery.db）
+    判断，但 *.db 被 gitignore、CI 每次全新，导致 Repeat 永远为空；
+    recommend_history.json 随仓库提交，才是跨 run 持久的事实来源。
+    """
+    data = _load_history()
+    return repo_full_name in data.get("repos", {})
+
+
 def record_recommendation(repo_full_name: str, score: float):
     """Record that a repo was recommended."""
     data = _load_history()

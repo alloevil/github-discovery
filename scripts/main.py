@@ -16,13 +16,17 @@ from datetime import datetime
 # Ensure we can import sibling modules
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from config import TOP_N, OUTPUT_DIR, RESEND_API_KEY
-from db import init_db, repo_exists, save_repo, save_run
+from config import TOP_N, DEEP_CHECK_TOP_K, OUTPUT_DIR, DATA_DIR, RESEND_API_KEY
+from db import init_db, save_repo, save_run
 from sources import fetch_all
 from scorer import calculate_score
-from dedup import is_recently_recommended, record_recommendation, cleanup_old_records
+from dedup import (
+    is_recently_recommended, was_recommended_before,
+    record_recommendation, cleanup_old_records,
+)
 from quality import check_quality, check_star_authenticity, is_blocked_content
 from fraud_detection import detect_batch_fraud, apply_fraud_penalty
+from snapshots import record_snapshots, get_growth
 
 
 def get_subscribers() -> list[str]:
@@ -117,7 +121,8 @@ def send_digest_email(date_str: str, top_new: list) -> str:
         name = repo['full_name']
         url = html.escape(repo['url'], quote=True)
         stars = repo.get('stars', 0)
-        daily = repo.get('daily_stars', 0)
+        real_daily = repo.get('real_daily_stars')
+        daily = real_daily if real_daily is not None else repo.get('daily_stars', 0)
         lang = repo.get('language', '')
         desc = html.escape((repo.get('description') or 'No description')[:120])
         score = scores.get('total', 0)
@@ -204,16 +209,54 @@ def send_digest_email(date_str: str, top_new: list) -> str:
     return send_email_via_resend(subscribers, f"🔥 GitHub Discovery — {date_str}", html_body)
 
 
+JSON_REPO_FIELDS = [
+    "full_name", "url", "description", "language", "stars", "forks",
+    "age_days", "daily_stars", "real_daily_stars", "watchers",
+    "source", "sources", "license",
+    "hn_title", "hn_score", "rising_signal",
+    "has_readme", "has_license", "has_ci",
+]
+
+
+def repo_to_json(repo: dict, scores: dict, rank: int) -> dict:
+    """Whitelist repo fields + scores for the structured JSON report."""
+    entry = {k: repo[k] for k in JSON_REPO_FIELDS if k in repo}
+    entry["rank"] = rank
+    entry["scores"] = scores
+    return entry
+
+
+def write_json_report(date_str: str, top_new: list, top_repeat: list) -> str:
+    """写结构化 JSON 报告（data/discovery-YYYY-MM-DD.json）。
+
+    网站/RSS 从这里读取数据，markdown 报告只服务于人类阅读 ——
+    避免 generate_site.py 用正则反解析自己生成的 markdown。
+    """
+    os.makedirs(DATA_DIR, exist_ok=True)
+    path = os.path.join(DATA_DIR, f"discovery-{date_str}.json")
+    payload = {
+        "date": date_str,
+        "generated_at": datetime.now().isoformat(),
+        "new": [repo_to_json(r, s, i) for i, (r, s) in enumerate(top_new, 1)],
+        "repeat": [repo_to_json(r, s, i) for i, (r, s) in enumerate(top_repeat, 1)],
+    }
+    with open(path, "w") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=1)
+    return path
+
+
 def format_repo_markdown(repo: dict, scores: dict, rank: int) -> str:
     """Format a single repo as markdown."""
     name = repo["full_name"]
     url = repo["url"]
     stars = repo.get("stars", 0)
     age = repo.get("age_days", 1)
-    daily = repo.get("daily_stars", 0)
+    real_daily = repo.get("real_daily_stars")
+    daily = real_daily if real_daily is not None else repo.get("daily_stars", 0)
+    growth_label = "stars/day (measured)" if real_daily is not None else "stars/day (lifetime avg)"
     desc = repo.get("description", "No description")
     lang = repo.get("language", "Unknown")
-    source = repo.get("source", "unknown")
+    source = " + ".join(repo.get("sources") or [repo.get("source", "unknown")])
     total = scores["total"]
 
     # Score bar
@@ -227,7 +270,7 @@ def format_repo_markdown(repo: dict, scores: dict, rank: int) -> str:
         f"|--------|-------|",
         f"| ⭐ Stars | {stars:,} |",
         f"| 📅 Age | {age} days |",
-        f"| 🚀 Daily Growth | {daily:.1f} stars/day |",
+        f"| 🚀 Daily Growth | {daily:.1f} {growth_label} |",
         f"| 🔤 Language | {lang} |",
         f"| 📡 Source | {source} |",
         f"",
@@ -318,9 +361,9 @@ def main():
         print("[ERROR] No repos found from any source. Check network/API.")
         sys.exit(1)
 
-    # Score and filter
-    new_scored = []
-    repeat_scored = []
+    # Star 快照：对**所有**抓到的仓库记录（含即将被去重过滤的），
+    # 保证已推荐仓库的时间序列不中断 —— 快照是次日计算真实增速的基础。
+    record_snapshots(all_repos)
 
     # 跨天去重：过滤掉最近 7 天已推荐的仓库
     filtered_repos = []
@@ -348,26 +391,40 @@ def main():
         print(f"[ContentFilter] Blocked {content_blocked} repos (gambling/malicious/NSFW)")
     all_repos = clean_repos
 
-    # 代码质量检测 + Star 真实性检测（仅对高潜力仓库）
-    quality_checked = set()
-    for repo in all_repos[:15]:  # 只检测前 15 个，避免 API 限流
-        full_name = repo["full_name"]
-        stars = repo.get("stars", 0)
-        age_days = repo.get("age_days", 1)
+    # 注入真实日增（昨天的快照存在时）：scorer 优先使用它而非终身平均
+    growth_known = 0
+    for repo in all_repos:
+        growth = get_growth(repo["full_name"], repo.get("stars", 0))
+        if growth:
+            repo["real_daily_stars"] = growth["real_daily"]
+            growth_known += 1
+    print(f"[Snapshot] Real growth known for {growth_known}/{len(all_repos)} repos")
 
-        # 代码质量
+    # ── 粗排：全量评分 + 排序 ──────────────────────────────────────
+    # 深度检查（每个仓库约 3 次 API 调用）必须发生在粗排**之后**，
+    # 让配额花在分数最高的候选上。旧版按抓取顺序取前 15 个深查，
+    # 导致只有 trending 源能拿到 quality 加分，其他源结构性进不了 top。
+    scored = [(repo, calculate_score(repo)) for repo in all_repos]
+    scored.sort(key=lambda x: x[1]["total"], reverse=True)
+
+    # ── 深查：代码质量 + Star 真实性，仅对粗排 top-K ──────────────
+    deep_checked = []
+    for repo, _ in scored[:DEEP_CHECK_TOP_K]:
+        full_name = repo["full_name"]
         try:
-            quality = check_quality(full_name)
+            quality = check_quality(full_name, repo)
             repo["quality_score"] = quality["quality_score"]
             repo["has_readme"] = quality.get("has_readme", False)
             repo["has_license"] = quality.get("has_license", False)
             repo["has_ci"] = quality.get("has_ci", False)
-        except Exception as e:
+        except Exception:
             repo["quality_score"] = 0
 
-        # Star 真实性检测
         try:
-            auth = check_star_authenticity(full_name, stars, age_days)
+            auth = check_star_authenticity(
+                full_name, repo.get("stars", 0), repo.get("age_days", 1),
+                description=repo.get("description") or "",
+            )
             repo["star_suspicious"] = auth["is_suspicious"]
             repo["star_penalty"] = auth.get("penalty", 0)
             if auth["is_suspicious"]:
@@ -375,10 +432,11 @@ def main():
         except Exception:
             repo["star_suspicious"] = False
             repo["star_penalty"] = 0
+        deep_checked.append(repo)
+    if deep_checked:
+        print(f"[Quality] Deep-checked top {len(deep_checked)} candidates")
 
-        quality_checked.add(full_name)
-
-    # 批量刷量检测（跨仓库维度，需在评分前完成）
+    # 批量刷量检测（跨仓库维度）
     fraud_list = detect_batch_fraud(all_repos)
     fraud_map = {f["owner"]: f for f in fraud_list}
     if fraud_list:
@@ -386,21 +444,25 @@ def main():
         for f in fraud_list:
             print(f"  ⚠️ {f['owner']}: {f['reason']} (penalty: {f['penalty']})")
 
-    for repo in all_repos:
-        scores = calculate_score(repo)
-        
+    # ── 终评：重算深查过的仓库（has_readme 影响 quality 分），应用加减分 ──
+    new_scored = []
+    repeat_scored = []
+    for repo, scores in scored:
+        if repo.get("quality_score") is not None:
+            scores = calculate_score(repo)
+
         # 代码质量加分
         quality_bonus = repo.get("quality_score", 0)
         if quality_bonus:
             scores["total"] = min(100, scores["total"] + quality_bonus)
             scores["quality_bonus"] = quality_bonus
-        
+
         # Star 可疑扣分
         star_penalty = repo.get("star_penalty", 0)
         if star_penalty:
             scores["total"] = max(0, scores["total"] + star_penalty)
             scores["star_penalty"] = star_penalty
-        
+
         # 批量刷量扣分
         fraud = apply_fraud_penalty(repo, fraud_map)
         if fraud["is_fraud"]:
@@ -408,7 +470,9 @@ def main():
             scores["fraud_penalty"] = fraud["penalty"]
             scores["fraud_reason"] = fraud["reason"]
 
-        if repo_exists(repo["id"]):
+        # First Timer / Repeat Performer：以随仓库提交的 recommend_history
+        # 为准（CI 每次全新环境，SQLite 不跨 run 持久）
+        if was_recommended_before(repo["full_name"]):
             repeat_scored.append((repo, scores))
         else:
             new_scored.append((repo, scores))
@@ -426,9 +490,12 @@ def main():
         print("[WARN] No repos to recommend.")
         sys.exit(0)
 
-    # Save to database
+    # Save to database + recommendation history。repeat 也要记录 ——
+    # 否则其 last_recommended 一直是 8~30 天前，明天还会再进 repeat 区。
     for repo, scores in top_new:
         save_repo(repo, scores["total"], repo.get("source", "unknown"))
+        record_recommendation(repo["full_name"], scores["total"])
+    for repo, scores in top_repeat:
         record_recommendation(repo["full_name"], scores["total"])
     save_run(len(new_scored), top_new[0][1]["total"] if top_new else 0)
 
@@ -453,6 +520,10 @@ def main():
     with open(out_path, "w") as f:
         f.write(md)
     print(f"\n[Saved] Report written to {out_path}")
+
+    # 结构化 JSON（网站/RSS 的数据来源）
+    json_path = write_json_report(date_str, top_new, top_repeat)
+    print(f"[Saved] JSON report written to {json_path}")
 
     # Print compact summary
     print("\n" + "=" * 60)
