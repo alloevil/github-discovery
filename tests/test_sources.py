@@ -254,6 +254,7 @@ class TestFetchRising:
 class TestFetchAll:
     """测试 fetch_all 聚合逻辑。"""
 
+    @patch("sources.fetch_hf_papers", return_value=[])
     @patch("sources.fetch_ai_trending", return_value=[])
     @patch("sources.fetch_rising", return_value=[])
     @patch("sources.fetch_hn", return_value=[])
@@ -272,6 +273,7 @@ class TestFetchAll:
         # 应保留 trending 的 source 标签
         assert results[0]["source"] == "trending"
 
+    @patch("sources.fetch_hf_papers", return_value=[])
     @patch("sources.fetch_ai_trending", return_value=[])
     @patch("sources.fetch_rising", return_value=[])
     @patch("sources.fetch_hn", return_value=[])
@@ -291,3 +293,78 @@ class TestFetchAll:
         assert sources_map["c/d"] == "search"
         assert sources_map["e/f"] == "hn"
         assert sources_map["i/j"] == "rising"
+
+
+class TestFetchHFPapers:
+    """测试 Hugging Face Daily Papers 源。"""
+
+    def _papers_json(self):
+        return json.dumps([
+            {"paper": {"githubRepo": "https://github.com/hot/paper-repo",
+                       "title": "Hot Paper", "upvotes": 50}},
+            {"paper": {"githubRepo": "https://github.com/warm/other-repo.git",
+                       "title": "Warm Paper", "upvotes": 10}},
+            {"paper": {"githubRepo": "", "title": "No Repo", "upvotes": 99}},
+            {"paper": {"githubRepo": "https://example.com/not-github",
+                       "title": "Bad Link", "upvotes": 30}},
+            # 同一仓库被两篇论文引用 → 去重
+            {"paper": {"githubRepo": "https://github.com/HOT/paper-repo",
+                       "title": "Dup Paper", "upvotes": 5}},
+        ])
+
+    @patch("sources._parse_repo")
+    @patch("sources._fetch_url")
+    def test_extracts_and_annotates(self, mock_fetch, mock_parse):
+        mock_fetch.return_value = self._papers_json()
+        mock_parse.side_effect = lambda name: {"full_name": name, "stars": 1}
+
+        results = sources.fetch_hf_papers()
+
+        names = [r["full_name"] for r in results]
+        # 无链接/非 GitHub 链接被跳过；.git 后缀被去掉；大小写去重
+        assert names == ["hot/paper-repo", "warm/other-repo"]
+        # 论文元数据附加到仓库上
+        assert results[0]["hf_title"] == "Hot Paper"
+        assert results[0]["hf_upvotes"] == 50
+
+    @patch("sources._parse_repo")
+    @patch("sources._fetch_url")
+    def test_sorted_by_upvotes(self, mock_fetch, mock_parse):
+        """候选按论文 upvotes 降序处理（配额留给最热的论文）。"""
+        mock_fetch.return_value = json.dumps([
+            {"paper": {"githubRepo": f"https://github.com/u/repo{i}",
+                       "title": f"P{i}", "upvotes": i}}
+            for i in range(20)
+        ])
+        mock_parse.side_effect = lambda name: {"full_name": name}
+
+        results = sources.fetch_hf_papers()
+
+        # 只取前 15，且第一个是 upvotes 最高的
+        assert len(results) == 15
+        assert results[0]["hf_upvotes"] == 19
+
+    @patch("sources._fetch_url", side_effect=Exception("network down"))
+    def test_network_failure_returns_empty(self, mock_fetch):
+        assert sources.fetch_hf_papers() == []
+
+
+class TestAITrendingRotation:
+    """测试 AI 关键词按日轮换。"""
+
+    @patch("time.sleep")
+    @patch("sources._gh_api", return_value={"items": []})
+    def test_uses_five_keywords_per_day(self, mock_api, mock_sleep):
+        sources.fetch_ai_trending()
+        assert mock_api.call_count == 5
+
+    @patch("time.sleep")
+    @patch("sources._gh_api", return_value={"items": []})
+    def test_same_day_rotation_is_deterministic(self, mock_api, mock_sleep):
+        """同日两次调用应使用相同的关键词（幂等重跑一致）。"""
+        sources.fetch_ai_trending()
+        first = [c.args[1]["q"] for c in mock_api.call_args_list]
+        mock_api.reset_mock()
+        sources.fetch_ai_trending()
+        second = [c.args[1]["q"] for c in mock_api.call_args_list]
+        assert first == second

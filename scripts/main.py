@@ -102,6 +102,7 @@ EMAIL_SOURCE_LABELS = {
     "hn": "🟠 HN",
     "rising": "📈 Rising",
     "ai-trending": "🤖 AI/ML",
+    "hf-papers": "🤗 HF Papers",
 }
 
 
@@ -213,7 +214,7 @@ JSON_REPO_FIELDS = [
     "full_name", "url", "description", "language", "stars", "forks",
     "age_days", "daily_stars", "real_daily_stars", "watchers",
     "source", "sources", "license",
-    "hn_title", "hn_score", "rising_signal",
+    "hn_title", "hn_score", "hf_title", "hf_upvotes", "rising_signal",
     "has_readme", "has_license", "has_ci",
 ]
 
@@ -288,6 +289,11 @@ def format_repo_markdown(repo: dict, scores: dict, rank: int) -> str:
     # HN bonus info
     if repo.get("hn_title"):
         lines.insert(-2, f"- 🔶 HN: [{repo['hn_title']}](https://news.ycombinator.com) (score: {repo.get('hn_score', 0)})")
+        lines.insert(-2, "")
+
+    # HF paper info
+    if repo.get("hf_title"):
+        lines.insert(-2, f"- 🤗 HF Paper: {repo['hf_title']} (upvotes: {repo.get('hf_upvotes', 0)})")
         lines.insert(-2, "")
 
     return "\n".join(lines)

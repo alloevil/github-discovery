@@ -77,8 +77,8 @@ Every day it collects signals from 6 data sources, runs them through a smart sco
 | GitHub Search | New & rising | Repos created in the last 7 days with fast star growth |
 | [Hacker News](https://news.ycombinator.com/) | Community picks | GitHub repos from Show HN posts |
 | Rising Detection | Early signal | Unusual Fork/Watch growth patterns |
-| [AI/ML Trending](https://ossinsight.io/trending/ai) | AI focus | AI/ML repositories with fast growth (inspired by OSSInsight) |
-| Web Scrape | Supplement | Enhanced page parsing via Firecrawl (optional) |
+| [AI/ML Trending](https://ossinsight.io/trending/ai) | AI focus | AI/ML repositories with fast growth (daily keyword rotation) |
+| [HF Daily Papers](https://huggingface.co/papers) | Research signal | GitHub repos linked from trending Hugging Face papers — paper upvotes lead GitHub stars by days |
 
 ### Smart Scoring (100 points)
 

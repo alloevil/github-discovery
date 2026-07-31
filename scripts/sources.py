@@ -10,7 +10,7 @@ import urllib.parse
 from datetime import datetime, timezone, timedelta
 from config import (
     GITHUB_TOKEN, GITHUB_API, GITHUB_TRENDING_URL, HN_API, API_DELAY,
-    FIRECRAWL_API_KEY, FIRECRAWL_API,
+    FIRECRAWL_API_KEY, FIRECRAWL_API, HF_PAPERS_API,
 )
 
 
@@ -325,6 +325,53 @@ def fetch_rising() -> list[dict]:
     return results
 
 
+# ── Source 6: Hugging Face Daily Papers ────────────────────────────────
+
+def fetch_hf_papers() -> list[dict]:
+    """HF Daily Papers 里带 GitHub 仓库的论文。
+
+    AI 仓库常见的走红路径是"论文先在 HF 社区火，GitHub star 随后跟上"，
+    所以论文 upvotes 是领先指标。API 直接返回 githubRepo 字段，
+    实测约 2/3 的论文带链接。
+    """
+    print("[Source] Fetching Hugging Face daily papers...")
+    try:
+        raw = _fetch_url(f"{HF_PAPERS_API}?limit=50", timeout=15)
+        papers = json.loads(raw)
+    except Exception as e:
+        print(f"  [WARN] HF papers fetch failed: {e}")
+        return []
+
+    candidates = []
+    for entry in papers:
+        paper = entry.get("paper") or {}
+        gh = paper.get("githubRepo") or ""
+        m = re.match(r"https?://github\.com/([\w.-]+/[\w.-]+)", gh)
+        if not m:
+            continue
+        full_name = m.group(1).removesuffix(".git")
+        candidates.append((full_name, paper))
+
+    # 按论文热度取前 15，控制 GitHub API 调用量
+    candidates.sort(key=lambda c: c[1].get("upvotes", 0), reverse=True)
+
+    results = []
+    seen = set()
+    for full_name, paper in candidates[:15]:
+        key = full_name.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        repo = _parse_repo(full_name)
+        if repo:
+            repo["hf_title"] = paper.get("title", "")
+            repo["hf_upvotes"] = paper.get("upvotes", 0)
+            results.append(repo)
+
+    print(f"  Found {len(results)} repos from HF papers ({len(candidates)} papers had GitHub links)")
+    return results
+
+
 def fetch_all() -> list[dict]:
     """Fetch from all sources, deduplicate by full_name."""
     if not GITHUB_TOKEN:
@@ -358,6 +405,11 @@ def fetch_all() -> list[dict]:
         r["source"] = "ai-trending"
     all_repos.extend(ai_trending)
 
+    hf_papers = fetch_hf_papers()
+    for r in hf_papers:
+        r["source"] = "hf-papers"
+    all_repos.extend(hf_papers)
+
     # Deduplicate by full_name — keep first occurrence as the primary record,
     # but MERGE later duplicates instead of dropping them:
     #   - all source tags collected into r["sources"] (被多个源同时发现本身
@@ -377,7 +429,8 @@ def fetch_all() -> list[dict]:
             if src not in base["sources"]:
                 base["sources"].append(src)
             # 补齐 base 缺失的来源专属字段
-            for key in ("hn_title", "hn_score", "rising_signal", "fork_ratio", "watch_ratio"):
+            for key in ("hn_title", "hn_score", "hf_title", "hf_upvotes",
+                        "rising_signal", "fork_ratio", "watch_ratio"):
                 if key in r and key not in base:
                     base[key] = r[key]
     unique = [by_name[name] for name in order]
@@ -396,13 +449,26 @@ def fetch_ai_trending() -> list[dict]:
         "deep learning", "transformer", "gpt", "claude", "diffusion",
         "stable diffusion", "computer vision", "nlp", "reinforcement learning",
         "rag", "retrieval augmented generation", "vector database",
-        "embedding", "fine-tuning", "lora", "qlora", "inference", "mlops"
+        "embedding", "fine-tuning", "lora", "qlora", "inference", "mlops",
+        # agent 生态 / 图 / 评测（裸词 "harness"、"graph" 噪音太大 ——
+        # 会命中 test harness、图算法库 —— 用短语收窄到 AI 语境）
+        "agent harness", "eval harness", "knowledge graph", "graphrag",
+        "agentic", "multi-agent", "mcp server", "model context protocol",
+        "world model", "llm evaluation",
     ]
     
     date_from = (datetime.now(timezone.utc) - timedelta(days=7)).strftime('%Y-%m-%d')
     all_repos = []
-    
-    for keyword in ai_keywords[:5]:  # 限制请求数量
+
+    # 关键词按日轮换：每天用 5 个，约 4~5 天覆盖全部 22 个。
+    # 旧版永远只用前 5 个通用词，"rag"/"diffusion"/"inference" 等
+    # 更有区分度的词从未轮上。用 day-of-year 做偏移保证同日重跑结果一致。
+    day = datetime.now(timezone.utc).timetuple().tm_yday
+    start = (day * 5) % len(ai_keywords)
+    todays_keywords = [ai_keywords[(start + i) % len(ai_keywords)] for i in range(5)]
+    print(f"  [AI Trending] Today's keyword rotation: {todays_keywords}")
+
+    for keyword in todays_keywords:
         try:
             query = f'"{keyword}" created:>{date_from} stars:>50'
             data = _gh_api("/search/repositories", {
