@@ -1,0 +1,201 @@
+# 🔥 GitHub Discovery Report
+
+> **Generated:** 2026-07-31 07:35
+> **10 new repos + 0 repeat performers**
+
+---
+
+## ⭐ Top Starred Repositories — First Timers
+
+*These repos were first featured in GitHub Discovery*
+
+### 1. [microsoft/PowerToys](https://github.com/microsoft/PowerToys)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 137,244 |
+| 📅 Age | 2647 days |
+| 🚀 Daily Growth | 51.8 stars/day |
+| 🔤 Language | C |
+| 📡 Source | trending |
+
+> Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 28/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 2. [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 48,180 |
+| 📅 Age | 322 days |
+| 🚀 Daily Growth | 149.6 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> Chrome DevTools for coding agents
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [MoonshotAI/Kimi-K3](https://github.com/MoonshotAI/Kimi-K3)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 7,592 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 2530.7 stars/day |
+| 🔤 Language |  |
+| 📡 Source | search |
+
+> Open Frontier Intelligence
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 4. [bashalarmistalt/decimen-optical-transfer](https://github.com/bashalarmistalt/decimen-optical-transfer)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 514 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 514.0 stars/day |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
+
+> 
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 5. [QwenAudio/qwen-audio-agent](https://github.com/QwenAudio/qwen-audio-agent)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 505 |
+| 📅 Age | 4 days |
+| 🚀 Daily Growth | 126.2 stars/day |
+| 🔤 Language | JavaScript |
+| 📡 Source | search |
+
+> A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime for AI Agents
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 34/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 6. [xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 395 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 395.0 stars/day |
+| 🔤 Language |  |
+| 📡 Source | search |
+
+> FDE（前沿部署工程师）从零入门指南（基于范冰《增长黑客》原书框架）
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 20/30
+- Anti-spam: 30/30
+
+---
+### 7. [Noniv/snowflow_demo](https://github.com/Noniv/snowflow_demo)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 364 |
+| 📅 Age | 2 days |
+| 🚀 Daily Growth | 182.0 stars/day |
+| 🔤 Language | JavaScript |
+| 📡 Source | search |
+
+> A real-time procedural snow rendering demo built with WebGPU, Babylon.js and hand-written WGSL. Features GPU-generated terrain, snow deformation, procedural characters, cloth, surf wakes, water spells, atmosphere and post-processing—without textures, meshes, HDRIs or animation assets.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 8. [DramaticShape/DramaticShapeVoxelMod](https://github.com/DramaticShape/DramaticShapeVoxelMod)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 426 |
+| 📅 Age | 4 days |
+| 🚀 Daily Growth | 106.5 stars/day |
+| 🔤 Language | Lua |
+| 📡 Source | search |
+
+> 
+
+**Score: 97/100** `███████████████████░`
+- Acceleration: 34/40
+- Quality: 20/30
+- Anti-spam: 30/30
+
+---
+### 9. [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 54,530 |
+| 📅 Age | 1975 days |
+| 🚀 Daily Growth | 27.6 stars/day |
+| 🔤 Language | Jupyter Notebook |
+| 📡 Source | trending |
+
+> 12 Weeks, 24 Lessons, AI for All!
+
+**Score: 93/100** `██████████████████░░`
+- Acceleration: 20/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 10. [ansible/ansible](https://github.com/ansible/ansible)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 69,954 |
+| 📅 Age | 5259 days |
+| 🚀 Daily Growth | 13.3 stars/day |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.
+
+**Score: 92/100** `██████████████████░░`
+- Acceleration: 12/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+
+## 📊 Summary
+
+- **New discoveries:** 10 repos
+- **Repeat performers:** 0 repos
+- **Score range:** 92 - 100
+- **Top pick:** [microsoft/PowerToys](https://github.com/microsoft/PowerToys)
+
+---
+*Generated by GitHub Discovery Tool*
