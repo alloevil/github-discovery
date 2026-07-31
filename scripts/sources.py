@@ -449,7 +449,12 @@ def fetch_ai_trending() -> list[dict]:
         "deep learning", "transformer", "gpt", "claude", "diffusion",
         "stable diffusion", "computer vision", "nlp", "reinforcement learning",
         "rag", "retrieval augmented generation", "vector database",
-        "embedding", "fine-tuning", "lora", "qlora", "inference", "mlops"
+        "embedding", "fine-tuning", "lora", "qlora", "inference", "mlops",
+        # agent 生态 / 图 / 评测（裸词 "harness"、"graph" 噪音太大 ——
+        # 会命中 test harness、图算法库 —— 用短语收窄到 AI 语境）
+        "agent harness", "eval harness", "knowledge graph", "graphrag",
+        "agentic", "multi-agent", "mcp server", "model context protocol",
+        "world model", "llm evaluation",
     ]
     
     date_from = (datetime.now(timezone.utc) - timedelta(days=7)).strftime('%Y-%m-%d')
