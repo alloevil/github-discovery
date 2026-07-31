@@ -5,7 +5,7 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jul 2026 07:35:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>🔥 microsoft/PowerToys — 137244⭐ (51.8/day)</title>
@@ -452,7 +452,7 @@ Score: 100/100 | Language: Rust</description>
       <title>🔥 hyprwm/Hyprland — 37118⭐ (23.4/day)</title>
       <description>Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
 
-Score: 100/100 | Language: C</description>
+Score: 100/100 | Language: C++</description>
       <link>https://github.com/hyprwm/Hyprland</link>
       <guid>https://github.com/hyprwm/Hyprland#2026-07-22</guid>
       <pubDate>Wed, 22 Jul 2026 18:00:00 +0000</pubDate>
