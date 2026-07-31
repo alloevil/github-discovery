@@ -22,10 +22,12 @@ def _gh_api(path: str, params: dict = None) -> dict | list | None:
         return None
 
 
-def check_quality(repo_full_name: str) -> dict:
+def check_quality(repo_full_name: str, repo: dict = None) -> dict:
     """
     Check code quality signals for a repo.
     Returns dict with quality metrics and a 0-20 bonus score.
+
+    传入已抓取的 repo dict（含 open_issues）可省掉一次 /repos API 调用。
     """
     result = {
         "has_readme": False,
@@ -60,11 +62,14 @@ def check_quality(repo_full_name: str) -> dict:
             except (ValueError, TypeError):
                 pass
     
-    # 3. Issue/PR 活跃度
-    time.sleep(API_DELAY)
-    repo_data = _gh_api(f"/repos/{repo_full_name}")
-    if repo_data:
-        result["open_issues"] = repo_data.get("open_issues_count", 0)
+    # 3. Issue/PR 活跃度（调用方已有 open_issues 时不再重复请求）
+    if repo is not None and "open_issues" in repo:
+        result["open_issues"] = repo.get("open_issues", 0)
+    else:
+        time.sleep(API_DELAY)
+        repo_data = _gh_api(f"/repos/{repo_full_name}")
+        if repo_data:
+            result["open_issues"] = repo_data.get("open_issues_count", 0)
     
     time.sleep(API_DELAY)
     prs = _gh_api(f"/repos/{repo_full_name}/pulls", {"state": "open", "per_page": "1"})
@@ -83,10 +88,13 @@ def check_quality(repo_full_name: str) -> dict:
     return result
 
 
-def check_star_authenticity(repo_full_name: str, stars: int, age_days: int) -> dict:
+def check_star_authenticity(repo_full_name: str, stars: int, age_days: int,
+                            description: str = None) -> dict:
     """
     检测 Star 真实性。
     只检测高置信度的刷量模式，避免误伤优质独立项目。
+
+    传入 description（可为空字符串）可省掉一次 /repos API 调用。
     """
     result = {
         "is_suspicious": False,
@@ -112,15 +120,16 @@ def check_star_authenticity(repo_full_name: str, stars: int, age_days: int) -> d
     
     # 检测 3：Star 增速异常（>1000/天）但无 README 或描述为空 → 可疑
     if daily_stars > 1000:
-        time.sleep(API_DELAY)
-        repo_data = _gh_api(f"/repos/{repo_full_name}")
-        if repo_data:
-            desc = (repo_data.get("description") or "").strip()
-            if not desc:
-                result["is_suspicious"] = True
-                result["reason"] = "massive_stars_no_description"
-                result["penalty"] = -15
-                return result
+        desc = description
+        if desc is None:
+            time.sleep(API_DELAY)
+            repo_data = _gh_api(f"/repos/{repo_full_name}")
+            desc = (repo_data.get("description") or "") if repo_data else None
+        if desc is not None and not desc.strip():
+            result["is_suspicious"] = True
+            result["reason"] = "massive_stars_no_description"
+            result["penalty"] = -15
+            return result
     
     # 检测 4：同一 owner 下多个相似仓库同时暴涨 → 批量刷量
     # （这个检测成本较高，暂不实现）

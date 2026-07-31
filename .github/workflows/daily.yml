@@ -38,6 +38,11 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Run tests
+        run: |
+          pip install pytest
+          python3 -m pytest tests/ -q
+
       - name: Run discovery + send email
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

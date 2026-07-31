@@ -38,9 +38,11 @@ def check_suspicious_pattern(repo: dict) -> int:
     name = repo.get("full_name", "").lower()
     desc = (repo.get("description") or "").lower()
 
-    # Check for gaming trainer patterns
+    # Check for gaming trainer patterns（词边界匹配 —— 子串匹配会让
+    # "hack" 命中 hackathon、"cheat" 命中 cheatsheet 等正常项目）
     trainer_patterns = ["trainer", "cheat", "hack", "mod menu", "aimbot"]
-    if any(p in name or p in desc for p in trainer_patterns):
+    combined = f"{name} {desc}"
+    if any(re.search(r'\b' + re.escape(p) + r'\b', combined) for p in trainer_patterns):
         return 10
 
     # Check for suspicious username patterns (random numbers/letters)

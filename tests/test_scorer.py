@@ -8,65 +8,56 @@ import scorer
 
 
 class TestScoreAcceleration:
-    """测试 star 增速评分逻辑。"""
+    """测试 star 增速评分逻辑（连续对数曲线 + 加速比 bonus）。"""
 
-    def test_brand_new_viral_repo_gets_max_score(self):
-        """创建 ≤3 天且 star ≥100 的仓库应获得满分 40。"""
+    def test_monotonic_in_velocity(self):
+        """同龄仓库，日增越高分越高（连续曲线的核心性质）。"""
+        scores = [
+            scorer.score_acceleration({"age_days": 10, "stars": 10 * d})
+            for d in (1, 5, 20, 50, 100, 300)
+        ]
+        assert scores == sorted(scores)
+        assert scores[0] < scores[-1]
+
+    def test_no_saturation_for_ordinary_viral(self):
+        """普通爆款（age=2, 150 stars）不应再拿满分 —— 旧版饱和的根源。"""
         repo = {"age_days": 2, "stars": 150}
+        assert scorer.score_acceleration(repo) < 40
+
+    def test_max_needs_extreme_velocity_and_acceleration(self):
+        """满分 40 需要极高真实日增 + 明显加速。"""
+        repo = {"age_days": 10, "stars": 3000, "real_daily_stars": 900.0}
         assert scorer.score_acceleration(repo) == 40
 
-    def test_brand_new_exact_boundary(self):
-        """恰好在边界上（age=3, stars=100）应获得满分。"""
-        repo = {"age_days": 3, "stars": 100}
-        assert scorer.score_acceleration(repo) == 40
+    def test_velocity_saturates_at_cap(self):
+        """速度分在饱和点封顶：再高的日增也不超过 40。"""
+        repo = {"age_days": 1, "stars": 100000}
+        assert scorer.score_acceleration(repo) <= 40
 
-    def test_brand_new_just_over_boundary(self):
-        """age=4 不应命中 Tier 1，但可能命中后续 tier。"""
-        repo = {"age_days": 4, "stars": 100}
-        result = scorer.score_acceleration(repo)
-        assert result < 40
+    def test_real_daily_overrides_lifetime_average(self):
+        """有快照真实日增时应优先于终身平均。"""
+        base = {"age_days": 100, "stars": 1000}          # 终身平均 10/day
+        cold = dict(base, real_daily_stars=1.0)          # 实际已凉
+        hot = dict(base, real_daily_stars=200.0)         # 实际在爆发
+        assert scorer.score_acceleration(cold) < scorer.score_acceleration(base)
+        assert scorer.score_acceleration(hot) > scorer.score_acceleration(base)
 
-    def test_tier2_new_with_strong_traction(self):
-        """7 天内 200+ stars 应命中 Tier 2 (34)。"""
-        repo = {"age_days": 5, "stars": 250}
-        assert scorer.score_acceleration(repo) == 34
+    def test_acceleration_ratio_rewards_speedup(self):
+        """同样的真实日增，相对终身平均加速越明显 bonus 越高。"""
+        steady = {"age_days": 10, "stars": 1000, "real_daily_stars": 100.0}   # ratio=1
+        surging = {"age_days": 100, "stars": 1000, "real_daily_stars": 100.0}  # ratio=10
+        assert scorer.score_acceleration(surging) > scorer.score_acceleration(steady)
 
-    def test_tier3_solid_growth(self):
-        """30 天内 500+ stars 应命中 Tier 3 (28)。"""
-        repo = {"age_days": 20, "stars": 600}
-        assert scorer.score_acceleration(repo) == 28
+    def test_young_repo_gets_freshness_credit_without_snapshot(self):
+        """无快照历史时，年轻仓库获得部分加速分（终身平均≈最近速度）。"""
+        young = {"age_days": 2, "stars": 100}
+        old = {"age_days": 200, "stars": 10000}  # 同为 50/day
+        assert scorer.score_acceleration(young) > scorer.score_acceleration(old)
 
-    def test_daily_velocity_100_plus(self):
-        """日增 ≥100 stars 但命中 Tier 3 时应返回 28（tier 优先于 daily velocity）。"""
-        # age=10, stars=1100 → 命中 Tier 3 (age<=30 and stars>=500) → 28
-        repo = {"age_days": 10, "stars": 1100}
-        assert scorer.score_acceleration(repo) == 28
-
-    def test_daily_velocity_100_plus_pure(self):
-        """不命中任何 tier 时，日增 ≥100 stars 应获得 36 分。"""
-        # age=60, stars=7000 → 不命中 tier，daily=116.7 >= 100
-        repo = {"age_days": 60, "stars": 7000}
-        assert scorer.score_acceleration(repo) == 36  # 40 * 0.9
-
-    def test_daily_velocity_50_plus(self):
-        """日增 ≥50 stars 应获得 28 分。"""
-        repo = {"age_days": 10, "stars": 500}
-        assert scorer.score_acceleration(repo) == 28  # 40 * 0.7
-
-    def test_daily_velocity_20_plus(self):
-        """日增 ≥20 stars 应获得 20 分。"""
-        repo = {"age_days": 10, "stars": 200}
-        assert scorer.score_acceleration(repo) == 20  # 40 * 0.5
-
-    def test_daily_velocity_10_plus(self):
-        """日增 ≥10 stars 应获得 12 分。"""
-        repo = {"age_days": 10, "stars": 100}
-        assert scorer.score_acceleration(repo) == 12  # 40 * 0.3
-
-    def test_daily_velocity_5_plus(self):
-        """日增 ≥5 stars 应获得 6 分。"""
-        repo = {"age_days": 10, "stars": 50}
-        assert scorer.score_acceleration(repo) == 6  # 40 * 0.15
+    def test_negative_real_daily_zero(self):
+        """star 净减少（刷量被清洗）应得 0 分。"""
+        repo = {"age_days": 10, "stars": 1000, "real_daily_stars": -50.0}
+        assert scorer.score_acceleration(repo) == 0
 
     def test_zero_stars_gets_zero(self):
         """0 star 仓库应得 0 分。"""
@@ -74,10 +65,8 @@ class TestScoreAcceleration:
         assert scorer.score_acceleration(repo) == 0
 
     def test_zero_age_no_crash(self):
-        """age_days=0 不应除零崩溃。"""
+        """age_days=0 不应除零崩溃（内部按 age=1 处理）。"""
         repo = {"age_days": 0, "stars": 100}
-        # age=0, stars=100 → daily = stars (因为 age>0 条件为 false)
-        # 但 age <= 3 and stars >= 100 → 40
         result = scorer.score_acceleration(repo)
         assert result >= 0
 

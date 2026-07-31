@@ -84,7 +84,7 @@ Every day it collects signals from 6 data sources, runs them through a smart sco
 
 | Dimension | Points | What it measures |
 |-----------|--------|------------------|
-| **Acceleration** | 40 | Star growth rate, acceleration trend |
+| **Acceleration** | 40 | Real day-over-day star growth (from daily snapshots) + acceleration vs lifetime average |
 | **Quality** | 30 | Age, language, license, content completeness |
 | **Anti-spam** | 30 | Fork ratio, description quality |
 | **Code Quality** | +20 | README, CI config, commit frequency |

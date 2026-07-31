@@ -7,6 +7,7 @@ and only injects the dynamic repo data sections.
 import os
 import re
 import glob
+import json
 import statistics
 from datetime import datetime, timezone
 from xml.etree.ElementTree import Element, SubElement, tostring
@@ -14,6 +15,7 @@ from xml.dom.minidom import parseString
 
 DIST_DIR = "docs"
 OUTPUT_DIR = "output"
+DATA_DIR = "data"
 SITE_TITLE = "GitHub Discovery"
 SITE_DESC = "Discover trending GitHub repos before they go viral"
 SITE_URL = "https://alloevil.github.io/github-discovery"
@@ -58,11 +60,16 @@ def _parse_sections(content: str) -> list[dict]:
             repo['owner'] = parts[0] if len(parts) > 1 else ''
             repo['repo'] = parts[1] if len(parts) > 1 else repo['name']
         for key, pattern in [('stars', r'⭐ Stars \| ([\d,]+)'), ('age', r'📅 Age \| (\d+)'),
-                             ('daily', r'🚀 Daily Growth \| ([\d.]+)'), ('language', r'🔤 Language \| (\w+)'),
-                             ('score', r'Score: (\d+)/100'), ('source', r'📡 Source \| ([\w-]+)')]:
+                             ('daily', r'🚀 Daily Growth \| (-?[\d.]+)'),
+                             # 语言名可含空格和符号（C++、C#、Jupyter Notebook），
+                             # 旧的 (\w+) 会漏掉这些
+                             ('language', r'🔤 Language \| ([^|\n]+?) \|'),
+                             ('score', r'Score: (\d+)/100'),
+                             ('source', r'📡 Source \| ([\w+ -]+?) \|')]:
             m = re.search(pattern, section)
             if m:
-                repo[key] = m.group(1).replace(',', '') if key == 'stars' else m.group(1)
+                v = m.group(1).strip()
+                repo[key] = v.replace(',', '') if key == 'stars' else v
         m = re.search(r'> (.+)', section)
         if m:
             repo['description'] = m.group(1).strip()
@@ -71,7 +78,46 @@ def _parse_sections(content: str) -> list[dict]:
     return repos
 
 
+def _json_entry_to_card(e: dict) -> dict:
+    """把 JSON 报告条目映射成卡片渲染所需的扁平 dict。"""
+    name = e.get('full_name', '?')
+    parts = name.split('/')
+    daily = e.get('real_daily_stars')
+    if daily is None:
+        daily = e.get('daily_stars', 0)
+    sources = e.get('sources') or ([e['source']] if e.get('source') else [])
+    return {
+        'name': name,
+        'url': e.get('url', '#'),
+        'owner': parts[0] if len(parts) > 1 else '',
+        'repo': parts[1] if len(parts) > 1 else name,
+        'stars': str(e.get('stars', 0)),
+        'daily': f"{daily:.1f}",
+        'score': str(e.get('scores', {}).get('total', 0)),
+        'language': e.get('language', ''),
+        'description': e.get('description') or 'No description',
+        'source': ' + '.join(sources),
+    }
+
+
+def load_json_report(filepath: str) -> tuple[list[dict], list[dict]]:
+    with open(filepath) as f:
+        data = json.load(f)
+    return ([_json_entry_to_card(e) for e in data.get('new', [])],
+            [_json_entry_to_card(e) for e in data.get('repeat', [])])
+
+
 def parse_report(filepath: str) -> tuple[list[dict], list[dict]]:
+    """读一天的报告。优先读结构化 JSON（data/discovery-*.json），
+    没有 JSON 的旧报告回退到 markdown 正则解析。"""
+    m = re.search(r'discovery-(\d{4}-\d{2}-\d{2})\.md', filepath)
+    if m:
+        json_path = os.path.join(DATA_DIR, f'discovery-{m.group(1)}.json')
+        if os.path.exists(json_path):
+            try:
+                return load_json_report(json_path)
+            except (ValueError, OSError) as e:
+                print(f"[WARN] Bad JSON report {json_path} ({e}), falling back to markdown")
     with open(filepath) as f:
         content = f.read()
     if 'First Timers' in content and 'Repeat Performers' in content:
@@ -96,7 +142,8 @@ def repo_card(r: dict) -> str:
     lang_html = f'<span class="repo-meta-item"><span class="lang-dot" style="background:{color}"></span>{lang}</span>' if lang else ''
     lang_attr = lang.lower() if lang else 'unknown'
     src = r.get('source', '')
-    src_label = source_label(src)
+    # 多来源仓库（"trending + hn"）逐个映射 label
+    src_label = ' · '.join(filter(None, (source_label(s.strip()) for s in src.split('+'))))
     src_html = f'<span class="repo-meta-item source-tag" title="Discovered via {src}">{src_label}</span>' if src_label else ''
     return f'''      <div class="repo" data-lang="{lang_attr}" data-source="{src.lower()}">
         <div class="repo-top">
@@ -218,7 +265,10 @@ def generate_rss(reports):
     SubElement(ch, 'description').text = SITE_DESC
     SubElement(ch, 'link').text = SITE_URL
     SubElement(ch, 'language').text = 'en'
-    SubElement(ch, 'lastBuildDate').text = datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000')
+    # lastBuildDate 必须由内容（最新报告日期）决定而不是 now()：
+    # 否则每次 CI 重跑都产生 diff，导致同一天出现第二个空 commit。
+    latest = reports[0][0] if reports else datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    SubElement(ch, 'lastBuildDate').text = datetime.strptime(latest, '%Y-%m-%d').strftime('%a, %d %b %Y 18:00:00 +0000')
     al = SubElement(ch, 'atom:link')
     al.set('href', f'{SITE_URL}/feed.xml')
     al.set('rel', 'self')

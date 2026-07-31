@@ -21,21 +21,37 @@ def _gh_headers():
     return headers
 
 
-def _gh_api(path: str, params: dict = None) -> dict | list | None:
-    """Call GitHub API, return parsed JSON or None on error."""
+def _gh_api(path: str, params: dict = None, retries: int = 2) -> dict | list | None:
+    """Call GitHub API, return parsed JSON or None on error.
+
+    对限流（403/429）和 5xx 做指数退避重试 —— search API 偶发的
+    secondary rate limit 一次 403 就丢掉整个数据源，代价太高。
+    """
     url = f"{GITHUB_API}{path}"
     if params:
         url += "?" + urllib.parse.urlencode(params)
-    req = urllib.request.Request(url, headers=_gh_headers())
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            return json.loads(resp.read())
-    except urllib.error.HTTPError as e:
-        print(f"  [WARN] GitHub API {path} returned {e.code}: {e.read().decode()[:200]}")
-        return None
-    except Exception as e:
-        print(f"  [WARN] GitHub API {path} error: {e}")
-        return None
+
+    for attempt in range(retries + 1):
+        req = urllib.request.Request(url, headers=_gh_headers())
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read())
+        except urllib.error.HTTPError as e:
+            body = e.read().decode()[:200]
+            if e.code in (403, 429, 500, 502, 503) and attempt < retries:
+                wait = 3 * (attempt + 1) ** 2  # 3s, 12s
+                print(f"  [WARN] GitHub API {path} returned {e.code}, retry in {wait}s...")
+                time.sleep(wait)
+                continue
+            print(f"  [WARN] GitHub API {path} returned {e.code}: {body}")
+            return None
+        except Exception as e:
+            if attempt < retries:
+                time.sleep(2)
+                continue
+            print(f"  [WARN] GitHub API {path} error: {e}")
+            return None
+    return None
 
 
 def _fetch_url(url: str, timeout: int = 15) -> str:
@@ -114,6 +130,9 @@ def _normalize_repo(data: dict) -> dict:
         "age_days": age_days,
         "daily_stars": stars / age_days if age_days > 0 else stars,
         "watchers": data.get("subscribers_count", 0),
+        "open_issues": data.get("open_issues_count", 0),
+        # topics 供内容过滤（quality.is_blocked_content）使用
+        "topics": data.get("topics", []) or [],
     }
 
 
@@ -160,10 +179,9 @@ def fetch_trending() -> list[dict]:
         if "/" not in full_name or full_name in seen:
             continue
         seen.add(full_name)
-        repo = _parse_repo(full_name)
+        repo = _parse_repo(full_name)  # _parse_repo 内部已做 API_DELAY 限速
         if repo:
             results.append(repo)
-        time.sleep(API_DELAY)
 
     print(f"  Found {len(results)} repos from trending")
     return results
@@ -215,7 +233,7 @@ def fetch_hn() -> list[dict]:
     try:
         top_url = f"{HN_API}/showstories.json"
         ids_json = _fetch_url(top_url, timeout=8)
-        story_ids = json.loads(ids_json)[:8]
+        story_ids = json.loads(ids_json)[:30]
     except Exception as e:
         print(f"  [WARN] HN fetch failed: {e}")
         return []
@@ -340,15 +358,32 @@ def fetch_all() -> list[dict]:
         r["source"] = "ai-trending"
     all_repos.extend(ai_trending)
 
-    # Deduplicate by full_name, keep first occurrence
-    seen = set()
-    unique = []
+    # Deduplicate by full_name — keep first occurrence as the primary record,
+    # but MERGE later duplicates instead of dropping them:
+    #   - all source tags collected into r["sources"] (被多个源同时发现本身
+    #     就是强信号，且 HN/rising 的专属字段不该因为 trending 先抓到而丢失)
+    #   - source-specific fields (hn_title, rising_signal, ...) carried over
+    by_name: dict[str, dict] = {}
+    order: list[str] = []
     for r in all_repos:
-        if r["full_name"] not in seen:
-            seen.add(r["full_name"])
-            unique.append(r)
+        name = r["full_name"]
+        if name not in by_name:
+            r["sources"] = [r.get("source", "unknown")]
+            by_name[name] = r
+            order.append(name)
+        else:
+            base = by_name[name]
+            src = r.get("source", "unknown")
+            if src not in base["sources"]:
+                base["sources"].append(src)
+            # 补齐 base 缺失的来源专属字段
+            for key in ("hn_title", "hn_score", "rising_signal", "fork_ratio", "watch_ratio"):
+                if key in r and key not in base:
+                    base[key] = r[key]
+    unique = [by_name[name] for name in order]
 
-    print(f"\n[Total] {len(unique)} unique repos from all sources")
+    multi = sum(1 for r in unique if len(r["sources"]) > 1)
+    print(f"\n[Total] {len(unique)} unique repos from all sources ({multi} found by multiple sources)")
     return unique
 
 def fetch_ai_trending() -> list[dict]:
