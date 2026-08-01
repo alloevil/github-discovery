@@ -5,8 +5,62 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jul 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 yc-software/qm — 2897⭐ (1448.5/day)</title>
+      <description>Multiplayer agent harness for work
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/yc-software/qm</link>
+      <guid>https://github.com/yc-software/qm#2026-08-01</guid>
+      <pubDate>Sat, 01 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 0xwilliamortiz/ratchet — 402⭐ (402.0/day)</title>
+      <description>Your agent reads the rules. This checks whether it followed them.
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/0xwilliamortiz/ratchet</link>
+      <guid>https://github.com/0xwilliamortiz/ratchet#2026-08-01</guid>
+      <pubDate>Sat, 01 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 ddoemonn/interior — 347⭐ (347.0/day)</title>
+      <description>micro-interactions for react, built for the half-second after a click
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/ddoemonn/interior</link>
+      <guid>https://github.com/ddoemonn/interior#2026-08-01</guid>
+      <pubDate>Sat, 01 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 l00sed/termixer — 131⭐ (131.0/day)</title>
+      <description>A 2-deck mixer, sample pads, sequencer— all from any Unix terminal.
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/l00sed/termixer</link>
+      <guid>https://github.com/l00sed/termixer#2026-08-01</guid>
+      <pubDate>Sat, 01 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 sqliteai/waste — 386⭐ (128.7/day)</title>
+      <description>Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.
+
+Score: 100/100 | Language: C</description>
+      <link>https://github.com/sqliteai/waste</link>
+      <guid>https://github.com/sqliteai/waste#2026-08-01</guid>
+      <pubDate>Sat, 01 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 github/copilot-sdk — 10170⭐ (51.1/day)</title>
+      <description>Multi-platform SDK for integrating GitHub Copilot Agent into apps and services
+
+Score: 69/100 | Language: Java</description>
+      <link>https://github.com/github/copilot-sdk</link>
+      <guid>https://github.com/github/copilot-sdk#2026-08-01</guid>
+      <pubDate>Sat, 01 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 microsoft/PowerToys — 137244⭐ (51.8/day)</title>
       <description>Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows
@@ -411,51 +465,6 @@ Score: 100/100 | Language: TypeScript</description>
       <link>https://github.com/nyblnet/bento</link>
       <guid>https://github.com/nyblnet/bento#2026-07-23</guid>
       <pubDate>Thu, 23 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 koala73/worldmonitor — 66573⭐ (343.2/day)</title>
-      <description>Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/koala73/worldmonitor</link>
-      <guid>https://github.com/koala73/worldmonitor#2026-07-22</guid>
-      <pubDate>Wed, 22 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 earthtojake/text-to-cad — 9364⭐ (102.9/day)</title>
-      <description>A collection of agent skills for CAD, robotics and hardware design
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/earthtojake/text-to-cad</link>
-      <guid>https://github.com/earthtojake/text-to-cad#2026-07-22</guid>
-      <pubDate>Wed, 22 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 tradesdontlie/tradingview-mcp — 4947⭐ (43.4/day)</title>
-      <description>AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/tradesdontlie/tradingview-mcp</link>
-      <guid>https://github.com/tradesdontlie/tradingview-mcp#2026-07-22</guid>
-      <pubDate>Wed, 22 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 AlexsJones/llmfit — 30332⭐ (194.4/day)</title>
-      <description>Hundreds of models &amp; providers. One command to find what runs on your hardware.
-
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/AlexsJones/llmfit</link>
-      <guid>https://github.com/AlexsJones/llmfit#2026-07-22</guid>
-      <pubDate>Wed, 22 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 hyprwm/Hyprland — 37118⭐ (23.4/day)</title>
-      <description>Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
-
-Score: 100/100 | Language: C++</description>
-      <link>https://github.com/hyprwm/Hyprland</link>
-      <guid>https://github.com/hyprwm/Hyprland#2026-07-22</guid>
-      <pubDate>Wed, 22 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
