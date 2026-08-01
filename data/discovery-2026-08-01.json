@@ -1,0 +1,305 @@
+{
+ "date": "2026-08-01",
+ "generated_at": "2026-08-01T07:15:30.789116",
+ "new": [
+  {
+   "full_name": "yc-software/qm",
+   "url": "https://github.com/yc-software/qm",
+   "description": "Multiplayer agent harness for work",
+   "language": "TypeScript",
+   "stars": 2897,
+   "forks": 265,
+   "age_days": 2,
+   "daily_stars": 1448.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "0xwilliamortiz/ratchet",
+   "url": "https://github.com/0xwilliamortiz/ratchet",
+   "description": "Your agent reads the rules. This checks whether it followed them.",
+   "language": "JavaScript",
+   "stars": 402,
+   "forks": 43,
+   "age_days": 1,
+   "daily_stars": 402.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "ddoemonn/interior",
+   "url": "https://github.com/ddoemonn/interior",
+   "description": "micro-interactions for react, built for the half-second after a click",
+   "language": "TypeScript",
+   "stars": 347,
+   "forks": 11,
+   "age_days": 1,
+   "daily_stars": 347.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "l00sed/termixer",
+   "url": "https://github.com/l00sed/termixer",
+   "description": "A 2-deck mixer, sample pads, sequencer— all from any Unix terminal.",
+   "language": "Rust",
+   "stars": 131,
+   "forks": 6,
+   "age_days": 1,
+   "daily_stars": 131.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "sqliteai/waste",
+   "url": "https://github.com/sqliteai/waste",
+   "description": "Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.",
+   "language": "C",
+   "stars": 386,
+   "forks": 36,
+   "age_days": 3,
+   "daily_stars": 128.66666666666666,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "elder-plinius/GL4SS",
+   "url": "https://github.com/elder-plinius/GL4SS",
+   "description": "the looking glass — spatiotemporal image + video engine",
+   "language": "TypeScript",
+   "stars": 112,
+   "forks": 22,
+   "age_days": 1,
+   "daily_stars": 112.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "shuaiplus/inkstone",
+   "url": "https://github.com/shuaiplus/inkstone",
+   "description": "A self-hosted Markdown notebook that runs entirely on Cloudflare Workers.",
+   "language": "TypeScript",
+   "stars": 101,
+   "forks": 73,
+   "age_days": 1,
+   "daily_stars": 101.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "rising"
+   ],
+   "license": "NOASSERTION",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 100,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "drumih/turbo-fieldfare",
+   "url": "https://github.com/drumih/turbo-fieldfare",
+   "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
+   "language": "Swift",
+   "stars": 3125,
+   "forks": 138,
+   "age_days": 14,
+   "daily_stars": 223.21428571428572,
+   "watchers": 12,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "Apache-2.0",
+   "hn_title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+   "hn_score": 901,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 100,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Audio8-AI/Audio8_TTS",
+   "url": "https://github.com/Audio8-AI/Audio8_TTS",
+   "description": "SOTA-Class TTS at Compact Scale",
+   "language": "Python",
+   "stars": 214,
+   "forks": 21,
+   "age_days": 3,
+   "daily_stars": 71.33333333333333,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 100,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "aigclink/geolook",
+   "url": "https://github.com/aigclink/geolook",
+   "description": "Open-source end-to-end GEO implementation: status analysis, diagnosis, strategy, tickets, execution, verification",
+   "language": "Python",
+   "stars": 151,
+   "forks": 34,
+   "age_days": 2,
+   "daily_stars": 75.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 100,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "github/copilot-sdk",
+   "url": "https://github.com/github/copilot-sdk",
+   "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+   "language": "Java",
+   "stars": 10170,
+   "forks": 1376,
+   "age_days": 199,
+   "daily_stars": 51.10552763819096,
+   "watchers": 107,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "rank": 1,
+   "scores": {
+    "total": 69,
+    "acceleration": 19,
+    "quality": 20,
+    "antispam": 30
+   }
+  }
+ ]
+}

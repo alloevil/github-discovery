@@ -56,27 +56,6 @@
       ],
       "last_recommended": "2026-07-21T07:20:09.870016+00:00"
     },
-    "google/agents-cli": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-01T07:35:34.191848+00:00"
-    },
-    "roboflow/supervision": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-01T07:35:34.193309+00:00"
-    },
-    "ogulcancelik/herdr": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-01T07:35:34.194783+00:00"
-    },
     "CoreBunch/Instatic": {
       "count": 2,
       "scores": [
@@ -93,34 +72,6 @@
         100
       ],
       "last_recommended": "2026-07-26T07:19:52.628251+00:00"
-    },
-    "TianhangZhuzth/Fundamental-Ava": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-01T07:35:34.199230+00:00"
-    },
-    "wlzh/dji-4g-vohive-mac": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-01T07:35:34.200603+00:00"
-    },
-    "diinki/linux-antiquity": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-01T07:35:34.201968+00:00"
-    },
-    "lycorp-jp/sim-use": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-01T07:35:34.203288+00:00"
     },
     "TencentCloud/CubeSandbox": {
       "count": 2,
@@ -1139,11 +1090,12 @@
       "last_recommended": "2026-07-17T07:03:38.752709+00:00"
     },
     "github/copilot-sdk": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        69
       ],
-      "last_recommended": "2026-07-17T07:03:38.755407+00:00"
+      "last_recommended": "2026-08-01T07:15:30.510055+00:00"
     },
     "ibelick/ui-skills": {
       "count": 1,
@@ -2049,7 +2001,77 @@
         93
       ],
       "last_recommended": "2026-07-31T07:35:04.600971+00:00"
+    },
+    "yc-software/qm": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-01T07:15:30.481707+00:00"
+    },
+    "0xwilliamortiz/ratchet": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-01T07:15:30.484859+00:00"
+    },
+    "ddoemonn/interior": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-01T07:15:30.487758+00:00"
+    },
+    "l00sed/termixer": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-01T07:15:30.490596+00:00"
+    },
+    "sqliteai/waste": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-01T07:15:30.493487+00:00"
+    },
+    "elder-plinius/GL4SS": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-01T07:15:30.496382+00:00"
+    },
+    "shuaiplus/inkstone": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-01T07:15:30.499287+00:00"
+    },
+    "drumih/turbo-fieldfare": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-01T07:15:30.502185+00:00"
+    },
+    "Audio8-AI/Audio8_TTS": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-01T07:15:30.505108+00:00"
+    },
+    "aigclink/geolook": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-01T07:15:30.508073+00:00"
     }
   },
-  "updated_at": "2026-07-31T07:35:04.603987+00:00"
+  "updated_at": "2026-08-01T07:15:30.510085+00:00"
 }

@@ -1,0 +1,587 @@
+{
+ "repos": {
+  "zhaoxuya520/reverse-skill": [
+   [
+    "2026-08-01",
+    11069
+   ]
+  ],
+  "different-ai/openwork": [
+   [
+    "2026-08-01",
+    19669
+   ]
+  ],
+  "mvanhorn/last30days-skill": [
+   [
+    "2026-08-01",
+    56371
+   ]
+  ],
+  "paperswithbacktest/awesome-systematic-trading": [
+   [
+    "2026-08-01",
+    11891
+   ]
+  ],
+  "microsoft/AI-For-Beginners": [
+   [
+    "2026-08-01",
+    55534
+   ]
+  ],
+  "github/copilot-sdk": [
+   [
+    "2026-08-01",
+    10170
+   ]
+  ],
+  "chatwoot/chatwoot": [
+   [
+    "2026-08-01",
+    35216
+   ]
+  ],
+  "agavra/tuicr": [
+   [
+    "2026-08-01",
+    2203
+   ]
+  ],
+  "usekaneo/kaneo": [
+   [
+    "2026-08-01",
+    5278
+   ]
+  ],
+  "geo-tp/ESP32-Bit-Pirate": [
+   [
+    "2026-08-01",
+    5138
+   ]
+  ],
+  "deepfakes/faceswap": [
+   [
+    "2026-08-01",
+    57095
+   ]
+  ],
+  "1jehuang/jcode": [
+   [
+    "2026-08-01",
+    14727
+   ]
+  ],
+  "MoonshotAI/Kimi-K3": [
+   [
+    "2026-08-01",
+    7750
+   ]
+  ],
+  "yc-software/qm": [
+   [
+    "2026-08-01",
+    2897
+   ]
+  ],
+  "bashalarmistalt/decimen-optical-transfer": [
+   [
+    "2026-08-01",
+    2377
+   ]
+  ],
+  "xikhar/persona": [
+   [
+    "2026-08-01",
+    727
+   ]
+  ],
+  "QwenAudio/qwen-audio-agent": [
+   [
+    "2026-08-01",
+    631
+   ]
+  ],
+  "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer": [
+   [
+    "2026-08-01",
+    614
+   ]
+  ],
+  "0xwilliamortiz/ponytail-improved": [
+   [
+    "2026-08-01",
+    572
+   ]
+  ],
+  "gavamedia/deltafin": [
+   [
+    "2026-08-01",
+    569
+   ]
+  ],
+  "0xwilliamortiz/openclaude-improved": [
+   [
+    "2026-08-01",
+    563
+   ]
+  ],
+  "DramaticShape/DramaticShapeVoxelMod": [
+   [
+    "2026-08-01",
+    553
+   ]
+  ],
+  "talivia-group/talivia": [
+   [
+    "2026-08-01",
+    532
+   ]
+  ],
+  "WilonityDev/WilonityLoader": [
+   [
+    "2026-08-01",
+    532
+   ]
+  ],
+  "wassgha/rescript": [
+   [
+    "2026-08-01",
+    478
+   ]
+  ],
+  "Noniv/snowflow_demo": [
+   [
+    "2026-08-01",
+    419
+   ]
+  ],
+  "0xwilliamortiz/ratchet": [
+   [
+    "2026-08-01",
+    402
+   ]
+  ],
+  "sqliteai/waste": [
+   [
+    "2026-08-01",
+    386
+   ]
+  ],
+  "achimala/TheLongSilence": [
+   [
+    "2026-08-01",
+    375
+   ]
+  ],
+  "deerwork-ai/deer-workflow": [
+   [
+    "2026-08-01",
+    369
+   ]
+  ],
+  "ddoemonn/interior": [
+   [
+    "2026-08-01",
+    347
+   ]
+  ],
+  "Packets/tew": [
+   [
+    "2026-08-01",
+    340
+   ]
+  ],
+  "lij768423-svg/grok-register-panel": [
+   [
+    "2026-08-01",
+    310
+   ]
+  ],
+  "PipeNetwork/kimi-k3-mlx": [
+   [
+    "2026-08-01",
+    310
+   ]
+  ],
+  "sii-research/tau-0-vla": [
+   [
+    "2026-08-01",
+    244
+   ]
+  ],
+  "Audio8-AI/Audio8_TTS": [
+   [
+    "2026-08-01",
+    214
+   ]
+  ],
+  "dotneet/image-to-3d": [
+   [
+    "2026-08-01",
+    206
+   ]
+  ],
+  "bytec-ai/book-video-factory": [
+   [
+    "2026-08-01",
+    204
+   ]
+  ],
+  "AmazingAng/old-coder": [
+   [
+    "2026-08-01",
+    201
+   ]
+  ],
+  "H-EmbodVis/TurboVLA": [
+   [
+    "2026-08-01",
+    187
+   ]
+  ],
+  "dboudreau00/NocTORnal": [
+   [
+    "2026-08-01",
+    171
+   ]
+  ],
+  "0rangec3t/Black-cat": [
+   [
+    "2026-08-01",
+    161
+   ]
+  ],
+  "aigclink/geolook": [
+   [
+    "2026-08-01",
+    151
+   ]
+  ],
+  "cherryand1112-creator/IPTV-JAPAN-M3U": [
+   [
+    "2026-08-01",
+    146
+   ]
+  ],
+  "Loki200399/india-itr-copilot": [
+   [
+    "2026-08-01",
+    124
+   ]
+  ],
+  "MarionLepert/openderm": [
+   [
+    "2026-08-01",
+    121
+   ]
+  ],
+  "zaoan0/funf-pro-relay": [
+   [
+    "2026-08-01",
+    118
+   ]
+  ],
+  "qa10devteam/behive": [
+   [
+    "2026-08-01",
+    116
+   ]
+  ],
+  "rw-r-r-0644/bc250-core-unlock": [
+   [
+    "2026-08-01",
+    115
+   ]
+  ],
+  "cvg/vidmap": [
+   [
+    "2026-08-01",
+    114
+   ]
+  ],
+  "anderson6666/lianghua": [
+   [
+    "2026-08-01",
+    114
+   ]
+  ],
+  "deedy/qr-data-transfer": [
+   [
+    "2026-08-01",
+    272
+   ]
+  ],
+  "ogulcancelik/herdr-browser": [
+   [
+    "2026-08-01",
+    222
+   ]
+  ],
+  "microsoft/skill-recorder": [
+   [
+    "2026-08-01",
+    218
+   ]
+  ],
+  "benjitaylor/drawesome": [
+   [
+    "2026-08-01",
+    184
+   ]
+  ],
+  "Autumn-27/ARTEX": [
+   [
+    "2026-08-01",
+    177
+   ]
+  ],
+  "TanStack/charts": [
+   [
+    "2026-08-01",
+    162
+   ]
+  ],
+  "WutIsHummus/TrueDeck": [
+   [
+    "2026-08-01",
+    123
+   ]
+  ],
+  "tasmirz/jagoo-bahee": [
+   [
+    "2026-08-01",
+    114
+   ]
+  ],
+  "miuuyy/codex-chatgpt-web": [
+   [
+    "2026-08-01",
+    113
+   ]
+  ],
+  "elder-plinius/GL4SS": [
+   [
+    "2026-08-01",
+    112
+   ]
+  ],
+  "Zev55555/fragment-garden": [
+   [
+    "2026-08-01",
+    111
+   ]
+  ],
+  "dcatanzaro/aoweb": [
+   [
+    "2026-08-01",
+    106
+   ]
+  ],
+  "shuaiplus/inkstone": [
+   [
+    "2026-08-01",
+    101
+   ]
+  ],
+  "steelbrain/reims-vgpu": [
+   [
+    "2026-08-01",
+    228
+   ]
+  ],
+  "l00sed/termixer": [
+   [
+    "2026-08-01",
+    131
+   ]
+  ],
+  "richlegrand/bitbang-cli": [
+   [
+    "2026-08-01",
+    111
+   ]
+  ],
+  "mokshablr/gander": [
+   [
+    "2026-08-01",
+    227
+   ]
+  ],
+  "NoTheIdiot/WindogeOS": [
+   [
+    "2026-08-01",
+    10
+   ]
+  ],
+  "zhurong2020/pyobfus": [
+   [
+    "2026-08-01",
+    3
+   ]
+  ],
+  "j-sofia/WhisperKeys": [
+   [
+    "2026-08-01",
+    3
+   ]
+  ],
+  "drumih/turbo-fieldfare": [
+   [
+    "2026-08-01",
+    3125
+   ]
+  ],
+  "lace-ai/gai": [
+   [
+    "2026-08-01",
+    12
+   ]
+  ],
+  "hamzarehmandeveloper/claude-account": [
+   [
+    "2026-08-01",
+    56
+   ]
+  ],
+  "VladUZH/qwen-scribe": [
+   [
+    "2026-08-01",
+    153
+   ]
+  ],
+  "yashmahajan10/llm-differential-privacy-gateway": [
+   [
+    "2026-08-01",
+    19
+   ]
+  ],
+  "comalice/usbatlas": [
+   [
+    "2026-08-01",
+    1
+   ]
+  ],
+  "KingSparta69/chainlink-twap-research": [
+   [
+    "2026-08-01",
+    78
+   ]
+  ],
+  "tamnisan/spark": [
+   [
+    "2026-08-01",
+    50
+   ]
+  ],
+  "YuJunZhiXue/Cline-proxy": [
+   [
+    "2026-08-01",
+    80
+   ]
+  ],
+  "bybit-exchange/kaas": [
+   [
+    "2026-08-01",
+    63
+   ]
+  ],
+  "yu123-tqy/equipdoc-agent": [
+   [
+    "2026-08-01",
+    51
+   ]
+  ],
+  "bingyan4science/askchem": [
+   [
+    "2026-08-01",
+    5
+   ]
+  ],
+  "MemTensor/Metis": [
+   [
+    "2026-08-01",
+    47
+   ]
+  ],
+  "FrontisAI/OpenRSI": [
+   [
+    "2026-08-01",
+    79
+   ]
+  ],
+  "yaoyao-jpg/PhiZero": [
+   [
+    "2026-08-01",
+    26
+   ]
+  ],
+  "LiJiaxing0213/DistillAlign": [
+   [
+    "2026-08-01",
+    87
+   ]
+  ],
+  "micky-li-hd/VideoCoCo": [
+   [
+    "2026-08-01",
+    57
+   ]
+  ],
+  "LUMIA-Group/MemoryDecoder-at-Scale": [
+   [
+    "2026-08-01",
+    7
+   ]
+  ],
+  "NOVAglow646/Beacon": [
+   [
+    "2026-08-01",
+    2
+   ]
+  ],
+  "IamLihua/CLBench-V": [
+   [
+    "2026-08-01",
+    3
+   ]
+  ],
+  "AnnLin0628/mpie-bench": [
+   [
+    "2026-08-01",
+    3
+   ]
+  ],
+  "Zhuyh1139/PALATE": [
+   [
+    "2026-08-01",
+    4
+   ]
+  ],
+  "pkucs-Ltf/RefCaptioner": [
+   [
+    "2026-08-01",
+    3
+   ]
+  ],
+  "CSU-JPG/See2Think": [
+   [
+    "2026-08-01",
+    3
+   ]
+  ],
+  "IANNXANG/SpatialCLI": [
+   [
+    "2026-08-01",
+    8
+   ]
+  ],
+  "AlayaLab/ShadowDancer": [
+   [
+    "2026-08-01",
+    18
+   ]
+  ]
+ },
+ "updated_at": "2026-08-01T07:14:53.798348+00:00"
+}
