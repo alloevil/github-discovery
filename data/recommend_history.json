@@ -81,41 +81,6 @@
       ],
       "last_recommended": "2026-07-09T08:17:11.608728+00:00"
     },
-    "mekos2772/ios-location-spoofer": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-02T07:57:21.593816+00:00"
-    },
-    "Kulaxyz/self-learning-skills": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-02T07:57:21.595712+00:00"
-    },
-    "Leron-X/leronx": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-02T07:57:21.597456+00:00"
-    },
-    "tryOpenRAM/OpenRAM": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-02T07:57:21.599374+00:00"
-    },
-    "aquace/CVE-2026-41940-PoC": {
-      "count": 1,
-      "scores": [
-        97
-      ],
-      "last_recommended": "2026-07-02T07:57:21.601225+00:00"
-    },
     "hasaneyldrm/exercises-dataset": {
       "count": 2,
       "scores": [
@@ -123,27 +88,6 @@
         100
       ],
       "last_recommended": "2026-07-14T06:58:01.464950+00:00"
-    },
-    "0xNyk/council-of-high-intelligence": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-07-02T07:57:21.604869+00:00"
-    },
-    "yikart/AiToEarn": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-07-02T07:57:21.606679+00:00"
-    },
-    "allenai/olmocr": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-07-02T07:57:21.608473+00:00"
     },
     "JuliusBrussee/caveman": {
       "count": 1,
@@ -560,11 +504,12 @@
       "last_recommended": "2026-07-08T07:15:28.545088+00:00"
     },
     "TencentCloud/TencentDB-Agent-Memory": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-09T08:17:11.603673+00:00"
+      "last_recommended": "2026-08-02T07:19:09.169578+00:00"
     },
     "withmarbleapp/os-taxonomy": {
       "count": 1,
@@ -2071,7 +2016,77 @@
         100
       ],
       "last_recommended": "2026-08-01T07:15:30.508073+00:00"
+    },
+    "usekaneo/kaneo": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-02T07:19:09.144011+00:00"
+    },
+    "zhaoxuya520/reverse-skill": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-02T07:19:09.146888+00:00"
+    },
+    "paperswithbacktest/awesome-systematic-trading": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-02T07:19:09.149550+00:00"
+    },
+    "trycompai/crm": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-02T07:19:09.152095+00:00"
+    },
+    "Anionex/codex-deepseek-vision": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-02T07:19:09.154754+00:00"
+    },
+    "brookfacehe2421/flashloan-scalper-bot": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-02T07:19:09.157564+00:00"
+    },
+    "s1dashu/animated-voiceover": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-02T07:19:09.160132+00:00"
+    },
+    "richlegrand/bitbang-cli": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-02T07:19:09.162635+00:00"
+    },
+    "bytedance/deer-flow": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-02T07:19:09.165217+00:00"
+    },
+    "helloaiden0305/odm_helper_demo": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-02T07:19:09.167823+00:00"
     }
   },
-  "updated_at": "2026-08-01T07:15:30.510085+00:00"
+  "updated_at": "2026-08-02T07:19:09.169604+00:00"
 }
