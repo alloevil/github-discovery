@@ -5,8 +5,71 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Aug 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 microsoft/generative-ai-for-beginners — 115068⭐ (702.0/day)</title>
+      <description>21 Lessons, Get Started Building with Generative AI 
+
+Score: 100/100 | Language: Jupyter Notebook</description>
+      <link>https://github.com/microsoft/generative-ai-for-beginners</link>
+      <guid>https://github.com/microsoft/generative-ai-for-beginners#2026-08-03</guid>
+      <pubDate>Mon, 03 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 iv-org/invidious — 22091⭐ (405.0/day)</title>
+      <description>Invidious is an alternative front-end to YouTube
+
+Score: 100/100 | Language: Crystal</description>
+      <link>https://github.com/iv-org/invidious</link>
+      <guid>https://github.com/iv-org/invidious#2026-08-03</guid>
+      <pubDate>Mon, 03 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 microsoft/skill-recorder — 1066⭐ (643.0/day)</title>
+      <description>Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Scout, Microsoft Copilot Cowork, or Copilot Studio.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/microsoft/skill-recorder</link>
+      <guid>https://github.com/microsoft/skill-recorder#2026-08-03</guid>
+      <pubDate>Mon, 03 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 DannyMac180/sol-advisor — 805⭐ (805.0/day)</title>
+      <description>Codex-native architect orchestration with Luna and Terra implementation lanes and mandatory fresh Sol review.
+
+Score: 100/100 | Language: Shell</description>
+      <link>https://github.com/DannyMac180/sol-advisor</link>
+      <guid>https://github.com/DannyMac180/sol-advisor#2026-08-03</guid>
+      <pubDate>Mon, 03 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 0xwilliamortiz/humanizer-cli — 542⭐ (542.0/day)</title>
+      <description>33 ways to spot AI-written text, right in your terminal. Before/after examples, draft checker, zero dependencies.
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/0xwilliamortiz/humanizer-cli</link>
+      <guid>https://github.com/0xwilliamortiz/humanizer-cli#2026-08-03</guid>
+      <pubDate>Mon, 03 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 codecrafters-io/build-your-own-x — 535272⭐ (178.0/day)</title>
+      <description>Master programming by recreating your favorite technologies from scratch.
+
+Score: 70/100 | Language: Markdown</description>
+      <link>https://github.com/codecrafters-io/build-your-own-x</link>
+      <guid>https://github.com/codecrafters-io/build-your-own-x#2026-08-03</guid>
+      <pubDate>Mon, 03 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 lyogavin/airllm — 26043⭐ (22.7/day)</title>
+      <description>AirLLM 70B inference with single 4GB GPU
+
+Score: 65/100 | Language: Jupyter Notebook</description>
+      <link>https://github.com/lyogavin/airllm</link>
+      <guid>https://github.com/lyogavin/airllm#2026-08-03</guid>
+      <pubDate>Mon, 03 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 usekaneo/kaneo — 5797⭐ (519.0/day)</title>
       <description>🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.
@@ -429,51 +492,6 @@ Score: 100/100 | Language: Java</description>
       <link>https://github.com/OtterMind/Chat2DB</link>
       <guid>https://github.com/OtterMind/Chat2DB#2026-07-25</guid>
       <pubDate>Sat, 25 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 block/buzz — 7720⭐ (55.5/day)</title>
-      <description>A hive mind communication platform
-
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/block/buzz</link>
-      <guid>https://github.com/block/buzz#2026-07-24</guid>
-      <pubDate>Fri, 24 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 alibaba/open-code-review — 11885⭐ (177.4/day)</title>
-      <description>Open-source &amp; free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.
-
-Score: 100/100 | Language: Go</description>
-      <link>https://github.com/alibaba/open-code-review</link>
-      <guid>https://github.com/alibaba/open-code-review#2026-07-24</guid>
-      <pubDate>Fri, 24 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 andrewyng/openworker — 2089⭐ (522.2/day)</title>
-      <description>
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/andrewyng/openworker</link>
-      <guid>https://github.com/andrewyng/openworker#2026-07-24</guid>
-      <pubDate>Fri, 24 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 pireel/pireel — 675⭐ (225.0/day)</title>
-      <description>Open-source, backend-free AI video editor for talking-head video — storyboarding, designed graphics, kinetic captions, themes and in-browser WebCodecs export. Drivable by any AI agent over MCP.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/pireel/pireel</link>
-      <guid>https://github.com/pireel/pireel#2026-07-24</guid>
-      <pubDate>Fri, 24 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 gnipbao/story-to-handdrawn-video — 584⭐ (292.0/day)</title>
-      <description>Agent skill: convert Chinese story copy or ordered images into a hand-drawn diary-comic animation (silent MP4 picture track).
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/gnipbao/story-to-handdrawn-video</link>
-      <guid>https://github.com/gnipbao/story-to-handdrawn-video#2026-07-24</guid>
-      <pubDate>Fri, 24 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

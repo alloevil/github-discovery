@@ -89,20 +89,6 @@
       ],
       "last_recommended": "2026-07-14T06:58:01.464950+00:00"
     },
-    "JuliusBrussee/caveman": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-03T07:51:39.667428+00:00"
-    },
-    "santifer/career-ops": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-03T07:51:39.669027+00:00"
-    },
     "ChromeDevTools/chrome-devtools-mcp": {
       "count": 2,
       "scores": [
@@ -118,118 +104,6 @@
         100
       ],
       "last_recommended": "2026-07-26T07:19:52.642714+00:00"
-    },
-    "agentskills/agentskills": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-03T07:51:39.673645+00:00"
-    },
-    "openai/codex-plugin-cc": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-03T07:51:39.675314+00:00"
-    },
-    "langflow-ai/langflow": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-03T07:51:39.676869+00:00"
-    },
-    "pytorch/pytorch": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-03T07:51:39.678380+00:00"
-    },
-    "harvard-edge/cs249r_book": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-03T07:51:39.680049+00:00"
-    },
-    "Jia-Ethan/codex-keysmith": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-03T07:51:39.681597+00:00"
-    },
-    "facebook/astryx": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-04T07:30:40.517077+00:00"
-    },
-    "anthropics/claude-code": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-04T07:30:40.518908+00:00"
-    },
-    "supabase/supabase": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-04T07:30:40.520704+00:00"
-    },
-    "HUANGCHIHHUNGLeo/claude-real-video": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-04T07:30:40.522485+00:00"
-    },
-    "xuchonglang/investing-for-beginners": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-04T07:30:40.524382+00:00"
-    },
-    "uzairansaruzi/hermex": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-04T07:30:40.526223+00:00"
-    },
-    "jamesob/local-llm": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-04T07:30:40.528085+00:00"
-    },
-    "jmerelnyc/Talos": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-04T07:30:40.530098+00:00"
-    },
-    "asz798838958/FrciblyK12": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-04T07:30:40.532152+00:00"
-    },
-    "spiritov/ds.css": {
-      "count": 1,
-      "scores": [
-        99
-      ],
-      "last_recommended": "2026-07-04T07:30:40.534196+00:00"
     },
     "asgeirtj/system_prompts_leaks": {
       "count": 1,
@@ -1050,11 +924,12 @@
       "last_recommended": "2026-07-17T07:03:38.758105+00:00"
     },
     "codecrafters-io/build-your-own-x": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        70
       ],
-      "last_recommended": "2026-07-17T07:03:38.760614+00:00"
+      "last_recommended": "2026-08-03T08:03:45.535674+00:00"
     },
     "xai-org/grok-build": {
       "count": 1,
@@ -1219,11 +1094,12 @@
       "last_recommended": "2026-07-19T07:15:39.736547+00:00"
     },
     "lyogavin/airllm": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        98
+        98,
+        65
       ],
-      "last_recommended": "2026-07-19T07:15:39.739086+00:00"
+      "last_recommended": "2026-08-03T08:03:45.537497+00:00"
     },
     "MoonshotAI/kimi-cli": {
       "count": 1,
@@ -2086,7 +1962,77 @@
         100
       ],
       "last_recommended": "2026-08-02T07:19:09.167823+00:00"
+    },
+    "microsoft/generative-ai-for-beginners": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-03T08:03:45.509472+00:00"
+    },
+    "iv-org/invidious": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-03T08:03:45.512534+00:00"
+    },
+    "microsoft/skill-recorder": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-03T08:03:45.515208+00:00"
+    },
+    "DannyMac180/sol-advisor": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-03T08:03:45.517813+00:00"
+    },
+    "0xwilliamortiz/humanizer-cli": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-03T08:03:45.520535+00:00"
+    },
+    "FareedKhan-dev/kimi-k3-in-c": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-03T08:03:45.523245+00:00"
+    },
+    "NomaDamas/k-skill": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-03T08:03:45.525926+00:00"
+    },
+    "Anionex/codex-vision-proxy": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-03T08:03:45.528614+00:00"
+    },
+    "thebuggeddev/anatomy": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-03T08:03:45.531248+00:00"
+    },
+    "juxhinr/bindwidth": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-03T08:03:45.533843+00:00"
     }
   },
-  "updated_at": "2026-08-02T07:19:09.169604+00:00"
+  "updated_at": "2026-08-03T08:03:45.537526+00:00"
 }

@@ -1,0 +1,331 @@
+{
+ "date": "2026-08-03",
+ "generated_at": "2026-08-03T08:03:45.798992",
+ "new": [
+  {
+   "full_name": "microsoft/generative-ai-for-beginners",
+   "url": "https://github.com/microsoft/generative-ai-for-beginners",
+   "description": "21 Lessons, Get Started Building with Generative AI ",
+   "language": "Jupyter Notebook",
+   "stars": 115068,
+   "forks": 61354,
+   "age_days": 1140,
+   "daily_stars": 100.93684210526315,
+   "real_daily_stars": 702.0,
+   "watchers": 984,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "iv-org/invidious",
+   "url": "https://github.com/iv-org/invidious",
+   "description": "Invidious is an alternative front-end to YouTube",
+   "language": "Crystal",
+   "stars": 22091,
+   "forks": 2464,
+   "age_days": 3099,
+   "daily_stars": 7.128428525330752,
+   "real_daily_stars": 405.0,
+   "watchers": 192,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "microsoft/skill-recorder",
+   "url": "https://github.com/microsoft/skill-recorder",
+   "description": "Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Scout, Microsoft Copilot Cowork, or Copilot Studio.",
+   "language": "TypeScript",
+   "stars": 1066,
+   "forks": 112,
+   "age_days": 4,
+   "daily_stars": 266.5,
+   "real_daily_stars": 643.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 37,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "DannyMac180/sol-advisor",
+   "url": "https://github.com/DannyMac180/sol-advisor",
+   "description": "Codex-native architect orchestration with Luna and Terra implementation lanes and mandatory fresh Sol review.",
+   "language": "Shell",
+   "stars": 805,
+   "forks": 55,
+   "age_days": 1,
+   "daily_stars": 805.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "0xwilliamortiz/humanizer-cli",
+   "url": "https://github.com/0xwilliamortiz/humanizer-cli",
+   "description": "33 ways to spot AI-written text, right in your terminal. Before/after examples, draft checker, zero dependencies.",
+   "language": "JavaScript",
+   "stars": 542,
+   "forks": 68,
+   "age_days": 1,
+   "daily_stars": 542.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "FareedKhan-dev/kimi-k3-in-c",
+   "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+   "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+   "language": "C",
+   "stars": 501,
+   "forks": 63,
+   "age_days": 1,
+   "daily_stars": 501.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "NomaDamas/k-skill",
+   "url": "https://github.com/NomaDamas/k-skill",
+   "description": "한국인을 위한 스킬 모음집 - 에이전트를 한국인으로",
+   "language": "JavaScript",
+   "stars": 6949,
+   "forks": 816,
+   "age_days": 131,
+   "daily_stars": 53.045801526717554,
+   "real_daily_stars": 161.0,
+   "watchers": 21,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 100,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "Anionex/codex-vision-proxy",
+   "url": "https://github.com/Anionex/codex-vision-proxy",
+   "description": "让纯文本模型在 Codex 中无障碍调用内置看图工具（view_image）的方案，附为纯文本 LLM 设计的视觉工具包&skill ｜  Let text-only models call Codex's built-in view_image seamlessly, plus a vision toolkit&skill designed for text-only LLMs.",
+   "language": "Python",
+   "stars": 222,
+   "forks": 9,
+   "age_days": 1,
+   "daily_stars": 222.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 100,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "thebuggeddev/anatomy",
+   "url": "https://github.com/thebuggeddev/anatomy",
+   "description": "An interactive 3D human anatomy explorer built using threejs with GPT 5.6 Sol",
+   "language": "TypeScript",
+   "stars": 474,
+   "forks": 126,
+   "age_days": 1,
+   "daily_stars": 474.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "juxhinr/bindwidth",
+   "url": "https://github.com/juxhinr/bindwidth",
+   "description": "Evidence-aware on-prem LLM inference sizing and TCO calculator",
+   "language": "JavaScript",
+   "stars": 138,
+   "forks": 80,
+   "age_days": 1,
+   "daily_stars": 138.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "codecrafters-io/build-your-own-x",
+   "url": "https://github.com/codecrafters-io/build-your-own-x",
+   "description": "Master programming by recreating your favorite technologies from scratch.",
+   "language": "Markdown",
+   "stars": 535272,
+   "forks": 50582,
+   "age_days": 3007,
+   "daily_stars": 178.00864649151978,
+   "watchers": 6824,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "",
+   "rank": 1,
+   "scores": {
+    "total": 70,
+    "acceleration": 25,
+    "quality": 15,
+    "antispam": 30
+   }
+  },
+  {
+   "full_name": "lyogavin/airllm",
+   "url": "https://github.com/lyogavin/airllm",
+   "description": "AirLLM 70B inference with single 4GB GPU",
+   "language": "Jupyter Notebook",
+   "stars": 26043,
+   "forks": 2906,
+   "age_days": 1147,
+   "daily_stars": 22.705318221447254,
+   "watchers": 257,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "rank": 2,
+   "scores": {
+    "total": 65,
+    "acceleration": 15,
+    "quality": 20,
+    "antispam": 30
+   }
+  }
+ ]
+}
