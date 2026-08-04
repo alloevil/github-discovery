@@ -1,0 +1,333 @@
+{
+ "date": "2026-08-04",
+ "generated_at": "2026-08-04T07:24:18.118168",
+ "new": [
+  {
+   "full_name": "esengine/DeepSeek-Reasonix",
+   "url": "https://github.com/esengine/DeepSeek-Reasonix",
+   "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+   "language": "Go",
+   "stars": 30269,
+   "forks": 1949,
+   "age_days": 104,
+   "daily_stars": 291.0480769230769,
+   "real_daily_stars": 842.0,
+   "watchers": 78,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Panniantong/Agent-Reach",
+   "url": "https://github.com/Panniantong/Agent-Reach",
+   "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+   "language": "Python",
+   "stars": 66030,
+   "forks": 5475,
+   "age_days": 161,
+   "daily_stars": 410.12422360248445,
+   "real_daily_stars": 903.0,
+   "watchers": 228,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "genspark-ai/genoffice",
+   "url": "https://github.com/genspark-ai/genoffice",
+   "description": "An AI-native office suite for macOS and Windows: word processor, spreadsheet, presentations, and PDF.",
+   "language": "TypeScript",
+   "stars": 869,
+   "forks": 119,
+   "age_days": 3,
+   "daily_stars": 289.6666666666667,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "disler/super-simple-software-factory",
+   "url": "https://github.com/disler/super-simple-software-factory",
+   "description": "Repeatable agents-plus-code workflows, packaged as one skill, stamped into any repo. Deterministic Python owns the graph; coding agents are bounded nodes inside it.",
+   "language": "Python",
+   "stars": 254,
+   "forks": 51,
+   "age_days": 1,
+   "daily_stars": 254.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "joeseesun/qiaomu-seo",
+   "url": "https://github.com/joeseesun/qiaomu-seo",
+   "description": "Audit, diagnose, research, plan, implement, experiment on, and verify website SEO across Google, Bing, and AI-search surfaces. Use for technical SEO, ",
+   "language": "Python",
+   "stars": 202,
+   "forks": 19,
+   "age_days": 1,
+   "daily_stars": 202.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "imsai-sh/zhuzhiliao",
+   "url": "https://github.com/imsai-sh/zhuzhiliao",
+   "description": "竹知了 —— 一转就哇哇叫的传统玩具，Web 模拟版。零依赖单文件，真实录音采样，移动端优先。",
+   "language": "HTML",
+   "stars": 1113,
+   "forks": 142,
+   "age_days": 2,
+   "daily_stars": 556.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "antirez/ds4",
+   "url": "https://github.com/antirez/ds4",
+   "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+   "language": "C",
+   "stars": 20456,
+   "forks": 1809,
+   "age_days": 89,
+   "daily_stars": 229.8426966292135,
+   "real_daily_stars": 320.0,
+   "watchers": 159,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "openai/ten-proofs",
+   "url": "https://github.com/openai/ten-proofs",
+   "description": "Lean certificates accompanying proofs in mathematics and theoretical computer science",
+   "language": "Lean",
+   "stars": 448,
+   "forks": 40,
+   "age_days": 3,
+   "daily_stars": 149.33333333333334,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "alikon-art/DeterminFlow",
+   "url": "https://github.com/alikon-art/DeterminFlow",
+   "description": "A production-oriented AI workflow runtime for building, validating, recovering, and shipping complex AI workflows as dependable services. 面向生产的 AI 工作流运行时：快速开发、验证和恢复复杂 AI 工作流，并将其稳定交付为服务。",
+   "language": "Python",
+   "stars": 151,
+   "forks": 22,
+   "age_days": 1,
+   "daily_stars": 151.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "guillermolg00/morphicons",
+   "url": "https://github.com/guillermolg00/morphicons",
+   "description": "Any icon morphs into any other — universal morphing for stroke-based icons with spring physics. Zero dependencies, ~7 KB gzip.",
+   "language": "TypeScript",
+   "stars": 234,
+   "forks": 8,
+   "age_days": 2,
+   "daily_stars": 117.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 100,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "jamiepine/voicebox",
+   "url": "https://github.com/jamiepine/voicebox",
+   "description": "The open-source AI voice studio. Clone, dictate, create.",
+   "language": "TypeScript",
+   "stars": 48892,
+   "forks": 6004,
+   "age_days": 190,
+   "daily_stars": 257.3263157894737,
+   "watchers": 230,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "shiyu-coder/Kronos",
+   "url": "https://github.com/shiyu-coder/Kronos",
+   "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+   "language": "Python",
+   "stars": 35898,
+   "forks": 5973,
+   "age_days": 399,
+   "daily_stars": 89.96992481203007,
+   "watchers": 306,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "rank": 2,
+   "scores": {
+    "total": 72,
+    "acceleration": 22,
+    "quality": 20,
+    "antispam": 30
+   }
+  }
+ ]
+}

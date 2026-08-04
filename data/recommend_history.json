@@ -1123,11 +1123,12 @@
       "last_recommended": "2026-07-20T07:46:16.169644+00:00"
     },
     "jamiepine/voicebox": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-20T07:46:16.172333+00:00"
+      "last_recommended": "2026-08-04T07:24:17.871217+00:00"
     },
     "KnockOutEZ/wigolo": {
       "count": 1,
@@ -1341,11 +1342,12 @@
       "last_recommended": "2026-07-23T07:18:40.005407+00:00"
     },
     "shiyu-coder/Kronos": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        97
+        97,
+        72
       ],
-      "last_recommended": "2026-07-23T07:18:40.008331+00:00"
+      "last_recommended": "2026-08-04T07:24:17.872700+00:00"
     },
     "dreamhunter2333/cloudflare_temp_email": {
       "count": 1,
@@ -2032,7 +2034,77 @@
         100
       ],
       "last_recommended": "2026-08-03T08:03:45.533843+00:00"
+    },
+    "esengine/DeepSeek-Reasonix": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-04T07:24:17.844412+00:00"
+    },
+    "Panniantong/Agent-Reach": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-04T07:24:17.847470+00:00"
+    },
+    "genspark-ai/genoffice": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-04T07:24:17.850088+00:00"
+    },
+    "disler/super-simple-software-factory": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-04T07:24:17.852619+00:00"
+    },
+    "joeseesun/qiaomu-seo": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-04T07:24:17.855276+00:00"
+    },
+    "imsai-sh/zhuzhiliao": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-04T07:24:17.858137+00:00"
+    },
+    "antirez/ds4": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-04T07:24:17.860605+00:00"
+    },
+    "openai/ten-proofs": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-04T07:24:17.863377+00:00"
+    },
+    "alikon-art/DeterminFlow": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-04T07:24:17.867178+00:00"
+    },
+    "guillermolg00/morphicons": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-04T07:24:17.869737+00:00"
     }
   },
-  "updated_at": "2026-08-03T08:03:45.537526+00:00"
+  "updated_at": "2026-08-04T07:24:17.872719+00:00"
 }

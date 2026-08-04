@@ -5,8 +5,71 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Aug 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 esengine/DeepSeek-Reasonix — 30269⭐ (842.0/day)</title>
+      <description>DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.
+
+Score: 100/100 | Language: Go</description>
+      <link>https://github.com/esengine/DeepSeek-Reasonix</link>
+      <guid>https://github.com/esengine/DeepSeek-Reasonix#2026-08-04</guid>
+      <pubDate>Tue, 04 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 Panniantong/Agent-Reach — 66030⭐ (903.0/day)</title>
+      <description>Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/Panniantong/Agent-Reach</link>
+      <guid>https://github.com/Panniantong/Agent-Reach#2026-08-04</guid>
+      <pubDate>Tue, 04 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 genspark-ai/genoffice — 869⭐ (289.7/day)</title>
+      <description>An AI-native office suite for macOS and Windows: word processor, spreadsheet, presentations, and PDF.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/genspark-ai/genoffice</link>
+      <guid>https://github.com/genspark-ai/genoffice#2026-08-04</guid>
+      <pubDate>Tue, 04 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 disler/super-simple-software-factory — 254⭐ (254.0/day)</title>
+      <description>Repeatable agents-plus-code workflows, packaged as one skill, stamped into any repo. Deterministic Python owns the graph; coding agents are bounded nodes inside it.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/disler/super-simple-software-factory</link>
+      <guid>https://github.com/disler/super-simple-software-factory#2026-08-04</guid>
+      <pubDate>Tue, 04 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 joeseesun/qiaomu-seo — 202⭐ (202.0/day)</title>
+      <description>Audit, diagnose, research, plan, implement, experiment on, and verify website SEO across Google, Bing, and AI-search surfaces. Use for technical SEO, 
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/joeseesun/qiaomu-seo</link>
+      <guid>https://github.com/joeseesun/qiaomu-seo#2026-08-04</guid>
+      <pubDate>Tue, 04 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 jamiepine/voicebox — 48892⭐ (257.3/day)</title>
+      <description>The open-source AI voice studio. Clone, dictate, create.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/jamiepine/voicebox</link>
+      <guid>https://github.com/jamiepine/voicebox#2026-08-04</guid>
+      <pubDate>Tue, 04 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 shiyu-coder/Kronos — 35898⭐ (90.0/day)</title>
+      <description>Kronos: A Foundation Model for the Language of Financial Markets
+
+Score: 72/100 | Language: Python</description>
+      <link>https://github.com/shiyu-coder/Kronos</link>
+      <guid>https://github.com/shiyu-coder/Kronos#2026-08-04</guid>
+      <pubDate>Tue, 04 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 microsoft/generative-ai-for-beginners — 115068⭐ (702.0/day)</title>
       <description>21 Lessons, Get Started Building with Generative AI 
@@ -447,51 +510,6 @@ Score: 100/100 | Language: Python</description>
       <link>https://github.com/andrewyng/aisuite</link>
       <guid>https://github.com/andrewyng/aisuite#2026-07-26</guid>
       <pubDate>Sun, 26 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 citrolabs/ego-lite — 2861⭐ (28.9/day)</title>
-      <description>The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/citrolabs/ego-lite</link>
-      <guid>https://github.com/citrolabs/ego-lite#2026-07-25</guid>
-      <pubDate>Sat, 25 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 yorukot/superfile — 19725⭐ (23.0/day)</title>
-      <description>Pretty fancy and modern terminal file manager
-
-Score: 100/100 | Language: Go</description>
-      <link>https://github.com/yorukot/superfile</link>
-      <guid>https://github.com/yorukot/superfile#2026-07-25</guid>
-      <pubDate>Sat, 25 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 CoreBunch/Instatic — 4384⭐ (51.6/day)</title>
-      <description>The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/CoreBunch/Instatic</link>
-      <guid>https://github.com/CoreBunch/Instatic#2026-07-25</guid>
-      <pubDate>Sat, 25 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 mattpocock/skills — 187195⭐ (1094.7/day)</title>
-      <description>Skills for Real Engineers. Straight from my .agents directory.
-
-Score: 100/100 | Language: Shell</description>
-      <link>https://github.com/mattpocock/skills</link>
-      <guid>https://github.com/mattpocock/skills#2026-07-25</guid>
-      <pubDate>Sat, 25 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 OtterMind/Chat2DB — 26432⭐ (23.4/day)</title>
-      <description>🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.
-
-Score: 100/100 | Language: Java</description>
-      <link>https://github.com/OtterMind/Chat2DB</link>
-      <guid>https://github.com/OtterMind/Chat2DB#2026-07-25</guid>
-      <pubDate>Sat, 25 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
