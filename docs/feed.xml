@@ -5,8 +5,71 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Aug 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 firecrawl/pdf-inspector — 10504⭐ (1642.0/day)</title>
+      <description>Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/firecrawl/pdf-inspector</link>
+      <guid>https://github.com/firecrawl/pdf-inspector#2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 livekit/agents — 12554⭐ (407.0/day)</title>
+      <description>A framework for building realtime voice AI agents 🤖🎙️📹 
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/livekit/agents</link>
+      <guid>https://github.com/livekit/agents#2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 KKKKhazix/human-writing — 576⭐ (576.0/day)</title>
+      <description>活人感写作 1.0.0｜通用中文创作与改稿 Skill
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/KKKKhazix/human-writing</link>
+      <guid>https://github.com/KKKKhazix/human-writing#2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 xmarre/ComfyUI-Spectrum-MiniMax-H3 — 171⭐ (171.0/day)</title>
+      <description>Spectrum-based acceleration for ComfyUI’s native MiniMax H3 audio-video model. Forecasts post-transformer features with Chebyshev ridge regression to skip selected transformer evaluations, with adaptive scheduling, sampler-aware safeguards, CPU/VRAM history storage, and native fallbacks.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3</link>
+      <guid>https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3#2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 criptogus/HermesOffice — 136⭐ (136.0/day)</title>
+      <description>HermesOffice — AI-native office suite forked from GenOffice (Apache-2.0), with native Hermes Agent AI
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/criptogus/HermesOffice</link>
+      <guid>https://github.com/criptogus/HermesOffice#2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 obra/superpowers — 266734⭐ (892.1/day)</title>
+      <description>An agentic skills framework &amp; software development methodology that works.
+
+Score: 100/100 | Language: Shell</description>
+      <link>https://github.com/obra/superpowers</link>
+      <guid>https://github.com/obra/superpowers#2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 cypress-io/cypress — 50858⭐ (12.2/day)</title>
+      <description>Fast, easy and reliable testing for anything that runs in a browser.
+
+Score: 62/100 | Language: TypeScript</description>
+      <link>https://github.com/cypress-io/cypress</link>
+      <guid>https://github.com/cypress-io/cypress#2026-08-05</guid>
+      <pubDate>Wed, 05 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 esengine/DeepSeek-Reasonix — 30269⭐ (842.0/day)</title>
       <description>DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.
@@ -465,51 +528,6 @@ Score: 100/100 | Language: JavaScript</description>
       <link>https://github.com/mshumer/Claude-of-Duty</link>
       <guid>https://github.com/mshumer/Claude-of-Duty#2026-07-27</guid>
       <pubDate>Mon, 27 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 obra/superpowers — 261235⭐ (903.9/day)</title>
-      <description>An agentic skills framework &amp; software development methodology that works.
-
-Score: 100/100 | Language: Shell</description>
-      <link>https://github.com/obra/superpowers</link>
-      <guid>https://github.com/obra/superpowers#2026-07-26</guid>
-      <pubDate>Sun, 26 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 permissionlesstech/bitchat — 28923⭐ (74.9/day)</title>
-      <description>bluetooth mesh chat, IRC vibes
-
-Score: 100/100 | Language: Swift</description>
-      <link>https://github.com/permissionlesstech/bitchat</link>
-      <guid>https://github.com/permissionlesstech/bitchat#2026-07-26</guid>
-      <pubDate>Sun, 26 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 palmier-io/palmier-pro — 12315⭐ (112.0/day)</title>
-      <description>macOS video editor built for AI
-
-Score: 100/100 | Language: Swift</description>
-      <link>https://github.com/palmier-io/palmier-pro</link>
-      <guid>https://github.com/palmier-io/palmier-pro#2026-07-26</guid>
-      <pubDate>Sun, 26 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 RyanCodrai/turbovec — 14337⭐ (118.5/day)</title>
-      <description>A vector index built on TurboQuant, written in Rust with Python bindings
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/RyanCodrai/turbovec</link>
-      <guid>https://github.com/RyanCodrai/turbovec#2026-07-26</guid>
-      <pubDate>Sun, 26 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 andrewyng/aisuite — 15274⭐ (20.2/day)</title>
-      <description>Simple, unified interface to multiple Generative AI providers
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/andrewyng/aisuite</link>
-      <guid>https://github.com/andrewyng/aisuite#2026-07-26</guid>
-      <pubDate>Sun, 26 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

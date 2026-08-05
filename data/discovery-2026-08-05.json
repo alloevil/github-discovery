@@ -1,0 +1,335 @@
+{
+ "date": "2026-08-05",
+ "generated_at": "2026-08-05T07:25:09.242043",
+ "new": [
+  {
+   "full_name": "firecrawl/pdf-inspector",
+   "url": "https://github.com/firecrawl/pdf-inspector",
+   "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+   "language": "Rust",
+   "stars": 10504,
+   "forks": 683,
+   "age_days": 179,
+   "daily_stars": 58.68156424581006,
+   "real_daily_stars": 1642.0,
+   "watchers": 24,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "livekit/agents",
+   "url": "https://github.com/livekit/agents",
+   "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
+   "language": "Python",
+   "stars": 12554,
+   "forks": 3488,
+   "age_days": 1020,
+   "daily_stars": 12.307843137254903,
+   "real_daily_stars": 407.0,
+   "watchers": 104,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "KKKKhazix/human-writing",
+   "url": "https://github.com/KKKKhazix/human-writing",
+   "description": "活人感写作 1.0.0｜通用中文创作与改稿 Skill",
+   "language": "Python",
+   "stars": 576,
+   "forks": 62,
+   "age_days": 1,
+   "daily_stars": 576.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "xmarre/ComfyUI-Spectrum-MiniMax-H3",
+   "url": "https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3",
+   "description": "Spectrum-based acceleration for ComfyUI’s native MiniMax H3 audio-video model. Forecasts post-transformer features with Chebyshev ridge regression to skip selected transformer evaluations, with adaptive scheduling, sampler-aware safeguards, CPU/VRAM history storage, and native fallbacks.",
+   "language": "Python",
+   "stars": 171,
+   "forks": 5,
+   "age_days": 1,
+   "daily_stars": 171.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "criptogus/HermesOffice",
+   "url": "https://github.com/criptogus/HermesOffice",
+   "description": "HermesOffice — AI-native office suite forked from GenOffice (Apache-2.0), with native Hermes Agent AI",
+   "language": "TypeScript",
+   "stars": 136,
+   "forks": 12,
+   "age_days": 1,
+   "daily_stars": 136.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "cristicretu/diri",
+   "url": "https://github.com/cristicretu/diri",
+   "description": "Native macOS orchestrator for coding agents — run Claude Code, Codex, Cursor, Gemini and shells in parallel across git worktrees and remote hosts",
+   "language": "Rust",
+   "stars": 156,
+   "forks": 6,
+   "age_days": 1,
+   "daily_stars": 156.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "HaidarJbeily7/cargo-frisk",
+   "url": "https://github.com/HaidarJbeily7/cargo-frisk",
+   "description": "",
+   "language": "Rust",
+   "stars": 358,
+   "forks": 39,
+   "age_days": 1,
+   "daily_stars": 358.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 100,
+    "acceleration": 34,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "Accio-Lab/RealReplicaBench",
+   "url": "https://github.com/Accio-Lab/RealReplicaBench",
+   "description": "RealReplicaBench: Benchmarking Long-Horizon Agents in High-Fidelity, Stateful, and Reproducible Replicas of Real Online Services",
+   "language": "HTML",
+   "stars": 531,
+   "forks": 3,
+   "age_days": 3,
+   "daily_stars": 177.0,
+   "real_daily_stars": 418.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 20,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "AMAP-ML/LongHorizon-Harness",
+   "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
+   "description": "The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.",
+   "language": "Python",
+   "stars": 225,
+   "forks": 21,
+   "age_days": 1,
+   "daily_stars": 225.0,
+   "real_daily_stars": 145.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "hf-papers"
+   ],
+   "license": "MIT",
+   "hf_title": "LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks",
+   "hf_upvotes": 136,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 100,
+    "acceleration": 24,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "dtolnay/chapter-tgz",
+   "url": "https://github.com/dtolnay/chapter-tgz",
+   "description": "Specially crafted .tar.gz with embedded chapter boundary information",
+   "language": "Rust",
+   "stars": 108,
+   "forks": 4,
+   "age_days": 3,
+   "daily_stars": 36.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 100,
+    "acceleration": 23,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "description": "An agentic skills framework & software development methodology that works.",
+   "language": "Shell",
+   "stars": 266734,
+   "forks": 23847,
+   "age_days": 299,
+   "daily_stars": 892.0869565217391,
+   "watchers": 1015,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "cypress-io/cypress",
+   "url": "https://github.com/cypress-io/cypress",
+   "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+   "language": "TypeScript",
+   "stars": 50858,
+   "forks": 3633,
+   "age_days": 4172,
+   "daily_stars": 12.190316395014381,
+   "watchers": 637,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "rank": 2,
+   "scores": {
+    "total": 62,
+    "acceleration": 12,
+    "quality": 20,
+    "antispam": 30
+   }
+  }
+ ]
+}
