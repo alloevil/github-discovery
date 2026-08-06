@@ -24,14 +24,6 @@
       ],
       "last_recommended": "2026-07-14T06:58:01.458520+00:00"
     },
-    "usestrix/strix": {
-      "count": 2,
-      "scores": [
-        94,
-        100
-      ],
-      "last_recommended": "2026-07-06T08:51:29.543812+00:00"
-    },
     "msitarzewski/agency-agents": {
       "count": 2,
       "scores": [
@@ -107,20 +99,6 @@
       ],
       "last_recommended": "2026-07-25T07:03:07.360673+00:00"
     },
-    "Leonxlnx/taste-skill": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-06T08:51:29.541728+00:00"
-    },
-    "hesreallyhim/awesome-claude-code": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-06T08:51:29.545739+00:00"
-    },
     "coreyhaines31/marketingskills": {
       "count": 2,
       "scores": [
@@ -137,47 +115,13 @@
       ],
       "last_recommended": "2026-07-23T07:18:39.988843+00:00"
     },
-    "gastownhall/gastown": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-06T08:51:29.552252+00:00"
-    },
-    "dotnet/skills": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-06T08:51:29.554179+00:00"
-    },
-    "steipete/CodexBar": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-06T08:51:29.556081+00:00"
-    },
-    "LinXiaoTao/FuckClaude": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-06T08:51:29.558089+00:00"
-    },
-    "HKUDS/OpenOPC": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-06T08:51:29.560087+00:00"
-    },
     "addyosmani/agent-skills": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-07T08:03:52.280549+00:00"
+      "last_recommended": "2026-08-06T07:25:38.154757+00:00"
     },
     "mvanhorn/last30days-skill": {
       "count": 2,
@@ -457,11 +401,12 @@
       "last_recommended": "2026-07-11T06:59:10.373360+00:00"
     },
     "vercel/next.js": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        95
+        95,
+        63
       ],
-      "last_recommended": "2026-07-11T06:59:10.375406+00:00"
+      "last_recommended": "2026-08-06T07:25:38.156770+00:00"
     },
     "microsoft/TypeScript": {
       "count": 1,
@@ -2112,7 +2057,77 @@
         100
       ],
       "last_recommended": "2026-08-05T07:25:08.922197+00:00"
+    },
+    "donnemartin/system-design-primer": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-06T07:25:38.125364+00:00"
+    },
+    "tailwindlabs/tailwindcss": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-06T07:25:38.128529+00:00"
+    },
+    "uber/ADR": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-06T07:25:38.131455+00:00"
+    },
+    "Binaryify/open-kimi-ppt-skill": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-06T07:25:38.134588+00:00"
+    },
+    "0xwilliamortiz/claude-red": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-06T07:25:38.137745+00:00"
+    },
+    "MakazhanAlpamys/Soup": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-06T07:25:38.140675+00:00"
+    },
+    "Accio-Work-Lab/RealReplicaBench": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-06T07:25:38.143753+00:00"
+    },
+    "oil-oil/codex-deepseek-subagent": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-06T07:25:38.146772+00:00"
+    },
+    "Carloscodix/qapla": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-06T07:25:38.149648+00:00"
+    },
+    "i-yam/passt": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-06T07:25:38.152805+00:00"
     }
   },
-  "updated_at": "2026-08-05T07:25:08.926067+00:00"
+  "updated_at": "2026-08-06T07:25:38.156801+00:00"
 }

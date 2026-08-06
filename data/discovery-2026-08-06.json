@@ -1,0 +1,335 @@
+{
+ "date": "2026-08-06",
+ "generated_at": "2026-08-06T07:25:38.435202",
+ "new": [
+  {
+   "full_name": "donnemartin/system-design-primer",
+   "url": "https://github.com/donnemartin/system-design-primer",
+   "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+   "language": "Python",
+   "stars": 361769,
+   "forks": 57665,
+   "age_days": 3447,
+   "daily_stars": 104.95184218160719,
+   "real_daily_stars": 512.0,
+   "watchers": 6853,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "tailwindlabs/tailwindcss",
+   "url": "https://github.com/tailwindlabs/tailwindcss",
+   "description": "A utility-first CSS framework for rapid UI development.",
+   "language": "TypeScript",
+   "stars": 96962,
+   "forks": 5554,
+   "age_days": 3225,
+   "daily_stars": 30.065736434108526,
+   "real_daily_stars": 381.0,
+   "watchers": 765,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "uber/ADR",
+   "url": "https://github.com/uber/ADR",
+   "description": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
+   "language": "Python",
+   "stars": 1129,
+   "forks": 91,
+   "age_days": 108,
+   "daily_stars": 10.453703703703704,
+   "real_daily_stars": 328.0,
+   "watchers": 12,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Binaryify/open-kimi-ppt-skill",
+   "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
+   "description": "非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX with a local browser editor",
+   "language": "Python",
+   "stars": 906,
+   "forks": 260,
+   "age_days": 1,
+   "daily_stars": 906.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "0xwilliamortiz/claude-red",
+   "url": "https://github.com/0xwilliamortiz/claude-red",
+   "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+   "language": "Python",
+   "stars": 332,
+   "forks": 34,
+   "age_days": 1,
+   "daily_stars": 332.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "MakazhanAlpamys/Soup",
+   "url": "https://github.com/MakazhanAlpamys/Soup",
+   "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+   "language": "Python",
+   "stars": 316,
+   "forks": 41,
+   "age_days": 166,
+   "daily_stars": 1.9036144578313252,
+   "real_daily_stars": 91.0,
+   "watchers": 1,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "Apache-2.0",
+   "hn_title": "Show HN: Fine-tune an 8B model on a 4 GB laptop GPU",
+   "hn_score": 133,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Accio-Work-Lab/RealReplicaBench",
+   "url": "https://github.com/Accio-Work-Lab/RealReplicaBench",
+   "description": "RealReplicaBench: Benchmarking Long-Horizon Agents in High-Fidelity, Stateful, and Reproducible Replicas of Real Online Services",
+   "language": "HTML",
+   "stars": 1029,
+   "forks": 69,
+   "age_days": 4,
+   "daily_stars": 257.25,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 100,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "oil-oil/codex-deepseek-subagent",
+   "url": "https://github.com/oil-oil/codex-deepseek-subagent",
+   "description": "Configure DeepSeek as a native Codex subagent with automated setup and verified routing.",
+   "language": "Python",
+   "stars": 145,
+   "forks": 8,
+   "age_days": 1,
+   "daily_stars": 145.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Carloscodix/qapla",
+   "url": "https://github.com/Carloscodix/qapla",
+   "description": "A char-level transformer trained from scratch on an $8 ESP32-S3. Not inference: the chip runs the full training loop, with backprop written by hand in C.",
+   "language": "C",
+   "stars": 70,
+   "forks": 3,
+   "age_days": 1,
+   "daily_stars": 70.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 100,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "i-yam/passt",
+   "url": "https://github.com/i-yam/passt",
+   "description": "This is a collection of vibe-coded materials for an introductory course on artificial intelligence and machine learning.",
+   "language": "HTML",
+   "stars": 57,
+   "forks": 0,
+   "age_days": 1,
+   "daily_stars": 57.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 100,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "description": "Production-grade engineering skills for AI coding agents.",
+   "language": "JavaScript",
+   "stars": 82154,
+   "forks": 8837,
+   "age_days": 171,
+   "daily_stars": 480.4327485380117,
+   "watchers": 444,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "vercel/next.js",
+   "url": "https://github.com/vercel/next.js",
+   "description": "The React Framework",
+   "language": "JavaScript",
+   "stars": 141608,
+   "forks": 31681,
+   "age_days": 3591,
+   "daily_stars": 39.43414090782512,
+   "watchers": 1635,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "rank": 2,
+   "scores": {
+    "total": 63,
+    "acceleration": 18,
+    "quality": 15,
+    "antispam": 30
+   }
+  }
+ ]
+}
