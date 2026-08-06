@@ -5,8 +5,71 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Aug 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 donnemartin/system-design-primer — 361769⭐ (512.0/day)</title>
+      <description>Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/donnemartin/system-design-primer</link>
+      <guid>https://github.com/donnemartin/system-design-primer#2026-08-06</guid>
+      <pubDate>Thu, 06 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 tailwindlabs/tailwindcss — 96962⭐ (381.0/day)</title>
+      <description>A utility-first CSS framework for rapid UI development.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/tailwindlabs/tailwindcss</link>
+      <guid>https://github.com/tailwindlabs/tailwindcss#2026-08-06</guid>
+      <pubDate>Thu, 06 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 uber/ADR — 1129⭐ (328.0/day)</title>
+      <description>ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/uber/ADR</link>
+      <guid>https://github.com/uber/ADR#2026-08-06</guid>
+      <pubDate>Thu, 06 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 Binaryify/open-kimi-ppt-skill — 906⭐ (906.0/day)</title>
+      <description>非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX with a local browser editor
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/Binaryify/open-kimi-ppt-skill</link>
+      <guid>https://github.com/Binaryify/open-kimi-ppt-skill#2026-08-06</guid>
+      <pubDate>Thu, 06 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 0xwilliamortiz/claude-red — 332⭐ (332.0/day)</title>
+      <description>claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/0xwilliamortiz/claude-red</link>
+      <guid>https://github.com/0xwilliamortiz/claude-red#2026-08-06</guid>
+      <pubDate>Thu, 06 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 addyosmani/agent-skills — 82154⭐ (480.4/day)</title>
+      <description>Production-grade engineering skills for AI coding agents.
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/addyosmani/agent-skills</link>
+      <guid>https://github.com/addyosmani/agent-skills#2026-08-06</guid>
+      <pubDate>Thu, 06 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 vercel/next.js — 141608⭐ (39.4/day)</title>
+      <description>The React Framework
+
+Score: 63/100 | Language: JavaScript</description>
+      <link>https://github.com/vercel/next.js</link>
+      <guid>https://github.com/vercel/next.js#2026-08-06</guid>
+      <pubDate>Thu, 06 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 firecrawl/pdf-inspector — 10504⭐ (1642.0/day)</title>
       <description>Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.
@@ -483,51 +546,6 @@ Score: 100/100 | Language: Python</description>
       <link>https://github.com/mvanhorn/last30days-skill</link>
       <guid>https://github.com/mvanhorn/last30days-skill#2026-07-28</guid>
       <pubDate>Tue, 28 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 pingdotgg/t3code — 15159⭐ (90.2/day)</title>
-      <description>
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/pingdotgg/t3code</link>
-      <guid>https://github.com/pingdotgg/t3code#2026-07-27</guid>
-      <pubDate>Mon, 27 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 nodejs/node — 118532⭐ (27.8/day)</title>
-      <description>Node.js JavaScript runtime ✨🐢🚀✨
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/nodejs/node</link>
-      <guid>https://github.com/nodejs/node#2026-07-27</guid>
-      <pubDate>Mon, 27 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 pbakaus/impeccable — 50957⭐ (201.4/day)</title>
-      <description>The design language that makes your AI harness better at design.
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/pbakaus/impeccable</link>
-      <guid>https://github.com/pbakaus/impeccable#2026-07-27</guid>
-      <pubDate>Mon, 27 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 vercel-labs/scriptc — 858⭐ (214.5/day)</title>
-      <description>TypeScript-to-Native Compiler
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/vercel-labs/scriptc</link>
-      <guid>https://github.com/vercel-labs/scriptc#2026-07-27</guid>
-      <pubDate>Mon, 27 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 mshumer/Claude-of-Duty — 784⭐ (784.0/day)</title>
-      <description>A Call of Duty-quality FPS in Three.js, built from a single prompt.
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/mshumer/Claude-of-Duty</link>
-      <guid>https://github.com/mshumer/Claude-of-Duty#2026-07-27</guid>
-      <pubDate>Mon, 27 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
