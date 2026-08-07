@@ -91,13 +91,14 @@
       "last_recommended": "2026-07-26T07:19:52.642714+00:00"
     },
     "mattpocock/skills": {
-      "count": 3,
+      "count": 4,
       "scores": [
+        100,
         100,
         100,
         100
       ],
-      "last_recommended": "2026-07-25T07:03:07.360673+00:00"
+      "last_recommended": "2026-08-07T06:01:49.989610+00:00"
     },
     "coreyhaines31/marketingskills": {
       "count": 2,
@@ -138,55 +139,6 @@
         100
       ],
       "last_recommended": "2026-07-28T07:24:36.733355+00:00"
-    },
-    "karakeep-app/karakeep": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-07T08:03:52.287130+00:00"
-    },
-    "firecrawl/firecrawl": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-07T08:03:52.289116+00:00"
-    },
-    "alibaba/zvec": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-07T08:03:52.291168+00:00"
-    },
-    "sindresorhus/awesome": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-07T08:03:52.293284+00:00"
-    },
-    "synthetic-sciences/openscience": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-07T08:03:52.295368+00:00"
-    },
-    "MaximeRivest/riddle": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-07T08:03:52.297330+00:00"
-    },
-    "514-labs/dnsglobe": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-07T08:03:52.299534+00:00"
     },
     "MadsLorentzen/ai-job-search": {
       "count": 1,
@@ -857,11 +809,12 @@
       "last_recommended": "2026-07-17T07:03:38.776064+00:00"
     },
     "tirth8205/code-review-graph": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        70
       ],
-      "last_recommended": "2026-07-18T06:33:52.683290+00:00"
+      "last_recommended": "2026-08-07T06:01:49.991531+00:00"
     },
     "RyanCodrai/turbovec": {
       "count": 2,
@@ -2127,7 +2080,77 @@
         100
       ],
       "last_recommended": "2026-08-06T07:25:38.152805+00:00"
+    },
+    "cloudflare/computer": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-07T06:01:49.961116+00:00"
+    },
+    "huangruiteng/loopx": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-07T06:01:49.964273+00:00"
+    },
+    "firecrawl/anydoc": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-07T06:01:49.967230+00:00"
+    },
+    "Accio-org/RealReplicaBench": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-07T06:01:49.970074+00:00"
+    },
+    "nfzerox/VirtualMacOniPad": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-07T06:01:49.973074+00:00"
+    },
+    "pradipta/wallfacer": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-07T06:01:49.976091+00:00"
+    },
+    "okky-x0f/qoder-creator": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-07T06:01:49.979075+00:00"
+    },
+    "eternityspring/shuohao-skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-07T06:01:49.981984+00:00"
+    },
+    "KimGLee/Cambium": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-07T06:01:49.984795+00:00"
+    },
+    "Larryvrh/ComfyUI-MiniMax-H3-Turbo": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-07T06:01:49.987706+00:00"
     }
   },
-  "updated_at": "2026-08-06T07:25:38.156801+00:00"
+  "updated_at": "2026-08-07T06:01:49.991559+00:00"
 }
