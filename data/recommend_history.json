@@ -140,76 +140,6 @@
       ],
       "last_recommended": "2026-07-28T07:24:36.733355+00:00"
     },
-    "MadsLorentzen/ai-job-search": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-08T07:15:28.526716+00:00"
-    },
-    "iOfficeAI/OfficeCLI": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-08T07:15:28.528894+00:00"
-    },
-    "Shpigford/knockoff": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-08T07:15:28.530844+00:00"
-    },
-    "anthropics/jacobian-lens": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-08T07:15:28.532790+00:00"
-    },
-    "yynxxxxx/Codex-X": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-08T07:15:28.534905+00:00"
-    },
-    "dzhng/skills": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-08T07:15:28.536933+00:00"
-    },
-    "simonlin1212/Vibe-Research": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-08T07:15:28.538940+00:00"
-    },
-    "pocket-stack/pocketjs": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-08T07:15:28.540930+00:00"
-    },
-    "Robbyant/lingbot-vision": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-08T07:15:28.543016+00:00"
-    },
-    "nagisanzenin/engram": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-08T07:15:28.545088+00:00"
-    },
     "TencentCloud/TencentDB-Agent-Memory": {
       "count": 2,
       "scores": [
@@ -618,11 +548,12 @@
       "last_recommended": "2026-07-15T07:00:01.873147+00:00"
     },
     "chenyme/grok2api": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        65
       ],
-      "last_recommended": "2026-07-15T07:00:01.875612+00:00"
+      "last_recommended": "2026-08-08T05:26:21.152483+00:00"
     },
     "AlephAITech/WorkBuddyGuide": {
       "count": 1,
@@ -2150,7 +2081,77 @@
         100
       ],
       "last_recommended": "2026-08-07T06:01:49.987706+00:00"
+    },
+    "goauthentik/authentik": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-08T05:26:21.123947+00:00"
+    },
+    "google/guava": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-08T05:26:21.127463+00:00"
+    },
+    "Significant-Gravitas/AutoGPT": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-08T05:26:21.130751+00:00"
+    },
+    "666ghj/MiroFish": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-08T05:26:21.133698+00:00"
+    },
+    "zqxwce/vphone-ws": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-08T05:26:21.136619+00:00"
+    },
+    "T8mars/comfyui-minimax-h3-audio-T8": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-08T05:26:21.139407+00:00"
+    },
+    "openTrinity/mycontext": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-08T05:26:21.142217+00:00"
+    },
+    "magicrew/doc7": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-08T05:26:21.145047+00:00"
+    },
+    "jd-opensource/JoyAI-Video-Edit": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-08T05:26:21.147825+00:00"
+    },
+    "CopilotKit/channels-sdk": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-08T05:26:21.150525+00:00"
     }
   },
-  "updated_at": "2026-08-07T06:01:49.991559+00:00"
+  "updated_at": "2026-08-08T05:26:21.152511+00:00"
 }

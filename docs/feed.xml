@@ -5,8 +5,62 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Aug 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 goauthentik/authentik — 23676⭐ (449.0/day)</title>
+      <description>The authentication glue you need.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/goauthentik/authentik</link>
+      <guid>https://github.com/goauthentik/authentik#2026-08-08</guid>
+      <pubDate>Sat, 08 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 google/guava — 51777⭐ (109.0/day)</title>
+      <description>Google core libraries for Java
+
+Score: 100/100 | Language: Java</description>
+      <link>https://github.com/google/guava</link>
+      <guid>https://github.com/google/guava#2026-08-08</guid>
+      <pubDate>Sat, 08 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 Significant-Gravitas/AutoGPT — 186365⭐ (265.0/day)</title>
+      <description>AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/Significant-Gravitas/AutoGPT</link>
+      <guid>https://github.com/Significant-Gravitas/AutoGPT#2026-08-08</guid>
+      <pubDate>Sat, 08 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 666ghj/MiroFish — 70589⭐ (276.8/day)</title>
+      <description>A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/666ghj/MiroFish</link>
+      <guid>https://github.com/666ghj/MiroFish#2026-08-08</guid>
+      <pubDate>Sat, 08 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 zqxwce/vphone-ws — 436⭐ (109.0/day)</title>
+      <description>A native macOS app for managing virtual iPhones - browse, create, and boot iOS research VMs from a single window.
+
+Score: 100/100 | Language: Swift</description>
+      <link>https://github.com/zqxwce/vphone-ws</link>
+      <guid>https://github.com/zqxwce/vphone-ws#2026-08-08</guid>
+      <pubDate>Sat, 08 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 chenyme/grok2api — 7162⭐ (23.8/day)</title>
+      <description>Multi-account API gateway for Grok Build, Grok Web, and Grok Console
+
+Score: 65/100 | Language: Go</description>
+      <link>https://github.com/chenyme/grok2api</link>
+      <guid>https://github.com/chenyme/grok2api#2026-08-08</guid>
+      <pubDate>Sat, 08 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 cloudflare/computer — 4989⭐ (1159.0/day)</title>
       <description>Give your agent a computer 👾
@@ -519,51 +573,6 @@ Score: 100/100 | Language: TypeScript</description>
       <link>https://github.com/talivia-group/talivia</link>
       <guid>https://github.com/talivia-group/talivia#2026-07-30</guid>
       <pubDate>Thu, 30 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 pascalorg/editor — 19046⭐ (66.8/day)</title>
-      <description>Create and share 3D architectural projects.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/pascalorg/editor</link>
-      <guid>https://github.com/pascalorg/editor#2026-07-29</guid>
-      <pubDate>Wed, 29 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 virgiliojr94/book-to-skill — 11870⭐ (133.4/day)</title>
-      <description>Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/virgiliojr94/book-to-skill</link>
-      <guid>https://github.com/virgiliojr94/book-to-skill#2026-07-29</guid>
-      <pubDate>Wed, 29 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 microsoft/agent-governance-toolkit — 5360⭐ (36.2/day)</title>
-      <description>AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/microsoft/agent-governance-toolkit</link>
-      <guid>https://github.com/microsoft/agent-governance-toolkit#2026-07-29</guid>
-      <pubDate>Wed, 29 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 fuadmefleh/Shared-Claude-Chats — 801⭐ (267.0/day)</title>
-      <description>An archive of public Claude and Grok conversations, exported from their share links as plain markdown, plus the two scripts that produce it.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/fuadmefleh/Shared-Claude-Chats</link>
-      <guid>https://github.com/fuadmefleh/Shared-Claude-Chats#2026-07-29</guid>
-      <pubDate>Wed, 29 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 digimata/quill — 667⭐ (166.8/day)</title>
-      <description>Ultraminimalist macOS recording + transcription.
-
-Score: 100/100 | Language: Swift</description>
-      <link>https://github.com/digimata/quill</link>
-      <guid>https://github.com/digimata/quill#2026-07-29</guid>
-      <pubDate>Wed, 29 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
