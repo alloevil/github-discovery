@@ -1,0 +1,284 @@
+{
+ "date": "2026-08-09",
+ "generated_at": "2026-08-09T05:35:24.784598",
+ "new": [
+  {
+   "full_name": "PrimeIntellect-ai/prime-agent",
+   "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+   "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+   "language": "TypeScript",
+   "stars": 9300,
+   "forks": 900,
+   "age_days": 93,
+   "daily_stars": 100.0,
+   "real_daily_stars": 2354.0,
+   "watchers": 43,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "google/skills",
+   "url": "https://github.com/google/skills",
+   "description": "Agent Skills for Google products and technologies",
+   "language": "Python",
+   "stars": 16844,
+   "forks": 1375,
+   "age_days": 130,
+   "daily_stars": 129.56923076923076,
+   "real_daily_stars": 513.0,
+   "watchers": 110,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "denoland/celld",
+   "url": "https://github.com/denoland/celld",
+   "description": "self-hosted, distributed Durable Objects",
+   "language": "Rust",
+   "stars": 2659,
+   "forks": 77,
+   "age_days": 470,
+   "daily_stars": 5.657446808510638,
+   "real_daily_stars": 387.0,
+   "watchers": 12,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "oil-oil/oil-motion",
+   "url": "https://github.com/oil-oil/oil-motion",
+   "description": "Create smooth, responsive interactive web animations.",
+   "language": "Python",
+   "stars": 331,
+   "forks": 39,
+   "age_days": 1,
+   "daily_stars": 331.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "ShawnPana/phone-harness",
+   "url": "https://github.com/ShawnPana/phone-harness",
+   "description": "let your agent control your phone",
+   "language": "Python",
+   "stars": 329,
+   "forks": 23,
+   "age_days": 1,
+   "daily_stars": 329.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "Appllama/top-welcome-screens",
+   "url": "https://github.com/Appllama/top-welcome-screens",
+   "description": "How top iOS apps say hello | 10 animated welcome screens inspired by top-earning apps. Rebuilt in React Native + Expo.",
+   "language": "TypeScript",
+   "stars": 138,
+   "forks": 19,
+   "age_days": 1,
+   "daily_stars": 138.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "paoloanzn/pi-black",
+   "url": "https://github.com/paoloanzn/pi-black",
+   "description": "Claude subscription wire compatibility for Pi.",
+   "language": "TypeScript",
+   "stars": 109,
+   "forks": 7,
+   "age_days": 1,
+   "daily_stars": 109.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 100,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "Wyzer-Lang/wyzer",
+   "url": "https://github.com/Wyzer-Lang/wyzer",
+   "description": "The Wyzer Programming Language",
+   "language": "OCaml",
+   "stars": 192,
+   "forks": 4,
+   "age_days": 482,
+   "daily_stars": 0.3983402489626556,
+   "real_daily_stars": 46.0,
+   "watchers": 1,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "Apache-2.0",
+   "hn_title": "Show HN: Wyzer Programming Language",
+   "hn_score": 215,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 100,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "Flaminis/Dalaran",
+   "url": "https://github.com/Flaminis/Dalaran",
+   "description": "Dalaran — Apache-2.0, robotics-first visualization and data infrastructure for multimodal time-series. ROS 2 native, reads existing .rrd recordings. A hard fork of Rerun.",
+   "language": "Rust",
+   "stars": 76,
+   "forks": 47,
+   "age_days": 1,
+   "daily_stars": 76.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "Apache-2.0",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 100,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "LadybirdBrowser/ladybird",
+   "url": "https://github.com/LadybirdBrowser/ladybird",
+   "description": "Truly independent web browser",
+   "language": "C++",
+   "stars": 65044,
+   "forks": 3107,
+   "age_days": 800,
+   "daily_stars": 81.305,
+   "watchers": 303,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "BSD-2-Clause",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 100,
+    "acceleration": 21,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": []
+}

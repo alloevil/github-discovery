@@ -58,14 +58,6 @@
       ],
       "last_recommended": "2026-08-05T07:25:08.924121+00:00"
     },
-    "TencentCloud/CubeSandbox": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-07-09T08:17:11.608728+00:00"
-    },
     "hasaneyldrm/exercises-dataset": {
       "count": 2,
       "scores": [
@@ -147,55 +139,6 @@
         100
       ],
       "last_recommended": "2026-08-02T07:19:09.169578+00:00"
-    },
-    "withmarbleapp/os-taxonomy": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-09T08:17:11.610545+00:00"
-    },
-    "wouterdebie/davit": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-09T08:17:11.612460+00:00"
-    },
-    "ai4s-research/open-science": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-09T08:17:11.614475+00:00"
-    },
-    "V4bel/Januscape": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-09T08:17:11.616435+00:00"
-    },
-    "op7418/guizang-material-illustration": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-09T08:17:11.618975+00:00"
-    },
-    "prisma/prisma": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-07-09T08:17:11.620996+00:00"
-    },
-    "wonderwhy-er/DesktopCommanderMCP": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-07-09T08:17:11.623044+00:00"
     },
     "VoltAgent/awesome-design-md": {
       "count": 1,
@@ -2151,7 +2094,77 @@
         100
       ],
       "last_recommended": "2026-08-08T05:26:21.150525+00:00"
+    },
+    "PrimeIntellect-ai/prime-agent": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-09T05:35:24.563004+00:00"
+    },
+    "google/skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-09T05:35:24.566192+00:00"
+    },
+    "denoland/celld": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-09T05:35:24.568973+00:00"
+    },
+    "oil-oil/oil-motion": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-09T05:35:24.571716+00:00"
+    },
+    "ShawnPana/phone-harness": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-09T05:35:24.574528+00:00"
+    },
+    "Appllama/top-welcome-screens": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-09T05:35:24.577358+00:00"
+    },
+    "paoloanzn/pi-black": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-09T05:35:24.580260+00:00"
+    },
+    "Wyzer-Lang/wyzer": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-09T05:35:24.583106+00:00"
+    },
+    "Flaminis/Dalaran": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-09T05:35:24.585892+00:00"
+    },
+    "LadybirdBrowser/ladybird": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-09T05:35:24.588666+00:00"
     }
   },
-  "updated_at": "2026-08-08T05:26:21.152511+00:00"
+  "updated_at": "2026-08-09T05:35:24.588693+00:00"
 }

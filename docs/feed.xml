@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Aug 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 PrimeIntellect-ai/prime-agent — 9300⭐ (2354.0/day)</title>
+      <description>A self-improving RLM agent for coding workflows and long-running autonomous tasks.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/PrimeIntellect-ai/prime-agent</link>
+      <guid>https://github.com/PrimeIntellect-ai/prime-agent#2026-08-09</guid>
+      <pubDate>Sun, 09 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 google/skills — 16844⭐ (513.0/day)</title>
+      <description>Agent Skills for Google products and technologies
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/google/skills</link>
+      <guid>https://github.com/google/skills#2026-08-09</guid>
+      <pubDate>Sun, 09 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 denoland/celld — 2659⭐ (387.0/day)</title>
+      <description>self-hosted, distributed Durable Objects
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/denoland/celld</link>
+      <guid>https://github.com/denoland/celld#2026-08-09</guid>
+      <pubDate>Sun, 09 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 oil-oil/oil-motion — 331⭐ (331.0/day)</title>
+      <description>Create smooth, responsive interactive web animations.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/oil-oil/oil-motion</link>
+      <guid>https://github.com/oil-oil/oil-motion#2026-08-09</guid>
+      <pubDate>Sun, 09 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 ShawnPana/phone-harness — 329⭐ (329.0/day)</title>
+      <description>let your agent control your phone
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/ShawnPana/phone-harness</link>
+      <guid>https://github.com/ShawnPana/phone-harness#2026-08-09</guid>
+      <pubDate>Sun, 09 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 goauthentik/authentik — 23676⭐ (449.0/day)</title>
       <description>The authentication glue you need.
@@ -528,51 +573,6 @@ Score: 100/100 | Language: JavaScript</description>
       <link>https://github.com/QwenAudio/qwen-audio-agent</link>
       <guid>https://github.com/QwenAudio/qwen-audio-agent#2026-07-31</guid>
       <pubDate>Fri, 31 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 1jehuang/jcode — 13660⭐ (66.6/day)</title>
-      <description>The most RAM efficient harness
-
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/1jehuang/jcode</link>
-      <guid>https://github.com/1jehuang/jcode#2026-07-30</guid>
-      <pubDate>Thu, 30 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 microsoft/VibeVoice — 51482⭐ (152.3/day)</title>
-      <description>Open-Source Frontier Voice AI
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/microsoft/VibeVoice</link>
-      <guid>https://github.com/microsoft/VibeVoice#2026-07-30</guid>
-      <pubDate>Thu, 30 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 different-ai/openwork — 18181⭐ (92.3/day)</title>
-      <description>The open-source alternative to Claude Cowork (powered by opencode)
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/different-ai/openwork</link>
-      <guid>https://github.com/different-ai/openwork#2026-07-30</guid>
-      <pubDate>Thu, 30 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 xikhar/persona — 593⭐ (593.0/day)</title>
-      <description>Bringing real-time voice to life.
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/xikhar/persona</link>
-      <guid>https://github.com/xikhar/persona#2026-07-30</guid>
-      <pubDate>Thu, 30 Jul 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 talivia-group/talivia — 459⭐ (459.0/day)</title>
-      <description>Open-source, self-hosted revenue-first analytics for founders: web analytics, Session Replay, revenue attribution, and customer revenue integrations. datafast alternative
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/talivia-group/talivia</link>
-      <guid>https://github.com/talivia-group/talivia#2026-07-30</guid>
-      <pubDate>Thu, 30 Jul 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
