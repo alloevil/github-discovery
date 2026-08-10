@@ -1,0 +1,331 @@
+{
+ "date": "2026-08-10",
+ "generated_at": "2026-08-10T06:03:18.702100",
+ "new": [
+  {
+   "full_name": "pranshuparmar/witr",
+   "url": "https://github.com/pranshuparmar/witr",
+   "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
+   "language": "Go",
+   "stars": 20897,
+   "forks": 733,
+   "age_days": 232,
+   "daily_stars": 90.07327586206897,
+   "real_daily_stars": 518.0,
+   "watchers": 43,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "MengTo/kage",
+   "url": "https://github.com/MengTo/kage",
+   "description": "An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js.",
+   "language": "HTML",
+   "stars": 662,
+   "forks": 111,
+   "age_days": 1,
+   "daily_stars": 662.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 12
+   }
+  },
+  {
+   "full_name": "sv-number/mcp-server",
+   "url": "https://github.com/sv-number/mcp-server",
+   "description": "MCP server for AI agents that need a phone number: order a private number in any country, read the SMS verification code, hand it back.",
+   "language": "JavaScript",
+   "stars": 328,
+   "forks": 0,
+   "age_days": 2,
+   "daily_stars": 164.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "SaladDay/pi-from-scratch",
+   "url": "https://github.com/SaladDay/pi-from-scratch",
+   "description": "600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent",
+   "language": "TypeScript",
+   "stars": 138,
+   "forks": 8,
+   "age_days": 1,
+   "daily_stars": 138.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "MengMengCode/VoCat",
+   "url": "https://github.com/MengMengCode/VoCat",
+   "description": "Vocat is an open-source web control panel and engineering toolkit for Quectel EC20/EC25-class cellular modems. It combines modem discovery, live radio status, AT and USSD terminals, SMS, WiFi Calling, eSIM management, network selection, proxy routing, notifications, audit logs, and release automation in one self-contained service.",
+   "language": "Go",
+   "stars": 120,
+   "forks": 42,
+   "age_days": 1,
+   "daily_stars": 120.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "NOASSERTION",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "kogecodaviw9225/UNISWAP-ARBITRAGE-BOT",
+   "url": "https://github.com/kogecodaviw9225/UNISWAP-ARBITRAGE-BOT",
+   "description": "The bot detects a large swap in the mempool → buys earlier with priority gas → price rises → the user pays more → the bot sells and locks in 0.6–2.8% per cycle.",
+   "language": "Solidity",
+   "stars": 86,
+   "forks": 67,
+   "age_days": 1,
+   "daily_stars": 86.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "ZhuLinsen/daily_stock_analysis",
+   "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+   "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+   "language": "Python",
+   "stars": 61411,
+   "forks": 52065,
+   "age_days": 211,
+   "daily_stars": 291.0473933649289,
+   "watchers": 239,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 100,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "NikoDemon80/ComfyUI-H3-Motion-Context",
+   "url": "https://github.com/NikoDemon80/ComfyUI-H3-Motion-Context",
+   "description": "Clip chaining for MiniMax H3 in ComfyUI - motion and audio genuinely continue across joins",
+   "language": "Python",
+   "stars": 249,
+   "forks": 21,
+   "age_days": 3,
+   "daily_stars": 83.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 100,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "tanishqkancharla/calldiff",
+   "url": "https://github.com/tanishqkancharla/calldiff",
+   "description": "Diffs for function call stacks across git commits. 22 languages supported (AST-based, built using Tree-sitter). Great for agentic review.",
+   "language": "TypeScript",
+   "stars": 155,
+   "forks": 7,
+   "age_days": 2,
+   "daily_stars": 77.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 100,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "Samin100/codex-ios-assistant",
+   "url": "https://github.com/Samin100/codex-ios-assistant",
+   "description": "Control and inspect an iPhone from Codex through iMessage and Shortcuts",
+   "language": "Python",
+   "stars": 189,
+   "forks": 28,
+   "age_days": 3,
+   "daily_stars": 63.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 100,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "msitarzewski/agency-agents",
+   "url": "https://github.com/msitarzewski/agency-agents",
+   "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+   "language": "Shell",
+   "stars": 141077,
+   "forks": 23026,
+   "age_days": 300,
+   "daily_stars": 470.25666666666666,
+   "watchers": 1047,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "pingdotgg/t3code",
+   "url": "https://github.com/pingdotgg/t3code",
+   "description": "",
+   "language": "TypeScript",
+   "stars": 17755,
+   "forks": 4023,
+   "age_days": 182,
+   "daily_stars": 97.55494505494505,
+   "watchers": 53,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "rank": 2,
+   "scores": {
+    "total": 67,
+    "acceleration": 22,
+    "quality": 15,
+    "antispam": 30
+   }
+  }
+ ]
+}

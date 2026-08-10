@@ -25,12 +25,13 @@
       "last_recommended": "2026-07-14T06:58:01.458520+00:00"
     },
     "msitarzewski/agency-agents": {
-      "count": 2,
+      "count": 3,
       "scores": [
+        100,
         100,
         100
       ],
-      "last_recommended": "2026-07-21T07:20:09.873375+00:00"
+      "last_recommended": "2026-08-10T06:03:18.366876+00:00"
     },
     "diegosouzapw/OmniRoute": {
       "count": 2,
@@ -140,27 +141,6 @@
       ],
       "last_recommended": "2026-08-02T07:19:09.169578+00:00"
     },
-    "VoltAgent/awesome-design-md": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-10T08:04:53.593018+00:00"
-    },
-    "unclecode/crawl4ai": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-10T08:04:53.595263+00:00"
-    },
-    "oso95/scroll-world": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-10T08:04:53.597293+00:00"
-    },
     "anthropics/claude-cookbooks": {
       "count": 2,
       "scores": [
@@ -168,48 +148,6 @@
         98
       ],
       "last_recommended": "2026-07-27T08:07:16.620144+00:00"
-    },
-    "vxcontrol/pentagi": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-07-10T08:04:53.601293+00:00"
-    },
-    "kyutai-labs/pocket-tts": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-07-10T08:04:53.603375+00:00"
-    },
-    "WeZZard/jlens-qwen36": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-07-10T08:04:53.605454+00:00"
-    },
-    "OmarH-creator/Autonomous-Forge": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-07-10T08:04:53.610186+00:00"
-    },
-    "CWS6206/EasyLastSkill": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-07-10T08:04:53.612890+00:00"
-    },
-    "Doriandarko/texts-to-transformer": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-07-10T08:04:53.614935+00:00"
     },
     "oven-sh/bun": {
       "count": 1,
@@ -370,12 +308,13 @@
       "last_recommended": "2026-07-13T04:07:58.475919+00:00"
     },
     "pingdotgg/t3code": {
-      "count": 2,
+      "count": 3,
       "scores": [
         100,
-        100
+        100,
+        67
       ],
-      "last_recommended": "2026-07-27T08:07:16.595647+00:00"
+      "last_recommended": "2026-08-10T06:03:18.368849+00:00"
     },
     "virattt/ai-hedge-fund": {
       "count": 1,
@@ -2164,7 +2103,77 @@
         100
       ],
       "last_recommended": "2026-08-09T05:35:24.588666+00:00"
+    },
+    "pranshuparmar/witr": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-10T06:03:18.335514+00:00"
+    },
+    "MengTo/kage": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-10T06:03:18.338972+00:00"
+    },
+    "sv-number/mcp-server": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-10T06:03:18.342168+00:00"
+    },
+    "SaladDay/pi-from-scratch": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-10T06:03:18.345355+00:00"
+    },
+    "MengMengCode/VoCat": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-10T06:03:18.348529+00:00"
+    },
+    "kogecodaviw9225/UNISWAP-ARBITRAGE-BOT": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-10T06:03:18.351516+00:00"
+    },
+    "ZhuLinsen/daily_stock_analysis": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-10T06:03:18.354643+00:00"
+    },
+    "NikoDemon80/ComfyUI-H3-Motion-Context": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-10T06:03:18.358946+00:00"
+    },
+    "tanishqkancharla/calldiff": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-10T06:03:18.361891+00:00"
+    },
+    "Samin100/codex-ios-assistant": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-10T06:03:18.364915+00:00"
     }
   },
-  "updated_at": "2026-08-09T05:35:24.588693+00:00"
+  "updated_at": "2026-08-10T06:03:18.368879+00:00"
 }
