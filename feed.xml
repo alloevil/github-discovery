@@ -5,8 +5,71 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 semantica-agi/semantica — 4324⭐ (641.3/day)</title>
+      <description>Graph-Native Infrastructure for Context and Accountable AI Systems
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/semantica-agi/semantica</link>
+      <guid>https://github.com/semantica-agi/semantica#2026-08-11</guid>
+      <pubDate>Tue, 11 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 Comfy-Org/ComfyUI — 126477⭐ (734.0/day)</title>
+      <description>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/Comfy-Org/ComfyUI</link>
+      <guid>https://github.com/Comfy-Org/ComfyUI#2026-08-11</guid>
+      <pubDate>Tue, 11 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 antirez/h3.c — 538⭐ (538.0/day)</title>
+      <description>MiniMax H3 inference engine for Mac computers
+
+Score: 100/100 | Language: C</description>
+      <link>https://github.com/antirez/h3.c</link>
+      <guid>https://github.com/antirez/h3.c#2026-08-11</guid>
+      <pubDate>Tue, 11 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 TauricResearch/TradingAgents — 97350⭐ (373.0/day)</title>
+      <description>TradingAgents: Multi-Agents LLM Financial Trading Framework
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/TauricResearch/TradingAgents</link>
+      <guid>https://github.com/TauricResearch/TradingAgents#2026-08-11</guid>
+      <pubDate>Tue, 11 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 vitali87/code-graph-rag — 3607⭐ (432.0/day)</title>
+      <description>The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/vitali87/code-graph-rag</link>
+      <guid>https://github.com/vitali87/code-graph-rag#2026-08-11</guid>
+      <pubDate>Tue, 11 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 ruvnet/RuView — 89441⭐ (208.0/day)</title>
+      <description>π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
+
+Score: 99/100 | Language: Rust</description>
+      <link>https://github.com/ruvnet/RuView</link>
+      <guid>https://github.com/ruvnet/RuView#2026-08-11</guid>
+      <pubDate>Tue, 11 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 NanmiCoder/MediaCrawler — 61317⭐ (53.0/day)</title>
+      <description>小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫
+
+Score: 69/100 | Language: Python</description>
+      <link>https://github.com/NanmiCoder/MediaCrawler</link>
+      <guid>https://github.com/NanmiCoder/MediaCrawler#2026-08-11</guid>
+      <pubDate>Tue, 11 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 pranshuparmar/witr — 20897⭐ (518.0/day)</title>
       <description>Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.
@@ -537,60 +600,6 @@ Score: 100/100 | Language: TypeScript</description>
       <link>https://github.com/TencentCloud/TencentDB-Agent-Memory</link>
       <guid>https://github.com/TencentCloud/TencentDB-Agent-Memory#2026-08-02</guid>
       <pubDate>Sun, 02 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 yc-software/qm — 2897⭐ (1448.5/day)</title>
-      <description>Multiplayer agent harness for work
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/yc-software/qm</link>
-      <guid>https://github.com/yc-software/qm#2026-08-01</guid>
-      <pubDate>Sat, 01 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 0xwilliamortiz/ratchet — 402⭐ (402.0/day)</title>
-      <description>Your agent reads the rules. This checks whether it followed them.
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/0xwilliamortiz/ratchet</link>
-      <guid>https://github.com/0xwilliamortiz/ratchet#2026-08-01</guid>
-      <pubDate>Sat, 01 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 ddoemonn/interior — 347⭐ (347.0/day)</title>
-      <description>micro-interactions for react, built for the half-second after a click
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/ddoemonn/interior</link>
-      <guid>https://github.com/ddoemonn/interior#2026-08-01</guid>
-      <pubDate>Sat, 01 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 l00sed/termixer — 131⭐ (131.0/day)</title>
-      <description>A 2-deck mixer, sample pads, sequencer— all from any Unix terminal.
-
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/l00sed/termixer</link>
-      <guid>https://github.com/l00sed/termixer#2026-08-01</guid>
-      <pubDate>Sat, 01 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 sqliteai/waste — 386⭐ (128.7/day)</title>
-      <description>Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.
-
-Score: 100/100 | Language: C</description>
-      <link>https://github.com/sqliteai/waste</link>
-      <guid>https://github.com/sqliteai/waste#2026-08-01</guid>
-      <pubDate>Sat, 01 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 github/copilot-sdk — 10170⭐ (51.1/day)</title>
-      <description>Multi-platform SDK for integrating GitHub Copilot Agent into apps and services
-
-Score: 69/100 | Language: Java</description>
-      <link>https://github.com/github/copilot-sdk</link>
-      <guid>https://github.com/github/copilot-sdk#2026-08-01</guid>
-      <pubDate>Sat, 01 Aug 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
