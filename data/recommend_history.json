@@ -102,12 +102,13 @@
       "last_recommended": "2026-07-14T06:58:01.469143+00:00"
     },
     "ruvnet/RuView": {
-      "count": 2,
+      "count": 3,
       "scores": [
         100,
-        100
+        100,
+        99
       ],
-      "last_recommended": "2026-07-23T07:18:39.988843+00:00"
+      "last_recommended": "2026-08-11T05:42:32.688631+00:00"
     },
     "addyosmani/agent-skills": {
       "count": 2,
@@ -149,20 +150,6 @@
       ],
       "last_recommended": "2026-07-27T08:07:16.620144+00:00"
     },
-    "oven-sh/bun": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-11T06:59:10.370934+00:00"
-    },
-    "davila7/claude-code-templates": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-11T06:59:10.373360+00:00"
-    },
     "vercel/next.js": {
       "count": 2,
       "scores": [
@@ -170,55 +157,6 @@
         63
       ],
       "last_recommended": "2026-08-06T07:25:38.156770+00:00"
-    },
-    "microsoft/TypeScript": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-07-11T06:59:10.377421+00:00"
-    },
-    "google-labs-code/stitch-skills": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-07-11T06:59:10.379772+00:00"
-    },
-    "tailscale/tailscale": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-07-11T06:59:10.381794+00:00"
-    },
-    "hashicorp/terraform": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-07-11T06:59:10.383912+00:00"
-    },
-    "grpc/grpc": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-07-11T06:59:10.386134+00:00"
-    },
-    "xiaotianfotos/homerail": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-07-11T06:59:10.388231+00:00"
-    },
-    "Moore-developers/moore-wechat-article-downloader": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-07-11T06:59:10.390356+00:00"
     },
     "microsoft/PowerToys": {
       "count": 2,
@@ -1251,11 +1189,12 @@
       "last_recommended": "2026-07-28T07:24:36.727714+00:00"
     },
     "NanmiCoder/MediaCrawler": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        69
       ],
-      "last_recommended": "2026-07-28T07:24:36.730487+00:00"
+      "last_recommended": "2026-08-11T05:42:32.691728+00:00"
     },
     "kvcache-ai/AgentENV": {
       "count": 1,
@@ -2173,7 +2112,77 @@
         100
       ],
       "last_recommended": "2026-08-10T06:03:18.364915+00:00"
+    },
+    "semantica-agi/semantica": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-11T05:42:32.652639+00:00"
+    },
+    "Comfy-Org/ComfyUI": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-11T05:42:32.656076+00:00"
+    },
+    "antirez/h3.c": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-11T05:42:32.659805+00:00"
+    },
+    "TauricResearch/TradingAgents": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-11T05:42:32.663270+00:00"
+    },
+    "vitali87/code-graph-rag": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-11T05:42:32.667071+00:00"
+    },
+    "google-deepmind/weathernext": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-11T05:42:32.670521+00:00"
+    },
+    "MkThingsHQ/mkdirs": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-11T05:42:32.674638+00:00"
+    },
+    "paperclipai/paperclip": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-11T05:42:32.678353+00:00"
+    },
+    "UditAkhourii/neuroarxiv": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-11T05:42:32.681753+00:00"
+    },
+    "amiralibg/unstream": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-11T05:42:32.685539+00:00"
     }
   },
-  "updated_at": "2026-08-10T06:03:18.368879+00:00"
+  "updated_at": "2026-08-11T05:42:32.691768+00:00"
 }

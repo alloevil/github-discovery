@@ -1,0 +1,334 @@
+{
+ "date": "2026-08-11",
+ "generated_at": "2026-08-11T05:42:32.874578",
+ "new": [
+  {
+   "full_name": "semantica-agi/semantica",
+   "url": "https://github.com/semantica-agi/semantica",
+   "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+   "language": "Python",
+   "stars": 4324,
+   "forks": 491,
+   "age_days": 411,
+   "daily_stars": 10.520681265206813,
+   "real_daily_stars": 641.3333333333334,
+   "watchers": 32,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Comfy-Org/ComfyUI",
+   "url": "https://github.com/Comfy-Org/ComfyUI",
+   "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+   "language": "Python",
+   "stars": 126477,
+   "forks": 14911,
+   "age_days": 1302,
+   "daily_stars": 97.1405529953917,
+   "real_daily_stars": 734.0,
+   "watchers": 776,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "antirez/h3.c",
+   "url": "https://github.com/antirez/h3.c",
+   "description": "MiniMax H3 inference engine for Mac computers",
+   "language": "C",
+   "stars": 538,
+   "forks": 27,
+   "age_days": 1,
+   "daily_stars": 538.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "TauricResearch/TradingAgents",
+   "url": "https://github.com/TauricResearch/TradingAgents",
+   "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+   "language": "Python",
+   "stars": 97350,
+   "forks": 18743,
+   "age_days": 591,
+   "daily_stars": 164.72081218274113,
+   "real_daily_stars": 373.0,
+   "watchers": 719,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "vitali87/code-graph-rag",
+   "url": "https://github.com/vitali87/code-graph-rag",
+   "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+   "language": "Python",
+   "stars": 3607,
+   "forks": 551,
+   "age_days": 420,
+   "daily_stars": 8.588095238095239,
+   "real_daily_stars": 432.0,
+   "watchers": 33,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "google-deepmind/weathernext",
+   "url": "https://github.com/google-deepmind/weathernext",
+   "description": "",
+   "language": "Python",
+   "stars": 7397,
+   "forks": 957,
+   "age_days": 1123,
+   "daily_stars": 6.586821015138023,
+   "real_daily_stars": 240.0,
+   "watchers": 97,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 14
+   }
+  },
+  {
+   "full_name": "MkThingsHQ/mkdirs",
+   "url": "https://github.com/MkThingsHQ/mkdirs",
+   "description": "Open-source AI-powered directory website template built with Next.js",
+   "language": "TypeScript",
+   "stars": 169,
+   "forks": 46,
+   "age_days": 1,
+   "daily_stars": 169.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 100,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "description": "The open-source app everyone uses to manage agents at work",
+   "language": "TypeScript",
+   "stars": 76670,
+   "forks": 14220,
+   "age_days": 161,
+   "daily_stars": 476.2111801242236,
+   "watchers": 380,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "UditAkhourii/neuroarxiv",
+   "url": "https://github.com/UditAkhourii/neuroarxiv",
+   "description": "A skill to kill from-scratch coding — Claude checks real arXiv prior art before it designs a new architecture.",
+   "language": "TypeScript",
+   "stars": 261,
+   "forks": 28,
+   "age_days": 5,
+   "daily_stars": 52.2,
+   "real_daily_stars": 125.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "amiralibg/unstream",
+   "url": "https://github.com/amiralibg/unstream",
+   "description": "paste a Spotify / Deezer / Apple Music / YouTube / SoundCloud track, album or playlist URL — or search every catalog at once — and get tagged mp3 files. No accounts, no API keys, nothing paid.",
+   "language": "TypeScript",
+   "stars": 176,
+   "forks": 35,
+   "age_days": 2,
+   "daily_stars": 88.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 100,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "ruvnet/RuView",
+   "url": "https://github.com/ruvnet/RuView",
+   "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+   "language": "Rust",
+   "stars": 89441,
+   "forks": 11897,
+   "age_days": 430,
+   "daily_stars": 208.00232558139535,
+   "watchers": 796,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 99,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "NanmiCoder/MediaCrawler",
+   "url": "https://github.com/NanmiCoder/MediaCrawler",
+   "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫",
+   "language": "Python",
+   "stars": 61317,
+   "forks": 12041,
+   "age_days": 1158,
+   "daily_stars": 52.95077720207254,
+   "watchers": 245,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "rank": 2,
+   "scores": {
+    "total": 69,
+    "acceleration": 19,
+    "quality": 20,
+    "antispam": 30
+   }
+  }
+ ]
+}
