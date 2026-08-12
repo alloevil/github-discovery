@@ -1,0 +1,312 @@
+{
+ "date": "2026-08-12",
+ "generated_at": "2026-08-12T06:05:50.827274",
+ "new": [
+  {
+   "full_name": "sohaibdevv/youtube-music",
+   "url": "https://github.com/sohaibdevv/youtube-music",
+   "description": "A lightweight, ad‑free client for streaming music from YouTube Music. No subscription required. Supports background playback, search, and custom playlists via the reverse‑engineered API.",
+   "language": "TypeScript",
+   "stars": 836,
+   "forks": 0,
+   "age_days": 1,
+   "daily_stars": 836.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "shadcn-ui/chatbot-template",
+   "url": "https://github.com/shadcn-ui/chatbot-template",
+   "description": "A minimal chatbot template built with Next.js, AI SDK, shadcn/ui, shadcn/react, shadcn/typeset. It runs on the Vercel AI Gateway.",
+   "language": "TypeScript",
+   "stars": 477,
+   "forks": 42,
+   "age_days": 1,
+   "daily_stars": 477.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "AntigmaLabs/ante",
+   "url": "https://github.com/AntigmaLabs/ante",
+   "description": "Ghost in your shell. Ante is a self-contained agent harness with a highly optimized core. It works like Claude Code or Codex, with none of their dependencies or model constraints. ",
+   "language": "Rust",
+   "stars": 1226,
+   "forks": 29,
+   "age_days": 231,
+   "daily_stars": 5.307359307359308,
+   "real_daily_stars": 216.0,
+   "watchers": 3,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "Apache-2.0",
+   "hn_title": "Show HN: Ante, a coding agent in a single binary that runs offline",
+   "hn_score": 159,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "harveyai/harvey-labs",
+   "url": "https://github.com/harveyai/harvey-labs",
+   "description": "A benchmark built to evaluate and improve agent capabilities for supporting legal work.",
+   "language": "Python",
+   "stars": 1118,
+   "forks": 198,
+   "age_days": 134,
+   "daily_stars": 8.343283582089553,
+   "real_daily_stars": 115.0,
+   "watchers": 13,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "0xnyn/airship",
+   "url": "https://github.com/0xnyn/airship",
+   "description": "Figma like visual editor built for Claude Code, Codex and OpenCode",
+   "language": "TypeScript",
+   "stars": 246,
+   "forks": 17,
+   "age_days": 1,
+   "daily_stars": 246.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "gvzdv/claudish-to-english",
+   "url": "https://github.com/gvzdv/claudish-to-english",
+   "description": "",
+   "language": "Shell",
+   "stars": 455,
+   "forks": 26,
+   "age_days": 1,
+   "daily_stars": 455.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "razzant/ouroboros",
+   "url": "https://github.com/razzant/ouroboros",
+   "description": "Ouroboros — self-creating AI agent. Born Feb 16, 2026.",
+   "language": "Python",
+   "stars": 1108,
+   "forks": 588,
+   "age_days": 181,
+   "daily_stars": 6.121546961325967,
+   "real_daily_stars": 51.0,
+   "watchers": 15,
+   "source": "hf-papers",
+   "sources": [
+    "hf-papers"
+   ],
+   "license": "MIT",
+   "hf_title": "Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution",
+   "hf_upvotes": 69,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 100,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "calesthio/OpenMontage",
+   "url": "https://github.com/calesthio/OpenMontage",
+   "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+   "language": "Python",
+   "stars": 47516,
+   "forks": 5915,
+   "age_days": 135,
+   "daily_stars": 351.97037037037035,
+   "watchers": 275,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 100,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "wanshuiyin/HERO-Anti-OverDefense",
+   "url": "https://github.com/wanshuiyin/HERO-Anti-OverDefense",
+   "description": "HERO = Hashing · Edge cases · Rubrics · Overbuild — the four shapes coding agents over-defend in. A paste-in contract that stops them. Works with Claude Code, Codex, Antigravity, Cursor, Copilot, Windsurf, Gemini CLI.",
+   "language": "Markdown",
+   "stars": 96,
+   "forks": 3,
+   "age_days": 1,
+   "daily_stars": 96.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 100,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+   "language": "TypeScript",
+   "stars": 43052,
+   "forks": 3006,
+   "age_days": 148,
+   "daily_stars": 290.8918918918919,
+   "watchers": 97,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 100,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "HKUDS/DeepTutor",
+   "url": "https://github.com/HKUDS/DeepTutor",
+   "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+   "language": "Python",
+   "stars": 34907,
+   "forks": 4435,
+   "age_days": 226,
+   "daily_stars": 154.45575221238937,
+   "watchers": 174,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 24,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  }
+ ]
+}

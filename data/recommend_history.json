@@ -166,27 +166,6 @@
       ],
       "last_recommended": "2026-07-31T07:35:04.577405+00:00"
     },
-    "DayuanJiang/next-ai-draw-io": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-12T07:16:59.597046+00:00"
-    },
-    "malisper/pgrust": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-07-12T07:16:59.599166+00:00"
-    },
-    "home-assistant/core": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-07-12T07:16:59.601396+00:00"
-    },
     "cypress-io/cypress": {
       "count": 2,
       "scores": [
@@ -194,13 +173,6 @@
         62
       ],
       "last_recommended": "2026-08-05T07:25:08.926041+00:00"
-    },
-    "nuxt/nuxt": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-07-12T07:16:59.605679+00:00"
     },
     "ansible/ansible": {
       "count": 2,
@@ -210,41 +182,6 @@
       ],
       "last_recommended": "2026-07-31T07:35:04.603960+00:00"
     },
-    "gostonx/uninstally": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-07-12T07:16:59.610452+00:00"
-    },
-    "vinhhien112/Three.js-Object-Sculptor-Codex-Plugin": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-07-12T07:16:59.612629+00:00"
-    },
-    "dongguatanglinux/grok-build-auth": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-07-12T07:16:59.614795+00:00"
-    },
-    "Shubhamsaboo/awesome-llm-apps": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-13T04:07:58.472648+00:00"
-    },
-    "Crosstalk-Solutions/project-nomad": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-13T04:07:58.475919+00:00"
-    },
     "pingdotgg/t3code": {
       "count": 3,
       "scores": [
@@ -253,55 +190,6 @@
         67
       ],
       "last_recommended": "2026-08-10T06:03:18.368849+00:00"
-    },
-    "virattt/ai-hedge-fund": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-13T04:07:58.481535+00:00"
-    },
-    "Nutlope/hallmark": {
-      "count": 1,
-      "scores": [
-        97
-      ],
-      "last_recommended": "2026-07-13T04:07:58.484442+00:00"
-    },
-    "x4gKing/3x-ui-Upgrade": {
-      "count": 1,
-      "scores": [
-        97
-      ],
-      "last_recommended": "2026-07-13T04:07:58.487203+00:00"
-    },
-    "chen08209/FlClash": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-07-13T04:07:58.491068+00:00"
-    },
-    "Dicklesworthstone/destructive_command_guard": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-07-13T04:07:58.493871+00:00"
-    },
-    "ColeMurray/background-agents": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-07-13T04:07:58.496705+00:00"
-    },
-    "par274/sharpemu": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-07-13T04:07:58.499552+00:00"
     },
     "OpenCut-app/OpenCut": {
       "count": 1,
@@ -425,11 +313,12 @@
       "last_recommended": "2026-07-16T07:10:03.904202+00:00"
     },
     "HKUDS/DeepTutor": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-16T07:10:03.906718+00:00"
+      "last_recommended": "2026-08-12T06:05:50.602511+00:00"
     },
     "HenryNdubuaku/maths-cs-ai-compendium": {
       "count": 1,
@@ -2182,7 +2071,77 @@
         100
       ],
       "last_recommended": "2026-08-11T05:42:32.685539+00:00"
+    },
+    "sohaibdevv/youtube-music": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-12T06:05:50.573097+00:00"
+    },
+    "shadcn-ui/chatbot-template": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-12T06:05:50.576354+00:00"
+    },
+    "AntigmaLabs/ante": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-12T06:05:50.579367+00:00"
+    },
+    "harveyai/harvey-labs": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-12T06:05:50.582207+00:00"
+    },
+    "0xnyn/airship": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-12T06:05:50.585187+00:00"
+    },
+    "gvzdv/claudish-to-english": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-12T06:05:50.588370+00:00"
+    },
+    "razzant/ouroboros": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-12T06:05:50.591267+00:00"
+    },
+    "calesthio/OpenMontage": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-12T06:05:50.594207+00:00"
+    },
+    "wanshuiyin/HERO-Anti-OverDefense": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-12T06:05:50.597464+00:00"
+    },
+    "stablyai/orca": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-12T06:05:50.600607+00:00"
     }
   },
-  "updated_at": "2026-08-11T05:42:32.691768+00:00"
+  "updated_at": "2026-08-12T06:05:50.602539+00:00"
 }
