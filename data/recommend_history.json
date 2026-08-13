@@ -818,12 +818,13 @@
       "last_recommended": "2026-07-23T07:18:40.005407+00:00"
     },
     "shiyu-coder/Kronos": {
-      "count": 2,
+      "count": 3,
       "scores": [
         97,
-        72
+        72,
+        94
       ],
-      "last_recommended": "2026-08-04T07:24:17.872700+00:00"
+      "last_recommended": "2026-08-13T06:06:47.249566+00:00"
     },
     "dreamhunter2333/cloudflare_temp_email": {
       "count": 1,
@@ -2141,7 +2142,77 @@
         100
       ],
       "last_recommended": "2026-08-12T06:05:50.600607+00:00"
+    },
+    "MSNightmare/ShieldBreak": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-13T06:06:47.220524+00:00"
+    },
+    "ayi-ai/nie-grassroots-logic": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-13T06:06:47.223779+00:00"
+    },
+    "keslr/keslr_connect": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-13T06:06:47.226756+00:00"
+    },
+    "hugohe3/ppt-master": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-13T06:06:47.229665+00:00"
+    },
+    "milind-soni/OpenMausBot": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-13T06:06:47.232714+00:00"
+    },
+    "dmmulroy/anti-slop": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-13T06:06:47.235784+00:00"
+    },
+    "CheshireMew/VoxWeave": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-13T06:06:47.238802+00:00"
+    },
+    "vuphongle/oss-pr-reviewer": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-13T06:06:47.241700+00:00"
+    },
+    "longnick/small-pos-open-source": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-13T06:06:47.244638+00:00"
+    },
+    "cathrynlavery/diagram-design": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-13T06:06:47.247528+00:00"
     }
   },
-  "updated_at": "2026-08-12T06:05:50.602539+00:00"
+  "updated_at": "2026-08-13T06:06:47.249595+00:00"
 }

@@ -1,0 +1,313 @@
+{
+ "date": "2026-08-13",
+ "generated_at": "2026-08-13T06:06:47.506712",
+ "new": [
+  {
+   "full_name": "MSNightmare/ShieldBreak",
+   "url": "https://github.com/MSNightmare/ShieldBreak",
+   "description": "Windows Defender 0day vulnerability",
+   "language": "C++",
+   "stars": 436,
+   "forks": 137,
+   "age_days": 1,
+   "daily_stars": 436.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "ayi-ai/nie-grassroots-logic",
+   "url": "https://github.com/ayi-ai/nie-grassroots-logic",
+   "description": "聂·基层运行逻辑 · Agent Skill：基于聂辉华《基层中国的运行逻辑》的方法论工具箱（不含原书全文）",
+   "language": "HTML",
+   "stars": 377,
+   "forks": 45,
+   "age_days": 2,
+   "daily_stars": 188.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 14
+   }
+  },
+  {
+   "full_name": "keslr/keslr_connect",
+   "url": "https://github.com/keslr/keslr_connect",
+   "description": "Connect your service to Keslr: sign in with Keslr and read the verification claim that proves a user is a real, vouched-for human — plus run services reachable only by Keslr members.",
+   "language": "TypeScript",
+   "stars": 346,
+   "forks": 81,
+   "age_days": 5,
+   "daily_stars": 69.2,
+   "real_daily_stars": 116.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "hugohe3/ppt-master",
+   "url": "https://github.com/hugohe3/ppt-master",
+   "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+   "language": "Python",
+   "stars": 45943,
+   "forks": 3737,
+   "age_days": 245,
+   "daily_stars": 187.52244897959184,
+   "watchers": 95,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 25,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "milind-soni/OpenMausBot",
+   "url": "https://github.com/milind-soni/OpenMausBot",
+   "description": "",
+   "language": "TypeScript",
+   "stars": 666,
+   "forks": 114,
+   "age_days": 1,
+   "daily_stars": 666.0,
+   "real_daily_stars": 484.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "dmmulroy/anti-slop",
+   "url": "https://github.com/dmmulroy/anti-slop",
+   "description": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
+   "language": "TypeScript",
+   "stars": 416,
+   "forks": 6,
+   "age_days": 1,
+   "daily_stars": 416.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 20,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "CheshireMew/VoxWeave",
+   "url": "https://github.com/CheshireMew/VoxWeave",
+   "description": "Local-first high-quality offline RVC voice conversion workstation",
+   "language": "Python",
+   "stars": 203,
+   "forks": 40,
+   "age_days": 3,
+   "daily_stars": 67.66666666666667,
+   "real_daily_stars": 100.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 100,
+    "acceleration": 25,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "vuphongle/oss-pr-reviewer",
+   "url": "https://github.com/vuphongle/oss-pr-reviewer",
+   "description": "AI-powered CLI for reviewing GitHub pull requests, detecting potential bugs, security risks, regressions, and missing tests, with structured Markdown reports for open-source maintainers.",
+   "language": "TypeScript",
+   "stars": 51,
+   "forks": 50,
+   "age_days": 1,
+   "daily_stars": 51.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 100,
+    "acceleration": 25,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "longnick/small-pos-open-source",
+   "url": "https://github.com/longnick/small-pos-open-source",
+   "description": "Offline-first POS starter for small cafés and restaurants",
+   "language": "TypeScript",
+   "stars": 49,
+   "forks": 48,
+   "age_days": 1,
+   "daily_stars": 49.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 100,
+    "acceleration": 25,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+   "language": "HTML",
+   "stars": 11538,
+   "forks": 730,
+   "age_days": 118,
+   "daily_stars": 97.77966101694915,
+   "watchers": 43,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 100,
+    "acceleration": 22,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "shiyu-coder/Kronos",
+   "url": "https://github.com/shiyu-coder/Kronos",
+   "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+   "language": "Python",
+   "stars": 36994,
+   "forks": 6154,
+   "age_days": 408,
+   "daily_stars": 90.67156862745098,
+   "real_daily_stars": 121.77777777777777,
+   "watchers": 318,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 1,
+   "scores": {
+    "total": 94,
+    "acceleration": 25,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 9
+   }
+  }
+ ]
+}
