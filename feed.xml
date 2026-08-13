@@ -5,8 +5,62 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 MSNightmare/ShieldBreak — 436⭐ (436.0/day)</title>
+      <description>Windows Defender 0day vulnerability
+
+Score: 100/100 | Language: C++</description>
+      <link>https://github.com/MSNightmare/ShieldBreak</link>
+      <guid>https://github.com/MSNightmare/ShieldBreak#2026-08-13</guid>
+      <pubDate>Thu, 13 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 ayi-ai/nie-grassroots-logic — 377⭐ (188.5/day)</title>
+      <description>聂·基层运行逻辑 · Agent Skill：基于聂辉华《基层中国的运行逻辑》的方法论工具箱（不含原书全文）
+
+Score: 100/100 | Language: HTML</description>
+      <link>https://github.com/ayi-ai/nie-grassroots-logic</link>
+      <guid>https://github.com/ayi-ai/nie-grassroots-logic#2026-08-13</guid>
+      <pubDate>Thu, 13 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 keslr/keslr_connect — 346⭐ (116.0/day)</title>
+      <description>Connect your service to Keslr: sign in with Keslr and read the verification claim that proves a user is a real, vouched-for human — plus run services reachable only by Keslr members.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/keslr/keslr_connect</link>
+      <guid>https://github.com/keslr/keslr_connect#2026-08-13</guid>
+      <pubDate>Thu, 13 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 hugohe3/ppt-master — 45943⭐ (187.5/day)</title>
+      <description>AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/hugohe3/ppt-master</link>
+      <guid>https://github.com/hugohe3/ppt-master#2026-08-13</guid>
+      <pubDate>Thu, 13 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 milind-soni/OpenMausBot — 666⭐ (484.0/day)</title>
+      <description>No description
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/milind-soni/OpenMausBot</link>
+      <guid>https://github.com/milind-soni/OpenMausBot#2026-08-13</guid>
+      <pubDate>Thu, 13 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 shiyu-coder/Kronos — 36994⭐ (121.8/day)</title>
+      <description>Kronos: A Foundation Model for the Language of Financial Markets
+
+Score: 94/100 | Language: Python</description>
+      <link>https://github.com/shiyu-coder/Kronos</link>
+      <guid>https://github.com/shiyu-coder/Kronos#2026-08-13</guid>
+      <pubDate>Thu, 13 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 sohaibdevv/youtube-music — 836⭐ (836.0/day)</title>
       <description>A lightweight, ad‑free client for streaming music from YouTube Music. No subscription required. Supports background playback, search, and custom playlists via the reverse‑engineered API.
@@ -537,69 +591,6 @@ Score: 72/100 | Language: Python</description>
       <link>https://github.com/shiyu-coder/Kronos</link>
       <guid>https://github.com/shiyu-coder/Kronos#2026-08-04</guid>
       <pubDate>Tue, 04 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 microsoft/generative-ai-for-beginners — 115068⭐ (702.0/day)</title>
-      <description>21 Lessons, Get Started Building with Generative AI 
-
-Score: 100/100 | Language: Jupyter Notebook</description>
-      <link>https://github.com/microsoft/generative-ai-for-beginners</link>
-      <guid>https://github.com/microsoft/generative-ai-for-beginners#2026-08-03</guid>
-      <pubDate>Mon, 03 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 iv-org/invidious — 22091⭐ (405.0/day)</title>
-      <description>Invidious is an alternative front-end to YouTube
-
-Score: 100/100 | Language: Crystal</description>
-      <link>https://github.com/iv-org/invidious</link>
-      <guid>https://github.com/iv-org/invidious#2026-08-03</guid>
-      <pubDate>Mon, 03 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 microsoft/skill-recorder — 1066⭐ (643.0/day)</title>
-      <description>Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Scout, Microsoft Copilot Cowork, or Copilot Studio.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/microsoft/skill-recorder</link>
-      <guid>https://github.com/microsoft/skill-recorder#2026-08-03</guid>
-      <pubDate>Mon, 03 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 DannyMac180/sol-advisor — 805⭐ (805.0/day)</title>
-      <description>Codex-native architect orchestration with Luna and Terra implementation lanes and mandatory fresh Sol review.
-
-Score: 100/100 | Language: Shell</description>
-      <link>https://github.com/DannyMac180/sol-advisor</link>
-      <guid>https://github.com/DannyMac180/sol-advisor#2026-08-03</guid>
-      <pubDate>Mon, 03 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 0xwilliamortiz/humanizer-cli — 542⭐ (542.0/day)</title>
-      <description>33 ways to spot AI-written text, right in your terminal. Before/after examples, draft checker, zero dependencies.
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/0xwilliamortiz/humanizer-cli</link>
-      <guid>https://github.com/0xwilliamortiz/humanizer-cli#2026-08-03</guid>
-      <pubDate>Mon, 03 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 codecrafters-io/build-your-own-x — 535272⭐ (178.0/day)</title>
-      <description>Master programming by recreating your favorite technologies from scratch.
-
-Score: 70/100 | Language: Markdown</description>
-      <link>https://github.com/codecrafters-io/build-your-own-x</link>
-      <guid>https://github.com/codecrafters-io/build-your-own-x#2026-08-03</guid>
-      <pubDate>Mon, 03 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 lyogavin/airllm — 26043⭐ (22.7/day)</title>
-      <description>AirLLM 70B inference with single 4GB GPU
-
-Score: 65/100 | Language: Jupyter Notebook</description>
-      <link>https://github.com/lyogavin/airllm</link>
-      <guid>https://github.com/lyogavin/airllm#2026-08-03</guid>
-      <pubDate>Mon, 03 Aug 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
