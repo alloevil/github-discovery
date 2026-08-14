@@ -1,0 +1,283 @@
+{
+ "date": "2026-08-14",
+ "generated_at": "2026-08-14T06:05:33.290823",
+ "new": [
+  {
+   "full_name": "cactus-compute/needle",
+   "url": "https://github.com/cactus-compute/needle",
+   "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+   "language": "Python",
+   "stars": 5099,
+   "forks": 336,
+   "age_days": 171,
+   "daily_stars": 29.818713450292396,
+   "real_daily_stars": 676.0,
+   "watchers": 34,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "macro-inc/macro",
+   "url": "https://github.com/macro-inc/macro",
+   "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+   "language": "Rust",
+   "stars": 2711,
+   "forks": 284,
+   "age_days": 278,
+   "daily_stars": 9.751798561151078,
+   "real_daily_stars": 619.0,
+   "watchers": 44,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "infiniflow/ragflow",
+   "url": "https://github.com/infiniflow/ragflow",
+   "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+   "language": "Go",
+   "stars": 88137,
+   "forks": 10363,
+   "age_days": 975,
+   "daily_stars": 90.39692307692307,
+   "real_daily_stars": 473.0,
+   "watchers": 369,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "NVIDIA-NeMo/Switchyard",
+   "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+   "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
+   "language": "Rust",
+   "stars": 1302,
+   "forks": 115,
+   "age_days": 86,
+   "daily_stars": 15.13953488372093,
+   "real_daily_stars": 374.0,
+   "watchers": 3,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "smicallef/spiderfoot",
+   "url": "https://github.com/smicallef/spiderfoot",
+   "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+   "language": "Python",
+   "stars": 20719,
+   "forks": 3319,
+   "age_days": 5220,
+   "daily_stars": 3.9691570881226053,
+   "real_daily_stars": 304.0,
+   "watchers": 447,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "3b1b/manim",
+   "url": "https://github.com/3b1b/manim",
+   "description": "Animation engine for explanatory math videos",
+   "language": "Python",
+   "stars": 90974,
+   "forks": 7540,
+   "age_days": 4162,
+   "daily_stars": 21.8582412301778,
+   "real_daily_stars": 322.0,
+   "watchers": 950,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "xoreaxeaxeax/skitter-creek-bath-salts",
+   "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+   "description": "Unlocking _everything_ on the CPU with DRAM scrambling",
+   "language": "C",
+   "stars": 1150,
+   "forks": 110,
+   "age_days": 1,
+   "daily_stars": 1150.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "Leutenegger/book-to-skill",
+   "url": "https://github.com/Leutenegger/book-to-skill",
+   "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+   "language": "Python",
+   "stars": 1041,
+   "forks": 132,
+   "age_days": 1,
+   "daily_stars": 1041.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "ccch1mneyyy/dsh-TUI",
+   "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+   "description": "解决DSH 官方尚无终端 TUI 痛点的补位之作，献给偏爱cli的各位极客：Claude Code 风格全屏交互终端插件——像素鲸鱼顶栏、实时工作状态行、思考流式展开、双击 Esc 回滚、上下文进度条 + TPS 仪表。npm 一键安装。",
+   "language": "TypeScript",
+   "stars": 553,
+   "forks": 21,
+   "age_days": 1,
+   "daily_stars": 553.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "gfodor/legal-skills",
+   "url": "https://github.com/gfodor/legal-skills",
+   "description": "Replacing lawyers with markdown files",
+   "language": "Python",
+   "stars": 309,
+   "forks": 34,
+   "age_days": 1,
+   "daily_stars": 309.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 100,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  }
+ ],
+ "repeat": []
+}

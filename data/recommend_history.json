@@ -16,14 +16,6 @@
       ],
       "last_recommended": "2026-07-19T07:15:39.717344+00:00"
     },
-    "HKUDS/Vibe-Trading": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-07-14T06:58:01.458520+00:00"
-    },
     "msitarzewski/agency-agents": {
       "count": 3,
       "scores": [
@@ -59,14 +51,6 @@
       ],
       "last_recommended": "2026-08-05T07:25:08.924121+00:00"
     },
-    "hasaneyldrm/exercises-dataset": {
-      "count": 2,
-      "scores": [
-        96,
-        100
-      ],
-      "last_recommended": "2026-07-14T06:58:01.464950+00:00"
-    },
     "ChromeDevTools/chrome-devtools-mcp": {
       "count": 2,
       "scores": [
@@ -92,14 +76,6 @@
         100
       ],
       "last_recommended": "2026-08-07T06:01:49.989610+00:00"
-    },
-    "coreyhaines31/marketingskills": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-07-14T06:58:01.469143+00:00"
     },
     "ruvnet/RuView": {
       "count": 3,
@@ -191,13 +167,6 @@
       ],
       "last_recommended": "2026-08-10T06:03:18.368849+00:00"
     },
-    "OpenCut-app/OpenCut": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-14T06:58:01.455144+00:00"
-    },
     "moeru-ai/airi": {
       "count": 2,
       "scores": [
@@ -205,41 +174,6 @@
         100
       ],
       "last_recommended": "2026-07-28T07:24:36.724636+00:00"
-    },
-    "Graphify-Labs/graphify": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-14T06:58:01.462771+00:00"
-    },
-    "github/spec-kit": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-14T06:58:01.467053+00:00"
-    },
-    "MDX-Tom/gpt-5.6-instruct": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-14T06:58:01.471309+00:00"
-    },
-    "littledivy/mimic": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-14T06:58:01.473447+00:00"
-    },
-    "mereyabdenbekuly-ctrl/clodex-ide": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-14T06:58:01.475548+00:00"
     },
     "Raphire/Win11Debloat": {
       "count": 1,
@@ -2212,7 +2146,77 @@
         100
       ],
       "last_recommended": "2026-08-13T06:06:47.247528+00:00"
+    },
+    "cactus-compute/needle": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-14T06:05:33.093071+00:00"
+    },
+    "macro-inc/macro": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-14T06:05:33.096500+00:00"
+    },
+    "infiniflow/ragflow": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-14T06:05:33.102229+00:00"
+    },
+    "NVIDIA-NeMo/Switchyard": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-14T06:05:33.109105+00:00"
+    },
+    "smicallef/spiderfoot": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-14T06:05:33.115002+00:00"
+    },
+    "3b1b/manim": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-14T06:05:33.119707+00:00"
+    },
+    "xoreaxeaxeax/skitter-creek-bath-salts": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-14T06:05:33.122848+00:00"
+    },
+    "Leutenegger/book-to-skill": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-14T06:05:33.126115+00:00"
+    },
+    "ccch1mneyyy/dsh-TUI": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-14T06:05:33.129366+00:00"
+    },
+    "gfodor/legal-skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-14T06:05:33.132543+00:00"
     }
   },
-  "updated_at": "2026-08-13T06:06:47.249595+00:00"
+  "updated_at": "2026-08-14T06:05:33.132570+00:00"
 }
