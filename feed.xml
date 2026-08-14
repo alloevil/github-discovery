@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 cactus-compute/needle — 5099⭐ (676.0/day)</title>
+      <description>14MB foundation model for tiny devices; phones, wearables, smart home, and robots.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/cactus-compute/needle</link>
+      <guid>https://github.com/cactus-compute/needle#2026-08-14</guid>
+      <pubDate>Fri, 14 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 macro-inc/macro — 2711⭐ (619.0/day)</title>
+      <description>Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/macro-inc/macro</link>
+      <guid>https://github.com/macro-inc/macro#2026-08-14</guid>
+      <pubDate>Fri, 14 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 infiniflow/ragflow — 88137⭐ (473.0/day)</title>
+      <description>RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
+
+Score: 100/100 | Language: Go</description>
+      <link>https://github.com/infiniflow/ragflow</link>
+      <guid>https://github.com/infiniflow/ragflow#2026-08-14</guid>
+      <pubDate>Fri, 14 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 NVIDIA-NeMo/Switchyard — 1302⭐ (374.0/day)</title>
+      <description>Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/NVIDIA-NeMo/Switchyard</link>
+      <guid>https://github.com/NVIDIA-NeMo/Switchyard#2026-08-14</guid>
+      <pubDate>Fri, 14 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 smicallef/spiderfoot — 20719⭐ (304.0/day)</title>
+      <description>SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/smicallef/spiderfoot</link>
+      <guid>https://github.com/smicallef/spiderfoot#2026-08-14</guid>
+      <pubDate>Fri, 14 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 MSNightmare/ShieldBreak — 436⭐ (436.0/day)</title>
       <description>Windows Defender 0day vulnerability
@@ -528,69 +573,6 @@ Score: 62/100 | Language: TypeScript</description>
       <link>https://github.com/cypress-io/cypress</link>
       <guid>https://github.com/cypress-io/cypress#2026-08-05</guid>
       <pubDate>Wed, 05 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 esengine/DeepSeek-Reasonix — 30269⭐ (842.0/day)</title>
-      <description>DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.
-
-Score: 100/100 | Language: Go</description>
-      <link>https://github.com/esengine/DeepSeek-Reasonix</link>
-      <guid>https://github.com/esengine/DeepSeek-Reasonix#2026-08-04</guid>
-      <pubDate>Tue, 04 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Panniantong/Agent-Reach — 66030⭐ (903.0/day)</title>
-      <description>Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/Panniantong/Agent-Reach</link>
-      <guid>https://github.com/Panniantong/Agent-Reach#2026-08-04</guid>
-      <pubDate>Tue, 04 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 genspark-ai/genoffice — 869⭐ (289.7/day)</title>
-      <description>An AI-native office suite for macOS and Windows: word processor, spreadsheet, presentations, and PDF.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/genspark-ai/genoffice</link>
-      <guid>https://github.com/genspark-ai/genoffice#2026-08-04</guid>
-      <pubDate>Tue, 04 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 disler/super-simple-software-factory — 254⭐ (254.0/day)</title>
-      <description>Repeatable agents-plus-code workflows, packaged as one skill, stamped into any repo. Deterministic Python owns the graph; coding agents are bounded nodes inside it.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/disler/super-simple-software-factory</link>
-      <guid>https://github.com/disler/super-simple-software-factory#2026-08-04</guid>
-      <pubDate>Tue, 04 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 joeseesun/qiaomu-seo — 202⭐ (202.0/day)</title>
-      <description>Audit, diagnose, research, plan, implement, experiment on, and verify website SEO across Google, Bing, and AI-search surfaces. Use for technical SEO, 
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/joeseesun/qiaomu-seo</link>
-      <guid>https://github.com/joeseesun/qiaomu-seo#2026-08-04</guid>
-      <pubDate>Tue, 04 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 jamiepine/voicebox — 48892⭐ (257.3/day)</title>
-      <description>The open-source AI voice studio. Clone, dictate, create.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/jamiepine/voicebox</link>
-      <guid>https://github.com/jamiepine/voicebox#2026-08-04</guid>
-      <pubDate>Tue, 04 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 shiyu-coder/Kronos — 35898⭐ (90.0/day)</title>
-      <description>Kronos: A Foundation Model for the Language of Financial Markets
-
-Score: 72/100 | Language: Python</description>
-      <link>https://github.com/shiyu-coder/Kronos</link>
-      <guid>https://github.com/shiyu-coder/Kronos#2026-08-04</guid>
-      <pubDate>Tue, 04 Aug 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
