@@ -1,0 +1,306 @@
+{
+ "date": "2026-08-15",
+ "generated_at": "2026-08-15T05:03:12.462653",
+ "new": [
+  {
+   "full_name": "holaboss-ai/holaOS",
+   "url": "https://github.com/holaboss-ai/holaOS",
+   "description": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
+   "language": "TypeScript",
+   "stars": 7365,
+   "forks": 640,
+   "age_days": 145,
+   "daily_stars": 50.793103448275865,
+   "real_daily_stars": 595.0,
+   "watchers": 172,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "megadose/holehe",
+   "url": "https://github.com/megadose/holehe",
+   "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+   "language": "Python",
+   "stars": 12896,
+   "forks": 1721,
+   "age_days": 2241,
+   "daily_stars": 5.754573850959393,
+   "real_daily_stars": 392.0,
+   "watchers": 271,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "lightningpixel/modly",
+   "url": "https://github.com/lightningpixel/modly",
+   "description": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
+   "language": "TypeScript",
+   "stars": 6008,
+   "forks": 606,
+   "age_days": 150,
+   "daily_stars": 40.053333333333335,
+   "real_daily_stars": 443.0,
+   "watchers": 46,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "unslothai/unsloth",
+   "url": "https://github.com/unslothai/unsloth",
+   "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+   "language": "Python",
+   "stars": 71570,
+   "forks": 6461,
+   "age_days": 989,
+   "daily_stars": 72.366026289181,
+   "real_daily_stars": 397.0,
+   "watchers": 370,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "awesome-dsh-plugin/awesome-dsh-plugin",
+   "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+   "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+   "language": "Python",
+   "stars": 1517,
+   "forks": 305,
+   "age_days": 1,
+   "daily_stars": 1517.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "CC0-1.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "xiaobright/dsh-anchored-standard",
+   "url": "https://github.com/xiaobright/dsh-anchored-standard",
+   "description": "Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99)",
+   "language": "JavaScript",
+   "stars": 861,
+   "forks": 30,
+   "age_days": 1,
+   "daily_stars": 861.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "vercel-labs/eve-software-factory-template",
+   "url": "https://github.com/vercel-labs/eve-software-factory-template",
+   "description": "Meet Foreman, an eve Software Factory.",
+   "language": "TypeScript",
+   "stars": 625,
+   "forks": 46,
+   "age_days": 2,
+   "daily_stars": 312.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 100,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "Awaker-OTE/WakeGPT",
+   "url": "https://github.com/Awaker-OTE/WakeGPT",
+   "description": "A local-first desktop app for quick capture, managed Markdown notebooks, and reusable ChatGPT/Codex context. Currently verified on macOS.",
+   "language": "Rust",
+   "stars": 164,
+   "forks": 0,
+   "age_days": 1,
+   "daily_stars": 164.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 100,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "guillaumemeyer/watermarks-remover",
+   "url": "https://github.com/guillaumemeyer/watermarks-remover",
+   "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+   "language": "Python",
+   "stars": 8499,
+   "forks": 874,
+   "age_days": 3,
+   "daily_stars": 2833.0,
+   "real_daily_stars": 2651.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "NanmiCoder/dsh-agent-teams",
+   "url": "https://github.com/NanmiCoder/dsh-agent-teams",
+   "description": "AgentTeams plugin for DeepSeek Harness",
+   "language": "TypeScript",
+   "stars": 265,
+   "forks": 24,
+   "age_days": 2,
+   "daily_stars": 132.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "citrolabs/ego-lite",
+   "url": "https://github.com/citrolabs/ego-lite",
+   "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+   "language": "JavaScript",
+   "stars": 10450,
+   "forks": 528,
+   "age_days": 120,
+   "daily_stars": 87.08333333333333,
+   "watchers": 31,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "rank": 1,
+   "scores": {
+    "total": 72,
+    "acceleration": 22,
+    "quality": 20,
+    "antispam": 30
+   }
+  }
+ ]
+}

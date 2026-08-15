@@ -175,20 +175,6 @@
       ],
       "last_recommended": "2026-07-28T07:24:36.724636+00:00"
     },
-    "Raphire/Win11Debloat": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-15T07:00:01.870749+00:00"
-    },
-    "AIEraDev/Clypra": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-15T07:00:01.873147+00:00"
-    },
     "chenyme/grok2api": {
       "count": 2,
       "scores": [
@@ -196,48 +182,6 @@
         65
       ],
       "last_recommended": "2026-08-08T05:26:21.152483+00:00"
-    },
-    "AlephAITech/WorkBuddyGuide": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-15T07:00:01.878563+00:00"
-    },
-    "Kappaemme-git/codex-first-customer-finder-skill": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-15T07:00:01.880867+00:00"
-    },
-    "William-Lu-stack/Flawless": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-15T07:00:01.883245+00:00"
-    },
-    "pengchujin/jzsub": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-15T07:00:01.885945+00:00"
-    },
-    "cosmtrek/mindwalk": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-15T07:00:01.888413+00:00"
-    },
-    "yetone/kill-ai-slop": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-15T07:00:01.891421+00:00"
     },
     "openinterpreter/openinterpreter": {
       "count": 1,
@@ -845,11 +789,12 @@
       "last_recommended": "2026-07-24T07:17:41.282686+00:00"
     },
     "citrolabs/ego-lite": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        72
       ],
-      "last_recommended": "2026-07-25T07:03:07.352856+00:00"
+      "last_recommended": "2026-08-15T05:03:12.205560+00:00"
     },
     "yorukot/superfile": {
       "count": 1,
@@ -2216,7 +2161,77 @@
         100
       ],
       "last_recommended": "2026-08-14T06:05:33.132543+00:00"
+    },
+    "holaboss-ai/holaOS": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-15T05:03:12.176340+00:00"
+    },
+    "megadose/holehe": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-15T05:03:12.179559+00:00"
+    },
+    "lightningpixel/modly": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-15T05:03:12.182666+00:00"
+    },
+    "unslothai/unsloth": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-15T05:03:12.185559+00:00"
+    },
+    "awesome-dsh-plugin/awesome-dsh-plugin": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-15T05:03:12.188475+00:00"
+    },
+    "xiaobright/dsh-anchored-standard": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-15T05:03:12.191451+00:00"
+    },
+    "vercel-labs/eve-software-factory-template": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-15T05:03:12.194372+00:00"
+    },
+    "Awaker-OTE/WakeGPT": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-15T05:03:12.197541+00:00"
+    },
+    "guillaumemeyer/watermarks-remover": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-15T05:03:12.200541+00:00"
+    },
+    "NanmiCoder/dsh-agent-teams": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-15T05:03:12.203574+00:00"
     }
   },
-  "updated_at": "2026-08-14T06:05:33.132570+00:00"
+  "updated_at": "2026-08-15T05:03:12.205587+00:00"
 }
