@@ -5,8 +5,62 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Aug 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 holaboss-ai/holaOS — 7365⭐ (595.0/day)</title>
+      <description>Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/holaboss-ai/holaOS</link>
+      <guid>https://github.com/holaboss-ai/holaOS#2026-08-15</guid>
+      <pubDate>Sat, 15 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 megadose/holehe — 12896⭐ (392.0/day)</title>
+      <description>holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/megadose/holehe</link>
+      <guid>https://github.com/megadose/holehe#2026-08-15</guid>
+      <pubDate>Sat, 15 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 lightningpixel/modly — 6008⭐ (443.0/day)</title>
+      <description>Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/lightningpixel/modly</link>
+      <guid>https://github.com/lightningpixel/modly#2026-08-15</guid>
+      <pubDate>Sat, 15 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 unslothai/unsloth — 71570⭐ (397.0/day)</title>
+      <description>Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/unslothai/unsloth</link>
+      <guid>https://github.com/unslothai/unsloth#2026-08-15</guid>
+      <pubDate>Sat, 15 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 awesome-dsh-plugin/awesome-dsh-plugin — 1517⭐ (1517.0/day)</title>
+      <description>A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</link>
+      <guid>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin#2026-08-15</guid>
+      <pubDate>Sat, 15 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 citrolabs/ego-lite — 10450⭐ (87.1/day)</title>
+      <description>The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.
+
+Score: 72/100 | Language: JavaScript</description>
+      <link>https://github.com/citrolabs/ego-lite</link>
+      <guid>https://github.com/citrolabs/ego-lite#2026-08-15</guid>
+      <pubDate>Sat, 15 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 cactus-compute/needle — 5099⭐ (676.0/day)</title>
       <description>14MB foundation model for tiny devices; phones, wearables, smart home, and robots.
@@ -510,69 +564,6 @@ Score: 63/100 | Language: JavaScript</description>
       <link>https://github.com/vercel/next.js</link>
       <guid>https://github.com/vercel/next.js#2026-08-06</guid>
       <pubDate>Thu, 06 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 firecrawl/pdf-inspector — 10504⭐ (1642.0/day)</title>
-      <description>Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.
-
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/firecrawl/pdf-inspector</link>
-      <guid>https://github.com/firecrawl/pdf-inspector#2026-08-05</guid>
-      <pubDate>Wed, 05 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 livekit/agents — 12554⭐ (407.0/day)</title>
-      <description>A framework for building realtime voice AI agents 🤖🎙️📹 
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/livekit/agents</link>
-      <guid>https://github.com/livekit/agents#2026-08-05</guid>
-      <pubDate>Wed, 05 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 KKKKhazix/human-writing — 576⭐ (576.0/day)</title>
-      <description>活人感写作 1.0.0｜通用中文创作与改稿 Skill
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/KKKKhazix/human-writing</link>
-      <guid>https://github.com/KKKKhazix/human-writing#2026-08-05</guid>
-      <pubDate>Wed, 05 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 xmarre/ComfyUI-Spectrum-MiniMax-H3 — 171⭐ (171.0/day)</title>
-      <description>Spectrum-based acceleration for ComfyUI’s native MiniMax H3 audio-video model. Forecasts post-transformer features with Chebyshev ridge regression to skip selected transformer evaluations, with adaptive scheduling, sampler-aware safeguards, CPU/VRAM history storage, and native fallbacks.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3</link>
-      <guid>https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3#2026-08-05</guid>
-      <pubDate>Wed, 05 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 criptogus/HermesOffice — 136⭐ (136.0/day)</title>
-      <description>HermesOffice — AI-native office suite forked from GenOffice (Apache-2.0), with native Hermes Agent AI
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/criptogus/HermesOffice</link>
-      <guid>https://github.com/criptogus/HermesOffice#2026-08-05</guid>
-      <pubDate>Wed, 05 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 obra/superpowers — 266734⭐ (892.1/day)</title>
-      <description>An agentic skills framework &amp; software development methodology that works.
-
-Score: 100/100 | Language: Shell</description>
-      <link>https://github.com/obra/superpowers</link>
-      <guid>https://github.com/obra/superpowers#2026-08-05</guid>
-      <pubDate>Wed, 05 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 cypress-io/cypress — 50858⭐ (12.2/day)</title>
-      <description>Fast, easy and reliable testing for anything that runs in a browser.
-
-Score: 62/100 | Language: TypeScript</description>
-      <link>https://github.com/cypress-io/cypress</link>
-      <guid>https://github.com/cypress-io/cypress#2026-08-05</guid>
-      <pubDate>Wed, 05 Aug 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
