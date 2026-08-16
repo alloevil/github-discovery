@@ -1,0 +1,316 @@
+{
+ "date": "2026-08-16",
+ "generated_at": "2026-08-16T05:06:32.640699",
+ "new": [
+  {
+   "full_name": "ToolJet/ToolJet",
+   "url": "https://github.com/ToolJet/ToolJet",
+   "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+   "language": "JavaScript",
+   "stars": 39609,
+   "forks": 5301,
+   "age_days": 1964,
+   "daily_stars": 20.167515274949082,
+   "real_daily_stars": 456.0,
+   "watchers": 201,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "altic-dev/FluidVoice",
+   "url": "https://github.com/altic-dev/FluidVoice",
+   "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp",
+   "language": "Swift",
+   "stars": 10370,
+   "forks": 701,
+   "age_days": 328,
+   "daily_stars": 31.615853658536587,
+   "real_daily_stars": 210.5,
+   "watchers": 47,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "github/spec-kit",
+   "url": "https://github.com/github/spec-kit",
+   "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+   "language": "Python",
+   "stars": 129273,
+   "forks": 11557,
+   "age_days": 359,
+   "daily_stars": 360.091922005571,
+   "real_daily_stars": 669.0,
+   "watchers": 670,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "dsh-market/dsh-market",
+   "url": "https://github.com/dsh-market/dsh-market",
+   "description": "The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场",
+   "language": "TypeScript",
+   "stars": 344,
+   "forks": 28,
+   "age_days": 2,
+   "daily_stars": 172.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "dataelement/dsh-desktop",
+   "url": "https://github.com/dataelement/dsh-desktop",
+   "description": "Desktop app for DeepSeek Harness",
+   "language": "TypeScript",
+   "stars": 338,
+   "forks": 39,
+   "age_days": 2,
+   "daily_stars": 169.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "lajosdeme/mole",
+   "url": "https://github.com/lajosdeme/mole",
+   "description": "A deep-research agent with an enforced budget, verified quotes, and a privacy boundary for local data.",
+   "language": "Go",
+   "stars": 196,
+   "forks": 10,
+   "age_days": 14,
+   "daily_stars": 14.0,
+   "real_daily_stars": 81.0,
+   "watchers": 2,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "Apache-2.0",
+   "hn_title": "Show HN: Mole – Deep research agent for your terminal",
+   "hn_score": 95,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "alchaincyf/deepseek-harness-orange-book",
+   "url": "https://github.com/alchaincyf/deepseek-harness-orange-book",
+   "description": "DeepSeek Harness橙皮书《从开机到拆开》：完整系统提示词、129行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML免费下载",
+   "language": "HTML",
+   "stars": 801,
+   "forks": 72,
+   "age_days": 2,
+   "daily_stars": 400.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 100,
+    "acceleration": 35,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "description": "Cursor plugin specification and official plugins",
+   "language": "TypeScript",
+   "stars": 2975,
+   "forks": 235,
+   "age_days": 205,
+   "daily_stars": 14.512195121951219,
+   "real_daily_stars": 140.0,
+   "watchers": 13,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 100,
+    "acceleration": 34,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "carpdiem/ember",
+   "url": "https://github.com/carpdiem/ember",
+   "description": "Redshift-aware terminal, categorical, and sequential color palettes",
+   "language": "Python",
+   "stars": 126,
+   "forks": 3,
+   "age_days": 12,
+   "daily_stars": 10.5,
+   "real_daily_stars": 48.0,
+   "watchers": 0,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "MIT",
+   "hn_title": "Show HN: Ember – Redshift safe color palettes",
+   "hn_score": 108,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 100,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "language": "Python",
+   "stars": 47447,
+   "forks": 4397,
+   "age_days": 160,
+   "daily_stars": 296.54375,
+   "watchers": 180,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 100,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "MakazhanAlpamys/Soup",
+   "url": "https://github.com/MakazhanAlpamys/Soup",
+   "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+   "language": "Python",
+   "stars": 1742,
+   "forks": 267,
+   "age_days": 176,
+   "daily_stars": 9.897727272727273,
+   "real_daily_stars": 152.66666666666666,
+   "watchers": 10,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ]
+}

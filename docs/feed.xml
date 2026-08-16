@@ -5,8 +5,62 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Aug 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 ToolJet/ToolJet — 39609⭐ (456.0/day)</title>
+      <description>ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/ToolJet/ToolJet</link>
+      <guid>https://github.com/ToolJet/ToolJet#2026-08-16</guid>
+      <pubDate>Sun, 16 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 altic-dev/FluidVoice — 10370⭐ (210.5/day)</title>
+      <description>Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp
+
+Score: 100/100 | Language: Swift</description>
+      <link>https://github.com/altic-dev/FluidVoice</link>
+      <guid>https://github.com/altic-dev/FluidVoice#2026-08-16</guid>
+      <pubDate>Sun, 16 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 github/spec-kit — 129273⭐ (669.0/day)</title>
+      <description>💫 Toolkit to help you get started with Spec-Driven Development
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/github/spec-kit</link>
+      <guid>https://github.com/github/spec-kit#2026-08-16</guid>
+      <pubDate>Sun, 16 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 dsh-market/dsh-market — 344⭐ (172.0/day)</title>
+      <description>The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/dsh-market/dsh-market</link>
+      <guid>https://github.com/dsh-market/dsh-market#2026-08-16</guid>
+      <pubDate>Sun, 16 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 dataelement/dsh-desktop — 338⭐ (169.0/day)</title>
+      <description>Desktop app for DeepSeek Harness
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/dataelement/dsh-desktop</link>
+      <guid>https://github.com/dataelement/dsh-desktop#2026-08-16</guid>
+      <pubDate>Sun, 16 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 MakazhanAlpamys/Soup — 1742⭐ (152.7/day)</title>
+      <description>Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/MakazhanAlpamys/Soup</link>
+      <guid>https://github.com/MakazhanAlpamys/Soup#2026-08-16</guid>
+      <pubDate>Sun, 16 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 holaboss-ai/holaOS — 7365⭐ (595.0/day)</title>
       <description>Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.
@@ -501,69 +555,6 @@ Score: 70/100 | Language: Python</description>
       <link>https://github.com/tirth8205/code-review-graph</link>
       <guid>https://github.com/tirth8205/code-review-graph#2026-08-07</guid>
       <pubDate>Fri, 07 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 donnemartin/system-design-primer — 361769⭐ (512.0/day)</title>
-      <description>Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/donnemartin/system-design-primer</link>
-      <guid>https://github.com/donnemartin/system-design-primer#2026-08-06</guid>
-      <pubDate>Thu, 06 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 tailwindlabs/tailwindcss — 96962⭐ (381.0/day)</title>
-      <description>A utility-first CSS framework for rapid UI development.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/tailwindlabs/tailwindcss</link>
-      <guid>https://github.com/tailwindlabs/tailwindcss#2026-08-06</guid>
-      <pubDate>Thu, 06 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 uber/ADR — 1129⭐ (328.0/day)</title>
-      <description>ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/uber/ADR</link>
-      <guid>https://github.com/uber/ADR#2026-08-06</guid>
-      <pubDate>Thu, 06 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Binaryify/open-kimi-ppt-skill — 906⭐ (906.0/day)</title>
-      <description>非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX with a local browser editor
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/Binaryify/open-kimi-ppt-skill</link>
-      <guid>https://github.com/Binaryify/open-kimi-ppt-skill#2026-08-06</guid>
-      <pubDate>Thu, 06 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 0xwilliamortiz/claude-red — 332⭐ (332.0/day)</title>
-      <description>claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/0xwilliamortiz/claude-red</link>
-      <guid>https://github.com/0xwilliamortiz/claude-red#2026-08-06</guid>
-      <pubDate>Thu, 06 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 addyosmani/agent-skills — 82154⭐ (480.4/day)</title>
-      <description>Production-grade engineering skills for AI coding agents.
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/addyosmani/agent-skills</link>
-      <guid>https://github.com/addyosmani/agent-skills#2026-08-06</guid>
-      <pubDate>Thu, 06 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 vercel/next.js — 141608⭐ (39.4/day)</title>
-      <description>The React Framework
-
-Score: 63/100 | Language: JavaScript</description>
-      <link>https://github.com/vercel/next.js</link>
-      <guid>https://github.com/vercel/next.js#2026-08-06</guid>
-      <pubDate>Thu, 06 Aug 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

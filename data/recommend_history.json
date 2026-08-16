@@ -183,13 +183,6 @@
       ],
       "last_recommended": "2026-08-08T05:26:21.152483+00:00"
     },
-    "openinterpreter/openinterpreter": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-16T07:10:03.904202+00:00"
-    },
     "HKUDS/DeepTutor": {
       "count": 2,
       "scores": [
@@ -197,62 +190,6 @@
         100
       ],
       "last_recommended": "2026-08-12T06:05:50.602511+00:00"
-    },
-    "HenryNdubuaku/maths-cs-ai-compendium": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-16T07:10:03.909071+00:00"
-    },
-    "Fei-Away/Codex-Dream-Skin": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-16T07:10:03.911365+00:00"
-    },
-    "pixel-point/aval": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-16T07:10:03.913679+00:00"
-    },
-    "oil-oil/beautify-github-readme": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-16T07:10:03.915819+00:00"
-    },
-    "CluvexStudio/Aether": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-16T07:10:03.917912+00:00"
-    },
-    "jakubkrehel/skills": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-16T07:10:03.919969+00:00"
-    },
-    "MatinSenPai/Aether-GUI": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-16T07:10:03.922484+00:00"
-    },
-    "Intuition-Lab/personal-model": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-16T07:10:03.924618+00:00"
     },
     "lobehub/lobehub": {
       "count": 1,
@@ -1568,11 +1505,12 @@
       "last_recommended": "2026-08-06T07:25:38.137745+00:00"
     },
     "MakazhanAlpamys/Soup": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-08-06T07:25:38.140675+00:00"
+      "last_recommended": "2026-08-16T05:06:32.489368+00:00"
     },
     "Accio-Work-Lab/RealReplicaBench": {
       "count": 1,
@@ -2231,7 +2169,77 @@
         100
       ],
       "last_recommended": "2026-08-15T05:03:12.203574+00:00"
+    },
+    "ToolJet/ToolJet": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-16T05:06:32.459847+00:00"
+    },
+    "altic-dev/FluidVoice": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-16T05:06:32.462966+00:00"
+    },
+    "github/spec-kit": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-16T05:06:32.466002+00:00"
+    },
+    "dsh-market/dsh-market": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-16T05:06:32.469060+00:00"
+    },
+    "dataelement/dsh-desktop": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-16T05:06:32.472035+00:00"
+    },
+    "lajosdeme/mole": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-16T05:06:32.475119+00:00"
+    },
+    "alchaincyf/deepseek-harness-orange-book": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-16T05:06:32.478094+00:00"
+    },
+    "cursor/plugins": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-16T05:06:32.481129+00:00"
+    },
+    "carpdiem/ember": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-16T05:06:32.484273+00:00"
+    },
+    "HKUDS/CLI-Anything": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-16T05:06:32.487370+00:00"
     }
   },
-  "updated_at": "2026-08-15T05:03:12.205587+00:00"
+  "updated_at": "2026-08-16T05:06:32.489397+00:00"
 }
