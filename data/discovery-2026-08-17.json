@@ -1,0 +1,283 @@
+{
+ "date": "2026-08-17",
+ "generated_at": "2026-08-17T05:21:42.550708",
+ "new": [
+  {
+   "full_name": "public-apis/public-apis",
+   "url": "https://github.com/public-apis/public-apis",
+   "description": "A collective list of free APIs",
+   "language": "Python",
+   "stars": 462144,
+   "forks": 51043,
+   "age_days": 3801,
+   "daily_stars": 121.58484609313338,
+   "real_daily_stars": 1752.0,
+   "watchers": 4668,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "OpenCut-app/OpenCut",
+   "url": "https://github.com/OpenCut-app/OpenCut",
+   "description": "The open-source CapCut alternative",
+   "language": "TypeScript",
+   "stars": 84066,
+   "forks": 8301,
+   "age_days": 420,
+   "daily_stars": 200.15714285714284,
+   "real_daily_stars": 409.5,
+   "watchers": 376,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "Nervercc/gpt_nerver",
+   "url": "https://github.com/Nervercc/gpt_nerver",
+   "description": "ChatGPT Plus automation toolkit: PyQt6 desktop + JSON-RPC registration engine + card/CDK/PayPal/GCash flows",
+   "language": "Python",
+   "stars": 201,
+   "forks": 34,
+   "age_days": 1,
+   "daily_stars": 201.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "NousResearch/Hermes-Bot-Mode",
+   "url": "https://github.com/NousResearch/Hermes-Bot-Mode",
+   "description": "Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches.",
+   "language": "JavaScript",
+   "stars": 589,
+   "forks": 85,
+   "age_days": 3,
+   "daily_stars": 196.33333333333334,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "SheberDavid/v4-flash-godmode-opencode-go",
+   "url": "https://github.com/SheberDavid/v4-flash-godmode-opencode-go",
+   "description": "V4 Flash 神模式 (opencode-go)：让 opencode-go 的 DeepSeek V4 Flash 从鬼模式切换到神模式的 dsh agent preset",
+   "language": "JavaScript",
+   "stars": 514,
+   "forks": 12,
+   "age_days": 1,
+   "daily_stars": 514.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "ysr666/dsh-vision-router",
+   "url": "https://github.com/ysr666/dsh-vision-router",
+   "description": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots). One-command install, no Python, image turns work like ordinary tool-calling turns.",
+   "language": "JavaScript",
+   "stars": 492,
+   "forks": 21,
+   "age_days": 3,
+   "daily_stars": 164.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "deepseek-ai/deepseek-harness",
+   "url": "https://github.com/deepseek-ai/deepseek-harness",
+   "description": "DeepSeek Harness: Everything is a Plugin.",
+   "language": "TypeScript",
+   "stars": 138460,
+   "forks": 14023,
+   "age_days": 3,
+   "daily_stars": 46153.333333333336,
+   "real_daily_stars": 19508.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 17
+   }
+  },
+  {
+   "full_name": "anywhere-labs/deepseek-harness-desktop",
+   "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
+   "description": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案",
+   "language": "TypeScript",
+   "stars": 9995,
+   "forks": 434,
+   "age_days": 3,
+   "daily_stars": 3331.6666666666665,
+   "real_daily_stars": 3287.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Endokelp/Endoplexity",
+   "url": "https://github.com/Endokelp/Endoplexity",
+   "description": "Agentic browser control driven by your own Claude / Cursor subscriptions",
+   "language": "TypeScript",
+   "stars": 224,
+   "forks": 0,
+   "age_days": 2,
+   "daily_stars": 112.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 100,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "XIAZY/wcctl",
+   "url": "https://github.com/XIAZY/wcctl",
+   "description": "wcctl is a command line tool to bridge the gap between WeChat and other tools",
+   "language": "C",
+   "stars": 91,
+   "forks": 45,
+   "age_days": 1,
+   "daily_stars": 91.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "NOASSERTION",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 100,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": []
+}

@@ -191,13 +191,6 @@
       ],
       "last_recommended": "2026-08-12T06:05:50.602511+00:00"
     },
-    "lobehub/lobehub": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-17T07:03:38.752709+00:00"
-    },
     "github/copilot-sdk": {
       "count": 2,
       "scores": [
@@ -206,13 +199,6 @@
       ],
       "last_recommended": "2026-08-01T07:15:30.510055+00:00"
     },
-    "ibelick/ui-skills": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-17T07:03:38.758105+00:00"
-    },
     "codecrafters-io/build-your-own-x": {
       "count": 2,
       "scores": [
@@ -220,48 +206,6 @@
         70
       ],
       "last_recommended": "2026-08-03T08:03:45.535674+00:00"
-    },
-    "xai-org/grok-build": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-17T07:03:38.763092+00:00"
-    },
-    "tandpfun/wardrobe": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-17T07:03:38.765666+00:00"
-    },
-    "PengZhang64/circuit-framework": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-17T07:03:38.768169+00:00"
-    },
-    "ossu/computer-science": {
-      "count": 1,
-      "scores": [
-        98
-      ],
-      "last_recommended": "2026-07-17T07:03:38.770852+00:00"
-    },
-    "KubeezMedia/kubeez-scroll-world-video": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-07-17T07:03:38.773477+00:00"
-    },
-    "PostHog/posthog": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-07-17T07:03:38.776064+00:00"
     },
     "tirth8205/code-review-graph": {
       "count": 2,
@@ -2239,7 +2183,77 @@
         100
       ],
       "last_recommended": "2026-08-16T05:06:32.487370+00:00"
+    },
+    "public-apis/public-apis": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-17T05:21:42.263838+00:00"
+    },
+    "OpenCut-app/OpenCut": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-17T05:21:42.267817+00:00"
+    },
+    "Nervercc/gpt_nerver": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-17T05:21:42.271095+00:00"
+    },
+    "NousResearch/Hermes-Bot-Mode": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-17T05:21:42.274065+00:00"
+    },
+    "SheberDavid/v4-flash-godmode-opencode-go": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-17T05:21:42.277310+00:00"
+    },
+    "ysr666/dsh-vision-router": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-17T05:21:42.280672+00:00"
+    },
+    "deepseek-ai/deepseek-harness": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-17T05:21:42.283993+00:00"
+    },
+    "anywhere-labs/deepseek-harness-desktop": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-17T05:21:42.287049+00:00"
+    },
+    "Endokelp/Endoplexity": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-17T05:21:42.289887+00:00"
+    },
+    "XIAZY/wcctl": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-17T05:21:42.292878+00:00"
     }
   },
-  "updated_at": "2026-08-16T05:06:32.489397+00:00"
+  "updated_at": "2026-08-17T05:21:42.292904+00:00"
 }
