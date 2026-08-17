@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Aug 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 public-apis/public-apis — 462144⭐ (1752.0/day)</title>
+      <description>A collective list of free APIs
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/public-apis/public-apis</link>
+      <guid>https://github.com/public-apis/public-apis#2026-08-17</guid>
+      <pubDate>Mon, 17 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 OpenCut-app/OpenCut — 84066⭐ (409.5/day)</title>
+      <description>The open-source CapCut alternative
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/OpenCut-app/OpenCut</link>
+      <guid>https://github.com/OpenCut-app/OpenCut#2026-08-17</guid>
+      <pubDate>Mon, 17 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 Nervercc/gpt_nerver — 201⭐ (201.0/day)</title>
+      <description>ChatGPT Plus automation toolkit: PyQt6 desktop + JSON-RPC registration engine + card/CDK/PayPal/GCash flows
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/Nervercc/gpt_nerver</link>
+      <guid>https://github.com/Nervercc/gpt_nerver#2026-08-17</guid>
+      <pubDate>Mon, 17 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 NousResearch/Hermes-Bot-Mode — 589⭐ (196.3/day)</title>
+      <description>Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches.
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/NousResearch/Hermes-Bot-Mode</link>
+      <guid>https://github.com/NousResearch/Hermes-Bot-Mode#2026-08-17</guid>
+      <pubDate>Mon, 17 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 SheberDavid/v4-flash-godmode-opencode-go — 514⭐ (514.0/day)</title>
+      <description>V4 Flash 神模式 (opencode-go)：让 opencode-go 的 DeepSeek V4 Flash 从鬼模式切换到神模式的 dsh agent preset
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/SheberDavid/v4-flash-godmode-opencode-go</link>
+      <guid>https://github.com/SheberDavid/v4-flash-godmode-opencode-go#2026-08-17</guid>
+      <pubDate>Mon, 17 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 ToolJet/ToolJet — 39609⭐ (456.0/day)</title>
       <description>ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀
@@ -492,69 +537,6 @@ Score: 65/100 | Language: Go</description>
       <link>https://github.com/chenyme/grok2api</link>
       <guid>https://github.com/chenyme/grok2api#2026-08-08</guid>
       <pubDate>Sat, 08 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 cloudflare/computer — 4989⭐ (1159.0/day)</title>
-      <description>Give your agent a computer 👾
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/cloudflare/computer</link>
-      <guid>https://github.com/cloudflare/computer#2026-08-07</guid>
-      <pubDate>Fri, 07 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 huangruiteng/loopx — 3044⭐ (623.0/day)</title>
-      <description>Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/huangruiteng/loopx</link>
-      <guid>https://github.com/huangruiteng/loopx#2026-08-07</guid>
-      <pubDate>Fri, 07 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 firecrawl/anydoc — 9114⭐ (3308.0/day)</title>
-      <description>Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.
-
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/firecrawl/anydoc</link>
-      <guid>https://github.com/firecrawl/anydoc#2026-08-07</guid>
-      <pubDate>Fri, 07 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Accio-org/RealReplicaBench — 1037⭐ (207.4/day)</title>
-      <description>RealReplicaBench: Benchmarking Long-Horizon Agents in High-Fidelity, Stateful, and Reproducible Replicas of Real Online Services
-
-Score: 100/100 | Language: HTML</description>
-      <link>https://github.com/Accio-org/RealReplicaBench</link>
-      <guid>https://github.com/Accio-org/RealReplicaBench#2026-08-07</guid>
-      <pubDate>Fri, 07 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 nfzerox/VirtualMacOniPad — 471⭐ (157.0/day)</title>
-      <description>People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. With Virtual Mac, iPad finally breaks free from iPadOS, enabling pro apps like Xcode and Terminal to run directly on device. Requires iPad Pro (M1, M2) or iPad Air (M1) running iPadOS 16 up to 16.3.1.
-
-Score: 100/100 | Language: Objective-C</description>
-      <link>https://github.com/nfzerox/VirtualMacOniPad</link>
-      <guid>https://github.com/nfzerox/VirtualMacOniPad#2026-08-07</guid>
-      <pubDate>Fri, 07 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 mattpocock/skills — 207520⭐ (1127.8/day)</title>
-      <description>Skills for Real Engineers. Straight from my .agents directory.
-
-Score: 100/100 | Language: Shell</description>
-      <link>https://github.com/mattpocock/skills</link>
-      <guid>https://github.com/mattpocock/skills#2026-08-07</guid>
-      <pubDate>Fri, 07 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 tirth8205/code-review-graph — 29143⭐ (181.0/day)</title>
-      <description>Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.
-
-Score: 70/100 | Language: Python</description>
-      <link>https://github.com/tirth8205/code-review-graph</link>
-      <guid>https://github.com/tirth8205/code-review-graph#2026-08-07</guid>
-      <pubDate>Fri, 07 Aug 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
