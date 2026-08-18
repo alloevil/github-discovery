@@ -1,0 +1,310 @@
+{
+ "date": "2026-08-18",
+ "generated_at": "2026-08-18T05:08:42.277967",
+ "new": [
+  {
+   "full_name": "yetone/cumora",
+   "url": "https://github.com/yetone/cumora",
+   "description": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+   "language": "TypeScript",
+   "stars": 1741,
+   "forks": 188,
+   "age_days": 1,
+   "daily_stars": 1741.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "browser-use/macos-harness",
+   "url": "https://github.com/browser-use/macos-harness",
+   "description": "The simplest, thinnest harness that gives an LLM complete freedom to control a Mac.",
+   "language": "Python",
+   "stars": 169,
+   "forks": 13,
+   "age_days": 1,
+   "daily_stars": 169.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "santifer/career-ops",
+   "url": "https://github.com/santifer/career-ops",
+   "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+   "language": "JavaScript",
+   "stars": 64910,
+   "forks": 12663,
+   "age_days": 135,
+   "daily_stars": 480.81481481481484,
+   "watchers": 253,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "jeremy-prt/bloub",
+   "url": "https://github.com/jeremy-prt/bloub",
+   "description": "SVG recreation of the x.ai bot avatar. One shape morphing through 14 states, measured off the reference video frame by frame.",
+   "language": "TypeScript",
+   "stars": 274,
+   "forks": 25,
+   "age_days": 2,
+   "daily_stars": 137.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "zouyuxuan122/Deepseek-Harness-EAC",
+   "url": "https://github.com/zouyuxuan122/Deepseek-Harness-EAC",
+   "description": "DeepSeek Harness (dsh) Windows / Linux desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象",
+   "language": "JavaScript",
+   "stars": 777,
+   "forks": 18,
+   "age_days": 3,
+   "daily_stars": 259.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 33,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "elie222/rakazo",
+   "url": "https://github.com/elie222/rakazo",
+   "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+   "language": "TypeScript",
+   "stars": 796,
+   "forks": 102,
+   "age_days": 4,
+   "daily_stars": 199.0,
+   "real_daily_stars": 224.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "fufankeji/deepseek-harness-studio",
+   "url": "https://github.com/fufankeji/deepseek-harness-studio",
+   "description": "DeepSeek Harness 零代码桌面端｜一键启动，支持 Windows 与 macOS；内置插件发现、热点插件推送、一键安装与管理、AI 智能推荐和视觉增强。",
+   "language": "TypeScript",
+   "stars": 252,
+   "forks": 28,
+   "age_days": 3,
+   "daily_stars": 84.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 100,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "zhu1090093659/dsh-web-ui",
+   "url": "https://github.com/zhu1090093659/dsh-web-ui",
+   "description": "Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
+   "language": "TypeScript",
+   "stars": 4248,
+   "forks": 259,
+   "age_days": 5,
+   "daily_stars": 849.6,
+   "real_daily_stars": 577.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "sudoingX/qwen38-mtp",
+   "url": "https://github.com/sudoingX/qwen38-mtp",
+   "description": "One llama.cpp flag unlocks +33-39% decode speed for Qwen3.8-27B on consumer GPUs. The MTP head already ships inside your GGUF. Recipe, paired benchmarks, probe tool.",
+   "language": "Python",
+   "stars": 158,
+   "forks": 49,
+   "age_days": 3,
+   "daily_stars": 52.666666666666664,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 100,
+    "acceleration": 25,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "usestrix/strix",
+   "url": "https://github.com/usestrix/strix",
+   "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+   "language": "Python",
+   "stars": 54425,
+   "forks": 5814,
+   "age_days": 377,
+   "daily_stars": 144.3633952254642,
+   "watchers": 250,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 100,
+    "acceleration": 24,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "AlexsJones/llmfit",
+   "url": "https://github.com/AlexsJones/llmfit",
+   "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+   "language": "Rust",
+   "stars": 32416,
+   "forks": 2005,
+   "age_days": 183,
+   "daily_stars": 177.13661202185793,
+   "watchers": 97,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 25,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ]
+}

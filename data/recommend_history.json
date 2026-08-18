@@ -223,62 +223,6 @@
       ],
       "last_recommended": "2026-07-26T07:19:52.637179+00:00"
     },
-    "Blueturboguy07/cue": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-18T06:33:52.689213+00:00"
-    },
-    "pablostanley/yoinks": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-18T06:33:52.691579+00:00"
-    },
-    "nethical6/conversation-steganography": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-18T06:33:52.693915+00:00"
-    },
-    "vshulcz/deja-vu": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-18T06:33:52.696241+00:00"
-    },
-    "Shadow-Weave/HMS": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-18T06:33:52.698598+00:00"
-    },
-    "QuantumByteOSS/quantumbyte": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-18T06:33:52.700904+00:00"
-    },
-    "Wan-Video/Wan-Dancer": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-18T06:33:52.703202+00:00"
-    },
-    "protocolbuffers/protobuf": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-07-18T06:33:52.705682+00:00"
-    },
     "rohitg00/ai-engineering-from-scratch": {
       "count": 1,
       "scores": [
@@ -486,11 +430,12 @@
       "last_recommended": "2026-07-22T07:21:42.104541+00:00"
     },
     "AlexsJones/llmfit": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-07-22T07:21:42.107366+00:00"
+      "last_recommended": "2026-08-18T05:08:41.917090+00:00"
     },
     "hyprwm/Hyprland": {
       "count": 1,
@@ -2253,7 +2198,77 @@
         100
       ],
       "last_recommended": "2026-08-17T05:21:42.292878+00:00"
+    },
+    "yetone/cumora": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-18T05:08:41.883903+00:00"
+    },
+    "browser-use/macos-harness": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-18T05:08:41.887314+00:00"
+    },
+    "santifer/career-ops": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-18T05:08:41.893600+00:00"
+    },
+    "jeremy-prt/bloub": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-18T05:08:41.896748+00:00"
+    },
+    "zouyuxuan122/Deepseek-Harness-EAC": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-18T05:08:41.899860+00:00"
+    },
+    "elie222/rakazo": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-18T05:08:41.902905+00:00"
+    },
+    "fufankeji/deepseek-harness-studio": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-18T05:08:41.905920+00:00"
+    },
+    "zhu1090093659/dsh-web-ui": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-18T05:08:41.908923+00:00"
+    },
+    "sudoingX/qwen38-mtp": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-18T05:08:41.912033+00:00"
+    },
+    "usestrix/strix": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-18T05:08:41.915071+00:00"
     }
   },
-  "updated_at": "2026-08-17T05:21:42.292904+00:00"
+  "updated_at": "2026-08-18T05:08:41.917118+00:00"
 }
