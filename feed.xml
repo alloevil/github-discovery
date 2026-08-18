@@ -5,8 +5,62 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Aug 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 yetone/cumora — 1741⭐ (1741.0/day)</title>
+      <description>Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/yetone/cumora</link>
+      <guid>https://github.com/yetone/cumora#2026-08-18</guid>
+      <pubDate>Tue, 18 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 browser-use/macos-harness — 169⭐ (169.0/day)</title>
+      <description>The simplest, thinnest harness that gives an LLM complete freedom to control a Mac.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/browser-use/macos-harness</link>
+      <guid>https://github.com/browser-use/macos-harness#2026-08-18</guid>
+      <pubDate>Tue, 18 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 santifer/career-ops — 64910⭐ (480.8/day)</title>
+      <description>Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/santifer/career-ops</link>
+      <guid>https://github.com/santifer/career-ops#2026-08-18</guid>
+      <pubDate>Tue, 18 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 jeremy-prt/bloub — 274⭐ (137.0/day)</title>
+      <description>SVG recreation of the x.ai bot avatar. One shape morphing through 14 states, measured off the reference video frame by frame.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/jeremy-prt/bloub</link>
+      <guid>https://github.com/jeremy-prt/bloub#2026-08-18</guid>
+      <pubDate>Tue, 18 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 zouyuxuan122/Deepseek-Harness-EAC — 777⭐ (259.0/day)</title>
+      <description>DeepSeek Harness (dsh) Windows / Linux desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象
+
+Score: 100/100 | Language: JavaScript</description>
+      <link>https://github.com/zouyuxuan122/Deepseek-Harness-EAC</link>
+      <guid>https://github.com/zouyuxuan122/Deepseek-Harness-EAC#2026-08-18</guid>
+      <pubDate>Tue, 18 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 AlexsJones/llmfit — 32416⭐ (177.1/day)</title>
+      <description>Hundreds of models &amp; providers. One command to find what runs on your hardware.
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/AlexsJones/llmfit</link>
+      <guid>https://github.com/AlexsJones/llmfit#2026-08-18</guid>
+      <pubDate>Tue, 18 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 public-apis/public-apis — 462144⭐ (1752.0/day)</title>
       <description>A collective list of free APIs
@@ -483,60 +537,6 @@ Score: 100/100 | Language: Python</description>
       <link>https://github.com/ShawnPana/phone-harness</link>
       <guid>https://github.com/ShawnPana/phone-harness#2026-08-09</guid>
       <pubDate>Sun, 09 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 goauthentik/authentik — 23676⭐ (449.0/day)</title>
-      <description>The authentication glue you need.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/goauthentik/authentik</link>
-      <guid>https://github.com/goauthentik/authentik#2026-08-08</guid>
-      <pubDate>Sat, 08 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 google/guava — 51777⭐ (109.0/day)</title>
-      <description>Google core libraries for Java
-
-Score: 100/100 | Language: Java</description>
-      <link>https://github.com/google/guava</link>
-      <guid>https://github.com/google/guava#2026-08-08</guid>
-      <pubDate>Sat, 08 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Significant-Gravitas/AutoGPT — 186365⭐ (265.0/day)</title>
-      <description>AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/Significant-Gravitas/AutoGPT</link>
-      <guid>https://github.com/Significant-Gravitas/AutoGPT#2026-08-08</guid>
-      <pubDate>Sat, 08 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 666ghj/MiroFish — 70589⭐ (276.8/day)</title>
-      <description>A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/666ghj/MiroFish</link>
-      <guid>https://github.com/666ghj/MiroFish#2026-08-08</guid>
-      <pubDate>Sat, 08 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 zqxwce/vphone-ws — 436⭐ (109.0/day)</title>
-      <description>A native macOS app for managing virtual iPhones - browse, create, and boot iOS research VMs from a single window.
-
-Score: 100/100 | Language: Swift</description>
-      <link>https://github.com/zqxwce/vphone-ws</link>
-      <guid>https://github.com/zqxwce/vphone-ws#2026-08-08</guid>
-      <pubDate>Sat, 08 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 chenyme/grok2api — 7162⭐ (23.8/day)</title>
-      <description>Multi-account API gateway for Grok Build, Grok Web, and Grok Console
-
-Score: 65/100 | Language: Go</description>
-      <link>https://github.com/chenyme/grok2api</link>
-      <guid>https://github.com/chenyme/grok2api#2026-08-08</guid>
-      <pubDate>Sat, 08 Aug 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
