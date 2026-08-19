@@ -16,6 +16,10 @@
   <a href="#development">Development</a>
 </p>
 
+<p align="center">
+  English | <a href="README.zh-CN.md">简体中文</a>
+</p>
+
 ---
 
 ## What it does
