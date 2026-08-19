@@ -8,14 +8,6 @@
       ],
       "last_recommended": "2026-07-21T07:20:10.082853+00:00"
     },
-    "Robbyant/lingbot-map": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-07-19T07:15:39.717344+00:00"
-    },
     "msitarzewski/agency-agents": {
       "count": 3,
       "scores": [
@@ -223,55 +215,6 @@
       ],
       "last_recommended": "2026-07-26T07:19:52.637179+00:00"
     },
-    "rohitg00/ai-engineering-from-scratch": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-19T07:15:39.721028+00:00"
-    },
-    "stackblitz/bolt-slides": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-19T07:15:39.723548+00:00"
-    },
-    "pyang5166/gbro-collage-broll": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-19T07:15:39.726470+00:00"
-    },
-    "JustinGamer191/Holo": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-19T07:15:39.729072+00:00"
-    },
-    "lopopolo/harness-engineering": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-19T07:15:39.731565+00:00"
-    },
-    "Icex0/wp2shell-poc": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-19T07:15:39.734054+00:00"
-    },
-    "yuwen-cool/yuwen-publish-precheck": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-19T07:15:39.736547+00:00"
-    },
     "lyogavin/airllm": {
       "count": 2,
       "scores": [
@@ -279,13 +222,6 @@
         65
       ],
       "last_recommended": "2026-08-03T08:03:45.537497+00:00"
-    },
-    "MoonshotAI/kimi-cli": {
-      "count": 1,
-      "scores": [
-        98
-      ],
-      "last_recommended": "2026-07-19T07:15:39.741586+00:00"
     },
     "bojieli/ai-agent-book": {
       "count": 1,
@@ -2268,7 +2204,77 @@
         100
       ],
       "last_recommended": "2026-08-18T05:08:41.915071+00:00"
+    },
+    "akitaonrails/ai-memory": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-19T05:14:38.118010+00:00"
+    },
+    "mukul975/Anthropic-Cybersecurity-Skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-19T05:14:38.121404+00:00"
+    },
+    "basecamp/omarchy": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-19T05:14:38.124773+00:00"
+    },
+    "agalwood/Motrix": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-19T05:14:38.127820+00:00"
+    },
+    "jundot/omlx": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-19T05:14:38.130842+00:00"
+    },
+    "harry0703/MoneyPrinterTurbo": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-19T05:14:38.133975+00:00"
+    },
+    "SigmanticAI/apex-inference-chip": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-19T05:14:38.137031+00:00"
+    },
+    "s1dashu/ip-as-logo-skill": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-19T05:14:38.140154+00:00"
+    },
+    "wang2122/sprix-sage-router": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-19T05:14:38.143052+00:00"
+    },
+    "ZSvirt/zsvirt": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-19T05:14:38.146427+00:00"
     }
   },
-  "updated_at": "2026-08-18T05:08:41.917118+00:00"
+  "updated_at": "2026-08-19T05:14:38.146455+00:00"
 }

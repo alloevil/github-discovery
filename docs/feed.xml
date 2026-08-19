@@ -5,8 +5,53 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Aug 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 akitaonrails/ai-memory — 2867⭐ (620.0/day)</title>
+      <description>Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/akitaonrails/ai-memory</link>
+      <guid>https://github.com/akitaonrails/ai-memory#2026-08-19</guid>
+      <pubDate>Wed, 19 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 mukul975/Anthropic-Cybersecurity-Skills — 29336⭐ (761.0/day)</title>
+      <description>817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/mukul975/Anthropic-Cybersecurity-Skills</link>
+      <guid>https://github.com/mukul975/Anthropic-Cybersecurity-Skills#2026-08-19</guid>
+      <pubDate>Wed, 19 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 basecamp/omarchy — 26510⭐ (475.0/day)</title>
+      <description>Beautiful, Modern &amp; Opinionated Linux
+
+Score: 100/100 | Language: Shell</description>
+      <link>https://github.com/basecamp/omarchy</link>
+      <guid>https://github.com/basecamp/omarchy#2026-08-19</guid>
+      <pubDate>Wed, 19 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 agalwood/Motrix — 53806⭐ (597.0/day)</title>
+      <description>A full-featured download manager.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/agalwood/Motrix</link>
+      <guid>https://github.com/agalwood/Motrix#2026-08-19</guid>
+      <pubDate>Wed, 19 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 jundot/omlx — 19497⭐ (431.0/day)</title>
+      <description>LLM inference server with continuous batching &amp; SSD caching for Apple Silicon — managed from the macOS menu bar
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/jundot/omlx</link>
+      <guid>https://github.com/jundot/omlx#2026-08-19</guid>
+      <pubDate>Wed, 19 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 yetone/cumora — 1741⭐ (1741.0/day)</title>
       <description>Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.
@@ -492,51 +537,6 @@ Score: 67/100 | Language: TypeScript</description>
       <link>https://github.com/pingdotgg/t3code</link>
       <guid>https://github.com/pingdotgg/t3code#2026-08-10</guid>
       <pubDate>Mon, 10 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 PrimeIntellect-ai/prime-agent — 9300⭐ (2354.0/day)</title>
-      <description>A self-improving RLM agent for coding workflows and long-running autonomous tasks.
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/PrimeIntellect-ai/prime-agent</link>
-      <guid>https://github.com/PrimeIntellect-ai/prime-agent#2026-08-09</guid>
-      <pubDate>Sun, 09 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 google/skills — 16844⭐ (513.0/day)</title>
-      <description>Agent Skills for Google products and technologies
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/google/skills</link>
-      <guid>https://github.com/google/skills#2026-08-09</guid>
-      <pubDate>Sun, 09 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 denoland/celld — 2659⭐ (387.0/day)</title>
-      <description>self-hosted, distributed Durable Objects
-
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/denoland/celld</link>
-      <guid>https://github.com/denoland/celld#2026-08-09</guid>
-      <pubDate>Sun, 09 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 oil-oil/oil-motion — 331⭐ (331.0/day)</title>
-      <description>Create smooth, responsive interactive web animations.
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/oil-oil/oil-motion</link>
-      <guid>https://github.com/oil-oil/oil-motion#2026-08-09</guid>
-      <pubDate>Sun, 09 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 ShawnPana/phone-harness — 329⭐ (329.0/day)</title>
-      <description>let your agent control your phone
-
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/ShawnPana/phone-harness</link>
-      <guid>https://github.com/ShawnPana/phone-harness#2026-08-09</guid>
-      <pubDate>Sun, 09 Aug 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

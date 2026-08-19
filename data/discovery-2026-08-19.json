@@ -1,0 +1,284 @@
+{
+ "date": "2026-08-19",
+ "generated_at": "2026-08-19T05:14:38.497105",
+ "new": [
+  {
+   "full_name": "akitaonrails/ai-memory",
+   "url": "https://github.com/akitaonrails/ai-memory",
+   "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+   "language": "Rust",
+   "stars": 2867,
+   "forks": 244,
+   "age_days": 89,
+   "daily_stars": 32.21348314606742,
+   "real_daily_stars": 620.0,
+   "watchers": 31,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+   "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+   "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+   "language": "Python",
+   "stars": 29336,
+   "forks": 3500,
+   "age_days": 174,
+   "daily_stars": 168.5977011494253,
+   "real_daily_stars": 761.0,
+   "watchers": 230,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "basecamp/omarchy",
+   "url": "https://github.com/basecamp/omarchy",
+   "description": "Beautiful, Modern & Opinionated Linux",
+   "language": "Shell",
+   "stars": 26510,
+   "forks": 2694,
+   "age_days": 443,
+   "daily_stars": 59.84198645598194,
+   "real_daily_stars": 475.0,
+   "watchers": 142,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "agalwood/Motrix",
+   "url": "https://github.com/agalwood/Motrix",
+   "description": "A full-featured download manager.",
+   "language": "TypeScript",
+   "stars": 53806,
+   "forks": 4953,
+   "age_days": 2800,
+   "daily_stars": 19.216428571428573,
+   "real_daily_stars": 597.0,
+   "watchers": 489,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "jundot/omlx",
+   "url": "https://github.com/jundot/omlx",
+   "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+   "language": "Python",
+   "stars": 19497,
+   "forks": 1674,
+   "age_days": 186,
+   "daily_stars": 104.8225806451613,
+   "real_daily_stars": 431.0,
+   "watchers": 101,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "harry0703/MoneyPrinterTurbo",
+   "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+   "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+   "language": "Python",
+   "stars": 108937,
+   "forks": 16542,
+   "age_days": 891,
+   "daily_stars": 122.26374859708193,
+   "real_daily_stars": 2345.0,
+   "watchers": 687,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "SigmanticAI/apex-inference-chip",
+   "url": "https://github.com/SigmanticAI/apex-inference-chip",
+   "description": "An inference chip design that runs a real LLM (Qwen2.5-0.5B) on FPGA — one transformer decoder layer in RTL, every silicon value bit-exact against a golden model. 0.56 tok/s measured, a 140× climb, full evidence trail.",
+   "language": "Python",
+   "stars": 417,
+   "forks": 0,
+   "age_days": 2,
+   "daily_stars": 208.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 100,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "s1dashu/ip-as-logo-skill",
+   "url": "https://github.com/s1dashu/ip-as-logo-skill",
+   "description": "A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+   "language": "",
+   "stars": 1039,
+   "forks": 42,
+   "age_days": 1,
+   "daily_stars": 1039.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "wang2122/sprix-sage-router",
+   "url": "https://github.com/wang2122/sprix-sage-router",
+   "description": "Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
+   "language": "Python",
+   "stars": 173,
+   "forks": 9,
+   "age_days": 1,
+   "daily_stars": 173.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 100,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "ZSvirt/zsvirt",
+   "url": "https://github.com/ZSvirt/zsvirt",
+   "description": "Core IaaS engine and cloud infrastructure foundation of ZSvirt",
+   "language": "Java",
+   "stars": 922,
+   "forks": 132,
+   "age_days": 4,
+   "daily_stars": 230.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  }
+ ],
+ "repeat": []
+}
