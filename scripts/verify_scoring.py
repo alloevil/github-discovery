@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Scoring Verification & Backtest Module for GitHub Discovery.
 
-Reads historical recommendations from the database, queries current GitHub
-star counts, calculates growth rates, and evaluates whether high-scored
-repos actually became popular.
+Reads historical recommendations from the committed daily JSON reports
+(data/discovery-YYYY-MM-DD.json), queries current GitHub star counts,
+calculates growth rates, and evaluates whether high-scored repos actually
+became popular. Works on a fresh clone — no local database required.
 
 Usage:
     python3 scripts/verify_scoring.py                  # full backtest
@@ -12,9 +13,9 @@ Usage:
 """
 
 import argparse
+import glob
 import json
 import os
-import sqlite3
 import sys
 import urllib.error
 import urllib.request
@@ -23,7 +24,7 @@ from datetime import datetime, timedelta, timezone
 # Ensure sibling imports work
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from config import GITHUB_API, DB_PATH, GITHUB_TOKEN
+from config import GITHUB_API, DATA_DIR, GITHUB_TOKEN
 
 
 # ── Constants ────────────────────────────────────────────────────────────────
@@ -79,46 +80,68 @@ def fetch_current_stars(full_name: str) -> dict | None:
 
 # ── Data Loading ─────────────────────────────────────────────────────────────
 
-def load_repos_from_db(days: int | None = None) -> list[dict]:
-    """Load historical recommendations from the SQLite database.
+def load_repos_from_json(days: int | None = None, data_dir: str | None = None) -> list[dict]:
+    """Load historical recommendations from committed daily JSON reports.
+
+    Reads every data/discovery-YYYY-MM-DD.json and collects the "new"
+    entries (the repos that were actually recommended that day). A repo
+    recommended on several days keeps its *earliest* appearance — the
+    stars at first discovery are the baseline the score claimed would
+    grow.
 
     Args:
         days: If set, only return repos discovered within the last N days.
+        data_dir: Override the data directory (defaults to config.DATA_DIR).
 
     Returns:
         List of dicts with keys: full_name, url, stars_at_discovery,
         score, discovered_at, created_at, language, source
     """
-    if not os.path.exists(DB_PATH):
-        print(f"[ERROR] Database not found: {DB_PATH}")
+    data_dir = data_dir or DATA_DIR
+    files = sorted(glob.glob(os.path.join(data_dir, "discovery-*.json")))
+    if not files:
+        print(f"[ERROR] No discovery JSON reports found in: {data_dir}")
         return []
 
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-
-    query = "SELECT * FROM repos"
-    params = []
+    cutoff = None
     if days:
-        cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%d %H:%M:%S")
-        query += " WHERE discovered_at >= ?"
-        params.append(cutoff)
-    query += " ORDER BY discovered_at DESC"
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%d")
 
-    rows = conn.execute(query, params).fetchall()
-    conn.close()
+    seen: dict[str, dict] = {}
+    for path in files:  # sorted ascending → first file wins per repo
+        try:
+            with open(path) as f:
+                report = json.load(f)
+        except (ValueError, OSError) as e:
+            print(f"  ⚠️  Skipping unreadable report {os.path.basename(path)}: {e}")
+            continue
 
-    repos = []
-    for r in rows:
-        repos.append({
-            "full_name": r["full_name"],
-            "url": r["url"],
-            "stars_at_discovery": r["stars"],
-            "score": r["score"],
-            "discovered_at": r["discovered_at"],
-            "created_at": r["created_at"],
-            "language": r["language"],
-            "source": r["source"],
-        })
+        date_str = report.get("date") or os.path.basename(path)[len("discovery-"):-len(".json")]
+        if cutoff and date_str < cutoff:
+            continue
+
+        for entry in report.get("new", []):
+            name = entry.get("full_name")
+            if not name or name in seen:
+                continue
+            age_days = entry.get("age_days")
+            created_at = ""
+            if isinstance(age_days, (int, float)):
+                created = datetime.strptime(date_str, "%Y-%m-%d") - timedelta(days=age_days)
+                created_at = created.strftime("%Y-%m-%d")
+            seen[name] = {
+                "full_name": name,
+                "url": entry.get("url", ""),
+                "stars_at_discovery": entry.get("stars", 0),
+                "score": entry.get("scores", {}).get("total", 0),
+                # "YYYY-MM-DD HH:MM:SS" — the format analyze_repo parses.
+                "discovered_at": f"{date_str} 00:00:00",
+                "created_at": created_at,
+                "language": entry.get("language", ""),
+                "source": entry.get("source", ""),
+            }
+
+    repos = sorted(seen.values(), key=lambda r: r["discovered_at"], reverse=True)
     return repos
 
 
@@ -315,12 +338,12 @@ def main():
     _score_high_override = args.score_high
 
     # Load historical data
-    repos = load_repos_from_db(days=args.days)
+    repos = load_repos_from_json(days=args.days)
     if not repos:
-        print("[ERROR] No repos found in database. Run main.py first.")
+        print("[ERROR] No repos found in data/discovery-*.json. Run main.py first.")
         sys.exit(1)
 
-    print(f"[INFO] Loaded {len(repos)} repos from database")
+    print(f"[INFO] Loaded {len(repos)} repos from daily JSON reports")
     if args.days:
         print(f"[INFO] Filtering: last {args.days} days")
 

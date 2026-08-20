@@ -17,7 +17,6 @@ from datetime import datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from config import TOP_N, DEEP_CHECK_TOP_K, OUTPUT_DIR, DATA_DIR, RESEND_API_KEY
-from db import init_db, save_repo, save_run
 from sources import fetch_all
 from scorer import calculate_score, merge_quality_bonus
 from dedup import (
@@ -373,9 +372,6 @@ def main():
     print("=" * 60)
     print()
 
-    # Init database
-    init_db()
-
     # Fetch from all sources
     all_repos = fetch_all()
 
@@ -491,7 +487,7 @@ def main():
             scores["fraud_reason"] = fraud["reason"]
 
         # First Timer / Repeat Performer：以随仓库提交的 recommend_history
-        # 为准（CI 每次全新环境，SQLite 不跨 run 持久）
+        # 为准（CI 每次全新环境，只有提交进仓库的文件跨 run 持久）
         if was_recommended_before(repo["full_name"]):
             repeat_scored.append((repo, scores))
         else:
@@ -510,14 +506,12 @@ def main():
         print("[WARN] No repos to recommend.")
         sys.exit(0)
 
-    # Save to database + recommendation history。repeat 也要记录 ——
+    # Record recommendation history。repeat 也要记录 ——
     # 否则其 last_recommended 一直是 8~30 天前，明天还会再进 repeat 区。
     for repo, scores in top_new:
-        save_repo(repo, scores["total"], repo.get("source", "unknown"))
         record_recommendation(repo["full_name"], scores["total"])
     for repo, scores in top_repeat:
         record_recommendation(repo["full_name"], scores["total"])
-    save_run(len(new_scored), top_new[0][1]["total"] if top_new else 0)
 
     # Generate and output markdown
     md = generate_markdown(top_new, top_repeat)

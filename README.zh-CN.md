@@ -174,7 +174,7 @@ github-discovery/
 │   ├── verify_scoring.py    # Scoring verification / backtesting
 │   ├── main.py              # Entry point
 │   └── config.py            # Configuration
-├── tests/                   # 117 unit tests
+├── tests/                   # 157 unit tests
 ├── docs/index.html          # GitHub Pages
 ├── .github/workflows/       # Daily automation
 ├── subscribers.txt          # Email subscriber list
@@ -223,7 +223,8 @@ SCORING_WEIGHTS = {
 
 ## 评分验证
 
-运行回测，验证高分仓库后来是否真的火了：
+运行回测，验证高分仓库后来是否真的火了。回测直接读取随仓库提交的每日
+JSON 报告（`data/discovery-*.json`），全新 clone 无需任何本地状态即可运行：
 
 ```bash
 python scripts/verify_scoring.py --days 30

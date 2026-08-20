@@ -174,7 +174,7 @@ github-discovery/
 │   ├── verify_scoring.py    # Scoring verification / backtesting
 │   ├── main.py              # Entry point
 │   └── config.py            # Configuration
-├── tests/                   # 117 unit tests
+├── tests/                   # 157 unit tests
 ├── docs/index.html          # GitHub Pages
 ├── .github/workflows/       # Daily automation
 ├── subscribers.txt          # Email subscriber list
@@ -223,7 +223,9 @@ SCORING_WEIGHTS = {
 
 ## Scoring Verification
 
-Run backtesting to verify whether high-scored repos actually took off:
+Run backtesting to verify whether high-scored repos actually took off. The
+backtest reads the committed daily JSON reports (`data/discovery-*.json`),
+so it works on a fresh clone with no local state:
 
 ```bash
 python scripts/verify_scoring.py --days 30

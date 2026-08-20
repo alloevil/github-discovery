@@ -220,8 +220,7 @@ class TestMainPipeline:
              patch("main.fetch_all", return_value=repos), \
              patch("main.check_quality", return_value=fake_quality) as mq, \
              patch("main.check_star_authenticity", return_value=fake_auth), \
-             patch("main.send_digest_email", return_value="sent"), \
-             patch("main.init_db"), patch("main.save_repo"), patch("main.save_run"):
+             patch("main.send_digest_email", return_value="sent"):
             main.main()
 
         today = main.datetime.now().strftime("%Y-%m-%d")
@@ -277,8 +276,7 @@ class TestMainPipeline:
              patch("main.fetch_all", return_value=repos), \
              patch("main.check_quality", return_value=fake_quality), \
              patch("main.check_star_authenticity", return_value=fake_auth), \
-             patch("main.send_digest_email", return_value="sent"), \
-             patch("main.init_db"), patch("main.save_repo"), patch("main.save_run"):
+             patch("main.send_digest_email", return_value="sent"):
             main.main()
 
         today = main.datetime.now().strftime("%Y-%m-%d")
