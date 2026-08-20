@@ -208,3 +208,52 @@ class TestCalculateScore:
         assert "acceleration" in result
         assert "quality" in result
         assert "antispam" in result
+
+
+class TestMergeQualityBonus:
+    """深查加分并入 quality 维度（取 max），不再 total+=bonus 后 clamp。
+
+    旧版叠加+clamp 让 94% 上榜条目总分恒为 100（README/license 在
+    score_quality 和 quality bonus 里被重复计分）——回归防线。
+    """
+
+    def _scores(self, acc=40, qual=30, anti=30):
+        return {"total": acc + qual + anti, "acceleration": acc,
+                "quality": qual, "antispam": anti}
+
+    def test_full_marks_repo_no_longer_saturates(self):
+        """粗排 quality 已满分（30）时，bonus 不再抬高总分。
+
+        旧版：total=100 → min(100, 100+20)=100，94% 条目都长这样。
+        """
+        scores = scorer.merge_quality_bonus(self._scores(acc=35), 20)
+        # bonus 20 → 换算 30，与粗排 quality 30 取 max，总分不变
+        assert scores["quality"] == 30
+        assert scores["total"] == 95
+
+    def test_bonus_lifts_weak_coarse_quality(self):
+        """深查信号好于粗排时，quality 提升到换算后的 bonus 值。"""
+        scores = scorer.merge_quality_bonus(self._scores(qual=10), 20)
+        assert scores["quality"] == 30
+        assert scores["total"] == 40 + 30 + 30
+
+    def test_low_bonus_never_lowers_quality(self):
+        """深查得分低于粗排 quality 时保留粗排值（取 max 而非覆盖）。"""
+        scores = scorer.merge_quality_bonus(self._scores(qual=25), 10)
+        # bonus 10 → 换算 15 < 25，quality 不降
+        assert scores["quality"] == 25
+        assert scores["total"] == 40 + 25 + 30
+
+    def test_zero_bonus_is_noop(self):
+        scores = self._scores()
+        before = dict(scores)
+        assert scorer.merge_quality_bonus(scores, 0) == before
+        assert "quality_bonus" not in scores
+
+    def test_records_raw_bonus_in_breakdown(self):
+        scores = scorer.merge_quality_bonus(self._scores(qual=10), 14)
+        assert scores["quality_bonus"] == 14
+
+    def test_quality_dimension_never_exceeds_max(self):
+        scores = scorer.merge_quality_bonus(self._scores(qual=30), 20)
+        assert scores["quality"] <= 30

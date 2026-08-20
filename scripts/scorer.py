@@ -2,7 +2,7 @@
 
 import math
 
-from config import ACCELERATION_MAX, QUALITY_MAX, ANTISPAM_MAX
+from config import ACCELERATION_MAX, QUALITY_MAX, ANTISPAM_MAX, QUALITY_BONUS_MAX
 from anti_spam import calculate_antiscore
 
 # 速度分对数曲线的饱和点：真实日增达到该值时速度分拉满。
@@ -78,6 +78,25 @@ def score_quality(repo: dict) -> int:
         score += 5
 
     return score
+
+
+def merge_quality_bonus(scores: dict, quality_bonus: int) -> dict:
+    """把深查加分并入 quality 维度（取 max，不叠加）。
+
+    深查的 quality_score (0-20) 与粗排 score_quality (0-30) 对 README/
+    license 等信号重复计分，旧版直接 total += bonus 再 min(100) clamp，
+    导致 94% 上榜条目总分恒为 100（scorer 顶部注释修掉的粗排饱和又在
+    终评被造了回来）。改为：bonus 按比例换算到 QUALITY_MAX 量纲后与
+    粗排 quality 取 max —— 深查是更可信的同维度信号，覆盖而非叠加。
+    """
+    if not quality_bonus:
+        return scores
+    scaled = round(quality_bonus * QUALITY_MAX / QUALITY_BONUS_MAX)
+    new_quality = min(QUALITY_MAX, max(scores["quality"], scaled))
+    scores["total"] += new_quality - scores["quality"]
+    scores["quality"] = new_quality
+    scores["quality_bonus"] = quality_bonus
+    return scores
 
 
 def calculate_score(repo: dict) -> dict:

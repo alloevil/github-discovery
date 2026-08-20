@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config import TOP_N, DEEP_CHECK_TOP_K, OUTPUT_DIR, DATA_DIR, RESEND_API_KEY
 from db import init_db, save_repo, save_run
 from sources import fetch_all
-from scorer import calculate_score
+from scorer import calculate_score, merge_quality_bonus
 from dedup import (
     is_recently_recommended, was_recommended_before,
     record_recommendation, cleanup_old_records,
@@ -457,11 +457,9 @@ def main():
         if repo.get("quality_score") is not None:
             scores = calculate_score(repo)
 
-        # 代码质量加分
-        quality_bonus = repo.get("quality_score", 0)
-        if quality_bonus:
-            scores["total"] = min(100, scores["total"] + quality_bonus)
-            scores["quality_bonus"] = quality_bonus
+        # 代码质量加分：并入 quality 维度取 max（叠加会重复计分并
+        # 在 clamp 处饱和 —— 曾导致 94% 上榜条目总分恒为 100）
+        scores = merge_quality_bonus(scores, repo.get("quality_score", 0))
 
         # Star 可疑扣分
         star_penalty = repo.get("star_penalty", 0)

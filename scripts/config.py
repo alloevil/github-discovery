@@ -33,6 +33,8 @@ DEEP_CHECK_TOP_K = 20
 ACCELERATION_MAX = 40
 QUALITY_MAX = 30
 ANTISPAM_MAX = 30
+# 深查质量加分上限（quality.check_quality），终评时按比例换算进 QUALITY_MAX 维度
+QUALITY_BONUS_MAX = 20
 
 # Anti-spam
 # 注意：不要把正经项目的高频描述词放进来（曾有 "ai-powered"、
