@@ -49,6 +49,51 @@ class TestSendEmailViaResend:
             assert main.send_email_via_resend(["a@b.com"], "s", "<p>x</p>") == "failed"
 
 
+def _payload_of(call):
+    """从 mock 的 curl argv 中取出 -d 后面的 JSON payload。"""
+    argv = call.args[0]
+    return json.loads(argv[argv.index("-d") + 1])
+
+
+class TestPerRecipientIsolation:
+    """#8:逐收件人单发,To 头只含一人,单个失败不阻断其他人。"""
+
+    SUBSCRIBERS = ["a@b.com", "c@d.com", "e@f.com"]
+
+    def test_one_api_call_per_subscriber_with_single_to(self):
+        with patch.object(main, "RESEND_API_KEY", "re_test"), \
+             patch("main.subprocess.run") as mrun:
+            mrun.return_value = MagicMock(returncode=0, stdout=json.dumps({"id": "abc"}), stderr="")
+            result = main.send_email_via_resend(self.SUBSCRIBERS, "s", "<p>x</p>")
+
+        assert result == "sent"
+        assert mrun.call_count == len(self.SUBSCRIBERS)
+        payloads = [_payload_of(c) for c in mrun.call_args_list]
+        # 每次调用 to 只含一个地址,且顺序覆盖全部订阅者
+        assert [p["to"] for p in payloads] == [[s] for s in self.SUBSCRIBERS]
+
+    def test_one_failure_does_not_block_other_recipients(self):
+        """第二个收件人 curl 失败,其余两人仍然送达,整体结果为 sent。"""
+        responses = [
+            MagicMock(returncode=0, stdout=json.dumps({"id": "id1"}), stderr=""),
+            MagicMock(returncode=7, stdout="", stderr="connection refused"),
+            MagicMock(returncode=0, stdout=json.dumps({"id": "id3"}), stderr=""),
+        ]
+        with patch.object(main, "RESEND_API_KEY", "re_test"), \
+             patch("main.subprocess.run", side_effect=responses) as mrun:
+            result = main.send_email_via_resend(self.SUBSCRIBERS, "s", "<p>x</p>")
+
+        assert result == "sent"
+        assert mrun.call_count == 3  # 失败后没有提前退出
+
+    def test_all_failures_return_failed(self):
+        with patch.object(main, "RESEND_API_KEY", "re_test"), \
+             patch("main.subprocess.run") as mrun:
+            mrun.return_value = MagicMock(returncode=7, stdout="", stderr="boom")
+            assert main.send_email_via_resend(self.SUBSCRIBERS, "s", "<p>x</p>") == "failed"
+            assert mrun.call_count == 3
+
+
 class TestSendDigestEmail:
     """send_digest_email 依赖订阅者列表。"""
 

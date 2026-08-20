@@ -44,22 +44,11 @@ def get_subscribers() -> list[str]:
     return emails
 
 
-def send_email_via_resend(to: list[str], subject: str, html_body: str) -> str:
-    """Send email via Resend API using curl (urllib blocked by Cloudflare).
-
-    Returns: "sent" on success, "skipped" when there is nothing to do
-    (no key / no subscribers), or "failed" on a real send error.
-    """
-    if not RESEND_API_KEY:
-        print("[SKIP] No Resend API key configured.")
-        return "skipped"
-    if not to:
-        print("[SKIP] No subscribers to send to.")
-        return "skipped"
-
+def _send_single_email(recipient: str, subject: str, html_body: str) -> bool:
+    """Send one email to one recipient via the Resend API. Returns True on success."""
     payload = json.dumps({
         "from": "onboarding@resend.dev",
-        "to": to,
+        "to": [recipient],
         "subject": subject,
         "html": html_body,
     })
@@ -76,24 +65,51 @@ def send_email_via_resend(to: list[str], subject: str, html_body: str) -> str:
             capture_output=True, text=True, timeout=30,
         )
         if result.returncode != 0:
-            print(f"[ERROR] Resend curl failed: {result.stderr[:200]}")
-            return "failed"
+            print(f"[ERROR] Resend curl failed for {recipient}: {result.stderr[:200]}")
+            return False
         # curl exit 0 only means the request was sent; Resend signals
         # success by returning an "id". An error body (bad key, etc.) has
         # no id, so treat that as a failure too.
         try:
             resp = json.loads(result.stdout)
         except (ValueError, TypeError):
-            print(f"[ERROR] Resend returned non-JSON: {result.stdout[:200]}")
-            return "failed"
+            print(f"[ERROR] Resend returned non-JSON for {recipient}: {result.stdout[:200]}")
+            return False
         if resp.get("id"):
-            print(f"[OK] Resend email sent: {resp['id']}")
-            return "sent"
-        print(f"[ERROR] Resend rejected the request: {str(resp)[:200]}")
-        return "failed"
+            print(f"[OK] Resend email sent to {recipient}: {resp['id']}")
+            return True
+        print(f"[ERROR] Resend rejected the request for {recipient}: {str(resp)[:200]}")
+        return False
     except Exception as e:
-        print(f"[ERROR] Resend send failed: {e}")
-        return "failed"
+        print(f"[ERROR] Resend send failed for {recipient}: {e}")
+        return False
+
+
+def send_email_via_resend(to: list[str], subject: str, html_body: str) -> str:
+    """Send email via Resend API using curl (urllib blocked by Cloudflare).
+
+    Each recipient gets an individual API call so no subscriber ever sees
+    another subscriber's address in the To header, and one bad address
+    doesn't block delivery to the rest.
+
+    Returns: "sent" when at least one recipient was delivered, "skipped"
+    when there is nothing to do (no key / no subscribers), or "failed"
+    when every send errored. Partial failure still counts as "sent"
+    (failures are logged per recipient) because a whole-run retry would
+    double-deliver to the recipients that already succeeded.
+    """
+    if not RESEND_API_KEY:
+        print("[SKIP] No Resend API key configured.")
+        return "skipped"
+    if not to:
+        print("[SKIP] No subscribers to send to.")
+        return "skipped"
+
+    sent = sum(1 for recipient in to if _send_single_email(recipient, subject, html_body))
+    failed = len(to) - sent
+    if failed:
+        print(f"[WARN] Resend delivery: {sent} sent, {failed} failed of {len(to)}.")
+    return "sent" if sent else "failed"
 
 
 EMAIL_SOURCE_LABELS = {
