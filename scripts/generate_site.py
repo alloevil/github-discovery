@@ -7,6 +7,7 @@ and only injects the dynamic repo data sections.
 import os
 import re
 import glob
+import html
 import json
 import statistics
 from datetime import datetime, timezone
@@ -128,14 +129,16 @@ def parse_report(filepath: str) -> tuple[list[dict], list[dict]]:
 
 
 def repo_card(r: dict) -> str:
-    owner = r.get('owner', '')
-    repo_name = r.get('repo', r.get('name', '?'))
-    url = r.get('url', '#')
+    # owner / repo 名 / 描述都来自 GitHub 仓库（攻击者可控），必须转义 ——
+    # 否则描述里的 <img onerror=...> 会原样注入 index.html（存储型 XSS）。
+    owner = html.escape(r.get('owner', ''))
+    repo_name = html.escape(str(r.get('repo', r.get('name', '?'))))
+    url = html.escape(r.get('url', '#'))
     stars = r.get('stars', '0')
     daily = r.get('daily', '0')
     score = r.get('score', '0')
-    desc = r.get('description', 'No description')
-    lang = r.get('language', '')
+    desc = html.escape(str(r.get('description', 'No description')))
+    lang = html.escape(r.get('language', ''))
     color = lang_color(lang)
     avatar = f"https://github.com/{owner}.png" if owner else ""
     si = int(score)
