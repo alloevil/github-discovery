@@ -1,542 +1,852 @@
 <?xml version="1.0" ?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-  <channel>
-    <title>GitHub Discovery</title>
-    <description>Discover trending GitHub repos before they go viral</description>
-    <link>https://alloevil.github.io/github-discovery</link>
-    <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 18:00:00 +0000</lastBuildDate>
-    <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
-    <item>
-      <title>🔥 volcengine/OpenViking — 30432⭐ (852.0/day)</title>
-      <description>Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>GitHub Discovery</title>
+  <subtitle>Discover trending GitHub repos before they go viral</subtitle>
+  <id>https://alloevil.github.io/github-discovery/</id>
+  <updated>2026-08-20T18:00:00Z</updated>
+  <author>
+    <name>GitHub Discovery</name>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
+  <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>volcengine/OpenViking — Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.</title>
+    <id>https://github.com/volcengine/OpenViking#2026-08-20</id>
+    <link rel="alternate" type="text/html" href="https://github.com/volcengine/OpenViking"/>
+    <updated>2026-08-20T18:00:00Z</updated>
+    <published>2026-08-20T18:00:00Z</published>
+    <summary>Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/volcengine/OpenViking</link>
-      <guid>https://github.com/volcengine/OpenViking#2026-08-20</guid>
-      <pubDate>Thu, 20 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 chaitanyagiri/munder-difflin — 2794⭐ (597.0/day)</title>
-      <description>local multi-agent harness
+Score: 100/100 | Language: Python | ⭐ 30432 (+852.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>chaitanyagiri/munder-difflin — local multi-agent harness</title>
+    <id>https://github.com/chaitanyagiri/munder-difflin#2026-08-20</id>
+    <link rel="alternate" type="text/html" href="https://github.com/chaitanyagiri/munder-difflin"/>
+    <updated>2026-08-20T18:00:00Z</updated>
+    <published>2026-08-20T18:00:00Z</published>
+    <summary>local multi-agent harness
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/chaitanyagiri/munder-difflin</link>
-      <guid>https://github.com/chaitanyagiri/munder-difflin#2026-08-20</guid>
-      <pubDate>Thu, 20 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 immich-app/immich — 111978⭐ (341.0/day)</title>
-      <description>High performance self-hosted photo and video management solution.
+Score: 100/100 | Language: TypeScript | ⭐ 2794 (+597.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>immich-app/immich — High performance self-hosted photo and video management solution.</title>
+    <id>https://github.com/immich-app/immich#2026-08-20</id>
+    <link rel="alternate" type="text/html" href="https://github.com/immich-app/immich"/>
+    <updated>2026-08-20T18:00:00Z</updated>
+    <published>2026-08-20T18:00:00Z</published>
+    <summary>High performance self-hosted photo and video management solution.
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/immich-app/immich</link>
-      <guid>https://github.com/immich-app/immich#2026-08-20</guid>
-      <pubDate>Thu, 20 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 nautechsystems/nautilus_trader — 26526⭐ (240.5/day)</title>
-      <description>Production-grade Rust-native trading engine with deterministic event-driven architecture
+Score: 100/100 | Language: TypeScript | ⭐ 111978 (+341.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>nautechsystems/nautilus_trader — Production-grade Rust-native trading engine with deterministic event-driven architecture</title>
+    <id>https://github.com/nautechsystems/nautilus_trader#2026-08-20</id>
+    <link rel="alternate" type="text/html" href="https://github.com/nautechsystems/nautilus_trader"/>
+    <updated>2026-08-20T18:00:00Z</updated>
+    <published>2026-08-20T18:00:00Z</published>
+    <summary>Production-grade Rust-native trading engine with deterministic event-driven architecture
 
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/nautechsystems/nautilus_trader</link>
-      <guid>https://github.com/nautechsystems/nautilus_trader#2026-08-20</guid>
-      <pubDate>Thu, 20 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Leutenegger/watermarks-remover — 914⭐ (914.0/day)</title>
-      <description>Remove multi-vendor AI provenance traces: Unicode text sanitization, statistical rewriting techniques, and C2PA/metadata stripping from PNG/JPEG/SVG/PDF/DOCX/HTML/MD files
+Score: 100/100 | Language: Rust | ⭐ 26526 (+240.5/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Leutenegger/watermarks-remover — Remove multi-vendor AI provenance traces: Unicode text sanitization, statistical rewriting techniques, and C2PA/metadata stripping from PNG/JPEG/SVG/PDF/DOCX/HTML/MD files</title>
+    <id>https://github.com/Leutenegger/watermarks-remover#2026-08-20</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Leutenegger/watermarks-remover"/>
+    <updated>2026-08-20T18:00:00Z</updated>
+    <published>2026-08-20T18:00:00Z</published>
+    <summary>Remove multi-vendor AI provenance traces: Unicode text sanitization, statistical rewriting techniques, and C2PA/metadata stripping from PNG/JPEG/SVG/PDF/DOCX/HTML/MD files
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/Leutenegger/watermarks-remover</link>
-      <guid>https://github.com/Leutenegger/watermarks-remover#2026-08-20</guid>
-      <pubDate>Thu, 20 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 mattpocock/skills — 224152⭐ (1264.5/day)</title>
-      <description>Skills for Real Engineers. Straight from my .agents directory.
+Score: 100/100 | Language: Python | ⭐ 914 (+914.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>mattpocock/skills — Skills for Real Engineers. Straight from my .agents directory.</title>
+    <id>https://github.com/mattpocock/skills#2026-08-20</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mattpocock/skills"/>
+    <updated>2026-08-20T18:00:00Z</updated>
+    <published>2026-08-20T18:00:00Z</published>
+    <summary>Skills for Real Engineers. Straight from my .agents directory.
 
-Score: 100/100 | Language: Shell</description>
-      <link>https://github.com/mattpocock/skills</link>
-      <guid>https://github.com/mattpocock/skills#2026-08-20</guid>
-      <pubDate>Thu, 20 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 obra/superpowers — 274419⭐ (464.3/day)</title>
-      <description>An agentic skills framework &amp; software development methodology that works.
+Score: 100/100 | Language: Shell | ⭐ 224152 (+1264.5/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>obra/superpowers — An agentic skills framework &amp; software development methodology that works.</title>
+    <id>https://github.com/obra/superpowers#2026-08-20</id>
+    <link rel="alternate" type="text/html" href="https://github.com/obra/superpowers"/>
+    <updated>2026-08-20T18:00:00Z</updated>
+    <published>2026-08-20T18:00:00Z</published>
+    <summary>An agentic skills framework &amp; software development methodology that works.
 
-Score: 100/100 | Language: Shell</description>
-      <link>https://github.com/obra/superpowers</link>
-      <guid>https://github.com/obra/superpowers#2026-08-20</guid>
-      <pubDate>Thu, 20 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 akitaonrails/ai-memory — 2867⭐ (620.0/day)</title>
-      <description>Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors
+Score: 100/100 | Language: Shell | ⭐ 274419 (+464.3/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>akitaonrails/ai-memory — Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors</title>
+    <id>https://github.com/akitaonrails/ai-memory#2026-08-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/akitaonrails/ai-memory"/>
+    <updated>2026-08-19T18:00:00Z</updated>
+    <published>2026-08-19T18:00:00Z</published>
+    <summary>Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors
 
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/akitaonrails/ai-memory</link>
-      <guid>https://github.com/akitaonrails/ai-memory#2026-08-19</guid>
-      <pubDate>Wed, 19 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 mukul975/Anthropic-Cybersecurity-Skills — 29336⭐ (761.0/day)</title>
-      <description>817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0
+Score: 100/100 | Language: Rust | ⭐ 2867 (+620.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>mukul975/Anthropic-Cybersecurity-Skills — 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0</title>
+    <id>https://github.com/mukul975/Anthropic-Cybersecurity-Skills#2026-08-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills"/>
+    <updated>2026-08-19T18:00:00Z</updated>
+    <published>2026-08-19T18:00:00Z</published>
+    <summary>817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/mukul975/Anthropic-Cybersecurity-Skills</link>
-      <guid>https://github.com/mukul975/Anthropic-Cybersecurity-Skills#2026-08-19</guid>
-      <pubDate>Wed, 19 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 basecamp/omarchy — 26510⭐ (475.0/day)</title>
-      <description>Beautiful, Modern &amp; Opinionated Linux
+Score: 100/100 | Language: Python | ⭐ 29336 (+761.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>basecamp/omarchy — Beautiful, Modern &amp; Opinionated Linux</title>
+    <id>https://github.com/basecamp/omarchy#2026-08-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/basecamp/omarchy"/>
+    <updated>2026-08-19T18:00:00Z</updated>
+    <published>2026-08-19T18:00:00Z</published>
+    <summary>Beautiful, Modern &amp; Opinionated Linux
 
-Score: 100/100 | Language: Shell</description>
-      <link>https://github.com/basecamp/omarchy</link>
-      <guid>https://github.com/basecamp/omarchy#2026-08-19</guid>
-      <pubDate>Wed, 19 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 agalwood/Motrix — 53806⭐ (597.0/day)</title>
-      <description>A full-featured download manager.
+Score: 100/100 | Language: Shell | ⭐ 26510 (+475.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>agalwood/Motrix — A full-featured download manager.</title>
+    <id>https://github.com/agalwood/Motrix#2026-08-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/agalwood/Motrix"/>
+    <updated>2026-08-19T18:00:00Z</updated>
+    <published>2026-08-19T18:00:00Z</published>
+    <summary>A full-featured download manager.
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/agalwood/Motrix</link>
-      <guid>https://github.com/agalwood/Motrix#2026-08-19</guid>
-      <pubDate>Wed, 19 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 jundot/omlx — 19497⭐ (431.0/day)</title>
-      <description>LLM inference server with continuous batching &amp; SSD caching for Apple Silicon — managed from the macOS menu bar
+Score: 100/100 | Language: TypeScript | ⭐ 53806 (+597.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>jundot/omlx — LLM inference server with continuous batching &amp; SSD caching for Apple Silicon — managed from the macOS menu bar</title>
+    <id>https://github.com/jundot/omlx#2026-08-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/jundot/omlx"/>
+    <updated>2026-08-19T18:00:00Z</updated>
+    <published>2026-08-19T18:00:00Z</published>
+    <summary>LLM inference server with continuous batching &amp; SSD caching for Apple Silicon — managed from the macOS menu bar
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/jundot/omlx</link>
-      <guid>https://github.com/jundot/omlx#2026-08-19</guid>
-      <pubDate>Wed, 19 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 yetone/cumora — 1741⭐ (1741.0/day)</title>
-      <description>Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.
+Score: 100/100 | Language: Python | ⭐ 19497 (+431.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>yetone/cumora — Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.</title>
+    <id>https://github.com/yetone/cumora#2026-08-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/yetone/cumora"/>
+    <updated>2026-08-18T18:00:00Z</updated>
+    <published>2026-08-18T18:00:00Z</published>
+    <summary>Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/yetone/cumora</link>
-      <guid>https://github.com/yetone/cumora#2026-08-18</guid>
-      <pubDate>Tue, 18 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 browser-use/macos-harness — 169⭐ (169.0/day)</title>
-      <description>The simplest, thinnest harness that gives an LLM complete freedom to control a Mac.
+Score: 100/100 | Language: TypeScript | ⭐ 1741 (+1741.0/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>browser-use/macos-harness — The simplest, thinnest harness that gives an LLM complete freedom to control a Mac.</title>
+    <id>https://github.com/browser-use/macos-harness#2026-08-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/browser-use/macos-harness"/>
+    <updated>2026-08-18T18:00:00Z</updated>
+    <published>2026-08-18T18:00:00Z</published>
+    <summary>The simplest, thinnest harness that gives an LLM complete freedom to control a Mac.
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/browser-use/macos-harness</link>
-      <guid>https://github.com/browser-use/macos-harness#2026-08-18</guid>
-      <pubDate>Tue, 18 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 santifer/career-ops — 64910⭐ (480.8/day)</title>
-      <description>Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)
+Score: 100/100 | Language: Python | ⭐ 169 (+169.0/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>santifer/career-ops — Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)</title>
+    <id>https://github.com/santifer/career-ops#2026-08-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/santifer/career-ops"/>
+    <updated>2026-08-18T18:00:00Z</updated>
+    <published>2026-08-18T18:00:00Z</published>
+    <summary>Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)
 
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/santifer/career-ops</link>
-      <guid>https://github.com/santifer/career-ops#2026-08-18</guid>
-      <pubDate>Tue, 18 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 jeremy-prt/bloub — 274⭐ (137.0/day)</title>
-      <description>SVG recreation of the x.ai bot avatar. One shape morphing through 14 states, measured off the reference video frame by frame.
+Score: 100/100 | Language: JavaScript | ⭐ 64910 (+480.8/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>jeremy-prt/bloub — SVG recreation of the x.ai bot avatar. One shape morphing through 14 states, measured off the reference video frame by frame.</title>
+    <id>https://github.com/jeremy-prt/bloub#2026-08-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/jeremy-prt/bloub"/>
+    <updated>2026-08-18T18:00:00Z</updated>
+    <published>2026-08-18T18:00:00Z</published>
+    <summary>SVG recreation of the x.ai bot avatar. One shape morphing through 14 states, measured off the reference video frame by frame.
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/jeremy-prt/bloub</link>
-      <guid>https://github.com/jeremy-prt/bloub#2026-08-18</guid>
-      <pubDate>Tue, 18 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 zouyuxuan122/Deepseek-Harness-EAC — 777⭐ (259.0/day)</title>
-      <description>DeepSeek Harness (dsh) Windows / Linux desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象
+Score: 100/100 | Language: TypeScript | ⭐ 274 (+137.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>zouyuxuan122/Deepseek-Harness-EAC — DeepSeek Harness (dsh) Windows / Linux desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象</title>
+    <id>https://github.com/zouyuxuan122/Deepseek-Harness-EAC#2026-08-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/zouyuxuan122/Deepseek-Harness-EAC"/>
+    <updated>2026-08-18T18:00:00Z</updated>
+    <published>2026-08-18T18:00:00Z</published>
+    <summary>DeepSeek Harness (dsh) Windows / Linux desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象
 
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/zouyuxuan122/Deepseek-Harness-EAC</link>
-      <guid>https://github.com/zouyuxuan122/Deepseek-Harness-EAC#2026-08-18</guid>
-      <pubDate>Tue, 18 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 AlexsJones/llmfit — 32416⭐ (177.1/day)</title>
-      <description>Hundreds of models &amp; providers. One command to find what runs on your hardware.
+Score: 100/100 | Language: JavaScript | ⭐ 777 (+259.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>AlexsJones/llmfit — Hundreds of models &amp; providers. One command to find what runs on your hardware.</title>
+    <id>https://github.com/AlexsJones/llmfit#2026-08-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/AlexsJones/llmfit"/>
+    <updated>2026-08-18T18:00:00Z</updated>
+    <published>2026-08-18T18:00:00Z</published>
+    <summary>Hundreds of models &amp; providers. One command to find what runs on your hardware.
 
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/AlexsJones/llmfit</link>
-      <guid>https://github.com/AlexsJones/llmfit#2026-08-18</guid>
-      <pubDate>Tue, 18 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 public-apis/public-apis — 462144⭐ (1752.0/day)</title>
-      <description>A collective list of free APIs
+Score: 100/100 | Language: Rust | ⭐ 32416 (+177.1/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>public-apis/public-apis — A collective list of free APIs</title>
+    <id>https://github.com/public-apis/public-apis#2026-08-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/public-apis/public-apis"/>
+    <updated>2026-08-17T18:00:00Z</updated>
+    <published>2026-08-17T18:00:00Z</published>
+    <summary>A collective list of free APIs
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/public-apis/public-apis</link>
-      <guid>https://github.com/public-apis/public-apis#2026-08-17</guid>
-      <pubDate>Mon, 17 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 OpenCut-app/OpenCut — 84066⭐ (409.5/day)</title>
-      <description>The open-source CapCut alternative
+Score: 100/100 | Language: Python | ⭐ 462144 (+1752.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>OpenCut-app/OpenCut — The open-source CapCut alternative</title>
+    <id>https://github.com/OpenCut-app/OpenCut#2026-08-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/OpenCut-app/OpenCut"/>
+    <updated>2026-08-17T18:00:00Z</updated>
+    <published>2026-08-17T18:00:00Z</published>
+    <summary>The open-source CapCut alternative
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/OpenCut-app/OpenCut</link>
-      <guid>https://github.com/OpenCut-app/OpenCut#2026-08-17</guid>
-      <pubDate>Mon, 17 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Nervercc/gpt_nerver — 201⭐ (201.0/day)</title>
-      <description>ChatGPT Plus automation toolkit: PyQt6 desktop + JSON-RPC registration engine + card/CDK/PayPal/GCash flows
+Score: 100/100 | Language: TypeScript | ⭐ 84066 (+409.5/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Nervercc/gpt_nerver — ChatGPT Plus automation toolkit: PyQt6 desktop + JSON-RPC registration engine + card/CDK/PayPal/GCash flows</title>
+    <id>https://github.com/Nervercc/gpt_nerver#2026-08-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Nervercc/gpt_nerver"/>
+    <updated>2026-08-17T18:00:00Z</updated>
+    <published>2026-08-17T18:00:00Z</published>
+    <summary>ChatGPT Plus automation toolkit: PyQt6 desktop + JSON-RPC registration engine + card/CDK/PayPal/GCash flows
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/Nervercc/gpt_nerver</link>
-      <guid>https://github.com/Nervercc/gpt_nerver#2026-08-17</guid>
-      <pubDate>Mon, 17 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 NousResearch/Hermes-Bot-Mode — 589⭐ (196.3/day)</title>
-      <description>Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches.
+Score: 100/100 | Language: Python | ⭐ 201 (+201.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>NousResearch/Hermes-Bot-Mode — Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches.</title>
+    <id>https://github.com/NousResearch/Hermes-Bot-Mode#2026-08-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/NousResearch/Hermes-Bot-Mode"/>
+    <updated>2026-08-17T18:00:00Z</updated>
+    <published>2026-08-17T18:00:00Z</published>
+    <summary>Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches.
 
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/NousResearch/Hermes-Bot-Mode</link>
-      <guid>https://github.com/NousResearch/Hermes-Bot-Mode#2026-08-17</guid>
-      <pubDate>Mon, 17 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 SheberDavid/v4-flash-godmode-opencode-go — 514⭐ (514.0/day)</title>
-      <description>V4 Flash 神模式 (opencode-go)：让 opencode-go 的 DeepSeek V4 Flash 从鬼模式切换到神模式的 dsh agent preset
+Score: 100/100 | Language: JavaScript | ⭐ 589 (+196.3/day) | Source: ai-trending</summary>
+  </entry>
+  <entry>
+    <title>SheberDavid/v4-flash-godmode-opencode-go — V4 Flash 神模式 (opencode-go)：让 opencode-go 的 DeepSeek V4 Flash 从鬼模式切换到神模式的 dsh agent preset</title>
+    <id>https://github.com/SheberDavid/v4-flash-godmode-opencode-go#2026-08-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/SheberDavid/v4-flash-godmode-opencode-go"/>
+    <updated>2026-08-17T18:00:00Z</updated>
+    <published>2026-08-17T18:00:00Z</published>
+    <summary>V4 Flash 神模式 (opencode-go)：让 opencode-go 的 DeepSeek V4 Flash 从鬼模式切换到神模式的 dsh agent preset
 
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/SheberDavid/v4-flash-godmode-opencode-go</link>
-      <guid>https://github.com/SheberDavid/v4-flash-godmode-opencode-go#2026-08-17</guid>
-      <pubDate>Mon, 17 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 ToolJet/ToolJet — 39609⭐ (456.0/day)</title>
-      <description>ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀
+Score: 100/100 | Language: JavaScript | ⭐ 514 (+514.0/day) | Source: ai-trending</summary>
+  </entry>
+  <entry>
+    <title>ToolJet/ToolJet — ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀</title>
+    <id>https://github.com/ToolJet/ToolJet#2026-08-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ToolJet/ToolJet"/>
+    <updated>2026-08-16T18:00:00Z</updated>
+    <published>2026-08-16T18:00:00Z</published>
+    <summary>ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀
 
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/ToolJet/ToolJet</link>
-      <guid>https://github.com/ToolJet/ToolJet#2026-08-16</guid>
-      <pubDate>Sun, 16 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 altic-dev/FluidVoice — 10370⭐ (210.5/day)</title>
-      <description>Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp
+Score: 100/100 | Language: JavaScript | ⭐ 39609 (+456.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>altic-dev/FluidVoice — Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp</title>
+    <id>https://github.com/altic-dev/FluidVoice#2026-08-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/altic-dev/FluidVoice"/>
+    <updated>2026-08-16T18:00:00Z</updated>
+    <published>2026-08-16T18:00:00Z</published>
+    <summary>Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp
 
-Score: 100/100 | Language: Swift</description>
-      <link>https://github.com/altic-dev/FluidVoice</link>
-      <guid>https://github.com/altic-dev/FluidVoice#2026-08-16</guid>
-      <pubDate>Sun, 16 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 github/spec-kit — 129273⭐ (669.0/day)</title>
-      <description>💫 Toolkit to help you get started with Spec-Driven Development
+Score: 100/100 | Language: Swift | ⭐ 10370 (+210.5/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>github/spec-kit — 💫 Toolkit to help you get started with Spec-Driven Development</title>
+    <id>https://github.com/github/spec-kit#2026-08-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/github/spec-kit"/>
+    <updated>2026-08-16T18:00:00Z</updated>
+    <published>2026-08-16T18:00:00Z</published>
+    <summary>💫 Toolkit to help you get started with Spec-Driven Development
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/github/spec-kit</link>
-      <guid>https://github.com/github/spec-kit#2026-08-16</guid>
-      <pubDate>Sun, 16 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 dsh-market/dsh-market — 344⭐ (172.0/day)</title>
-      <description>The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场
+Score: 100/100 | Language: Python | ⭐ 129273 (+669.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>dsh-market/dsh-market — The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场</title>
+    <id>https://github.com/dsh-market/dsh-market#2026-08-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/dsh-market/dsh-market"/>
+    <updated>2026-08-16T18:00:00Z</updated>
+    <published>2026-08-16T18:00:00Z</published>
+    <summary>The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/dsh-market/dsh-market</link>
-      <guid>https://github.com/dsh-market/dsh-market#2026-08-16</guid>
-      <pubDate>Sun, 16 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 dataelement/dsh-desktop — 338⭐ (169.0/day)</title>
-      <description>Desktop app for DeepSeek Harness
+Score: 100/100 | Language: TypeScript | ⭐ 344 (+172.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>dataelement/dsh-desktop — Desktop app for DeepSeek Harness</title>
+    <id>https://github.com/dataelement/dsh-desktop#2026-08-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/dataelement/dsh-desktop"/>
+    <updated>2026-08-16T18:00:00Z</updated>
+    <published>2026-08-16T18:00:00Z</published>
+    <summary>Desktop app for DeepSeek Harness
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/dataelement/dsh-desktop</link>
-      <guid>https://github.com/dataelement/dsh-desktop#2026-08-16</guid>
-      <pubDate>Sun, 16 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 MakazhanAlpamys/Soup — 1742⭐ (152.7/day)</title>
-      <description>Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.
+Score: 100/100 | Language: TypeScript | ⭐ 338 (+169.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>MakazhanAlpamys/Soup — Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.</title>
+    <id>https://github.com/MakazhanAlpamys/Soup#2026-08-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/MakazhanAlpamys/Soup"/>
+    <updated>2026-08-16T18:00:00Z</updated>
+    <published>2026-08-16T18:00:00Z</published>
+    <summary>Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/MakazhanAlpamys/Soup</link>
-      <guid>https://github.com/MakazhanAlpamys/Soup#2026-08-16</guid>
-      <pubDate>Sun, 16 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 holaboss-ai/holaOS — 7365⭐ (595.0/day)</title>
-      <description>Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.
+Score: 100/100 | Language: Python | ⭐ 1742 (+152.7/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>holaboss-ai/holaOS — Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.</title>
+    <id>https://github.com/holaboss-ai/holaOS#2026-08-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/holaboss-ai/holaOS"/>
+    <updated>2026-08-15T18:00:00Z</updated>
+    <published>2026-08-15T18:00:00Z</published>
+    <summary>Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/holaboss-ai/holaOS</link>
-      <guid>https://github.com/holaboss-ai/holaOS#2026-08-15</guid>
-      <pubDate>Sat, 15 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 megadose/holehe — 12896⭐ (392.0/day)</title>
-      <description>holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.
+Score: 100/100 | Language: TypeScript | ⭐ 7365 (+595.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>megadose/holehe — holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.</title>
+    <id>https://github.com/megadose/holehe#2026-08-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/megadose/holehe"/>
+    <updated>2026-08-15T18:00:00Z</updated>
+    <published>2026-08-15T18:00:00Z</published>
+    <summary>holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/megadose/holehe</link>
-      <guid>https://github.com/megadose/holehe#2026-08-15</guid>
-      <pubDate>Sat, 15 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 lightningpixel/modly — 6008⭐ (443.0/day)</title>
-      <description>Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU
+Score: 100/100 | Language: Python | ⭐ 12896 (+392.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>lightningpixel/modly — Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU</title>
+    <id>https://github.com/lightningpixel/modly#2026-08-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/lightningpixel/modly"/>
+    <updated>2026-08-15T18:00:00Z</updated>
+    <published>2026-08-15T18:00:00Z</published>
+    <summary>Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/lightningpixel/modly</link>
-      <guid>https://github.com/lightningpixel/modly#2026-08-15</guid>
-      <pubDate>Sat, 15 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 unslothai/unsloth — 71570⭐ (397.0/day)</title>
-      <description>Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.
+Score: 100/100 | Language: TypeScript | ⭐ 6008 (+443.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>unslothai/unsloth — Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.</title>
+    <id>https://github.com/unslothai/unsloth#2026-08-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/unslothai/unsloth"/>
+    <updated>2026-08-15T18:00:00Z</updated>
+    <published>2026-08-15T18:00:00Z</published>
+    <summary>Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/unslothai/unsloth</link>
-      <guid>https://github.com/unslothai/unsloth#2026-08-15</guid>
-      <pubDate>Sat, 15 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 awesome-dsh-plugin/awesome-dsh-plugin — 1517⭐ (1517.0/day)</title>
-      <description>A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表
+Score: 100/100 | Language: Python | ⭐ 71570 (+397.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>awesome-dsh-plugin/awesome-dsh-plugin — A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表</title>
+    <id>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin#2026-08-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/awesome-dsh-plugin/awesome-dsh-plugin"/>
+    <updated>2026-08-15T18:00:00Z</updated>
+    <published>2026-08-15T18:00:00Z</published>
+    <summary>A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin</link>
-      <guid>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin#2026-08-15</guid>
-      <pubDate>Sat, 15 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 citrolabs/ego-lite — 10450⭐ (87.1/day)</title>
-      <description>The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.
+Score: 100/100 | Language: Python | ⭐ 1517 (+1517.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>citrolabs/ego-lite — The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.</title>
+    <id>https://github.com/citrolabs/ego-lite#2026-08-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/citrolabs/ego-lite"/>
+    <updated>2026-08-15T18:00:00Z</updated>
+    <published>2026-08-15T18:00:00Z</published>
+    <summary>The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.
 
-Score: 72/100 | Language: JavaScript</description>
-      <link>https://github.com/citrolabs/ego-lite</link>
-      <guid>https://github.com/citrolabs/ego-lite#2026-08-15</guid>
-      <pubDate>Sat, 15 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 cactus-compute/needle — 5099⭐ (676.0/day)</title>
-      <description>14MB foundation model for tiny devices; phones, wearables, smart home, and robots.
+Score: 72/100 | Language: JavaScript | ⭐ 10450 (+87.1/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>cactus-compute/needle — 14MB foundation model for tiny devices; phones, wearables, smart home, and robots.</title>
+    <id>https://github.com/cactus-compute/needle#2026-08-14</id>
+    <link rel="alternate" type="text/html" href="https://github.com/cactus-compute/needle"/>
+    <updated>2026-08-14T18:00:00Z</updated>
+    <published>2026-08-14T18:00:00Z</published>
+    <summary>14MB foundation model for tiny devices; phones, wearables, smart home, and robots.
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/cactus-compute/needle</link>
-      <guid>https://github.com/cactus-compute/needle#2026-08-14</guid>
-      <pubDate>Fri, 14 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 macro-inc/macro — 2711⭐ (619.0/day)</title>
-      <description>Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.
+Score: 100/100 | Language: Python | ⭐ 5099 (+676.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>macro-inc/macro — Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.</title>
+    <id>https://github.com/macro-inc/macro#2026-08-14</id>
+    <link rel="alternate" type="text/html" href="https://github.com/macro-inc/macro"/>
+    <updated>2026-08-14T18:00:00Z</updated>
+    <published>2026-08-14T18:00:00Z</published>
+    <summary>Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.
 
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/macro-inc/macro</link>
-      <guid>https://github.com/macro-inc/macro#2026-08-14</guid>
-      <pubDate>Fri, 14 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 infiniflow/ragflow — 88137⭐ (473.0/day)</title>
-      <description>RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
+Score: 100/100 | Language: Rust | ⭐ 2711 (+619.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>infiniflow/ragflow — RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs</title>
+    <id>https://github.com/infiniflow/ragflow#2026-08-14</id>
+    <link rel="alternate" type="text/html" href="https://github.com/infiniflow/ragflow"/>
+    <updated>2026-08-14T18:00:00Z</updated>
+    <published>2026-08-14T18:00:00Z</published>
+    <summary>RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
 
-Score: 100/100 | Language: Go</description>
-      <link>https://github.com/infiniflow/ragflow</link>
-      <guid>https://github.com/infiniflow/ragflow#2026-08-14</guid>
-      <pubDate>Fri, 14 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 NVIDIA-NeMo/Switchyard — 1302⭐ (374.0/day)</title>
-      <description>Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.
+Score: 100/100 | Language: Go | ⭐ 88137 (+473.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA-NeMo/Switchyard — Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.</title>
+    <id>https://github.com/NVIDIA-NeMo/Switchyard#2026-08-14</id>
+    <link rel="alternate" type="text/html" href="https://github.com/NVIDIA-NeMo/Switchyard"/>
+    <updated>2026-08-14T18:00:00Z</updated>
+    <published>2026-08-14T18:00:00Z</published>
+    <summary>Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.
 
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/NVIDIA-NeMo/Switchyard</link>
-      <guid>https://github.com/NVIDIA-NeMo/Switchyard#2026-08-14</guid>
-      <pubDate>Fri, 14 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 smicallef/spiderfoot — 20719⭐ (304.0/day)</title>
-      <description>SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.
+Score: 100/100 | Language: Rust | ⭐ 1302 (+374.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>smicallef/spiderfoot — SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.</title>
+    <id>https://github.com/smicallef/spiderfoot#2026-08-14</id>
+    <link rel="alternate" type="text/html" href="https://github.com/smicallef/spiderfoot"/>
+    <updated>2026-08-14T18:00:00Z</updated>
+    <published>2026-08-14T18:00:00Z</published>
+    <summary>SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/smicallef/spiderfoot</link>
-      <guid>https://github.com/smicallef/spiderfoot#2026-08-14</guid>
-      <pubDate>Fri, 14 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 MSNightmare/ShieldBreak — 436⭐ (436.0/day)</title>
-      <description>Windows Defender 0day vulnerability
+Score: 100/100 | Language: Python | ⭐ 20719 (+304.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>MSNightmare/ShieldBreak — Windows Defender 0day vulnerability</title>
+    <id>https://github.com/MSNightmare/ShieldBreak#2026-08-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/MSNightmare/ShieldBreak"/>
+    <updated>2026-08-13T18:00:00Z</updated>
+    <published>2026-08-13T18:00:00Z</published>
+    <summary>Windows Defender 0day vulnerability
 
-Score: 100/100 | Language: C++</description>
-      <link>https://github.com/MSNightmare/ShieldBreak</link>
-      <guid>https://github.com/MSNightmare/ShieldBreak#2026-08-13</guid>
-      <pubDate>Thu, 13 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 ayi-ai/nie-grassroots-logic — 377⭐ (188.5/day)</title>
-      <description>聂·基层运行逻辑 · Agent Skill：基于聂辉华《基层中国的运行逻辑》的方法论工具箱（不含原书全文）
+Score: 100/100 | Language: C++ | ⭐ 436 (+436.0/day) | Source: search + rising</summary>
+  </entry>
+  <entry>
+    <title>ayi-ai/nie-grassroots-logic — 聂·基层运行逻辑 · Agent Skill：基于聂辉华《基层中国的运行逻辑》的方法论工具箱（不含原书全文）</title>
+    <id>https://github.com/ayi-ai/nie-grassroots-logic#2026-08-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ayi-ai/nie-grassroots-logic"/>
+    <updated>2026-08-13T18:00:00Z</updated>
+    <published>2026-08-13T18:00:00Z</published>
+    <summary>聂·基层运行逻辑 · Agent Skill：基于聂辉华《基层中国的运行逻辑》的方法论工具箱（不含原书全文）
 
-Score: 100/100 | Language: HTML</description>
-      <link>https://github.com/ayi-ai/nie-grassroots-logic</link>
-      <guid>https://github.com/ayi-ai/nie-grassroots-logic#2026-08-13</guid>
-      <pubDate>Thu, 13 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 keslr/keslr_connect — 346⭐ (116.0/day)</title>
-      <description>Connect your service to Keslr: sign in with Keslr and read the verification claim that proves a user is a real, vouched-for human — plus run services reachable only by Keslr members.
+Score: 100/100 | Language: HTML | ⭐ 377 (+188.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>keslr/keslr_connect — Connect your service to Keslr: sign in with Keslr and read the verification claim that proves a user is a real, vouched-for human — plus run services reachable only by Keslr members.</title>
+    <id>https://github.com/keslr/keslr_connect#2026-08-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/keslr/keslr_connect"/>
+    <updated>2026-08-13T18:00:00Z</updated>
+    <published>2026-08-13T18:00:00Z</published>
+    <summary>Connect your service to Keslr: sign in with Keslr and read the verification claim that proves a user is a real, vouched-for human — plus run services reachable only by Keslr members.
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/keslr/keslr_connect</link>
-      <guid>https://github.com/keslr/keslr_connect#2026-08-13</guid>
-      <pubDate>Thu, 13 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 hugohe3/ppt-master — 45943⭐ (187.5/day)</title>
-      <description>AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He
+Score: 100/100 | Language: TypeScript | ⭐ 346 (+116.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>hugohe3/ppt-master — AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He</title>
+    <id>https://github.com/hugohe3/ppt-master#2026-08-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/hugohe3/ppt-master"/>
+    <updated>2026-08-13T18:00:00Z</updated>
+    <published>2026-08-13T18:00:00Z</published>
+    <summary>AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/hugohe3/ppt-master</link>
-      <guid>https://github.com/hugohe3/ppt-master#2026-08-13</guid>
-      <pubDate>Thu, 13 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 milind-soni/OpenMausBot — 666⭐ (484.0/day)</title>
-      <description>No description
+Score: 100/100 | Language: Python | ⭐ 45943 (+187.5/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>milind-soni/OpenMausBot — No description</title>
+    <id>https://github.com/milind-soni/OpenMausBot#2026-08-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/milind-soni/OpenMausBot"/>
+    <updated>2026-08-13T18:00:00Z</updated>
+    <published>2026-08-13T18:00:00Z</published>
+    <summary>No description
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/milind-soni/OpenMausBot</link>
-      <guid>https://github.com/milind-soni/OpenMausBot#2026-08-13</guid>
-      <pubDate>Thu, 13 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 shiyu-coder/Kronos — 36994⭐ (121.8/day)</title>
-      <description>Kronos: A Foundation Model for the Language of Financial Markets
+Score: 100/100 | Language: TypeScript | ⭐ 666 (+484.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>shiyu-coder/Kronos — Kronos: A Foundation Model for the Language of Financial Markets</title>
+    <id>https://github.com/shiyu-coder/Kronos#2026-08-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/shiyu-coder/Kronos"/>
+    <updated>2026-08-13T18:00:00Z</updated>
+    <published>2026-08-13T18:00:00Z</published>
+    <summary>Kronos: A Foundation Model for the Language of Financial Markets
 
-Score: 94/100 | Language: Python</description>
-      <link>https://github.com/shiyu-coder/Kronos</link>
-      <guid>https://github.com/shiyu-coder/Kronos#2026-08-13</guid>
-      <pubDate>Thu, 13 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 sohaibdevv/youtube-music — 836⭐ (836.0/day)</title>
-      <description>A lightweight, ad‑free client for streaming music from YouTube Music. No subscription required. Supports background playback, search, and custom playlists via the reverse‑engineered API.
+Score: 94/100 | Language: Python | ⭐ 36994 (+121.8/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>sohaibdevv/youtube-music — A lightweight, ad‑free client for streaming music from YouTube Music. No subscription required. Supports background playback, search, and custom playlists via the reverse‑engineered API.</title>
+    <id>https://github.com/sohaibdevv/youtube-music#2026-08-12</id>
+    <link rel="alternate" type="text/html" href="https://github.com/sohaibdevv/youtube-music"/>
+    <updated>2026-08-12T18:00:00Z</updated>
+    <published>2026-08-12T18:00:00Z</published>
+    <summary>A lightweight, ad‑free client for streaming music from YouTube Music. No subscription required. Supports background playback, search, and custom playlists via the reverse‑engineered API.
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/sohaibdevv/youtube-music</link>
-      <guid>https://github.com/sohaibdevv/youtube-music#2026-08-12</guid>
-      <pubDate>Wed, 12 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 shadcn-ui/chatbot-template — 477⭐ (477.0/day)</title>
-      <description>A minimal chatbot template built with Next.js, AI SDK, shadcn/ui, shadcn/react, shadcn/typeset. It runs on the Vercel AI Gateway.
+Score: 100/100 | Language: TypeScript | ⭐ 836 (+836.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>shadcn-ui/chatbot-template — A minimal chatbot template built with Next.js, AI SDK, shadcn/ui, shadcn/react, shadcn/typeset. It runs on the Vercel AI Gateway.</title>
+    <id>https://github.com/shadcn-ui/chatbot-template#2026-08-12</id>
+    <link rel="alternate" type="text/html" href="https://github.com/shadcn-ui/chatbot-template"/>
+    <updated>2026-08-12T18:00:00Z</updated>
+    <published>2026-08-12T18:00:00Z</published>
+    <summary>A minimal chatbot template built with Next.js, AI SDK, shadcn/ui, shadcn/react, shadcn/typeset. It runs on the Vercel AI Gateway.
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/shadcn-ui/chatbot-template</link>
-      <guid>https://github.com/shadcn-ui/chatbot-template#2026-08-12</guid>
-      <pubDate>Wed, 12 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 AntigmaLabs/ante — 1226⭐ (216.0/day)</title>
-      <description>Ghost in your shell. Ante is a self-contained agent harness with a highly optimized core. It works like Claude Code or Codex, with none of their dependencies or model constraints. 
+Score: 100/100 | Language: TypeScript | ⭐ 477 (+477.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>AntigmaLabs/ante — Ghost in your shell. Ante is a self-contained agent harness with a highly optimized core. It works like Claude Code or Codex, with none of their dependencies or model constraints. </title>
+    <id>https://github.com/AntigmaLabs/ante#2026-08-12</id>
+    <link rel="alternate" type="text/html" href="https://github.com/AntigmaLabs/ante"/>
+    <updated>2026-08-12T18:00:00Z</updated>
+    <published>2026-08-12T18:00:00Z</published>
+    <summary>Ghost in your shell. Ante is a self-contained agent harness with a highly optimized core. It works like Claude Code or Codex, with none of their dependencies or model constraints. 
 
-Score: 100/100 | Language: Rust</description>
-      <link>https://github.com/AntigmaLabs/ante</link>
-      <guid>https://github.com/AntigmaLabs/ante#2026-08-12</guid>
-      <pubDate>Wed, 12 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 harveyai/harvey-labs — 1118⭐ (115.0/day)</title>
-      <description>A benchmark built to evaluate and improve agent capabilities for supporting legal work.
+Score: 100/100 | Language: Rust | ⭐ 1226 (+216.0/day) | Source: hn</summary>
+  </entry>
+  <entry>
+    <title>harveyai/harvey-labs — A benchmark built to evaluate and improve agent capabilities for supporting legal work.</title>
+    <id>https://github.com/harveyai/harvey-labs#2026-08-12</id>
+    <link rel="alternate" type="text/html" href="https://github.com/harveyai/harvey-labs"/>
+    <updated>2026-08-12T18:00:00Z</updated>
+    <published>2026-08-12T18:00:00Z</published>
+    <summary>A benchmark built to evaluate and improve agent capabilities for supporting legal work.
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/harveyai/harvey-labs</link>
-      <guid>https://github.com/harveyai/harvey-labs#2026-08-12</guid>
-      <pubDate>Wed, 12 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 0xnyn/airship — 246⭐ (246.0/day)</title>
-      <description>Figma like visual editor built for Claude Code, Codex and OpenCode
+Score: 100/100 | Language: Python | ⭐ 1118 (+115.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>0xnyn/airship — Figma like visual editor built for Claude Code, Codex and OpenCode</title>
+    <id>https://github.com/0xnyn/airship#2026-08-12</id>
+    <link rel="alternate" type="text/html" href="https://github.com/0xnyn/airship"/>
+    <updated>2026-08-12T18:00:00Z</updated>
+    <published>2026-08-12T18:00:00Z</published>
+    <summary>Figma like visual editor built for Claude Code, Codex and OpenCode
 
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/0xnyn/airship</link>
-      <guid>https://github.com/0xnyn/airship#2026-08-12</guid>
-      <pubDate>Wed, 12 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 HKUDS/DeepTutor — 34907⭐ (154.5/day)</title>
-      <description>DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
+Score: 100/100 | Language: TypeScript | ⭐ 246 (+246.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>HKUDS/DeepTutor — DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.</title>
+    <id>https://github.com/HKUDS/DeepTutor#2026-08-12</id>
+    <link rel="alternate" type="text/html" href="https://github.com/HKUDS/DeepTutor"/>
+    <updated>2026-08-12T18:00:00Z</updated>
+    <published>2026-08-12T18:00:00Z</published>
+    <summary>DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/HKUDS/DeepTutor</link>
-      <guid>https://github.com/HKUDS/DeepTutor#2026-08-12</guid>
-      <pubDate>Wed, 12 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 semantica-agi/semantica — 4324⭐ (641.3/day)</title>
-      <description>Graph-Native Infrastructure for Context and Accountable AI Systems
+Score: 100/100 | Language: Python | ⭐ 34907 (+154.5/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>semantica-agi/semantica — Graph-Native Infrastructure for Context and Accountable AI Systems</title>
+    <id>https://github.com/semantica-agi/semantica#2026-08-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/semantica-agi/semantica"/>
+    <updated>2026-08-11T18:00:00Z</updated>
+    <published>2026-08-11T18:00:00Z</published>
+    <summary>Graph-Native Infrastructure for Context and Accountable AI Systems
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/semantica-agi/semantica</link>
-      <guid>https://github.com/semantica-agi/semantica#2026-08-11</guid>
-      <pubDate>Tue, 11 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 Comfy-Org/ComfyUI — 126477⭐ (734.0/day)</title>
-      <description>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
+Score: 100/100 | Language: Python | ⭐ 4324 (+641.3/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Comfy-Org/ComfyUI — The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.</title>
+    <id>https://github.com/Comfy-Org/ComfyUI#2026-08-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Comfy-Org/ComfyUI"/>
+    <updated>2026-08-11T18:00:00Z</updated>
+    <published>2026-08-11T18:00:00Z</published>
+    <summary>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/Comfy-Org/ComfyUI</link>
-      <guid>https://github.com/Comfy-Org/ComfyUI#2026-08-11</guid>
-      <pubDate>Tue, 11 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 antirez/h3.c — 538⭐ (538.0/day)</title>
-      <description>MiniMax H3 inference engine for Mac computers
+Score: 100/100 | Language: Python | ⭐ 126477 (+734.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>antirez/h3.c — MiniMax H3 inference engine for Mac computers</title>
+    <id>https://github.com/antirez/h3.c#2026-08-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/antirez/h3.c"/>
+    <updated>2026-08-11T18:00:00Z</updated>
+    <published>2026-08-11T18:00:00Z</published>
+    <summary>MiniMax H3 inference engine for Mac computers
 
-Score: 100/100 | Language: C</description>
-      <link>https://github.com/antirez/h3.c</link>
-      <guid>https://github.com/antirez/h3.c#2026-08-11</guid>
-      <pubDate>Tue, 11 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 TauricResearch/TradingAgents — 97350⭐ (373.0/day)</title>
-      <description>TradingAgents: Multi-Agents LLM Financial Trading Framework
+Score: 100/100 | Language: C | ⭐ 538 (+538.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>TauricResearch/TradingAgents — TradingAgents: Multi-Agents LLM Financial Trading Framework</title>
+    <id>https://github.com/TauricResearch/TradingAgents#2026-08-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/TauricResearch/TradingAgents"/>
+    <updated>2026-08-11T18:00:00Z</updated>
+    <published>2026-08-11T18:00:00Z</published>
+    <summary>TradingAgents: Multi-Agents LLM Financial Trading Framework
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/TauricResearch/TradingAgents</link>
-      <guid>https://github.com/TauricResearch/TradingAgents#2026-08-11</guid>
-      <pubDate>Tue, 11 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 vitali87/code-graph-rag — 3607⭐ (432.0/day)</title>
-      <description>The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs
+Score: 100/100 | Language: Python | ⭐ 97350 (+373.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>vitali87/code-graph-rag — The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs</title>
+    <id>https://github.com/vitali87/code-graph-rag#2026-08-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/vitali87/code-graph-rag"/>
+    <updated>2026-08-11T18:00:00Z</updated>
+    <published>2026-08-11T18:00:00Z</published>
+    <summary>The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs
 
-Score: 100/100 | Language: Python</description>
-      <link>https://github.com/vitali87/code-graph-rag</link>
-      <guid>https://github.com/vitali87/code-graph-rag#2026-08-11</guid>
-      <pubDate>Tue, 11 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 ruvnet/RuView — 89441⭐ (208.0/day)</title>
-      <description>π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
+Score: 100/100 | Language: Python | ⭐ 3607 (+432.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>ruvnet/RuView — π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.</title>
+    <id>https://github.com/ruvnet/RuView#2026-08-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ruvnet/RuView"/>
+    <updated>2026-08-11T18:00:00Z</updated>
+    <published>2026-08-11T18:00:00Z</published>
+    <summary>π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
 
-Score: 99/100 | Language: Rust</description>
-      <link>https://github.com/ruvnet/RuView</link>
-      <guid>https://github.com/ruvnet/RuView#2026-08-11</guid>
-      <pubDate>Tue, 11 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 NanmiCoder/MediaCrawler — 61317⭐ (53.0/day)</title>
-      <description>小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫
+Score: 99/100 | Language: Rust | ⭐ 89441 (+208.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>NanmiCoder/MediaCrawler — 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫</title>
+    <id>https://github.com/NanmiCoder/MediaCrawler#2026-08-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/NanmiCoder/MediaCrawler"/>
+    <updated>2026-08-11T18:00:00Z</updated>
+    <published>2026-08-11T18:00:00Z</published>
+    <summary>小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫
 
-Score: 69/100 | Language: Python</description>
-      <link>https://github.com/NanmiCoder/MediaCrawler</link>
-      <guid>https://github.com/NanmiCoder/MediaCrawler#2026-08-11</guid>
-      <pubDate>Tue, 11 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-  </channel>
-</rss>
+Score: 69/100 | Language: Python | ⭐ 61317 (+53.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>pranshuparmar/witr — Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.</title>
+    <id>https://github.com/pranshuparmar/witr#2026-08-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/pranshuparmar/witr"/>
+    <updated>2026-08-10T18:00:00Z</updated>
+    <published>2026-08-10T18:00:00Z</published>
+    <summary>Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.
+
+Score: 100/100 | Language: Go | ⭐ 20897 (+518.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>MengTo/kage — An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js.</title>
+    <id>https://github.com/MengTo/kage#2026-08-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/MengTo/kage"/>
+    <updated>2026-08-10T18:00:00Z</updated>
+    <published>2026-08-10T18:00:00Z</published>
+    <summary>An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js.
+
+Score: 100/100 | Language: HTML | ⭐ 662 (+662.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>sv-number/mcp-server — MCP server for AI agents that need a phone number: order a private number in any country, read the SMS verification code, hand it back.</title>
+    <id>https://github.com/sv-number/mcp-server#2026-08-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/sv-number/mcp-server"/>
+    <updated>2026-08-10T18:00:00Z</updated>
+    <published>2026-08-10T18:00:00Z</published>
+    <summary>MCP server for AI agents that need a phone number: order a private number in any country, read the SMS verification code, hand it back.
+
+Score: 100/100 | Language: JavaScript | ⭐ 328 (+164.0/day) | Source: ai-trending</summary>
+  </entry>
+  <entry>
+    <title>SaladDay/pi-from-scratch — 600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent</title>
+    <id>https://github.com/SaladDay/pi-from-scratch#2026-08-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/SaladDay/pi-from-scratch"/>
+    <updated>2026-08-10T18:00:00Z</updated>
+    <published>2026-08-10T18:00:00Z</published>
+    <summary>600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent
+
+Score: 100/100 | Language: TypeScript | ⭐ 138 (+138.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>MengMengCode/VoCat — Vocat is an open-source web control panel and engineering toolkit for Quectel EC20/EC25-class cellular modems. It combines modem discovery, live radio status, AT and USSD terminals, SMS, WiFi Calling, eSIM management, network selection, proxy routing, notifications, audit logs, and release automation in one self-contained service.</title>
+    <id>https://github.com/MengMengCode/VoCat#2026-08-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/MengMengCode/VoCat"/>
+    <updated>2026-08-10T18:00:00Z</updated>
+    <published>2026-08-10T18:00:00Z</published>
+    <summary>Vocat is an open-source web control panel and engineering toolkit for Quectel EC20/EC25-class cellular modems. It combines modem discovery, live radio status, AT and USSD terminals, SMS, WiFi Calling, eSIM management, network selection, proxy routing, notifications, audit logs, and release automation in one self-contained service.
+
+Score: 100/100 | Language: Go | ⭐ 120 (+120.0/day) | Source: rising</summary>
+  </entry>
+  <entry>
+    <title>msitarzewski/agency-agents — A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.</title>
+    <id>https://github.com/msitarzewski/agency-agents#2026-08-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/msitarzewski/agency-agents"/>
+    <updated>2026-08-10T18:00:00Z</updated>
+    <published>2026-08-10T18:00:00Z</published>
+    <summary>A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
+
+Score: 100/100 | Language: Shell | ⭐ 141077 (+470.3/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>pingdotgg/t3code — No description</title>
+    <id>https://github.com/pingdotgg/t3code#2026-08-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/pingdotgg/t3code"/>
+    <updated>2026-08-10T18:00:00Z</updated>
+    <published>2026-08-10T18:00:00Z</published>
+    <summary>No description
+
+Score: 67/100 | Language: TypeScript | ⭐ 17755 (+97.6/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>PrimeIntellect-ai/prime-agent — A self-improving RLM agent for coding workflows and long-running autonomous tasks.</title>
+    <id>https://github.com/PrimeIntellect-ai/prime-agent#2026-08-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/PrimeIntellect-ai/prime-agent"/>
+    <updated>2026-08-09T18:00:00Z</updated>
+    <published>2026-08-09T18:00:00Z</published>
+    <summary>A self-improving RLM agent for coding workflows and long-running autonomous tasks.
+
+Score: 100/100 | Language: TypeScript | ⭐ 9300 (+2354.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>google/skills — Agent Skills for Google products and technologies</title>
+    <id>https://github.com/google/skills#2026-08-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/google/skills"/>
+    <updated>2026-08-09T18:00:00Z</updated>
+    <published>2026-08-09T18:00:00Z</published>
+    <summary>Agent Skills for Google products and technologies
+
+Score: 100/100 | Language: Python | ⭐ 16844 (+513.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>denoland/celld — self-hosted, distributed Durable Objects</title>
+    <id>https://github.com/denoland/celld#2026-08-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/denoland/celld"/>
+    <updated>2026-08-09T18:00:00Z</updated>
+    <published>2026-08-09T18:00:00Z</published>
+    <summary>self-hosted, distributed Durable Objects
+
+Score: 100/100 | Language: Rust | ⭐ 2659 (+387.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>oil-oil/oil-motion — Create smooth, responsive interactive web animations.</title>
+    <id>https://github.com/oil-oil/oil-motion#2026-08-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/oil-oil/oil-motion"/>
+    <updated>2026-08-09T18:00:00Z</updated>
+    <published>2026-08-09T18:00:00Z</published>
+    <summary>Create smooth, responsive interactive web animations.
+
+Score: 100/100 | Language: Python | ⭐ 331 (+331.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>ShawnPana/phone-harness — let your agent control your phone</title>
+    <id>https://github.com/ShawnPana/phone-harness#2026-08-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ShawnPana/phone-harness"/>
+    <updated>2026-08-09T18:00:00Z</updated>
+    <published>2026-08-09T18:00:00Z</published>
+    <summary>let your agent control your phone
+
+Score: 100/100 | Language: Python | ⭐ 329 (+329.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>goauthentik/authentik — The authentication glue you need.</title>
+    <id>https://github.com/goauthentik/authentik#2026-08-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/goauthentik/authentik"/>
+    <updated>2026-08-08T18:00:00Z</updated>
+    <published>2026-08-08T18:00:00Z</published>
+    <summary>The authentication glue you need.
+
+Score: 100/100 | Language: Python | ⭐ 23676 (+449.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>google/guava — Google core libraries for Java</title>
+    <id>https://github.com/google/guava#2026-08-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/google/guava"/>
+    <updated>2026-08-08T18:00:00Z</updated>
+    <published>2026-08-08T18:00:00Z</published>
+    <summary>Google core libraries for Java
+
+Score: 100/100 | Language: Java | ⭐ 51777 (+109.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Significant-Gravitas/AutoGPT — AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.</title>
+    <id>https://github.com/Significant-Gravitas/AutoGPT#2026-08-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Significant-Gravitas/AutoGPT"/>
+    <updated>2026-08-08T18:00:00Z</updated>
+    <published>2026-08-08T18:00:00Z</published>
+    <summary>AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
+
+Score: 100/100 | Language: Python | ⭐ 186365 (+265.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>666ghj/MiroFish — A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物</title>
+    <id>https://github.com/666ghj/MiroFish#2026-08-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/666ghj/MiroFish"/>
+    <updated>2026-08-08T18:00:00Z</updated>
+    <published>2026-08-08T18:00:00Z</published>
+    <summary>A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物
+
+Score: 100/100 | Language: Python | ⭐ 70589 (+276.8/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>zqxwce/vphone-ws — A native macOS app for managing virtual iPhones - browse, create, and boot iOS research VMs from a single window.</title>
+    <id>https://github.com/zqxwce/vphone-ws#2026-08-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/zqxwce/vphone-ws"/>
+    <updated>2026-08-08T18:00:00Z</updated>
+    <published>2026-08-08T18:00:00Z</published>
+    <summary>A native macOS app for managing virtual iPhones - browse, create, and boot iOS research VMs from a single window.
+
+Score: 100/100 | Language: Swift | ⭐ 436 (+109.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>chenyme/grok2api — Multi-account API gateway for Grok Build, Grok Web, and Grok Console</title>
+    <id>https://github.com/chenyme/grok2api#2026-08-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/chenyme/grok2api"/>
+    <updated>2026-08-08T18:00:00Z</updated>
+    <published>2026-08-08T18:00:00Z</published>
+    <summary>Multi-account API gateway for Grok Build, Grok Web, and Grok Console
+
+Score: 65/100 | Language: Go | ⭐ 7162 (+23.8/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>cloudflare/computer — Give your agent a computer 👾</title>
+    <id>https://github.com/cloudflare/computer#2026-08-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/cloudflare/computer"/>
+    <updated>2026-08-07T18:00:00Z</updated>
+    <published>2026-08-07T18:00:00Z</published>
+    <summary>Give your agent a computer 👾
+
+Score: 100/100 | Language: TypeScript | ⭐ 4989 (+1159.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>huangruiteng/loopx — Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.</title>
+    <id>https://github.com/huangruiteng/loopx#2026-08-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/huangruiteng/loopx"/>
+    <updated>2026-08-07T18:00:00Z</updated>
+    <published>2026-08-07T18:00:00Z</published>
+    <summary>Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.
+
+Score: 100/100 | Language: Python | ⭐ 3044 (+623.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>firecrawl/anydoc — Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.</title>
+    <id>https://github.com/firecrawl/anydoc#2026-08-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/firecrawl/anydoc"/>
+    <updated>2026-08-07T18:00:00Z</updated>
+    <published>2026-08-07T18:00:00Z</published>
+    <summary>Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.
+
+Score: 100/100 | Language: Rust | ⭐ 9114 (+3308.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>Accio-org/RealReplicaBench — RealReplicaBench: Benchmarking Long-Horizon Agents in High-Fidelity, Stateful, and Reproducible Replicas of Real Online Services</title>
+    <id>https://github.com/Accio-org/RealReplicaBench#2026-08-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Accio-org/RealReplicaBench"/>
+    <updated>2026-08-07T18:00:00Z</updated>
+    <published>2026-08-07T18:00:00Z</published>
+    <summary>RealReplicaBench: Benchmarking Long-Horizon Agents in High-Fidelity, Stateful, and Reproducible Replicas of Real Online Services
+
+Score: 100/100 | Language: HTML | ⭐ 1037 (+207.4/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>nfzerox/VirtualMacOniPad — People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. With Virtual Mac, iPad finally breaks free from iPadOS, enabling pro apps like Xcode and Terminal to run directly on device. Requires iPad Pro (M1, M2) or iPad Air (M1) running iPadOS 16 up to 16.3.1.</title>
+    <id>https://github.com/nfzerox/VirtualMacOniPad#2026-08-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/nfzerox/VirtualMacOniPad"/>
+    <updated>2026-08-07T18:00:00Z</updated>
+    <published>2026-08-07T18:00:00Z</published>
+    <summary>People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. With Virtual Mac, iPad finally breaks free from iPadOS, enabling pro apps like Xcode and Terminal to run directly on device. Requires iPad Pro (M1, M2) or iPad Air (M1) running iPadOS 16 up to 16.3.1.
+
+Score: 100/100 | Language: Objective-C | ⭐ 471 (+157.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>mattpocock/skills — Skills for Real Engineers. Straight from my .agents directory.</title>
+    <id>https://github.com/mattpocock/skills#2026-08-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mattpocock/skills"/>
+    <updated>2026-08-07T18:00:00Z</updated>
+    <published>2026-08-07T18:00:00Z</published>
+    <summary>Skills for Real Engineers. Straight from my .agents directory.
+
+Score: 100/100 | Language: Shell | ⭐ 207520 (+1127.8/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>tirth8205/code-review-graph — Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.</title>
+    <id>https://github.com/tirth8205/code-review-graph#2026-08-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/tirth8205/code-review-graph"/>
+    <updated>2026-08-07T18:00:00Z</updated>
+    <published>2026-08-07T18:00:00Z</published>
+    <summary>Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.
+
+Score: 70/100 | Language: Python | ⭐ 29143 (+181.0/day) | Source: trending</summary>
+  </entry>
+</feed>

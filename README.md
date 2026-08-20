@@ -115,6 +115,12 @@ Every day it collects signals from 6 data sources, runs them through a smart sco
 - Dark mode support (Apple Mail / iOS)
 - Powered by Resend API
 
+### RSS / Atom Feed
+
+- Prefer a feed reader over email? Subscribe to the Atom feed:
+  `https://alloevil.github.io/github-discovery/feed.xml`
+- Last ~14 days of picks, regenerated with every daily run
+
 ### GitHub Pages
 
 - Modern, professional web interface

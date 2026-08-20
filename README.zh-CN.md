@@ -115,6 +115,12 @@ GitHub Discovery 告诉你什么**即将火起来**——增长曲线异常的�
 - 支持深色模式（Apple Mail / iOS）
 - 基于 Resend API 发送
 
+### RSS / Atom 订阅
+
+- 不想留邮箱？用阅读器订阅 Atom feed：
+  `https://alloevil.github.io/github-discovery/feed.xml`
+- 保留最近约 14 天的推荐，随每日任务自动更新
+
 ### GitHub Pages
 
 - 现代、专业的网页界面

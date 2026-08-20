@@ -249,41 +249,58 @@ def main():
     with open(os.path.join(DIST_DIR, 'index.html'), 'w') as f:
         f.write(html)
 
-    # Generate RSS feed alongside index.html
-    rss_xml = generate_rss(reports)
+    # Generate Atom feed alongside index.html
+    feed_xml = generate_feed(reports)
     with open(os.path.join(DIST_DIR, 'feed.xml'), 'w') as f:
-        f.write(rss_xml)
+        f.write(feed_xml)
 
     print(f"[OK] index.html ({len(reports)} reports, template-based)")
-    print(f"[OK] feed.xml ({sum(len(ft[:5]) + len(rp[:3]) for _, ft, rp in reports[:10])} items)")
+    print(f"[OK] feed.xml ({sum(len(ft[:5]) + len(rp[:3]) for _, ft, rp in reports[:FEED_DAYS])} entries)")
 
 
-def generate_rss(reports):
-    rss = Element('rss', version='2.0')
-    rss.set('xmlns:atom', 'http://www.w3.org/2005/Atom')
-    ch = SubElement(rss, 'channel')
-    SubElement(ch, 'title').text = SITE_TITLE
-    SubElement(ch, 'description').text = SITE_DESC
-    SubElement(ch, 'link').text = SITE_URL
-    SubElement(ch, 'language').text = 'en'
-    # lastBuildDate 必须由内容（最新报告日期）决定而不是 now()：
-    # 否则每次 CI 重跑都产生 diff，导致同一天出现第二个空 commit。
+FEED_DAYS = 14  # 保留最近 ~14 天的条目（issue #5）
+
+
+def _feed_date(date_str: str) -> str:
+    """报告日期 → RFC 3339 时间戳。固定 18:00 UTC（daily workflow 的大致运行时间）。"""
+    return datetime.strptime(date_str, '%Y-%m-%d').strftime('%Y-%m-%dT18:00:00Z')
+
+
+def generate_feed(reports):
+    """把最近 FEED_DAYS 天的推荐渲染成 Atom feed（RFC 4287）。
+
+    entry id 由 repo URL + 日期决定，稳定可复现：同一天重跑 workflow
+    不产生新 id，阅读器不会显示重复条目。updated 同样由内容（最新
+    报告日期）决定而不是 now()，否则每次 CI 重跑都产生 diff，导致
+    同一天出现第二个空 commit。
+    """
+    feed = Element('feed', xmlns='http://www.w3.org/2005/Atom')
+    SubElement(feed, 'title').text = SITE_TITLE
+    SubElement(feed, 'subtitle').text = SITE_DESC
+    SubElement(feed, 'id').text = f'{SITE_URL}/'
     latest = reports[0][0] if reports else datetime.now(timezone.utc).strftime('%Y-%m-%d')
-    SubElement(ch, 'lastBuildDate').text = datetime.strptime(latest, '%Y-%m-%d').strftime('%a, %d %b %Y 18:00:00 +0000')
-    al = SubElement(ch, 'atom:link')
-    al.set('href', f'{SITE_URL}/feed.xml')
-    al.set('rel', 'self')
-    al.set('type', 'application/rss+xml')
-    for date_str, first_timers, repeat_performers in reports[:10]:
-        all_repos = first_timers[:5] + repeat_performers[:3]
-        for r in all_repos:
-            item = SubElement(ch, 'item')
-            SubElement(item, 'title').text = f"🔥 {r.get('name','?')} — {r.get('stars','?')}⭐ ({r.get('daily','?')}/day)"
-            SubElement(item, 'description').text = f"{r.get('description','')}\n\nScore: {r.get('score','?')}/100 | Language: {r.get('language','?')}"
-            SubElement(item, 'link').text = r.get('url', SITE_URL)
-            SubElement(item, 'guid').text = f"{r.get('url','')}#{date_str}"
-            SubElement(item, 'pubDate').text = datetime.strptime(date_str, '%Y-%m-%d').strftime('%a, %d %b %Y 18:00:00 +0000')
-    xml_str = tostring(rss, encoding='unicode', xml_declaration=False)
+    SubElement(feed, 'updated').text = _feed_date(latest)
+    author = SubElement(feed, 'author')
+    SubElement(author, 'name').text = SITE_TITLE
+    link_self = SubElement(feed, 'link', rel='self', type='application/atom+xml')
+    link_self.set('href', f'{SITE_URL}/feed.xml')
+    link_alt = SubElement(feed, 'link', rel='alternate', type='text/html')
+    link_alt.set('href', SITE_URL)
+    for date_str, first_timers, repeat_performers in reports[:FEED_DAYS]:
+        for r in first_timers[:5] + repeat_performers[:3]:
+            entry = SubElement(feed, 'entry')
+            SubElement(entry, 'title').text = f"{r.get('name', '?')} — {r.get('description', 'No description')}"
+            SubElement(entry, 'id').text = f"{r.get('url', SITE_URL)}#{date_str}"
+            link = SubElement(entry, 'link', rel='alternate', type='text/html')
+            link.set('href', r.get('url', SITE_URL))
+            SubElement(entry, 'updated').text = _feed_date(date_str)
+            SubElement(entry, 'published').text = _feed_date(date_str)
+            SubElement(entry, 'summary').text = (
+                f"{r.get('description', '')}\n\n"
+                f"Score: {r.get('score', '?')}/100 | Language: {r.get('language', '?') or '?'} | "
+                f"⭐ {r.get('stars', '?')} (+{r.get('daily', '?')}/day) | Source: {r.get('source', '?')}"
+            )
+    xml_str = tostring(feed, encoding='unicode', xml_declaration=False)
     pretty = parseString(xml_str).toprettyxml(indent='  ', encoding=None)
     lines = pretty.split('\n')
     return '\n'.join(lines) if lines and lines[0].startswith('<?xml') else '<?xml version="1.0" encoding="UTF-8"?>\n' + pretty
