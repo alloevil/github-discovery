@@ -104,15 +104,17 @@ def check_star_authenticity(repo_full_name: str, stars: int, age_days: int,
     
     daily_stars = stars / max(1, age_days)
     
-    # 检测 1：年龄 <1 天且 Star >1000 → 高度可疑（新仓库暴涨）
-    if age_days < 1 and stars > 1000:
+    # 检测 1：年龄 ≤1 天且 Star >1000 → 高度可疑（新仓库暴涨）。
+    # 注意 _normalize_repo 对 age_days 取 max(1, ...) 下限，
+    # 当天创建的仓库 age_days 就是 1 —— 用 <1 判断永远不会命中。
+    if age_days <= 1 and stars > 1000:
         result["is_suspicious"] = True
         result["reason"] = "brand_new_repo_1k_stars_in_1_day"
         result["penalty"] = -20
         return result
     
-    # 检测 2：年龄 <2 天且 Star >2000 → 可疑
-    if age_days < 2 and stars > 2000:
+    # 检测 2：年龄 ≤2 天且 Star >2000 → 可疑
+    if age_days <= 2 and stars > 2000:
         result["is_suspicious"] = True
         result["reason"] = "new_repo_2k_stars_in_2_days"
         result["penalty"] = -15

@@ -222,26 +222,22 @@ class TestFetchHN:
 class TestFetchRising:
     """测试 Rising 仓库检测源。"""
 
+    def _item(self, id, full_name, stars, forks, days_old=1):
+        return {
+            "id": id, "full_name": full_name,
+            "html_url": f"https://github.com/{full_name}",
+            "description": "test", "language": "Go", "stargazers_count": stars,
+            "forks_count": forks, "fork": False, "license": None,
+            "subscribers_count": 5,
+            "created_at": (datetime.now(timezone.utc) - timedelta(days=days_old)).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        }
+
     @patch("sources._gh_api")
     @patch("time.sleep")
     def test_filters_by_fork_ratio(self, mock_sleep, mock_api):
-        """应只保留 fork_ratio > 0.3 或 watch_ratio > 0.1 的仓库。"""
-        # 高 fork ratio 的仓库
-        high_fork = {
-            "id": 10, "full_name": "a/b", "html_url": "https://github.com/a/b",
-            "description": "test", "language": "Go", "stargazers_count": 100,
-            "forks_count": 50, "fork": False, "license": None,
-            "subscribers_count": 5,
-            "created_at": (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        }
-        # 低比率的仓库（应被过滤）
-        low_ratio = {
-            "id": 11, "full_name": "c/d", "html_url": "https://github.com/c/d",
-            "description": "test", "language": "JS", "stargazers_count": 1000,
-            "forks_count": 1, "fork": False, "license": None,
-            "subscribers_count": 1,
-            "created_at": (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        }
+        """应只保留 0.3 < fork_ratio ≤ 0.5 的仓库。"""
+        high_fork = self._item(10, "a/b", stars=100, forks=40)   # ratio 0.4
+        low_ratio = self._item(11, "c/d", stars=1000, forks=1)   # ratio 0.001
         mock_api.return_value = {"items": [high_fork, low_ratio]}
 
         results = sources.fetch_rising()
@@ -249,6 +245,25 @@ class TestFetchRising:
         full_names = [r["full_name"] for r in results]
         assert "a/b" in full_names
         assert "c/d" not in full_names
+        assert results[0]["rising_signal"] == "high_fork"
+
+    @patch("sources._gh_api")
+    @patch("time.sleep")
+    def test_excludes_fork_farm_repos(self, mock_sleep, mock_api):
+        """新仓库 fork_ratio 异常高（>0.5）是 fork farm 的典型形态，应排除。
+
+        crypto 骗局模板靠批量 fork 刷「被使用」假象（如 86 star/67 fork
+        的 UNISWAP-ARBITRAGE-BOT），旧版把它当最强入选信号。
+        """
+        scam = self._item(12, "scammer/UNISWAP-ARBITRAGE-BOT", stars=86, forks=67)  # ratio 0.78
+        legit = self._item(13, "real/project", stars=200, forks=80)                 # ratio 0.4
+        mock_api.return_value = {"items": [scam, legit]}
+
+        results = sources.fetch_rising()
+
+        full_names = [r["full_name"] for r in results]
+        assert "scammer/UNISWAP-ARBITRAGE-BOT" not in full_names
+        assert "real/project" in full_names
 
 
 class TestFetchAll:

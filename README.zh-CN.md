@@ -80,7 +80,7 @@ GitHub Discovery 告诉你什么**即将火起来**——增长曲线异常的�
 | [GitHub Trending](https://github.com/trending) | 热度 | 每日趋势仓库 |
 | GitHub Search | 新晋上升 | 最近 7 天创建、星标增长迅猛的仓库 |
 | [Hacker News](https://news.ycombinator.com/) | 社区精选 | Show HN 帖子中出现的 GitHub 仓库 |
-| Rising Detection | 早期信号 | Fork/Watch 出现异常增长的仓库 |
+| Rising Detection | 早期信号 | Fork 出现异常增长的新仓库（fork farm 比率会被排除） |
 | [AI/ML Trending](https://ossinsight.io/trending/ai) | AI 方向 | 快速增长的 AI/ML 仓库（关键词每日轮换） |
 | [HF Daily Papers](https://huggingface.co/papers) | 研究信号 | Hugging Face 热门论文关联的 GitHub 仓库——论文点赞往往领先 GitHub 星标好几天 |
 

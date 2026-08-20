@@ -272,11 +272,16 @@ def fetch_hn() -> list[dict]:
     return results
 
 
-# ── Source 5: GitHub Watch/Fork 增速异常检测 ───────────────────────────
+# ── Source 5: GitHub Fork 增速异常检测 ─────────────────────────────────
+
+# rising 查询只搜 <3 天的新仓库；新仓库 fork 数超过 star 的一半基本
+# 只有 fork farm 会做到（正常项目先 star 后 fork），直接排除。
+FORK_FARM_RATIO = 0.5
+
 
 def fetch_rising() -> list[dict]:
-    """Detect repos with unusual Fork/Watch growth (early signal)."""
-    print("[Source] Detecting rising repos (fork/watch signals)...")
+    """Detect repos with unusual fork growth (early usage signal)."""
+    print("[Source] Detecting rising repos (fork signals)...")
     results = []
 
     date_since = (datetime.now(timezone.utc) - timedelta(days=3)).strftime("%Y-%m-%d")
@@ -307,18 +312,20 @@ def fetch_rising() -> list[dict]:
             repo = _normalize_repo(item)
             stars = repo.get("stars", 0)
             forks = repo.get("forks", 0)
-            watchers = repo.get("watchers", 0)
 
-            # 计算 fork/star 比率（越高说明实际使用越多）
+            # fork/star 比率：适度偏高（>0.3）说明有真实使用。但异常高
+            # （>FORK_FARM_RATIO）配上本查询保证的 <3 天仓龄是 fork farm
+            # 的典型形态 —— crypto 骗局模板靠批量 fork 刷「被使用」假象
+            # （fork 成本远低于 star），旧版把它当最强入选信号，实测被
+            # UNISWAP-ARBITRAGE-BOT 类骗局正中。直接排除，不入选。
+            # （watch 信号已删：Search API items 不返回 subscribers_count，
+            # watchers 恒 0，high_watch 分支从未可达。）
             fork_ratio = forks / stars if stars > 0 else 0
-            # 计算 watcher/star 比率（越高说明关注度越集中）
-            watch_ratio = watchers / stars if stars > 0 else 0
-
             repo["fork_ratio"] = round(fork_ratio, 2)
-            repo["watch_ratio"] = round(watch_ratio, 2)
-            repo["rising_signal"] = "high_fork" if fork_ratio > 0.3 else "high_watch" if watch_ratio > 0.1 else ""
-
-            if repo["rising_signal"]:
+            if fork_ratio > FORK_FARM_RATIO:
+                continue
+            if fork_ratio > 0.3:
+                repo["rising_signal"] = "high_fork"
                 results.append(repo)
 
     print(f"  Found {len(results)} rising repos")
@@ -430,7 +437,7 @@ def fetch_all() -> list[dict]:
                 base["sources"].append(src)
             # 补齐 base 缺失的来源专属字段
             for key in ("hn_title", "hn_score", "hf_title", "hf_upvotes",
-                        "rising_signal", "fork_ratio", "watch_ratio"):
+                        "rising_signal", "fork_ratio"):
                 if key in r and key not in base:
                     base[key] = r[key]
     unique = [by_name[name] for name in order]

@@ -160,8 +160,8 @@ class TestCheckStarAuthenticity:
     @patch("quality._gh_api")
     @patch("time.sleep")
     def test_brand_new_1k_stars_suspicious(self, mock_sleep, mock_api):
-        """创建 <1 天且 >1000 stars 应判定为可疑。"""
-        result = quality.check_star_authenticity("user/repo", stars=1500, age_days=0)
+        """创建当天（age_days=1，_normalize_repo 的下限）且 >1000 stars 应判定为可疑。"""
+        result = quality.check_star_authenticity("user/repo", stars=1500, age_days=1)
 
         assert result["is_suspicious"] is True
         assert result["penalty"] == -20
@@ -169,9 +169,18 @@ class TestCheckStarAuthenticity:
 
     @patch("quality._gh_api")
     @patch("time.sleep")
+    def test_age_zero_also_triggers_detection_1(self, mock_sleep, mock_api):
+        """防御性：age_days=0（不该出现，但曾是旧 <1 判断的唯一入口）也命中。"""
+        result = quality.check_star_authenticity("user/repo", stars=1500, age_days=0)
+
+        assert result["is_suspicious"] is True
+        assert result["penalty"] == -20
+
+    @patch("quality._gh_api")
+    @patch("time.sleep")
     def test_2k_stars_in_2_days_suspicious(self, mock_sleep, mock_api):
-        """创建 <2 天且 >2000 stars 应判定为可疑。"""
-        result = quality.check_star_authenticity("user/repo", stars=3000, age_days=1)
+        """创建 ≤2 天且 >2000 stars 应判定为可疑（检测 2）。"""
+        result = quality.check_star_authenticity("user/repo", stars=3000, age_days=2)
 
         assert result["is_suspicious"] is True
         assert result["penalty"] == -15
@@ -211,8 +220,8 @@ class TestCheckStarAuthenticity:
     @patch("time.sleep")
     def test_exact_boundary_not_suspicious(self, mock_sleep, mock_api):
         """恰好在边界上（age_days=1, stars=1000）不应判定为可疑。"""
-        # age_days < 1 需要 age_days=0；age_days=1 不满足
+        # 检测 1 需要 stars > 1000；恰好 1000 不触发
         result = quality.check_star_authenticity("user/repo", stars=1000, age_days=1)
 
-        # age_days=1 不满足 <1 条件，也不满足 <2 且 >2000
+        # stars=1000 不满足 >1000 条件，也不满足 ≤2 天且 >2000
         assert result["is_suspicious"] is False
