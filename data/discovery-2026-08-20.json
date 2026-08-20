@@ -1,0 +1,339 @@
+{
+ "date": "2026-08-20",
+ "generated_at": "2026-08-20T05:15:36.326806",
+ "new": [
+  {
+   "full_name": "volcengine/OpenViking",
+   "url": "https://github.com/volcengine/OpenViking",
+   "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+   "language": "Python",
+   "stars": 30432,
+   "forks": 2353,
+   "age_days": 226,
+   "daily_stars": 134.65486725663717,
+   "real_daily_stars": 852.0,
+   "watchers": 82,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "chaitanyagiri/munder-difflin",
+   "url": "https://github.com/chaitanyagiri/munder-difflin",
+   "description": "local multi-agent harness",
+   "language": "TypeScript",
+   "stars": 2794,
+   "forks": 326,
+   "age_days": 80,
+   "daily_stars": 34.925,
+   "real_daily_stars": 597.0,
+   "watchers": 17,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "immich-app/immich",
+   "url": "https://github.com/immich-app/immich",
+   "description": "High performance self-hosted photo and video management solution.",
+   "language": "TypeScript",
+   "stars": 111978,
+   "forks": 6636,
+   "age_days": 1658,
+   "daily_stars": 67.53799758745477,
+   "real_daily_stars": 341.0,
+   "watchers": 350,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "nautechsystems/nautilus_trader",
+   "url": "https://github.com/nautechsystems/nautilus_trader",
+   "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+   "language": "Rust",
+   "stars": 26526,
+   "forks": 3426,
+   "age_days": 2977,
+   "daily_stars": 8.910312395028551,
+   "real_daily_stars": 240.5,
+   "watchers": 209,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "LGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Leutenegger/watermarks-remover",
+   "url": "https://github.com/Leutenegger/watermarks-remover",
+   "description": "Remove multi-vendor AI provenance traces: Unicode text sanitization, statistical rewriting techniques, and C2PA/metadata stripping from PNG/JPEG/SVG/PDF/DOCX/HTML/MD files",
+   "language": "Python",
+   "stars": 914,
+   "forks": 94,
+   "age_days": 1,
+   "daily_stars": 914.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "DenisSergeevitch/desktop-fly",
+   "url": "https://github.com/DenisSergeevitch/desktop-fly",
+   "description": "A 3D fruit fly living on your macOS desktop, driven by a live spiking simulation of the real FlyWire connectome",
+   "language": "Swift",
+   "stars": 525,
+   "forks": 31,
+   "age_days": 1,
+   "daily_stars": 525.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "CopilotKit/openbot",
+   "url": "https://github.com/CopilotKit/openbot",
+   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+   "language": "TypeScript",
+   "stars": 744,
+   "forks": 73,
+   "age_days": 3,
+   "daily_stars": 248.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 100,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "genlayerlabs/genlayer-project-boilerplate",
+   "url": "https://github.com/genlayerlabs/genlayer-project-boilerplate",
+   "description": "",
+   "language": "TypeScript",
+   "stars": 16246,
+   "forks": 810,
+   "age_days": 782,
+   "daily_stars": 20.774936061381073,
+   "real_daily_stars": 215.0,
+   "watchers": 110,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "vvxw/deploy-vercel",
+   "url": "https://github.com/vvxw/deploy-vercel",
+   "description": "Install Command：npm install",
+   "language": "JavaScript",
+   "stars": 552,
+   "forks": 108,
+   "age_days": 1,
+   "daily_stars": 552.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 100,
+    "acceleration": 36,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "flaqai/backlink_skills",
+   "url": "https://github.com/flaqai/backlink_skills",
+   "description": "Awesome skills for submitting url to free websites. Get more backlinks for your website to get more traffic.",
+   "language": "Python",
+   "stars": 361,
+   "forks": 145,
+   "age_days": 2,
+   "daily_stars": 180.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 100,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "description": "Skills for Real Engineers. Straight from my .agents directory.",
+   "language": "Shell",
+   "stars": 224152,
+   "forks": 19273,
+   "age_days": 197,
+   "daily_stars": 1137.8274111675128,
+   "real_daily_stars": 1264.5454545454545,
+   "watchers": 1274,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "description": "An agentic skills framework & software development methodology that works.",
+   "language": "Shell",
+   "stars": 274419,
+   "forks": 24566,
+   "age_days": 314,
+   "daily_stars": 873.9458598726114,
+   "real_daily_stars": 464.3333333333333,
+   "watchers": 1036,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  }
+ ]
+}

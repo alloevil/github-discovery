@@ -5,8 +5,71 @@
     <description>Discover trending GitHub repos before they go viral</description>
     <link>https://alloevil.github.io/github-discovery</link>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 18:00:00 +0000</lastBuildDate>
     <atom:link href="https://alloevil.github.io/github-discovery/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>🔥 volcengine/OpenViking — 30432⭐ (852.0/day)</title>
+      <description>Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/volcengine/OpenViking</link>
+      <guid>https://github.com/volcengine/OpenViking#2026-08-20</guid>
+      <pubDate>Thu, 20 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 chaitanyagiri/munder-difflin — 2794⭐ (597.0/day)</title>
+      <description>local multi-agent harness
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/chaitanyagiri/munder-difflin</link>
+      <guid>https://github.com/chaitanyagiri/munder-difflin#2026-08-20</guid>
+      <pubDate>Thu, 20 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 immich-app/immich — 111978⭐ (341.0/day)</title>
+      <description>High performance self-hosted photo and video management solution.
+
+Score: 100/100 | Language: TypeScript</description>
+      <link>https://github.com/immich-app/immich</link>
+      <guid>https://github.com/immich-app/immich#2026-08-20</guid>
+      <pubDate>Thu, 20 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 nautechsystems/nautilus_trader — 26526⭐ (240.5/day)</title>
+      <description>Production-grade Rust-native trading engine with deterministic event-driven architecture
+
+Score: 100/100 | Language: Rust</description>
+      <link>https://github.com/nautechsystems/nautilus_trader</link>
+      <guid>https://github.com/nautechsystems/nautilus_trader#2026-08-20</guid>
+      <pubDate>Thu, 20 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 Leutenegger/watermarks-remover — 914⭐ (914.0/day)</title>
+      <description>Remove multi-vendor AI provenance traces: Unicode text sanitization, statistical rewriting techniques, and C2PA/metadata stripping from PNG/JPEG/SVG/PDF/DOCX/HTML/MD files
+
+Score: 100/100 | Language: Python</description>
+      <link>https://github.com/Leutenegger/watermarks-remover</link>
+      <guid>https://github.com/Leutenegger/watermarks-remover#2026-08-20</guid>
+      <pubDate>Thu, 20 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 mattpocock/skills — 224152⭐ (1264.5/day)</title>
+      <description>Skills for Real Engineers. Straight from my .agents directory.
+
+Score: 100/100 | Language: Shell</description>
+      <link>https://github.com/mattpocock/skills</link>
+      <guid>https://github.com/mattpocock/skills#2026-08-20</guid>
+      <pubDate>Thu, 20 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>🔥 obra/superpowers — 274419⭐ (464.3/day)</title>
+      <description>An agentic skills framework &amp; software development methodology that works.
+
+Score: 100/100 | Language: Shell</description>
+      <link>https://github.com/obra/superpowers</link>
+      <guid>https://github.com/obra/superpowers#2026-08-20</guid>
+      <pubDate>Thu, 20 Aug 2026 18:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>🔥 akitaonrails/ai-memory — 2867⭐ (620.0/day)</title>
       <description>Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors
@@ -474,69 +537,6 @@ Score: 69/100 | Language: Python</description>
       <link>https://github.com/NanmiCoder/MediaCrawler</link>
       <guid>https://github.com/NanmiCoder/MediaCrawler#2026-08-11</guid>
       <pubDate>Tue, 11 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 pranshuparmar/witr — 20897⭐ (518.0/day)</title>
-      <description>Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.
-
-Score: 100/100 | Language: Go</description>
-      <link>https://github.com/pranshuparmar/witr</link>
-      <guid>https://github.com/pranshuparmar/witr#2026-08-10</guid>
-      <pubDate>Mon, 10 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 MengTo/kage — 662⭐ (662.0/day)</title>
-      <description>An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js.
-
-Score: 100/100 | Language: HTML</description>
-      <link>https://github.com/MengTo/kage</link>
-      <guid>https://github.com/MengTo/kage#2026-08-10</guid>
-      <pubDate>Mon, 10 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 sv-number/mcp-server — 328⭐ (164.0/day)</title>
-      <description>MCP server for AI agents that need a phone number: order a private number in any country, read the SMS verification code, hand it back.
-
-Score: 100/100 | Language: JavaScript</description>
-      <link>https://github.com/sv-number/mcp-server</link>
-      <guid>https://github.com/sv-number/mcp-server#2026-08-10</guid>
-      <pubDate>Mon, 10 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 SaladDay/pi-from-scratch — 138⭐ (138.0/day)</title>
-      <description>600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent
-
-Score: 100/100 | Language: TypeScript</description>
-      <link>https://github.com/SaladDay/pi-from-scratch</link>
-      <guid>https://github.com/SaladDay/pi-from-scratch#2026-08-10</guid>
-      <pubDate>Mon, 10 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 MengMengCode/VoCat — 120⭐ (120.0/day)</title>
-      <description>Vocat is an open-source web control panel and engineering toolkit for Quectel EC20/EC25-class cellular modems. It combines modem discovery, live radio status, AT and USSD terminals, SMS, WiFi Calling, eSIM management, network selection, proxy routing, notifications, audit logs, and release automation in one self-contained service.
-
-Score: 100/100 | Language: Go</description>
-      <link>https://github.com/MengMengCode/VoCat</link>
-      <guid>https://github.com/MengMengCode/VoCat#2026-08-10</guid>
-      <pubDate>Mon, 10 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 msitarzewski/agency-agents — 141077⭐ (470.3/day)</title>
-      <description>A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-
-Score: 100/100 | Language: Shell</description>
-      <link>https://github.com/msitarzewski/agency-agents</link>
-      <guid>https://github.com/msitarzewski/agency-agents#2026-08-10</guid>
-      <pubDate>Mon, 10 Aug 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>🔥 pingdotgg/t3code — 17755⭐ (97.6/day)</title>
-      <description>No description
-
-Score: 67/100 | Language: TypeScript</description>
-      <link>https://github.com/pingdotgg/t3code</link>
-      <guid>https://github.com/pingdotgg/t3code#2026-08-10</guid>
-      <pubDate>Mon, 10 Aug 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

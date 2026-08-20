@@ -34,14 +34,15 @@
       "last_recommended": "2026-07-25T07:03:07.358250+00:00"
     },
     "obra/superpowers": {
-      "count": 4,
+      "count": 5,
       "scores": [
+        100,
         100,
         100,
         100,
         100
       ],
-      "last_recommended": "2026-08-05T07:25:08.924121+00:00"
+      "last_recommended": "2026-08-20T05:15:36.168194+00:00"
     },
     "ChromeDevTools/chrome-devtools-mcp": {
       "count": 2,
@@ -60,14 +61,15 @@
       "last_recommended": "2026-07-26T07:19:52.642714+00:00"
     },
     "mattpocock/skills": {
-      "count": 4,
+      "count": 5,
       "scores": [
+        100,
         100,
         100,
         100,
         100
       ],
-      "last_recommended": "2026-08-07T06:01:49.989610+00:00"
+      "last_recommended": "2026-08-20T05:15:36.166064+00:00"
     },
     "ruvnet/RuView": {
       "count": 3,
@@ -223,20 +225,6 @@
       ],
       "last_recommended": "2026-08-03T08:03:45.537497+00:00"
     },
-    "bojieli/ai-agent-book": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-20T07:46:16.166796+00:00"
-    },
-    "kvcache-ai/ktransformers": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-20T07:46:16.169644+00:00"
-    },
     "jamiepine/voicebox": {
       "count": 2,
       "scores": [
@@ -244,55 +232,6 @@
         100
       ],
       "last_recommended": "2026-08-04T07:24:17.871217+00:00"
-    },
-    "KnockOutEZ/wigolo": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-20T07:46:16.174888+00:00"
-    },
-    "AstrBotDevs/AstrBot": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-20T07:46:16.177536+00:00"
-    },
-    "trycua/cua": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-20T07:46:16.180177+00:00"
-    },
-    "v-modal/vmodal_sdk_flutter": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-20T07:46:16.182705+00:00"
-    },
-    "hoainho/img2threejs": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-20T07:46:16.185257+00:00"
-    },
-    "xiejunjie524/handdraw-story-video": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-20T07:46:16.188333+00:00"
-    },
-    "microsoft/terminal": {
-      "count": 1,
-      "scores": [
-        98
-      ],
-      "last_recommended": "2026-07-20T07:46:16.191071+00:00"
     },
     "1jehuang/jcode": {
       "count": 2,
@@ -2274,7 +2213,77 @@
         100
       ],
       "last_recommended": "2026-08-19T05:14:38.146427+00:00"
+    },
+    "volcengine/OpenViking": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-20T05:15:36.135063+00:00"
+    },
+    "chaitanyagiri/munder-difflin": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-20T05:15:36.138543+00:00"
+    },
+    "immich-app/immich": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-20T05:15:36.141890+00:00"
+    },
+    "nautechsystems/nautilus_trader": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-20T05:15:36.144960+00:00"
+    },
+    "Leutenegger/watermarks-remover": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-20T05:15:36.148096+00:00"
+    },
+    "DenisSergeevitch/desktop-fly": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-20T05:15:36.151255+00:00"
+    },
+    "CopilotKit/openbot": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-20T05:15:36.154411+00:00"
+    },
+    "genlayerlabs/genlayer-project-boilerplate": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-20T05:15:36.157625+00:00"
+    },
+    "vvxw/deploy-vercel": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-20T05:15:36.160765+00:00"
+    },
+    "flaqai/backlink_skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-20T05:15:36.163940+00:00"
     }
   },
-  "updated_at": "2026-08-19T05:14:38.146455+00:00"
+  "updated_at": "2026-08-20T05:15:36.168228+00:00"
 }
