@@ -1,0 +1,309 @@
+{
+ "date": "2026-08-21",
+ "generated_at": "2026-08-21T05:16:33.498070",
+ "new": [
+  {
+   "full_name": "CopilotKit/OpenBot",
+   "url": "https://github.com/CopilotKit/OpenBot",
+   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+   "language": "TypeScript",
+   "stars": 1753,
+   "forks": 182,
+   "age_days": 4,
+   "daily_stars": 438.25,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "missuo/herdrm",
+   "url": "https://github.com/missuo/herdrm",
+   "description": "Native macOS console for herdr — all your coding agents and their live terminals, across devices",
+   "language": "Swift",
+   "stars": 571,
+   "forks": 34,
+   "age_days": 1,
+   "daily_stars": 571.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 92,
+    "acceleration": 36,
+    "quality": 26,
+    "antispam": 30,
+    "quality_bonus": 17
+   }
+  },
+  {
+   "full_name": "JuliusBrussee/caveman",
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+   "language": "Go",
+   "stars": 99739,
+   "forks": 5776,
+   "age_days": 138,
+   "daily_stars": 722.7463768115942,
+   "watchers": 237,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "xdreizein666/getcontact-cli",
+   "url": "https://github.com/xdreizein666/getcontact-cli",
+   "description": "GetContact CLI adalah project Python untuk melakukan lookup nomor telepon lewat API GetContact, tanpa aplikasi Android dan tanpa browser.",
+   "language": "Python",
+   "stars": 305,
+   "forks": 70,
+   "age_days": 1,
+   "daily_stars": 305.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 89,
+    "acceleration": 34,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "franselstadt/ELVET",
+   "url": "https://github.com/franselstadt/ELVET",
+   "description": "ΕΛΒΕΤ — desktop toolbox for domain, aerospace, logistics, and embedded engineers",
+   "language": "C#",
+   "stars": 85,
+   "forks": 7,
+   "age_days": 1,
+   "daily_stars": 85.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "jaredrhod/barehands",
+   "url": "https://github.com/jaredrhod/barehands",
+   "description": "Move things on your screen with your bare hands. A webcam-powered, hand-tracked interface for your AI. No headset. No controllers.",
+   "language": "HTML",
+   "stars": 486,
+   "forks": 91,
+   "age_days": 5,
+   "daily_stars": 97.2,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "jaime0815/WeChatWatcher",
+   "url": "https://github.com/jaime0815/WeChatWatcher",
+   "description": "读取微信本地文件，把消息按 会话（人/群）— 时间 — 类型（文字/图片/视频/文件/…） 结构化组织，并通过文件变化监听实现新消息的秒级增量解析",
+   "language": "Python",
+   "stars": 179,
+   "forks": 108,
+   "age_days": 1,
+   "daily_stars": 179.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 86,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "iAmCorey/Wake",
+   "url": "https://github.com/iAmCorey/Wake",
+   "description": "Every coding-agent session on your Mac in one place — browse, search, resume. Rust + GPUI.",
+   "language": "Rust",
+   "stars": 345,
+   "forks": 20,
+   "age_days": 2,
+   "daily_stars": 172.5,
+   "real_daily_stars": 164.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 85,
+    "acceleration": 25,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "LegoX/Lego-RL",
+   "url": "https://github.com/LegoX/Lego-RL",
+   "description": "Lego-RL: Harness-Native Reinforcement Learning for Coding Agents",
+   "language": "Python",
+   "stars": 38,
+   "forks": 2,
+   "age_days": 23,
+   "daily_stars": 1.6521739130434783,
+   "real_daily_stars": 22.0,
+   "watchers": 1,
+   "source": "hf-papers",
+   "sources": [
+    "hf-papers"
+   ],
+   "license": "Apache-2.0",
+   "hf_title": "LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents",
+   "hf_upvotes": 19,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 85,
+    "acceleration": 25,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "AprilNEA/OpenLogi",
+   "url": "https://github.com/AprilNEA/OpenLogi",
+   "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+   "language": "Rust",
+   "stars": 12095,
+   "forks": 328,
+   "age_days": 88,
+   "daily_stars": 137.4431818181818,
+   "watchers": 47,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 84,
+    "acceleration": 24,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "RyanCodrai/turbovec",
+   "url": "https://github.com/RyanCodrai/turbovec",
+   "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+   "language": "Rust",
+   "stars": 16002,
+   "forks": 1389,
+   "age_days": 147,
+   "daily_stars": 108.85714285714286,
+   "watchers": 66,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 83,
+    "acceleration": 23,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  }
+ ]
+}

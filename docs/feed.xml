@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-08-20T18:00:00Z</updated>
+  <updated>2026-08-21T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>CopilotKit/OpenBot — Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.</title>
+    <id>https://github.com/CopilotKit/OpenBot#2026-08-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/CopilotKit/OpenBot"/>
+    <updated>2026-08-21T18:00:00Z</updated>
+    <published>2026-08-21T18:00:00Z</published>
+    <summary>Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.
+
+Why: +438/day · Search
+Score: 93/100 | Language: TypeScript | ⭐ 1753 (+438.2/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>missuo/herdrm — Native macOS console for herdr — all your coding agents and their live terminals, across devices</title>
+    <id>https://github.com/missuo/herdrm#2026-08-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/missuo/herdrm"/>
+    <updated>2026-08-21T18:00:00Z</updated>
+    <published>2026-08-21T18:00:00Z</published>
+    <summary>Native macOS console for herdr — all your coding agents and their live terminals, across devices
+
+Why: +571/day · Search
+Score: 92/100 | Language: Swift | ⭐ 571 (+571.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>JuliusBrussee/caveman — 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman</title>
+    <id>https://github.com/JuliusBrussee/caveman#2026-08-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/JuliusBrussee/caveman"/>
+    <updated>2026-08-21T18:00:00Z</updated>
+    <published>2026-08-21T18:00:00Z</published>
+    <summary>🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
+
+Why: +723/day · Trending
+Score: 90/100 | Language: Go | ⭐ 99739 (+722.7/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>xdreizein666/getcontact-cli — GetContact CLI adalah project Python untuk melakukan lookup nomor telepon lewat API GetContact, tanpa aplikasi Android dan tanpa browser.</title>
+    <id>https://github.com/xdreizein666/getcontact-cli#2026-08-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/xdreizein666/getcontact-cli"/>
+    <updated>2026-08-21T18:00:00Z</updated>
+    <published>2026-08-21T18:00:00Z</published>
+    <summary>GetContact CLI adalah project Python untuk melakukan lookup nomor telepon lewat API GetContact, tanpa aplikasi Android dan tanpa browser.
+
+Why: +305/day · Search
+Score: 89/100 | Language: Python | ⭐ 305 (+305.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>franselstadt/ELVET — ΕΛΒΕΤ — desktop toolbox for domain, aerospace, logistics, and embedded engineers</title>
+    <id>https://github.com/franselstadt/ELVET#2026-08-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/franselstadt/ELVET"/>
+    <updated>2026-08-21T18:00:00Z</updated>
+    <published>2026-08-21T18:00:00Z</published>
+    <summary>ΕΛΒΕΤ — desktop toolbox for domain, aerospace, logistics, and embedded engineers
+
+Why: +85/day · AI/ML
+Score: 87/100 | Language: C# | ⭐ 85 (+85.0/day) | Source: ai-trending</summary>
+  </entry>
+  <entry>
+    <title>RyanCodrai/turbovec — A vector index built on TurboQuant, written in Rust with Python bindings</title>
+    <id>https://github.com/RyanCodrai/turbovec#2026-08-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/RyanCodrai/turbovec"/>
+    <updated>2026-08-21T18:00:00Z</updated>
+    <published>2026-08-21T18:00:00Z</published>
+    <summary>A vector index built on TurboQuant, written in Rust with Python bindings
+
+Why: +109/day · Trending
+Score: 83/100 | Language: Rust | ⭐ 16002 (+108.9/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>volcengine/OpenViking — Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.</title>
     <id>https://github.com/volcengine/OpenViking#2026-08-20</id>
@@ -855,82 +921,5 @@ Score: 100/100 | Language: Swift | ⭐ 436 (+109.0/day) | Source: search</summar
 
 Why: +24/day · Trending
 Score: 65/100 | Language: Go | ⭐ 7162 (+23.8/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>cloudflare/computer — Give your agent a computer 👾</title>
-    <id>https://github.com/cloudflare/computer#2026-08-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/cloudflare/computer"/>
-    <updated>2026-08-07T18:00:00Z</updated>
-    <published>2026-08-07T18:00:00Z</published>
-    <summary>Give your agent a computer 👾
-
-Why: +1159/day · Trending · 14.4x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 4989 (+1159.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>huangruiteng/loopx — Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.</title>
-    <id>https://github.com/huangruiteng/loopx#2026-08-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/huangruiteng/loopx"/>
-    <updated>2026-08-07T18:00:00Z</updated>
-    <published>2026-08-07T18:00:00Z</published>
-    <summary>Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.
-
-Why: +623/day · Trending · 13.7x accelerating
-Score: 100/100 | Language: Python | ⭐ 3044 (+623.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>firecrawl/anydoc — Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.</title>
-    <id>https://github.com/firecrawl/anydoc#2026-08-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/firecrawl/anydoc"/>
-    <updated>2026-08-07T18:00:00Z</updated>
-    <published>2026-08-07T18:00:00Z</published>
-    <summary>Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.
-
-Why: +3308/day · Search
-Score: 100/100 | Language: Rust | ⭐ 9114 (+3308.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>Accio-org/RealReplicaBench — RealReplicaBench: Benchmarking Long-Horizon Agents in High-Fidelity, Stateful, and Reproducible Replicas of Real Online Services</title>
-    <id>https://github.com/Accio-org/RealReplicaBench#2026-08-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Accio-org/RealReplicaBench"/>
-    <updated>2026-08-07T18:00:00Z</updated>
-    <published>2026-08-07T18:00:00Z</published>
-    <summary>RealReplicaBench: Benchmarking Long-Horizon Agents in High-Fidelity, Stateful, and Reproducible Replicas of Real Online Services
-
-Why: +207/day · Search
-Score: 100/100 | Language: HTML | ⭐ 1037 (+207.4/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>nfzerox/VirtualMacOniPad — People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. With Virtual Mac, iPad finally breaks free from iPadOS, enabling pro apps like Xcode and Terminal to run directly on device. Requires iPad Pro (M1, M2) or iPad Air (M1) running iPadOS 16 up to 16.3.1.</title>
-    <id>https://github.com/nfzerox/VirtualMacOniPad#2026-08-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/nfzerox/VirtualMacOniPad"/>
-    <updated>2026-08-07T18:00:00Z</updated>
-    <published>2026-08-07T18:00:00Z</published>
-    <summary>People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. With Virtual Mac, iPad finally breaks free from iPadOS, enabling pro apps like Xcode and Terminal to run directly on device. Requires iPad Pro (M1, M2) or iPad Air (M1) running iPadOS 16 up to 16.3.1.
-
-Why: +157/day · Search
-Score: 100/100 | Language: Objective-C | ⭐ 471 (+157.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>mattpocock/skills — Skills for Real Engineers. Straight from my .agents directory.</title>
-    <id>https://github.com/mattpocock/skills#2026-08-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mattpocock/skills"/>
-    <updated>2026-08-07T18:00:00Z</updated>
-    <published>2026-08-07T18:00:00Z</published>
-    <summary>Skills for Real Engineers. Straight from my .agents directory.
-
-Why: +1128/day · Trending
-Score: 100/100 | Language: Shell | ⭐ 207520 (+1127.8/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>tirth8205/code-review-graph — Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.</title>
-    <id>https://github.com/tirth8205/code-review-graph#2026-08-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/tirth8205/code-review-graph"/>
-    <updated>2026-08-07T18:00:00Z</updated>
-    <published>2026-08-07T18:00:00Z</published>
-    <summary>Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.
-
-Why: +181/day · Trending
-Score: 70/100 | Language: Python | ⭐ 29143 (+181.0/day) | Source: trending</summary>
   </entry>
 </feed>

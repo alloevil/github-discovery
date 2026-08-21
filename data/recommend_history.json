@@ -1,13 +1,5 @@
 {
   "repos": {
-    "every-app/open-seo": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-07-21T07:20:10.082853+00:00"
-    },
     "msitarzewski/agency-agents": {
       "count": 3,
       "scores": [
@@ -16,14 +8,6 @@
         100
       ],
       "last_recommended": "2026-08-10T06:03:18.366876+00:00"
-    },
-    "diegosouzapw/OmniRoute": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-07-21T07:20:09.870016+00:00"
     },
     "CoreBunch/Instatic": {
       "count": 2,
@@ -210,12 +194,13 @@
       "last_recommended": "2026-08-07T06:01:49.991531+00:00"
     },
     "RyanCodrai/turbovec": {
-      "count": 2,
+      "count": 3,
       "scores": [
         100,
-        100
+        100,
+        83
       ],
-      "last_recommended": "2026-07-26T07:19:52.637179+00:00"
+      "last_recommended": "2026-08-21T05:16:33.277511+00:00"
     },
     "lyogavin/airllm": {
       "count": 2,
@@ -240,48 +225,6 @@
         100
       ],
       "last_recommended": "2026-07-30T07:20:26.214951+00:00"
-    },
-    "topoteretes/cognee": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-21T07:20:10.079665+00:00"
-    },
-    "PrefectHQ/fastmcp": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-21T07:20:10.160236+00:00"
-    },
-    "iptv-org/iptv": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-21T07:20:10.163233+00:00"
-    },
-    "oblien/openship": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-21T07:20:10.176201+00:00"
-    },
-    "EthanXiang777/circuit-framework": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-21T07:20:10.179299+00:00"
-    },
-    "MIgHTy-alIeN/Trading-Bot": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-21T07:20:10.181972+00:00"
     },
     "koala73/worldmonitor": {
       "count": 1,
@@ -2283,7 +2226,77 @@
         100
       ],
       "last_recommended": "2026-08-20T05:15:36.163940+00:00"
+    },
+    "CopilotKit/OpenBot": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-08-21T05:16:33.256039+00:00"
+    },
+    "missuo/herdrm": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-08-21T05:16:33.258878+00:00"
+    },
+    "JuliusBrussee/caveman": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-08-21T05:16:33.260948+00:00"
+    },
+    "xdreizein666/getcontact-cli": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-08-21T05:16:33.263184+00:00"
+    },
+    "franselstadt/ELVET": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-08-21T05:16:33.265266+00:00"
+    },
+    "jaredrhod/barehands": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-08-21T05:16:33.267336+00:00"
+    },
+    "jaime0815/WeChatWatcher": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-08-21T05:16:33.269386+00:00"
+    },
+    "iAmCorey/Wake": {
+      "count": 1,
+      "scores": [
+        85
+      ],
+      "last_recommended": "2026-08-21T05:16:33.271420+00:00"
+    },
+    "LegoX/Lego-RL": {
+      "count": 1,
+      "scores": [
+        85
+      ],
+      "last_recommended": "2026-08-21T05:16:33.273449+00:00"
+    },
+    "AprilNEA/OpenLogi": {
+      "count": 1,
+      "scores": [
+        84
+      ],
+      "last_recommended": "2026-08-21T05:16:33.275471+00:00"
     }
   },
-  "updated_at": "2026-08-20T05:15:36.168228+00:00"
+  "updated_at": "2026-08-21T05:16:33.277539+00:00"
 }
