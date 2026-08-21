@@ -10,17 +10,6 @@ GITHUB_API = "https://api.github.com"
 RESEND_API_KEY = os.environ.get("RESEND_API_KEY", "")
 GITHUB_TRENDING_URL = "https://github.com/trending?since=daily"
 
-# ── 订阅生命周期（issue #10）─────────────────────────────────────────
-# GAS Web App 端点：subscribe（POST）/ confirm / unsubscribe（GET）共用。
-# 与 docs/template.html 订阅表单指向的部署一致。
-SUBSCRIBE_ENDPOINT = os.environ.get(
-    "SUBSCRIBE_ENDPOINT",
-    "https://script.google.com/macros/s/AKfycbzU-my3_JCqauuMwIWL2ps84hZ46lKWSeQ9zSYFay-xhoE9MaXpXH_i08roJo4fRuPf1Q/exec",
-)
-# 退订链接签名密钥。必须与 GAS 脚本属性 UNSUBSCRIBE_SECRET 一致，
-# 否则 GAS 会拒绝 digest 邮件里生成的退订 token。
-UNSUBSCRIBE_SECRET = os.environ.get("UNSUBSCRIBE_SECRET", "")
-
 # Hacker News API
 HN_API = "https://hacker-news.firebaseio.com/v0"
 

@@ -105,8 +105,6 @@ Every day it collects signals from 6 data sources, runs them through a smart sco
 ### Email Subscription
 
 - Daily curated repos delivered to your inbox
-- Double opt-in: subscriptions only activate after the confirmation link is clicked
-- One-click unsubscribe in every digest (`List-Unsubscribe` / RFC 8058 headers included)
 - Dark mode support (Apple Mail / iOS)
 - Powered by Resend API
 
@@ -139,33 +137,16 @@ Go to **Settings → Secrets and variables → Actions** and add:
 | `RESEND_API_KEY` | ✅ | [Resend](https://resend.com/) API Key for sending emails |
 | `GITHUB_TOKEN` | ❌ | GitHub Personal Access Token (optional, uses GITHUB_TOKEN by default) |
 | `FIRECRAWL_API_KEY` | ❌ | [Firecrawl](https://firecrawl.dev) key. Makes GitHub Trending parsing robust (scrapes the page instead of regex-matching raw HTML). Without it, Trending falls back to direct HTML scraping. |
-| `UNSUBSCRIBE_SECRET` | ✅ (for email) | Random secret that signs unsubscribe links in digest emails. Must match the `UNSUBSCRIBE_SECRET` script property of the Apps Script deployment (see below). |
 
-### 3. Deploy the subscribe/unsubscribe endpoint (Google Apps Script)
-
-The subscription form, confirmation links, and unsubscribe links are all served
-by one Apps Script Web App (`scripts/subscribe_handler.gs`):
-
-1. Create a Google Sheet for subscribers and note its ID.
-2. Open [script.google.com](https://script.google.com), create a project, and paste in `scripts/subscribe_handler.gs`. Set `SHEET_ID` at the top.
-3. In **Project Settings → Script Properties**, add:
-   - `GITHUB_TOKEN` — a PAT with `contents: write` on your fork (syncs `subscribers.txt`).
-   - `UNSUBSCRIBE_SECRET` — a long random string; use the **same value** for the `UNSUBSCRIBE_SECRET` Actions secret in step 2.
-4. **Deploy → New deployment → Web app**, execute as **Me**, access **Anyone**. Copy the `/exec` URL.
-5. Point the site form and digest links at your deployment: replace the endpoint URL in `docs/template.html` (`handleSubscribe`) and set the `SUBSCRIBE_ENDPOINT` env var (or edit the default in `scripts/config.py`).
-
-After deploying: new subscribers get a confirmation email and only start receiving
-digests once they click it; every digest carries a signed one-click unsubscribe link.
-
-### 4. Enable GitHub Actions
+### 3. Enable GitHub Actions
 
 Go to **Actions** and click **I understand my workflows, go ahead and enable them**.
 
-### 5. Test manually
+### 4. Test manually
 
 Go to **Actions → Daily Discovery → Run workflow** to trigger a test run.
 
-### 6. View results
+### 5. View results
 
 - **GitHub Pages**: Visit `https://<your-username>.github.io/github-discovery/`
 - **Email**: Subscribers receive daily digests

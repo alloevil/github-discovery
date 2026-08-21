@@ -7,22 +7,16 @@ Outputs top repos as markdown to stdout and file.
 import os
 import sys
 import json
-import hmac
 import html
-import hashlib
 import subprocess
 import urllib.request
 import urllib.error
-from urllib.parse import quote
 from datetime import datetime
 
 # Ensure we can import sibling modules
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from config import (
-    TOP_N, DEEP_CHECK_TOP_K, OUTPUT_DIR, DATA_DIR, RESEND_API_KEY,
-    SUBSCRIBE_ENDPOINT, UNSUBSCRIBE_SECRET,
-)
+from config import TOP_N, DEEP_CHECK_TOP_K, OUTPUT_DIR, DATA_DIR, RESEND_API_KEY
 from sources import fetch_all
 from scorer import calculate_score, merge_quality_bonus, build_reason
 from dedup import (
@@ -49,38 +43,13 @@ def get_subscribers() -> list[str]:
     return emails
 
 
-# 每封邮件的退订链接是收件人专属的（含签名 token），但 digest 正文
-# 全员共享 —— 正文里放占位符，_send_single_email 发送时按收件人替换。
-UNSUB_PLACEHOLDER = "%%UNSUBSCRIBE_URL%%"
-
-
-def unsubscribe_token(email: str) -> str:
-    """HMAC-SHA256(secret, email) —— GAS 端用同一 secret 验证，
-    防止任意人构造 URL 把别人退订。"""
-    return hmac.new(
-        UNSUBSCRIBE_SECRET.encode(), email.lower().encode(), hashlib.sha256
-    ).hexdigest()
-
-
-def unsubscribe_url(email: str) -> str:
-    return (f"{SUBSCRIBE_ENDPOINT}?action=unsubscribe"
-            f"&email={quote(email)}&token={unsubscribe_token(email)}")
-
-
 def _send_single_email(recipient: str, subject: str, html_body: str) -> bool:
     """Send one email to one recipient via the Resend API. Returns True on success."""
-    unsub = unsubscribe_url(recipient)
     payload = json.dumps({
         "from": "onboarding@resend.dev",
         "to": [recipient],
         "subject": subject,
-        "html": html_body.replace(UNSUB_PLACEHOLDER, html.escape(unsub, quote=True)),
-        # Gmail/Yahoo 2024 起对批量发件人强制要求 one-click 退订头，
-        # 缺失会直接影响送达率（issue #10）。
-        "headers": {
-            "List-Unsubscribe": f"<{unsub}>",
-            "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
-        },
+        "html": html_body,
     })
 
     try:
@@ -248,7 +217,7 @@ def send_digest_email(date_str: str, top_new: list) -> str:
 </div>
 
 <div style="margin-top:24px;padding-top:16px;border-top:1px solid #23252a;">
-<p style="color:#62666d;font-size:11px;margin:0;">Sent by <a href="https://github.com/alloevil/github-discovery" style="color:#8a8f98;">GitHub Discovery</a> · <a href="{UNSUB_PLACEHOLDER}" style="color:#8a8f98;">Unsubscribe</a></p>
+<p style="color:#62666d;font-size:11px;margin:0;">Sent by <a href="https://github.com/alloevil/github-discovery" style="color:#8a8f98;">GitHub Discovery</a></p>
 </div>
 
 </div>

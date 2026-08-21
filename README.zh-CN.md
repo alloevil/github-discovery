@@ -105,8 +105,6 @@ GitHub Discovery 告诉你什么**即将火起来**——增长曲线异常的�
 ### 邮件订阅
 
 - 每日精选仓库直达你的收件箱
-- 双重确认（double opt-in）：点击确认邮件里的链接后订阅才生效
-- 每封 digest 都带一键退订链接（含 `List-Unsubscribe` / RFC 8058 头）
 - 支持深色模式（Apple Mail / iOS）
 - 基于 Resend API 发送
 
@@ -139,33 +137,16 @@ GitHub Discovery 告诉你什么**即将火起来**——增长曲线异常的�
 | `RESEND_API_KEY` | ✅ | [Resend](https://resend.com/) API Key，用于发送邮件 |
 | `GITHUB_TOKEN` | ❌ | GitHub Personal Access Token（可选，默认使用 GITHUB_TOKEN） |
 | `FIRECRAWL_API_KEY` | ❌ | [Firecrawl](https://firecrawl.dev) 的 key。让 GitHub Trending 的解析更健壮（抓取页面而不是正则匹配原始 HTML）。不配置时 Trending 回退为直接抓取 HTML。 |
-| `UNSUBSCRIBE_SECRET` | ✅（发邮件时） | 给 digest 邮件里的退订链接签名的随机密钥。必须与 Apps Script 部署的 `UNSUBSCRIBE_SECRET` 脚本属性一致（见下文）。 |
 
-### 3. 部署订阅/退订端点（Google Apps Script）
-
-订阅表单、确认链接、退订链接都由同一个 Apps Script Web App
-（`scripts/subscribe_handler.gs`）提供服务：
-
-1. 建一个存订阅者的 Google Sheet，记下其 ID。
-2. 打开 [script.google.com](https://script.google.com) 新建项目，粘贴 `scripts/subscribe_handler.gs`，把顶部的 `SHEET_ID` 改成你的。
-3. 在 **项目设置 → 脚本属性** 添加：
-   - `GITHUB_TOKEN` — 对你 fork 有 `contents: write` 权限的 PAT（用于同步 `subscribers.txt`）。
-   - `UNSUBSCRIBE_SECRET` — 一串足够长的随机字符串；与第 2 步 Actions secret 里的 `UNSUBSCRIBE_SECRET` 保持**同一个值**。
-4. **部署 → 新建部署 → Web 应用**，执行身份选 **我**，访问权限选 **任何人**，复制 `/exec` URL。
-5. 把站点表单和邮件链接指向你的部署：替换 `docs/template.html`（`handleSubscribe`）里的端点 URL，并设置 `SUBSCRIBE_ENDPOINT` 环境变量（或直接改 `scripts/config.py` 里的默认值）。
-
-部署后：新订阅者会先收到确认邮件，点击链接后才开始收 digest；
-每封 digest 都带签名的一键退订链接。
-
-### 4. 启用 GitHub Actions
+### 3. 启用 GitHub Actions
 
 进入 **Actions**，点击 **I understand my workflows, go ahead and enable them**。
 
-### 5. 手动测试
+### 4. 手动测试
 
 进入 **Actions → Daily Discovery → Run workflow** 触发一次测试运行。
 
-### 6. 查看结果
+### 5. 查看结果
 
 - **GitHub Pages**：访问 `https://<your-username>.github.io/github-discovery/`
 - **邮件**：订阅者每天收到日报
