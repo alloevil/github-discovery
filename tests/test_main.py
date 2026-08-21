@@ -283,3 +283,47 @@ class TestMainPipeline:
         data = json.loads((data_dir / f"discovery-{today}.json").read_text())
         assert [e["full_name"] for e in data["new"]] == ["brand/new"]
         assert [e["full_name"] for e in data["repeat"]] == ["seen/before"]
+
+
+class TestDigestReasonLine:
+    """#9:每张邮件卡片带「为什么推荐」理由行,裸分不再按分数高亮。"""
+
+    def _send(self, repo, scores):
+        captured = {}
+        def fake_send(to, subject, html):
+            captured["html"] = html
+            return "sent"
+        with patch("main.get_subscribers", return_value=["a@b.com"]), \
+             patch("main.send_email_via_resend", side_effect=fake_send):
+            main.send_digest_email("2026-08-21", [(repo, scores)])
+        return captured["html"]
+
+    def test_reason_line_in_email(self):
+        repo = {"full_name": "u/r", "url": "https://github.com/u/r",
+                "stars": 5000, "age_days": 5, "daily_stars": 1000.0,
+                "real_daily_stars": 852.0, "language": "Python",
+                "description": "x", "sources": ["trending", "hn"], "source": "trending"}
+        html = self._send(repo, {"total": 100})
+        assert "+852/day" in html
+        assert "Trending+HN" in html
+
+    def test_head_entries_distinguishable(self):
+        """两个 100 分条目的渲染行必须不同(理由行提供区分度)。"""
+        mk = lambda name, rd, srcs: {
+            "full_name": name, "url": f"https://github.com/{name}",
+            "stars": 1000, "age_days": 10, "daily_stars": 100.0,
+            "real_daily_stars": rd, "language": "Go",
+            "description": "same desc", "sources": srcs, "source": srcs[0]}
+        captured = {}
+        def fake_send(to, subject, html):
+            captured["html"] = html
+            return "sent"
+        with patch("main.get_subscribers", return_value=["a@b.com"]), \
+             patch("main.send_email_via_resend", side_effect=fake_send):
+            main.send_digest_email("2026-08-21", [
+                (mk("a/b", 500.0, ["trending"]), {"total": 100}),
+                (mk("c/d", 120.0, ["hn", "rising"]), {"total": 100}),
+            ])
+        html = captured["html"]
+        assert "+500/day" in html and "+120/day" in html
+        assert "HN+Rising" in html

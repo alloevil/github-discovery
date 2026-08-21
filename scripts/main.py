@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from config import TOP_N, DEEP_CHECK_TOP_K, OUTPUT_DIR, DATA_DIR, RESEND_API_KEY
 from sources import fetch_all
-from scorer import calculate_score, merge_quality_bonus
+from scorer import calculate_score, merge_quality_bonus, build_reason
 from dedup import (
     is_recently_recommended, was_recommended_before,
     record_recommendation, cleanup_old_records,
@@ -145,10 +145,11 @@ def send_digest_email(date_str: str, top_new: list) -> str:
         owner = html.escape(name.split('/')[0] if '/' in name else '')
         repo_short = html.escape(name.split('/')[1] if '/' in name else name)
         avatar = html.escape(f"https://github.com/{owner}.png" if owner else "", quote=True)
-        sc_color = '#f0ad4e' if score >= 98 else '#5e6ad2' if score >= 95 else '#8a8f98'
-        sc_bg = '#f0ad4e18' if score >= 98 else '#5e6ad218' if score >= 95 else '#ffffff08'
+        # 裸分降权（#9）：头部分数饱和成一排 100，按分数变色只会放大
+        # 无意义的数字 —— 统一中性灰，让理由行承担区分度。
         lang_color = '#3572A5' if lang.lower() == 'python' else '#3178c6' if lang.lower() == 'typescript' else '#f1e05a' if lang.lower() == 'javascript' else '#dea584' if lang.lower() == 'rust' else '#00ADD8' if lang.lower() == 'go' else '#8a8f98'
         src_label = html.escape(EMAIL_SOURCE_LABELS.get((repo.get('source') or '').lower(), repo.get('source') or ''))
+        reason = html.escape(build_reason(repo))
 
         repo_lines.append(
             f'<tr style="border-bottom:1px solid #23252a;">'
@@ -160,6 +161,7 @@ def send_digest_email(date_str: str, top_new: list) -> str:
             f'<a href="{url}" style="color:#5e6ad2;text-decoration:none;font-weight:500;font-size:14px;">{repo_short}</a>'
             f'<span style="color:#62666d;font-size:12px;margin-left:4px;">{owner}</span>'
             f'<br><span style="color:#8a8f98;font-size:12px;line-height:1.4;">{desc}</span>'
+            f'<br><span style="color:#5e6ad2;font-size:12px;font-weight:500;">{reason}</span>'
             f'</div></div></td>'
             f'<td style="padding:12px 8px;text-align:right;">'
             f'<span style="color:#d0d6e0;font-size:13px;">{stars:,}</span>'
@@ -169,7 +171,7 @@ def send_digest_email(date_str: str, top_new: list) -> str:
             f'<span style="width:8px;height:8px;border-radius:2px;background:{lang_color};display:inline-block;"></span>'
             f'{lang}</span></td>'
             f'<td style="padding:12px 8px;text-align:center;">'
-            f'<span style="background:{sc_bg};color:{sc_color};padding:2px 8px;border-radius:4px;font-size:12px;font-weight:600;">{score}</span>'
+            f'<span style="background:#ffffff08;color:#8a8f98;padding:2px 8px;border-radius:4px;font-size:12px;">{score}</span>'
             f'</td>'
             f'<td style="padding:12px 8px;text-align:center;">'
             f'<span style="color:#8a8f98;font-size:12px;white-space:nowrap;">{src_label}</span>'

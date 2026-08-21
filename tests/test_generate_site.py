@@ -49,3 +49,35 @@ class TestRepoCardEscaping:
         assert "user /" in html_out
         assert "A normal description" in html_out
         assert 'href="https://github.com/user/repo"' in html_out
+
+
+class TestRepoCardReason:
+    """#9:站点卡片渲染理由行,且裸分不再分级高亮。"""
+
+    def test_reason_line_rendered_and_escaped(self):
+        html_out = generate_site.repo_card(
+            _card(reason='+852/day · Trending+HN · <b>3x</b>'))
+        assert 'class="repo-reason"' in html_out
+        assert '+852/day · Trending+HN' in html_out
+        assert '<b>3x</b>' not in html_out  # 理由行同样必须转义
+
+    def test_fallback_reason_for_legacy_markdown_reports(self):
+        """旧 markdown 报告没有 reason 字段 → 退化为 日增+来源。"""
+        html_out = generate_site.repo_card(_card())
+        assert 'class="repo-reason"' in html_out
+        assert '+16.7/day' in html_out
+        assert 'Trending' in html_out
+
+    def test_score_tag_is_neutral(self):
+        html_out = generate_site.repo_card(_card(score='100'))
+        assert 'score-tag high' not in html_out
+        assert 'Score 100' in html_out
+
+    def test_json_entry_carries_reason(self):
+        entry = {"full_name": "u/r", "url": "https://github.com/u/r",
+                 "stars": 5000, "age_days": 5, "real_daily_stars": 852.0,
+                 "sources": ["trending", "hn"], "language": "Python",
+                 "description": "x", "scores": {"total": 100}}
+        card = generate_site._json_entry_to_card(entry)
+        assert card["reason"].startswith("+852/day")
+        assert "Trending+HN" in card["reason"]

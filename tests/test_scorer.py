@@ -257,3 +257,44 @@ class TestMergeQualityBonus:
     def test_quality_dimension_never_exceeds_max(self):
         scores = scorer.merge_quality_bonus(self._scores(qual=30), 20)
         assert scores["quality"] <= 30
+
+
+class TestBuildReason:
+    """理由行（issue #9）：'+852/day · Trending+HN · 3.2x accelerating'。"""
+
+    def test_contains_daily_velocity_and_sources(self):
+        repo = {"age_days": 5, "stars": 100, "real_daily_stars": 852.0,
+                "sources": ["trending", "hn"]}
+        reason = scorer.build_reason(repo)
+        assert reason.startswith("+852/day")
+        assert "Trending+HN" in reason
+
+    def test_acceleration_shown_when_significant(self):
+        # 终身平均 10/day，真实日增 32/day → 3.2x
+        repo = {"age_days": 100, "stars": 1000, "real_daily_stars": 32.0,
+                "source": "rising"}
+        reason = scorer.build_reason(repo)
+        assert "3.2x accelerating" in reason
+        assert "Rising" in reason
+
+    def test_acceleration_hidden_when_steady(self):
+        """匀速（加速比 < 1.5）不展示加速比 —— 无区分价值。"""
+        repo = {"age_days": 100, "stars": 1000, "real_daily_stars": 11.0,
+                "source": "search"}
+        assert "accelerating" not in scorer.build_reason(repo)
+
+    def test_falls_back_to_lifetime_average_without_snapshot(self):
+        repo = {"age_days": 4, "stars": 200, "source": "trending"}
+        reason = scorer.build_reason(repo)
+        assert reason.startswith("+50/day")
+        assert "accelerating" not in reason
+
+    def test_low_velocity_keeps_one_decimal(self):
+        repo = {"age_days": 100, "stars": 250, "source": "hn"}
+        assert scorer.build_reason(repo).startswith("+2.5/day")
+
+    def test_reasons_distinguish_head_entries(self):
+        """两个都可能是 100 分的头部条目，理由行必须不同。"""
+        a = {"age_days": 3, "stars": 900, "real_daily_stars": 800.0, "sources": ["trending", "hn"]}
+        b = {"age_days": 30, "stars": 9000, "real_daily_stars": 350.0, "sources": ["ai-trending"]}
+        assert scorer.build_reason(a) != scorer.build_reason(b)

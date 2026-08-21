@@ -99,6 +99,50 @@ def merge_quality_bonus(scores: dict, quality_bonus: int) -> dict:
     return scores
 
 
+# 理由行里源名的展示文案（不带 emoji，邮件/站点/feed 通用）
+REASON_SOURCE_LABELS = {
+    "trending": "Trending",
+    "search": "Search",
+    "hn": "HN",
+    "rising": "Rising",
+    "ai-trending": "AI/ML",
+    "hf-papers": "HF Papers",
+}
+
+# 加速比低于该值不值得展示（≈匀速，读者无感知价值）
+REASON_ACCEL_MIN_RATIO = 1.5
+
+
+def build_reason(repo: dict) -> str:
+    """一行「为什么推荐」：'+852/day · Trending+HN · 3.2x accelerating'。
+
+    头部条目分数常年饱和在 100，裸分无区分度；理由行用日增速、
+    命中源、加速比这些已有数据让条目 3 秒内可区分（issue #9）。
+    """
+    age = max(1, repo.get("age_days", 1) or 1)
+    stars = repo.get("stars", 0)
+    real_daily = repo.get("real_daily_stars")
+    lifetime_daily = stars / age
+    daily = real_daily if real_daily is not None else repo.get("daily_stars", lifetime_daily)
+
+    parts = [f"+{daily:.0f}/day" if daily >= 10 else f"+{daily:.1f}/day"]
+
+    sources = repo.get("sources") or ([repo["source"]] if repo.get("source") else [])
+    label = "+".join(
+        REASON_SOURCE_LABELS.get((s or "").strip().lower(), (s or "").strip())
+        for s in sources if s and s.strip()
+    )
+    if label:
+        parts.append(label)
+
+    if real_daily is not None and lifetime_daily > 0:
+        ratio = real_daily / lifetime_daily
+        if ratio >= REASON_ACCEL_MIN_RATIO:
+            parts.append(f"{ratio:.1f}x accelerating")
+
+    return " · ".join(parts)
+
+
 def calculate_score(repo: dict) -> dict:
     """Calculate total score and breakdown for a repo."""
     acc = score_acceleration(repo)

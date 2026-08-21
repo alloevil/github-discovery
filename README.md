@@ -93,7 +93,6 @@ Every day it collects signals from 6 data sources, runs them through a smart sco
 | **Anti-spam** | 30 | Fork ratio, description quality |
 | **Code Quality** | +20 | README, CI config, commit frequency |
 | **Suspicious Stars** | -15 | 1000+ stars in 1 day with no description |
-| **User Feedback** | ±10 | 👍👎 voting integrated into scoring |
 | **Batch Fraud** | -40 | Multiple repos from same owner growing simultaneously |
 
 ### Anti-spam
@@ -102,12 +101,6 @@ Every day it collects signals from 6 data sources, runs them through a smart sco
 - **Batch fraud detection**: Same owner with multiple repos growing at once → flagged
 - **Content quality**: No description or no README → penalty
 - **Cross-day dedup**: 7-day window, no duplicate recommendations
-
-### User Feedback
-
-- Vote on every recommendation (👍/👎)
-- Feedback integrated into scoring algorithm
-- localStorage persistence
 
 ### Email Subscription
 
@@ -168,17 +161,19 @@ github-discovery/
 │   ├── sources.py           # 6 data source collectors
 │   ├── scorer.py            # Scoring algorithm
 │   ├── quality.py           # Code quality detection
+│   ├── anti_spam.py         # Anti-spam scoring dimension
 │   ├── dedup.py             # Cross-day deduplication (7-day window)
-│   ├── feedback.py          # User feedback system
 │   ├── fraud_detection.py   # Batch fraud detection
+│   ├── snapshots.py         # Daily star snapshots (real growth)
 │   ├── verify_scoring.py    # Scoring verification / backtesting
+│   ├── generate_site.py     # GitHub Pages site + Atom feed
+│   ├── subscribe_handler.gs # Google Apps Script subscribe endpoint
 │   ├── main.py              # Entry point
 │   └── config.py            # Configuration
-├── tests/                   # 157 unit tests
-├── docs/index.html          # GitHub Pages
+├── tests/                   # Unit tests (pytest)
+├── docs/                    # GitHub Pages (index.html, feed.xml)
 ├── .github/workflows/       # Daily automation
-├── subscribers.txt          # Email subscriber list
-└── config.yaml              # Runtime configuration
+└── subscribers.txt          # Email subscriber list
 ```
 
 ---

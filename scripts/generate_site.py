@@ -6,6 +6,7 @@ and only injects the dynamic repo data sections.
 
 import os
 import re
+import sys
 import glob
 import html
 import json
@@ -13,6 +14,10 @@ import statistics
 from datetime import datetime, timezone
 from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom.minidom import parseString
+
+# scripts/ 目录加入 import 路径（支持从仓库根目录 python3 scripts/generate_site.py 运行）
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from scorer import build_reason
 
 DIST_DIR = "docs"
 OUTPUT_DIR = "output"
@@ -99,6 +104,9 @@ def _json_entry_to_card(e: dict) -> dict:
         'language': e.get('language', ''),
         'description': e.get('description') or 'No description',
         'source': ' + '.join(sources),
+        # 理由行（#9）：JSON 条目保留了 age_days/real_daily_stars/sources，
+        # 直接复用 scorer.build_reason 保证与邮件端文案一致。
+        'reason': build_reason(e),
     }
 
 
@@ -141,25 +149,30 @@ def repo_card(r: dict) -> str:
     lang = html.escape(r.get('language', ''))
     color = lang_color(lang)
     avatar = f"https://github.com/{owner}.png" if owner else ""
-    si = int(score)
-    sc = "high" if si >= 95 else ("mid" if si >= 90 else "low")
+    # 裸分降权（#9）：头部条目分数普遍饱和，按分数高亮只会让它们更同质
+    # —— score-tag 统一中性样式，区分度交给理由行。
     lang_html = f'<span class="repo-meta-item"><span class="lang-dot" style="background:{color}"></span>{lang}</span>' if lang else ''
     lang_attr = lang.lower() if lang else 'unknown'
     src = r.get('source', '')
     # 多来源仓库（"trending + hn"）逐个映射 label
     src_label = ' · '.join(filter(None, (source_label(s.strip()) for s in src.split('+'))))
     src_html = f'<span class="repo-meta-item source-tag" title="Discovered via {src}">{src_label}</span>' if src_label else ''
+    # 理由行（#9）：JSON 报告条目自带 reason；旧 markdown 报告没有
+    # 结构化字段，退化为 日增+来源 的最小理由。
+    reason = r.get('reason') or ' · '.join(
+        filter(None, (f"+{daily}/day", '+'.join(s.strip().title() for s in src.split('+') if s.strip()))))
+    reason_html = f'<div class="repo-reason">{html.escape(reason)}</div>'
     return f'''      <div class="repo" data-lang="{lang_attr}" data-source="{src.lower()}">
         <div class="repo-top">
           <img class="repo-avatar" src="{avatar}" alt="{owner}" onerror="this.style.display='none'">
           <div class="repo-name"><a href="{url}"><span class="repo-owner">{owner} /</span> {repo_name}</a></div>
         </div>
         <div class="repo-desc">{desc}</div>
+        {reason_html}
         <div class="repo-meta">
           {lang_html}
           <span class="repo-meta-item">⭐ {stars}</span>
-          <span class="repo-meta-item">📈 +{daily}/day</span>
-          <span class="score-tag {sc}">Score {score}</span>
+          <span class="score-tag">Score {score}</span>
           {src_html}
         </div>
       </div>'''
@@ -298,9 +311,11 @@ def generate_feed(reports):
             link.set('href', r.get('url', SITE_URL))
             SubElement(entry, 'updated').text = _feed_date(date_str)
             SubElement(entry, 'published').text = _feed_date(date_str)
+            reason = r.get('reason', '')
             SubElement(entry, 'summary').text = (
                 f"{r.get('description', '')}\n\n"
-                f"Score: {r.get('score', '?')}/100 | Language: {r.get('language', '?') or '?'} | "
+                + (f"Why: {reason}\n" if reason else "")
+                + f"Score: {r.get('score', '?')}/100 | Language: {r.get('language', '?') or '?'} | "
                 f"⭐ {r.get('stars', '?')} (+{r.get('daily', '?')}/day) | Source: {r.get('source', '?')}"
             )
     xml_str = tostring(feed, encoding='unicode', xml_declaration=False)

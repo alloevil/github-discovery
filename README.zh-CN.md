@@ -93,7 +93,6 @@ GitHub Discovery 告诉你什么**即将火起来**——增长曲线异常的�
 | **反垃圾** | 30 | Fork 比例、描述质量 |
 | **代码质量** | +20 | README、CI 配置、提交频率 |
 | **可疑星标** | -15 | 1 天内涨 1000+ 星却没有描述 |
-| **用户反馈** | ±10 | 👍👎 投票直接计入评分 |
 | **批量刷量** | -40 | 同一作者的多个仓库同时暴涨 |
 
 ### 反垃圾
@@ -102,12 +101,6 @@ GitHub Discovery 告诉你什么**即将火起来**——增长曲线异常的�
 - **批量刷量检测**：同一作者多个仓库同时暴涨 → 标记
 - **内容质量**：没有描述或没有 README → 扣分
 - **跨日去重**：7 天窗口内不重复推荐
-
-### 用户反馈
-
-- 每条推荐都可以投票（👍/👎）
-- 反馈直接融入评分算法
-- 使用 localStorage 持久化
 
 ### 邮件订阅
 
@@ -168,17 +161,19 @@ github-discovery/
 │   ├── sources.py           # 6 data source collectors
 │   ├── scorer.py            # Scoring algorithm
 │   ├── quality.py           # Code quality detection
+│   ├── anti_spam.py         # Anti-spam scoring dimension
 │   ├── dedup.py             # Cross-day deduplication (7-day window)
-│   ├── feedback.py          # User feedback system
 │   ├── fraud_detection.py   # Batch fraud detection
+│   ├── snapshots.py         # Daily star snapshots (real growth)
 │   ├── verify_scoring.py    # Scoring verification / backtesting
+│   ├── generate_site.py     # GitHub Pages site + Atom feed
+│   ├── subscribe_handler.gs # Google Apps Script subscribe endpoint
 │   ├── main.py              # Entry point
 │   └── config.py            # Configuration
-├── tests/                   # 157 unit tests
-├── docs/index.html          # GitHub Pages
+├── tests/                   # Unit tests (pytest)
+├── docs/                    # GitHub Pages (index.html, feed.xml)
 ├── .github/workflows/       # Daily automation
-├── subscribers.txt          # Email subscriber list
-└── config.yaml              # Runtime configuration
+└── subscribers.txt          # Email subscriber list
 ```
 
 ---
