@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-08-20T18:00:00Z</updated>
+  <updated>2026-08-21T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>CopilotKit/OpenBot — Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.</title>
+    <id>https://github.com/CopilotKit/OpenBot#2026-08-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/CopilotKit/OpenBot"/>
+    <updated>2026-08-21T18:00:00Z</updated>
+    <published>2026-08-21T18:00:00Z</published>
+    <summary>Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.
+
+Why: +438/day · Search
+Score: 93/100 | Language: TypeScript | ⭐ 1753 (+438.2/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>missuo/herdrm — Native macOS console for herdr — all your coding agents and their live terminals, across devices</title>
+    <id>https://github.com/missuo/herdrm#2026-08-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/missuo/herdrm"/>
+    <updated>2026-08-21T18:00:00Z</updated>
+    <published>2026-08-21T18:00:00Z</published>
+    <summary>Native macOS console for herdr — all your coding agents and their live terminals, across devices
+
+Why: +571/day · Search
+Score: 92/100 | Language: Swift | ⭐ 571 (+571.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>JuliusBrussee/caveman — 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman</title>
+    <id>https://github.com/JuliusBrussee/caveman#2026-08-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/JuliusBrussee/caveman"/>
+    <updated>2026-08-21T18:00:00Z</updated>
+    <published>2026-08-21T18:00:00Z</published>
+    <summary>🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
+
+Why: +723/day · Trending
+Score: 90/100 | Language: Go | ⭐ 99739 (+722.7/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>xdreizein666/getcontact-cli — GetContact CLI adalah project Python untuk melakukan lookup nomor telepon lewat API GetContact, tanpa aplikasi Android dan tanpa browser.</title>
+    <id>https://github.com/xdreizein666/getcontact-cli#2026-08-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/xdreizein666/getcontact-cli"/>
+    <updated>2026-08-21T18:00:00Z</updated>
+    <published>2026-08-21T18:00:00Z</published>
+    <summary>GetContact CLI adalah project Python untuk melakukan lookup nomor telepon lewat API GetContact, tanpa aplikasi Android dan tanpa browser.
+
+Why: +305/day · Search
+Score: 89/100 | Language: Python | ⭐ 305 (+305.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>franselstadt/ELVET — ΕΛΒΕΤ — desktop toolbox for domain, aerospace, logistics, and embedded engineers</title>
+    <id>https://github.com/franselstadt/ELVET#2026-08-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/franselstadt/ELVET"/>
+    <updated>2026-08-21T18:00:00Z</updated>
+    <published>2026-08-21T18:00:00Z</published>
+    <summary>ΕΛΒΕΤ — desktop toolbox for domain, aerospace, logistics, and embedded engineers
+
+Why: +85/day · AI/ML
+Score: 87/100 | Language: C# | ⭐ 85 (+85.0/day) | Source: ai-trending</summary>
+  </entry>
+  <entry>
+    <title>RyanCodrai/turbovec — A vector index built on TurboQuant, written in Rust with Python bindings</title>
+    <id>https://github.com/RyanCodrai/turbovec#2026-08-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/RyanCodrai/turbovec"/>
+    <updated>2026-08-21T18:00:00Z</updated>
+    <published>2026-08-21T18:00:00Z</published>
+    <summary>A vector index built on TurboQuant, written in Rust with Python bindings
+
+Why: +109/day · Trending
+Score: 83/100 | Language: Rust | ⭐ 16002 (+108.9/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>volcengine/OpenViking — Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.</title>
     <id>https://github.com/volcengine/OpenViking#2026-08-20</id>
@@ -17,6 +83,7 @@
     <published>2026-08-20T18:00:00Z</published>
     <summary>Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.
 
+Why: +852/day · Trending · 6.3x accelerating
 Score: 100/100 | Language: Python | ⭐ 30432 (+852.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -27,6 +94,7 @@ Score: 100/100 | Language: Python | ⭐ 30432 (+852.0/day) | Source: trending</s
     <published>2026-08-20T18:00:00Z</published>
     <summary>local multi-agent harness
 
+Why: +597/day · Trending · 17.1x accelerating
 Score: 100/100 | Language: TypeScript | ⭐ 2794 (+597.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -37,6 +105,7 @@ Score: 100/100 | Language: TypeScript | ⭐ 2794 (+597.0/day) | Source: trending
     <published>2026-08-20T18:00:00Z</published>
     <summary>High performance self-hosted photo and video management solution.
 
+Why: +341/day · Trending · 5.0x accelerating
 Score: 100/100 | Language: TypeScript | ⭐ 111978 (+341.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -47,6 +116,7 @@ Score: 100/100 | Language: TypeScript | ⭐ 111978 (+341.0/day) | Source: trendi
     <published>2026-08-20T18:00:00Z</published>
     <summary>Production-grade Rust-native trading engine with deterministic event-driven architecture
 
+Why: +240/day · Trending · 27.0x accelerating
 Score: 100/100 | Language: Rust | ⭐ 26526 (+240.5/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -57,6 +127,7 @@ Score: 100/100 | Language: Rust | ⭐ 26526 (+240.5/day) | Source: trending</sum
     <published>2026-08-20T18:00:00Z</published>
     <summary>Remove multi-vendor AI provenance traces: Unicode text sanitization, statistical rewriting techniques, and C2PA/metadata stripping from PNG/JPEG/SVG/PDF/DOCX/HTML/MD files
 
+Why: +914/day · Search
 Score: 100/100 | Language: Python | ⭐ 914 (+914.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -67,6 +138,7 @@ Score: 100/100 | Language: Python | ⭐ 914 (+914.0/day) | Source: search</summa
     <published>2026-08-20T18:00:00Z</published>
     <summary>Skills for Real Engineers. Straight from my .agents directory.
 
+Why: +1265/day · Trending
 Score: 100/100 | Language: Shell | ⭐ 224152 (+1264.5/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -77,6 +149,7 @@ Score: 100/100 | Language: Shell | ⭐ 224152 (+1264.5/day) | Source: trending</
     <published>2026-08-20T18:00:00Z</published>
     <summary>An agentic skills framework &amp; software development methodology that works.
 
+Why: +464/day · Trending
 Score: 100/100 | Language: Shell | ⭐ 274419 (+464.3/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -87,6 +160,7 @@ Score: 100/100 | Language: Shell | ⭐ 274419 (+464.3/day) | Source: trending</s
     <published>2026-08-19T18:00:00Z</published>
     <summary>Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors
 
+Why: +620/day · Trending · 19.2x accelerating
 Score: 100/100 | Language: Rust | ⭐ 2867 (+620.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -97,6 +171,7 @@ Score: 100/100 | Language: Rust | ⭐ 2867 (+620.0/day) | Source: trending</summ
     <published>2026-08-19T18:00:00Z</published>
     <summary>817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0
 
+Why: +761/day · Trending · 4.5x accelerating
 Score: 100/100 | Language: Python | ⭐ 29336 (+761.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -107,6 +182,7 @@ Score: 100/100 | Language: Python | ⭐ 29336 (+761.0/day) | Source: trending</s
     <published>2026-08-19T18:00:00Z</published>
     <summary>Beautiful, Modern &amp; Opinionated Linux
 
+Why: +475/day · Trending · 7.9x accelerating
 Score: 100/100 | Language: Shell | ⭐ 26510 (+475.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -117,6 +193,7 @@ Score: 100/100 | Language: Shell | ⭐ 26510 (+475.0/day) | Source: trending</su
     <published>2026-08-19T18:00:00Z</published>
     <summary>A full-featured download manager.
 
+Why: +597/day · Trending · 31.1x accelerating
 Score: 100/100 | Language: TypeScript | ⭐ 53806 (+597.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -127,6 +204,7 @@ Score: 100/100 | Language: TypeScript | ⭐ 53806 (+597.0/day) | Source: trendin
     <published>2026-08-19T18:00:00Z</published>
     <summary>LLM inference server with continuous batching &amp; SSD caching for Apple Silicon — managed from the macOS menu bar
 
+Why: +431/day · Trending · 4.1x accelerating
 Score: 100/100 | Language: Python | ⭐ 19497 (+431.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -137,6 +215,7 @@ Score: 100/100 | Language: Python | ⭐ 19497 (+431.0/day) | Source: trending</s
     <published>2026-08-18T18:00:00Z</published>
     <summary>Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.
 
+Why: +1741/day · Search+AI/ML
 Score: 100/100 | Language: TypeScript | ⭐ 1741 (+1741.0/day) | Source: search + ai-trending</summary>
   </entry>
   <entry>
@@ -147,6 +226,7 @@ Score: 100/100 | Language: TypeScript | ⭐ 1741 (+1741.0/day) | Source: search 
     <published>2026-08-18T18:00:00Z</published>
     <summary>The simplest, thinnest harness that gives an LLM complete freedom to control a Mac.
 
+Why: +169/day · Search+AI/ML
 Score: 100/100 | Language: Python | ⭐ 169 (+169.0/day) | Source: search + ai-trending</summary>
   </entry>
   <entry>
@@ -157,6 +237,7 @@ Score: 100/100 | Language: Python | ⭐ 169 (+169.0/day) | Source: search + ai-t
     <published>2026-08-18T18:00:00Z</published>
     <summary>Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)
 
+Why: +481/day · Trending
 Score: 100/100 | Language: JavaScript | ⭐ 64910 (+480.8/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -167,6 +248,7 @@ Score: 100/100 | Language: JavaScript | ⭐ 64910 (+480.8/day) | Source: trendin
     <published>2026-08-18T18:00:00Z</published>
     <summary>SVG recreation of the x.ai bot avatar. One shape morphing through 14 states, measured off the reference video frame by frame.
 
+Why: +137/day · Search
 Score: 100/100 | Language: TypeScript | ⭐ 274 (+137.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -177,6 +259,7 @@ Score: 100/100 | Language: TypeScript | ⭐ 274 (+137.0/day) | Source: search</s
     <published>2026-08-18T18:00:00Z</published>
     <summary>DeepSeek Harness (dsh) Windows / Linux desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象
 
+Why: +259/day · Search
 Score: 100/100 | Language: JavaScript | ⭐ 777 (+259.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -187,6 +270,7 @@ Score: 100/100 | Language: JavaScript | ⭐ 777 (+259.0/day) | Source: search</s
     <published>2026-08-18T18:00:00Z</published>
     <summary>Hundreds of models &amp; providers. One command to find what runs on your hardware.
 
+Why: +177/day · Trending
 Score: 100/100 | Language: Rust | ⭐ 32416 (+177.1/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -197,6 +281,7 @@ Score: 100/100 | Language: Rust | ⭐ 32416 (+177.1/day) | Source: trending</sum
     <published>2026-08-17T18:00:00Z</published>
     <summary>A collective list of free APIs
 
+Why: +1752/day · Trending · 14.4x accelerating
 Score: 100/100 | Language: Python | ⭐ 462144 (+1752.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -207,6 +292,7 @@ Score: 100/100 | Language: Python | ⭐ 462144 (+1752.0/day) | Source: trending<
     <published>2026-08-17T18:00:00Z</published>
     <summary>The open-source CapCut alternative
 
+Why: +410/day · Trending · 2.0x accelerating
 Score: 100/100 | Language: TypeScript | ⭐ 84066 (+409.5/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -217,6 +303,7 @@ Score: 100/100 | Language: TypeScript | ⭐ 84066 (+409.5/day) | Source: trendin
     <published>2026-08-17T18:00:00Z</published>
     <summary>ChatGPT Plus automation toolkit: PyQt6 desktop + JSON-RPC registration engine + card/CDK/PayPal/GCash flows
 
+Why: +201/day · Search
 Score: 100/100 | Language: Python | ⭐ 201 (+201.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -227,6 +314,7 @@ Score: 100/100 | Language: Python | ⭐ 201 (+201.0/day) | Source: search</summa
     <published>2026-08-17T18:00:00Z</published>
     <summary>Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches.
 
+Why: +196/day · AI/ML
 Score: 100/100 | Language: JavaScript | ⭐ 589 (+196.3/day) | Source: ai-trending</summary>
   </entry>
   <entry>
@@ -237,6 +325,7 @@ Score: 100/100 | Language: JavaScript | ⭐ 589 (+196.3/day) | Source: ai-trendi
     <published>2026-08-17T18:00:00Z</published>
     <summary>V4 Flash 神模式 (opencode-go)：让 opencode-go 的 DeepSeek V4 Flash 从鬼模式切换到神模式的 dsh agent preset
 
+Why: +514/day · AI/ML
 Score: 100/100 | Language: JavaScript | ⭐ 514 (+514.0/day) | Source: ai-trending</summary>
   </entry>
   <entry>
@@ -247,6 +336,7 @@ Score: 100/100 | Language: JavaScript | ⭐ 514 (+514.0/day) | Source: ai-trendi
     <published>2026-08-16T18:00:00Z</published>
     <summary>ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀
 
+Why: +456/day · Trending · 22.6x accelerating
 Score: 100/100 | Language: JavaScript | ⭐ 39609 (+456.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -257,6 +347,7 @@ Score: 100/100 | Language: JavaScript | ⭐ 39609 (+456.0/day) | Source: trendin
     <published>2026-08-16T18:00:00Z</published>
     <summary>Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp
 
+Why: +210/day · Trending · 6.7x accelerating
 Score: 100/100 | Language: Swift | ⭐ 10370 (+210.5/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -267,6 +358,7 @@ Score: 100/100 | Language: Swift | ⭐ 10370 (+210.5/day) | Source: trending</su
     <published>2026-08-16T18:00:00Z</published>
     <summary>💫 Toolkit to help you get started with Spec-Driven Development
 
+Why: +669/day · Trending · 1.9x accelerating
 Score: 100/100 | Language: Python | ⭐ 129273 (+669.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -277,6 +369,7 @@ Score: 100/100 | Language: Python | ⭐ 129273 (+669.0/day) | Source: trending</
     <published>2026-08-16T18:00:00Z</published>
     <summary>The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场
 
+Why: +172/day · Search
 Score: 100/100 | Language: TypeScript | ⭐ 344 (+172.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -287,6 +380,7 @@ Score: 100/100 | Language: TypeScript | ⭐ 344 (+172.0/day) | Source: search</s
     <published>2026-08-16T18:00:00Z</published>
     <summary>Desktop app for DeepSeek Harness
 
+Why: +169/day · Search
 Score: 100/100 | Language: TypeScript | ⭐ 338 (+169.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -297,6 +391,7 @@ Score: 100/100 | Language: TypeScript | ⭐ 338 (+169.0/day) | Source: search</s
     <published>2026-08-16T18:00:00Z</published>
     <summary>Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.
 
+Why: +153/day · Trending · 15.4x accelerating
 Score: 100/100 | Language: Python | ⭐ 1742 (+152.7/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -307,6 +402,7 @@ Score: 100/100 | Language: Python | ⭐ 1742 (+152.7/day) | Source: trending</su
     <published>2026-08-15T18:00:00Z</published>
     <summary>Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.
 
+Why: +595/day · Trending · 11.7x accelerating
 Score: 100/100 | Language: TypeScript | ⭐ 7365 (+595.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -317,6 +413,7 @@ Score: 100/100 | Language: TypeScript | ⭐ 7365 (+595.0/day) | Source: trending
     <published>2026-08-15T18:00:00Z</published>
     <summary>holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.
 
+Why: +392/day · Trending · 68.1x accelerating
 Score: 100/100 | Language: Python | ⭐ 12896 (+392.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -327,6 +424,7 @@ Score: 100/100 | Language: Python | ⭐ 12896 (+392.0/day) | Source: trending</s
     <published>2026-08-15T18:00:00Z</published>
     <summary>Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU
 
+Why: +443/day · Trending · 11.1x accelerating
 Score: 100/100 | Language: TypeScript | ⭐ 6008 (+443.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -337,6 +435,7 @@ Score: 100/100 | Language: TypeScript | ⭐ 6008 (+443.0/day) | Source: trending
     <published>2026-08-15T18:00:00Z</published>
     <summary>Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.
 
+Why: +397/day · Trending · 5.5x accelerating
 Score: 100/100 | Language: Python | ⭐ 71570 (+397.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -347,6 +446,7 @@ Score: 100/100 | Language: Python | ⭐ 71570 (+397.0/day) | Source: trending</s
     <published>2026-08-15T18:00:00Z</published>
     <summary>A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表
 
+Why: +1517/day · Search
 Score: 100/100 | Language: Python | ⭐ 1517 (+1517.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -357,6 +457,7 @@ Score: 100/100 | Language: Python | ⭐ 1517 (+1517.0/day) | Source: search</sum
     <published>2026-08-15T18:00:00Z</published>
     <summary>The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.
 
+Why: +87/day · Trending
 Score: 72/100 | Language: JavaScript | ⭐ 10450 (+87.1/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -367,6 +468,7 @@ Score: 72/100 | Language: JavaScript | ⭐ 10450 (+87.1/day) | Source: trending<
     <published>2026-08-14T18:00:00Z</published>
     <summary>14MB foundation model for tiny devices; phones, wearables, smart home, and robots.
 
+Why: +676/day · Trending · 22.7x accelerating
 Score: 100/100 | Language: Python | ⭐ 5099 (+676.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -377,6 +479,7 @@ Score: 100/100 | Language: Python | ⭐ 5099 (+676.0/day) | Source: trending</su
     <published>2026-08-14T18:00:00Z</published>
     <summary>Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.
 
+Why: +619/day · Trending · 63.5x accelerating
 Score: 100/100 | Language: Rust | ⭐ 2711 (+619.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -387,6 +490,7 @@ Score: 100/100 | Language: Rust | ⭐ 2711 (+619.0/day) | Source: trending</summ
     <published>2026-08-14T18:00:00Z</published>
     <summary>RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
 
+Why: +473/day · Trending · 5.2x accelerating
 Score: 100/100 | Language: Go | ⭐ 88137 (+473.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -397,6 +501,7 @@ Score: 100/100 | Language: Go | ⭐ 88137 (+473.0/day) | Source: trending</summa
     <published>2026-08-14T18:00:00Z</published>
     <summary>Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.
 
+Why: +374/day · Trending · 24.7x accelerating
 Score: 100/100 | Language: Rust | ⭐ 1302 (+374.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -407,6 +512,7 @@ Score: 100/100 | Language: Rust | ⭐ 1302 (+374.0/day) | Source: trending</summ
     <published>2026-08-14T18:00:00Z</published>
     <summary>SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.
 
+Why: +304/day · Trending · 76.6x accelerating
 Score: 100/100 | Language: Python | ⭐ 20719 (+304.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -417,6 +523,7 @@ Score: 100/100 | Language: Python | ⭐ 20719 (+304.0/day) | Source: trending</s
     <published>2026-08-13T18:00:00Z</published>
     <summary>Windows Defender 0day vulnerability
 
+Why: +436/day · Search+Rising
 Score: 100/100 | Language: C++ | ⭐ 436 (+436.0/day) | Source: search + rising</summary>
   </entry>
   <entry>
@@ -427,6 +534,7 @@ Score: 100/100 | Language: C++ | ⭐ 436 (+436.0/day) | Source: search + rising<
     <published>2026-08-13T18:00:00Z</published>
     <summary>聂·基层运行逻辑 · Agent Skill：基于聂辉华《基层中国的运行逻辑》的方法论工具箱（不含原书全文）
 
+Why: +188/day · Search
 Score: 100/100 | Language: HTML | ⭐ 377 (+188.5/day) | Source: search</summary>
   </entry>
   <entry>
@@ -437,6 +545,7 @@ Score: 100/100 | Language: HTML | ⭐ 377 (+188.5/day) | Source: search</summary
     <published>2026-08-13T18:00:00Z</published>
     <summary>Connect your service to Keslr: sign in with Keslr and read the verification claim that proves a user is a real, vouched-for human — plus run services reachable only by Keslr members.
 
+Why: +116/day · Search · 1.7x accelerating
 Score: 100/100 | Language: TypeScript | ⭐ 346 (+116.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -447,6 +556,7 @@ Score: 100/100 | Language: TypeScript | ⭐ 346 (+116.0/day) | Source: search</s
     <published>2026-08-13T18:00:00Z</published>
     <summary>AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He
 
+Why: +188/day · Trending
 Score: 100/100 | Language: Python | ⭐ 45943 (+187.5/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -457,6 +567,7 @@ Score: 100/100 | Language: Python | ⭐ 45943 (+187.5/day) | Source: trending</s
     <published>2026-08-13T18:00:00Z</published>
     <summary>No description
 
+Why: +484/day · Search
 Score: 100/100 | Language: TypeScript | ⭐ 666 (+484.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -467,6 +578,7 @@ Score: 100/100 | Language: TypeScript | ⭐ 666 (+484.0/day) | Source: search</s
     <published>2026-08-13T18:00:00Z</published>
     <summary>Kronos: A Foundation Model for the Language of Financial Markets
 
+Why: +122/day · Trending
 Score: 94/100 | Language: Python | ⭐ 36994 (+121.8/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -477,6 +589,7 @@ Score: 94/100 | Language: Python | ⭐ 36994 (+121.8/day) | Source: trending</su
     <published>2026-08-12T18:00:00Z</published>
     <summary>A lightweight, ad‑free client for streaming music from YouTube Music. No subscription required. Supports background playback, search, and custom playlists via the reverse‑engineered API.
 
+Why: +836/day · Search
 Score: 100/100 | Language: TypeScript | ⭐ 836 (+836.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -487,6 +600,7 @@ Score: 100/100 | Language: TypeScript | ⭐ 836 (+836.0/day) | Source: search</s
     <published>2026-08-12T18:00:00Z</published>
     <summary>A minimal chatbot template built with Next.js, AI SDK, shadcn/ui, shadcn/react, shadcn/typeset. It runs on the Vercel AI Gateway.
 
+Why: +477/day · Search
 Score: 100/100 | Language: TypeScript | ⭐ 477 (+477.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -497,6 +611,7 @@ Score: 100/100 | Language: TypeScript | ⭐ 477 (+477.0/day) | Source: search</s
     <published>2026-08-12T18:00:00Z</published>
     <summary>Ghost in your shell. Ante is a self-contained agent harness with a highly optimized core. It works like Claude Code or Codex, with none of their dependencies or model constraints. 
 
+Why: +216/day · HN · 40.7x accelerating
 Score: 100/100 | Language: Rust | ⭐ 1226 (+216.0/day) | Source: hn</summary>
   </entry>
   <entry>
@@ -507,6 +622,7 @@ Score: 100/100 | Language: Rust | ⭐ 1226 (+216.0/day) | Source: hn</summary>
     <published>2026-08-12T18:00:00Z</published>
     <summary>A benchmark built to evaluate and improve agent capabilities for supporting legal work.
 
+Why: +115/day · Trending · 13.8x accelerating
 Score: 100/100 | Language: Python | ⭐ 1118 (+115.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -517,6 +633,7 @@ Score: 100/100 | Language: Python | ⭐ 1118 (+115.0/day) | Source: trending</su
     <published>2026-08-12T18:00:00Z</published>
     <summary>Figma like visual editor built for Claude Code, Codex and OpenCode
 
+Why: +246/day · Search
 Score: 100/100 | Language: TypeScript | ⭐ 246 (+246.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -527,6 +644,7 @@ Score: 100/100 | Language: TypeScript | ⭐ 246 (+246.0/day) | Source: search</s
     <published>2026-08-12T18:00:00Z</published>
     <summary>DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
 
+Why: +154/day · Trending
 Score: 100/100 | Language: Python | ⭐ 34907 (+154.5/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -537,6 +655,7 @@ Score: 100/100 | Language: Python | ⭐ 34907 (+154.5/day) | Source: trending</s
     <published>2026-08-11T18:00:00Z</published>
     <summary>Graph-Native Infrastructure for Context and Accountable AI Systems
 
+Why: +641/day · Trending · 61.0x accelerating
 Score: 100/100 | Language: Python | ⭐ 4324 (+641.3/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -547,6 +666,7 @@ Score: 100/100 | Language: Python | ⭐ 4324 (+641.3/day) | Source: trending</su
     <published>2026-08-11T18:00:00Z</published>
     <summary>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
 
+Why: +734/day · Trending · 7.6x accelerating
 Score: 100/100 | Language: Python | ⭐ 126477 (+734.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -557,6 +677,7 @@ Score: 100/100 | Language: Python | ⭐ 126477 (+734.0/day) | Source: trending</
     <published>2026-08-11T18:00:00Z</published>
     <summary>MiniMax H3 inference engine for Mac computers
 
+Why: +538/day · Search
 Score: 100/100 | Language: C | ⭐ 538 (+538.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -567,6 +688,7 @@ Score: 100/100 | Language: C | ⭐ 538 (+538.0/day) | Source: search</summary>
     <published>2026-08-11T18:00:00Z</published>
     <summary>TradingAgents: Multi-Agents LLM Financial Trading Framework
 
+Why: +373/day · Trending · 2.3x accelerating
 Score: 100/100 | Language: Python | ⭐ 97350 (+373.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -577,6 +699,7 @@ Score: 100/100 | Language: Python | ⭐ 97350 (+373.0/day) | Source: trending</s
     <published>2026-08-11T18:00:00Z</published>
     <summary>The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs
 
+Why: +432/day · Trending · 50.3x accelerating
 Score: 100/100 | Language: Python | ⭐ 3607 (+432.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -587,6 +710,7 @@ Score: 100/100 | Language: Python | ⭐ 3607 (+432.0/day) | Source: trending</su
     <published>2026-08-11T18:00:00Z</published>
     <summary>π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
 
+Why: +208/day · Trending
 Score: 99/100 | Language: Rust | ⭐ 89441 (+208.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -597,6 +721,7 @@ Score: 99/100 | Language: Rust | ⭐ 89441 (+208.0/day) | Source: trending</summ
     <published>2026-08-11T18:00:00Z</published>
     <summary>小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫
 
+Why: +53/day · Trending
 Score: 69/100 | Language: Python | ⭐ 61317 (+53.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -607,6 +732,7 @@ Score: 69/100 | Language: Python | ⭐ 61317 (+53.0/day) | Source: trending</sum
     <published>2026-08-10T18:00:00Z</published>
     <summary>Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.
 
+Why: +518/day · Trending · 5.8x accelerating
 Score: 100/100 | Language: Go | ⭐ 20897 (+518.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -617,6 +743,7 @@ Score: 100/100 | Language: Go | ⭐ 20897 (+518.0/day) | Source: trending</summa
     <published>2026-08-10T18:00:00Z</published>
     <summary>An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js.
 
+Why: +662/day · Search
 Score: 100/100 | Language: HTML | ⭐ 662 (+662.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -627,6 +754,7 @@ Score: 100/100 | Language: HTML | ⭐ 662 (+662.0/day) | Source: search</summary
     <published>2026-08-10T18:00:00Z</published>
     <summary>MCP server for AI agents that need a phone number: order a private number in any country, read the SMS verification code, hand it back.
 
+Why: +164/day · AI/ML
 Score: 100/100 | Language: JavaScript | ⭐ 328 (+164.0/day) | Source: ai-trending</summary>
   </entry>
   <entry>
@@ -637,6 +765,7 @@ Score: 100/100 | Language: JavaScript | ⭐ 328 (+164.0/day) | Source: ai-trendi
     <published>2026-08-10T18:00:00Z</published>
     <summary>600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent
 
+Why: +138/day · Search
 Score: 100/100 | Language: TypeScript | ⭐ 138 (+138.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -647,6 +776,7 @@ Score: 100/100 | Language: TypeScript | ⭐ 138 (+138.0/day) | Source: search</s
     <published>2026-08-10T18:00:00Z</published>
     <summary>Vocat is an open-source web control panel and engineering toolkit for Quectel EC20/EC25-class cellular modems. It combines modem discovery, live radio status, AT and USSD terminals, SMS, WiFi Calling, eSIM management, network selection, proxy routing, notifications, audit logs, and release automation in one self-contained service.
 
+Why: +120/day · Rising
 Score: 100/100 | Language: Go | ⭐ 120 (+120.0/day) | Source: rising</summary>
   </entry>
   <entry>
@@ -657,6 +787,7 @@ Score: 100/100 | Language: Go | ⭐ 120 (+120.0/day) | Source: rising</summary>
     <published>2026-08-10T18:00:00Z</published>
     <summary>A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
 
+Why: +470/day · Trending
 Score: 100/100 | Language: Shell | ⭐ 141077 (+470.3/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -667,6 +798,7 @@ Score: 100/100 | Language: Shell | ⭐ 141077 (+470.3/day) | Source: trending</s
     <published>2026-08-10T18:00:00Z</published>
     <summary>No description
 
+Why: +98/day · Trending
 Score: 67/100 | Language: TypeScript | ⭐ 17755 (+97.6/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -677,6 +809,7 @@ Score: 67/100 | Language: TypeScript | ⭐ 17755 (+97.6/day) | Source: trending<
     <published>2026-08-09T18:00:00Z</published>
     <summary>A self-improving RLM agent for coding workflows and long-running autonomous tasks.
 
+Why: +2354/day · Trending · 23.5x accelerating
 Score: 100/100 | Language: TypeScript | ⭐ 9300 (+2354.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -687,6 +820,7 @@ Score: 100/100 | Language: TypeScript | ⭐ 9300 (+2354.0/day) | Source: trendin
     <published>2026-08-09T18:00:00Z</published>
     <summary>Agent Skills for Google products and technologies
 
+Why: +513/day · Trending · 4.0x accelerating
 Score: 100/100 | Language: Python | ⭐ 16844 (+513.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -697,6 +831,7 @@ Score: 100/100 | Language: Python | ⭐ 16844 (+513.0/day) | Source: trending</s
     <published>2026-08-09T18:00:00Z</published>
     <summary>self-hosted, distributed Durable Objects
 
+Why: +387/day · Trending · 68.4x accelerating
 Score: 100/100 | Language: Rust | ⭐ 2659 (+387.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -707,6 +842,7 @@ Score: 100/100 | Language: Rust | ⭐ 2659 (+387.0/day) | Source: trending</summ
     <published>2026-08-09T18:00:00Z</published>
     <summary>Create smooth, responsive interactive web animations.
 
+Why: +331/day · Search
 Score: 100/100 | Language: Python | ⭐ 331 (+331.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -717,6 +853,7 @@ Score: 100/100 | Language: Python | ⭐ 331 (+331.0/day) | Source: search</summa
     <published>2026-08-09T18:00:00Z</published>
     <summary>let your agent control your phone
 
+Why: +329/day · Search
 Score: 100/100 | Language: Python | ⭐ 329 (+329.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -727,6 +864,7 @@ Score: 100/100 | Language: Python | ⭐ 329 (+329.0/day) | Source: search</summa
     <published>2026-08-08T18:00:00Z</published>
     <summary>The authentication glue you need.
 
+Why: +449/day · Trending · 45.7x accelerating
 Score: 100/100 | Language: Python | ⭐ 23676 (+449.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -737,6 +875,7 @@ Score: 100/100 | Language: Python | ⭐ 23676 (+449.0/day) | Source: trending</s
     <published>2026-08-08T18:00:00Z</published>
     <summary>Google core libraries for Java
 
+Why: +109/day · Trending · 9.4x accelerating
 Score: 100/100 | Language: Java | ⭐ 51777 (+109.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -747,6 +886,7 @@ Score: 100/100 | Language: Java | ⭐ 51777 (+109.0/day) | Source: trending</sum
     <published>2026-08-08T18:00:00Z</published>
     <summary>AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 
+Why: +265/day · Trending · 1.8x accelerating
 Score: 100/100 | Language: Python | ⭐ 186365 (+265.0/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -757,6 +897,7 @@ Score: 100/100 | Language: Python | ⭐ 186365 (+265.0/day) | Source: trending</
     <published>2026-08-08T18:00:00Z</published>
     <summary>A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物
 
+Why: +277/day · Trending
 Score: 100/100 | Language: Python | ⭐ 70589 (+276.8/day) | Source: trending</summary>
   </entry>
   <entry>
@@ -767,6 +908,7 @@ Score: 100/100 | Language: Python | ⭐ 70589 (+276.8/day) | Source: trending</s
     <published>2026-08-08T18:00:00Z</published>
     <summary>A native macOS app for managing virtual iPhones - browse, create, and boot iOS research VMs from a single window.
 
+Why: +109/day · Search
 Score: 100/100 | Language: Swift | ⭐ 436 (+109.0/day) | Source: search</summary>
   </entry>
   <entry>
@@ -777,76 +919,7 @@ Score: 100/100 | Language: Swift | ⭐ 436 (+109.0/day) | Source: search</summar
     <published>2026-08-08T18:00:00Z</published>
     <summary>Multi-account API gateway for Grok Build, Grok Web, and Grok Console
 
+Why: +24/day · Trending
 Score: 65/100 | Language: Go | ⭐ 7162 (+23.8/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>cloudflare/computer — Give your agent a computer 👾</title>
-    <id>https://github.com/cloudflare/computer#2026-08-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/cloudflare/computer"/>
-    <updated>2026-08-07T18:00:00Z</updated>
-    <published>2026-08-07T18:00:00Z</published>
-    <summary>Give your agent a computer 👾
-
-Score: 100/100 | Language: TypeScript | ⭐ 4989 (+1159.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>huangruiteng/loopx — Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.</title>
-    <id>https://github.com/huangruiteng/loopx#2026-08-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/huangruiteng/loopx"/>
-    <updated>2026-08-07T18:00:00Z</updated>
-    <published>2026-08-07T18:00:00Z</published>
-    <summary>Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.
-
-Score: 100/100 | Language: Python | ⭐ 3044 (+623.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>firecrawl/anydoc — Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.</title>
-    <id>https://github.com/firecrawl/anydoc#2026-08-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/firecrawl/anydoc"/>
-    <updated>2026-08-07T18:00:00Z</updated>
-    <published>2026-08-07T18:00:00Z</published>
-    <summary>Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.
-
-Score: 100/100 | Language: Rust | ⭐ 9114 (+3308.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>Accio-org/RealReplicaBench — RealReplicaBench: Benchmarking Long-Horizon Agents in High-Fidelity, Stateful, and Reproducible Replicas of Real Online Services</title>
-    <id>https://github.com/Accio-org/RealReplicaBench#2026-08-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Accio-org/RealReplicaBench"/>
-    <updated>2026-08-07T18:00:00Z</updated>
-    <published>2026-08-07T18:00:00Z</published>
-    <summary>RealReplicaBench: Benchmarking Long-Horizon Agents in High-Fidelity, Stateful, and Reproducible Replicas of Real Online Services
-
-Score: 100/100 | Language: HTML | ⭐ 1037 (+207.4/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>nfzerox/VirtualMacOniPad — People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. With Virtual Mac, iPad finally breaks free from iPadOS, enabling pro apps like Xcode and Terminal to run directly on device. Requires iPad Pro (M1, M2) or iPad Air (M1) running iPadOS 16 up to 16.3.1.</title>
-    <id>https://github.com/nfzerox/VirtualMacOniPad#2026-08-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/nfzerox/VirtualMacOniPad"/>
-    <updated>2026-08-07T18:00:00Z</updated>
-    <published>2026-08-07T18:00:00Z</published>
-    <summary>People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. With Virtual Mac, iPad finally breaks free from iPadOS, enabling pro apps like Xcode and Terminal to run directly on device. Requires iPad Pro (M1, M2) or iPad Air (M1) running iPadOS 16 up to 16.3.1.
-
-Score: 100/100 | Language: Objective-C | ⭐ 471 (+157.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>mattpocock/skills — Skills for Real Engineers. Straight from my .agents directory.</title>
-    <id>https://github.com/mattpocock/skills#2026-08-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mattpocock/skills"/>
-    <updated>2026-08-07T18:00:00Z</updated>
-    <published>2026-08-07T18:00:00Z</published>
-    <summary>Skills for Real Engineers. Straight from my .agents directory.
-
-Score: 100/100 | Language: Shell | ⭐ 207520 (+1127.8/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>tirth8205/code-review-graph — Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.</title>
-    <id>https://github.com/tirth8205/code-review-graph#2026-08-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/tirth8205/code-review-graph"/>
-    <updated>2026-08-07T18:00:00Z</updated>
-    <published>2026-08-07T18:00:00Z</published>
-    <summary>Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.
-
-Score: 70/100 | Language: Python | ⭐ 29143 (+181.0/day) | Source: trending</summary>
   </entry>
 </feed>
