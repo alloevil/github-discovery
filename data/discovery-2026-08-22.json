@@ -1,0 +1,311 @@
+{
+ "date": "2026-08-22",
+ "generated_at": "2026-08-22T05:05:22.744271",
+ "new": [
+  {
+   "full_name": "mahlernim/google-timeline-visualizer",
+   "url": "https://github.com/mahlernim/google-timeline-visualizer",
+   "description": "Visualize your year in travel using your Google Location History (Timeline) data",
+   "language": "Kotlin",
+   "stars": 2293,
+   "forks": 268,
+   "age_days": 248,
+   "daily_stars": 9.245967741935484,
+   "real_daily_stars": 525.0,
+   "watchers": 138,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "modular/modular",
+   "url": "https://github.com/modular/modular",
+   "description": "The Modular Platform (includes MAX & Mojo)",
+   "language": "Mojo",
+   "stars": 28718,
+   "forks": 3056,
+   "age_days": 1211,
+   "daily_stars": 23.714285714285715,
+   "real_daily_stars": 601.0,
+   "watchers": 272,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "PostHog/posthog",
+   "url": "https://github.com/PostHog/posthog",
+   "description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+   "language": "Python",
+   "stars": 38340,
+   "forks": 3234,
+   "age_days": 2402,
+   "daily_stars": 15.961698584512906,
+   "real_daily_stars": 289.0,
+   "watchers": 133,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 97,
+    "acceleration": 37,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "MengTo/threeui",
+   "url": "https://github.com/MengTo/threeui",
+   "description": "Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
+   "language": "HTML",
+   "stars": 727,
+   "forks": 74,
+   "age_days": 1,
+   "daily_stars": 727.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "ant-research/4DAnyone",
+   "url": "https://github.com/ant-research/4DAnyone",
+   "description": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+   "language": "Python",
+   "stars": 235,
+   "forks": 11,
+   "age_days": 11,
+   "daily_stars": 21.363636363636363,
+   "real_daily_stars": 187.0,
+   "watchers": 7,
+   "source": "hf-papers",
+   "sources": [
+    "hf-papers"
+   ],
+   "license": "Apache-2.0",
+   "hf_title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+   "hf_upvotes": 58,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "cclank/lanshu-create-ai-presenter-video",
+   "url": "https://github.com/cclank/lanshu-create-ai-presenter-video",
+   "description": "Provider-neutral Codex Skill for producing verified AI presenter videos from a script and an authorized presenter image.",
+   "language": "Python",
+   "stars": 251,
+   "forks": 27,
+   "age_days": 1,
+   "daily_stars": 251.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "OpenLabs-so/oa-design",
+   "url": "https://github.com/OpenLabs-so/oa-design",
+   "description": "The Open Analytics design language as an agent skill: component recipes with type-checked source, token CSS, and a CLI. Works with Claude Code, Cursor, or any agent.",
+   "language": "TypeScript",
+   "stars": 109,
+   "forks": 5,
+   "age_days": 1,
+   "daily_stars": 109.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "Spielewoy/autoprompt-skill",
+   "url": "https://github.com/Spielewoy/autoprompt-skill",
+   "description": "Autoprompt is a coding-agent skill that cuts failures by 45% on agentic coding tasks.",
+   "language": "JavaScript",
+   "stars": 599,
+   "forks": 43,
+   "age_days": 4,
+   "daily_stars": 149.75,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "amagine-ai/Amagine3D",
+   "url": "https://github.com/amagine-ai/Amagine3D",
+   "description": "Amagine3D: From hardware requirements to editable 3D designs",
+   "language": "TypeScript",
+   "stars": 188,
+   "forks": 0,
+   "age_days": 2,
+   "daily_stars": 94.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 17
+   }
+  },
+  {
+   "full_name": "ZSeven-W/dsh-ios",
+   "url": "https://github.com/ZSeven-W/dsh-ios",
+   "description": "DeepSeek Harness (DSH) plugin: a live iOS Simulator — and a USB-connected iPhone — inside the conversation. 22 agent tools for booting, building, driving the UI by accessibility identity, OCR text or list rows, plus a streaming sidebar panel you can tap and drag on.",
+   "language": "TypeScript",
+   "stars": 186,
+   "forks": 19,
+   "age_days": 2,
+   "daily_stars": 93.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "language": "JavaScript",
+   "stars": 241850,
+   "forks": 36663,
+   "age_days": 216,
+   "daily_stars": 1119.6759259259259,
+   "watchers": 1241,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  }
+ ]
+}

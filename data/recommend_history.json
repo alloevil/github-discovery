@@ -37,12 +37,13 @@
       "last_recommended": "2026-07-31T07:35:04.580615+00:00"
     },
     "affaan-m/ECC": {
-      "count": 2,
+      "count": 3,
       "scores": [
         100,
-        100
+        100,
+        90
       ],
-      "last_recommended": "2026-07-26T07:19:52.642714+00:00"
+      "last_recommended": "2026-08-22T05:05:22.399182+00:00"
     },
     "mattpocock/skills": {
       "count": 5,
@@ -226,27 +227,6 @@
       ],
       "last_recommended": "2026-07-30T07:20:26.214951+00:00"
     },
-    "koala73/worldmonitor": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-22T07:21:42.098955+00:00"
-    },
-    "earthtojake/text-to-cad": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-22T07:21:42.101910+00:00"
-    },
-    "tradesdontlie/tradingview-mcp": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-22T07:21:42.104541+00:00"
-    },
     "AlexsJones/llmfit": {
       "count": 2,
       "scores": [
@@ -254,48 +234,6 @@
         100
       ],
       "last_recommended": "2026-08-18T05:08:41.917090+00:00"
-    },
-    "hyprwm/Hyprland": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-22T07:21:42.110304+00:00"
-    },
-    "MIgHTy-alIeN/MEV-Arbitrage-Bot": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-22T07:21:42.113111+00:00"
-    },
-    "Blaizzy/nativ": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-22T07:21:42.115970+00:00"
-    },
-    "smixs/pohuy": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-07-22T07:21:42.118544+00:00"
-    },
-    "schollz/croc": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-07-22T07:21:42.121278+00:00"
-    },
-    "langchain-ai/open_deep_research": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-07-22T07:21:42.124020+00:00"
     },
     "ayghri/i-have-adhd": {
       "count": 1,
@@ -2296,7 +2234,77 @@
         84
       ],
       "last_recommended": "2026-08-21T05:16:33.275471+00:00"
+    },
+    "mahlernim/google-timeline-visualizer": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-22T05:05:22.378477+00:00"
+    },
+    "modular/modular": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-22T05:05:22.380730+00:00"
+    },
+    "PostHog/posthog": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-08-22T05:05:22.382767+00:00"
+    },
+    "MengTo/threeui": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-08-22T05:05:22.384818+00:00"
+    },
+    "ant-research/4DAnyone": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-08-22T05:05:22.386836+00:00"
+    },
+    "cclank/lanshu-create-ai-presenter-video": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-08-22T05:05:22.388952+00:00"
+    },
+    "OpenLabs-so/oa-design": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-08-22T05:05:22.390990+00:00"
+    },
+    "Spielewoy/autoprompt-skill": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-08-22T05:05:22.393032+00:00"
+    },
+    "amagine-ai/Amagine3D": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-08-22T05:05:22.395068+00:00"
+    },
+    "ZSeven-W/dsh-ios": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-08-22T05:05:22.397148+00:00"
     }
   },
-  "updated_at": "2026-08-21T05:16:33.277539+00:00"
+  "updated_at": "2026-08-22T05:05:22.399208+00:00"
 }
