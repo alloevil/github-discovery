@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-08-21T18:00:00Z</updated>
+  <updated>2026-08-22T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>mahlernim/google-timeline-visualizer — Visualize your year in travel using your Google Location History (Timeline) data</title>
+    <id>https://github.com/mahlernim/google-timeline-visualizer#2026-08-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mahlernim/google-timeline-visualizer"/>
+    <updated>2026-08-22T18:00:00Z</updated>
+    <published>2026-08-22T18:00:00Z</published>
+    <summary>Visualize your year in travel using your Google Location History (Timeline) data
+
+Why: +525/day · Trending · 56.8x accelerating
+Score: 100/100 | Language: Kotlin | ⭐ 2293 (+525.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>modular/modular — The Modular Platform (includes MAX &amp; Mojo)</title>
+    <id>https://github.com/modular/modular#2026-08-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/modular/modular"/>
+    <updated>2026-08-22T18:00:00Z</updated>
+    <published>2026-08-22T18:00:00Z</published>
+    <summary>The Modular Platform (includes MAX &amp; Mojo)
+
+Why: +601/day · Trending · 25.3x accelerating
+Score: 100/100 | Language: Mojo | ⭐ 28718 (+601.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>PostHog/posthog — :hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.</title>
+    <id>https://github.com/PostHog/posthog#2026-08-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/PostHog/posthog"/>
+    <updated>2026-08-22T18:00:00Z</updated>
+    <published>2026-08-22T18:00:00Z</published>
+    <summary>:hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.
+
+Why: +289/day · Trending · 18.1x accelerating
+Score: 97/100 | Language: Python | ⭐ 38340 (+289.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>MengTo/threeui — Open-source ThreeUI Community catalog with live interactive components and complete Community source.</title>
+    <id>https://github.com/MengTo/threeui#2026-08-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/MengTo/threeui"/>
+    <updated>2026-08-22T18:00:00Z</updated>
+    <published>2026-08-22T18:00:00Z</published>
+    <summary>Open-source ThreeUI Community catalog with live interactive components and complete Community source.
+
+Why: +727/day · Search
+Score: 96/100 | Language: HTML | ⭐ 727 (+727.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>ant-research/4DAnyone — 4DAnyone: Create Anyone in 4D from a Casual Monocular Video</title>
+    <id>https://github.com/ant-research/4DAnyone#2026-08-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ant-research/4DAnyone"/>
+    <updated>2026-08-22T18:00:00Z</updated>
+    <published>2026-08-22T18:00:00Z</published>
+    <summary>4DAnyone: Create Anyone in 4D from a Casual Monocular Video
+
+Why: +187/day · HF Papers · 8.8x accelerating
+Score: 95/100 | Language: Python | ⭐ 235 (+187.0/day) | Source: hf-papers</summary>
+  </entry>
+  <entry>
+    <title>affaan-m/ECC — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</title>
+    <id>https://github.com/affaan-m/ECC#2026-08-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/affaan-m/ECC"/>
+    <updated>2026-08-22T18:00:00Z</updated>
+    <published>2026-08-22T18:00:00Z</published>
+    <summary>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+
+Why: +1120/day · Trending
+Score: 90/100 | Language: JavaScript | ⭐ 241850 (+1119.7/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>CopilotKit/OpenBot — Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.</title>
     <id>https://github.com/CopilotKit/OpenBot#2026-08-21</id>
@@ -855,71 +921,5 @@ Score: 100/100 | Language: Python | ⭐ 331 (+331.0/day) | Source: search</summa
 
 Why: +329/day · Search
 Score: 100/100 | Language: Python | ⭐ 329 (+329.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>goauthentik/authentik — The authentication glue you need.</title>
-    <id>https://github.com/goauthentik/authentik#2026-08-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/goauthentik/authentik"/>
-    <updated>2026-08-08T18:00:00Z</updated>
-    <published>2026-08-08T18:00:00Z</published>
-    <summary>The authentication glue you need.
-
-Why: +449/day · Trending · 45.7x accelerating
-Score: 100/100 | Language: Python | ⭐ 23676 (+449.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>google/guava — Google core libraries for Java</title>
-    <id>https://github.com/google/guava#2026-08-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/google/guava"/>
-    <updated>2026-08-08T18:00:00Z</updated>
-    <published>2026-08-08T18:00:00Z</published>
-    <summary>Google core libraries for Java
-
-Why: +109/day · Trending · 9.4x accelerating
-Score: 100/100 | Language: Java | ⭐ 51777 (+109.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Significant-Gravitas/AutoGPT — AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.</title>
-    <id>https://github.com/Significant-Gravitas/AutoGPT#2026-08-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Significant-Gravitas/AutoGPT"/>
-    <updated>2026-08-08T18:00:00Z</updated>
-    <published>2026-08-08T18:00:00Z</published>
-    <summary>AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
-
-Why: +265/day · Trending · 1.8x accelerating
-Score: 100/100 | Language: Python | ⭐ 186365 (+265.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>666ghj/MiroFish — A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物</title>
-    <id>https://github.com/666ghj/MiroFish#2026-08-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/666ghj/MiroFish"/>
-    <updated>2026-08-08T18:00:00Z</updated>
-    <published>2026-08-08T18:00:00Z</published>
-    <summary>A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物
-
-Why: +277/day · Trending
-Score: 100/100 | Language: Python | ⭐ 70589 (+276.8/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>zqxwce/vphone-ws — A native macOS app for managing virtual iPhones - browse, create, and boot iOS research VMs from a single window.</title>
-    <id>https://github.com/zqxwce/vphone-ws#2026-08-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/zqxwce/vphone-ws"/>
-    <updated>2026-08-08T18:00:00Z</updated>
-    <published>2026-08-08T18:00:00Z</published>
-    <summary>A native macOS app for managing virtual iPhones - browse, create, and boot iOS research VMs from a single window.
-
-Why: +109/day · Search
-Score: 100/100 | Language: Swift | ⭐ 436 (+109.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>chenyme/grok2api — Multi-account API gateway for Grok Build, Grok Web, and Grok Console</title>
-    <id>https://github.com/chenyme/grok2api#2026-08-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/chenyme/grok2api"/>
-    <updated>2026-08-08T18:00:00Z</updated>
-    <published>2026-08-08T18:00:00Z</published>
-    <summary>Multi-account API gateway for Grok Build, Grok Web, and Grok Console
-
-Why: +24/day · Trending
-Score: 65/100 | Language: Go | ⭐ 7162 (+23.8/day) | Source: trending</summary>
   </entry>
 </feed>
