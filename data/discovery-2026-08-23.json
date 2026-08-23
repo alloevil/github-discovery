@@ -1,0 +1,315 @@
+{
+ "date": "2026-08-23",
+ "generated_at": "2026-08-23T05:07:30.116370",
+ "new": [
+  {
+   "full_name": "makeplane/plane",
+   "url": "https://github.com/makeplane/plane",
+   "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+   "language": "TypeScript",
+   "stars": 57286,
+   "forks": 5448,
+   "age_days": 1372,
+   "daily_stars": 41.75364431486881,
+   "real_daily_stars": 347.5,
+   "watchers": 174,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 98,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "Tencent/AI-Infra-Guard",
+   "url": "https://github.com/Tencent/AI-Infra-Guard",
+   "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
+   "language": "Python",
+   "stars": 5558,
+   "forks": 523,
+   "age_days": 605,
+   "daily_stars": 9.186776859504132,
+   "real_daily_stars": 252.0,
+   "watchers": 44,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 97,
+    "acceleration": 37,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "microsoft/TypeScript",
+   "url": "https://github.com/microsoft/TypeScript",
+   "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+   "language": "Go",
+   "stars": 110566,
+   "forks": 13745,
+   "age_days": 4449,
+   "daily_stars": 24.85187682625309,
+   "real_daily_stars": 154.0,
+   "watchers": 2233,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "LB623/no-negative-echo",
+   "url": "https://github.com/LB623/no-negative-echo",
+   "description": "让 Codex 根据最终结果生成标题、注释、commit 和 PR，减少被否决方案在交付中的残留。",
+   "language": "Python",
+   "stars": 198,
+   "forks": 4,
+   "age_days": 1,
+   "daily_stars": 198.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "proliferate-ai/proliferate",
+   "url": "https://github.com/proliferate-ai/proliferate",
+   "description": "The open-source AI IDE for Claude Code, Codex, OpenCode, and more. Run agents in parallel, locally or in the cloud, and build reusable workflows.",
+   "language": "TypeScript",
+   "stars": 301,
+   "forks": 58,
+   "age_days": 114,
+   "daily_stars": 2.6403508771929824,
+   "real_daily_stars": 50.0,
+   "watchers": 0,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "AGPL-3.0",
+   "hn_title": "Show HN: Proliferate- open-source, self-hostable Codex for any coding agent",
+   "hn_score": 44,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "google-research/envharness",
+   "url": "https://github.com/google-research/envharness",
+   "description": "",
+   "language": "Python",
+   "stars": 234,
+   "forks": 14,
+   "age_days": 15,
+   "daily_stars": 15.6,
+   "real_daily_stars": 120.0,
+   "watchers": 3,
+   "source": "hf-papers",
+   "sources": [
+    "hf-papers"
+   ],
+   "license": "Apache-2.0",
+   "hf_title": "EnvHarness: Awakening Static Worlds for Agent Learning",
+   "hf_upvotes": 248,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 88,
+    "acceleration": 33,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "MeteorNOX/DeepSeek-Balance-Whale-Widget",
+   "url": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget",
+   "description": "DeepSeek Harness（DSH）一只住在 DSH 界面右下角的小鲸鱼娘，帮你盯着DeepSeek账户余额。QQ弹弹，支持拖拽吸附、左吸附翻转、数字滚动动画，随界面自动启用，建议直接喊来你的dsh安装",
+   "language": "JavaScript",
+   "stars": 588,
+   "forks": 23,
+   "age_days": 5,
+   "daily_stars": 117.6,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "MiaAI-Lab/DeepSeek-v4-Flash-One-DGX-Spark",
+   "url": "https://github.com/MiaAI-Lab/DeepSeek-v4-Flash-One-DGX-Spark",
+   "description": "DeepSeek v4 Flash EXL3 on one DGX Spark",
+   "language": "Python",
+   "stars": 144,
+   "forks": 16,
+   "age_days": 2,
+   "daily_stars": 72.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "language": "Python",
+   "stars": 142601,
+   "forks": 22841,
+   "age_days": 546,
+   "daily_stars": 261.1739926739927,
+   "watchers": 873,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "openai/codex",
+   "url": "https://github.com/openai/codex",
+   "description": "Lightweight coding agent that runs in your terminal",
+   "language": "Rust",
+   "stars": 113854,
+   "forks": 17413,
+   "age_days": 496,
+   "daily_stars": 229.54435483870967,
+   "watchers": 580,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "description": "Cursor plugin specification and official plugins",
+   "language": "TypeScript",
+   "stars": 4697,
+   "forks": 383,
+   "age_days": 212,
+   "daily_stars": 22.15566037735849,
+   "real_daily_stars": 243.0,
+   "watchers": 15,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 92,
+    "acceleration": 37,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  }
+ ]
+}

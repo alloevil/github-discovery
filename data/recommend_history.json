@@ -235,48 +235,6 @@
       ],
       "last_recommended": "2026-08-18T05:08:41.917090+00:00"
     },
-    "ayghri/i-have-adhd": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-23T07:18:39.991748+00:00"
-    },
-    "ComposioHQ/awesome-claude-skills": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-23T07:18:39.994372+00:00"
-    },
-    "Jakubantalik/thinking-orbs": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-23T07:18:39.997231+00:00"
-    },
-    "nyblnet/bento": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-23T07:18:39.999955+00:00"
-    },
-    "powerycy/goutoujunshi": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-23T07:18:40.002648+00:00"
-    },
-    "Vincentwei1021/video-shotcraft": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-23T07:18:40.005407+00:00"
-    },
     "shiyu-coder/Kronos": {
       "count": 3,
       "scores": [
@@ -285,20 +243,6 @@
         94
       ],
       "last_recommended": "2026-08-13T06:06:47.249566+00:00"
-    },
-    "dreamhunter2333/cloudflare_temp_email": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-07-23T07:18:40.011407+00:00"
-    },
-    "DioxusLabs/dioxus": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-07-23T07:18:40.014289+00:00"
     },
     "block/buzz": {
       "count": 1,
@@ -1865,11 +1809,12 @@
       "last_recommended": "2026-08-16T05:06:32.478094+00:00"
     },
     "cursor/plugins": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        92
       ],
-      "last_recommended": "2026-08-16T05:06:32.481129+00:00"
+      "last_recommended": "2026-08-23T05:07:29.969819+00:00"
     },
     "carpdiem/ember": {
       "count": 1,
@@ -2304,7 +2249,77 @@
         88
       ],
       "last_recommended": "2026-08-22T05:05:22.397148+00:00"
+    },
+    "makeplane/plane": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-08-23T05:07:29.949149+00:00"
+    },
+    "Tencent/AI-Infra-Guard": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-08-23T05:07:29.951399+00:00"
+    },
+    "microsoft/TypeScript": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-08-23T05:07:29.953465+00:00"
+    },
+    "LB623/no-negative-echo": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-08-23T05:07:29.955494+00:00"
+    },
+    "proliferate-ai/proliferate": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-08-23T05:07:29.957542+00:00"
+    },
+    "google-research/envharness": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-08-23T05:07:29.959656+00:00"
+    },
+    "MeteorNOX/DeepSeek-Balance-Whale-Widget": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-08-23T05:07:29.961682+00:00"
+    },
+    "MiaAI-Lab/DeepSeek-v4-Flash-One-DGX-Spark": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-08-23T05:07:29.963710+00:00"
+    },
+    "anthropics/claude-code": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-08-23T05:07:29.965722+00:00"
+    },
+    "openai/codex": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-08-23T05:07:29.967781+00:00"
     }
   },
-  "updated_at": "2026-08-22T05:05:22.399208+00:00"
+  "updated_at": "2026-08-23T05:07:29.969845+00:00"
 }
