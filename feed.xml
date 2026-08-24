@@ -3,12 +3,100 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-08-23T18:00:00Z</updated>
+  <updated>2026-08-24T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>duty1g/x64dbg-mcp-server — x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros</title>
+    <id>https://github.com/duty1g/x64dbg-mcp-server#2026-08-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/duty1g/x64dbg-mcp-server"/>
+    <updated>2026-08-24T18:00:00Z</updated>
+    <published>2026-08-24T18:00:00Z</published>
+    <summary>x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros
+
+Why: +980/day · Search+AI/ML
+Score: 96/100 | Language: Zig | ⭐ 980 (+980.0/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>ShadowAqueduct/watermark-remover — Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and MD.</title>
+    <id>https://github.com/ShadowAqueduct/watermark-remover#2026-08-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ShadowAqueduct/watermark-remover"/>
+    <updated>2026-08-24T18:00:00Z</updated>
+    <published>2026-08-24T18:00:00Z</published>
+    <summary>Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and MD.
+
+Why: +760/day · Search
+Score: 96/100 | Language: Python | ⭐ 760 (+760.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>nateherkai/scroll-craft — Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll.</title>
+    <id>https://github.com/nateherkai/scroll-craft#2026-08-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/nateherkai/scroll-craft"/>
+    <updated>2026-08-24T18:00:00Z</updated>
+    <published>2026-08-24T18:00:00Z</published>
+    <summary>Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll.
+
+Why: +524/day · Search
+Score: 96/100 | Language: JavaScript | ⭐ 524 (+524.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>Forsy-AI/biosecurity-agent — AI agent that builds a live biosecurity world around any target.</title>
+    <id>https://github.com/Forsy-AI/biosecurity-agent#2026-08-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Forsy-AI/biosecurity-agent"/>
+    <updated>2026-08-24T18:00:00Z</updated>
+    <published>2026-08-24T18:00:00Z</published>
+    <summary>AI agent that builds a live biosecurity world around any target.
+
+Why: +493/day · Search
+Score: 96/100 | Language: TypeScript | ⭐ 493 (+493.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>ripienaar/free-for-dev — A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev</title>
+    <id>https://github.com/ripienaar/free-for-dev#2026-08-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ripienaar/free-for-dev"/>
+    <updated>2026-08-24T18:00:00Z</updated>
+    <published>2026-08-24T18:00:00Z</published>
+    <summary>A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
+
+Why: +573/day · Trending · 17.8x accelerating
+Score: 96/100 | Language: HTML | ⭐ 134575 (+573.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Comfy-Org/ComfyUI — The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.</title>
+    <id>https://github.com/Comfy-Org/ComfyUI#2026-08-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Comfy-Org/ComfyUI"/>
+    <updated>2026-08-24T18:00:00Z</updated>
+    <published>2026-08-24T18:00:00Z</published>
+    <summary>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
+
+Why: +234/day · Trending · 2.4x accelerating
+Score: 93/100 | Language: Python | ⭐ 129515 (+233.7/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>virgiliojr94/book-to-skill — Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.</title>
+    <id>https://github.com/virgiliojr94/book-to-skill#2026-08-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/virgiliojr94/book-to-skill"/>
+    <updated>2026-08-24T18:00:00Z</updated>
+    <published>2026-08-24T18:00:00Z</published>
+    <summary>Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
+
+Why: +216/day · Trending
+Score: 86/100 | Language: Python | ⭐ 24809 (+215.7/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>sii-research/tau-0-vla — This repo is the official implementation of  &quot;τ0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation&quot;.</title>
+    <id>https://github.com/sii-research/tau-0-vla#2026-08-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/sii-research/tau-0-vla"/>
+    <updated>2026-08-24T18:00:00Z</updated>
+    <published>2026-08-24T18:00:00Z</published>
+    <summary>This repo is the official implementation of  &quot;τ0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation&quot;.
+
+Why: +12/day · HF Papers
+Score: 63/100 | Language: Python | ⭐ 529 (+12.4/day) | Source: hf-papers</summary>
+  </entry>
   <entry>
     <title>makeplane/plane — 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.</title>
     <id>https://github.com/makeplane/plane#2026-08-23</id>
@@ -855,82 +943,5 @@ Score: 99/100 | Language: Rust | ⭐ 89441 (+208.0/day) | Source: trending</summ
 
 Why: +53/day · Trending
 Score: 69/100 | Language: Python | ⭐ 61317 (+53.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>pranshuparmar/witr — Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.</title>
-    <id>https://github.com/pranshuparmar/witr#2026-08-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/pranshuparmar/witr"/>
-    <updated>2026-08-10T18:00:00Z</updated>
-    <published>2026-08-10T18:00:00Z</published>
-    <summary>Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.
-
-Why: +518/day · Trending · 5.8x accelerating
-Score: 100/100 | Language: Go | ⭐ 20897 (+518.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>MengTo/kage — An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js.</title>
-    <id>https://github.com/MengTo/kage#2026-08-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/MengTo/kage"/>
-    <updated>2026-08-10T18:00:00Z</updated>
-    <published>2026-08-10T18:00:00Z</published>
-    <summary>An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js.
-
-Why: +662/day · Search
-Score: 100/100 | Language: HTML | ⭐ 662 (+662.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>sv-number/mcp-server — MCP server for AI agents that need a phone number: order a private number in any country, read the SMS verification code, hand it back.</title>
-    <id>https://github.com/sv-number/mcp-server#2026-08-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/sv-number/mcp-server"/>
-    <updated>2026-08-10T18:00:00Z</updated>
-    <published>2026-08-10T18:00:00Z</published>
-    <summary>MCP server for AI agents that need a phone number: order a private number in any country, read the SMS verification code, hand it back.
-
-Why: +164/day · AI/ML
-Score: 100/100 | Language: JavaScript | ⭐ 328 (+164.0/day) | Source: ai-trending</summary>
-  </entry>
-  <entry>
-    <title>SaladDay/pi-from-scratch — 600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent</title>
-    <id>https://github.com/SaladDay/pi-from-scratch#2026-08-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/SaladDay/pi-from-scratch"/>
-    <updated>2026-08-10T18:00:00Z</updated>
-    <published>2026-08-10T18:00:00Z</published>
-    <summary>600 行 TypeScript 写成的超级迷你版 pi，让你轻松从 0 写出属于你的 pi-agent
-
-Why: +138/day · Search
-Score: 100/100 | Language: TypeScript | ⭐ 138 (+138.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>MengMengCode/VoCat — Vocat is an open-source web control panel and engineering toolkit for Quectel EC20/EC25-class cellular modems. It combines modem discovery, live radio status, AT and USSD terminals, SMS, WiFi Calling, eSIM management, network selection, proxy routing, notifications, audit logs, and release automation in one self-contained service.</title>
-    <id>https://github.com/MengMengCode/VoCat#2026-08-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/MengMengCode/VoCat"/>
-    <updated>2026-08-10T18:00:00Z</updated>
-    <published>2026-08-10T18:00:00Z</published>
-    <summary>Vocat is an open-source web control panel and engineering toolkit for Quectel EC20/EC25-class cellular modems. It combines modem discovery, live radio status, AT and USSD terminals, SMS, WiFi Calling, eSIM management, network selection, proxy routing, notifications, audit logs, and release automation in one self-contained service.
-
-Why: +120/day · Rising
-Score: 100/100 | Language: Go | ⭐ 120 (+120.0/day) | Source: rising</summary>
-  </entry>
-  <entry>
-    <title>msitarzewski/agency-agents — A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.</title>
-    <id>https://github.com/msitarzewski/agency-agents#2026-08-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/msitarzewski/agency-agents"/>
-    <updated>2026-08-10T18:00:00Z</updated>
-    <published>2026-08-10T18:00:00Z</published>
-    <summary>A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-
-Why: +470/day · Trending
-Score: 100/100 | Language: Shell | ⭐ 141077 (+470.3/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>pingdotgg/t3code — No description</title>
-    <id>https://github.com/pingdotgg/t3code#2026-08-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/pingdotgg/t3code"/>
-    <updated>2026-08-10T18:00:00Z</updated>
-    <published>2026-08-10T18:00:00Z</published>
-    <summary>No description
-
-Why: +98/day · Trending
-Score: 67/100 | Language: TypeScript | ⭐ 17755 (+97.6/day) | Source: trending</summary>
   </entry>
 </feed>
