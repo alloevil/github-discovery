@@ -1,0 +1,365 @@
+{
+ "date": "2026-08-24",
+ "generated_at": "2026-08-24T05:25:39.482653",
+ "new": [
+  {
+   "full_name": "duty1g/x64dbg-mcp-server",
+   "url": "https://github.com/duty1g/x64dbg-mcp-server",
+   "description": "x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros",
+   "language": "Zig",
+   "stars": 980,
+   "forks": 99,
+   "age_days": 1,
+   "daily_stars": 980.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 1,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "ShadowAqueduct/watermark-remover",
+   "url": "https://github.com/ShadowAqueduct/watermark-remover",
+   "description": "Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and MD.",
+   "language": "Python",
+   "stars": 760,
+   "forks": 73,
+   "age_days": 1,
+   "daily_stars": 760.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "nateherkai/scroll-craft",
+   "url": "https://github.com/nateherkai/scroll-craft",
+   "description": "Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll.",
+   "language": "JavaScript",
+   "stars": 524,
+   "forks": 91,
+   "age_days": 1,
+   "daily_stars": 524.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "Forsy-AI/biosecurity-agent",
+   "url": "https://github.com/Forsy-AI/biosecurity-agent",
+   "description": "AI agent that builds a live biosecurity world around any target.",
+   "language": "TypeScript",
+   "stars": 493,
+   "forks": 16,
+   "age_days": 1,
+   "daily_stars": 493.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "ripienaar/free-for-dev",
+   "url": "https://github.com/ripienaar/free-for-dev",
+   "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+   "language": "HTML",
+   "stars": 134575,
+   "forks": 14075,
+   "age_days": 4176,
+   "daily_stars": 32.22581417624521,
+   "real_daily_stars": 573.0,
+   "watchers": 1806,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 96,
+    "acceleration": 40,
+    "quality": 26,
+    "antispam": 30,
+    "quality_bonus": 17
+   }
+  },
+  {
+   "full_name": "apache/maka",
+   "url": "https://github.com/apache/maka",
+   "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+   "language": "TypeScript",
+   "stars": 2433,
+   "forks": 275,
+   "age_days": 88,
+   "daily_stars": 27.647727272727273,
+   "real_daily_stars": 181.5,
+   "watchers": 9,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "bam-bam-2/solo-skills",
+   "url": "https://github.com/bam-bam-2/solo-skills",
+   "description": "1인 사업가 생산성 키트 — 직원 없이 49개를 자동화했고, 그중 바로 쓸 수 있는 AI 에이전트 스킬 26개(+실행 스크립트)를 공개합니다",
+   "language": "Python",
+   "stars": 203,
+   "forks": 48,
+   "age_days": 1,
+   "daily_stars": 203.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "kgoedecke/doop",
+   "url": "https://github.com/kgoedecke/doop",
+   "description": "The open-source alternative to Paper.design. A multiplayer design canvas where humans and AI agents design together, live. MCP built in.",
+   "language": "TypeScript",
+   "stars": 200,
+   "forks": 17,
+   "age_days": 1,
+   "daily_stars": 200.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "hn"
+   ],
+   "license": "AGPL-3.0",
+   "hn_title": "Show HN: Doop – open-source live canvas for AI agents to design",
+   "hn_score": 2,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "josiah-nelson/eidos",
+   "url": "https://github.com/josiah-nelson/eidos",
+   "description": "Windows-first filesystem catalog, content indexer, storage analyzer, and search service (Rust, SQLite, Tantivy, React)",
+   "language": "Rust",
+   "stars": 164,
+   "forks": 0,
+   "age_days": 1,
+   "daily_stars": 164.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "NousResearch/hermes-agent",
+   "url": "https://github.com/NousResearch/hermes-agent",
+   "description": "The agent that grows with you",
+   "language": "Python",
+   "stars": 235166,
+   "forks": 47389,
+   "age_days": 397,
+   "daily_stars": 592.3576826196473,
+   "watchers": 911,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "Comfy-Org/ComfyUI",
+   "url": "https://github.com/Comfy-Org/ComfyUI",
+   "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+   "language": "Python",
+   "stars": 129515,
+   "forks": 15271,
+   "age_days": 1315,
+   "daily_stars": 98.49049429657795,
+   "real_daily_stars": 233.69230769230768,
+   "watchers": 785,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "virgiliojr94/book-to-skill",
+   "url": "https://github.com/virgiliojr94/book-to-skill",
+   "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+   "language": "Python",
+   "stars": 24809,
+   "forks": 2594,
+   "age_days": 115,
+   "daily_stars": 215.73043478260868,
+   "watchers": 117,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "sii-research/tau-0-vla",
+   "url": "https://github.com/sii-research/tau-0-vla",
+   "description": "This repo is the official implementation of  \"τ0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation\".",
+   "language": "Python",
+   "stars": 529,
+   "forks": 15,
+   "age_days": 28,
+   "daily_stars": 18.892857142857142,
+   "real_daily_stars": 12.391304347826088,
+   "watchers": 2,
+   "source": "hf-papers",
+   "sources": [
+    "hf-papers"
+   ],
+   "license": "Apache-2.0",
+   "hf_title": "τ_0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+   "hf_upvotes": 15,
+   "rank": 3,
+   "scores": {
+    "total": 63,
+    "acceleration": 13,
+    "quality": 20,
+    "antispam": 30
+   }
+  }
+ ]
+}
