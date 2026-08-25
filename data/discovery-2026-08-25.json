@@ -1,0 +1,315 @@
+{
+ "date": "2026-08-25",
+ "generated_at": "2026-08-25T05:17:47.357786",
+ "new": [
+  {
+   "full_name": "Alishahryar1/free-claude-code",
+   "url": "https://github.com/Alishahryar1/free-claude-code",
+   "description": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+   "language": "Python",
+   "stars": 49207,
+   "forks": 8019,
+   "age_days": 208,
+   "daily_stars": 236.5721153846154,
+   "real_daily_stars": 1076.0,
+   "watchers": 321,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "freestylefly/awesome-gpt-image-2",
+   "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+   "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+   "language": "JavaScript",
+   "stars": 15935,
+   "forks": 1676,
+   "age_days": 121,
+   "daily_stars": 131.69421487603304,
+   "real_daily_stars": 2321.0,
+   "watchers": 51,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "anthropics/claude-plugins-community",
+   "url": "https://github.com/anthropics/claude-plugins-community",
+   "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+   "language": "Python",
+   "stars": 1445,
+   "forks": 159,
+   "age_days": 158,
+   "daily_stars": 9.145569620253164,
+   "real_daily_stars": 388.0,
+   "watchers": 12,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "tinyhumansai/openhuman",
+   "url": "https://github.com/tinyhumansai/openhuman",
+   "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+   "language": "Rust",
+   "stars": 37377,
+   "forks": 3708,
+   "age_days": 187,
+   "daily_stars": 199.87700534759358,
+   "real_daily_stars": 516.0,
+   "watchers": 189,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 98,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "dani-garcia/vaultwarden",
+   "url": "https://github.com/dani-garcia/vaultwarden",
+   "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+   "language": "Rust",
+   "stars": 66144,
+   "forks": 3140,
+   "age_days": 3110,
+   "daily_stars": 21.268167202572346,
+   "real_daily_stars": 161.0,
+   "watchers": 308,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "VoltAgent/awesome-agent-skills",
+   "url": "https://github.com/VoltAgent/awesome-agent-skills",
+   "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+   "language": "",
+   "stars": 32003,
+   "forks": 3407,
+   "age_days": 300,
+   "daily_stars": 106.67666666666666,
+   "real_daily_stars": 588.0,
+   "watchers": 229,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 95,
+    "acceleration": 40,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "rome-os/rome",
+   "url": "https://github.com/rome-os/rome",
+   "description": "Rome is the agentic OS.",
+   "language": "TypeScript",
+   "stars": 300,
+   "forks": 16,
+   "age_days": 1,
+   "daily_stars": 300.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "alchaincyf/huashu-excel",
+   "url": "https://github.com/alchaincyf/huashu-excel",
+   "description": "数据分析与 Excel 全流程 skill：体检脏表、清洗、对齐需求、分析、对账、交付。让 AI 算出来的数字经得起追问。跨 agent 通用，依赖仅 openpyxl。",
+   "language": "Python",
+   "stars": 192,
+   "forks": 29,
+   "age_days": 1,
+   "daily_stars": 192.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "lxf746/outlook-auto-register",
+   "url": "https://github.com/lxf746/outlook-auto-register",
+   "description": "Microsoft Outlook Fluent Web API 协议注册工具（纯协议，无浏览器依赖）",
+   "language": "Python",
+   "stars": 160,
+   "forks": 92,
+   "age_days": 1,
+   "daily_stars": 160.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "truespar/sentio",
+   "url": "https://github.com/truespar/sentio",
+   "description": "Email inbox API for AI agents. Give every agent its own real email address, receive mail as structured webhooks, and reply in-thread over REST. A complete multi-tenant mail server in Rust: inbound and outbound, DKIM/SPF/DMARC/ARC, MTA-STS, DANE, three-tier anti-spam.",
+   "language": "Rust",
+   "stars": 175,
+   "forks": 12,
+   "age_days": 1,
+   "daily_stars": 175.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "PrimeIntellect-ai/prime-agent",
+   "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+   "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+   "language": "TypeScript",
+   "stars": 18199,
+   "forks": 1963,
+   "age_days": 109,
+   "daily_stars": 166.96330275229357,
+   "real_daily_stars": 293.0,
+   "watchers": 75,
+   "source": "hf-papers",
+   "sources": [
+    "hf-papers"
+   ],
+   "license": "MIT",
+   "hf_title": "Prime Agent: A Self-Improving RLM Harness",
+   "hf_upvotes": 12,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ]
+}

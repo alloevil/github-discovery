@@ -9,14 +9,6 @@
       ],
       "last_recommended": "2026-08-10T06:03:18.366876+00:00"
     },
-    "CoreBunch/Instatic": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-07-25T07:03:07.358250+00:00"
-    },
     "obra/superpowers": {
       "count": 5,
       "scores": [
@@ -251,55 +243,6 @@
         72
       ],
       "last_recommended": "2026-08-15T05:03:12.205560+00:00"
-    },
-    "yorukot/superfile": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-25T07:03:07.355725+00:00"
-    },
-    "OtterMind/Chat2DB": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-25T07:03:07.364840+00:00"
-    },
-    "slvDev/esp32-ai": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-25T07:03:07.367442+00:00"
-    },
-    "AdelanSoulX/PM-Sniper": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-25T07:03:07.430446+00:00"
-    },
-    "AdelanSupport/adelan-support": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-25T07:03:07.433175+00:00"
-    },
-    "berabuddies/redis-poc": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-25T07:03:07.435626+00:00"
-    },
-    "Charles-0509/Grok-Register": {
-      "count": 1,
-      "scores": [
-        97
-      ],
-      "last_recommended": "2026-07-25T07:03:07.438140+00:00"
     },
     "permissionlesstech/bitchat": {
       "count": 1,
@@ -1202,11 +1145,12 @@
       "last_recommended": "2026-08-08T05:26:21.150525+00:00"
     },
     "PrimeIntellect-ai/prime-agent": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        91
       ],
-      "last_recommended": "2026-08-09T05:35:24.563004+00:00"
+      "last_recommended": "2026-08-25T05:17:47.070242+00:00"
     },
     "google/skills": {
       "count": 1,
@@ -2322,7 +2266,77 @@
         90
       ],
       "last_recommended": "2026-08-24T05:25:39.185668+00:00"
+    },
+    "Alishahryar1/free-claude-code": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-25T05:17:47.053606+00:00"
+    },
+    "freestylefly/awesome-gpt-image-2": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-25T05:17:47.055516+00:00"
+    },
+    "anthropics/claude-plugins-community": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-08-25T05:17:47.057185+00:00"
+    },
+    "tinyhumansai/openhuman": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-08-25T05:17:47.058809+00:00"
+    },
+    "dani-garcia/vaultwarden": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-08-25T05:17:47.060437+00:00"
+    },
+    "VoltAgent/awesome-agent-skills": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-08-25T05:17:47.062086+00:00"
+    },
+    "rome-os/rome": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-08-25T05:17:47.063692+00:00"
+    },
+    "alchaincyf/huashu-excel": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-08-25T05:17:47.065326+00:00"
+    },
+    "lxf746/outlook-auto-register": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-08-25T05:17:47.066944+00:00"
+    },
+    "truespar/sentio": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-08-25T05:17:47.068590+00:00"
     }
   },
-  "updated_at": "2026-08-24T05:25:39.190593+00:00"
+  "updated_at": "2026-08-25T05:17:47.070263+00:00"
 }

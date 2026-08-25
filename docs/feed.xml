@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-08-24T18:00:00Z</updated>
+  <updated>2026-08-25T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>Alishahryar1/free-claude-code — Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)</title>
+    <id>https://github.com/Alishahryar1/free-claude-code#2026-08-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Alishahryar1/free-claude-code"/>
+    <updated>2026-08-25T18:00:00Z</updated>
+    <published>2026-08-25T18:00:00Z</published>
+    <summary>Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)
+
+Why: +1076/day · Trending · 4.5x accelerating
+Score: 100/100 | Language: Python | ⭐ 49207 (+1076.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>freestylefly/awesome-gpt-image-2 — Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中</title>
+    <id>https://github.com/freestylefly/awesome-gpt-image-2#2026-08-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/freestylefly/awesome-gpt-image-2"/>
+    <updated>2026-08-25T18:00:00Z</updated>
+    <published>2026-08-25T18:00:00Z</published>
+    <summary>Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中
+
+Why: +2321/day · Trending · 17.6x accelerating
+Score: 100/100 | Language: JavaScript | ⭐ 15935 (+2321.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>anthropics/claude-plugins-community — Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.</title>
+    <id>https://github.com/anthropics/claude-plugins-community#2026-08-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-plugins-community"/>
+    <updated>2026-08-25T18:00:00Z</updated>
+    <published>2026-08-25T18:00:00Z</published>
+    <summary>Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.
+
+Why: +388/day · Trending · 42.4x accelerating
+Score: 99/100 | Language: Python | ⭐ 1445 (+388.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>tinyhumansai/openhuman — Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.</title>
+    <id>https://github.com/tinyhumansai/openhuman#2026-08-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/tinyhumansai/openhuman"/>
+    <updated>2026-08-25T18:00:00Z</updated>
+    <published>2026-08-25T18:00:00Z</published>
+    <summary>Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.
+
+Why: +516/day · Trending · 2.6x accelerating
+Score: 98/100 | Language: Rust | ⭐ 37377 (+516.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>dani-garcia/vaultwarden — Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs</title>
+    <id>https://github.com/dani-garcia/vaultwarden#2026-08-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/dani-garcia/vaultwarden"/>
+    <updated>2026-08-25T18:00:00Z</updated>
+    <published>2026-08-25T18:00:00Z</published>
+    <summary>Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
+
+Why: +161/day · Trending · 7.6x accelerating
+Score: 95/100 | Language: Rust | ⭐ 66144 (+161.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>PrimeIntellect-ai/prime-agent — A self-improving RLM agent for coding workflows and long-running autonomous tasks.</title>
+    <id>https://github.com/PrimeIntellect-ai/prime-agent#2026-08-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/PrimeIntellect-ai/prime-agent"/>
+    <updated>2026-08-25T18:00:00Z</updated>
+    <published>2026-08-25T18:00:00Z</published>
+    <summary>A self-improving RLM agent for coding workflows and long-running autonomous tasks.
+
+Why: +293/day · HF Papers · 1.8x accelerating
+Score: 91/100 | Language: TypeScript | ⭐ 18199 (+293.0/day) | Source: hf-papers</summary>
+  </entry>
   <entry>
     <title>duty1g/x64dbg-mcp-server — x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros</title>
     <id>https://github.com/duty1g/x64dbg-mcp-server#2026-08-24</id>
@@ -866,82 +932,5 @@ Score: 100/100 | Language: TypeScript | ⭐ 246 (+246.0/day) | Source: search</s
 
 Why: +154/day · Trending
 Score: 100/100 | Language: Python | ⭐ 34907 (+154.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>semantica-agi/semantica — Graph-Native Infrastructure for Context and Accountable AI Systems</title>
-    <id>https://github.com/semantica-agi/semantica#2026-08-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/semantica-agi/semantica"/>
-    <updated>2026-08-11T18:00:00Z</updated>
-    <published>2026-08-11T18:00:00Z</published>
-    <summary>Graph-Native Infrastructure for Context and Accountable AI Systems
-
-Why: +641/day · Trending · 61.0x accelerating
-Score: 100/100 | Language: Python | ⭐ 4324 (+641.3/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Comfy-Org/ComfyUI — The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.</title>
-    <id>https://github.com/Comfy-Org/ComfyUI#2026-08-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Comfy-Org/ComfyUI"/>
-    <updated>2026-08-11T18:00:00Z</updated>
-    <published>2026-08-11T18:00:00Z</published>
-    <summary>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
-
-Why: +734/day · Trending · 7.6x accelerating
-Score: 100/100 | Language: Python | ⭐ 126477 (+734.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>antirez/h3.c — MiniMax H3 inference engine for Mac computers</title>
-    <id>https://github.com/antirez/h3.c#2026-08-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/antirez/h3.c"/>
-    <updated>2026-08-11T18:00:00Z</updated>
-    <published>2026-08-11T18:00:00Z</published>
-    <summary>MiniMax H3 inference engine for Mac computers
-
-Why: +538/day · Search
-Score: 100/100 | Language: C | ⭐ 538 (+538.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>TauricResearch/TradingAgents — TradingAgents: Multi-Agents LLM Financial Trading Framework</title>
-    <id>https://github.com/TauricResearch/TradingAgents#2026-08-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/TauricResearch/TradingAgents"/>
-    <updated>2026-08-11T18:00:00Z</updated>
-    <published>2026-08-11T18:00:00Z</published>
-    <summary>TradingAgents: Multi-Agents LLM Financial Trading Framework
-
-Why: +373/day · Trending · 2.3x accelerating
-Score: 100/100 | Language: Python | ⭐ 97350 (+373.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>vitali87/code-graph-rag — The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs</title>
-    <id>https://github.com/vitali87/code-graph-rag#2026-08-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/vitali87/code-graph-rag"/>
-    <updated>2026-08-11T18:00:00Z</updated>
-    <published>2026-08-11T18:00:00Z</published>
-    <summary>The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs
-
-Why: +432/day · Trending · 50.3x accelerating
-Score: 100/100 | Language: Python | ⭐ 3607 (+432.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>ruvnet/RuView — π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.</title>
-    <id>https://github.com/ruvnet/RuView#2026-08-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ruvnet/RuView"/>
-    <updated>2026-08-11T18:00:00Z</updated>
-    <published>2026-08-11T18:00:00Z</published>
-    <summary>π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
-
-Why: +208/day · Trending
-Score: 99/100 | Language: Rust | ⭐ 89441 (+208.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>NanmiCoder/MediaCrawler — 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫</title>
-    <id>https://github.com/NanmiCoder/MediaCrawler#2026-08-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/NanmiCoder/MediaCrawler"/>
-    <updated>2026-08-11T18:00:00Z</updated>
-    <published>2026-08-11T18:00:00Z</published>
-    <summary>小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫
-
-Why: +53/day · Trending
-Score: 69/100 | Language: Python | ⭐ 61317 (+53.0/day) | Source: trending</summary>
   </entry>
 </feed>
