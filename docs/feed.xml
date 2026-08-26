@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-08-25T18:00:00Z</updated>
+  <updated>2026-08-26T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>MadsLorentzen/ai-job-search — The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.</title>
+    <id>https://github.com/MadsLorentzen/ai-job-search#2026-08-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/MadsLorentzen/ai-job-search"/>
+    <updated>2026-08-26T18:00:00Z</updated>
+    <published>2026-08-26T18:00:00Z</published>
+    <summary>The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.
+
+Why: +1255/day · Trending · 5.6x accelerating
+Score: 100/100 | Language: Python | ⭐ 35544 (+1255.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>AgriciDaniel/claude-obsidian — Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.</title>
+    <id>https://github.com/AgriciDaniel/claude-obsidian#2026-08-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/AgriciDaniel/claude-obsidian"/>
+    <updated>2026-08-26T18:00:00Z</updated>
+    <published>2026-08-26T18:00:00Z</published>
+    <summary>Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.
+
+Why: +828/day · Trending · 9.0x accelerating
+Score: 100/100 | Language: Python | ⭐ 12888 (+828.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>rohitg00/ai-engineering-from-scratch — Learn it. Build it. Ship it for others.</title>
+    <id>https://github.com/rohitg00/ai-engineering-from-scratch#2026-08-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/rohitg00/ai-engineering-from-scratch"/>
+    <updated>2026-08-26T18:00:00Z</updated>
+    <published>2026-08-26T18:00:00Z</published>
+    <summary>Learn it. Build it. Ship it for others.
+
+Why: +790/day · Trending · 2.6x accelerating
+Score: 98/100 | Language: Python | ⭐ 49189 (+790.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>ApodexAI/FrontierAgent — 🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.</title>
+    <id>https://github.com/ApodexAI/FrontierAgent#2026-08-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ApodexAI/FrontierAgent"/>
+    <updated>2026-08-26T18:00:00Z</updated>
+    <published>2026-08-26T18:00:00Z</published>
+    <summary>🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.
+
+Why: +408/day · Search+HF Papers · 2.3x accelerating
+Score: 96/100 | Language: Python | ⭐ 695 (+408.0/day) | Source: search + hf-papers</summary>
+  </entry>
+  <entry>
+    <title>bryllim/workout-guide — 302 open exercise illustrations and a framework-neutral npm package by Bryl Lim</title>
+    <id>https://github.com/bryllim/workout-guide#2026-08-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/bryllim/workout-guide"/>
+    <updated>2026-08-26T18:00:00Z</updated>
+    <published>2026-08-26T18:00:00Z</published>
+    <summary>302 open exercise illustrations and a framework-neutral npm package by Bryl Lim
+
+Why: +282/day · Search
+Score: 93/100 | Language: Astro | ⭐ 563 (+281.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>basecamp/omarchy — Beautiful, Modern &amp; Opinionated Linux</title>
+    <id>https://github.com/basecamp/omarchy#2026-08-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/basecamp/omarchy"/>
+    <updated>2026-08-26T18:00:00Z</updated>
+    <published>2026-08-26T18:00:00Z</published>
+    <summary>Beautiful, Modern &amp; Opinionated Linux
+
+Why: +1078/day · Trending · 15.4x accelerating
+Score: 100/100 | Language: Shell | ⭐ 31448 (+1078.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>TauricResearch/TradingAgents — TradingAgents: Multi-Agents LLM Financial Trading Framework</title>
+    <id>https://github.com/TauricResearch/TradingAgents#2026-08-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/TauricResearch/TradingAgents"/>
+    <updated>2026-08-26T18:00:00Z</updated>
+    <published>2026-08-26T18:00:00Z</published>
+    <summary>TradingAgents: Multi-Agents LLM Financial Trading Framework
+
+Why: +204/day · Trending
+Score: 87/100 | Language: Python | ⭐ 100413 (+204.2/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>Alishahryar1/free-claude-code — Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)</title>
     <id>https://github.com/Alishahryar1/free-claude-code#2026-08-25</id>
@@ -866,71 +943,5 @@ Score: 100/100 | Language: TypeScript | ⭐ 666 (+484.0/day) | Source: search</s
 
 Why: +122/day · Trending
 Score: 94/100 | Language: Python | ⭐ 36994 (+121.8/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>sohaibdevv/youtube-music — A lightweight, ad‑free client for streaming music from YouTube Music. No subscription required. Supports background playback, search, and custom playlists via the reverse‑engineered API.</title>
-    <id>https://github.com/sohaibdevv/youtube-music#2026-08-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/sohaibdevv/youtube-music"/>
-    <updated>2026-08-12T18:00:00Z</updated>
-    <published>2026-08-12T18:00:00Z</published>
-    <summary>A lightweight, ad‑free client for streaming music from YouTube Music. No subscription required. Supports background playback, search, and custom playlists via the reverse‑engineered API.
-
-Why: +836/day · Search
-Score: 100/100 | Language: TypeScript | ⭐ 836 (+836.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>shadcn-ui/chatbot-template — A minimal chatbot template built with Next.js, AI SDK, shadcn/ui, shadcn/react, shadcn/typeset. It runs on the Vercel AI Gateway.</title>
-    <id>https://github.com/shadcn-ui/chatbot-template#2026-08-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/shadcn-ui/chatbot-template"/>
-    <updated>2026-08-12T18:00:00Z</updated>
-    <published>2026-08-12T18:00:00Z</published>
-    <summary>A minimal chatbot template built with Next.js, AI SDK, shadcn/ui, shadcn/react, shadcn/typeset. It runs on the Vercel AI Gateway.
-
-Why: +477/day · Search
-Score: 100/100 | Language: TypeScript | ⭐ 477 (+477.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>AntigmaLabs/ante — Ghost in your shell. Ante is a self-contained agent harness with a highly optimized core. It works like Claude Code or Codex, with none of their dependencies or model constraints. </title>
-    <id>https://github.com/AntigmaLabs/ante#2026-08-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/AntigmaLabs/ante"/>
-    <updated>2026-08-12T18:00:00Z</updated>
-    <published>2026-08-12T18:00:00Z</published>
-    <summary>Ghost in your shell. Ante is a self-contained agent harness with a highly optimized core. It works like Claude Code or Codex, with none of their dependencies or model constraints. 
-
-Why: +216/day · HN · 40.7x accelerating
-Score: 100/100 | Language: Rust | ⭐ 1226 (+216.0/day) | Source: hn</summary>
-  </entry>
-  <entry>
-    <title>harveyai/harvey-labs — A benchmark built to evaluate and improve agent capabilities for supporting legal work.</title>
-    <id>https://github.com/harveyai/harvey-labs#2026-08-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/harveyai/harvey-labs"/>
-    <updated>2026-08-12T18:00:00Z</updated>
-    <published>2026-08-12T18:00:00Z</published>
-    <summary>A benchmark built to evaluate and improve agent capabilities for supporting legal work.
-
-Why: +115/day · Trending · 13.8x accelerating
-Score: 100/100 | Language: Python | ⭐ 1118 (+115.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>0xnyn/airship — Figma like visual editor built for Claude Code, Codex and OpenCode</title>
-    <id>https://github.com/0xnyn/airship#2026-08-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/0xnyn/airship"/>
-    <updated>2026-08-12T18:00:00Z</updated>
-    <published>2026-08-12T18:00:00Z</published>
-    <summary>Figma like visual editor built for Claude Code, Codex and OpenCode
-
-Why: +246/day · Search
-Score: 100/100 | Language: TypeScript | ⭐ 246 (+246.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>HKUDS/DeepTutor — DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.</title>
-    <id>https://github.com/HKUDS/DeepTutor#2026-08-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/HKUDS/DeepTutor"/>
-    <updated>2026-08-12T18:00:00Z</updated>
-    <published>2026-08-12T18:00:00Z</published>
-    <summary>DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
-
-Why: +154/day · Trending
-Score: 100/100 | Language: Python | ⭐ 34907 (+154.5/day) | Source: trending</summary>
   </entry>
 </feed>
