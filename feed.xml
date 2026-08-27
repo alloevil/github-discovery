@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-08-26T18:00:00Z</updated>
+  <updated>2026-08-27T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>anthropics/claude-plugins-official — Official, Anthropic-managed directory of high quality Claude Code Plugins.</title>
+    <id>https://github.com/anthropics/claude-plugins-official#2026-08-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-plugins-official"/>
+    <updated>2026-08-27T18:00:00Z</updated>
+    <published>2026-08-27T18:00:00Z</published>
+    <summary>Official, Anthropic-managed directory of high quality Claude Code Plugins.
+
+Why: +410/day · Trending · 3.3x accelerating
+Score: 99/100 | Language: Python | ⭐ 34559 (+410.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>marin-community/marin — Open-source framework for the research and development of foundation models.</title>
+    <id>https://github.com/marin-community/marin#2026-08-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/marin-community/marin"/>
+    <updated>2026-08-27T18:00:00Z</updated>
+    <published>2026-08-27T18:00:00Z</published>
+    <summary>Open-source framework for the research and development of foundation models.
+
+Why: +416/day · Trending · 140.6x accelerating
+Score: 99/100 | Language: Python | ⭐ 2628 (+416.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Tencent/WeMM-Embedding — WeMM-Embedding is a family of universal multimodal embedding models by the WeChat Vision Team at Tencent, supporting multimodal understanding and retrieval.</title>
+    <id>https://github.com/Tencent/WeMM-Embedding#2026-08-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Tencent/WeMM-Embedding"/>
+    <updated>2026-08-27T18:00:00Z</updated>
+    <published>2026-08-27T18:00:00Z</published>
+    <summary>WeMM-Embedding is a family of universal multimodal embedding models by the WeChat Vision Team at Tencent, supporting multimodal understanding and retrieval.
+
+Why: +384/day · Search+HF Papers · 1.8x accelerating
+Score: 93/100 | Language: Python | ⭐ 430 (+384.0/day) | Source: search + hf-papers</summary>
+  </entry>
+  <entry>
+    <title>gtlhuyidan-sketch/life-ipo — 人生 IPO：统一财务、健康、知识、人脉、AI 决策与团队执行的个人数据操作系统。</title>
+    <id>https://github.com/gtlhuyidan-sketch/life-ipo#2026-08-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/gtlhuyidan-sketch/life-ipo"/>
+    <updated>2026-08-27T18:00:00Z</updated>
+    <published>2026-08-27T18:00:00Z</published>
+    <summary>人生 IPO：统一财务、健康、知识、人脉、AI 决策与团队执行的个人数据操作系统。
+
+Why: +136/day · Search
+Score: 90/100 | Language: TypeScript | ⭐ 273 (+136.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>DietrichGebert/ponytail — Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</title>
+    <id>https://github.com/DietrichGebert/ponytail#2026-08-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/DietrichGebert/ponytail"/>
+    <updated>2026-08-27T18:00:00Z</updated>
+    <published>2026-08-27T18:00:00Z</published>
+    <summary>Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+
+Why: +2310/day · Trending · 1.5x accelerating
+Score: 88/100 | Language: JavaScript | ⭐ 113642 (+2310.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>OpenCut-app/OpenCut — The open-source CapCut alternative</title>
+    <id>https://github.com/OpenCut-app/OpenCut#2026-08-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/OpenCut-app/OpenCut"/>
+    <updated>2026-08-27T18:00:00Z</updated>
+    <published>2026-08-27T18:00:00Z</published>
+    <summary>The open-source CapCut alternative
+
+Why: +288/day · Trending
+Score: 89/100 | Language: TypeScript | ⭐ 87214 (+287.9/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>calesthio/OpenMontage — World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.</title>
+    <id>https://github.com/calesthio/OpenMontage#2026-08-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/calesthio/OpenMontage"/>
+    <updated>2026-08-27T18:00:00Z</updated>
+    <published>2026-08-27T18:00:00Z</published>
+    <summary>World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.
+
+Why: +300/day · Trending
+Score: 88/100 | Language: Python | ⭐ 52013 (+299.8/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>MadsLorentzen/ai-job-search — The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.</title>
     <id>https://github.com/MadsLorentzen/ai-job-search#2026-08-26</id>
@@ -877,71 +954,5 @@ Score: 100/100 | Language: Rust | ⭐ 1302 (+374.0/day) | Source: trending</summ
 
 Why: +304/day · Trending · 76.6x accelerating
 Score: 100/100 | Language: Python | ⭐ 20719 (+304.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>MSNightmare/ShieldBreak — Windows Defender 0day vulnerability</title>
-    <id>https://github.com/MSNightmare/ShieldBreak#2026-08-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/MSNightmare/ShieldBreak"/>
-    <updated>2026-08-13T18:00:00Z</updated>
-    <published>2026-08-13T18:00:00Z</published>
-    <summary>Windows Defender 0day vulnerability
-
-Why: +436/day · Search+Rising
-Score: 100/100 | Language: C++ | ⭐ 436 (+436.0/day) | Source: search + rising</summary>
-  </entry>
-  <entry>
-    <title>ayi-ai/nie-grassroots-logic — 聂·基层运行逻辑 · Agent Skill：基于聂辉华《基层中国的运行逻辑》的方法论工具箱（不含原书全文）</title>
-    <id>https://github.com/ayi-ai/nie-grassroots-logic#2026-08-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ayi-ai/nie-grassroots-logic"/>
-    <updated>2026-08-13T18:00:00Z</updated>
-    <published>2026-08-13T18:00:00Z</published>
-    <summary>聂·基层运行逻辑 · Agent Skill：基于聂辉华《基层中国的运行逻辑》的方法论工具箱（不含原书全文）
-
-Why: +188/day · Search
-Score: 100/100 | Language: HTML | ⭐ 377 (+188.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>keslr/keslr_connect — Connect your service to Keslr: sign in with Keslr and read the verification claim that proves a user is a real, vouched-for human — plus run services reachable only by Keslr members.</title>
-    <id>https://github.com/keslr/keslr_connect#2026-08-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/keslr/keslr_connect"/>
-    <updated>2026-08-13T18:00:00Z</updated>
-    <published>2026-08-13T18:00:00Z</published>
-    <summary>Connect your service to Keslr: sign in with Keslr and read the verification claim that proves a user is a real, vouched-for human — plus run services reachable only by Keslr members.
-
-Why: +116/day · Search · 1.7x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 346 (+116.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>hugohe3/ppt-master — AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He</title>
-    <id>https://github.com/hugohe3/ppt-master#2026-08-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/hugohe3/ppt-master"/>
-    <updated>2026-08-13T18:00:00Z</updated>
-    <published>2026-08-13T18:00:00Z</published>
-    <summary>AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He
-
-Why: +188/day · Trending
-Score: 100/100 | Language: Python | ⭐ 45943 (+187.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>milind-soni/OpenMausBot — No description</title>
-    <id>https://github.com/milind-soni/OpenMausBot#2026-08-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/milind-soni/OpenMausBot"/>
-    <updated>2026-08-13T18:00:00Z</updated>
-    <published>2026-08-13T18:00:00Z</published>
-    <summary>No description
-
-Why: +484/day · Search
-Score: 100/100 | Language: TypeScript | ⭐ 666 (+484.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>shiyu-coder/Kronos — Kronos: A Foundation Model for the Language of Financial Markets</title>
-    <id>https://github.com/shiyu-coder/Kronos#2026-08-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/shiyu-coder/Kronos"/>
-    <updated>2026-08-13T18:00:00Z</updated>
-    <published>2026-08-13T18:00:00Z</published>
-    <summary>Kronos: A Foundation Model for the Language of Financial Markets
-
-Why: +122/day · Trending
-Score: 94/100 | Language: Python | ⭐ 36994 (+121.8/day) | Source: trending</summary>
   </entry>
 </feed>
