@@ -1,0 +1,346 @@
+{
+ "date": "2026-08-27",
+ "generated_at": "2026-08-27T15:32:28.828805",
+ "new": [
+  {
+   "full_name": "anthropics/claude-plugins-official",
+   "url": "https://github.com/anthropics/claude-plugins-official",
+   "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+   "language": "Python",
+   "stars": 34559,
+   "forks": 3902,
+   "age_days": 279,
+   "daily_stars": 123.8673835125448,
+   "real_daily_stars": 410.0,
+   "watchers": 217,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "marin-community/marin",
+   "url": "https://github.com/marin-community/marin",
+   "description": "Open-source framework for the research and development of foundation models.",
+   "language": "Python",
+   "stars": 2628,
+   "forks": 222,
+   "age_days": 888,
+   "daily_stars": 2.9594594594594597,
+   "real_daily_stars": 416.0,
+   "watchers": 30,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Tencent/WeMM-Embedding",
+   "url": "https://github.com/Tencent/WeMM-Embedding",
+   "description": "WeMM-Embedding is a family of universal multimodal embedding models by the WeChat Vision Team at Tencent, supporting multimodal understanding and retrieval.",
+   "language": "Python",
+   "stars": 430,
+   "forks": 19,
+   "age_days": 2,
+   "daily_stars": 215.0,
+   "real_daily_stars": 384.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "hf-papers"
+   ],
+   "license": "NOASSERTION",
+   "hf_title": "WeMM-Embedding: WeChat Multi-Modal Embedding Technical Report",
+   "hf_upvotes": 60,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "gtlhuyidan-sketch/life-ipo",
+   "url": "https://github.com/gtlhuyidan-sketch/life-ipo",
+   "description": "人生 IPO：统一财务、健康、知识、人脉、AI 决策与团队执行的个人数据操作系统。",
+   "language": "TypeScript",
+   "stars": 273,
+   "forks": 8,
+   "age_days": 2,
+   "daily_stars": 136.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "language": "JavaScript",
+   "stars": 113642,
+   "forks": 6213,
+   "age_days": 76,
+   "daily_stars": 1495.2894736842106,
+   "real_daily_stars": 2310.0,
+   "watchers": 280,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 88,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "yding-git/personal-edge-proxy",
+   "url": "https://github.com/yding-git/personal-edge-proxy",
+   "description": "A practical multi-inbound, multi-outbound personal proxy setup with Xray, Hysteria2, REALITY Vision, WARP and optional static SOCKS5 routing.",
+   "language": "",
+   "stars": 584,
+   "forks": 67,
+   "age_days": 2,
+   "daily_stars": 292.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 88,
+    "acceleration": 33,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "HVision-NKU/OraRL",
+   "url": "https://github.com/HVision-NKU/OraRL",
+   "description": "🎬 OraRL — Annotations as Rollouts for efficient, scalable reinforcement learning of unified video MLLMs.",
+   "language": "Python",
+   "stars": 97,
+   "forks": 0,
+   "age_days": 3,
+   "daily_stars": 32.333333333333336,
+   "real_daily_stars": 79.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending",
+    "hf-papers"
+   ],
+   "license": "Apache-2.0",
+   "hf_title": "Annotations as Rollouts: Efficient and Scalable Reinforcement Learning for Video MLLMs",
+   "hf_upvotes": 98,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+   "language": "JavaScript",
+   "stars": 92103,
+   "forks": 8102,
+   "age_days": 360,
+   "daily_stars": 255.84166666666667,
+   "watchers": 290,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "farcasterxyz/client",
+   "url": "https://github.com/farcasterxyz/client",
+   "description": "Snapshot of the Farcaster client monorepo (mobile + web), without the Farcaster Wallet implementation",
+   "language": "TypeScript",
+   "stars": 80,
+   "forks": 35,
+   "age_days": 1,
+   "daily_stars": 80.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "HEJustinSun/my-girlfriend-jingtian-latex",
+   "url": "https://github.com/HEJustinSun/my-girlfriend-jingtian-latex",
+   "description": "",
+   "language": "TeX",
+   "stars": 542,
+   "forks": 108,
+   "age_days": 1,
+   "daily_stars": 542.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 86,
+    "acceleration": 36,
+    "quality": 20,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "OpenCut-app/OpenCut",
+   "url": "https://github.com/OpenCut-app/OpenCut",
+   "description": "The open-source CapCut alternative",
+   "language": "TypeScript",
+   "stars": 87214,
+   "forks": 8604,
+   "age_days": 431,
+   "daily_stars": 202.35266821345706,
+   "real_daily_stars": 287.875,
+   "watchers": 391,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "calesthio/OpenMontage",
+   "url": "https://github.com/calesthio/OpenMontage",
+   "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+   "language": "Python",
+   "stars": 52013,
+   "forks": 6525,
+   "age_days": 151,
+   "daily_stars": 344.4569536423841,
+   "real_daily_stars": 299.8,
+   "watchers": 292,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  }
+ ]
+}

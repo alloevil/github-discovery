@@ -65,22 +65,6 @@
       ],
       "last_recommended": "2026-08-06T07:25:38.154757+00:00"
     },
-    "mvanhorn/last30days-skill": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-07-28T07:24:36.736362+00:00"
-    },
-    "bradautomates/claude-video": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-07-28T07:24:36.733355+00:00"
-    },
     "TencentCloud/TencentDB-Agent-Memory": {
       "count": 2,
       "scores": [
@@ -88,14 +72,6 @@
         100
       ],
       "last_recommended": "2026-08-02T07:19:09.169578+00:00"
-    },
-    "anthropics/claude-cookbooks": {
-      "count": 2,
-      "scores": [
-        98,
-        98
-      ],
-      "last_recommended": "2026-07-27T08:07:16.620144+00:00"
     },
     "vercel/next.js": {
       "count": 2,
@@ -137,14 +113,6 @@
         67
       ],
       "last_recommended": "2026-08-10T06:03:18.368849+00:00"
-    },
-    "moeru-ai/airi": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-07-28T07:24:36.724636+00:00"
     },
     "chenyme/grok2api": {
       "count": 2,
@@ -244,69 +212,6 @@
       ],
       "last_recommended": "2026-08-15T05:03:12.205560+00:00"
     },
-    "nodejs/node": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-27T08:07:16.598571+00:00"
-    },
-    "pbakaus/impeccable": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-27T08:07:16.601394+00:00"
-    },
-    "vercel-labs/scriptc": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-27T08:07:16.603989+00:00"
-    },
-    "mshumer/Claude-of-Duty": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-27T08:07:16.606499+00:00"
-    },
-    "makecindy/cindy": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-27T08:07:16.609187+00:00"
-    },
-    "hahhforest/pi-textbook": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-27T08:07:16.611832+00:00"
-    },
-    "mikehasa/agentacct": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-27T08:07:16.614596+00:00"
-    },
-    "VictorTaelin/OptMem": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-27T08:07:16.617362+00:00"
-    },
-    "opengeos/GeoLibre": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-28T07:24:36.727714+00:00"
-    },
     "NanmiCoder/MediaCrawler": {
       "count": 2,
       "scores": [
@@ -314,41 +219,6 @@
         69
       ],
       "last_recommended": "2026-08-11T05:42:32.691728+00:00"
-    },
-    "kvcache-ai/AgentENV": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-28T07:24:36.739354+00:00"
-    },
-    "0xwilliamortiz/openclaude-improved": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-28T07:24:36.742390+00:00"
-    },
-    "didriksg/Crisp": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-28T07:24:36.745262+00:00"
-    },
-    "vudovn/ag-kit": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-07-28T07:24:36.748049+00:00"
-    },
-    "dboudreau00/NocTORnal": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-07-28T07:24:36.750861+00:00"
     },
     "pascalorg/editor": {
       "count": 1,
@@ -1358,11 +1228,12 @@
       "last_recommended": "2026-08-12T06:05:50.591267+00:00"
     },
     "calesthio/OpenMontage": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        88
       ],
-      "last_recommended": "2026-08-12T06:05:50.594207+00:00"
+      "last_recommended": "2026-08-27T15:32:28.613766+00:00"
     },
     "wanshuiyin/HERO-Anti-OverDefense": {
       "count": 1,
@@ -1667,11 +1538,12 @@
       "last_recommended": "2026-08-17T05:21:42.263838+00:00"
     },
     "OpenCut-app/OpenCut": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        89
       ],
-      "last_recommended": "2026-08-17T05:21:42.267817+00:00"
+      "last_recommended": "2026-08-27T15:32:28.611733+00:00"
     },
     "Nervercc/gpt_nerver": {
       "count": 1,
@@ -2359,7 +2231,77 @@
         89
       ],
       "last_recommended": "2026-08-26T05:16:54.011596+00:00"
+    },
+    "anthropics/claude-plugins-official": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-08-27T15:32:28.591327+00:00"
+    },
+    "marin-community/marin": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-08-27T15:32:28.593548+00:00"
+    },
+    "Tencent/WeMM-Embedding": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-08-27T15:32:28.595537+00:00"
+    },
+    "gtlhuyidan-sketch/life-ipo": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-08-27T15:32:28.597578+00:00"
+    },
+    "DietrichGebert/ponytail": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-08-27T15:32:28.599565+00:00"
+    },
+    "yding-git/personal-edge-proxy": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-08-27T15:32:28.601615+00:00"
+    },
+    "HVision-NKU/OraRL": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-08-27T15:32:28.603632+00:00"
+    },
+    "thedotmack/claude-mem": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-08-27T15:32:28.605659+00:00"
+    },
+    "farcasterxyz/client": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-08-27T15:32:28.607674+00:00"
+    },
+    "HEJustinSun/my-girlfriend-jingtian-latex": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-08-27T15:32:28.609714+00:00"
     }
   },
-  "updated_at": "2026-08-26T05:16:54.015759+00:00"
+  "updated_at": "2026-08-27T15:32:28.613792+00:00"
 }
