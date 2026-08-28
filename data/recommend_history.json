@@ -21,12 +21,13 @@
       "last_recommended": "2026-08-20T05:15:36.168194+00:00"
     },
     "ChromeDevTools/chrome-devtools-mcp": {
-      "count": 2,
+      "count": 3,
       "scores": [
         100,
-        100
+        100,
+        74
       ],
-      "last_recommended": "2026-07-31T07:35:04.580615+00:00"
+      "last_recommended": "2026-08-28T16:56:44.805618+00:00"
     },
     "affaan-m/ECC": {
       "count": 3,
@@ -220,13 +221,6 @@
       ],
       "last_recommended": "2026-08-11T05:42:32.691728+00:00"
     },
-    "pascalorg/editor": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-29T07:31:15.736402+00:00"
-    },
     "virgiliojr94/book-to-skill": {
       "count": 2,
       "scores": [
@@ -234,62 +228,6 @@
         86
       ],
       "last_recommended": "2026-08-24T05:25:39.188933+00:00"
-    },
-    "microsoft/agent-governance-toolkit": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-29T07:31:15.743768+00:00"
-    },
-    "fuadmefleh/Shared-Claude-Chats": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-29T07:31:15.746475+00:00"
-    },
-    "digimata/quill": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-29T07:31:15.749209+00:00"
-    },
-    "0xwilliamortiz/ponytail-improved": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-29T07:31:15.752003+00:00"
-    },
-    "daimon3332/OutlookRegister": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-29T07:31:15.754736+00:00"
-    },
-    "NikolayS/PGSimCity": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-07-29T07:31:15.757356+00:00"
-    },
-    "deerwork-ai/deer-workflow": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-07-29T07:31:15.760041+00:00"
-    },
-    "gavamedia/deltafin": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-07-29T07:31:15.762766+00:00"
     },
     "microsoft/VibeVoice": {
       "count": 1,
@@ -692,11 +630,12 @@
       "last_recommended": "2026-08-05T07:25:08.897589+00:00"
     },
     "livekit/agents": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        74
       ],
-      "last_recommended": "2026-08-05T07:25:08.900495+00:00"
+      "last_recommended": "2026-08-28T16:56:44.807701+00:00"
     },
     "KKKKhazix/human-writing": {
       "count": 1,
@@ -2301,7 +2240,77 @@
         86
       ],
       "last_recommended": "2026-08-27T15:32:28.609714+00:00"
+    },
+    "tt-a1i/archify": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-28T16:56:44.784780+00:00"
+    },
+    "K-Dense-AI/scientific-agent-skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-28T16:56:44.787063+00:00"
+    },
+    "JetBrains/go-modern-guidelines": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-28T16:56:44.789099+00:00"
+    },
+    "tashfeenahmed/freellmapi": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-28T16:56:44.791142+00:00"
+    },
+    "totec448-spec/chat-on-steroids": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-08-28T16:56:44.793184+00:00"
+    },
+    "N4darae/anti-mage": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-08-28T16:56:44.795285+00:00"
+    },
+    "google/googletest": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-08-28T16:56:44.797355+00:00"
+    },
+    "crmne/fastpotify": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-08-28T16:56:44.799401+00:00"
+    },
+    "mouredev/hello-sdd": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-08-28T16:56:44.801420+00:00"
+    },
+    "damejan80/tokentab": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-08-28T16:56:44.803488+00:00"
     }
   },
-  "updated_at": "2026-08-27T15:32:28.613792+00:00"
+  "updated_at": "2026-08-28T16:56:44.807729+00:00"
 }
