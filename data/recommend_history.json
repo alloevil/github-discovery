@@ -180,14 +180,6 @@
       ],
       "last_recommended": "2026-08-04T07:24:17.871217+00:00"
     },
-    "1jehuang/jcode": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-07-30T07:20:26.214951+00:00"
-    },
     "AlexsJones/llmfit": {
       "count": 2,
       "scores": [
@@ -229,55 +221,6 @@
       ],
       "last_recommended": "2026-08-24T05:25:39.188933+00:00"
     },
-    "microsoft/VibeVoice": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-30T07:20:26.219108+00:00"
-    },
-    "different-ai/openwork": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-30T07:20:26.221980+00:00"
-    },
-    "xikhar/persona": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-30T07:20:26.224949+00:00"
-    },
-    "talivia-group/talivia": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-30T07:20:26.227879+00:00"
-    },
-    "wassgha/rescript": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-30T07:20:26.230822+00:00"
-    },
-    "achimala/TheLongSilence": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-30T07:20:26.234037+00:00"
-    },
-    "huggingface/speech-to-speech": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-07-30T07:20:26.237393+00:00"
-    },
     "sii-research/tau-0-vla": {
       "count": 2,
       "scores": [
@@ -285,13 +228,6 @@
         63
       ],
       "last_recommended": "2026-08-24T05:25:39.190570+00:00"
-    },
-    "AmazingAng/old-coder": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-07-30T07:20:26.244573+00:00"
     },
     "MoonshotAI/Kimi-K3": {
       "count": 1,
@@ -2310,7 +2246,77 @@
         92
       ],
       "last_recommended": "2026-08-28T16:56:44.803488+00:00"
+    },
+    "bilawalsidhu/gods-eye-view": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-29T11:22:18.630164+00:00"
+    },
+    "tailscale/tailcat": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-29T11:22:18.632397+00:00"
+    },
+    "abi/screenshot-to-code": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-08-29T11:22:18.634433+00:00"
+    },
+    "NationalSecurityAgency/ghidra": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-08-29T11:22:18.636454+00:00"
+    },
+    "jprx/darwin-vm": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-08-29T11:22:18.638466+00:00"
+    },
+    "OnlyTerp/opengrok": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-08-29T11:22:18.643076+00:00"
+    },
+    "swoole/typephp": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-08-29T11:22:18.645139+00:00"
+    },
+    "chrisgreg/boop": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-08-29T11:22:18.647213+00:00"
+    },
+    "nateherkai/snagtime": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-08-29T11:22:18.649254+00:00"
+    },
+    "Nanako0129/sepia": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-08-29T11:22:18.651286+00:00"
     }
   },
-  "updated_at": "2026-08-28T16:56:44.807729+00:00"
+  "updated_at": "2026-08-29T11:22:18.651311+00:00"
 }

@@ -1,0 +1,284 @@
+{
+ "date": "2026-08-29",
+ "generated_at": "2026-08-29T11:22:18.884054",
+ "new": [
+  {
+   "full_name": "bilawalsidhu/gods-eye-view",
+   "url": "https://github.com/bilawalsidhu/gods-eye-view",
+   "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+   "language": "JavaScript",
+   "stars": 11763,
+   "forks": 2368,
+   "age_days": 67,
+   "daily_stars": 175.56716417910448,
+   "real_daily_stars": 1260.0,
+   "watchers": 261,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "tailscale/tailcat",
+   "url": "https://github.com/tailscale/tailcat",
+   "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+   "language": "Go",
+   "stars": 3047,
+   "forks": 85,
+   "age_days": 668,
+   "daily_stars": 4.561377245508982,
+   "real_daily_stars": 576.0,
+   "watchers": 16,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "BSD-3-Clause",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "abi/screenshot-to-code",
+   "url": "https://github.com/abi/screenshot-to-code",
+   "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+   "language": "Python",
+   "stars": 75787,
+   "forks": 9231,
+   "age_days": 1018,
+   "daily_stars": 74.44695481335953,
+   "real_daily_stars": 370.0,
+   "watchers": 415,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "NationalSecurityAgency/ghidra",
+   "url": "https://github.com/NationalSecurityAgency/ghidra",
+   "description": "Ghidra is a software reverse engineering (SRE) framework",
+   "language": "Java",
+   "stars": 73466,
+   "forks": 8021,
+   "age_days": 2738,
+   "daily_stars": 26.83199415631848,
+   "real_daily_stars": 236.0,
+   "watchers": 1128,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "jprx/darwin-vm",
+   "url": "https://github.com/jprx/darwin-vm",
+   "description": "Run iOS/ macOS in Qemu. Virtual iPhone 17, 16, 15, 14, 13, 12 and M5-M1 Apple Si Macs supported.",
+   "language": "Python",
+   "stars": 421,
+   "forks": 32,
+   "age_days": 1,
+   "daily_stars": 421.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "OnlyTerp/opengrok",
+   "url": "https://github.com/OnlyTerp/opengrok",
+   "description": "Run any model in Grok Bot — one-command setup, model picker UI, evidence-based provider wire maps, and an update-proof doctor. Not farming you, arming you.",
+   "language": "Python",
+   "stars": 325,
+   "forks": 34,
+   "age_days": 1,
+   "daily_stars": 325.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "swoole/typephp",
+   "url": "https://github.com/swoole/typephp",
+   "description": "Compile PHP to Native Binaries",
+   "language": "PHP",
+   "stars": 882,
+   "forks": 43,
+   "age_days": 110,
+   "daily_stars": 8.018181818181818,
+   "real_daily_stars": 129.0,
+   "watchers": 10,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "chrisgreg/boop",
+   "url": "https://github.com/chrisgreg/boop",
+   "description": "A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone.",
+   "language": "Go",
+   "stars": 295,
+   "forks": 13,
+   "age_days": 1,
+   "daily_stars": 295.0,
+   "watchers": 0,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "MIT",
+   "hn_title": "Show HN: Boop – tiny, self-hosted push notifications for your apps built in Go",
+   "hn_score": 6,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "nateherkai/snagtime",
+   "url": "https://github.com/nateherkai/snagtime",
+   "description": "Free, self-hostable scheduling app with booking links, Google Calendar sync, SMTP notifications, and Stripe test payments.",
+   "language": "TypeScript",
+   "stars": 212,
+   "forks": 63,
+   "age_days": 1,
+   "daily_stars": 212.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Nanako0129/sepia",
+   "url": "https://github.com/Nanako0129/sepia",
+   "description": "De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
+   "language": "Shell",
+   "stars": 546,
+   "forks": 25,
+   "age_days": 1,
+   "daily_stars": 546.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 91,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 15
+   }
+  }
+ ],
+ "repeat": []
+}
