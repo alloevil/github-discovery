@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-08-28T18:00:00Z</updated>
+  <updated>2026-08-29T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>bilawalsidhu/gods-eye-view — A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.</title>
+    <id>https://github.com/bilawalsidhu/gods-eye-view#2026-08-29</id>
+    <link rel="alternate" type="text/html" href="https://github.com/bilawalsidhu/gods-eye-view"/>
+    <updated>2026-08-29T18:00:00Z</updated>
+    <published>2026-08-29T18:00:00Z</published>
+    <summary>A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.
+
+Why: +1260/day · Trending · 7.2x accelerating
+Score: 100/100 | Language: JavaScript | ⭐ 11763 (+1260.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>tailscale/tailcat — like netcat, but over Tailscale's data plane, without Tailscale's control plane</title>
+    <id>https://github.com/tailscale/tailcat#2026-08-29</id>
+    <link rel="alternate" type="text/html" href="https://github.com/tailscale/tailcat"/>
+    <updated>2026-08-29T18:00:00Z</updated>
+    <published>2026-08-29T18:00:00Z</published>
+    <summary>like netcat, but over Tailscale's data plane, without Tailscale's control plane
+
+Why: +576/day · Trending · 126.3x accelerating
+Score: 100/100 | Language: Go | ⭐ 3047 (+576.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>abi/screenshot-to-code — Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)</title>
+    <id>https://github.com/abi/screenshot-to-code#2026-08-29</id>
+    <link rel="alternate" type="text/html" href="https://github.com/abi/screenshot-to-code"/>
+    <updated>2026-08-29T18:00:00Z</updated>
+    <published>2026-08-29T18:00:00Z</published>
+    <summary>Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)
+
+Why: +370/day · Trending · 5.0x accelerating
+Score: 99/100 | Language: Python | ⭐ 75787 (+370.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>NationalSecurityAgency/ghidra — Ghidra is a software reverse engineering (SRE) framework</title>
+    <id>https://github.com/NationalSecurityAgency/ghidra#2026-08-29</id>
+    <link rel="alternate" type="text/html" href="https://github.com/NationalSecurityAgency/ghidra"/>
+    <updated>2026-08-29T18:00:00Z</updated>
+    <published>2026-08-29T18:00:00Z</published>
+    <summary>Ghidra is a software reverse engineering (SRE) framework
+
+Why: +236/day · Trending · 8.8x accelerating
+Score: 96/100 | Language: Java | ⭐ 73466 (+236.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>jprx/darwin-vm — Run iOS/ macOS in Qemu. Virtual iPhone 17, 16, 15, 14, 13, 12 and M5-M1 Apple Si Macs supported.</title>
+    <id>https://github.com/jprx/darwin-vm#2026-08-29</id>
+    <link rel="alternate" type="text/html" href="https://github.com/jprx/darwin-vm"/>
+    <updated>2026-08-29T18:00:00Z</updated>
+    <published>2026-08-29T18:00:00Z</published>
+    <summary>Run iOS/ macOS in Qemu. Virtual iPhone 17, 16, 15, 14, 13, 12 and M5-M1 Apple Si Macs supported.
+
+Why: +421/day · Search
+Score: 95/100 | Language: Python | ⭐ 421 (+421.0/day) | Source: search</summary>
+  </entry>
   <entry>
     <title>tt-a1i/archify — Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.</title>
     <id>https://github.com/tt-a1i/archify#2026-08-28</id>
@@ -910,71 +965,5 @@ Score: 100/100 | Language: TypeScript | ⭐ 338 (+169.0/day) | Source: search</s
 
 Why: +153/day · Trending · 15.4x accelerating
 Score: 100/100 | Language: Python | ⭐ 1742 (+152.7/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>holaboss-ai/holaOS — Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.</title>
-    <id>https://github.com/holaboss-ai/holaOS#2026-08-15</id>
-    <link rel="alternate" type="text/html" href="https://github.com/holaboss-ai/holaOS"/>
-    <updated>2026-08-15T18:00:00Z</updated>
-    <published>2026-08-15T18:00:00Z</published>
-    <summary>Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.
-
-Why: +595/day · Trending · 11.7x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 7365 (+595.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>megadose/holehe — holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.</title>
-    <id>https://github.com/megadose/holehe#2026-08-15</id>
-    <link rel="alternate" type="text/html" href="https://github.com/megadose/holehe"/>
-    <updated>2026-08-15T18:00:00Z</updated>
-    <published>2026-08-15T18:00:00Z</published>
-    <summary>holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.
-
-Why: +392/day · Trending · 68.1x accelerating
-Score: 100/100 | Language: Python | ⭐ 12896 (+392.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>lightningpixel/modly — Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU</title>
-    <id>https://github.com/lightningpixel/modly#2026-08-15</id>
-    <link rel="alternate" type="text/html" href="https://github.com/lightningpixel/modly"/>
-    <updated>2026-08-15T18:00:00Z</updated>
-    <published>2026-08-15T18:00:00Z</published>
-    <summary>Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU
-
-Why: +443/day · Trending · 11.1x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 6008 (+443.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>unslothai/unsloth — Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.</title>
-    <id>https://github.com/unslothai/unsloth#2026-08-15</id>
-    <link rel="alternate" type="text/html" href="https://github.com/unslothai/unsloth"/>
-    <updated>2026-08-15T18:00:00Z</updated>
-    <published>2026-08-15T18:00:00Z</published>
-    <summary>Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.
-
-Why: +397/day · Trending · 5.5x accelerating
-Score: 100/100 | Language: Python | ⭐ 71570 (+397.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>awesome-dsh-plugin/awesome-dsh-plugin — A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表</title>
-    <id>https://github.com/awesome-dsh-plugin/awesome-dsh-plugin#2026-08-15</id>
-    <link rel="alternate" type="text/html" href="https://github.com/awesome-dsh-plugin/awesome-dsh-plugin"/>
-    <updated>2026-08-15T18:00:00Z</updated>
-    <published>2026-08-15T18:00:00Z</published>
-    <summary>A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表
-
-Why: +1517/day · Search
-Score: 100/100 | Language: Python | ⭐ 1517 (+1517.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>citrolabs/ego-lite — The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.</title>
-    <id>https://github.com/citrolabs/ego-lite#2026-08-15</id>
-    <link rel="alternate" type="text/html" href="https://github.com/citrolabs/ego-lite"/>
-    <updated>2026-08-15T18:00:00Z</updated>
-    <published>2026-08-15T18:00:00Z</published>
-    <summary>The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.
-
-Why: +87/day · Trending
-Score: 72/100 | Language: JavaScript | ⭐ 10450 (+87.1/day) | Source: trending</summary>
   </entry>
 </feed>
