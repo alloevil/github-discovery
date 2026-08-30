@@ -59,12 +59,13 @@
       "last_recommended": "2026-08-11T05:42:32.688631+00:00"
     },
     "addyosmani/agent-skills": {
-      "count": 2,
+      "count": 3,
       "scores": [
         100,
-        100
+        100,
+        87
       ],
-      "last_recommended": "2026-08-06T07:25:38.154757+00:00"
+      "last_recommended": "2026-08-30T10:08:35.730840+00:00"
     },
     "TencentCloud/TencentDB-Agent-Memory": {
       "count": 2,
@@ -82,14 +83,6 @@
       ],
       "last_recommended": "2026-08-06T07:25:38.156770+00:00"
     },
-    "microsoft/PowerToys": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-07-31T07:35:04.577405+00:00"
-    },
     "cypress-io/cypress": {
       "count": 2,
       "scores": [
@@ -97,14 +90,6 @@
         62
       ],
       "last_recommended": "2026-08-05T07:25:08.926041+00:00"
-    },
-    "ansible/ansible": {
-      "count": 2,
-      "scores": [
-        90,
-        92
-      ],
-      "last_recommended": "2026-07-31T07:35:04.603960+00:00"
     },
     "pingdotgg/t3code": {
       "count": 3,
@@ -228,55 +213,6 @@
         63
       ],
       "last_recommended": "2026-08-24T05:25:39.190570+00:00"
-    },
-    "MoonshotAI/Kimi-K3": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-31T07:35:04.583583+00:00"
-    },
-    "bashalarmistalt/decimen-optical-transfer": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-31T07:35:04.586468+00:00"
-    },
-    "QwenAudio/qwen-audio-agent": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-31T07:35:04.589272+00:00"
-    },
-    "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-31T07:35:04.592191+00:00"
-    },
-    "Noniv/snowflow_demo": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-07-31T07:35:04.595127+00:00"
-    },
-    "DramaticShape/DramaticShapeVoxelMod": {
-      "count": 1,
-      "scores": [
-        97
-      ],
-      "last_recommended": "2026-07-31T07:35:04.598000+00:00"
-    },
-    "microsoft/AI-For-Beginners": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-07-31T07:35:04.600971+00:00"
     },
     "yc-software/qm": {
       "count": 1,
@@ -2316,7 +2252,77 @@
         91
       ],
       "last_recommended": "2026-08-29T11:22:18.651286+00:00"
+    },
+    "kacperkapusciak/goldie": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-08-30T10:08:35.710029+00:00"
+    },
+    "cbrock84/headcount": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-08-30T10:08:35.712296+00:00"
+    },
+    "jub0t/WolfCut": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-08-30T10:08:35.714331+00:00"
+    },
+    "xzf-thu/VoiceMem": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-08-30T10:08:35.716370+00:00"
+    },
+    "jeffhajewski/latticedb": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-08-30T10:08:35.718457+00:00"
+    },
+    "actions/checkout": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-08-30T10:08:35.720508+00:00"
+    },
+    "MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-08-30T10:08:35.722518+00:00"
+    },
+    "bingreeky/JIT": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-08-30T10:08:35.724602+00:00"
+    },
+    "UrbanGround/UrbanGround": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-08-30T10:08:35.726678+00:00"
+    },
+    "MORTEN-BUUR/nordef-matrix-open-control": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-08-30T10:08:35.728746+00:00"
     }
   },
-  "updated_at": "2026-08-29T11:22:18.651311+00:00"
+  "updated_at": "2026-08-30T10:08:35.730868+00:00"
 }

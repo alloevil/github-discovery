@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-08-29T18:00:00Z</updated>
+  <updated>2026-08-30T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>kacperkapusciak/goldie — ✨ agentic app store previews and screenshots</title>
+    <id>https://github.com/kacperkapusciak/goldie#2026-08-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/kacperkapusciak/goldie"/>
+    <updated>2026-08-30T18:00:00Z</updated>
+    <published>2026-08-30T18:00:00Z</published>
+    <summary>✨ agentic app store previews and screenshots
+
+Why: +301/day · Search+AI/ML · 2.9x accelerating
+Score: 97/100 | Language: TypeScript | ⭐ 523 (+301.0/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>cbrock84/headcount — An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable.</title>
+    <id>https://github.com/cbrock84/headcount#2026-08-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/cbrock84/headcount"/>
+    <updated>2026-08-30T18:00:00Z</updated>
+    <published>2026-08-30T18:00:00Z</published>
+    <summary>An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable.
+
+Why: +452/day · Search+AI/ML
+Score: 96/100 | Language: Markdown | ⭐ 452 (+452.0/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>jub0t/WolfCut — Free &amp; Open-Source CapCut replacement.</title>
+    <id>https://github.com/jub0t/WolfCut#2026-08-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/jub0t/WolfCut"/>
+    <updated>2026-08-30T18:00:00Z</updated>
+    <published>2026-08-30T18:00:00Z</published>
+    <summary>Free &amp; Open-Source CapCut replacement.
+
+Why: +311/day · Search · 2.3x accelerating
+Score: 94/100 | Language: TypeScript | ⭐ 530 (+311.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>xzf-thu/VoiceMem — a real-time and empathetic memory system for voice assistants</title>
+    <id>https://github.com/xzf-thu/VoiceMem#2026-08-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/xzf-thu/VoiceMem"/>
+    <updated>2026-08-30T18:00:00Z</updated>
+    <published>2026-08-30T18:00:00Z</published>
+    <summary>a real-time and empathetic memory system for voice assistants
+
+Why: +94/day · HF Papers · 4.7x accelerating
+Score: 92/100 | Language: Python | ⭐ 258 (+94.0/day) | Source: hf-papers</summary>
+  </entry>
+  <entry>
+    <title>jeffhajewski/latticedb — Embedded single-file knowledge graph database with vector search and full-text search for AI/RAG apps</title>
+    <id>https://github.com/jeffhajewski/latticedb#2026-08-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/jeffhajewski/latticedb"/>
+    <updated>2026-08-30T18:00:00Z</updated>
+    <published>2026-08-30T18:00:00Z</published>
+    <summary>Embedded single-file knowledge graph database with vector search and full-text search for AI/RAG apps
+
+Why: +76/day · HN · 32.5x accelerating
+Score: 91/100 | Language: Zig | ⭐ 590 (+76.0/day) | Source: hn</summary>
+  </entry>
+  <entry>
+    <title>addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.</title>
+    <id>https://github.com/addyosmani/agent-skills#2026-08-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/addyosmani/agent-skills"/>
+    <updated>2026-08-30T18:00:00Z</updated>
+    <published>2026-08-30T18:00:00Z</published>
+    <summary>Production-grade engineering skills for AI coding agents.
+
+Why: +250/day · Trending
+Score: 87/100 | Language: JavaScript | ⭐ 90845 (+250.5/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>bilawalsidhu/gods-eye-view — A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.</title>
     <id>https://github.com/bilawalsidhu/gods-eye-view#2026-08-29</id>
@@ -899,71 +965,5 @@ Score: 100/100 | Language: JavaScript | ⭐ 589 (+196.3/day) | Source: ai-trendi
 
 Why: +514/day · AI/ML
 Score: 100/100 | Language: JavaScript | ⭐ 514 (+514.0/day) | Source: ai-trending</summary>
-  </entry>
-  <entry>
-    <title>ToolJet/ToolJet — ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀</title>
-    <id>https://github.com/ToolJet/ToolJet#2026-08-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ToolJet/ToolJet"/>
-    <updated>2026-08-16T18:00:00Z</updated>
-    <published>2026-08-16T18:00:00Z</published>
-    <summary>ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀
-
-Why: +456/day · Trending · 22.6x accelerating
-Score: 100/100 | Language: JavaScript | ⭐ 39609 (+456.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>altic-dev/FluidVoice — Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp</title>
-    <id>https://github.com/altic-dev/FluidVoice#2026-08-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/altic-dev/FluidVoice"/>
-    <updated>2026-08-16T18:00:00Z</updated>
-    <published>2026-08-16T18:00:00Z</published>
-    <summary>Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp
-
-Why: +210/day · Trending · 6.7x accelerating
-Score: 100/100 | Language: Swift | ⭐ 10370 (+210.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>github/spec-kit — 💫 Toolkit to help you get started with Spec-Driven Development</title>
-    <id>https://github.com/github/spec-kit#2026-08-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/github/spec-kit"/>
-    <updated>2026-08-16T18:00:00Z</updated>
-    <published>2026-08-16T18:00:00Z</published>
-    <summary>💫 Toolkit to help you get started with Spec-Driven Development
-
-Why: +669/day · Trending · 1.9x accelerating
-Score: 100/100 | Language: Python | ⭐ 129273 (+669.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>dsh-market/dsh-market — The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场</title>
-    <id>https://github.com/dsh-market/dsh-market#2026-08-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/dsh-market/dsh-market"/>
-    <updated>2026-08-16T18:00:00Z</updated>
-    <published>2026-08-16T18:00:00Z</published>
-    <summary>The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场
-
-Why: +172/day · Search
-Score: 100/100 | Language: TypeScript | ⭐ 344 (+172.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>dataelement/dsh-desktop — Desktop app for DeepSeek Harness</title>
-    <id>https://github.com/dataelement/dsh-desktop#2026-08-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/dataelement/dsh-desktop"/>
-    <updated>2026-08-16T18:00:00Z</updated>
-    <published>2026-08-16T18:00:00Z</published>
-    <summary>Desktop app for DeepSeek Harness
-
-Why: +169/day · Search
-Score: 100/100 | Language: TypeScript | ⭐ 338 (+169.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>MakazhanAlpamys/Soup — Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.</title>
-    <id>https://github.com/MakazhanAlpamys/Soup#2026-08-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/MakazhanAlpamys/Soup"/>
-    <updated>2026-08-16T18:00:00Z</updated>
-    <published>2026-08-16T18:00:00Z</published>
-    <summary>Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.
-
-Why: +153/day · Trending · 15.4x accelerating
-Score: 100/100 | Language: Python | ⭐ 1742 (+152.7/day) | Source: trending</summary>
   </entry>
 </feed>

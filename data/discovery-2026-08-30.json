@@ -1,0 +1,323 @@
+{
+ "date": "2026-08-30",
+ "generated_at": "2026-08-30T10:08:36.012728",
+ "new": [
+  {
+   "full_name": "kacperkapusciak/goldie",
+   "url": "https://github.com/kacperkapusciak/goldie",
+   "description": "✨ agentic app store previews and screenshots",
+   "language": "TypeScript",
+   "stars": 523,
+   "forks": 39,
+   "age_days": 5,
+   "daily_stars": 104.6,
+   "real_daily_stars": 301.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 1,
+   "scores": {
+    "total": 97,
+    "acceleration": 37,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "cbrock84/headcount",
+   "url": "https://github.com/cbrock84/headcount",
+   "description": "An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable.",
+   "language": "Markdown",
+   "stars": 452,
+   "forks": 64,
+   "age_days": 1,
+   "daily_stars": 452.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "jub0t/WolfCut",
+   "url": "https://github.com/jub0t/WolfCut",
+   "description": "Free & Open-Source CapCut replacement.",
+   "language": "TypeScript",
+   "stars": 530,
+   "forks": 39,
+   "age_days": 4,
+   "daily_stars": 132.5,
+   "real_daily_stars": 311.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MPL-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "xzf-thu/VoiceMem",
+   "url": "https://github.com/xzf-thu/VoiceMem",
+   "description": "a real-time and empathetic memory system for voice assistants",
+   "language": "Python",
+   "stars": 258,
+   "forks": 25,
+   "age_days": 13,
+   "daily_stars": 19.846153846153847,
+   "real_daily_stars": 94.0,
+   "watchers": 3,
+   "source": "hf-papers",
+   "sources": [
+    "hf-papers"
+   ],
+   "license": "Apache-2.0",
+   "hf_title": "VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction",
+   "hf_upvotes": 167,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "jeffhajewski/latticedb",
+   "url": "https://github.com/jeffhajewski/latticedb",
+   "description": "Embedded single-file knowledge graph database with vector search and full-text search for AI/RAG apps",
+   "language": "Zig",
+   "stars": 590,
+   "forks": 26,
+   "age_days": 252,
+   "daily_stars": 2.3412698412698414,
+   "real_daily_stars": 76.0,
+   "watchers": 2,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "MIT",
+   "hn_title": "Show HN: LatticeDB – Like SQLite but for graph databases",
+   "hn_score": 187,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "actions/checkout",
+   "url": "https://github.com/actions/checkout",
+   "description": "Action for checking out a repo",
+   "language": "TypeScript",
+   "stars": 8825,
+   "forks": 2756,
+   "age_days": 2598,
+   "daily_stars": 3.3968437259430333,
+   "real_daily_stars": 49.0,
+   "watchers": 210,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks",
+   "url": "https://github.com/MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks",
+   "description": "GLM-5.3 Flash EXL3 for 2x DGX Sparks",
+   "language": "Python",
+   "stars": 214,
+   "forks": 27,
+   "age_days": 2,
+   "daily_stars": 107.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "bingreeky/JIT",
+   "url": "https://github.com/bingreeky/JIT",
+   "description": "JIT-Agent",
+   "language": "Python",
+   "stars": 172,
+   "forks": 15,
+   "age_days": 12,
+   "daily_stars": 14.333333333333334,
+   "real_daily_stars": 88.0,
+   "watchers": 1,
+   "source": "hf-papers",
+   "sources": [
+    "hf-papers"
+   ],
+   "license": "NOASSERTION",
+   "hf_title": "JIT-Agent: Scaling Harness Intelligence via Just-in-Time Harness Evolution",
+   "hf_upvotes": 107,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 87,
+    "acceleration": 32,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "UrbanGround/UrbanGround",
+   "url": "https://github.com/UrbanGround/UrbanGround",
+   "description": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
+   "language": "Python",
+   "stars": 105,
+   "forks": 6,
+   "age_days": 20,
+   "daily_stars": 5.25,
+   "real_daily_stars": 35.0,
+   "watchers": 3,
+   "source": "hf-papers",
+   "sources": [
+    "hf-papers"
+   ],
+   "license": "MIT",
+   "hf_title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
+   "hf_upvotes": 73,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "MORTEN-BUUR/nordef-matrix-open-control",
+   "url": "https://github.com/MORTEN-BUUR/nordef-matrix-open-control",
+   "description": "NORDEF Matrix Open Control: model-independent AI safety belt with 0/1/2 decisions, Ed25519 root gate, replay protection, evidence chain, and incident-pattern eval bank",
+   "language": "Python",
+   "stars": 180,
+   "forks": 0,
+   "age_days": 3,
+   "daily_stars": 60.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "description": "Production-grade engineering skills for AI coding agents.",
+   "language": "JavaScript",
+   "stars": 90845,
+   "forks": 9714,
+   "age_days": 195,
+   "daily_stars": 465.87179487179486,
+   "real_daily_stars": 250.5,
+   "watchers": 478,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ]
+}
