@@ -116,14 +116,6 @@
       ],
       "last_recommended": "2026-08-12T06:05:50.602511+00:00"
     },
-    "github/copilot-sdk": {
-      "count": 2,
-      "scores": [
-        100,
-        69
-      ],
-      "last_recommended": "2026-08-01T07:15:30.510055+00:00"
-    },
     "codecrafters-io/build-your-own-x": {
       "count": 2,
       "scores": [
@@ -213,76 +205,6 @@
         63
       ],
       "last_recommended": "2026-08-24T05:25:39.190570+00:00"
-    },
-    "yc-software/qm": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-01T07:15:30.481707+00:00"
-    },
-    "0xwilliamortiz/ratchet": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-01T07:15:30.484859+00:00"
-    },
-    "ddoemonn/interior": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-01T07:15:30.487758+00:00"
-    },
-    "l00sed/termixer": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-01T07:15:30.490596+00:00"
-    },
-    "sqliteai/waste": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-01T07:15:30.493487+00:00"
-    },
-    "elder-plinius/GL4SS": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-01T07:15:30.496382+00:00"
-    },
-    "shuaiplus/inkstone": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-01T07:15:30.499287+00:00"
-    },
-    "drumih/turbo-fieldfare": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-01T07:15:30.502185+00:00"
-    },
-    "Audio8-AI/Audio8_TTS": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-01T07:15:30.505108+00:00"
-    },
-    "aigclink/geolook": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-01T07:15:30.508073+00:00"
     },
     "usekaneo/kaneo": {
       "count": 1,
@@ -2322,7 +2244,77 @@
         86
       ],
       "last_recommended": "2026-08-30T10:08:35.728746+00:00"
+    },
+    "THU-MAIC/OpenMAIC": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-31T11:10:38.178859+00:00"
+    },
+    "p-e-w/heretic": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-31T11:10:38.180845+00:00"
+    },
+    "every-app/open-seo": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-08-31T11:10:38.182615+00:00"
+    },
+    "abhigyanpatwari/GitNexus": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-08-31T11:10:38.184297+00:00"
+    },
+    "sapientinc/PRAXIST": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-08-31T11:10:38.260399+00:00"
+    },
+    "XiaoDuoYa/codex-with-chatgpt": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-08-31T11:10:38.262332+00:00"
+    },
+    "Vuk97/forward-implementation-first": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-08-31T11:10:38.264040+00:00"
+    },
+    "jub0t/Concat": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-08-31T11:10:38.265705+00:00"
+    },
+    "daffainfo/vol-rs": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-08-31T11:10:38.267382+00:00"
+    },
+    "experientiallabs/experiential": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-08-31T11:10:38.269118+00:00"
     }
   },
-  "updated_at": "2026-08-30T10:08:35.730868+00:00"
+  "updated_at": "2026-08-31T11:10:38.269142+00:00"
 }

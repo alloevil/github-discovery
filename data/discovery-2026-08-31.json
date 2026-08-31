@@ -1,0 +1,286 @@
+{
+ "date": "2026-08-31",
+ "generated_at": "2026-08-31T11:10:38.535005",
+ "new": [
+  {
+   "full_name": "THU-MAIC/OpenMAIC",
+   "url": "https://github.com/THU-MAIC/OpenMAIC",
+   "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+   "language": "TypeScript",
+   "stars": 25597,
+   "forks": 4627,
+   "age_days": 173,
+   "daily_stars": 147.95953757225433,
+   "real_daily_stars": 2854.0,
+   "watchers": 133,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "p-e-w/heretic",
+   "url": "https://github.com/p-e-w/heretic",
+   "description": "Fully automatic censorship removal for language models",
+   "language": "Python",
+   "stars": 29406,
+   "forks": 3225,
+   "age_days": 344,
+   "daily_stars": 85.48255813953489,
+   "real_daily_stars": 541.0,
+   "watchers": 139,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "every-app/open-seo",
+   "url": "https://github.com/every-app/open-seo",
+   "description": "Open source alternative to Semrush and Ahrefs",
+   "language": "TypeScript",
+   "stars": 15456,
+   "forks": 1852,
+   "age_days": 184,
+   "daily_stars": 84.0,
+   "real_daily_stars": 631.0,
+   "watchers": 43,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "abhigyanpatwari/GitNexus",
+   "url": "https://github.com/abhigyanpatwari/GitNexus",
+   "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
+   "language": "TypeScript",
+   "stars": 46721,
+   "forks": 5134,
+   "age_days": 393,
+   "daily_stars": 118.88295165394402,
+   "real_daily_stars": 224.0,
+   "watchers": 158,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "sapientinc/PRAXIST",
+   "url": "https://github.com/sapientinc/PRAXIST",
+   "description": "Autonomous research system for measurable, computer-executable research.",
+   "language": "Python",
+   "stars": 4815,
+   "forks": 473,
+   "age_days": 3,
+   "daily_stars": 1605.0,
+   "real_daily_stars": 1585.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "XiaoDuoYa/codex-with-chatgpt",
+   "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+   "description": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+   "language": "TypeScript",
+   "stars": 1648,
+   "forks": 180,
+   "age_days": 2,
+   "daily_stars": 824.0,
+   "real_daily_stars": 494.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "Vuk97/forward-implementation-first",
+   "url": "https://github.com/Vuk97/forward-implementation-first",
+   "description": "Stop your coding agent from stalling real work on self-invented bookkeeping - receipts, hashes, locks, certification rituals. Ship first, then verify. Skill for Claude Code, Codex, and other agents.",
+   "language": "Shell",
+   "stars": 147,
+   "forks": 4,
+   "age_days": 1,
+   "daily_stars": 147.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "jub0t/Concat",
+   "url": "https://github.com/jub0t/Concat",
+   "description": "Free & Open-Source CapCut replacement.",
+   "language": "TypeScript",
+   "stars": 801,
+   "forks": 64,
+   "age_days": 5,
+   "daily_stars": 160.2,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MPL-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "daffainfo/vol-rs",
+   "url": "https://github.com/daffainfo/vol-rs",
+   "description": "Volatility 3 ported to Rust. Same output, much faster.",
+   "language": "Rust",
+   "stars": 124,
+   "forks": 4,
+   "age_days": 1,
+   "daily_stars": 124.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "experientiallabs/experiential",
+   "url": "https://github.com/experientiallabs/experiential",
+   "description": "An open source model gateway that provides one control plane across closed, open-source, local, and custom models.",
+   "language": "Python",
+   "stars": 790,
+   "forks": 61,
+   "age_days": 67,
+   "daily_stars": 11.791044776119403,
+   "real_daily_stars": 50.0,
+   "watchers": 0,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "Apache-2.0",
+   "hn_title": "Show HN: We built open OpenRouter that turns usage into a better model",
+   "hn_score": 220,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": []
+}
