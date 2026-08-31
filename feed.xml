@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-08-30T18:00:00Z</updated>
+  <updated>2026-08-31T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>THU-MAIC/OpenMAIC — Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click</title>
+    <id>https://github.com/THU-MAIC/OpenMAIC#2026-08-31</id>
+    <link rel="alternate" type="text/html" href="https://github.com/THU-MAIC/OpenMAIC"/>
+    <updated>2026-08-31T18:00:00Z</updated>
+    <published>2026-08-31T18:00:00Z</published>
+    <summary>Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
+
+Why: +2854/day · Trending · 19.3x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 25597 (+2854.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>p-e-w/heretic — Fully automatic censorship removal for language models</title>
+    <id>https://github.com/p-e-w/heretic#2026-08-31</id>
+    <link rel="alternate" type="text/html" href="https://github.com/p-e-w/heretic"/>
+    <updated>2026-08-31T18:00:00Z</updated>
+    <published>2026-08-31T18:00:00Z</published>
+    <summary>Fully automatic censorship removal for language models
+
+Why: +541/day · Trending · 6.3x accelerating
+Score: 100/100 | Language: Python | ⭐ 29406 (+541.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>every-app/open-seo — Open source alternative to Semrush and Ahrefs</title>
+    <id>https://github.com/every-app/open-seo#2026-08-31</id>
+    <link rel="alternate" type="text/html" href="https://github.com/every-app/open-seo"/>
+    <updated>2026-08-31T18:00:00Z</updated>
+    <published>2026-08-31T18:00:00Z</published>
+    <summary>Open source alternative to Semrush and Ahrefs
+
+Why: +631/day · Trending · 7.5x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 15456 (+631.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>abhigyanpatwari/GitNexus — GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration</title>
+    <id>https://github.com/abhigyanpatwari/GitNexus#2026-08-31</id>
+    <link rel="alternate" type="text/html" href="https://github.com/abhigyanpatwari/GitNexus"/>
+    <updated>2026-08-31T18:00:00Z</updated>
+    <published>2026-08-31T18:00:00Z</published>
+    <summary>GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration
+
+Why: +224/day · Trending · 1.9x accelerating
+Score: 91/100 | Language: TypeScript | ⭐ 46721 (+224.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>sapientinc/PRAXIST — Autonomous research system for measurable, computer-executable research.</title>
+    <id>https://github.com/sapientinc/PRAXIST#2026-08-31</id>
+    <link rel="alternate" type="text/html" href="https://github.com/sapientinc/PRAXIST"/>
+    <updated>2026-08-31T18:00:00Z</updated>
+    <published>2026-08-31T18:00:00Z</published>
+    <summary>Autonomous research system for measurable, computer-executable research.
+
+Why: +1585/day · Search
+Score: 90/100 | Language: Python | ⭐ 4815 (+1585.0/day) | Source: search</summary>
+  </entry>
   <entry>
     <title>kacperkapusciak/goldie — ✨ agentic app store previews and screenshots</title>
     <id>https://github.com/kacperkapusciak/goldie#2026-08-30</id>
@@ -910,60 +965,5 @@ Score: 100/100 | Language: JavaScript | ⭐ 777 (+259.0/day) | Source: search</s
 
 Why: +177/day · Trending
 Score: 100/100 | Language: Rust | ⭐ 32416 (+177.1/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>public-apis/public-apis — A collective list of free APIs</title>
-    <id>https://github.com/public-apis/public-apis#2026-08-17</id>
-    <link rel="alternate" type="text/html" href="https://github.com/public-apis/public-apis"/>
-    <updated>2026-08-17T18:00:00Z</updated>
-    <published>2026-08-17T18:00:00Z</published>
-    <summary>A collective list of free APIs
-
-Why: +1752/day · Trending · 14.4x accelerating
-Score: 100/100 | Language: Python | ⭐ 462144 (+1752.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>OpenCut-app/OpenCut — The open-source CapCut alternative</title>
-    <id>https://github.com/OpenCut-app/OpenCut#2026-08-17</id>
-    <link rel="alternate" type="text/html" href="https://github.com/OpenCut-app/OpenCut"/>
-    <updated>2026-08-17T18:00:00Z</updated>
-    <published>2026-08-17T18:00:00Z</published>
-    <summary>The open-source CapCut alternative
-
-Why: +410/day · Trending · 2.0x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 84066 (+409.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Nervercc/gpt_nerver — ChatGPT Plus automation toolkit: PyQt6 desktop + JSON-RPC registration engine + card/CDK/PayPal/GCash flows</title>
-    <id>https://github.com/Nervercc/gpt_nerver#2026-08-17</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Nervercc/gpt_nerver"/>
-    <updated>2026-08-17T18:00:00Z</updated>
-    <published>2026-08-17T18:00:00Z</published>
-    <summary>ChatGPT Plus automation toolkit: PyQt6 desktop + JSON-RPC registration engine + card/CDK/PayPal/GCash flows
-
-Why: +201/day · Search
-Score: 100/100 | Language: Python | ⭐ 201 (+201.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>NousResearch/Hermes-Bot-Mode — Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches.</title>
-    <id>https://github.com/NousResearch/Hermes-Bot-Mode#2026-08-17</id>
-    <link rel="alternate" type="text/html" href="https://github.com/NousResearch/Hermes-Bot-Mode"/>
-    <updated>2026-08-17T18:00:00Z</updated>
-    <published>2026-08-17T18:00:00Z</published>
-    <summary>Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches.
-
-Why: +196/day · AI/ML
-Score: 100/100 | Language: JavaScript | ⭐ 589 (+196.3/day) | Source: ai-trending</summary>
-  </entry>
-  <entry>
-    <title>SheberDavid/v4-flash-godmode-opencode-go — V4 Flash 神模式 (opencode-go)：让 opencode-go 的 DeepSeek V4 Flash 从鬼模式切换到神模式的 dsh agent preset</title>
-    <id>https://github.com/SheberDavid/v4-flash-godmode-opencode-go#2026-08-17</id>
-    <link rel="alternate" type="text/html" href="https://github.com/SheberDavid/v4-flash-godmode-opencode-go"/>
-    <updated>2026-08-17T18:00:00Z</updated>
-    <published>2026-08-17T18:00:00Z</published>
-    <summary>V4 Flash 神模式 (opencode-go)：让 opencode-go 的 DeepSeek V4 Flash 从鬼模式切换到神模式的 dsh agent preset
-
-Why: +514/day · AI/ML
-Score: 100/100 | Language: JavaScript | ⭐ 514 (+514.0/day) | Source: ai-trending</summary>
   </entry>
 </feed>
