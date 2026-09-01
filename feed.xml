@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-08-31T18:00:00Z</updated>
+  <updated>2026-09-01T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>handsomestWei/patent-disclosure-skill — 中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。</title>
+    <id>https://github.com/handsomestWei/patent-disclosure-skill#2026-09-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/handsomestWei/patent-disclosure-skill"/>
+    <updated>2026-09-01T18:00:00Z</updated>
+    <published>2026-09-01T18:00:00Z</published>
+    <summary>中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。
+
+Why: +465/day · Trending · 10.4x accelerating
+Score: 100/100 | Language: Python | ⭐ 6528 (+465.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Osmantic/ODS — Turn your PC, Mac, or Linux box into an AI server.  LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.</title>
+    <id>https://github.com/Osmantic/ODS#2026-09-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Osmantic/ODS"/>
+    <updated>2026-09-01T18:00:00Z</updated>
+    <published>2026-09-01T18:00:00Z</published>
+    <summary>Turn your PC, Mac, or Linux box into an AI server.  LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.
+
+Why: +312/day · Trending · 11.0x accelerating
+Score: 98/100 | Language: Python | ⭐ 5749 (+312.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>kaifcodec/user-scanner — 🕵️‍♂️ (2-in-1) Email &amp; Username OSINT suite for deep data extraction just from a single Email/Username. Analyzes 465+ actively maintained scan vectors (175+ email / 290+ username) for security research, investigations, and digital footprinting.</title>
+    <id>https://github.com/kaifcodec/user-scanner#2026-09-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/kaifcodec/user-scanner"/>
+    <updated>2026-09-01T18:00:00Z</updated>
+    <published>2026-09-01T18:00:00Z</published>
+    <summary>🕵️‍♂️ (2-in-1) Email &amp; Username OSINT suite for deep data extraction just from a single Email/Username. Analyzes 465+ actively maintained scan vectors (175+ email / 290+ username) for security research, investigations, and digital footprinting.
+
+Why: +336/day · Trending · 23.7x accelerating
+Score: 98/100 | Language: Python | ⭐ 4494 (+335.5/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>pollen-robotics/microduck_rl — RL training environments for Microduck (mjlab)</title>
+    <id>https://github.com/pollen-robotics/microduck_rl#2026-09-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/pollen-robotics/microduck_rl"/>
+    <updated>2026-09-01T18:00:00Z</updated>
+    <published>2026-09-01T18:00:00Z</published>
+    <summary>RL training environments for Microduck (mjlab)
+
+Why: +330/day · Trending · 66.2x accelerating
+Score: 98/100 | Language: Python | ⭐ 1335 (+330.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>majd/ipatool — Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.</title>
+    <id>https://github.com/majd/ipatool#2026-09-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/majd/ipatool"/>
+    <updated>2026-09-01T18:00:00Z</updated>
+    <published>2026-09-01T18:00:00Z</published>
+    <summary>Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.
+
+Why: +293/day · Trending · 52.9x accelerating
+Score: 97/100 | Language: Go | ⭐ 10683 (+293.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>firecrawl/pdf-inspector — Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.</title>
+    <id>https://github.com/firecrawl/pdf-inspector#2026-09-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/firecrawl/pdf-inspector"/>
+    <updated>2026-09-01T18:00:00Z</updated>
+    <published>2026-09-01T18:00:00Z</published>
+    <summary>Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.
+
+Why: +199/day · Trending · 2.3x accelerating
+Score: 92/100 | Language: Rust | ⭐ 17609 (+198.8/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>affaan-m/ECC — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</title>
+    <id>https://github.com/affaan-m/ECC#2026-09-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/affaan-m/ECC"/>
+    <updated>2026-09-01T18:00:00Z</updated>
+    <published>2026-09-01T18:00:00Z</published>
+    <summary>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+
+Why: +352/day · Trending
+Score: 88/100 | Language: JavaScript | ⭐ 245466 (+352.1/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>THU-MAIC/OpenMAIC — Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click</title>
     <id>https://github.com/THU-MAIC/OpenMAIC#2026-08-31</id>
@@ -899,71 +976,5 @@ Score: 100/100 | Language: TypeScript | ⭐ 53806 (+597.0/day) | Source: trendin
 
 Why: +431/day · Trending · 4.1x accelerating
 Score: 100/100 | Language: Python | ⭐ 19497 (+431.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>yetone/cumora — Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.</title>
-    <id>https://github.com/yetone/cumora#2026-08-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/yetone/cumora"/>
-    <updated>2026-08-18T18:00:00Z</updated>
-    <published>2026-08-18T18:00:00Z</published>
-    <summary>Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.
-
-Why: +1741/day · Search+AI/ML
-Score: 100/100 | Language: TypeScript | ⭐ 1741 (+1741.0/day) | Source: search + ai-trending</summary>
-  </entry>
-  <entry>
-    <title>browser-use/macos-harness — The simplest, thinnest harness that gives an LLM complete freedom to control a Mac.</title>
-    <id>https://github.com/browser-use/macos-harness#2026-08-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/browser-use/macos-harness"/>
-    <updated>2026-08-18T18:00:00Z</updated>
-    <published>2026-08-18T18:00:00Z</published>
-    <summary>The simplest, thinnest harness that gives an LLM complete freedom to control a Mac.
-
-Why: +169/day · Search+AI/ML
-Score: 100/100 | Language: Python | ⭐ 169 (+169.0/day) | Source: search + ai-trending</summary>
-  </entry>
-  <entry>
-    <title>santifer/career-ops — Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)</title>
-    <id>https://github.com/santifer/career-ops#2026-08-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/santifer/career-ops"/>
-    <updated>2026-08-18T18:00:00Z</updated>
-    <published>2026-08-18T18:00:00Z</published>
-    <summary>Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)
-
-Why: +481/day · Trending
-Score: 100/100 | Language: JavaScript | ⭐ 64910 (+480.8/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>jeremy-prt/bloub — SVG recreation of the x.ai bot avatar. One shape morphing through 14 states, measured off the reference video frame by frame.</title>
-    <id>https://github.com/jeremy-prt/bloub#2026-08-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/jeremy-prt/bloub"/>
-    <updated>2026-08-18T18:00:00Z</updated>
-    <published>2026-08-18T18:00:00Z</published>
-    <summary>SVG recreation of the x.ai bot avatar. One shape morphing through 14 states, measured off the reference video frame by frame.
-
-Why: +137/day · Search
-Score: 100/100 | Language: TypeScript | ⭐ 274 (+137.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>zouyuxuan122/Deepseek-Harness-EAC — DeepSeek Harness (dsh) Windows / Linux desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象</title>
-    <id>https://github.com/zouyuxuan122/Deepseek-Harness-EAC#2026-08-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/zouyuxuan122/Deepseek-Harness-EAC"/>
-    <updated>2026-08-18T18:00:00Z</updated>
-    <published>2026-08-18T18:00:00Z</published>
-    <summary>DeepSeek Harness (dsh) Windows / Linux desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象
-
-Why: +259/day · Search
-Score: 100/100 | Language: JavaScript | ⭐ 777 (+259.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>AlexsJones/llmfit — Hundreds of models &amp; providers. One command to find what runs on your hardware.</title>
-    <id>https://github.com/AlexsJones/llmfit#2026-08-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/AlexsJones/llmfit"/>
-    <updated>2026-08-18T18:00:00Z</updated>
-    <published>2026-08-18T18:00:00Z</published>
-    <summary>Hundreds of models &amp; providers. One command to find what runs on your hardware.
-
-Why: +177/day · Trending
-Score: 100/100 | Language: Rust | ⭐ 32416 (+177.1/day) | Source: trending</summary>
   </entry>
 </feed>
