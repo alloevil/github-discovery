@@ -30,13 +30,14 @@
       "last_recommended": "2026-08-28T16:56:44.805618+00:00"
     },
     "affaan-m/ECC": {
-      "count": 3,
+      "count": 4,
       "scores": [
         100,
         100,
-        90
+        90,
+        88
       ],
-      "last_recommended": "2026-08-22T05:05:22.399182+00:00"
+      "last_recommended": "2026-09-01T09:37:04.007810+00:00"
     },
     "mattpocock/skills": {
       "count": 5,
@@ -66,14 +67,6 @@
         87
       ],
       "last_recommended": "2026-08-30T10:08:35.730840+00:00"
-    },
-    "TencentCloud/TencentDB-Agent-Memory": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-08-02T07:19:09.169578+00:00"
     },
     "vercel/next.js": {
       "count": 2,
@@ -205,76 +198,6 @@
         63
       ],
       "last_recommended": "2026-08-24T05:25:39.190570+00:00"
-    },
-    "usekaneo/kaneo": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-02T07:19:09.144011+00:00"
-    },
-    "zhaoxuya520/reverse-skill": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-02T07:19:09.146888+00:00"
-    },
-    "paperswithbacktest/awesome-systematic-trading": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-02T07:19:09.149550+00:00"
-    },
-    "trycompai/crm": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-02T07:19:09.152095+00:00"
-    },
-    "Anionex/codex-deepseek-vision": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-02T07:19:09.154754+00:00"
-    },
-    "brookfacehe2421/flashloan-scalper-bot": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-02T07:19:09.157564+00:00"
-    },
-    "s1dashu/animated-voiceover": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-02T07:19:09.160132+00:00"
-    },
-    "richlegrand/bitbang-cli": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-02T07:19:09.162635+00:00"
-    },
-    "bytedance/deer-flow": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-02T07:19:09.165217+00:00"
-    },
-    "helloaiden0305/odm_helper_demo": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-02T07:19:09.167823+00:00"
     },
     "microsoft/generative-ai-for-beginners": {
       "count": 1,
@@ -417,11 +340,12 @@
       "last_recommended": "2026-08-04T07:24:17.869737+00:00"
     },
     "firecrawl/pdf-inspector": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        92
       ],
-      "last_recommended": "2026-08-05T07:25:08.897589+00:00"
+      "last_recommended": "2026-09-01T09:37:04.005633+00:00"
     },
     "livekit/agents": {
       "count": 2,
@@ -2314,7 +2238,77 @@
         89
       ],
       "last_recommended": "2026-08-31T11:10:38.269118+00:00"
+    },
+    "handsomestWei/patent-disclosure-skill": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-01T09:37:03.983549+00:00"
+    },
+    "Osmantic/ODS": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-09-01T09:37:03.985949+00:00"
+    },
+    "kaifcodec/user-scanner": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-09-01T09:37:03.988120+00:00"
+    },
+    "pollen-robotics/microduck_rl": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-09-01T09:37:03.990286+00:00"
+    },
+    "majd/ipatool": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-09-01T09:37:03.992444+00:00"
+    },
+    "checkstyle/checkstyle": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-01T09:37:03.994653+00:00"
+    },
+    "soirihiroka/shrimply": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-01T09:37:03.996792+00:00"
+    },
+    "zhaoxuya520/reverse-skill": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-09-01T09:37:03.998952+00:00"
+    },
+    "jlrouzies-fr/DLSS5-Feeder": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-01T09:37:04.001095+00:00"
+    },
+    "mizorewww/course2md": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-01T09:37:04.003472+00:00"
     }
   },
-  "updated_at": "2026-08-31T11:10:38.269142+00:00"
+  "updated_at": "2026-09-01T09:37:04.007839+00:00"
 }
