@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-01T18:00:00Z</updated>
+  <updated>2026-09-02T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>jingyaogong/minimind — 🧠 Train a 64M-parameter LLM from scratch in just 2h!</title>
+    <id>https://github.com/jingyaogong/minimind#2026-09-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/jingyaogong/minimind"/>
+    <updated>2026-09-02T18:00:00Z</updated>
+    <published>2026-09-02T18:00:00Z</published>
+    <summary>🧠 Train a 64M-parameter LLM from scratch in just 2h!
+
+Why: +852/day · Trending · 11.4x accelerating
+Score: 100/100 | Language: Python | ⭐ 57490 (+852.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Git-Agni/prod-FARM-IOS-Core — A farm of real iPhones, run from your Mac. Open-source iOS device automation with live control, a Postgres-backed scheduler, and TikTok workflows. Self-hosted, Apache-2.0.</title>
+    <id>https://github.com/Git-Agni/prod-FARM-IOS-Core#2026-09-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Git-Agni/prod-FARM-IOS-Core"/>
+    <updated>2026-09-02T18:00:00Z</updated>
+    <published>2026-09-02T18:00:00Z</published>
+    <summary>A farm of real iPhones, run from your Mac. Open-source iOS device automation with live control, a Postgres-backed scheduler, and TikTok workflows. Self-hosted, Apache-2.0.
+
+Why: +563/day · Search · 4.9x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 688 (+563.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>brayonpi/hexstellar — Turn any AI agent into a computational researcher. HexStellar Cortex delivers software-accelerated optimization, quantum computing, scientific computing, decision intelligence, and verifiable execution through a Python CLI and API—with certainty labels, verification receipts, examples, and a free sandbox. Start instantly: pip install hexstellar</title>
+    <id>https://github.com/brayonpi/hexstellar#2026-09-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/brayonpi/hexstellar"/>
+    <updated>2026-09-02T18:00:00Z</updated>
+    <published>2026-09-02T18:00:00Z</published>
+    <summary>Turn any AI agent into a computational researcher. HexStellar Cortex delivers software-accelerated optimization, quantum computing, scientific computing, decision intelligence, and verifiable execution through a Python CLI and API—with certainty labels, verification receipts, examples, and a free sandbox. Start instantly: pip install hexstellar
+
+Why: +353/day · Search · 2.9x accelerating
+Score: 98/100 | Language: Python | ⭐ 602 (+353.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>unclecode/crawl4ai — 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN</title>
+    <id>https://github.com/unclecode/crawl4ai#2026-09-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/unclecode/crawl4ai"/>
+    <updated>2026-09-02T18:00:00Z</updated>
+    <published>2026-09-02T18:00:00Z</published>
+    <summary>🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN
+
+Why: +248/day · Trending · 2.6x accelerating
+Score: 95/100 | Language: Python | ⭐ 81025 (+248.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>2akouwu/codex-cli-portable-setup-kit — Autonomous Systems &amp; Security Toolkit for OpenAI Codex CLI. Deterministic binary analysis, decoupled pipeline, and zero-friction execution.</title>
+    <id>https://github.com/2akouwu/codex-cli-portable-setup-kit#2026-09-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/2akouwu/codex-cli-portable-setup-kit"/>
+    <updated>2026-09-02T18:00:00Z</updated>
+    <published>2026-09-02T18:00:00Z</published>
+    <summary>Autonomous Systems &amp; Security Toolkit for OpenAI Codex CLI. Deterministic binary analysis, decoupled pipeline, and zero-friction execution.
+
+Why: +242/day · Search
+Score: 92/100 | Language: Python | ⭐ 483 (+241.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>3b1b/manim — Animation engine for explanatory math videos</title>
+    <id>https://github.com/3b1b/manim#2026-09-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/3b1b/manim"/>
+    <updated>2026-09-02T18:00:00Z</updated>
+    <published>2026-09-02T18:00:00Z</published>
+    <summary>Animation engine for explanatory math videos
+
+Why: +94/day · Trending · 4.2x accelerating
+Score: 92/100 | Language: Python | ⭐ 92754 (+93.7/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>handsomestWei/patent-disclosure-skill — 中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。</title>
     <id>https://github.com/handsomestWei/patent-disclosure-skill#2026-09-01</id>
@@ -921,60 +987,5 @@ Score: 100/100 | Language: Shell | ⭐ 224152 (+1264.5/day) | Source: trending</
 
 Why: +464/day · Trending
 Score: 100/100 | Language: Shell | ⭐ 274419 (+464.3/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>akitaonrails/ai-memory — Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors</title>
-    <id>https://github.com/akitaonrails/ai-memory#2026-08-19</id>
-    <link rel="alternate" type="text/html" href="https://github.com/akitaonrails/ai-memory"/>
-    <updated>2026-08-19T18:00:00Z</updated>
-    <published>2026-08-19T18:00:00Z</published>
-    <summary>Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors
-
-Why: +620/day · Trending · 19.2x accelerating
-Score: 100/100 | Language: Rust | ⭐ 2867 (+620.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>mukul975/Anthropic-Cybersecurity-Skills — 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0</title>
-    <id>https://github.com/mukul975/Anthropic-Cybersecurity-Skills#2026-08-19</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills"/>
-    <updated>2026-08-19T18:00:00Z</updated>
-    <published>2026-08-19T18:00:00Z</published>
-    <summary>817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0
-
-Why: +761/day · Trending · 4.5x accelerating
-Score: 100/100 | Language: Python | ⭐ 29336 (+761.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>basecamp/omarchy — Beautiful, Modern &amp; Opinionated Linux</title>
-    <id>https://github.com/basecamp/omarchy#2026-08-19</id>
-    <link rel="alternate" type="text/html" href="https://github.com/basecamp/omarchy"/>
-    <updated>2026-08-19T18:00:00Z</updated>
-    <published>2026-08-19T18:00:00Z</published>
-    <summary>Beautiful, Modern &amp; Opinionated Linux
-
-Why: +475/day · Trending · 7.9x accelerating
-Score: 100/100 | Language: Shell | ⭐ 26510 (+475.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>agalwood/Motrix — A full-featured download manager.</title>
-    <id>https://github.com/agalwood/Motrix#2026-08-19</id>
-    <link rel="alternate" type="text/html" href="https://github.com/agalwood/Motrix"/>
-    <updated>2026-08-19T18:00:00Z</updated>
-    <published>2026-08-19T18:00:00Z</published>
-    <summary>A full-featured download manager.
-
-Why: +597/day · Trending · 31.1x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 53806 (+597.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>jundot/omlx — LLM inference server with continuous batching &amp; SSD caching for Apple Silicon — managed from the macOS menu bar</title>
-    <id>https://github.com/jundot/omlx#2026-08-19</id>
-    <link rel="alternate" type="text/html" href="https://github.com/jundot/omlx"/>
-    <updated>2026-08-19T18:00:00Z</updated>
-    <published>2026-08-19T18:00:00Z</published>
-    <summary>LLM inference server with continuous batching &amp; SSD caching for Apple Silicon — managed from the macOS menu bar
-
-Why: +431/day · Trending · 4.1x accelerating
-Score: 100/100 | Language: Python | ⭐ 19497 (+431.0/day) | Source: trending</summary>
   </entry>
 </feed>

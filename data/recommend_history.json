@@ -109,14 +109,6 @@
       ],
       "last_recommended": "2026-08-12T06:05:50.602511+00:00"
     },
-    "codecrafters-io/build-your-own-x": {
-      "count": 2,
-      "scores": [
-        100,
-        70
-      ],
-      "last_recommended": "2026-08-03T08:03:45.535674+00:00"
-    },
     "tirth8205/code-review-graph": {
       "count": 2,
       "scores": [
@@ -133,14 +125,6 @@
         83
       ],
       "last_recommended": "2026-08-21T05:16:33.277511+00:00"
-    },
-    "lyogavin/airllm": {
-      "count": 2,
-      "scores": [
-        98,
-        65
-      ],
-      "last_recommended": "2026-08-03T08:03:45.537497+00:00"
     },
     "jamiepine/voicebox": {
       "count": 2,
@@ -198,76 +182,6 @@
         63
       ],
       "last_recommended": "2026-08-24T05:25:39.190570+00:00"
-    },
-    "microsoft/generative-ai-for-beginners": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-03T08:03:45.509472+00:00"
-    },
-    "iv-org/invidious": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-03T08:03:45.512534+00:00"
-    },
-    "microsoft/skill-recorder": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-03T08:03:45.515208+00:00"
-    },
-    "DannyMac180/sol-advisor": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-03T08:03:45.517813+00:00"
-    },
-    "0xwilliamortiz/humanizer-cli": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-03T08:03:45.520535+00:00"
-    },
-    "FareedKhan-dev/kimi-k3-in-c": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-03T08:03:45.523245+00:00"
-    },
-    "NomaDamas/k-skill": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-03T08:03:45.525926+00:00"
-    },
-    "Anionex/codex-vision-proxy": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-03T08:03:45.528614+00:00"
-    },
-    "thebuggeddev/anatomy": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-03T08:03:45.531248+00:00"
-    },
-    "juxhinr/bindwidth": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-03T08:03:45.533843+00:00"
     },
     "esengine/DeepSeek-Reasonix": {
       "count": 1,
@@ -1012,11 +926,12 @@
       "last_recommended": "2026-08-14T06:05:33.115002+00:00"
     },
     "3b1b/manim": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        92
       ],
-      "last_recommended": "2026-08-14T06:05:33.119707+00:00"
+      "last_recommended": "2026-09-02T09:03:53.107286+00:00"
     },
     "xoreaxeaxeax/skitter-creek-bath-salts": {
       "count": 1,
@@ -2308,7 +2223,77 @@
         90
       ],
       "last_recommended": "2026-09-01T09:37:04.003472+00:00"
+    },
+    "jingyaogong/minimind": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-02T09:03:53.086888+00:00"
+    },
+    "Git-Agni/prod-FARM-IOS-Core": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-02T09:03:53.089102+00:00"
+    },
+    "brayonpi/hexstellar": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-09-02T09:03:53.091102+00:00"
+    },
+    "unclecode/crawl4ai": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-02T09:03:53.093130+00:00"
+    },
+    "2akouwu/codex-cli-portable-setup-kit": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-02T09:03:53.095120+00:00"
+    },
+    "iv-org/invidious": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-02T09:03:53.097166+00:00"
+    },
+    "faisalkindi/DLSS5oneclick": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-09-02T09:03:53.099172+00:00"
+    },
+    "Merserk/dlss5-visual-enhancer": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-02T09:03:53.101206+00:00"
+    },
+    "Gitlawb/openclaude": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-09-02T09:03:53.103200+00:00"
+    },
+    "VoltAgent/awesome-design-md": {
+      "count": 1,
+      "scores": [
+        85
+      ],
+      "last_recommended": "2026-09-02T09:03:53.105245+00:00"
     }
   },
-  "updated_at": "2026-09-01T09:37:04.007839+00:00"
+  "updated_at": "2026-09-02T09:03:53.107312+00:00"
 }

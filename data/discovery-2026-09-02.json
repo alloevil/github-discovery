@@ -1,0 +1,311 @@
+{
+ "date": "2026-09-02",
+ "generated_at": "2026-09-02T09:03:53.423051",
+ "new": [
+  {
+   "full_name": "jingyaogong/minimind",
+   "url": "https://github.com/jingyaogong/minimind",
+   "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+   "language": "Python",
+   "stars": 57490,
+   "forks": 7476,
+   "age_days": 767,
+   "daily_stars": 74.95436766623207,
+   "real_daily_stars": 852.0,
+   "watchers": 261,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "Git-Agni/prod-FARM-IOS-Core",
+   "url": "https://github.com/Git-Agni/prod-FARM-IOS-Core",
+   "description": "A farm of real iPhones, run from your Mac. Open-source iOS device automation with live control, a Postgres-backed scheduler, and TikTok workflows. Self-hosted, Apache-2.0.",
+   "language": "TypeScript",
+   "stars": 688,
+   "forks": 131,
+   "age_days": 6,
+   "daily_stars": 114.66666666666667,
+   "real_daily_stars": 563.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "brayonpi/hexstellar",
+   "url": "https://github.com/brayonpi/hexstellar",
+   "description": "Turn any AI agent into a computational researcher. HexStellar Cortex delivers software-accelerated optimization, quantum computing, scientific computing, decision intelligence, and verifiable execution through a Python CLI and API—with certainty labels, verification receipts, examples, and a free sandbox. Start instantly: pip install hexstellar",
+   "language": "Python",
+   "stars": 602,
+   "forks": 52,
+   "age_days": 5,
+   "daily_stars": 120.4,
+   "real_daily_stars": 353.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 98,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "unclecode/crawl4ai",
+   "url": "https://github.com/unclecode/crawl4ai",
+   "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+   "language": "Python",
+   "stars": 81025,
+   "forks": 8367,
+   "age_days": 845,
+   "daily_stars": 95.88757396449704,
+   "real_daily_stars": 248.0,
+   "watchers": 413,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "2akouwu/codex-cli-portable-setup-kit",
+   "url": "https://github.com/2akouwu/codex-cli-portable-setup-kit",
+   "description": "Autonomous Systems & Security Toolkit for OpenAI Codex CLI. Deterministic binary analysis, decoupled pipeline, and zero-friction execution.",
+   "language": "Python",
+   "stars": 483,
+   "forks": 97,
+   "age_days": 2,
+   "daily_stars": 241.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "iv-org/invidious",
+   "url": "https://github.com/iv-org/invidious",
+   "description": "Invidious is an alternative front-end to YouTube",
+   "language": "Crystal",
+   "stars": 23893,
+   "forks": 2678,
+   "age_days": 3129,
+   "daily_stars": 7.635985937999361,
+   "real_daily_stars": 54.10344827586207,
+   "watchers": 198,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "faisalkindi/DLSS5oneclick",
+   "url": "https://github.com/faisalkindi/DLSS5oneclick",
+   "description": "One-click setup of the leaked DLSS 5 neural-rendering build for any DX11/DX12 game on RTX 20–50, with or without DLSS. ReShade + RenoDX add-on (or OptiScaler engine); DLSS5-Feeder + LumeniteFX for games without DLSS; dlss5-bridge for DX11. Rust, single exe.",
+   "language": "Rust",
+   "stars": 193,
+   "forks": 14,
+   "age_days": 2,
+   "daily_stars": 96.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Merserk/dlss5-visual-enhancer",
+   "url": "https://github.com/Merserk/dlss5-visual-enhancer",
+   "description": "DLSS 5 Neural Video & Image Enhancer",
+   "language": "Python",
+   "stars": 156,
+   "forks": 17,
+   "age_days": 2,
+   "daily_stars": 78.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "Gitlawb/openclaude",
+   "url": "https://github.com/Gitlawb/openclaude",
+   "description": "runs anywhere. uses anything",
+   "language": "TypeScript",
+   "stars": 31651,
+   "forks": 8975,
+   "age_days": 154,
+   "daily_stars": 205.52597402597402,
+   "watchers": 223,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "VoltAgent/awesome-design-md",
+   "url": "https://github.com/VoltAgent/awesome-design-md",
+   "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+   "language": "",
+   "stars": 113295,
+   "forks": 12809,
+   "age_days": 154,
+   "daily_stars": 735.6818181818181,
+   "watchers": 441,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 85,
+    "acceleration": 30,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "3b1b/manim",
+   "url": "https://github.com/3b1b/manim",
+   "description": "Animation engine for explanatory math videos",
+   "language": "Python",
+   "stars": 92754,
+   "forks": 7628,
+   "age_days": 4181,
+   "daily_stars": 22.184644821812963,
+   "real_daily_stars": 93.6842105263158,
+   "watchers": 955,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  }
+ ]
+}
