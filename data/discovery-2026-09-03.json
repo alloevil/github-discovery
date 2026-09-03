@@ -1,0 +1,364 @@
+{
+ "date": "2026-09-03",
+ "generated_at": "2026-09-03T09:12:33.112074",
+ "new": [
+  {
+   "full_name": "anthropics/commerce-agents",
+   "url": "https://github.com/anthropics/commerce-agents",
+   "description": "Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
+   "language": "Python",
+   "stars": 945,
+   "forks": 145,
+   "age_days": 1,
+   "daily_stars": 945.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 17
+   }
+  },
+  {
+   "full_name": "2akouwu/reverify",
+   "url": "https://github.com/2akouwu/reverify",
+   "description": "Verified reverse engineering: AI RE grounded on deterministic tools - results checked against the binary, not hallucinated.",
+   "language": "Python",
+   "stars": 641,
+   "forks": 133,
+   "age_days": 3,
+   "daily_stars": 213.66666666666666,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "ZJU-REAL/Easel",
+   "url": "https://github.com/ZJU-REAL/Easel",
+   "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
+   "language": "Python",
+   "stars": 275,
+   "forks": 37,
+   "age_days": 6,
+   "daily_stars": 45.833333333333336,
+   "real_daily_stars": 127.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "Imbad0202/academic-research-skills",
+   "url": "https://github.com/Imbad0202/academic-research-skills",
+   "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+   "language": "Python",
+   "stars": 45781,
+   "forks": 3591,
+   "age_days": 189,
+   "daily_stars": 242.2275132275132,
+   "real_daily_stars": 524.0,
+   "watchers": 130,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 91,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "lnkiai/m3e-canvas",
+   "url": "https://github.com/lnkiai/m3e-canvas",
+   "description": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+   "language": "TypeScript",
+   "stars": 170,
+   "forks": 9,
+   "age_days": 1,
+   "daily_stars": 170.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "subsy/skill-cabinet",
+   "url": "https://github.com/subsy/skill-cabinet",
+   "description": "",
+   "language": "JavaScript",
+   "stars": 373,
+   "forks": 25,
+   "age_days": 2,
+   "daily_stars": 186.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "aaronyi97/image-story-video-wizard",
+   "url": "https://github.com/aaronyi97/image-story-video-wizard",
+   "description": "A confirmation-gated Codex and WorkBuddy skill for audio-first image-story video production.",
+   "language": "Python",
+   "stars": 135,
+   "forks": 19,
+   "age_days": 1,
+   "daily_stars": 135.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "rakanki911/DLSS5-Swapper",
+   "url": "https://github.com/rakanki911/DLSS5-Swapper",
+   "description": "DLSS 5 Swapper is a powerful, easy-to-use tool for installing, managing, and restoring DLSS 5 across games and supported emulators. It features automatic game detection, optional drive scanning, DLSS5-Feeder for compatible titles without native DLSS, emulator support, and compatibility with DirectX 9/10/11/12, Vulkan, and OpenGL.",
+   "language": "JavaScript",
+   "stars": 772,
+   "forks": 41,
+   "age_days": 4,
+   "daily_stars": 193.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "richiemcilroy/chippytea",
+   "url": "https://github.com/richiemcilroy/chippytea",
+   "description": "A native Mac app for making space and earning your tea. SwiftUI + Rust.",
+   "language": "Rust",
+   "stars": 191,
+   "forks": 7,
+   "age_days": 2,
+   "daily_stars": 95.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "kydlikebtc/awesome-grokbot",
+   "url": "https://github.com/kydlikebtc/awesome-grokbot",
+   "description": "361 live x.ai/bot shares for Grok Bot — every link status-checked, every row attributed. Bilingual EN/中文 catalog with a JSON schema, CI, and a searchable site.",
+   "language": "Python",
+   "stars": 169,
+   "forks": 15,
+   "age_days": 2,
+   "daily_stars": 84.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "NousResearch/hermes-agent",
+   "url": "https://github.com/NousResearch/hermes-agent",
+   "description": "The agent that grows with you",
+   "language": "Python",
+   "stars": 240409,
+   "forks": 49222,
+   "age_days": 407,
+   "daily_stars": 590.6855036855037,
+   "real_daily_stars": 496.0,
+   "watchers": 939,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "description": "Skills for Real Engineers. Straight from my .agents directory.",
+   "language": "Shell",
+   "stars": 245813,
+   "forks": 20885,
+   "age_days": 211,
+   "daily_stars": 1164.9905213270142,
+   "real_daily_stars": 1161.5,
+   "watchers": 1371,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "JuliusBrussee/caveman",
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+   "language": "Go",
+   "stars": 102834,
+   "forks": 5976,
+   "age_days": 151,
+   "daily_stars": 681.0198675496689,
+   "real_daily_stars": 238.07692307692307,
+   "watchers": 241,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ]
+}
