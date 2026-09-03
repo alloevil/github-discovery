@@ -3,12 +3,100 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-02T18:00:00Z</updated>
+  <updated>2026-09-03T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>anthropics/commerce-agents — Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.</title>
+    <id>https://github.com/anthropics/commerce-agents#2026-09-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/anthropics/commerce-agents"/>
+    <updated>2026-09-03T18:00:00Z</updated>
+    <published>2026-09-03T18:00:00Z</published>
+    <summary>Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.
+
+Why: +945/day · Search
+Score: 96/100 | Language: Python | ⭐ 945 (+945.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>2akouwu/reverify — Verified reverse engineering: AI RE grounded on deterministic tools - results checked against the binary, not hallucinated.</title>
+    <id>https://github.com/2akouwu/reverify#2026-09-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/2akouwu/reverify"/>
+    <updated>2026-09-03T18:00:00Z</updated>
+    <published>2026-09-03T18:00:00Z</published>
+    <summary>Verified reverse engineering: AI RE grounded on deterministic tools - results checked against the binary, not hallucinated.
+
+Why: +214/day · Search
+Score: 92/100 | Language: Python | ⭐ 641 (+213.7/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>ZJU-REAL/Easel — An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。</title>
+    <id>https://github.com/ZJU-REAL/Easel#2026-09-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ZJU-REAL/Easel"/>
+    <updated>2026-09-03T18:00:00Z</updated>
+    <published>2026-09-03T18:00:00Z</published>
+    <summary>An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。
+
+Why: +127/day · Search · 2.8x accelerating
+Score: 92/100 | Language: Python | ⭐ 275 (+127.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>Imbad0202/academic-research-skills — Academic Research Skills for Claude Code: research → write → review → revise → finalize</title>
+    <id>https://github.com/Imbad0202/academic-research-skills#2026-09-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Imbad0202/academic-research-skills"/>
+    <updated>2026-09-03T18:00:00Z</updated>
+    <published>2026-09-03T18:00:00Z</published>
+    <summary>Academic Research Skills for Claude Code: research → write → review → revise → finalize
+
+Why: +524/day · Trending · 2.2x accelerating
+Score: 91/100 | Language: Python | ⭐ 45781 (+524.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>lnkiai/m3e-canvas — Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.</title>
+    <id>https://github.com/lnkiai/m3e-canvas#2026-09-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/lnkiai/m3e-canvas"/>
+    <updated>2026-09-03T18:00:00Z</updated>
+    <published>2026-09-03T18:00:00Z</published>
+    <summary>Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.
+
+Why: +170/day · Search
+Score: 91/100 | Language: TypeScript | ⭐ 170 (+170.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>NousResearch/hermes-agent — The agent that grows with you</title>
+    <id>https://github.com/NousResearch/hermes-agent#2026-09-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/NousResearch/hermes-agent"/>
+    <updated>2026-09-03T18:00:00Z</updated>
+    <published>2026-09-03T18:00:00Z</published>
+    <summary>The agent that grows with you
+
+Why: +496/day · Trending
+Score: 90/100 | Language: Python | ⭐ 240409 (+496.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>mattpocock/skills — Skills for Real Engineers. Straight from my .agents directory.</title>
+    <id>https://github.com/mattpocock/skills#2026-09-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mattpocock/skills"/>
+    <updated>2026-09-03T18:00:00Z</updated>
+    <published>2026-09-03T18:00:00Z</published>
+    <summary>Skills for Real Engineers. Straight from my .agents directory.
+
+Why: +1162/day · Trending
+Score: 90/100 | Language: Shell | ⭐ 245813 (+1161.5/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>JuliusBrussee/caveman — 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman</title>
+    <id>https://github.com/JuliusBrussee/caveman#2026-09-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/JuliusBrussee/caveman"/>
+    <updated>2026-09-03T18:00:00Z</updated>
+    <published>2026-09-03T18:00:00Z</published>
+    <summary>🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
+
+Why: +238/day · Trending
+Score: 86/100 | Language: Go | ⭐ 102834 (+238.1/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>jingyaogong/minimind — 🧠 Train a 64M-parameter LLM from scratch in just 2h!</title>
     <id>https://github.com/jingyaogong/minimind#2026-09-02</id>
@@ -910,82 +998,5 @@ Score: 87/100 | Language: C# | ⭐ 85 (+85.0/day) | Source: ai-trending</summary
 
 Why: +109/day · Trending
 Score: 83/100 | Language: Rust | ⭐ 16002 (+108.9/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>volcengine/OpenViking — Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.</title>
-    <id>https://github.com/volcengine/OpenViking#2026-08-20</id>
-    <link rel="alternate" type="text/html" href="https://github.com/volcengine/OpenViking"/>
-    <updated>2026-08-20T18:00:00Z</updated>
-    <published>2026-08-20T18:00:00Z</published>
-    <summary>Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.
-
-Why: +852/day · Trending · 6.3x accelerating
-Score: 100/100 | Language: Python | ⭐ 30432 (+852.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>chaitanyagiri/munder-difflin — local multi-agent harness</title>
-    <id>https://github.com/chaitanyagiri/munder-difflin#2026-08-20</id>
-    <link rel="alternate" type="text/html" href="https://github.com/chaitanyagiri/munder-difflin"/>
-    <updated>2026-08-20T18:00:00Z</updated>
-    <published>2026-08-20T18:00:00Z</published>
-    <summary>local multi-agent harness
-
-Why: +597/day · Trending · 17.1x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 2794 (+597.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>immich-app/immich — High performance self-hosted photo and video management solution.</title>
-    <id>https://github.com/immich-app/immich#2026-08-20</id>
-    <link rel="alternate" type="text/html" href="https://github.com/immich-app/immich"/>
-    <updated>2026-08-20T18:00:00Z</updated>
-    <published>2026-08-20T18:00:00Z</published>
-    <summary>High performance self-hosted photo and video management solution.
-
-Why: +341/day · Trending · 5.0x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 111978 (+341.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>nautechsystems/nautilus_trader — Production-grade Rust-native trading engine with deterministic event-driven architecture</title>
-    <id>https://github.com/nautechsystems/nautilus_trader#2026-08-20</id>
-    <link rel="alternate" type="text/html" href="https://github.com/nautechsystems/nautilus_trader"/>
-    <updated>2026-08-20T18:00:00Z</updated>
-    <published>2026-08-20T18:00:00Z</published>
-    <summary>Production-grade Rust-native trading engine with deterministic event-driven architecture
-
-Why: +240/day · Trending · 27.0x accelerating
-Score: 100/100 | Language: Rust | ⭐ 26526 (+240.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Leutenegger/watermarks-remover — Remove multi-vendor AI provenance traces: Unicode text sanitization, statistical rewriting techniques, and C2PA/metadata stripping from PNG/JPEG/SVG/PDF/DOCX/HTML/MD files</title>
-    <id>https://github.com/Leutenegger/watermarks-remover#2026-08-20</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Leutenegger/watermarks-remover"/>
-    <updated>2026-08-20T18:00:00Z</updated>
-    <published>2026-08-20T18:00:00Z</published>
-    <summary>Remove multi-vendor AI provenance traces: Unicode text sanitization, statistical rewriting techniques, and C2PA/metadata stripping from PNG/JPEG/SVG/PDF/DOCX/HTML/MD files
-
-Why: +914/day · Search
-Score: 100/100 | Language: Python | ⭐ 914 (+914.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>mattpocock/skills — Skills for Real Engineers. Straight from my .agents directory.</title>
-    <id>https://github.com/mattpocock/skills#2026-08-20</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mattpocock/skills"/>
-    <updated>2026-08-20T18:00:00Z</updated>
-    <published>2026-08-20T18:00:00Z</published>
-    <summary>Skills for Real Engineers. Straight from my .agents directory.
-
-Why: +1265/day · Trending
-Score: 100/100 | Language: Shell | ⭐ 224152 (+1264.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>obra/superpowers — An agentic skills framework &amp; software development methodology that works.</title>
-    <id>https://github.com/obra/superpowers#2026-08-20</id>
-    <link rel="alternate" type="text/html" href="https://github.com/obra/superpowers"/>
-    <updated>2026-08-20T18:00:00Z</updated>
-    <published>2026-08-20T18:00:00Z</published>
-    <summary>An agentic skills framework &amp; software development methodology that works.
-
-Why: +464/day · Trending
-Score: 100/100 | Language: Shell | ⭐ 274419 (+464.3/day) | Source: trending</summary>
   </entry>
 </feed>
