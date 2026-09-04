@@ -10,15 +10,16 @@
       "last_recommended": "2026-08-10T06:03:18.366876+00:00"
     },
     "obra/superpowers": {
-      "count": 5,
+      "count": 6,
       "scores": [
         100,
         100,
         100,
         100,
-        100
+        100,
+        89
       ],
-      "last_recommended": "2026-08-20T05:15:36.168194+00:00"
+      "last_recommended": "2026-09-04T09:04:30.200259+00:00"
     },
     "ChromeDevTools/chrome-devtools-mcp": {
       "count": 3,
@@ -76,14 +77,6 @@
         63
       ],
       "last_recommended": "2026-08-06T07:25:38.156770+00:00"
-    },
-    "cypress-io/cypress": {
-      "count": 2,
-      "scores": [
-        92,
-        62
-      ],
-      "last_recommended": "2026-08-05T07:25:08.926041+00:00"
     },
     "pingdotgg/t3code": {
       "count": 3,
@@ -191,62 +184,6 @@
         74
       ],
       "last_recommended": "2026-08-28T16:56:44.807701+00:00"
-    },
-    "KKKKhazix/human-writing": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-05T07:25:08.903265+00:00"
-    },
-    "xmarre/ComfyUI-Spectrum-MiniMax-H3": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-05T07:25:08.905955+00:00"
-    },
-    "criptogus/HermesOffice": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-05T07:25:08.908606+00:00"
-    },
-    "cristicretu/diri": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-05T07:25:08.911290+00:00"
-    },
-    "HaidarJbeily7/cargo-frisk": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-05T07:25:08.914087+00:00"
-    },
-    "Accio-Lab/RealReplicaBench": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-05T07:25:08.916724+00:00"
-    },
-    "AMAP-ML/LongHorizon-Harness": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-05T07:25:08.919434+00:00"
-    },
-    "dtolnay/chapter-tgz": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-05T07:25:08.922197+00:00"
     },
     "donnemartin/system-design-primer": {
       "count": 1,
@@ -1758,11 +1695,12 @@
       "last_recommended": "2026-08-27T15:32:28.597578+00:00"
     },
     "DietrichGebert/ponytail": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        88
+        88,
+        85
       ],
-      "last_recommended": "2026-08-27T15:32:28.599565+00:00"
+      "last_recommended": "2026-09-04T09:04:30.202261+00:00"
     },
     "yding-git/personal-edge-proxy": {
       "count": 1,
@@ -2288,7 +2226,77 @@
         87
       ],
       "last_recommended": "2026-09-03T09:12:32.919988+00:00"
+    },
+    "fmtlib/fmt": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-04T09:04:30.179946+00:00"
+    },
+    "blader/humanizer": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-04T09:04:30.182238+00:00"
+    },
+    "debpalash/VoiceStudio": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-04T09:04:30.184234+00:00"
+    },
+    "google-research/timesfm": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-09-04T09:04:30.186206+00:00"
+    },
+    "averygan/reclip": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-09-04T09:04:30.188248+00:00"
+    },
+    "MSNightmare/FalconFlank": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-04T09:04:30.190281+00:00"
+    },
+    "PhiloLabs/fable51-worlds": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-04T09:04:30.192287+00:00"
+    },
+    "codejunkie99/fable-orchestrator": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-04T09:04:30.194264+00:00"
+    },
+    "Albert-Weasker/niubigeo": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-09-04T09:04:30.196254+00:00"
+    },
+    "nahrek/polyledger": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-09-04T09:04:30.198247+00:00"
     }
   },
-  "updated_at": "2026-09-03T09:12:32.926257+00:00"
+  "updated_at": "2026-09-04T09:04:30.202286+00:00"
 }

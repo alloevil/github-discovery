@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-03T18:00:00Z</updated>
+  <updated>2026-09-04T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>fmtlib/fmt — A modern formatting library</title>
+    <id>https://github.com/fmtlib/fmt#2026-09-04</id>
+    <link rel="alternate" type="text/html" href="https://github.com/fmtlib/fmt"/>
+    <updated>2026-09-04T18:00:00Z</updated>
+    <published>2026-09-04T18:00:00Z</published>
+    <summary>A modern formatting library
+
+Why: +737/day · Trending · 146.0x accelerating
+Score: 100/100 | Language: C++ | ⭐ 25334 (+737.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>blader/humanizer — Agent skill that removes signs of AI-generated writing from text</title>
+    <id>https://github.com/blader/humanizer#2026-09-04</id>
+    <link rel="alternate" type="text/html" href="https://github.com/blader/humanizer"/>
+    <updated>2026-09-04T18:00:00Z</updated>
+    <published>2026-09-04T18:00:00Z</published>
+    <summary>Agent skill that removes signs of AI-generated writing from text
+
+Why: +1095/day · Trending · 6.0x accelerating
+Score: 100/100 | Language: Python | ⭐ 41969 (+1095.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>debpalash/VoiceStudio — VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.</title>
+    <id>https://github.com/debpalash/VoiceStudio#2026-09-04</id>
+    <link rel="alternate" type="text/html" href="https://github.com/debpalash/VoiceStudio"/>
+    <updated>2026-09-04T18:00:00Z</updated>
+    <published>2026-09-04T18:00:00Z</published>
+    <summary>VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.
+
+Why: +1376/day · Trending · 12.0x accelerating
+Score: 100/100 | Language: Python | ⭐ 16833 (+1376.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>google-research/timesfm — TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.</title>
+    <id>https://github.com/google-research/timesfm#2026-09-04</id>
+    <link rel="alternate" type="text/html" href="https://github.com/google-research/timesfm"/>
+    <updated>2026-09-04T18:00:00Z</updated>
+    <published>2026-09-04T18:00:00Z</published>
+    <summary>TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.
+
+Why: +442/day · Trending · 12.3x accelerating
+Score: 99/100 | Language: Python | ⭐ 30842 (+442.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>averygan/reclip — Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.</title>
+    <id>https://github.com/averygan/reclip#2026-09-04</id>
+    <link rel="alternate" type="text/html" href="https://github.com/averygan/reclip"/>
+    <updated>2026-09-04T18:00:00Z</updated>
+    <published>2026-09-04T18:00:00Z</published>
+    <summary>Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.
+
+Why: +322/day · Trending · 5.9x accelerating
+Score: 98/100 | Language: HTML | ⭐ 8629 (+322.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>obra/superpowers — An agentic skills framework &amp; software development methodology that works.</title>
+    <id>https://github.com/obra/superpowers#2026-09-04</id>
+    <link rel="alternate" type="text/html" href="https://github.com/obra/superpowers"/>
+    <updated>2026-09-04T18:00:00Z</updated>
+    <published>2026-09-04T18:00:00Z</published>
+    <summary>An agentic skills framework &amp; software development methodology that works.
+
+Why: +441/day · Trending
+Score: 89/100 | Language: Shell | ⭐ 281559 (+440.6/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>DietrichGebert/ponytail — Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</title>
+    <id>https://github.com/DietrichGebert/ponytail#2026-09-04</id>
+    <link rel="alternate" type="text/html" href="https://github.com/DietrichGebert/ponytail"/>
+    <updated>2026-09-04T18:00:00Z</updated>
+    <published>2026-09-04T18:00:00Z</published>
+    <summary>Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+
+Why: +1586/day · Trending
+Score: 85/100 | Language: JavaScript | ⭐ 124087 (+1586.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>anthropics/commerce-agents — Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.</title>
     <id>https://github.com/anthropics/commerce-agents#2026-09-03</id>
@@ -932,71 +1009,5 @@ Score: 95/100 | Language: Python | ⭐ 235 (+187.0/day) | Source: hf-papers</sum
 
 Why: +1120/day · Trending
 Score: 90/100 | Language: JavaScript | ⭐ 241850 (+1119.7/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>CopilotKit/OpenBot — Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.</title>
-    <id>https://github.com/CopilotKit/OpenBot#2026-08-21</id>
-    <link rel="alternate" type="text/html" href="https://github.com/CopilotKit/OpenBot"/>
-    <updated>2026-08-21T18:00:00Z</updated>
-    <published>2026-08-21T18:00:00Z</published>
-    <summary>Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.
-
-Why: +438/day · Search
-Score: 93/100 | Language: TypeScript | ⭐ 1753 (+438.2/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>missuo/herdrm — Native macOS console for herdr — all your coding agents and their live terminals, across devices</title>
-    <id>https://github.com/missuo/herdrm#2026-08-21</id>
-    <link rel="alternate" type="text/html" href="https://github.com/missuo/herdrm"/>
-    <updated>2026-08-21T18:00:00Z</updated>
-    <published>2026-08-21T18:00:00Z</published>
-    <summary>Native macOS console for herdr — all your coding agents and their live terminals, across devices
-
-Why: +571/day · Search
-Score: 92/100 | Language: Swift | ⭐ 571 (+571.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>JuliusBrussee/caveman — 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman</title>
-    <id>https://github.com/JuliusBrussee/caveman#2026-08-21</id>
-    <link rel="alternate" type="text/html" href="https://github.com/JuliusBrussee/caveman"/>
-    <updated>2026-08-21T18:00:00Z</updated>
-    <published>2026-08-21T18:00:00Z</published>
-    <summary>🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
-
-Why: +723/day · Trending
-Score: 90/100 | Language: Go | ⭐ 99739 (+722.7/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>xdreizein666/getcontact-cli — GetContact CLI adalah project Python untuk melakukan lookup nomor telepon lewat API GetContact, tanpa aplikasi Android dan tanpa browser.</title>
-    <id>https://github.com/xdreizein666/getcontact-cli#2026-08-21</id>
-    <link rel="alternate" type="text/html" href="https://github.com/xdreizein666/getcontact-cli"/>
-    <updated>2026-08-21T18:00:00Z</updated>
-    <published>2026-08-21T18:00:00Z</published>
-    <summary>GetContact CLI adalah project Python untuk melakukan lookup nomor telepon lewat API GetContact, tanpa aplikasi Android dan tanpa browser.
-
-Why: +305/day · Search
-Score: 89/100 | Language: Python | ⭐ 305 (+305.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>franselstadt/ELVET — ΕΛΒΕΤ — desktop toolbox for domain, aerospace, logistics, and embedded engineers</title>
-    <id>https://github.com/franselstadt/ELVET#2026-08-21</id>
-    <link rel="alternate" type="text/html" href="https://github.com/franselstadt/ELVET"/>
-    <updated>2026-08-21T18:00:00Z</updated>
-    <published>2026-08-21T18:00:00Z</published>
-    <summary>ΕΛΒΕΤ — desktop toolbox for domain, aerospace, logistics, and embedded engineers
-
-Why: +85/day · AI/ML
-Score: 87/100 | Language: C# | ⭐ 85 (+85.0/day) | Source: ai-trending</summary>
-  </entry>
-  <entry>
-    <title>RyanCodrai/turbovec — A vector index built on TurboQuant, written in Rust with Python bindings</title>
-    <id>https://github.com/RyanCodrai/turbovec#2026-08-21</id>
-    <link rel="alternate" type="text/html" href="https://github.com/RyanCodrai/turbovec"/>
-    <updated>2026-08-21T18:00:00Z</updated>
-    <published>2026-08-21T18:00:00Z</published>
-    <summary>A vector index built on TurboQuant, written in Rust with Python bindings
-
-Why: +109/day · Trending
-Score: 83/100 | Language: Rust | ⭐ 16002 (+108.9/day) | Source: trending</summary>
   </entry>
 </feed>

@@ -1,0 +1,341 @@
+{
+ "date": "2026-09-04",
+ "generated_at": "2026-09-04T09:04:30.386810",
+ "new": [
+  {
+   "full_name": "fmtlib/fmt",
+   "url": "https://github.com/fmtlib/fmt",
+   "description": "A modern formatting library",
+   "language": "C++",
+   "stars": 25334,
+   "forks": 3025,
+   "age_days": 5018,
+   "daily_stars": 5.048624950179354,
+   "real_daily_stars": 737.0,
+   "watchers": 327,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "blader/humanizer",
+   "url": "https://github.com/blader/humanizer",
+   "description": "Agent skill that removes signs of AI-generated writing from text",
+   "language": "Python",
+   "stars": 41969,
+   "forks": 3575,
+   "age_days": 229,
+   "daily_stars": 183.2707423580786,
+   "real_daily_stars": 1095.0,
+   "watchers": 231,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "language": "Python",
+   "stars": 16833,
+   "forks": 2245,
+   "age_days": 147,
+   "daily_stars": 114.51020408163265,
+   "real_daily_stars": 1376.0,
+   "watchers": 76,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "google-research/timesfm",
+   "url": "https://github.com/google-research/timesfm",
+   "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+   "language": "Python",
+   "stars": 30842,
+   "forks": 2944,
+   "age_days": 857,
+   "daily_stars": 35.98833138856476,
+   "real_daily_stars": 442.0,
+   "watchers": 198,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "averygan/reclip",
+   "url": "https://github.com/averygan/reclip",
+   "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+   "language": "HTML",
+   "stars": 8629,
+   "forks": 1379,
+   "age_days": 157,
+   "daily_stars": 54.961783439490446,
+   "real_daily_stars": 322.0,
+   "watchers": 47,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 98,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 9
+   }
+  },
+  {
+   "full_name": "MSNightmare/FalconFlank",
+   "url": "https://github.com/MSNightmare/FalconFlank",
+   "description": "Crowdstrike Falcon 0day Privilege Escalation Vulnerability",
+   "language": "C",
+   "stars": 456,
+   "forks": 124,
+   "age_days": 1,
+   "daily_stars": 456.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "PhiloLabs/fable51-worlds",
+   "url": "https://github.com/PhiloLabs/fable51-worlds",
+   "description": "worlds via code, from fable 5.1",
+   "language": "JavaScript",
+   "stars": 410,
+   "forks": 19,
+   "age_days": 1,
+   "daily_stars": 410.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "codejunkie99/fable-orchestrator",
+   "url": "https://github.com/codejunkie99/fable-orchestrator",
+   "description": "Fable 5.1 orchestrates. GPT-5.6 Luna and DeepSeek V4 Flash implement.",
+   "language": "Shell",
+   "stars": 401,
+   "forks": 71,
+   "age_days": 1,
+   "daily_stars": 401.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "Albert-Weasker/niubigeo",
+   "url": "https://github.com/Albert-Weasker/niubigeo",
+   "description": "Open-source AI brand visibility and competitor reports",
+   "language": "TypeScript",
+   "stars": 286,
+   "forks": 22,
+   "age_days": 1,
+   "daily_stars": 286.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "nahrek/polyledger",
+   "url": "https://github.com/nahrek/polyledger",
+   "description": "Resumable Polymarket indexer: CLOB market metadata plus on-chain trades from Polygon, in one DuckDB file you can query with SQL",
+   "language": "Python",
+   "stars": 272,
+   "forks": 96,
+   "age_days": 1,
+   "daily_stars": 272.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "description": "An agentic skills framework & software development methodology that works.",
+   "language": "Shell",
+   "stars": 281559,
+   "forks": 25217,
+   "age_days": 329,
+   "daily_stars": 855.8024316109422,
+   "real_daily_stars": 440.5833333333333,
+   "watchers": 1065,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "language": "JavaScript",
+   "stars": 124087,
+   "forks": 6695,
+   "age_days": 84,
+   "daily_stars": 1477.2261904761904,
+   "real_daily_stars": 1586.0,
+   "watchers": 308,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 85,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 13
+   }
+  }
+ ]
+}
