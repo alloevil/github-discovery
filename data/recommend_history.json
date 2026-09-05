@@ -70,14 +70,6 @@
       ],
       "last_recommended": "2026-08-30T10:08:35.730840+00:00"
     },
-    "vercel/next.js": {
-      "count": 2,
-      "scores": [
-        95,
-        63
-      ],
-      "last_recommended": "2026-08-06T07:25:38.156770+00:00"
-    },
     "pingdotgg/t3code": {
       "count": 3,
       "scores": [
@@ -185,41 +177,6 @@
       ],
       "last_recommended": "2026-08-28T16:56:44.807701+00:00"
     },
-    "donnemartin/system-design-primer": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-06T07:25:38.125364+00:00"
-    },
-    "tailwindlabs/tailwindcss": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-06T07:25:38.128529+00:00"
-    },
-    "uber/ADR": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-06T07:25:38.131455+00:00"
-    },
-    "Binaryify/open-kimi-ppt-skill": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-06T07:25:38.134588+00:00"
-    },
-    "0xwilliamortiz/claude-red": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-06T07:25:38.137745+00:00"
-    },
     "MakazhanAlpamys/Soup": {
       "count": 2,
       "scores": [
@@ -227,34 +184,6 @@
         100
       ],
       "last_recommended": "2026-08-16T05:06:32.489368+00:00"
-    },
-    "Accio-Work-Lab/RealReplicaBench": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-06T07:25:38.143753+00:00"
-    },
-    "oil-oil/codex-deepseek-subagent": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-06T07:25:38.146772+00:00"
-    },
-    "Carloscodix/qapla": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-06T07:25:38.149648+00:00"
-    },
-    "i-yam/passt": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-06T07:25:38.152805+00:00"
     },
     "cloudflare/computer": {
       "count": 1,
@@ -744,11 +673,12 @@
       "last_recommended": "2026-08-13T06:06:47.244638+00:00"
     },
     "cathrynlavery/diagram-design": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        99
       ],
-      "last_recommended": "2026-08-13T06:06:47.247528+00:00"
+      "last_recommended": "2026-09-05T08:37:03.189154+00:00"
     },
     "cactus-compute/needle": {
       "count": 1,
@@ -2296,7 +2226,77 @@
         93
       ],
       "last_recommended": "2026-09-04T09:04:30.198247+00:00"
+    },
+    "magnitudedev/magnitude": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-05T08:37:03.165868+00:00"
+    },
+    "ahujasid/camera-to-blender": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-05T08:37:03.168064+00:00"
+    },
+    "anthropics/fermats-last-theorem": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-05T08:37:03.170090+00:00"
+    },
+    "kajisho5/ffmpeg-skill": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-05T08:37:03.172098+00:00"
+    },
+    "Rion-Wu-tech/wechat-intelligence-hub": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-05T08:37:03.177047+00:00"
+    },
+    "bannedbook/fanqiang": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-05T08:37:03.179112+00:00"
+    },
+    "anomalyco/opencode": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-05T08:37:03.181128+00:00"
+    },
+    "pipicat613/MuToolsProject": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-09-05T08:37:03.183124+00:00"
+    },
+    "Agenta-AI/awesome-ai-agent-platforms": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-09-05T08:37:03.185116+00:00"
+    },
+    "0x6rss/instagram-private-graph": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-09-05T08:37:03.187139+00:00"
     }
   },
-  "updated_at": "2026-09-04T09:04:30.202286+00:00"
+  "updated_at": "2026-09-05T08:37:03.189180+00:00"
 }
