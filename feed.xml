@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-04T18:00:00Z</updated>
+  <updated>2026-09-05T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>magnitudedev/magnitude — Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.</title>
+    <id>https://github.com/magnitudedev/magnitude#2026-09-05</id>
+    <link rel="alternate" type="text/html" href="https://github.com/magnitudedev/magnitude"/>
+    <updated>2026-09-05T18:00:00Z</updated>
+    <published>2026-09-05T18:00:00Z</published>
+    <summary>Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.
+
+Why: +613/day · Trending · 18.9x accelerating
+Score: 95/100 | Language: TypeScript | ⭐ 2718 (+613.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>ahujasid/camera-to-blender — Take a photo of real objects, and paste them in Blender</title>
+    <id>https://github.com/ahujasid/camera-to-blender#2026-09-05</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ahujasid/camera-to-blender"/>
+    <updated>2026-09-05T18:00:00Z</updated>
+    <published>2026-09-05T18:00:00Z</published>
+    <summary>Take a photo of real objects, and paste them in Blender
+
+Why: +369/day · Search
+Score: 95/100 | Language: JavaScript | ⭐ 369 (+369.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>anthropics/fermats-last-theorem — No description</title>
+    <id>https://github.com/anthropics/fermats-last-theorem#2026-09-05</id>
+    <link rel="alternate" type="text/html" href="https://github.com/anthropics/fermats-last-theorem"/>
+    <updated>2026-09-05T18:00:00Z</updated>
+    <published>2026-09-05T18:00:00Z</published>
+    <summary>No description
+
+Why: +497/day · Search
+Score: 91/100 | Language: Lean | ⭐ 497 (+497.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>kajisho5/ffmpeg-skill — No description</title>
+    <id>https://github.com/kajisho5/ffmpeg-skill#2026-09-05</id>
+    <link rel="alternate" type="text/html" href="https://github.com/kajisho5/ffmpeg-skill"/>
+    <updated>2026-09-05T18:00:00Z</updated>
+    <published>2026-09-05T18:00:00Z</published>
+    <summary>No description
+
+Why: +248/day · Search
+Score: 91/100 | Language: Python | ⭐ 248 (+248.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>Rion-Wu-tech/wechat-intelligence-hub — Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.</title>
+    <id>https://github.com/Rion-Wu-tech/wechat-intelligence-hub#2026-09-05</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Rion-Wu-tech/wechat-intelligence-hub"/>
+    <updated>2026-09-05T18:00:00Z</updated>
+    <published>2026-09-05T18:00:00Z</published>
+    <summary>Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.
+
+Why: +155/day · Search+Rising
+Score: 90/100 | Language: Python | ⭐ 155 (+155.0/day) | Source: search + rising</summary>
+  </entry>
+  <entry>
+    <title>cathrynlavery/diagram-design — 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.</title>
+    <id>https://github.com/cathrynlavery/diagram-design#2026-09-05</id>
+    <link rel="alternate" type="text/html" href="https://github.com/cathrynlavery/diagram-design"/>
+    <updated>2026-09-05T18:00:00Z</updated>
+    <published>2026-09-05T18:00:00Z</published>
+    <summary>38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.
+
+Why: +621/day · Trending · 2.8x accelerating
+Score: 99/100 | Language: HTML | ⭐ 31235 (+621.4/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>fmtlib/fmt — A modern formatting library</title>
     <id>https://github.com/fmtlib/fmt#2026-09-04</id>
@@ -943,71 +1009,5 @@ Score: 89/100 | Language: TypeScript | ⭐ 301 (+50.0/day) | Source: hn</summary
 
 Why: +243/day · Trending · 11.0x accelerating
 Score: 92/100 | Language: TypeScript | ⭐ 4697 (+243.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>mahlernim/google-timeline-visualizer — Visualize your year in travel using your Google Location History (Timeline) data</title>
-    <id>https://github.com/mahlernim/google-timeline-visualizer#2026-08-22</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mahlernim/google-timeline-visualizer"/>
-    <updated>2026-08-22T18:00:00Z</updated>
-    <published>2026-08-22T18:00:00Z</published>
-    <summary>Visualize your year in travel using your Google Location History (Timeline) data
-
-Why: +525/day · Trending · 56.8x accelerating
-Score: 100/100 | Language: Kotlin | ⭐ 2293 (+525.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>modular/modular — The Modular Platform (includes MAX &amp; Mojo)</title>
-    <id>https://github.com/modular/modular#2026-08-22</id>
-    <link rel="alternate" type="text/html" href="https://github.com/modular/modular"/>
-    <updated>2026-08-22T18:00:00Z</updated>
-    <published>2026-08-22T18:00:00Z</published>
-    <summary>The Modular Platform (includes MAX &amp; Mojo)
-
-Why: +601/day · Trending · 25.3x accelerating
-Score: 100/100 | Language: Mojo | ⭐ 28718 (+601.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>PostHog/posthog — :hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.</title>
-    <id>https://github.com/PostHog/posthog#2026-08-22</id>
-    <link rel="alternate" type="text/html" href="https://github.com/PostHog/posthog"/>
-    <updated>2026-08-22T18:00:00Z</updated>
-    <published>2026-08-22T18:00:00Z</published>
-    <summary>:hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.
-
-Why: +289/day · Trending · 18.1x accelerating
-Score: 97/100 | Language: Python | ⭐ 38340 (+289.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>MengTo/threeui — Open-source ThreeUI Community catalog with live interactive components and complete Community source.</title>
-    <id>https://github.com/MengTo/threeui#2026-08-22</id>
-    <link rel="alternate" type="text/html" href="https://github.com/MengTo/threeui"/>
-    <updated>2026-08-22T18:00:00Z</updated>
-    <published>2026-08-22T18:00:00Z</published>
-    <summary>Open-source ThreeUI Community catalog with live interactive components and complete Community source.
-
-Why: +727/day · Search
-Score: 96/100 | Language: HTML | ⭐ 727 (+727.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>ant-research/4DAnyone — 4DAnyone: Create Anyone in 4D from a Casual Monocular Video</title>
-    <id>https://github.com/ant-research/4DAnyone#2026-08-22</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ant-research/4DAnyone"/>
-    <updated>2026-08-22T18:00:00Z</updated>
-    <published>2026-08-22T18:00:00Z</published>
-    <summary>4DAnyone: Create Anyone in 4D from a Casual Monocular Video
-
-Why: +187/day · HF Papers · 8.8x accelerating
-Score: 95/100 | Language: Python | ⭐ 235 (+187.0/day) | Source: hf-papers</summary>
-  </entry>
-  <entry>
-    <title>affaan-m/ECC — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</title>
-    <id>https://github.com/affaan-m/ECC#2026-08-22</id>
-    <link rel="alternate" type="text/html" href="https://github.com/affaan-m/ECC"/>
-    <updated>2026-08-22T18:00:00Z</updated>
-    <published>2026-08-22T18:00:00Z</published>
-    <summary>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-
-Why: +1120/day · Trending
-Score: 90/100 | Language: JavaScript | ⭐ 241850 (+1119.7/day) | Source: trending</summary>
   </entry>
 </feed>
