@@ -1,0 +1,287 @@
+{
+ "date": "2026-09-06",
+ "generated_at": "2026-09-06T08:56:39.282019",
+ "new": [
+  {
+   "full_name": "ashemag/human-atlas",
+   "url": "https://github.com/ashemag/human-atlas",
+   "description": "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.",
+   "language": "TypeScript",
+   "stars": 735,
+   "forks": 209,
+   "age_days": 1,
+   "daily_stars": 735.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 1,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "pierrenade/short-video-generator-AI",
+   "url": "https://github.com/pierrenade/short-video-generator-AI",
+   "description": "Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content.",
+   "language": "Python",
+   "stars": 408,
+   "forks": 136,
+   "age_days": 1,
+   "daily_stars": 408.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 2,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "Appllama/liquid-glass-screens",
+   "url": "https://github.com/Appllama/liquid-glass-screens",
+   "description": "Explore liquid-glass welcome screens with floating stickers and interactive swipe animations.",
+   "language": "TypeScript",
+   "stars": 223,
+   "forks": 23,
+   "age_days": 1,
+   "daily_stars": 223.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark",
+   "url": "https://github.com/MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark",
+   "description": "Qwen3.8-Flash-Next on ONE DGX Spark (TP=1)",
+   "language": "Python",
+   "stars": 183,
+   "forks": 17,
+   "age_days": 1,
+   "daily_stars": 183.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "gioblu/NPC-Forge",
+   "url": "https://github.com/gioblu/NPC-Forge",
+   "description": "NPC-Forge is a framework for building conversational agents that run on the CPU without relying on machine learning or LLMs.",
+   "language": "Python",
+   "stars": 181,
+   "forks": 6,
+   "age_days": 49,
+   "daily_stars": 3.693877551020408,
+   "real_daily_stars": 73.0,
+   "watchers": 5,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "AGPL-3.0",
+   "hn_title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
+   "hn_score": 199,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "byJoey/warp-masque-actions",
+   "url": "https://github.com/byJoey/warp-masque-actions",
+   "description": "GitHub Actions 自动生成 Cloudflare WARP (MASQUE) 密钥与 mihomo 配置，产物只存 artifact",
+   "language": "Python",
+   "stars": 311,
+   "forks": 1312,
+   "age_days": 1,
+   "daily_stars": 311.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 89,
+    "acceleration": 34,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "hsandhu/mobilecode",
+   "url": "https://github.com/hsandhu/mobilecode",
+   "description": "mobilecode is a fork of opencode that builds and previews iOS and Android projects",
+   "language": "TypeScript",
+   "stars": 87,
+   "forks": 8,
+   "age_days": 1,
+   "daily_stars": 87.0,
+   "watchers": 0,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "MIT",
+   "hn_title": "Show HN: MobileCode – OpenCode with Built-In iOS and Android Previews",
+   "hn_score": 7,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "sebbbi/NoGraphicsAPI",
+   "url": "https://github.com/sebbbi/NoGraphicsAPI",
+   "description": "Minimal graphics API. Built on top of latest Vulkan extensions. As close as possibly to my \"No Graphics API\" blog post and the SIGGRAPH talk.",
+   "language": "C++",
+   "stars": 583,
+   "forks": 15,
+   "age_days": 5,
+   "daily_stars": 116.6,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "brendazure/robinhood-meme-token-stock-launchpad",
+   "url": "https://github.com/brendazure/robinhood-meme-token-stock-launchpad",
+   "description": "robinhood chain meme coin launchpad robinhood chain meme coin launchpad robinhood chain meme coin launchpad robinhood chain meme coin launchpad robinhood stock launchpad robinhood stock launchpad robinhood stock launchpad robinhood stock launchpad robinhood meme stock launchpad robinhood meme stock launchpad robinhood meme stock launchpad robinhood",
+   "language": "TypeScript",
+   "stars": 176,
+   "forks": 56,
+   "age_days": 1,
+   "daily_stars": 176.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "rising"
+   ],
+   "license": "",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 86,
+    "acceleration": 31,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 12
+   }
+  },
+  {
+   "full_name": "johnj-eng96n9/Discord-Token-Generator",
+   "url": "https://github.com/johnj-eng96n9/Discord-Token-Generator",
+   "description": "Discord Token Generator for Mass Discord bot token generator and manager. Create, manage, and export bot tokens in bulk.",
+   "language": "Python",
+   "stars": 66,
+   "forks": 27,
+   "age_days": 1,
+   "daily_stars": 66.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  }
+ ],
+ "repeat": []
+}

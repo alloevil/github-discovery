@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-05T18:00:00Z</updated>
+  <updated>2026-09-06T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>ashemag/human-atlas — Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.</title>
+    <id>https://github.com/ashemag/human-atlas#2026-09-06</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ashemag/human-atlas"/>
+    <updated>2026-09-06T18:00:00Z</updated>
+    <published>2026-09-06T18:00:00Z</published>
+    <summary>Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.
+
+Why: +735/day · Search
+Score: 96/100 | Language: TypeScript | ⭐ 735 (+735.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>pierrenade/short-video-generator-AI — Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content.</title>
+    <id>https://github.com/pierrenade/short-video-generator-AI#2026-09-06</id>
+    <link rel="alternate" type="text/html" href="https://github.com/pierrenade/short-video-generator-AI"/>
+    <updated>2026-09-06T18:00:00Z</updated>
+    <published>2026-09-06T18:00:00Z</published>
+    <summary>Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content.
+
+Why: +408/day · Search+Rising
+Score: 95/100 | Language: Python | ⭐ 408 (+408.0/day) | Source: search + rising</summary>
+  </entry>
+  <entry>
+    <title>Appllama/liquid-glass-screens — Explore liquid-glass welcome screens with floating stickers and interactive swipe animations.</title>
+    <id>https://github.com/Appllama/liquid-glass-screens#2026-09-06</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Appllama/liquid-glass-screens"/>
+    <updated>2026-09-06T18:00:00Z</updated>
+    <published>2026-09-06T18:00:00Z</published>
+    <summary>Explore liquid-glass welcome screens with floating stickers and interactive swipe animations.
+
+Why: +223/day · Search
+Score: 92/100 | Language: TypeScript | ⭐ 223 (+223.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark — Qwen3.8-Flash-Next on ONE DGX Spark (TP=1)</title>
+    <id>https://github.com/MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark#2026-09-06</id>
+    <link rel="alternate" type="text/html" href="https://github.com/MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark"/>
+    <updated>2026-09-06T18:00:00Z</updated>
+    <published>2026-09-06T18:00:00Z</published>
+    <summary>Qwen3.8-Flash-Next on ONE DGX Spark (TP=1)
+
+Why: +183/day · Search
+Score: 91/100 | Language: Python | ⭐ 183 (+183.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>gioblu/NPC-Forge — NPC-Forge is a framework for building conversational agents that run on the CPU without relying on machine learning or LLMs.</title>
+    <id>https://github.com/gioblu/NPC-Forge#2026-09-06</id>
+    <link rel="alternate" type="text/html" href="https://github.com/gioblu/NPC-Forge"/>
+    <updated>2026-09-06T18:00:00Z</updated>
+    <published>2026-09-06T18:00:00Z</published>
+    <summary>NPC-Forge is a framework for building conversational agents that run on the CPU without relying on machine learning or LLMs.
+
+Why: +73/day · HN · 19.8x accelerating
+Score: 91/100 | Language: Python | ⭐ 181 (+73.0/day) | Source: hn</summary>
+  </entry>
   <entry>
     <title>magnitudedev/magnitude — Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.</title>
     <id>https://github.com/magnitudedev/magnitude#2026-09-05</id>
@@ -943,71 +998,5 @@ Score: 86/100 | Language: Python | ⭐ 24809 (+215.7/day) | Source: trending</su
 
 Why: +12/day · HF Papers
 Score: 63/100 | Language: Python | ⭐ 529 (+12.4/day) | Source: hf-papers</summary>
-  </entry>
-  <entry>
-    <title>makeplane/plane — 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.</title>
-    <id>https://github.com/makeplane/plane#2026-08-23</id>
-    <link rel="alternate" type="text/html" href="https://github.com/makeplane/plane"/>
-    <updated>2026-08-23T18:00:00Z</updated>
-    <published>2026-08-23T18:00:00Z</published>
-    <summary>🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.
-
-Why: +348/day · Trending · 8.3x accelerating
-Score: 98/100 | Language: TypeScript | ⭐ 57286 (+347.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Tencent/AI-Infra-Guard — A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.</title>
-    <id>https://github.com/Tencent/AI-Infra-Guard#2026-08-23</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Tencent/AI-Infra-Guard"/>
-    <updated>2026-08-23T18:00:00Z</updated>
-    <published>2026-08-23T18:00:00Z</published>
-    <summary>A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.
-
-Why: +252/day · Trending · 27.4x accelerating
-Score: 97/100 | Language: Python | ⭐ 5558 (+252.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>microsoft/TypeScript — TypeScript is a superset of JavaScript that compiles to clean JavaScript output.</title>
-    <id>https://github.com/microsoft/TypeScript#2026-08-23</id>
-    <link rel="alternate" type="text/html" href="https://github.com/microsoft/TypeScript"/>
-    <updated>2026-08-23T18:00:00Z</updated>
-    <published>2026-08-23T18:00:00Z</published>
-    <summary>TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
-
-Why: +154/day · Trending · 6.2x accelerating
-Score: 94/100 | Language: Go | ⭐ 110566 (+154.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>LB623/no-negative-echo — 让 Codex 根据最终结果生成标题、注释、commit 和 PR，减少被否决方案在交付中的残留。</title>
-    <id>https://github.com/LB623/no-negative-echo#2026-08-23</id>
-    <link rel="alternate" type="text/html" href="https://github.com/LB623/no-negative-echo"/>
-    <updated>2026-08-23T18:00:00Z</updated>
-    <published>2026-08-23T18:00:00Z</published>
-    <summary>让 Codex 根据最终结果生成标题、注释、commit 和 PR，减少被否决方案在交付中的残留。
-
-Why: +198/day · Search
-Score: 92/100 | Language: Python | ⭐ 198 (+198.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>proliferate-ai/proliferate — The open-source AI IDE for Claude Code, Codex, OpenCode, and more. Run agents in parallel, locally or in the cloud, and build reusable workflows.</title>
-    <id>https://github.com/proliferate-ai/proliferate#2026-08-23</id>
-    <link rel="alternate" type="text/html" href="https://github.com/proliferate-ai/proliferate"/>
-    <updated>2026-08-23T18:00:00Z</updated>
-    <published>2026-08-23T18:00:00Z</published>
-    <summary>The open-source AI IDE for Claude Code, Codex, OpenCode, and more. Run agents in parallel, locally or in the cloud, and build reusable workflows.
-
-Why: +50/day · HN · 18.9x accelerating
-Score: 89/100 | Language: TypeScript | ⭐ 301 (+50.0/day) | Source: hn</summary>
-  </entry>
-  <entry>
-    <title>cursor/plugins — Cursor plugin specification and official plugins</title>
-    <id>https://github.com/cursor/plugins#2026-08-23</id>
-    <link rel="alternate" type="text/html" href="https://github.com/cursor/plugins"/>
-    <updated>2026-08-23T18:00:00Z</updated>
-    <published>2026-08-23T18:00:00Z</published>
-    <summary>Cursor plugin specification and official plugins
-
-Why: +243/day · Trending · 11.0x accelerating
-Score: 92/100 | Language: TypeScript | ⭐ 4697 (+243.0/day) | Source: trending</summary>
   </entry>
 </feed>

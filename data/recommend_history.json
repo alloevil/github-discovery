@@ -95,14 +95,6 @@
       ],
       "last_recommended": "2026-08-12T06:05:50.602511+00:00"
     },
-    "tirth8205/code-review-graph": {
-      "count": 2,
-      "scores": [
-        100,
-        70
-      ],
-      "last_recommended": "2026-08-07T06:01:49.991531+00:00"
-    },
     "RyanCodrai/turbovec": {
       "count": 3,
       "scores": [
@@ -184,76 +176,6 @@
         100
       ],
       "last_recommended": "2026-08-16T05:06:32.489368+00:00"
-    },
-    "cloudflare/computer": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-07T06:01:49.961116+00:00"
-    },
-    "huangruiteng/loopx": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-07T06:01:49.964273+00:00"
-    },
-    "firecrawl/anydoc": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-07T06:01:49.967230+00:00"
-    },
-    "Accio-org/RealReplicaBench": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-07T06:01:49.970074+00:00"
-    },
-    "nfzerox/VirtualMacOniPad": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-07T06:01:49.973074+00:00"
-    },
-    "pradipta/wallfacer": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-07T06:01:49.976091+00:00"
-    },
-    "okky-x0f/qoder-creator": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-07T06:01:49.979075+00:00"
-    },
-    "eternityspring/shuohao-skills": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-07T06:01:49.981984+00:00"
-    },
-    "KimGLee/Cambium": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-07T06:01:49.984795+00:00"
-    },
-    "Larryvrh/ComfyUI-MiniMax-H3-Turbo": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-07T06:01:49.987706+00:00"
     },
     "goauthentik/authentik": {
       "count": 1,
@@ -2296,7 +2218,77 @@
         86
       ],
       "last_recommended": "2026-09-05T08:37:03.187139+00:00"
+    },
+    "ashemag/human-atlas": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-06T08:56:39.052561+00:00"
+    },
+    "pierrenade/short-video-generator-AI": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-06T08:56:39.054850+00:00"
+    },
+    "Appllama/liquid-glass-screens": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-06T08:56:39.056868+00:00"
+    },
+    "MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-06T08:56:39.058887+00:00"
+    },
+    "gioblu/NPC-Forge": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-06T08:56:39.060905+00:00"
+    },
+    "byJoey/warp-masque-actions": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-06T08:56:39.062969+00:00"
+    },
+    "hsandhu/mobilecode": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-09-06T08:56:39.064989+00:00"
+    },
+    "sebbbi/NoGraphicsAPI": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-06T08:56:39.067005+00:00"
+    },
+    "brendazure/robinhood-meme-token-stock-launchpad": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-09-06T08:56:39.069013+00:00"
+    },
+    "johnj-eng96n9/Discord-Token-Generator": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-09-06T08:56:39.071050+00:00"
     }
   },
-  "updated_at": "2026-09-05T08:37:03.189180+00:00"
+  "updated_at": "2026-09-06T08:56:39.071079+00:00"
 }
