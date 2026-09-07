@@ -79,14 +79,6 @@
       ],
       "last_recommended": "2026-08-10T06:03:18.368849+00:00"
     },
-    "chenyme/grok2api": {
-      "count": 2,
-      "scores": [
-        100,
-        65
-      ],
-      "last_recommended": "2026-08-08T05:26:21.152483+00:00"
-    },
     "HKUDS/DeepTutor": {
       "count": 2,
       "scores": [
@@ -176,76 +168,6 @@
         100
       ],
       "last_recommended": "2026-08-16T05:06:32.489368+00:00"
-    },
-    "goauthentik/authentik": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-08T05:26:21.123947+00:00"
-    },
-    "google/guava": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-08T05:26:21.127463+00:00"
-    },
-    "Significant-Gravitas/AutoGPT": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-08T05:26:21.130751+00:00"
-    },
-    "666ghj/MiroFish": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-08T05:26:21.133698+00:00"
-    },
-    "zqxwce/vphone-ws": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-08T05:26:21.136619+00:00"
-    },
-    "T8mars/comfyui-minimax-h3-audio-T8": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-08T05:26:21.139407+00:00"
-    },
-    "openTrinity/mycontext": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-08T05:26:21.142217+00:00"
-    },
-    "magicrew/doc7": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-08T05:26:21.145047+00:00"
-    },
-    "jd-opensource/JoyAI-Video-Edit": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-08T05:26:21.147825+00:00"
-    },
-    "CopilotKit/channels-sdk": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-08T05:26:21.150525+00:00"
     },
     "PrimeIntellect-ai/prime-agent": {
       "count": 2,
@@ -2288,7 +2210,77 @@
         86
       ],
       "last_recommended": "2026-09-06T08:56:39.071050+00:00"
+    },
+    "BraveOPotato/FckSignups": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-07T09:45:40.454713+00:00"
+    },
+    "ruvnet/ruflo": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-07T09:45:40.457021+00:00"
+    },
+    "vinzdg/codenotch": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-07T09:45:40.459031+00:00"
+    },
+    "EverettFish/holo-card-studio": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-07T09:45:40.461069+00:00"
+    },
+    "humanlayer/skills": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-07T09:45:40.463087+00:00"
+    },
+    "biusberline/cloudflare-turnstile-solver": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-09-07T09:45:40.465105+00:00"
+    },
+    "donvito/codex-astra-luna-orchestrator": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-09-07T09:45:40.467103+00:00"
+    },
+    "BoardUI/boardui": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-07T09:45:40.469080+00:00"
+    },
+    "wz1119/Codex-Minecraft-Gameplay": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-09-07T09:45:40.471072+00:00"
+    },
+    "marsbos/mador": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-07T09:45:40.473056+00:00"
     }
   },
-  "updated_at": "2026-09-06T08:56:39.071079+00:00"
+  "updated_at": "2026-09-07T09:45:40.473081+00:00"
 }

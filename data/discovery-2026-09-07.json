@@ -1,0 +1,283 @@
+{
+ "date": "2026-09-07",
+ "generated_at": "2026-09-07T09:45:40.751730",
+ "new": [
+  {
+   "full_name": "BraveOPotato/FckSignups",
+   "url": "https://github.com/BraveOPotato/FckSignups",
+   "description": "A list of tools that are open-source, in-browser, and require no-signups!",
+   "language": "TypeScript",
+   "stars": 3531,
+   "forks": 214,
+   "age_days": 122,
+   "daily_stars": 28.942622950819672,
+   "real_daily_stars": 508.0,
+   "watchers": 14,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "ruvnet/ruflo",
+   "url": "https://github.com/ruvnet/ruflo",
+   "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+   "language": "TypeScript",
+   "stars": 71166,
+   "forks": 8449,
+   "age_days": 461,
+   "daily_stars": 154.37310195227766,
+   "real_daily_stars": 382.0,
+   "watchers": 455,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "vinzdg/codenotch",
+   "url": "https://github.com/vinzdg/codenotch",
+   "description": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.",
+   "language": "Swift",
+   "stars": 783,
+   "forks": 110,
+   "age_days": 1,
+   "daily_stars": 783.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "EverettFish/holo-card-studio",
+   "url": "https://github.com/EverettFish/holo-card-studio",
+   "description": "Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user's output project.",
+   "language": "Python",
+   "stars": 507,
+   "forks": 74,
+   "age_days": 1,
+   "daily_stars": 507.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "humanlayer/skills",
+   "url": "https://github.com/humanlayer/skills",
+   "description": "",
+   "language": "TypeScript",
+   "stars": 3340,
+   "forks": 98,
+   "age_days": 173,
+   "daily_stars": 19.30635838150289,
+   "real_daily_stars": 480.0,
+   "watchers": 7,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 95,
+    "acceleration": 40,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 9
+   }
+  },
+  {
+   "full_name": "biusberline/cloudflare-turnstile-solver",
+   "url": "https://github.com/biusberline/cloudflare-turnstile-solver",
+   "description": "A small Python library and CLI for working with Cloudflare Turnstile on your own pages - read the sitekey, build the token, verify the result.",
+   "language": "Python",
+   "stars": 258,
+   "forks": 10,
+   "age_days": 1,
+   "daily_stars": 258.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "donvito/codex-astra-luna-orchestrator",
+   "url": "https://github.com/donvito/codex-astra-luna-orchestrator",
+   "description": "Use Astra as orchestrator and Luna as implementor",
+   "language": "Python",
+   "stars": 255,
+   "forks": 15,
+   "age_days": 1,
+   "daily_stars": 255.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "BoardUI/boardui",
+   "url": "https://github.com/BoardUI/boardui",
+   "description": "React design system for agentic interfaces. Every free BoardUI component as source, with a working AI chat app on your own model key as the homepage.",
+   "language": "TypeScript",
+   "stars": 299,
+   "forks": 42,
+   "age_days": 5,
+   "daily_stars": 59.8,
+   "real_daily_stars": 143.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "wz1119/Codex-Minecraft-Gameplay",
+   "url": "https://github.com/wz1119/Codex-Minecraft-Gameplay",
+   "description": "A toolkit for exploring, gathering, crafting, and building in Minecraft with GPT-6 Astra computer use.",
+   "language": "Python",
+   "stars": 86,
+   "forks": 5,
+   "age_days": 1,
+   "daily_stars": 86.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "marsbos/mador",
+   "url": "https://github.com/marsbos/mador",
+   "description": "Make Any DOM Reactive",
+   "language": "JavaScript",
+   "stars": 83,
+   "forks": 2,
+   "age_days": 1,
+   "daily_stars": 83.0,
+   "watchers": 0,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "MIT",
+   "hn_title": "Show HN: Mador – Make any DOM reactive with a tiny 80-line Proxy state tuple",
+   "hn_score": 88,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  }
+ ],
+ "repeat": []
+}
