@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-06T18:00:00Z</updated>
+  <updated>2026-09-07T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>BraveOPotato/FckSignups — A list of tools that are open-source, in-browser, and require no-signups!</title>
+    <id>https://github.com/BraveOPotato/FckSignups#2026-09-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/BraveOPotato/FckSignups"/>
+    <updated>2026-09-07T18:00:00Z</updated>
+    <published>2026-09-07T18:00:00Z</published>
+    <summary>A list of tools that are open-source, in-browser, and require no-signups!
+
+Why: +508/day · Trending · 17.6x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 3531 (+508.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>ruvnet/ruflo — 🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated</title>
+    <id>https://github.com/ruvnet/ruflo#2026-09-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ruvnet/ruflo"/>
+    <updated>2026-09-07T18:00:00Z</updated>
+    <published>2026-09-07T18:00:00Z</published>
+    <summary>🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated
+
+Why: +382/day · Trending · 2.5x accelerating
+Score: 96/100 | Language: TypeScript | ⭐ 71166 (+382.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>vinzdg/codenotch — A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.</title>
+    <id>https://github.com/vinzdg/codenotch#2026-09-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/vinzdg/codenotch"/>
+    <updated>2026-09-07T18:00:00Z</updated>
+    <published>2026-09-07T18:00:00Z</published>
+    <summary>A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.
+
+Why: +783/day · Search
+Score: 96/100 | Language: Swift | ⭐ 783 (+783.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>EverettFish/holo-card-studio — Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user's output project.</title>
+    <id>https://github.com/EverettFish/holo-card-studio#2026-09-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/EverettFish/holo-card-studio"/>
+    <updated>2026-09-07T18:00:00Z</updated>
+    <published>2026-09-07T18:00:00Z</published>
+    <summary>Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user's output project.
+
+Why: +507/day · Search
+Score: 96/100 | Language: Python | ⭐ 507 (+507.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>humanlayer/skills — No description</title>
+    <id>https://github.com/humanlayer/skills#2026-09-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/humanlayer/skills"/>
+    <updated>2026-09-07T18:00:00Z</updated>
+    <published>2026-09-07T18:00:00Z</published>
+    <summary>No description
+
+Why: +480/day · Trending · 24.9x accelerating
+Score: 95/100 | Language: TypeScript | ⭐ 3340 (+480.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>ashemag/human-atlas — Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.</title>
     <id>https://github.com/ashemag/human-atlas#2026-09-06</id>
@@ -910,93 +965,5 @@ Score: 95/100 | Language: Rust | ⭐ 66144 (+161.0/day) | Source: trending</summ
 
 Why: +293/day · HF Papers · 1.8x accelerating
 Score: 91/100 | Language: TypeScript | ⭐ 18199 (+293.0/day) | Source: hf-papers</summary>
-  </entry>
-  <entry>
-    <title>duty1g/x64dbg-mcp-server — x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros</title>
-    <id>https://github.com/duty1g/x64dbg-mcp-server#2026-08-24</id>
-    <link rel="alternate" type="text/html" href="https://github.com/duty1g/x64dbg-mcp-server"/>
-    <updated>2026-08-24T18:00:00Z</updated>
-    <published>2026-08-24T18:00:00Z</published>
-    <summary>x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros
-
-Why: +980/day · Search+AI/ML
-Score: 96/100 | Language: Zig | ⭐ 980 (+980.0/day) | Source: search + ai-trending</summary>
-  </entry>
-  <entry>
-    <title>ShadowAqueduct/watermark-remover — Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and MD.</title>
-    <id>https://github.com/ShadowAqueduct/watermark-remover#2026-08-24</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ShadowAqueduct/watermark-remover"/>
-    <updated>2026-08-24T18:00:00Z</updated>
-    <published>2026-08-24T18:00:00Z</published>
-    <summary>Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and MD.
-
-Why: +760/day · Search
-Score: 96/100 | Language: Python | ⭐ 760 (+760.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>nateherkai/scroll-craft — Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll.</title>
-    <id>https://github.com/nateherkai/scroll-craft#2026-08-24</id>
-    <link rel="alternate" type="text/html" href="https://github.com/nateherkai/scroll-craft"/>
-    <updated>2026-08-24T18:00:00Z</updated>
-    <published>2026-08-24T18:00:00Z</published>
-    <summary>Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll.
-
-Why: +524/day · Search
-Score: 96/100 | Language: JavaScript | ⭐ 524 (+524.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>Forsy-AI/biosecurity-agent — AI agent that builds a live biosecurity world around any target.</title>
-    <id>https://github.com/Forsy-AI/biosecurity-agent#2026-08-24</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Forsy-AI/biosecurity-agent"/>
-    <updated>2026-08-24T18:00:00Z</updated>
-    <published>2026-08-24T18:00:00Z</published>
-    <summary>AI agent that builds a live biosecurity world around any target.
-
-Why: +493/day · Search
-Score: 96/100 | Language: TypeScript | ⭐ 493 (+493.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>ripienaar/free-for-dev — A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev</title>
-    <id>https://github.com/ripienaar/free-for-dev#2026-08-24</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ripienaar/free-for-dev"/>
-    <updated>2026-08-24T18:00:00Z</updated>
-    <published>2026-08-24T18:00:00Z</published>
-    <summary>A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
-
-Why: +573/day · Trending · 17.8x accelerating
-Score: 96/100 | Language: HTML | ⭐ 134575 (+573.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Comfy-Org/ComfyUI — The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.</title>
-    <id>https://github.com/Comfy-Org/ComfyUI#2026-08-24</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Comfy-Org/ComfyUI"/>
-    <updated>2026-08-24T18:00:00Z</updated>
-    <published>2026-08-24T18:00:00Z</published>
-    <summary>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
-
-Why: +234/day · Trending · 2.4x accelerating
-Score: 93/100 | Language: Python | ⭐ 129515 (+233.7/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>virgiliojr94/book-to-skill — Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.</title>
-    <id>https://github.com/virgiliojr94/book-to-skill#2026-08-24</id>
-    <link rel="alternate" type="text/html" href="https://github.com/virgiliojr94/book-to-skill"/>
-    <updated>2026-08-24T18:00:00Z</updated>
-    <published>2026-08-24T18:00:00Z</published>
-    <summary>Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
-
-Why: +216/day · Trending
-Score: 86/100 | Language: Python | ⭐ 24809 (+215.7/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>sii-research/tau-0-vla — This repo is the official implementation of  &quot;τ0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation&quot;.</title>
-    <id>https://github.com/sii-research/tau-0-vla#2026-08-24</id>
-    <link rel="alternate" type="text/html" href="https://github.com/sii-research/tau-0-vla"/>
-    <updated>2026-08-24T18:00:00Z</updated>
-    <published>2026-08-24T18:00:00Z</published>
-    <summary>This repo is the official implementation of  &quot;τ0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation&quot;.
-
-Why: +12/day · HF Papers
-Score: 63/100 | Language: Python | ⭐ 529 (+12.4/day) | Source: hf-papers</summary>
   </entry>
 </feed>
