@@ -2280,7 +2280,77 @@
         87
       ],
       "last_recommended": "2026-09-07T09:45:40.473056+00:00"
+    },
+    "The-Swarm-Corporation/AutoHedge": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-09-08T04:03:35.487644+00:00"
+    },
+    "coreyhaines31/marketingskills": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-09-08T04:03:35.490071+00:00"
+    },
+    "openai/skills": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-09-08T04:03:35.492149+00:00"
+    },
+    "timgordontg/engrim": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-09-08T04:03:35.494220+00:00"
+    },
+    "okf-memory/okf-agent-memory": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-08T04:03:35.496265+00:00"
+    },
+    "Jarvis322/macos-sysdata": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-09-08T04:03:35.498420+00:00"
+    },
+    "heygen-com/hyperframes": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-08T04:03:35.500497+00:00"
+    },
+    "microsoft/markitdown": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-08T04:03:35.502559+00:00"
+    },
+    "Sadpainy/Stuxnet": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-08T04:03:35.504609+00:00"
+    },
+    "Mantitup-Org/vista": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-08T04:03:35.506704+00:00"
     }
   },
-  "updated_at": "2026-09-07T09:45:40.473081+00:00"
+  "updated_at": "2026-09-08T04:03:35.506729+00:00"
 }

@@ -1,0 +1,286 @@
+{
+ "date": "2026-09-08",
+ "generated_at": "2026-09-08T04:03:35.763314",
+ "new": [
+  {
+   "full_name": "The-Swarm-Corporation/AutoHedge",
+   "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+   "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
+   "language": "Python",
+   "stars": 5332,
+   "forks": 815,
+   "age_days": 636,
+   "daily_stars": 8.383647798742139,
+   "real_daily_stars": 391.0,
+   "watchers": 43,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "coreyhaines31/marketingskills",
+   "url": "https://github.com/coreyhaines31/marketingskills",
+   "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+   "language": "JavaScript",
+   "stars": 48246,
+   "forks": 7447,
+   "age_days": 235,
+   "daily_stars": 205.30212765957447,
+   "real_daily_stars": 484.0,
+   "watchers": 412,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 97,
+    "acceleration": 37,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "openai/skills",
+   "url": "https://github.com/openai/skills",
+   "description": "Skills Catalog for Codex",
+   "language": "Python",
+   "stars": 26115,
+   "forks": 1750,
+   "age_days": 286,
+   "daily_stars": 91.31118881118881,
+   "real_daily_stars": 349.0,
+   "watchers": 150,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 93,
+    "acceleration": 38,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 6
+   }
+  },
+  {
+   "full_name": "timgordontg/engrim",
+   "url": "https://github.com/timgordontg/engrim",
+   "description": "The Universal Cross-Model Episodic Memory Standard. Local-first, project-scoped SQLite memory engine for Google Antigravity, Claude Code, Cursor, Windsurf, and Codex. Zero cloud lock-in.",
+   "language": "Python",
+   "stars": 190,
+   "forks": 9,
+   "age_days": 80,
+   "daily_stars": 2.375,
+   "real_daily_stars": 126.0,
+   "watchers": 1,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "MIT",
+   "hn_title": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI CLIs",
+   "hn_score": 84,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "okf-memory/okf-agent-memory",
+   "url": "https://github.com/okf-memory/okf-agent-memory",
+   "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
+   "language": "Go",
+   "stars": 468,
+   "forks": 24,
+   "age_days": 2,
+   "daily_stars": 234.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Jarvis322/macos-sysdata",
+   "url": "https://github.com/Jarvis322/macos-sysdata",
+   "description": "See what is really inside macOS System Data and delete it, item by item, from the menu bar.",
+   "language": "Swift",
+   "stars": 560,
+   "forks": 28,
+   "age_days": 2,
+   "daily_stars": 280.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 88,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "description": "Write HTML. Render video. Built for agents.",
+   "language": "TypeScript",
+   "stars": 46360,
+   "forks": 4339,
+   "age_days": 182,
+   "daily_stars": 254.72527472527472,
+   "watchers": 131,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "microsoft/markitdown",
+   "url": "https://github.com/microsoft/markitdown",
+   "description": "Python tool for converting files and office documents to Markdown.",
+   "language": "Python",
+   "stars": 180563,
+   "forks": 13275,
+   "age_days": 663,
+   "daily_stars": 272.342383107089,
+   "watchers": 574,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Sadpainy/Stuxnet",
+   "url": "https://github.com/Sadpainy/Stuxnet",
+   "description": "Stuxnet, Here reproduced by me, Only for researchs educations purposes. It set work on WindowsXP and Windows 7 only.",
+   "language": "C",
+   "stars": 69,
+   "forks": 9,
+   "age_days": 1,
+   "daily_stars": 69.0,
+   "watchers": 0,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "AGPL-3.0",
+   "hn_title": "Show HN: Stuxnet – A reconstructed source code of the infamous cyber-weapon",
+   "hn_score": 123,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "Mantitup-Org/vista",
+   "url": "https://github.com/Mantitup-Org/vista",
+   "description": "",
+   "language": "TypeScript",
+   "stars": 361,
+   "forks": 9,
+   "age_days": 3,
+   "daily_stars": 120.33333333333333,
+   "real_daily_stars": 166.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": []
+}
