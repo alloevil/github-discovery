@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-07T18:00:00Z</updated>
+  <updated>2026-09-08T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>The-Swarm-Corporation/AutoHedge — Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.</title>
+    <id>https://github.com/The-Swarm-Corporation/AutoHedge#2026-09-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/The-Swarm-Corporation/AutoHedge"/>
+    <updated>2026-09-08T18:00:00Z</updated>
+    <published>2026-09-08T18:00:00Z</published>
+    <summary>Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.
+
+Why: +391/day · Trending · 46.6x accelerating
+Score: 99/100 | Language: Python | ⭐ 5332 (+391.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>coreyhaines31/marketingskills — Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.</title>
+    <id>https://github.com/coreyhaines31/marketingskills#2026-09-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/coreyhaines31/marketingskills"/>
+    <updated>2026-09-08T18:00:00Z</updated>
+    <published>2026-09-08T18:00:00Z</published>
+    <summary>Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
+
+Why: +484/day · Trending · 2.4x accelerating
+Score: 97/100 | Language: JavaScript | ⭐ 48246 (+484.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>openai/skills — Skills Catalog for Codex</title>
+    <id>https://github.com/openai/skills#2026-09-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/openai/skills"/>
+    <updated>2026-09-08T18:00:00Z</updated>
+    <published>2026-09-08T18:00:00Z</published>
+    <summary>Skills Catalog for Codex
+
+Why: +349/day · Trending · 3.8x accelerating
+Score: 93/100 | Language: Python | ⭐ 26115 (+349.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>timgordontg/engrim — The Universal Cross-Model Episodic Memory Standard. Local-first, project-scoped SQLite memory engine for Google Antigravity, Claude Code, Cursor, Windsurf, and Codex. Zero cloud lock-in.</title>
+    <id>https://github.com/timgordontg/engrim#2026-09-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/timgordontg/engrim"/>
+    <updated>2026-09-08T18:00:00Z</updated>
+    <published>2026-09-08T18:00:00Z</published>
+    <summary>The Universal Cross-Model Episodic Memory Standard. Local-first, project-scoped SQLite memory engine for Google Antigravity, Claude Code, Cursor, Windsurf, and Codex. Zero cloud lock-in.
+
+Why: +126/day · HN · 53.1x accelerating
+Score: 93/100 | Language: Python | ⭐ 190 (+126.0/day) | Source: hn</summary>
+  </entry>
+  <entry>
+    <title>okf-memory/okf-agent-memory — Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.</title>
+    <id>https://github.com/okf-memory/okf-agent-memory#2026-09-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/okf-memory/okf-agent-memory"/>
+    <updated>2026-09-08T18:00:00Z</updated>
+    <published>2026-09-08T18:00:00Z</published>
+    <summary>Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.
+
+Why: +234/day · Search
+Score: 92/100 | Language: Go | ⭐ 468 (+234.0/day) | Source: search</summary>
+  </entry>
   <entry>
     <title>BraveOPotato/FckSignups — A list of tools that are open-source, in-browser, and require no-signups!</title>
     <id>https://github.com/BraveOPotato/FckSignups#2026-09-07</id>
@@ -899,71 +954,5 @@ Score: 100/100 | Language: Shell | ⭐ 31448 (+1078.0/day) | Source: trending</s
 
 Why: +204/day · Trending
 Score: 87/100 | Language: Python | ⭐ 100413 (+204.2/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Alishahryar1/free-claude-code — Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)</title>
-    <id>https://github.com/Alishahryar1/free-claude-code#2026-08-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Alishahryar1/free-claude-code"/>
-    <updated>2026-08-25T18:00:00Z</updated>
-    <published>2026-08-25T18:00:00Z</published>
-    <summary>Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)
-
-Why: +1076/day · Trending · 4.5x accelerating
-Score: 100/100 | Language: Python | ⭐ 49207 (+1076.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>freestylefly/awesome-gpt-image-2 — Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中</title>
-    <id>https://github.com/freestylefly/awesome-gpt-image-2#2026-08-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/freestylefly/awesome-gpt-image-2"/>
-    <updated>2026-08-25T18:00:00Z</updated>
-    <published>2026-08-25T18:00:00Z</published>
-    <summary>Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中
-
-Why: +2321/day · Trending · 17.6x accelerating
-Score: 100/100 | Language: JavaScript | ⭐ 15935 (+2321.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>anthropics/claude-plugins-community — Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.</title>
-    <id>https://github.com/anthropics/claude-plugins-community#2026-08-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-plugins-community"/>
-    <updated>2026-08-25T18:00:00Z</updated>
-    <published>2026-08-25T18:00:00Z</published>
-    <summary>Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.
-
-Why: +388/day · Trending · 42.4x accelerating
-Score: 99/100 | Language: Python | ⭐ 1445 (+388.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>tinyhumansai/openhuman — Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.</title>
-    <id>https://github.com/tinyhumansai/openhuman#2026-08-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/tinyhumansai/openhuman"/>
-    <updated>2026-08-25T18:00:00Z</updated>
-    <published>2026-08-25T18:00:00Z</published>
-    <summary>Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.
-
-Why: +516/day · Trending · 2.6x accelerating
-Score: 98/100 | Language: Rust | ⭐ 37377 (+516.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>dani-garcia/vaultwarden — Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs</title>
-    <id>https://github.com/dani-garcia/vaultwarden#2026-08-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/dani-garcia/vaultwarden"/>
-    <updated>2026-08-25T18:00:00Z</updated>
-    <published>2026-08-25T18:00:00Z</published>
-    <summary>Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
-
-Why: +161/day · Trending · 7.6x accelerating
-Score: 95/100 | Language: Rust | ⭐ 66144 (+161.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>PrimeIntellect-ai/prime-agent — A self-improving RLM agent for coding workflows and long-running autonomous tasks.</title>
-    <id>https://github.com/PrimeIntellect-ai/prime-agent#2026-08-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/PrimeIntellect-ai/prime-agent"/>
-    <updated>2026-08-25T18:00:00Z</updated>
-    <published>2026-08-25T18:00:00Z</published>
-    <summary>A self-improving RLM agent for coding workflows and long-running autonomous tasks.
-
-Why: +293/day · HF Papers · 1.8x accelerating
-Score: 91/100 | Language: TypeScript | ⭐ 18199 (+293.0/day) | Source: hf-papers</summary>
   </entry>
 </feed>

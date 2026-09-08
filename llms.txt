@@ -1,0 +1,20 @@
+# GitHub Discovery
+
+> GitHub Discovery is a daily GitHub repository discovery pipeline that surfaces projects while they are still accelerating, for developers who want early signal instead of yesterday's popularity.
+
+GitHub Trending ranks what is already popular today, which means you meet a project after everyone else has. GitHub Discovery collects candidates from six sources every day, scores each one out of 100 (acceleration 40 / quality 30 / anti-spam 30, plus a code-quality bonus of up to 20 and penalties for suspicious or batch star growth), drops anything already recommended in the previous 7 days, and publishes the top 10 as a web page, an Atom feed and an email digest. The six sources are GitHub Trending, GitHub Search for repositories created in the last 7 days, Hacker News Show HN posts, a fork-growth "rising" pass over repositories created in the last 3 days, a rotating AI/ML keyword sweep over GitHub Search, and Hugging Face Daily Papers. It runs entirely on GitHub Actions with no server: fork the repository, set the `RESEND_API_KEY` secret, enable the workflow. Locally: `python scripts/main.py`.
+
+## Docs
+- [Daily picks](https://alloevil.github.io/github-discovery/): today's ranked repositories with their scores, filterable by date and language
+- [Atom feed](https://alloevil.github.io/github-discovery/feed.xml): the last ~14 days of picks, regenerated on every run
+- [Roadmap](https://alloevil.github.io/github-discovery/ROADMAP.md): planned work
+- [README](https://github.com/alloevil/github-discovery#readme): the source list, the scoring dimensions and the setup steps
+
+## Evidence
+- [claims.json](https://alloevil.github.io/github-discovery/claims.json): the numbers below in machine-readable form, each with its repro command
+- [Backtest report](https://github.com/alloevil/github-discovery/blob/main/reports/verify-2026-06-25.json): 13 of the 20 repositories in the 7-day sample gained at least 10% more stars after being recommended (precision 0.65); average star growth over that window was 18.71%
+- [Daily result data](https://github.com/alloevil/github-discovery/tree/main/data): every day's scored output committed as JSON — this is what the backtest reads, so the numbers can be recomputed from a fresh clone
+- [Scoring code](https://github.com/alloevil/github-discovery/blob/main/scripts/scorer.py): the dimension limits are constants in `scripts/config.py`, not prose
+
+## Source
+- [GitHub repository](https://github.com/alloevil/github-discovery)
