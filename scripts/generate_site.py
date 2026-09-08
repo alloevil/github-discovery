@@ -271,14 +271,25 @@ def main():
         f.write(feed_xml)
 
     # robots.txt + sitemap.xml live here rather than as hand-written files:
-    # the deploy publishes DIST_DIR wholesale, so anything not emitted by a
-    # build eventually drifts (or gets forgotten when a page is added).
+    # the deploy publishes DIST_DIR wholesale to gh-pages (peaceiris/actions-gh-pages
+    # with no keep_files), so anything not emitted by a build gets erased on the
+    # next run — or forgotten when a page is added.
+    #
+    # 注意：robots 协议是 origin 级的 —— 抓取器只读 alloevil.github.io/robots.txt，
+    # 不会读这份子路径下的文件。所以它是"约定 + 备用"性质：部分工具和 AI 抓取器
+    # 确实会探测子路径，将来若换独立域名它才真正生效。要真正屏蔽某个路径、或让
+    # sitemap 被发现，得改站点根仓库 alloevil.github.io 的 robots.txt。
     with open(os.path.join(DIST_DIR, 'robots.txt'), 'w') as f:
         f.write("User-agent: *\nAllow: /\n\n"
                 f"Sitemap: {SITE_URL}/sitemap.xml\n")
 
-    # Only index.html is a real page: template.html is this script's input,
-    # feed.xml is a feed, ROADMAP.md is served as raw markdown.
+    # 只放真正的页面：index.html 是唯一一个。刻意排除的：
+    #   - template.html：本脚本的渲染输入，不是页面（它自带指向首页的
+    #     rel=canonical，所以即使被抓到也会归并到首页）；
+    #   - feed.xml、favicon.svg 等静态资源：不是页面，塞进 sitemap 只会稀释它；
+    #   - ROADMAP.md：以 text/markdown 形式提供（.nojekyll 关掉了 Jekyll，
+    #     对应的 .html 是 404），不是 HTML 页面。
+    # 以后新增页面请加进这个列表，而不是手写 sitemap.xml。
     pages = [f'{SITE_URL}/']
     with open(os.path.join(DIST_DIR, 'sitemap.xml'), 'w') as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n'
