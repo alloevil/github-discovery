@@ -270,6 +270,22 @@ def main():
     with open(os.path.join(DIST_DIR, 'feed.xml'), 'w') as f:
         f.write(feed_xml)
 
+    # robots.txt + sitemap.xml live here rather than as hand-written files:
+    # the deploy publishes DIST_DIR wholesale, so anything not emitted by a
+    # build eventually drifts (or gets forgotten when a page is added).
+    with open(os.path.join(DIST_DIR, 'robots.txt'), 'w') as f:
+        f.write("User-agent: *\nAllow: /\n\n"
+                f"Sitemap: {SITE_URL}/sitemap.xml\n")
+
+    # Only index.html is a real page: template.html is this script's input,
+    # feed.xml is a feed, ROADMAP.md is served as raw markdown.
+    pages = [f'{SITE_URL}/']
+    with open(os.path.join(DIST_DIR, 'sitemap.xml'), 'w') as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n'
+                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                + '\n'.join(f'  <url><loc>{u}</loc></url>' for u in pages)
+                + '\n</urlset>\n')
+
     print(f"[OK] index.html ({len(reports)} reports, template-based)")
     print(f"[OK] feed.xml ({sum(len(ft[:5]) + len(rp[:3]) for _, ft, rp in reports[:FEED_DAYS])} entries)")
 
