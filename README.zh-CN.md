@@ -1,3 +1,7 @@
+# GitHub Discovery
+
+**GitHub Discovery** 是一个每天运行的 GitHub 仓库发现流水线，在项目还处于加速上升期时就把它挖出来，服务于想要早期信号、而不是昨天热度的开发者。
+
 <p align="center">
   <img src="./assets/hero.svg" width="100%" alt="GitHub Discovery — spot trending repos before they go mainstream. 6 data sources, smart scoring, anti-spam, daily email digest.">
 </p>
@@ -40,10 +44,10 @@ GitHub Discovery 告诉你什么**即将火起来**——增长曲线异常的�
   │  Trending   │  │   Search    │  │    News     │
   └──────┬──────┘  └──────┬──────┘  └──────┬──────┘
          │                │                │
-  ┌──────┴──────┐  ┌──────┴──────┐        │
-  │  AI/ML      │  │    Web      │        │
-  │  Trending   │  │   Scrape    │        │
-  └──────┬──────┘  └──────┬──────┘        │
+  ┌──────┴──────┐  ┌──────┴──────┐  ┌──────┴──────┐
+  │   Rising    │  │   AI/ML     │  │  HF Daily   │
+  │  Detection  │  │  Keywords   │  │   Papers    │
+  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘
          │                │                │
          └────────────────┼────────────────┘
                           ▼
@@ -80,8 +84,8 @@ GitHub Discovery 告诉你什么**即将火起来**——增长曲线异常的�
 | [GitHub Trending](https://github.com/trending) | 热度 | 每日趋势仓库 |
 | GitHub Search | 新晋上升 | 最近 7 天创建、星标增长迅猛的仓库 |
 | [Hacker News](https://news.ycombinator.com/) | 社区精选 | Show HN 帖子中出现的 GitHub 仓库 |
-| Rising Detection | 早期信号 | Fork 出现异常增长的新仓库（fork farm 比率会被排除） |
-| [AI/ML Trending](https://ossinsight.io/trending/ai) | AI 方向 | 快速增长的 AI/ML 仓库（关键词每日轮换） |
+| Rising Detection | 早期信号 | 最近 3 天创建、fork 数异常偏高的仓库——fork 作为真实使用的早期信号 |
+| AI/ML 关键词轮扫 | AI 方向 | 用一组 AI/ML 关键词扫 GitHub Search，每天轮换 5 个词（思路来自 [OSSInsight trending/ai](https://ossinsight.io/trending/ai)，实现走的是 GitHub Search API） |
 | [HF Daily Papers](https://huggingface.co/papers) | 研究信号 | Hugging Face 热门论文关联的 GitHub 仓库——论文点赞往往领先 GitHub 星标好几天 |
 
 ### 智能评分（满分 100 分）
@@ -90,15 +94,15 @@ GitHub Discovery 告诉你什么**即将火起来**——增长曲线异常的�
 |-----------|--------|------------------|
 | **加速度** | 40 | 真实的日环比星标增长（基于每日快照）+ 相对生命周期均值的加速度 |
 | **质量** | 30 | 项目年龄、语言、许可证、内容完整度 |
-| **反垃圾** | 30 | Fork 比例、描述质量 |
-| **代码质量** | +20 | README、CI 配置、提交频率 |
-| **可疑星标** | -15 | 1 天内涨 1000+ 星却没有描述 |
-| **批量刷量** | -40 | 同一作者的多个仓库同时暴涨 |
+| **反垃圾** | 30 | 从 30 分起扣：star/fork 比 > 50、年龄 < 3 天且 5000+ 星、营销买词、外挂/随机用户名特征 |
+| **代码质量** | +20 | README、CI 配置、提交频率——按比例并入 quality 维度，而不是额外叠加 |
+| **可疑星标** | -20 / -15 | 年龄 ≤ 1 天且 1000+ 星（-20）；年龄 ≤ 2 天且 2000+ 星（-15）；日增 1000+ 星且描述为空（-15） |
+| **批量刷量** | 最多 -40 | 同一作者一批里出现 ≥ 3 个仓库（-15）、≥ 2 个仓库上线不足 7 天已过 200 星（-15）、描述高度模板化（-10） |
 
 ### 反垃圾
 
-- **刷星检测**：1 天内涨 1000+ 星且项目年龄不足 1 天 → 标记
-- **批量刷量检测**：同一作者多个仓库同时暴涨 → 标记
+- **刷星检测**：年龄 ≤ 1 天且 1000+ 星、年龄 ≤ 2 天且 2000+ 星，或日增 1000+ 星且描述为空 → 标记
+- **批量刷量检测**：同一作者一批里出现 ≥ 3 个仓库，或 ≥ 2 个上线不足 7 天的仓库已过 200 星 → 标记
 - **内容质量**：没有描述或没有 README → 扣分
 - **跨日去重**：7 天窗口内不重复推荐
 
@@ -119,6 +123,37 @@ GitHub Discovery 告诉你什么**即将火起来**——增长曲线异常的�
 - 现代、专业的网页界面
 - 按日期和语言筛选
 - 实时展示评分
+
+---
+
+## 安装
+
+不需要装任何依赖：流水线只用 Python 标准库，仓库里没有 `requirements.txt`，CI 跑的是 Python 3.11。
+
+```bash
+git clone https://github.com/alloevil/github-discovery.git
+cd github-discovery
+python scripts/main.py   # 跑一次完整流程：采集 → 评分 → 去重 → 写 output/ 和 data/
+```
+
+发邮件日报需要 `RESEND_API_KEY`；采集、评分、站点和 Atom feed 除了 GitHub 自带的 `GITHUB_TOKEN` 之外不需要任何 key。想让它每天自动跑而不是本地手动跑，看下面的「快速开始」。
+
+---
+
+## 什么时候适合用
+
+- 你想在一个库、工具或模型冲到 1 万星**之前**就看到它，而不是之后。
+- 你希望推荐结论可以复查：每条推荐都带着自己的分数，每次运行的输入数据都提交在 `data/` 里。
+- 你不想维护任何基础设施——GitHub Actions 加一个发信用的 API key，没有服务器，没有数据库。
+- 你在意刷出来的热度：星标真实性检查、跨仓库的批量刷量检测、描述/README 质量检查都会扣分。
+
+## 什么时候不要用
+
+- 你想要的是有编辑判断的人工精选。这里只是一个评分函数，偶尔会让一个仅靠加速度的仓库排到前面。
+- 你想按主题或按人订阅。6 个数据源写死在 `scripts/sources.py`，阈值在 `scripts/config.py`；网页只提供事后的日期和语言筛选。
+- 你想要「高分必然长期成功」的证据。仓库里提交的回测只覆盖某个时间点、20 个仓库、7 天窗口——够用来体检评分，不足以证明预测能力。
+- 你需要「一个都不漏」。只有出现在这 6 个数据源里的仓库才会被打分，跨日去重会在推荐后压制该仓库 7 天，而昂贵的逐仓库质量与星标真实性检查只跑粗排后的前 `DEEP_CHECK_TOP_K`（20）个候选。
+- 你希望 AI/ML 轮扫每天都覆盖全部关键词：它每天只用轮换列表里的 5 个词，单日只覆盖其中一部分。
 
 ---
 
@@ -204,14 +239,14 @@ python -m pytest tests/ -v
 
 ### 评分算法
 
-评分逻辑位于 `scripts/scorer.py`，权重可以在 `config.py` 中调整：
+评分逻辑位于 `scripts/scorer.py`，各维度上限是 `scripts/config.py` 里的常量：
 
 ```python
-SCORING_WEIGHTS = {
-    "acceleration": 40,
-    "quality": 30,
-    "antispam": 30,
-}
+ACCELERATION_MAX = 40
+QUALITY_MAX = 30
+ANTISPAM_MAX = 30
+QUALITY_BONUS_MAX = 20   # 深查代码质量加分，按比例并入 quality 维度
+DEEP_CHECK_TOP_K = 20    # 粗排后有多少候选进入昂贵的深度检查
 ```
 
 ---
@@ -224,6 +259,20 @@ JSON 报告（`data/discovery-*.json`），全新 clone 无需任何本地状态
 ```bash
 python scripts/verify_scoring.py --days 30
 ```
+
+---
+
+## 常见问题
+
+**100 分是怎么分配的？** 加速度最多 40 分，衡量基于自己提交的每日快照算出的真实日环比星标增长，加上相对该仓库生命周期均值的加速度；质量最多 30 分（年龄、语言、许可证、内容完整度）；反垃圾从 30 分起扣：star/fork 比超过 50、年龄不足 3 天却已过 5000 星、描述里的营销买词、外挂类或随机数字用户名特征。此外深查代码质量（README、CI 配置、提交频率）提供最多 20 分的加分，按比例并入 quality 维度而不是额外叠加；星标真实性检查扣 15 或 20 分；批量刷量最多扣 40 分。
+
+**需要付费服务吗？** 只有邮件需要。`RESEND_API_KEY` 用于通过 Resend 发送日报；`FIRECRAWL_API_KEY` 是可选的，只是让 GitHub Trending 的解析比正则匹配原始 HTML 更健壮。其余部分都跑在 GitHub Actions 免费额度上，用默认的 `GITHUB_TOKEN` 即可。
+
+**一个仓库火着的时候会天天被推荐吗？** 不会。跨日去重会拦掉过去 7 天内推荐过的仓库，依据是提交在 `data/recommend_history.json` 里的推荐历史，超过 30 天的记录会被清理。这份历史必须是提交进仓库的文件，因为每次 CI 都是全新 checkout，没有任何本地状态。
+
+**网页上的数字可信吗？** 网页是构建产物：`scripts/generate_site.py` 用 `docs/template.html` 加上已提交的报告渲染出 `docs/index.html`，工作流再把整个 `docs/` 发布到 `gh-pages` 分支。真正权威的是提交在 `data/` 下的 JSON 和 `output/` 下的 Markdown 日报——`verify_scoring.py` 读的也是它们，所以网页上的任何结论都能在全新 clone 上重算一遍。
+
+**怎么加一个数据源？** 在 `scripts/sources.py` 里加一个 `fetch_xxx()` 函数，在 `fetch_all()` 里调用它，然后在 `tests/test_sources.py` 补测试。各数据源返回同一种仓库字典结构，所以评分、去重和渲染都不需要改。
 
 ---
 

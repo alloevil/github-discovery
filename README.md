@@ -1,3 +1,7 @@
+# GitHub Discovery
+
+**GitHub Discovery** is a daily GitHub repository discovery pipeline that surfaces projects while they are still accelerating, for developers who want early signal instead of yesterday's popularity.
+
 <p align="center">
   <img src="./assets/hero.svg" width="100%" alt="GitHub Discovery — spot trending repos before they go mainstream. 6 data sources, smart scoring, anti-spam, daily email digest.">
 </p>
@@ -22,7 +26,7 @@
 
 ---
 
-## What it does
+## What it is
 
 GitHub Trending shows you what's popular **today**.
 
@@ -40,10 +44,10 @@ Every day it collects signals from 6 data sources, runs them through a smart sco
   │  Trending   │  │   Search    │  │    News     │
   └──────┬──────┘  └──────┬──────┘  └──────┬──────┘
          │                │                │
-  ┌──────┴──────┐  ┌──────┴──────┐        │
-  │  AI/ML      │  │    Web      │        │
-  │  Trending   │  │   Scrape    │        │
-  └──────┬──────┘  └──────┬──────┘        │
+  ┌──────┴──────┐  ┌──────┴──────┐  ┌──────┴──────┐
+  │   Rising    │  │   AI/ML     │  │  HF Daily   │
+  │  Detection  │  │  Keywords   │  │   Papers    │
+  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘
          │                │                │
          └────────────────┼────────────────┘
                           ▼
@@ -80,8 +84,8 @@ Every day it collects signals from 6 data sources, runs them through a smart sco
 | [GitHub Trending](https://github.com/trending) | Popularity | Daily trending repositories |
 | GitHub Search | New & rising | Repos created in the last 7 days with fast star growth |
 | [Hacker News](https://news.ycombinator.com/) | Community picks | GitHub repos from Show HN posts |
-| Rising Detection | Early signal | Unusual fork growth on new repos (fork-farm ratios excluded) |
-| [AI/ML Trending](https://ossinsight.io/trending/ai) | AI focus | AI/ML repositories with fast growth (daily keyword rotation) |
+| Rising Detection | Early signal | Repos created in the last 3 days carrying unusually high fork counts — forks as an early usage signal |
+| AI/ML Keyword Sweep | AI focus | GitHub Search over an AI/ML keyword list, 5 keywords per day on a rotating schedule (inspired by [OSSInsight trending/ai](https://ossinsight.io/trending/ai), implemented against the GitHub Search API) |
 | [HF Daily Papers](https://huggingface.co/papers) | Research signal | GitHub repos linked from trending Hugging Face papers — paper upvotes lead GitHub stars by days |
 
 ### Smart Scoring (100 points)
@@ -90,15 +94,15 @@ Every day it collects signals from 6 data sources, runs them through a smart sco
 |-----------|--------|------------------|
 | **Acceleration** | 40 | Real day-over-day star growth (from daily snapshots) + acceleration vs lifetime average |
 | **Quality** | 30 | Age, language, license, content completeness |
-| **Anti-spam** | 30 | Fork ratio, description quality |
-| **Code Quality** | +20 | README, CI config, commit frequency |
-| **Suspicious Stars** | -15 | 1000+ stars in 1 day with no description |
-| **Batch Fraud** | -40 | Multiple repos from same owner growing simultaneously |
+| **Anti-spam** | 30 | Starts at 30 and deducts: star/fork ratio > 50, age < 3 days with 5000+ stars, marketing buzzwords, gaming-trainer or random-username patterns |
+| **Code Quality** | +20 | README, CI config, commit frequency — scaled into the quality dimension rather than added on top |
+| **Suspicious Stars** | -20 / -15 | Age ≤ 1 day with 1000+ stars (-20); age ≤ 2 days with 2000+ stars (-15); 1000+ stars/day with an empty description (-15) |
+| **Batch Fraud** | up to -40 | Same owner with ≥ 3 repos in one batch (-15), ≥ 2 repos under 7 days old with 200+ stars (-15), template-similar descriptions (-10) |
 
 ### Anti-spam
 
-- **Star fraud detection**: 1000+ stars in 1 day with age < 1 day → flagged
-- **Batch fraud detection**: Same owner with multiple repos growing at once → flagged
+- **Star fraud detection**: age ≤ 1 day with 1000+ stars, age ≤ 2 days with 2000+ stars, or 1000+ stars/day with an empty description → flagged
+- **Batch fraud detection**: same owner with ≥ 3 repos in one batch, or ≥ 2 repos under 7 days old already past 200 stars → flagged
 - **Content quality**: No description or no README → penalty
 - **Cross-day dedup**: 7-day window, no duplicate recommendations
 
@@ -119,6 +123,37 @@ Every day it collects signals from 6 data sources, runs them through a smart sco
 - Modern, professional web interface
 - Filter by date and language
 - Real-time scoring display
+
+---
+
+## Install
+
+Nothing to install: the pipeline uses the Python standard library only, there is no `requirements.txt`, and CI runs Python 3.11.
+
+```bash
+git clone https://github.com/alloevil/github-discovery.git
+cd github-discovery
+python scripts/main.py   # one full run: collect → score → dedup → write output/ + data/
+```
+
+Sending the email digest needs a `RESEND_API_KEY`. Collection, scoring, the published site and the Atom feed need no key beyond GitHub's own `GITHUB_TOKEN`. To run it as a daily automation rather than locally, follow Quick Start below.
+
+---
+
+## When to use it
+
+- You want to see a library, tool or model in the days before it hits 10k stars, not after.
+- You want the discovery decision to be inspectable: every recommendation carries its score, and every run's input data stays committed under `data/`.
+- You want zero infrastructure — GitHub Actions plus one API key for email. No server, no database.
+- You care about filtering manufactured popularity: star-authenticity checks, cross-repo batch-fraud detection and description/README quality checks all subtract from the score.
+
+## When NOT to use it
+
+- You want editorial judgement. This is a scoring function; it will sometimes rank a repo highly on acceleration alone.
+- You want per-topic or per-user subscriptions. The six sources are fixed in `scripts/sources.py` and the thresholds in `scripts/config.py`; the site filters by date and language only after the fact.
+- You want proof that a high score predicts long-term success. The committed backtest covers a 7-day window over 20 repos at one point in time — enough to sanity-check the score, not enough to establish predictive power.
+- You need every rising repo. Only repos that surface in one of the six sources can be scored, cross-day dedup suppresses a repo for 7 days after it is recommended, and the expensive per-repo quality and star-authenticity checks run only on the top `DEEP_CHECK_TOP_K` (20) candidates after coarse ranking.
+- You want the AI/ML sweep to be exhaustive on a given day: it uses 5 keywords per day out of a rotating list, so one day covers only part of that space.
 
 ---
 
@@ -204,14 +239,14 @@ python -m pytest tests/ -v
 
 ### Scoring Algorithm
 
-Scoring logic is in `scripts/scorer.py`. Weights can be adjusted in `config.py`:
+Scoring logic is in `scripts/scorer.py`. The dimension limits are constants in `scripts/config.py`:
 
 ```python
-SCORING_WEIGHTS = {
-    "acceleration": 40,
-    "quality": 30,
-    "antispam": 30,
-}
+ACCELERATION_MAX = 40
+QUALITY_MAX = 30
+ANTISPAM_MAX = 30
+QUALITY_BONUS_MAX = 20   # deep code-quality bonus, scaled into the quality dimension
+DEEP_CHECK_TOP_K = 20    # how many coarse-ranked candidates get the expensive checks
 ```
 
 ---
@@ -225,6 +260,20 @@ so it works on a fresh clone with no local state:
 ```bash
 python scripts/verify_scoring.py --days 30
 ```
+
+---
+
+## FAQ
+
+**How are the 100 points allocated?** Acceleration is worth up to 40 and measures real day-over-day star growth from the project's own committed snapshots plus acceleration against the repo's lifetime average. Quality is worth up to 30 (age, language, license, content completeness). Anti-spam starts at 30 and deducts for a star/fork ratio above 50, an age under 3 days with 5000+ stars, marketing buzzwords, and gaming-trainer or random-username patterns. A deep code-quality check adds a bonus of up to 20 that is scaled into the quality dimension, star-authenticity checks subtract 15 or 20, and batch fraud subtracts up to 40.
+
+**Do I need any paid service?** Only for email. `RESEND_API_KEY` sends the digest through Resend; `FIRECRAWL_API_KEY` is optional and only makes GitHub Trending parsing more robust than regex-matching raw HTML. Everything else runs on the GitHub Actions free tier with the default `GITHUB_TOKEN`.
+
+**Will the same repo be recommended every day while it is hot?** No. Cross-day dedup blocks any repo recommended in the previous 7 days, using the history committed at `data/recommend_history.json`; records older than 30 days are cleaned up. The history has to be a committed file because every CI run starts from a fresh checkout with no local state.
+
+**Can I trust the numbers on the published page?** The page is a build artifact: `scripts/generate_site.py` renders `docs/index.html` from `docs/template.html` plus the committed reports, and the workflow publishes `docs/` to the `gh-pages` branch. The authoritative copies are the committed JSON under `data/` and the Markdown digests under `output/` — which is also what `verify_scoring.py` reads, so any claim on the page can be recomputed from a fresh clone.
+
+**How do I add a data source?** Add a `fetch_xxx()` function in `scripts/sources.py`, call it from `fetch_all()`, and add tests in `tests/test_sources.py`. Sources return the same repo dict shape, so scoring, dedup and rendering need no changes.
 
 ---
 

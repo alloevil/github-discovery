@@ -1,0 +1,38 @@
+{
+  "project": "github-discovery",
+  "url": "https://alloevil.github.io/github-discovery/",
+  "repository": "https://github.com/alloevil/github-discovery",
+  "updated": "2026-09-08",
+  "claims": [
+    {
+      "id": "backtest-precision-7d",
+      "claim": "In the committed 7-day backtest, 13 of the 20 recommended repositories had gained at least 10% more stars since the day they were recommended.",
+      "value": "13/20",
+      "metric": "share of recommended repositories whose star count grew by at least 10% within the 7-day backtest window, at a score threshold of 90",
+      "method": "scripts/verify_scoring.py reads the committed daily reports in data/discovery-*.json, takes stars_at_discovery from them, compares against the repository's current star count, and counts a repository as taking off at growth_rate >= 0.1",
+      "repro": "python scripts/verify_scoring.py --days 7",
+      "evidence": "https://github.com/alloevil/github-discovery/blob/main/reports/verify-2026-06-25.json",
+      "verified": "2026-06-25"
+    },
+    {
+      "id": "backtest-avg-growth-7d",
+      "claim": "Recommended repositories in that same 7-day window grew 18.71% on average, or 309 stars per day.",
+      "value": "18.71% / 309 stars per day",
+      "metric": "mean star growth rate and mean absolute daily star growth across the 20 repositories in the backtest window",
+      "method": "same run as backtest-precision-7d; reported as avg_growth_rate_all and avg_daily_growth in the metrics block of the report",
+      "repro": "python scripts/verify_scoring.py --days 7",
+      "evidence": "https://github.com/alloevil/github-discovery/blob/main/reports/verify-2026-06-25.json",
+      "verified": "2026-06-25"
+    },
+    {
+      "id": "backtest-recall-not-meaningful",
+      "claim": "The recall and lift figures in that backtest report are not usable as evidence, because every repository in the sample scored at or above the threshold.",
+      "value": "low_score_count: 0",
+      "metric": "size of the below-threshold comparison group in the backtest sample",
+      "method": "the report's own metrics block records high_score_count 20 and low_score_count 0, so recall 1.0 and lift \"inf\" are arithmetic artifacts of an empty comparison group rather than measurements of discrimination",
+      "repro": "python3 -c \"import json;print(json.load(open('reports/verify-2026-06-25.json'))['metrics']['low_score_count'])\"",
+      "evidence": "https://github.com/alloevil/github-discovery/blob/main/reports/verify-2026-06-25.json",
+      "verified": "2026-09-08"
+    }
+  ]
+}
