@@ -1,0 +1,78 @@
+# GitHub Discovery
+
+GitHub Discovery is a daily GitHub repository discovery pipeline that surfaces projects while they are still accelerating, for developers who want early signal instead of yesterday's popularity.
+
+## What it is
+
+GitHub Trending answers "what is popular today", which is the same thing as "what you already missed". GitHub Discovery answers "what is about to be popular": it runs as a GitHub Actions cron job, collects repository candidates from six independent sources, scores each candidate out of 100 on real day-over-day star acceleration, project quality and anti-spam signals, removes anything it already recommended in the previous 7 days, and ships the top 10 to three destinations — a GitHub Pages page, an Atom feed, and an email digest sent through Resend. Every daily run commits its scored output as JSON under `data/`, which is what makes the scoring claims auditable after the fact rather than only at the moment of publication.
+
+## Install
+
+There is no package to install. The project is designed to be forked and run by GitHub Actions, and it uses the Python standard library only — there is no `requirements.txt`, and CI runs Python 3.11.
+
+```bash
+git clone https://github.com/alloevil/github-discovery.git
+cd github-discovery
+```
+
+To run it as an automated daily digest instead of locally:
+
+1. Fork https://github.com/alloevil/github-discovery.
+2. In Settings -> Secrets and variables -> Actions, add `RESEND_API_KEY` (required, sends the email digest). `GITHUB_TOKEN` and `FIRECRAWL_API_KEY` are optional; without Firecrawl the GitHub Trending source falls back to direct HTML scraping.
+3. In the Actions tab, enable workflows.
+4. Actions -> Daily Discovery -> Run workflow for a manual first run.
+
+## Quickstart
+
+```bash
+# one full pipeline run: collect -> score -> dedup -> write output/ + data/ -> email
+python scripts/main.py
+
+# regenerate the site (docs/index.html) and the Atom feed from committed reports
+python scripts/generate_site.py
+
+# backtest the scoring against the committed daily reports
+python scripts/verify_scoring.py --days 30
+
+# unit tests
+pip install pytest
+python -m pytest tests/ -v
+```
+
+## Verifiable claims
+
+- **13 of 20 recommended repositories kept growing.** In the committed backtest report `reports/verify-2026-06-25.json` (7-day window, generated 2026-06-25), 13 of the 20 recommended repositories had gained at least 10% more stars since the day they were recommended. That is a precision of 0.65 at a score threshold of 90 and a growth threshold of 10%. Repro: `python scripts/verify_scoring.py --days 7`. Evidence: https://github.com/alloevil/github-discovery/blob/main/reports/verify-2026-06-25.json
+- **Average star growth in that window was 18.71%, or 309 stars/day.** Same report, fields `avg_growth_rate_all` (0.1871) and `avg_daily_growth` (309.0). The best performer was `bozhouDev/codex-orange-book` (887 -> 1703 stars, +92%); the worst was `NousResearch/hermes-agent` (+0.18%, already at 202k stars) — which is the honest limit of the score: a very large repository can score 96 and still barely move in relative terms.
+- **Honest caveat on the same report: its recall and lift figures are not meaningful.** Every one of the 20 repositories in that sample scored at or above the 90 threshold (`low_score_count: 0`), so the reported `recall: 1.0` and `lift: "inf"` are artifacts of having no low-score comparison group, not evidence of discrimination. Only the precision figure should be cited.
+- **The backtest runs from a fresh clone.** `verify_scoring.py` reads the committed `data/discovery-*.json` reports rather than local state, so anyone can recompute the numbers above without API keys or a prior run. Evidence: https://github.com/alloevil/github-discovery/tree/main/data
+
+## When to use it
+
+- You want to find libraries, tools or models in the days before they hit 10k stars, not after.
+- You want the discovery decision to be inspectable: each recommendation carries its score, and every run's input data stays committed.
+- You want a zero-infrastructure setup — GitHub Actions plus one API key for email, no server, no database.
+- You care about filtering out manufactured popularity: star-authenticity checks, batch-fraud detection across an owner's repositories, and description/README quality checks all subtract from the score.
+
+## When NOT to use it
+
+- You want a curated newsletter with editorial judgement. This is a scoring function; it will occasionally rank a repository highly on acceleration alone.
+- You want per-topic or per-user subscriptions. The six sources are fixed in `scripts/sources.py` and the thresholds in `scripts/config.py`; the published site offers language and date filtering only after the fact.
+- You want proof that a high score predicts long-term success. The committed backtest covers a 7-day window over 20 repositories at one point in time — enough to sanity-check the score, not enough to establish predictive power.
+- You need it to catch every rising repository. Only repositories that surface in one of the six sources can be scored, cross-day dedup deliberately suppresses a repository for 7 days after it is recommended, and the expensive per-repository quality and star-authenticity checks run only on the top 20 candidates after coarse ranking (`DEEP_CHECK_TOP_K`).
+- You want the AI/ML sweep to be exhaustive on any given day: it uses 5 keywords per day out of a fixed rotating list, so a single day covers only part of that space.
+
+## Compared to GitHub Trending
+
+GitHub Trending is the alternative the repository explicitly positions against, and the difference is mechanical rather than rhetorical. Trending ranks by same-day star volume, so a repository appears once it is already large, and it has no notion of manufactured growth. GitHub Discovery ranks by day-over-day star acceleration computed from its own committed snapshots, adds five inputs Trending does not have (GitHub Search over repositories created in the last 7 days, Hacker News Show HN, a fork-growth pass over repositories created in the last 3 days, a rotating AI/ML keyword sweep over GitHub Search, and Hugging Face Daily Papers, whose paper upvotes tend to lead GitHub stars by several days), and subtracts points for spam patterns — a repository at most one day old with more than 1000 stars loses 20 points, more than 1000 stars/day with an empty description loses 15, and several repositories from the same owner rising together lose up to 40. It also consumes Trending as one of its six inputs, so it is a filter layered on top of Trending rather than a replacement for it. No claim is made about any other discovery service; none are evaluated in the repository.
+
+## FAQ
+
+**How are the 100 points allocated?** Acceleration is worth up to 40 points and measures real day-over-day star growth from the project's own committed daily snapshots plus acceleration against the repository's lifetime average; quality is worth up to 30 and covers age, language, license and content completeness; anti-spam starts at 30 and deducts for a star/fork ratio above 50 (-10), an age under 3 days with more than 5000 stars (-15), marketing buzzwords in the description (-5 or -10) and gaming-trainer or random-username patterns (-10 or -5). On top of that, a deep code-quality check (README, CI config, commit frequency) contributes a bonus of up to 20 points that is scaled into the quality dimension rather than added on top, star-authenticity checks subtract 15 or 20 depending on which pattern matched, and batch fraud across one owner's repositories subtracts up to 40. The limits are constants in `scripts/config.py` — `ACCELERATION_MAX`, `QUALITY_MAX`, `ANTISPAM_MAX`, `QUALITY_BONUS_MAX` — and the scoring itself lives in `scripts/scorer.py`.
+
+**What are the six data sources, exactly?** GitHub Trending (daily); GitHub Search for repositories created in the last 7 days with fast star growth; Hacker News Show HN posts that link to GitHub; a rising-detection pass over repositories created in the last 3 days with unusually high fork counts, as an early usage signal; an AI/ML keyword sweep over GitHub Search that uses 5 keywords per day from a rotating list (inspired by OSSInsight's trending/ai page, but implemented against the GitHub Search API, not against OSSInsight); and Hugging Face Daily Papers, where the linked GitHub repository of a trending paper is the candidate. They correspond one-to-one to `fetch_trending`, `fetch_search`, `fetch_hn`, `fetch_rising`, `fetch_ai_trending` and `fetch_hf_papers` in `scripts/sources.py`.
+
+**Do I need any paid service to run it?** Only for email. `RESEND_API_KEY` is required to send the digest through Resend; `FIRECRAWL_API_KEY` is optional and only makes GitHub Trending parsing more robust than regex-matching raw HTML. Everything else — collection, scoring, the published site, the Atom feed and the backtest — runs on the GitHub Actions free tier using the standard library and the default `GITHUB_TOKEN`.
+
+**Will the same repository be recommended every day while it is hot?** No. Cross-day deduplication blocks any repository recommended in the previous 7 days, using the recommendation history committed at `data/recommend_history.json`, and records older than 30 days are cleaned up. The window is the `days` argument of `is_recently_recommended` in `scripts/dedup.py`, and the history has to be a committed file because each CI run starts from a fresh checkout with no local state.
+
+**Where does the published site come from, and can I trust a page I am reading?** `scripts/generate_site.py` renders `docs/index.html` from `docs/template.html` plus the committed daily reports, and the daily workflow then publishes the whole `docs/` directory to the `gh-pages` branch. The page is therefore a build artifact: the authoritative copies are the committed JSON files under `data/` and the Markdown digests under `output/`, which are what both the site and the backtest are generated from.
