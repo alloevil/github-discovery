@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-08T18:00:00Z</updated>
+  <updated>2026-09-09T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>jo-inc/camofox-browser — Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.</title>
+    <id>https://github.com/jo-inc/camofox-browser#2026-09-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/jo-inc/camofox-browser"/>
+    <updated>2026-09-09T18:00:00Z</updated>
+    <published>2026-09-09T18:00:00Z</published>
+    <summary>Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.
+
+Why: +687/day · Trending · 14.6x accelerating
+Score: 100/100 | Language: JavaScript | ⭐ 10557 (+687.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>mksglu/context-mode — Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.</title>
+    <id>https://github.com/mksglu/context-mode#2026-09-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mksglu/context-mode"/>
+    <updated>2026-09-09T18:00:00Z</updated>
+    <published>2026-09-09T18:00:00Z</published>
+    <summary>Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.
+
+Why: +470/day · Trending · 4.3x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 21433 (+470.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>MoonTechLab/LunaTV — 本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源</title>
+    <id>https://github.com/MoonTechLab/LunaTV#2026-09-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/MoonTechLab/LunaTV"/>
+    <updated>2026-09-09T18:00:00Z</updated>
+    <published>2026-09-09T18:00:00Z</published>
+    <summary>本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源
+
+Why: +355/day · Trending · 13.6x accelerating
+Score: 98/100 | Language: TypeScript | ⭐ 10214 (+355.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>openai/NavierStokesAndEuler — Lean certificates accompanying Navier-Stokes and Euler results</title>
+    <id>https://github.com/openai/NavierStokesAndEuler#2026-09-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/openai/NavierStokesAndEuler"/>
+    <updated>2026-09-09T18:00:00Z</updated>
+    <published>2026-09-09T18:00:00Z</published>
+    <summary>Lean certificates accompanying Navier-Stokes and Euler results
+
+Why: +925/day · Search
+Score: 96/100 | Language: Lean | ⭐ 925 (+925.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>henryzawadzki6542/cloudflare-turnstile-bypass — Work with Cloudflare Turnstile in Python: find the sitekey, get a valid cf-turnstile-response token in seconds. Dependency-free library + CLI, built for CI and automation.</title>
+    <id>https://github.com/henryzawadzki6542/cloudflare-turnstile-bypass#2026-09-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/henryzawadzki6542/cloudflare-turnstile-bypass"/>
+    <updated>2026-09-09T18:00:00Z</updated>
+    <published>2026-09-09T18:00:00Z</published>
+    <summary>Work with Cloudflare Turnstile in Python: find the sitekey, get a valid cf-turnstile-response token in seconds. Dependency-free library + CLI, built for CI and automation.
+
+Why: +367/day · Search
+Score: 95/100 | Language: Python | ⭐ 367 (+367.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>affaan-m/ECC — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</title>
+    <id>https://github.com/affaan-m/ECC#2026-09-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/affaan-m/ECC"/>
+    <updated>2026-09-09T18:00:00Z</updated>
+    <published>2026-09-09T18:00:00Z</published>
+    <summary>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+
+Why: +1350/day · Trending
+Score: 91/100 | Language: JavaScript | ⭐ 254369 (+1350.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>The-Swarm-Corporation/AutoHedge — Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.</title>
     <id>https://github.com/The-Swarm-Corporation/AutoHedge#2026-09-08</id>
@@ -877,82 +943,5 @@ Score: 89/100 | Language: TypeScript | ⭐ 87214 (+287.9/day) | Source: trending
 
 Why: +300/day · Trending
 Score: 88/100 | Language: Python | ⭐ 52013 (+299.8/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>MadsLorentzen/ai-job-search — The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.</title>
-    <id>https://github.com/MadsLorentzen/ai-job-search#2026-08-26</id>
-    <link rel="alternate" type="text/html" href="https://github.com/MadsLorentzen/ai-job-search"/>
-    <updated>2026-08-26T18:00:00Z</updated>
-    <published>2026-08-26T18:00:00Z</published>
-    <summary>The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.
-
-Why: +1255/day · Trending · 5.6x accelerating
-Score: 100/100 | Language: Python | ⭐ 35544 (+1255.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>AgriciDaniel/claude-obsidian — Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.</title>
-    <id>https://github.com/AgriciDaniel/claude-obsidian#2026-08-26</id>
-    <link rel="alternate" type="text/html" href="https://github.com/AgriciDaniel/claude-obsidian"/>
-    <updated>2026-08-26T18:00:00Z</updated>
-    <published>2026-08-26T18:00:00Z</published>
-    <summary>Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.
-
-Why: +828/day · Trending · 9.0x accelerating
-Score: 100/100 | Language: Python | ⭐ 12888 (+828.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>rohitg00/ai-engineering-from-scratch — Learn it. Build it. Ship it for others.</title>
-    <id>https://github.com/rohitg00/ai-engineering-from-scratch#2026-08-26</id>
-    <link rel="alternate" type="text/html" href="https://github.com/rohitg00/ai-engineering-from-scratch"/>
-    <updated>2026-08-26T18:00:00Z</updated>
-    <published>2026-08-26T18:00:00Z</published>
-    <summary>Learn it. Build it. Ship it for others.
-
-Why: +790/day · Trending · 2.6x accelerating
-Score: 98/100 | Language: Python | ⭐ 49189 (+790.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>ApodexAI/FrontierAgent — 🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.</title>
-    <id>https://github.com/ApodexAI/FrontierAgent#2026-08-26</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ApodexAI/FrontierAgent"/>
-    <updated>2026-08-26T18:00:00Z</updated>
-    <published>2026-08-26T18:00:00Z</published>
-    <summary>🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.
-
-Why: +408/day · Search+HF Papers · 2.3x accelerating
-Score: 96/100 | Language: Python | ⭐ 695 (+408.0/day) | Source: search + hf-papers</summary>
-  </entry>
-  <entry>
-    <title>bryllim/workout-guide — 302 open exercise illustrations and a framework-neutral npm package by Bryl Lim</title>
-    <id>https://github.com/bryllim/workout-guide#2026-08-26</id>
-    <link rel="alternate" type="text/html" href="https://github.com/bryllim/workout-guide"/>
-    <updated>2026-08-26T18:00:00Z</updated>
-    <published>2026-08-26T18:00:00Z</published>
-    <summary>302 open exercise illustrations and a framework-neutral npm package by Bryl Lim
-
-Why: +282/day · Search
-Score: 93/100 | Language: Astro | ⭐ 563 (+281.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>basecamp/omarchy — Beautiful, Modern &amp; Opinionated Linux</title>
-    <id>https://github.com/basecamp/omarchy#2026-08-26</id>
-    <link rel="alternate" type="text/html" href="https://github.com/basecamp/omarchy"/>
-    <updated>2026-08-26T18:00:00Z</updated>
-    <published>2026-08-26T18:00:00Z</published>
-    <summary>Beautiful, Modern &amp; Opinionated Linux
-
-Why: +1078/day · Trending · 15.4x accelerating
-Score: 100/100 | Language: Shell | ⭐ 31448 (+1078.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>TauricResearch/TradingAgents — TradingAgents: Multi-Agents LLM Financial Trading Framework</title>
-    <id>https://github.com/TauricResearch/TradingAgents#2026-08-26</id>
-    <link rel="alternate" type="text/html" href="https://github.com/TauricResearch/TradingAgents"/>
-    <updated>2026-08-26T18:00:00Z</updated>
-    <published>2026-08-26T18:00:00Z</published>
-    <summary>TradingAgents: Multi-Agents LLM Financial Trading Framework
-
-Why: +204/day · Trending
-Score: 87/100 | Language: Python | ⭐ 100413 (+204.2/day) | Source: trending</summary>
   </entry>
 </feed>
