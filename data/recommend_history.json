@@ -31,14 +31,15 @@
       "last_recommended": "2026-08-28T16:56:44.805618+00:00"
     },
     "affaan-m/ECC": {
-      "count": 4,
+      "count": 5,
       "scores": [
         100,
         100,
         90,
-        88
+        88,
+        91
       ],
-      "last_recommended": "2026-09-01T09:37:04.007810+00:00"
+      "last_recommended": "2026-09-09T02:38:27.977791+00:00"
     },
     "mattpocock/skills": {
       "count": 6,
@@ -176,69 +177,6 @@
         91
       ],
       "last_recommended": "2026-08-25T05:17:47.070242+00:00"
-    },
-    "google/skills": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-09T05:35:24.566192+00:00"
-    },
-    "denoland/celld": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-09T05:35:24.568973+00:00"
-    },
-    "oil-oil/oil-motion": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-09T05:35:24.571716+00:00"
-    },
-    "ShawnPana/phone-harness": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-09T05:35:24.574528+00:00"
-    },
-    "Appllama/top-welcome-screens": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-09T05:35:24.577358+00:00"
-    },
-    "paoloanzn/pi-black": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-09T05:35:24.580260+00:00"
-    },
-    "Wyzer-Lang/wyzer": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-09T05:35:24.583106+00:00"
-    },
-    "Flaminis/Dalaran": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-09T05:35:24.585892+00:00"
-    },
-    "LadybirdBrowser/ladybird": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-09T05:35:24.588666+00:00"
     },
     "pranshuparmar/witr": {
       "count": 1,
@@ -2350,7 +2288,77 @@
         87
       ],
       "last_recommended": "2026-09-08T04:03:35.506704+00:00"
+    },
+    "jo-inc/camofox-browser": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-09T02:38:27.956036+00:00"
+    },
+    "mksglu/context-mode": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-09T02:38:27.958430+00:00"
+    },
+    "MoonTechLab/LunaTV": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-09-09T02:38:27.960624+00:00"
+    },
+    "openai/NavierStokesAndEuler": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-09T02:38:27.962742+00:00"
+    },
+    "henryzawadzki6542/cloudflare-turnstile-bypass": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-09T02:38:27.964899+00:00"
+    },
+    "gazijarin/itsgiving": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-09-09T02:38:27.967072+00:00"
+    },
+    "Sophomoresty/turnstile-bypass": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-09-09T02:38:27.969219+00:00"
+    },
+    "noskillish/bankmcp": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-09T02:38:27.971372+00:00"
+    },
+    "LBEILC/RhineLabUI": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-09T02:38:27.973482+00:00"
+    },
+    "ScottStevenson/SuperAstra": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-09T02:38:27.975628+00:00"
     }
   },
-  "updated_at": "2026-09-08T04:03:35.506729+00:00"
+  "updated_at": "2026-09-09T02:38:27.977826+00:00"
 }
