@@ -3,12 +3,100 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-09T18:00:00Z</updated>
+  <updated>2026-09-10T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>ayghri/i-have-adhd — A skill to stop your coding agent from burying the answer. ADHD-friendly output.</title>
+    <id>https://github.com/ayghri/i-have-adhd#2026-09-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ayghri/i-have-adhd"/>
+    <updated>2026-09-10T18:00:00Z</updated>
+    <published>2026-09-10T18:00:00Z</published>
+    <summary>A skill to stop your coding agent from burying the answer. ADHD-friendly output.
+
+Why: +5247/day · Trending · 17.3x accelerating
+Score: 100/100 | Language: Python | ⭐ 36063 (+5247.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>pascalorg/editor — Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.</title>
+    <id>https://github.com/pascalorg/editor#2026-09-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/pascalorg/editor"/>
+    <updated>2026-09-10T18:00:00Z</updated>
+    <published>2026-09-10T18:00:00Z</published>
+    <summary>Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.
+
+Why: +384/day · Trending · 5.4x accelerating
+Score: 99/100 | Language: TypeScript | ⭐ 23176 (+384.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Vincentwei1021/anything2explainer — Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.</title>
+    <id>https://github.com/Vincentwei1021/anything2explainer#2026-09-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Vincentwei1021/anything2explainer"/>
+    <updated>2026-09-10T18:00:00Z</updated>
+    <published>2026-09-10T18:00:00Z</published>
+    <summary>Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.
+
+Why: +441/day · Search
+Score: 95/100 | Language: TypeScript | ⭐ 441 (+441.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>Edge0-AI/Edge0 — No description</title>
+    <id>https://github.com/Edge0-AI/Edge0#2026-09-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Edge0-AI/Edge0"/>
+    <updated>2026-09-10T18:00:00Z</updated>
+    <published>2026-09-10T18:00:00Z</published>
+    <summary>No description
+
+Why: +381/day · Search
+Score: 95/100 | Language: Python | ⭐ 381 (+381.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>AI-FanGe/Microduck-build-tutorial — A practical hardware and software setup for a compact RL-powered biped robot.</title>
+    <id>https://github.com/AI-FanGe/Microduck-build-tutorial#2026-09-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/AI-FanGe/Microduck-build-tutorial"/>
+    <updated>2026-09-10T18:00:00Z</updated>
+    <published>2026-09-10T18:00:00Z</published>
+    <summary>A practical hardware and software setup for a compact RL-powered biped robot.
+
+Why: +284/day · Search · 2.3x accelerating
+Score: 94/100 | Language: Python | ⭐ 611 (+284.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>freestylefly/awesome-gpt-image-2 — Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。</title>
+    <id>https://github.com/freestylefly/awesome-gpt-image-2#2026-09-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/freestylefly/awesome-gpt-image-2"/>
+    <updated>2026-09-10T18:00:00Z</updated>
+    <published>2026-09-10T18:00:00Z</published>
+    <summary>Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。
+
+Why: +484/day · Trending · 2.2x accelerating
+Score: 96/100 | Language: JavaScript | ⭐ 30483 (+484.4/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>TauricResearch/TradingAgents — TradingAgents: Multi-Agents LLM Financial Trading Framework</title>
+    <id>https://github.com/TauricResearch/TradingAgents#2026-09-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/TauricResearch/TradingAgents"/>
+    <updated>2026-09-10T18:00:00Z</updated>
+    <published>2026-09-10T18:00:00Z</published>
+    <summary>TradingAgents: Multi-Agents LLM Financial Trading Framework
+
+Why: +238/day · Trending
+Score: 89/100 | Language: Python | ⭐ 104310 (+238.4/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>rohitg00/ai-engineering-from-scratch — Learn it. Build it. Ship it for others.</title>
+    <id>https://github.com/rohitg00/ai-engineering-from-scratch#2026-09-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/rohitg00/ai-engineering-from-scratch"/>
+    <updated>2026-09-10T18:00:00Z</updated>
+    <published>2026-09-10T18:00:00Z</published>
+    <summary>Learn it. Build it. Ship it for others.
+
+Why: +267/day · Trending
+Score: 87/100 | Language: Python | ⭐ 53981 (+267.2/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>jo-inc/camofox-browser — Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.</title>
     <id>https://github.com/jo-inc/camofox-browser#2026-09-09</id>
@@ -866,82 +954,5 @@ Score: 74/100 | Language: TypeScript | ⭐ 49914 (+142.2/day) | Source: trending
 
 Why: +31/day · Trending · 2.4x accelerating
 Score: 74/100 | Language: Python | ⭐ 13261 (+30.7/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>anthropics/claude-plugins-official — Official, Anthropic-managed directory of high quality Claude Code Plugins.</title>
-    <id>https://github.com/anthropics/claude-plugins-official#2026-08-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-plugins-official"/>
-    <updated>2026-08-27T18:00:00Z</updated>
-    <published>2026-08-27T18:00:00Z</published>
-    <summary>Official, Anthropic-managed directory of high quality Claude Code Plugins.
-
-Why: +410/day · Trending · 3.3x accelerating
-Score: 99/100 | Language: Python | ⭐ 34559 (+410.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>marin-community/marin — Open-source framework for the research and development of foundation models.</title>
-    <id>https://github.com/marin-community/marin#2026-08-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/marin-community/marin"/>
-    <updated>2026-08-27T18:00:00Z</updated>
-    <published>2026-08-27T18:00:00Z</published>
-    <summary>Open-source framework for the research and development of foundation models.
-
-Why: +416/day · Trending · 140.6x accelerating
-Score: 99/100 | Language: Python | ⭐ 2628 (+416.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Tencent/WeMM-Embedding — WeMM-Embedding is a family of universal multimodal embedding models by the WeChat Vision Team at Tencent, supporting multimodal understanding and retrieval.</title>
-    <id>https://github.com/Tencent/WeMM-Embedding#2026-08-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Tencent/WeMM-Embedding"/>
-    <updated>2026-08-27T18:00:00Z</updated>
-    <published>2026-08-27T18:00:00Z</published>
-    <summary>WeMM-Embedding is a family of universal multimodal embedding models by the WeChat Vision Team at Tencent, supporting multimodal understanding and retrieval.
-
-Why: +384/day · Search+HF Papers · 1.8x accelerating
-Score: 93/100 | Language: Python | ⭐ 430 (+384.0/day) | Source: search + hf-papers</summary>
-  </entry>
-  <entry>
-    <title>gtlhuyidan-sketch/life-ipo — 人生 IPO：统一财务、健康、知识、人脉、AI 决策与团队执行的个人数据操作系统。</title>
-    <id>https://github.com/gtlhuyidan-sketch/life-ipo#2026-08-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/gtlhuyidan-sketch/life-ipo"/>
-    <updated>2026-08-27T18:00:00Z</updated>
-    <published>2026-08-27T18:00:00Z</published>
-    <summary>人生 IPO：统一财务、健康、知识、人脉、AI 决策与团队执行的个人数据操作系统。
-
-Why: +136/day · Search
-Score: 90/100 | Language: TypeScript | ⭐ 273 (+136.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>DietrichGebert/ponytail — Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</title>
-    <id>https://github.com/DietrichGebert/ponytail#2026-08-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/DietrichGebert/ponytail"/>
-    <updated>2026-08-27T18:00:00Z</updated>
-    <published>2026-08-27T18:00:00Z</published>
-    <summary>Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
-
-Why: +2310/day · Trending · 1.5x accelerating
-Score: 88/100 | Language: JavaScript | ⭐ 113642 (+2310.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>OpenCut-app/OpenCut — The open-source CapCut alternative</title>
-    <id>https://github.com/OpenCut-app/OpenCut#2026-08-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/OpenCut-app/OpenCut"/>
-    <updated>2026-08-27T18:00:00Z</updated>
-    <published>2026-08-27T18:00:00Z</published>
-    <summary>The open-source CapCut alternative
-
-Why: +288/day · Trending
-Score: 89/100 | Language: TypeScript | ⭐ 87214 (+287.9/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>calesthio/OpenMontage — World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.</title>
-    <id>https://github.com/calesthio/OpenMontage#2026-08-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/calesthio/OpenMontage"/>
-    <updated>2026-08-27T18:00:00Z</updated>
-    <published>2026-08-27T18:00:00Z</published>
-    <summary>World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.
-
-Why: +300/day · Trending
-Score: 88/100 | Language: Python | ⭐ 52013 (+299.8/day) | Source: trending</summary>
   </entry>
 </feed>

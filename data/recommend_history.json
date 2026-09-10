@@ -1,14 +1,5 @@
 {
   "repos": {
-    "msitarzewski/agency-agents": {
-      "count": 3,
-      "scores": [
-        100,
-        100,
-        100
-      ],
-      "last_recommended": "2026-08-10T06:03:18.366876+00:00"
-    },
     "obra/superpowers": {
       "count": 6,
       "scores": [
@@ -53,15 +44,6 @@
       ],
       "last_recommended": "2026-09-03T09:12:32.924122+00:00"
     },
-    "ruvnet/RuView": {
-      "count": 3,
-      "scores": [
-        100,
-        100,
-        99
-      ],
-      "last_recommended": "2026-08-11T05:42:32.688631+00:00"
-    },
     "addyosmani/agent-skills": {
       "count": 3,
       "scores": [
@@ -70,15 +52,6 @@
         87
       ],
       "last_recommended": "2026-08-30T10:08:35.730840+00:00"
-    },
-    "pingdotgg/t3code": {
-      "count": 3,
-      "scores": [
-        100,
-        100,
-        67
-      ],
-      "last_recommended": "2026-08-10T06:03:18.368849+00:00"
     },
     "HKUDS/DeepTutor": {
       "count": 2,
@@ -121,14 +94,6 @@
         72
       ],
       "last_recommended": "2026-08-15T05:03:12.205560+00:00"
-    },
-    "NanmiCoder/MediaCrawler": {
-      "count": 2,
-      "scores": [
-        100,
-        69
-      ],
-      "last_recommended": "2026-08-11T05:42:32.691728+00:00"
     },
     "virgiliojr94/book-to-skill": {
       "count": 2,
@@ -178,83 +143,6 @@
       ],
       "last_recommended": "2026-08-25T05:17:47.070242+00:00"
     },
-    "pranshuparmar/witr": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-10T06:03:18.335514+00:00"
-    },
-    "MengTo/kage": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-10T06:03:18.338972+00:00"
-    },
-    "sv-number/mcp-server": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-10T06:03:18.342168+00:00"
-    },
-    "SaladDay/pi-from-scratch": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-10T06:03:18.345355+00:00"
-    },
-    "MengMengCode/VoCat": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-10T06:03:18.348529+00:00"
-    },
-    "kogecodaviw9225/UNISWAP-ARBITRAGE-BOT": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-10T06:03:18.351516+00:00"
-    },
-    "ZhuLinsen/daily_stock_analysis": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-10T06:03:18.354643+00:00"
-    },
-    "NikoDemon80/ComfyUI-H3-Motion-Context": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-10T06:03:18.358946+00:00"
-    },
-    "tanishqkancharla/calldiff": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-10T06:03:18.361891+00:00"
-    },
-    "Samin100/codex-ios-assistant": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-10T06:03:18.364915+00:00"
-    },
-    "semantica-agi/semantica": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-11T05:42:32.652639+00:00"
-    },
     "Comfy-Org/ComfyUI": {
       "count": 2,
       "scores": [
@@ -263,62 +151,14 @@
       ],
       "last_recommended": "2026-08-24T05:25:39.187309+00:00"
     },
-    "antirez/h3.c": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-11T05:42:32.659805+00:00"
-    },
     "TauricResearch/TradingAgents": {
-      "count": 2,
+      "count": 3,
       "scores": [
         100,
-        87
+        87,
+        89
       ],
-      "last_recommended": "2026-08-26T05:16:54.015734+00:00"
-    },
-    "vitali87/code-graph-rag": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-11T05:42:32.667071+00:00"
-    },
-    "google-deepmind/weathernext": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-11T05:42:32.670521+00:00"
-    },
-    "MkThingsHQ/mkdirs": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-11T05:42:32.674638+00:00"
-    },
-    "paperclipai/paperclip": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-11T05:42:32.678353+00:00"
-    },
-    "UditAkhourii/neuroarxiv": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-11T05:42:32.681753+00:00"
-    },
-    "amiralibg/unstream": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-11T05:42:32.685539+00:00"
+      "last_recommended": "2026-09-10T09:12:26.868049+00:00"
     },
     "sohaibdevv/youtube-music": {
       "count": 1,
@@ -1246,11 +1086,12 @@
       "last_recommended": "2026-08-25T05:17:47.053606+00:00"
     },
     "freestylefly/awesome-gpt-image-2": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        96
       ],
-      "last_recommended": "2026-08-25T05:17:47.055516+00:00"
+      "last_recommended": "2026-09-10T09:12:26.866015+00:00"
     },
     "anthropics/claude-plugins-community": {
       "count": 1,
@@ -1323,11 +1164,12 @@
       "last_recommended": "2026-08-26T05:16:53.995278+00:00"
     },
     "rohitg00/ai-engineering-from-scratch": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        98
+        98,
+        87
       ],
-      "last_recommended": "2026-08-26T05:16:53.997314+00:00"
+      "last_recommended": "2026-09-10T09:12:26.870145+00:00"
     },
     "ApodexAI/FrontierAgent": {
       "count": 1,
@@ -2358,7 +2200,77 @@
         89
       ],
       "last_recommended": "2026-09-09T02:38:27.975628+00:00"
+    },
+    "ayghri/i-have-adhd": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-10T09:12:26.845194+00:00"
+    },
+    "pascalorg/editor": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-09-10T09:12:26.847432+00:00"
+    },
+    "Vincentwei1021/anything2explainer": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-10T09:12:26.849487+00:00"
+    },
+    "Edge0-AI/Edge0": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-10T09:12:26.851479+00:00"
+    },
+    "AI-FanGe/Microduck-build-tutorial": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-09-10T09:12:26.853568+00:00"
+    },
+    "OpenWAM-Official/OpenWAM": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-09-10T09:12:26.855757+00:00"
+    },
+    "achimala/dream-loop": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-09-10T09:12:26.857830+00:00"
+    },
+    "openai/plugins": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-10T09:12:26.859880+00:00"
+    },
+    "Colafornia/short-video-generator-AI": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-10T09:12:26.861908+00:00"
+    },
+    "com-phantom/Phantom-Wallet-Desktop": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-10T09:12:26.863946+00:00"
     }
   },
-  "updated_at": "2026-09-09T02:38:27.977826+00:00"
+  "updated_at": "2026-09-10T09:12:26.870174+00:00"
 }

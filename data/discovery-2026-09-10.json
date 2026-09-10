@@ -1,0 +1,372 @@
+{
+ "date": "2026-09-10",
+ "generated_at": "2026-09-10T09:12:27.107377",
+ "new": [
+  {
+   "full_name": "ayghri/i-have-adhd",
+   "url": "https://github.com/ayghri/i-have-adhd",
+   "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+   "language": "Python",
+   "stars": 36063,
+   "forks": 2096,
+   "age_days": 119,
+   "daily_stars": 303.0504201680672,
+   "real_daily_stars": 5247.0,
+   "watchers": 122,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "pascalorg/editor",
+   "url": "https://github.com/pascalorg/editor",
+   "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
+   "language": "TypeScript",
+   "stars": 23176,
+   "forks": 2911,
+   "age_days": 328,
+   "daily_stars": 70.65853658536585,
+   "real_daily_stars": 384.0,
+   "watchers": 121,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Vincentwei1021/anything2explainer",
+   "url": "https://github.com/Vincentwei1021/anything2explainer",
+   "description": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.",
+   "language": "TypeScript",
+   "stars": 441,
+   "forks": 86,
+   "age_days": 1,
+   "daily_stars": 441.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "Edge0-AI/Edge0",
+   "url": "https://github.com/Edge0-AI/Edge0",
+   "description": "",
+   "language": "Python",
+   "stars": 381,
+   "forks": 22,
+   "age_days": 1,
+   "daily_stars": 381.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "AI-FanGe/Microduck-build-tutorial",
+   "url": "https://github.com/AI-FanGe/Microduck-build-tutorial",
+   "description": "A practical hardware and software setup for a compact RL-powered biped robot.",
+   "language": "Python",
+   "stars": 611,
+   "forks": 160,
+   "age_days": 5,
+   "daily_stars": 122.2,
+   "real_daily_stars": 284.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "OpenWAM-Official/OpenWAM",
+   "url": "https://github.com/OpenWAM-Official/OpenWAM",
+   "description": "Official repository for \"OpenWAM: An Open, Modular Exploration Towards Systematic World–Action Model Pretraining\".",
+   "language": "Python",
+   "stars": 466,
+   "forks": 17,
+   "age_days": 4,
+   "daily_stars": 116.5,
+   "real_daily_stars": 271.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "hf-papers"
+   ],
+   "license": "Apache-2.0",
+   "hf_title": "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining",
+   "hf_upvotes": 58,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "achimala/dream-loop",
+   "url": "https://github.com/achimala/dream-loop",
+   "description": "Agent skill for impressive 3D visuals using Blender + image gen + subagent critic",
+   "language": "JavaScript",
+   "stars": 563,
+   "forks": 72,
+   "age_days": 2,
+   "daily_stars": 281.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "openai/plugins",
+   "url": "https://github.com/openai/plugins",
+   "description": "OpenAI Plugins",
+   "language": "JavaScript",
+   "stars": 6321,
+   "forks": 834,
+   "age_days": 189,
+   "daily_stars": 33.44444444444444,
+   "real_daily_stars": 486.0,
+   "watchers": 73,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 90,
+    "acceleration": 40,
+    "quality": 20,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "Colafornia/short-video-generator-AI",
+   "url": "https://github.com/Colafornia/short-video-generator-AI",
+   "description": "Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content.",
+   "language": "Python",
+   "stars": 150,
+   "forks": 60,
+   "age_days": 1,
+   "daily_stars": 150.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "com-phantom/Phantom-Wallet-Desktop",
+   "url": "https://github.com/com-phantom/Phantom-Wallet-Desktop",
+   "description": "Phantom Wallet Desktop app for Windows, macOS and Linux. A lightweight desktop client that brings Phantom crypto wallet experience outside the browser with native desktop access.",
+   "language": "HTML",
+   "stars": 511,
+   "forks": 31,
+   "age_days": 1,
+   "daily_stars": 511.0,
+   "real_daily_stars": 433.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "freestylefly/awesome-gpt-image-2",
+   "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+   "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
+   "language": "JavaScript",
+   "stars": 30483,
+   "forks": 2950,
+   "age_days": 137,
+   "daily_stars": 222.5036496350365,
+   "real_daily_stars": 484.4166666666667,
+   "watchers": 125,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "TauricResearch/TradingAgents",
+   "url": "https://github.com/TauricResearch/TradingAgents",
+   "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+   "language": "Python",
+   "stars": 104310,
+   "forks": 20002,
+   "age_days": 621,
+   "daily_stars": 167.97101449275362,
+   "real_daily_stars": 238.35714285714286,
+   "watchers": 790,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "description": "Learn it. Build it. Ship it for others.",
+   "language": "Python",
+   "stars": 53981,
+   "forks": 9397,
+   "age_days": 175,
+   "daily_stars": 308.46285714285716,
+   "real_daily_stars": 267.1666666666667,
+   "watchers": 347,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  }
+ ]
+}
