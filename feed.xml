@@ -3,12 +3,100 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-10T18:00:00Z</updated>
+  <updated>2026-09-11T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>Tencent/teamai-cli — Make Every Team AI Native</title>
+    <id>https://github.com/Tencent/teamai-cli#2026-09-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Tencent/teamai-cli"/>
+    <updated>2026-09-11T18:00:00Z</updated>
+    <published>2026-09-11T18:00:00Z</published>
+    <summary>Make Every Team AI Native
+
+Why: +667/day · Trending · 22.4x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 4053 (+667.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>vastsa/PI-Desktop — Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins</title>
+    <id>https://github.com/vastsa/PI-Desktop#2026-09-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/vastsa/PI-Desktop"/>
+    <updated>2026-09-11T18:00:00Z</updated>
+    <published>2026-09-11T18:00:00Z</published>
+    <summary>Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins
+
+Why: +556/day · Trending · 279.1x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 2526 (+556.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>kevinzakka/mjbatch — A Python library for running thousands of MuJoCo simulations in parallel on CPU</title>
+    <id>https://github.com/kevinzakka/mjbatch#2026-09-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/kevinzakka/mjbatch"/>
+    <updated>2026-09-11T18:00:00Z</updated>
+    <published>2026-09-11T18:00:00Z</published>
+    <summary>A Python library for running thousands of MuJoCo simulations in parallel on CPU
+
+Why: +281/day · Search
+Score: 93/100 | Language: Python | ⭐ 281 (+281.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>liquidslr/system-design-notes — Notes of the book System Desgin Interview - An Insider's Guide</title>
+    <id>https://github.com/liquidslr/system-design-notes#2026-09-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/liquidslr/system-design-notes"/>
+    <updated>2026-09-11T18:00:00Z</updated>
+    <published>2026-09-11T18:00:00Z</published>
+    <summary>Notes of the book System Desgin Interview - An Insider's Guide
+
+Why: +777/day · Trending · 25.4x accelerating
+Score: 90/100 | Language: ? | ⭐ 19119 (+777.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>angusdevgo/IDM_Pro_Tool — IDM激活与状态维护工具</title>
+    <id>https://github.com/angusdevgo/IDM_Pro_Tool#2026-09-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/angusdevgo/IDM_Pro_Tool"/>
+    <updated>2026-09-11T18:00:00Z</updated>
+    <published>2026-09-11T18:00:00Z</published>
+    <summary>IDM激活与状态维护工具
+
+Why: +440/day · Search
+Score: 90/100 | Language: C# | ⭐ 440 (+440.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>bilawalsidhu/gods-eye-view — A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.</title>
+    <id>https://github.com/bilawalsidhu/gods-eye-view#2026-09-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/bilawalsidhu/gods-eye-view"/>
+    <updated>2026-09-11T18:00:00Z</updated>
+    <published>2026-09-11T18:00:00Z</published>
+    <summary>A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.
+
+Why: +1028/day · Trending · 3.2x accelerating
+Score: 100/100 | Language: JavaScript | ⭐ 25482 (+1027.6/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>THU-MAIC/OpenMAIC — Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click</title>
+    <id>https://github.com/THU-MAIC/OpenMAIC#2026-09-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/THU-MAIC/OpenMAIC"/>
+    <updated>2026-09-11T18:00:00Z</updated>
+    <published>2026-09-11T18:00:00Z</published>
+    <summary>Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
+
+Why: +623/day · Trending · 3.2x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 35651 (+623.1/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>obra/superpowers — An agentic skills framework &amp; software development methodology that works.</title>
+    <id>https://github.com/obra/superpowers#2026-09-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/obra/superpowers"/>
+    <updated>2026-09-11T18:00:00Z</updated>
+    <published>2026-09-11T18:00:00Z</published>
+    <summary>An agentic skills framework &amp; software development methodology that works.
+
+Why: +673/day · Trending
+Score: 90/100 | Language: Shell | ⭐ 284977 (+673.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>ayghri/i-have-adhd — A skill to stop your coding agent from burying the answer. ADHD-friendly output.</title>
     <id>https://github.com/ayghri/i-have-adhd#2026-09-10</id>
@@ -877,82 +965,5 @@ Score: 96/100 | Language: Java | ⭐ 73466 (+236.0/day) | Source: trending</summ
 
 Why: +421/day · Search
 Score: 95/100 | Language: Python | ⭐ 421 (+421.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>tt-a1i/archify — Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.</title>
-    <id>https://github.com/tt-a1i/archify#2026-08-28</id>
-    <link rel="alternate" type="text/html" href="https://github.com/tt-a1i/archify"/>
-    <updated>2026-08-28T18:00:00Z</updated>
-    <published>2026-08-28T18:00:00Z</published>
-    <summary>Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
-
-Why: +4552/day · Trending · 23.2x accelerating
-Score: 100/100 | Language: JavaScript | ⭐ 26440 (+4552.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>K-Dense-AI/scientific-agent-skills — Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.</title>
-    <id>https://github.com/K-Dense-AI/scientific-agent-skills#2026-08-28</id>
-    <link rel="alternate" type="text/html" href="https://github.com/K-Dense-AI/scientific-agent-skills"/>
-    <updated>2026-08-28T18:00:00Z</updated>
-    <published>2026-08-28T18:00:00Z</published>
-    <summary>Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
-
-Why: +1043/day · Trending · 9.0x accelerating
-Score: 100/100 | Language: Python | ⭐ 36162 (+1043.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>JetBrains/go-modern-guidelines — Help AI coding agents write modern Go</title>
-    <id>https://github.com/JetBrains/go-modern-guidelines#2026-08-28</id>
-    <link rel="alternate" type="text/html" href="https://github.com/JetBrains/go-modern-guidelines"/>
-    <updated>2026-08-28T18:00:00Z</updated>
-    <published>2026-08-28T18:00:00Z</published>
-    <summary>Help AI coding agents write modern Go
-
-Why: +565/day · Trending · 62.3x accelerating
-Score: 100/100 | Language: Go | ⭐ 2514 (+565.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>tashfeenahmed/freellmapi — 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.</title>
-    <id>https://github.com/tashfeenahmed/freellmapi#2026-08-28</id>
-    <link rel="alternate" type="text/html" href="https://github.com/tashfeenahmed/freellmapi"/>
-    <updated>2026-08-28T18:00:00Z</updated>
-    <published>2026-08-28T18:00:00Z</published>
-    <summary>7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.
-
-Why: +518/day · Trending · 3.1x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 21438 (+518.3/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>totec448-spec/chat-on-steroids — Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact &amp; Resume, and durable multi-agent workflows.</title>
-    <id>https://github.com/totec448-spec/chat-on-steroids#2026-08-28</id>
-    <link rel="alternate" type="text/html" href="https://github.com/totec448-spec/chat-on-steroids"/>
-    <updated>2026-08-28T18:00:00Z</updated>
-    <published>2026-08-28T18:00:00Z</published>
-    <summary>Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact &amp; Resume, and durable multi-agent workflows.
-
-Why: +268/day · Search · 3.5x accelerating
-Score: 97/100 | Language: TypeScript | ⭐ 455 (+268.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>ChromeDevTools/chrome-devtools-mcp — Chrome DevTools for coding agents</title>
-    <id>https://github.com/ChromeDevTools/chrome-devtools-mcp#2026-08-28</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ChromeDevTools/chrome-devtools-mcp"/>
-    <updated>2026-08-28T18:00:00Z</updated>
-    <published>2026-08-28T18:00:00Z</published>
-    <summary>Chrome DevTools for coding agents
-
-Why: +142/day · Trending
-Score: 74/100 | Language: TypeScript | ⭐ 49914 (+142.2/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>livekit/agents — A framework for building realtime voice AI agents 🤖🎙️📹 </title>
-    <id>https://github.com/livekit/agents#2026-08-28</id>
-    <link rel="alternate" type="text/html" href="https://github.com/livekit/agents"/>
-    <updated>2026-08-28T18:00:00Z</updated>
-    <published>2026-08-28T18:00:00Z</published>
-    <summary>A framework for building realtime voice AI agents 🤖🎙️📹 
-
-Why: +31/day · Trending · 2.4x accelerating
-Score: 74/100 | Language: Python | ⭐ 13261 (+30.7/day) | Source: trending</summary>
   </entry>
 </feed>
