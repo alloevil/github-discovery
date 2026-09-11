@@ -4,11 +4,11 @@
 
 ## Where we are
 
-- **6 data sources** — GitHub Trending, GitHub Search (new & rising), Hacker News Show HN, rising fork/watch detection, AI/ML trending (OSSInsight), HF Daily Papers repo links
+- **6 data sources** — GitHub Trending, GitHub Search (new & rising), Hacker News Show HN, rising fork-signal detection, AI/ML trending (OSSInsight), HF Daily Papers repo links
 - **100-point scorer** — acceleration (40) + quality (30) + anti-spam (30), with code-quality bonus, suspicious-star and batch-fraud penalties, and an explainable reason line on every card
 - **Cross-day dedup** with a 7-day window, deep checks budgeted to the top-K candidates after coarse ranking
 - **Delivery** — daily email digest via Resend (dark-mode HTML) + GitHub Pages site with date/language filters
-- **117 unit tests**, fully automated on GitHub Actions — fork-and-go, no server
+- **169 unit tests** (`python -m pytest --collect-only`, counted from `tests/` on 2026-09-12), fully automated on GitHub Actions — fork-and-go, no server
 
 ## Roadmap
 

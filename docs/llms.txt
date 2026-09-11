@@ -12,8 +12,8 @@ GitHub Trending ranks what is already popular today, which means you meet a proj
 
 ## Evidence
 - [claims.json](https://alloevil.github.io/github-discovery/claims.json): the numbers below in machine-readable form, each with its repro command
-- [Backtest report](https://github.com/alloevil/github-discovery/blob/main/reports/verify-2026-06-25.json): 13 of the 20 repositories in the 7-day sample gained at least 10% more stars after being recommended (precision 0.65); average star growth over that window was 18.71%
-- [Daily result data](https://github.com/alloevil/github-discovery/tree/main/data): every day's scored output committed as JSON — this is what the backtest reads, so the numbers can be recomputed from a fresh clone
+- [Backtest report](https://github.com/alloevil/github-discovery/blob/main/reports/verify-2026-06-25.json): 13 of the 20 repositories in the committed 2026-06-25 sample gained at least 10% more stars after being recommended (precision 0.65); average star growth over that sample was 18.71%. The report used a 7-day report filter, but all 20 entries were observed one day after discovery (`days_since_discovery: 1`), so the growth horizon is roughly one day
+- [Daily result data](https://github.com/alloevil/github-discovery/tree/main/data): every day's scored output committed as JSON — this is what the backtest reads; a fresh clone can re-run the methodology (with network access for current stars), though the June 2026 input reports are no longer committed
 - [Scoring code](https://github.com/alloevil/github-discovery/blob/main/scripts/scorer.py): the dimension limits are constants in `scripts/config.py`, not prose
 
 ## Source

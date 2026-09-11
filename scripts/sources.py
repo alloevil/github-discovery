@@ -467,7 +467,7 @@ def fetch_ai_trending() -> list[dict]:
     date_from = (datetime.now(timezone.utc) - timedelta(days=7)).strftime('%Y-%m-%d')
     all_repos = []
 
-    # 关键词按日轮换：每天用 5 个，约 4~5 天覆盖全部 22 个。
+    # 关键词按日轮换：每天用 5 个，共 32 个；gcd(5, 32) == 1，所以跑满一轮需要 32 天。
     # 旧版永远只用前 5 个通用词，"rag"/"diffusion"/"inference" 等
     # 更有区分度的词从未轮上。用 day-of-year 做偏移保证同日重跑结果一致。
     day = datetime.now(timezone.utc).timetuple().tm_yday

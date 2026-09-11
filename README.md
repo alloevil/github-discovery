@@ -32,7 +32,7 @@ GitHub Trending shows you what's popular **today**.
 
 GitHub Discovery shows you what's **about to be popular** — repos with unusual growth patterns, community picks from Hacker News, and early-stage projects gaining traction.
 
-Every day it collects signals from 6 data sources, runs them through a smart scoring system (100 points), and delivers curated results via email and web.
+Every day it collects signals from 6 data sources, runs them through a smart scoring system (100 points), and delivers curated results via email and web. The workflow is scheduled twice daily (04:43 and 08:43 UTC); a same-day guard makes the second run a no-op when the first one succeeded.
 
 ---
 
@@ -84,9 +84,9 @@ Every day it collects signals from 6 data sources, runs them through a smart sco
 | [GitHub Trending](https://github.com/trending) | Popularity | Daily trending repositories |
 | GitHub Search | New & rising | Repos created in the last 7 days with fast star growth |
 | [Hacker News](https://news.ycombinator.com/) | Community picks | GitHub repos from Show HN posts |
-| Rising Detection | Early signal | Repos created in the last 3 days carrying unusually high fork counts — forks as an early usage signal |
+| Rising Detection | Early signal | Repos created in the last 3 days with a fork/star ratio above 0.3 and at most 0.5 — forks as an early usage signal; higher ratios are discarded as fork farms |
 | AI/ML Keyword Sweep | AI focus | GitHub Search over an AI/ML keyword list, 5 keywords per day on a rotating schedule (inspired by [OSSInsight trending/ai](https://ossinsight.io/trending/ai), implemented against the GitHub Search API) |
-| [HF Daily Papers](https://huggingface.co/papers) | Research signal | GitHub repos linked from trending Hugging Face papers — paper upvotes lead GitHub stars by days |
+| [HF Daily Papers](https://huggingface.co/papers) | Research signal | GitHub repos linked from trending Hugging Face papers — we assume paper upvotes lead GitHub stars by days, but no committed measurement backs that lead time yet |
 
 ### Smart Scoring (100 points)
 
@@ -104,12 +104,12 @@ Every day it collects signals from 6 data sources, runs them through a smart sco
 - **Star fraud detection**: age ≤ 1 day with 1000+ stars, age ≤ 2 days with 2000+ stars, or 1000+ stars/day with an empty description → flagged
 - **Batch fraud detection**: same owner with ≥ 3 repos in one batch, or ≥ 2 repos under 7 days old already past 200 stars → flagged
 - **Content quality**: No description or no README → penalty
-- **Cross-day dedup**: 7-day window, no duplicate recommendations
+- **Cross-day dedup**: 7-day window, no duplicate recommendations across days (a same-day rerun may repeat a pick)
 
 ### Email Subscription
 
 - Daily curated repos delivered to your inbox
-- Dark mode support (Apple Mail / iOS)
+- Rendered dark-only, with `color-scheme` declared for dark-aware clients (Apple Mail / iOS)
 - Powered by Resend API
 
 ### RSS / Atom Feed
@@ -122,13 +122,13 @@ Every day it collects signals from 6 data sources, runs them through a smart sco
 
 - Modern, professional web interface
 - Filter by date and language
-- Real-time scoring display
+- Scores for the latest published run (the page is a static file rebuilt by the daily workflow)
 
 ---
 
 ## Install
 
-Nothing to install: the pipeline uses the Python standard library only, there is no `requirements.txt`, and CI runs Python 3.11.
+Nothing to install: the pipeline uses the Python standard library only — no `pip install` and no `requirements.txt` — and CI runs Python 3.11. It does call the system `curl` binary for the Resend and Firecrawl HTTP requests.
 
 ```bash
 git clone https://github.com/alloevil/github-discovery.git
@@ -136,7 +136,7 @@ cd github-discovery
 python scripts/main.py   # one full run: collect → score → dedup → write output/ + data/
 ```
 
-Sending the email digest needs a `RESEND_API_KEY`. Collection, scoring, the published site and the Atom feed need no key beyond GitHub's own `GITHUB_TOKEN`. To run it as a daily automation rather than locally, follow Quick Start below.
+Sending the email digest needs a `RESEND_API_KEY`. Collection, scoring, the published site and the Atom feed need no key at all; `GITHUB_TOKEN` is optional and only raises the GitHub API rate limit from 60 to 5000 requests per hour. To run it as a daily automation rather than locally, follow Quick Start below.
 
 ---
 
@@ -150,8 +150,8 @@ Sending the email digest needs a `RESEND_API_KEY`. Collection, scoring, the publ
 ## When NOT to use it
 
 - You want editorial judgement. This is a scoring function; it will sometimes rank a repo highly on acceleration alone.
-- You want per-topic or per-user subscriptions. The six sources are fixed in `scripts/sources.py` and the thresholds in `scripts/config.py`; the site filters by date and language only after the fact.
-- You want proof that a high score predicts long-term success. The committed backtest covers a 7-day window over 20 repos at one point in time — enough to sanity-check the score, not enough to establish predictive power.
+- You want per-topic or per-user subscriptions. The six sources and their query thresholds are fixed in `scripts/sources.py` and the scoring weights in `scripts/config.py`; the site filters by date and language only after the fact.
+- You want proof that a high score predicts long-term success. The committed backtest selected 20 repos with a 7-day report filter but observed their growth over roughly one day (all 20 entries have `days_since_discovery: 1`), at one point in time — enough to sanity-check the score, not enough to establish predictive power.
 - You need every rising repo. Only repos that surface in one of the six sources can be scored, cross-day dedup suppresses a repo for 7 days after it is recommended, and the expensive per-repo quality and star-authenticity checks run only on the top `DEEP_CHECK_TOP_K` (20) candidates after coarse ranking.
 - You want the AI/ML sweep to be exhaustive on a given day: it uses 5 keywords per day out of a rotating list, so one day covers only part of that space.
 
@@ -255,11 +255,19 @@ DEEP_CHECK_TOP_K = 20    # how many coarse-ranked candidates get the expensive c
 
 Run backtesting to verify whether high-scored repos actually took off. The
 backtest reads the committed daily JSON reports (`data/discovery-*.json`),
-so it works on a fresh clone with no local state:
+so it works on a fresh clone with no prior run; it still needs network access,
+because current star counts come from the GitHub API (anonymous, 60 req/hour,
+unless `GITHUB_TOKEN` is set):
 
 ```bash
 python scripts/verify_scoring.py --days 30
 ```
+
+`--days N` selects reports by their date relative to *today*, so a run measures
+the current window and recomputes growth against today's star counts. It does
+not reproduce the committed `reports/verify-2026-06-25.json`: that snapshot's
+input reports are no longer under `data/`, and its repositories' star counts
+have since moved.
 
 ---
 
@@ -271,7 +279,7 @@ python scripts/verify_scoring.py --days 30
 
 **Will the same repo be recommended every day while it is hot?** No. Cross-day dedup blocks any repo recommended in the previous 7 days, using the history committed at `data/recommend_history.json`; records older than 30 days are cleaned up. The history has to be a committed file because every CI run starts from a fresh checkout with no local state.
 
-**Can I trust the numbers on the published page?** The page is a build artifact: `scripts/generate_site.py` renders `docs/index.html` from `docs/template.html` plus the committed reports, and the workflow publishes `docs/` to the `gh-pages` branch. The authoritative copies are the committed JSON under `data/` and the Markdown digests under `output/` — which is also what `verify_scoring.py` reads, so any claim on the page can be recomputed from a fresh clone.
+**Can I trust the numbers on the published page?** The page is a build artifact: `scripts/generate_site.py` renders `docs/index.html` from `docs/template.html` plus the committed reports, and the workflow publishes `docs/` to the `gh-pages` branch. The authoritative copies are the committed JSON under `data/`, which is what `verify_scoring.py` reads; the Markdown digests under `output/` are the human-readable copies, and the site reads the JSON first and falls back to those digests. So any claim on the page can be recomputed from a fresh clone.
 
 **How do I add a data source?** Add a `fetch_xxx()` function in `scripts/sources.py`, call it from `fetch_all()`, and add tests in `tests/test_sources.py`. Sources return the same repo dict shape, so scoring, dedup and rendering need no changes.
 
