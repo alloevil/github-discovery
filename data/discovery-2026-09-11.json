@@ -1,0 +1,398 @@
+{
+ "date": "2026-09-11",
+ "generated_at": "2026-09-11T09:10:30.809264",
+ "new": [
+  {
+   "full_name": "Tencent/teamai-cli",
+   "url": "https://github.com/Tencent/teamai-cli",
+   "description": "Make Every Team AI Native",
+   "language": "TypeScript",
+   "stars": 4053,
+   "forks": 259,
+   "age_days": 136,
+   "daily_stars": 29.801470588235293,
+   "real_daily_stars": 667.0,
+   "watchers": 11,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "vastsa/PI-Desktop",
+   "url": "https://github.com/vastsa/PI-Desktop",
+   "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+   "language": "TypeScript",
+   "stars": 2526,
+   "forks": 203,
+   "age_days": 1268,
+   "daily_stars": 1.9921135646687698,
+   "real_daily_stars": 556.0,
+   "watchers": 10,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "LGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "kevinzakka/mjbatch",
+   "url": "https://github.com/kevinzakka/mjbatch",
+   "description": "A Python library for running thousands of MuJoCo simulations in parallel on CPU",
+   "language": "Python",
+   "stars": 281,
+   "forks": 25,
+   "age_days": 1,
+   "daily_stars": 281.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "liquidslr/system-design-notes",
+   "url": "https://github.com/liquidslr/system-design-notes",
+   "description": "Notes of the book System Desgin Interview - An Insider's Guide",
+   "language": "",
+   "stars": 19119,
+   "forks": 3515,
+   "age_days": 626,
+   "daily_stars": 30.54153354632588,
+   "real_daily_stars": 777.0,
+   "watchers": 144,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 90,
+    "acceleration": 40,
+    "quality": 20,
+    "antispam": 30,
+    "quality_bonus": 6
+   }
+  },
+  {
+   "full_name": "angusdevgo/IDM_Pro_Tool",
+   "url": "https://github.com/angusdevgo/IDM_Pro_Tool",
+   "description": "IDM激活与状态维护工具",
+   "language": "C#",
+   "stars": 440,
+   "forks": 119,
+   "age_days": 1,
+   "daily_stars": 440.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 90,
+    "acceleration": 35,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "showlab/Show-Harness",
+   "url": "https://github.com/showlab/Show-Harness",
+   "description": "Just a VLM Agent Can Play Robots",
+   "language": "Python",
+   "stars": 230,
+   "forks": 7,
+   "age_days": 4,
+   "daily_stars": 57.5,
+   "real_daily_stars": 133.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending",
+    "hf-papers"
+   ],
+   "license": "Apache-2.0",
+   "hf_title": "Show-Harness: Just a VLM Agent Can Play Robots",
+   "hf_upvotes": 134,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "viettranx/3dviz-pro-max",
+   "url": "https://github.com/viettranx/3dviz-pro-max",
+   "description": "Agent skill for creative 3D visualization: turn an idea into a Three.js/Blender scene worth exploring. Claude Code + Codex plugin, 223 recipes, 440 knowledge records, 22 proved kits, 37 runnable studies.",
+   "language": "JavaScript",
+   "stars": 149,
+   "forks": 26,
+   "age_days": 1,
+   "daily_stars": 149.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "JustVugg/colibri",
+   "url": "https://github.com/JustVugg/colibri",
+   "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+   "language": "C",
+   "stars": 27615,
+   "forks": 3018,
+   "age_days": 71,
+   "daily_stars": 388.943661971831,
+   "watchers": 235,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "diegosouzapw/OmniRoute",
+   "url": "https://github.com/diegosouzapw/OmniRoute",
+   "description": "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 550+ contributors",
+   "language": "TypeScript",
+   "stars": 64530,
+   "forks": 9024,
+   "age_days": 209,
+   "daily_stars": 308.75598086124404,
+   "watchers": 378,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "crwdla/tokentab",
+   "url": "https://github.com/crwdla/tokentab",
+   "description": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day.",
+   "language": "Python",
+   "stars": 313,
+   "forks": 116,
+   "age_days": 3,
+   "daily_stars": 104.33333333333333,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "bilawalsidhu/gods-eye-view",
+   "url": "https://github.com/bilawalsidhu/gods-eye-view",
+   "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+   "language": "JavaScript",
+   "stars": 25482,
+   "forks": 5228,
+   "age_days": 80,
+   "daily_stars": 318.525,
+   "real_daily_stars": 1027.5833333333333,
+   "watchers": 572,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "THU-MAIC/OpenMAIC",
+   "url": "https://github.com/THU-MAIC/OpenMAIC",
+   "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+   "language": "TypeScript",
+   "stars": 35651,
+   "forks": 5665,
+   "age_days": 183,
+   "daily_stars": 194.81420765027323,
+   "real_daily_stars": 623.1111111111111,
+   "watchers": 164,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "description": "An agentic skills framework & software development methodology that works.",
+   "language": "Shell",
+   "stars": 284977,
+   "forks": 25490,
+   "age_days": 336,
+   "daily_stars": 848.1458333333334,
+   "real_daily_stars": 673.0,
+   "watchers": 1072,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "AlexsJones/llmfit",
+   "url": "https://github.com/AlexsJones/llmfit",
+   "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+   "language": "Rust",
+   "stars": 35937,
+   "forks": 2272,
+   "age_days": 207,
+   "daily_stars": 173.6086956521739,
+   "real_daily_stars": 146.70833333333334,
+   "watchers": 114,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 84,
+    "acceleration": 24,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ]
+}
