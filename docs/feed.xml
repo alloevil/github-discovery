@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-11T18:00:00Z</updated>
+  <updated>2026-09-12T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>nashsu/llm_wiki — LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。</title>
+    <id>https://github.com/nashsu/llm_wiki#2026-09-12</id>
+    <link rel="alternate" type="text/html" href="https://github.com/nashsu/llm_wiki"/>
+    <updated>2026-09-12T18:00:00Z</updated>
+    <published>2026-09-12T18:00:00Z</published>
+    <summary>LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。
+
+Why: +549/day · Trending · 4.5x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 18923 (+549.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>alsk1992/CloddsBot — Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans    for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.</title>
+    <id>https://github.com/alsk1992/CloddsBot#2026-09-12</id>
+    <link rel="alternate" type="text/html" href="https://github.com/alsk1992/CloddsBot"/>
+    <updated>2026-09-12T18:00:00Z</updated>
+    <published>2026-09-12T18:00:00Z</published>
+    <summary>Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans    for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.
+
+Why: +387/day · Trending · 38.9x accelerating
+Score: 99/100 | Language: TypeScript | ⭐ 2268 (+387.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>armory3d/armorpaint — Graphics Creation Tools</title>
+    <id>https://github.com/armory3d/armorpaint#2026-09-12</id>
+    <link rel="alternate" type="text/html" href="https://github.com/armory3d/armorpaint"/>
+    <updated>2026-09-12T18:00:00Z</updated>
+    <published>2026-09-12T18:00:00Z</published>
+    <summary>Graphics Creation Tools
+
+Why: +248/day · Trending · 181.0x accelerating
+Score: 97/100 | Language: C | ⭐ 4801 (+248.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>sumimakito/Mac-Duo — Wish you could bring the iPhone Duo effect to your MacBook?</title>
+    <id>https://github.com/sumimakito/Mac-Duo#2026-09-12</id>
+    <link rel="alternate" type="text/html" href="https://github.com/sumimakito/Mac-Duo"/>
+    <updated>2026-09-12T18:00:00Z</updated>
+    <published>2026-09-12T18:00:00Z</published>
+    <summary>Wish you could bring the iPhone Duo effect to your MacBook?
+
+Why: +613/day · Search
+Score: 96/100 | Language: Swift | ⭐ 613 (+613.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>mizzlelover/gongwen-gbt9704-skill — 跨平台中文公文排版 Skill，生成参照 GB/T 9704-2012 的可编辑 DOCX</title>
+    <id>https://github.com/mizzlelover/gongwen-gbt9704-skill#2026-09-12</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mizzlelover/gongwen-gbt9704-skill"/>
+    <updated>2026-09-12T18:00:00Z</updated>
+    <published>2026-09-12T18:00:00Z</published>
+    <summary>跨平台中文公文排版 Skill，生成参照 GB/T 9704-2012 的可编辑 DOCX
+
+Why: +258/day · Search
+Score: 93/100 | Language: JavaScript | ⭐ 517 (+258.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>holaboss-ai/holaOS — Open-source agentic workspace enterprises can make their own. Connect the systems you already run — 100+ integrations, MCP, chat tools, apps, browser, local files — with shared memory. Any agent (Claude Code, Codex), any model, or BYOK. Set up in clicks, not months. Local-first: your data never leaves your machines.</title>
+    <id>https://github.com/holaboss-ai/holaOS#2026-09-12</id>
+    <link rel="alternate" type="text/html" href="https://github.com/holaboss-ai/holaOS"/>
+    <updated>2026-09-12T18:00:00Z</updated>
+    <published>2026-09-12T18:00:00Z</published>
+    <summary>Open-source agentic workspace enterprises can make their own. Connect the systems you already run — 100+ integrations, MCP, chat tools, apps, browser, local files — with shared memory. Any agent (Claude Code, Codex), any model, or BYOK. Set up in clicks, not months. Local-first: your data never leaves your machines.
+
+Why: +138/day · HN · 2.1x accelerating
+Score: 89/100 | Language: TypeScript | ⭐ 11219 (+137.6/day) | Source: hn</summary>
+  </entry>
+  <entry>
+    <title>github/spec-kit — 💫 Toolkit to help you get started with Spec-Driven Development</title>
+    <id>https://github.com/github/spec-kit#2026-09-12</id>
+    <link rel="alternate" type="text/html" href="https://github.com/github/spec-kit"/>
+    <updated>2026-09-12T18:00:00Z</updated>
+    <published>2026-09-12T18:00:00Z</published>
+    <summary>💫 Toolkit to help you get started with Spec-Driven Development
+
+Why: +245/day · Trending
+Score: 87/100 | Language: Python | ⭐ 135881 (+244.7/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>Tencent/teamai-cli — Make Every Team AI Native</title>
     <id>https://github.com/Tencent/teamai-cli#2026-09-11</id>
@@ -910,60 +987,5 @@ Score: 91/100 | Language: Zig | ⭐ 590 (+76.0/day) | Source: hn</summary>
 
 Why: +250/day · Trending
 Score: 87/100 | Language: JavaScript | ⭐ 90845 (+250.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>bilawalsidhu/gods-eye-view — A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.</title>
-    <id>https://github.com/bilawalsidhu/gods-eye-view#2026-08-29</id>
-    <link rel="alternate" type="text/html" href="https://github.com/bilawalsidhu/gods-eye-view"/>
-    <updated>2026-08-29T18:00:00Z</updated>
-    <published>2026-08-29T18:00:00Z</published>
-    <summary>A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.
-
-Why: +1260/day · Trending · 7.2x accelerating
-Score: 100/100 | Language: JavaScript | ⭐ 11763 (+1260.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>tailscale/tailcat — like netcat, but over Tailscale's data plane, without Tailscale's control plane</title>
-    <id>https://github.com/tailscale/tailcat#2026-08-29</id>
-    <link rel="alternate" type="text/html" href="https://github.com/tailscale/tailcat"/>
-    <updated>2026-08-29T18:00:00Z</updated>
-    <published>2026-08-29T18:00:00Z</published>
-    <summary>like netcat, but over Tailscale's data plane, without Tailscale's control plane
-
-Why: +576/day · Trending · 126.3x accelerating
-Score: 100/100 | Language: Go | ⭐ 3047 (+576.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>abi/screenshot-to-code — Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)</title>
-    <id>https://github.com/abi/screenshot-to-code#2026-08-29</id>
-    <link rel="alternate" type="text/html" href="https://github.com/abi/screenshot-to-code"/>
-    <updated>2026-08-29T18:00:00Z</updated>
-    <published>2026-08-29T18:00:00Z</published>
-    <summary>Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)
-
-Why: +370/day · Trending · 5.0x accelerating
-Score: 99/100 | Language: Python | ⭐ 75787 (+370.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>NationalSecurityAgency/ghidra — Ghidra is a software reverse engineering (SRE) framework</title>
-    <id>https://github.com/NationalSecurityAgency/ghidra#2026-08-29</id>
-    <link rel="alternate" type="text/html" href="https://github.com/NationalSecurityAgency/ghidra"/>
-    <updated>2026-08-29T18:00:00Z</updated>
-    <published>2026-08-29T18:00:00Z</published>
-    <summary>Ghidra is a software reverse engineering (SRE) framework
-
-Why: +236/day · Trending · 8.8x accelerating
-Score: 96/100 | Language: Java | ⭐ 73466 (+236.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>jprx/darwin-vm — Run iOS/ macOS in Qemu. Virtual iPhone 17, 16, 15, 14, 13, 12 and M5-M1 Apple Si Macs supported.</title>
-    <id>https://github.com/jprx/darwin-vm#2026-08-29</id>
-    <link rel="alternate" type="text/html" href="https://github.com/jprx/darwin-vm"/>
-    <updated>2026-08-29T18:00:00Z</updated>
-    <published>2026-08-29T18:00:00Z</published>
-    <summary>Run iOS/ macOS in Qemu. Virtual iPhone 17, 16, 15, 14, 13, 12 and M5-M1 Apple Si Macs supported.
-
-Why: +421/day · Search
-Score: 95/100 | Language: Python | ⭐ 421 (+421.0/day) | Source: search</summary>
   </entry>
 </feed>

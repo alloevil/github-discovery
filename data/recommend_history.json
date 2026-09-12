@@ -72,15 +72,6 @@
       ],
       "last_recommended": "2026-09-11T09:10:30.512562+00:00"
     },
-    "shiyu-coder/Kronos": {
-      "count": 3,
-      "scores": [
-        97,
-        72,
-        94
-      ],
-      "last_recommended": "2026-08-13T06:06:47.249566+00:00"
-    },
     "citrolabs/ego-lite": {
       "count": 2,
       "scores": [
@@ -162,69 +153,6 @@
       ],
       "last_recommended": "2026-08-27T15:32:28.613766+00:00"
     },
-    "MSNightmare/ShieldBreak": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-13T06:06:47.220524+00:00"
-    },
-    "ayi-ai/nie-grassroots-logic": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-13T06:06:47.223779+00:00"
-    },
-    "keslr/keslr_connect": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-13T06:06:47.226756+00:00"
-    },
-    "hugohe3/ppt-master": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-13T06:06:47.229665+00:00"
-    },
-    "milind-soni/OpenMausBot": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-13T06:06:47.232714+00:00"
-    },
-    "dmmulroy/anti-slop": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-13T06:06:47.235784+00:00"
-    },
-    "CheshireMew/VoxWeave": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-13T06:06:47.238802+00:00"
-    },
-    "vuphongle/oss-pr-reviewer": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-13T06:06:47.241700+00:00"
-    },
-    "longnick/small-pos-open-source": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-13T06:06:47.244638+00:00"
-    },
     "cathrynlavery/diagram-design": {
       "count": 2,
       "scores": [
@@ -305,11 +233,12 @@
       "last_recommended": "2026-08-14T06:05:33.132543+00:00"
     },
     "holaboss-ai/holaOS": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        89
       ],
-      "last_recommended": "2026-08-15T05:03:12.176340+00:00"
+      "last_recommended": "2026-09-12T08:51:47.497781+00:00"
     },
     "megadose/holehe": {
       "count": 1,
@@ -389,11 +318,12 @@
       "last_recommended": "2026-08-16T05:06:32.462966+00:00"
     },
     "github/spec-kit": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        87
       ],
-      "last_recommended": "2026-08-16T05:06:32.466002+00:00"
+      "last_recommended": "2026-09-12T08:51:47.499015+00:00"
     },
     "dsh-market/dsh-market": {
       "count": 1,
@@ -2273,7 +2203,77 @@
         88
       ],
       "last_recommended": "2026-09-11T09:10:30.504744+00:00"
+    },
+    "nashsu/llm_wiki": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-12T08:51:47.377715+00:00"
+    },
+    "alsk1992/CloddsBot": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-09-12T08:51:47.379201+00:00"
+    },
+    "armory3d/armorpaint": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-09-12T08:51:47.482414+00:00"
+    },
+    "sumimakito/Mac-Duo": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-12T08:51:47.483905+00:00"
+    },
+    "mizzlelover/gongwen-gbt9704-skill": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-09-12T08:51:47.485127+00:00"
+    },
+    "nftechie/stonkfly": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-12T08:51:47.491651+00:00"
+    },
+    "nhovongoc0-max/meme-radar": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-12T08:51:47.492949+00:00"
+    },
+    "SpaceDudem/text-humanizer": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-12T08:51:47.494183+00:00"
+    },
+    "kruzovic7/ai-data-extractor": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-12T08:51:47.495384+00:00"
+    },
+    "perseval-BLR/DLSS5-NeuralScreen": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-09-12T08:51:47.496596+00:00"
     }
   },
-  "updated_at": "2026-09-11T09:10:30.512586+00:00"
+  "updated_at": "2026-09-12T08:51:47.499030+00:00"
 }
