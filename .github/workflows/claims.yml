@@ -1,0 +1,21 @@
+name: claims
+
+# Runs the receipts behind claims.json: every published number must still be printed by
+# the command next to it. The weekly run exists because data moves without anyone
+# committing — that is exactly how a published figure goes stale.
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "17 6 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: published numbers still reproduce
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: alloevil/verify-claims@v0.1.0
