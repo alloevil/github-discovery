@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-12T18:00:00Z</updated>
+  <updated>2026-09-13T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>melgarafael/DeskcommCRM — Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk &amp; Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.</title>
+    <id>https://github.com/melgarafael/DeskcommCRM#2026-09-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/melgarafael/DeskcommCRM"/>
+    <updated>2026-09-13T18:00:00Z</updated>
+    <published>2026-09-13T18:00:00Z</published>
+    <summary>Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk &amp; Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.
+
+Why: +469/day · Trending · 32.7x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 1966 (+469.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>nab138/iloader — User friendly sideloader</title>
+    <id>https://github.com/nab138/iloader#2026-09-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/nab138/iloader"/>
+    <updated>2026-09-13T18:00:00Z</updated>
+    <published>2026-09-13T18:00:00Z</published>
+    <summary>User friendly sideloader
+
+Why: +219/day · Trending · 21.7x accelerating
+Score: 96/100 | Language: TypeScript | ⭐ 3183 (+219.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Sonarr/Sonarr — Smart PVR for newsgroup and bittorrent users.</title>
+    <id>https://github.com/Sonarr/Sonarr#2026-09-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Sonarr/Sonarr"/>
+    <updated>2026-09-13T18:00:00Z</updated>
+    <published>2026-09-13T18:00:00Z</published>
+    <summary>Smart PVR for newsgroup and bittorrent users.
+
+Why: +197/day · Trending · 67.3x accelerating
+Score: 96/100 | Language: C# | ⭐ 15997 (+197.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>p1neappleXpress/OpenFlux — Network stack research tool. TCP tunnel with pluggable transports.</title>
+    <id>https://github.com/p1neappleXpress/OpenFlux#2026-09-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/p1neappleXpress/OpenFlux"/>
+    <updated>2026-09-13T18:00:00Z</updated>
+    <published>2026-09-13T18:00:00Z</published>
+    <summary>Network stack research tool. TCP tunnel with pluggable transports.
+
+Why: +213/day · Trending · 12.1x accelerating
+Score: 96/100 | Language: Go | ⭐ 1460 (+213.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>jihe520/MathModelAgent — 🤖📐专为数学建模设计的 Agent &amp; skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.</title>
+    <id>https://github.com/jihe520/MathModelAgent#2026-09-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/jihe520/MathModelAgent"/>
+    <updated>2026-09-13T18:00:00Z</updated>
+    <published>2026-09-13T18:00:00Z</published>
+    <summary>🤖📐专为数学建模设计的 Agent &amp; skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.
+
+Why: +268/day · Trending · 30.2x accelerating
+Score: 92/100 | Language: Python | ⭐ 5231 (+268.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>nashsu/llm_wiki — LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。</title>
     <id>https://github.com/nashsu/llm_wiki#2026-09-12</id>
@@ -921,71 +976,5 @@ Score: 91/100 | Language: TypeScript | ⭐ 46721 (+224.0/day) | Source: trending
 
 Why: +1585/day · Search
 Score: 90/100 | Language: Python | ⭐ 4815 (+1585.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>kacperkapusciak/goldie — ✨ agentic app store previews and screenshots</title>
-    <id>https://github.com/kacperkapusciak/goldie#2026-08-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/kacperkapusciak/goldie"/>
-    <updated>2026-08-30T18:00:00Z</updated>
-    <published>2026-08-30T18:00:00Z</published>
-    <summary>✨ agentic app store previews and screenshots
-
-Why: +301/day · Search+AI/ML · 2.9x accelerating
-Score: 97/100 | Language: TypeScript | ⭐ 523 (+301.0/day) | Source: search + ai-trending</summary>
-  </entry>
-  <entry>
-    <title>cbrock84/headcount — An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable.</title>
-    <id>https://github.com/cbrock84/headcount#2026-08-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/cbrock84/headcount"/>
-    <updated>2026-08-30T18:00:00Z</updated>
-    <published>2026-08-30T18:00:00Z</published>
-    <summary>An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable.
-
-Why: +452/day · Search+AI/ML
-Score: 96/100 | Language: Markdown | ⭐ 452 (+452.0/day) | Source: search + ai-trending</summary>
-  </entry>
-  <entry>
-    <title>jub0t/WolfCut — Free &amp; Open-Source CapCut replacement.</title>
-    <id>https://github.com/jub0t/WolfCut#2026-08-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/jub0t/WolfCut"/>
-    <updated>2026-08-30T18:00:00Z</updated>
-    <published>2026-08-30T18:00:00Z</published>
-    <summary>Free &amp; Open-Source CapCut replacement.
-
-Why: +311/day · Search · 2.3x accelerating
-Score: 94/100 | Language: TypeScript | ⭐ 530 (+311.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>xzf-thu/VoiceMem — a real-time and empathetic memory system for voice assistants</title>
-    <id>https://github.com/xzf-thu/VoiceMem#2026-08-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/xzf-thu/VoiceMem"/>
-    <updated>2026-08-30T18:00:00Z</updated>
-    <published>2026-08-30T18:00:00Z</published>
-    <summary>a real-time and empathetic memory system for voice assistants
-
-Why: +94/day · HF Papers · 4.7x accelerating
-Score: 92/100 | Language: Python | ⭐ 258 (+94.0/day) | Source: hf-papers</summary>
-  </entry>
-  <entry>
-    <title>jeffhajewski/latticedb — Embedded single-file knowledge graph database with vector search and full-text search for AI/RAG apps</title>
-    <id>https://github.com/jeffhajewski/latticedb#2026-08-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/jeffhajewski/latticedb"/>
-    <updated>2026-08-30T18:00:00Z</updated>
-    <published>2026-08-30T18:00:00Z</published>
-    <summary>Embedded single-file knowledge graph database with vector search and full-text search for AI/RAG apps
-
-Why: +76/day · HN · 32.5x accelerating
-Score: 91/100 | Language: Zig | ⭐ 590 (+76.0/day) | Source: hn</summary>
-  </entry>
-  <entry>
-    <title>addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.</title>
-    <id>https://github.com/addyosmani/agent-skills#2026-08-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/addyosmani/agent-skills"/>
-    <updated>2026-08-30T18:00:00Z</updated>
-    <published>2026-08-30T18:00:00Z</published>
-    <summary>Production-grade engineering skills for AI coding agents.
-
-Why: +250/day · Trending
-Score: 87/100 | Language: JavaScript | ⭐ 90845 (+250.5/day) | Source: trending</summary>
   </entry>
 </feed>

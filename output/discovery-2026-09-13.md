@@ -1,0 +1,203 @@
+# 🔥 GitHub Discovery Report
+
+> **Generated:** 2026-09-13 09:45
+> **10 new repos + 0 repeat performers**
+
+---
+
+## ⭐ Top Starred Repositories — First Timers
+
+*These repos were first featured in GitHub Discovery*
+
+### 1. [melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 1,966 |
+| 📅 Age | 137 days |
+| 🚀 Daily Growth | 469.0 stars/day (measured) |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.
+
+**Score: 100/100** `████████████████████`
+- Acceleration: 40/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 2. [nab138/iloader](https://github.com/nab138/iloader)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 3,183 |
+| 📅 Age | 315 days |
+| 🚀 Daily Growth | 219.0 stars/day (measured) |
+| 🔤 Language | TypeScript |
+| 📡 Source | trending |
+
+> User friendly sideloader
+
+**Score: 96/100** `███████████████████░`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 15,997 |
+| 📅 Age | 5465 days |
+| 🚀 Daily Growth | 197.0 stars/day (measured) |
+| 🔤 Language | C# |
+| 📡 Source | trending |
+
+> Smart PVR for newsgroup and bittorrent users.
+
+**Score: 96/100** `███████████████████░`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 4. [p1neappleXpress/OpenFlux](https://github.com/p1neappleXpress/OpenFlux)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 1,460 |
+| 📅 Age | 83 days |
+| 🚀 Daily Growth | 213.0 stars/day (measured) |
+| 🔤 Language | Go |
+| 📡 Source | trending |
+
+> Network stack research tool. TCP tunnel with pluggable transports.
+
+**Score: 96/100** `███████████████████░`
+- Acceleration: 36/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 5. [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 5,231 |
+| 📅 Age | 590 days |
+| 🚀 Daily Growth | 268.0 stars/day (measured) |
+| 🔤 Language | Python |
+| 📡 Source | trending |
+
+> 🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.
+
+**Score: 92/100** `██████████████████░░`
+- Acceleration: 37/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 6. [DefiLeoo/YOINK](https://github.com/DefiLeoo/YOINK)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 339 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 339.0 stars/day (lifetime avg) |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> 
+
+**Score: 92/100** `██████████████████░░`
+- Acceleration: 34/40
+- Quality: 28/30
+- Anti-spam: 30/30
+
+---
+### 7. [Chuloo/mural](https://github.com/Chuloo/mural)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 176 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 176.0 stars/day (lifetime avg) |
+| 🔤 Language | Swift |
+| 📡 Source | rising |
+
+> The language app you eventually delete. A native iPhone companion for learning through conversation.
+
+**Score: 91/100** `██████████████████░░`
+- Acceleration: 31/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 8. [rizqinrr/viserys-agent](https://github.com/rizqinrr/viserys-agent)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 626 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 626.0 stars/day (lifetime avg) |
+| 🔤 Language | JavaScript |
+| 📡 Source | search |
+
+> 
+
+**Score: 90/100** `██████████████████░░`
+- Acceleration: 36/40
+- Quality: 24/30
+- Anti-spam: 30/30
+
+---
+### 9. [Phyzicalorg/Phyzical_org](https://github.com/Phyzicalorg/Phyzical_org)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 241 |
+| 📅 Age | 3 days |
+| 🚀 Daily Growth | 80.3 stars/day (lifetime avg) |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> Browser teleoperation data for embodied AI — elizaOS-ready episodes, trajectory_db converter, onchain provenance. The fuel station for agent robot stacks.
+
+**Score: 87/100** `█████████████████░░░`
+- Acceleration: 27/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 10. [mirza-rizvi/ResolveHQ](https://github.com/mirza-rizvi/ResolveHQ)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 135 |
+| 📅 Age | 10 days |
+| 🚀 Daily Growth | 39.0 stars/day (measured) |
+| 🔤 Language | TypeScript |
+| 📡 Source | hn |
+
+> Cloudflare-native shared support inbox for small teams
+
+**Score: 87/100** `█████████████████░░░`
+- Acceleration: 27/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+- 🔶 HN: [Show HN: ResolveHQ – A Helpdesk Built on Cloudflare Workers, D1, R2 and Queues](https://news.ycombinator.com) (score: 67)
+
+---
+
+## 📊 Summary
+
+- **New discoveries:** 10 repos
+- **Repeat performers:** 0 repos
+- **Score range:** 87 - 100
+- **Top pick:** [melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM)
+
+---
+*Generated by GitHub Discovery Tool*

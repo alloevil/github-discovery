@@ -161,41 +161,6 @@
       ],
       "last_recommended": "2026-09-05T08:37:03.189154+00:00"
     },
-    "cactus-compute/needle": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-14T06:05:33.093071+00:00"
-    },
-    "macro-inc/macro": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-14T06:05:33.096500+00:00"
-    },
-    "infiniflow/ragflow": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-14T06:05:33.102229+00:00"
-    },
-    "NVIDIA-NeMo/Switchyard": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-14T06:05:33.109105+00:00"
-    },
-    "smicallef/spiderfoot": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-14T06:05:33.115002+00:00"
-    },
     "3b1b/manim": {
       "count": 2,
       "scores": [
@@ -203,34 +168,6 @@
         92
       ],
       "last_recommended": "2026-09-02T09:03:53.107286+00:00"
-    },
-    "xoreaxeaxeax/skitter-creek-bath-salts": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-14T06:05:33.122848+00:00"
-    },
-    "Leutenegger/book-to-skill": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-14T06:05:33.126115+00:00"
-    },
-    "ccch1mneyyy/dsh-TUI": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-14T06:05:33.129366+00:00"
-    },
-    "gfodor/legal-skills": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-14T06:05:33.132543+00:00"
     },
     "holaboss-ai/holaOS": {
       "count": 2,
@@ -2273,7 +2210,77 @@
         86
       ],
       "last_recommended": "2026-09-12T08:51:47.496596+00:00"
+    },
+    "melgarafael/DeskcommCRM": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-13T09:45:07.948378+00:00"
+    },
+    "nab138/iloader": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-13T09:45:07.950536+00:00"
+    },
+    "Sonarr/Sonarr": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-13T09:45:07.952535+00:00"
+    },
+    "p1neappleXpress/OpenFlux": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-13T09:45:07.954522+00:00"
+    },
+    "jihe520/MathModelAgent": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-13T09:45:07.956530+00:00"
+    },
+    "DefiLeoo/YOINK": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-13T09:45:07.958539+00:00"
+    },
+    "Chuloo/mural": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-13T09:45:07.960563+00:00"
+    },
+    "rizqinrr/viserys-agent": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-13T09:45:07.962539+00:00"
+    },
+    "Phyzicalorg/Phyzical_org": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-13T09:45:07.964542+00:00"
+    },
+    "mirza-rizvi/ResolveHQ": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-13T09:45:07.966641+00:00"
     }
   },
-  "updated_at": "2026-09-12T08:51:47.499030+00:00"
+  "updated_at": "2026-09-13T09:45:07.966667+00:00"
 }

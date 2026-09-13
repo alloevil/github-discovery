@@ -1,0 +1,286 @@
+{
+ "date": "2026-09-13",
+ "generated_at": "2026-09-13T09:45:08.184901",
+ "new": [
+  {
+   "full_name": "melgarafael/DeskcommCRM",
+   "url": "https://github.com/melgarafael/DeskcommCRM",
+   "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+   "language": "TypeScript",
+   "stars": 1966,
+   "forks": 568,
+   "age_days": 137,
+   "daily_stars": 14.35036496350365,
+   "real_daily_stars": 469.0,
+   "watchers": 14,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "nab138/iloader",
+   "url": "https://github.com/nab138/iloader",
+   "description": "User friendly sideloader",
+   "language": "TypeScript",
+   "stars": 3183,
+   "forks": 218,
+   "age_days": 315,
+   "daily_stars": 10.104761904761904,
+   "real_daily_stars": 219.0,
+   "watchers": 25,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "Sonarr/Sonarr",
+   "url": "https://github.com/Sonarr/Sonarr",
+   "description": "Smart PVR for newsgroup and bittorrent users.",
+   "language": "C#",
+   "stars": 15997,
+   "forks": 1955,
+   "age_days": 5465,
+   "daily_stars": 2.9271729185727358,
+   "real_daily_stars": 197.0,
+   "watchers": 246,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "p1neappleXpress/OpenFlux",
+   "url": "https://github.com/p1neappleXpress/OpenFlux",
+   "description": "Network stack research tool. TCP tunnel with pluggable transports.",
+   "language": "Go",
+   "stars": 1460,
+   "forks": 107,
+   "age_days": 83,
+   "daily_stars": 17.59036144578313,
+   "real_daily_stars": 213.0,
+   "watchers": 26,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "jihe520/MathModelAgent",
+   "url": "https://github.com/jihe520/MathModelAgent",
+   "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+   "language": "Python",
+   "stars": 5231,
+   "forks": 405,
+   "age_days": 590,
+   "daily_stars": 8.866101694915255,
+   "real_daily_stars": 268.0,
+   "watchers": 26,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 92,
+    "acceleration": 37,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "DefiLeoo/YOINK",
+   "url": "https://github.com/DefiLeoo/YOINK",
+   "description": "",
+   "language": "Python",
+   "stars": 339,
+   "forks": 21,
+   "age_days": 1,
+   "daily_stars": 339.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 92,
+    "acceleration": 34,
+    "quality": 28,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "Chuloo/mural",
+   "url": "https://github.com/Chuloo/mural",
+   "description": "The language app you eventually delete. A native iPhone companion for learning through conversation.",
+   "language": "Swift",
+   "stars": 176,
+   "forks": 57,
+   "age_days": 1,
+   "daily_stars": 176.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "rizqinrr/viserys-agent",
+   "url": "https://github.com/rizqinrr/viserys-agent",
+   "description": "",
+   "language": "JavaScript",
+   "stars": 626,
+   "forks": 0,
+   "age_days": 1,
+   "daily_stars": 626.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 90,
+    "acceleration": 36,
+    "quality": 24,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "Phyzicalorg/Phyzical_org",
+   "url": "https://github.com/Phyzicalorg/Phyzical_org",
+   "description": "Browser teleoperation data for embodied AI — elizaOS-ready episodes, trajectory_db converter, onchain provenance. The fuel station for agent robot stacks.",
+   "language": "Python",
+   "stars": 241,
+   "forks": 0,
+   "age_days": 3,
+   "daily_stars": 80.33333333333333,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "mirza-rizvi/ResolveHQ",
+   "url": "https://github.com/mirza-rizvi/ResolveHQ",
+   "description": "Cloudflare-native shared support inbox for small teams",
+   "language": "TypeScript",
+   "stars": 135,
+   "forks": 11,
+   "age_days": 10,
+   "daily_stars": 13.5,
+   "real_daily_stars": 39.0,
+   "watchers": 0,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "NOASSERTION",
+   "hn_title": "Show HN: ResolveHQ – A Helpdesk Built on Cloudflare Workers, D1, R2 and Queues",
+   "hn_score": 67,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  }
+ ],
+ "repeat": []
+}
