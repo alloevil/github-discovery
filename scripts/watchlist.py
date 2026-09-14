@@ -143,10 +143,13 @@ def record(observations: list[dict], today: str = None) -> int:
     today = today or _today()
     data = _load(SERIES_FILE, {"repos": {}})
     store = data.setdefault("repos", {})
-    kept = 0
+    kept, rejected = 0, []
     for obs in observations:
         name = obs.get("full_name")
-        if not name or not all(k in obs for k in FIELDS if k != "date"):
+        missing = [k for k in FIELDS if k != "date" and k not in obs]
+        if not name or missing:
+            # 静默丢弃过一个本该进序列的点，代价是整轮观察变成"observed 0" —— 说出来
+            rejected.append(f"{name or '?'}:{','.join(missing) or 'no-name'}")
             continue
         point = {"date": today, **{k: obs[k] for k in FIELDS if k != "date"}}
         history = [p for p in store.get(name, []) if p.get("date") != today]
@@ -156,6 +159,8 @@ def record(observations: list[dict], today: str = None) -> int:
         kept += 1
     if kept:
         _save(SERIES_FILE, data)
+    if rejected:
+        print(f"[Watchlist]   rejected {len(rejected)} record(s): {rejected[:3]}")
     return kept
 
 
@@ -238,6 +243,7 @@ def fetch_observation(full_name: str) -> dict | None:
     commits = _gh_api(f"/repos/{full_name}/commits", {"since": since, "per_page": 100})
     contributors = _gh_api(f"/repos/{full_name}/contributors", {"per_page": 100})
     obs = _normalize_repo(repo)
+    obs["pushed_at"] = repo.get("pushed_at", "")
     obs["commits_7d"] = len(commits) if isinstance(commits, list) else 0
     obs["contributors_7d"] = len(contributors) if isinstance(contributors, list) else 0
     obs["commits_7d_capped"] = obs["commits_7d"] >= 100

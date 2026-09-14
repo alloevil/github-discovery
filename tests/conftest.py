@@ -13,6 +13,20 @@ from unittest.mock import patch, MagicMock
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
 
+# ── watch list 的隔离 ────────────────────────────────────────────────
+
+@pytest.fixture(autouse=True)
+def isolate_watchlist(tmp_path, monkeypatch):
+    """所有测试都不许写真实 data/ —— 曾经 test_main 调 main() 时把 fixture 名写进了
+    data/watchlist.json，CI 里表现为 7 个不存在的仓库反复 404。"""
+    import watchlist as wl_mod
+    d = tmp_path / "_watchlist"
+    d.mkdir(parents=True, exist_ok=True)
+    monkeypatch.setattr(wl_mod, "WATCHLIST_FILE", d / "watchlist.json", raising=False)
+    monkeypatch.setattr(wl_mod, "SERIES_FILE", d / "watch_series.json", raising=False)
+    yield
+
+
 # ── 临时数据目录 ──────────────────────────────────────────────────────
 
 @pytest.fixture

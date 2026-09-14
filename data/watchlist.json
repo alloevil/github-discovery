@@ -1,5 +1,549 @@
 {
  "repos": {
+  "THU-MAIC/OpenMAIC": {
+   "first_seen": "2026-08-31",
+   "until": "2026-09-14",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "p-e-w/heretic": {
+   "first_seen": "2026-08-31",
+   "until": "2026-09-14",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "every-app/open-seo": {
+   "first_seen": "2026-08-31",
+   "until": "2026-09-14",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "abhigyanpatwari/GitNexus": {
+   "first_seen": "2026-08-31",
+   "until": "2026-09-14",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "sapientinc/PRAXIST": {
+   "first_seen": "2026-08-31",
+   "until": "2026-09-14",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "XiaoDuoYa/codex-with-chatgpt": {
+   "first_seen": "2026-08-31",
+   "until": "2026-09-14",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "Vuk97/forward-implementation-first": {
+   "first_seen": "2026-08-31",
+   "until": "2026-09-14",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "jub0t/Concat": {
+   "first_seen": "2026-08-31",
+   "until": "2026-09-14",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "daffainfo/vol-rs": {
+   "first_seen": "2026-08-31",
+   "until": "2026-09-14",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "experientiallabs/experiential": {
+   "first_seen": "2026-08-31",
+   "until": "2026-09-14",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "handsomestWei/patent-disclosure-skill": {
+   "first_seen": "2026-09-01",
+   "until": "2026-09-15",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "Osmantic/ODS": {
+   "first_seen": "2026-09-01",
+   "until": "2026-09-15",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "kaifcodec/user-scanner": {
+   "first_seen": "2026-09-01",
+   "until": "2026-09-15",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "pollen-robotics/microduck_rl": {
+   "first_seen": "2026-09-01",
+   "until": "2026-09-15",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "majd/ipatool": {
+   "first_seen": "2026-09-01",
+   "until": "2026-09-15",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "checkstyle/checkstyle": {
+   "first_seen": "2026-09-01",
+   "until": "2026-09-15",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "soirihiroka/shrimply": {
+   "first_seen": "2026-09-01",
+   "until": "2026-09-15",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "jlrouzies-fr/DLSS5-Feeder": {
+   "first_seen": "2026-09-01",
+   "until": "2026-09-15",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "mizorewww/course2md": {
+   "first_seen": "2026-09-01",
+   "until": "2026-09-15",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "jingyaogong/minimind": {
+   "first_seen": "2026-09-02",
+   "until": "2026-09-16",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "Git-Agni/prod-FARM-IOS-Core": {
+   "first_seen": "2026-09-02",
+   "until": "2026-09-16",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "brayonpi/hexstellar": {
+   "first_seen": "2026-09-02",
+   "until": "2026-09-16",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "unclecode/crawl4ai": {
+   "first_seen": "2026-09-02",
+   "until": "2026-09-16",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "2akouwu/codex-cli-portable-setup-kit": {
+   "first_seen": "2026-09-02",
+   "until": "2026-09-16",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "faisalkindi/DLSS5oneclick": {
+   "first_seen": "2026-09-02",
+   "until": "2026-09-16",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "Merserk/dlss5-visual-enhancer": {
+   "first_seen": "2026-09-02",
+   "until": "2026-09-16",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "Gitlawb/openclaude": {
+   "first_seen": "2026-09-02",
+   "until": "2026-09-16",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "VoltAgent/awesome-design-md": {
+   "first_seen": "2026-09-02",
+   "until": "2026-09-16",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "anthropics/commerce-agents": {
+   "first_seen": "2026-09-03",
+   "until": "2026-09-17",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "2akouwu/reverify": {
+   "first_seen": "2026-09-03",
+   "until": "2026-09-17",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "ZJU-REAL/Easel": {
+   "first_seen": "2026-09-03",
+   "until": "2026-09-17",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "Imbad0202/academic-research-skills": {
+   "first_seen": "2026-09-03",
+   "until": "2026-09-17",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "lnkiai/m3e-canvas": {
+   "first_seen": "2026-09-03",
+   "until": "2026-09-17",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "subsy/skill-cabinet": {
+   "first_seen": "2026-09-03",
+   "until": "2026-09-17",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "aaronyi97/image-story-video-wizard": {
+   "first_seen": "2026-09-03",
+   "until": "2026-09-17",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "rakanki911/DLSS5-Swapper": {
+   "first_seen": "2026-09-03",
+   "until": "2026-09-17",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "richiemcilroy/chippytea": {
+   "first_seen": "2026-09-03",
+   "until": "2026-09-17",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "kydlikebtc/awesome-grokbot": {
+   "first_seen": "2026-09-03",
+   "until": "2026-09-17",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "fmtlib/fmt": {
+   "first_seen": "2026-09-04",
+   "until": "2026-09-18",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "blader/humanizer": {
+   "first_seen": "2026-09-04",
+   "until": "2026-09-18",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "debpalash/VoiceStudio": {
+   "first_seen": "2026-09-04",
+   "until": "2026-09-18",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "google-research/timesfm": {
+   "first_seen": "2026-09-04",
+   "until": "2026-09-18",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "averygan/reclip": {
+   "first_seen": "2026-09-04",
+   "until": "2026-09-18",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "MSNightmare/FalconFlank": {
+   "first_seen": "2026-09-04",
+   "until": "2026-09-18",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "PhiloLabs/fable51-worlds": {
+   "first_seen": "2026-09-04",
+   "until": "2026-09-18",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "codejunkie99/fable-orchestrator": {
+   "first_seen": "2026-09-04",
+   "until": "2026-09-18",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "Albert-Weasker/niubigeo": {
+   "first_seen": "2026-09-04",
+   "until": "2026-09-18",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "nahrek/polyledger": {
+   "first_seen": "2026-09-04",
+   "until": "2026-09-18",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "magnitudedev/magnitude": {
+   "first_seen": "2026-09-05",
+   "until": "2026-09-19",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "ahujasid/camera-to-blender": {
+   "first_seen": "2026-09-05",
+   "until": "2026-09-19",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "anthropics/fermats-last-theorem": {
+   "first_seen": "2026-09-05",
+   "until": "2026-09-19",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "kajisho5/ffmpeg-skill": {
+   "first_seen": "2026-09-05",
+   "until": "2026-09-19",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "Rion-Wu-tech/wechat-intelligence-hub": {
+   "first_seen": "2026-09-05",
+   "until": "2026-09-19",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "bannedbook/fanqiang": {
+   "first_seen": "2026-09-05",
+   "until": "2026-09-19",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "anomalyco/opencode": {
+   "first_seen": "2026-09-05",
+   "until": "2026-09-19",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "pipicat613/MuToolsProject": {
+   "first_seen": "2026-09-05",
+   "until": "2026-09-19",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "Agenta-AI/awesome-ai-agent-platforms": {
+   "first_seen": "2026-09-05",
+   "until": "2026-09-19",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "0x6rss/instagram-private-graph": {
+   "first_seen": "2026-09-05",
+   "until": "2026-09-19",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "ashemag/human-atlas": {
+   "first_seen": "2026-09-06",
+   "until": "2026-09-20",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "pierrenade/short-video-generator-AI": {
+   "first_seen": "2026-09-06",
+   "until": "2026-09-20",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "Appllama/liquid-glass-screens": {
+   "first_seen": "2026-09-06",
+   "until": "2026-09-20",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark": {
+   "first_seen": "2026-09-06",
+   "until": "2026-09-20",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "gioblu/NPC-Forge": {
+   "first_seen": "2026-09-06",
+   "until": "2026-09-20",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "byJoey/warp-masque-actions": {
+   "first_seen": "2026-09-06",
+   "until": "2026-09-20",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "hsandhu/mobilecode": {
+   "first_seen": "2026-09-06",
+   "until": "2026-09-20",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "sebbbi/NoGraphicsAPI": {
+   "first_seen": "2026-09-06",
+   "until": "2026-09-20",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "brendazure/robinhood-meme-token-stock-launchpad": {
+   "first_seen": "2026-09-06",
+   "until": "2026-09-20",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
+  "johnj-eng96n9/Discord-Token-Generator": {
+   "first_seen": "2026-09-06",
+   "until": "2026-09-20",
+   "stars_at_discovery": null,
+   "score_at_discovery": null,
+   "source_at_discovery": "",
+   "backfilled": true
+  },
   "BraveOPotato/FckSignups": {
    "first_seen": "2026-09-07",
    "until": "2026-09-21",
@@ -559,586 +1103,7 @@
    "score_at_discovery": null,
    "source_at_discovery": "",
    "backfilled": true
-  },
-  "hot/rocket": {
-   "first_seen": "2026-09-14",
-   "until": "2026-09-28",
-   "stars_at_discovery": 900,
-   "score_at_discovery": 94,
-   "source_at_discovery": "trending"
-  },
-  "ok/steady": {
-   "first_seen": "2026-09-14",
-   "until": "2026-09-28",
-   "stars_at_discovery": 300,
-   "score_at_discovery": 72,
-   "source_at_discovery": "search"
-  },
-  "meh/slow": {
-   "first_seen": "2026-09-14",
-   "until": "2026-09-28",
-   "stars_at_discovery": 50,
-   "score_at_discovery": 63,
-   "source_at_discovery": "hn"
-  },
-  "brand/new": {
-   "first_seen": "2026-09-14",
-   "until": "2026-09-28",
-   "stars_at_discovery": 500,
-   "score_at_discovery": 86,
-   "source_at_discovery": "trending"
-  },
-  "seen/before": {
-   "first_seen": "2026-09-14",
-   "until": "2026-09-28",
-   "stars_at_discovery": 800,
-   "score_at_discovery": 78,
-   "source_at_discovery": "trending"
-  },
-  "THU-MAIC/OpenMAIC": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "p-e-w/heretic": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "every-app/open-seo": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "abhigyanpatwari/GitNexus": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "sapientinc/PRAXIST": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "XiaoDuoYa/codex-with-chatgpt": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Vuk97/forward-implementation-first": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "jub0t/Concat": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "daffainfo/vol-rs": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "experientiallabs/experiential": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "handsomestWei/patent-disclosure-skill": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Osmantic/ODS": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "kaifcodec/user-scanner": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "pollen-robotics/microduck_rl": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "majd/ipatool": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "checkstyle/checkstyle": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "soirihiroka/shrimply": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "jlrouzies-fr/DLSS5-Feeder": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "mizorewww/course2md": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "jingyaogong/minimind": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Git-Agni/prod-FARM-IOS-Core": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "brayonpi/hexstellar": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "unclecode/crawl4ai": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "2akouwu/codex-cli-portable-setup-kit": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "faisalkindi/DLSS5oneclick": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Merserk/dlss5-visual-enhancer": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Gitlawb/openclaude": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "VoltAgent/awesome-design-md": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "anthropics/commerce-agents": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "2akouwu/reverify": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "ZJU-REAL/Easel": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Imbad0202/academic-research-skills": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "lnkiai/m3e-canvas": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "subsy/skill-cabinet": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "aaronyi97/image-story-video-wizard": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "rakanki911/DLSS5-Swapper": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "richiemcilroy/chippytea": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "kydlikebtc/awesome-grokbot": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "fmtlib/fmt": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "blader/humanizer": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "debpalash/VoiceStudio": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "google-research/timesfm": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "averygan/reclip": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "MSNightmare/FalconFlank": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "PhiloLabs/fable51-worlds": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "codejunkie99/fable-orchestrator": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Albert-Weasker/niubigeo": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "nahrek/polyledger": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "magnitudedev/magnitude": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "ahujasid/camera-to-blender": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "anthropics/fermats-last-theorem": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "kajisho5/ffmpeg-skill": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Rion-Wu-tech/wechat-intelligence-hub": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "bannedbook/fanqiang": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "anomalyco/opencode": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "pipicat613/MuToolsProject": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Agenta-AI/awesome-ai-agent-platforms": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "0x6rss/instagram-private-graph": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "ashemag/human-atlas": {
-   "first_seen": "2026-09-06",
-   "until": "2026-09-20",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "pierrenade/short-video-generator-AI": {
-   "first_seen": "2026-09-06",
-   "until": "2026-09-20",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Appllama/liquid-glass-screens": {
-   "first_seen": "2026-09-06",
-   "until": "2026-09-20",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark": {
-   "first_seen": "2026-09-06",
-   "until": "2026-09-20",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "gioblu/NPC-Forge": {
-   "first_seen": "2026-09-06",
-   "until": "2026-09-20",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "byJoey/warp-masque-actions": {
-   "first_seen": "2026-09-06",
-   "until": "2026-09-20",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "hsandhu/mobilecode": {
-   "first_seen": "2026-09-06",
-   "until": "2026-09-20",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "sebbbi/NoGraphicsAPI": {
-   "first_seen": "2026-09-06",
-   "until": "2026-09-20",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "brendazure/robinhood-meme-token-stock-launchpad": {
-   "first_seen": "2026-09-06",
-   "until": "2026-09-20",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "johnj-eng96n9/Discord-Token-Generator": {
-   "first_seen": "2026-09-06",
-   "until": "2026-09-20",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
   }
  },
- "updated_at": "2026-09-14T06:49:17.797515+00:00"
+ "updated_at": "2026-09-14T06:55:13.932127+00:00"
 }
