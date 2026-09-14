@@ -1,0 +1,342 @@
+{
+ "date": "2026-09-14",
+ "generated_at": "2026-09-14T06:57:15.033489",
+ "new": [
+  {
+   "full_name": "asgeirtj/system_prompts_leaks",
+   "url": "https://github.com/asgeirtj/system_prompts_leaks",
+   "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
+   "language": "JavaScript",
+   "stars": 66282,
+   "forks": 10825,
+   "age_days": 499,
+   "daily_stars": 132.82965931863728,
+   "real_daily_stars": 614.0,
+   "watchers": 750,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "CC0-1.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "vxcontrol/pentagi",
+   "url": "https://github.com/vxcontrol/pentagi",
+   "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+   "language": "Go",
+   "stars": 24172,
+   "forks": 3112,
+   "age_days": 615,
+   "daily_stars": 39.30406504065041,
+   "real_daily_stars": 539.0,
+   "watchers": 145,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "multimodal-art-projection/YuE",
+   "url": "https://github.com/multimodal-art-projection/YuE",
+   "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+   "language": "Python",
+   "stars": 7939,
+   "forks": 878,
+   "age_days": 599,
+   "daily_stars": 13.253756260434058,
+   "real_daily_stars": 474.0,
+   "watchers": 82,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "SnailSploit/Claude-Red",
+   "url": "https://github.com/SnailSploit/Claude-Red",
+   "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+   "language": "Python",
+   "stars": 4304,
+   "forks": 603,
+   "age_days": 194,
+   "daily_stars": 22.185567010309278,
+   "real_daily_stars": 508.0,
+   "watchers": 37,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "alphaXiv/OpenResearch",
+   "url": "https://github.com/alphaXiv/OpenResearch",
+   "description": "Turn your coding agents into research agents",
+   "language": "Rust",
+   "stars": 2252,
+   "forks": 151,
+   "age_days": 99,
+   "daily_stars": 22.747474747474747,
+   "real_daily_stars": 394.0,
+   "watchers": 8,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "yuliskov/SmartTube",
+   "url": "https://github.com/yuliskov/SmartTube",
+   "description": "Browse media content with your own rules on Android TV",
+   "language": "Java",
+   "stars": 33533,
+   "forks": 2038,
+   "age_days": 2238,
+   "daily_stars": 14.983467381590707,
+   "real_daily_stars": 249.0,
+   "watchers": 295,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 97,
+    "acceleration": 37,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "yifanzhang-pro/recurrent-looped-tranformer",
+   "url": "https://github.com/yifanzhang-pro/recurrent-looped-tranformer",
+   "description": "Official Project Page for Recurrent Looped Transformer (RLT)",
+   "language": "HTML",
+   "stars": 619,
+   "forks": 66,
+   "age_days": 1,
+   "daily_stars": 619.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "eternityspring/reelbench-skills",
+   "url": "https://github.com/eternityspring/reelbench-skills",
+   "description": "Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill",
+   "language": "HTML",
+   "stars": 582,
+   "forks": 79,
+   "age_days": 3,
+   "daily_stars": 194.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "unstablebuild/rune",
+   "url": "https://github.com/unstablebuild/rune",
+   "description": "the development environment for pros",
+   "language": "Go",
+   "stars": 484,
+   "forks": 27,
+   "age_days": 3,
+   "daily_stars": 161.33333333333334,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "suoha888/CJ-DeFi-Handbook",
+   "url": "https://github.com/suoha888/CJ-DeFi-Handbook",
+   "description": "CJ DeFi 做市与套利实战手册 · 顶级高手 CJ（@gch_enbsbxbs）502篇推文体系化精解与全量开源数据集",
+   "language": "HTML",
+   "stars": 116,
+   "forks": 55,
+   "age_days": 1,
+   "daily_stars": 116.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "language": "Python",
+   "stars": 27579,
+   "forks": 3395,
+   "age_days": 157,
+   "daily_stars": 175.6624203821656,
+   "real_daily_stars": 1020.0,
+   "watchers": 116,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "calesthio/OpenMontage",
+   "url": "https://github.com/calesthio/OpenMontage",
+   "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+   "language": "Python",
+   "stars": 58736,
+   "forks": 7378,
+   "age_days": 168,
+   "daily_stars": 349.6190476190476,
+   "real_daily_stars": 293.26666666666665,
+   "watchers": 324,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  }
+ ]
+}

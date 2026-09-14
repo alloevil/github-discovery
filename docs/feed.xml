@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-13T18:00:00Z</updated>
+  <updated>2026-09-14T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>asgeirtj/system_prompts_leaks — Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.</title>
+    <id>https://github.com/asgeirtj/system_prompts_leaks#2026-09-14</id>
+    <link rel="alternate" type="text/html" href="https://github.com/asgeirtj/system_prompts_leaks"/>
+    <updated>2026-09-14T18:00:00Z</updated>
+    <published>2026-09-14T18:00:00Z</published>
+    <summary>Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.
+
+Why: +614/day · Trending · 4.6x accelerating
+Score: 100/100 | Language: JavaScript | ⭐ 66282 (+614.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>vxcontrol/pentagi — Fully autonomous AI Agents system capable of performing complex penetration testing tasks</title>
+    <id>https://github.com/vxcontrol/pentagi#2026-09-14</id>
+    <link rel="alternate" type="text/html" href="https://github.com/vxcontrol/pentagi"/>
+    <updated>2026-09-14T18:00:00Z</updated>
+    <published>2026-09-14T18:00:00Z</published>
+    <summary>Fully autonomous AI Agents system capable of performing complex penetration testing tasks
+
+Why: +539/day · Trending · 13.7x accelerating
+Score: 100/100 | Language: Go | ⭐ 24172 (+539.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>multimodal-art-projection/YuE — YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.</title>
+    <id>https://github.com/multimodal-art-projection/YuE#2026-09-14</id>
+    <link rel="alternate" type="text/html" href="https://github.com/multimodal-art-projection/YuE"/>
+    <updated>2026-09-14T18:00:00Z</updated>
+    <published>2026-09-14T18:00:00Z</published>
+    <summary>YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.
+
+Why: +474/day · Trending · 35.8x accelerating
+Score: 100/100 | Language: Python | ⭐ 7939 (+474.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>SnailSploit/Claude-Red — claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.</title>
+    <id>https://github.com/SnailSploit/Claude-Red#2026-09-14</id>
+    <link rel="alternate" type="text/html" href="https://github.com/SnailSploit/Claude-Red"/>
+    <updated>2026-09-14T18:00:00Z</updated>
+    <published>2026-09-14T18:00:00Z</published>
+    <summary>claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.
+
+Why: +508/day · Trending · 22.9x accelerating
+Score: 100/100 | Language: Python | ⭐ 4304 (+508.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>alphaXiv/OpenResearch — Turn your coding agents into research agents</title>
+    <id>https://github.com/alphaXiv/OpenResearch#2026-09-14</id>
+    <link rel="alternate" type="text/html" href="https://github.com/alphaXiv/OpenResearch"/>
+    <updated>2026-09-14T18:00:00Z</updated>
+    <published>2026-09-14T18:00:00Z</published>
+    <summary>Turn your coding agents into research agents
+
+Why: +394/day · Trending · 17.3x accelerating
+Score: 99/100 | Language: Rust | ⭐ 2252 (+394.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>debpalash/VoiceStudio — VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.</title>
+    <id>https://github.com/debpalash/VoiceStudio#2026-09-14</id>
+    <link rel="alternate" type="text/html" href="https://github.com/debpalash/VoiceStudio"/>
+    <updated>2026-09-14T18:00:00Z</updated>
+    <published>2026-09-14T18:00:00Z</published>
+    <summary>VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.
+
+Why: +1020/day · Trending · 5.8x accelerating
+Score: 100/100 | Language: Python | ⭐ 27579 (+1020.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>calesthio/OpenMontage — World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.</title>
+    <id>https://github.com/calesthio/OpenMontage#2026-09-14</id>
+    <link rel="alternate" type="text/html" href="https://github.com/calesthio/OpenMontage"/>
+    <updated>2026-09-14T18:00:00Z</updated>
+    <published>2026-09-14T18:00:00Z</published>
+    <summary>World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.
+
+Why: +293/day · Trending
+Score: 87/100 | Language: Python | ⭐ 58736 (+293.3/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>melgarafael/DeskcommCRM — Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk &amp; Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.</title>
     <id>https://github.com/melgarafael/DeskcommCRM#2026-09-13</id>
@@ -921,60 +998,5 @@ Score: 92/100 | Language: Rust | ⭐ 17609 (+198.8/day) | Source: trending</summ
 
 Why: +352/day · Trending
 Score: 88/100 | Language: JavaScript | ⭐ 245466 (+352.1/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>THU-MAIC/OpenMAIC — Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click</title>
-    <id>https://github.com/THU-MAIC/OpenMAIC#2026-08-31</id>
-    <link rel="alternate" type="text/html" href="https://github.com/THU-MAIC/OpenMAIC"/>
-    <updated>2026-08-31T18:00:00Z</updated>
-    <published>2026-08-31T18:00:00Z</published>
-    <summary>Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
-
-Why: +2854/day · Trending · 19.3x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 25597 (+2854.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>p-e-w/heretic — Fully automatic censorship removal for language models</title>
-    <id>https://github.com/p-e-w/heretic#2026-08-31</id>
-    <link rel="alternate" type="text/html" href="https://github.com/p-e-w/heretic"/>
-    <updated>2026-08-31T18:00:00Z</updated>
-    <published>2026-08-31T18:00:00Z</published>
-    <summary>Fully automatic censorship removal for language models
-
-Why: +541/day · Trending · 6.3x accelerating
-Score: 100/100 | Language: Python | ⭐ 29406 (+541.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>every-app/open-seo — Open source alternative to Semrush and Ahrefs</title>
-    <id>https://github.com/every-app/open-seo#2026-08-31</id>
-    <link rel="alternate" type="text/html" href="https://github.com/every-app/open-seo"/>
-    <updated>2026-08-31T18:00:00Z</updated>
-    <published>2026-08-31T18:00:00Z</published>
-    <summary>Open source alternative to Semrush and Ahrefs
-
-Why: +631/day · Trending · 7.5x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 15456 (+631.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>abhigyanpatwari/GitNexus — GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration</title>
-    <id>https://github.com/abhigyanpatwari/GitNexus#2026-08-31</id>
-    <link rel="alternate" type="text/html" href="https://github.com/abhigyanpatwari/GitNexus"/>
-    <updated>2026-08-31T18:00:00Z</updated>
-    <published>2026-08-31T18:00:00Z</published>
-    <summary>GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration
-
-Why: +224/day · Trending · 1.9x accelerating
-Score: 91/100 | Language: TypeScript | ⭐ 46721 (+224.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>sapientinc/PRAXIST — Autonomous research system for measurable, computer-executable research.</title>
-    <id>https://github.com/sapientinc/PRAXIST#2026-08-31</id>
-    <link rel="alternate" type="text/html" href="https://github.com/sapientinc/PRAXIST"/>
-    <updated>2026-08-31T18:00:00Z</updated>
-    <published>2026-08-31T18:00:00Z</published>
-    <summary>Autonomous research system for measurable, computer-executable research.
-
-Why: +1585/day · Search
-Score: 90/100 | Language: Python | ⭐ 4815 (+1585.0/day) | Source: search</summary>
   </entry>
 </feed>

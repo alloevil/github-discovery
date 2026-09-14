@@ -72,14 +72,6 @@
       ],
       "last_recommended": "2026-09-11T09:10:30.512562+00:00"
     },
-    "citrolabs/ego-lite": {
-      "count": 2,
-      "scores": [
-        100,
-        72
-      ],
-      "last_recommended": "2026-08-15T05:03:12.205560+00:00"
-    },
     "virgiliojr94/book-to-skill": {
       "count": 2,
       "scores": [
@@ -146,12 +138,13 @@
       "last_recommended": "2026-09-10T09:12:26.868049+00:00"
     },
     "calesthio/OpenMontage": {
-      "count": 2,
+      "count": 3,
       "scores": [
         100,
-        88
+        88,
+        87
       ],
-      "last_recommended": "2026-08-27T15:32:28.613766+00:00"
+      "last_recommended": "2026-09-14T06:57:14.889338+00:00"
     },
     "cathrynlavery/diagram-design": {
       "count": 2,
@@ -176,69 +169,6 @@
         89
       ],
       "last_recommended": "2026-09-12T08:51:47.497781+00:00"
-    },
-    "megadose/holehe": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-15T05:03:12.179559+00:00"
-    },
-    "lightningpixel/modly": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-15T05:03:12.182666+00:00"
-    },
-    "unslothai/unsloth": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-15T05:03:12.185559+00:00"
-    },
-    "awesome-dsh-plugin/awesome-dsh-plugin": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-15T05:03:12.188475+00:00"
-    },
-    "xiaobright/dsh-anchored-standard": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-15T05:03:12.191451+00:00"
-    },
-    "vercel-labs/eve-software-factory-template": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-15T05:03:12.194372+00:00"
-    },
-    "Awaker-OTE/WakeGPT": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-15T05:03:12.197541+00:00"
-    },
-    "guillaumemeyer/watermarks-remover": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-15T05:03:12.200541+00:00"
-    },
-    "NanmiCoder/dsh-agent-teams": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-15T05:03:12.203574+00:00"
     },
     "ToolJet/ToolJet": {
       "count": 1,
@@ -1596,11 +1526,12 @@
       "last_recommended": "2026-09-04T09:04:30.182238+00:00"
     },
     "debpalash/VoiceStudio": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-09-04T09:04:30.184234+00:00"
+      "last_recommended": "2026-09-14T06:57:14.887327+00:00"
     },
     "google-research/timesfm": {
       "count": 1,
@@ -2280,7 +2211,77 @@
         87
       ],
       "last_recommended": "2026-09-13T09:45:07.966641+00:00"
+    },
+    "asgeirtj/system_prompts_leaks": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-14T06:57:14.867028+00:00"
+    },
+    "vxcontrol/pentagi": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-14T06:57:14.869208+00:00"
+    },
+    "multimodal-art-projection/YuE": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-14T06:57:14.871204+00:00"
+    },
+    "SnailSploit/Claude-Red": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-14T06:57:14.873189+00:00"
+    },
+    "alphaXiv/OpenResearch": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-09-14T06:57:14.875177+00:00"
+    },
+    "yuliskov/SmartTube": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-09-14T06:57:14.877234+00:00"
+    },
+    "yifanzhang-pro/recurrent-looped-tranformer": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-14T06:57:14.879228+00:00"
+    },
+    "eternityspring/reelbench-skills": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-14T06:57:14.881259+00:00"
+    },
+    "unstablebuild/rune": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-14T06:57:14.883252+00:00"
+    },
+    "suoha888/CJ-DeFi-Handbook": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-14T06:57:14.885304+00:00"
     }
   },
-  "updated_at": "2026-09-13T09:45:07.966667+00:00"
+  "updated_at": "2026-09-14T06:57:14.889363+00:00"
 }

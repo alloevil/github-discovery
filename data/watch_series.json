@@ -1,1 +1,1611 @@
-{"repos": {}, "updated_at": ""}
+{
+ "repos": {
+  "0x6rss/instagram-private-graph": [
+   {
+    "date": "2026-09-14",
+    "stars": 398,
+    "forks": 50,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-03T16:50:32Z"
+   }
+  ],
+  "2akouwu/reverify": [
+   {
+    "date": "2026-09-14",
+    "stars": 1194,
+    "forks": 233,
+    "open_issues": 7,
+    "commits_7d": 1,
+    "contributors_7d": 3,
+    "pushed_at": "2026-09-07T10:12:07Z"
+   }
+  ],
+  "AI-FanGe/Microduck-build-tutorial": [
+   {
+    "date": "2026-09-14",
+    "stars": 830,
+    "forks": 217,
+    "open_issues": 9,
+    "commits_7d": 10,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-11T07:51:37Z"
+   }
+  ],
+  "Agenta-AI/awesome-ai-agent-platforms": [
+   {
+    "date": "2026-09-14",
+    "stars": 222,
+    "forks": 7,
+    "open_issues": 5,
+    "commits_7d": 0,
+    "contributors_7d": 2,
+    "pushed_at": "2026-09-03T16:17:23Z"
+   }
+  ],
+  "Albert-Weasker/niubigeo": [
+   {
+    "date": "2026-09-14",
+    "stars": 2399,
+    "forks": 95,
+    "open_issues": 11,
+    "commits_7d": 5,
+    "contributors_7d": 3,
+    "pushed_at": "2026-09-09T09:54:11Z"
+   }
+  ],
+  "Appllama/liquid-glass-screens": [
+   {
+    "date": "2026-09-14",
+    "stars": 289,
+    "forks": 29,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-05T07:31:04Z"
+   }
+  ],
+  "BoardUI/boardui": [
+   {
+    "date": "2026-09-14",
+    "stars": 437,
+    "forks": 51,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-05T17:06:44Z"
+   }
+  ],
+  "BraveOPotato/FckSignups": [
+   {
+    "date": "2026-09-14",
+    "stars": 4238,
+    "forks": 248,
+    "open_issues": 576,
+    "commits_7d": 7,
+    "contributors_7d": 8,
+    "pushed_at": "2026-09-10T02:47:44Z"
+   }
+  ],
+  "Chuloo/mural": [
+   {
+    "date": "2026-09-14",
+    "stars": 317,
+    "forks": 93,
+    "open_issues": 13,
+    "commits_7d": 16,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-14T06:11:53Z"
+   }
+  ],
+  "Colafornia/short-video-generator-AI": [
+   {
+    "date": "2026-09-14",
+    "stars": 723,
+    "forks": 112,
+    "open_issues": 0,
+    "commits_7d": 8,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-08T15:05:46Z"
+   }
+  ],
+  "DefiLeoo/YOINK": [
+   {
+    "date": "2026-09-14",
+    "stars": 358,
+    "forks": 21,
+    "open_issues": 1,
+    "commits_7d": 5,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-13T22:56:45Z"
+   }
+  ],
+  "Edge0-AI/Edge0": [
+   {
+    "date": "2026-09-14",
+    "stars": 1631,
+    "forks": 129,
+    "open_issues": 14,
+    "commits_7d": 67,
+    "contributors_7d": 5,
+    "pushed_at": "2026-09-14T04:50:40Z"
+   }
+  ],
+  "EverettFish/holo-card-studio": [
+   {
+    "date": "2026-09-14",
+    "stars": 1509,
+    "forks": 213,
+    "open_issues": 3,
+    "commits_7d": 9,
+    "contributors_7d": 3,
+    "pushed_at": "2026-09-12T04:56:38Z"
+   }
+  ],
+  "Git-Agni/prod-FARM-IOS-Core": [
+   {
+    "date": "2026-09-14",
+    "stars": 1195,
+    "forks": 231,
+    "open_issues": 2,
+    "commits_7d": 2,
+    "contributors_7d": 3,
+    "pushed_at": "2026-09-07T10:50:41Z"
+   }
+  ],
+  "Gitlawb/openclaude": [
+   {
+    "date": "2026-09-14",
+    "stars": 33255,
+    "forks": 9080,
+    "open_issues": 77,
+    "commits_7d": 5,
+    "contributors_7d": 100,
+    "pushed_at": "2026-09-12T00:23:11Z"
+   }
+  ],
+  "Imbad0202/academic-research-skills": [
+   {
+    "date": "2026-09-14",
+    "stars": 47922,
+    "forks": 3733,
+    "open_issues": 32,
+    "commits_7d": 16,
+    "contributors_7d": 19,
+    "pushed_at": "2026-09-14T03:57:39Z"
+   }
+  ],
+  "Jarvis322/macos-sysdata": [
+   {
+    "date": "2026-09-14",
+    "stars": 693,
+    "forks": 33,
+    "open_issues": 0,
+    "commits_7d": 76,
+    "contributors_7d": 5,
+    "pushed_at": "2026-09-13T17:32:19Z"
+   }
+  ],
+  "JustVugg/colibri": [
+   {
+    "date": "2026-09-14",
+    "stars": 30415,
+    "forks": 3286,
+    "open_issues": 127,
+    "commits_7d": 100,
+    "contributors_7d": 100,
+    "pushed_at": "2026-09-14T00:59:24Z"
+   }
+  ],
+  "LBEILC/RhineLabUI": [
+   {
+    "date": "2026-09-14",
+    "stars": 476,
+    "forks": 61,
+    "open_issues": 0,
+    "commits_7d": 83,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-14T03:48:21Z"
+   }
+  ],
+  "MSNightmare/FalconFlank": [
+   {
+    "date": "2026-09-14",
+    "stars": 606,
+    "forks": 161,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-03T03:44:38Z"
+   }
+  ],
+  "Mantitup-Org/vista": [
+   {
+    "date": "2026-09-14",
+    "stars": 908,
+    "forks": 15,
+    "open_issues": 18,
+    "commits_7d": 0,
+    "contributors_7d": 3,
+    "pushed_at": "2026-09-06T19:34:53Z"
+   }
+  ],
+  "Merserk/dlss5-visual-enhancer": [
+   {
+    "date": "2026-09-14",
+    "stars": 816,
+    "forks": 68,
+    "open_issues": 22,
+    "commits_7d": 9,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-13T16:09:51Z"
+   }
+  ],
+  "MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark": [
+   {
+    "date": "2026-09-14",
+    "stars": 359,
+    "forks": 53,
+    "open_issues": 38,
+    "commits_7d": 4,
+    "contributors_7d": 2,
+    "pushed_at": "2026-09-10T15:32:38Z"
+   }
+  ],
+  "MoonTechLab/LunaTV": [
+   {
+    "date": "2026-09-14",
+    "stars": 10432,
+    "forks": 9089,
+    "open_issues": 6,
+    "commits_7d": 21,
+    "contributors_7d": 4,
+    "pushed_at": "2026-09-10T07:57:24Z"
+   }
+  ],
+  "OpenWAM-Official/OpenWAM": [
+   {
+    "date": "2026-09-14",
+    "stars": 638,
+    "forks": 23,
+    "open_issues": 1,
+    "commits_7d": 62,
+    "contributors_7d": 20,
+    "pushed_at": "2026-09-12T16:20:06Z"
+   }
+  ],
+  "Osmantic/ODS": [
+   {
+    "date": "2026-09-14",
+    "stars": 6459,
+    "forks": 925,
+    "open_issues": 2470,
+    "commits_7d": 0,
+    "contributors_7d": 57,
+    "pushed_at": "2026-09-14T06:17:33Z"
+   }
+  ],
+  "PhiloLabs/fable51-worlds": [
+   {
+    "date": "2026-09-14",
+    "stars": 487,
+    "forks": 31,
+    "open_issues": 4,
+    "commits_7d": 4,
+    "contributors_7d": 2,
+    "pushed_at": "2026-09-09T05:47:19Z"
+   }
+  ],
+  "Phyzicalorg/Phyzical_org": [
+   {
+    "date": "2026-09-14",
+    "stars": 286,
+    "forks": 0,
+    "open_issues": 0,
+    "commits_7d": 1,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-09T13:16:18Z"
+   }
+  ],
+  "Rion-Wu-tech/wechat-intelligence-hub": [
+   {
+    "date": "2026-09-14",
+    "stars": 2135,
+    "forks": 2595,
+    "open_issues": 6,
+    "commits_7d": 2,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-11T18:44:51Z"
+   }
+  ],
+  "Sadpainy/Stuxnet": [
+   {
+    "date": "2026-09-14",
+    "stars": 485,
+    "forks": 89,
+    "open_issues": 0,
+    "commits_7d": 98,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-13T09:16:36Z"
+   }
+  ],
+  "ScottStevenson/SuperAstra": [
+   {
+    "date": "2026-09-14",
+    "stars": 263,
+    "forks": 31,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-06T18:41:51Z"
+   }
+  ],
+  "SnailSploit/Claude-Red": [
+   {
+    "date": "2026-09-14",
+    "stars": 4304,
+    "forks": 603,
+    "open_issues": 13,
+    "commits_7d": 0,
+    "contributors_7d": 5,
+    "pushed_at": "2026-08-30T11:02:24Z"
+   }
+  ],
+  "Sonarr/Sonarr": [
+   {
+    "date": "2026-09-14",
+    "stars": 16103,
+    "forks": 1961,
+    "open_issues": 90,
+    "commits_7d": 8,
+    "contributors_7d": 100,
+    "pushed_at": "2026-09-14T00:30:05Z"
+   }
+  ],
+  "Sophomoresty/turnstile-bypass": [
+   {
+    "date": "2026-09-14",
+    "stars": 451,
+    "forks": 161,
+    "open_issues": 0,
+    "commits_7d": 7,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-07T20:26:10Z"
+   }
+  ],
+  "SpaceDudem/text-humanizer": [
+   {
+    "date": "2026-09-14",
+    "stars": 740,
+    "forks": 110,
+    "open_issues": 4,
+    "commits_7d": 9,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-08T15:37:07Z"
+   }
+  ],
+  "THU-MAIC/OpenMAIC": [
+   {
+    "date": "2026-09-14",
+    "stars": 36600,
+    "forks": 5797,
+    "open_issues": 264,
+    "commits_7d": 28,
+    "contributors_7d": 86,
+    "pushed_at": "2026-09-14T03:51:16Z"
+   }
+  ],
+  "Tencent/teamai-cli": [
+   {
+    "date": "2026-09-14",
+    "stars": 4445,
+    "forks": 309,
+    "open_issues": 31,
+    "commits_7d": 100,
+    "contributors_7d": 45,
+    "pushed_at": "2026-09-14T06:26:41Z"
+   }
+  ],
+  "The-Swarm-Corporation/AutoHedge": [
+   {
+    "date": "2026-09-14",
+    "stars": 6073,
+    "forks": 876,
+    "open_issues": 22,
+    "commits_7d": 0,
+    "contributors_7d": 2,
+    "pushed_at": "2026-05-11T05:44:09Z"
+   }
+  ],
+  "Vincentwei1021/anything2explainer": [
+   {
+    "date": "2026-09-14",
+    "stars": 1210,
+    "forks": 211,
+    "open_issues": 0,
+    "commits_7d": 20,
+    "contributors_7d": 2,
+    "pushed_at": "2026-09-13T03:23:06Z"
+   }
+  ],
+  "VoltAgent/awesome-design-md": [
+   {
+    "date": "2026-09-14",
+    "stars": 115756,
+    "forks": 13008,
+    "open_issues": 322,
+    "commits_7d": 0,
+    "contributors_7d": 4,
+    "pushed_at": "2026-07-31T12:32:42Z"
+   }
+  ],
+  "Vuk97/forward-implementation-first": [
+   {
+    "date": "2026-09-14",
+    "stars": 166,
+    "forks": 4,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 0,
+    "pushed_at": "2026-08-31T13:46:22Z"
+   }
+  ],
+  "XiaoDuoYa/codex-with-chatgpt": [
+   {
+    "date": "2026-09-14",
+    "stars": 4240,
+    "forks": 443,
+    "open_issues": 16,
+    "commits_7d": 6,
+    "contributors_7d": 10,
+    "pushed_at": "2026-09-13T03:22:46Z"
+   }
+  ],
+  "ZJU-REAL/Easel": [
+   {
+    "date": "2026-09-14",
+    "stars": 1070,
+    "forks": 144,
+    "open_issues": 4,
+    "commits_7d": 15,
+    "contributors_7d": 4,
+    "pushed_at": "2026-09-12T02:53:16Z"
+   }
+  ],
+  "aaronyi97/image-story-video-wizard": [
+   {
+    "date": "2026-09-14",
+    "stars": 338,
+    "forks": 54,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 0,
+    "pushed_at": "2026-09-02T13:12:58Z"
+   }
+  ],
+  "abhigyanpatwari/GitNexus": [
+   {
+    "date": "2026-09-14",
+    "stars": 47316,
+    "forks": 5166,
+    "open_issues": 297,
+    "commits_7d": 56,
+    "contributors_7d": 100,
+    "pushed_at": "2026-09-14T06:41:38Z"
+   }
+  ],
+  "achimala/dream-loop": [
+   {
+    "date": "2026-09-14",
+    "stars": 973,
+    "forks": 113,
+    "open_issues": 4,
+    "commits_7d": 5,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-09T22:43:38Z"
+   }
+  ],
+  "ahujasid/camera-to-blender": [
+   {
+    "date": "2026-09-14",
+    "stars": 813,
+    "forks": 83,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 2,
+    "pushed_at": "2026-09-05T15:20:13Z"
+   }
+  ],
+  "alphaXiv/OpenResearch": [
+   {
+    "date": "2026-09-14",
+    "stars": 2253,
+    "forks": 151,
+    "open_issues": 11,
+    "commits_7d": 22,
+    "contributors_7d": 7,
+    "pushed_at": "2026-09-14T04:45:15Z"
+   }
+  ],
+  "alsk1992/CloddsBot": [
+   {
+    "date": "2026-09-14",
+    "stars": 2698,
+    "forks": 329,
+    "open_issues": 29,
+    "commits_7d": 24,
+    "contributors_7d": 4,
+    "pushed_at": "2026-09-12T03:58:12Z"
+   }
+  ],
+  "angusdevgo/IDM_Pro_Tool": [
+   {
+    "date": "2026-09-14",
+    "stars": 688,
+    "forks": 175,
+    "open_issues": 3,
+    "commits_7d": 6,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-11T08:06:21Z"
+   }
+  ],
+  "anomalyco/opencode": [
+   {
+    "date": "2026-09-14",
+    "stars": 207203,
+    "forks": 27155,
+    "open_issues": 5773,
+    "commits_7d": 28,
+    "contributors_7d": 100,
+    "pushed_at": "2026-09-14T06:58:01Z"
+   }
+  ],
+  "anthropics/commerce-agents": [
+   {
+    "date": "2026-09-14",
+    "stars": 2823,
+    "forks": 533,
+    "open_issues": 32,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-11T07:03:32Z"
+   }
+  ],
+  "anthropics/fermats-last-theorem": [
+   {
+    "date": "2026-09-14",
+    "stars": 1149,
+    "forks": 96,
+    "open_issues": 8,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-04T14:59:12Z"
+   }
+  ],
+  "armory3d/armorpaint": [
+   {
+    "date": "2026-09-14",
+    "stars": 5009,
+    "forks": 553,
+    "open_issues": 111,
+    "commits_7d": 40,
+    "contributors_7d": 26,
+    "pushed_at": "2026-09-13T20:33:04Z"
+   }
+  ],
+  "asgeirtj/system_prompts_leaks": [
+   {
+    "date": "2026-09-14",
+    "stars": 66283,
+    "forks": 10825,
+    "open_issues": 56,
+    "commits_7d": 13,
+    "contributors_7d": 24,
+    "pushed_at": "2026-09-13T19:18:51Z"
+   }
+  ],
+  "ashemag/human-atlas": [
+   {
+    "date": "2026-09-14",
+    "stars": 3374,
+    "forks": 821,
+    "open_issues": 33,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-06T23:35:06Z"
+   }
+  ],
+  "averygan/reclip": [
+   {
+    "date": "2026-09-14",
+    "stars": 9235,
+    "forks": 1454,
+    "open_issues": 57,
+    "commits_7d": 0,
+    "contributors_7d": 4,
+    "pushed_at": "2026-07-09T17:49:44Z"
+   }
+  ],
+  "ayghri/i-have-adhd": [
+   {
+    "date": "2026-09-14",
+    "stars": 44673,
+    "forks": 2573,
+    "open_issues": 65,
+    "commits_7d": 29,
+    "contributors_7d": 43,
+    "pushed_at": "2026-09-14T00:05:58Z"
+   }
+  ],
+  "bannedbook/fanqiang": [
+   {
+    "date": "2026-09-14",
+    "stars": 53419,
+    "forks": 8581,
+    "open_issues": 336,
+    "commits_7d": 1,
+    "contributors_7d": 2,
+    "pushed_at": "2026-09-13T05:26:36Z"
+   }
+  ],
+  "biusberline/cloudflare-turnstile-solver": [
+   {
+    "date": "2026-09-14",
+    "stars": 317,
+    "forks": 26,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 2,
+    "pushed_at": "2026-09-06T16:34:42Z"
+   }
+  ],
+  "blader/humanizer": [
+   {
+    "date": "2026-09-14",
+    "stars": 47803,
+    "forks": 3891,
+    "open_issues": 11,
+    "commits_7d": 0,
+    "contributors_7d": 19,
+    "pushed_at": "2026-09-06T20:26:10Z"
+   }
+  ],
+  "brayonpi/hexstellar": [
+   {
+    "date": "2026-09-14",
+    "stars": 1199,
+    "forks": 119,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-08-27T21:07:24Z"
+   }
+  ],
+  "brendazure/robinhood-meme-token-stock-launchpad": [
+   {
+    "date": "2026-09-14",
+    "stars": 189,
+    "forks": 57,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-05T20:54:28Z"
+   }
+  ],
+  "byJoey/warp-masque-actions": [
+   {
+    "date": "2026-09-14",
+    "stars": 837,
+    "forks": 2921,
+    "open_issues": 5,
+    "commits_7d": 1,
+    "contributors_7d": 2,
+    "pushed_at": "2026-09-07T12:35:23Z"
+   }
+  ],
+  "calesthio/OpenMontage": [
+   {
+    "date": "2026-09-14",
+    "stars": 58738,
+    "forks": 7379,
+    "open_issues": 320,
+    "commits_7d": 0,
+    "contributors_7d": 50,
+    "pushed_at": "2026-09-06T05:02:34Z"
+   }
+  ],
+  "checkstyle/checkstyle": [
+   {
+    "date": "2026-09-14",
+    "stars": 9568,
+    "forks": 4240,
+    "open_issues": 752,
+    "commits_7d": 64,
+    "contributors_7d": 100,
+    "pushed_at": "2026-09-14T06:57:41Z"
+   }
+  ],
+  "codejunkie99/fable-orchestrator": [
+   {
+    "date": "2026-09-14",
+    "stars": 604,
+    "forks": 108,
+    "open_issues": 2,
+    "commits_7d": 0,
+    "contributors_7d": 0,
+    "pushed_at": "2026-09-04T19:50:23Z"
+   }
+  ],
+  "coreyhaines31/marketingskills": [
+   {
+    "date": "2026-09-14",
+    "stars": 50073,
+    "forks": 7597,
+    "open_issues": 112,
+    "commits_7d": 0,
+    "contributors_7d": 23,
+    "pushed_at": "2026-09-05T04:48:10Z"
+   }
+  ],
+  "crwdla/tokentab": [
+   {
+    "date": "2026-09-14",
+    "stars": 929,
+    "forks": 212,
+    "open_issues": 0,
+    "commits_7d": 6,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-07T17:20:54Z"
+   }
+  ],
+  "daffainfo/vol-rs": [
+   {
+    "date": "2026-09-14",
+    "stars": 179,
+    "forks": 5,
+    "open_issues": 1,
+    "commits_7d": 2,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-12T06:08:45Z"
+   }
+  ],
+  "debpalash/VoiceStudio": [
+   {
+    "date": "2026-09-14",
+    "stars": 27583,
+    "forks": 3396,
+    "open_issues": 49,
+    "commits_7d": 100,
+    "contributors_7d": 50,
+    "pushed_at": "2026-09-11T05:50:20Z"
+   }
+  ],
+  "diegosouzapw/OmniRoute": [
+   {
+    "date": "2026-09-14",
+    "stars": 65839,
+    "forks": 9219,
+    "open_issues": 737,
+    "commits_7d": 100,
+    "contributors_7d": 100,
+    "pushed_at": "2026-09-12T01:29:30Z"
+   }
+  ],
+  "donvito/codex-astra-luna-orchestrator": [
+   {
+    "date": "2026-09-14",
+    "stars": 1242,
+    "forks": 96,
+    "open_issues": 3,
+    "commits_7d": 9,
+    "contributors_7d": 4,
+    "pushed_at": "2026-09-11T11:27:26Z"
+   }
+  ],
+  "eternityspring/reelbench-skills": [
+   {
+    "date": "2026-09-14",
+    "stars": 582,
+    "forks": 79,
+    "open_issues": 1,
+    "commits_7d": 16,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-14T00:51:09Z"
+   }
+  ],
+  "every-app/open-seo": [
+   {
+    "date": "2026-09-14",
+    "stars": 18642,
+    "forks": 2372,
+    "open_issues": 171,
+    "commits_7d": 20,
+    "contributors_7d": 18,
+    "pushed_at": "2026-09-12T03:16:08Z"
+   }
+  ],
+  "experientiallabs/experiential": [
+   {
+    "date": "2026-09-14",
+    "stars": 4789,
+    "forks": 175,
+    "open_issues": 58,
+    "commits_7d": 51,
+    "contributors_7d": 9,
+    "pushed_at": "2026-09-14T03:04:40Z"
+   }
+  ],
+  "faisalkindi/DLSS5oneclick": [
+   {
+    "date": "2026-09-14",
+    "stars": 778,
+    "forks": 55,
+    "open_issues": 32,
+    "commits_7d": 62,
+    "contributors_7d": 3,
+    "pushed_at": "2026-09-14T06:50:17Z"
+   }
+  ],
+  "fmtlib/fmt": [
+   {
+    "date": "2026-09-14",
+    "stars": 25767,
+    "forks": 3065,
+    "open_issues": 9,
+    "commits_7d": 19,
+    "contributors_7d": 100,
+    "pushed_at": "2026-09-13T15:30:17Z"
+   }
+  ],
+  "gazijarin/itsgiving": [
+   {
+    "date": "2026-09-14",
+    "stars": 819,
+    "forks": 98,
+    "open_issues": 8,
+    "commits_7d": 5,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-08T05:45:44Z"
+   }
+  ],
+  "gioblu/NPC-Forge": [
+   {
+    "date": "2026-09-14",
+    "stars": 229,
+    "forks": 14,
+    "open_issues": 4,
+    "commits_7d": 35,
+    "contributors_7d": 2,
+    "pushed_at": "2026-09-13T13:15:17Z"
+   }
+  ],
+  "google-research/timesfm": [
+   {
+    "date": "2026-09-14",
+    "stars": 32417,
+    "forks": 3107,
+    "open_issues": 242,
+    "commits_7d": 3,
+    "contributors_7d": 28,
+    "pushed_at": "2026-09-09T22:06:05Z"
+   }
+  ],
+  "handsomestWei/patent-disclosure-skill": [
+   {
+    "date": "2026-09-14",
+    "stars": 9431,
+    "forks": 980,
+    "open_issues": 10,
+    "commits_7d": 5,
+    "contributors_7d": 5,
+    "pushed_at": "2026-09-14T03:59:07Z"
+   }
+  ],
+  "henryzawadzki6542/cloudflare-turnstile-bypass": [
+   {
+    "date": "2026-09-14",
+    "stars": 540,
+    "forks": 35,
+    "open_issues": 0,
+    "commits_7d": 2,
+    "contributors_7d": 2,
+    "pushed_at": "2026-09-08T17:27:03Z"
+   }
+  ],
+  "heygen-com/hyperframes": [
+   {
+    "date": "2026-09-14",
+    "stars": 49750,
+    "forks": 4542,
+    "open_issues": 132,
+    "commits_7d": 100,
+    "contributors_7d": 59,
+    "pushed_at": "2026-09-14T02:02:32Z"
+   }
+  ],
+  "hsandhu/mobilecode": [
+   {
+    "date": "2026-09-14",
+    "stars": 234,
+    "forks": 28,
+    "open_issues": 0,
+    "commits_7d": 11,
+    "contributors_7d": 100,
+    "pushed_at": "2026-09-10T17:12:41Z"
+   }
+  ],
+  "humanlayer/skills": [
+   {
+    "date": "2026-09-14",
+    "stars": 4024,
+    "forks": 123,
+    "open_issues": 8,
+    "commits_7d": 0,
+    "contributors_7d": 2,
+    "pushed_at": "2026-08-13T15:05:30Z"
+   }
+  ],
+  "jihe520/MathModelAgent": [
+   {
+    "date": "2026-09-14",
+    "stars": 5457,
+    "forks": 412,
+    "open_issues": 43,
+    "commits_7d": 1,
+    "contributors_7d": 10,
+    "pushed_at": "2026-09-13T07:37:16Z"
+   }
+  ],
+  "jingyaogong/minimind": [
+   {
+    "date": "2026-09-14",
+    "stars": 60977,
+    "forks": 7921,
+    "open_issues": 66,
+    "commits_7d": 1,
+    "contributors_7d": 12,
+    "pushed_at": "2026-09-10T03:44:15Z"
+   }
+  ],
+  "jlrouzies-fr/DLSS5-Feeder": [
+   {
+    "date": "2026-09-14",
+    "stars": 920,
+    "forks": 50,
+    "open_issues": 45,
+    "commits_7d": 3,
+    "contributors_7d": 4,
+    "pushed_at": "2026-09-14T06:18:25Z"
+   }
+  ],
+  "jo-inc/camofox-browser": [
+   {
+    "date": "2026-09-14",
+    "stars": 11002,
+    "forks": 1085,
+    "open_issues": 64,
+    "commits_7d": 45,
+    "contributors_7d": 45,
+    "pushed_at": "2026-09-13T19:42:48Z"
+   }
+  ],
+  "johnj-eng96n9/DLSS5-Toolkit": [
+   {
+    "date": "2026-09-14",
+    "stars": 54,
+    "forks": 18,
+    "open_issues": 0,
+    "commits_7d": 100,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-14T06:56:07Z"
+   }
+  ],
+  "jub0t/Concat": [
+   {
+    "date": "2026-09-14",
+    "stars": 1692,
+    "forks": 158,
+    "open_issues": 10,
+    "commits_7d": 53,
+    "contributors_7d": 5,
+    "pushed_at": "2026-09-14T01:05:04Z"
+   }
+  ],
+  "kaifcodec/user-scanner": [
+   {
+    "date": "2026-09-14",
+    "stars": 4779,
+    "forks": 475,
+    "open_issues": 9,
+    "commits_7d": 16,
+    "contributors_7d": 48,
+    "pushed_at": "2026-09-13T09:36:19Z"
+   }
+  ],
+  "kajisho5/ffmpeg-skill": [
+   {
+    "date": "2026-09-14",
+    "stars": 1035,
+    "forks": 75,
+    "open_issues": 3,
+    "commits_7d": 100,
+    "contributors_7d": 6,
+    "pushed_at": "2026-09-14T03:14:52Z"
+   }
+  ],
+  "kevinzakka/mjbatch": [
+   {
+    "date": "2026-09-14",
+    "stars": 432,
+    "forks": 40,
+    "open_issues": 4,
+    "commits_7d": 8,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-14T00:55:56Z"
+   }
+  ],
+  "kruzovic7/ai-data-extractor": [
+   {
+    "date": "2026-09-14",
+    "stars": 461,
+    "forks": 132,
+    "open_issues": 0,
+    "commits_7d": 6,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-11T18:20:56Z"
+   }
+  ],
+  "kydlikebtc/awesome-grokbot": [
+   {
+    "date": "2026-09-14",
+    "stars": 301,
+    "forks": 21,
+    "open_issues": 1,
+    "commits_7d": 10,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-13T10:19:51Z"
+   }
+  ],
+  "liquidslr/system-design-notes": [
+   {
+    "date": "2026-09-14",
+    "stars": 19688,
+    "forks": 3674,
+    "open_issues": 8,
+    "commits_7d": 0,
+    "contributors_7d": 3,
+    "pushed_at": "2026-08-12T22:22:21Z"
+   }
+  ],
+  "lnkiai/m3e-canvas": [
+   {
+    "date": "2026-09-14",
+    "stars": 6600,
+    "forks": 668,
+    "open_issues": 4,
+    "commits_7d": 27,
+    "contributors_7d": 10,
+    "pushed_at": "2026-09-12T02:16:51Z"
+   }
+  ],
+  "magnitudedev/magnitude": [
+   {
+    "date": "2026-09-14",
+    "stars": 4468,
+    "forks": 337,
+    "open_issues": 27,
+    "commits_7d": 44,
+    "contributors_7d": 6,
+    "pushed_at": "2026-09-13T12:19:36Z"
+   }
+  ],
+  "majd/ipatool": [
+   {
+    "date": "2026-09-14",
+    "stars": 11144,
+    "forks": 933,
+    "open_issues": 12,
+    "commits_7d": 26,
+    "contributors_7d": 32,
+    "pushed_at": "2026-09-13T21:52:30Z"
+   }
+  ],
+  "marsbos/mador": [
+   {
+    "date": "2026-09-14",
+    "stars": 119,
+    "forks": 3,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-06T22:06:58Z"
+   }
+  ],
+  "melgarafael/DeskcommCRM": [
+   {
+    "date": "2026-09-14",
+    "stars": 2348,
+    "forks": 607,
+    "open_issues": 145,
+    "commits_7d": 100,
+    "contributors_7d": 35,
+    "pushed_at": "2026-09-12T19:40:07Z"
+   }
+  ],
+  "microsoft/markitdown": [
+   {
+    "date": "2026-09-14",
+    "stars": 183728,
+    "forks": 13521,
+    "open_issues": 649,
+    "commits_7d": 32,
+    "contributors_7d": 100,
+    "pushed_at": "2026-09-12T20:25:34Z"
+   }
+  ],
+  "mirza-rizvi/ResolveHQ": [
+   {
+    "date": "2026-09-14",
+    "stars": 149,
+    "forks": 11,
+    "open_issues": 0,
+    "commits_7d": 6,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-08T11:22:40Z"
+   }
+  ],
+  "mizorewww/course2md": [
+   {
+    "date": "2026-09-14",
+    "stars": 369,
+    "forks": 16,
+    "open_issues": 0,
+    "commits_7d": 100,
+    "contributors_7d": 2,
+    "pushed_at": "2026-09-10T15:30:09Z"
+   }
+  ],
+  "mizzlelover/gongwen-gbt9704-skill": [
+   {
+    "date": "2026-09-14",
+    "stars": 589,
+    "forks": 122,
+    "open_issues": 0,
+    "commits_7d": 33,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-13T00:12:46Z"
+   }
+  ],
+  "mksglu/context-mode": [
+   {
+    "date": "2026-09-14",
+    "stars": 22711,
+    "forks": 1640,
+    "open_issues": 243,
+    "commits_7d": 11,
+    "contributors_7d": 100,
+    "pushed_at": "2026-09-13T12:06:08Z"
+   }
+  ],
+  "multimodal-art-projection/YuE": [
+   {
+    "date": "2026-09-14",
+    "stars": 7941,
+    "forks": 878,
+    "open_issues": 14,
+    "commits_7d": 21,
+    "contributors_7d": 9,
+    "pushed_at": "2026-09-11T17:37:59Z"
+   }
+  ],
+  "nab138/iloader": [
+   {
+    "date": "2026-09-14",
+    "stars": 3286,
+    "forks": 225,
+    "open_issues": 262,
+    "commits_7d": 6,
+    "contributors_7d": 45,
+    "pushed_at": "2026-09-10T20:49:24Z"
+   }
+  ],
+  "nahrek/polyledger": [
+   {
+    "date": "2026-09-14",
+    "stars": 623,
+    "forks": 110,
+    "open_issues": 0,
+    "commits_7d": 1,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-07T16:51:03Z"
+   }
+  ],
+  "nashsu/llm_wiki": [
+   {
+    "date": "2026-09-14",
+    "stars": 19396,
+    "forks": 2199,
+    "open_issues": 264,
+    "commits_7d": 0,
+    "contributors_7d": 34,
+    "pushed_at": "2026-08-25T06:42:02Z"
+   }
+  ],
+  "nftechie/stonkfly": [
+   {
+    "date": "2026-09-14",
+    "stars": 584,
+    "forks": 99,
+    "open_issues": 2,
+    "commits_7d": 1,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-10T02:40:34Z"
+   }
+  ],
+  "nhovongoc0-max/meme-radar": [
+   {
+    "date": "2026-09-14",
+    "stars": 293,
+    "forks": 120,
+    "open_issues": 0,
+    "commits_7d": 3,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-11T12:19:58Z"
+   }
+  ],
+  "noskillish/bankmcp": [
+   {
+    "date": "2026-09-14",
+    "stars": 215,
+    "forks": 34,
+    "open_issues": 0,
+    "commits_7d": 83,
+    "contributors_7d": 3,
+    "pushed_at": "2026-09-08T18:24:21Z"
+   }
+  ],
+  "okf-memory/okf-agent-memory": [
+   {
+    "date": "2026-09-14",
+    "stars": 630,
+    "forks": 44,
+    "open_issues": 3,
+    "commits_7d": 73,
+    "contributors_7d": 6,
+    "pushed_at": "2026-09-14T02:40:21Z"
+   }
+  ],
+  "openai/NavierStokesAndEuler": [
+   {
+    "date": "2026-09-14",
+    "stars": 1867,
+    "forks": 192,
+    "open_issues": 0,
+    "commits_7d": 2,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-10T15:14:13Z"
+   }
+  ],
+  "openai/plugins": [
+   {
+    "date": "2026-09-14",
+    "stars": 6648,
+    "forks": 874,
+    "open_issues": 38,
+    "commits_7d": 2,
+    "contributors_7d": 61,
+    "pushed_at": "2026-09-11T22:01:06Z"
+   }
+  ],
+  "openai/skills": [
+   {
+    "date": "2026-09-14",
+    "stars": 27126,
+    "forks": 1811,
+    "open_issues": 297,
+    "commits_7d": 0,
+    "contributors_7d": 35,
+    "pushed_at": "2026-09-08T20:35:26Z"
+   }
+  ],
+  "p-e-w/heretic": [
+   {
+    "date": "2026-09-14",
+    "stars": 31325,
+    "forks": 3507,
+    "open_issues": 83,
+    "commits_7d": 0,
+    "contributors_7d": 32,
+    "pushed_at": "2026-09-05T16:11:52Z"
+   }
+  ],
+  "p1neappleXpress/OpenFlux": [
+   {
+    "date": "2026-09-14",
+    "stars": 1537,
+    "forks": 116,
+    "open_issues": 43,
+    "commits_7d": 59,
+    "contributors_7d": 7,
+    "pushed_at": "2026-09-14T04:20:36Z"
+   }
+  ],
+  "pascalorg/editor": [
+   {
+    "date": "2026-09-14",
+    "stars": 23893,
+    "forks": 2961,
+    "open_issues": 23,
+    "commits_7d": 100,
+    "contributors_7d": 50,
+    "pushed_at": "2026-09-14T04:51:31Z"
+   }
+  ],
+  "perseval-BLR/DLSS5-NeuralScreen": [
+   {
+    "date": "2026-09-14",
+    "stars": 681,
+    "forks": 41,
+    "open_issues": 13,
+    "commits_7d": 100,
+    "contributors_7d": 4,
+    "pushed_at": "2026-09-14T06:43:22Z"
+   }
+  ],
+  "pipicat613/MuToolsProject": [
+   {
+    "date": "2026-09-14",
+    "stars": 540,
+    "forks": 15,
+    "open_issues": 1,
+    "commits_7d": 7,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-13T07:34:27Z"
+   }
+  ],
+  "pollen-robotics/microduck_rl": [
+   {
+    "date": "2026-09-14",
+    "stars": 2101,
+    "forks": 432,
+    "open_issues": 35,
+    "commits_7d": 6,
+    "contributors_7d": 7,
+    "pushed_at": "2026-09-13T13:17:26Z"
+   }
+  ],
+  "rakanki911/DLSS5-Swapper": [
+   {
+    "date": "2026-09-14",
+    "stars": 4306,
+    "forks": 223,
+    "open_issues": 18,
+    "commits_7d": 49,
+    "contributors_7d": 5,
+    "pushed_at": "2026-09-13T02:02:21Z"
+   }
+  ],
+  "richiemcilroy/chippytea": [
+   {
+    "date": "2026-09-14",
+    "stars": 221,
+    "forks": 8,
+    "open_issues": 4,
+    "commits_7d": 0,
+    "contributors_7d": 2,
+    "pushed_at": "2026-09-07T15:56:49Z"
+   }
+  ],
+  "rizqinrr/viserys-agent": [
+   {
+    "date": "2026-09-14",
+    "stars": 631,
+    "forks": 0,
+    "open_issues": 0,
+    "commits_7d": 9,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-13T03:43:15Z"
+   }
+  ],
+  "ruvnet/ruflo": [
+   {
+    "date": "2026-09-14",
+    "stars": 72363,
+    "forks": 8565,
+    "open_issues": 1000,
+    "commits_7d": 58,
+    "contributors_7d": 34,
+    "pushed_at": "2026-09-14T06:53:22Z"
+   }
+  ],
+  "sapientinc/PRAXIST": [
+   {
+    "date": "2026-09-14",
+    "stars": 6712,
+    "forks": 669,
+    "open_issues": 10,
+    "commits_7d": 0,
+    "contributors_7d": 5,
+    "pushed_at": "2026-09-09T05:16:58Z"
+   }
+  ],
+  "sebbbi/NoGraphicsAPI": [
+   {
+    "date": "2026-09-14",
+    "stars": 1363,
+    "forks": 40,
+    "open_issues": 7,
+    "commits_7d": 7,
+    "contributors_7d": 4,
+    "pushed_at": "2026-09-13T17:59:22Z"
+   }
+  ],
+  "showlab/Show-Harness": [
+   {
+    "date": "2026-09-14",
+    "stars": 319,
+    "forks": 16,
+    "open_issues": 0,
+    "commits_7d": 27,
+    "contributors_7d": 3,
+    "pushed_at": "2026-09-10T13:14:56Z"
+   }
+  ],
+  "soirihiroka/shrimply": [
+   {
+    "date": "2026-09-14",
+    "stars": 1037,
+    "forks": 58,
+    "open_issues": 10,
+    "commits_7d": 100,
+    "contributors_7d": 13,
+    "pushed_at": "2026-09-14T03:22:47Z"
+   }
+  ],
+  "subsy/skill-cabinet": [
+   {
+    "date": "2026-09-14",
+    "stars": 411,
+    "forks": 30,
+    "open_issues": 5,
+    "commits_7d": 0,
+    "contributors_7d": 3,
+    "pushed_at": "2026-09-02T14:54:47Z"
+   }
+  ],
+  "sumimakito/Mac-Duo": [
+   {
+    "date": "2026-09-14",
+    "stars": 815,
+    "forks": 59,
+    "open_issues": 23,
+    "commits_7d": 21,
+    "contributors_7d": 6,
+    "pushed_at": "2026-09-13T17:51:30Z"
+   }
+  ],
+  "suoha888/CJ-DeFi-Handbook": [
+   {
+    "date": "2026-09-14",
+    "stars": 116,
+    "forks": 55,
+    "open_issues": 0,
+    "commits_7d": 16,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-13T07:51:49Z"
+   }
+  ],
+  "timgordontg/engrim": [
+   {
+    "date": "2026-09-14",
+    "stars": 248,
+    "forks": 16,
+    "open_issues": 4,
+    "commits_7d": 40,
+    "contributors_7d": 4,
+    "pushed_at": "2026-09-13T22:36:49Z"
+   }
+  ],
+  "unclecode/crawl4ai": [
+   {
+    "date": "2026-09-14",
+    "stars": 83380,
+    "forks": 8615,
+    "open_issues": 197,
+    "commits_7d": 0,
+    "contributors_7d": 84,
+    "pushed_at": "2026-09-09T13:22:34Z"
+   }
+  ],
+  "unstablebuild/rune": [
+   {
+    "date": "2026-09-14",
+    "stars": 484,
+    "forks": 27,
+    "open_issues": 66,
+    "commits_7d": 90,
+    "contributors_7d": 2,
+    "pushed_at": "2026-09-13T21:02:13Z"
+   }
+  ],
+  "vastsa/PI-Desktop": [
+   {
+    "date": "2026-09-14",
+    "stars": 3446,
+    "forks": 262,
+    "open_issues": 59,
+    "commits_7d": 100,
+    "contributors_7d": 28,
+    "pushed_at": "2026-09-14T06:58:57Z"
+   }
+  ],
+  "viettranx/3dviz-pro-max": [
+   {
+    "date": "2026-09-14",
+    "stars": 222,
+    "forks": 32,
+    "open_issues": 0,
+    "commits_7d": 9,
+    "contributors_7d": 2,
+    "pushed_at": "2026-09-11T01:01:12Z"
+   }
+  ],
+  "vinzdg/codenotch": [
+   {
+    "date": "2026-09-14",
+    "stars": 1549,
+    "forks": 244,
+    "open_issues": 26,
+    "commits_7d": 100,
+    "contributors_7d": 42,
+    "pushed_at": "2026-09-14T05:14:52Z"
+   }
+  ],
+  "vxcontrol/pentagi": [
+   {
+    "date": "2026-09-14",
+    "stars": 24172,
+    "forks": 3112,
+    "open_issues": 62,
+    "commits_7d": 0,
+    "contributors_7d": 15,
+    "pushed_at": "2026-09-10T05:45:01Z"
+   }
+  ],
+  "wz1119/Codex-Minecraft-Gameplay": [
+   {
+    "date": "2026-09-14",
+    "stars": 157,
+    "forks": 16,
+    "open_issues": 0,
+    "commits_7d": 1,
+    "contributors_7d": 2,
+    "pushed_at": "2026-09-07T21:48:14Z"
+   }
+  ],
+  "yifanzhang-pro/recurrent-looped-tranformer": [
+   {
+    "date": "2026-09-14",
+    "stars": 620,
+    "forks": 66,
+    "open_issues": 1,
+    "commits_7d": 20,
+    "contributors_7d": 1,
+    "pushed_at": "2026-09-13T20:46:51Z"
+   }
+  ],
+  "yuliskov/SmartTube": [
+   {
+    "date": "2026-09-14",
+    "stars": 33533,
+    "forks": 2038,
+    "open_issues": 712,
+    "commits_7d": 23,
+    "contributors_7d": 32,
+    "pushed_at": "2026-09-13T23:50:51Z"
+   }
+  ]
+ },
+ "updated_at": "2026-09-14T06:59:37.950834+00:00"
+}

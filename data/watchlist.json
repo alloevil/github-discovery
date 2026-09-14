@@ -1103,7 +1103,84 @@
    "score_at_discovery": null,
    "source_at_discovery": "",
    "backfilled": true
+  },
+  "asgeirtj/system_prompts_leaks": {
+   "first_seen": "2026-09-14",
+   "until": "2026-09-28",
+   "stars_at_discovery": 66282,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "vxcontrol/pentagi": {
+   "first_seen": "2026-09-14",
+   "until": "2026-09-28",
+   "stars_at_discovery": 24172,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "multimodal-art-projection/YuE": {
+   "first_seen": "2026-09-14",
+   "until": "2026-09-28",
+   "stars_at_discovery": 7939,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "SnailSploit/Claude-Red": {
+   "first_seen": "2026-09-14",
+   "until": "2026-09-28",
+   "stars_at_discovery": 4304,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "alphaXiv/OpenResearch": {
+   "first_seen": "2026-09-14",
+   "until": "2026-09-28",
+   "stars_at_discovery": 2252,
+   "score_at_discovery": 99,
+   "source_at_discovery": "trending"
+  },
+  "yuliskov/SmartTube": {
+   "first_seen": "2026-09-14",
+   "until": "2026-09-28",
+   "stars_at_discovery": 33533,
+   "score_at_discovery": 97,
+   "source_at_discovery": "trending"
+  },
+  "yifanzhang-pro/recurrent-looped-tranformer": {
+   "first_seen": "2026-09-14",
+   "until": "2026-09-28",
+   "stars_at_discovery": 619,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "eternityspring/reelbench-skills": {
+   "first_seen": "2026-09-14",
+   "until": "2026-09-28",
+   "stars_at_discovery": 582,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "unstablebuild/rune": {
+   "first_seen": "2026-09-14",
+   "until": "2026-09-28",
+   "stars_at_discovery": 484,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "suoha888/CJ-DeFi-Handbook": {
+   "first_seen": "2026-09-14",
+   "until": "2026-09-28",
+   "stars_at_discovery": 116,
+   "score_at_discovery": 89,
+   "source_at_discovery": "rising"
+  },
+  "calesthio/OpenMontage": {
+   "first_seen": "2026-09-14",
+   "until": "2026-09-28",
+   "stars_at_discovery": 58736,
+   "score_at_discovery": 87,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-09-14T06:55:13.932127+00:00"
+ "updated_at": "2026-09-14T06:57:14.891501+00:00"
 }
