@@ -8,12 +8,13 @@
 - **100-point scorer** — acceleration (40) + quality (30) + anti-spam (30), with code-quality bonus, suspicious-star and batch-fraud penalties, and an explainable reason line on every card
 - **Cross-day dedup** with a 7-day window, deep checks budgeted to the top-K candidates after coarse ranking
 - **Delivery** — daily email digest via Resend (dark-mode HTML) + GitHub Pages site with date/language filters
-- **169 unit tests** (`python -m pytest --collect-only`, counted from `tests/` on 2026-09-12), fully automated on GitHub Actions — fork-and-go, no server
+- **184 unit tests** (`python -m pytest --collect-only`, counted from `tests/` on 2026-09-12), fully automated on GitHub Actions — fork-and-go, no server
 
 ## Roadmap
 
 - [x] **RSS/Atom feed** — publish the daily picks as a feed alongside the Pages site, for people who don't want email (#5)
 - [ ] **Per-subscriber topic filters** — let a subscriber say "only Rust" or "only AI/ML"; requires structuring `subscribers.txt` into per-user preferences and filtering at digest render time (#6)
+- [x] **Follow-up observations (watch list)** — every recommendation is observed for 14 days into `data/watch_series.json`, because the snapshot store only covered repos that re-entered the candidate pool (29/463 = 6.3% of recommendations had a 7-day reading on 2026-09-14, which is not enough to test the score)
 - [ ] **Scoring backtest report in CI** — `verify_scoring.py --days 30` exists but runs manually; publish a weekly backtest summary (precision of high scores vs. actual takeoff) as a Pages sub-page so scoring changes are measured, not vibes
 - [ ] **More sources** — Product Hunt dev tools and Reddit (r/programming, r/MachineLearning) are the strongest candidates; each new source is one `fetch_xxx()` in `scripts/sources.py` plus tests
 - [ ] **Weekly digest mode** — a Monday roundup of the week's top 10 for low-volume subscribers
