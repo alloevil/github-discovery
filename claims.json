@@ -218,6 +218,40 @@
         },
         "timeout": 180
       }
+    },
+    {
+      "id": "backtest-labels-recomputable",
+      "claim": "Every labelled row in the latest backtest CSV re-derives its own growth and breakout flag from the two star readings in that row, and no unlabelled row claims one.",
+      "value": "growth and breakout recomputed per row",
+      "metric": "growth_pct / breakout in reports/backtest-*.csv vs stars_at_discovery and stars_at_label",
+      "method": "scripts/backtest.py writes one row per recommendation; this check re-derives the arithmetic from the row's own two readings and the documented threshold (200% in 7 days). It does not re-derive the readings themselves — those come from the discovery reports and the watch series, which are committed.",
+      "repro": "python3 scripts/backtest.py && head -3 reports/backtest-*.csv",
+      "evidence": "reports/backtest-2026-09-14.csv",
+      "as_of": "2026-09-14",
+      "check": {
+        "cmd": "python3 - <<'PY'\nimport csv, glob\n\npath = sorted(glob.glob(\"reports/backtest-*.csv\"))[-1]\nrows = list(csv.DictReader(open(path, encoding=\"utf-8\")))\nbad = []\nfor r in rows:\n    if r[\"growth_pct\"] == \"\" or r[\"breakout\"] == \"\":\n        if r[\"stars_at_label\"]:\n            bad.append(r[\"repo\"] + \":unlabelled-with-reading\")\n        continue\n    start, end = float(r[\"stars_at_discovery\"]), float(r[\"stars_at_label\"])\n    grow = round(100 * (end - start) / start, 1) if start else 0.0\n    if abs(grow - float(r[\"growth_pct\"])) > 0.05:\n        bad.append(r[\"repo\"] + \":growth\")\n    if int(r[\"breakout\"]) != int(grow >= 200.0):\n        bad.append(r[\"repo\"] + \":breakout\")\nprint(\"rows\", len(rows), \"problems\", bad[:3])\nassert not bad\nPY",
+        "expect": {
+          "regex": "problems \\[\\]$"
+        },
+        "timeout": 180
+      }
+    },
+    {
+      "id": "backtest-report-matches-csv",
+      "claim": "The latest backtest summary states the same labelled count and the same per-bucket counts as the CSV it describes — a report that drifts from its own data is worse than no report.",
+      "value": "summary counts equal the CSV",
+      "metric": "labelled count and bucket sizes parsed out of reports/backtest-*.md vs the CSV",
+      "method": "scripts/backtest.py renders the summary from the same rows it writes to CSV; the check re-parses both and compares, so an edit to either the renderer or a hand-edit of the report fails",
+      "repro": "grep 'are labelled' reports/backtest-*.md; wc -l reports/backtest-*.csv",
+      "evidence": "reports/backtest-2026-09-14.md",
+      "as_of": "2026-09-14",
+      "check": {
+        "cmd": "python3 - <<'PY'\nimport csv, glob, re, pathlib\n\ncsv_path = sorted(glob.glob(\"reports/backtest-*.csv\"))[-1]\nmd_path = csv_path[:-4] + \".md\"\nrows = list(csv.DictReader(open(csv_path, encoding=\"utf-8\")))\nlabelled = sum(1 for r in rows if r[\"breakout\"] != \"\")\nmd = pathlib.Path(md_path).read_text(encoding=\"utf-8\")\nm = re.search(r\"\\*\\*(\\d+) are labelled\", md)\nassert m, \"no labelled count in the summary\"\nstated = int(m.group(1))\ntable = dict(re.findall(r\"\\| (\\d+–\\d+|&lt;60|<60) \\| (\\d+) \\|\", md))\nby_bucket = {}\nfor r in rows:\n    if r[\"breakout\"] == \"\":\n        continue\n    s = float(r[\"score\"])\n    name = \"90–100\" if s >= 90 else \"80–89\" if s >= 80 else \"70–79\" if s >= 70 else \"60–69\" if s >= 60 else \"<60\"\n    by_bucket[name] = by_bucket.get(name, 0) + 1\nmismatch = [b for b, n in by_bucket.items() if table.get(b) and int(table[b]) != n]\nprint(\"csv\", len(rows), \"labelled\", labelled, \"stated\", stated, \"buckets\", len(table), \"mismatch\", mismatch[:3])\nassert stated == labelled and not mismatch\nPY",
+        "expect": {
+          "regex": "mismatch \\[\\]$"
+        },
+        "timeout": 180
+      }
     }
   ]
 }
