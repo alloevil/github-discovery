@@ -101,6 +101,9 @@ def _json_entry_to_card(e: dict) -> dict:
         'stars': str(e.get('stars', 0)),
         'daily': f"{daily:.1f}",
         'score': str(e.get('scores', {}).get('total', 0)),
+        # 同池分位：100 分制已饱和（中位数 99），卡片需要能排序的量
+        'top_pct': e.get('scores', {}).get('top_pct'),
+        'pool_size': e.get('pool_size'),
         'language': e.get('language', ''),
         'description': e.get('description') or 'No description',
         'source': ' + '.join(sources),
@@ -145,6 +148,8 @@ def repo_card(r: dict) -> str:
     stars = r.get('stars', '0')
     daily = r.get('daily', '0')
     score = r.get('score', '0')
+    top_pct, pool_size = r.get('top_pct'), r.get('pool_size')
+    standing = (f"Top {top_pct}% of {pool_size}" if top_pct is not None and pool_size else None)
     desc = html.escape(str(r.get('description', 'No description')))
     lang = html.escape(r.get('language', ''))
     color = lang_color(lang)
@@ -172,7 +177,7 @@ def repo_card(r: dict) -> str:
         <div class="repo-meta">
           {lang_html}
           <span class="repo-meta-item">⭐ {stars}</span>
-          <span class="score-tag">Score {score}</span>
+          <span class="score-tag" title="{standing or ''}">Score {score}{f' · Top {top_pct}%' if top_pct is not None else ''}</span>
           {src_html}
         </div>
       </div>'''

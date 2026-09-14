@@ -298,3 +298,29 @@ class TestBuildReason:
         a = {"age_days": 3, "stars": 900, "real_daily_stars": 800.0, "sources": ["trending", "hn"]}
         b = {"age_days": 30, "stars": 9000, "real_daily_stars": 350.0, "sources": ["ai-trending"]}
         assert scorer.build_reason(a) != scorer.build_reason(b)
+
+
+class TestAnnotatePool:
+    """同池分位：100 分制饱和后，这是唯一能排序的量。"""
+
+    def _scored(self, totals):
+        return [({"full_name": f"o/r{i}"}, {"total": t}) for i, t in enumerate(totals)]
+
+    def test_percentile_is_rank_over_pool(self):
+        scored = self._scored([100, 90, 80, 70])
+        assert scorer.annotate_pool(scored) == 4
+        by_total = {s["total"]: s for _r, s in scored}
+        assert by_total[100]["rank_in_pool"] == 1 and by_total[100]["top_pct"] == 25.0
+        assert by_total[70]["rank_in_pool"] == 4 and by_total[70]["top_pct"] == 100.0
+        assert all(s["pool_size"] == 4 for _r, s in scored)
+
+    def test_ties_share_a_rank(self):
+        scored = self._scored([100, 100, 50])
+        scorer.annotate_pool(scored)
+        tops = [s for _r, s in scored if s["total"] == 100]
+        assert [s["rank_in_pool"] for s in tops] == [1, 1]
+        bottom = [s for _r, s in scored if s["total"] == 50][0]
+        assert bottom["rank_in_pool"] == 3  # 并列不占两个名次
+
+    def test_empty_pool_does_not_divide_by_zero(self):
+        assert scorer.annotate_pool([]) == 0

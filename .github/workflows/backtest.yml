@@ -1,0 +1,39 @@
+name: backtest
+
+# 每周出一张「分数有没有预测力」的表，并把结果提交进仓库。
+#
+# 为什么是每周而不是每天：标签需要 7 天后的读数，而一张每天重算的表会随单个仓库
+# 抖动；每周的节奏足以看趋势，也让"报告与它的 CSV 一致"这条收据有意义。
+#
+# 这不是门禁：数字不利也要照原样提交（第一版就显示 90-100 分档的爆发率低于 80-89 档），
+# 所以它不会让 CI 变红 —— 让报告消失的唯一方式是它不再被生成。
+
+on:
+  schedule:
+    - cron: '23 5 * * 1'   # 周一 UTC 05:23
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+      - name: Rebuild the backtest from committed data
+        run: python3 scripts/backtest.py
+      - name: Commit the report if it moved
+        run: |
+          git add reports/
+          if git diff --quiet --cached; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(backtest): weekly report"
+          git push

@@ -1,0 +1,16 @@
+{
+ "date": "2026-09-14",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "seen/before",
+   "stars": 800,
+   "language": "Python"
+  },
+  {
+   "full_name": "brand/new",
+   "stars": 500,
+   "language": "Python"
+  }
+ ]
+}

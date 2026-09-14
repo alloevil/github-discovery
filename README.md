@@ -155,6 +155,24 @@ already runs twice a day with a token. Coverage is reported by the command itsel
 from the committed files alone — see `claims.json` for the two structural receipts that keep it
 honest, and `docs/ROADMAP.md` for what the data unlocks next.
 
+### What the score is worth so far (`scripts/backtest.py`, weekly)
+
+The label is a ≥200% seven-day rise. First run, 2026-09-14 — **103 of 473 recommendations labelled
+(21.8%)**, median growth 39.4%:
+
+| score at discovery | repos | breakout rate | median growth |
+|---|---:|---:|---:|
+| 90–100 | 81 | 9.9% | 29.6% |
+| 80–89 | 22 | 18.2% | 80.3% |
+
+**That is not evidence that the score works, and on this sample it points the other way**: the
+90–100 bucket broke out less often than 80–89. Three reasons to read it as "unknown" rather than
+"broken" — the labelled set is a fifth of the recommendations (the rest predate the follow-up
+observations and cannot be measured), the 80–89 bucket holds 22 repos, and the whole table is one
+seven-day window of an unusual market. It is published anyway, because a score nobody checks is the
+thing this repository exists to stop doing. The report is regenerated weekly and committed; the
+`reports/` directory holds the CSV behind every number.
+
 ## Install
 
 Nothing to install: the pipeline uses the Python standard library only — no `pip install` and no `requirements.txt` — and CI runs Python 3.11. It does call the system `curl` binary for the Resend and Firecrawl HTTP requests.

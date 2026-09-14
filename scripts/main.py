@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from config import TOP_N, DEEP_CHECK_TOP_K, OUTPUT_DIR, DATA_DIR, RESEND_API_KEY
 from sources import fetch_all
-from scorer import calculate_score, merge_quality_bonus, build_reason
+from scorer import annotate_pool, calculate_score, merge_quality_bonus, build_reason
 from dedup import (
     is_recently_recommended, was_recommended_before,
     record_recommendation, cleanup_old_records,
@@ -245,7 +245,35 @@ def repo_to_json(repo: dict, scores: dict, rank: int) -> dict:
     return entry
 
 
-def write_json_report(date_str: str, top_new: list, top_repeat: list) -> str:
+TRENDING_DIR = DATA_DIR
+
+
+def write_trending_snapshot(date_str: str, all_repos: list) -> str:
+    """记录当天在 GitHub Trending 上看到的仓库（data/trending-YYYY-MM-DD.json）。
+
+    为什么要它：**lead time 只能向前测**。Trending 的历史无法回溯，所以"我们比
+    Trending 早几天发现某个仓库"这句话，今天开始记录之前是无法证明的；记录之后，
+    每天一行的快照就够算了（发现日 vs 首次出现在 trending 快照里的日期）。
+    """
+    os.makedirs(TRENDING_DIR, exist_ok=True)
+    seen = {}
+    for repo in all_repos:
+        if "trending" not in (repo.get("sources") or [repo.get("source", "")]):
+            continue
+        name = repo.get("full_name")
+        if name:
+            seen[name] = {"full_name": name, "stars": repo.get("stars", 0),
+                          "language": repo.get("language", "")}
+    path = os.path.join(TRENDING_DIR, f"trending-{date_str}.json")
+    with open(path, "w") as f:
+        json.dump({"date": date_str, "source": "https://github.com/trending?since=daily",
+                   "repos": sorted(seen.values(), key=lambda r: -r["stars"])}, f,
+                  ensure_ascii=False, indent=1)
+    print(f"[Trending] {len(seen)} repos on today's trending page recorded")
+    return path
+
+
+def write_json_report(date_str: str, top_new: list, top_repeat: list, pool_size: int = 0) -> str:
     """写结构化 JSON 报告（data/discovery-YYYY-MM-DD.json）。
 
     网站/RSS 从这里读取数据，markdown 报告只服务于人类阅读 ——
@@ -256,6 +284,8 @@ def write_json_report(date_str: str, top_new: list, top_repeat: list) -> str:
     payload = {
         "date": date_str,
         "generated_at": datetime.now().isoformat(),
+        # 分位的分母：今天抓到的候选总数。便于从报告本身复算 top_pct。
+        "pool_size": pool_size,
         "new": [repo_to_json(r, s, i) for i, (r, s) in enumerate(top_new, 1)],
         "repeat": [repo_to_json(r, s, i) for i, (r, s) in enumerate(top_repeat, 1)],
     }
@@ -296,6 +326,7 @@ def format_repo_markdown(repo: dict, scores: dict, rank: int) -> str:
         f"> {desc}",
         f"",
         f"**Score: {total}/100** `{bar}`",
+        f"- Standing: top {scores.get('top_pct', '?')}% of {scores.get('pool_size', '?')} candidates today",
         f"- Acceleration: {scores['acceleration']}/40",
         f"- Quality: {scores['quality']}/30",
         f"- Anti-spam: {scores['antispam']}/30",
@@ -386,6 +417,9 @@ def main():
     # 保证已推荐仓库的时间序列不中断 —— 快照是次日计算真实增速的基础。
     record_snapshots(all_repos)
 
+    # Trending 快照：lead time 的唯一可比基线，从今天起才有历史。
+    write_trending_snapshot(today, all_repos)
+
     # 跨天去重：过滤掉最近 7 天已推荐的仓库
     filtered_repos = []
     dedup_count = 0
@@ -468,6 +502,7 @@ def main():
     # ── 终评：重算深查过的仓库（has_readme 影响 quality 分），应用加减分 ──
     new_scored = []
     repeat_scored = []
+    pool_size = 0
     for repo, scores in scored:
         if repo.get("quality_score") is not None:
             scores = calculate_score(repo)
@@ -495,6 +530,12 @@ def main():
             repeat_scored.append((repo, scores))
         else:
             new_scored.append((repo, scores))
+
+    # 同池分位：在所有加分/扣分落定之后计算，覆盖今天抓到的全部候选。
+    # 100 分制会饱和（已提交报告里中位数 99），分位才是能排序的那个量。
+    pool_size = annotate_pool(scored)
+    print(f"[Score] Pool of {pool_size} candidates; top pick is top "
+          f"{min((s.get('top_pct', 100) for _r, s in scored), default=100)}%")
 
     # Sort by total score descending
     new_scored.sort(key=lambda x: x[1]["total"], reverse=True)
@@ -545,7 +586,7 @@ def main():
     print(f"\n[Saved] Report written to {out_path}")
 
     # 结构化 JSON（网站/RSS 的数据来源）
-    json_path = write_json_report(date_str, top_new, top_repeat)
+    json_path = write_json_report(date_str, top_new, top_repeat, pool_size)
     print(f"[Saved] JSON report written to {json_path}")
 
     # Print compact summary

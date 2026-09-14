@@ -156,3 +156,25 @@ def calculate_score(repo: dict) -> dict:
         "quality": qual,
         "antispam": anti,
     }
+
+
+def annotate_pool(scored: list) -> int:
+    """给每个候选标注它在**当天候选池**里的位置，返回池子大小。
+
+    100 分制本身会饱和：已提交报告里被发现仓库的分数中位数是 99，所以"87/100"
+    并不能告诉读者它和今天其他候选比如何。分位是对**整个粗排池**算的——今天抓到的
+    所有候选，不只是上榜的——并且写进 JSON 报告，因此可以从仓库里的数据复算。
+
+    并列共享同一个名次（competition ranking），于是名次是 (分数, 池子) 的纯函数。
+    """
+    ordered = sorted(scored, key=lambda x: x[1]["total"], reverse=True)
+    pool = len(ordered)
+    rank, prev = 0, None
+    for i, (_repo, scores) in enumerate(ordered, 1):
+        if scores["total"] != prev:
+            rank, prev = i, scores["total"]
+        scores["rank_in_pool"] = rank
+        scores["pool_size"] = pool
+        # "Top X%"：名次 / 池子，越小越好。不用 percentile 这个容易被反向理解的名字。
+        scores["top_pct"] = round(100 * rank / pool, 1) if pool else 0.0
+    return pool
