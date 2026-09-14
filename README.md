@@ -134,6 +134,11 @@ committed discovery files: of **463** repos recommended, **29 (6.3%)** had a rea
 days after they were recommended — and a seven-day follow-up is exactly what the label "did this repo
 break out?" needs. The score cannot be shown to have predictive power on data that thin.
 
+That number is a measurement, not a target, and it moves as soon as the mechanism exists: the first
+run observed 147 repos and the share with a seven-day reading went to **21.8% (103/473)** on
+2026-09-14 — partly because the backfilled repos just got their first follow-up reading. What matters
+going forward is that it keeps rising for *new* discoveries, which is what the receipt below checks.
+
 `scripts/watchlist.py` fixes the measurement, not the score. Every recommended repo enters a 14-day
 watch window, and each run records one observation per watched repo into `data/watch_series.json`:
 stars, forks, open issues, commits in the last 7 days, contributors, last push. Nothing here feeds
