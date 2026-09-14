@@ -18,6 +18,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7
+        with:
+          python-version: '3.12'
+      # 一条收据（test-count）跑 pytest 的收集器来核对 roadmap 里写的测试数，
+      # 所以这个 job 需要 runner。它在 CI 第一次跑就红了 —— 正是收据该有的表现。
+      - name: Install the test runner the receipts use
+        run: pip install --quiet pytest
       - uses: alloevil/verify-claims@v0.1.1
         with:
           strict: "true"
