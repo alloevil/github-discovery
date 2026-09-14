@@ -22,6 +22,11 @@ HF_PAPERS_API = "https://huggingface.co/api/daily_papers"
 FIRECRAWL_API_KEY = os.environ.get("FIRECRAWL_API_KEY", "")
 FIRECRAWL_API = "https://api.firecrawl.dev/v2/scrape"
 
+# Watch list — 推荐之后继续观察多久，以及每轮最多观察多少个仓库。
+# 每个仓库 3 次 API 调用；日更跑两次、配额 5000/h，300 个约占一小时的五分之一。
+WATCH_DAYS = 14
+WATCH_LIMIT = 300
+
 # Scoring thresholds
 TOP_N = 10
 API_DELAY = 0.3  # seconds between API calls (reduced for faster execution)

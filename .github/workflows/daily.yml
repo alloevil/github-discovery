@@ -49,6 +49,13 @@ jobs:
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
         run: python3 scripts/main.py
 
+      - name: Observe the watch list (follow-ups for the backtest)
+        # 发现之后、生成站点之前。主发现流程已经完成并写好报告，所以这一步
+        # 失败不会丢掉当天的发现；但它必须显红——观察序列静默停掉就没人知道。
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/watchlist.py
+
       - name: Generate site (index.html + feed.xml)
         run: python3 scripts/generate_site.py
 

@@ -126,6 +126,30 @@ Every day it collects signals from 6 data sources, runs them through a smart sco
 
 ---
 
+## Follow-up observations (the watch list)
+
+`star_snapshots.json` only gains a point for a repo on a day it **re-appears in the candidate pool**,
+so its series stops the moment a repo stops being re-discovered. Measured on 2026-09-14 over the 44
+committed discovery files: of **463** repos recommended, **29 (6.3%)** had a reading at least seven
+days after they were recommended — and a seven-day follow-up is exactly what the label "did this repo
+break out?" needs. The score cannot be shown to have predictive power on data that thin.
+
+`scripts/watchlist.py` fixes the measurement, not the score. Every recommended repo enters a 14-day
+watch window, and each run records one observation per watched repo into `data/watch_series.json`:
+stars, forks, open issues, commits in the last 7 days, contributors, last push. Nothing here feeds
+back into ranking — if it did, the follow-up would be conditioned on the signal being measured.
+
+```bash
+python3 scripts/watchlist.py --dry-run          # who is due, and the current label coverage
+python3 scripts/watchlist.py                    # observe, record, prune (needs GITHUB_TOKEN)
+python3 scripts/watchlist.py --backfill 14      # adopt the existing discoveries into the window
+```
+
+Cost is three API calls per watched repo per run; the default cap is 300, and the daily workflow
+already runs twice a day with a token. Coverage is reported by the command itself and re-derivable
+from the committed files alone — see `claims.json` for the two structural receipts that keep it
+honest, and `docs/ROADMAP.md` for what the data unlocks next.
+
 ## Install
 
 Nothing to install: the pipeline uses the Python standard library only — no `pip install` and no `requirements.txt` — and CI runs Python 3.11. It does call the system `curl` binary for the Resend and Firecrawl HTTP requests.

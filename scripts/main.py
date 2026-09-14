@@ -26,6 +26,7 @@ from dedup import (
 from quality import check_quality, check_star_authenticity, is_blocked_content
 from fraud_detection import detect_batch_fraud, apply_fraud_penalty
 from snapshots import record_snapshots, get_growth
+from watchlist import add_discoveries
 
 
 def get_subscribers() -> list[str]:
@@ -514,6 +515,12 @@ def main():
         record_recommendation(repo["full_name"], scores["total"])
     for repo, scores in top_repeat:
         record_recommendation(repo["full_name"], scores["total"])
+
+    # Observation plan, not a ranking input: everything recommended today gets followed for
+    # WATCH_DAYS so a "did it break out?" label is computable later. Writing this here and
+    # fetching it in a separate step keeps the recommendation path free of extra API calls.
+    added = add_discoveries([{**repo, "scores": scores} for repo, scores in top_new + top_repeat])
+    print(f"[Watchlist] {added} new repo(s) added for follow-up")
 
     # Generate and output markdown
     md = generate_markdown(top_new, top_repeat)

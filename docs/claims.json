@@ -167,6 +167,57 @@
         "timeout": 60,
         "note": "reads FEED_DAYS from scripts/generate_site.py"
       }
+    },
+    {
+      "id": "watchlist-covers-recent-discoveries",
+      "claim": "Every repo recommended in the last 14 days is on the watch list or already has follow-up observations — the mechanism that makes a breakout label computable later cannot silently stop covering new discoveries.",
+      "value": "every recent discovery is watched",
+      "metric": "recommendations in the newest discovery files vs data/watchlist.json and watch_series.json",
+      "method": "scripts/watchlist.py adds each recommended repo with a 14-day window and is pruned when the window closes; the check re-derives the recent discovery set from the committed daily files and requires each repo to be either still watched or already observed after its discovery date",
+      "repro": "python3 scripts/watchlist.py --dry-run",
+      "evidence": "data/watchlist.json",
+      "as_of": "2026-09-14",
+      "check": {
+        "cmd": "python3 - <<'PY'\nimport json, pathlib, sys\nsys.path.insert(0, \"scripts\")\nimport watchlist\n\nwl = json.loads(pathlib.Path(\"data/watchlist.json\").read_text())[\"repos\"]\np = pathlib.Path(\"data/watch_series.json\")\nser = json.loads(p.read_text())[\"repos\"] if p.exists() else {}\nfound = watchlist.discoveries()\nfloor = watchlist._window_end(watchlist._today(), -14)\nrecent = {n: d for n, d in found.items() if d >= floor}\nbad = [n for n, d in recent.items()\n       if n not in wl and not any(pt[\"date\"] > d for pt in ser.get(n, []))]\nprint(\"watchlist\", len(wl), \"recent discoveries\", len(recent), \"uncovered\", bad[:3])\nassert wl, \"watch list is empty\"\nassert recent and not bad\nPY",
+        "expect": {
+          "regex": "uncovered \\[\\]$"
+        },
+        "timeout": 180
+      }
+    },
+    {
+      "id": "watch-observations-well-formed",
+      "claim": "The follow-up mechanism is live: the watch list is non-empty, and every record in the watch series is complete, dated no later than today, and unique per day.",
+      "value": "all records complete, one per day",
+      "metric": "fields/date sanity over data/watch_series.json",
+      "method": "scripts/watchlist.record writes a fixed field set and replaces the same day's point on a rerun; the check validates every record and rejects duplicate or future dates",
+      "repro": "python3 -c \"import json;print(json.load(open('data/watch_series.json'))['repos'])\" | head -c 300",
+      "evidence": "data/watch_series.json",
+      "as_of": "2026-09-14",
+      "check": {
+        "cmd": "python3 - <<'PY'\nimport json, pathlib, sys\nsys.path.insert(0, \"scripts\")\nimport watchlist\n\nwl = json.loads(pathlib.Path(\"data/watchlist.json\").read_text())[\"repos\"]\np = pathlib.Path(\"data/watch_series.json\")\nser = json.loads(p.read_text())[\"repos\"] if p.exists() else {}\nneed = set(watchlist.FIELDS) - {\"date\"}\ntoday = watchlist._today()\nbad = []\nfor name, points in ser.items():\n    dates = [pt.get(\"date\") for pt in points]\n    if len(set(dates)) != len(dates) or dates != sorted(dates):\n        bad.append(name + \":dates\")\n    for pt in points:\n        if pt[\"date\"] > today:\n            bad.append(name + \":future\")\n        miss = need - {k for k, v in pt.items() if v is not None}\n        if miss:\n            bad.append(name + \":\" + \",\".join(sorted(miss)))\nprint(\"watched\", len(wl), \"records\", len(ser), \"problems\", bad[:3])\nassert wl, \"watch list is empty\"\nassert not bad\nPY",
+        "expect": {
+          "regex": "problems \\[\\]$"
+        },
+        "timeout": 180
+      }
+    },
+    {
+      "id": "test-count",
+      "claim": "The suite has the number of tests the roadmap states.",
+      "value": "184 tests",
+      "metric": "tests collected by pytest, against the count in docs/ROADMAP.md",
+      "method": "documents/ROADMAP.md quotes the count under 'Where we are'; this check runs pytest's collector and requires the two numbers to agree, so the figure cannot age in silence the way it did before (117 in the roadmap vs 169 passing)",
+      "repro": "python3 -m pytest --collect-only -q | tail -1; grep -o '[0-9]* unit tests' docs/ROADMAP.md",
+      "evidence": "docs/ROADMAP.md",
+      "as_of": "2026-09-14",
+      "check": {
+        "cmd": "python3 -c \"import re,subprocess,pathlib;out=subprocess.run(['python3','-m','pytest','--collect-only','-q'],capture_output=True,text=True).stdout;got=int(re.search(r'(\\\\d+) tests? collected', out).group(1));doc=int(re.search(r'(\\\\d+) unit tests', pathlib.Path('docs/ROADMAP.md').read_text()).group(1));print('pytest', got, 'roadmap', doc);assert got==doc\"",
+        "expect": {
+          "regex": "pytest \\d+ roadmap \\d+$"
+        },
+        "timeout": 180
+      }
     }
   ]
 }
