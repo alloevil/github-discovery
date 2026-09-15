@@ -3,103 +3,13 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "huggingface/transformers",
-   "stars": 166143,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "TauricResearch/TradingAgents",
-   "stars": 106438,
-   "language": "Python"
-  },
-  {
-   "full_name": "ruvnet/RuView",
-   "stars": 94037,
-   "language": "Rust"
-  },
-  {
-   "full_name": "localsend/localsend",
-   "stars": 91559,
-   "language": "Dart"
-  },
-  {
-   "full_name": "Panniantong/Agent-Reach",
-   "stars": 81767,
-   "language": "Python"
-  },
-  {
-   "full_name": "666ghj/MiroFish",
-   "stars": 73510,
-   "language": "Python"
-  },
-  {
-   "full_name": "dani-garcia/vaultwarden",
-   "stars": 67618,
-   "language": "Rust"
-  },
-  {
-   "full_name": "asgeirtj/system_prompts_leaks",
-   "stars": 67052,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "OpenBMB/VoxCPM",
-   "stars": 37516,
-   "language": "Python"
-  },
-  {
-   "full_name": "Crosstalk-Solutions/project-nomad",
-   "stars": 37071,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "JustVugg/colibri",
-   "stars": 32842,
-   "language": "C"
-  },
-  {
-   "full_name": "debpalash/VoiceStudio",
-   "stars": 30019,
-   "language": "Python"
-  },
-  {
-   "full_name": "alibaba/open-code-review",
-   "stars": 26823,
-   "language": "Go"
-  },
-  {
-   "full_name": "multimodal-art-projection/YuE",
-   "stars": 8756,
-   "language": "Python"
-  },
-  {
-   "full_name": "reconurge/flowsint",
-   "stars": 8509,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "ever-co/ever-gauzy",
-   "stars": 6212,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "tech-leads-club/agent-skills",
-   "stars": 6199,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "SnailSploit/Claude-Red",
-   "stars": 5085,
-   "language": "Python"
-  },
-  {
-   "full_name": "peetzweg/opendisplay",
-   "stars": 3788,
-   "language": "Swift"
-  },
-  {
-   "full_name": "rlaope/oh-my-hermes",
-   "stars": 2300,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
   }
  ]
