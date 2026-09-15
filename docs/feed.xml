@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-14T18:00:00Z</updated>
+  <updated>2026-09-15T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>alibaba/open-code-review — Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.</title>
+    <id>https://github.com/alibaba/open-code-review#2026-09-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/alibaba/open-code-review"/>
+    <updated>2026-09-15T18:00:00Z</updated>
+    <published>2026-09-15T18:00:00Z</published>
+    <summary>Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.
+
+Why: +2952/day · Trending · 13.2x accelerating
+Score: 100/100 | Language: Go | ⭐ 26823 (+2952.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>huggingface/transformers — 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. </title>
+    <id>https://github.com/huggingface/transformers#2026-09-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/huggingface/transformers"/>
+    <updated>2026-09-15T18:00:00Z</updated>
+    <published>2026-09-15T18:00:00Z</published>
+    <summary>🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
+
+Why: +454/day · Trending · 7.9x accelerating
+Score: 100/100 | Language: Python | ⭐ 166143 (+454.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>ever-co/ever-gauzy — Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co</title>
+    <id>https://github.com/ever-co/ever-gauzy#2026-09-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ever-co/ever-gauzy"/>
+    <updated>2026-09-15T18:00:00Z</updated>
+    <published>2026-09-15T18:00:00Z</published>
+    <summary>Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co
+
+Why: +794/day · Trending · 340.1x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 6212 (+794.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>tech-leads-club/agent-skills — The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.</title>
+    <id>https://github.com/tech-leads-club/agent-skills#2026-09-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/tech-leads-club/agent-skills"/>
+    <updated>2026-09-15T18:00:00Z</updated>
+    <published>2026-09-15T18:00:00Z</published>
+    <summary>The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.
+
+Why: +397/day · Trending · 15.2x accelerating
+Score: 99/100 | Language: TypeScript | ⭐ 6199 (+397.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>nilbuild/page-mascot — A mascot that watches the cursor and blinks when you poke it</title>
+    <id>https://github.com/nilbuild/page-mascot#2026-09-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/nilbuild/page-mascot"/>
+    <updated>2026-09-15T18:00:00Z</updated>
+    <published>2026-09-15T18:00:00Z</published>
+    <summary>A mascot that watches the cursor and blinks when you poke it
+
+Why: +399/day · Search
+Score: 95/100 | Language: Python | ⭐ 399 (+399.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>dani-garcia/vaultwarden — Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs</title>
+    <id>https://github.com/dani-garcia/vaultwarden#2026-09-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/dani-garcia/vaultwarden"/>
+    <updated>2026-09-15T18:00:00Z</updated>
+    <published>2026-09-15T18:00:00Z</published>
+    <summary>Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
+
+Why: +70/day · Trending · 3.3x accelerating
+Score: 91/100 | Language: Rust | ⭐ 67618 (+70.2/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>asgeirtj/system_prompts_leaks — Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.</title>
     <id>https://github.com/asgeirtj/system_prompts_leaks#2026-09-14</id>
@@ -921,82 +987,5 @@ Score: 92/100 | Language: Python | ⭐ 483 (+241.5/day) | Source: search</summar
 
 Why: +94/day · Trending · 4.2x accelerating
 Score: 92/100 | Language: Python | ⭐ 92754 (+93.7/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>handsomestWei/patent-disclosure-skill — 中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。</title>
-    <id>https://github.com/handsomestWei/patent-disclosure-skill#2026-09-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/handsomestWei/patent-disclosure-skill"/>
-    <updated>2026-09-01T18:00:00Z</updated>
-    <published>2026-09-01T18:00:00Z</published>
-    <summary>中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。
-
-Why: +465/day · Trending · 10.4x accelerating
-Score: 100/100 | Language: Python | ⭐ 6528 (+465.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Osmantic/ODS — Turn your PC, Mac, or Linux box into an AI server.  LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.</title>
-    <id>https://github.com/Osmantic/ODS#2026-09-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Osmantic/ODS"/>
-    <updated>2026-09-01T18:00:00Z</updated>
-    <published>2026-09-01T18:00:00Z</published>
-    <summary>Turn your PC, Mac, or Linux box into an AI server.  LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.
-
-Why: +312/day · Trending · 11.0x accelerating
-Score: 98/100 | Language: Python | ⭐ 5749 (+312.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>kaifcodec/user-scanner — 🕵️‍♂️ (2-in-1) Email &amp; Username OSINT suite for deep data extraction just from a single Email/Username. Analyzes 465+ actively maintained scan vectors (175+ email / 290+ username) for security research, investigations, and digital footprinting.</title>
-    <id>https://github.com/kaifcodec/user-scanner#2026-09-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/kaifcodec/user-scanner"/>
-    <updated>2026-09-01T18:00:00Z</updated>
-    <published>2026-09-01T18:00:00Z</published>
-    <summary>🕵️‍♂️ (2-in-1) Email &amp; Username OSINT suite for deep data extraction just from a single Email/Username. Analyzes 465+ actively maintained scan vectors (175+ email / 290+ username) for security research, investigations, and digital footprinting.
-
-Why: +336/day · Trending · 23.7x accelerating
-Score: 98/100 | Language: Python | ⭐ 4494 (+335.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>pollen-robotics/microduck_rl — RL training environments for Microduck (mjlab)</title>
-    <id>https://github.com/pollen-robotics/microduck_rl#2026-09-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/pollen-robotics/microduck_rl"/>
-    <updated>2026-09-01T18:00:00Z</updated>
-    <published>2026-09-01T18:00:00Z</published>
-    <summary>RL training environments for Microduck (mjlab)
-
-Why: +330/day · Trending · 66.2x accelerating
-Score: 98/100 | Language: Python | ⭐ 1335 (+330.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>majd/ipatool — Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.</title>
-    <id>https://github.com/majd/ipatool#2026-09-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/majd/ipatool"/>
-    <updated>2026-09-01T18:00:00Z</updated>
-    <published>2026-09-01T18:00:00Z</published>
-    <summary>Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.
-
-Why: +293/day · Trending · 52.9x accelerating
-Score: 97/100 | Language: Go | ⭐ 10683 (+293.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>firecrawl/pdf-inspector — Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.</title>
-    <id>https://github.com/firecrawl/pdf-inspector#2026-09-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/firecrawl/pdf-inspector"/>
-    <updated>2026-09-01T18:00:00Z</updated>
-    <published>2026-09-01T18:00:00Z</published>
-    <summary>Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.
-
-Why: +199/day · Trending · 2.3x accelerating
-Score: 92/100 | Language: Rust | ⭐ 17609 (+198.8/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>affaan-m/ECC — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</title>
-    <id>https://github.com/affaan-m/ECC#2026-09-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/affaan-m/ECC"/>
-    <updated>2026-09-01T18:00:00Z</updated>
-    <published>2026-09-01T18:00:00Z</published>
-    <summary>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-
-Why: +352/day · Trending
-Score: 88/100 | Language: JavaScript | ⭐ 245466 (+352.1/day) | Source: trending</summary>
   </entry>
 </feed>

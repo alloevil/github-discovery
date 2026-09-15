@@ -1,85 +1,5 @@
 {
  "repos": {
-  "THU-MAIC/OpenMAIC": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "p-e-w/heretic": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "every-app/open-seo": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "abhigyanpatwari/GitNexus": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "sapientinc/PRAXIST": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "XiaoDuoYa/codex-with-chatgpt": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Vuk97/forward-implementation-first": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "jub0t/Concat": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "daffainfo/vol-rs": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "experientiallabs/experiential": {
-   "first_seen": "2026-08-31",
-   "until": "2026-09-14",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
   "handsomestWei/patent-disclosure-skill": {
    "first_seen": "2026-09-01",
    "until": "2026-09-15",
@@ -1180,7 +1100,84 @@
    "stars_at_discovery": 58736,
    "score_at_discovery": 87,
    "source_at_discovery": "trending"
+  },
+  "alibaba/open-code-review": {
+   "first_seen": "2026-09-15",
+   "until": "2026-09-29",
+   "stars_at_discovery": 26823,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "huggingface/transformers": {
+   "first_seen": "2026-09-15",
+   "until": "2026-09-29",
+   "stars_at_discovery": 166143,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "ever-co/ever-gauzy": {
+   "first_seen": "2026-09-15",
+   "until": "2026-09-29",
+   "stars_at_discovery": 6212,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "tech-leads-club/agent-skills": {
+   "first_seen": "2026-09-15",
+   "until": "2026-09-29",
+   "stars_at_discovery": 6199,
+   "score_at_discovery": 99,
+   "source_at_discovery": "trending"
+  },
+  "nilbuild/page-mascot": {
+   "first_seen": "2026-09-15",
+   "until": "2026-09-29",
+   "stars_at_discovery": 399,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "agentverse-os/AgentVerse-OS": {
+   "first_seen": "2026-09-15",
+   "until": "2026-09-29",
+   "stars_at_discovery": 438,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "ViceVerse-cz/Serein": {
+   "first_seen": "2026-09-15",
+   "until": "2026-09-29",
+   "stars_at_discovery": 302,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "Panniantong/Agent-Reach": {
+   "first_seen": "2026-09-15",
+   "until": "2026-09-29",
+   "stars_at_discovery": 81767,
+   "score_at_discovery": 89,
+   "source_at_discovery": "trending"
+  },
+  "yi1108/printfilm": {
+   "first_seen": "2026-09-15",
+   "until": "2026-09-29",
+   "stars_at_discovery": 447,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "666ghj/MiroFish": {
+   "first_seen": "2026-09-15",
+   "until": "2026-09-29",
+   "stars_at_discovery": 73510,
+   "score_at_discovery": 87,
+   "source_at_discovery": "trending"
+  },
+  "dani-garcia/vaultwarden": {
+   "first_seen": "2026-09-15",
+   "until": "2026-09-29",
+   "stars_at_discovery": 67618,
+   "score_at_discovery": 91,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-09-14T06:57:14.891501+00:00"
+ "updated_at": "2026-09-15T09:40:24.508605+00:00"
 }

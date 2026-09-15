@@ -104,14 +104,6 @@
       ],
       "last_recommended": "2026-08-28T16:56:44.807701+00:00"
     },
-    "MakazhanAlpamys/Soup": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-08-16T05:06:32.489368+00:00"
-    },
     "PrimeIntellect-ai/prime-agent": {
       "count": 2,
       "scores": [
@@ -170,20 +162,6 @@
       ],
       "last_recommended": "2026-09-12T08:51:47.497781+00:00"
     },
-    "ToolJet/ToolJet": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-16T05:06:32.459847+00:00"
-    },
-    "altic-dev/FluidVoice": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-16T05:06:32.462966+00:00"
-    },
     "github/spec-kit": {
       "count": 2,
       "scores": [
@@ -192,34 +170,6 @@
       ],
       "last_recommended": "2026-09-12T08:51:47.499015+00:00"
     },
-    "dsh-market/dsh-market": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-16T05:06:32.469060+00:00"
-    },
-    "dataelement/dsh-desktop": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-16T05:06:32.472035+00:00"
-    },
-    "lajosdeme/mole": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-16T05:06:32.475119+00:00"
-    },
-    "alchaincyf/deepseek-harness-orange-book": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-16T05:06:32.478094+00:00"
-    },
     "cursor/plugins": {
       "count": 2,
       "scores": [
@@ -227,20 +177,6 @@
         92
       ],
       "last_recommended": "2026-08-23T05:07:29.969819+00:00"
-    },
-    "carpdiem/ember": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-16T05:06:32.484273+00:00"
-    },
-    "HKUDS/CLI-Anything": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-16T05:06:32.487370+00:00"
     },
     "public-apis/public-apis": {
       "count": 1,
@@ -836,11 +772,12 @@
       "last_recommended": "2026-08-25T05:17:47.058809+00:00"
     },
     "dani-garcia/vaultwarden": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        95
+        95,
+        91
       ],
-      "last_recommended": "2026-08-25T05:17:47.060437+00:00"
+      "last_recommended": "2026-09-15T09:37:24.830833+00:00"
     },
     "VoltAgent/awesome-agent-skills": {
       "count": 1,
@@ -2281,7 +2218,77 @@
         89
       ],
       "last_recommended": "2026-09-14T06:57:14.885304+00:00"
+    },
+    "alibaba/open-code-review": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-15T09:37:24.810486+00:00"
+    },
+    "huggingface/transformers": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-15T09:37:24.812747+00:00"
+    },
+    "ever-co/ever-gauzy": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-15T09:37:24.814729+00:00"
+    },
+    "tech-leads-club/agent-skills": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-09-15T09:37:24.816706+00:00"
+    },
+    "nilbuild/page-mascot": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-15T09:37:24.818695+00:00"
+    },
+    "agentverse-os/AgentVerse-OS": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-15T09:37:24.820772+00:00"
+    },
+    "ViceVerse-cz/Serein": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-15T09:37:24.822781+00:00"
+    },
+    "Panniantong/Agent-Reach": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-15T09:37:24.824798+00:00"
+    },
+    "yi1108/printfilm": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-15T09:37:24.826796+00:00"
+    },
+    "666ghj/MiroFish": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-15T09:37:24.828801+00:00"
     }
   },
-  "updated_at": "2026-09-14T06:57:14.889363+00:00"
+  "updated_at": "2026-09-15T09:37:24.830860+00:00"
 }
