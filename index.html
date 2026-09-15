@@ -384,6 +384,16 @@
     .footer-sub-form input[type="email"] { min-width: auto; width: 100%; }
     .repo-meta { gap: 10px; }
   }
+
+  /* reduced-motion：本页的动效只是悬停与筛选过渡，关掉后信息完全不变。 */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: .001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: .001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
 </style>
 <script type="application/ld+json">
 {
@@ -424,13 +434,13 @@
     <div class="filters">
       <div class="filter-group" id="date-filters">
         <select class="date-select" id="date-select" onchange="switchDate(this.value)">
-        <option value="2026-09-14" selected>2026-09-14</option>
+        <option value="2026-09-15" selected>2026-09-15</option>
+        <option value="2026-09-14">2026-09-14</option>
         <option value="2026-09-13">2026-09-13</option>
         <option value="2026-09-12">2026-09-12</option>
         <option value="2026-09-11">2026-09-11</option>
         <option value="2026-09-10">2026-09-10</option>
         <option value="2026-09-09">2026-09-09</option>
-        <option value="2026-09-08">2026-09-08</option>
         </select>
       </div>
       <div class="filter-group" id="lang-filters">
@@ -447,8 +457,8 @@
     <div class="meta-bar">
       <span class="meta-stats">
         <span><span class="stat-num" id="stat-sources">6</span> sources</span>
-        <span><span class="stat-num" id="stat-repos">920</span> recommendations</span>
-        <span>median <span class="stat-num" id="stat-score">98</span></span>
+        <span><span class="stat-num" id="stat-repos">931</span> recommendations</span>
+        <span>median <span class="stat-num" id="stat-score">92</span></span>
       </span>
       <span class="meta-sep">·</span>
       <span class="legend-label">Source:</span>
@@ -460,7 +470,166 @@
       <a class="legend-item" href="https://huggingface.co/papers" target="_blank" rel="noopener">🤗 HF Papers</a>
     </div>
 
-        <div class="date-section" data-date="2026-09-14" style="display:">
+        <div class="date-section" data-date="2026-09-15" style="display:">
+      <div class="date-header"><h3>2026-09-15</h3><span class="date-count">11 repos</span></div>
+      <div class="section-label"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></div>
+      <div class="repo" data-lang="go" data-source="trending">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/alibaba.png" alt="alibaba" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/alibaba/open-code-review"><span class="repo-owner">alibaba /</span> open-code-review</a></div>
+        </div>
+        <div class="repo-desc">Fast, efficient, battle-tested at Alibaba&#x27;s scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.</div>
+        <div class="repo-reason">+2952/day · Trending · 13.2x accelerating</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#00ADD8"></span>Go</span>
+          <span class="repo-meta-item">⭐ 26823</span>
+          <span class="score-tag" title="">Score 100</span>
+          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python" data-source="trending">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/huggingface.png" alt="huggingface" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/huggingface/transformers"><span class="repo-owner">huggingface /</span> transformers</a></div>
+        </div>
+        <div class="repo-desc">🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. </div>
+        <div class="repo-reason">+454/day · Trending · 7.9x accelerating</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
+          <span class="repo-meta-item">⭐ 166143</span>
+          <span class="score-tag" title="">Score 100</span>
+          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript" data-source="trending">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/ever-co.png" alt="ever-co" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/ever-co/ever-gauzy"><span class="repo-owner">ever-co /</span> ever-gauzy</a></div>
+        </div>
+        <div class="repo-desc">Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co</div>
+        <div class="repo-reason">+794/day · Trending · 340.1x accelerating</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
+          <span class="repo-meta-item">⭐ 6212</span>
+          <span class="score-tag" title="">Score 100</span>
+          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="typescript" data-source="trending">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/tech-leads-club.png" alt="tech-leads-club" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/tech-leads-club/agent-skills"><span class="repo-owner">tech-leads-club /</span> agent-skills</a></div>
+        </div>
+        <div class="repo-desc">The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.</div>
+        <div class="repo-reason">+397/day · Trending · 15.2x accelerating</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
+          <span class="repo-meta-item">⭐ 6199</span>
+          <span class="score-tag" title="">Score 99</span>
+          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python" data-source="search">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/nilbuild.png" alt="nilbuild" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/nilbuild/page-mascot"><span class="repo-owner">nilbuild /</span> page-mascot</a></div>
+        </div>
+        <div class="repo-desc">A mascot that watches the cursor and blinks when you poke it</div>
+        <div class="repo-reason">+399/day · Search</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
+          <span class="repo-meta-item">⭐ 399</span>
+          <span class="score-tag" title="">Score 95</span>
+          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="rust" data-source="search">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/agentverse-os.png" alt="agentverse-os" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/agentverse-os/AgentVerse-OS"><span class="repo-owner">agentverse-os /</span> AgentVerse-OS</a></div>
+        </div>
+        <div class="repo-desc">Personal cloud OS for a developer and their AI agents on a single server. One-command install on Ubuntu, then everything in the browser: a windowed desktop, isolated workspaces with VS Code, Claude Code and Codex, a store of 944 self-hosted apps, backups and updates. Access only via Tailscale, nothing exposed to the internet. Rust core, Svelte UI.</div>
+        <div class="repo-reason">+219/day · Search</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#dea584"></span>Rust</span>
+          <span class="repo-meta-item">⭐ 438</span>
+          <span class="score-tag" title="">Score 92</span>
+          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="rust" data-source="search">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/ViceVerse-cz.png" alt="ViceVerse-cz" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/ViceVerse-cz/Serein"><span class="repo-owner">ViceVerse-cz /</span> Serein</a></div>
+        </div>
+        <div class="repo-desc">Tiny, Performant &amp; 100% Native client for Discord made in Rust</div>
+        <div class="repo-reason">+154/day · Search · 2.5x accelerating</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#dea584"></span>Rust</span>
+          <span class="repo-meta-item">⭐ 302</span>
+          <span class="score-tag" title="">Score 92</span>
+          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python" data-source="trending">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/Panniantong.png" alt="Panniantong" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/Panniantong/Agent-Reach"><span class="repo-owner">Panniantong /</span> Agent-Reach</a></div>
+        </div>
+        <div class="repo-desc">Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.</div>
+        <div class="repo-reason">+403/day · Trending</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
+          <span class="repo-meta-item">⭐ 81767</span>
+          <span class="score-tag" title="">Score 89</span>
+          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python" data-source="search">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/yi1108.png" alt="yi1108" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/yi1108/printfilm"><span class="repo-owner">yi1108 /</span> printfilm</a></div>
+        </div>
+        <div class="repo-desc">PRINTFILM：AI 科普视频与漫剧创作平台</div>
+        <div class="repo-reason">+172/day · Search · 1.9x accelerating</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
+          <span class="repo-meta-item">⭐ 447</span>
+          <span class="score-tag" title="">Score 89</span>
+          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+        </div>
+      </div>
+      <div class="repo" data-lang="python" data-source="trending">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/666ghj.png" alt="666ghj" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/666ghj/MiroFish"><span class="repo-owner">666ghj /</span> MiroFish</a></div>
+        </div>
+        <div class="repo-desc">A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物</div>
+        <div class="repo-reason">+251/day · Trending</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
+          <span class="repo-meta-item">⭐ 73510</span>
+          <span class="score-tag" title="">Score 87</span>
+          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+        </div>
+      </div>
+      <div class="section-label"><span class="label-icon">🔄</span><span>Repeat Performers</span><span class="label-count">1</span></div>
+      <div class="repo" data-lang="rust" data-source="trending">
+        <div class="repo-top">
+          <img class="repo-avatar" src="https://github.com/dani-garcia.png" alt="dani-garcia" onerror="this.style.display='none'">
+          <div class="repo-name"><a href="https://github.com/dani-garcia/vaultwarden"><span class="repo-owner">dani-garcia /</span> vaultwarden</a></div>
+        </div>
+        <div class="repo-desc">Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs</div>
+        <div class="repo-reason">+70/day · Trending · 3.3x accelerating</div>
+        <div class="repo-meta">
+          <span class="repo-meta-item"><span class="lang-dot" style="background:#dea584"></span>Rust</span>
+          <span class="repo-meta-item">⭐ 67618</span>
+          <span class="score-tag" title="">Score 91</span>
+          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+        </div>
+      </div>
+    </div>
+    <div class="date-section" data-date="2026-09-14" style="display:none">
       <div class="date-header"><h3>2026-09-14</h3><span class="date-count">12 repos</span></div>
       <div class="section-label"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></div>
       <div class="repo" data-lang="javascript" data-source="trending">
@@ -1494,150 +1663,6 @@
           <span class="repo-meta-item">⭐ 254369</span>
           <span class="score-tag" title="">Score 91</span>
           <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
-        </div>
-      </div>
-    </div>
-    <div class="date-section" data-date="2026-09-08" style="display:none">
-      <div class="date-header"><h3>2026-09-08</h3><span class="date-count">10 repos</span></div>
-      <div class="section-label"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></div>
-      <div class="repo" data-lang="python" data-source="trending">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/The-Swarm-Corporation.png" alt="The-Swarm-Corporation" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/The-Swarm-Corporation/AutoHedge"><span class="repo-owner">The-Swarm-Corporation /</span> AutoHedge</a></div>
-        </div>
-        <div class="repo-desc">Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.</div>
-        <div class="repo-reason">+391/day · Trending · 46.6x accelerating</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-          <span class="repo-meta-item">⭐ 5332</span>
-          <span class="score-tag" title="">Score 99</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="javascript" data-source="trending">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/coreyhaines31.png" alt="coreyhaines31" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/coreyhaines31/marketingskills"><span class="repo-owner">coreyhaines31 /</span> marketingskills</a></div>
-        </div>
-        <div class="repo-desc">Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.</div>
-        <div class="repo-reason">+484/day · Trending · 2.4x accelerating</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
-          <span class="repo-meta-item">⭐ 48246</span>
-          <span class="score-tag" title="">Score 97</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="python" data-source="trending">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/openai.png" alt="openai" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/openai/skills"><span class="repo-owner">openai /</span> skills</a></div>
-        </div>
-        <div class="repo-desc">Skills Catalog for Codex</div>
-        <div class="repo-reason">+349/day · Trending · 3.8x accelerating</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-          <span class="repo-meta-item">⭐ 26115</span>
-          <span class="score-tag" title="">Score 93</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="python" data-source="hn">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/timgordontg.png" alt="timgordontg" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/timgordontg/engrim"><span class="repo-owner">timgordontg /</span> engrim</a></div>
-        </div>
-        <div class="repo-desc">The Universal Cross-Model Episodic Memory Standard. Local-first, project-scoped SQLite memory engine for Google Antigravity, Claude Code, Cursor, Windsurf, and Codex. Zero cloud lock-in.</div>
-        <div class="repo-reason">+126/day · HN · 53.1x accelerating</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-          <span class="repo-meta-item">⭐ 190</span>
-          <span class="score-tag" title="">Score 93</span>
-          <span class="repo-meta-item source-tag" title="Discovered via hn">🟠 HN</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="go" data-source="search">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/okf-memory.png" alt="okf-memory" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/okf-memory/okf-agent-memory"><span class="repo-owner">okf-memory /</span> okf-agent-memory</a></div>
-        </div>
-        <div class="repo-desc">Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.</div>
-        <div class="repo-reason">+234/day · Search</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#00ADD8"></span>Go</span>
-          <span class="repo-meta-item">⭐ 468</span>
-          <span class="score-tag" title="">Score 92</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="swift" data-source="search">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/Jarvis322.png" alt="Jarvis322" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/Jarvis322/macos-sysdata"><span class="repo-owner">Jarvis322 /</span> macos-sysdata</a></div>
-        </div>
-        <div class="repo-desc">See what is really inside macOS System Data and delete it, item by item, from the menu bar.</div>
-        <div class="repo-reason">+280/day · Search</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#F05138"></span>Swift</span>
-          <span class="repo-meta-item">⭐ 560</span>
-          <span class="score-tag" title="">Score 88</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="typescript" data-source="trending">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/heygen-com.png" alt="heygen-com" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/heygen-com/hyperframes"><span class="repo-owner">heygen-com /</span> hyperframes</a></div>
-        </div>
-        <div class="repo-desc">Write HTML. Render video. Built for agents.</div>
-        <div class="repo-reason">+255/day · Trending</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
-          <span class="repo-meta-item">⭐ 46360</span>
-          <span class="score-tag" title="">Score 87</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="python" data-source="trending">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/microsoft.png" alt="microsoft" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/microsoft/markitdown"><span class="repo-owner">microsoft /</span> markitdown</a></div>
-        </div>
-        <div class="repo-desc">Python tool for converting files and office documents to Markdown.</div>
-        <div class="repo-reason">+272/day · Trending</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
-          <span class="repo-meta-item">⭐ 180563</span>
-          <span class="score-tag" title="">Score 87</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="c" data-source="hn">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/Sadpainy.png" alt="Sadpainy" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/Sadpainy/Stuxnet"><span class="repo-owner">Sadpainy /</span> Stuxnet</a></div>
-        </div>
-        <div class="repo-desc">Stuxnet, Here reproduced by me, Only for researchs educations purposes. It set work on WindowsXP and Windows 7 only.</div>
-        <div class="repo-reason">+69/day · HN</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#555555"></span>C</span>
-          <span class="repo-meta-item">⭐ 69</span>
-          <span class="score-tag" title="">Score 87</span>
-          <span class="repo-meta-item source-tag" title="Discovered via hn">🟠 HN</span>
-        </div>
-      </div>
-      <div class="repo" data-lang="typescript" data-source="search">
-        <div class="repo-top">
-          <img class="repo-avatar" src="https://github.com/Mantitup-Org.png" alt="Mantitup-Org" onerror="this.style.display='none'">
-          <div class="repo-name"><a href="https://github.com/Mantitup-Org/vista"><span class="repo-owner">Mantitup-Org /</span> vista</a></div>
-        </div>
-        <div class="repo-desc">No description</div>
-        <div class="repo-reason">+166/day · Search</div>
-        <div class="repo-meta">
-          <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
-          <span class="repo-meta-item">⭐ 361</span>
-          <span class="score-tag" title="">Score 87</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
         </div>
       </div>
     </div>
