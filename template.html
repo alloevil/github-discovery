@@ -201,19 +201,23 @@
   }
 
   /* Filters */
-  .filters {
-    padding: 16px 0;
+  /* 工具行:左边筛语言,右边公布统计。一行,底下一条细线,内容从这里开始。 */
+  .toolbar {
     display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--hairline);
   }
   .filter-group {
     display: flex;
+    flex-wrap: wrap;
     gap: 4px;
   }
   .filter-btn {
-    padding: 6px 14px;
+    padding: 6px 11px;
     font-size: 14px;
     font-weight: 500;
     color: var(--ink-subtle);
@@ -369,8 +373,8 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
-    padding: 2px 0 14px;
+    gap: 8px;
+    padding: 0;
     font-size: 12.5px;
     color: var(--ink-tertiary);
     font-variant-numeric: tabular-nums;
@@ -388,6 +392,10 @@
     color: var(--ink-tertiary);
   }
   .legend-bar .legend-label { color: var(--ink-subtle); font-weight: 500; }
+  /* 窄行里不用"·"分隔:间距本身就分组,省下的宽度留给数字 */
+  .stats-bar .meta-sep { display: none; }
+  /* 页脚的图例:键连同各来源的外链,放在参考文献的位置,不占首屏 */
+  .footer-legend { border-top: 1px solid var(--hairline); margin-top: 20px; padding-top: 12px; }
   .legend-bar .legend-item {
     display: inline-flex;
     align-items: center;
@@ -541,9 +549,12 @@
         <div class="brand">
           <span class="brand-icon">🔥</span>
           <h1>GitHub Discovery</h1>
-          <span class="tagline">Trending repos before they go mainstream · updated daily</span>
+          <span class="tagline">Trending repos, before they go mainstream</span>
         </div>
         <nav class="header-links">
+          <select class="date-select" id="date-select" aria-label="Report date" onchange="switchDate(this.value)">
+            <option value="2026-06-25" selected>2026-06-25</option>
+          </select>
           <button type="button" id="theme-toggle" class="theme-toggle" onclick="cycleTheme()">◐ Auto</button>
           <a href="https://github.com/alloevil/github-discovery">GitHub</a>
           <a href="https://alloevil.github.io/github-discovery/feed.xml">RSS</a>
@@ -551,24 +562,9 @@
       </div>
     </header>
 
-    <!-- Filters -->
-    <!-- 图例:说明条目标签里的来源图标。放在页面上方 —— 先给"键",再让读者看到用它的地方。 -->
-    <div class="legend-bar">
-      <span class="legend-label">Source:</span>
-      <a class="legend-item" href="https://github.com/trending" target="_blank" rel="noopener">🔥 Trending</a>
-      <a class="legend-item" href="https://github.com/search?q=created%3A%3E2024-01-01+stars%3A%3E50&type=repositories&s=stars&o=desc" target="_blank" rel="noopener">🔍 Search</a>
-      <a class="legend-item" href="https://news.ycombinator.com/show" target="_blank" rel="noopener">🟠 HN</a>
-      <a class="legend-item" href="https://github.com/search?q=created%3A%3E2024-01-01+forks%3A%3E20&type=repositories&s=forks&o=desc" target="_blank" rel="noopener">📈 Rising</a>
-      <a class="legend-item" href="https://ossinsight.io/trending/ai" target="_blank" rel="noopener">🤖 AI/ML</a>
-      <a class="legend-item" href="https://huggingface.co/papers" target="_blank" rel="noopener">🤗 HF Papers</a>
-    </div>
-
-    <div class="filters">
-      <div class="filter-group" id="date-filters">
-        <select class="date-select" id="date-select" onchange="switchDate(this.value)">
-        <option value="2026-06-25" selected>2026-06-25</option>
-        </select>
-      </div>
+    <!-- 工具行:语言筛选 + 统计。日期选择器在 masthead 的控件组里 —— 它选的是"看哪一期",
+         不是筛选内容;图例在页脚,那个键连同各来源的外链一起放在参考文献的位置。 -->
+    <div class="toolbar">
       <div class="filter-group" id="lang-filters">
         <button class="filter-btn active" onclick="filterLang('all')">All</button>
         <button class="filter-btn" onclick="filterLang('python')">Python</button>
@@ -577,18 +573,14 @@
         <button class="filter-btn" onclick="filterLang('rust')">Rust</button>
         <button class="filter-btn" onclick="filterLang('go')">Go</button>
       </div>
-    </div>
-
-    <!-- 统计行:三个标量 + 一张每日数量的 sparkline(sparkline 由生成器填入) -->
-    <div class="stats-bar">
+      <div class="stats-bar">
       <span><span class="stat-num" id="stat-sources">6</span> sources</span>
       <span class="meta-sep">·</span>
-      <span><span class="stat-num" id="stat-repos">33</span> recommendations</span>
+      <span><span class="stat-num" id="stat-repos">33</span> recommendations
+        <span class="spark-label">(last 14d)</span><span class="sparkline" id="sparkline"></span></span>
       <span class="meta-sep">·</span>
       <span>median score <span class="stat-num" id="stat-score">100</span></span>
-      <span class="meta-sep">·</span>
-      <span class="spark-label">last 14 days</span>
-      <span class="sparkline" id="sparkline"></span>
+    </div>
     </div>
 
     <!-- CONTENT_MARKER -->
@@ -607,6 +599,15 @@
           </form>
           <div class="subscribe-success">✅ Subscribed!</div>
         </div>
+      </div>
+      <div class="legend-bar footer-legend">
+        <span class="legend-label">Sources:</span>
+      <a class="legend-item" href="https://github.com/trending" target="_blank" rel="noopener">🔥 Trending</a>
+      <a class="legend-item" href="https://github.com/search?q=created%3A%3E2024-01-01+stars%3A%3E50&type=repositories&s=stars&o=desc" target="_blank" rel="noopener">🔍 Search</a>
+      <a class="legend-item" href="https://news.ycombinator.com/show" target="_blank" rel="noopener">🟠 HN</a>
+      <a class="legend-item" href="https://github.com/search?q=created%3A%3E2024-01-01+forks%3A%3E20&type=repositories&s=forks&o=desc" target="_blank" rel="noopener">📈 Rising</a>
+      <a class="legend-item" href="https://ossinsight.io/trending/ai" target="_blank" rel="noopener">🤖 AI/ML</a>
+      <a class="legend-item" href="https://huggingface.co/papers" target="_blank" rel="noopener">🤗 HF Papers</a>
       </div>
       <div class="footer-bottom">
         <p>Built by <a href="https://github.com/alloevil">alloevil</a> · <a href="https://github.com/alloevil/github-discovery">Source</a> · <a href="https://alloevil.github.io/github-discovery/feed.xml">RSS</a> · <a href="https://alloevil.github.io/projects/">More projects by allo</a></p>
