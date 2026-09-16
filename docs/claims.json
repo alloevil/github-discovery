@@ -287,6 +287,23 @@
         "timeout": 120
       },
       "cmd": null
+    },
+    {
+      "id": "sparkline-matches-daily-counts",
+      "claim": "The sparkline beside the stats plots the daily recommendation counts — one point per day, the same numbers the daily reports contain — so it is temporal context for the volume, not decoration.",
+      "value": "one polyline point per day, equal to len(new) + len(repeat) of each day's data",
+      "metric": "the values in the SVG's aria-label versus the per-day counts recomputed from data/discovery-*.json",
+      "method": "scripts/generate_site.py builds the sparkline from the same report list the page's sections come from, and writes the plotted values into the SVG's aria-label and <title>. The check parses those values out of the built page and recomputes the per-day counts from the committed JSON, so a stale sparkline, a rescaled axis or a hand-edited SVG fails.",
+      "repro": "grep -o 'aria-label=\"daily recommendations[^\"]*' docs/index.html",
+      "evidence": "docs/index.html",
+      "verified": "2026-09-16",
+      "check": {
+        "cmd": "python3 -c \"import re, json, pathlib, glob\nh = pathlib.Path('docs/index.html').read_text(encoding='utf-8')\nm = re.search(r'aria-label=\\\"daily recommendations, last (\\\\d+) days: ([0-9, ]+)\\\"', h)\nassert m, 'the sparkline and its aria-label are missing from the built page'\nn, vals = int(m.group(1)), [int(x) for x in m.group(2).split(',')]\nassert len(vals) == n, (len(vals), n)\ndays = []\nfor f in sorted(glob.glob('data/discovery-*.json')):\n    d = json.load(open(f))\n    days.append(len(d.get('new', [])) + len(d.get('repeat', [])))\ndays = days[-n:]\nassert days == vals, (days, vals)\nassert (h.count('<polyline') >= 1), 'no polyline'\nprint('sparkline plots the last %d days of daily counts (total %d)' % (n, sum(vals)))\"",
+        "expect": {
+          "regex": "^sparkline plots the last "
+        },
+        "timeout": 120
+      }
     }
   ]
 }

@@ -183,6 +183,39 @@ def repo_card(r: dict) -> str:
       </div>'''
 
 
+SPARK_DAYS = 14    # sparkline 覆盖最近多少天
+SPARK_STEP = 6     # 每天占的像素宽
+SPARK_H = 22       # 高
+
+
+def _sparkline_svg(days: list) -> str:
+    """每日推荐数的 sparkline(内联 SVG)。
+
+    只画一条折线加一条基线,颜色用 currentColor —— 所以浅色/暗色主题自动跟着变,不需要两套图。
+    数值写进 aria-label 与 <title>,回执据此与 data/discovery-*.json 的每日条数对齐。
+    """
+    if len(days) < 2:
+        return ''
+    values = [v for _, v in days]
+    top = max(values) or 1
+    width = (len(values) - 1) * SPARK_STEP + 2
+    points = []
+    for i, v in enumerate(values):
+        x = 1 + i * SPARK_STEP
+        y = SPARK_H - 2 - (v / top) * (SPARK_H - 4)
+        points.append(f'{x:.1f},{y:.1f}')
+    label = ', '.join(str(v) for v in values)
+    return (
+        f'<svg class="spark" width="{width}" height="{SPARK_H}" viewBox="0 0 {width} {SPARK_H}" '
+        f'role="img" aria-label="daily recommendations, last {len(values)} days: {label}">'
+        f'<title>Daily recommendations, last {len(values)} days: {label}</title>'
+        f'<polyline fill="none" stroke="currentColor" stroke-width="1.5" '
+        f'vector-effect="non-scaling-stroke" points="{" ".join(points)}" />'
+        f'<line x1="1" y1="{SPARK_H - 1}" x2="{width - 1}" y2="{SPARK_H - 1}" stroke="currentColor" '
+        f'stroke-width="1" opacity="0.3" vector-effect="non-scaling-stroke" />'
+        f'</svg>')
+
+
 def generate_content(reports):
     total_repos = sum(len(ft) + len(rp) for _, ft, rp in reports)
     # Median score of the latest report's repos — more informative than the
@@ -215,7 +248,10 @@ def generate_content(reports):
                 cards.append(repo_card(r))
         sections.append(f'    <div class="date-section" data-date="{date_str}" style="display:{display}">\n      <div class="date-header"><h2>{date_str}</h2><span class="date-count">{len(first_timers) + len(repeat_performers)} repos</span></div>\n' + '\n'.join(cards) + '\n    </div>')
 
+    spark_days = [(date_str, len(first) + len(repeat)) for date_str, first, repeat in reports[:SPARK_DAYS]][::-1]
+
     return {
+        'sparkline': _sparkline_svg(spark_days),
         'date_filters': '\n        '.join(date_buttons),
         'sections': '\n'.join(sections),
         'total_repos': str(total_repos),
@@ -255,6 +291,8 @@ def main():
     html = html.replace('id="stat-sources">6<', f'id="stat-sources">{data["num_sources"]}<')
     html = html.replace('id="stat-repos">33<', f'id="stat-repos">{data["total_repos"]}<')
     html = html.replace('id="stat-score">100<', f'id="stat-score">{data["top_score"]}<')
+    html = re.sub(r'(<span class="sparkline" id="sparkline">)(.*?)(</span>)',
+                  lambda m: m.group(1) + data['sparkline'] + m.group(3), html, flags=re.DOTALL)
 
     html = re.sub(
         r'(<select class="date-select" id="date-select"[^>]*>)\s*\n(.*?)\s*\n(\s*</select>)',
