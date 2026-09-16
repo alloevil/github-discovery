@@ -27,7 +27,7 @@
     --ink: #f7f8f8;
     --ink-muted: #d0d6e0;
     --ink-subtle: #8a8f98;
-    --ink-tertiary: #62666d;
+    --ink-tertiary: #7f8794;
     --canvas: #010102;
     --surface-1: #0f1011;
     --surface-2: #141516;
@@ -273,7 +273,8 @@
     font-weight: 600;
     color: var(--ink);
   }
-  .meta-bar .meta-sep { color: var(--hairline-strong); }
+  /* 分隔符是文字,不是边框:原来用了 --hairline-strong,在 canvas 上只有 1.69:1 */
+  .meta-bar .meta-sep { color: var(--ink-tertiary); }
   .meta-bar .legend-label {
     color: var(--ink-muted);
     font-weight: 500;
