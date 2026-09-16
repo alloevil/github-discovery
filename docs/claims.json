@@ -252,6 +252,23 @@
         },
         "timeout": 180
       }
+    },
+    {
+      "id": "animated-pages-respect-reduced-motion",
+      "claim": "Every page in this repository that animates — through CSS animations or transitions, cross-document view transitions, SMIL, requestAnimationFrame or the Web Animations API — also handles prefers-reduced-motion, so a reader who asked their system for less motion gets none.",
+      "value": "every animated page carries the reduced-motion branch",
+      "metric": "HTML pages containing a motion primitive vs those containing prefers-reduced-motion",
+      "method": "The detector enumerates ways a page can move (animation:, @keyframes, <animate, requestAnimationFrame, .animate(, transition:, @view-transition); a page matching any of them must also contain prefers-reduced-motion. It also asserts that at least one page matched, so it cannot pass vacuously on a tree with no animation at all.",
+      "repro": "python3 -c \"import re, pathlib; m=re.compile(r'animation\\s*:|@keyframes|transition\\s*:|@view-transition'); print([str(p) for p in pathlib.Path('.').rglob('*.html') if m.search(p.read_text(encoding='utf-8', errors='replace'))][:5])\"",
+      "evidence": "the committed HTML pages",
+      "verified": "2026-06-25",
+      "check": {
+        "cmd": "python3 -c \"import re, pathlib\nskip = {'.git','node_modules','dist','build','coverage','.venv','__pycache__','.pytest_cache'}\nmoves = re.compile(r'animation\\s*:|@keyframes|<animate\\b|requestAnimationFrame|\\.animate\\(|transition\\s*:|@view-transition')\nfiles = [p for p in sorted(pathlib.Path('.').rglob('*.html')) if not (set(p.parts) & skip)]\nanimated = [p for p in files if moves.search(p.read_text(encoding='utf-8', errors='replace'))]\nmissing = [str(p) for p in animated if 'prefers-reduced-motion' not in p.read_text(encoding='utf-8', errors='replace')]\nassert animated, 'no animated page found: this receipt would pass vacuously'\nassert not missing, missing\nprint('files %d animated %d missing %s' % (len(files), len(animated), missing))\"",
+        "expect": {
+          "regex": "missing \\[\\]$"
+        },
+        "timeout": 120
+      }
     }
   ]
 }
