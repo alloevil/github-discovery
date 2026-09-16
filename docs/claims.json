@@ -321,6 +321,23 @@
         },
         "timeout": 120
       }
+    },
+    {
+      "id": "toolbar-shares-one-baseline",
+      "claim": "The toolbar's language chips and the stats row share one text baseline, and the sparkline sits on that baseline at cap height instead of being centred as a taller box.",
+      "value": "align-items: baseline on .toolbar and .stats-bar, no vertical-align override on .sparkline, and an SVG no taller than the 12.5px text's cap band",
+      "metric": "the CSS of .toolbar / .stats-bar / .sparkline and the sparkline's height attribute in the built page",
+      "method": "Centring flex items aligns their boxes, so the item holding the sparkline — taller than the rest — pushed its own text 5.5px above '6 sources' and 'median score'. The row and the toolbar are now baseline-aligned and the chart is 12px tall, matching the text's cap band; this check fails if either reverts to centring or the chart grows past the line.",
+      "repro": "grep -A3 '.stats-bar {' docs/index.html | grep align-items",
+      "evidence": "docs/index.html",
+      "verified": "2026-09-16",
+      "check": {
+        "cmd": "python3 -c \"import re, pathlib\nh = pathlib.Path('docs/index.html').read_text(encoding='utf-8')\ndef rule(sel):\n    m = re.search(re.escape(sel) + r'\\s*\\{([^}]*)\\}', h)\n    assert m, 'no rule for ' + sel\n    return m.group(1)\nfor sel in ['.toolbar', '.stats-bar']:\n    body = rule(sel)\n    assert 'align-items: baseline' in body, sel + ' centres boxes, not text: ' + body.strip()[:40]\nspark = rule('.sparkline')\nassert 'vertical-align' not in spark, '.sparkline overrides the baseline: ' + spark.strip()[:60]\nm = re.search(r'<svg class=\\\"spark\\\" width=\\\"(\\d+)\\\" height=\\\"(\\d+)\\\"', h)\nassert m, 'no sparkline svg'\nw, ht = int(m.group(1)), int(m.group(2))\nassert ht <= 14, 'the chart is taller than the cap band of 12.5px text: ' + str(ht)\nprint('toolbar and stats row align on one baseline; chart %dx%d sits inside the cap band' % (w, ht))\"",
+        "expect": {
+          "regex": "^toolbar and stats row align on one baseline; chart 80x12 "
+        },
+        "timeout": 120
+      }
     }
   ]
 }

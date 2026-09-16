@@ -185,7 +185,7 @@ def repo_card(r: dict) -> str:
 
 SPARK_DAYS = 14    # sparkline 覆盖最近多少天
 SPARK_STEP = 6     # 每天占的像素宽
-SPARK_H = 22       # 高
+SPARK_H = 12       # 高:与 12.5px 文字的大写字高相当,坐在基线上像一个字,而不是比整行还高
 
 
 def _sparkline_svg(days: list) -> str:
