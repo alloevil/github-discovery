@@ -14,6 +14,18 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="GitHub Discovery — Trending Repos Before They Go Mainstream">
 <meta name="twitter:description" content="Discover trending GitHub repos before they go mainstream. 6 data sources, smart scoring, anti-spam.">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b0d10" media="(prefers-color-scheme: dark)">
+<script>
+  // 首次绘制前定妥主题:auto(默认,交给 prefers-color-scheme)/ light / dark。
+  // 只有显式选择才写 data-theme —— auto 时不写,系统切换由 CSS 媒体查询实时接管。
+  (function () {
+    try {
+      var t = localStorage.getItem('discoveryTheme');
+      if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  })();
+</script>
 <link rel="alternate" type="application/atom+xml" title="GitHub Discovery — Daily Picks" href="https://alloevil.github.io/github-discovery/feed.xml">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
 <style>
@@ -22,13 +34,71 @@
   /* Linear Design System Tokens */
   /* 字阶只有 4 档:20(页面标题)/ 15(区块标题、条目名)/ 14(正文、控件)/ 12.5(次要元信息)。
      新组件从这四档取值 —— 之前是 11/12/12.5/13/14/15/20/22 八档混用,13px 一个人占了九处。 */
+  /* 浅色为底：同类站点（arXiv / HN / GitHub Trending）实测底色都接近纸白，且正极性对小字号更有利
+     （Piepenbrock et al. 2014, Human Factors 56(5):942-951）。每个文本色对 canvas / surface-1 /
+     surface-2 都 ≥4.5:1，非文本色 ≥3:1（WCAG 2.2 SC 1.4.3 / 1.4.11）；最低一档是 ink-tertiary 在
+     surface-2 上的 4.65:1。品牌 indigo #5e6ad2 在白底是 4.70:1，保留不动。 */
   :root {
+    color-scheme: light;
+    --primary: #5e6ad2;
+    --primary-hover: #4a52b8;
+    --primary-dim: rgba(94, 106, 210, 0.12);
+    --primary-border: rgba(94, 106, 210, 0.35);
+    --on-primary: #ffffff;
+    --ink: #14161c;
+    --ink-muted: #3d4350;
+    --ink-subtle: #565d6a;
+    --ink-tertiary: #666d7a;
+    --canvas: #ffffff;
+    --surface-1: #f8f9fb;
+    --surface-2: #f0f2f7;
+    --surface-3: #e9edf4;
+    --hairline: #e4e7ed;
+    --hairline-strong: #cdd3dd;
+    --success: #16702f;
+    --focus: #5e6ad2;
+    --select-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%23565d6a' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
+    --font-mono: 'JetBrains Mono', 'SF Mono', monospace;
+  }
+
+  /* 暗色只在系统偏好暗色时启用，刻意不是纯黑：canvas #0b0d10 对齐 Radix dark gray-1 #111111 /
+     Primer dark-dimmed bgColor-default #212830 这一档，正文也从近纯白退到 #eceef2（16.8:1）。
+     :not([data-theme="light"]) 给"手动选浅色"让路 —— 下面那块 :root[data-theme="dark"] 必须与这里
+     逐字一致（改一处要同时改另一处）。 */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --primary: #5e6ad2;
+      --primary-hover: #828fff;
+      --primary-dim: rgba(130, 143, 255, 0.18);
+      --primary-border: rgba(130, 143, 255, 0.35);
+      --ink: #eceef2;
+      --ink-muted: #c3c8d2;
+      --ink-subtle: #9aa2af;
+      --ink-tertiary: #7f8794;
+      --canvas: #0b0d10;
+      --surface-1: #12141a;
+      --surface-2: #191c22;
+      --surface-3: #1f232b;
+      --hairline: #262c36;
+      --hairline-strong: #363d47;
+      --success: #27a644;
+      --focus: #828fff;
+      --select-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%239aa2af' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+    }
+  }
+
+  /* 手动选深色：:root[data-theme] 比媒体查询里的 :root 更具体，所以系统是亮色时它照样生效。 */
+  :root[data-theme="dark"] {
+    color-scheme: dark;
     --primary: #5e6ad2;
     --primary-hover: #828fff;
-    --on-primary: #ffffff;
-    --ink: #f7f8f8;
-    --ink-muted: #d0d6e0;
-    --ink-subtle: #8a8f98;
+    --primary-dim: rgba(130, 143, 255, 0.18);
+    --primary-border: rgba(130, 143, 255, 0.35);
+    --ink: #eceef2;
+    --ink-muted: #c3c8d2;
+    --ink-subtle: #9aa2af;
     --ink-tertiary: #7f8794;
     --canvas: #0b0d10;
     --surface-1: #12141a;
@@ -37,11 +107,9 @@
     --hairline: #262c36;
     --hairline-strong: #363d47;
     --success: #27a644;
-    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif;
-    --font-mono: 'JetBrains Mono', 'SF Mono', monospace;
-  }
-
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+    --focus: #828fff;
+    --select-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%239aa2af' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+  }  * { margin: 0; padding: 0; box-sizing: border-box; }
 
   body {
     font-size: 14px;               /* 基准落在字阶上:没有它,未指定的组件会掉到浏览器默认 16px */
@@ -55,7 +123,7 @@
   /* 键盘焦点：只给键盘操作（:focus-visible）画焦点环，鼠标点击不画 —— 之前是
      下面那条 :focus { outline: none } 把所有人的焦点环都抹掉了，键盘用户看不到焦点在哪。 */
   :focus-visible {
-    outline: 2px solid var(--primary);
+    outline: 2px solid var(--focus);
     outline-offset: 2px;
   }
 
@@ -92,8 +160,24 @@
   }
   .header-links {
     display: flex;
+    flex-wrap: wrap;
     gap: 8px;
   }
+  /* 主题按钮:auto → light → dark 三态循环,样式与旁边链接一致 */
+  .theme-toggle {
+    padding: 6px 14px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--font-sans);
+    color: var(--ink-muted);
+    background: transparent;
+    border: 1px solid var(--hairline);
+    border-radius: 6px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: color .12s, border-color .12s;
+  }
+  .theme-toggle:hover { color: var(--ink); border-color: var(--hairline-strong); }
   .header-links a {
     padding: 6px 14px;
     font-size: 14px;
@@ -102,7 +186,8 @@
     text-decoration: none;
     border: 1px solid var(--hairline);
     border-radius: 6px;
-    transition: all 0.15s;
+    /* 只列会变的属性:transition: all 会把将来新增的布局属性也一并挂上 */
+    transition: color .12s, border-color .12s;
   }
   .header-links a:hover {
     color: var(--ink);
@@ -155,7 +240,7 @@
     font-family: var(--font-sans);
     appearance: none;
     -webkit-appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%238a8f98' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+    background-image: var(--select-arrow);
     background-repeat: no-repeat;
     background-position: right 10px center;
   }
@@ -321,9 +406,9 @@
     border: 1px solid var(--hairline);
   }
   .score-tag.high {
-    background: rgba(94, 106, 210, 0.15);
+    background: var(--primary-dim);
     color: var(--primary-hover);
-    border-color: rgba(94, 106, 210, 0.3);
+    border-color: var(--primary-border);
   }
 
   /* Subscribe Footer */
@@ -453,6 +538,7 @@
           <span class="tagline">Trending repos before they go mainstream · updated daily</span>
         </div>
         <nav class="header-links">
+          <button type="button" id="theme-toggle" class="theme-toggle" onclick="cycleTheme()">◐ Auto</button>
           <a href="https://github.com/alloevil/github-discovery">GitHub</a>
           <a href="https://alloevil.github.io/github-discovery/feed.xml">RSS</a>
         </nav>
@@ -1760,6 +1846,50 @@ function handleSubscribe(e) {
 
 document.addEventListener('DOMContentLoaded', () => {
 });
+</script>
+<script>
+// --- 主题:auto(跟随系统)→ light → dark 循环,选择存 localStorage ---
+const THEME_KEY = 'discoveryTheme';
+const THEME_LABELS = { auto: '◐ Auto', light: '☀ Light', dark: '☾ Dark' };
+
+function currentTheme() {
+  const t = document.documentElement.getAttribute('data-theme');
+  return (t === 'light' || t === 'dark') ? t : 'auto';
+}
+
+// theme-color 跟着走:auto 时交回给两条 media 查询,显式选择时把两条都改成同一个色
+function syncThemeColor(mode) {
+  const metas = Array.from(document.querySelectorAll('meta[name="theme-color"]'));
+  if (metas.length < 2) return;
+  if (mode === 'auto') {
+    metas[0].setAttribute('media', '(prefers-color-scheme: light)');
+    metas[0].setAttribute('content', '#ffffff');
+    metas[1].setAttribute('media', '(prefers-color-scheme: dark)');
+    metas[1].setAttribute('content', '#0b0d10');
+  } else {
+    metas.forEach(m => { m.removeAttribute('media'); m.setAttribute('content', mode === 'dark' ? '#0b0d10' : '#ffffff'); });
+  }
+}
+
+function renderThemeButton(mode) {
+  const btn = document.getElementById('theme-toggle');
+  if (!btn) return;
+  btn.textContent = THEME_LABELS[mode];
+  btn.title = 'Theme: ' + THEME_LABELS[mode] + ' (click to switch)';
+  btn.setAttribute('aria-label', 'Toggle theme (current: ' + THEME_LABELS[mode] + ')');
+  syncThemeColor(mode);
+}
+
+function cycleTheme() {
+  const order = ['auto', 'light', 'dark'];
+  const next = order[(order.indexOf(currentTheme()) + 1) % order.length];
+  if (next === 'auto') document.documentElement.removeAttribute('data-theme');
+  else document.documentElement.setAttribute('data-theme', next);
+  try { localStorage.setItem(THEME_KEY, next); } catch (e) {}
+  renderThemeButton(next);
+}
+
+document.addEventListener('DOMContentLoaded', () => renderThemeButton(currentTheme()));
 </script>
 </body>
 </html>
