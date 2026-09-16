@@ -201,19 +201,23 @@
   }
 
   /* Filters */
-  .filters {
-    padding: 16px 0;
+  /* 工具行:左边筛语言,右边公布统计。一行,底下一条细线,内容从这里开始。 */
+  .toolbar {
     display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--hairline);
   }
   .filter-group {
     display: flex;
+    flex-wrap: wrap;
     gap: 4px;
   }
   .filter-btn {
-    padding: 6px 14px;
+    padding: 6px 11px;
     font-size: 14px;
     font-weight: 500;
     color: var(--ink-subtle);
@@ -369,8 +373,8 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
-    padding: 2px 0 14px;
+    gap: 8px;
+    padding: 0;
     font-size: 12.5px;
     color: var(--ink-tertiary);
     font-variant-numeric: tabular-nums;
@@ -388,6 +392,10 @@
     color: var(--ink-tertiary);
   }
   .legend-bar .legend-label { color: var(--ink-subtle); font-weight: 500; }
+  /* 窄行里不用"·"分隔:间距本身就分组,省下的宽度留给数字 */
+  .stats-bar .meta-sep { display: none; }
+  /* 页脚的图例:键连同各来源的外链,放在参考文献的位置,不占首屏 */
+  .footer-legend { border-top: 1px solid var(--hairline); margin-top: 20px; padding-top: 12px; }
   .legend-bar .legend-item {
     display: inline-flex;
     align-items: center;
@@ -541,31 +549,10 @@
         <div class="brand">
           <span class="brand-icon">🔥</span>
           <h1>GitHub Discovery</h1>
-          <span class="tagline">Trending repos before they go mainstream · updated daily</span>
+          <span class="tagline">Trending repos, before they go mainstream</span>
         </div>
         <nav class="header-links">
-          <button type="button" id="theme-toggle" class="theme-toggle" onclick="cycleTheme()">◐ Auto</button>
-          <a href="https://github.com/alloevil/github-discovery">GitHub</a>
-          <a href="https://alloevil.github.io/github-discovery/feed.xml">RSS</a>
-        </nav>
-      </div>
-    </header>
-
-    <!-- Filters -->
-    <!-- 图例:说明条目标签里的来源图标。放在页面上方 —— 先给"键",再让读者看到用它的地方。 -->
-    <div class="legend-bar">
-      <span class="legend-label">Source:</span>
-      <a class="legend-item" href="https://github.com/trending" target="_blank" rel="noopener">🔥 Trending</a>
-      <a class="legend-item" href="https://github.com/search?q=created%3A%3E2024-01-01+stars%3A%3E50&type=repositories&s=stars&o=desc" target="_blank" rel="noopener">🔍 Search</a>
-      <a class="legend-item" href="https://news.ycombinator.com/show" target="_blank" rel="noopener">🟠 HN</a>
-      <a class="legend-item" href="https://github.com/search?q=created%3A%3E2024-01-01+forks%3A%3E20&type=repositories&s=forks&o=desc" target="_blank" rel="noopener">📈 Rising</a>
-      <a class="legend-item" href="https://ossinsight.io/trending/ai" target="_blank" rel="noopener">🤖 AI/ML</a>
-      <a class="legend-item" href="https://huggingface.co/papers" target="_blank" rel="noopener">🤗 HF Papers</a>
-    </div>
-
-    <div class="filters">
-      <div class="filter-group" id="date-filters">
-        <select class="date-select" id="date-select" onchange="switchDate(this.value)">
+          <select class="date-select" id="date-select" aria-label="Report date" onchange="switchDate(this.value)">
         <option value="2026-09-15" selected>2026-09-15</option>
         <option value="2026-09-14">2026-09-14</option>
         <option value="2026-09-13">2026-09-13</option>
@@ -573,8 +560,17 @@
         <option value="2026-09-11">2026-09-11</option>
         <option value="2026-09-10">2026-09-10</option>
         <option value="2026-09-09">2026-09-09</option>
-        </select>
+          </select>
+          <button type="button" id="theme-toggle" class="theme-toggle" onclick="cycleTheme()">◐ Auto</button>
+          <a href="https://github.com/alloevil/github-discovery">GitHub</a>
+          <a href="https://alloevil.github.io/github-discovery/feed.xml">RSS</a>
+        </nav>
       </div>
+    </header>
+
+    <!-- 工具行:语言筛选 + 统计。日期选择器在 masthead 的控件组里 —— 它选的是"看哪一期",
+         不是筛选内容;图例在页脚,那个键连同各来源的外链一起放在参考文献的位置。 -->
+    <div class="toolbar">
       <div class="filter-group" id="lang-filters">
         <button class="filter-btn active" onclick="filterLang('all')">All</button>
         <button class="filter-btn" onclick="filterLang('python')">Python</button>
@@ -583,18 +579,14 @@
         <button class="filter-btn" onclick="filterLang('rust')">Rust</button>
         <button class="filter-btn" onclick="filterLang('go')">Go</button>
       </div>
-    </div>
-
-    <!-- 统计行:三个标量 + 一张每日数量的 sparkline(sparkline 由生成器填入) -->
-    <div class="stats-bar">
+      <div class="stats-bar">
       <span><span class="stat-num" id="stat-sources">6</span> sources</span>
       <span class="meta-sep">·</span>
-      <span><span class="stat-num" id="stat-repos">931</span> recommendations</span>
+      <span><span class="stat-num" id="stat-repos">931</span> recommendations
+        <span class="spark-label">(last 14d)</span><span class="sparkline" id="sparkline"><svg class="spark" width="80" height="22" viewBox="0 0 80 22" role="img" aria-label="daily recommendations, last 14 days: 11, 13, 12, 11, 10, 10, 10, 11, 13, 14, 12, 10, 12, 11"><title>Daily recommendations, last 14 days: 11, 13, 12, 11, 10, 10, 10, 11, 13, 14, 12, 10, 12, 11</title><polyline fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" points="1.0,5.9 7.0,3.3 13.0,4.6 19.0,5.9 25.0,7.1 31.0,7.1 37.0,7.1 43.0,5.9 49.0,3.3 55.0,2.0 61.0,4.6 67.0,7.1 73.0,4.6 79.0,5.9" /><line x1="1" y1="21" x2="79" y2="21" stroke="currentColor" stroke-width="1" opacity="0.3" vector-effect="non-scaling-stroke" /></svg></span></span>
       <span class="meta-sep">·</span>
       <span>median score <span class="stat-num" id="stat-score">92</span></span>
-      <span class="meta-sep">·</span>
-      <span class="spark-label">last 14 days</span>
-      <span class="sparkline" id="sparkline"><svg class="spark" width="80" height="22" viewBox="0 0 80 22" role="img" aria-label="daily recommendations, last 14 days: 11, 13, 12, 11, 10, 10, 10, 11, 13, 14, 12, 10, 12, 11"><title>Daily recommendations, last 14 days: 11, 13, 12, 11, 10, 10, 10, 11, 13, 14, 12, 10, 12, 11</title><polyline fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" points="1.0,5.9 7.0,3.3 13.0,4.6 19.0,5.9 25.0,7.1 31.0,7.1 37.0,7.1 43.0,5.9 49.0,3.3 55.0,2.0 61.0,4.6 67.0,7.1 73.0,4.6 79.0,5.9" /><line x1="1" y1="21" x2="79" y2="21" stroke="currentColor" stroke-width="1" opacity="0.3" vector-effect="non-scaling-stroke" /></svg></span>
+    </div>
     </div>
 
         <div class="date-section" data-date="2026-09-15" style="display:">
@@ -611,7 +603,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#00ADD8"></span>Go</span>
           <span class="repo-meta-item">⭐ 26823</span>
           <span class="score-tag" title="">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="trending">
@@ -625,7 +617,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 166143</span>
           <span class="score-tag" title="">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="typescript" data-source="trending">
@@ -639,7 +631,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 6212</span>
           <span class="score-tag" title="">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="typescript" data-source="trending">
@@ -653,7 +645,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 6199</span>
           <span class="score-tag" title="">Score 99</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="search">
@@ -667,7 +659,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 399</span>
           <span class="score-tag" title="">Score 95</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="rust" data-source="search">
@@ -681,7 +673,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#dea584"></span>Rust</span>
           <span class="repo-meta-item">⭐ 438</span>
           <span class="score-tag" title="">Score 92</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="rust" data-source="search">
@@ -695,7 +687,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#dea584"></span>Rust</span>
           <span class="repo-meta-item">⭐ 302</span>
           <span class="score-tag" title="">Score 92</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="trending">
@@ -709,7 +701,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 81767</span>
           <span class="score-tag" title="">Score 89</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="search">
@@ -723,7 +715,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 447</span>
           <span class="score-tag" title="">Score 89</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="trending">
@@ -737,7 +729,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 73510</span>
           <span class="score-tag" title="">Score 87</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="section-label"><span class="label-icon">🔄</span><span>Repeat Performers</span><span class="label-count">1</span></div>
@@ -752,7 +744,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#dea584"></span>Rust</span>
           <span class="repo-meta-item">⭐ 67618</span>
           <span class="score-tag" title="">Score 91</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
     </div>
@@ -770,7 +762,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
           <span class="repo-meta-item">⭐ 66282</span>
           <span class="score-tag" title="">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="go" data-source="trending">
@@ -784,7 +776,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#00ADD8"></span>Go</span>
           <span class="repo-meta-item">⭐ 24172</span>
           <span class="score-tag" title="">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="trending">
@@ -798,7 +790,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 7939</span>
           <span class="score-tag" title="">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="trending">
@@ -812,7 +804,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 4304</span>
           <span class="score-tag" title="">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="rust" data-source="trending">
@@ -826,7 +818,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#dea584"></span>Rust</span>
           <span class="repo-meta-item">⭐ 2252</span>
           <span class="score-tag" title="">Score 99</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="java" data-source="trending">
@@ -840,7 +832,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#b07219"></span>Java</span>
           <span class="repo-meta-item">⭐ 33533</span>
           <span class="score-tag" title="">Score 97</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="html" data-source="search + ai-trending">
@@ -854,7 +846,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#e34c26"></span>HTML</span>
           <span class="repo-meta-item">⭐ 619</span>
           <span class="score-tag" title="">Score 96</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search + ai-trending">🔍 Search · 🤖 AI/ML</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search · 🤖 AI/ML">🔍 Search · 🤖 AI/ML</span>
         </div>
       </div>
       <div class="repo" data-lang="html" data-source="search">
@@ -868,7 +860,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#e34c26"></span>HTML</span>
           <span class="repo-meta-item">⭐ 582</span>
           <span class="score-tag" title="">Score 91</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="go" data-source="search">
@@ -882,7 +874,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#00ADD8"></span>Go</span>
           <span class="repo-meta-item">⭐ 484</span>
           <span class="score-tag" title="">Score 91</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="html" data-source="rising">
@@ -896,7 +888,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#e34c26"></span>HTML</span>
           <span class="repo-meta-item">⭐ 116</span>
           <span class="score-tag" title="">Score 89</span>
-          <span class="repo-meta-item source-tag" title="Discovered via rising">📈 Rising</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 📈 Rising">📈 Rising</span>
         </div>
       </div>
       <div class="section-label"><span class="label-icon">🔄</span><span>Repeat Performers</span><span class="label-count">2</span></div>
@@ -911,7 +903,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 27579</span>
           <span class="score-tag" title="">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="trending">
@@ -925,7 +917,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 58736</span>
           <span class="score-tag" title="">Score 87</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
     </div>
@@ -943,7 +935,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 1966</span>
           <span class="score-tag" title="">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="typescript" data-source="trending">
@@ -957,7 +949,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 3183</span>
           <span class="score-tag" title="">Score 96</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="c#" data-source="trending">
@@ -971,7 +963,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#178600"></span>C#</span>
           <span class="repo-meta-item">⭐ 15997</span>
           <span class="score-tag" title="">Score 96</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="go" data-source="trending">
@@ -985,7 +977,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#00ADD8"></span>Go</span>
           <span class="repo-meta-item">⭐ 1460</span>
           <span class="score-tag" title="">Score 96</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="trending">
@@ -999,7 +991,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 5231</span>
           <span class="score-tag" title="">Score 92</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="search">
@@ -1013,7 +1005,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 339</span>
           <span class="score-tag" title="">Score 92</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="swift" data-source="rising">
@@ -1027,7 +1019,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#F05138"></span>Swift</span>
           <span class="repo-meta-item">⭐ 176</span>
           <span class="score-tag" title="">Score 91</span>
-          <span class="repo-meta-item source-tag" title="Discovered via rising">📈 Rising</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 📈 Rising">📈 Rising</span>
         </div>
       </div>
       <div class="repo" data-lang="javascript" data-source="search">
@@ -1041,7 +1033,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
           <span class="repo-meta-item">⭐ 626</span>
           <span class="score-tag" title="">Score 90</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="search">
@@ -1055,7 +1047,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 241</span>
           <span class="score-tag" title="">Score 87</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="typescript" data-source="hn">
@@ -1069,7 +1061,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 135</span>
           <span class="score-tag" title="">Score 87</span>
-          <span class="repo-meta-item source-tag" title="Discovered via hn">🟠 HN</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🟠 HN">🟠 HN</span>
         </div>
       </div>
     </div>
@@ -1087,7 +1079,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 18923</span>
           <span class="score-tag" title="">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="typescript" data-source="trending">
@@ -1101,7 +1093,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 2268</span>
           <span class="score-tag" title="">Score 99</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="c" data-source="trending">
@@ -1115,7 +1107,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#555555"></span>C</span>
           <span class="repo-meta-item">⭐ 4801</span>
           <span class="score-tag" title="">Score 97</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="swift" data-source="search">
@@ -1129,7 +1121,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#F05138"></span>Swift</span>
           <span class="repo-meta-item">⭐ 613</span>
           <span class="score-tag" title="">Score 96</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="javascript" data-source="search">
@@ -1143,7 +1135,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
           <span class="repo-meta-item">⭐ 517</span>
           <span class="score-tag" title="">Score 93</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="search">
@@ -1157,7 +1149,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 345</span>
           <span class="score-tag" title="">Score 91</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="javascript" data-source="rising">
@@ -1171,7 +1163,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
           <span class="repo-meta-item">⭐ 144</span>
           <span class="score-tag" title="">Score 90</span>
-          <span class="repo-meta-item source-tag" title="Discovered via rising">📈 Rising</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 📈 Rising">📈 Rising</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="search">
@@ -1185,7 +1177,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 544</span>
           <span class="score-tag" title="">Score 87</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="rising">
@@ -1199,7 +1191,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 72</span>
           <span class="score-tag" title="">Score 87</span>
-          <span class="repo-meta-item source-tag" title="Discovered via rising">📈 Rising</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 📈 Rising">📈 Rising</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="search">
@@ -1213,7 +1205,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 444</span>
           <span class="score-tag" title="">Score 86</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="section-label"><span class="label-icon">🔄</span><span>Repeat Performers</span><span class="label-count">2</span></div>
@@ -1228,7 +1220,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 11219</span>
           <span class="score-tag" title="">Score 89</span>
-          <span class="repo-meta-item source-tag" title="Discovered via hn">🟠 HN</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🟠 HN">🟠 HN</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="trending">
@@ -1242,7 +1234,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 135881</span>
           <span class="score-tag" title="">Score 87</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
     </div>
@@ -1260,7 +1252,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 4053</span>
           <span class="score-tag" title="">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="typescript" data-source="trending">
@@ -1274,7 +1266,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 2526</span>
           <span class="score-tag" title="">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="search">
@@ -1288,7 +1280,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 281</span>
           <span class="score-tag" title="">Score 93</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="unknown" data-source="trending">
@@ -1302,7 +1294,7 @@
           
           <span class="repo-meta-item">⭐ 19119</span>
           <span class="score-tag" title="">Score 90</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="c#" data-source="search">
@@ -1316,7 +1308,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#178600"></span>C#</span>
           <span class="repo-meta-item">⭐ 440</span>
           <span class="score-tag" title="">Score 90</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="search + ai-trending + hf-papers">
@@ -1330,7 +1322,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 230</span>
           <span class="score-tag" title="">Score 90</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search + ai-trending + hf-papers">🔍 Search · 🤖 AI/ML · 🤗 HF Papers</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search · 🤖 AI/ML · 🤗 HF Papers">🔍 Search · 🤖 AI/ML · 🤗 HF Papers</span>
         </div>
       </div>
       <div class="repo" data-lang="javascript" data-source="ai-trending">
@@ -1344,7 +1336,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
           <span class="repo-meta-item">⭐ 149</span>
           <span class="score-tag" title="">Score 90</span>
-          <span class="repo-meta-item source-tag" title="Discovered via ai-trending">🤖 AI/ML</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🤖 AI/ML">🤖 AI/ML</span>
         </div>
       </div>
       <div class="repo" data-lang="c" data-source="trending">
@@ -1358,7 +1350,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#555555"></span>C</span>
           <span class="repo-meta-item">⭐ 27615</span>
           <span class="score-tag" title="">Score 89</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="typescript" data-source="trending">
@@ -1372,7 +1364,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 64530</span>
           <span class="score-tag" title="">Score 88</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="search">
@@ -1386,7 +1378,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 313</span>
           <span class="score-tag" title="">Score 88</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="section-label"><span class="label-icon">🔄</span><span>Repeat Performers</span><span class="label-count">4</span></div>
@@ -1401,7 +1393,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
           <span class="repo-meta-item">⭐ 25482</span>
           <span class="score-tag" title="">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="typescript" data-source="trending">
@@ -1415,7 +1407,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 35651</span>
           <span class="score-tag" title="">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="shell" data-source="trending">
@@ -1429,7 +1421,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#89e051"></span>Shell</span>
           <span class="repo-meta-item">⭐ 284977</span>
           <span class="score-tag" title="">Score 90</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="rust" data-source="trending">
@@ -1443,7 +1435,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#dea584"></span>Rust</span>
           <span class="repo-meta-item">⭐ 35937</span>
           <span class="score-tag" title="">Score 84</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
     </div>
@@ -1461,7 +1453,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 36063</span>
           <span class="score-tag" title="">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="typescript" data-source="trending">
@@ -1475,7 +1467,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 23176</span>
           <span class="score-tag" title="">Score 99</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="typescript" data-source="search">
@@ -1489,7 +1481,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 441</span>
           <span class="score-tag" title="">Score 95</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="search">
@@ -1503,7 +1495,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 381</span>
           <span class="score-tag" title="">Score 95</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="search">
@@ -1517,7 +1509,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 611</span>
           <span class="score-tag" title="">Score 94</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="search + hf-papers">
@@ -1531,7 +1523,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 466</span>
           <span class="score-tag" title="">Score 94</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search + hf-papers">🔍 Search · 🤗 HF Papers</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search · 🤗 HF Papers">🔍 Search · 🤗 HF Papers</span>
         </div>
       </div>
       <div class="repo" data-lang="javascript" data-source="search">
@@ -1545,7 +1537,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
           <span class="repo-meta-item">⭐ 563</span>
           <span class="score-tag" title="">Score 93</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="javascript" data-source="trending">
@@ -1559,7 +1551,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
           <span class="repo-meta-item">⭐ 6321</span>
           <span class="score-tag" title="">Score 90</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="rising">
@@ -1573,7 +1565,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 150</span>
           <span class="score-tag" title="">Score 90</span>
-          <span class="repo-meta-item source-tag" title="Discovered via rising">📈 Rising</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 📈 Rising">📈 Rising</span>
         </div>
       </div>
       <div class="repo" data-lang="html" data-source="search">
@@ -1587,7 +1579,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#e34c26"></span>HTML</span>
           <span class="repo-meta-item">⭐ 511</span>
           <span class="score-tag" title="">Score 89</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="section-label"><span class="label-icon">🔄</span><span>Repeat Performers</span><span class="label-count">3</span></div>
@@ -1602,7 +1594,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
           <span class="repo-meta-item">⭐ 30483</span>
           <span class="score-tag" title="">Score 96</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="trending">
@@ -1616,7 +1608,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 104310</span>
           <span class="score-tag" title="">Score 89</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="trending">
@@ -1630,7 +1622,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 53981</span>
           <span class="score-tag" title="">Score 87</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
     </div>
@@ -1648,7 +1640,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
           <span class="repo-meta-item">⭐ 10557</span>
           <span class="score-tag" title="">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="typescript" data-source="trending">
@@ -1662,7 +1654,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 21433</span>
           <span class="score-tag" title="">Score 100</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="typescript" data-source="trending">
@@ -1676,7 +1668,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 10214</span>
           <span class="score-tag" title="">Score 98</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
       <div class="repo" data-lang="lean" data-source="search">
@@ -1690,7 +1682,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#8b949e"></span>Lean</span>
           <span class="repo-meta-item">⭐ 925</span>
           <span class="score-tag" title="">Score 96</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="search">
@@ -1704,7 +1696,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 367</span>
           <span class="score-tag" title="">Score 95</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="search">
@@ -1718,7 +1710,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 341</span>
           <span class="score-tag" title="">Score 94</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="search + rising">
@@ -1732,7 +1724,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 324</span>
           <span class="score-tag" title="">Score 94</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search + rising">🔍 Search · 📈 Rising</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search · 📈 Rising">🔍 Search · 📈 Rising</span>
         </div>
       </div>
       <div class="repo" data-lang="typescript" data-source="search">
@@ -1746,7 +1738,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 163</span>
           <span class="score-tag" title="">Score 91</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="typescript" data-source="search">
@@ -1760,7 +1752,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3178c6"></span>TypeScript</span>
           <span class="repo-meta-item">⭐ 146</span>
           <span class="score-tag" title="">Score 90</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="repo" data-lang="python" data-source="search">
@@ -1774,7 +1766,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#3572A5"></span>Python</span>
           <span class="repo-meta-item">⭐ 219</span>
           <span class="score-tag" title="">Score 89</span>
-          <span class="repo-meta-item source-tag" title="Discovered via search">🔍 Search</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔍 Search">🔍 Search</span>
         </div>
       </div>
       <div class="section-label"><span class="label-icon">🔄</span><span>Repeat Performers</span><span class="label-count">1</span></div>
@@ -1789,7 +1781,7 @@
           <span class="repo-meta-item"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
           <span class="repo-meta-item">⭐ 254369</span>
           <span class="score-tag" title="">Score 91</span>
-          <span class="repo-meta-item source-tag" title="Discovered via trending">🔥 Trending</span>
+          <span class="repo-meta-item source-tag" title="Discovered via 🔥 Trending">🔥 Trending</span>
         </div>
       </div>
     </div>
@@ -1809,6 +1801,15 @@
           </form>
           <div class="subscribe-success">✅ Subscribed!</div>
         </div>
+      </div>
+      <div class="legend-bar footer-legend">
+        <span class="legend-label">Sources:</span>
+      <a class="legend-item" href="https://github.com/trending" target="_blank" rel="noopener">🔥 Trending</a>
+      <a class="legend-item" href="https://github.com/search?q=created%3A%3E2024-01-01+stars%3A%3E50&type=repositories&s=stars&o=desc" target="_blank" rel="noopener">🔍 Search</a>
+      <a class="legend-item" href="https://news.ycombinator.com/show" target="_blank" rel="noopener">🟠 HN</a>
+      <a class="legend-item" href="https://github.com/search?q=created%3A%3E2024-01-01+forks%3A%3E20&type=repositories&s=forks&o=desc" target="_blank" rel="noopener">📈 Rising</a>
+      <a class="legend-item" href="https://ossinsight.io/trending/ai" target="_blank" rel="noopener">🤖 AI/ML</a>
+      <a class="legend-item" href="https://huggingface.co/papers" target="_blank" rel="noopener">🤗 HF Papers</a>
       </div>
       <div class="footer-bottom">
         <p>Built by <a href="https://github.com/alloevil">alloevil</a> · <a href="https://github.com/alloevil/github-discovery">Source</a> · <a href="https://alloevil.github.io/github-discovery/feed.xml">RSS</a> · <a href="https://alloevil.github.io/projects/">More projects by allo</a></p>

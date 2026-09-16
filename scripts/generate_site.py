@@ -161,7 +161,7 @@ def repo_card(r: dict) -> str:
     src = r.get('source', '')
     # 多来源仓库（"trending + hn"）逐个映射 label
     src_label = ' · '.join(filter(None, (source_label(s.strip()) for s in src.split('+'))))
-    src_html = f'<span class="repo-meta-item source-tag" title="Discovered via {src}">{src_label}</span>' if src_label else ''
+    src_html = f'<span class="repo-meta-item source-tag" title="Discovered via {src_label}">{src_label}</span>' if src_label else ''
     # 理由行（#9）：JSON 报告条目自带 reason；旧 markdown 报告没有
     # 结构化字段，退化为 日增+来源 的最小理由。
     reason = r.get('reason') or ' · '.join(
