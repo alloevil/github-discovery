@@ -49,6 +49,13 @@
     line-height: 1.5;
   }
 
+  /* 键盘焦点：只给键盘操作（:focus-visible）画焦点环，鼠标点击不画 —— 之前是
+     下面那条 :focus { outline: none } 把所有人的焦点环都抹掉了，键盘用户看不到焦点在哪。 */
+  :focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+  }
+
   /* Layout */
   .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
 
@@ -334,7 +341,7 @@
     font-family: var(--font-sans);
     min-width: 220px;
   }
-  .footer-sub-form input[type="email"]:focus {
+  .footer-sub-form input[type="email"]:focus:not(:focus-visible) {
     outline: none;
     border-color: var(--primary);
   }
