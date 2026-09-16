@@ -32,8 +32,10 @@
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
   /* Linear Design System Tokens */
-  /* 字阶只有 4 档:20(页面标题)/ 15(区块标题、条目名)/ 14(正文、控件)/ 12.5(次要元信息)。
-     新组件从这四档取值 —— 之前是 11/12/12.5/13/14/15/20/22 八档混用,13px 一个人占了九处。 */
+  /* 字号只有 5 档,并且是一条"从大到小"的阶梯 —— 大不再是"重要"的同义词,顺序本身说明层级:
+     24(品牌)/ 16(条目名,页面的主角)/ 14(日期标签、正文、控件)/ 13(分组标签)/ 12.5(统计与图例)。
+     之前 20 的品牌、15 的日期标题、15 的条目名三档挤在一起,用户反馈"标题和日期看起来一样大" ——
+     现在品牌 24 对日期 14,中间隔着条目名 16,落差一眼可见。新组件从这五档取值。 */
   /* 浅色为底：同类站点（arXiv / HN / GitHub Trending）实测底色都接近纸白，且正极性对小字号更有利
      （Piepenbrock et al. 2014, Human Factors 56(5):942-951）。每个文本色对 canvas / surface-1 /
      surface-2 都 ≥4.5:1，非文本色 ≥3:1（WCAG 2.2 SC 1.4.3 / 1.4.11）；最低一档是 ink-tertiary 在
@@ -147,7 +149,7 @@
     align-items: baseline;
     gap: 10px;
   }
-  .brand-icon { font-size: 20px; }
+  .brand-icon { font-size: 24px; }
   .brand h1 {
     font-size: 24px;
     font-weight: 600;
@@ -429,7 +431,7 @@
     flex-wrap: wrap;
   }
   .footer-brand {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--ink);
     margin-bottom: 4px;
