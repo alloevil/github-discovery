@@ -46,13 +46,14 @@
       "last_recommended": "2026-09-03T09:12:32.924122+00:00"
     },
     "addyosmani/agent-skills": {
-      "count": 3,
+      "count": 4,
       "scores": [
         100,
         100,
+        87,
         87
       ],
-      "last_recommended": "2026-08-30T10:08:35.730840+00:00"
+      "last_recommended": "2026-09-16T09:32:40.860186+00:00"
     },
     "RyanCodrai/turbovec": {
       "count": 3,
@@ -178,13 +179,6 @@
       ],
       "last_recommended": "2026-08-23T05:07:29.969819+00:00"
     },
-    "public-apis/public-apis": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-17T05:21:42.263838+00:00"
-    },
     "OpenCut-app/OpenCut": {
       "count": 2,
       "scores": [
@@ -192,62 +186,6 @@
         89
       ],
       "last_recommended": "2026-08-27T15:32:28.611733+00:00"
-    },
-    "Nervercc/gpt_nerver": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-17T05:21:42.271095+00:00"
-    },
-    "NousResearch/Hermes-Bot-Mode": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-17T05:21:42.274065+00:00"
-    },
-    "SheberDavid/v4-flash-godmode-opencode-go": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-17T05:21:42.277310+00:00"
-    },
-    "ysr666/dsh-vision-router": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-17T05:21:42.280672+00:00"
-    },
-    "deepseek-ai/deepseek-harness": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-17T05:21:42.283993+00:00"
-    },
-    "anywhere-labs/deepseek-harness-desktop": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-17T05:21:42.287049+00:00"
-    },
-    "Endokelp/Endoplexity": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-17T05:21:42.289887+00:00"
-    },
-    "XIAZY/wcctl": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-17T05:21:42.292878+00:00"
     },
     "yetone/cumora": {
       "count": 1,
@@ -1049,11 +987,12 @@
       "last_recommended": "2026-08-29T11:22:18.634433+00:00"
     },
     "NationalSecurityAgency/ghidra": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        96
+        96,
+        95
       ],
-      "last_recommended": "2026-08-29T11:22:18.636454+00:00"
+      "last_recommended": "2026-09-16T09:32:40.858577+00:00"
     },
     "jprx/darwin-vm": {
       "count": 1,
@@ -2288,7 +2227,77 @@
         87
       ],
       "last_recommended": "2026-09-15T09:37:24.828801+00:00"
+    },
+    "tonhowtf/omniget": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-16T09:32:40.842137+00:00"
+    },
+    "letorig/video-generator-client": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-16T09:32:40.843944+00:00"
+    },
+    "pacifio/atlas": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-09-16T09:32:40.845521+00:00"
+    },
+    "opencoredev/bg0": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-16T09:32:40.847096+00:00"
+    },
+    "zgcagi/ZGCM-1": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-16T09:32:40.848680+00:00"
+    },
+    "earendil-works/pi": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-16T09:32:40.850374+00:00"
+    },
+    "AetherLabsAI/RSIAgent": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-16T09:32:40.852018+00:00"
+    },
+    "ai-sucks-butt/ai-sucks-butt": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-09-16T09:32:40.853659+00:00"
+    },
+    "LynnReal-AI/LynnReal-Omni": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-09-16T09:32:40.855300+00:00"
+    },
+    "MiaAI-Lab/DeepSeek-v4.1-Flash-EXL3-2x-DGX-Sparks": {
+      "count": 1,
+      "scores": [
+        85
+      ],
+      "last_recommended": "2026-09-16T09:32:40.856929+00:00"
     }
   },
-  "updated_at": "2026-09-15T09:37:24.830860+00:00"
+  "updated_at": "2026-09-16T09:32:40.860205+00:00"
 }

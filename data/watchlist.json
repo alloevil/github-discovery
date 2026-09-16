@@ -1,77 +1,5 @@
 {
  "repos": {
-  "handsomestWei/patent-disclosure-skill": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Osmantic/ODS": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "kaifcodec/user-scanner": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "pollen-robotics/microduck_rl": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "majd/ipatool": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "checkstyle/checkstyle": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "soirihiroka/shrimply": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "jlrouzies-fr/DLSS5-Feeder": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "mizorewww/course2md": {
-   "first_seen": "2026-09-01",
-   "until": "2026-09-15",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
   "jingyaogong/minimind": {
    "first_seen": "2026-09-02",
    "until": "2026-09-16",
@@ -1177,7 +1105,91 @@
    "stars_at_discovery": 67618,
    "score_at_discovery": 91,
    "source_at_discovery": "trending"
+  },
+  "tonhowtf/omniget": {
+   "first_seen": "2026-09-16",
+   "until": "2026-09-30",
+   "stars_at_discovery": 13319,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "letorig/video-generator-client": {
+   "first_seen": "2026-09-16",
+   "until": "2026-09-30",
+   "stars_at_discovery": 516,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "pacifio/atlas": {
+   "first_seen": "2026-09-16",
+   "until": "2026-09-30",
+   "stars_at_discovery": 4767,
+   "score_at_discovery": 94,
+   "source_at_discovery": "trending"
+  },
+  "opencoredev/bg0": {
+   "first_seen": "2026-09-16",
+   "until": "2026-09-30",
+   "stars_at_discovery": 140,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "zgcagi/ZGCM-1": {
+   "first_seen": "2026-09-16",
+   "until": "2026-09-30",
+   "stars_at_discovery": 349,
+   "score_at_discovery": 90,
+   "source_at_discovery": "hf-papers"
+  },
+  "earendil-works/pi": {
+   "first_seen": "2026-09-16",
+   "until": "2026-09-30",
+   "stars_at_discovery": 106072,
+   "score_at_discovery": 87,
+   "source_at_discovery": "trending"
+  },
+  "AetherLabsAI/RSIAgent": {
+   "first_seen": "2026-09-16",
+   "until": "2026-09-30",
+   "stars_at_discovery": 229,
+   "score_at_discovery": 87,
+   "source_at_discovery": "search"
+  },
+  "ai-sucks-butt/ai-sucks-butt": {
+   "first_seen": "2026-09-16",
+   "until": "2026-09-30",
+   "stars_at_discovery": 1033,
+   "score_at_discovery": 86,
+   "source_at_discovery": "search"
+  },
+  "LynnReal-AI/LynnReal-Omni": {
+   "first_seen": "2026-09-16",
+   "until": "2026-09-30",
+   "stars_at_discovery": 136,
+   "score_at_discovery": 86,
+   "source_at_discovery": "hf-papers"
+  },
+  "MiaAI-Lab/DeepSeek-v4.1-Flash-EXL3-2x-DGX-Sparks": {
+   "first_seen": "2026-09-16",
+   "until": "2026-09-30",
+   "stars_at_discovery": 155,
+   "score_at_discovery": 85,
+   "source_at_discovery": "search"
+  },
+  "NationalSecurityAgency/ghidra": {
+   "first_seen": "2026-09-16",
+   "until": "2026-09-30",
+   "stars_at_discovery": 77175,
+   "score_at_discovery": 95,
+   "source_at_discovery": "trending"
+  },
+  "addyosmani/agent-skills": {
+   "first_seen": "2026-09-16",
+   "until": "2026-09-30",
+   "stars_at_discovery": 95068,
+   "score_at_discovery": 87,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-09-15T09:40:24.508605+00:00"
+ "updated_at": "2026-09-16T09:36:37.288980+00:00"
 }

@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-15T18:00:00Z</updated>
+  <updated>2026-09-16T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>tonhowtf/omniget — Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.</title>
+    <id>https://github.com/tonhowtf/omniget#2026-09-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/tonhowtf/omniget"/>
+    <updated>2026-09-16T18:00:00Z</updated>
+    <published>2026-09-16T18:00:00Z</published>
+    <summary>Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.
+
+Why: +664/day · Trending · 10.8x accelerating
+Score: 100/100 | Language: Rust | ⭐ 13319 (+664.5/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>letorig/video-generator-client — Async Python wrapper for Seedance, Kling, MiniMax and Wan video generation. Supports CLI and a local web UI</title>
+    <id>https://github.com/letorig/video-generator-client#2026-09-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/letorig/video-generator-client"/>
+    <updated>2026-09-16T18:00:00Z</updated>
+    <published>2026-09-16T18:00:00Z</published>
+    <summary>Async Python wrapper for Seedance, Kling, MiniMax and Wan video generation. Supports CLI and a local web UI
+
+Why: +516/day · Search
+Score: 96/100 | Language: Python | ⭐ 516 (+516.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>pacifio/atlas — Source control for agents. Use multiple coding agents, track their changes and query them in one place</title>
+    <id>https://github.com/pacifio/atlas#2026-09-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/pacifio/atlas"/>
+    <updated>2026-09-16T18:00:00Z</updated>
+    <published>2026-09-16T18:00:00Z</published>
+    <summary>Source control for agents. Use multiple coding agents, track their changes and query them in one place
+
+Why: +131/day · Trending · 3.4x accelerating
+Score: 94/100 | Language: Rust | ⭐ 4767 (+131.1/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>opencoredev/bg0 — Private, unlimited background removal that runs in your browser.</title>
+    <id>https://github.com/opencoredev/bg0#2026-09-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/opencoredev/bg0"/>
+    <updated>2026-09-16T18:00:00Z</updated>
+    <published>2026-09-16T18:00:00Z</published>
+    <summary>Private, unlimited background removal that runs in your browser.
+
+Why: +140/day · Search
+Score: 90/100 | Language: TypeScript | ⭐ 140 (+140.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>zgcagi/ZGCM-1 — No description</title>
+    <id>https://github.com/zgcagi/ZGCM-1#2026-09-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/zgcagi/ZGCM-1"/>
+    <updated>2026-09-16T18:00:00Z</updated>
+    <published>2026-09-16T18:00:00Z</published>
+    <summary>No description
+
+Why: +190/day · HF Papers · 4.4x accelerating
+Score: 90/100 | Language: Python | ⭐ 349 (+190.0/day) | Source: hf-papers</summary>
+  </entry>
+  <entry>
+    <title>NationalSecurityAgency/ghidra — Ghidra is a software reverse engineering (SRE) framework</title>
+    <id>https://github.com/NationalSecurityAgency/ghidra#2026-09-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/NationalSecurityAgency/ghidra"/>
+    <updated>2026-09-16T18:00:00Z</updated>
+    <published>2026-09-16T18:00:00Z</published>
+    <summary>Ghidra is a software reverse engineering (SRE) framework
+
+Why: +191/day · Trending · 6.8x accelerating
+Score: 95/100 | Language: Java | ⭐ 77175 (+191.1/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.</title>
+    <id>https://github.com/addyosmani/agent-skills#2026-09-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/addyosmani/agent-skills"/>
+    <updated>2026-09-16T18:00:00Z</updated>
+    <published>2026-09-16T18:00:00Z</published>
+    <summary>Production-grade engineering skills for AI coding agents.
+
+Why: +243/day · Trending
+Score: 87/100 | Language: JavaScript | ⭐ 95068 (+243.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>alibaba/open-code-review — Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.</title>
     <id>https://github.com/alibaba/open-code-review#2026-09-15</id>
@@ -921,71 +998,5 @@ Score: 90/100 | Language: Shell | ⭐ 245813 (+1161.5/day) | Source: trending</s
 
 Why: +238/day · Trending
 Score: 86/100 | Language: Go | ⭐ 102834 (+238.1/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>jingyaogong/minimind — 🧠 Train a 64M-parameter LLM from scratch in just 2h!</title>
-    <id>https://github.com/jingyaogong/minimind#2026-09-02</id>
-    <link rel="alternate" type="text/html" href="https://github.com/jingyaogong/minimind"/>
-    <updated>2026-09-02T18:00:00Z</updated>
-    <published>2026-09-02T18:00:00Z</published>
-    <summary>🧠 Train a 64M-parameter LLM from scratch in just 2h!
-
-Why: +852/day · Trending · 11.4x accelerating
-Score: 100/100 | Language: Python | ⭐ 57490 (+852.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Git-Agni/prod-FARM-IOS-Core — A farm of real iPhones, run from your Mac. Open-source iOS device automation with live control, a Postgres-backed scheduler, and TikTok workflows. Self-hosted, Apache-2.0.</title>
-    <id>https://github.com/Git-Agni/prod-FARM-IOS-Core#2026-09-02</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Git-Agni/prod-FARM-IOS-Core"/>
-    <updated>2026-09-02T18:00:00Z</updated>
-    <published>2026-09-02T18:00:00Z</published>
-    <summary>A farm of real iPhones, run from your Mac. Open-source iOS device automation with live control, a Postgres-backed scheduler, and TikTok workflows. Self-hosted, Apache-2.0.
-
-Why: +563/day · Search · 4.9x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 688 (+563.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>brayonpi/hexstellar — Turn any AI agent into a computational researcher. HexStellar Cortex delivers software-accelerated optimization, quantum computing, scientific computing, decision intelligence, and verifiable execution through a Python CLI and API—with certainty labels, verification receipts, examples, and a free sandbox. Start instantly: pip install hexstellar</title>
-    <id>https://github.com/brayonpi/hexstellar#2026-09-02</id>
-    <link rel="alternate" type="text/html" href="https://github.com/brayonpi/hexstellar"/>
-    <updated>2026-09-02T18:00:00Z</updated>
-    <published>2026-09-02T18:00:00Z</published>
-    <summary>Turn any AI agent into a computational researcher. HexStellar Cortex delivers software-accelerated optimization, quantum computing, scientific computing, decision intelligence, and verifiable execution through a Python CLI and API—with certainty labels, verification receipts, examples, and a free sandbox. Start instantly: pip install hexstellar
-
-Why: +353/day · Search · 2.9x accelerating
-Score: 98/100 | Language: Python | ⭐ 602 (+353.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>unclecode/crawl4ai — 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN</title>
-    <id>https://github.com/unclecode/crawl4ai#2026-09-02</id>
-    <link rel="alternate" type="text/html" href="https://github.com/unclecode/crawl4ai"/>
-    <updated>2026-09-02T18:00:00Z</updated>
-    <published>2026-09-02T18:00:00Z</published>
-    <summary>🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN
-
-Why: +248/day · Trending · 2.6x accelerating
-Score: 95/100 | Language: Python | ⭐ 81025 (+248.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>2akouwu/codex-cli-portable-setup-kit — Autonomous Systems &amp; Security Toolkit for OpenAI Codex CLI. Deterministic binary analysis, decoupled pipeline, and zero-friction execution.</title>
-    <id>https://github.com/2akouwu/codex-cli-portable-setup-kit#2026-09-02</id>
-    <link rel="alternate" type="text/html" href="https://github.com/2akouwu/codex-cli-portable-setup-kit"/>
-    <updated>2026-09-02T18:00:00Z</updated>
-    <published>2026-09-02T18:00:00Z</published>
-    <summary>Autonomous Systems &amp; Security Toolkit for OpenAI Codex CLI. Deterministic binary analysis, decoupled pipeline, and zero-friction execution.
-
-Why: +242/day · Search
-Score: 92/100 | Language: Python | ⭐ 483 (+241.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>3b1b/manim — Animation engine for explanatory math videos</title>
-    <id>https://github.com/3b1b/manim#2026-09-02</id>
-    <link rel="alternate" type="text/html" href="https://github.com/3b1b/manim"/>
-    <updated>2026-09-02T18:00:00Z</updated>
-    <published>2026-09-02T18:00:00Z</published>
-    <summary>Animation engine for explanatory math videos
-
-Why: +94/day · Trending · 4.2x accelerating
-Score: 92/100 | Language: Python | ⭐ 92754 (+93.7/day) | Source: trending</summary>
   </entry>
 </feed>

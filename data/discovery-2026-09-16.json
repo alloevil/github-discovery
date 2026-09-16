@@ -1,0 +1,347 @@
+{
+ "date": "2026-09-16",
+ "generated_at": "2026-09-16T09:32:41.143417",
+ "pool_size": 61,
+ "new": [
+  {
+   "full_name": "tonhowtf/omniget",
+   "url": "https://github.com/tonhowtf/omniget",
+   "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
+   "language": "Rust",
+   "stars": 13319,
+   "forks": 1124,
+   "age_days": 216,
+   "daily_stars": 61.66203703703704,
+   "real_daily_stars": 664.5,
+   "watchers": 50,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "letorig/video-generator-client",
+   "url": "https://github.com/letorig/video-generator-client",
+   "description": "Async Python wrapper for Seedance, Kling, MiniMax and Wan video generation. Supports CLI and a local web UI",
+   "language": "Python",
+   "stars": 516,
+   "forks": 82,
+   "age_days": 1,
+   "daily_stars": 516.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 2,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "pacifio/atlas",
+   "url": "https://github.com/pacifio/atlas",
+   "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+   "language": "Rust",
+   "stars": 4767,
+   "forks": 286,
+   "age_days": 124,
+   "daily_stars": 38.443548387096776,
+   "real_daily_stars": 131.07692307692307,
+   "watchers": 24,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "opencoredev/bg0",
+   "url": "https://github.com/opencoredev/bg0",
+   "description": "Private, unlimited background removal that runs in your browser.",
+   "language": "TypeScript",
+   "stars": 140,
+   "forks": 11,
+   "age_days": 1,
+   "daily_stars": 140.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "zgcagi/ZGCM-1",
+   "url": "https://github.com/zgcagi/ZGCM-1",
+   "description": "",
+   "language": "Python",
+   "stars": 349,
+   "forks": 47,
+   "age_days": 8,
+   "daily_stars": 43.625,
+   "real_daily_stars": 190.0,
+   "watchers": 1,
+   "source": "hf-papers",
+   "sources": [
+    "hf-papers"
+   ],
+   "license": "MIT",
+   "hf_title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+   "hf_upvotes": 298,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 90,
+    "acceleration": 35,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "earendil-works/pi",
+   "url": "https://github.com/earendil-works/pi",
+   "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+   "language": "TypeScript",
+   "stars": 106072,
+   "forks": 13340,
+   "age_days": 402,
+   "daily_stars": 263.8606965174129,
+   "watchers": 330,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "AetherLabsAI/RSIAgent",
+   "url": "https://github.com/AetherLabsAI/RSIAgent",
+   "description": "A training-free multi-agent framework for recursive self-improvement in new environments through broad-then-deep autonomous exploration and reusable memory.",
+   "language": "Python",
+   "stars": 229,
+   "forks": 19,
+   "age_days": 3,
+   "daily_stars": 76.33333333333333,
+   "real_daily_stars": 134.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "hf-papers"
+   ],
+   "license": "Apache-2.0",
+   "hf_title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+   "hf_upvotes": 68,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "ai-sucks-butt/ai-sucks-butt",
+   "url": "https://github.com/ai-sucks-butt/ai-sucks-butt",
+   "description": "If you think AI sucks, star the repo.",
+   "language": "Python",
+   "stars": 1033,
+   "forks": 0,
+   "age_days": 2,
+   "daily_stars": 516.5,
+   "real_daily_stars": 593.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 86,
+    "acceleration": 31,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 12
+   }
+  },
+  {
+   "full_name": "LynnReal-AI/LynnReal-Omni",
+   "url": "https://github.com/LynnReal-AI/LynnReal-Omni",
+   "description": "LynnReal-Omni brings text-to-video, image-to-video, human- and hand-pose guided generation, structural control, omni-reference generation, style transfer, video editing, degraded-video restoration and streaming long-video generation into a single framework, all at four-step fast generation. ",
+   "language": "Python",
+   "stars": 136,
+   "forks": 6,
+   "age_days": 2,
+   "daily_stars": 68.0,
+   "watchers": 0,
+   "source": "hf-papers",
+   "sources": [
+    "hf-papers"
+   ],
+   "license": "NOASSERTION",
+   "hf_title": "LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows",
+   "hf_upvotes": 46,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "MiaAI-Lab/DeepSeek-v4.1-Flash-EXL3-2x-DGX-Sparks",
+   "url": "https://github.com/MiaAI-Lab/DeepSeek-v4.1-Flash-EXL3-2x-DGX-Sparks",
+   "description": "DeepSeek v4.1 Flash EXL3 2.9 bpw for 2x DGX Sparks",
+   "language": "Python",
+   "stars": 155,
+   "forks": 14,
+   "age_days": 3,
+   "daily_stars": 51.666666666666664,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 85,
+    "acceleration": 25,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "NationalSecurityAgency/ghidra",
+   "url": "https://github.com/NationalSecurityAgency/ghidra",
+   "description": "Ghidra is a software reverse engineering (SRE) framework",
+   "language": "Java",
+   "stars": 77175,
+   "forks": 8520,
+   "age_days": 2756,
+   "daily_stars": 28.00253991291727,
+   "real_daily_stars": 191.125,
+   "watchers": 1148,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "addyosmani/agent-skills",
+   "url": "https://github.com/addyosmani/agent-skills",
+   "description": "Production-grade engineering skills for AI coding agents.",
+   "language": "JavaScript",
+   "stars": 95068,
+   "forks": 10081,
+   "age_days": 212,
+   "daily_stars": 448.4339622641509,
+   "real_daily_stars": 243.0,
+   "watchers": 498,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  }
+ ]
+}
