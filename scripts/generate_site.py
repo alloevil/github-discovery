@@ -295,8 +295,10 @@ def main():
     #   - ROADMAP.md：以 text/markdown 形式提供（.nojekyll 关掉了 Jekyll，
     #     对应的 .html 是 404），不是 HTML 页面。
     # 以后新增页面请加进这个列表，而不是手写 sitemap.xml。
-    # Single page (the index), rebuilt daily → lastmod is the build date (UTC).
-    build_date = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    # Single page (the index), rebuilt daily → lastmod follows the content: the newest report's
+    # date, never the clock. A build-date here makes every rebuild dirty the tree even when nothing
+    # changed, which is the same reason the feed's `updated` is derived from the reports.
+    build_date = reports[0][0] if reports else datetime.now(timezone.utc).strftime('%Y-%m-%d')
     pages = [f'{SITE_URL}/']
     with open(os.path.join(DIST_DIR, 'sitemap.xml'), 'w') as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n'
