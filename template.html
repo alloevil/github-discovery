@@ -149,7 +149,7 @@
   }
   .brand-icon { font-size: 20px; }
   .brand h1 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     letter-spacing: -0.4px;
     color: var(--ink);
@@ -257,18 +257,21 @@
     margin-bottom: 4px;
   }
   .date-header h2 {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
-    color: var(--ink);
+    letter-spacing: .04em;
+    color: var(--ink-subtle);
     letter-spacing: -0.2px;
   }
   .section-label {
     display: flex;
     align-items: center;
     gap: 6px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
-    color: var(--ink-muted);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: var(--ink-tertiary);
     margin: 16px 0 4px;
   }
   .section-label .label-count {
@@ -307,8 +310,8 @@
     flex-shrink: 0;
   }
   .repo-name {
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     color: var(--ink);
   }
   .repo-name a {
@@ -359,42 +362,43 @@
     font-size: 12.5px;
     color: var(--ink-muted);
   }
-  .meta-bar {
+  /* 统计行:三个标量 + 一张每日数量的 sparkline。数字用 tabular-nums,换行时宽度不跳。 */
+  .stats-bar {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 12px;
-    padding: 0 0 16px;
+    gap: 10px;
+    padding: 2px 0 14px;
+    font-size: 12.5px;
+    color: var(--ink-tertiary);
+    font-variant-numeric: tabular-nums;
+  }
+  .stats-bar .stat-num { color: var(--ink-muted); font-weight: 600; }
+  .stats-bar .meta-sep { color: var(--ink-tertiary); }
+  /* 图例:放在页面上方,读者先看到"键",再看到用到它的地方 */
+  .legend-bar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+    padding: 6px 0 0;
     font-size: 12.5px;
     color: var(--ink-tertiary);
   }
-  .meta-bar .meta-stats {
-    display: inline-flex;
-    gap: 14px;
-  }
-  .meta-bar .stat-num {
-    font-weight: 600;
-    color: var(--ink);
-  }
-  /* 分隔符是文字,不是边框:原来用了 --hairline-strong,在 canvas 上只有 1.69:1 */
-  .meta-bar .meta-sep { color: var(--ink-tertiary); }
-  .meta-bar .legend-label {
-    color: var(--ink-muted);
-    font-weight: 500;
-  }
-  .meta-bar .legend-item {
+  .legend-bar .legend-label { color: var(--ink-subtle); font-weight: 500; }
+  .legend-bar .legend-item {
     display: inline-flex;
     align-items: center;
-    min-height: 24px;          /* 命中区:原来只有 18px */
-    white-space: nowrap;
+    min-height: 24px;
     color: var(--ink-tertiary);
     text-decoration: none;
-    transition: color 0.15s;
+    transition: color .12s;
   }
-  .meta-bar a.legend-item:hover {
-    color: var(--ink);
-    text-decoration: underline;
-  }
+  .legend-bar a.legend-item:hover { color: var(--ink); text-decoration: underline; }
+  /* sparkline:纯 currentColor 描边,随主题变色;尺寸固定,不参与布局抖动 */
+  .spark-label { color: var(--ink-tertiary); }
+  .sparkline { display: inline-flex; align-items: center; color: var(--primary); }
+  .sparkline svg { display: block; overflow: visible; }
   .score-tag {
     display: inline-block;
     padding: 2px 8px;
@@ -546,6 +550,17 @@
     </header>
 
     <!-- Filters -->
+    <!-- 图例:说明条目标签里的来源图标。放在页面上方 —— 先给"键",再让读者看到用它的地方。 -->
+    <div class="legend-bar">
+      <span class="legend-label">Source:</span>
+      <a class="legend-item" href="https://github.com/trending" target="_blank" rel="noopener">🔥 Trending</a>
+      <a class="legend-item" href="https://github.com/search?q=created%3A%3E2024-01-01+stars%3A%3E50&type=repositories&s=stars&o=desc" target="_blank" rel="noopener">🔍 Search</a>
+      <a class="legend-item" href="https://news.ycombinator.com/show" target="_blank" rel="noopener">🟠 HN</a>
+      <a class="legend-item" href="https://github.com/search?q=created%3A%3E2024-01-01+forks%3A%3E20&type=repositories&s=forks&o=desc" target="_blank" rel="noopener">📈 Rising</a>
+      <a class="legend-item" href="https://ossinsight.io/trending/ai" target="_blank" rel="noopener">🤖 AI/ML</a>
+      <a class="legend-item" href="https://huggingface.co/papers" target="_blank" rel="noopener">🤗 HF Papers</a>
+    </div>
+
     <div class="filters">
       <div class="filter-group" id="date-filters">
         <select class="date-select" id="date-select" onchange="switchDate(this.value)">
@@ -562,21 +577,16 @@
       </div>
     </div>
 
-    <!-- Meta bar: stats + source legend, all on one line -->
-    <div class="meta-bar">
-      <span class="meta-stats">
-        <span><span class="stat-num" id="stat-sources">6</span> sources</span>
-        <span><span class="stat-num" id="stat-repos">33</span> recommendations</span>
-        <span>median <span class="stat-num" id="stat-score">100</span></span>
-      </span>
+    <!-- 统计行:三个标量 + 一张每日数量的 sparkline(sparkline 由生成器填入) -->
+    <div class="stats-bar">
+      <span><span class="stat-num" id="stat-sources">6</span> sources</span>
       <span class="meta-sep">·</span>
-      <span class="legend-label">Source:</span>
-      <a class="legend-item" href="https://github.com/trending" target="_blank" rel="noopener">🔥 Trending</a>
-      <a class="legend-item" href="https://github.com/search?q=created%3A%3E2024-01-01+stars%3A%3E50&type=repositories&s=stars&o=desc" target="_blank" rel="noopener">🔍 Search</a>
-      <a class="legend-item" href="https://news.ycombinator.com/show" target="_blank" rel="noopener">🟠 HN</a>
-      <a class="legend-item" href="https://github.com/search?q=created%3A%3E2024-01-01+forks%3A%3E20&type=repositories&s=forks&o=desc" target="_blank" rel="noopener">📈 Rising</a>
-      <a class="legend-item" href="https://ossinsight.io/trending/ai" target="_blank" rel="noopener">🤖 AI/ML</a>
-      <a class="legend-item" href="https://huggingface.co/papers" target="_blank" rel="noopener">🤗 HF Papers</a>
+      <span><span class="stat-num" id="stat-repos">33</span> recommendations</span>
+      <span class="meta-sep">·</span>
+      <span>median score <span class="stat-num" id="stat-score">100</span></span>
+      <span class="meta-sep">·</span>
+      <span class="spark-label">last 14 days</span>
+      <span class="sparkline" id="sparkline"></span>
     </div>
 
     <!-- CONTENT_MARKER -->
