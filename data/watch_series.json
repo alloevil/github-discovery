@@ -50,7 +50,7 @@
    },
    {
     "date": "2026-09-16",
-    "stars": 1212,
+    "stars": 1215,
     "forks": 238,
     "open_issues": 7,
     "commits_7d": 0,
@@ -4252,9 +4252,9 @@
   "perseval-BLR/NeuralScreen": [
    {
     "date": "2026-09-16",
-    "stars": 800,
-    "forks": 43,
-    "open_issues": 5,
+    "stars": 807,
+    "forks": 44,
+    "open_issues": 6,
     "commits_7d": 100,
     "contributors_7d": 5,
     "pushed_at": "2026-09-15T21:27:12Z"
@@ -4283,5 +4283,5 @@
    }
   ]
  },
- "updated_at": "2026-09-16T09:36:37.286010+00:00"
+ "updated_at": "2026-09-16T13:43:56.102083+00:00"
 }

@@ -3,73 +3,13 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "earendil-works/pi",
-   "stars": 106072,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "addyosmani/agent-skills",
-   "stars": 95068,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "NationalSecurityAgency/ghidra",
-   "stars": 77175,
-   "language": "Java"
-  },
-  {
-   "full_name": "danny-avila/LibreChat",
-   "stars": 44029,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "JustVugg/colibri",
-   "stars": 34422,
-   "language": "C"
-  },
-  {
-   "full_name": "debpalash/VoiceStudio",
-   "stars": 31579,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "alibaba/open-code-review",
-   "stars": 29939,
-   "language": "Go"
-  },
-  {
-   "full_name": "tonhowtf/omniget",
-   "stars": 13319,
-   "language": "Rust"
-  },
-  {
-   "full_name": "ever-co/ever-gauzy",
-   "stars": 6989,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "pacifio/atlas",
-   "stars": 4767,
-   "language": "Rust"
-  },
-  {
-   "full_name": "alphaXiv/OpenResearch",
-   "stars": 3759,
-   "language": "Rust"
-  },
-  {
-   "full_name": "melgarafael/DeskcommCRM",
-   "stars": 3002,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "Homebrew/BrewUI",
-   "stars": 1667,
-   "language": "Swift"
-  },
-  {
-   "full_name": "MG1937/ASC",
-   "stars": 1341,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
   }
  ]
