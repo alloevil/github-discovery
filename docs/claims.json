@@ -304,6 +304,23 @@
         },
         "timeout": 120
       }
+    },
+    {
+      "id": "type-ladder-descends",
+      "claim": "Type size carries the hierarchy: brand 24px, item title 16px, date label and body 14px, group label 13px, metadata 12.5px. Every rule draws from that ladder, so no two levels can drift into looking equally important.",
+      "value": "[24, 16, 14, 13, 12.5] and no other font-size anywhere in the CSS",
+      "metric": "the font-size of .brand h1 / .repo-name / .date-header h2 / .section-label / .stats-bar, and the set of all font-size values emitted",
+      "method": "The ladder replaced 8 mixed sizes (11/12/12.5/13/14/15/20/22) in which the 20px brand, the 15px date heading and the 15px repo names read as one weight; a reader reported the title and the date as 'about the same size'. The check reads the built page's CSS, so it fails if any of the five levels is changed or a new size is introduced without moving the whole ladder.",
+      "repro": "grep -o 'font-size: *[0-9.]*px' docs/index.html | sort -u",
+      "evidence": "docs/index.html",
+      "verified": "2026-09-16",
+      "check": {
+        "cmd": "python3 -c \"import re, pathlib\nh = pathlib.Path('docs/index.html').read_text(encoding='utf-8')\nladder = []\nfor sel in ['.brand h1', '.repo-name', '.date-header h2', '.section-label', '.stats-bar']:\n    m = re.search(re.escape(sel) + r'\\s*\\{[^}]*?font-size:\\s*([\\d.]+)px', h)\n    assert m, 'no font-size for ' + sel\n    ladder.append(float(m.group(1)))\nassert ladder == [24.0, 16.0, 14.0, 13.0, 12.5], ladder\nsizes = sorted({float(x) for x in re.findall(r'font-size:\\s*([\\d.]+)px', h)})\nassert sizes == [12.5, 13.0, 14.0, 16.0, 24.0], sizes\nn = len(re.findall(r'font-size:', h))\nprint('ladder 24 > 16 > 14 > 13 > 12.5 across %d font-size rules; %d sizes emitted' % (n, len(sizes)))\"",
+        "expect": {
+          "regex": "^ladder 24 > 16 > 14 > 13 > 12\\.5 across "
+        },
+        "timeout": 120
+      }
     }
   ]
 }
