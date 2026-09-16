@@ -213,7 +213,7 @@ def generate_content(reports):
             cards.append(f'      <div class="section-label"><span class="label-icon">🔄</span><span>Repeat Performers</span><span class="label-count">{len(repeat_performers)}</span></div>')
             for r in repeat_performers[:5]:
                 cards.append(repo_card(r))
-        sections.append(f'    <div class="date-section" data-date="{date_str}" style="display:{display}">\n      <div class="date-header"><h3>{date_str}</h3><span class="date-count">{len(first_timers) + len(repeat_performers)} repos</span></div>\n' + '\n'.join(cards) + '\n    </div>')
+        sections.append(f'    <div class="date-section" data-date="{date_str}" style="display:{display}">\n      <div class="date-header"><h2>{date_str}</h2><span class="date-count">{len(first_timers) + len(repeat_performers)} repos</span></div>\n' + '\n'.join(cards) + '\n    </div>')
 
     return {
         'date_filters': '\n        '.join(date_buttons),
