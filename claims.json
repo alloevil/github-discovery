@@ -252,6 +252,40 @@
         },
         "timeout": 180
       }
+    },
+    {
+      "id": "animated-pages-respect-reduced-motion",
+      "claim": "Every page in this repository that animates — through CSS animations or transitions, cross-document view transitions, SMIL, requestAnimationFrame or the Web Animations API — also handles prefers-reduced-motion, so a reader who asked their system for less motion gets none.",
+      "value": "every animated page carries the reduced-motion branch",
+      "metric": "HTML pages containing a motion primitive vs those containing prefers-reduced-motion",
+      "method": "The detector enumerates ways a page can move (animation:, @keyframes, <animate, requestAnimationFrame, .animate(, transition:, @view-transition); a page matching any of them must also contain prefers-reduced-motion. It also asserts that at least one page matched, so it cannot pass vacuously on a tree with no animation at all.",
+      "repro": "python3 -c \"import re, pathlib; m=re.compile(r'animation\\s*:|@keyframes|transition\\s*:|@view-transition'); print([str(p) for p in pathlib.Path('.').rglob('*.html') if m.search(p.read_text(encoding='utf-8', errors='replace'))][:5])\"",
+      "evidence": "the committed HTML pages",
+      "verified": "2026-06-25",
+      "check": {
+        "cmd": "python3 -c \"import re, pathlib\nskip = {'.git','node_modules','dist','build','coverage','.venv','__pycache__','.pytest_cache'}\nmoves = re.compile(r'animation\\s*:|@keyframes|<animate\\b|requestAnimationFrame|\\.animate\\(|transition\\s*:|@view-transition')\nfiles = [p for p in sorted(pathlib.Path('.').rglob('*.html')) if not (set(p.parts) & skip)]\nanimated = [p for p in files if moves.search(p.read_text(encoding='utf-8', errors='replace'))]\nmissing = [str(p) for p in animated if 'prefers-reduced-motion' not in p.read_text(encoding='utf-8', errors='replace')]\nassert animated, 'no animated page found: this receipt would pass vacuously'\nassert not missing, missing\nprint('files %d animated %d missing %s' % (len(files), len(animated), missing))\"",
+        "expect": {
+          "regex": "missing \\[\\]$"
+        },
+        "timeout": 120
+      }
+    },
+    {
+      "id": "text-tokens-pass-wcag-aa",
+      "claim": "Every text colour token in the built page clears WCAG AA (4.5:1) against every background it can sit on — the 46 elements that did not were a single token used as the default small-text colour, plus one separator drawn in a border colour.",
+      "value": "ink / ink-muted / ink-subtle / ink-tertiary all >= 4.5:1 on canvas, surface-1 and surface-2",
+      "metric": "WCAG contrast ratio of each --ink* token against --canvas / --surface-1 / --surface-2, read from the built page",
+      "method": "The tokens are declared once in docs/template.html and inlined into docs/index.html, so the check parses them out of the built page and applies the WCAG relative-luminance formula. It fails if any text token drops below 4.5:1 on any surface — the regression that produced 46 AA failures (worst 1.69:1) before --ink-tertiary was raised and the separator stopped borrowing --hairline-strong.",
+      "repro": "grep -E '--(canvas|ink-tertiary):' docs/template.html",
+      "evidence": "docs/index.html",
+      "verified": "2026-06-25",
+      "check": {
+        "cmd": "python3 -c \"import re, pathlib\nh = pathlib.Path('docs/index.html').read_text(encoding='utf-8')\ntok = dict(re.findall(r'--([\\\\w-]+):\\\\s*(#[0-9a-fA-F]{6})', h))\nlin = lambda c: (c/255)/12.92 if c/255 <= 0.03928 else (((c/255)+0.055)/1.055)**2.4\ndef L(x):\n    x = x.lstrip('#'); r,g,b = (int(x[i:i+2],16) for i in (0,2,4)); return 0.2126*lin(r)+0.7152*lin(g)+0.0722*lin(b)\ndef ratio(a,b):\n    la,lb=L(a),L(b); hi,lo=max(la,lb),min(la,lb); return (hi+0.05)/(lo+0.05)\ntext = ['ink','ink-muted','ink-subtle','ink-tertiary']\nbgs = ['canvas','surface-1','surface-2']\nbad = ['%s on %s = %.2f' % (t, b, ratio(tok[t], tok[b])) for t in text for b in bgs\n       if t in tok and b in tok and ratio(tok[t], tok[b]) < 4.5]\nassert not bad, bad\nprint('text tokens ok: ' + ', '.join('%s %.2f' % (t, min(ratio(tok[t], tok[b]) for b in bgs)) for t in text if t in tok))\"",
+        "expect": {
+          "regex": "^text tokens ok: "
+        },
+        "timeout": 120
+      }
     }
   ]
 }

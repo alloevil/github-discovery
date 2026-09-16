@@ -27,7 +27,7 @@
     --ink: #f7f8f8;
     --ink-muted: #d0d6e0;
     --ink-subtle: #8a8f98;
-    --ink-tertiary: #62666d;
+    --ink-tertiary: #7f8794;
     --canvas: #010102;
     --surface-1: #0f1011;
     --surface-2: #141516;
@@ -47,6 +47,13 @@
     color: var(--ink);
     -webkit-font-smoothing: antialiased;
     line-height: 1.5;
+  }
+
+  /* 键盘焦点：只给键盘操作（:focus-visible）画焦点环，鼠标点击不画 —— 之前是
+     下面那条 :focus { outline: none } 把所有人的焦点环都抹掉了，键盘用户看不到焦点在哪。 */
+  :focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
   }
 
   /* Layout */
@@ -266,7 +273,8 @@
     font-weight: 600;
     color: var(--ink);
   }
-  .meta-bar .meta-sep { color: var(--hairline-strong); }
+  /* 分隔符是文字,不是边框:原来用了 --hairline-strong,在 canvas 上只有 1.69:1 */
+  .meta-bar .meta-sep { color: var(--ink-tertiary); }
   .meta-bar .legend-label {
     color: var(--ink-muted);
     font-weight: 500;
@@ -334,7 +342,7 @@
     font-family: var(--font-sans);
     min-width: 220px;
   }
-  .footer-sub-form input[type="email"]:focus {
+  .footer-sub-form input[type="email"]:focus:not(:focus-visible) {
     outline: none;
     border-color: var(--primary);
   }
