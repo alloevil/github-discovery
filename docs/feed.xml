@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-16T18:00:00Z</updated>
+  <updated>2026-09-17T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>arnegiacomo/fugleramme — E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations.</title>
+    <id>https://github.com/arnegiacomo/fugleramme#2026-09-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/arnegiacomo/fugleramme"/>
+    <updated>2026-09-17T18:00:00Z</updated>
+    <published>2026-09-17T18:00:00Z</published>
+    <summary>E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations.
+
+Why: +735/day · HN · 19.2x accelerating
+Score: 100/100 | Language: Python | ⭐ 2684 (+735.0/day) | Source: hn</summary>
+  </entry>
+  <entry>
+    <title>rlaope/oh-my-hermes — All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages</title>
+    <id>https://github.com/rlaope/oh-my-hermes#2026-09-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/rlaope/oh-my-hermes"/>
+    <updated>2026-09-17T18:00:00Z</updated>
+    <published>2026-09-17T18:00:00Z</published>
+    <summary>All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages
+
+Why: +180/day · Trending · 7.1x accelerating
+Score: 95/100 | Language: Python | ⭐ 2660 (+180.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>saragordic/window-sweaters — A macOS menu-bar app that dresses your windows in knitted borders.</title>
+    <id>https://github.com/saragordic/window-sweaters#2026-09-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/saragordic/window-sweaters"/>
+    <updated>2026-09-17T18:00:00Z</updated>
+    <published>2026-09-17T18:00:00Z</published>
+    <summary>A macOS menu-bar app that dresses your windows in knitted borders.
+
+Why: +233/day · Search
+Score: 92/100 | Language: C | ⭐ 466 (+233.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>theoephraim/awesome-cloudflare-selfhosted — 🍊☁️ Open-source* apps that replace a SaaS product, running in your own Cloudflare account</title>
+    <id>https://github.com/theoephraim/awesome-cloudflare-selfhosted#2026-09-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/theoephraim/awesome-cloudflare-selfhosted"/>
+    <updated>2026-09-17T18:00:00Z</updated>
+    <published>2026-09-17T18:00:00Z</published>
+    <summary>🍊☁️ Open-source* apps that replace a SaaS product, running in your own Cloudflare account
+
+Why: +215/day · Search
+Score: 92/100 | Language: JavaScript | ⭐ 430 (+215.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>jarrodwatts/jev-trader — One AI trade decision every Monad block. Jev on Kuru MON-USDC.</title>
+    <id>https://github.com/jarrodwatts/jev-trader#2026-09-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/jarrodwatts/jev-trader"/>
+    <updated>2026-09-17T18:00:00Z</updated>
+    <published>2026-09-17T18:00:00Z</published>
+    <summary>One AI trade decision every Monad block. Jev on Kuru MON-USDC.
+
+Why: +207/day · Search
+Score: 92/100 | Language: TypeScript | ⭐ 207 (+207.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>affaan-m/ECC — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</title>
+    <id>https://github.com/affaan-m/ECC#2026-09-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/affaan-m/ECC"/>
+    <updated>2026-09-17T18:00:00Z</updated>
+    <published>2026-09-17T18:00:00Z</published>
+    <summary>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+
+Why: +750/day · Trending
+Score: 90/100 | Language: JavaScript | ⭐ 260699 (+750.3/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</title>
+    <id>https://github.com/anthropics/claude-code#2026-09-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code"/>
+    <updated>2026-09-17T18:00:00Z</updated>
+    <published>2026-09-17T18:00:00Z</published>
+    <summary>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
+
+Why: +125/day · Trending
+Score: 68/100 | Language: TypeScript | ⭐ 145729 (+125.1/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>tonhowtf/omniget — Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.</title>
     <id>https://github.com/tonhowtf/omniget#2026-09-16</id>
@@ -910,93 +987,5 @@ Score: 89/100 | Language: Shell | ⭐ 281559 (+440.6/day) | Source: trending</su
 
 Why: +1586/day · Trending
 Score: 85/100 | Language: JavaScript | ⭐ 124087 (+1586.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>anthropics/commerce-agents — Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.</title>
-    <id>https://github.com/anthropics/commerce-agents#2026-09-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/anthropics/commerce-agents"/>
-    <updated>2026-09-03T18:00:00Z</updated>
-    <published>2026-09-03T18:00:00Z</published>
-    <summary>Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.
-
-Why: +945/day · Search
-Score: 96/100 | Language: Python | ⭐ 945 (+945.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>2akouwu/reverify — Verified reverse engineering: AI RE grounded on deterministic tools - results checked against the binary, not hallucinated.</title>
-    <id>https://github.com/2akouwu/reverify#2026-09-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/2akouwu/reverify"/>
-    <updated>2026-09-03T18:00:00Z</updated>
-    <published>2026-09-03T18:00:00Z</published>
-    <summary>Verified reverse engineering: AI RE grounded on deterministic tools - results checked against the binary, not hallucinated.
-
-Why: +214/day · Search
-Score: 92/100 | Language: Python | ⭐ 641 (+213.7/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>ZJU-REAL/Easel — An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。</title>
-    <id>https://github.com/ZJU-REAL/Easel#2026-09-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ZJU-REAL/Easel"/>
-    <updated>2026-09-03T18:00:00Z</updated>
-    <published>2026-09-03T18:00:00Z</published>
-    <summary>An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。
-
-Why: +127/day · Search · 2.8x accelerating
-Score: 92/100 | Language: Python | ⭐ 275 (+127.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>Imbad0202/academic-research-skills — Academic Research Skills for Claude Code: research → write → review → revise → finalize</title>
-    <id>https://github.com/Imbad0202/academic-research-skills#2026-09-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Imbad0202/academic-research-skills"/>
-    <updated>2026-09-03T18:00:00Z</updated>
-    <published>2026-09-03T18:00:00Z</published>
-    <summary>Academic Research Skills for Claude Code: research → write → review → revise → finalize
-
-Why: +524/day · Trending · 2.2x accelerating
-Score: 91/100 | Language: Python | ⭐ 45781 (+524.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>lnkiai/m3e-canvas — Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.</title>
-    <id>https://github.com/lnkiai/m3e-canvas#2026-09-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/lnkiai/m3e-canvas"/>
-    <updated>2026-09-03T18:00:00Z</updated>
-    <published>2026-09-03T18:00:00Z</published>
-    <summary>Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.
-
-Why: +170/day · Search
-Score: 91/100 | Language: TypeScript | ⭐ 170 (+170.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>NousResearch/hermes-agent — The agent that grows with you</title>
-    <id>https://github.com/NousResearch/hermes-agent#2026-09-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/NousResearch/hermes-agent"/>
-    <updated>2026-09-03T18:00:00Z</updated>
-    <published>2026-09-03T18:00:00Z</published>
-    <summary>The agent that grows with you
-
-Why: +496/day · Trending
-Score: 90/100 | Language: Python | ⭐ 240409 (+496.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>mattpocock/skills — Skills for Real Engineers. Straight from my .agents directory.</title>
-    <id>https://github.com/mattpocock/skills#2026-09-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mattpocock/skills"/>
-    <updated>2026-09-03T18:00:00Z</updated>
-    <published>2026-09-03T18:00:00Z</published>
-    <summary>Skills for Real Engineers. Straight from my .agents directory.
-
-Why: +1162/day · Trending
-Score: 90/100 | Language: Shell | ⭐ 245813 (+1161.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>JuliusBrussee/caveman — 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman</title>
-    <id>https://github.com/JuliusBrussee/caveman#2026-09-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/JuliusBrussee/caveman"/>
-    <updated>2026-09-03T18:00:00Z</updated>
-    <published>2026-09-03T18:00:00Z</published>
-    <summary>🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
-
-Why: +238/day · Trending
-Score: 86/100 | Language: Go | ⭐ 102834 (+238.1/day) | Source: trending</summary>
   </entry>
 </feed>

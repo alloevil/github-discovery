@@ -1,0 +1,111 @@
+{
+ "date": "2026-09-17",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "affaan-m/ECC",
+   "stars": 260699,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "anthropics/claude-code",
+   "stars": 145729,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "supabase/supabase",
+   "stars": 109955,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "addyosmani/agent-skills",
+   "stars": 95719,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "NationalSecurityAgency/ghidra",
+   "stars": 78126,
+   "language": "Java"
+  },
+  {
+   "full_name": "cline/cline",
+   "stars": 68511,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "jamiepine/voicebox",
+   "stars": 54666,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "roboflow/supervision",
+   "stars": 50715,
+   "language": "Python"
+  },
+  {
+   "full_name": "JustVugg/colibri",
+   "stars": 35343,
+   "language": "C"
+  },
+  {
+   "full_name": "alibaba/open-code-review",
+   "stars": 33278,
+   "language": "Go"
+  },
+  {
+   "full_name": "ankitects/anki",
+   "stars": 31032,
+   "language": "Rust"
+  },
+  {
+   "full_name": "Tencent/WeKnora",
+   "stars": 25839,
+   "language": "Go"
+  },
+  {
+   "full_name": "anthropics/knowledge-work-plugins",
+   "stars": 24398,
+   "language": "Python"
+  },
+  {
+   "full_name": "Lakr233/vphone-cli",
+   "stars": 13549,
+   "language": "Swift"
+  },
+  {
+   "full_name": "multimodal-art-projection/YuE",
+   "stars": 9537,
+   "language": "Python"
+  },
+  {
+   "full_name": "cloudflare/security-audit-skill",
+   "stars": 8623,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "ever-co/ever-gauzy",
+   "stars": 7492,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "SnailSploit/Claude-Red",
+   "stars": 5958,
+   "language": "Python"
+  },
+  {
+   "full_name": "abue-ammar/tinycast",
+   "stars": 5862,
+   "language": "Swift"
+  },
+  {
+   "full_name": "alphaXiv/OpenResearch",
+   "stars": 4762,
+   "language": "Rust"
+  },
+  {
+   "full_name": "rlaope/oh-my-hermes",
+   "stars": 2660,
+   "language": "Python"
+  }
+ ]
+}

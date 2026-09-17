@@ -1,0 +1,344 @@
+{
+ "date": "2026-09-17",
+ "generated_at": "2026-09-17T09:41:05.906511",
+ "pool_size": 67,
+ "new": [
+  {
+   "full_name": "arnegiacomo/fugleramme",
+   "url": "https://github.com/arnegiacomo/fugleramme",
+   "description": "E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations.",
+   "language": "Python",
+   "stars": 2684,
+   "forks": 65,
+   "age_days": 70,
+   "daily_stars": 38.34285714285714,
+   "real_daily_stars": 735.0,
+   "watchers": 11,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "MIT",
+   "hn_title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+   "hn_score": 2158,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "rlaope/oh-my-hermes",
+   "url": "https://github.com/rlaope/oh-my-hermes",
+   "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
+   "language": "Python",
+   "stars": 2660,
+   "forks": 190,
+   "age_days": 105,
+   "daily_stars": 25.333333333333332,
+   "real_daily_stars": 180.0,
+   "watchers": 12,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "saragordic/window-sweaters",
+   "url": "https://github.com/saragordic/window-sweaters",
+   "description": "A macOS menu-bar app that dresses your windows in knitted borders.",
+   "language": "C",
+   "stars": 466,
+   "forks": 14,
+   "age_days": 2,
+   "daily_stars": 233.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "theoephraim/awesome-cloudflare-selfhosted",
+   "url": "https://github.com/theoephraim/awesome-cloudflare-selfhosted",
+   "description": "🍊☁️ Open-source* apps that replace a SaaS product, running in your own Cloudflare account",
+   "language": "JavaScript",
+   "stars": 430,
+   "forks": 18,
+   "age_days": 2,
+   "daily_stars": 215.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "jarrodwatts/jev-trader",
+   "url": "https://github.com/jarrodwatts/jev-trader",
+   "description": "One AI trade decision every Monad block. Jev on Kuru MON-USDC.",
+   "language": "TypeScript",
+   "stars": 207,
+   "forks": 43,
+   "age_days": 1,
+   "daily_stars": 207.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "Lakr233/vphone-cli",
+   "url": "https://github.com/Lakr233/vphone-cli",
+   "description": "",
+   "language": "Swift",
+   "stars": 13549,
+   "forks": 1607,
+   "age_days": 202,
+   "daily_stars": 67.07425742574257,
+   "real_daily_stars": 212.64705882352942,
+   "watchers": 74,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 91,
+    "acceleration": 36,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "browser-use/jev-ultrafast",
+   "url": "https://github.com/browser-use/jev-ultrafast",
+   "description": "",
+   "language": "Python",
+   "stars": 599,
+   "forks": 28,
+   "age_days": 1,
+   "daily_stars": 599.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 91,
+    "acceleration": 36,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "korcarc/text-humanizer",
+   "url": "https://github.com/korcarc/text-humanizer",
+   "description": "text-humanizer is an open-source project designed to convert text generated by AI to its \"humanized\" version. Bypasses the most of AI detectors such as Turnitin or GPTZero",
+   "language": "Python",
+   "stars": 193,
+   "forks": 68,
+   "age_days": 1,
+   "daily_stars": 193.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "Eurekaleo/awesome-ai-for-games",
+   "url": "https://github.com/Eurekaleo/awesome-ai-for-games",
+   "description": "A curated, searchable collection of research on AI and foundation models across the game lifecycle.",
+   "language": "TeX",
+   "stars": 175,
+   "forks": 9,
+   "age_days": 13,
+   "daily_stars": 13.461538461538462,
+   "real_daily_stars": 69.0,
+   "watchers": 2,
+   "source": "hf-papers",
+   "sources": [
+    "hf-papers"
+   ],
+   "license": "MIT",
+   "hf_title": "AI for Games in the Foundation Model Era",
+   "hf_upvotes": 113,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "vinnylarouge/jevlike",
+   "url": "https://github.com/vinnylarouge/jevlike",
+   "description": "",
+   "language": "Python",
+   "stars": 400,
+   "forks": 37,
+   "age_days": 1,
+   "daily_stars": 400.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 90,
+    "acceleration": 35,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "language": "JavaScript",
+   "stars": 260699,
+   "forks": 39021,
+   "age_days": 242,
+   "daily_stars": 1077.2685950413222,
+   "real_daily_stars": 750.2857142857143,
+   "watchers": 1331,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "language": "TypeScript",
+   "stars": 145729,
+   "forks": 23513,
+   "age_days": 571,
+   "daily_stars": 255.21716287215412,
+   "real_daily_stars": 125.12,
+   "watchers": 888,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "",
+   "rank": 2,
+   "scores": {
+    "total": 68,
+    "acceleration": 23,
+    "quality": 15,
+    "antispam": 30,
+    "rank_in_pool": 31,
+    "pool_size": 67,
+    "top_pct": 46.3
+   }
+  }
+ ]
+}

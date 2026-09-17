@@ -23,15 +23,16 @@
       "last_recommended": "2026-08-28T16:56:44.805618+00:00"
     },
     "affaan-m/ECC": {
-      "count": 5,
+      "count": 6,
       "scores": [
         100,
         100,
         90,
         88,
-        91
+        91,
+        90
       ],
-      "last_recommended": "2026-09-09T02:38:27.977791+00:00"
+      "last_recommended": "2026-09-17T09:41:05.679036+00:00"
     },
     "mattpocock/skills": {
       "count": 6,
@@ -186,76 +187,6 @@
         89
       ],
       "last_recommended": "2026-08-27T15:32:28.611733+00:00"
-    },
-    "yetone/cumora": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-18T05:08:41.883903+00:00"
-    },
-    "browser-use/macos-harness": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-18T05:08:41.887314+00:00"
-    },
-    "santifer/career-ops": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-18T05:08:41.893600+00:00"
-    },
-    "jeremy-prt/bloub": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-18T05:08:41.896748+00:00"
-    },
-    "zouyuxuan122/Deepseek-Harness-EAC": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-18T05:08:41.899860+00:00"
-    },
-    "elie222/rakazo": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-18T05:08:41.902905+00:00"
-    },
-    "fufankeji/deepseek-harness-studio": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-18T05:08:41.905920+00:00"
-    },
-    "zhu1090093659/dsh-web-ui": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-18T05:08:41.908923+00:00"
-    },
-    "sudoingX/qwen38-mtp": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-18T05:08:41.912033+00:00"
-    },
-    "usestrix/strix": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-18T05:08:41.915071+00:00"
     },
     "akitaonrails/ai-memory": {
       "count": 1,
@@ -596,11 +527,12 @@
       "last_recommended": "2026-08-23T05:07:29.963710+00:00"
     },
     "anthropics/claude-code": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        87
+        87,
+        68
       ],
-      "last_recommended": "2026-08-23T05:07:29.965722+00:00"
+      "last_recommended": "2026-09-17T09:41:05.680492+00:00"
     },
     "openai/codex": {
       "count": 1,
@@ -2297,7 +2229,77 @@
         85
       ],
       "last_recommended": "2026-09-16T09:32:40.856929+00:00"
+    },
+    "arnegiacomo/fugleramme": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-17T09:41:05.505416+00:00"
+    },
+    "rlaope/oh-my-hermes": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-17T09:41:05.506851+00:00"
+    },
+    "saragordic/window-sweaters": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-17T09:41:05.515676+00:00"
+    },
+    "theoephraim/awesome-cloudflare-selfhosted": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-17T09:41:05.516930+00:00"
+    },
+    "jarrodwatts/jev-trader": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-17T09:41:05.518152+00:00"
+    },
+    "Lakr233/vphone-cli": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-17T09:41:05.519420+00:00"
+    },
+    "browser-use/jev-ultrafast": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-17T09:41:05.520622+00:00"
+    },
+    "korcarc/text-humanizer": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-17T09:41:05.547255+00:00"
+    },
+    "Eurekaleo/awesome-ai-for-games": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-17T09:41:05.548503+00:00"
+    },
+    "vinnylarouge/jevlike": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-17T09:41:05.549723+00:00"
     }
   },
-  "updated_at": "2026-09-16T09:32:40.860205+00:00"
+  "updated_at": "2026-09-17T09:41:05.680509+00:00"
 }

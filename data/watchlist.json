@@ -1,77 +1,5 @@
 {
  "repos": {
-  "jingyaogong/minimind": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Git-Agni/prod-FARM-IOS-Core": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "brayonpi/hexstellar": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "unclecode/crawl4ai": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "2akouwu/codex-cli-portable-setup-kit": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "faisalkindi/DLSS5oneclick": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Merserk/dlss5-visual-enhancer": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Gitlawb/openclaude": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "VoltAgent/awesome-design-md": {
-   "first_seen": "2026-09-02",
-   "until": "2026-09-16",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
   "anthropics/commerce-agents": {
    "first_seen": "2026-09-03",
    "until": "2026-09-17",
@@ -1189,7 +1117,91 @@
    "stars_at_discovery": 95068,
    "score_at_discovery": 87,
    "source_at_discovery": "trending"
+  },
+  "arnegiacomo/fugleramme": {
+   "first_seen": "2026-09-17",
+   "until": "2026-10-01",
+   "stars_at_discovery": 2684,
+   "score_at_discovery": 100,
+   "source_at_discovery": "hn"
+  },
+  "rlaope/oh-my-hermes": {
+   "first_seen": "2026-09-17",
+   "until": "2026-10-01",
+   "stars_at_discovery": 2660,
+   "score_at_discovery": 95,
+   "source_at_discovery": "trending"
+  },
+  "saragordic/window-sweaters": {
+   "first_seen": "2026-09-17",
+   "until": "2026-10-01",
+   "stars_at_discovery": 466,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "theoephraim/awesome-cloudflare-selfhosted": {
+   "first_seen": "2026-09-17",
+   "until": "2026-10-01",
+   "stars_at_discovery": 430,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "jarrodwatts/jev-trader": {
+   "first_seen": "2026-09-17",
+   "until": "2026-10-01",
+   "stars_at_discovery": 207,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "Lakr233/vphone-cli": {
+   "first_seen": "2026-09-17",
+   "until": "2026-10-01",
+   "stars_at_discovery": 13549,
+   "score_at_discovery": 91,
+   "source_at_discovery": "trending"
+  },
+  "browser-use/jev-ultrafast": {
+   "first_seen": "2026-09-17",
+   "until": "2026-10-01",
+   "stars_at_discovery": 599,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "korcarc/text-humanizer": {
+   "first_seen": "2026-09-17",
+   "until": "2026-10-01",
+   "stars_at_discovery": 193,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "Eurekaleo/awesome-ai-for-games": {
+   "first_seen": "2026-09-17",
+   "until": "2026-10-01",
+   "stars_at_discovery": 175,
+   "score_at_discovery": 91,
+   "source_at_discovery": "hf-papers"
+  },
+  "vinnylarouge/jevlike": {
+   "first_seen": "2026-09-17",
+   "until": "2026-10-01",
+   "stars_at_discovery": 400,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "affaan-m/ECC": {
+   "first_seen": "2026-09-17",
+   "until": "2026-10-01",
+   "stars_at_discovery": 260699,
+   "score_at_discovery": 90,
+   "source_at_discovery": "trending"
+  },
+  "anthropics/claude-code": {
+   "first_seen": "2026-09-17",
+   "until": "2026-10-01",
+   "stars_at_discovery": 145729,
+   "score_at_discovery": 68,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-09-16T09:36:37.288980+00:00"
+ "updated_at": "2026-09-17T09:44:25.117272+00:00"
 }
