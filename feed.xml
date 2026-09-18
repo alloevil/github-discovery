@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-17T18:00:00Z</updated>
+  <updated>2026-09-18T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>cloudflare/security-audit-skill — A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings</title>
+    <id>https://github.com/cloudflare/security-audit-skill#2026-09-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/cloudflare/security-audit-skill"/>
+    <updated>2026-09-18T18:00:00Z</updated>
+    <published>2026-09-18T18:00:00Z</published>
+    <summary>A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
+
+Why: +2895/day · Trending · 22.9x accelerating
+Score: 100/100 | Language: JavaScript | ⭐ 11518 (+2895.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Tencent/WeKnora — Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.</title>
+    <id>https://github.com/Tencent/WeKnora#2026-09-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Tencent/WeKnora"/>
+    <updated>2026-09-18T18:00:00Z</updated>
+    <published>2026-09-18T18:00:00Z</published>
+    <summary>Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.
+
+Why: +848/day · Trending · 13.4x accelerating
+Score: 100/100 | Language: Go | ⭐ 26687 (+848.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>abue-ammar/tinycast — Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.</title>
+    <id>https://github.com/abue-ammar/tinycast#2026-09-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/abue-ammar/tinycast"/>
+    <updated>2026-09-18T18:00:00Z</updated>
+    <published>2026-09-18T18:00:00Z</published>
+    <summary>Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.
+
+Why: +435/day · Trending · 5.5x accelerating
+Score: 99/100 | Language: Swift | ⭐ 6297 (+435.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>anthropics/knowledge-work-plugins — Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork</title>
+    <id>https://github.com/anthropics/knowledge-work-plugins#2026-09-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/anthropics/knowledge-work-plugins"/>
+    <updated>2026-09-18T18:00:00Z</updated>
+    <published>2026-09-18T18:00:00Z</published>
+    <summary>Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork
+
+Why: +296/day · Trending · 2.8x accelerating
+Score: 97/100 | Language: Python | ⭐ 24694 (+296.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>TheoLeeCJ/openjev — Can we run something like Jev on a 3090 at home?</title>
+    <id>https://github.com/TheoLeeCJ/openjev#2026-09-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/TheoLeeCJ/openjev"/>
+    <updated>2026-09-18T18:00:00Z</updated>
+    <published>2026-09-18T18:00:00Z</published>
+    <summary>Can we run something like Jev on a 3090 at home?
+
+Why: +582/day · Search
+Score: 96/100 | Language: Python | ⭐ 1163 (+581.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>jub0t/Concat — Open-Source CapCut replacement (MCP supported).</title>
+    <id>https://github.com/jub0t/Concat#2026-09-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/jub0t/Concat"/>
+    <updated>2026-09-18T18:00:00Z</updated>
+    <published>2026-09-18T18:00:00Z</published>
+    <summary>Open-Source CapCut replacement (MCP supported).
+
+Why: +264/day · HN · 2.2x accelerating
+Score: 93/100 | Language: Rust | ⭐ 2746 (+263.5/day) | Source: hn</summary>
+  </entry>
+  <entry>
+    <title>JustVugg/colibri — Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦</title>
+    <id>https://github.com/JustVugg/colibri#2026-09-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/JustVugg/colibri"/>
+    <updated>2026-09-18T18:00:00Z</updated>
+    <published>2026-09-18T18:00:00Z</published>
+    <summary>Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦
+
+Why: +585/day · Trending
+Score: 91/100 | Language: C | ⭐ 35928 (+585.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>arnegiacomo/fugleramme — E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations.</title>
     <id>https://github.com/arnegiacomo/fugleramme#2026-09-17</id>
@@ -910,82 +987,5 @@ Score: 90/100 | Language: Python | ⭐ 155 (+155.0/day) | Source: search + risin
 
 Why: +621/day · Trending · 2.8x accelerating
 Score: 99/100 | Language: HTML | ⭐ 31235 (+621.4/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>fmtlib/fmt — A modern formatting library</title>
-    <id>https://github.com/fmtlib/fmt#2026-09-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/fmtlib/fmt"/>
-    <updated>2026-09-04T18:00:00Z</updated>
-    <published>2026-09-04T18:00:00Z</published>
-    <summary>A modern formatting library
-
-Why: +737/day · Trending · 146.0x accelerating
-Score: 100/100 | Language: C++ | ⭐ 25334 (+737.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>blader/humanizer — Agent skill that removes signs of AI-generated writing from text</title>
-    <id>https://github.com/blader/humanizer#2026-09-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/blader/humanizer"/>
-    <updated>2026-09-04T18:00:00Z</updated>
-    <published>2026-09-04T18:00:00Z</published>
-    <summary>Agent skill that removes signs of AI-generated writing from text
-
-Why: +1095/day · Trending · 6.0x accelerating
-Score: 100/100 | Language: Python | ⭐ 41969 (+1095.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>debpalash/VoiceStudio — VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.</title>
-    <id>https://github.com/debpalash/VoiceStudio#2026-09-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/debpalash/VoiceStudio"/>
-    <updated>2026-09-04T18:00:00Z</updated>
-    <published>2026-09-04T18:00:00Z</published>
-    <summary>VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.
-
-Why: +1376/day · Trending · 12.0x accelerating
-Score: 100/100 | Language: Python | ⭐ 16833 (+1376.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>google-research/timesfm — TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.</title>
-    <id>https://github.com/google-research/timesfm#2026-09-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/google-research/timesfm"/>
-    <updated>2026-09-04T18:00:00Z</updated>
-    <published>2026-09-04T18:00:00Z</published>
-    <summary>TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.
-
-Why: +442/day · Trending · 12.3x accelerating
-Score: 99/100 | Language: Python | ⭐ 30842 (+442.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>averygan/reclip — Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.</title>
-    <id>https://github.com/averygan/reclip#2026-09-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/averygan/reclip"/>
-    <updated>2026-09-04T18:00:00Z</updated>
-    <published>2026-09-04T18:00:00Z</published>
-    <summary>Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.
-
-Why: +322/day · Trending · 5.9x accelerating
-Score: 98/100 | Language: HTML | ⭐ 8629 (+322.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>obra/superpowers — An agentic skills framework &amp; software development methodology that works.</title>
-    <id>https://github.com/obra/superpowers#2026-09-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/obra/superpowers"/>
-    <updated>2026-09-04T18:00:00Z</updated>
-    <published>2026-09-04T18:00:00Z</published>
-    <summary>An agentic skills framework &amp; software development methodology that works.
-
-Why: +441/day · Trending
-Score: 89/100 | Language: Shell | ⭐ 281559 (+440.6/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>DietrichGebert/ponytail — Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</title>
-    <id>https://github.com/DietrichGebert/ponytail#2026-09-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/DietrichGebert/ponytail"/>
-    <updated>2026-09-04T18:00:00Z</updated>
-    <published>2026-09-04T18:00:00Z</published>
-    <summary>Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
-
-Why: +1586/day · Trending
-Score: 85/100 | Language: JavaScript | ⭐ 124087 (+1586.0/day) | Source: trending</summary>
   </entry>
 </feed>
