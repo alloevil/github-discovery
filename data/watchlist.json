@@ -1,85 +1,5 @@
 {
  "repos": {
-  "anthropics/commerce-agents": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "2akouwu/reverify": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "ZJU-REAL/Easel": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Imbad0202/academic-research-skills": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "lnkiai/m3e-canvas": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "subsy/skill-cabinet": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "aaronyi97/image-story-video-wizard": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "rakanki911/DLSS5-Swapper": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "richiemcilroy/chippytea": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "kydlikebtc/awesome-grokbot": {
-   "first_seen": "2026-09-03",
-   "until": "2026-09-17",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
   "fmtlib/fmt": {
    "first_seen": "2026-09-04",
    "until": "2026-09-18",
@@ -1201,7 +1121,84 @@
    "stars_at_discovery": 145729,
    "score_at_discovery": 68,
    "source_at_discovery": "trending"
+  },
+  "cloudflare/security-audit-skill": {
+   "first_seen": "2026-09-18",
+   "until": "2026-10-02",
+   "stars_at_discovery": 11518,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "Tencent/WeKnora": {
+   "first_seen": "2026-09-18",
+   "until": "2026-10-02",
+   "stars_at_discovery": 26687,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "abue-ammar/tinycast": {
+   "first_seen": "2026-09-18",
+   "until": "2026-10-02",
+   "stars_at_discovery": 6297,
+   "score_at_discovery": 99,
+   "source_at_discovery": "trending"
+  },
+  "anthropics/knowledge-work-plugins": {
+   "first_seen": "2026-09-18",
+   "until": "2026-10-02",
+   "stars_at_discovery": 24694,
+   "score_at_discovery": 97,
+   "source_at_discovery": "trending"
+  },
+  "TheoLeeCJ/openjev": {
+   "first_seen": "2026-09-18",
+   "until": "2026-10-02",
+   "stars_at_discovery": 1163,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "roboflow/supervision": {
+   "first_seen": "2026-09-18",
+   "until": "2026-10-02",
+   "stars_at_discovery": 50898,
+   "score_at_discovery": 95,
+   "source_at_discovery": "trending"
+  },
+  "mcncarl/jianying-headless": {
+   "first_seen": "2026-09-18",
+   "until": "2026-10-02",
+   "stars_at_discovery": 547,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "thruwire/foreman": {
+   "first_seen": "2026-09-18",
+   "until": "2026-10-02",
+   "stars_at_discovery": 239,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "devagrawal09/jev-review": {
+   "first_seen": "2026-09-18",
+   "until": "2026-10-02",
+   "stars_at_discovery": 208,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "jamiepine/voicebox": {
+   "first_seen": "2026-09-18",
+   "until": "2026-10-02",
+   "stars_at_discovery": 55013,
+   "score_at_discovery": 91,
+   "source_at_discovery": "trending"
+  },
+  "jub0t/Concat": {
+   "first_seen": "2026-09-18",
+   "until": "2026-10-02",
+   "stars_at_discovery": 2746,
+   "score_at_discovery": 93,
+   "source_at_discovery": "hn"
   }
  },
- "updated_at": "2026-09-17T09:44:25.117272+00:00"
+ "updated_at": "2026-09-18T09:17:06.367624+00:00"
 }

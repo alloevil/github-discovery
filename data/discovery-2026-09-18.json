@@ -1,0 +1,344 @@
+{
+ "date": "2026-09-18",
+ "generated_at": "2026-09-18T09:13:57.064328",
+ "pool_size": 69,
+ "new": [
+  {
+   "full_name": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "language": "JavaScript",
+   "stars": 11518,
+   "forks": 624,
+   "age_days": 91,
+   "daily_stars": 126.57142857142857,
+   "real_daily_stars": 2895.0,
+   "watchers": 40,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 14
+   }
+  },
+  {
+   "full_name": "Tencent/WeKnora",
+   "url": "https://github.com/Tencent/WeKnora",
+   "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+   "language": "Go",
+   "stars": 26687,
+   "forks": 3598,
+   "age_days": 423,
+   "daily_stars": 63.089834515366434,
+   "real_daily_stars": 848.0,
+   "watchers": 122,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "abue-ammar/tinycast",
+   "url": "https://github.com/abue-ammar/tinycast",
+   "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
+   "language": "Swift",
+   "stars": 6297,
+   "forks": 290,
+   "age_days": 80,
+   "daily_stars": 78.7125,
+   "real_daily_stars": 435.0,
+   "watchers": 10,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "language": "Python",
+   "stars": 24694,
+   "forks": 2958,
+   "age_days": 237,
+   "daily_stars": 104.19409282700423,
+   "real_daily_stars": 296.0,
+   "watchers": 175,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 97,
+    "acceleration": 37,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "TheoLeeCJ/openjev",
+   "url": "https://github.com/TheoLeeCJ/openjev",
+   "description": "Can we run something like Jev on a 3090 at home?",
+   "language": "Python",
+   "stars": 1163,
+   "forks": 77,
+   "age_days": 2,
+   "daily_stars": 581.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "roboflow/supervision",
+   "url": "https://github.com/roboflow/supervision",
+   "description": "We write your reusable computer vision tools. 💜",
+   "language": "Python",
+   "stars": 50898,
+   "forks": 4837,
+   "age_days": 1389,
+   "daily_stars": 36.64362850971922,
+   "real_daily_stars": 183.0,
+   "watchers": 314,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "mcncarl/jianying-headless",
+   "url": "https://github.com/mcncarl/jianying-headless",
+   "description": "Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.",
+   "language": "Python",
+   "stars": 547,
+   "forks": 271,
+   "age_days": 2,
+   "daily_stars": 273.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 14
+   }
+  },
+  {
+   "full_name": "thruwire/foreman",
+   "url": "https://github.com/thruwire/foreman",
+   "description": "Software Factory Foreman based on TypeSafe Jev model",
+   "language": "Python",
+   "stars": 239,
+   "forks": 16,
+   "age_days": 1,
+   "daily_stars": 239.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "devagrawal09/jev-review",
+   "url": "https://github.com/devagrawal09/jev-review",
+   "description": "A staged code-review workflow and local dashboard built with TypeSafe Jev.",
+   "language": "TypeScript",
+   "stars": 208,
+   "forks": 11,
+   "age_days": 1,
+   "daily_stars": 208.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "jamiepine/voicebox",
+   "url": "https://github.com/jamiepine/voicebox",
+   "description": "The open-source AI voice studio. Clone, dictate, create.",
+   "language": "TypeScript",
+   "stars": 55013,
+   "forks": 6841,
+   "age_days": 235,
+   "daily_stars": 234.09787234042554,
+   "real_daily_stars": 347.0,
+   "watchers": 259,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "jub0t/Concat",
+   "url": "https://github.com/jub0t/Concat",
+   "description": "Open-Source CapCut replacement (MCP supported).",
+   "language": "Rust",
+   "stars": 2746,
+   "forks": 244,
+   "age_days": 23,
+   "daily_stars": 119.3913043478261,
+   "real_daily_stars": 263.5,
+   "watchers": 23,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "AGPL-3.0",
+   "hn_title": "Show HN: Concat: the open-source CapCut replacement.",
+   "hn_score": 3,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "JustVugg/colibri",
+   "url": "https://github.com/JustVugg/colibri",
+   "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+   "language": "C",
+   "stars": 35928,
+   "forks": 3780,
+   "age_days": 78,
+   "daily_stars": 460.61538461538464,
+   "real_daily_stars": 585.0,
+   "watchers": 282,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  }
+ ]
+}

@@ -188,20 +188,6 @@
       ],
       "last_recommended": "2026-08-27T15:32:28.611733+00:00"
     },
-    "akitaonrails/ai-memory": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-19T05:14:38.118010+00:00"
-    },
-    "mukul975/Anthropic-Cybersecurity-Skills": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-19T05:14:38.121404+00:00"
-    },
     "basecamp/omarchy": {
       "count": 2,
       "scores": [
@@ -209,55 +195,6 @@
         100
       ],
       "last_recommended": "2026-08-26T05:16:54.013692+00:00"
-    },
-    "agalwood/Motrix": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-19T05:14:38.127820+00:00"
-    },
-    "jundot/omlx": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-19T05:14:38.130842+00:00"
-    },
-    "harry0703/MoneyPrinterTurbo": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-19T05:14:38.133975+00:00"
-    },
-    "SigmanticAI/apex-inference-chip": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-19T05:14:38.137031+00:00"
-    },
-    "s1dashu/ip-as-logo-skill": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-19T05:14:38.140154+00:00"
-    },
-    "wang2122/sprix-sage-router": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-19T05:14:38.143052+00:00"
-    },
-    "ZSvirt/zsvirt": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-19T05:14:38.146427+00:00"
     },
     "volcengine/OpenViking": {
       "count": 1,
@@ -1089,11 +1026,12 @@
       "last_recommended": "2026-08-31T11:10:38.264040+00:00"
     },
     "jub0t/Concat": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        89
+        89,
+        93
       ],
-      "last_recommended": "2026-08-31T11:10:38.265705+00:00"
+      "last_recommended": "2026-09-18T09:13:56.845142+00:00"
     },
     "daffainfo/vol-rs": {
       "count": 1,
@@ -1860,11 +1798,12 @@
       "last_recommended": "2026-09-11T09:10:30.499015+00:00"
     },
     "JustVugg/colibri": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        89
+        89,
+        91
       ],
-      "last_recommended": "2026-09-11T09:10:30.500906+00:00"
+      "last_recommended": "2026-09-18T09:13:56.847163+00:00"
     },
     "diegosouzapw/OmniRoute": {
       "count": 1,
@@ -2299,7 +2238,77 @@
         90
       ],
       "last_recommended": "2026-09-17T09:41:05.549723+00:00"
+    },
+    "cloudflare/security-audit-skill": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-18T09:13:56.824634+00:00"
+    },
+    "Tencent/WeKnora": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-18T09:13:56.826880+00:00"
+    },
+    "abue-ammar/tinycast": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-09-18T09:13:56.828880+00:00"
+    },
+    "anthropics/knowledge-work-plugins": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-09-18T09:13:56.830885+00:00"
+    },
+    "TheoLeeCJ/openjev": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-18T09:13:56.832901+00:00"
+    },
+    "roboflow/supervision": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-18T09:13:56.834975+00:00"
+    },
+    "mcncarl/jianying-headless": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-09-18T09:13:56.837005+00:00"
+    },
+    "thruwire/foreman": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-18T09:13:56.839018+00:00"
+    },
+    "devagrawal09/jev-review": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-18T09:13:56.841071+00:00"
+    },
+    "jamiepine/voicebox": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-18T09:13:56.843096+00:00"
     }
   },
-  "updated_at": "2026-09-17T09:41:05.680509+00:00"
+  "updated_at": "2026-09-18T09:13:56.847187+00:00"
 }
