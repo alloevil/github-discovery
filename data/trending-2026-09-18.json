@@ -3,103 +3,13 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "affaan-m/ECC",
-   "stars": 261444,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "n8n-io/n8n",
-   "stars": 205181,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "anthropics/claude-code",
-   "stars": 146014,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "addyosmani/agent-skills",
-   "stars": 96092,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "NationalSecurityAgency/ghidra",
-   "stars": 78740,
-   "language": "Java"
-  },
-  {
-   "full_name": "cline/cline",
-   "stars": 68650,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "jamiepine/voicebox",
-   "stars": 55013,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "roboflow/supervision",
-   "stars": 50898,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "JustVugg/colibri",
-   "stars": 35928,
-   "language": "C"
-  },
-  {
-   "full_name": "alibaba/open-code-review",
-   "stars": 35918,
-   "language": "Go"
-  },
-  {
-   "full_name": "Tencent/WeKnora",
-   "stars": 26687,
-   "language": "Go"
-  },
-  {
-   "full_name": "cilium/cilium",
-   "stars": 25331,
-   "language": "Go"
-  },
-  {
-   "full_name": "anthropics/knowledge-work-plugins",
-   "stars": 24694,
-   "language": "Python"
-  },
-  {
-   "full_name": "coder/coder",
-   "stars": 15002,
-   "language": "Go"
-  },
-  {
-   "full_name": "cloudflare/security-audit-skill",
-   "stars": 11518,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "ever-co/ever-gauzy",
-   "stars": 7680,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "abue-ammar/tinycast",
-   "stars": 6297,
-   "language": "Swift"
-  },
-  {
-   "full_name": "alphaXiv/OpenResearch",
-   "stars": 5179,
-   "language": "Rust"
-  },
-  {
-   "full_name": "Tencent/BrowserSkill",
-   "stars": 4740,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "TencentCloud/Octop",
-   "stars": 3720,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
   }
  ]
