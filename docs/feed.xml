@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-18T18:00:00Z</updated>
+  <updated>2026-09-19T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>Tencent/BrowserSkill — Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.</title>
+    <id>https://github.com/Tencent/BrowserSkill#2026-09-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Tencent/BrowserSkill"/>
+    <updated>2026-09-19T18:00:00Z</updated>
+    <published>2026-09-19T18:00:00Z</published>
+    <summary>Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.
+
+Why: +788/day · Trending · 12.7x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 5528 (+788.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>coder/coder — Secure environments for developers and their agents</title>
+    <id>https://github.com/coder/coder#2026-09-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/coder/coder"/>
+    <updated>2026-09-19T18:00:00Z</updated>
+    <published>2026-09-19T18:00:00Z</published>
+    <summary>Secure environments for developers and their agents
+
+Why: +400/day · Trending · 45.0x accelerating
+Score: 99/100 | Language: Go | ⭐ 15402 (+400.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>TencentCloud/Octop — A smarter, self-hosted AI assistant — multi-user, multi-agent.</title>
+    <id>https://github.com/TencentCloud/Octop#2026-09-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/TencentCloud/Octop"/>
+    <updated>2026-09-19T18:00:00Z</updated>
+    <published>2026-09-19T18:00:00Z</published>
+    <summary>A smarter, self-hosted AI assistant — multi-user, multi-agent.
+
+Why: +347/day · Trending · 6.1x accelerating
+Score: 98/100 | Language: Python | ⭐ 4067 (+347.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>TheoLeeCJ/SemIf — Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.</title>
+    <id>https://github.com/TheoLeeCJ/SemIf#2026-09-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/TheoLeeCJ/SemIf"/>
+    <updated>2026-09-19T18:00:00Z</updated>
+    <published>2026-09-19T18:00:00Z</published>
+    <summary>Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.
+
+Why: +562/day · Search
+Score: 96/100 | Language: Python | ⭐ 1685 (+561.7/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>robbietilton/Compositor — The Photoshop alternative for Mac</title>
+    <id>https://github.com/robbietilton/Compositor#2026-09-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/robbietilton/Compositor"/>
+    <updated>2026-09-19T18:00:00Z</updated>
+    <published>2026-09-19T18:00:00Z</published>
+    <summary>The Photoshop alternative for Mac
+
+Why: +640/day · Search
+Score: 96/100 | Language: Swift | ⭐ 1281 (+640.5/day) | Source: search</summary>
+  </entry>
   <entry>
     <title>cloudflare/security-audit-skill — A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings</title>
     <id>https://github.com/cloudflare/security-audit-skill#2026-09-18</id>
@@ -921,71 +976,5 @@ Score: 91/100 | Language: Python | ⭐ 183 (+183.0/day) | Source: search</summar
 
 Why: +73/day · HN · 19.8x accelerating
 Score: 91/100 | Language: Python | ⭐ 181 (+73.0/day) | Source: hn</summary>
-  </entry>
-  <entry>
-    <title>magnitudedev/magnitude — Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.</title>
-    <id>https://github.com/magnitudedev/magnitude#2026-09-05</id>
-    <link rel="alternate" type="text/html" href="https://github.com/magnitudedev/magnitude"/>
-    <updated>2026-09-05T18:00:00Z</updated>
-    <published>2026-09-05T18:00:00Z</published>
-    <summary>Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.
-
-Why: +613/day · Trending · 18.9x accelerating
-Score: 95/100 | Language: TypeScript | ⭐ 2718 (+613.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>ahujasid/camera-to-blender — Take a photo of real objects, and paste them in Blender</title>
-    <id>https://github.com/ahujasid/camera-to-blender#2026-09-05</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ahujasid/camera-to-blender"/>
-    <updated>2026-09-05T18:00:00Z</updated>
-    <published>2026-09-05T18:00:00Z</published>
-    <summary>Take a photo of real objects, and paste them in Blender
-
-Why: +369/day · Search
-Score: 95/100 | Language: JavaScript | ⭐ 369 (+369.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>anthropics/fermats-last-theorem — No description</title>
-    <id>https://github.com/anthropics/fermats-last-theorem#2026-09-05</id>
-    <link rel="alternate" type="text/html" href="https://github.com/anthropics/fermats-last-theorem"/>
-    <updated>2026-09-05T18:00:00Z</updated>
-    <published>2026-09-05T18:00:00Z</published>
-    <summary>No description
-
-Why: +497/day · Search
-Score: 91/100 | Language: Lean | ⭐ 497 (+497.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>kajisho5/ffmpeg-skill — No description</title>
-    <id>https://github.com/kajisho5/ffmpeg-skill#2026-09-05</id>
-    <link rel="alternate" type="text/html" href="https://github.com/kajisho5/ffmpeg-skill"/>
-    <updated>2026-09-05T18:00:00Z</updated>
-    <published>2026-09-05T18:00:00Z</published>
-    <summary>No description
-
-Why: +248/day · Search
-Score: 91/100 | Language: Python | ⭐ 248 (+248.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>Rion-Wu-tech/wechat-intelligence-hub — Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.</title>
-    <id>https://github.com/Rion-Wu-tech/wechat-intelligence-hub#2026-09-05</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Rion-Wu-tech/wechat-intelligence-hub"/>
-    <updated>2026-09-05T18:00:00Z</updated>
-    <published>2026-09-05T18:00:00Z</published>
-    <summary>Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.
-
-Why: +155/day · Search+Rising
-Score: 90/100 | Language: Python | ⭐ 155 (+155.0/day) | Source: search + rising</summary>
-  </entry>
-  <entry>
-    <title>cathrynlavery/diagram-design — 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.</title>
-    <id>https://github.com/cathrynlavery/diagram-design#2026-09-05</id>
-    <link rel="alternate" type="text/html" href="https://github.com/cathrynlavery/diagram-design"/>
-    <updated>2026-09-05T18:00:00Z</updated>
-    <published>2026-09-05T18:00:00Z</published>
-    <summary>38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.
-
-Why: +621/day · Trending · 2.8x accelerating
-Score: 99/100 | Language: HTML | ⭐ 31235 (+621.4/day) | Source: trending</summary>
   </entry>
 </feed>

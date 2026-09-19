@@ -1,0 +1,91 @@
+{
+ "date": "2026-09-19",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "affaan-m/ECC",
+   "stars": 262366,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "anthropics/claude-code",
+   "stars": 146462,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "supabase/supabase",
+   "stars": 110240,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "addyosmani/agent-skills",
+   "stars": 96589,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "Fission-AI/OpenSpec",
+   "stars": 69492,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "alibaba/open-code-review",
+   "stars": 37043,
+   "language": "Go"
+  },
+  {
+   "full_name": "rustfs/rustfs",
+   "stars": 33269,
+   "language": "Rust"
+  },
+  {
+   "full_name": "ankitects/anki",
+   "stars": 31286,
+   "language": "Rust"
+  },
+  {
+   "full_name": "supermemoryai/supermemory",
+   "stars": 30447,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "anthropics/knowledge-work-plugins",
+   "stars": 24959,
+   "language": "Python"
+  },
+  {
+   "full_name": "ahmedkhaleel2004/gitdiagram",
+   "stars": 16577,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "coder/coder",
+   "stars": 15402,
+   "language": "Go"
+  },
+  {
+   "full_name": "cloudflare/security-audit-skill",
+   "stars": 14596,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "tradesdontlie/tradingview-mcp",
+   "stars": 6540,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "Tencent/BrowserSkill",
+   "stars": 5528,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "asciimoo/hister",
+   "stars": 5054,
+   "language": "Go"
+  },
+  {
+   "full_name": "TencentCloud/Octop",
+   "stars": 4067,
+   "language": "Python"
+  }
+ ]
+}

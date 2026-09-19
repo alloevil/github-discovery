@@ -1,85 +1,5 @@
 {
  "repos": {
-  "fmtlib/fmt": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "blader/humanizer": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "debpalash/VoiceStudio": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "google-research/timesfm": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "averygan/reclip": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "MSNightmare/FalconFlank": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "PhiloLabs/fable51-worlds": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "codejunkie99/fable-orchestrator": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Albert-Weasker/niubigeo": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "nahrek/polyledger": {
-   "first_seen": "2026-09-04",
-   "until": "2026-09-18",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
   "magnitudedev/magnitude": {
    "first_seen": "2026-09-05",
    "until": "2026-09-19",
@@ -1198,7 +1118,77 @@
    "stars_at_discovery": 2746,
    "score_at_discovery": 93,
    "source_at_discovery": "hn"
+  },
+  "Tencent/BrowserSkill": {
+   "first_seen": "2026-09-19",
+   "until": "2026-10-03",
+   "stars_at_discovery": 5528,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "coder/coder": {
+   "first_seen": "2026-09-19",
+   "until": "2026-10-03",
+   "stars_at_discovery": 15402,
+   "score_at_discovery": 99,
+   "source_at_discovery": "trending"
+  },
+  "TencentCloud/Octop": {
+   "first_seen": "2026-09-19",
+   "until": "2026-10-03",
+   "stars_at_discovery": 4067,
+   "score_at_discovery": 98,
+   "source_at_discovery": "trending"
+  },
+  "TheoLeeCJ/SemIf": {
+   "first_seen": "2026-09-19",
+   "until": "2026-10-03",
+   "stars_at_discovery": 1685,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "robbietilton/Compositor": {
+   "first_seen": "2026-09-19",
+   "until": "2026-10-03",
+   "stars_at_discovery": 1281,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "TianyuCodings/NanoJev": {
+   "first_seen": "2026-09-19",
+   "until": "2026-10-03",
+   "stars_at_discovery": 556,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored": {
+   "first_seen": "2026-09-19",
+   "until": "2026-10-03",
+   "stars_at_discovery": 424,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "NandhaKishorM/laya": {
+   "first_seen": "2026-09-19",
+   "until": "2026-10-03",
+   "stars_at_discovery": 417,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "supabase/supabase": {
+   "first_seen": "2026-09-19",
+   "until": "2026-10-03",
+   "stars_at_discovery": 110240,
+   "score_at_discovery": 94,
+   "source_at_discovery": "trending"
+  },
+  "ankitects/anki": {
+   "first_seen": "2026-09-19",
+   "until": "2026-10-03",
+   "stars_at_discovery": 31286,
+   "score_at_discovery": 93,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-09-18T09:17:06.367624+00:00"
+ "updated_at": "2026-09-19T09:04:13.692027+00:00"
 }
