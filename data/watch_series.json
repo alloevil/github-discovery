@@ -7699,12 +7699,12 @@
    },
    {
     "date": "2026-09-19",
-    "stars": 880,
+    "stars": 885,
     "forks": 52,
-    "open_issues": 5,
+    "open_issues": 3,
     "commits_7d": 100,
-    "contributors_7d": 5,
-    "pushed_at": "2026-09-18T20:33:13Z"
+    "contributors_7d": 6,
+    "pushed_at": "2026-09-19T10:55:10Z"
    }
   ],
   "tonhowtf/omniget": [
@@ -8369,8 +8369,8 @@
   "TheoLeeCJ/SemIf": [
    {
     "date": "2026-09-19",
-    "stars": 1686,
-    "forks": 111,
+    "stars": 1734,
+    "forks": 114,
     "open_issues": 5,
     "commits_7d": 12,
     "contributors_7d": 2,
@@ -8433,5 +8433,5 @@
    }
   ]
  },
- "updated_at": "2026-09-19T09:04:13.684700+00:00"
+ "updated_at": "2026-09-19T12:41:28.751062+00:00"
 }
