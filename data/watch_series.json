@@ -8680,12 +8680,12 @@
    },
    {
     "date": "2026-09-20",
-    "stars": 895,
+    "stars": 896,
     "forks": 52,
-    "open_issues": 6,
+    "open_issues": 5,
     "commits_7d": 100,
     "contributors_7d": 6,
-    "pushed_at": "2026-09-19T17:16:00Z"
+    "pushed_at": "2026-09-20T10:11:36Z"
    }
   ],
   "tonhowtf/omniget": [
@@ -9602,9 +9602,9 @@
    },
    {
     "date": "2026-09-20",
-    "stars": 2114,
-    "forks": 130,
-    "open_issues": 9,
+    "stars": 2204,
+    "forks": 134,
+    "open_issues": 10,
     "commits_7d": 12,
     "contributors_7d": 2,
     "pushed_at": "2026-09-19T04:46:36Z"
@@ -9821,5 +9821,5 @@
    }
   ]
  },
- "updated_at": "2026-09-20T09:31:57.233915+00:00"
+ "updated_at": "2026-09-20T13:13:11.330019+00:00"
 }
