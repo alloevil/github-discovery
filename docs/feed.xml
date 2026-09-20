@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-19T18:00:00Z</updated>
+  <updated>2026-09-20T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>asciimoo/hister — Your own search engine</title>
+    <id>https://github.com/asciimoo/hister#2026-09-20</id>
+    <link rel="alternate" type="text/html" href="https://github.com/asciimoo/hister"/>
+    <updated>2026-09-20T18:00:00Z</updated>
+    <published>2026-09-20T18:00:00Z</published>
+    <summary>Your own search engine
+
+Why: +299/day · Trending · 14.4x accelerating
+Score: 98/100 | Language: Go | ⭐ 5353 (+299.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>mizorewww/laya-mlx — Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.</title>
+    <id>https://github.com/mizorewww/laya-mlx#2026-09-20</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mizorewww/laya-mlx"/>
+    <updated>2026-09-20T18:00:00Z</updated>
+    <published>2026-09-20T18:00:00Z</published>
+    <summary>Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.
+
+Why: +424/day · Search
+Score: 95/100 | Language: Python | ⭐ 424 (+424.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>incoai/splash — A local inference engine for Apple silicon, built around the model.</title>
+    <id>https://github.com/incoai/splash#2026-09-20</id>
+    <link rel="alternate" type="text/html" href="https://github.com/incoai/splash"/>
+    <updated>2026-09-20T18:00:00Z</updated>
+    <published>2026-09-20T18:00:00Z</published>
+    <summary>A local inference engine for Apple silicon, built around the model.
+
+Why: +372/day · Search
+Score: 95/100 | Language: Python | ⭐ 372 (+372.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>newliver666/apk-reverse — Suitable for Android APK reverse engineering analysis</title>
+    <id>https://github.com/newliver666/apk-reverse#2026-09-20</id>
+    <link rel="alternate" type="text/html" href="https://github.com/newliver666/apk-reverse"/>
+    <updated>2026-09-20T18:00:00Z</updated>
+    <published>2026-09-20T18:00:00Z</published>
+    <summary>Suitable for Android APK reverse engineering analysis
+
+Why: +358/day · Search+Rising
+Score: 94/100 | Language: Python | ⭐ 358 (+358.0/day) | Source: search + rising</summary>
+  </entry>
+  <entry>
+    <title>jackwener/wx-cli-again — WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli</title>
+    <id>https://github.com/jackwener/wx-cli-again#2026-09-20</id>
+    <link rel="alternate" type="text/html" href="https://github.com/jackwener/wx-cli-again"/>
+    <updated>2026-09-20T18:00:00Z</updated>
+    <published>2026-09-20T18:00:00Z</published>
+    <summary>WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli
+
+Why: +262/day · Search · 2.3x accelerating
+Score: 93/100 | Language: Rust | ⭐ 686 (+262.0/day) | Source: search</summary>
+  </entry>
   <entry>
     <title>Tencent/BrowserSkill — Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.</title>
     <id>https://github.com/Tencent/BrowserSkill#2026-09-19</id>
@@ -921,60 +976,5 @@ Score: 96/100 | Language: Python | ⭐ 507 (+507.0/day) | Source: search</summar
 
 Why: +480/day · Trending · 24.9x accelerating
 Score: 95/100 | Language: TypeScript | ⭐ 3340 (+480.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>ashemag/human-atlas — Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.</title>
-    <id>https://github.com/ashemag/human-atlas#2026-09-06</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ashemag/human-atlas"/>
-    <updated>2026-09-06T18:00:00Z</updated>
-    <published>2026-09-06T18:00:00Z</published>
-    <summary>Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.
-
-Why: +735/day · Search
-Score: 96/100 | Language: TypeScript | ⭐ 735 (+735.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>pierrenade/short-video-generator-AI — Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content.</title>
-    <id>https://github.com/pierrenade/short-video-generator-AI#2026-09-06</id>
-    <link rel="alternate" type="text/html" href="https://github.com/pierrenade/short-video-generator-AI"/>
-    <updated>2026-09-06T18:00:00Z</updated>
-    <published>2026-09-06T18:00:00Z</published>
-    <summary>Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content.
-
-Why: +408/day · Search+Rising
-Score: 95/100 | Language: Python | ⭐ 408 (+408.0/day) | Source: search + rising</summary>
-  </entry>
-  <entry>
-    <title>Appllama/liquid-glass-screens — Explore liquid-glass welcome screens with floating stickers and interactive swipe animations.</title>
-    <id>https://github.com/Appllama/liquid-glass-screens#2026-09-06</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Appllama/liquid-glass-screens"/>
-    <updated>2026-09-06T18:00:00Z</updated>
-    <published>2026-09-06T18:00:00Z</published>
-    <summary>Explore liquid-glass welcome screens with floating stickers and interactive swipe animations.
-
-Why: +223/day · Search
-Score: 92/100 | Language: TypeScript | ⭐ 223 (+223.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark — Qwen3.8-Flash-Next on ONE DGX Spark (TP=1)</title>
-    <id>https://github.com/MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark#2026-09-06</id>
-    <link rel="alternate" type="text/html" href="https://github.com/MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark"/>
-    <updated>2026-09-06T18:00:00Z</updated>
-    <published>2026-09-06T18:00:00Z</published>
-    <summary>Qwen3.8-Flash-Next on ONE DGX Spark (TP=1)
-
-Why: +183/day · Search
-Score: 91/100 | Language: Python | ⭐ 183 (+183.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>gioblu/NPC-Forge — NPC-Forge is a framework for building conversational agents that run on the CPU without relying on machine learning or LLMs.</title>
-    <id>https://github.com/gioblu/NPC-Forge#2026-09-06</id>
-    <link rel="alternate" type="text/html" href="https://github.com/gioblu/NPC-Forge"/>
-    <updated>2026-09-06T18:00:00Z</updated>
-    <published>2026-09-06T18:00:00Z</published>
-    <summary>NPC-Forge is a framework for building conversational agents that run on the CPU without relying on machine learning or LLMs.
-
-Why: +73/day · HN · 19.8x accelerating
-Score: 91/100 | Language: Python | ⭐ 181 (+73.0/day) | Source: hn</summary>
   </entry>
 </feed>

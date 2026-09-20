@@ -1,85 +1,5 @@
 {
  "repos": {
-  "magnitudedev/magnitude": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "ahujasid/camera-to-blender": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "anthropics/fermats-last-theorem": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "kajisho5/ffmpeg-skill": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Rion-Wu-tech/wechat-intelligence-hub": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "bannedbook/fanqiang": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "anomalyco/opencode": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "pipicat613/MuToolsProject": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Agenta-AI/awesome-ai-agent-platforms": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "0x6rss/instagram-private-graph": {
-   "first_seen": "2026-09-05",
-   "until": "2026-09-19",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
   "ashemag/human-atlas": {
    "first_seen": "2026-09-06",
    "until": "2026-09-20",
@@ -1188,7 +1108,77 @@
    "stars_at_discovery": 31286,
    "score_at_discovery": 93,
    "source_at_discovery": "trending"
+  },
+  "asciimoo/hister": {
+   "first_seen": "2026-09-20",
+   "until": "2026-10-04",
+   "stars_at_discovery": 5353,
+   "score_at_discovery": 98,
+   "source_at_discovery": "trending"
+  },
+  "mizorewww/laya-mlx": {
+   "first_seen": "2026-09-20",
+   "until": "2026-10-04",
+   "stars_at_discovery": 424,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "incoai/splash": {
+   "first_seen": "2026-09-20",
+   "until": "2026-10-04",
+   "stars_at_discovery": 372,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "newliver666/apk-reverse": {
+   "first_seen": "2026-09-20",
+   "until": "2026-10-04",
+   "stars_at_discovery": 358,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "jackwener/wx-cli-again": {
+   "first_seen": "2026-09-20",
+   "until": "2026-10-04",
+   "stars_at_discovery": 686,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "HyNetworks/OpenGFW": {
+   "first_seen": "2026-09-20",
+   "until": "2026-10-04",
+   "stars_at_discovery": 213,
+   "score_at_discovery": 92,
+   "source_at_discovery": "rising"
+  },
+  "jaredpalmer/kev": {
+   "first_seen": "2026-09-20",
+   "until": "2026-10-04",
+   "stars_at_discovery": 692,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "githubnext/localjev": {
+   "first_seen": "2026-09-20",
+   "until": "2026-10-04",
+   "stars_at_discovery": 530,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "coldteadotai/abide": {
+   "first_seen": "2026-09-20",
+   "until": "2026-10-04",
+   "stars_at_discovery": 173,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "sutro-sh/jev-align": {
+   "first_seen": "2026-09-20",
+   "until": "2026-10-04",
+   "stars_at_discovery": 183,
+   "score_at_discovery": 91,
+   "source_at_discovery": "hn"
   }
  },
- "updated_at": "2026-09-19T09:04:13.692027+00:00"
+ "updated_at": "2026-09-20T09:31:57.242020+00:00"
 }

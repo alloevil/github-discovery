@@ -1,0 +1,213 @@
+# 🔥 GitHub Discovery Report
+
+> **Generated:** 2026-09-20 09:28
+> **10 new repos + 0 repeat performers**
+
+---
+
+## ⭐ Top Starred Repositories — First Timers
+
+*These repos were first featured in GitHub Discovery*
+
+### 1. [asciimoo/hister](https://github.com/asciimoo/hister)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 5,353 |
+| 📅 Age | 258 days |
+| 🚀 Daily Growth | 299.0 stars/day (measured) |
+| 🔤 Language | Go |
+| 📡 Source | trending |
+
+> Your own search engine
+
+**Score: 98/100** `███████████████████░`
+- Standing: top ?% of ? candidates today
+- Acceleration: 38/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 2. [mizorewww/laya-mlx](https://github.com/mizorewww/laya-mlx)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 424 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 424.0 stars/day (lifetime avg) |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.
+
+**Score: 95/100** `███████████████████░`
+- Standing: top ?% of ? candidates today
+- Acceleration: 35/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 3. [incoai/splash](https://github.com/incoai/splash)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 372 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 372.0 stars/day (lifetime avg) |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> A local inference engine for Apple silicon, built around the model.
+
+**Score: 95/100** `███████████████████░`
+- Standing: top ?% of ? candidates today
+- Acceleration: 35/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 4. [newliver666/apk-reverse](https://github.com/newliver666/apk-reverse)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 358 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 358.0 stars/day (lifetime avg) |
+| 🔤 Language | Python |
+| 📡 Source | search + rising |
+
+> Suitable for Android APK reverse engineering analysis
+
+**Score: 94/100** `██████████████████░░`
+- Standing: top ?% of ? candidates today
+- Acceleration: 34/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 5. [jackwener/wx-cli-again](https://github.com/jackwener/wx-cli-again)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 686 |
+| 📅 Age | 6 days |
+| 🚀 Daily Growth | 262.0 stars/day (measured) |
+| 🔤 Language | Rust |
+| 📡 Source | search |
+
+> WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli
+
+**Score: 93/100** `██████████████████░░`
+- Standing: top ?% of ? candidates today
+- Acceleration: 33/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 6. [HyNetworks/OpenGFW](https://github.com/HyNetworks/OpenGFW)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 213 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 213.0 stars/day (lifetime avg) |
+| 🔤 Language | Go |
+| 📡 Source | rising |
+
+> 
+
+**Score: 92/100** `██████████████████░░`
+- Standing: top ?% of ? candidates today
+- Acceleration: 32/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 7. [jaredpalmer/kev](https://github.com/jaredpalmer/kev)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 692 |
+| 📅 Age | 2 days |
+| 🚀 Daily Growth | 436.0 stars/day (measured) |
+| 🔤 Language | Python |
+| 📡 Source | search |
+
+> tiny Jev-like model built on top of Qwen2.5-0.5B you can train and run on your MacBook
+
+**Score: 91/100** `██████████████████░░`
+- Standing: top ?% of ? candidates today
+- Acceleration: 31/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 8. [githubnext/localjev](https://github.com/githubnext/localjev)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 530 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 530.0 stars/day (lifetime avg) |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
+
+> 
+
+**Score: 91/100** `██████████████████░░`
+- Standing: top ?% of ? candidates today
+- Acceleration: 36/40
+- Quality: 25/30
+- Anti-spam: 30/30
+
+---
+### 9. [coldteadotai/abide](https://github.com/coldteadotai/abide)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 173 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 173.0 stars/day (lifetime avg) |
+| 🔤 Language | TypeScript |
+| 📡 Source | search |
+
+> Make your coding agent abide by all your project rules 
+
+**Score: 91/100** `██████████████████░░`
+- Standing: top ?% of ? candidates today
+- Acceleration: 31/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+---
+### 10. [sutro-sh/jev-align](https://github.com/sutro-sh/jev-align)
+
+| Metric | Value |
+|--------|-------|
+| ⭐ Stars | 183 |
+| 📅 Age | 1 days |
+| 🚀 Daily Growth | 183.0 stars/day (lifetime avg) |
+| 🔤 Language | Python |
+| 📡 Source | hn |
+
+> Build calibrated AI classifiers from human feedback using Jev and GEPA.
+
+**Score: 91/100** `██████████████████░░`
+- Standing: top ?% of ? candidates today
+- Acceleration: 31/40
+- Quality: 30/30
+- Anti-spam: 30/30
+
+- 🔶 HN: [Show HN: Jev-align, a CLI to calibrate Jev to your judgement](https://news.ycombinator.com) (score: 3)
+
+---
+
+## 📊 Summary
+
+- **New discoveries:** 10 repos
+- **Repeat performers:** 0 repos
+- **Score range:** 91 - 98
+- **Top pick:** [asciimoo/hister](https://github.com/asciimoo/hister)
+
+---
+*Generated by GitHub Discovery Tool*

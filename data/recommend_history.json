@@ -56,15 +56,6 @@
       ],
       "last_recommended": "2026-09-16T09:32:40.860186+00:00"
     },
-    "RyanCodrai/turbovec": {
-      "count": 3,
-      "scores": [
-        100,
-        100,
-        83
-      ],
-      "last_recommended": "2026-08-21T05:16:33.277511+00:00"
-    },
     "AlexsJones/llmfit": {
       "count": 3,
       "scores": [
@@ -196,20 +187,6 @@
       ],
       "last_recommended": "2026-08-26T05:16:54.013692+00:00"
     },
-    "CopilotKit/OpenBot": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-08-21T05:16:33.256039+00:00"
-    },
-    "missuo/herdrm": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-08-21T05:16:33.258878+00:00"
-    },
     "JuliusBrussee/caveman": {
       "count": 2,
       "scores": [
@@ -217,55 +194,6 @@
         86
       ],
       "last_recommended": "2026-09-03T09:12:32.926229+00:00"
-    },
-    "xdreizein666/getcontact-cli": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-08-21T05:16:33.263184+00:00"
-    },
-    "franselstadt/ELVET": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-08-21T05:16:33.265266+00:00"
-    },
-    "jaredrhod/barehands": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-08-21T05:16:33.267336+00:00"
-    },
-    "jaime0815/WeChatWatcher": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-08-21T05:16:33.269386+00:00"
-    },
-    "iAmCorey/Wake": {
-      "count": 1,
-      "scores": [
-        85
-      ],
-      "last_recommended": "2026-08-21T05:16:33.271420+00:00"
-    },
-    "LegoX/Lego-RL": {
-      "count": 1,
-      "scores": [
-        85
-      ],
-      "last_recommended": "2026-08-21T05:16:33.273449+00:00"
-    },
-    "AprilNEA/OpenLogi": {
-      "count": 1,
-      "scores": [
-        84
-      ],
-      "last_recommended": "2026-08-21T05:16:33.275471+00:00"
     },
     "mahlernim/google-timeline-visualizer": {
       "count": 1,
@@ -2308,7 +2236,77 @@
         93
       ],
       "last_recommended": "2026-09-19T09:00:11.213558+00:00"
+    },
+    "asciimoo/hister": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-09-20T09:28:43.393254+00:00"
+    },
+    "mizorewww/laya-mlx": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-20T09:28:43.395494+00:00"
+    },
+    "incoai/splash": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-20T09:28:43.397542+00:00"
+    },
+    "newliver666/apk-reverse": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-09-20T09:28:43.399518+00:00"
+    },
+    "jackwener/wx-cli-again": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-09-20T09:28:43.401593+00:00"
+    },
+    "HyNetworks/OpenGFW": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-20T09:28:43.403687+00:00"
+    },
+    "jaredpalmer/kev": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-20T09:28:43.405731+00:00"
+    },
+    "githubnext/localjev": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-20T09:28:43.407773+00:00"
+    },
+    "coldteadotai/abide": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-20T09:28:43.409803+00:00"
+    },
+    "sutro-sh/jev-align": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-20T09:28:43.411853+00:00"
     }
   },
-  "updated_at": "2026-09-19T09:00:11.213583+00:00"
+  "updated_at": "2026-09-20T09:28:43.411882+00:00"
 }

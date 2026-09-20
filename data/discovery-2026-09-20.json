@@ -1,0 +1,286 @@
+{
+ "date": "2026-09-20",
+ "generated_at": "2026-09-20T09:28:43.637949",
+ "pool_size": 85,
+ "new": [
+  {
+   "full_name": "asciimoo/hister",
+   "url": "https://github.com/asciimoo/hister",
+   "description": "Your own search engine",
+   "language": "Go",
+   "stars": 5353,
+   "forks": 226,
+   "age_days": 258,
+   "daily_stars": 20.748062015503876,
+   "real_daily_stars": 299.0,
+   "watchers": 21,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 98,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "mizorewww/laya-mlx",
+   "url": "https://github.com/mizorewww/laya-mlx",
+   "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
+   "language": "Python",
+   "stars": 424,
+   "forks": 20,
+   "age_days": 1,
+   "daily_stars": 424.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "incoai/splash",
+   "url": "https://github.com/incoai/splash",
+   "description": "A local inference engine for Apple silicon, built around the model.",
+   "language": "Python",
+   "stars": 372,
+   "forks": 25,
+   "age_days": 1,
+   "daily_stars": 372.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "newliver666/apk-reverse",
+   "url": "https://github.com/newliver666/apk-reverse",
+   "description": "Suitable for Android APK reverse engineering analysis",
+   "language": "Python",
+   "stars": 358,
+   "forks": 149,
+   "age_days": 1,
+   "daily_stars": 358.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "jackwener/wx-cli-again",
+   "url": "https://github.com/jackwener/wx-cli-again",
+   "description": "WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli",
+   "language": "Rust",
+   "stars": 686,
+   "forks": 1647,
+   "age_days": 6,
+   "daily_stars": 114.33333333333333,
+   "real_daily_stars": 262.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "HyNetworks/OpenGFW",
+   "url": "https://github.com/HyNetworks/OpenGFW",
+   "description": "",
+   "language": "Go",
+   "stars": 213,
+   "forks": 84,
+   "age_days": 1,
+   "daily_stars": 213.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "MPL-2.0",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "jaredpalmer/kev",
+   "url": "https://github.com/jaredpalmer/kev",
+   "description": "tiny Jev-like model built on top of Qwen2.5-0.5B you can train and run on your MacBook",
+   "language": "Python",
+   "stars": 692,
+   "forks": 40,
+   "age_days": 2,
+   "daily_stars": 346.0,
+   "real_daily_stars": 436.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "githubnext/localjev",
+   "url": "https://github.com/githubnext/localjev",
+   "description": "",
+   "language": "TypeScript",
+   "stars": 530,
+   "forks": 30,
+   "age_days": 1,
+   "daily_stars": 530.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 91,
+    "acceleration": 36,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "coldteadotai/abide",
+   "url": "https://github.com/coldteadotai/abide",
+   "description": "Make your coding agent abide by all your project rules ",
+   "language": "TypeScript",
+   "stars": 173,
+   "forks": 9,
+   "age_days": 1,
+   "daily_stars": 173.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "sutro-sh/jev-align",
+   "url": "https://github.com/sutro-sh/jev-align",
+   "description": "Build calibrated AI classifiers from human feedback using Jev and GEPA.",
+   "language": "Python",
+   "stars": 183,
+   "forks": 15,
+   "age_days": 1,
+   "daily_stars": 183.0,
+   "watchers": 0,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "Apache-2.0",
+   "hn_title": "Show HN: Jev-align, a CLI to calibrate Jev to your judgement",
+   "hn_score": 3,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": []
+}

@@ -1,0 +1,81 @@
+{
+ "date": "2026-09-20",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "anthropics/claude-code",
+   "stars": 146859,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "ruanyf/weekly",
+   "stars": 103548,
+   "language": ""
+  },
+  {
+   "full_name": "addyosmani/agent-skills",
+   "stars": 97331,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "docling-project/docling",
+   "stars": 67318,
+   "language": "Python"
+  },
+  {
+   "full_name": "ZuodaoTech/everyone-can-use-english",
+   "stars": 38066,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "anthropics/knowledge-work-plugins",
+   "stars": 25222,
+   "language": "Python"
+  },
+  {
+   "full_name": "trycua/cua",
+   "stars": 24797,
+   "language": "HTML"
+  },
+  {
+   "full_name": "cloudflare/security-audit-skill",
+   "stars": 17200,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "Open-Dev-Society/OpenStock",
+   "stars": 16379,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "coder/coder",
+   "stars": 15770,
+   "language": "Go"
+  },
+  {
+   "full_name": "cloudflare/quiche",
+   "stars": 12115,
+   "language": "Rust"
+  },
+  {
+   "full_name": "cactus-compute/needle",
+   "stars": 11774,
+   "language": "Python"
+  },
+  {
+   "full_name": "asciimoo/hister",
+   "stars": 5353,
+   "language": "Go"
+  },
+  {
+   "full_name": "higgsfield-ai/higgsfield",
+   "stars": 5095,
+   "language": "Jupyter Notebook"
+  },
+  {
+   "full_name": "yynxxxxx/Codex-X",
+   "stars": 3518,
+   "language": "Rust"
+  }
+ ]
+}
