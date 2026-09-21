@@ -195,76 +195,6 @@
       ],
       "last_recommended": "2026-09-03T09:12:32.926229+00:00"
     },
-    "mahlernim/google-timeline-visualizer": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-22T05:05:22.378477+00:00"
-    },
-    "modular/modular": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-22T05:05:22.380730+00:00"
-    },
-    "PostHog/posthog": {
-      "count": 1,
-      "scores": [
-        97
-      ],
-      "last_recommended": "2026-08-22T05:05:22.382767+00:00"
-    },
-    "MengTo/threeui": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-08-22T05:05:22.384818+00:00"
-    },
-    "ant-research/4DAnyone": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-08-22T05:05:22.386836+00:00"
-    },
-    "cclank/lanshu-create-ai-presenter-video": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-08-22T05:05:22.388952+00:00"
-    },
-    "OpenLabs-so/oa-design": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-08-22T05:05:22.390990+00:00"
-    },
-    "Spielewoy/autoprompt-skill": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-08-22T05:05:22.393032+00:00"
-    },
-    "amagine-ai/Amagine3D": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-08-22T05:05:22.395068+00:00"
-    },
-    "ZSeven-W/dsh-ios": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-08-22T05:05:22.397148+00:00"
-    },
     "makeplane/plane": {
       "count": 1,
       "scores": [
@@ -1285,11 +1215,12 @@
       "last_recommended": "2026-09-06T08:56:39.058887+00:00"
     },
     "gioblu/NPC-Forge": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        91
+        91,
+        60
       ],
-      "last_recommended": "2026-09-06T08:56:39.060905+00:00"
+      "last_recommended": "2026-09-21T10:13:58.741291+00:00"
     },
     "byJoey/warp-masque-actions": {
       "count": 1,
@@ -2306,7 +2237,77 @@
         91
       ],
       "last_recommended": "2026-09-20T09:28:43.411853+00:00"
+    },
+    "trycua/cua": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-21T10:13:58.721018+00:00"
+    },
+    "higgsfield-ai/higgsfield": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-21T10:13:58.723182+00:00"
+    },
+    "Open-Dev-Society/OpenStock": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-21T10:13:58.725159+00:00"
+    },
+    "mizorewww/laya-coreml": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-21T10:13:58.727142+00:00"
+    },
+    "caxete/crypto-tax-calculator": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-21T10:13:58.729111+00:00"
+    },
+    "NVlabs/SoL-Pi": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-21T10:13:58.731167+00:00"
+    },
+    "tamaratran/fast-jev-compaction": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-21T10:13:58.733189+00:00"
+    },
+    "Mak5er/AirCard": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-21T10:13:58.735244+00:00"
+    },
+    "unicodef1wn/grokbot-field-notes": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-21T10:13:58.737243+00:00"
+    },
+    "featherless-ai/simple-jev": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-21T10:13:58.739256+00:00"
     }
   },
-  "updated_at": "2026-09-20T09:28:43.411882+00:00"
+  "updated_at": "2026-09-21T10:13:58.741316+00:00"
 }

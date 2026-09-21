@@ -1,0 +1,71 @@
+{
+ "date": "2026-09-21",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "affaan-m/ECC",
+   "stars": 264254,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "anthropics/claude-code",
+   "stars": 147364,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "addyosmani/agent-skills",
+   "stars": 97948,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "paperless-ngx/paperless-ngx",
+   "stars": 45764,
+   "language": "Python"
+  },
+  {
+   "full_name": "anthropics/financial-services",
+   "stars": 35587,
+   "language": "Python"
+  },
+  {
+   "full_name": "trycua/cua",
+   "stars": 25423,
+   "language": "HTML"
+  },
+  {
+   "full_name": "cloudflare/security-audit-skill",
+   "stars": 18513,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "vercel-labs/json-render",
+   "stars": 17737,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "Open-Dev-Society/OpenStock",
+   "stars": 17195,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "coder/coder",
+   "stars": 16245,
+   "language": "Go"
+  },
+  {
+   "full_name": "higgsfield-ai/higgsfield",
+   "stars": 5549,
+   "language": "Jupyter Notebook"
+  },
+  {
+   "full_name": "BuilderIO/agent-native",
+   "stars": 5534,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "mihail911/modern-software-dev-assignments",
+   "stars": 4692,
+   "language": "Python"
+  }
+ ]
+}
