@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-20T18:00:00Z</updated>
+  <updated>2026-09-21T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>trycua/cua — Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.</title>
+    <id>https://github.com/trycua/cua#2026-09-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/trycua/cua"/>
+    <updated>2026-09-21T18:00:00Z</updated>
+    <published>2026-09-21T18:00:00Z</published>
+    <summary>Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.
+
+Why: +626/day · Trending+HN · 14.7x accelerating
+Score: 100/100 | Language: HTML | ⭐ 25423 (+626.0/day) | Source: trending + hn</summary>
+  </entry>
+  <entry>
+    <title>higgsfield-ai/higgsfield — Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters</title>
+    <id>https://github.com/higgsfield-ai/higgsfield#2026-09-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/higgsfield-ai/higgsfield"/>
+    <updated>2026-09-21T18:00:00Z</updated>
+    <published>2026-09-21T18:00:00Z</published>
+    <summary>Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters
+
+Why: +454/day · Trending · 248.6x accelerating
+Score: 100/100 | Language: Jupyter Notebook | ⭐ 5549 (+454.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Open-Dev-Society/OpenStock — OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.</title>
+    <id>https://github.com/Open-Dev-Society/OpenStock#2026-09-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Open-Dev-Society/OpenStock"/>
+    <updated>2026-09-21T18:00:00Z</updated>
+    <published>2026-09-21T18:00:00Z</published>
+    <summary>OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.
+
+Why: +816/day · Trending · 16.9x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 17195 (+816.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>mizorewww/laya-coreml — Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.</title>
+    <id>https://github.com/mizorewww/laya-coreml#2026-09-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mizorewww/laya-coreml"/>
+    <updated>2026-09-21T18:00:00Z</updated>
+    <published>2026-09-21T18:00:00Z</published>
+    <summary>Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.
+
+Why: +565/day · Search
+Score: 96/100 | Language: Python | ⭐ 565 (+565.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>caxete/crypto-tax-calculator — A comprehensive crypto tax solution supporting leading wallets, exchanges, and blockchain explorers.</title>
+    <id>https://github.com/caxete/crypto-tax-calculator#2026-09-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/caxete/crypto-tax-calculator"/>
+    <updated>2026-09-21T18:00:00Z</updated>
+    <published>2026-09-21T18:00:00Z</published>
+    <summary>A comprehensive crypto tax solution supporting leading wallets, exchanges, and blockchain explorers.
+
+Why: +173/day · Rising
+Score: 91/100 | Language: Python | ⭐ 173 (+173.0/day) | Source: rising</summary>
+  </entry>
+  <entry>
+    <title>gioblu/NPC-Forge — NPC-Forge is a framework for building conversational agents that run on the CPU without relying on machine learning or LLMs.</title>
+    <id>https://github.com/gioblu/NPC-Forge#2026-09-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/gioblu/NPC-Forge"/>
+    <updated>2026-09-21T18:00:00Z</updated>
+    <published>2026-09-21T18:00:00Z</published>
+    <summary>NPC-Forge is a framework for building conversational agents that run on the CPU without relying on machine learning or LLMs.
+
+Why: +5.0/day · HN
+Score: 60/100 | Language: Python | ⭐ 243 (+5.0/day) | Source: hn</summary>
+  </entry>
   <entry>
     <title>asciimoo/hister — Your own search engine</title>
     <id>https://github.com/asciimoo/hister#2026-09-20</id>
@@ -921,60 +987,5 @@ Score: 93/100 | Language: Python | ⭐ 190 (+126.0/day) | Source: hn</summary>
 
 Why: +234/day · Search
 Score: 92/100 | Language: Go | ⭐ 468 (+234.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>BraveOPotato/FckSignups — A list of tools that are open-source, in-browser, and require no-signups!</title>
-    <id>https://github.com/BraveOPotato/FckSignups#2026-09-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/BraveOPotato/FckSignups"/>
-    <updated>2026-09-07T18:00:00Z</updated>
-    <published>2026-09-07T18:00:00Z</published>
-    <summary>A list of tools that are open-source, in-browser, and require no-signups!
-
-Why: +508/day · Trending · 17.6x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 3531 (+508.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>ruvnet/ruflo — 🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated</title>
-    <id>https://github.com/ruvnet/ruflo#2026-09-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ruvnet/ruflo"/>
-    <updated>2026-09-07T18:00:00Z</updated>
-    <published>2026-09-07T18:00:00Z</published>
-    <summary>🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated
-
-Why: +382/day · Trending · 2.5x accelerating
-Score: 96/100 | Language: TypeScript | ⭐ 71166 (+382.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>vinzdg/codenotch — A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.</title>
-    <id>https://github.com/vinzdg/codenotch#2026-09-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/vinzdg/codenotch"/>
-    <updated>2026-09-07T18:00:00Z</updated>
-    <published>2026-09-07T18:00:00Z</published>
-    <summary>A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.
-
-Why: +783/day · Search
-Score: 96/100 | Language: Swift | ⭐ 783 (+783.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>EverettFish/holo-card-studio — Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user's output project.</title>
-    <id>https://github.com/EverettFish/holo-card-studio#2026-09-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/EverettFish/holo-card-studio"/>
-    <updated>2026-09-07T18:00:00Z</updated>
-    <published>2026-09-07T18:00:00Z</published>
-    <summary>Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user's output project.
-
-Why: +507/day · Search
-Score: 96/100 | Language: Python | ⭐ 507 (+507.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>humanlayer/skills — No description</title>
-    <id>https://github.com/humanlayer/skills#2026-09-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/humanlayer/skills"/>
-    <updated>2026-09-07T18:00:00Z</updated>
-    <published>2026-09-07T18:00:00Z</published>
-    <summary>No description
-
-Why: +480/day · Trending · 24.9x accelerating
-Score: 95/100 | Language: TypeScript | ⭐ 3340 (+480.0/day) | Source: trending</summary>
   </entry>
 </feed>
