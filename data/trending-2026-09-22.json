@@ -3,64 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "ruanyf/weekly",
-   "stars": 104362,
-   "language": ""
-  },
-  {
-   "full_name": "Crosstalk-Solutions/project-nomad",
-   "stars": 38061,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "anthropics/financial-services",
-   "stars": 35993,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "trycua/cua",
-   "stars": 25876,
-   "language": "HTML"
-  },
-  {
-   "full_name": "Open-Dev-Society/OpenStock",
-   "stars": 18148,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "coder/coder",
-   "stars": 16555,
-   "language": "Go"
-  },
-  {
-   "full_name": "mvt-project/mvt",
-   "stars": 13752,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "cloudflare/quiche",
-   "stars": 12457,
-   "language": "Rust"
-  },
-  {
-   "full_name": "zhouxiaoka/autoclip",
-   "stars": 8589,
-   "language": "Python"
-  },
-  {
-   "full_name": "akitaonrails/ai-memory",
-   "stars": 7938,
-   "language": "Rust"
-  },
-  {
-   "full_name": "BuilderIO/agent-native",
-   "stars": 6230,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "yynxxxxx/Codex-X",
-   "stars": 3824,
-   "language": "Rust"
   }
  ]
 }
