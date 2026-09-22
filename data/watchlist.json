@@ -1,85 +1,5 @@
 {
  "repos": {
-  "BraveOPotato/FckSignups": {
-   "first_seen": "2026-09-07",
-   "until": "2026-09-21",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "ruvnet/ruflo": {
-   "first_seen": "2026-09-07",
-   "until": "2026-09-21",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "vinzdg/codenotch": {
-   "first_seen": "2026-09-07",
-   "until": "2026-09-21",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "EverettFish/holo-card-studio": {
-   "first_seen": "2026-09-07",
-   "until": "2026-09-21",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "humanlayer/skills": {
-   "first_seen": "2026-09-07",
-   "until": "2026-09-21",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "biusberline/cloudflare-turnstile-solver": {
-   "first_seen": "2026-09-07",
-   "until": "2026-09-21",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "donvito/codex-astra-luna-orchestrator": {
-   "first_seen": "2026-09-07",
-   "until": "2026-09-21",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "BoardUI/boardui": {
-   "first_seen": "2026-09-07",
-   "until": "2026-09-21",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "wz1119/Codex-Minecraft-Gameplay": {
-   "first_seen": "2026-09-07",
-   "until": "2026-09-21",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "marsbos/mador": {
-   "first_seen": "2026-09-07",
-   "until": "2026-09-21",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
   "The-Swarm-Corporation/AutoHedge": {
    "first_seen": "2026-09-08",
    "until": "2026-09-22",
@@ -1168,7 +1088,77 @@
    "stars_at_discovery": 429,
    "score_at_discovery": 90,
    "source_at_discovery": "search"
+  },
+  "BuilderIO/agent-native": {
+   "first_seen": "2026-09-22",
+   "until": "2026-10-06",
+   "stars_at_discovery": 6230,
+   "score_at_discovery": 96,
+   "source_at_discovery": "trending"
+  },
+  "anthropics/financial-services": {
+   "first_seen": "2026-09-22",
+   "until": "2026-10-06",
+   "stars_at_discovery": 35993,
+   "score_at_discovery": 96,
+   "source_at_discovery": "trending"
+  },
+  "cloudflare/quiche": {
+   "first_seen": "2026-09-22",
+   "until": "2026-10-06",
+   "stars_at_discovery": 12457,
+   "score_at_discovery": 95,
+   "source_at_discovery": "trending"
+  },
+  "yynxxxxx/Codex-X": {
+   "first_seen": "2026-09-22",
+   "until": "2026-10-06",
+   "stars_at_discovery": 3824,
+   "score_at_discovery": 94,
+   "source_at_discovery": "trending"
+  },
+  "volotat/mini-AGI": {
+   "first_seen": "2026-09-22",
+   "until": "2026-10-06",
+   "stars_at_discovery": 406,
+   "score_at_discovery": 94,
+   "source_at_discovery": "hn"
+  },
+  "receptron/laya": {
+   "first_seen": "2026-09-22",
+   "until": "2026-10-06",
+   "stars_at_discovery": 228,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "Futureppo/typesafe_register": {
+   "first_seen": "2026-09-22",
+   "until": "2026-10-06",
+   "stars_at_discovery": 105,
+   "score_at_discovery": 89,
+   "source_at_discovery": "rising"
+  },
+  "hydra-db/open-glean": {
+   "first_seen": "2026-09-22",
+   "until": "2026-10-06",
+   "stars_at_discovery": 709,
+   "score_at_discovery": 88,
+   "source_at_discovery": "search"
+  },
+  "heyjunpenn/awesome-jev": {
+   "first_seen": "2026-09-22",
+   "until": "2026-10-06",
+   "stars_at_discovery": 314,
+   "score_at_discovery": 88,
+   "source_at_discovery": "search"
+  },
+  "pbs05/uboot-an758x": {
+   "first_seen": "2026-09-22",
+   "until": "2026-10-06",
+   "stars_at_discovery": 87,
+   "score_at_discovery": 88,
+   "source_at_discovery": "rising"
   }
  },
- "updated_at": "2026-09-21T10:16:56.181709+00:00"
+ "updated_at": "2026-09-22T09:32:40.989467+00:00"
 }

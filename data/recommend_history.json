@@ -163,14 +163,6 @@
       ],
       "last_recommended": "2026-09-12T08:51:47.499015+00:00"
     },
-    "cursor/plugins": {
-      "count": 2,
-      "scores": [
-        100,
-        92
-      ],
-      "last_recommended": "2026-08-23T05:07:29.969819+00:00"
-    },
     "OpenCut-app/OpenCut": {
       "count": 2,
       "scores": [
@@ -195,62 +187,6 @@
       ],
       "last_recommended": "2026-09-03T09:12:32.926229+00:00"
     },
-    "makeplane/plane": {
-      "count": 1,
-      "scores": [
-        98
-      ],
-      "last_recommended": "2026-08-23T05:07:29.949149+00:00"
-    },
-    "Tencent/AI-Infra-Guard": {
-      "count": 1,
-      "scores": [
-        97
-      ],
-      "last_recommended": "2026-08-23T05:07:29.951399+00:00"
-    },
-    "microsoft/TypeScript": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-08-23T05:07:29.953465+00:00"
-    },
-    "LB623/no-negative-echo": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-08-23T05:07:29.955494+00:00"
-    },
-    "proliferate-ai/proliferate": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-08-23T05:07:29.957542+00:00"
-    },
-    "google-research/envharness": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-08-23T05:07:29.959656+00:00"
-    },
-    "MeteorNOX/DeepSeek-Balance-Whale-Widget": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-08-23T05:07:29.961682+00:00"
-    },
-    "MiaAI-Lab/DeepSeek-v4-Flash-One-DGX-Spark": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-08-23T05:07:29.963710+00:00"
-    },
     "anthropics/claude-code": {
       "count": 2,
       "scores": [
@@ -258,13 +194,6 @@
         68
       ],
       "last_recommended": "2026-09-17T09:41:05.680492+00:00"
-    },
-    "openai/codex": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-08-23T05:07:29.967781+00:00"
     },
     "duty1g/x64dbg-mcp-server": {
       "count": 1,
@@ -2307,7 +2236,77 @@
         90
       ],
       "last_recommended": "2026-09-21T10:13:58.739256+00:00"
+    },
+    "BuilderIO/agent-native": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-22T09:29:58.267938+00:00"
+    },
+    "anthropics/financial-services": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-22T09:29:58.270171+00:00"
+    },
+    "cloudflare/quiche": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-22T09:29:58.272232+00:00"
+    },
+    "yynxxxxx/Codex-X": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-09-22T09:29:58.274222+00:00"
+    },
+    "volotat/mini-AGI": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-09-22T09:29:58.276293+00:00"
+    },
+    "receptron/laya": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-22T09:29:58.278369+00:00"
+    },
+    "Futureppo/typesafe_register": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-22T09:29:58.280420+00:00"
+    },
+    "hydra-db/open-glean": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-09-22T09:29:58.282460+00:00"
+    },
+    "heyjunpenn/awesome-jev": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-09-22T09:29:58.284482+00:00"
+    },
+    "pbs05/uboot-an758x": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-09-22T09:29:58.286574+00:00"
     }
   },
-  "updated_at": "2026-09-21T10:13:58.741316+00:00"
+  "updated_at": "2026-09-22T09:29:58.286604+00:00"
 }

@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-21T18:00:00Z</updated>
+  <updated>2026-09-22T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>BuilderIO/agent-native — A framework for building agentic apps</title>
+    <id>https://github.com/BuilderIO/agent-native#2026-09-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/BuilderIO/agent-native"/>
+    <updated>2026-09-22T18:00:00Z</updated>
+    <published>2026-09-22T18:00:00Z</published>
+    <summary>A framework for building agentic apps
+
+Why: +696/day · Trending · 21.6x accelerating
+Score: 96/100 | Language: TypeScript | ⭐ 6230 (+696.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>anthropics/financial-services — No description</title>
+    <id>https://github.com/anthropics/financial-services#2026-09-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/anthropics/financial-services"/>
+    <updated>2026-09-22T18:00:00Z</updated>
+    <published>2026-09-22T18:00:00Z</published>
+    <summary>No description
+
+Why: +406/day · Trending · 2.4x accelerating
+Score: 96/100 | Language: Python | ⭐ 35993 (+406.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>cloudflare/quiche — 🥧 Savoury implementation of the QUIC transport protocol and HTTP/3</title>
+    <id>https://github.com/cloudflare/quiche#2026-09-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/cloudflare/quiche"/>
+    <updated>2026-09-22T18:00:00Z</updated>
+    <published>2026-09-22T18:00:00Z</published>
+    <summary>🥧 Savoury implementation of the QUIC transport protocol and HTTP/3
+
+Why: +171/day · Trending · 40.0x accelerating
+Score: 95/100 | Language: Rust | ⭐ 12457 (+171.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>yynxxxxx/Codex-X — OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。</title>
+    <id>https://github.com/yynxxxxx/Codex-X#2026-09-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/yynxxxxx/Codex-X"/>
+    <updated>2026-09-22T18:00:00Z</updated>
+    <published>2026-09-22T18:00:00Z</published>
+    <summary>OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。
+
+Why: +153/day · Trending · 3.2x accelerating
+Score: 94/100 | Language: Rust | ⭐ 3824 (+153.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>volotat/mini-AGI — Continual learning model trained from scratch on 8GB VRAM laptop with batch-1 stream of data.</title>
+    <id>https://github.com/volotat/mini-AGI#2026-09-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/volotat/mini-AGI"/>
+    <updated>2026-09-22T18:00:00Z</updated>
+    <published>2026-09-22T18:00:00Z</published>
+    <summary>Continual learning model trained from scratch on 8GB VRAM laptop with batch-1 stream of data.
+
+Why: +309/day · HN · 2.3x accelerating
+Score: 94/100 | Language: Python | ⭐ 406 (+309.0/day) | Source: hn</summary>
+  </entry>
   <entry>
     <title>trycua/cua — Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.</title>
     <id>https://github.com/trycua/cua#2026-09-21</id>
@@ -932,60 +987,5 @@ Score: 95/100 | Language: Python | ⭐ 367 (+367.0/day) | Source: search</summar
 
 Why: +1350/day · Trending
 Score: 91/100 | Language: JavaScript | ⭐ 254369 (+1350.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>The-Swarm-Corporation/AutoHedge — Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.</title>
-    <id>https://github.com/The-Swarm-Corporation/AutoHedge#2026-09-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/The-Swarm-Corporation/AutoHedge"/>
-    <updated>2026-09-08T18:00:00Z</updated>
-    <published>2026-09-08T18:00:00Z</published>
-    <summary>Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.
-
-Why: +391/day · Trending · 46.6x accelerating
-Score: 99/100 | Language: Python | ⭐ 5332 (+391.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>coreyhaines31/marketingskills — Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.</title>
-    <id>https://github.com/coreyhaines31/marketingskills#2026-09-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/coreyhaines31/marketingskills"/>
-    <updated>2026-09-08T18:00:00Z</updated>
-    <published>2026-09-08T18:00:00Z</published>
-    <summary>Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.
-
-Why: +484/day · Trending · 2.4x accelerating
-Score: 97/100 | Language: JavaScript | ⭐ 48246 (+484.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>openai/skills — Skills Catalog for Codex</title>
-    <id>https://github.com/openai/skills#2026-09-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/openai/skills"/>
-    <updated>2026-09-08T18:00:00Z</updated>
-    <published>2026-09-08T18:00:00Z</published>
-    <summary>Skills Catalog for Codex
-
-Why: +349/day · Trending · 3.8x accelerating
-Score: 93/100 | Language: Python | ⭐ 26115 (+349.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>timgordontg/engrim — The Universal Cross-Model Episodic Memory Standard. Local-first, project-scoped SQLite memory engine for Google Antigravity, Claude Code, Cursor, Windsurf, and Codex. Zero cloud lock-in.</title>
-    <id>https://github.com/timgordontg/engrim#2026-09-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/timgordontg/engrim"/>
-    <updated>2026-09-08T18:00:00Z</updated>
-    <published>2026-09-08T18:00:00Z</published>
-    <summary>The Universal Cross-Model Episodic Memory Standard. Local-first, project-scoped SQLite memory engine for Google Antigravity, Claude Code, Cursor, Windsurf, and Codex. Zero cloud lock-in.
-
-Why: +126/day · HN · 53.1x accelerating
-Score: 93/100 | Language: Python | ⭐ 190 (+126.0/day) | Source: hn</summary>
-  </entry>
-  <entry>
-    <title>okf-memory/okf-agent-memory — Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.</title>
-    <id>https://github.com/okf-memory/okf-agent-memory#2026-09-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/okf-memory/okf-agent-memory"/>
-    <updated>2026-09-08T18:00:00Z</updated>
-    <published>2026-09-08T18:00:00Z</published>
-    <summary>Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.
-
-Why: +234/day · Search
-Score: 92/100 | Language: Go | ⭐ 468 (+234.0/day) | Source: search</summary>
   </entry>
 </feed>
