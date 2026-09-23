@@ -675,6 +675,15 @@
     "commits_7d": 1,
     "contributors_7d": 1,
     "pushed_at": "2026-09-19T20:42:05Z"
+   },
+   {
+    "date": "2026-09-23",
+    "stars": 782,
+    "forks": 117,
+    "open_issues": 1,
+    "commits_7d": 2,
+    "contributors_7d": 0,
+    "pushed_at": "2026-09-22T16:24:16Z"
    }
   ],
   "DefiLeoo/YOINK": [
@@ -11083,7 +11092,7 @@
    },
    {
     "date": "2026-09-23",
-    "stars": 942,
+    "stars": 944,
     "forks": 53,
     "open_issues": 1,
     "commits_7d": 100,
@@ -13994,7 +14003,18 @@
     "contributors_7d": 2,
     "pushed_at": "2026-09-23T09:00:57Z"
    }
+  ],
+  "TheoLeeCJ/SemIf-OpenJev": [
+   {
+    "date": "2026-09-23",
+    "stars": 4021,
+    "forks": 266,
+    "open_issues": 24,
+    "commits_7d": 23,
+    "contributors_7d": 5,
+    "pushed_at": "2026-09-21T20:07:30Z"
+   }
   ]
  },
- "updated_at": "2026-09-23T09:36:28.729579+00:00"
+ "updated_at": "2026-09-23T13:51:11.283619+00:00"
 }
