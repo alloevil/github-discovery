@@ -1,85 +1,5 @@
 {
  "repos": {
-  "The-Swarm-Corporation/AutoHedge": {
-   "first_seen": "2026-09-08",
-   "until": "2026-09-22",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "coreyhaines31/marketingskills": {
-   "first_seen": "2026-09-08",
-   "until": "2026-09-22",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "openai/skills": {
-   "first_seen": "2026-09-08",
-   "until": "2026-09-22",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "timgordontg/engrim": {
-   "first_seen": "2026-09-08",
-   "until": "2026-09-22",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "okf-memory/okf-agent-memory": {
-   "first_seen": "2026-09-08",
-   "until": "2026-09-22",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Jarvis322/macos-sysdata": {
-   "first_seen": "2026-09-08",
-   "until": "2026-09-22",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "heygen-com/hyperframes": {
-   "first_seen": "2026-09-08",
-   "until": "2026-09-22",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "microsoft/markitdown": {
-   "first_seen": "2026-09-08",
-   "until": "2026-09-22",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Sadpainy/Stuxnet": {
-   "first_seen": "2026-09-08",
-   "until": "2026-09-22",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Mantitup-Org/vista": {
-   "first_seen": "2026-09-08",
-   "until": "2026-09-22",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
   "jo-inc/camofox-browser": {
    "first_seen": "2026-09-09",
    "until": "2026-09-23",
@@ -1158,7 +1078,77 @@
    "stars_at_discovery": 87,
    "score_at_discovery": 88,
    "source_at_discovery": "rising"
+  },
+  "mvt-project/mvt": {
+   "first_seen": "2026-09-23",
+   "until": "2026-10-07",
+   "stars_at_discovery": 14287,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "freestylefly/WeChatBridge": {
+   "first_seen": "2026-09-23",
+   "until": "2026-10-07",
+   "stars_at_discovery": 457,
+   "score_at_discovery": 92,
+   "source_at_discovery": "rising"
+  },
+  "anishfn/shapeshift": {
+   "first_seen": "2026-09-23",
+   "until": "2026-10-07",
+   "stars_at_discovery": 162,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "wuyoscar/jev-skill": {
+   "first_seen": "2026-09-23",
+   "until": "2026-10-07",
+   "stars_at_discovery": 455,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "kerpopule/hermes-jev-skills": {
+   "first_seen": "2026-09-23",
+   "until": "2026-10-07",
+   "stars_at_discovery": 657,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "google-research/rrsi": {
+   "first_seen": "2026-09-23",
+   "until": "2026-10-07",
+   "stars_at_discovery": 167,
+   "score_at_discovery": 89,
+   "source_at_discovery": "hf-papers"
+  },
+  "FerryCorleone/crush-monitor": {
+   "first_seen": "2026-09-23",
+   "until": "2026-10-07",
+   "stars_at_discovery": 190,
+   "score_at_discovery": 88,
+   "source_at_discovery": "search"
+  },
+  "wfzyx/von": {
+   "first_seen": "2026-09-23",
+   "until": "2026-10-07",
+   "stars_at_discovery": 525,
+   "score_at_discovery": 87,
+   "source_at_discovery": "search"
+  },
+  "OnlistTeam/ai-manager": {
+   "first_seen": "2026-09-23",
+   "until": "2026-10-07",
+   "stars_at_discovery": 113,
+   "score_at_discovery": 86,
+   "source_at_discovery": "search"
+  },
+  "Yinsongxu/LLM2Jev": {
+   "first_seen": "2026-09-23",
+   "until": "2026-10-07",
+   "stars_at_discovery": 194,
+   "score_at_discovery": 86,
+   "source_at_discovery": "ai-trending"
   }
  },
- "updated_at": "2026-09-22T09:32:40.989467+00:00"
+ "updated_at": "2026-09-23T09:36:28.741029+00:00"
 }

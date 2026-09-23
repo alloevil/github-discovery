@@ -65,22 +65,6 @@
       ],
       "last_recommended": "2026-09-11T09:10:30.512562+00:00"
     },
-    "virgiliojr94/book-to-skill": {
-      "count": 2,
-      "scores": [
-        100,
-        86
-      ],
-      "last_recommended": "2026-08-24T05:25:39.188933+00:00"
-    },
-    "sii-research/tau-0-vla": {
-      "count": 2,
-      "scores": [
-        90,
-        63
-      ],
-      "last_recommended": "2026-08-24T05:25:39.190570+00:00"
-    },
     "firecrawl/pdf-inspector": {
       "count": 2,
       "scores": [
@@ -104,14 +88,6 @@
         91
       ],
       "last_recommended": "2026-08-25T05:17:47.070242+00:00"
-    },
-    "Comfy-Org/ComfyUI": {
-      "count": 2,
-      "scores": [
-        100,
-        93
-      ],
-      "last_recommended": "2026-08-24T05:25:39.187309+00:00"
     },
     "TauricResearch/TradingAgents": {
       "count": 3,
@@ -194,69 +170,6 @@
         68
       ],
       "last_recommended": "2026-09-17T09:41:05.680492+00:00"
-    },
-    "duty1g/x64dbg-mcp-server": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-08-24T05:25:39.170962+00:00"
-    },
-    "ShadowAqueduct/watermark-remover": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-08-24T05:25:39.172859+00:00"
-    },
-    "nateherkai/scroll-craft": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-08-24T05:25:39.174468+00:00"
-    },
-    "Forsy-AI/biosecurity-agent": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-08-24T05:25:39.176022+00:00"
-    },
-    "ripienaar/free-for-dev": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-08-24T05:25:39.177641+00:00"
-    },
-    "apache/maka": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-08-24T05:25:39.179240+00:00"
-    },
-    "bam-bam-2/solo-skills": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-08-24T05:25:39.180852+00:00"
-    },
-    "kgoedecke/doop": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-08-24T05:25:39.182453+00:00"
-    },
-    "josiah-nelson/eidos": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-08-24T05:25:39.184051+00:00"
     },
     "NousResearch/hermes-agent": {
       "count": 2,
@@ -2306,7 +2219,77 @@
         88
       ],
       "last_recommended": "2026-09-22T09:29:58.286574+00:00"
+    },
+    "mvt-project/mvt": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-23T09:33:46.109346+00:00"
+    },
+    "freestylefly/WeChatBridge": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-23T09:33:46.111522+00:00"
+    },
+    "anishfn/shapeshift": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-23T09:33:46.113486+00:00"
+    },
+    "wuyoscar/jev-skill": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-23T09:33:46.115423+00:00"
+    },
+    "kerpopule/hermes-jev-skills": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-23T09:33:46.117380+00:00"
+    },
+    "google-research/rrsi": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-23T09:33:46.119383+00:00"
+    },
+    "FerryCorleone/crush-monitor": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-09-23T09:33:46.121338+00:00"
+    },
+    "wfzyx/von": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-23T09:33:46.123319+00:00"
+    },
+    "OnlistTeam/ai-manager": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-09-23T09:33:46.125310+00:00"
+    },
+    "Yinsongxu/LLM2Jev": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-09-23T09:33:46.127304+00:00"
     }
   },
-  "updated_at": "2026-09-22T09:29:58.286604+00:00"
+  "updated_at": "2026-09-23T09:33:46.127329+00:00"
 }
