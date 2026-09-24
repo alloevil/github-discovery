@@ -1,85 +1,5 @@
 {
  "repos": {
-  "jo-inc/camofox-browser": {
-   "first_seen": "2026-09-09",
-   "until": "2026-09-23",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "mksglu/context-mode": {
-   "first_seen": "2026-09-09",
-   "until": "2026-09-23",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "MoonTechLab/LunaTV": {
-   "first_seen": "2026-09-09",
-   "until": "2026-09-23",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "openai/NavierStokesAndEuler": {
-   "first_seen": "2026-09-09",
-   "until": "2026-09-23",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "henryzawadzki6542/cloudflare-turnstile-bypass": {
-   "first_seen": "2026-09-09",
-   "until": "2026-09-23",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "gazijarin/itsgiving": {
-   "first_seen": "2026-09-09",
-   "until": "2026-09-23",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Sophomoresty/turnstile-bypass": {
-   "first_seen": "2026-09-09",
-   "until": "2026-09-23",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "noskillish/bankmcp": {
-   "first_seen": "2026-09-09",
-   "until": "2026-09-23",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "LBEILC/RhineLabUI": {
-   "first_seen": "2026-09-09",
-   "until": "2026-09-23",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "ScottStevenson/SuperAstra": {
-   "first_seen": "2026-09-09",
-   "until": "2026-09-23",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
   "ayghri/i-have-adhd": {
    "first_seen": "2026-09-10",
    "until": "2026-09-24",
@@ -1148,7 +1068,84 @@
    "stars_at_discovery": 194,
    "score_at_discovery": 86,
    "source_at_discovery": "ai-trending"
+  },
+  "google/ax": {
+   "first_seen": "2026-09-24",
+   "until": "2026-10-08",
+   "stars_at_discovery": 9580,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "dream-num/univer": {
+   "first_seen": "2026-09-24",
+   "until": "2026-10-08",
+   "stars_at_discovery": 16592,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "agent-substrate/substrate": {
+   "first_seen": "2026-09-24",
+   "until": "2026-10-08",
+   "stars_at_discovery": 3656,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "superdesigndev/treg": {
+   "first_seen": "2026-09-24",
+   "until": "2026-10-08",
+   "stars_at_discovery": 2901,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "browser-use/video-use": {
+   "first_seen": "2026-09-24",
+   "until": "2026-10-08",
+   "stars_at_discovery": 26702,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "davila7/claude-code-templates": {
+   "first_seen": "2026-09-24",
+   "until": "2026-10-08",
+   "stars_at_discovery": 31661,
+   "score_at_discovery": 99,
+   "source_at_discovery": "trending"
+  },
+  "yetone/magpie": {
+   "first_seen": "2026-09-24",
+   "until": "2026-10-08",
+   "stars_at_discovery": 425,
+   "score_at_discovery": 95,
+   "source_at_discovery": "ai-trending"
+  },
+  "driceroland/Search": {
+   "first_seen": "2026-09-24",
+   "until": "2026-10-08",
+   "stars_at_discovery": 921,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "BridgeDruidCompress/TauriKit": {
+   "first_seen": "2026-09-24",
+   "until": "2026-10-08",
+   "stars_at_discovery": 223,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "AutocratGirder/ClashDesk": {
+   "first_seen": "2026-09-24",
+   "until": "2026-10-08",
+   "stars_at_discovery": 223,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "obra/superpowers": {
+   "first_seen": "2026-09-24",
+   "until": "2026-10-08",
+   "stars_at_discovery": 290931,
+   "score_at_discovery": 79,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-09-23T09:36:28.741029+00:00"
+ "updated_at": "2026-09-24T09:36:17.001019+00:00"
 }

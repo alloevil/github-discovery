@@ -1,7 +1,7 @@
 {
   "repos": {
     "obra/superpowers": {
-      "count": 7,
+      "count": 8,
       "scores": [
         100,
         100,
@@ -9,9 +9,10 @@
         100,
         100,
         89,
-        90
+        90,
+        79
       ],
-      "last_recommended": "2026-09-11T09:10:30.510625+00:00"
+      "last_recommended": "2026-09-24T09:33:33.043857+00:00"
     },
     "ChromeDevTools/chrome-devtools-mcp": {
       "count": 3,
@@ -80,14 +81,6 @@
         74
       ],
       "last_recommended": "2026-08-28T16:56:44.807701+00:00"
-    },
-    "PrimeIntellect-ai/prime-agent": {
-      "count": 2,
-      "scores": [
-        100,
-        91
-      ],
-      "last_recommended": "2026-08-25T05:17:47.070242+00:00"
     },
     "TauricResearch/TradingAgents": {
       "count": 3,
@@ -179,13 +172,6 @@
       ],
       "last_recommended": "2026-09-03T09:12:32.922014+00:00"
     },
-    "Alishahryar1/free-claude-code": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-25T05:17:47.053606+00:00"
-    },
     "freestylefly/awesome-gpt-image-2": {
       "count": 2,
       "scores": [
@@ -194,20 +180,6 @@
       ],
       "last_recommended": "2026-09-10T09:12:26.866015+00:00"
     },
-    "anthropics/claude-plugins-community": {
-      "count": 1,
-      "scores": [
-        99
-      ],
-      "last_recommended": "2026-08-25T05:17:47.057185+00:00"
-    },
-    "tinyhumansai/openhuman": {
-      "count": 1,
-      "scores": [
-        98
-      ],
-      "last_recommended": "2026-08-25T05:17:47.058809+00:00"
-    },
     "dani-garcia/vaultwarden": {
       "count": 2,
       "scores": [
@@ -215,41 +187,6 @@
         91
       ],
       "last_recommended": "2026-09-15T09:37:24.830833+00:00"
-    },
-    "VoltAgent/awesome-agent-skills": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-08-25T05:17:47.062086+00:00"
-    },
-    "rome-os/rome": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-08-25T05:17:47.063692+00:00"
-    },
-    "alchaincyf/huashu-excel": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-08-25T05:17:47.065326+00:00"
-    },
-    "lxf746/outlook-auto-register": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-08-25T05:17:47.066944+00:00"
-    },
-    "truespar/sentio": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-08-25T05:17:47.068590+00:00"
     },
     "MadsLorentzen/ai-job-search": {
       "count": 1,
@@ -2289,7 +2226,77 @@
         86
       ],
       "last_recommended": "2026-09-23T09:33:46.127304+00:00"
+    },
+    "google/ax": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-24T09:33:33.022632+00:00"
+    },
+    "dream-num/univer": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-24T09:33:33.024950+00:00"
+    },
+    "agent-substrate/substrate": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-24T09:33:33.027028+00:00"
+    },
+    "superdesigndev/treg": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-24T09:33:33.029107+00:00"
+    },
+    "browser-use/video-use": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-24T09:33:33.031202+00:00"
+    },
+    "davila7/claude-code-templates": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-09-24T09:33:33.033283+00:00"
+    },
+    "yetone/magpie": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-24T09:33:33.035414+00:00"
+    },
+    "driceroland/Search": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-09-24T09:33:33.037504+00:00"
+    },
+    "BridgeDruidCompress/TauriKit": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-24T09:33:33.039586+00:00"
+    },
+    "AutocratGirder/ClashDesk": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-24T09:33:33.041743+00:00"
     }
   },
-  "updated_at": "2026-09-23T09:33:46.127329+00:00"
+  "updated_at": "2026-09-24T09:33:33.043886+00:00"
 }

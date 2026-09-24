@@ -1,0 +1,312 @@
+{
+ "date": "2026-09-24",
+ "generated_at": "2026-09-24T09:33:33.287715",
+ "pool_size": 84,
+ "new": [
+  {
+   "full_name": "google/ax",
+   "url": "https://github.com/google/ax",
+   "description": "Google's open agentic orchestration runtime",
+   "language": "Go",
+   "stars": 9580,
+   "forks": 471,
+   "age_days": 177,
+   "daily_stars": 54.12429378531073,
+   "real_daily_stars": 1415.0,
+   "watchers": 46,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "dream-num/univer",
+   "url": "https://github.com/dream-num/univer",
+   "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+   "language": "TypeScript",
+   "stars": 16592,
+   "forks": 1485,
+   "age_days": 1455,
+   "daily_stars": 11.403436426116839,
+   "real_daily_stars": 622.0,
+   "watchers": 185,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "agent-substrate/substrate",
+   "url": "https://github.com/agent-substrate/substrate",
+   "description": "Agent Substrate: the core system",
+   "language": "Go",
+   "stars": 3656,
+   "forks": 425,
+   "age_days": 133,
+   "daily_stars": 27.48872180451128,
+   "real_daily_stars": 472.0,
+   "watchers": 24,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "superdesigndev/treg",
+   "url": "https://github.com/superdesigndev/treg",
+   "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+   "language": "Python",
+   "stars": 2901,
+   "forks": 249,
+   "age_days": 70,
+   "daily_stars": 41.44285714285714,
+   "real_daily_stars": 493.0,
+   "watchers": 9,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "browser-use/video-use",
+   "url": "https://github.com/browser-use/video-use",
+   "description": "Edit videos with coding agents",
+   "language": "Python",
+   "stars": 26702,
+   "forks": 3178,
+   "age_days": 165,
+   "daily_stars": 161.83030303030304,
+   "real_daily_stars": 533.0,
+   "watchers": 148,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "davila7/claude-code-templates",
+   "url": "https://github.com/davila7/claude-code-templates",
+   "description": "CLI tool for configuring and monitoring Claude Code",
+   "language": "Python",
+   "stars": 31661,
+   "forks": 3596,
+   "age_days": 447,
+   "daily_stars": 70.82997762863535,
+   "real_daily_stars": 380.0,
+   "watchers": 213,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "yetone/magpie",
+   "url": "https://github.com/yetone/magpie",
+   "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+   "language": "Go",
+   "stars": 425,
+   "forks": 20,
+   "age_days": 1,
+   "daily_stars": 425.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "driceroland/Search",
+   "url": "https://github.com/driceroland/Search",
+   "description": "A small, fast WebKit browser for macOS, by Office Commun.",
+   "language": "Swift",
+   "stars": 921,
+   "forks": 90,
+   "age_days": 3,
+   "daily_stars": 307.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "BridgeDruidCompress/TauriKit",
+   "url": "https://github.com/BridgeDruidCompress/TauriKit",
+   "description": "Modern UI component kit for Rust desktop applications",
+   "language": "Rust",
+   "stars": 223,
+   "forks": 47,
+   "age_days": 1,
+   "daily_stars": 223.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "AutocratGirder/ClashDesk",
+   "url": "https://github.com/AutocratGirder/ClashDesk",
+   "description": "Modern cross-platform desktop client for proxy workflows",
+   "language": "Rust",
+   "stars": 223,
+   "forks": 47,
+   "age_days": 1,
+   "daily_stars": 223.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "description": "An agentic skills framework & software development methodology that works.",
+   "language": "Shell",
+   "stars": 290931,
+   "forks": 26031,
+   "age_days": 349,
+   "daily_stars": 833.6131805157593,
+   "real_daily_stars": 450.0,
+   "watchers": 1084,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "rank": 1,
+   "scores": {
+    "total": 79,
+    "acceleration": 29,
+    "quality": 20,
+    "antispam": 30,
+    "rank_in_pool": 21,
+    "pool_size": 84,
+    "top_pct": 25.0
+   }
+  }
+ ]
+}

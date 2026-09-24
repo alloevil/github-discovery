@@ -1,0 +1,91 @@
+{
+ "date": "2026-09-24",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "obra/superpowers",
+   "stars": 290931,
+   "language": "Shell"
+  },
+  {
+   "full_name": "pbakaus/impeccable",
+   "stars": 70573,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "HKUDS/CLI-Anything",
+   "stars": 50108,
+   "language": "Python"
+  },
+  {
+   "full_name": "DeusData/codebase-memory-mcp",
+   "stars": 44754,
+   "language": "C"
+  },
+  {
+   "full_name": "anthropics/financial-services",
+   "stars": 37159,
+   "language": "Python"
+  },
+  {
+   "full_name": "davila7/claude-code-templates",
+   "stars": 31661,
+   "language": "Python"
+  },
+  {
+   "full_name": "browser-use/video-use",
+   "stars": 26702,
+   "language": "Python"
+  },
+  {
+   "full_name": "Open-Dev-Society/OpenStock",
+   "stars": 19056,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "dream-num/univer",
+   "stars": 16592,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "mvt-project/mvt",
+   "stars": 14569,
+   "language": "Python"
+  },
+  {
+   "full_name": "google/ax",
+   "stars": 9580,
+   "language": "Go"
+  },
+  {
+   "full_name": "strands-agents/harness-sdk",
+   "stars": 8026,
+   "language": "Python"
+  },
+  {
+   "full_name": "BuilderIO/agent-native",
+   "stars": 6718,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "agent-substrate/substrate",
+   "stars": 3656,
+   "language": "Go"
+  },
+  {
+   "full_name": "superdesigndev/treg",
+   "stars": 2901,
+   "language": "Python"
+  },
+  {
+   "full_name": "TNT-Likely/PanWatch",
+   "stars": 1730,
+   "language": "Python"
+  },
+  {
+   "full_name": "harry7557558/spirula-studio",
+   "stars": 854,
+   "language": "C++"
+  }
+ ]
+}
