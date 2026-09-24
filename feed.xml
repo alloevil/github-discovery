@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-23T18:00:00Z</updated>
+  <updated>2026-09-24T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>google/ax — Google's open agentic orchestration runtime</title>
+    <id>https://github.com/google/ax#2026-09-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/google/ax"/>
+    <updated>2026-09-24T18:00:00Z</updated>
+    <published>2026-09-24T18:00:00Z</published>
+    <summary>Google's open agentic orchestration runtime
+
+Why: +1415/day · Trending · 26.1x accelerating
+Score: 100/100 | Language: Go | ⭐ 9580 (+1415.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>dream-num/univer — The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.</title>
+    <id>https://github.com/dream-num/univer#2026-09-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/dream-num/univer"/>
+    <updated>2026-09-24T18:00:00Z</updated>
+    <published>2026-09-24T18:00:00Z</published>
+    <summary>The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.
+
+Why: +622/day · Trending · 54.5x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 16592 (+622.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>agent-substrate/substrate — Agent Substrate: the core system</title>
+    <id>https://github.com/agent-substrate/substrate#2026-09-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/agent-substrate/substrate"/>
+    <updated>2026-09-24T18:00:00Z</updated>
+    <published>2026-09-24T18:00:00Z</published>
+    <summary>Agent Substrate: the core system
+
+Why: +472/day · Trending · 17.2x accelerating
+Score: 100/100 | Language: Go | ⭐ 3656 (+472.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>superdesigndev/treg — OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn</title>
+    <id>https://github.com/superdesigndev/treg#2026-09-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/superdesigndev/treg"/>
+    <updated>2026-09-24T18:00:00Z</updated>
+    <published>2026-09-24T18:00:00Z</published>
+    <summary>OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn
+
+Why: +493/day · Trending · 11.9x accelerating
+Score: 100/100 | Language: Python | ⭐ 2901 (+493.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>browser-use/video-use — Edit videos with coding agents</title>
+    <id>https://github.com/browser-use/video-use#2026-09-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/browser-use/video-use"/>
+    <updated>2026-09-24T18:00:00Z</updated>
+    <published>2026-09-24T18:00:00Z</published>
+    <summary>Edit videos with coding agents
+
+Why: +533/day · Trending · 3.3x accelerating
+Score: 100/100 | Language: Python | ⭐ 26702 (+533.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>obra/superpowers — An agentic skills framework &amp; software development methodology that works.</title>
+    <id>https://github.com/obra/superpowers#2026-09-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/obra/superpowers"/>
+    <updated>2026-09-24T18:00:00Z</updated>
+    <published>2026-09-24T18:00:00Z</published>
+    <summary>An agentic skills framework &amp; software development methodology that works.
+
+Why: +450/day · Trending
+Score: 79/100 | Language: Shell | ⭐ 290931 (+450.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>mvt-project/mvt — MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.</title>
     <id>https://github.com/mvt-project/mvt#2026-09-23</id>
@@ -888,93 +954,5 @@ Score: 100/100 | Language: TypeScript | ⭐ 35651 (+623.1/day) | Source: trendin
 
 Why: +673/day · Trending
 Score: 90/100 | Language: Shell | ⭐ 284977 (+673.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>ayghri/i-have-adhd — A skill to stop your coding agent from burying the answer. ADHD-friendly output.</title>
-    <id>https://github.com/ayghri/i-have-adhd#2026-09-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ayghri/i-have-adhd"/>
-    <updated>2026-09-10T18:00:00Z</updated>
-    <published>2026-09-10T18:00:00Z</published>
-    <summary>A skill to stop your coding agent from burying the answer. ADHD-friendly output.
-
-Why: +5247/day · Trending · 17.3x accelerating
-Score: 100/100 | Language: Python | ⭐ 36063 (+5247.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>pascalorg/editor — Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.</title>
-    <id>https://github.com/pascalorg/editor#2026-09-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/pascalorg/editor"/>
-    <updated>2026-09-10T18:00:00Z</updated>
-    <published>2026-09-10T18:00:00Z</published>
-    <summary>Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.
-
-Why: +384/day · Trending · 5.4x accelerating
-Score: 99/100 | Language: TypeScript | ⭐ 23176 (+384.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Vincentwei1021/anything2explainer — Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.</title>
-    <id>https://github.com/Vincentwei1021/anything2explainer#2026-09-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Vincentwei1021/anything2explainer"/>
-    <updated>2026-09-10T18:00:00Z</updated>
-    <published>2026-09-10T18:00:00Z</published>
-    <summary>Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.
-
-Why: +441/day · Search
-Score: 95/100 | Language: TypeScript | ⭐ 441 (+441.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>Edge0-AI/Edge0 — No description</title>
-    <id>https://github.com/Edge0-AI/Edge0#2026-09-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Edge0-AI/Edge0"/>
-    <updated>2026-09-10T18:00:00Z</updated>
-    <published>2026-09-10T18:00:00Z</published>
-    <summary>No description
-
-Why: +381/day · Search
-Score: 95/100 | Language: Python | ⭐ 381 (+381.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>AI-FanGe/Microduck-build-tutorial — A practical hardware and software setup for a compact RL-powered biped robot.</title>
-    <id>https://github.com/AI-FanGe/Microduck-build-tutorial#2026-09-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/AI-FanGe/Microduck-build-tutorial"/>
-    <updated>2026-09-10T18:00:00Z</updated>
-    <published>2026-09-10T18:00:00Z</published>
-    <summary>A practical hardware and software setup for a compact RL-powered biped robot.
-
-Why: +284/day · Search · 2.3x accelerating
-Score: 94/100 | Language: Python | ⭐ 611 (+284.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>freestylefly/awesome-gpt-image-2 — Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。</title>
-    <id>https://github.com/freestylefly/awesome-gpt-image-2#2026-09-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/freestylefly/awesome-gpt-image-2"/>
-    <updated>2026-09-10T18:00:00Z</updated>
-    <published>2026-09-10T18:00:00Z</published>
-    <summary>Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。
-
-Why: +484/day · Trending · 2.2x accelerating
-Score: 96/100 | Language: JavaScript | ⭐ 30483 (+484.4/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>TauricResearch/TradingAgents — TradingAgents: Multi-Agents LLM Financial Trading Framework</title>
-    <id>https://github.com/TauricResearch/TradingAgents#2026-09-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/TauricResearch/TradingAgents"/>
-    <updated>2026-09-10T18:00:00Z</updated>
-    <published>2026-09-10T18:00:00Z</published>
-    <summary>TradingAgents: Multi-Agents LLM Financial Trading Framework
-
-Why: +238/day · Trending
-Score: 89/100 | Language: Python | ⭐ 104310 (+238.4/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>rohitg00/ai-engineering-from-scratch — Learn it. Build it. Ship it for others.</title>
-    <id>https://github.com/rohitg00/ai-engineering-from-scratch#2026-09-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/rohitg00/ai-engineering-from-scratch"/>
-    <updated>2026-09-10T18:00:00Z</updated>
-    <published>2026-09-10T18:00:00Z</published>
-    <summary>Learn it. Build it. Ship it for others.
-
-Why: +267/day · Trending
-Score: 87/100 | Language: Python | ⭐ 53981 (+267.2/day) | Source: trending</summary>
   </entry>
 </feed>
