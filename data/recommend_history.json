@@ -140,14 +140,6 @@
       ],
       "last_recommended": "2026-08-27T15:32:28.611733+00:00"
     },
-    "basecamp/omarchy": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-08-26T05:16:54.013692+00:00"
-    },
     "JuliusBrussee/caveman": {
       "count": 2,
       "scores": [
@@ -188,76 +180,14 @@
       ],
       "last_recommended": "2026-09-15T09:37:24.830833+00:00"
     },
-    "MadsLorentzen/ai-job-search": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-26T05:16:53.993016+00:00"
-    },
-    "AgriciDaniel/claude-obsidian": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-26T05:16:53.995278+00:00"
-    },
     "rohitg00/ai-engineering-from-scratch": {
-      "count": 2,
+      "count": 3,
       "scores": [
         98,
-        87
+        87,
+        86
       ],
-      "last_recommended": "2026-09-10T09:12:26.870145+00:00"
-    },
-    "ApodexAI/FrontierAgent": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-08-26T05:16:53.999350+00:00"
-    },
-    "bryllim/workout-guide": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-08-26T05:16:54.001404+00:00"
-    },
-    "themartiano/try-omarchy": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-08-26T05:16:54.003448+00:00"
-    },
-    "oboroge0/hayamimi": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-08-26T05:16:54.005487+00:00"
-    },
-    "yizhiyanhua-ai/fireworks-open-eli5": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-08-26T05:16:54.007519+00:00"
-    },
-    "tobi/walgit": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-08-26T05:16:54.009555+00:00"
-    },
-    "amosblomqvist/learn": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-08-26T05:16:54.011596+00:00"
+      "last_recommended": "2026-09-25T09:49:06.568574+00:00"
     },
     "anthropics/claude-plugins-official": {
       "count": 1,
@@ -2296,7 +2226,77 @@
         92
       ],
       "last_recommended": "2026-09-24T09:33:33.041743+00:00"
+    },
+    "strands-agents/harness-sdk": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-09-25T09:49:06.547594+00:00"
+    },
+    "mikehasa/golive-skill": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-25T09:49:06.549874+00:00"
+    },
+    "tobi/disktree": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-25T09:49:06.551961+00:00"
+    },
+    "kryvora-network/kryvora-node": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-25T09:49:06.554018+00:00"
+    },
+    "samyost1/3dicon": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-25T09:49:06.556074+00:00"
+    },
+    "yukitorido/short-video-generator-AI": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-09-25T09:49:06.558199+00:00"
+    },
+    "Cosmicchibattle/zeroclaw-ui": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-25T09:49:06.560272+00:00"
+    },
+    "jankeesvw/omarchy-meeting-recorder": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-25T09:49:06.562365+00:00"
+    },
+    "BridgeDruidCompress/Moon-FruityLoops26-FileParser": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-25T09:49:06.564425+00:00"
+    },
+    "HKUDS/CLI-Anything": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-25T09:49:06.566501+00:00"
     }
   },
-  "updated_at": "2026-09-24T09:33:33.043886+00:00"
+  "updated_at": "2026-09-25T09:49:06.568600+00:00"
 }

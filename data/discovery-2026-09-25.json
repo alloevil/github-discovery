@@ -1,0 +1,311 @@
+{
+ "date": "2026-09-25",
+ "generated_at": "2026-09-25T09:49:06.770826",
+ "pool_size": 82,
+ "new": [
+  {
+   "full_name": "strands-agents/harness-sdk",
+   "url": "https://github.com/strands-agents/harness-sdk",
+   "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+   "language": "Python",
+   "stars": 8364,
+   "forks": 1246,
+   "age_days": 498,
+   "daily_stars": 16.795180722891565,
+   "real_daily_stars": 338.0,
+   "watchers": 53,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 98,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "mikehasa/golive-skill",
+   "url": "https://github.com/mikehasa/golive-skill",
+   "description": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry.",
+   "language": "TypeScript",
+   "stars": 918,
+   "forks": 64,
+   "age_days": 1,
+   "daily_stars": 918.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "tobi/disktree",
+   "url": "https://github.com/tobi/disktree",
+   "description": "A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.",
+   "language": "Rust",
+   "stars": 457,
+   "forks": 40,
+   "age_days": 1,
+   "daily_stars": 457.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "kryvora-network/kryvora-node",
+   "url": "https://github.com/kryvora-network/kryvora-node",
+   "description": "Reference client daemon and verification worker for Kryvora Network nodes.",
+   "language": "Go",
+   "stars": 754,
+   "forks": 19,
+   "age_days": 2,
+   "daily_stars": 377.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "samyost1/3dicon",
+   "url": "https://github.com/samyost1/3dicon",
+   "description": "One prompt in, a looping animated 3D icon out — with real transparency. A Claude Code skill.",
+   "language": "Python",
+   "stars": 403,
+   "forks": 38,
+   "age_days": 1,
+   "daily_stars": 403.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "yukitorido/short-video-generator-AI",
+   "url": "https://github.com/yukitorido/short-video-generator-AI",
+   "description": "AI video processing pipeline for generating vertical shorts using LLMs, Whisper transcription, highlight detection and automated editing",
+   "language": "Python",
+   "stars": 346,
+   "forks": 82,
+   "age_days": 1,
+   "daily_stars": 346.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "Cosmicchibattle/zeroclaw-ui",
+   "url": "https://github.com/Cosmicchibattle/zeroclaw-ui",
+   "description": "UI for Zeroclaw setup",
+   "language": "TypeScript",
+   "stars": 201,
+   "forks": 20,
+   "age_days": 1,
+   "daily_stars": 201.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "jankeesvw/omarchy-meeting-recorder",
+   "url": "https://github.com/jankeesvw/omarchy-meeting-recorder",
+   "description": "Record meetings on Omarchy: mic and computer audio as two tracks, transcribed on your own machine, with speakers, chapters and a player.",
+   "language": "Rust",
+   "stars": 166,
+   "forks": 11,
+   "age_days": 1,
+   "daily_stars": 166.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "BridgeDruidCompress/Moon-FruityLoops26-FileParser",
+   "url": "https://github.com/BridgeDruidCompress/Moon-FruityLoops26-FileParser",
+   "description": "FLP binary parser for FL Studio project files",
+   "language": "C++",
+   "stars": 196,
+   "forks": 70,
+   "age_days": 1,
+   "daily_stars": 196.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "NOASSERTION",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "language": "Python",
+   "stars": 50455,
+   "forks": 4621,
+   "age_days": 200,
+   "daily_stars": 252.275,
+   "real_daily_stars": 347.0,
+   "watchers": 203,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "rohitg00/ai-engineering-from-scratch",
+   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+   "description": "Learn it. Build it. Ship it for others.",
+   "language": "Python",
+   "stars": 56995,
+   "forks": 9974,
+   "age_days": 190,
+   "daily_stars": 299.9736842105263,
+   "real_daily_stars": 200.93333333333334,
+   "watchers": 360,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ]
+}

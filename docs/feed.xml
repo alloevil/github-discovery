@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-24T18:00:00Z</updated>
+  <updated>2026-09-25T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>strands-agents/harness-sdk — Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python &amp; TypeScript - any model, any cloud.</title>
+    <id>https://github.com/strands-agents/harness-sdk#2026-09-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/strands-agents/harness-sdk"/>
+    <updated>2026-09-25T18:00:00Z</updated>
+    <published>2026-09-25T18:00:00Z</published>
+    <summary>Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python &amp; TypeScript - any model, any cloud.
+
+Why: +338/day · Trending · 20.1x accelerating
+Score: 98/100 | Language: Python | ⭐ 8364 (+338.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>mikehasa/golive-skill — Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry.</title>
+    <id>https://github.com/mikehasa/golive-skill#2026-09-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mikehasa/golive-skill"/>
+    <updated>2026-09-25T18:00:00Z</updated>
+    <published>2026-09-25T18:00:00Z</published>
+    <summary>Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry.
+
+Why: +918/day · Search
+Score: 96/100 | Language: TypeScript | ⭐ 918 (+918.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>tobi/disktree — A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.</title>
+    <id>https://github.com/tobi/disktree#2026-09-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/tobi/disktree"/>
+    <updated>2026-09-25T18:00:00Z</updated>
+    <published>2026-09-25T18:00:00Z</published>
+    <summary>A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.
+
+Why: +457/day · Search
+Score: 96/100 | Language: Rust | ⭐ 457 (+457.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>kryvora-network/kryvora-node — Reference client daemon and verification worker for Kryvora Network nodes.</title>
+    <id>https://github.com/kryvora-network/kryvora-node#2026-09-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/kryvora-network/kryvora-node"/>
+    <updated>2026-09-25T18:00:00Z</updated>
+    <published>2026-09-25T18:00:00Z</published>
+    <summary>Reference client daemon and verification worker for Kryvora Network nodes.
+
+Why: +377/day · Search
+Score: 95/100 | Language: Go | ⭐ 754 (+377.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>samyost1/3dicon — One prompt in, a looping animated 3D icon out — with real transparency. A Claude Code skill.</title>
+    <id>https://github.com/samyost1/3dicon#2026-09-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/samyost1/3dicon"/>
+    <updated>2026-09-25T18:00:00Z</updated>
+    <published>2026-09-25T18:00:00Z</published>
+    <summary>One prompt in, a looping animated 3D icon out — with real transparency. A Claude Code skill.
+
+Why: +403/day · Search
+Score: 95/100 | Language: Python | ⭐ 403 (+403.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>rohitg00/ai-engineering-from-scratch — Learn it. Build it. Ship it for others.</title>
+    <id>https://github.com/rohitg00/ai-engineering-from-scratch#2026-09-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/rohitg00/ai-engineering-from-scratch"/>
+    <updated>2026-09-25T18:00:00Z</updated>
+    <published>2026-09-25T18:00:00Z</published>
+    <summary>Learn it. Build it. Ship it for others.
+
+Why: +201/day · Trending
+Score: 86/100 | Language: Python | ⭐ 56995 (+200.9/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>google/ax — Google's open agentic orchestration runtime</title>
     <id>https://github.com/google/ax#2026-09-24</id>
@@ -866,93 +932,5 @@ Score: 89/100 | Language: TypeScript | ⭐ 11219 (+137.6/day) | Source: hn</summ
 
 Why: +245/day · Trending
 Score: 87/100 | Language: Python | ⭐ 135881 (+244.7/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Tencent/teamai-cli — Make Every Team AI Native</title>
-    <id>https://github.com/Tencent/teamai-cli#2026-09-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Tencent/teamai-cli"/>
-    <updated>2026-09-11T18:00:00Z</updated>
-    <published>2026-09-11T18:00:00Z</published>
-    <summary>Make Every Team AI Native
-
-Why: +667/day · Trending · 22.4x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 4053 (+667.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>vastsa/PI-Desktop — Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins</title>
-    <id>https://github.com/vastsa/PI-Desktop#2026-09-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/vastsa/PI-Desktop"/>
-    <updated>2026-09-11T18:00:00Z</updated>
-    <published>2026-09-11T18:00:00Z</published>
-    <summary>Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins
-
-Why: +556/day · Trending · 279.1x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 2526 (+556.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>kevinzakka/mjbatch — A Python library for running thousands of MuJoCo simulations in parallel on CPU</title>
-    <id>https://github.com/kevinzakka/mjbatch#2026-09-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/kevinzakka/mjbatch"/>
-    <updated>2026-09-11T18:00:00Z</updated>
-    <published>2026-09-11T18:00:00Z</published>
-    <summary>A Python library for running thousands of MuJoCo simulations in parallel on CPU
-
-Why: +281/day · Search
-Score: 93/100 | Language: Python | ⭐ 281 (+281.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>liquidslr/system-design-notes — Notes of the book System Desgin Interview - An Insider's Guide</title>
-    <id>https://github.com/liquidslr/system-design-notes#2026-09-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/liquidslr/system-design-notes"/>
-    <updated>2026-09-11T18:00:00Z</updated>
-    <published>2026-09-11T18:00:00Z</published>
-    <summary>Notes of the book System Desgin Interview - An Insider's Guide
-
-Why: +777/day · Trending · 25.4x accelerating
-Score: 90/100 | Language: ? | ⭐ 19119 (+777.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>angusdevgo/IDM_Pro_Tool — IDM激活与状态维护工具</title>
-    <id>https://github.com/angusdevgo/IDM_Pro_Tool#2026-09-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/angusdevgo/IDM_Pro_Tool"/>
-    <updated>2026-09-11T18:00:00Z</updated>
-    <published>2026-09-11T18:00:00Z</published>
-    <summary>IDM激活与状态维护工具
-
-Why: +440/day · Search
-Score: 90/100 | Language: C# | ⭐ 440 (+440.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>bilawalsidhu/gods-eye-view — A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.</title>
-    <id>https://github.com/bilawalsidhu/gods-eye-view#2026-09-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/bilawalsidhu/gods-eye-view"/>
-    <updated>2026-09-11T18:00:00Z</updated>
-    <published>2026-09-11T18:00:00Z</published>
-    <summary>A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.
-
-Why: +1028/day · Trending · 3.2x accelerating
-Score: 100/100 | Language: JavaScript | ⭐ 25482 (+1027.6/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>THU-MAIC/OpenMAIC — Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click</title>
-    <id>https://github.com/THU-MAIC/OpenMAIC#2026-09-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/THU-MAIC/OpenMAIC"/>
-    <updated>2026-09-11T18:00:00Z</updated>
-    <published>2026-09-11T18:00:00Z</published>
-    <summary>Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
-
-Why: +623/day · Trending · 3.2x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 35651 (+623.1/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>obra/superpowers — An agentic skills framework &amp; software development methodology that works.</title>
-    <id>https://github.com/obra/superpowers#2026-09-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/obra/superpowers"/>
-    <updated>2026-09-11T18:00:00Z</updated>
-    <published>2026-09-11T18:00:00Z</published>
-    <summary>An agentic skills framework &amp; software development methodology that works.
-
-Why: +673/day · Trending
-Score: 90/100 | Language: Shell | ⭐ 284977 (+673.0/day) | Source: trending</summary>
   </entry>
 </feed>

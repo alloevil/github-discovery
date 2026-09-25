@@ -1,85 +1,5 @@
 {
  "repos": {
-  "ayghri/i-have-adhd": {
-   "first_seen": "2026-09-10",
-   "until": "2026-09-24",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "pascalorg/editor": {
-   "first_seen": "2026-09-10",
-   "until": "2026-09-24",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Vincentwei1021/anything2explainer": {
-   "first_seen": "2026-09-10",
-   "until": "2026-09-24",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Edge0-AI/Edge0": {
-   "first_seen": "2026-09-10",
-   "until": "2026-09-24",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "AI-FanGe/Microduck-build-tutorial": {
-   "first_seen": "2026-09-10",
-   "until": "2026-09-24",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "OpenWAM-Official/OpenWAM": {
-   "first_seen": "2026-09-10",
-   "until": "2026-09-24",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "achimala/dream-loop": {
-   "first_seen": "2026-09-10",
-   "until": "2026-09-24",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "openai/plugins": {
-   "first_seen": "2026-09-10",
-   "until": "2026-09-24",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "Colafornia/short-video-generator-AI": {
-   "first_seen": "2026-09-10",
-   "until": "2026-09-24",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "com-phantom/Phantom-Wallet-Desktop": {
-   "first_seen": "2026-09-10",
-   "until": "2026-09-24",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
   "Tencent/teamai-cli": {
    "first_seen": "2026-09-11",
    "until": "2026-09-25",
@@ -1145,7 +1065,84 @@
    "stars_at_discovery": 290931,
    "score_at_discovery": 79,
    "source_at_discovery": "trending"
+  },
+  "strands-agents/harness-sdk": {
+   "first_seen": "2026-09-25",
+   "until": "2026-10-09",
+   "stars_at_discovery": 8364,
+   "score_at_discovery": 98,
+   "source_at_discovery": "trending"
+  },
+  "mikehasa/golive-skill": {
+   "first_seen": "2026-09-25",
+   "until": "2026-10-09",
+   "stars_at_discovery": 918,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "tobi/disktree": {
+   "first_seen": "2026-09-25",
+   "until": "2026-10-09",
+   "stars_at_discovery": 457,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "kryvora-network/kryvora-node": {
+   "first_seen": "2026-09-25",
+   "until": "2026-10-09",
+   "stars_at_discovery": 754,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "samyost1/3dicon": {
+   "first_seen": "2026-09-25",
+   "until": "2026-10-09",
+   "stars_at_discovery": 403,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "yukitorido/short-video-generator-AI": {
+   "first_seen": "2026-09-25",
+   "until": "2026-10-09",
+   "stars_at_discovery": 346,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "Cosmicchibattle/zeroclaw-ui": {
+   "first_seen": "2026-09-25",
+   "until": "2026-10-09",
+   "stars_at_discovery": 201,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "jankeesvw/omarchy-meeting-recorder": {
+   "first_seen": "2026-09-25",
+   "until": "2026-10-09",
+   "stars_at_discovery": 166,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "BridgeDruidCompress/Moon-FruityLoops26-FileParser": {
+   "first_seen": "2026-09-25",
+   "until": "2026-10-09",
+   "stars_at_discovery": 196,
+   "score_at_discovery": 91,
+   "source_at_discovery": "rising"
+  },
+  "HKUDS/CLI-Anything": {
+   "first_seen": "2026-09-25",
+   "until": "2026-10-09",
+   "stars_at_discovery": 50455,
+   "score_at_discovery": 90,
+   "source_at_discovery": "trending"
+  },
+  "rohitg00/ai-engineering-from-scratch": {
+   "first_seen": "2026-09-25",
+   "until": "2026-10-09",
+   "stars_at_discovery": 56995,
+   "score_at_discovery": 86,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-09-24T09:36:17.001019+00:00"
+ "updated_at": "2026-09-25T09:52:32.984893+00:00"
 }
