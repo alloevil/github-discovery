@@ -12244,9 +12244,9 @@
    },
    {
     "date": "2026-09-25",
-    "stars": 958,
+    "stars": 957,
     "forks": 54,
-    "open_issues": 4,
+    "open_issues": 5,
     "commits_7d": 100,
     "contributors_7d": 6,
     "pushed_at": "2026-09-24T16:30:10Z"
@@ -16473,9 +16473,9 @@
    },
    {
     "date": "2026-09-25",
-    "stars": 4270,
-    "forks": 287,
-    "open_issues": 31,
+    "stars": 4287,
+    "forks": 290,
+    "open_issues": 32,
     "commits_7d": 20,
     "contributors_7d": 5,
     "pushed_at": "2026-09-23T18:48:22Z"
@@ -16823,5 +16823,5 @@
    }
   ]
  },
- "updated_at": "2026-09-25T09:52:32.970896+00:00"
+ "updated_at": "2026-09-25T14:09:59.620254+00:00"
 }

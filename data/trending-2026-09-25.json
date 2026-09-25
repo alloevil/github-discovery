@@ -3,74 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "obra/superpowers",
-   "stars": 291372,
-   "language": "Shell"
-  },
-  {
-   "full_name": "rohitg00/ai-engineering-from-scratch",
-   "stars": 56995,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "HKUDS/CLI-Anything",
-   "stars": 50455,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "anthropics/financial-services",
-   "stars": 37457,
-   "language": "Python"
-  },
-  {
-   "full_name": "vectorize-io/hindsight",
-   "stars": 28416,
-   "language": "Python"
-  },
-  {
-   "full_name": "dream-num/univer",
-   "stars": 18060,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "mvt-project/mvt",
-   "stars": 14781,
-   "language": "Python"
-  },
-  {
-   "full_name": "google/ax",
-   "stars": 10956,
-   "language": "Go"
-  },
-  {
-   "full_name": "strands-agents/harness-sdk",
-   "stars": 8364,
-   "language": "Python"
-  },
-  {
-   "full_name": "leejet/stable-diffusion.cpp",
-   "stars": 7320,
-   "language": "C++"
-  },
-  {
-   "full_name": "FxEmbed/FxEmbed",
-   "stars": 5417,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "NVIDIA/Model-Optimizer",
-   "stars": 4215,
-   "language": "Python"
-  },
-  {
-   "full_name": "superdesigndev/treg",
-   "stars": 3277,
-   "language": "Python"
-  },
-  {
-   "full_name": "julyx10/lap",
-   "stars": 2996,
-   "language": "Vue"
   }
  ]
 }
