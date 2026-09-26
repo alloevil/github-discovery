@@ -245,6 +245,10 @@ class TestMainPipeline:
         hist = json.loads((tmp_path / "history.json").read_text())
         assert "hot/rocket" in hist["repos"]
 
+        pool = json.loads((data_dir / f"candidate-pool-{today}.json").read_text())
+        pool_rows = {row["full_name"]: row for row in pool["candidates"]}
+        assert pool_rows["hot/rocket"]["pool_status"] == "recommended"
+        assert set(pool_rows) == {"hot/rocket", "ok/steady", "meh/slow"}
     def test_repeat_classification_uses_history(self, tmp_path):
         """recommend_history 里已有的仓库应进 Repeat 区，而不是 First Timers。"""
         import dedup

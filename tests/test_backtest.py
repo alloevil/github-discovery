@@ -75,3 +75,17 @@ class TestLeadTime:
         leads = backtest.lead_time(rows)
         assert leads["trending_days"] == 1 and leads["matched"] == 1
         assert leads["median_lead_days"] == 3
+
+
+class TestMatureSourceSummary:
+    def test_groups_only_mature_rows_and_marks_thin_groups(self):
+        rows = [
+            {"sources": "trending", "breakout": 1, "growth_pct": 250.0},
+            {"sources": "trending", "breakout": 0, "growth_pct": 50.0},
+            {"sources": "search+hn", "breakout": "", "growth_pct": ""},
+        ]
+        import mature_analysis
+        groups = mature_analysis.source_summary(rows)
+        assert groups == [
+            {"source": "trending", "n": 2, "breakout_rate": 50.0, "median_growth": 150.0, "insufficient": True}
+        ]

@@ -288,6 +288,14 @@ def write_json_report(date_str: str, top_new: list, top_repeat: list, pool_size:
     with open(path, "w") as f:
         json.dump(payload, f, ensure_ascii=False, indent=1)
     return path
+def write_candidate_pool(date_str: str, candidates: list[dict]) -> str:
+    """Persist every normalized candidate and its final pipeline disposition."""
+    os.makedirs(DATA_DIR, exist_ok=True)
+    path = os.path.join(DATA_DIR, f"candidate-pool-{date_str}.json")
+    with open(path, "w") as f:
+        json.dump({"date": date_str, "candidates": candidates}, f, ensure_ascii=False, indent=1)
+    return path
+
 
 
 def format_repo_markdown(repo: dict, scores: dict, rank: int) -> str:
@@ -415,6 +423,11 @@ def main():
 
     # Trending 快照：lead time 的唯一可比基线，从今天起才有历史。
     write_trending_snapshot(today, all_repos)
+    candidate_ledger = []
+    for repo in all_repos:
+        repo["pool_status"] = "candidate"
+        candidate_ledger.append(repo)
+
 
     # 跨天去重：过滤掉最近 7 天已推荐的仓库
     filtered_repos = []
@@ -422,6 +435,7 @@ def main():
     for repo in all_repos:
         if is_recently_recommended(repo["full_name"]):
             dedup_count += 1
+            repo["pool_status"] = "deduplicated"
             continue
         filtered_repos.append(repo)
     if dedup_count:
@@ -435,14 +449,14 @@ def main():
         blocked, reason = is_blocked_content(repo)
         if blocked:
             content_blocked += 1
+            repo["pool_status"] = "content_blocked"
+            repo["pool_status_reason"] = reason
             print(f"  🚫 Blocked: {repo['full_name']} ({reason})")
         else:
             clean_repos.append(repo)
     if content_blocked:
         print(f"[ContentFilter] Blocked {content_blocked} repos (gambling/malicious/NSFW)")
     all_repos = clean_repos
-
-    # 注入真实日增（昨天的快照存在时）：scorer 优先使用它而非终身平均
     growth_known = 0
     for repo in all_repos:
         growth = get_growth(repo["full_name"], repo.get("stars", 0))
@@ -519,6 +533,8 @@ def main():
             scores["total"] = max(0, scores["total"] + fraud["penalty"])
             scores["fraud_penalty"] = fraud["penalty"]
             scores["fraud_reason"] = fraud["reason"]
+        repo["pool_score"] = scores
+        repo["pool_status"] = "eligible"
 
         # First Timer / Repeat Performer：以随仓库提交的 recommend_history
         # 为准（CI 每次全新环境，只有提交进仓库的文件跨 run 持久）
@@ -541,6 +557,8 @@ def main():
     top_new = new_scored[:TOP_N]
     # Take top 5 repeat performers
     top_repeat = repeat_scored[:5]
+    for repo, _scores in top_new + top_repeat:
+        repo["pool_status"] = "recommended"
 
     if not top_new and not top_repeat:
         print("[WARN] No repos to recommend.")
@@ -595,6 +613,9 @@ def main():
         print(f"  {i}. {repo['full_name']:40s} ⭐{repo['stars']:>6,}  📊{scores['total']:>3}/100")
     if len(top_new) > 5:
         print(f"  ... and {len(top_new) - 5} more")
+
+    pool_path = write_candidate_pool(date_str, candidate_ledger)
+    print(f"[Saved] Candidate pool written to {pool_path}")
 
 
 if __name__ == "__main__":

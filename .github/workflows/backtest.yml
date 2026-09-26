@@ -26,6 +26,8 @@ jobs:
           python-version: '3.12'
       - name: Rebuild the backtest from committed data
         run: python3 scripts/backtest.py
+      - name: Build mature cohort analysis
+        run: python3 scripts/mature_analysis.py
       - name: Commit the report if it moved
         run: |
           git add reports/
