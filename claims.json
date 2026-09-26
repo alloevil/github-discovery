@@ -205,7 +205,7 @@
     {
       "id": "test-count",
       "claim": "The suite has the number of tests the roadmap states.",
-      "value": "199 tests",
+      "value": "200 tests",
       "metric": "tests collected by pytest, against the count in docs/ROADMAP.md",
       "method": "docs/ROADMAP.md quotes the current count under 'Where we are'; this check runs pytest's collector and requires the two numbers to agree, so the figure cannot age in silence.",
       "repro": "python3 -m pytest --collect-only -q | tail -1; grep -o '[0-9]* tests' docs/ROADMAP.md",
