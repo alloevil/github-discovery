@@ -314,6 +314,12 @@
   .repo + .repo {
     border-top: 1px solid var(--hairline);
   }
+  /* 每个日期组的第一条是编辑流的 lead:轻底色 + 品牌色左缘,不增加字号或阴影。 */
+  .date-header + .repo {
+    padding-left: 18px;
+    background: var(--surface-1);
+    border-left: 2px solid var(--primary);
+  }
   .repo-top {
     display: flex;
     align-items: center;
