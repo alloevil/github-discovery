@@ -309,6 +309,24 @@ class TestFetchAll:
         assert sources_map["e/f"] == "hn"
         assert sources_map["i/j"] == "rising"
 
+    @patch("sources.fetch_hf_papers", return_value=[])
+    @patch("sources.fetch_ai_trending", return_value=[])
+    @patch("sources.fetch_rising", return_value=[])
+    @patch("sources.fetch_hn", return_value=[])
+    @patch("sources.fetch_search", return_value=[{"full_name": "user/repo", "id": "1"}])
+    @patch("sources.fetch_trending", return_value=[{"full_name": "user/repo", "id": "1"}])
+    def test_records_collection_and_dedup_health(self, *mocks):
+        sources.fetch_all()
+        health = sources.get_source_health()
+        assert health["trending"] == {"fetched": 1, "parsed": 1, "rejected": 0, "deduplicated": 0, "recommended": 0}
+        assert health["search"]["fetched"] == 1
+        assert health["search"]["deduplicated"] == 1
+        sources.set_source_recommendations([{"sources": ["trending", "search"]}])
+        assert health["trending"]["recommended"] == 0
+        latest = sources.get_source_health()
+        assert latest["trending"]["recommended"] == 1
+        assert latest["search"]["recommended"] == 1
+
 
 class TestFetchHFPapers:
     """测试 Hugging Face Daily Papers 源。"""

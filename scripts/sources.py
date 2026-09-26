@@ -14,6 +14,24 @@ from config import (
 )
 
 
+SOURCE_NAMES = ("trending", "search", "hn", "rising", "ai-trending", "hf-papers")
+_last_source_health: dict[str, dict[str, int]] = {}
+
+
+def get_source_health() -> dict[str, dict[str, int]]:
+    """Return the latest collection counts as a detached mapping."""
+    return {name: dict(counts) for name, counts in _last_source_health.items()}
+
+
+def set_source_recommendations(repos: list[dict]) -> None:
+    """Attach final recommendation counts to the latest collection health."""
+    for counts in _last_source_health.values():
+        counts["recommended"] = 0
+    for repo in repos:
+        for source in repo.get("sources") or [repo.get("source", "unknown")]:
+            if source in _last_source_health:
+                _last_source_health[source]["recommended"] += 1
+
 def _gh_headers():
     headers = {"Accept": "application/vnd.github.v3+json", "User-Agent": "github-discovery-bot"}
     if GITHUB_TOKEN:
@@ -380,69 +398,58 @@ def fetch_hf_papers() -> list[dict]:
 
 
 def fetch_all() -> list[dict]:
-    """Fetch from all sources, deduplicate by full_name."""
+    """Fetch from all sources, deduplicate by full_name, and retain health counts."""
     if not GITHUB_TOKEN:
         print("[WARN] No GITHUB_TOKEN set — GitHub API limited to 60 req/hour. "
               "Results will likely be incomplete. Set GITHUB_TOKEN to raise the limit to 5000/hour.")
 
+    fetchers = (
+        ("trending", fetch_trending),
+        ("search", fetch_search),
+        ("hn", fetch_hn),
+        ("rising", fetch_rising),
+        ("ai-trending", fetch_ai_trending),
+        ("hf-papers", fetch_hf_papers),
+    )
+    _last_source_health.clear()
     all_repos = []
+    for source, fetcher in fetchers:
+        try:
+            candidates = fetcher() or []
+        except Exception as exc:
+            print(f"  [WARN] {source} source crashed: {exc}")
+            candidates = []
+        _last_source_health[source] = {
+            "fetched": len(candidates),
+            "parsed": len(candidates),
+            "rejected": 0,
+            "deduplicated": 0,
+            "recommended": 0,
+        }
+        for repo in candidates:
+            repo["source"] = source
+        all_repos.extend(candidates)
 
-    trending = fetch_trending()
-    for r in trending:
-        r["source"] = "trending"
-    all_repos.extend(trending)
-
-    search = fetch_search()
-    for r in search:
-        r["source"] = "search"
-    all_repos.extend(search)
-
-    hn = fetch_hn()
-    for r in hn:
-        r["source"] = "hn"
-    all_repos.extend(hn)
-
-    rising = fetch_rising()
-    for r in rising:
-        r["source"] = "rising"
-    all_repos.extend(rising)
-
-    ai_trending = fetch_ai_trending()
-    for r in ai_trending:
-        r["source"] = "ai-trending"
-    all_repos.extend(ai_trending)
-
-    hf_papers = fetch_hf_papers()
-    for r in hf_papers:
-        r["source"] = "hf-papers"
-    all_repos.extend(hf_papers)
-
-    # Deduplicate by full_name — keep first occurrence as the primary record,
-    # but MERGE later duplicates instead of dropping them:
-    #   - all source tags collected into r["sources"] (被多个源同时发现本身
-    #     就是强信号，且 HN/rising 的专属字段不该因为 trending 先抓到而丢失)
-    #   - source-specific fields (hn_title, rising_signal, ...) carried over
     by_name: dict[str, dict] = {}
     order: list[str] = []
-    for r in all_repos:
-        name = r["full_name"]
+    for repo in all_repos:
+        name = repo["full_name"]
         if name not in by_name:
-            r["sources"] = [r.get("source", "unknown")]
-            by_name[name] = r
+            repo["sources"] = [repo.get("source", "unknown")]
+            by_name[name] = repo
             order.append(name)
-        else:
-            base = by_name[name]
-            src = r.get("source", "unknown")
-            if src not in base["sources"]:
-                base["sources"].append(src)
-            # 补齐 base 缺失的来源专属字段
-            for key in ("hn_title", "hn_score", "hf_title", "hf_upvotes",
-                        "rising_signal", "fork_ratio"):
-                if key in r and key not in base:
-                    base[key] = r[key]
+            continue
+        base = by_name[name]
+        source = repo.get("source", "unknown")
+        if source in _last_source_health:
+            _last_source_health[source]["deduplicated"] += 1
+        if source not in base["sources"]:
+            base["sources"].append(source)
+        for key in ("hn_title", "hn_score", "hf_title", "hf_upvotes", "rising_signal", "fork_ratio"):
+            if key in repo and key not in base:
+                base[key] = repo[key]
     unique = [by_name[name] for name in order]
-
-    multi = sum(1 for r in unique if len(r["sources"]) > 1)
+    multi = sum(1 for repo in unique if len(repo["sources"]) > 1)
     print(f"\n[Total] {len(unique)} unique repos from all sources ({multi} found by multiple sources)")
     return unique
 

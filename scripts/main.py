@@ -17,7 +17,7 @@ from datetime import datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from config import TOP_N, DEEP_CHECK_TOP_K, OUTPUT_DIR, DATA_DIR, RESEND_API_KEY
-from sources import fetch_all
+from sources import fetch_all, get_source_health, set_source_recommendations
 from scorer import annotate_pool, calculate_score, merge_quality_bonus, build_reason
 from dedup import (
     is_recently_recommended, was_recommended_before,
@@ -273,19 +273,15 @@ def write_trending_snapshot(date_str: str, all_repos: list) -> str:
     return path
 
 
-def write_json_report(date_str: str, top_new: list, top_repeat: list, pool_size: int = 0) -> str:
-    """写结构化 JSON 报告（data/discovery-YYYY-MM-DD.json）。
-
-    网站/RSS 从这里读取数据，markdown 报告只服务于人类阅读 ——
-    避免 generate_site.py 用正则反解析自己生成的 markdown。
-    """
+def write_json_report(date_str: str, top_new: list, top_repeat: list, pool_size: int = 0, source_health: dict | None = None) -> str:
+    """写结构化 JSON 报告,包括可重算的来源健康阶段计数。"""
     os.makedirs(DATA_DIR, exist_ok=True)
     path = os.path.join(DATA_DIR, f"discovery-{date_str}.json")
     payload = {
         "date": date_str,
         "generated_at": datetime.now().isoformat(),
-        # 分位的分母：今天抓到的候选总数。便于从报告本身复算 top_pct。
         "pool_size": pool_size,
+        "source_health": source_health or {},
         "new": [repo_to_json(r, s, i) for i, (r, s) in enumerate(top_new, 1)],
         "repeat": [repo_to_json(r, s, i) for i, (r, s) in enumerate(top_repeat, 1)],
     }
@@ -585,8 +581,10 @@ def main():
         f.write(md)
     print(f"\n[Saved] Report written to {out_path}")
 
-    # 结构化 JSON（网站/RSS 的数据来源）
-    json_path = write_json_report(date_str, top_new, top_repeat, pool_size)
+    # Persist source health only after ranking, dedup and recommendation selection are complete.
+    set_source_recommendations([repo for repo, _scores in top_new + top_repeat])
+    source_health = get_source_health()
+    json_path = write_json_report(date_str, top_new, top_repeat, pool_size, source_health)
     print(f"[Saved] JSON report written to {json_path}")
 
     # Print compact summary
