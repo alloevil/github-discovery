@@ -17,6 +17,8 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 REPORTS = ROOT / "reports"
 LABEL_DAYS = backtest.LABEL_DAYS
+HORIZONS = (1, 3, 7, 14)
+FORMAL_HORIZON = 7
 
 
 def load_candidate_rows(data_dir: Path = DATA) -> list[dict]:
@@ -35,12 +37,12 @@ def load_candidate_rows(data_dir: Path = DATA) -> list[dict]:
     return rows
 
 
-def label_candidates(rows: list[dict], series: dict, snapshots: dict) -> list[dict]:
+def label_candidates(rows: list[dict], series: dict, snapshots: dict, horizon: int) -> list[dict]:
     labelled = []
     for row in rows:
         name = row.get("full_name")
         start = row.get("stars_at_discovery")
-        target = (datetime.strptime(row["first_seen"], "%Y-%m-%d") + timedelta(days=LABEL_DAYS)).strftime("%Y-%m-%d")
+        target = (datetime.strptime(row["first_seen"], "%Y-%m-%d") + timedelta(days=horizon)).strftime("%Y-%m-%d")
         readings = backtest._readings(name, series, snapshots)
         later = [(date, stars) for date, stars in readings if date >= target]
         row = dict(row)
@@ -70,8 +72,18 @@ def evaluate(cutoff: str, data_dir: Path = DATA) -> dict:
     rows = load_candidate_rows(data_dir)
     series = json.loads((data_dir / "watch_series.json").read_text())["repos"] if (data_dir / "watch_series.json").exists() else {}
     snapshots = json.loads((data_dir / "star_snapshots.json").read_text())["repos"] if (data_dir / "star_snapshots.json").exists() else {}
-    labelled = label_candidates(rows, series, snapshots)
-    return {"cutoff": cutoff, "train": summarize([r for r in labelled if r["first_seen"] <= cutoff]), "holdout": summarize([r for r in labelled if r["first_seen"] > cutoff])}
+    horizons = {}
+    for horizon in HORIZONS:
+        labelled = label_candidates(rows, series, snapshots, horizon)
+        horizons[str(horizon)] = {
+            "train": summarize([r for r in labelled if r["first_seen"] <= cutoff]),
+            "holdout": summarize([r for r in labelled if r["first_seen"] > cutoff]),
+            "interpretation": "formal" if horizon == FORMAL_HORIZON else "exploratory",
+        }
+    result = {"cutoff": cutoff, "horizons": horizons}
+    result["train"] = horizons[str(FORMAL_HORIZON)]["train"]
+    result["holdout"] = horizons[str(FORMAL_HORIZON)]["holdout"]
+    return result
 
 
 def main() -> int:
@@ -80,14 +92,12 @@ def main() -> int:
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     result = evaluate(args.cutoff)
-    ready = result["holdout"]["recommended_mature"] >= 20 and result["holdout"]["eligible_mature"] >= 20
+    ready = result["horizons"][str(FORMAL_HORIZON)]["holdout"]["recommended_mature"] >= 20 and result["horizons"][str(FORMAL_HORIZON)]["holdout"]["eligible_mature"] >= 20
     result["status"] = "ready" if ready else "not-ready"
     output = args.output or REPORTS / f"holdout-{args.cutoff}.json"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"holdout: {result['status']} train={result['train']['mature']} mature holdout={result['holdout']['mature']} mature; wrote {output}")
+    summary = ", ".join(f"{h}d={result['horizons'][str(h)]['holdout']['mature']}" for h in HORIZONS)
+    print(f"holdout: {result['status']} ({summary}); 7d is formal, 1/3/14d exploratory; wrote {output}")
     return 0
-
-
-if __name__ == "__main__":
     raise SystemExit(main())
