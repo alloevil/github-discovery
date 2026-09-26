@@ -89,3 +89,15 @@ class TestMatureSourceSummary:
         assert groups == [
             {"source": "trending", "n": 2, "breakout_rate": 50.0, "median_growth": 150.0, "insufficient": True}
         ]
+
+    def test_controlled_summary_buckets_age_and_stars(self):
+        import mature_analysis
+        rows = [
+            {"age_days": 1, "stars_at_discovery": 500, "breakout": 1, "growth_pct": 250.0},
+            {"age_days": 20, "stars_at_discovery": 12000, "breakout": 0, "growth_pct": 20.0},
+            {"age_days": 1, "stars_at_discovery": 500, "breakout": "", "growth_pct": ""},
+        ]
+        ages = mature_analysis.controlled_summary(rows, "age_days", mature_analysis.AGE_BUCKETS)
+        stars = mature_analysis.controlled_summary(rows, "stars_at_discovery", mature_analysis.STAR_BUCKETS)
+        assert ages[0]["bucket"] == "0–2d" and ages[0]["n"] == 1
+        assert stars[0]["bucket"] == "100–999" and stars[0]["breakout_rate"] == 100.0

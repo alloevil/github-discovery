@@ -35,8 +35,43 @@ def source_summary(rows: list[dict]) -> list[dict]:
         })
     return result
 
+AGE_BUCKETS = ((0, 3, "0–2d"), (3, 14, "3–13d"), (14, 60, "14–59d"), (60, 10**9, "60d+"))
+STAR_BUCKETS = ((0, 100, "0–99"), (100, 1000, "100–999"), (1000, 10000, "1k–9.9k"), (10000, 10**18, "10k+"))
 
-def render(today: str, stats: dict, source_groups: list[dict]) -> str:
+
+def _bucket(value, buckets: tuple[tuple[int, int, str], ...]) -> str:
+    if value is None:
+        return "unknown"
+    for low, high, name in buckets:
+        if low <= value < high:
+            return name
+    return "unknown"
+
+
+def controlled_summary(rows: list[dict], field: str, buckets: tuple[tuple[int, int, str], ...]) -> list[dict]:
+    """Summarise mature labels by one confounder; thin groups stay visibly thin."""
+    groups: dict[str, list[dict]] = {}
+    for row in rows:
+        if row.get("breakout") == "":
+            continue
+        value = row.get(field)
+        if value is not None:
+            value = float(value)
+        groups.setdefault(_bucket(value, buckets), []).append(row)
+    result = []
+    for bucket, group in groups.items():
+        result.append({
+            "bucket": bucket,
+            "n": len(group),
+            "breakout_rate": round(100 * sum(r["breakout"] for r in group) / len(group), 1),
+            "median_growth": round(statistics.median(r["growth_pct"] for r in group), 1),
+            "insufficient": len(group) < backtest.MIN_BUCKET_N,
+        })
+    order = {name: i for i, (_low, _high, name) in enumerate(buckets)}
+    return sorted(result, key=lambda row: order.get(row["bucket"], len(order)))
+
+
+def render(today: str, stats: dict, source_groups: list[dict], age_groups: list[dict], star_groups: list[dict]) -> str:
     lines = [
         f"# Mature recommendation analysis — {today}",
         "",
@@ -54,32 +89,40 @@ def render(today: str, stats: dict, source_groups: list[dict]) -> str:
         growth = "—" if row["median_growth"] is None else f"{row['median_growth']}%"
         note = f"thin (n<{stats['min_bucket_n']})" if row["insufficient"] and row["n"] else ""
         lines.append(f"| {row['bucket']} | {row['n']} | {rate} | {growth} | {note} |")
-    lines += ["", "## Source cohorts", "", "| Source combination | Mature repos | Breakout rate | Median growth | Note |", "|---|---:|---:|---:|---|"]
-    for row in source_groups:
-        note = f"thin (n<{backtest.MIN_BUCKET_N})" if row["insufficient"] else ""
-        lines.append(f"| {row['source']} | {row['n']} | {row['breakout_rate']}% | {row['median_growth']}% | {note} |")
+
+    def add_groups(title: str, groups: list[dict], label_key: str) -> None:
+        lines.extend(["", f"## {title}", "", "| Cohort | Mature repos | Breakout rate | Median growth | Note |", "|---|---:|---:|---:|---|"])
+        for row in groups:
+            note = f"thin (n<{backtest.MIN_BUCKET_N})" if row["insufficient"] else ""
+            lines.append(f"| {row[label_key]} | {row['n']} | {row['breakout_rate']}% | {row['median_growth']}% | {note} |")
+
+    add_groups("Source cohorts", source_groups, "source")
+    add_groups("Recommendation-time age cohorts", age_groups, "bucket")
+    add_groups("Recommendation-time star cohorts", star_groups, "bucket")
     lines += [
         "",
         "## Interpretation guardrails",
         "",
         f"- Mature coverage is **{stats['coverage_pct']}%**; the remaining {stats['unlabelled']} recommendations are unknown, not negative labels.",
         f"- A cohort below {stats['min_bucket_n']} mature repos is marked thin and is not a basis for changing weights or adding a source.",
-        "- Source cohorts describe association, not incremental causal value; overlap and candidate-pool exposure are not controlled here.",
+        "- Source cohorts are descriptive associations. Age and starting-star tables reduce obvious confounding but do not establish incremental or causal source value.",
         "",
     ]
     return "\n".join(lines)
-
-
 def build_report(today: str) -> tuple[str, dict]:
     series = backtest._load(backtest.DATA / "watch_series.json", {"repos": {}}).get("repos", {})
     snapshots = backtest._load(backtest.DATA / "star_snapshots.json", {"repos": {}}).get("repos", {})
     rows = backtest.label(backtest.recommendations(), series, snapshots)
     stats = backtest.summarise(rows)
     groups = source_summary(rows)
-    return render(today, stats, groups), {
+    age_groups = controlled_summary(rows, "age_days", AGE_BUCKETS)
+    star_groups = controlled_summary(rows, "stars_at_discovery", STAR_BUCKETS)
+    return render(today, stats, groups, age_groups, star_groups), {
         "date": today,
         "stats": stats,
         "source_groups": groups,
+        "age_groups": age_groups,
+        "star_groups": star_groups,
     }
 
 

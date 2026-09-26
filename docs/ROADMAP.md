@@ -8,7 +8,7 @@
 - **100-point scorer** — acceleration (40) + quality (30) + anti-spam (30), with code-quality bonus, suspicious-star and batch-fraud penalties, and an explainable reason line on every card
 - **Cross-day dedup** with a 7-day window, deep checks budgeted to the top-K candidates after coarse ranking
 - **Delivery** — daily email digest via Resend (dark-mode HTML) + GitHub Pages site with date/language filters
-- **Current quality baseline** — 199 tests and 19 executable receipts; the site, feed and daily JSON are generated from committed reports. The presentation pass (light/dark themes, two-band header, merged report header, lead-card treatment) is complete; further UI work is gated by a user task or a measured defect.
+- **Current quality baseline** — 200 tests and 19 executable receipts; the site, feed and daily JSON are generated from committed reports. The presentation pass (light/dark themes, two-band header, merged report header, lead-card treatment) is complete; further UI work is gated by a user task or a measured defect.
 
 ## Long-term operating plan
 
