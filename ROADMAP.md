@@ -39,9 +39,7 @@ Every change is evaluated against these bars, in this order:
 
 #### Phase 1 — Establish whether the score works (next)
 
-- Keep the current score frozen while collecting mature seven-day cohorts.
-- Report score deciles, source combinations, lead time and breakout labels with `N`, coverage and confidence caveats.
-- Change one scoring weight at a time, record the hypothesis before the run, and compare against a holdout period. No tuning from a single weekly table.
+- Holdout reports expose 1/3/7/14-day horizons: 1/3/14 are exploratory context, while 7 days remains the formal breakout gate. No horizon changes score weights by itself.
 
 **Exit gate:** at least two mature cohorts and at least 20 labelled observations in any bucket used for a comparison; otherwise the result remains “not yet measurable”.
 

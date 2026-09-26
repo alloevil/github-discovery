@@ -213,7 +213,7 @@
       "verified": "2026-09-26",
       "check": {
         "cmd": "python3 - <<'PY'\nimport glob, json\npaths = sorted(glob.glob('data/candidate-pool-*.json'))\nif not paths:\n    print('candidate pool: not-ready (no production pool yet)')\n    raise SystemExit(0)\npath = paths[-1]\ndoc = json.load(open(path, encoding='utf-8'))\nrows = doc.get('candidates') or []\nallowed = {'candidate', 'deduplicated', 'content_blocked', 'eligible', 'recommended'}\nnames = [r.get('full_name') for r in rows]\nproblems = []\nif len(names) != len(set(names)): problems.append('duplicate names')\nfor row in rows:\n    if not row.get('full_name'): problems.append('missing name')\n    if not (row.get('sources') or row.get('source')): problems.append('missing source')\n    if row.get('pool_status') not in allowed: problems.append('bad status')\nprint('candidate pool', path, 'rows', len(rows), 'problems', sorted(set(problems)))\nassert rows and not problems\nPY",
-        "expect": {"regex": "candidate pool: (not-ready|.*problems \\[\\])"},
+        "expect": {"regex": "candidate pool: not-ready|candidate pool .* problems \\[\\]"},
         "timeout": 60
       }
     },
