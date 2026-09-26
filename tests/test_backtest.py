@@ -101,3 +101,27 @@ class TestMatureSourceSummary:
         stars = mature_analysis.controlled_summary(rows, "stars_at_discovery", mature_analysis.STAR_BUCKETS)
         assert ages[0]["bucket"] == "0–2d" and ages[0]["n"] == 1
         assert stars[0]["bucket"] == "100–999" and stars[0]["breakout_rate"] == 100.0
+
+    def test_holdout_splits_by_date_and_marks_unready(self, tmp_path):
+        import holdout_analysis
+        (tmp_path / "candidate-pool-2026-09-01.json").write_text(json.dumps({
+            "date": "2026-09-01", "candidates": [
+                {"full_name": "old/recommended", "stars": 100, "pool_status": "recommended", "sources": ["search"], "pool_score": {"total": 90}},
+            ]
+        }))
+        (tmp_path / "candidate-pool-2026-09-10.json").write_text(json.dumps({
+            "date": "2026-09-10", "candidates": [
+                {"full_name": "new/recommended", "stars": 100, "pool_status": "recommended", "sources": ["search"], "pool_score": {"total": 90}},
+                {"full_name": "new/eligible", "stars": 100, "pool_status": "eligible", "sources": ["trending"], "pool_score": {"total": 80}},
+            ]
+        }))
+        (tmp_path / "watch_series.json").write_text(json.dumps({"repos": {
+            "old/recommended": [{"date": "2026-09-08", "stars": 350}],
+            "new/recommended": [{"date": "2026-09-17", "stars": 350}],
+            "new/eligible": [{"date": "2026-09-17", "stars": 150}],
+        }}))
+        result = holdout_analysis.evaluate("2026-09-05", tmp_path)
+        assert result["train"]["mature"] == 1
+        assert result["holdout"]["mature"] == 2
+        assert result["holdout"]["recommended_breakout_rate"] == 100.0
+        assert result["holdout"]["eligible_breakout_rate"] == 0.0

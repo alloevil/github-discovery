@@ -28,6 +28,14 @@ jobs:
         run: python3 scripts/backtest.py
       - name: Build mature cohort analysis
         run: python3 scripts/mature_analysis.py
+      - name: Build time-split holdout report when candidate pools exist
+        run: |
+          cutoff=$(find data -maxdepth 1 -name 'candidate-pool-*.json' -printf '%f\n' | sed 's/candidate-pool-//' | sort | tail -n 1 | sed 's/.json//' || true)
+          if [ -n "$cutoff" ]; then
+            python3 scripts/holdout_analysis.py --cutoff "$cutoff"
+          else
+            echo "No candidate pool yet; holdout remains not-ready"
+          fi
       - name: Commit the report if it moved
         run: |
           git add reports/
