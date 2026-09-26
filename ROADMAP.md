@@ -8,7 +8,7 @@
 - **100-point scorer** — acceleration (40) + quality (30) + anti-spam (30), with code-quality bonus, suspicious-star and batch-fraud penalties, and an explainable reason line on every card
 - **Cross-day dedup** with a 7-day window, deep checks budgeted to the top-K candidates after coarse ranking
 - **Delivery** — daily email digest via Resend (dark-mode HTML) + GitHub Pages site with date/language filters
-- **Current quality baseline** — 198 tests and 19 executable receipts; the site, feed and daily JSON are generated from committed reports. The presentation pass (light/dark themes, two-band header, merged report header, lead-card treatment) is complete; further UI work is gated by a user task or a measured defect.
+- **Current quality baseline** — 199 tests and 19 executable receipts; the site, feed and daily JSON are generated from committed reports. The presentation pass (light/dark themes, two-band header, merged report header, lead-card treatment) is complete; further UI work is gated by a user task or a measured defect.
 
 ## Long-term operating plan
 
@@ -31,7 +31,7 @@ Every change is evaluated against these bars, in this order:
 #### Phase 0 — Instrument the system before tuning it (active)
 
 - Add a daily source-health summary: fetched, parsed, rejected, deduplicated and finally recommended counts per source.
-- Add a build-parity check covering the report date in `data/`, `docs/index.html`, `feed.xml` and the deployed commit.
+- Save a complete `candidate-pool-YYYY-MM-DD.json` ledger with source membership, filter disposition, score components and final recommendation status so future precision/recall analysis includes non-selected candidates.
 - Publish watch-list coverage and mature-cohort counts next to the backtest; never compare score buckets without enough labelled observations.
 - Document the single deployment path: the workflow publishes `docs/` to `gh-pages`; a manual deploy must first fast-forward to the newest daily commit.
 
