@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-25T18:00:00Z</updated>
+  <updated>2026-09-26T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>vectorize-io/hindsight — Hindsight: Agent Memory That Learns</title>
+    <id>https://github.com/vectorize-io/hindsight#2026-09-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/vectorize-io/hindsight"/>
+    <updated>2026-09-26T18:00:00Z</updated>
+    <published>2026-09-26T18:00:00Z</published>
+    <summary>Hindsight: Agent Memory That Learns
+
+Why: +1987/day · Trending · 21.6x accelerating
+Score: 100/100 | Language: Python | ⭐ 30403 (+1987.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>devdotfast/whiteboard — open-source canvas for thoughtful software design</title>
+    <id>https://github.com/devdotfast/whiteboard#2026-09-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/devdotfast/whiteboard"/>
+    <updated>2026-09-26T18:00:00Z</updated>
+    <published>2026-09-26T18:00:00Z</published>
+    <summary>open-source canvas for thoughtful software design
+
+Why: +563/day · HN · 15.3x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 1397 (+563.0/day) | Source: hn</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA/Model-Optimizer — A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.</title>
+    <id>https://github.com/NVIDIA/Model-Optimizer#2026-09-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/NVIDIA/Model-Optimizer"/>
+    <updated>2026-09-26T18:00:00Z</updated>
+    <published>2026-09-26T18:00:00Z</published>
+    <summary>A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.
+
+Why: +352/day · Trending · 68.2x accelerating
+Score: 98/100 | Language: Python | ⭐ 4567 (+352.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>asokurasu/text-humanizer — A completely free open-sourced project designed to humanize AI-generated text through a multilingual LLM-powered rewriting pipeline. </title>
+    <id>https://github.com/asokurasu/text-humanizer#2026-09-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/asokurasu/text-humanizer"/>
+    <updated>2026-09-26T18:00:00Z</updated>
+    <published>2026-09-26T18:00:00Z</published>
+    <summary>A completely free open-sourced project designed to humanize AI-generated text through a multilingual LLM-powered rewriting pipeline. 
+
+Why: +361/day · Search
+Score: 94/100 | Language: Python | ⭐ 722 (+361.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>dgreenheck/tidewater — Coastal town built with Opus 5.5</title>
+    <id>https://github.com/dgreenheck/tidewater#2026-09-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/dgreenheck/tidewater"/>
+    <updated>2026-09-26T18:00:00Z</updated>
+    <published>2026-09-26T18:00:00Z</published>
+    <summary>Coastal town built with Opus 5.5
+
+Why: +320/day · Search
+Score: 94/100 | Language: JavaScript | ⭐ 640 (+320.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>mattpocock/skills — Skills for Real Engineers. Straight from my .agents directory.</title>
+    <id>https://github.com/mattpocock/skills#2026-09-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mattpocock/skills"/>
+    <updated>2026-09-26T18:00:00Z</updated>
+    <published>2026-09-26T18:00:00Z</published>
+    <summary>Skills for Real Engineers. Straight from my .agents directory.
+
+Why: +758/day · Trending
+Score: 90/100 | Language: Shell | ⭐ 269919 (+757.6/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>anthropics/claude-plugins-official — Official, Anthropic-managed directory of high quality Claude Code Plugins.</title>
+    <id>https://github.com/anthropics/claude-plugins-official#2026-09-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-plugins-official"/>
+    <updated>2026-09-26T18:00:00Z</updated>
+    <published>2026-09-26T18:00:00Z</published>
+    <summary>Official, Anthropic-managed directory of high quality Claude Code Plugins.
+
+Why: +54/day · Trending
+Score: 69/100 | Language: Python | ⭐ 37019 (+54.5/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>strands-agents/harness-sdk — Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python &amp; TypeScript - any model, any cloud.</title>
     <id>https://github.com/strands-agents/harness-sdk#2026-09-25</id>
@@ -855,82 +932,5 @@ Score: 96/100 | Language: Go | ⭐ 1460 (+213.0/day) | Source: trending</summary
 
 Why: +268/day · Trending · 30.2x accelerating
 Score: 92/100 | Language: Python | ⭐ 5231 (+268.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>nashsu/llm_wiki — LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。</title>
-    <id>https://github.com/nashsu/llm_wiki#2026-09-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/nashsu/llm_wiki"/>
-    <updated>2026-09-12T18:00:00Z</updated>
-    <published>2026-09-12T18:00:00Z</published>
-    <summary>LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。
-
-Why: +549/day · Trending · 4.5x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 18923 (+549.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>alsk1992/CloddsBot — Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans    for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.</title>
-    <id>https://github.com/alsk1992/CloddsBot#2026-09-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/alsk1992/CloddsBot"/>
-    <updated>2026-09-12T18:00:00Z</updated>
-    <published>2026-09-12T18:00:00Z</published>
-    <summary>Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans    for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.
-
-Why: +387/day · Trending · 38.9x accelerating
-Score: 99/100 | Language: TypeScript | ⭐ 2268 (+387.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>armory3d/armorpaint — Graphics Creation Tools</title>
-    <id>https://github.com/armory3d/armorpaint#2026-09-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/armory3d/armorpaint"/>
-    <updated>2026-09-12T18:00:00Z</updated>
-    <published>2026-09-12T18:00:00Z</published>
-    <summary>Graphics Creation Tools
-
-Why: +248/day · Trending · 181.0x accelerating
-Score: 97/100 | Language: C | ⭐ 4801 (+248.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>sumimakito/Mac-Duo — Wish you could bring the iPhone Duo effect to your MacBook?</title>
-    <id>https://github.com/sumimakito/Mac-Duo#2026-09-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/sumimakito/Mac-Duo"/>
-    <updated>2026-09-12T18:00:00Z</updated>
-    <published>2026-09-12T18:00:00Z</published>
-    <summary>Wish you could bring the iPhone Duo effect to your MacBook?
-
-Why: +613/day · Search
-Score: 96/100 | Language: Swift | ⭐ 613 (+613.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>mizzlelover/gongwen-gbt9704-skill — 跨平台中文公文排版 Skill，生成参照 GB/T 9704-2012 的可编辑 DOCX</title>
-    <id>https://github.com/mizzlelover/gongwen-gbt9704-skill#2026-09-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mizzlelover/gongwen-gbt9704-skill"/>
-    <updated>2026-09-12T18:00:00Z</updated>
-    <published>2026-09-12T18:00:00Z</published>
-    <summary>跨平台中文公文排版 Skill，生成参照 GB/T 9704-2012 的可编辑 DOCX
-
-Why: +258/day · Search
-Score: 93/100 | Language: JavaScript | ⭐ 517 (+258.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>holaboss-ai/holaOS — Open-source agentic workspace enterprises can make their own. Connect the systems you already run — 100+ integrations, MCP, chat tools, apps, browser, local files — with shared memory. Any agent (Claude Code, Codex), any model, or BYOK. Set up in clicks, not months. Local-first: your data never leaves your machines.</title>
-    <id>https://github.com/holaboss-ai/holaOS#2026-09-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/holaboss-ai/holaOS"/>
-    <updated>2026-09-12T18:00:00Z</updated>
-    <published>2026-09-12T18:00:00Z</published>
-    <summary>Open-source agentic workspace enterprises can make their own. Connect the systems you already run — 100+ integrations, MCP, chat tools, apps, browser, local files — with shared memory. Any agent (Claude Code, Codex), any model, or BYOK. Set up in clicks, not months. Local-first: your data never leaves your machines.
-
-Why: +138/day · HN · 2.1x accelerating
-Score: 89/100 | Language: TypeScript | ⭐ 11219 (+137.6/day) | Source: hn</summary>
-  </entry>
-  <entry>
-    <title>github/spec-kit — 💫 Toolkit to help you get started with Spec-Driven Development</title>
-    <id>https://github.com/github/spec-kit#2026-09-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/github/spec-kit"/>
-    <updated>2026-09-12T18:00:00Z</updated>
-    <published>2026-09-12T18:00:00Z</published>
-    <summary>💫 Toolkit to help you get started with Spec-Driven Development
-
-Why: +245/day · Trending
-Score: 87/100 | Language: Python | ⭐ 135881 (+244.7/day) | Source: trending</summary>
   </entry>
 </feed>

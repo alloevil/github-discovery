@@ -1,85 +1,5 @@
 {
  "repos": {
-  "Tencent/teamai-cli": {
-   "first_seen": "2026-09-11",
-   "until": "2026-09-25",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "vastsa/PI-Desktop": {
-   "first_seen": "2026-09-11",
-   "until": "2026-09-25",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "kevinzakka/mjbatch": {
-   "first_seen": "2026-09-11",
-   "until": "2026-09-25",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "liquidslr/system-design-notes": {
-   "first_seen": "2026-09-11",
-   "until": "2026-09-25",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "angusdevgo/IDM_Pro_Tool": {
-   "first_seen": "2026-09-11",
-   "until": "2026-09-25",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "showlab/Show-Harness": {
-   "first_seen": "2026-09-11",
-   "until": "2026-09-25",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "viettranx/3dviz-pro-max": {
-   "first_seen": "2026-09-11",
-   "until": "2026-09-25",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "JustVugg/colibri": {
-   "first_seen": "2026-09-11",
-   "until": "2026-09-25",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "diegosouzapw/OmniRoute": {
-   "first_seen": "2026-09-11",
-   "until": "2026-09-25",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "crwdla/tokentab": {
-   "first_seen": "2026-09-11",
-   "until": "2026-09-25",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
   "nashsu/llm_wiki": {
    "first_seen": "2026-09-12",
    "until": "2026-09-26",
@@ -1142,7 +1062,91 @@
    "stars_at_discovery": 56995,
    "score_at_discovery": 86,
    "source_at_discovery": "trending"
+  },
+  "vectorize-io/hindsight": {
+   "first_seen": "2026-09-26",
+   "until": "2026-10-10",
+   "stars_at_discovery": 30403,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "devdotfast/whiteboard": {
+   "first_seen": "2026-09-26",
+   "until": "2026-10-10",
+   "stars_at_discovery": 1397,
+   "score_at_discovery": 100,
+   "source_at_discovery": "hn"
+  },
+  "NVIDIA/Model-Optimizer": {
+   "first_seen": "2026-09-26",
+   "until": "2026-10-10",
+   "stars_at_discovery": 4567,
+   "score_at_discovery": 98,
+   "source_at_discovery": "trending"
+  },
+  "asokurasu/text-humanizer": {
+   "first_seen": "2026-09-26",
+   "until": "2026-10-10",
+   "stars_at_discovery": 722,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "dgreenheck/tidewater": {
+   "first_seen": "2026-09-26",
+   "until": "2026-10-10",
+   "stars_at_discovery": 640,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "pbakaus/impeccable": {
+   "first_seen": "2026-09-26",
+   "until": "2026-10-10",
+   "stars_at_discovery": 71363,
+   "score_at_discovery": 93,
+   "source_at_discovery": "trending"
+  },
+  "jamespolyakov9829/captcha-api": {
+   "first_seen": "2026-09-26",
+   "until": "2026-10-10",
+   "stars_at_discovery": 263,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "supermemoryai/company-brain": {
+   "first_seen": "2026-09-26",
+   "until": "2026-10-10",
+   "stars_at_discovery": 229,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "ollaya-dev/ollaya": {
+   "first_seen": "2026-09-26",
+   "until": "2026-10-10",
+   "stars_at_discovery": 272,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "paperclipai/paperclip": {
+   "first_seen": "2026-09-26",
+   "until": "2026-10-10",
+   "stars_at_discovery": 85695,
+   "score_at_discovery": 89,
+   "source_at_discovery": "trending"
+  },
+  "mattpocock/skills": {
+   "first_seen": "2026-09-26",
+   "until": "2026-10-10",
+   "stars_at_discovery": 269919,
+   "score_at_discovery": 90,
+   "source_at_discovery": "trending"
+  },
+  "anthropics/claude-plugins-official": {
+   "first_seen": "2026-09-26",
+   "until": "2026-10-10",
+   "stars_at_discovery": 37019,
+   "score_at_discovery": 69,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-09-25T09:52:32.984893+00:00"
+ "updated_at": "2026-09-26T09:35:33.806452+00:00"
 }

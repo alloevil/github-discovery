@@ -1,0 +1,86 @@
+{
+ "date": "2026-09-26",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "obra/superpowers",
+   "stars": 291802,
+   "language": "Shell"
+  },
+  {
+   "full_name": "mattpocock/skills",
+   "stars": 269919,
+   "language": "Shell"
+  },
+  {
+   "full_name": "anthropics/skills",
+   "stars": 178464,
+   "language": "Python"
+  },
+  {
+   "full_name": "paperclipai/paperclip",
+   "stars": 85695,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "pbakaus/impeccable",
+   "stars": 71363,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "rohitg00/ai-engineering-from-scratch",
+   "stars": 57815,
+   "language": "Python"
+  },
+  {
+   "full_name": "kelseyhightower/kubernetes-the-hard-way",
+   "stars": 50177,
+   "language": ""
+  },
+  {
+   "full_name": "anthropics/claude-plugins-official",
+   "stars": 37019,
+   "language": "Python"
+  },
+  {
+   "full_name": "vectorize-io/hindsight",
+   "stars": 30403,
+   "language": "Python"
+  },
+  {
+   "full_name": "dream-num/univer",
+   "stars": 18882,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "google/ax",
+   "stars": 11712,
+   "language": "Go"
+  },
+  {
+   "full_name": "openbao/openbao",
+   "stars": 7850,
+   "language": "Go"
+  },
+  {
+   "full_name": "shy3130/tick-stock-panel",
+   "stars": 5207,
+   "language": "Python"
+  },
+  {
+   "full_name": "NVIDIA/Model-Optimizer",
+   "stars": 4567,
+   "language": "Python"
+  },
+  {
+   "full_name": "derv82/wifit3",
+   "stars": 1070,
+   "language": "Python"
+  },
+  {
+   "full_name": "androoAGI/starnet",
+   "stars": 578,
+   "language": "JavaScript"
+  }
+ ]
+}

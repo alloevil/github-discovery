@@ -36,16 +36,17 @@
       "last_recommended": "2026-09-17T09:41:05.679036+00:00"
     },
     "mattpocock/skills": {
-      "count": 6,
+      "count": 7,
       "scores": [
         100,
         100,
         100,
         100,
         100,
+        90,
         90
       ],
-      "last_recommended": "2026-09-03T09:12:32.924122+00:00"
+      "last_recommended": "2026-09-26T09:32:50.362986+00:00"
     },
     "addyosmani/agent-skills": {
       "count": 4,
@@ -190,11 +191,12 @@
       "last_recommended": "2026-09-25T09:49:06.568574+00:00"
     },
     "anthropics/claude-plugins-official": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        99
+        99,
+        69
       ],
-      "last_recommended": "2026-08-27T15:32:28.591327+00:00"
+      "last_recommended": "2026-09-26T09:32:50.365232+00:00"
     },
     "marin-community/marin": {
       "count": 1,
@@ -2296,7 +2298,77 @@
         90
       ],
       "last_recommended": "2026-09-25T09:49:06.566501+00:00"
+    },
+    "vectorize-io/hindsight": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-26T09:32:50.338407+00:00"
+    },
+    "devdotfast/whiteboard": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-26T09:32:50.340830+00:00"
+    },
+    "NVIDIA/Model-Optimizer": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-09-26T09:32:50.343082+00:00"
+    },
+    "asokurasu/text-humanizer": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-09-26T09:32:50.345324+00:00"
+    },
+    "dgreenheck/tidewater": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-09-26T09:32:50.349481+00:00"
+    },
+    "pbakaus/impeccable": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-09-26T09:32:50.351729+00:00"
+    },
+    "jamespolyakov9829/captcha-api": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-09-26T09:32:50.353974+00:00"
+    },
+    "supermemoryai/company-brain": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-26T09:32:50.356207+00:00"
+    },
+    "ollaya-dev/ollaya": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-26T09:32:50.358457+00:00"
+    },
+    "paperclipai/paperclip": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-26T09:32:50.360662+00:00"
     }
   },
-  "updated_at": "2026-09-25T09:49:06.568600+00:00"
+  "updated_at": "2026-09-26T09:32:50.365261+00:00"
 }

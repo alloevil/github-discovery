@@ -1,0 +1,384 @@
+{
+ "date": "2026-09-26",
+ "generated_at": "2026-09-26T09:32:50.547756",
+ "pool_size": 90,
+ "source_health": {
+  "trending": {
+   "fetched": 16,
+   "parsed": 16,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 6
+  },
+  "search": {
+   "fetched": 58,
+   "parsed": 58,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 5
+  },
+  "hn": {
+   "fetched": 9,
+   "parsed": 9,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  },
+  "rising": {
+   "fetched": 4,
+   "parsed": 4,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 9,
+   "parsed": 9,
+   "rejected": 0,
+   "deduplicated": 2,
+   "recommended": 0
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "description": "Hindsight: Agent Memory That Learns",
+   "language": "Python",
+   "stars": 30403,
+   "forks": 3265,
+   "age_days": 330,
+   "daily_stars": 92.13030303030303,
+   "real_daily_stars": 1987.0,
+   "watchers": 68,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "devdotfast/whiteboard",
+   "url": "https://github.com/devdotfast/whiteboard",
+   "description": "open-source canvas for thoughtful software design",
+   "language": "TypeScript",
+   "stars": 1397,
+   "forks": 63,
+   "age_days": 38,
+   "daily_stars": 36.76315789473684,
+   "real_daily_stars": 563.0,
+   "watchers": 0,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "MIT",
+   "hn_title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+   "hn_score": 401,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "NVIDIA/Model-Optimizer",
+   "url": "https://github.com/NVIDIA/Model-Optimizer",
+   "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+   "language": "Python",
+   "stars": 4567,
+   "forks": 657,
+   "age_days": 885,
+   "daily_stars": 5.16045197740113,
+   "real_daily_stars": 352.0,
+   "watchers": 35,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 98,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "asokurasu/text-humanizer",
+   "url": "https://github.com/asokurasu/text-humanizer",
+   "description": "A completely free open-sourced project designed to humanize AI-generated text through a multilingual LLM-powered rewriting pipeline. ",
+   "language": "Python",
+   "stars": 722,
+   "forks": 82,
+   "age_days": 2,
+   "daily_stars": 361.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "dgreenheck/tidewater",
+   "url": "https://github.com/dgreenheck/tidewater",
+   "description": "Coastal town built with Opus 5.5",
+   "language": "JavaScript",
+   "stars": 640,
+   "forks": 154,
+   "age_days": 2,
+   "daily_stars": 320.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "description": "The design language that makes your AI harness better at design.",
+   "language": "JavaScript",
+   "stars": 71363,
+   "forks": 4313,
+   "age_days": 314,
+   "daily_stars": 227.27070063694268,
+   "real_daily_stars": 395.0,
+   "watchers": 197,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "jamespolyakov9829/captcha-api",
+   "url": "https://github.com/jamespolyakov9829/captcha-api",
+   "description": "Captcha-solving API client - Cloudflare Challenge and Turnstile in one interface, with cost tracking and concurrent batch solves.",
+   "language": "Python",
+   "stars": 263,
+   "forks": 37,
+   "age_days": 1,
+   "daily_stars": 263.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "supermemoryai/company-brain",
+   "url": "https://github.com/supermemoryai/company-brain",
+   "description": "Open-sourcing our company brain - A teammate in your Slack that remembers everything your team says, and can go do the work.",
+   "language": "TypeScript",
+   "stars": 229,
+   "forks": 32,
+   "age_days": 1,
+   "daily_stars": 229.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "ollaya-dev/ollaya",
+   "url": "https://github.com/ollaya-dev/ollaya",
+   "description": "Run open decision models locally: pull and serve Laya, decider, NLI and GLiClass behind a TypeSafe-compatible API. Ollama for decision models.",
+   "language": "Rust",
+   "stars": 272,
+   "forks": 12,
+   "age_days": 2,
+   "daily_stars": 136.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "paperclipai/paperclip",
+   "url": "https://github.com/paperclipai/paperclip",
+   "description": "The open-source app everyone uses to manage agents at work",
+   "language": "TypeScript",
+   "stars": 85695,
+   "forks": 15290,
+   "age_days": 207,
+   "daily_stars": 413.9855072463768,
+   "watchers": 421,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "description": "Skills for Real Engineers. Straight from my .agents directory.",
+   "language": "Shell",
+   "stars": 269919,
+   "forks": 22744,
+   "age_days": 234,
+   "daily_stars": 1153.5,
+   "real_daily_stars": 757.6315789473684,
+   "watchers": 1497,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "anthropics/claude-plugins-official",
+   "url": "https://github.com/anthropics/claude-plugins-official",
+   "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+   "language": "Python",
+   "stars": 37019,
+   "forks": 4159,
+   "age_days": 309,
+   "daily_stars": 119.80258899676376,
+   "real_daily_stars": 54.48148148148148,
+   "watchers": 230,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "rank": 2,
+   "scores": {
+    "total": 69,
+    "acceleration": 19,
+    "quality": 20,
+    "antispam": 30,
+    "rank_in_pool": 38,
+    "pool_size": 90,
+    "top_pct": 42.2
+   }
+  }
+ ]
+}
