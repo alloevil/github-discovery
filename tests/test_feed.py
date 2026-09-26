@@ -1,5 +1,14 @@
 """测试 Atom feed 生成（issue #5）。"""
 
+def test_committed_build_parity_script():
+    """The newest committed report date must propagate to every publication artifact."""
+    import subprocess
+    from pathlib import Path
+
+    root = Path(__file__).resolve().parents[1]
+    result = subprocess.run(["python3", "scripts/check_build_parity.py"], cwd=root, capture_output=True, text=True)
+    assert result.returncode == 0, result.stdout + result.stderr
+
 import xml.etree.ElementTree as ET
 
 import pytest
