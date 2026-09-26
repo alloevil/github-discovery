@@ -256,9 +256,11 @@
   .date-section { margin-bottom: 40px; }
   .date-header {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
-    padding: 12px 0;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+    padding: 12px 0 8px;
     border-bottom: 1px solid var(--hairline);
     margin-bottom: 4px;
   }
@@ -267,7 +269,14 @@
     font-weight: 600;
     letter-spacing: .04em;
     color: var(--ink-subtle);
-    letter-spacing: -0.2px;
+    font-variant-numeric: tabular-nums;
+  }
+  .date-heading {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-width: 0;
   }
   .section-label {
     display: flex;
@@ -280,6 +289,7 @@
     color: var(--ink-tertiary);
     margin: 16px 0 4px;
   }
+  .section-label-primary { margin: 0; }
   .section-label .label-count {
     font-size: 12.5px;
     font-weight: 400;
@@ -290,6 +300,7 @@
     font-size: 12.5px;
     color: var(--ink-tertiary);
   }
+  .date-count { margin-left: auto; }
 
   /* Repo Card */
   .repo {

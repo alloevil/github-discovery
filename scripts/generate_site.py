@@ -238,15 +238,19 @@ def generate_content(reports):
     for i, (date_str, first_timers, repeat_performers) in enumerate(reports[:7]):
         display = '' if i == 0 else 'none'
         cards = []
+        primary_group = ''
         if first_timers:
-            cards.append(f'      <div class="section-label"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">{len(first_timers)}</span></div>')
+            primary_group = f'<span class="section-label section-label-primary"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">{len(first_timers)}</span></span>'
             for r in first_timers[:10]:
                 cards.append(repo_card(r))
         if repeat_performers:
-            cards.append(f'      <div class="section-label"><span class="label-icon">🔄</span><span>Repeat Performers</span><span class="label-count">{len(repeat_performers)}</span></div>')
+            if primary_group:
+                cards.append(f'      <div class="section-label"><span class="label-icon">🔄</span><span>Repeat Performers</span><span class="label-count">{len(repeat_performers)}</span></div>')
+            else:
+                primary_group = f'<span class="section-label section-label-primary"><span class="label-icon">🔄</span><span>Repeat Performers</span><span class="label-count">{len(repeat_performers)}</span></span>'
             for r in repeat_performers[:5]:
                 cards.append(repo_card(r))
-        sections.append(f'    <div class="date-section" data-date="{date_str}" style="display:{display}">\n      <div class="date-header"><h2>{date_str}</h2><span class="date-count">{len(first_timers) + len(repeat_performers)} repos</span></div>\n' + '\n'.join(cards) + '\n    </div>')
+        sections.append(f'    <div class="date-section" data-date="{date_str}" style="display:{display}">\n      <div class="date-header"><div class="date-heading"><h2>{date_str}</h2>{primary_group}</div><span class="date-count">{len(first_timers) + len(repeat_performers)} repos</span></div>\n' + '\n'.join(cards) + '\n    </div>')
 
     spark_days = [(date_str, len(first) + len(repeat)) for date_str, first, repeat in reports[:SPARK_DAYS]][::-1]
 

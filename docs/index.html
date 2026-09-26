@@ -256,9 +256,11 @@
   .date-section { margin-bottom: 40px; }
   .date-header {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
-    padding: 12px 0;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+    padding: 12px 0 8px;
     border-bottom: 1px solid var(--hairline);
     margin-bottom: 4px;
   }
@@ -267,7 +269,14 @@
     font-weight: 600;
     letter-spacing: .04em;
     color: var(--ink-subtle);
-    letter-spacing: -0.2px;
+    font-variant-numeric: tabular-nums;
+  }
+  .date-heading {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-width: 0;
   }
   .section-label {
     display: flex;
@@ -280,6 +289,7 @@
     color: var(--ink-tertiary);
     margin: 16px 0 4px;
   }
+  .section-label-primary { margin: 0; }
   .section-label .label-count {
     font-size: 12.5px;
     font-weight: 400;
@@ -290,6 +300,7 @@
     font-size: 12.5px;
     color: var(--ink-tertiary);
   }
+  .date-count { margin-left: auto; }
 
   /* Repo Card */
   .repo {
@@ -590,8 +601,7 @@
     </div>
 
         <div class="date-section" data-date="2026-09-25" style="display:">
-      <div class="date-header"><h2>2026-09-25</h2><span class="date-count">11 repos</span></div>
-      <div class="section-label"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></div>
+      <div class="date-header"><div class="date-heading"><h2>2026-09-25</h2><span class="section-label section-label-primary"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></span></div><span class="date-count">11 repos</span></div>
       <div class="repo" data-lang="python" data-source="trending">
         <div class="repo-top">
           <img class="repo-avatar" src="https://github.com/strands-agents.png" alt="strands-agents" onerror="this.style.display='none'">
@@ -749,8 +759,7 @@
       </div>
     </div>
     <div class="date-section" data-date="2026-09-24" style="display:none">
-      <div class="date-header"><h2>2026-09-24</h2><span class="date-count">11 repos</span></div>
-      <div class="section-label"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></div>
+      <div class="date-header"><div class="date-heading"><h2>2026-09-24</h2><span class="section-label section-label-primary"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></span></div><span class="date-count">11 repos</span></div>
       <div class="repo" data-lang="go" data-source="trending">
         <div class="repo-top">
           <img class="repo-avatar" src="https://github.com/google.png" alt="google" onerror="this.style.display='none'">
@@ -908,8 +917,7 @@
       </div>
     </div>
     <div class="date-section" data-date="2026-09-23" style="display:none">
-      <div class="date-header"><h2>2026-09-23</h2><span class="date-count">10 repos</span></div>
-      <div class="section-label"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></div>
+      <div class="date-header"><div class="date-heading"><h2>2026-09-23</h2><span class="section-label section-label-primary"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></span></div><span class="date-count">10 repos</span></div>
       <div class="repo" data-lang="python" data-source="trending">
         <div class="repo-top">
           <img class="repo-avatar" src="https://github.com/mvt-project.png" alt="mvt-project" onerror="this.style.display='none'">
@@ -1052,8 +1060,7 @@
       </div>
     </div>
     <div class="date-section" data-date="2026-09-22" style="display:none">
-      <div class="date-header"><h2>2026-09-22</h2><span class="date-count">10 repos</span></div>
-      <div class="section-label"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></div>
+      <div class="date-header"><div class="date-heading"><h2>2026-09-22</h2><span class="section-label section-label-primary"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></span></div><span class="date-count">10 repos</span></div>
       <div class="repo" data-lang="typescript" data-source="trending">
         <div class="repo-top">
           <img class="repo-avatar" src="https://github.com/BuilderIO.png" alt="BuilderIO" onerror="this.style.display='none'">
@@ -1196,8 +1203,7 @@
       </div>
     </div>
     <div class="date-section" data-date="2026-09-21" style="display:none">
-      <div class="date-header"><h2>2026-09-21</h2><span class="date-count">11 repos</span></div>
-      <div class="section-label"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></div>
+      <div class="date-header"><div class="date-heading"><h2>2026-09-21</h2><span class="section-label section-label-primary"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></span></div><span class="date-count">11 repos</span></div>
       <div class="repo" data-lang="html" data-source="trending + hn">
         <div class="repo-top">
           <img class="repo-avatar" src="https://github.com/trycua.png" alt="trycua" onerror="this.style.display='none'">
@@ -1355,8 +1361,7 @@
       </div>
     </div>
     <div class="date-section" data-date="2026-09-20" style="display:none">
-      <div class="date-header"><h2>2026-09-20</h2><span class="date-count">10 repos</span></div>
-      <div class="section-label"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></div>
+      <div class="date-header"><div class="date-heading"><h2>2026-09-20</h2><span class="section-label section-label-primary"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></span></div><span class="date-count">10 repos</span></div>
       <div class="repo" data-lang="go" data-source="trending">
         <div class="repo-top">
           <img class="repo-avatar" src="https://github.com/asciimoo.png" alt="asciimoo" onerror="this.style.display='none'">
@@ -1499,8 +1504,7 @@
       </div>
     </div>
     <div class="date-section" data-date="2026-09-19" style="display:none">
-      <div class="date-header"><h2>2026-09-19</h2><span class="date-count">10 repos</span></div>
-      <div class="section-label"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></div>
+      <div class="date-header"><div class="date-heading"><h2>2026-09-19</h2><span class="section-label section-label-primary"><span class="label-icon">⭐</span><span>First Timers</span><span class="label-count">10</span></span></div><span class="date-count">10 repos</span></div>
       <div class="repo" data-lang="typescript" data-source="trending">
         <div class="repo-top">
           <img class="repo-avatar" src="https://github.com/Tencent.png" alt="Tencent" onerror="this.style.display='none'">
