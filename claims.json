@@ -134,17 +134,17 @@
     },
     {
       "id": "data-source-count",
-      "claim": "The pipeline collects from 6 data sources — fetch_trending, fetch_search, fetch_hn, fetch_rising, fetch_ai_trending and fetch_hf_papers — because that is how many fetch_* collectors fetch_all() in scripts/sources.py calls, tagged trending, search, hn, rising, ai-trending and hf-papers. This is the README's \"6 Data Sources\" table and the \"6 data sources\" line.",
+      "claim": "The pipeline collects from 6 data sources — the six fetchers listed in fetch_all() — and records their source tags as trending, search, hn, rising, ai-trending and hf-papers.",
       "value": "6",
       "metric": "number of source collectors wired into scripts/sources.py fetch_all()",
-      "method": "the check ast-parses scripts/sources.py, counts the fetch_* calls inside fetch_all() and lists the source tags assigned there; the count comes from the code, so wiring in or dropping a source fails it.",
-      "repro": "python3 -c \"import ast;s=open('scripts/sources.py').read();f=[n for n in ast.parse(s).body if getattr(n,'name','')=='fetch_all'][0];print([c.func.id for c in ast.walk(f) if isinstance(c,ast.Call) and getattr(c.func,'id','').startswith('fetch_') and c.func.id!='fetch_all'])\"",
+      "method": "The check AST-parses fetch_all(), finds the six fetcher names in its fetchers tuple, and confirms the six source tags. The count comes from executable wiring, not the README table.",
+      "repro": "grep -A8 'fetchers = (' scripts/sources.py",
       "evidence": "https://github.com/alloevil/github-discovery/blob/main/scripts/sources.py",
-      "verified": "2026-09-14",
+      "verified": "2026-09-26",
       "check": {
-        "cmd": "python3 -c \"import ast,re;s=open('scripts/sources.py').read();f=[n for n in ast.parse(s).body if isinstance(n,ast.FunctionDef) and n.name=='fetch_all'][0];calls=[c.func.id for c in ast.walk(f) if isinstance(c,ast.Call) and isinstance(c.func,ast.Name) and c.func.id.startswith('fetch_') and c.func.id!='fetch_all'];tags=re.findall(r'\\[\\\"source\\\"\\] = \\\"([a-z-]+)\\\"',s);print('fetch_* called by fetch_all:',len(calls),'| sources:',tags)\"",
+        "cmd": "python3 -c \"import ast,re;s=open('scripts/sources.py').read();f=[n for n in ast.parse(s).body if isinstance(n,ast.FunctionDef) and n.name=='fetch_all'][0];names=[elt.elts[0].value for n in ast.walk(f) if isinstance(n,ast.Assign) and any(getattr(t,'id','')=='fetchers' for t in n.targets) for elt in n.value.elts];tags=re.findall(r'\\(\\\"([a-z-]+)\\\", fetch_',ast.get_source_segment(s,[n for n in ast.walk(f) if isinstance(n,ast.Assign) and any(getattr(t,'id','')=='fetchers' for t in n.targets)][0]) or '');print('fetchers wired:',len(names),'| sources:',tags);assert names == ['trending','search','hn','rising','ai-trending','hf-papers']\"",
         "expect": {
-          "equals": "fetch_* called by fetch_all: 6 | sources: ['trending', 'search', 'hn', 'rising', 'ai-trending', 'hf-papers']"
+          "regex": "fetchers wired: 6 \\| sources: \\[.*hf-papers.*\\]"
         },
         "timeout": 60,
         "note": "counts the collectors in scripts/sources.py, not the README table rows"
@@ -205,7 +205,7 @@
     {
       "id": "test-count",
       "claim": "The suite has the number of tests the roadmap states.",
-      "value": "196 tests",
+      "value": "197 tests",
       "metric": "tests collected by pytest, against the count in docs/ROADMAP.md",
       "method": "docs/ROADMAP.md quotes the current count under 'Where we are'; this check runs pytest's collector and requires the two numbers to agree, so the figure cannot age in silence.",
       "repro": "python3 -m pytest --collect-only -q | tail -1; grep -o '[0-9]* tests' docs/ROADMAP.md",
@@ -213,9 +213,7 @@
       "as_of": "2026-09-26",
       "check": {
         "cmd": "python3 -c \"import re,subprocess,pathlib;out=subprocess.run(['python3','-m','pytest','--collect-only','-q'],capture_output=True,text=True).stdout;got=int(re.search(r'(\\d+) tests? collected', out).group(1));doc=int(re.search(r'(\\d+) tests', pathlib.Path('docs/ROADMAP.md').read_text()).group(1));print('pytest', got, 'roadmap', doc);assert got==doc\"",
-        "expect": {
-          "regex": "pytest \\d+ roadmap \\d+$"
-        },
+        "expect": {"regex": "pytest \\d+ roadmap \\d+$"},
         "timeout": 180
       }
     },
