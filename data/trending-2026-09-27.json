@@ -3,78 +3,13 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "tensorflow/tensorflow",
-   "stars": 200530,
-   "language": "C++"
-  },
-  {
-   "full_name": "microsoft/vscode",
-   "stars": 193143,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "vercel/next.js",
-   "stars": 142738,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "paperclipai/paperclip",
-   "stars": 88250,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "rohitg00/ai-engineering-from-scratch",
-   "stars": 58664,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "llvm/llvm-project",
-   "stars": 40792,
-   "language": "LLVM"
-  },
-  {
-   "full_name": "zhaoxuya520/reverse-skill",
-   "stars": 38211,
-   "language": "PowerShell"
-  },
-  {
-   "full_name": "block/buzz",
-   "stars": 34925,
-   "language": "Rust"
-  },
-  {
-   "full_name": "vectorize-io/hindsight",
-   "stars": 34671,
-   "language": "Python"
-  },
-  {
-   "full_name": "dream-num/univer",
-   "stars": 19812,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "actions/runner-images",
-   "stars": 13361,
-   "language": "PowerShell"
-  },
-  {
-   "full_name": "anthropics/claude-code-action",
-   "stars": 9173,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "openbao/openbao",
-   "stars": 8088,
-   "language": "Go"
-  },
-  {
-   "full_name": "mobile-next/mobile-mcp",
-   "stars": 7588,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "NVIDIA/Model-Optimizer",
-   "stars": 4864,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
   }
  ]
