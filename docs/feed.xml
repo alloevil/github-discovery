@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-26T18:00:00Z</updated>
+  <updated>2026-09-27T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>openbao/openbao — OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.</title>
+    <id>https://github.com/openbao/openbao#2026-09-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/openbao/openbao"/>
+    <updated>2026-09-27T18:00:00Z</updated>
+    <published>2026-09-27T18:00:00Z</published>
+    <summary>OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.
+
+Why: +238/day · Trending · 31.0x accelerating
+Score: 96/100 | Language: Go | ⭐ 8088 (+238.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>feitangyuan/onetake — Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos.</title>
+    <id>https://github.com/feitangyuan/onetake#2026-09-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/feitangyuan/onetake"/>
+    <updated>2026-09-27T18:00:00Z</updated>
+    <published>2026-09-27T18:00:00Z</published>
+    <summary>Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos.
+
+Why: +388/day · Search+AI/ML
+Score: 95/100 | Language: Python | ⭐ 388 (+388.0/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>dzhng/jevgrep — Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.</title>
+    <id>https://github.com/dzhng/jevgrep#2026-09-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/dzhng/jevgrep"/>
+    <updated>2026-09-27T18:00:00Z</updated>
+    <published>2026-09-27T18:00:00Z</published>
+    <summary>Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.
+
+Why: +343/day · Search
+Score: 94/100 | Language: TypeScript | ⭐ 343 (+343.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>hokindeng/object-permanence — Training Object Permanence in World Models — the codebase</title>
+    <id>https://github.com/hokindeng/object-permanence#2026-09-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/hokindeng/object-permanence"/>
+    <updated>2026-09-27T18:00:00Z</updated>
+    <published>2026-09-27T18:00:00Z</published>
+    <summary>Training Object Permanence in World Models — the codebase
+
+Why: +105/day · HF Papers · 9.3x accelerating
+Score: 93/100 | Language: Python | ⭐ 124 (+105.0/day) | Source: hf-papers</summary>
+  </entry>
+  <entry>
+    <title>jaydendavisnc/inkwave — Splatoon-style 4v4 turf-war shooter for the browser, built on three.js. No build step.</title>
+    <id>https://github.com/jaydendavisnc/inkwave#2026-09-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/jaydendavisnc/inkwave"/>
+    <updated>2026-09-27T18:00:00Z</updated>
+    <published>2026-09-27T18:00:00Z</published>
+    <summary>Splatoon-style 4v4 turf-war shooter for the browser, built on three.js. No build step.
+
+Why: +197/day · Rising
+Score: 92/100 | Language: JavaScript | ⭐ 197 (+197.0/day) | Source: rising</summary>
+  </entry>
+  <entry>
+    <title>zhaoxuya520/reverse-skill — Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端</title>
+    <id>https://github.com/zhaoxuya520/reverse-skill#2026-09-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/zhaoxuya520/reverse-skill"/>
+    <updated>2026-09-27T18:00:00Z</updated>
+    <published>2026-09-27T18:00:00Z</published>
+    <summary>Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端
+
+Why: +178/day · Trending
+Score: 85/100 | Language: PowerShell | ⭐ 38211 (+178.5/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>vectorize-io/hindsight — Hindsight: Agent Memory That Learns</title>
     <id>https://github.com/vectorize-io/hindsight#2026-09-26</id>
@@ -877,60 +943,5 @@ Score: 100/100 | Language: Python | ⭐ 27579 (+1020.0/day) | Source: trending</
 
 Why: +293/day · Trending
 Score: 87/100 | Language: Python | ⭐ 58736 (+293.3/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>melgarafael/DeskcommCRM — Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk &amp; Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.</title>
-    <id>https://github.com/melgarafael/DeskcommCRM#2026-09-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/melgarafael/DeskcommCRM"/>
-    <updated>2026-09-13T18:00:00Z</updated>
-    <published>2026-09-13T18:00:00Z</published>
-    <summary>Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk &amp; Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.
-
-Why: +469/day · Trending · 32.7x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 1966 (+469.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>nab138/iloader — User friendly sideloader</title>
-    <id>https://github.com/nab138/iloader#2026-09-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/nab138/iloader"/>
-    <updated>2026-09-13T18:00:00Z</updated>
-    <published>2026-09-13T18:00:00Z</published>
-    <summary>User friendly sideloader
-
-Why: +219/day · Trending · 21.7x accelerating
-Score: 96/100 | Language: TypeScript | ⭐ 3183 (+219.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Sonarr/Sonarr — Smart PVR for newsgroup and bittorrent users.</title>
-    <id>https://github.com/Sonarr/Sonarr#2026-09-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Sonarr/Sonarr"/>
-    <updated>2026-09-13T18:00:00Z</updated>
-    <published>2026-09-13T18:00:00Z</published>
-    <summary>Smart PVR for newsgroup and bittorrent users.
-
-Why: +197/day · Trending · 67.3x accelerating
-Score: 96/100 | Language: C# | ⭐ 15997 (+197.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>p1neappleXpress/OpenFlux — Network stack research tool. TCP tunnel with pluggable transports.</title>
-    <id>https://github.com/p1neappleXpress/OpenFlux#2026-09-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/p1neappleXpress/OpenFlux"/>
-    <updated>2026-09-13T18:00:00Z</updated>
-    <published>2026-09-13T18:00:00Z</published>
-    <summary>Network stack research tool. TCP tunnel with pluggable transports.
-
-Why: +213/day · Trending · 12.1x accelerating
-Score: 96/100 | Language: Go | ⭐ 1460 (+213.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>jihe520/MathModelAgent — 🤖📐专为数学建模设计的 Agent &amp; skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.</title>
-    <id>https://github.com/jihe520/MathModelAgent#2026-09-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/jihe520/MathModelAgent"/>
-    <updated>2026-09-13T18:00:00Z</updated>
-    <published>2026-09-13T18:00:00Z</published>
-    <summary>🤖📐专为数学建模设计的 Agent &amp; skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.
-
-Why: +268/day · Trending · 30.2x accelerating
-Score: 92/100 | Language: Python | ⭐ 5231 (+268.0/day) | Source: trending</summary>
   </entry>
 </feed>

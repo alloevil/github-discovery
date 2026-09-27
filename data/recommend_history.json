@@ -133,14 +133,6 @@
       ],
       "last_recommended": "2026-09-12T08:51:47.499015+00:00"
     },
-    "OpenCut-app/OpenCut": {
-      "count": 2,
-      "scores": [
-        100,
-        89
-      ],
-      "last_recommended": "2026-08-27T15:32:28.611733+00:00"
-    },
     "JuliusBrussee/caveman": {
       "count": 2,
       "scores": [
@@ -198,27 +190,6 @@
       ],
       "last_recommended": "2026-09-26T09:32:50.365232+00:00"
     },
-    "marin-community/marin": {
-      "count": 1,
-      "scores": [
-        99
-      ],
-      "last_recommended": "2026-08-27T15:32:28.593548+00:00"
-    },
-    "Tencent/WeMM-Embedding": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-08-27T15:32:28.595537+00:00"
-    },
-    "gtlhuyidan-sketch/life-ipo": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-08-27T15:32:28.597578+00:00"
-    },
     "DietrichGebert/ponytail": {
       "count": 2,
       "scores": [
@@ -226,41 +197,6 @@
         85
       ],
       "last_recommended": "2026-09-04T09:04:30.202261+00:00"
-    },
-    "yding-git/personal-edge-proxy": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-08-27T15:32:28.601615+00:00"
-    },
-    "HVision-NKU/OraRL": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-08-27T15:32:28.603632+00:00"
-    },
-    "thedotmack/claude-mem": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-08-27T15:32:28.605659+00:00"
-    },
-    "farcasterxyz/client": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-08-27T15:32:28.607674+00:00"
-    },
-    "HEJustinSun/my-girlfriend-jingtian-latex": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-08-27T15:32:28.609714+00:00"
     },
     "tt-a1i/archify": {
       "count": 1,
@@ -596,11 +532,12 @@
       "last_recommended": "2026-09-01T09:37:03.996792+00:00"
     },
     "zhaoxuya520/reverse-skill": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        94
+        94,
+        85
       ],
-      "last_recommended": "2026-09-01T09:37:03.998952+00:00"
+      "last_recommended": "2026-09-27T10:13:45.793938+00:00"
     },
     "jlrouzies-fr/DLSS5-Feeder": {
       "count": 1,
@@ -2368,7 +2305,77 @@
         89
       ],
       "last_recommended": "2026-09-26T09:32:50.360662+00:00"
+    },
+    "openbao/openbao": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-27T10:13:45.780521+00:00"
+    },
+    "feitangyuan/onetake": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-09-27T10:13:45.782184+00:00"
+    },
+    "dzhng/jevgrep": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-09-27T10:13:45.783522+00:00"
+    },
+    "hokindeng/object-permanence": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-09-27T10:13:45.784815+00:00"
+    },
+    "jaydendavisnc/inkwave": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-27T10:13:45.786125+00:00"
+    },
+    "lemomo-ai/lemo-opuscar": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-27T10:13:45.787400+00:00"
+    },
+    "mexicat/pdoom-video": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-27T10:13:45.788707+00:00"
+    },
+    "Barty-Bart/motion-graphics": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-27T10:13:45.790014+00:00"
+    },
+    "852wa/JIZURA": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-27T10:13:45.791345+00:00"
+    },
+    "sopersone/cabbage-trading-machine": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-27T10:13:45.792627+00:00"
     }
   },
-  "updated_at": "2026-09-26T09:32:50.365261+00:00"
+  "updated_at": "2026-09-27T10:13:45.793951+00:00"
 }

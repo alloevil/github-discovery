@@ -1,85 +1,5 @@
 {
  "repos": {
-  "nashsu/llm_wiki": {
-   "first_seen": "2026-09-12",
-   "until": "2026-09-26",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "alsk1992/CloddsBot": {
-   "first_seen": "2026-09-12",
-   "until": "2026-09-26",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "armory3d/armorpaint": {
-   "first_seen": "2026-09-12",
-   "until": "2026-09-26",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "sumimakito/Mac-Duo": {
-   "first_seen": "2026-09-12",
-   "until": "2026-09-26",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "mizzlelover/gongwen-gbt9704-skill": {
-   "first_seen": "2026-09-12",
-   "until": "2026-09-26",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "nftechie/stonkfly": {
-   "first_seen": "2026-09-12",
-   "until": "2026-09-26",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "nhovongoc0-max/meme-radar": {
-   "first_seen": "2026-09-12",
-   "until": "2026-09-26",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "SpaceDudem/text-humanizer": {
-   "first_seen": "2026-09-12",
-   "until": "2026-09-26",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "kruzovic7/ai-data-extractor": {
-   "first_seen": "2026-09-12",
-   "until": "2026-09-26",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
-  "perseval-BLR/DLSS5-NeuralScreen": {
-   "first_seen": "2026-09-12",
-   "until": "2026-09-26",
-   "stars_at_discovery": null,
-   "score_at_discovery": null,
-   "source_at_discovery": "",
-   "backfilled": true
-  },
   "melgarafael/DeskcommCRM": {
    "first_seen": "2026-09-13",
    "until": "2026-09-27",
@@ -1146,7 +1066,84 @@
    "stars_at_discovery": 37019,
    "score_at_discovery": 69,
    "source_at_discovery": "trending"
+  },
+  "openbao/openbao": {
+   "first_seen": "2026-09-27",
+   "until": "2026-10-11",
+   "stars_at_discovery": 8088,
+   "score_at_discovery": 96,
+   "source_at_discovery": "trending"
+  },
+  "feitangyuan/onetake": {
+   "first_seen": "2026-09-27",
+   "until": "2026-10-11",
+   "stars_at_discovery": 388,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "dzhng/jevgrep": {
+   "first_seen": "2026-09-27",
+   "until": "2026-10-11",
+   "stars_at_discovery": 343,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "hokindeng/object-permanence": {
+   "first_seen": "2026-09-27",
+   "until": "2026-10-11",
+   "stars_at_discovery": 124,
+   "score_at_discovery": 93,
+   "source_at_discovery": "hf-papers"
+  },
+  "jaydendavisnc/inkwave": {
+   "first_seen": "2026-09-27",
+   "until": "2026-10-11",
+   "stars_at_discovery": 197,
+   "score_at_discovery": 92,
+   "source_at_discovery": "rising"
+  },
+  "lemomo-ai/lemo-opuscar": {
+   "first_seen": "2026-09-27",
+   "until": "2026-10-11",
+   "stars_at_discovery": 233,
+   "score_at_discovery": 92,
+   "source_at_discovery": "ai-trending"
+  },
+  "mexicat/pdoom-video": {
+   "first_seen": "2026-09-27",
+   "until": "2026-10-11",
+   "stars_at_discovery": 313,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "Barty-Bart/motion-graphics": {
+   "first_seen": "2026-09-27",
+   "until": "2026-10-11",
+   "stars_at_discovery": 138,
+   "score_at_discovery": 90,
+   "source_at_discovery": "ai-trending"
+  },
+  "852wa/JIZURA": {
+   "first_seen": "2026-09-27",
+   "until": "2026-10-11",
+   "stars_at_discovery": 701,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "sopersone/cabbage-trading-machine": {
+   "first_seen": "2026-09-27",
+   "until": "2026-10-11",
+   "stars_at_discovery": 250,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "zhaoxuya520/reverse-skill": {
+   "first_seen": "2026-09-27",
+   "until": "2026-10-11",
+   "stars_at_discovery": 38211,
+   "score_at_discovery": 85,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-09-26T09:35:33.806452+00:00"
+ "updated_at": "2026-09-27T10:17:08.752552+00:00"
 }
