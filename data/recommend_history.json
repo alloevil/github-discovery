@@ -14,15 +14,6 @@
       ],
       "last_recommended": "2026-09-24T09:33:33.043857+00:00"
     },
-    "ChromeDevTools/chrome-devtools-mcp": {
-      "count": 3,
-      "scores": [
-        100,
-        100,
-        74
-      ],
-      "last_recommended": "2026-08-28T16:56:44.805618+00:00"
-    },
     "affaan-m/ECC": {
       "count": 6,
       "scores": [
@@ -74,14 +65,6 @@
         92
       ],
       "last_recommended": "2026-09-01T09:37:04.005633+00:00"
-    },
-    "livekit/agents": {
-      "count": 2,
-      "scores": [
-        100,
-        74
-      ],
-      "last_recommended": "2026-08-28T16:56:44.807701+00:00"
     },
     "TauricResearch/TradingAgents": {
       "count": 3,
@@ -197,76 +180,6 @@
         85
       ],
       "last_recommended": "2026-09-04T09:04:30.202261+00:00"
-    },
-    "tt-a1i/archify": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-28T16:56:44.784780+00:00"
-    },
-    "K-Dense-AI/scientific-agent-skills": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-28T16:56:44.787063+00:00"
-    },
-    "JetBrains/go-modern-guidelines": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-28T16:56:44.789099+00:00"
-    },
-    "tashfeenahmed/freellmapi": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-28T16:56:44.791142+00:00"
-    },
-    "totec448-spec/chat-on-steroids": {
-      "count": 1,
-      "scores": [
-        97
-      ],
-      "last_recommended": "2026-08-28T16:56:44.793184+00:00"
-    },
-    "N4darae/anti-mage": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-08-28T16:56:44.795285+00:00"
-    },
-    "google/googletest": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-08-28T16:56:44.797355+00:00"
-    },
-    "crmne/fastpotify": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-08-28T16:56:44.799401+00:00"
-    },
-    "mouredev/hello-sdd": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-08-28T16:56:44.801420+00:00"
-    },
-    "damejan80/tokentab": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-08-28T16:56:44.803488+00:00"
     },
     "bilawalsidhu/gods-eye-view": {
       "count": 2,
@@ -708,12 +621,13 @@
       "last_recommended": "2026-09-04T09:04:30.182238+00:00"
     },
     "debpalash/VoiceStudio": {
-      "count": 2,
+      "count": 3,
       "scores": [
+        100,
         100,
         100
       ],
-      "last_recommended": "2026-09-14T06:57:14.887327+00:00"
+      "last_recommended": "2026-09-28T11:15:08.735534+00:00"
     },
     "google-research/timesfm": {
       "count": 1,
@@ -2375,7 +2289,77 @@
         89
       ],
       "last_recommended": "2026-09-27T10:13:45.792627+00:00"
+    },
+    "Appllama/liquid-glass-chat-ui": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-28T11:15:08.648546+00:00"
+    },
+    "AgentSystemLabs/agent-office": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-28T11:15:08.650531+00:00"
+    },
+    "pch/rawmakase": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-28T11:15:08.652346+00:00"
+    },
+    "glanderness/BeefTV": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-09-28T11:15:08.654089+00:00"
+    },
+    "Niko1221/Strata": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-28T11:15:08.724544+00:00"
+    },
+    "HeyOkay/HaloBattery": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-28T11:15:08.726597+00:00"
+    },
+    "Badtheorylabs/interference-search": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-28T11:15:08.728376+00:00"
+    },
+    "DanFessler/trellis": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-28T11:15:08.730136+00:00"
+    },
+    "emir/claude-s40": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-09-28T11:15:08.731919+00:00"
+    },
+    "Contrastive-LM/CLM": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-09-28T11:15:08.733685+00:00"
     }
   },
-  "updated_at": "2026-09-27T10:13:45.793951+00:00"
+  "updated_at": "2026-09-28T11:15:08.735554+00:00"
 }

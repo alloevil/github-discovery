@@ -1,0 +1,355 @@
+{
+ "date": "2026-09-28",
+ "generated_at": "2026-09-28T11:15:08.874827",
+ "pool_size": 67,
+ "source_health": {
+  "trending": {
+   "fetched": 9,
+   "parsed": 9,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  },
+  "search": {
+   "fetched": 53,
+   "parsed": 53,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 9
+  },
+  "hn": {
+   "fetched": 10,
+   "parsed": 10,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  },
+  "rising": {
+   "fetched": 2,
+   "parsed": 2,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 3,
+   "parsed": 3,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "Appllama/liquid-glass-chat-ui",
+   "url": "https://github.com/Appllama/liquid-glass-chat-ui",
+   "description": "Explore liquid-glass chat UIs with animated portraits, interactive stories, and floating composers.",
+   "language": "TypeScript",
+   "stars": 157,
+   "forks": 18,
+   "age_days": 1,
+   "daily_stars": 157.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "AgentSystemLabs/agent-office",
+   "url": "https://github.com/AgentSystemLabs/agent-office",
+   "description": "A cartoon 3D office where your team hires Claude Code workers at desks, shares live terminals, talks over voice, and tracks GitHub issues and PRs.",
+   "language": "TypeScript",
+   "stars": 218,
+   "forks": 49,
+   "age_days": 2,
+   "daily_stars": 109.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "pch/rawmakase",
+   "url": "https://github.com/pch/rawmakase",
+   "description": "Free Lightroom alternative for Linux and macOS (possibly Windows too - not tested)",
+   "language": "Rust",
+   "stars": 119,
+   "forks": 0,
+   "age_days": 1,
+   "daily_stars": 119.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "glanderness/BeefTV",
+   "url": "https://github.com/glanderness/BeefTV",
+   "description": "Local-first, lightweight, AI-native video workspace.",
+   "language": "TypeScript",
+   "stars": 296,
+   "forks": 59,
+   "age_days": 4,
+   "daily_stars": 74.0,
+   "real_daily_stars": 136.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Niko1221/Strata",
+   "url": "https://github.com/Niko1221/Strata",
+   "description": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+   "language": "C++",
+   "stars": 671,
+   "forks": 64,
+   "age_days": 3,
+   "daily_stars": 223.66666666666666,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 87,
+    "acceleration": 32,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "HeyOkay/HaloBattery",
+   "url": "https://github.com/HeyOkay/HaloBattery",
+   "description": "Unified battery level indicators for 2.4GHz mice, headsets and Bluetooth devices in the Windows tray",
+   "language": "Python",
+   "stars": 237,
+   "forks": 20,
+   "age_days": 3,
+   "daily_stars": 79.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Badtheorylabs/interference-search",
+   "url": "https://github.com/Badtheorylabs/interference-search",
+   "description": "Reason over explicit states, many branches at once: merge duplicates, cancel dead ends, advance together.",
+   "language": "Python",
+   "stars": 170,
+   "forks": 11,
+   "age_days": 2,
+   "daily_stars": 85.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "DanFessler/trellis",
+   "url": "https://github.com/DanFessler/trellis",
+   "description": "Fractal layouts for web apps: nest panels to any depth, zoom to the part you need, and keep every view alive.",
+   "language": "TypeScript",
+   "stars": 166,
+   "forks": 4,
+   "age_days": 2,
+   "daily_stars": 83.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "emir/claude-s40",
+   "url": "https://github.com/emir/claude-s40",
+   "description": "A 2007 Nokia can't search Google anymore, so I gave it Claude. Unofficial J2ME app + tiny Go server.",
+   "language": "Java",
+   "stars": 120,
+   "forks": 12,
+   "age_days": 2,
+   "daily_stars": 60.0,
+   "watchers": 2,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "MIT",
+   "hn_title": "Show HN: Claude on a 2007 Nokia 6300 (Java ME app, TLS 1.0, private CA)",
+   "hn_score": 4,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Contrastive-LM/CLM",
+   "url": "https://github.com/Contrastive-LM/CLM",
+   "description": "",
+   "language": "Python",
+   "stars": 2103,
+   "forks": 186,
+   "age_days": 4,
+   "daily_stars": 525.75,
+   "real_daily_stars": 383.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 86,
+    "acceleration": 29,
+    "quality": 27,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "language": "Python",
+   "stars": 41501,
+   "forks": 4918,
+   "age_days": 171,
+   "daily_stars": 242.69590643274853,
+   "real_daily_stars": 885.8,
+   "watchers": 165,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ]
+}
