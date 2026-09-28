@@ -100,4 +100,7 @@ def main() -> int:
     summary = ", ".join(f"{h}d={result['horizons'][str(h)]['holdout']['mature']}" for h in HORIZONS)
     print(f"holdout: {result['status']} ({summary}); 7d is formal, 1/3/14d exploratory; wrote {output}")
     return 0
+
+
+if __name__ == "__main__":
     raise SystemExit(main())

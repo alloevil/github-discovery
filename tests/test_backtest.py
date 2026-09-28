@@ -125,3 +125,10 @@ class TestMatureSourceSummary:
         assert result["holdout"]["mature"] == 2
         assert result["holdout"]["recommended_breakout_rate"] == 100.0
         assert result["holdout"]["eligible_breakout_rate"] == 0.0
+
+    def test_holdout_cli_writes_report(self, tmp_path):
+        import subprocess, sys
+        script = __import__("pathlib").Path(__file__).resolve().parents[1] / "scripts" / "holdout_analysis.py"
+        result = subprocess.run([sys.executable, str(script), "--cutoff", "2026-09-26", "--output", str(tmp_path / "holdout.json")], capture_output=True, text=True)
+        assert result.returncode == 0, result.stdout + result.stderr
+        assert (tmp_path / "holdout.json").exists()
