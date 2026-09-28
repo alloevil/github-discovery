@@ -18075,9 +18075,9 @@
     "stars": 156,
     "forks": 67,
     "open_issues": 0,
-    "commits_7d": 19,
+    "commits_7d": 23,
     "contributors_7d": 1,
-    "pushed_at": "2026-09-26T11:48:41Z"
+    "pushed_at": "2026-09-28T15:59:09Z"
    }
   ],
   "tamaratran/fast-jev-compaction": [
@@ -19560,8 +19560,8 @@
    },
    {
     "date": "2026-09-28",
-    "stars": 4487,
-    "forks": 310,
+    "stars": 4504,
+    "forks": 311,
     "open_issues": 42,
     "commits_7d": 7,
     "contributors_7d": 5,
@@ -21074,5 +21074,5 @@
    }
   ]
  },
- "updated_at": "2026-09-28T11:17:57.685268+00:00"
+ "updated_at": "2026-09-28T17:00:57.124109+00:00"
 }

@@ -3,49 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "paperclipai/paperclip",
-   "stars": 91483,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "rohitg00/ai-engineering-from-scratch",
-   "stars": 60010,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "debpalash/VoiceStudio",
-   "stars": 41501,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "vectorize-io/hindsight",
-   "stars": 39425,
-   "language": "Python"
-  },
-  {
-   "full_name": "dream-num/univer",
-   "stars": 20903,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "InfinityLoop1308/PipePipe",
-   "stars": 6768,
-   "language": "Shell"
-  },
-  {
-   "full_name": "vercel-labs/scriptc",
-   "stars": 5571,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "mvschwarz/openrig",
-   "stars": 1318,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "willfaust/Madeira",
-   "stars": 937,
-   "language": "C"
   }
  ]
 }
