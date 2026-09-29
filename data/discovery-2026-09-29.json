@@ -1,0 +1,325 @@
+{
+ "date": "2026-09-29",
+ "generated_at": "2026-09-29T10:55:41.896355",
+ "pool_size": 65,
+ "source_health": {
+  "trending": {
+   "fetched": 8,
+   "parsed": 8,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  },
+  "search": {
+   "fetched": 56,
+   "parsed": 56,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 8
+  },
+  "hn": {
+   "fetched": 9,
+   "parsed": 9,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 1,
+   "parsed": 1,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  },
+  "ai-trending": {
+   "fetched": 7,
+   "parsed": 7,
+   "rejected": 0,
+   "deduplicated": 2,
+   "recommended": 1
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "mvschwarz/openrig",
+   "url": "https://github.com/mvschwarz/openrig",
+   "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+   "language": "TypeScript",
+   "stars": 2043,
+   "forks": 152,
+   "age_days": 181,
+   "daily_stars": 11.287292817679559,
+   "real_daily_stars": 725.0,
+   "watchers": 10,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "firelex/jeff",
+   "url": "https://github.com/firelex/jeff",
+   "description": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
+   "language": "Python",
+   "stars": 792,
+   "forks": 27,
+   "age_days": 1,
+   "daily_stars": 792.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 2,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "kaankiziltug/logo-design-skill",
+   "url": "https://github.com/kaankiziltug/logo-design-skill",
+   "description": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
+   "language": "HTML",
+   "stars": 629,
+   "forks": 27,
+   "age_days": 3,
+   "daily_stars": 209.66666666666666,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "openJiuwen-ai/iCode",
+   "url": "https://github.com/openJiuwen-ai/iCode",
+   "description": "A lightweight, extensible, fully offline development platform and agent/workflow toolkit for the AI era, with an intuitive TUI, easy deployment, and complete control over your data, agents, and workflows.",
+   "language": "Python",
+   "stars": 201,
+   "forks": 28,
+   "age_days": 1,
+   "daily_stars": 201.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "chasmlol/2010-rust-rewrite-mashup",
+   "url": "https://github.com/chasmlol/2010-rust-rewrite-mashup",
+   "description": "MW2, Skate 3 and Minecraft in one Rust game: IW4L's MW2 rewrite with Skate 3 mode and a real Minecraft world map",
+   "language": "Rust",
+   "stars": 167,
+   "forks": 12,
+   "age_days": 1,
+   "daily_stars": 167.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "yihui-dev/awesome-opus5-5-videos",
+   "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+   "description": "A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
+   "language": "",
+   "stars": 832,
+   "forks": 96,
+   "age_days": 2,
+   "daily_stars": 416.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 90,
+    "acceleration": 35,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "scarletkc/seiso",
+   "url": "https://github.com/scarletkc/seiso",
+   "description": "A Markdown convention and linter for project docs written by AI and read by humans and agents",
+   "language": "Rust",
+   "stars": 138,
+   "forks": 6,
+   "age_days": 1,
+   "daily_stars": 138.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "shihabal3amri/DiPlay",
+   "url": "https://github.com/shihabal3amri/DiPlay",
+   "description": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
+   "language": "Kotlin",
+   "stars": 706,
+   "forks": 123,
+   "age_days": 4,
+   "daily_stars": 176.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "disler/ten-levels-of-jev",
+   "url": "https://github.com/disler/ten-levels-of-jev",
+   "description": "Ten levels of Jev, from one smart if statement to a coding agent that reaches for Jev on its own",
+   "language": "TypeScript",
+   "stars": 73,
+   "forks": 23,
+   "age_days": 1,
+   "daily_stars": 73.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "aicheye/supersidian",
+   "url": "https://github.com/aicheye/supersidian",
+   "description": "Supernote notebooks synced into an Obsidian vault (personal tool)",
+   "language": "TypeScript",
+   "stars": 149,
+   "forks": 150,
+   "age_days": 1,
+   "daily_stars": 149.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 85,
+    "acceleration": 30,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 12
+   }
+  }
+ ],
+ "repeat": []
+}

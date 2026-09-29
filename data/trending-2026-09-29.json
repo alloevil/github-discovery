@@ -1,0 +1,46 @@
+{
+ "date": "2026-09-29",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "paperclipai/paperclip",
+   "stars": 93867,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "byoungd/up",
+   "stars": 65368,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "debpalash/VoiceStudio",
+   "stars": 46144,
+   "language": "Python"
+  },
+  {
+   "full_name": "vectorize-io/hindsight",
+   "stars": 41900,
+   "language": "Python"
+  },
+  {
+   "full_name": "NawfalMotii79/PLFM_RADAR",
+   "stars": 26021,
+   "language": "PLSQL"
+  },
+  {
+   "full_name": "dream-num/univer",
+   "stars": 21579,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "cs341-illinois/coursebook",
+   "stars": 2759,
+   "language": "TeX"
+  },
+  {
+   "full_name": "mvschwarz/openrig",
+   "stars": 2043,
+   "language": "TypeScript"
+  }
+ ]
+}

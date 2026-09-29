@@ -189,20 +189,6 @@
       ],
       "last_recommended": "2026-09-11T09:10:30.506645+00:00"
     },
-    "tailscale/tailcat": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-29T11:22:18.632397+00:00"
-    },
-    "abi/screenshot-to-code": {
-      "count": 1,
-      "scores": [
-        99
-      ],
-      "last_recommended": "2026-08-29T11:22:18.634433+00:00"
-    },
     "NationalSecurityAgency/ghidra": {
       "count": 2,
       "scores": [
@@ -210,118 +196,6 @@
         95
       ],
       "last_recommended": "2026-09-16T09:32:40.858577+00:00"
-    },
-    "jprx/darwin-vm": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-08-29T11:22:18.638466+00:00"
-    },
-    "OnlyTerp/opengrok": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-08-29T11:22:18.643076+00:00"
-    },
-    "swoole/typephp": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-08-29T11:22:18.645139+00:00"
-    },
-    "chrisgreg/boop": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-08-29T11:22:18.647213+00:00"
-    },
-    "nateherkai/snagtime": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-08-29T11:22:18.649254+00:00"
-    },
-    "Nanako0129/sepia": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-08-29T11:22:18.651286+00:00"
-    },
-    "kacperkapusciak/goldie": {
-      "count": 1,
-      "scores": [
-        97
-      ],
-      "last_recommended": "2026-08-30T10:08:35.710029+00:00"
-    },
-    "cbrock84/headcount": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-08-30T10:08:35.712296+00:00"
-    },
-    "jub0t/WolfCut": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-08-30T10:08:35.714331+00:00"
-    },
-    "xzf-thu/VoiceMem": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-08-30T10:08:35.716370+00:00"
-    },
-    "jeffhajewski/latticedb": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-08-30T10:08:35.718457+00:00"
-    },
-    "actions/checkout": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-08-30T10:08:35.720508+00:00"
-    },
-    "MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-08-30T10:08:35.722518+00:00"
-    },
-    "bingreeky/JIT": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-08-30T10:08:35.724602+00:00"
-    },
-    "UrbanGround/UrbanGround": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-08-30T10:08:35.726678+00:00"
-    },
-    "MORTEN-BUUR/nordef-matrix-open-control": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-08-30T10:08:35.728746+00:00"
     },
     "THU-MAIC/OpenMAIC": {
       "count": 2,
@@ -2359,7 +2233,77 @@
         86
       ],
       "last_recommended": "2026-09-28T11:15:08.733685+00:00"
+    },
+    "mvschwarz/openrig": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-09-29T10:55:41.664346+00:00"
+    },
+    "firelex/jeff": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-29T10:55:41.666754+00:00"
+    },
+    "kaankiziltug/logo-design-skill": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-29T10:55:41.668878+00:00"
+    },
+    "openJiuwen-ai/iCode": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-09-29T10:55:41.671005+00:00"
+    },
+    "chasmlol/2010-rust-rewrite-mashup": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-09-29T10:55:41.673108+00:00"
+    },
+    "yihui-dev/awesome-opus5-5-videos": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-29T10:55:41.675354+00:00"
+    },
+    "scarletkc/seiso": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-29T10:55:41.677490+00:00"
+    },
+    "shihabal3amri/DiPlay": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-29T10:55:41.679847+00:00"
+    },
+    "disler/ten-levels-of-jev": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-09-29T10:55:41.681942+00:00"
+    },
+    "aicheye/supersidian": {
+      "count": 1,
+      "scores": [
+        85
+      ],
+      "last_recommended": "2026-09-29T10:55:41.684207+00:00"
     }
   },
-  "updated_at": "2026-09-28T11:15:08.735554+00:00"
+  "updated_at": "2026-09-29T10:55:41.684237+00:00"
 }

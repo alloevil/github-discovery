@@ -1,82 +1,5 @@
 {
  "repos": {
-  "asgeirtj/system_prompts_leaks": {
-   "first_seen": "2026-09-14",
-   "until": "2026-09-28",
-   "stars_at_discovery": 66282,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "vxcontrol/pentagi": {
-   "first_seen": "2026-09-14",
-   "until": "2026-09-28",
-   "stars_at_discovery": 24172,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "multimodal-art-projection/YuE": {
-   "first_seen": "2026-09-14",
-   "until": "2026-09-28",
-   "stars_at_discovery": 7939,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "SnailSploit/Claude-Red": {
-   "first_seen": "2026-09-14",
-   "until": "2026-09-28",
-   "stars_at_discovery": 4304,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "alphaXiv/OpenResearch": {
-   "first_seen": "2026-09-14",
-   "until": "2026-09-28",
-   "stars_at_discovery": 2252,
-   "score_at_discovery": 99,
-   "source_at_discovery": "trending"
-  },
-  "yuliskov/SmartTube": {
-   "first_seen": "2026-09-14",
-   "until": "2026-09-28",
-   "stars_at_discovery": 33533,
-   "score_at_discovery": 97,
-   "source_at_discovery": "trending"
-  },
-  "yifanzhang-pro/recurrent-looped-tranformer": {
-   "first_seen": "2026-09-14",
-   "until": "2026-09-28",
-   "stars_at_discovery": 619,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "eternityspring/reelbench-skills": {
-   "first_seen": "2026-09-14",
-   "until": "2026-09-28",
-   "stars_at_discovery": 582,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "unstablebuild/rune": {
-   "first_seen": "2026-09-14",
-   "until": "2026-09-28",
-   "stars_at_discovery": 484,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "suoha888/CJ-DeFi-Handbook": {
-   "first_seen": "2026-09-14",
-   "until": "2026-09-28",
-   "stars_at_discovery": 116,
-   "score_at_discovery": 89,
-   "source_at_discovery": "rising"
-  },
-  "calesthio/OpenMontage": {
-   "first_seen": "2026-09-14",
-   "until": "2026-09-28",
-   "stars_at_discovery": 58736,
-   "score_at_discovery": 87,
-   "source_at_discovery": "trending"
-  },
   "alibaba/open-code-review": {
    "first_seen": "2026-09-15",
    "until": "2026-09-29",
@@ -1140,7 +1063,77 @@
    "stars_at_discovery": 41501,
    "score_at_discovery": 100,
    "source_at_discovery": "trending"
+  },
+  "mvschwarz/openrig": {
+   "first_seen": "2026-09-29",
+   "until": "2026-10-13",
+   "stars_at_discovery": 2043,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "firelex/jeff": {
+   "first_seen": "2026-09-29",
+   "until": "2026-10-13",
+   "stars_at_discovery": 792,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "kaankiziltug/logo-design-skill": {
+   "first_seen": "2026-09-29",
+   "until": "2026-10-13",
+   "stars_at_discovery": 629,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "openJiuwen-ai/iCode": {
+   "first_seen": "2026-09-29",
+   "until": "2026-10-13",
+   "stars_at_discovery": 201,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "chasmlol/2010-rust-rewrite-mashup": {
+   "first_seen": "2026-09-29",
+   "until": "2026-10-13",
+   "stars_at_discovery": 167,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "yihui-dev/awesome-opus5-5-videos": {
+   "first_seen": "2026-09-29",
+   "until": "2026-10-13",
+   "stars_at_discovery": 832,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "scarletkc/seiso": {
+   "first_seen": "2026-09-29",
+   "until": "2026-10-13",
+   "stars_at_discovery": 138,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "shihabal3amri/DiPlay": {
+   "first_seen": "2026-09-29",
+   "until": "2026-10-13",
+   "stars_at_discovery": 706,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "disler/ten-levels-of-jev": {
+   "first_seen": "2026-09-29",
+   "until": "2026-10-13",
+   "stars_at_discovery": 73,
+   "score_at_discovery": 87,
+   "source_at_discovery": "rising"
+  },
+  "aicheye/supersidian": {
+   "first_seen": "2026-09-29",
+   "until": "2026-10-13",
+   "stars_at_discovery": 149,
+   "score_at_discovery": 85,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-09-28T11:17:57.699767+00:00"
+ "updated_at": "2026-09-29T10:59:02.783872+00:00"
 }
