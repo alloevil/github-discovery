@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-29T18:00:00Z</updated>
+  <updated>2026-09-30T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>cs341-illinois/coursebook — Open Source Introductory Systems Programming Textbook for the University of Illinois</title>
+    <id>https://github.com/cs341-illinois/coursebook#2026-09-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/cs341-illinois/coursebook"/>
+    <updated>2026-09-30T18:00:00Z</updated>
+    <published>2026-09-30T18:00:00Z</published>
+    <summary>Open Source Introductory Systems Programming Textbook for the University of Illinois
+
+Why: +520/day · Trending · 502.4x accelerating
+Score: 97/100 | Language: TeX | ⭐ 3279 (+520.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>feder-cr/dots — Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.</title>
+    <id>https://github.com/feder-cr/dots#2026-09-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/feder-cr/dots"/>
+    <updated>2026-09-30T18:00:00Z</updated>
+    <published>2026-09-30T18:00:00Z</published>
+    <summary>Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.
+
+Why: +862/day · Search
+Score: 96/100 | Language: Python | ⭐ 862 (+862.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>OpSafari/hypoarena — Scientific hypothesis-discovery workbench: grounded hypothesis-evidence graphs, synthetic literature with planted causal chains, generate-debate-evolve loops over pluggable offline adapters, Elo tournaments recovering planted skill order, paraphrase dedup, Bayesian evidence accumulation, reproducible reports. NumPy core, CPU-only torch extra.</title>
+    <id>https://github.com/OpSafari/hypoarena#2026-09-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/OpSafari/hypoarena"/>
+    <updated>2026-09-30T18:00:00Z</updated>
+    <published>2026-09-30T18:00:00Z</published>
+    <summary>Scientific hypothesis-discovery workbench: grounded hypothesis-evidence graphs, synthetic literature with planted causal chains, generate-debate-evolve loops over pluggable offline adapters, Elo tournaments recovering planted skill order, paraphrase dedup, Bayesian evidence accumulation, reproducible reports. NumPy core, CPU-only torch extra.
+
+Why: +545/day · Search
+Score: 96/100 | Language: Python | ⭐ 545 (+545.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>PostHog/jeeves — Jeeves – Reasoning improves Jev-like decision models</title>
+    <id>https://github.com/PostHog/jeeves#2026-09-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/PostHog/jeeves"/>
+    <updated>2026-09-30T18:00:00Z</updated>
+    <published>2026-09-30T18:00:00Z</published>
+    <summary>Jeeves – Reasoning improves Jev-like decision models
+
+Why: +318/day · Search
+Score: 94/100 | Language: Python | ⭐ 318 (+318.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>openai/mcp-extensions — Build plugins that feel like native, first-class features of ChatGPT.</title>
+    <id>https://github.com/openai/mcp-extensions#2026-09-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/openai/mcp-extensions"/>
+    <updated>2026-09-30T18:00:00Z</updated>
+    <published>2026-09-30T18:00:00Z</published>
+    <summary>Build plugins that feel like native, first-class features of ChatGPT.
+
+Why: +339/day · Search
+Score: 94/100 | Language: TypeScript | ⭐ 339 (+339.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>averygan/reclip — Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.</title>
+    <id>https://github.com/averygan/reclip#2026-09-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/averygan/reclip"/>
+    <updated>2026-09-30T18:00:00Z</updated>
+    <published>2026-09-30T18:00:00Z</published>
+    <summary>Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.
+
+Why: +78/day · Trending
+Score: 83/100 | Language: HTML | ⭐ 10493 (+77.8/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>mvschwarz/openrig — Multi-agent harness that runs Claude Code and Codex together as one system</title>
     <id>https://github.com/mvschwarz/openrig#2026-09-29</id>
@@ -844,82 +910,5 @@ Score: 90/100 | Language: JavaScript | ⭐ 260699 (+750.3/day) | Source: trendin
 
 Why: +125/day · Trending
 Score: 68/100 | Language: TypeScript | ⭐ 145729 (+125.1/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>tonhowtf/omniget — Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.</title>
-    <id>https://github.com/tonhowtf/omniget#2026-09-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/tonhowtf/omniget"/>
-    <updated>2026-09-16T18:00:00Z</updated>
-    <published>2026-09-16T18:00:00Z</published>
-    <summary>Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.
-
-Why: +664/day · Trending · 10.8x accelerating
-Score: 100/100 | Language: Rust | ⭐ 13319 (+664.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>letorig/video-generator-client — Async Python wrapper for Seedance, Kling, MiniMax and Wan video generation. Supports CLI and a local web UI</title>
-    <id>https://github.com/letorig/video-generator-client#2026-09-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/letorig/video-generator-client"/>
-    <updated>2026-09-16T18:00:00Z</updated>
-    <published>2026-09-16T18:00:00Z</published>
-    <summary>Async Python wrapper for Seedance, Kling, MiniMax and Wan video generation. Supports CLI and a local web UI
-
-Why: +516/day · Search
-Score: 96/100 | Language: Python | ⭐ 516 (+516.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>pacifio/atlas — Source control for agents. Use multiple coding agents, track their changes and query them in one place</title>
-    <id>https://github.com/pacifio/atlas#2026-09-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/pacifio/atlas"/>
-    <updated>2026-09-16T18:00:00Z</updated>
-    <published>2026-09-16T18:00:00Z</published>
-    <summary>Source control for agents. Use multiple coding agents, track their changes and query them in one place
-
-Why: +131/day · Trending · 3.4x accelerating
-Score: 94/100 | Language: Rust | ⭐ 4767 (+131.1/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>opencoredev/bg0 — Private, unlimited background removal that runs in your browser.</title>
-    <id>https://github.com/opencoredev/bg0#2026-09-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/opencoredev/bg0"/>
-    <updated>2026-09-16T18:00:00Z</updated>
-    <published>2026-09-16T18:00:00Z</published>
-    <summary>Private, unlimited background removal that runs in your browser.
-
-Why: +140/day · Search
-Score: 90/100 | Language: TypeScript | ⭐ 140 (+140.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>zgcagi/ZGCM-1 — No description</title>
-    <id>https://github.com/zgcagi/ZGCM-1#2026-09-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/zgcagi/ZGCM-1"/>
-    <updated>2026-09-16T18:00:00Z</updated>
-    <published>2026-09-16T18:00:00Z</published>
-    <summary>No description
-
-Why: +190/day · HF Papers · 4.4x accelerating
-Score: 90/100 | Language: Python | ⭐ 349 (+190.0/day) | Source: hf-papers</summary>
-  </entry>
-  <entry>
-    <title>NationalSecurityAgency/ghidra — Ghidra is a software reverse engineering (SRE) framework</title>
-    <id>https://github.com/NationalSecurityAgency/ghidra#2026-09-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/NationalSecurityAgency/ghidra"/>
-    <updated>2026-09-16T18:00:00Z</updated>
-    <published>2026-09-16T18:00:00Z</published>
-    <summary>Ghidra is a software reverse engineering (SRE) framework
-
-Why: +191/day · Trending · 6.8x accelerating
-Score: 95/100 | Language: Java | ⭐ 77175 (+191.1/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.</title>
-    <id>https://github.com/addyosmani/agent-skills#2026-09-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/addyosmani/agent-skills"/>
-    <updated>2026-09-16T18:00:00Z</updated>
-    <published>2026-09-16T18:00:00Z</published>
-    <summary>Production-grade engineering skills for AI coding agents.
-
-Why: +243/day · Trending
-Score: 87/100 | Language: JavaScript | ⭐ 95068 (+243.0/day) | Source: trending</summary>
   </entry>
 </feed>
