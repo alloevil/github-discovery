@@ -3,74 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "paperclipai/paperclip",
-   "stars": 94953,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "rohitg00/ai-engineering-from-scratch",
-   "stars": 61926,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "debpalash/VoiceStudio",
-   "stars": 49555,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "vectorize-io/hindsight",
-   "stars": 43445,
-   "language": "Python"
-  },
-  {
-   "full_name": "VectifyAI/PageIndex",
-   "stars": 37771,
-   "language": "Python"
-  },
-  {
-   "full_name": "t8y2/dbx",
-   "stars": 22726,
-   "language": "Rust"
-  },
-  {
-   "full_name": "dream-num/univer",
-   "stars": 22059,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "rakyll/hey",
-   "stars": 20579,
-   "language": "Go"
-  },
-  {
-   "full_name": "oblien/openship",
-   "stars": 14103,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "NVIDIA/OpenShell",
-   "stars": 11113,
-   "language": "Rust"
-  },
-  {
-   "full_name": "averygan/reclip",
-   "stars": 10493,
-   "language": "HTML"
-  },
-  {
-   "full_name": "cs341-illinois/coursebook",
-   "stars": 3279,
-   "language": "TeX"
-  },
-  {
-   "full_name": "mvschwarz/openrig",
-   "stars": 2653,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "willfaust/Madeira",
-   "stars": 1168,
-   "language": "C"
   }
  ]
 }
