@@ -511,11 +511,12 @@
       "last_recommended": "2026-09-04T09:04:30.186206+00:00"
     },
     "averygan/reclip": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        98
+        98,
+        83
       ],
-      "last_recommended": "2026-09-04T09:04:30.188248+00:00"
+      "last_recommended": "2026-09-30T10:45:34.342816+00:00"
     },
     "MSNightmare/FalconFlank": {
       "count": 1,
@@ -2303,7 +2304,77 @@
         85
       ],
       "last_recommended": "2026-09-29T10:55:41.684207+00:00"
+    },
+    "cs341-illinois/coursebook": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-09-30T10:45:34.320677+00:00"
+    },
+    "feder-cr/dots": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-30T10:45:34.323118+00:00"
+    },
+    "OpSafari/hypoarena": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-09-30T10:45:34.325322+00:00"
+    },
+    "PostHog/jeeves": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-09-30T10:45:34.327477+00:00"
+    },
+    "openai/mcp-extensions": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-09-30T10:45:34.329628+00:00"
+    },
+    "willfaust/Madeira": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-09-30T10:45:34.331837+00:00"
+    },
+    "fulldiagnose/antigravity-fixer": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-30T10:45:34.333999+00:00"
+    },
+    "ZacharyZhang-NY/Ely-GPUI-Components": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-09-30T10:45:34.336318+00:00"
+    },
+    "ng-native/ng-native": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-30T10:45:34.338484+00:00"
+    },
+    "alpcanaydin/tusk": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-09-30T10:45:34.340648+00:00"
     }
   },
-  "updated_at": "2026-09-29T10:55:41.684237+00:00"
+  "updated_at": "2026-09-30T10:45:34.342845+00:00"
 }

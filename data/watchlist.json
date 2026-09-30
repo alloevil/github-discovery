@@ -1,82 +1,5 @@
 {
  "repos": {
-  "alibaba/open-code-review": {
-   "first_seen": "2026-09-15",
-   "until": "2026-09-29",
-   "stars_at_discovery": 26823,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "huggingface/transformers": {
-   "first_seen": "2026-09-15",
-   "until": "2026-09-29",
-   "stars_at_discovery": 166143,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "ever-co/ever-gauzy": {
-   "first_seen": "2026-09-15",
-   "until": "2026-09-29",
-   "stars_at_discovery": 6212,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "tech-leads-club/agent-skills": {
-   "first_seen": "2026-09-15",
-   "until": "2026-09-29",
-   "stars_at_discovery": 6199,
-   "score_at_discovery": 99,
-   "source_at_discovery": "trending"
-  },
-  "nilbuild/page-mascot": {
-   "first_seen": "2026-09-15",
-   "until": "2026-09-29",
-   "stars_at_discovery": 399,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "agentverse-os/AgentVerse-OS": {
-   "first_seen": "2026-09-15",
-   "until": "2026-09-29",
-   "stars_at_discovery": 438,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "ViceVerse-cz/Serein": {
-   "first_seen": "2026-09-15",
-   "until": "2026-09-29",
-   "stars_at_discovery": 302,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "Panniantong/Agent-Reach": {
-   "first_seen": "2026-09-15",
-   "until": "2026-09-29",
-   "stars_at_discovery": 81767,
-   "score_at_discovery": 89,
-   "source_at_discovery": "trending"
-  },
-  "yi1108/printfilm": {
-   "first_seen": "2026-09-15",
-   "until": "2026-09-29",
-   "stars_at_discovery": 447,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "666ghj/MiroFish": {
-   "first_seen": "2026-09-15",
-   "until": "2026-09-29",
-   "stars_at_discovery": 73510,
-   "score_at_discovery": 87,
-   "source_at_discovery": "trending"
-  },
-  "dani-garcia/vaultwarden": {
-   "first_seen": "2026-09-15",
-   "until": "2026-09-29",
-   "stars_at_discovery": 67618,
-   "score_at_discovery": 91,
-   "source_at_discovery": "trending"
-  },
   "tonhowtf/omniget": {
    "first_seen": "2026-09-16",
    "until": "2026-09-30",
@@ -1133,7 +1056,84 @@
    "stars_at_discovery": 149,
    "score_at_discovery": 85,
    "source_at_discovery": "search"
+  },
+  "cs341-illinois/coursebook": {
+   "first_seen": "2026-09-30",
+   "until": "2026-10-14",
+   "stars_at_discovery": 3279,
+   "score_at_discovery": 97,
+   "source_at_discovery": "trending"
+  },
+  "feder-cr/dots": {
+   "first_seen": "2026-09-30",
+   "until": "2026-10-14",
+   "stars_at_discovery": 862,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "OpSafari/hypoarena": {
+   "first_seen": "2026-09-30",
+   "until": "2026-10-14",
+   "stars_at_discovery": 545,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "PostHog/jeeves": {
+   "first_seen": "2026-09-30",
+   "until": "2026-10-14",
+   "stars_at_discovery": 318,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "openai/mcp-extensions": {
+   "first_seen": "2026-09-30",
+   "until": "2026-10-14",
+   "stars_at_discovery": 339,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "willfaust/Madeira": {
+   "first_seen": "2026-09-30",
+   "until": "2026-10-14",
+   "stars_at_discovery": 1168,
+   "score_at_discovery": 93,
+   "source_at_discovery": "trending"
+  },
+  "fulldiagnose/antigravity-fixer": {
+   "first_seen": "2026-09-30",
+   "until": "2026-10-14",
+   "stars_at_discovery": 142,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "ZacharyZhang-NY/Ely-GPUI-Components": {
+   "first_seen": "2026-09-30",
+   "until": "2026-10-14",
+   "stars_at_discovery": 135,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "ng-native/ng-native": {
+   "first_seen": "2026-09-30",
+   "until": "2026-10-14",
+   "stars_at_discovery": 243,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "alpcanaydin/tusk": {
+   "first_seen": "2026-09-30",
+   "until": "2026-10-14",
+   "stars_at_discovery": 107,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "averygan/reclip": {
+   "first_seen": "2026-09-30",
+   "until": "2026-10-14",
+   "stars_at_discovery": 10493,
+   "score_at_discovery": 83,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-09-29T10:59:02.783872+00:00"
+ "updated_at": "2026-09-30T10:48:31.340013+00:00"
 }

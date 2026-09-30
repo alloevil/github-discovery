@@ -1,0 +1,353 @@
+{
+ "date": "2026-09-30",
+ "generated_at": "2026-09-30T10:45:34.547698",
+ "pool_size": 63,
+ "source_health": {
+  "trending": {
+   "fetched": 14,
+   "parsed": 14,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 3
+  },
+  "search": {
+   "fetched": 58,
+   "parsed": 58,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 8
+  },
+  "hn": {
+   "fetched": 6,
+   "parsed": 6,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 1,
+   "parsed": 1,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 0,
+   "parsed": 0,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "cs341-illinois/coursebook",
+   "url": "https://github.com/cs341-illinois/coursebook",
+   "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+   "language": "TeX",
+   "stars": 3279,
+   "forks": 282,
+   "age_days": 3168,
+   "daily_stars": 1.035037878787879,
+   "real_daily_stars": 520.0,
+   "watchers": 48,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 97,
+    "acceleration": 40,
+    "quality": 27,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "feder-cr/dots",
+   "url": "https://github.com/feder-cr/dots",
+   "description": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+   "language": "Python",
+   "stars": 862,
+   "forks": 96,
+   "age_days": 1,
+   "daily_stars": 862.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "OpSafari/hypoarena",
+   "url": "https://github.com/OpSafari/hypoarena",
+   "description": "Scientific hypothesis-discovery workbench: grounded hypothesis-evidence graphs, synthetic literature with planted causal chains, generate-debate-evolve loops over pluggable offline adapters, Elo tournaments recovering planted skill order, paraphrase dedup, Bayesian evidence accumulation, reproducible reports. NumPy core, CPU-only torch extra.",
+   "language": "Python",
+   "stars": 545,
+   "forks": 27,
+   "age_days": 1,
+   "daily_stars": 545.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "PostHog/jeeves",
+   "url": "https://github.com/PostHog/jeeves",
+   "description": "Jeeves – Reasoning improves Jev-like decision models",
+   "language": "Python",
+   "stars": 318,
+   "forks": 12,
+   "age_days": 1,
+   "daily_stars": 318.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "openai/mcp-extensions",
+   "url": "https://github.com/openai/mcp-extensions",
+   "description": "Build plugins that feel like native, first-class features of ChatGPT.",
+   "language": "TypeScript",
+   "stars": 339,
+   "forks": 16,
+   "age_days": 1,
+   "daily_stars": 339.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "willfaust/Madeira",
+   "url": "https://github.com/willfaust/Madeira",
+   "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+   "language": "C",
+   "stars": 1168,
+   "forks": 194,
+   "age_days": 206,
+   "daily_stars": 5.669902912621359,
+   "real_daily_stars": 115.5,
+   "watchers": 19,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "fulldiagnose/antigravity-fixer",
+   "url": "https://github.com/fulldiagnose/antigravity-fixer",
+   "description": "Fix Antigravity 'not eligible' error - diagnose, clean credentials, auto-fix",
+   "language": "Python",
+   "stars": 142,
+   "forks": 20,
+   "age_days": 1,
+   "daily_stars": 142.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "ZacharyZhang-NY/Ely-GPUI-Components",
+   "url": "https://github.com/ZacharyZhang-NY/Ely-GPUI-Components",
+   "description": "A component library for GPUI, in light and dark. Every component runs live in the browser.",
+   "language": "Rust",
+   "stars": 135,
+   "forks": 9,
+   "age_days": 1,
+   "daily_stars": 135.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "ng-native/ng-native",
+   "url": "https://github.com/ng-native/ng-native",
+   "description": "Angular apps, rendered as real native iOS and Android views, on React Native's Fabric renderer.",
+   "language": "TypeScript",
+   "stars": 243,
+   "forks": 6,
+   "age_days": 2,
+   "daily_stars": 121.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "alpcanaydin/tusk",
+   "url": "https://github.com/alpcanaydin/tusk",
+   "description": "A fast, native, keyboard-driven database client for macOS. 20 databases, an AI assistant that shows its work, free and open source.",
+   "language": "Rust",
+   "stars": 107,
+   "forks": 6,
+   "age_days": 1,
+   "daily_stars": 107.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "averygan/reclip",
+   "url": "https://github.com/averygan/reclip",
+   "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+   "language": "HTML",
+   "stars": 10493,
+   "forks": 1556,
+   "age_days": 183,
+   "daily_stars": 57.33879781420765,
+   "real_daily_stars": 77.83333333333333,
+   "watchers": 52,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 1,
+   "scores": {
+    "total": 83,
+    "acceleration": 23,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 9
+   }
+  }
+ ]
+}
