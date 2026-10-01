@@ -58,14 +58,6 @@
       ],
       "last_recommended": "2026-09-11T09:10:30.512562+00:00"
     },
-    "firecrawl/pdf-inspector": {
-      "count": 2,
-      "scores": [
-        100,
-        92
-      ],
-      "last_recommended": "2026-09-01T09:37:04.005633+00:00"
-    },
     "TauricResearch/TradingAgents": {
       "count": 3,
       "scores": [
@@ -174,12 +166,13 @@
       "last_recommended": "2026-09-26T09:32:50.365232+00:00"
     },
     "DietrichGebert/ponytail": {
-      "count": 2,
+      "count": 3,
       "scores": [
         88,
+        85,
         85
       ],
-      "last_recommended": "2026-09-04T09:04:30.202261+00:00"
+      "last_recommended": "2026-10-01T11:11:44.446419+00:00"
     },
     "bilawalsidhu/gods-eye-view": {
       "count": 2,
@@ -205,48 +198,6 @@
       ],
       "last_recommended": "2026-09-11T09:10:30.508641+00:00"
     },
-    "p-e-w/heretic": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-31T11:10:38.180845+00:00"
-    },
-    "every-app/open-seo": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-08-31T11:10:38.182615+00:00"
-    },
-    "abhigyanpatwari/GitNexus": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-08-31T11:10:38.184297+00:00"
-    },
-    "sapientinc/PRAXIST": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-08-31T11:10:38.260399+00:00"
-    },
-    "XiaoDuoYa/codex-with-chatgpt": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-08-31T11:10:38.262332+00:00"
-    },
-    "Vuk97/forward-implementation-first": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-08-31T11:10:38.264040+00:00"
-    },
     "jub0t/Concat": {
       "count": 2,
       "scores": [
@@ -255,69 +206,6 @@
       ],
       "last_recommended": "2026-09-18T09:13:56.845142+00:00"
     },
-    "daffainfo/vol-rs": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-08-31T11:10:38.267382+00:00"
-    },
-    "experientiallabs/experiential": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-08-31T11:10:38.269118+00:00"
-    },
-    "handsomestWei/patent-disclosure-skill": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-01T09:37:03.983549+00:00"
-    },
-    "Osmantic/ODS": {
-      "count": 1,
-      "scores": [
-        98
-      ],
-      "last_recommended": "2026-09-01T09:37:03.985949+00:00"
-    },
-    "kaifcodec/user-scanner": {
-      "count": 1,
-      "scores": [
-        98
-      ],
-      "last_recommended": "2026-09-01T09:37:03.988120+00:00"
-    },
-    "pollen-robotics/microduck_rl": {
-      "count": 1,
-      "scores": [
-        98
-      ],
-      "last_recommended": "2026-09-01T09:37:03.990286+00:00"
-    },
-    "majd/ipatool": {
-      "count": 1,
-      "scores": [
-        97
-      ],
-      "last_recommended": "2026-09-01T09:37:03.992444+00:00"
-    },
-    "checkstyle/checkstyle": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-01T09:37:03.994653+00:00"
-    },
-    "soirihiroka/shrimply": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-09-01T09:37:03.996792+00:00"
-    },
     "zhaoxuya520/reverse-skill": {
       "count": 2,
       "scores": [
@@ -325,20 +213,6 @@
         85
       ],
       "last_recommended": "2026-09-27T10:13:45.793938+00:00"
-    },
-    "jlrouzies-fr/DLSS5-Feeder": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-01T09:37:04.001095+00:00"
-    },
-    "mizorewww/course2md": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-01T09:37:04.003472+00:00"
     },
     "jingyaogong/minimind": {
       "count": 1,
@@ -807,11 +681,12 @@
       "last_recommended": "2026-09-08T04:03:35.498420+00:00"
     },
     "heygen-com/hyperframes": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        87
+        87,
+        88
       ],
-      "last_recommended": "2026-09-08T04:03:35.500497+00:00"
+      "last_recommended": "2026-10-01T11:11:44.444270+00:00"
     },
     "microsoft/markitdown": {
       "count": 1,
@@ -842,11 +717,12 @@
       "last_recommended": "2026-09-09T02:38:27.956036+00:00"
     },
     "mksglu/context-mode": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        71
       ],
-      "last_recommended": "2026-09-09T02:38:27.958430+00:00"
+      "last_recommended": "2026-10-01T11:11:44.448640+00:00"
     },
     "MoonTechLab/LunaTV": {
       "count": 1,
@@ -2374,7 +2250,77 @@
         89
       ],
       "last_recommended": "2026-09-30T10:45:34.340648+00:00"
+    },
+    "NVIDIA/OpenShell": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-01T11:11:44.422399+00:00"
+    },
+    "byoungd/up": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-01T11:11:44.424877+00:00"
+    },
+    "t8y2/dbx": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-01T11:11:44.426990+00:00"
+    },
+    "VectifyAI/PageIndex": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-01T11:11:44.429154+00:00"
+    },
+    "Louis-CFM/coucou": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-01T11:11:44.431261+00:00"
+    },
+    "nanaism/yomiyasu": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-01T11:11:44.433456+00:00"
+    },
+    "edenfunf/reelmimic": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-01T11:11:44.435648+00:00"
+    },
+    "echris6/motion-video-kit": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-10-01T11:11:44.437767+00:00"
+    },
+    "MisakaZentai/world-execute-me-dsh-pv": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-10-01T11:11:44.439948+00:00"
+    },
+    "NawfalMotii79/PLFM_RADAR": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-01T11:11:44.442096+00:00"
     }
   },
-  "updated_at": "2026-09-30T10:45:34.342845+00:00"
+  "updated_at": "2026-10-01T11:11:44.448669+00:00"
 }

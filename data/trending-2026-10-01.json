@@ -1,0 +1,91 @@
+{
+ "date": "2026-10-01",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "openclaw/openclaw",
+   "stars": 391115,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "mattpocock/skills",
+   "stars": 273366,
+   "language": "Shell"
+  },
+  {
+   "full_name": "DietrichGebert/ponytail",
+   "stars": 149697,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "harry0703/MoneyPrinterTurbo",
+   "stars": 127804,
+   "language": "Python"
+  },
+  {
+   "full_name": "modelcontextprotocol/servers",
+   "stars": 90905,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "ComposioHQ/awesome-claude-skills",
+   "stars": 76275,
+   "language": "Python"
+  },
+  {
+   "full_name": "colbymchenry/codegraph",
+   "stars": 72720,
+   "language": "C"
+  },
+  {
+   "full_name": "byoungd/up",
+   "stars": 66557,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "heygen-com/hyperframes",
+   "stars": 54998,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "debpalash/VoiceStudio",
+   "stars": 50996,
+   "language": "Python"
+  },
+  {
+   "full_name": "VectifyAI/PageIndex",
+   "stars": 38316,
+   "language": "Python"
+  },
+  {
+   "full_name": "NawfalMotii79/PLFM_RADAR",
+   "stars": 26497,
+   "language": "PLSQL"
+  },
+  {
+   "full_name": "mksglu/context-mode",
+   "stars": 24634,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "t8y2/dbx",
+   "stars": 23604,
+   "language": "Rust"
+  },
+  {
+   "full_name": "NVIDIA/OpenShell",
+   "stars": 13616,
+   "language": "Rust"
+  },
+  {
+   "full_name": "firebase/firebase-ios-sdk",
+   "stars": 6801,
+   "language": "C++"
+  },
+  {
+   "full_name": "mvschwarz/openrig",
+   "stars": 3302,
+   "language": "TypeScript"
+  }
+ ]
+}

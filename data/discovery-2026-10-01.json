@@ -1,0 +1,413 @@
+{
+ "date": "2026-10-01",
+ "generated_at": "2026-10-01T11:11:44.589886",
+ "pool_size": 72,
+ "source_health": {
+  "trending": {
+   "fetched": 17,
+   "parsed": 17,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 8
+  },
+  "search": {
+   "fetched": 56,
+   "parsed": 56,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 5
+  },
+  "hn": {
+   "fetched": 6,
+   "parsed": 6,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 1,
+   "parsed": 1,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 17,
+   "parsed": 17,
+   "rejected": 0,
+   "deduplicated": 11,
+   "recommended": 2
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "NVIDIA/OpenShell",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+   "language": "Rust",
+   "stars": 13616,
+   "forks": 1597,
+   "age_days": 218,
+   "daily_stars": 62.45871559633027,
+   "real_daily_stars": 2503.0,
+   "watchers": 71,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "byoungd/up",
+   "url": "https://github.com/byoungd/up",
+   "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+   "language": "JavaScript",
+   "stars": 66557,
+   "forks": 6648,
+   "age_days": 3411,
+   "daily_stars": 19.512459689240693,
+   "real_daily_stars": 594.5,
+   "watchers": 983,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "t8y2/dbx",
+   "url": "https://github.com/t8y2/dbx",
+   "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+   "language": "Rust",
+   "stars": 23604,
+   "forks": 2171,
+   "age_days": 155,
+   "daily_stars": 152.28387096774193,
+   "real_daily_stars": 878.0,
+   "watchers": 101,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "VectifyAI/PageIndex",
+   "url": "https://github.com/VectifyAI/PageIndex",
+   "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+   "language": "Python",
+   "stars": 38316,
+   "forks": 3322,
+   "age_days": 548,
+   "daily_stars": 69.91970802919708,
+   "real_daily_stars": 545.0,
+   "watchers": 157,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Louis-CFM/coucou",
+   "url": "https://github.com/Louis-CFM/coucou",
+   "description": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows) and keeps an eye on your Claude Code sessions.",
+   "language": "Swift",
+   "stars": 1980,
+   "forks": 276,
+   "age_days": 3,
+   "daily_stars": 660.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "nanaism/yomiyasu",
+   "url": "https://github.com/nanaism/yomiyasu",
+   "description": "AI生成された文章の不自然さを取り除き、人間にとって自然な日本語へ書き直すためのAgent Skill",
+   "language": "Python",
+   "stars": 746,
+   "forks": 15,
+   "age_days": 1,
+   "daily_stars": 746.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "edenfunf/reelmimic",
+   "url": "https://github.com/edenfunf/reelmimic",
+   "description": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
+   "language": "JavaScript",
+   "stars": 622,
+   "forks": 98,
+   "age_days": 2,
+   "daily_stars": 311.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "echris6/motion-video-kit",
+   "url": "https://github.com/echris6/motion-video-kit",
+   "description": "Claude Code skill kit for premium AI-assisted business videos: independent critic loop, motion principles from 28 launch films, quality bar, sound design, business offers, Three.js patterns, scripts",
+   "language": "Python",
+   "stars": 717,
+   "forks": 58,
+   "age_days": 3,
+   "daily_stars": 239.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "MisakaZentai/world-execute-me-dsh-pv",
+   "url": "https://github.com/MisakaZentai/world-execute-me-dsh-pv",
+   "description": "Code-rendered TUI fan PV for Mili world.execute(me); with a DeepSeek Harness-style chat window. MIT code; CC BY-NC-SA 4.0 artwork.",
+   "language": "Python",
+   "stars": 202,
+   "forks": 19,
+   "age_days": 1,
+   "daily_stars": 202.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "NawfalMotii79/PLFM_RADAR",
+   "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+   "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+   "language": "PLSQL",
+   "stars": 26497,
+   "forks": 5985,
+   "age_days": 206,
+   "daily_stars": 128.626213592233,
+   "real_daily_stars": 238.0,
+   "watchers": 343,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "description": "Write HTML. Render video. Built for agents.",
+   "language": "TypeScript",
+   "stars": 54998,
+   "forks": 4998,
+   "age_days": 205,
+   "daily_stars": 268.2829268292683,
+   "real_daily_stars": 307.0,
+   "watchers": 146,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "language": "JavaScript",
+   "stars": 149697,
+   "forks": 8042,
+   "age_days": 111,
+   "daily_stars": 1348.6216216216217,
+   "real_daily_stars": 812.75,
+   "watchers": 356,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 85,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+   "language": "TypeScript",
+   "stars": 24634,
+   "forks": 1776,
+   "age_days": 220,
+   "daily_stars": 111.97272727272727,
+   "real_daily_stars": 82.25,
+   "watchers": 101,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "rank": 3,
+   "scores": {
+    "total": 71,
+    "acceleration": 21,
+    "quality": 20,
+    "antispam": 30,
+    "rank_in_pool": 24,
+    "pool_size": 72,
+    "top_pct": 33.3
+   }
+  }
+ ]
+}

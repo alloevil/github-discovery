@@ -3,12 +3,100 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-09-30T18:00:00Z</updated>
+  <updated>2026-10-01T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>NVIDIA/OpenShell — OpenShell is the safe, private runtime for autonomous AI agents.</title>
+    <id>https://github.com/NVIDIA/OpenShell#2026-10-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/NVIDIA/OpenShell"/>
+    <updated>2026-10-01T18:00:00Z</updated>
+    <published>2026-10-01T18:00:00Z</published>
+    <summary>OpenShell is the safe, private runtime for autonomous AI agents.
+
+Why: +2503/day · Trending · 40.1x accelerating
+Score: 100/100 | Language: Rust | ⭐ 13616 (+2503.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>byoungd/up — An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语</title>
+    <id>https://github.com/byoungd/up#2026-10-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/byoungd/up"/>
+    <updated>2026-10-01T18:00:00Z</updated>
+    <published>2026-10-01T18:00:00Z</published>
+    <summary>An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语
+
+Why: +594/day · Trending · 30.5x accelerating
+Score: 100/100 | Language: JavaScript | ⭐ 66557 (+594.5/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>t8y2/dbx — 25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。</title>
+    <id>https://github.com/t8y2/dbx#2026-10-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/t8y2/dbx"/>
+    <updated>2026-10-01T18:00:00Z</updated>
+    <published>2026-10-01T18:00:00Z</published>
+    <summary>25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。
+
+Why: +878/day · Trending · 5.8x accelerating
+Score: 100/100 | Language: Rust | ⭐ 23604 (+878.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>VectifyAI/PageIndex — 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG</title>
+    <id>https://github.com/VectifyAI/PageIndex#2026-10-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/VectifyAI/PageIndex"/>
+    <updated>2026-10-01T18:00:00Z</updated>
+    <published>2026-10-01T18:00:00Z</published>
+    <summary>📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG
+
+Why: +545/day · Trending · 7.8x accelerating
+Score: 100/100 | Language: Python | ⭐ 38316 (+545.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Louis-CFM/coucou — A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows) and keeps an eye on your Claude Code sessions.</title>
+    <id>https://github.com/Louis-CFM/coucou#2026-10-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Louis-CFM/coucou"/>
+    <updated>2026-10-01T18:00:00Z</updated>
+    <published>2026-10-01T18:00:00Z</published>
+    <summary>A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows) and keeps an eye on your Claude Code sessions.
+
+Why: +660/day · Search
+Score: 96/100 | Language: Swift | ⭐ 1980 (+660.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>heygen-com/hyperframes — Write HTML. Render video. Built for agents.</title>
+    <id>https://github.com/heygen-com/hyperframes#2026-10-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/heygen-com/hyperframes"/>
+    <updated>2026-10-01T18:00:00Z</updated>
+    <published>2026-10-01T18:00:00Z</published>
+    <summary>Write HTML. Render video. Built for agents.
+
+Why: +307/day · Trending
+Score: 88/100 | Language: TypeScript | ⭐ 54998 (+307.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>DietrichGebert/ponytail — Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</title>
+    <id>https://github.com/DietrichGebert/ponytail#2026-10-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/DietrichGebert/ponytail"/>
+    <updated>2026-10-01T18:00:00Z</updated>
+    <published>2026-10-01T18:00:00Z</published>
+    <summary>Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+
+Why: +813/day · Trending
+Score: 85/100 | Language: JavaScript | ⭐ 149697 (+812.8/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>mksglu/context-mode — Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.</title>
+    <id>https://github.com/mksglu/context-mode#2026-10-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mksglu/context-mode"/>
+    <updated>2026-10-01T18:00:00Z</updated>
+    <published>2026-10-01T18:00:00Z</published>
+    <summary>Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.
+
+Why: +82/day · Trending
+Score: 71/100 | Language: TypeScript | ⭐ 24634 (+82.2/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>cs341-illinois/coursebook — Open Source Introductory Systems Programming Textbook for the University of Illinois</title>
     <id>https://github.com/cs341-illinois/coursebook#2026-09-30</id>
@@ -833,82 +921,5 @@ Score: 93/100 | Language: Rust | ⭐ 2746 (+263.5/day) | Source: hn</summary>
 
 Why: +585/day · Trending
 Score: 91/100 | Language: C | ⭐ 35928 (+585.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>arnegiacomo/fugleramme — E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations.</title>
-    <id>https://github.com/arnegiacomo/fugleramme#2026-09-17</id>
-    <link rel="alternate" type="text/html" href="https://github.com/arnegiacomo/fugleramme"/>
-    <updated>2026-09-17T18:00:00Z</updated>
-    <published>2026-09-17T18:00:00Z</published>
-    <summary>E-ink bird frame for Raspberry Pi - real-time bird detection by audio, fully local AI, rendered as real, hand-cut 1800s bird illustrations.
-
-Why: +735/day · HN · 19.2x accelerating
-Score: 100/100 | Language: Python | ⭐ 2684 (+735.0/day) | Source: hn</summary>
-  </entry>
-  <entry>
-    <title>rlaope/oh-my-hermes — All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages</title>
-    <id>https://github.com/rlaope/oh-my-hermes#2026-09-17</id>
-    <link rel="alternate" type="text/html" href="https://github.com/rlaope/oh-my-hermes"/>
-    <updated>2026-09-17T18:00:00Z</updated>
-    <published>2026-09-17T18:00:00Z</published>
-    <summary>All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages
-
-Why: +180/day · Trending · 7.1x accelerating
-Score: 95/100 | Language: Python | ⭐ 2660 (+180.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>saragordic/window-sweaters — A macOS menu-bar app that dresses your windows in knitted borders.</title>
-    <id>https://github.com/saragordic/window-sweaters#2026-09-17</id>
-    <link rel="alternate" type="text/html" href="https://github.com/saragordic/window-sweaters"/>
-    <updated>2026-09-17T18:00:00Z</updated>
-    <published>2026-09-17T18:00:00Z</published>
-    <summary>A macOS menu-bar app that dresses your windows in knitted borders.
-
-Why: +233/day · Search
-Score: 92/100 | Language: C | ⭐ 466 (+233.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>theoephraim/awesome-cloudflare-selfhosted — 🍊☁️ Open-source* apps that replace a SaaS product, running in your own Cloudflare account</title>
-    <id>https://github.com/theoephraim/awesome-cloudflare-selfhosted#2026-09-17</id>
-    <link rel="alternate" type="text/html" href="https://github.com/theoephraim/awesome-cloudflare-selfhosted"/>
-    <updated>2026-09-17T18:00:00Z</updated>
-    <published>2026-09-17T18:00:00Z</published>
-    <summary>🍊☁️ Open-source* apps that replace a SaaS product, running in your own Cloudflare account
-
-Why: +215/day · Search
-Score: 92/100 | Language: JavaScript | ⭐ 430 (+215.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>jarrodwatts/jev-trader — One AI trade decision every Monad block. Jev on Kuru MON-USDC.</title>
-    <id>https://github.com/jarrodwatts/jev-trader#2026-09-17</id>
-    <link rel="alternate" type="text/html" href="https://github.com/jarrodwatts/jev-trader"/>
-    <updated>2026-09-17T18:00:00Z</updated>
-    <published>2026-09-17T18:00:00Z</published>
-    <summary>One AI trade decision every Monad block. Jev on Kuru MON-USDC.
-
-Why: +207/day · Search
-Score: 92/100 | Language: TypeScript | ⭐ 207 (+207.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>affaan-m/ECC — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</title>
-    <id>https://github.com/affaan-m/ECC#2026-09-17</id>
-    <link rel="alternate" type="text/html" href="https://github.com/affaan-m/ECC"/>
-    <updated>2026-09-17T18:00:00Z</updated>
-    <published>2026-09-17T18:00:00Z</published>
-    <summary>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-
-Why: +750/day · Trending
-Score: 90/100 | Language: JavaScript | ⭐ 260699 (+750.3/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</title>
-    <id>https://github.com/anthropics/claude-code#2026-09-17</id>
-    <link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code"/>
-    <updated>2026-09-17T18:00:00Z</updated>
-    <published>2026-09-17T18:00:00Z</published>
-    <summary>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
-
-Why: +125/day · Trending
-Score: 68/100 | Language: TypeScript | ⭐ 145729 (+125.1/day) | Source: trending</summary>
   </entry>
 </feed>
