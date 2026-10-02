@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-01T18:00:00Z</updated>
+  <updated>2026-10-02T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>Edwardxlai/easyread — 把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.</title>
+    <id>https://github.com/Edwardxlai/easyread#2026-10-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Edwardxlai/easyread"/>
+    <updated>2026-10-02T18:00:00Z</updated>
+    <published>2026-10-02T18:00:00Z</published>
+    <summary>把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.
+
+Why: +564/day · Search+AI/ML
+Score: 96/100 | Language: JavaScript | ⭐ 564 (+564.0/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>CopilotKit/OpenDots — Your always-on AI coworkers that move between text, calls, and Slack.</title>
+    <id>https://github.com/CopilotKit/OpenDots#2026-10-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/CopilotKit/OpenDots"/>
+    <updated>2026-10-02T18:00:00Z</updated>
+    <published>2026-10-02T18:00:00Z</published>
+    <summary>Your always-on AI coworkers that move between text, calls, and Slack.
+
+Why: +420/day · Search
+Score: 95/100 | Language: TypeScript | ⭐ 839 (+419.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>firebase/firebase-ios-sdk — Firebase SDK for Apple App Development</title>
+    <id>https://github.com/firebase/firebase-ios-sdk#2026-10-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/firebase/firebase-ios-sdk"/>
+    <updated>2026-10-02T18:00:00Z</updated>
+    <published>2026-10-02T18:00:00Z</published>
+    <summary>Firebase SDK for Apple App Development
+
+Why: +109/day · Trending · 54.4x accelerating
+Score: 93/100 | Language: C++ | ⭐ 6910 (+109.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>KKKKhazix/AIHOT — 一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。</title>
+    <id>https://github.com/KKKKhazix/AIHOT#2026-10-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/KKKKhazix/AIHOT"/>
+    <updated>2026-10-02T18:00:00Z</updated>
+    <published>2026-10-02T18:00:00Z</published>
+    <summary>一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。
+
+Why: +594/day · Search+AI/ML
+Score: 90/100 | Language: TypeScript | ⭐ 4878 (+594.0/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>rehan-remade/universal-modder — Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.</title>
+    <id>https://github.com/rehan-remade/universal-modder#2026-10-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/rehan-remade/universal-modder"/>
+    <updated>2026-10-02T18:00:00Z</updated>
+    <published>2026-10-02T18:00:00Z</published>
+    <summary>Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.
+
+Why: +580/day · Search
+Score: 90/100 | Language: Python | ⭐ 1757 (+580.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>earendil-works/pi — AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI</title>
+    <id>https://github.com/earendil-works/pi#2026-10-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/earendil-works/pi"/>
+    <updated>2026-10-02T18:00:00Z</updated>
+    <published>2026-10-02T18:00:00Z</published>
+    <summary>AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
+
+Why: +464/day · Trending · 1.7x accelerating
+Score: 93/100 | Language: TypeScript | ⭐ 111532 (+463.5/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>obra/superpowers — An agentic skills framework &amp; software development methodology that works.</title>
+    <id>https://github.com/obra/superpowers#2026-10-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/obra/superpowers"/>
+    <updated>2026-10-02T18:00:00Z</updated>
+    <published>2026-10-02T18:00:00Z</published>
+    <summary>An agentic skills framework &amp; software development methodology that works.
+
+Why: +514/day · Trending
+Score: 90/100 | Language: Shell | ⭐ 294160 (+514.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>NVIDIA/OpenShell — OpenShell is the safe, private runtime for autonomous AI agents.</title>
     <id>https://github.com/NVIDIA/OpenShell#2026-10-01</id>
@@ -844,82 +921,5 @@ Score: 96/100 | Language: Python | ⭐ 1685 (+561.7/day) | Source: search</summa
 
 Why: +640/day · Search
 Score: 96/100 | Language: Swift | ⭐ 1281 (+640.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>cloudflare/security-audit-skill — A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings</title>
-    <id>https://github.com/cloudflare/security-audit-skill#2026-09-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/cloudflare/security-audit-skill"/>
-    <updated>2026-09-18T18:00:00Z</updated>
-    <published>2026-09-18T18:00:00Z</published>
-    <summary>A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
-
-Why: +2895/day · Trending · 22.9x accelerating
-Score: 100/100 | Language: JavaScript | ⭐ 11518 (+2895.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Tencent/WeKnora — Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.</title>
-    <id>https://github.com/Tencent/WeKnora#2026-09-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Tencent/WeKnora"/>
-    <updated>2026-09-18T18:00:00Z</updated>
-    <published>2026-09-18T18:00:00Z</published>
-    <summary>Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.
-
-Why: +848/day · Trending · 13.4x accelerating
-Score: 100/100 | Language: Go | ⭐ 26687 (+848.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>abue-ammar/tinycast — Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.</title>
-    <id>https://github.com/abue-ammar/tinycast#2026-09-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/abue-ammar/tinycast"/>
-    <updated>2026-09-18T18:00:00Z</updated>
-    <published>2026-09-18T18:00:00Z</published>
-    <summary>Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.
-
-Why: +435/day · Trending · 5.5x accelerating
-Score: 99/100 | Language: Swift | ⭐ 6297 (+435.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>anthropics/knowledge-work-plugins — Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork</title>
-    <id>https://github.com/anthropics/knowledge-work-plugins#2026-09-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/anthropics/knowledge-work-plugins"/>
-    <updated>2026-09-18T18:00:00Z</updated>
-    <published>2026-09-18T18:00:00Z</published>
-    <summary>Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork
-
-Why: +296/day · Trending · 2.8x accelerating
-Score: 97/100 | Language: Python | ⭐ 24694 (+296.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>TheoLeeCJ/openjev — Can we run something like Jev on a 3090 at home?</title>
-    <id>https://github.com/TheoLeeCJ/openjev#2026-09-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/TheoLeeCJ/openjev"/>
-    <updated>2026-09-18T18:00:00Z</updated>
-    <published>2026-09-18T18:00:00Z</published>
-    <summary>Can we run something like Jev on a 3090 at home?
-
-Why: +582/day · Search
-Score: 96/100 | Language: Python | ⭐ 1163 (+581.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>jub0t/Concat — Open-Source CapCut replacement (MCP supported).</title>
-    <id>https://github.com/jub0t/Concat#2026-09-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/jub0t/Concat"/>
-    <updated>2026-09-18T18:00:00Z</updated>
-    <published>2026-09-18T18:00:00Z</published>
-    <summary>Open-Source CapCut replacement (MCP supported).
-
-Why: +264/day · HN · 2.2x accelerating
-Score: 93/100 | Language: Rust | ⭐ 2746 (+263.5/day) | Source: hn</summary>
-  </entry>
-  <entry>
-    <title>JustVugg/colibri — Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦</title>
-    <id>https://github.com/JustVugg/colibri#2026-09-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/JustVugg/colibri"/>
-    <updated>2026-09-18T18:00:00Z</updated>
-    <published>2026-09-18T18:00:00Z</published>
-    <summary>Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦
-
-Why: +585/day · Trending
-Score: 91/100 | Language: C | ⭐ 35928 (+585.0/day) | Source: trending</summary>
   </entry>
 </feed>
