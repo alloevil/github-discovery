@@ -1,7 +1,7 @@
 {
   "repos": {
     "obra/superpowers": {
-      "count": 8,
+      "count": 9,
       "scores": [
         100,
         100,
@@ -10,9 +10,10 @@
         100,
         89,
         90,
-        79
+        79,
+        90
       ],
-      "last_recommended": "2026-09-24T09:33:33.043857+00:00"
+      "last_recommended": "2026-10-02T10:45:25.824429+00:00"
     },
     "affaan-m/ECC": {
       "count": 6,
@@ -83,14 +84,6 @@
         99
       ],
       "last_recommended": "2026-09-05T08:37:03.189154+00:00"
-    },
-    "3b1b/manim": {
-      "count": 2,
-      "scores": [
-        100,
-        92
-      ],
-      "last_recommended": "2026-09-02T09:03:53.107286+00:00"
     },
     "holaboss-ai/holaOS": {
       "count": 2,
@@ -213,76 +206,6 @@
         85
       ],
       "last_recommended": "2026-09-27T10:13:45.793938+00:00"
-    },
-    "jingyaogong/minimind": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-02T09:03:53.086888+00:00"
-    },
-    "Git-Agni/prod-FARM-IOS-Core": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-02T09:03:53.089102+00:00"
-    },
-    "brayonpi/hexstellar": {
-      "count": 1,
-      "scores": [
-        98
-      ],
-      "last_recommended": "2026-09-02T09:03:53.091102+00:00"
-    },
-    "unclecode/crawl4ai": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-09-02T09:03:53.093130+00:00"
-    },
-    "2akouwu/codex-cli-portable-setup-kit": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-02T09:03:53.095120+00:00"
-    },
-    "iv-org/invidious": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-09-02T09:03:53.097166+00:00"
-    },
-    "faisalkindi/DLSS5oneclick": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-09-02T09:03:53.099172+00:00"
-    },
-    "Merserk/dlss5-visual-enhancer": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-09-02T09:03:53.101206+00:00"
-    },
-    "Gitlawb/openclaude": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-09-02T09:03:53.103200+00:00"
-    },
-    "VoltAgent/awesome-design-md": {
-      "count": 1,
-      "scores": [
-        85
-      ],
-      "last_recommended": "2026-09-02T09:03:53.105245+00:00"
     },
     "anthropics/commerce-agents": {
       "count": 1,
@@ -1237,11 +1160,12 @@
       "last_recommended": "2026-09-16T09:32:40.848680+00:00"
     },
     "earendil-works/pi": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        87
+        87,
+        93
       ],
-      "last_recommended": "2026-09-16T09:32:40.850374+00:00"
+      "last_recommended": "2026-10-02T10:45:25.822448+00:00"
     },
     "AetherLabsAI/RSIAgent": {
       "count": 1,
@@ -2320,7 +2244,77 @@
         91
       ],
       "last_recommended": "2026-10-01T11:11:44.442096+00:00"
+    },
+    "Edwardxlai/easyread": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-02T10:45:25.802180+00:00"
+    },
+    "CopilotKit/OpenDots": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-10-02T10:45:25.804771+00:00"
+    },
+    "firebase/firebase-ios-sdk": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-10-02T10:45:25.806883+00:00"
+    },
+    "KKKKhazix/AIHOT": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-02T10:45:25.808848+00:00"
+    },
+    "rehan-remade/universal-modder": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-02T10:45:25.810814+00:00"
+    },
+    "amywork777/lipflow": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-02T10:45:25.812744+00:00"
+    },
+    "1molchuan/edge-smart-doh": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-02T10:45:25.814635+00:00"
+    },
+    "luxine/CalcKernel": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-10-02T10:45:25.816496+00:00"
+    },
+    "strands-labs/strands-decider": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-10-02T10:45:25.818384+00:00"
+    },
+    "d4ncboz/museai": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-10-02T10:45:25.820393+00:00"
     }
   },
-  "updated_at": "2026-10-01T11:11:44.448669+00:00"
+  "updated_at": "2026-10-02T10:45:25.824454+00:00"
 }

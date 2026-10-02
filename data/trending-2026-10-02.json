@@ -1,0 +1,81 @@
+{
+ "date": "2026-10-02",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "obra/superpowers",
+   "stars": 294160,
+   "language": "Shell"
+  },
+  {
+   "full_name": "mattpocock/skills",
+   "stars": 274275,
+   "language": "Shell"
+  },
+  {
+   "full_name": "DietrichGebert/ponytail",
+   "stars": 151073,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "earendil-works/pi",
+   "stars": 111532,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "pbakaus/impeccable",
+   "stars": 73940,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "heygen-com/hyperframes",
+   "stars": 55562,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "mksglu/context-mode",
+   "stars": 24898,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "HunxByts/GhostTrack",
+   "stars": 16617,
+   "language": "Python"
+  },
+  {
+   "full_name": "NVIDIA/OpenShell",
+   "stars": 14207,
+   "language": "Rust"
+  },
+  {
+   "full_name": "cursor/plugins",
+   "stars": 9384,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "tile-ai/tilelang",
+   "stars": 8201,
+   "language": "Python"
+  },
+  {
+   "full_name": "firebase/firebase-ios-sdk",
+   "stars": 6910,
+   "language": "C++"
+  },
+  {
+   "full_name": "mvschwarz/openrig",
+   "stars": 3962,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "pablostanley/yoinks",
+   "stars": 3170,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "Friedrich-M/UniMate",
+   "stars": 1167,
+   "language": "Python"
+  }
+ ]
+}

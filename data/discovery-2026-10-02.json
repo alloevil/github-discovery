@@ -1,0 +1,385 @@
+{
+ "date": "2026-10-02",
+ "generated_at": "2026-10-02T10:45:25.996999",
+ "pool_size": 72,
+ "source_health": {
+  "trending": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 3
+  },
+  "search": {
+   "fetched": 52,
+   "parsed": 52,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 7
+  },
+  "hn": {
+   "fetched": 13,
+   "parsed": 13,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 1,
+   "parsed": 1,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 18,
+   "parsed": 18,
+   "rejected": 0,
+   "deduplicated": 8,
+   "recommended": 4
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "Edwardxlai/easyread",
+   "url": "https://github.com/Edwardxlai/easyread",
+   "description": "把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
+   "language": "JavaScript",
+   "stars": 564,
+   "forks": 40,
+   "age_days": 1,
+   "daily_stars": 564.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "CopilotKit/OpenDots",
+   "url": "https://github.com/CopilotKit/OpenDots",
+   "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
+   "language": "TypeScript",
+   "stars": 839,
+   "forks": 100,
+   "age_days": 2,
+   "daily_stars": 419.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "firebase/firebase-ios-sdk",
+   "url": "https://github.com/firebase/firebase-ios-sdk",
+   "description": "Firebase SDK for Apple App Development",
+   "language": "C++",
+   "stars": 6910,
+   "forks": 1811,
+   "age_days": 3450,
+   "daily_stars": 2.0028985507246375,
+   "real_daily_stars": 109.0,
+   "watchers": 231,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "KKKKhazix/AIHOT",
+   "url": "https://github.com/KKKKhazix/AIHOT",
+   "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+   "language": "TypeScript",
+   "stars": 4878,
+   "forks": 1327,
+   "age_days": 3,
+   "daily_stars": 1626.0,
+   "real_daily_stars": 594.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "rehan-remade/universal-modder",
+   "url": "https://github.com/rehan-remade/universal-modder",
+   "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+   "language": "Python",
+   "stars": 1757,
+   "forks": 128,
+   "age_days": 2,
+   "daily_stars": 878.5,
+   "real_daily_stars": 580.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "amywork777/lipflow",
+   "url": "https://github.com/amywork777/lipflow",
+   "description": "Wispr Flow for your lips: hold a key, silently mouth words, and they're typed at your cursor. Runs locally on your Mac.",
+   "language": "Python",
+   "stars": 308,
+   "forks": 30,
+   "age_days": 2,
+   "daily_stars": 154.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "1molchuan/edge-smart-doh",
+   "url": "https://github.com/1molchuan/edge-smart-doh",
+   "description": "DoH that gives Cloudflare-hosted sites measured preferred IPs (per ISP, from cfhub) and ECH",
+   "language": "TypeScript",
+   "stars": 110,
+   "forks": 8,
+   "age_days": 1,
+   "daily_stars": 110.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "luxine/CalcKernel",
+   "url": "https://github.com/luxine/CalcKernel",
+   "description": "CalcKernel compiler, runtime, tests, examples, documentation, and public releases",
+   "language": "Rust",
+   "stars": 210,
+   "forks": 6,
+   "age_days": 4,
+   "daily_stars": 52.5,
+   "real_daily_stars": 101.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "strands-labs/strands-decider",
+   "url": "https://github.com/strands-labs/strands-decider",
+   "description": "A small, fast decision model, or system one model, for agentic workflows. Pick between options or rate on a scale faster than an LLM, with a calibrated confidence on every decision.",
+   "language": "Python",
+   "stars": 114,
+   "forks": 19,
+   "age_days": 2,
+   "daily_stars": 57.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "d4ncboz/museai",
+   "url": "https://github.com/d4ncboz/museai",
+   "description": "High-performance OpenAI-compatible API gateway and bridge for muse.ai personal AI agents, ready for 9Router multi-model integration.",
+   "language": "Python",
+   "stars": 112,
+   "forks": 6,
+   "age_days": 2,
+   "daily_stars": 56.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 17
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "earendil-works/pi",
+   "url": "https://github.com/earendil-works/pi",
+   "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+   "language": "TypeScript",
+   "stars": 111532,
+   "forks": 14154,
+   "age_days": 418,
+   "daily_stars": 266.82296650717706,
+   "real_daily_stars": 463.5,
+   "watchers": 337,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "description": "An agentic skills framework & software development methodology that works.",
+   "language": "Shell",
+   "stars": 294160,
+   "forks": 26305,
+   "age_days": 357,
+   "daily_stars": 823.9775910364145,
+   "real_daily_stars": 514.0,
+   "watchers": 1081,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  }
+ ]
+}
