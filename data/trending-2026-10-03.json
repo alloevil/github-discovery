@@ -3,89 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "obra/superpowers",
-   "stars": 294642,
-   "language": "Shell"
-  },
-  {
-   "full_name": "mattpocock/skills",
-   "stars": 274962,
-   "language": "Shell"
-  },
-  {
-   "full_name": "DietrichGebert/ponytail",
-   "stars": 152234,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "JuliusBrussee/caveman",
-   "stars": 109267,
-   "language": "Go"
-  },
-  {
-   "full_name": "Panniantong/Agent-Reach",
-   "stars": 89248,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "pbakaus/impeccable",
-   "stars": 74580,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "colbymchenry/codegraph",
-   "stars": 73075,
-   "language": "C"
-  },
-  {
-   "full_name": "heygen-com/hyperframes",
-   "stars": 56072,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "coreyhaines31/marketingskills",
-   "stars": 52552,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "getsentry/sentry",
-   "stars": 45099,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "mksglu/context-mode",
-   "stars": 25139,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "google/skills",
-   "stars": 20853,
-   "language": "Python"
-  },
-  {
-   "full_name": "Effect-TS/effect",
-   "stars": 16658,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "NVIDIA/OpenShell",
-   "stars": 14566,
-   "language": "Rust"
-  },
-  {
-   "full_name": "cursor/plugins",
-   "stars": 9576,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "mvschwarz/openrig",
-   "stars": 4531,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "pablostanley/yoinks",
-   "stars": 3670,
-   "language": "TypeScript"
   }
  ]
 }
