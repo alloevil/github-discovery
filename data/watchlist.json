@@ -1,82 +1,5 @@
 {
  "repos": {
-  "cloudflare/security-audit-skill": {
-   "first_seen": "2026-09-18",
-   "until": "2026-10-02",
-   "stars_at_discovery": 11518,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "Tencent/WeKnora": {
-   "first_seen": "2026-09-18",
-   "until": "2026-10-02",
-   "stars_at_discovery": 26687,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "abue-ammar/tinycast": {
-   "first_seen": "2026-09-18",
-   "until": "2026-10-02",
-   "stars_at_discovery": 6297,
-   "score_at_discovery": 99,
-   "source_at_discovery": "trending"
-  },
-  "anthropics/knowledge-work-plugins": {
-   "first_seen": "2026-09-18",
-   "until": "2026-10-02",
-   "stars_at_discovery": 24694,
-   "score_at_discovery": 97,
-   "source_at_discovery": "trending"
-  },
-  "TheoLeeCJ/openjev": {
-   "first_seen": "2026-09-18",
-   "until": "2026-10-02",
-   "stars_at_discovery": 1163,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "roboflow/supervision": {
-   "first_seen": "2026-09-18",
-   "until": "2026-10-02",
-   "stars_at_discovery": 50898,
-   "score_at_discovery": 95,
-   "source_at_discovery": "trending"
-  },
-  "mcncarl/jianying-headless": {
-   "first_seen": "2026-09-18",
-   "until": "2026-10-02",
-   "stars_at_discovery": 547,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "thruwire/foreman": {
-   "first_seen": "2026-09-18",
-   "until": "2026-10-02",
-   "stars_at_discovery": 239,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "devagrawal09/jev-review": {
-   "first_seen": "2026-09-18",
-   "until": "2026-10-02",
-   "stars_at_discovery": 208,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "jamiepine/voicebox": {
-   "first_seen": "2026-09-18",
-   "until": "2026-10-02",
-   "stars_at_discovery": 55013,
-   "score_at_discovery": 91,
-   "source_at_discovery": "trending"
-  },
-  "jub0t/Concat": {
-   "first_seen": "2026-09-18",
-   "until": "2026-10-02",
-   "stars_at_discovery": 2746,
-   "score_at_discovery": 93,
-   "source_at_discovery": "hn"
-  },
   "Tencent/BrowserSkill": {
    "first_seen": "2026-09-19",
    "until": "2026-10-03",
@@ -1133,7 +1056,91 @@
    "stars_at_discovery": 111532,
    "score_at_discovery": 93,
    "source_at_discovery": "trending"
+  },
+  "pablostanley/yoinks": {
+   "first_seen": "2026-10-03",
+   "until": "2026-10-17",
+   "stars_at_discovery": 3670,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "CAPCOM-TD-OSS/REDox": {
+   "first_seen": "2026-10-03",
+   "until": "2026-10-17",
+   "stars_at_discovery": 915,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "facebookincubator/muse-gadget-sdk": {
+   "first_seen": "2026-10-03",
+   "until": "2026-10-17",
+   "stars_at_discovery": 499,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "chasmlol/SkyCraft": {
+   "first_seen": "2026-10-03",
+   "until": "2026-10-17",
+   "stars_at_discovery": 619,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "kvoltmer/Audionaut": {
+   "first_seen": "2026-10-03",
+   "until": "2026-10-17",
+   "stars_at_discovery": 167,
+   "score_at_discovery": 94,
+   "source_at_discovery": "hn"
+  },
+  "BootLoops-ai/bootloops": {
+   "first_seen": "2026-10-03",
+   "until": "2026-10-17",
+   "stars_at_discovery": 174,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "cursor/plugins": {
+   "first_seen": "2026-10-03",
+   "until": "2026-10-17",
+   "stars_at_discovery": 9576,
+   "score_at_discovery": 91,
+   "source_at_discovery": "trending"
+  },
+  "kitao/pyxel": {
+   "first_seen": "2026-10-03",
+   "until": "2026-10-17",
+   "stars_at_discovery": 18366,
+   "score_at_discovery": 90,
+   "source_at_discovery": "hn"
+  },
+  "Remocn/remocn-studio": {
+   "first_seen": "2026-10-03",
+   "until": "2026-10-17",
+   "stars_at_discovery": 102,
+   "score_at_discovery": 88,
+   "source_at_discovery": "search"
+  },
+  "Vibra-Ingenn/Janus": {
+   "first_seen": "2026-10-03",
+   "until": "2026-10-17",
+   "stars_at_discovery": 104,
+   "score_at_discovery": 87,
+   "source_at_discovery": "hn"
+  },
+  "Panniantong/Agent-Reach": {
+   "first_seen": "2026-10-03",
+   "until": "2026-10-17",
+   "stars_at_discovery": 89248,
+   "score_at_discovery": 95,
+   "source_at_discovery": "trending"
+  },
+  "coreyhaines31/marketingskills": {
+   "first_seen": "2026-10-03",
+   "until": "2026-10-17",
+   "stars_at_discovery": 52552,
+   "score_at_discovery": 73,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-10-02T10:48:52.290257+00:00"
+ "updated_at": "2026-10-03T10:07:42.656166+00:00"
 }

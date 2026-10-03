@@ -28,7 +28,7 @@
       "last_recommended": "2026-09-17T09:41:05.679036+00:00"
     },
     "mattpocock/skills": {
-      "count": 7,
+      "count": 8,
       "scores": [
         100,
         100,
@@ -36,9 +36,10 @@
         100,
         100,
         90,
+        90,
         90
       ],
-      "last_recommended": "2026-09-26T09:32:50.362986+00:00"
+      "last_recommended": "2026-10-03T10:04:21.051637+00:00"
     },
     "addyosmani/agent-skills": {
       "count": 4,
@@ -101,14 +102,6 @@
       ],
       "last_recommended": "2026-09-12T08:51:47.499015+00:00"
     },
-    "JuliusBrussee/caveman": {
-      "count": 2,
-      "scores": [
-        90,
-        86
-      ],
-      "last_recommended": "2026-09-03T09:12:32.926229+00:00"
-    },
     "anthropics/claude-code": {
       "count": 2,
       "scores": [
@@ -116,14 +109,6 @@
         68
       ],
       "last_recommended": "2026-09-17T09:41:05.680492+00:00"
-    },
-    "NousResearch/hermes-agent": {
-      "count": 2,
-      "scores": [
-        90,
-        90
-      ],
-      "last_recommended": "2026-09-03T09:12:32.922014+00:00"
     },
     "freestylefly/awesome-gpt-image-2": {
       "count": 2,
@@ -206,76 +191,6 @@
         85
       ],
       "last_recommended": "2026-09-27T10:13:45.793938+00:00"
-    },
-    "anthropics/commerce-agents": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-03T09:12:32.901316+00:00"
-    },
-    "2akouwu/reverify": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-03T09:12:32.903599+00:00"
-    },
-    "ZJU-REAL/Easel": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-03T09:12:32.905614+00:00"
-    },
-    "Imbad0202/academic-research-skills": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-03T09:12:32.907719+00:00"
-    },
-    "lnkiai/m3e-canvas": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-03T09:12:32.909755+00:00"
-    },
-    "subsy/skill-cabinet": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-03T09:12:32.911850+00:00"
-    },
-    "aaronyi97/image-story-video-wizard": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-03T09:12:32.913873+00:00"
-    },
-    "rakanki911/DLSS5-Swapper": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-09-03T09:12:32.915925+00:00"
-    },
-    "richiemcilroy/chippytea": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-09-03T09:12:32.917948+00:00"
-    },
-    "kydlikebtc/awesome-grokbot": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-09-03T09:12:32.919988+00:00"
     },
     "fmtlib/fmt": {
       "count": 1,
@@ -569,11 +484,12 @@
       "last_recommended": "2026-09-08T04:03:35.487644+00:00"
     },
     "coreyhaines31/marketingskills": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        97
+        97,
+        73
       ],
-      "last_recommended": "2026-09-08T04:03:35.490071+00:00"
+      "last_recommended": "2026-10-03T10:04:21.053828+00:00"
     },
     "openai/skills": {
       "count": 1,
@@ -1104,11 +1020,12 @@
       "last_recommended": "2026-09-15T09:37:24.822781+00:00"
     },
     "Panniantong/Agent-Reach": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        89
+        89,
+        95
       ],
-      "last_recommended": "2026-09-15T09:37:24.824798+00:00"
+      "last_recommended": "2026-10-03T10:04:21.049336+00:00"
     },
     "yi1108/printfilm": {
       "count": 1,
@@ -1861,11 +1778,12 @@
       "last_recommended": "2026-09-26T09:32:50.349481+00:00"
     },
     "pbakaus/impeccable": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        93
+        93,
+        99
       ],
-      "last_recommended": "2026-09-26T09:32:50.351729+00:00"
+      "last_recommended": "2026-10-03T10:04:21.047153+00:00"
     },
     "jamespolyakov9829/captcha-api": {
       "count": 1,
@@ -2314,7 +2232,77 @@
         86
       ],
       "last_recommended": "2026-10-02T10:45:25.820393+00:00"
+    },
+    "pablostanley/yoinks": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-03T10:04:21.025224+00:00"
+    },
+    "CAPCOM-TD-OSS/REDox": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-03T10:04:21.027717+00:00"
+    },
+    "facebookincubator/muse-gadget-sdk": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-03T10:04:21.029975+00:00"
+    },
+    "chasmlol/SkyCraft": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-03T10:04:21.032148+00:00"
+    },
+    "kvoltmer/Audionaut": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-03T10:04:21.034295+00:00"
+    },
+    "BootLoops-ai/bootloops": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-03T10:04:21.036513+00:00"
+    },
+    "cursor/plugins": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-03T10:04:21.038639+00:00"
+    },
+    "kitao/pyxel": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-03T10:04:21.040827+00:00"
+    },
+    "Remocn/remocn-studio": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-10-03T10:04:21.042905+00:00"
+    },
+    "Vibra-Ingenn/Janus": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-10-03T10:04:21.045038+00:00"
     }
   },
-  "updated_at": "2026-10-02T10:45:25.824454+00:00"
+  "updated_at": "2026-10-03T10:04:21.053857+00:00"
 }

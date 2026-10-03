@@ -3,12 +3,100 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-02T18:00:00Z</updated>
+  <updated>2026-10-03T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>pablostanley/yoinks — yoink any video from your terminal. no shady ads.</title>
+    <id>https://github.com/pablostanley/yoinks#2026-10-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/pablostanley/yoinks"/>
+    <updated>2026-10-03T18:00:00Z</updated>
+    <published>2026-10-03T18:00:00Z</published>
+    <summary>yoink any video from your terminal. no shady ads.
+
+Why: +500/day · Trending · 10.8x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 3670 (+500.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>CAPCOM-TD-OSS/REDox — High-performance, token-based structured data engine for .NET. A core component of REX, the technology behind CAPCOM's next-generation game engine.</title>
+    <id>https://github.com/CAPCOM-TD-OSS/REDox#2026-10-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/CAPCOM-TD-OSS/REDox"/>
+    <updated>2026-10-03T18:00:00Z</updated>
+    <published>2026-10-03T18:00:00Z</published>
+    <summary>High-performance, token-based structured data engine for .NET. A core component of REX, the technology behind CAPCOM's next-generation game engine.
+
+Why: +458/day · Search
+Score: 96/100 | Language: C# | ⭐ 915 (+457.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>facebookincubator/muse-gadget-sdk — Open source SDK to build Muse gadgets</title>
+    <id>https://github.com/facebookincubator/muse-gadget-sdk#2026-10-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/facebookincubator/muse-gadget-sdk"/>
+    <updated>2026-10-03T18:00:00Z</updated>
+    <published>2026-10-03T18:00:00Z</published>
+    <summary>Open source SDK to build Muse gadgets
+
+Why: +499/day · Search
+Score: 96/100 | Language: C | ⭐ 499 (+499.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>chasmlol/SkyCraft — Play Skyrim as a Minecraft player: Minecraft physics, inventory, blocks and combat inside Skyrim's world (SKSE plugin + Fabric mod).</title>
+    <id>https://github.com/chasmlol/SkyCraft#2026-10-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/chasmlol/SkyCraft"/>
+    <updated>2026-10-03T18:00:00Z</updated>
+    <published>2026-10-03T18:00:00Z</published>
+    <summary>Play Skyrim as a Minecraft player: Minecraft physics, inventory, blocks and combat inside Skyrim's world (SKSE plugin + Fabric mod).
+
+Why: +310/day · Search
+Score: 94/100 | Language: C++ | ⭐ 619 (+309.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>kvoltmer/Audionaut — Audionaut professional audio editing and audio recording</title>
+    <id>https://github.com/kvoltmer/Audionaut#2026-10-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/kvoltmer/Audionaut"/>
+    <updated>2026-10-03T18:00:00Z</updated>
+    <published>2026-10-03T18:00:00Z</published>
+    <summary>Audionaut professional audio editing and audio recording
+
+Why: +151/day · HN · 1215.2x accelerating
+Score: 94/100 | Language: C++ | ⭐ 167 (+151.0/day) | Source: hn</summary>
+  </entry>
+  <entry>
+    <title>pbakaus/impeccable — The design language that makes your AI harness better at design.</title>
+    <id>https://github.com/pbakaus/impeccable#2026-10-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/pbakaus/impeccable"/>
+    <updated>2026-10-03T18:00:00Z</updated>
+    <published>2026-10-03T18:00:00Z</published>
+    <summary>The design language that makes your AI harness better at design.
+
+Why: +639/day · Trending · 2.8x accelerating
+Score: 99/100 | Language: JavaScript | ⭐ 74580 (+639.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Panniantong/Agent-Reach — Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.</title>
+    <id>https://github.com/Panniantong/Agent-Reach#2026-10-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Panniantong/Agent-Reach"/>
+    <updated>2026-10-03T18:00:00Z</updated>
+    <published>2026-10-03T18:00:00Z</published>
+    <summary>Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
+
+Why: +786/day · Trending · 1.9x accelerating
+Score: 95/100 | Language: Python | ⭐ 89248 (+786.5/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>mattpocock/skills — Skills for Real Engineers. Straight from my .agents directory.</title>
+    <id>https://github.com/mattpocock/skills#2026-10-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mattpocock/skills"/>
+    <updated>2026-10-03T18:00:00Z</updated>
+    <published>2026-10-03T18:00:00Z</published>
+    <summary>Skills for Real Engineers. Straight from my .agents directory.
+
+Why: +683/day · Trending
+Score: 90/100 | Language: Shell | ⭐ 274962 (+683.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>Edwardxlai/easyread — 把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.</title>
     <id>https://github.com/Edwardxlai/easyread#2026-10-02</id>
@@ -866,60 +954,5 @@ Score: 94/100 | Language: Python | ⭐ 358 (+358.0/day) | Source: search + risin
 
 Why: +262/day · Search · 2.3x accelerating
 Score: 93/100 | Language: Rust | ⭐ 686 (+262.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>Tencent/BrowserSkill — Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.</title>
-    <id>https://github.com/Tencent/BrowserSkill#2026-09-19</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Tencent/BrowserSkill"/>
-    <updated>2026-09-19T18:00:00Z</updated>
-    <published>2026-09-19T18:00:00Z</published>
-    <summary>Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.
-
-Why: +788/day · Trending · 12.7x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 5528 (+788.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>coder/coder — Secure environments for developers and their agents</title>
-    <id>https://github.com/coder/coder#2026-09-19</id>
-    <link rel="alternate" type="text/html" href="https://github.com/coder/coder"/>
-    <updated>2026-09-19T18:00:00Z</updated>
-    <published>2026-09-19T18:00:00Z</published>
-    <summary>Secure environments for developers and their agents
-
-Why: +400/day · Trending · 45.0x accelerating
-Score: 99/100 | Language: Go | ⭐ 15402 (+400.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>TencentCloud/Octop — A smarter, self-hosted AI assistant — multi-user, multi-agent.</title>
-    <id>https://github.com/TencentCloud/Octop#2026-09-19</id>
-    <link rel="alternate" type="text/html" href="https://github.com/TencentCloud/Octop"/>
-    <updated>2026-09-19T18:00:00Z</updated>
-    <published>2026-09-19T18:00:00Z</published>
-    <summary>A smarter, self-hosted AI assistant — multi-user, multi-agent.
-
-Why: +347/day · Trending · 6.1x accelerating
-Score: 98/100 | Language: Python | ⭐ 4067 (+347.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>TheoLeeCJ/SemIf — Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.</title>
-    <id>https://github.com/TheoLeeCJ/SemIf#2026-09-19</id>
-    <link rel="alternate" type="text/html" href="https://github.com/TheoLeeCJ/SemIf"/>
-    <updated>2026-09-19T18:00:00Z</updated>
-    <published>2026-09-19T18:00:00Z</published>
-    <summary>Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.
-
-Why: +562/day · Search
-Score: 96/100 | Language: Python | ⭐ 1685 (+561.7/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>robbietilton/Compositor — The Photoshop alternative for Mac</title>
-    <id>https://github.com/robbietilton/Compositor#2026-09-19</id>
-    <link rel="alternate" type="text/html" href="https://github.com/robbietilton/Compositor"/>
-    <updated>2026-09-19T18:00:00Z</updated>
-    <published>2026-09-19T18:00:00Z</published>
-    <summary>The Photoshop alternative for Mac
-
-Why: +640/day · Search
-Score: 96/100 | Language: Swift | ⭐ 1281 (+640.5/day) | Source: search</summary>
   </entry>
 </feed>
