@@ -16,16 +16,17 @@
       "last_recommended": "2026-10-02T10:45:25.824429+00:00"
     },
     "affaan-m/ECC": {
-      "count": 6,
+      "count": 7,
       "scores": [
         100,
         100,
         90,
         88,
         91,
+        90,
         90
       ],
-      "last_recommended": "2026-09-17T09:41:05.679036+00:00"
+      "last_recommended": "2026-10-04T10:47:01.101701+00:00"
     },
     "mattpocock/skills": {
       "count": 8,
@@ -42,14 +43,15 @@
       "last_recommended": "2026-10-03T10:04:21.051637+00:00"
     },
     "addyosmani/agent-skills": {
-      "count": 4,
+      "count": 5,
       "scores": [
         100,
         100,
         87,
-        87
+        87,
+        86
       ],
-      "last_recommended": "2026-09-16T09:32:40.860186+00:00"
+      "last_recommended": "2026-10-04T10:47:01.103421+00:00"
     },
     "AlexsJones/llmfit": {
       "count": 3,
@@ -103,12 +105,13 @@
       "last_recommended": "2026-09-12T08:51:47.499015+00:00"
     },
     "anthropics/claude-code": {
-      "count": 2,
+      "count": 3,
       "scores": [
         87,
-        68
+        68,
+        70
       ],
-      "last_recommended": "2026-09-17T09:41:05.680492+00:00"
+      "last_recommended": "2026-10-04T10:47:01.105177+00:00"
     },
     "freestylefly/awesome-gpt-image-2": {
       "count": 2,
@@ -192,20 +195,6 @@
       ],
       "last_recommended": "2026-09-27T10:13:45.793938+00:00"
     },
-    "fmtlib/fmt": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-04T09:04:30.179946+00:00"
-    },
-    "blader/humanizer": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-04T09:04:30.182238+00:00"
-    },
     "debpalash/VoiceStudio": {
       "count": 3,
       "scores": [
@@ -215,13 +204,6 @@
       ],
       "last_recommended": "2026-09-28T11:15:08.735534+00:00"
     },
-    "google-research/timesfm": {
-      "count": 1,
-      "scores": [
-        99
-      ],
-      "last_recommended": "2026-09-04T09:04:30.186206+00:00"
-    },
     "averygan/reclip": {
       "count": 2,
       "scores": [
@@ -229,41 +211,6 @@
         83
       ],
       "last_recommended": "2026-09-30T10:45:34.342816+00:00"
-    },
-    "MSNightmare/FalconFlank": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-04T09:04:30.190281+00:00"
-    },
-    "PhiloLabs/fable51-worlds": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-09-04T09:04:30.192287+00:00"
-    },
-    "codejunkie99/fable-orchestrator": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-09-04T09:04:30.194264+00:00"
-    },
-    "Albert-Weasker/niubigeo": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-09-04T09:04:30.196254+00:00"
-    },
-    "nahrek/polyledger": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-09-04T09:04:30.198247+00:00"
     },
     "magnitudedev/magnitude": {
       "count": 1,
@@ -2302,7 +2249,77 @@
         87
       ],
       "last_recommended": "2026-10-03T10:04:21.045038+00:00"
+    },
+    "Effect-TS/effect": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-10-04T10:47:01.064152+00:00"
+    },
+    "nykooi1/vibe-wise": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-04T10:47:01.066093+00:00"
+    },
+    "whirlchat/whirl": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-10-04T10:47:01.087911+00:00"
+    },
+    "getsentry/sentry": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-04T10:47:01.089714+00:00"
+    },
+    "QingYunA/answer-me-with-html": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-04T10:47:01.091426+00:00"
+    },
+    "Jakeschincariol/replica-skill": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-10-04T10:47:01.093148+00:00"
+    },
+    "JuliusBrussee/caveman": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-04T10:47:01.094848+00:00"
+    },
+    "StayLameBro/backburner": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-04T10:47:01.096556+00:00"
+    },
+    "jarrodwatts/claude-image-view": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-04T10:47:01.098274+00:00"
+    },
+    "oil-oil/oil-ui": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-10-04T10:47:01.099992+00:00"
     }
   },
-  "updated_at": "2026-10-03T10:04:21.053857+00:00"
+  "updated_at": "2026-10-04T10:47:01.105198+00:00"
 }

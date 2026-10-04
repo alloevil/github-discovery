@@ -1,75 +1,5 @@
 {
  "repos": {
-  "Tencent/BrowserSkill": {
-   "first_seen": "2026-09-19",
-   "until": "2026-10-03",
-   "stars_at_discovery": 5528,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "coder/coder": {
-   "first_seen": "2026-09-19",
-   "until": "2026-10-03",
-   "stars_at_discovery": 15402,
-   "score_at_discovery": 99,
-   "source_at_discovery": "trending"
-  },
-  "TencentCloud/Octop": {
-   "first_seen": "2026-09-19",
-   "until": "2026-10-03",
-   "stars_at_discovery": 4067,
-   "score_at_discovery": 98,
-   "source_at_discovery": "trending"
-  },
-  "TheoLeeCJ/SemIf": {
-   "first_seen": "2026-09-19",
-   "until": "2026-10-03",
-   "stars_at_discovery": 1685,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "robbietilton/Compositor": {
-   "first_seen": "2026-09-19",
-   "until": "2026-10-03",
-   "stars_at_discovery": 1281,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "TianyuCodings/NanoJev": {
-   "first_seen": "2026-09-19",
-   "until": "2026-10-03",
-   "stars_at_discovery": 556,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored": {
-   "first_seen": "2026-09-19",
-   "until": "2026-10-03",
-   "stars_at_discovery": 424,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "NandhaKishorM/laya": {
-   "first_seen": "2026-09-19",
-   "until": "2026-10-03",
-   "stars_at_discovery": 417,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "supabase/supabase": {
-   "first_seen": "2026-09-19",
-   "until": "2026-10-03",
-   "stars_at_discovery": 110240,
-   "score_at_discovery": 94,
-   "source_at_discovery": "trending"
-  },
-  "ankitects/anki": {
-   "first_seen": "2026-09-19",
-   "until": "2026-10-03",
-   "stars_at_discovery": 31286,
-   "score_at_discovery": 93,
-   "source_at_discovery": "trending"
-  },
   "asciimoo/hister": {
    "first_seen": "2026-09-20",
    "until": "2026-10-04",
@@ -1140,7 +1070,98 @@
    "stars_at_discovery": 52552,
    "score_at_discovery": 73,
    "source_at_discovery": "trending"
+  },
+  "Effect-TS/effect": {
+   "first_seen": "2026-10-04",
+   "until": "2026-10-18",
+   "stars_at_discovery": 16910,
+   "score_at_discovery": 97,
+   "source_at_discovery": "trending"
+  },
+  "nykooi1/vibe-wise": {
+   "first_seen": "2026-10-04",
+   "until": "2026-10-18",
+   "stars_at_discovery": 818,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "whirlchat/whirl": {
+   "first_seen": "2026-10-04",
+   "until": "2026-10-18",
+   "stars_at_discovery": 381,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "getsentry/sentry": {
+   "first_seen": "2026-10-04",
+   "until": "2026-10-18",
+   "stars_at_discovery": 45258,
+   "score_at_discovery": 94,
+   "source_at_discovery": "trending"
+  },
+  "QingYunA/answer-me-with-html": {
+   "first_seen": "2026-10-04",
+   "until": "2026-10-18",
+   "stars_at_discovery": 715,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "Jakeschincariol/replica-skill": {
+   "first_seen": "2026-10-04",
+   "until": "2026-10-18",
+   "stars_at_discovery": 260,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "JuliusBrussee/caveman": {
+   "first_seen": "2026-10-04",
+   "until": "2026-10-18",
+   "stars_at_discovery": 109692,
+   "score_at_discovery": 89,
+   "source_at_discovery": "trending"
+  },
+  "StayLameBro/backburner": {
+   "first_seen": "2026-10-04",
+   "until": "2026-10-18",
+   "stars_at_discovery": 257,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "jarrodwatts/claude-image-view": {
+   "first_seen": "2026-10-04",
+   "until": "2026-10-18",
+   "stars_at_discovery": 119,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "oil-oil/oil-ui": {
+   "first_seen": "2026-10-04",
+   "until": "2026-10-18",
+   "stars_at_discovery": 412,
+   "score_at_discovery": 88,
+   "source_at_discovery": "search"
+  },
+  "affaan-m/ECC": {
+   "first_seen": "2026-10-04",
+   "until": "2026-10-18",
+   "stars_at_discovery": 272539,
+   "score_at_discovery": 90,
+   "source_at_discovery": "trending"
+  },
+  "addyosmani/agent-skills": {
+   "first_seen": "2026-10-04",
+   "until": "2026-10-18",
+   "stars_at_discovery": 100959,
+   "score_at_discovery": 86,
+   "source_at_discovery": "trending"
+  },
+  "anthropics/claude-code": {
+   "first_seen": "2026-10-04",
+   "until": "2026-10-18",
+   "stars_at_discovery": 149342,
+   "score_at_discovery": 70,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-10-03T10:07:42.656166+00:00"
+ "updated_at": "2026-10-04T10:51:17.168505+00:00"
 }
