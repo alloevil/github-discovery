@@ -3,98 +3,13 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "obra/superpowers",
-   "stars": 295067,
-   "language": "Shell"
-  },
-  {
-   "full_name": "mattpocock/skills",
-   "stars": 275641,
-   "language": "Shell"
-  },
-  {
-   "full_name": "affaan-m/ECC",
-   "stars": 272539,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "DietrichGebert/ponytail",
-   "stars": 154103,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "anthropics/claude-code",
-   "stars": 149342,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "earendil-works/pi",
-   "stars": 112309,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "JuliusBrussee/caveman",
-   "stars": 109692,
-   "language": "Go"
-  },
-  {
-   "full_name": "addyosmani/agent-skills",
-   "stars": 100959,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "thedotmack/claude-mem",
-   "stars": 95813,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "OpenCut-app/OpenCut",
-   "stars": 91803,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "Panniantong/Agent-Reach",
-   "stars": 90238,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "pbakaus/impeccable",
-   "stars": 75740,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "getsentry/sentry",
-   "stars": 45258,
-   "language": "Python"
-  },
-  {
-   "full_name": "mksglu/context-mode",
-   "stars": 25332,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "pingdotgg/t3code",
-   "stars": 24888,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "Effect-TS/effect",
-   "stars": 16910,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "cloudflare/cloudflare-os",
-   "stars": 10698,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "jamwithai/production-agentic-rag-course",
-   "stars": 9486,
-   "language": "Python"
-  },
-  {
-   "full_name": "meituan-longcat/LongCat-Video",
-   "stars": 8892,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
   }
  ]
