@@ -3,12 +3,100 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-03T18:00:00Z</updated>
+  <updated>2026-10-04T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>Effect-TS/effect — Build production-ready applications in TypeScript</title>
+    <id>https://github.com/Effect-TS/effect#2026-10-04</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Effect-TS/effect"/>
+    <updated>2026-10-04T18:00:00Z</updated>
+    <published>2026-10-04T18:00:00Z</published>
+    <summary>Build production-ready applications in TypeScript
+
+Why: +252/day · Trending · 37.5x accelerating
+Score: 97/100 | Language: TypeScript | ⭐ 16910 (+252.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>nykooi1/vibe-wise — A Claude Code plugin that helps you learn how to build while AI writes the code.</title>
+    <id>https://github.com/nykooi1/vibe-wise#2026-10-04</id>
+    <link rel="alternate" type="text/html" href="https://github.com/nykooi1/vibe-wise"/>
+    <updated>2026-10-04T18:00:00Z</updated>
+    <published>2026-10-04T18:00:00Z</published>
+    <summary>A Claude Code plugin that helps you learn how to build while AI writes the code.
+
+Why: +405/day · Search · 2.5x accelerating
+Score: 96/100 | Language: Python | ⭐ 818 (+405.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>whirlchat/whirl — The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.</title>
+    <id>https://github.com/whirlchat/whirl#2026-10-04</id>
+    <link rel="alternate" type="text/html" href="https://github.com/whirlchat/whirl"/>
+    <updated>2026-10-04T18:00:00Z</updated>
+    <published>2026-10-04T18:00:00Z</published>
+    <summary>The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.
+
+Why: +381/day · Search
+Score: 95/100 | Language: TypeScript | ⭐ 381 (+381.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>getsentry/sentry — Developer-first error tracking and performance monitoring</title>
+    <id>https://github.com/getsentry/sentry#2026-10-04</id>
+    <link rel="alternate" type="text/html" href="https://github.com/getsentry/sentry"/>
+    <updated>2026-10-04T18:00:00Z</updated>
+    <published>2026-10-04T18:00:00Z</published>
+    <summary>Developer-first error tracking and performance monitoring
+
+Why: +159/day · Trending · 20.7x accelerating
+Score: 94/100 | Language: Python | ⭐ 45258 (+159.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>QingYunA/answer-me-with-html — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。</title>
+    <id>https://github.com/QingYunA/answer-me-with-html#2026-10-04</id>
+    <link rel="alternate" type="text/html" href="https://github.com/QingYunA/answer-me-with-html"/>
+    <updated>2026-10-04T18:00:00Z</updated>
+    <published>2026-10-04T18:00:00Z</published>
+    <summary>Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。
+
+Why: +358/day · Search
+Score: 94/100 | Language: JavaScript | ⭐ 715 (+357.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>affaan-m/ECC — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</title>
+    <id>https://github.com/affaan-m/ECC#2026-10-04</id>
+    <link rel="alternate" type="text/html" href="https://github.com/affaan-m/ECC"/>
+    <updated>2026-10-04T18:00:00Z</updated>
+    <published>2026-10-04T18:00:00Z</published>
+    <summary>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+
+Why: +712/day · Trending
+Score: 90/100 | Language: JavaScript | ⭐ 272539 (+711.7/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.</title>
+    <id>https://github.com/addyosmani/agent-skills#2026-10-04</id>
+    <link rel="alternate" type="text/html" href="https://github.com/addyosmani/agent-skills"/>
+    <updated>2026-10-04T18:00:00Z</updated>
+    <published>2026-10-04T18:00:00Z</published>
+    <summary>Production-grade engineering skills for AI coding agents.
+
+Why: +234/day · Trending
+Score: 86/100 | Language: JavaScript | ⭐ 100959 (+234.2/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</title>
+    <id>https://github.com/anthropics/claude-code#2026-10-04</id>
+    <link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code"/>
+    <updated>2026-10-04T18:00:00Z</updated>
+    <published>2026-10-04T18:00:00Z</published>
+    <summary>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
+
+Why: +188/day · Trending
+Score: 70/100 | Language: TypeScript | ⭐ 149342 (+188.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>pablostanley/yoinks — yoink any video from your terminal. no shady ads.</title>
     <id>https://github.com/pablostanley/yoinks#2026-10-03</id>
@@ -899,60 +987,5 @@ Score: 91/100 | Language: Python | ⭐ 173 (+173.0/day) | Source: rising</summar
 
 Why: +5.0/day · HN
 Score: 60/100 | Language: Python | ⭐ 243 (+5.0/day) | Source: hn</summary>
-  </entry>
-  <entry>
-    <title>asciimoo/hister — Your own search engine</title>
-    <id>https://github.com/asciimoo/hister#2026-09-20</id>
-    <link rel="alternate" type="text/html" href="https://github.com/asciimoo/hister"/>
-    <updated>2026-09-20T18:00:00Z</updated>
-    <published>2026-09-20T18:00:00Z</published>
-    <summary>Your own search engine
-
-Why: +299/day · Trending · 14.4x accelerating
-Score: 98/100 | Language: Go | ⭐ 5353 (+299.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>mizorewww/laya-mlx — Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.</title>
-    <id>https://github.com/mizorewww/laya-mlx#2026-09-20</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mizorewww/laya-mlx"/>
-    <updated>2026-09-20T18:00:00Z</updated>
-    <published>2026-09-20T18:00:00Z</published>
-    <summary>Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.
-
-Why: +424/day · Search
-Score: 95/100 | Language: Python | ⭐ 424 (+424.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>incoai/splash — A local inference engine for Apple silicon, built around the model.</title>
-    <id>https://github.com/incoai/splash#2026-09-20</id>
-    <link rel="alternate" type="text/html" href="https://github.com/incoai/splash"/>
-    <updated>2026-09-20T18:00:00Z</updated>
-    <published>2026-09-20T18:00:00Z</published>
-    <summary>A local inference engine for Apple silicon, built around the model.
-
-Why: +372/day · Search
-Score: 95/100 | Language: Python | ⭐ 372 (+372.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>newliver666/apk-reverse — Suitable for Android APK reverse engineering analysis</title>
-    <id>https://github.com/newliver666/apk-reverse#2026-09-20</id>
-    <link rel="alternate" type="text/html" href="https://github.com/newliver666/apk-reverse"/>
-    <updated>2026-09-20T18:00:00Z</updated>
-    <published>2026-09-20T18:00:00Z</published>
-    <summary>Suitable for Android APK reverse engineering analysis
-
-Why: +358/day · Search+Rising
-Score: 94/100 | Language: Python | ⭐ 358 (+358.0/day) | Source: search + rising</summary>
-  </entry>
-  <entry>
-    <title>jackwener/wx-cli-again — WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli</title>
-    <id>https://github.com/jackwener/wx-cli-again#2026-09-20</id>
-    <link rel="alternate" type="text/html" href="https://github.com/jackwener/wx-cli-again"/>
-    <updated>2026-09-20T18:00:00Z</updated>
-    <published>2026-09-20T18:00:00Z</published>
-    <summary>WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli
-
-Why: +262/day · Search · 2.3x accelerating
-Score: 93/100 | Language: Rust | ⭐ 686 (+262.0/day) | Source: search</summary>
   </entry>
 </feed>
