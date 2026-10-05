@@ -1,0 +1,357 @@
+{
+ "date": "2026-10-05",
+ "generated_at": "2026-10-05T11:52:06.237155",
+ "pool_size": 73,
+ "source_health": {
+  "trending": {
+   "fetched": 13,
+   "parsed": 13,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 4
+  },
+  "search": {
+   "fetched": 58,
+   "parsed": 58,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 5
+  },
+  "hn": {
+   "fetched": 14,
+   "parsed": 14,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  },
+  "rising": {
+   "fetched": 2,
+   "parsed": 2,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 1,
+   "parsed": 1,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "pingdotgg/t3code",
+   "url": "https://github.com/pingdotgg/t3code",
+   "description": "",
+   "language": "TypeScript",
+   "stars": 25382,
+   "forks": 6554,
+   "age_days": 238,
+   "daily_stars": 106.6470588235294,
+   "real_daily_stars": 494.0,
+   "watchers": 67,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+   "language": "TypeScript",
+   "stars": 96357,
+   "forks": 8506,
+   "age_days": 399,
+   "daily_stars": 241.49624060150376,
+   "real_daily_stars": 544.0,
+   "watchers": 307,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "lucasmarkes/hairline",
+   "url": "https://github.com/lucasmarkes/hairline",
+   "description": "Six isometric line figures that answer the pointer. For React and for anything with a DOM.",
+   "language": "TypeScript",
+   "stars": 431,
+   "forks": 27,
+   "age_days": 3,
+   "daily_stars": 143.66666666666666,
+   "real_daily_stars": 311.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "sganggs/Stronghold-Protocol",
+   "url": "https://github.com/sganggs/Stronghold-Protocol",
+   "description": "明日方舟「卫戍协议：盟约」非官方同人复刻：浏览器自走棋塔防，单人或 1–4 人联机合作（非商业）",
+   "language": "JavaScript",
+   "stars": 658,
+   "forks": 147,
+   "age_days": 3,
+   "daily_stars": 219.33333333333334,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "shinshin86/mesh-avatar-studio",
+   "url": "https://github.com/shinshin86/mesh-avatar-studio",
+   "description": "Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor",
+   "language": "TypeScript",
+   "stars": 200,
+   "forks": 20,
+   "age_days": 1,
+   "daily_stars": 200.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "cneuralnetwork/kharcha",
+   "url": "https://github.com/cneuralnetwork/kharcha",
+   "description": "Private spending ledger from bank SMS, built with Expo and optional encrypted Render backup.",
+   "language": "TypeScript",
+   "stars": 163,
+   "forks": 19,
+   "age_days": 1,
+   "daily_stars": 163.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "zeemscript/TrustMint",
+   "url": "https://github.com/zeemscript/TrustMint",
+   "description": "Open-source toolkit for compliant real-world asset tokenization on Stellar.KYC registry, compliance engine, and asset templates for invoices, property shares, and carbon credits.",
+   "language": "Rust",
+   "stars": 131,
+   "forks": 130,
+   "age_days": 1,
+   "daily_stars": 131.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "anteloc/ldraw-nova",
+   "url": "https://github.com/anteloc/ldraw-nova",
+   "description": "Agent tooling for generative LEGO models building, built with Astra and Opus 5.5, powered by Jev",
+   "language": "Python",
+   "stars": 263,
+   "forks": 18,
+   "age_days": 11,
+   "daily_stars": 23.90909090909091,
+   "real_daily_stars": 69.0,
+   "watchers": 0,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "AGPL-3.0",
+   "hn_title": "Show HN: Made an open-source Lego AI generator",
+   "hn_score": 154,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "empero-org/brewery-ai",
+   "url": "https://github.com/empero-org/brewery-ai",
+   "description": "An intuitive console agent to fine-tune AI models with little to no experience required! ",
+   "language": "Python",
+   "stars": 133,
+   "forks": 14,
+   "age_days": 1,
+   "daily_stars": 133.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "msitarzewski/agency-agents",
+   "url": "https://github.com/msitarzewski/agency-agents",
+   "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+   "language": "Shell",
+   "stars": 156931,
+   "forks": 25329,
+   "age_days": 356,
+   "daily_stars": 440.8174157303371,
+   "watchers": 1126,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "calesthio/OpenMontage",
+   "url": "https://github.com/calesthio/OpenMontage",
+   "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+   "language": "Python",
+   "stars": 63536,
+   "forks": 8086,
+   "age_days": 189,
+   "daily_stars": 336.16931216931215,
+   "real_daily_stars": 270.42857142857144,
+   "watchers": 347,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ]
+}

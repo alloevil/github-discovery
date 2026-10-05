@@ -72,21 +72,14 @@
       "last_recommended": "2026-09-10T09:12:26.868049+00:00"
     },
     "calesthio/OpenMontage": {
-      "count": 3,
+      "count": 4,
       "scores": [
         100,
         88,
+        87,
         87
       ],
-      "last_recommended": "2026-09-14T06:57:14.889338+00:00"
-    },
-    "cathrynlavery/diagram-design": {
-      "count": 2,
-      "scores": [
-        100,
-        99
-      ],
-      "last_recommended": "2026-09-05T08:37:03.189154+00:00"
+      "last_recommended": "2026-10-05T11:52:06.022884+00:00"
     },
     "holaboss-ai/holaOS": {
       "count": 2,
@@ -211,76 +204,6 @@
         83
       ],
       "last_recommended": "2026-09-30T10:45:34.342816+00:00"
-    },
-    "magnitudedev/magnitude": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-09-05T08:37:03.165868+00:00"
-    },
-    "ahujasid/camera-to-blender": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-09-05T08:37:03.168064+00:00"
-    },
-    "anthropics/fermats-last-theorem": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-05T08:37:03.170090+00:00"
-    },
-    "kajisho5/ffmpeg-skill": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-05T08:37:03.172098+00:00"
-    },
-    "Rion-Wu-tech/wechat-intelligence-hub": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-05T08:37:03.177047+00:00"
-    },
-    "bannedbook/fanqiang": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-09-05T08:37:03.179112+00:00"
-    },
-    "anomalyco/opencode": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-09-05T08:37:03.181128+00:00"
-    },
-    "pipicat613/MuToolsProject": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-09-05T08:37:03.183124+00:00"
-    },
-    "Agenta-AI/awesome-ai-agent-platforms": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-09-05T08:37:03.185116+00:00"
-    },
-    "0x6rss/instagram-private-graph": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-09-05T08:37:03.187139+00:00"
     },
     "ashemag/human-atlas": {
       "count": 1,
@@ -2319,7 +2242,77 @@
         88
       ],
       "last_recommended": "2026-10-04T10:47:01.099992+00:00"
+    },
+    "pingdotgg/t3code": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-05T11:52:06.005661+00:00"
+    },
+    "thedotmack/claude-mem": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-05T11:52:06.007599+00:00"
+    },
+    "lucasmarkes/hairline": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-05T11:52:06.009291+00:00"
+    },
+    "sganggs/Stronghold-Protocol": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-10-05T11:52:06.010963+00:00"
+    },
+    "shinshin86/mesh-avatar-studio": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-10-05T11:52:06.012653+00:00"
+    },
+    "cneuralnetwork/kharcha": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-05T11:52:06.014368+00:00"
+    },
+    "zeemscript/TrustMint": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-05T11:52:06.016058+00:00"
+    },
+    "anteloc/ldraw-nova": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-05T11:52:06.017834+00:00"
+    },
+    "empero-org/brewery-ai": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-05T11:52:06.019465+00:00"
+    },
+    "msitarzewski/agency-agents": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-05T11:52:06.021171+00:00"
     }
   },
-  "updated_at": "2026-10-04T10:47:01.105198+00:00"
+  "updated_at": "2026-10-05T11:52:06.022903+00:00"
 }

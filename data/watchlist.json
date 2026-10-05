@@ -1,75 +1,5 @@
 {
  "repos": {
-  "asciimoo/hister": {
-   "first_seen": "2026-09-20",
-   "until": "2026-10-04",
-   "stars_at_discovery": 5353,
-   "score_at_discovery": 98,
-   "source_at_discovery": "trending"
-  },
-  "mizorewww/laya-mlx": {
-   "first_seen": "2026-09-20",
-   "until": "2026-10-04",
-   "stars_at_discovery": 424,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "incoai/splash": {
-   "first_seen": "2026-09-20",
-   "until": "2026-10-04",
-   "stars_at_discovery": 372,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "newliver666/apk-reverse": {
-   "first_seen": "2026-09-20",
-   "until": "2026-10-04",
-   "stars_at_discovery": 358,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "jackwener/wx-cli-again": {
-   "first_seen": "2026-09-20",
-   "until": "2026-10-04",
-   "stars_at_discovery": 686,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "HyNetworks/OpenGFW": {
-   "first_seen": "2026-09-20",
-   "until": "2026-10-04",
-   "stars_at_discovery": 213,
-   "score_at_discovery": 92,
-   "source_at_discovery": "rising"
-  },
-  "jaredpalmer/kev": {
-   "first_seen": "2026-09-20",
-   "until": "2026-10-04",
-   "stars_at_discovery": 692,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "githubnext/localjev": {
-   "first_seen": "2026-09-20",
-   "until": "2026-10-04",
-   "stars_at_discovery": 530,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "coldteadotai/abide": {
-   "first_seen": "2026-09-20",
-   "until": "2026-10-04",
-   "stars_at_discovery": 173,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "sutro-sh/jev-align": {
-   "first_seen": "2026-09-20",
-   "until": "2026-10-04",
-   "stars_at_discovery": 183,
-   "score_at_discovery": 91,
-   "source_at_discovery": "hn"
-  },
   "trycua/cua": {
    "first_seen": "2026-09-21",
    "until": "2026-10-05",
@@ -1161,7 +1091,84 @@
    "stars_at_discovery": 149342,
    "score_at_discovery": 70,
    "source_at_discovery": "trending"
+  },
+  "pingdotgg/t3code": {
+   "first_seen": "2026-10-05",
+   "until": "2026-10-19",
+   "stars_at_discovery": 25382,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "thedotmack/claude-mem": {
+   "first_seen": "2026-10-05",
+   "until": "2026-10-19",
+   "stars_at_discovery": 96357,
+   "score_at_discovery": 96,
+   "source_at_discovery": "trending"
+  },
+  "lucasmarkes/hairline": {
+   "first_seen": "2026-10-05",
+   "until": "2026-10-19",
+   "stars_at_discovery": 431,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "sganggs/Stronghold-Protocol": {
+   "first_seen": "2026-10-05",
+   "until": "2026-10-19",
+   "stars_at_discovery": 658,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "shinshin86/mesh-avatar-studio": {
+   "first_seen": "2026-10-05",
+   "until": "2026-10-19",
+   "stars_at_discovery": 200,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "cneuralnetwork/kharcha": {
+   "first_seen": "2026-10-05",
+   "until": "2026-10-19",
+   "stars_at_discovery": 163,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "zeemscript/TrustMint": {
+   "first_seen": "2026-10-05",
+   "until": "2026-10-19",
+   "stars_at_discovery": 131,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "anteloc/ldraw-nova": {
+   "first_seen": "2026-10-05",
+   "until": "2026-10-19",
+   "stars_at_discovery": 263,
+   "score_at_discovery": 90,
+   "source_at_discovery": "hn"
+  },
+  "empero-org/brewery-ai": {
+   "first_seen": "2026-10-05",
+   "until": "2026-10-19",
+   "stars_at_discovery": 133,
+   "score_at_discovery": 90,
+   "source_at_discovery": "ai-trending"
+  },
+  "msitarzewski/agency-agents": {
+   "first_seen": "2026-10-05",
+   "until": "2026-10-19",
+   "stars_at_discovery": 156931,
+   "score_at_discovery": 89,
+   "source_at_discovery": "trending"
+  },
+  "calesthio/OpenMontage": {
+   "first_seen": "2026-10-05",
+   "until": "2026-10-19",
+   "stars_at_discovery": 63536,
+   "score_at_discovery": 87,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-10-04T10:51:17.168505+00:00"
+ "updated_at": "2026-10-05T11:55:56.381200+00:00"
 }
