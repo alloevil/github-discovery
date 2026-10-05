@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-04T18:00:00Z</updated>
+  <updated>2026-10-05T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>pingdotgg/t3code — No description</title>
+    <id>https://github.com/pingdotgg/t3code#2026-10-05</id>
+    <link rel="alternate" type="text/html" href="https://github.com/pingdotgg/t3code"/>
+    <updated>2026-10-05T18:00:00Z</updated>
+    <published>2026-10-05T18:00:00Z</published>
+    <summary>No description
+
+Why: +494/day · Trending · 4.6x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 25382 (+494.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>thedotmack/claude-mem — Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More</title>
+    <id>https://github.com/thedotmack/claude-mem#2026-10-05</id>
+    <link rel="alternate" type="text/html" href="https://github.com/thedotmack/claude-mem"/>
+    <updated>2026-10-05T18:00:00Z</updated>
+    <published>2026-10-05T18:00:00Z</published>
+    <summary>Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
+
+Why: +544/day · Trending · 2.3x accelerating
+Score: 96/100 | Language: TypeScript | ⭐ 96357 (+544.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>lucasmarkes/hairline — Six isometric line figures that answer the pointer. For React and for anything with a DOM.</title>
+    <id>https://github.com/lucasmarkes/hairline#2026-10-05</id>
+    <link rel="alternate" type="text/html" href="https://github.com/lucasmarkes/hairline"/>
+    <updated>2026-10-05T18:00:00Z</updated>
+    <published>2026-10-05T18:00:00Z</published>
+    <summary>Six isometric line figures that answer the pointer. For React and for anything with a DOM.
+
+Why: +311/day · Search · 2.2x accelerating
+Score: 94/100 | Language: TypeScript | ⭐ 431 (+311.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>sganggs/Stronghold-Protocol — 明日方舟「卫戍协议：盟约」非官方同人复刻：浏览器自走棋塔防，单人或 1–4 人联机合作（非商业）</title>
+    <id>https://github.com/sganggs/Stronghold-Protocol#2026-10-05</id>
+    <link rel="alternate" type="text/html" href="https://github.com/sganggs/Stronghold-Protocol"/>
+    <updated>2026-10-05T18:00:00Z</updated>
+    <published>2026-10-05T18:00:00Z</published>
+    <summary>明日方舟「卫戍协议：盟约」非官方同人复刻：浏览器自走棋塔防，单人或 1–4 人联机合作（非商业）
+
+Why: +219/day · Search
+Score: 92/100 | Language: JavaScript | ⭐ 658 (+219.3/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>shinshin86/mesh-avatar-studio — Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor</title>
+    <id>https://github.com/shinshin86/mesh-avatar-studio#2026-10-05</id>
+    <link rel="alternate" type="text/html" href="https://github.com/shinshin86/mesh-avatar-studio"/>
+    <updated>2026-10-05T18:00:00Z</updated>
+    <published>2026-10-05T18:00:00Z</published>
+    <summary>Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor
+
+Why: +200/day · Search
+Score: 92/100 | Language: TypeScript | ⭐ 200 (+200.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>calesthio/OpenMontage — World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.</title>
+    <id>https://github.com/calesthio/OpenMontage#2026-10-05</id>
+    <link rel="alternate" type="text/html" href="https://github.com/calesthio/OpenMontage"/>
+    <updated>2026-10-05T18:00:00Z</updated>
+    <published>2026-10-05T18:00:00Z</published>
+    <summary>World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.
+
+Why: +270/day · Trending
+Score: 87/100 | Language: Python | ⭐ 63536 (+270.4/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>Effect-TS/effect — Build production-ready applications in TypeScript</title>
     <id>https://github.com/Effect-TS/effect#2026-10-04</id>
@@ -921,71 +987,5 @@ Score: 94/100 | Language: Rust | ⭐ 3824 (+153.0/day) | Source: trending</summa
 
 Why: +309/day · HN · 2.3x accelerating
 Score: 94/100 | Language: Python | ⭐ 406 (+309.0/day) | Source: hn</summary>
-  </entry>
-  <entry>
-    <title>trycua/cua — Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.</title>
-    <id>https://github.com/trycua/cua#2026-09-21</id>
-    <link rel="alternate" type="text/html" href="https://github.com/trycua/cua"/>
-    <updated>2026-09-21T18:00:00Z</updated>
-    <published>2026-09-21T18:00:00Z</published>
-    <summary>Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.
-
-Why: +626/day · Trending+HN · 14.7x accelerating
-Score: 100/100 | Language: HTML | ⭐ 25423 (+626.0/day) | Source: trending + hn</summary>
-  </entry>
-  <entry>
-    <title>higgsfield-ai/higgsfield — Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters</title>
-    <id>https://github.com/higgsfield-ai/higgsfield#2026-09-21</id>
-    <link rel="alternate" type="text/html" href="https://github.com/higgsfield-ai/higgsfield"/>
-    <updated>2026-09-21T18:00:00Z</updated>
-    <published>2026-09-21T18:00:00Z</published>
-    <summary>Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters
-
-Why: +454/day · Trending · 248.6x accelerating
-Score: 100/100 | Language: Jupyter Notebook | ⭐ 5549 (+454.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Open-Dev-Society/OpenStock — OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.</title>
-    <id>https://github.com/Open-Dev-Society/OpenStock#2026-09-21</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Open-Dev-Society/OpenStock"/>
-    <updated>2026-09-21T18:00:00Z</updated>
-    <published>2026-09-21T18:00:00Z</published>
-    <summary>OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.
-
-Why: +816/day · Trending · 16.9x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 17195 (+816.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>mizorewww/laya-coreml — Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.</title>
-    <id>https://github.com/mizorewww/laya-coreml#2026-09-21</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mizorewww/laya-coreml"/>
-    <updated>2026-09-21T18:00:00Z</updated>
-    <published>2026-09-21T18:00:00Z</published>
-    <summary>Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.
-
-Why: +565/day · Search
-Score: 96/100 | Language: Python | ⭐ 565 (+565.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>caxete/crypto-tax-calculator — A comprehensive crypto tax solution supporting leading wallets, exchanges, and blockchain explorers.</title>
-    <id>https://github.com/caxete/crypto-tax-calculator#2026-09-21</id>
-    <link rel="alternate" type="text/html" href="https://github.com/caxete/crypto-tax-calculator"/>
-    <updated>2026-09-21T18:00:00Z</updated>
-    <published>2026-09-21T18:00:00Z</published>
-    <summary>A comprehensive crypto tax solution supporting leading wallets, exchanges, and blockchain explorers.
-
-Why: +173/day · Rising
-Score: 91/100 | Language: Python | ⭐ 173 (+173.0/day) | Source: rising</summary>
-  </entry>
-  <entry>
-    <title>gioblu/NPC-Forge — NPC-Forge is a framework for building conversational agents that run on the CPU without relying on machine learning or LLMs.</title>
-    <id>https://github.com/gioblu/NPC-Forge#2026-09-21</id>
-    <link rel="alternate" type="text/html" href="https://github.com/gioblu/NPC-Forge"/>
-    <updated>2026-09-21T18:00:00Z</updated>
-    <published>2026-09-21T18:00:00Z</published>
-    <summary>NPC-Forge is a framework for building conversational agents that run on the CPU without relying on machine learning or LLMs.
-
-Why: +5.0/day · HN
-Score: 60/100 | Language: Python | ⭐ 243 (+5.0/day) | Source: hn</summary>
   </entry>
 </feed>
