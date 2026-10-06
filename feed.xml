@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-05T18:00:00Z</updated>
+  <updated>2026-10-06T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>tester-army/e2e — Next generation e2e testing framework for web and mobile apps.</title>
+    <id>https://github.com/tester-army/e2e#2026-10-06</id>
+    <link rel="alternate" type="text/html" href="https://github.com/tester-army/e2e"/>
+    <updated>2026-10-06T18:00:00Z</updated>
+    <published>2026-10-06T18:00:00Z</published>
+    <summary>Next generation e2e testing framework for web and mobile apps.
+
+Why: +1705/day · Trending · 23.6x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 5498 (+1705.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>earthtojake/text-to-cad — Give your agent CAD superpowers.</title>
+    <id>https://github.com/earthtojake/text-to-cad#2026-10-06</id>
+    <link rel="alternate" type="text/html" href="https://github.com/earthtojake/text-to-cad"/>
+    <updated>2026-10-06T18:00:00Z</updated>
+    <published>2026-10-06T18:00:00Z</published>
+    <summary>Give your agent CAD superpowers.
+
+Why: +596/day · Trending · 5.6x accelerating
+Score: 100/100 | Language: Python | ⭐ 17692 (+596.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>boykopovar/AnyPS5 — Tool for automatic PS5 executables porting to Linux and Windows</title>
+    <id>https://github.com/boykopovar/AnyPS5#2026-10-06</id>
+    <link rel="alternate" type="text/html" href="https://github.com/boykopovar/AnyPS5"/>
+    <updated>2026-10-06T18:00:00Z</updated>
+    <published>2026-10-06T18:00:00Z</published>
+    <summary>Tool for automatic PS5 executables porting to Linux and Windows
+
+Why: +932/day · Trending · 11.0x accelerating
+Score: 100/100 | Language: C++ | ⭐ 5321 (+932.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>caddyserver/caddy — Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS</title>
+    <id>https://github.com/caddyserver/caddy#2026-10-06</id>
+    <link rel="alternate" type="text/html" href="https://github.com/caddyserver/caddy"/>
+    <updated>2026-10-06T18:00:00Z</updated>
+    <published>2026-10-06T18:00:00Z</published>
+    <summary>Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
+
+Why: +586/day · Trending · 32.4x accelerating
+Score: 100/100 | Language: Go | ⭐ 77371 (+586.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>DuarteSantos8/openGym — Self-hosted gym &amp; body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.</title>
+    <id>https://github.com/DuarteSantos8/openGym#2026-10-06</id>
+    <link rel="alternate" type="text/html" href="https://github.com/DuarteSantos8/openGym"/>
+    <updated>2026-10-06T18:00:00Z</updated>
+    <published>2026-10-06T18:00:00Z</published>
+    <summary>Self-hosted gym &amp; body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.
+
+Why: +1405/day · Trending · 23.0x accelerating
+Score: 100/100 | Language: JavaScript | ⭐ 4834 (+1405.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>pingdotgg/t3code — No description</title>
     <id>https://github.com/pingdotgg/t3code#2026-10-05</id>
@@ -932,60 +987,5 @@ Score: 90/100 | Language: Python | ⭐ 455 (+151.7/day) | Source: search</summar
 
 Why: +243/day · Search
 Score: 89/100 | Language: Python | ⭐ 657 (+243.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>BuilderIO/agent-native — A framework for building agentic apps</title>
-    <id>https://github.com/BuilderIO/agent-native#2026-09-22</id>
-    <link rel="alternate" type="text/html" href="https://github.com/BuilderIO/agent-native"/>
-    <updated>2026-09-22T18:00:00Z</updated>
-    <published>2026-09-22T18:00:00Z</published>
-    <summary>A framework for building agentic apps
-
-Why: +696/day · Trending · 21.6x accelerating
-Score: 96/100 | Language: TypeScript | ⭐ 6230 (+696.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>anthropics/financial-services — No description</title>
-    <id>https://github.com/anthropics/financial-services#2026-09-22</id>
-    <link rel="alternate" type="text/html" href="https://github.com/anthropics/financial-services"/>
-    <updated>2026-09-22T18:00:00Z</updated>
-    <published>2026-09-22T18:00:00Z</published>
-    <summary>No description
-
-Why: +406/day · Trending · 2.4x accelerating
-Score: 96/100 | Language: Python | ⭐ 35993 (+406.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>cloudflare/quiche — 🥧 Savoury implementation of the QUIC transport protocol and HTTP/3</title>
-    <id>https://github.com/cloudflare/quiche#2026-09-22</id>
-    <link rel="alternate" type="text/html" href="https://github.com/cloudflare/quiche"/>
-    <updated>2026-09-22T18:00:00Z</updated>
-    <published>2026-09-22T18:00:00Z</published>
-    <summary>🥧 Savoury implementation of the QUIC transport protocol and HTTP/3
-
-Why: +171/day · Trending · 40.0x accelerating
-Score: 95/100 | Language: Rust | ⭐ 12457 (+171.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>yynxxxxx/Codex-X — OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。</title>
-    <id>https://github.com/yynxxxxx/Codex-X#2026-09-22</id>
-    <link rel="alternate" type="text/html" href="https://github.com/yynxxxxx/Codex-X"/>
-    <updated>2026-09-22T18:00:00Z</updated>
-    <published>2026-09-22T18:00:00Z</published>
-    <summary>OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。
-
-Why: +153/day · Trending · 3.2x accelerating
-Score: 94/100 | Language: Rust | ⭐ 3824 (+153.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>volotat/mini-AGI — Continual learning model trained from scratch on 8GB VRAM laptop with batch-1 stream of data.</title>
-    <id>https://github.com/volotat/mini-AGI#2026-09-22</id>
-    <link rel="alternate" type="text/html" href="https://github.com/volotat/mini-AGI"/>
-    <updated>2026-09-22T18:00:00Z</updated>
-    <published>2026-09-22T18:00:00Z</published>
-    <summary>Continual learning model trained from scratch on 8GB VRAM laptop with batch-1 stream of data.
-
-Why: +309/day · HN · 2.3x accelerating
-Score: 94/100 | Language: Python | ⭐ 406 (+309.0/day) | Source: hn</summary>
   </entry>
 </feed>
