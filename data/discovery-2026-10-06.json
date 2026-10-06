@@ -1,0 +1,329 @@
+{
+ "date": "2026-10-06",
+ "generated_at": "2026-10-06T11:32:02.406855",
+ "pool_size": 71,
+ "source_health": {
+  "trending": {
+   "fetched": 13,
+   "parsed": 13,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 7
+  },
+  "search": {
+   "fetched": 59,
+   "parsed": 59,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 3
+  },
+  "hn": {
+   "fetched": 10,
+   "parsed": 10,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 1,
+   "parsed": 1,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 4,
+   "parsed": 4,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "tester-army/e2e",
+   "url": "https://github.com/tester-army/e2e",
+   "description": "Next generation e2e testing framework for web and mobile apps.",
+   "language": "TypeScript",
+   "stars": 5498,
+   "forks": 238,
+   "age_days": 76,
+   "daily_stars": 72.34210526315789,
+   "real_daily_stars": 1705.0,
+   "watchers": 14,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "earthtojake/text-to-cad",
+   "url": "https://github.com/earthtojake/text-to-cad",
+   "description": "Give your agent CAD superpowers.",
+   "language": "Python",
+   "stars": 17692,
+   "forks": 1783,
+   "age_days": 167,
+   "daily_stars": 105.94011976047904,
+   "real_daily_stars": 596.0,
+   "watchers": 93,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "boykopovar/AnyPS5",
+   "url": "https://github.com/boykopovar/AnyPS5",
+   "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+   "language": "C++",
+   "stars": 5321,
+   "forks": 393,
+   "age_days": 63,
+   "daily_stars": 84.46031746031746,
+   "real_daily_stars": 932.0,
+   "watchers": 83,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "GPL-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "caddyserver/caddy",
+   "url": "https://github.com/caddyserver/caddy",
+   "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+   "language": "Go",
+   "stars": 77371,
+   "forks": 5087,
+   "age_days": 4283,
+   "daily_stars": 18.064674293719357,
+   "real_daily_stars": 586.0,
+   "watchers": 869,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "DuarteSantos8/openGym",
+   "url": "https://github.com/DuarteSantos8/openGym",
+   "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
+   "language": "JavaScript",
+   "stars": 4834,
+   "forks": 713,
+   "age_days": 79,
+   "daily_stars": 61.18987341772152,
+   "real_daily_stars": 1405.0,
+   "watchers": 14,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "cloudflare/cloudflare-os",
+   "url": "https://github.com/cloudflare/cloudflare-os",
+   "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+   "language": "TypeScript",
+   "stars": 11160,
+   "forks": 1319,
+   "age_days": 173,
+   "daily_stars": 64.50867052023122,
+   "real_daily_stars": 353.0,
+   "watchers": 44,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 98,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Stremio/stremio-web",
+   "url": "https://github.com/Stremio/stremio-web",
+   "description": "Stremio - Freedom to Stream",
+   "language": "JavaScript",
+   "stars": 14400,
+   "forks": 1636,
+   "age_days": 3045,
+   "daily_stars": 4.729064039408867,
+   "real_daily_stars": 270.0,
+   "watchers": 117,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "GPL-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 97,
+    "acceleration": 37,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "elstongun/leviathan",
+   "url": "https://github.com/elstongun/leviathan",
+   "description": "**Deep memory for agents over large datasets.**   Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index.",
+   "language": "Rust",
+   "stars": 519,
+   "forks": 28,
+   "age_days": 1,
+   "daily_stars": 519.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "rauchg/gdp-ts",
+   "url": "https://github.com/rauchg/gdp-ts",
+   "description": "",
+   "language": "TypeScript",
+   "stars": 612,
+   "forks": 17,
+   "age_days": 1,
+   "daily_stars": 612.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "ythx-101/live-panel-skill",
+   "url": "https://github.com/ythx-101/live-panel-skill",
+   "description": "Config-driven animated architecture diagrams: turn one JSON file into a terminal-style, always-running diagram or a light-theme infographic that moves. Outputs H.264 mp4 or a live web page; also a Claude Code style skill (SKILL.md).",
+   "language": "HTML",
+   "stars": 611,
+   "forks": 82,
+   "age_days": 2,
+   "daily_stars": 305.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 14
+   }
+  }
+ ],
+ "repeat": []
+}

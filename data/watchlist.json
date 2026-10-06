@@ -1,75 +1,5 @@
 {
  "repos": {
-  "trycua/cua": {
-   "first_seen": "2026-09-21",
-   "until": "2026-10-05",
-   "stars_at_discovery": 25423,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "higgsfield-ai/higgsfield": {
-   "first_seen": "2026-09-21",
-   "until": "2026-10-05",
-   "stars_at_discovery": 5549,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "Open-Dev-Society/OpenStock": {
-   "first_seen": "2026-09-21",
-   "until": "2026-10-05",
-   "stars_at_discovery": 17195,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "mizorewww/laya-coreml": {
-   "first_seen": "2026-09-21",
-   "until": "2026-10-05",
-   "stars_at_discovery": 565,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "caxete/crypto-tax-calculator": {
-   "first_seen": "2026-09-21",
-   "until": "2026-10-05",
-   "stars_at_discovery": 173,
-   "score_at_discovery": 91,
-   "source_at_discovery": "rising"
-  },
-  "NVlabs/SoL-Pi": {
-   "first_seen": "2026-09-21",
-   "until": "2026-10-05",
-   "stars_at_discovery": 2762,
-   "score_at_discovery": 91,
-   "source_at_discovery": "hf-papers"
-  },
-  "tamaratran/fast-jev-compaction": {
-   "first_seen": "2026-09-21",
-   "until": "2026-10-05",
-   "stars_at_discovery": 5730,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "Mak5er/AirCard": {
-   "first_seen": "2026-09-21",
-   "until": "2026-10-05",
-   "stars_at_discovery": 888,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "unicodef1wn/grokbot-field-notes": {
-   "first_seen": "2026-09-21",
-   "until": "2026-10-05",
-   "stars_at_discovery": 446,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "featherless-ai/simple-jev": {
-   "first_seen": "2026-09-21",
-   "until": "2026-10-05",
-   "stars_at_discovery": 429,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
   "BuilderIO/agent-native": {
    "first_seen": "2026-09-22",
    "until": "2026-10-06",
@@ -1168,7 +1098,77 @@
    "stars_at_discovery": 63536,
    "score_at_discovery": 87,
    "source_at_discovery": "trending"
+  },
+  "tester-army/e2e": {
+   "first_seen": "2026-10-06",
+   "until": "2026-10-20",
+   "stars_at_discovery": 5498,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "earthtojake/text-to-cad": {
+   "first_seen": "2026-10-06",
+   "until": "2026-10-20",
+   "stars_at_discovery": 17692,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "boykopovar/AnyPS5": {
+   "first_seen": "2026-10-06",
+   "until": "2026-10-20",
+   "stars_at_discovery": 5321,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "caddyserver/caddy": {
+   "first_seen": "2026-10-06",
+   "until": "2026-10-20",
+   "stars_at_discovery": 77371,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "DuarteSantos8/openGym": {
+   "first_seen": "2026-10-06",
+   "until": "2026-10-20",
+   "stars_at_discovery": 4834,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "cloudflare/cloudflare-os": {
+   "first_seen": "2026-10-06",
+   "until": "2026-10-20",
+   "stars_at_discovery": 11160,
+   "score_at_discovery": 98,
+   "source_at_discovery": "trending"
+  },
+  "Stremio/stremio-web": {
+   "first_seen": "2026-10-06",
+   "until": "2026-10-20",
+   "stars_at_discovery": 14400,
+   "score_at_discovery": 97,
+   "source_at_discovery": "trending"
+  },
+  "elstongun/leviathan": {
+   "first_seen": "2026-10-06",
+   "until": "2026-10-20",
+   "stars_at_discovery": 519,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "rauchg/gdp-ts": {
+   "first_seen": "2026-10-06",
+   "until": "2026-10-20",
+   "stars_at_discovery": 612,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "ythx-101/live-panel-skill": {
+   "first_seen": "2026-10-06",
+   "until": "2026-10-20",
+   "stars_at_discovery": 611,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-10-05T11:55:56.381200+00:00"
+ "updated_at": "2026-10-06T11:35:08.092583+00:00"
 }

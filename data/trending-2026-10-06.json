@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-06",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "msitarzewski/agency-agents",
+   "stars": 157526,
+   "language": "Shell"
+  },
+  {
+   "full_name": "thedotmack/claude-mem",
+   "stars": 96863,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "Panniantong/Agent-Reach",
+   "stars": 92331,
+   "language": "Python"
+  },
+  {
+   "full_name": "caddyserver/caddy",
+   "stars": 77371,
+   "language": "Go"
+  },
+  {
+   "full_name": "calesthio/OpenMontage",
+   "stars": 64465,
+   "language": "Python"
+  },
+  {
+   "full_name": "pingdotgg/t3code",
+   "stars": 25772,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "earthtojake/text-to-cad",
+   "stars": 17692,
+   "language": "Python"
+  },
+  {
+   "full_name": "Stremio/stremio-web",
+   "stars": 14400,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "cloudflare/cloudflare-os",
+   "stars": 11160,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "tester-army/e2e",
+   "stars": 5498,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "boykopovar/AnyPS5",
+   "stars": 5321,
+   "language": "C++"
+  },
+  {
+   "full_name": "DuarteSantos8/openGym",
+   "stars": 4834,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "M-Abozaid/esp32-c3-adblock",
+   "stars": 1623,
+   "language": "C++"
+  }
+ ]
+}
