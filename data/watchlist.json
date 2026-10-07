@@ -1,75 +1,5 @@
 {
  "repos": {
-  "BuilderIO/agent-native": {
-   "first_seen": "2026-09-22",
-   "until": "2026-10-06",
-   "stars_at_discovery": 6230,
-   "score_at_discovery": 96,
-   "source_at_discovery": "trending"
-  },
-  "anthropics/financial-services": {
-   "first_seen": "2026-09-22",
-   "until": "2026-10-06",
-   "stars_at_discovery": 35993,
-   "score_at_discovery": 96,
-   "source_at_discovery": "trending"
-  },
-  "cloudflare/quiche": {
-   "first_seen": "2026-09-22",
-   "until": "2026-10-06",
-   "stars_at_discovery": 12457,
-   "score_at_discovery": 95,
-   "source_at_discovery": "trending"
-  },
-  "yynxxxxx/Codex-X": {
-   "first_seen": "2026-09-22",
-   "until": "2026-10-06",
-   "stars_at_discovery": 3824,
-   "score_at_discovery": 94,
-   "source_at_discovery": "trending"
-  },
-  "volotat/mini-AGI": {
-   "first_seen": "2026-09-22",
-   "until": "2026-10-06",
-   "stars_at_discovery": 406,
-   "score_at_discovery": 94,
-   "source_at_discovery": "hn"
-  },
-  "receptron/laya": {
-   "first_seen": "2026-09-22",
-   "until": "2026-10-06",
-   "stars_at_discovery": 228,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "Futureppo/typesafe_register": {
-   "first_seen": "2026-09-22",
-   "until": "2026-10-06",
-   "stars_at_discovery": 105,
-   "score_at_discovery": 89,
-   "source_at_discovery": "rising"
-  },
-  "hydra-db/open-glean": {
-   "first_seen": "2026-09-22",
-   "until": "2026-10-06",
-   "stars_at_discovery": 709,
-   "score_at_discovery": 88,
-   "source_at_discovery": "search"
-  },
-  "heyjunpenn/awesome-jev": {
-   "first_seen": "2026-09-22",
-   "until": "2026-10-06",
-   "stars_at_discovery": 314,
-   "score_at_discovery": 88,
-   "source_at_discovery": "search"
-  },
-  "pbs05/uboot-an758x": {
-   "first_seen": "2026-09-22",
-   "until": "2026-10-06",
-   "stars_at_discovery": 87,
-   "score_at_discovery": 88,
-   "source_at_discovery": "rising"
-  },
   "mvt-project/mvt": {
    "first_seen": "2026-09-23",
    "until": "2026-10-07",
@@ -1168,7 +1098,98 @@
    "stars_at_discovery": 611,
    "score_at_discovery": 94,
    "source_at_discovery": "search"
+  },
+  "deadinside28/bloodborne_pc": {
+   "first_seen": "2026-10-07",
+   "until": "2026-10-21",
+   "stars_at_discovery": 1418,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "h100envy/gem-search": {
+   "first_seen": "2026-10-07",
+   "until": "2026-10-21",
+   "stars_at_discovery": 161,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "AgentMemoryRepo/agentmemoryrepo": {
+   "first_seen": "2026-10-07",
+   "until": "2026-10-21",
+   "stars_at_discovery": 597,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "DozenTwelve/Papermorph": {
+   "first_seen": "2026-10-07",
+   "until": "2026-10-21",
+   "stars_at_discovery": 486,
+   "score_at_discovery": 87,
+   "source_at_discovery": "search"
+  },
+  "mushigaite/short-video-maker": {
+   "first_seen": "2026-10-07",
+   "until": "2026-10-21",
+   "stars_at_discovery": 70,
+   "score_at_discovery": 87,
+   "source_at_discovery": "rising"
+  },
+  "cathrynlavery/diagram-design": {
+   "first_seen": "2026-10-07",
+   "until": "2026-10-21",
+   "stars_at_discovery": 44409,
+   "score_at_discovery": 86,
+   "source_at_discovery": "trending"
+  },
+  "mizorewww/x_gift_bot": {
+   "first_seen": "2026-10-07",
+   "until": "2026-10-21",
+   "stars_at_discovery": 794,
+   "score_at_discovery": 86,
+   "source_at_discovery": "search"
+  },
+  "JinHo-von-Choi/iron-laws": {
+   "first_seen": "2026-10-07",
+   "until": "2026-10-21",
+   "stars_at_discovery": 125,
+   "score_at_discovery": 86,
+   "source_at_discovery": "search"
+  },
+  "genex-games/genex-desktop": {
+   "first_seen": "2026-10-07",
+   "until": "2026-10-21",
+   "stars_at_discovery": 397,
+   "score_at_discovery": 86,
+   "source_at_discovery": "search"
+  },
+  "storytold/effectcraft": {
+   "first_seen": "2026-10-07",
+   "until": "2026-10-21",
+   "stars_at_discovery": 1175,
+   "score_at_discovery": 85,
+   "source_at_discovery": "search"
+  },
+  "trycua/cua": {
+   "first_seen": "2026-10-07",
+   "until": "2026-10-21",
+   "stars_at_discovery": 28551,
+   "score_at_discovery": 96,
+   "source_at_discovery": "trending"
+  },
+  "cloudflare/security-audit-skill": {
+   "first_seen": "2026-10-07",
+   "until": "2026-10-21",
+   "stars_at_discovery": 25586,
+   "score_at_discovery": 92,
+   "source_at_discovery": "trending"
+  },
+  "ayghri/i-have-adhd": {
+   "first_seen": "2026-10-07",
+   "until": "2026-10-21",
+   "stars_at_discovery": 54685,
+   "score_at_discovery": 88,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-10-06T11:35:08.092583+00:00"
+ "updated_at": "2026-10-07T11:25:53.669176+00:00"
 }

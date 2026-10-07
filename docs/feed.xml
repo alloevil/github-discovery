@@ -3,12 +3,100 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-06T18:00:00Z</updated>
+  <updated>2026-10-07T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>deadinside28/bloodborne_pc — No description</title>
+    <id>https://github.com/deadinside28/bloodborne_pc#2026-10-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/deadinside28/bloodborne_pc"/>
+    <updated>2026-10-07T18:00:00Z</updated>
+    <published>2026-10-07T18:00:00Z</published>
+    <summary>No description
+
+Why: +538/day · Search · 2.3x accelerating
+Score: 91/100 | Language: C++ | ⭐ 1418 (+538.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>h100envy/gem-search — Rainbow spider that X-rays memecoins: bundles, linked wallets, dev history. Scanner, Telegram bot, live Bundle Index.</title>
+    <id>https://github.com/h100envy/gem-search#2026-10-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/h100envy/gem-search"/>
+    <updated>2026-10-07T18:00:00Z</updated>
+    <published>2026-10-07T18:00:00Z</published>
+    <summary>Rainbow spider that X-rays memecoins: bundles, linked wallets, dev history. Scanner, Telegram bot, live Bundle Index.
+
+Why: +161/day · Search
+Score: 91/100 | Language: Python | ⭐ 161 (+161.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>AgentMemoryRepo/agentmemoryrepo — Spec for Agent Memory Repo</title>
+    <id>https://github.com/AgentMemoryRepo/agentmemoryrepo#2026-10-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/AgentMemoryRepo/agentmemoryrepo"/>
+    <updated>2026-10-07T18:00:00Z</updated>
+    <published>2026-10-07T18:00:00Z</published>
+    <summary>Spec for Agent Memory Repo
+
+Why: +298/day · Search+AI/ML
+Score: 89/100 | Language: ? | ⭐ 597 (+298.5/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>DozenTwelve/Papermorph — An AI skill that turns books into animated, narrated, interactive web experiences</title>
+    <id>https://github.com/DozenTwelve/Papermorph#2026-10-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/DozenTwelve/Papermorph"/>
+    <updated>2026-10-07T18:00:00Z</updated>
+    <published>2026-10-07T18:00:00Z</published>
+    <summary>An AI skill that turns books into animated, narrated, interactive web experiences
+
+Why: +122/day · Search
+Score: 87/100 | Language: HTML | ⭐ 486 (+121.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>mushigaite/short-video-maker — A free open-source project designed to turn youtube-videos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content: no pre-clip credits or any watermarks. Designed for creators who want an alternative to short-video SaaS tools like OpusClip or Vidyo.ai for free.</title>
+    <id>https://github.com/mushigaite/short-video-maker#2026-10-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mushigaite/short-video-maker"/>
+    <updated>2026-10-07T18:00:00Z</updated>
+    <published>2026-10-07T18:00:00Z</published>
+    <summary>A free open-source project designed to turn youtube-videos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content: no pre-clip credits or any watermarks. Designed for creators who want an alternative to short-video SaaS tools like OpusClip or Vidyo.ai for free.
+
+Why: +70/day · Rising
+Score: 87/100 | Language: Python | ⭐ 70 (+70.0/day) | Source: rising</summary>
+  </entry>
+  <entry>
+    <title>trycua/cua — Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.</title>
+    <id>https://github.com/trycua/cua#2026-10-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/trycua/cua"/>
+    <updated>2026-10-07T18:00:00Z</updated>
+    <published>2026-10-07T18:00:00Z</published>
+    <summary>Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.
+
+Why: +224/day · Trending · 4.8x accelerating
+Score: 96/100 | Language: Rust | ⭐ 28551 (+224.5/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>cloudflare/security-audit-skill — A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings</title>
+    <id>https://github.com/cloudflare/security-audit-skill#2026-10-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/cloudflare/security-audit-skill"/>
+    <updated>2026-10-07T18:00:00Z</updated>
+    <published>2026-10-07T18:00:00Z</published>
+    <summary>A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
+
+Why: +377/day · Trending · 1.6x accelerating
+Score: 92/100 | Language: JavaScript | ⭐ 25586 (+377.2/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>ayghri/i-have-adhd — A skill to stop your coding agent from burying the answer. ADHD-friendly output.</title>
+    <id>https://github.com/ayghri/i-have-adhd#2026-10-07</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ayghri/i-have-adhd"/>
+    <updated>2026-10-07T18:00:00Z</updated>
+    <published>2026-10-07T18:00:00Z</published>
+    <summary>A skill to stop your coding agent from burying the answer. ADHD-friendly output.
+
+Why: +298/day · Trending
+Score: 88/100 | Language: Python | ⭐ 54685 (+297.6/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>tester-army/e2e — Next generation e2e testing framework for web and mobile apps.</title>
     <id>https://github.com/tester-army/e2e#2026-10-06</id>
@@ -932,60 +1020,5 @@ Score: 100/100 | Language: Python | ⭐ 26702 (+533.0/day) | Source: trending</s
 
 Why: +450/day · Trending
 Score: 79/100 | Language: Shell | ⭐ 290931 (+450.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>mvt-project/mvt — MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.</title>
-    <id>https://github.com/mvt-project/mvt#2026-09-23</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mvt-project/mvt"/>
-    <updated>2026-09-23T18:00:00Z</updated>
-    <published>2026-09-23T18:00:00Z</published>
-    <summary>MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.
-
-Why: +535/day · Trending · 71.0x accelerating
-Score: 100/100 | Language: Python | ⭐ 14287 (+535.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>freestylefly/WeChatBridge — 微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具</title>
-    <id>https://github.com/freestylefly/WeChatBridge#2026-09-23</id>
-    <link rel="alternate" type="text/html" href="https://github.com/freestylefly/WeChatBridge"/>
-    <updated>2026-09-23T18:00:00Z</updated>
-    <published>2026-09-23T18:00:00Z</published>
-    <summary>微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具
-
-Why: +228/day · Rising
-Score: 92/100 | Language: Swift | ⭐ 457 (+228.5/day) | Source: rising</summary>
-  </entry>
-  <entry>
-    <title>anishfn/shapeshift — An input that becomes what you mean: one text box that morphs into the right UI as you type. Powered by TypeSafe Jev, works offline.</title>
-    <id>https://github.com/anishfn/shapeshift#2026-09-23</id>
-    <link rel="alternate" type="text/html" href="https://github.com/anishfn/shapeshift"/>
-    <updated>2026-09-23T18:00:00Z</updated>
-    <published>2026-09-23T18:00:00Z</published>
-    <summary>An input that becomes what you mean: one text box that morphs into the right UI as you type. Powered by TypeSafe Jev, works offline.
-
-Why: +162/day · Search
-Score: 91/100 | Language: TypeScript | ⭐ 162 (+162.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>wuyoscar/jev-skill — An awesome collection of Jev use cases, workflows, and agent skills.</title>
-    <id>https://github.com/wuyoscar/jev-skill#2026-09-23</id>
-    <link rel="alternate" type="text/html" href="https://github.com/wuyoscar/jev-skill"/>
-    <updated>2026-09-23T18:00:00Z</updated>
-    <published>2026-09-23T18:00:00Z</published>
-    <summary>An awesome collection of Jev use cases, workflows, and agent skills.
-
-Why: +152/day · Search
-Score: 90/100 | Language: Python | ⭐ 455 (+151.7/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>kerpopule/hermes-jev-skills — Jev-powered model routing, memory, compaction, skill selection, computer and browser use for Hermes agents (also Claude Code and Codex)</title>
-    <id>https://github.com/kerpopule/hermes-jev-skills#2026-09-23</id>
-    <link rel="alternate" type="text/html" href="https://github.com/kerpopule/hermes-jev-skills"/>
-    <updated>2026-09-23T18:00:00Z</updated>
-    <published>2026-09-23T18:00:00Z</published>
-    <summary>Jev-powered model routing, memory, compaction, skill selection, computer and browser use for Hermes agents (also Claude Code and Codex)
-
-Why: +243/day · Search
-Score: 89/100 | Language: Python | ⭐ 657 (+243.0/day) | Source: search</summary>
   </entry>
 </feed>

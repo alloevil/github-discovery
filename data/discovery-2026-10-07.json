@@ -1,0 +1,416 @@
+{
+ "date": "2026-10-07",
+ "generated_at": "2026-10-07T11:22:12.891253",
+ "pool_size": 81,
+ "source_health": {
+  "trending": {
+   "fetched": 13,
+   "parsed": 13,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 4
+  },
+  "search": {
+   "fetched": 57,
+   "parsed": 57,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 8
+  },
+  "hn": {
+   "fetched": 12,
+   "parsed": 12,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 2,
+   "parsed": 2,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  },
+  "ai-trending": {
+   "fetched": 13,
+   "parsed": 13,
+   "rejected": 0,
+   "deduplicated": 8,
+   "recommended": 1
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "deadinside28/bloodborne_pc",
+   "url": "https://github.com/deadinside28/bloodborne_pc",
+   "description": "",
+   "language": "C++",
+   "stars": 1418,
+   "forks": 125,
+   "age_days": 6,
+   "daily_stars": 236.33333333333334,
+   "real_daily_stars": 538.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 1,
+   "scores": {
+    "total": 91,
+    "acceleration": 36,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "h100envy/gem-search",
+   "url": "https://github.com/h100envy/gem-search",
+   "description": "Rainbow spider that X-rays memecoins: bundles, linked wallets, dev history. Scanner, Telegram bot, live Bundle Index.",
+   "language": "Python",
+   "stars": 161,
+   "forks": 41,
+   "age_days": 1,
+   "daily_stars": 161.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "AgentMemoryRepo/agentmemoryrepo",
+   "url": "https://github.com/AgentMemoryRepo/agentmemoryrepo",
+   "description": "Spec for Agent Memory Repo",
+   "language": "",
+   "stars": 597,
+   "forks": 30,
+   "age_days": 2,
+   "daily_stars": 298.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 89,
+    "acceleration": 34,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "DozenTwelve/Papermorph",
+   "url": "https://github.com/DozenTwelve/Papermorph",
+   "description": "An AI skill that turns books into animated, narrated, interactive web experiences",
+   "language": "HTML",
+   "stars": 486,
+   "forks": 56,
+   "age_days": 4,
+   "daily_stars": 121.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "mushigaite/short-video-maker",
+   "url": "https://github.com/mushigaite/short-video-maker",
+   "description": "A free open-source project designed to turn youtube-videos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content: no pre-clip credits or any watermarks. Designed for creators who want an alternative to short-video SaaS tools like OpusClip or Vidyo.ai for free.",
+   "language": "Python",
+   "stars": 70,
+   "forks": 24,
+   "age_days": 1,
+   "daily_stars": 70.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "language": "HTML",
+   "stars": 44409,
+   "forks": 2856,
+   "age_days": 173,
+   "daily_stars": 256.6994219653179,
+   "real_daily_stars": 240.19230769230768,
+   "watchers": 125,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "mizorewww/x_gift_bot",
+   "url": "https://github.com/mizorewww/x_gift_bot",
+   "description": "X Premium gift CLI and redemption site",
+   "language": "Go",
+   "stars": 794,
+   "forks": 285,
+   "age_days": 5,
+   "daily_stars": 158.8,
+   "real_daily_stars": 186.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "JinHo-von-Choi/iron-laws",
+   "url": "https://github.com/JinHo-von-Choi/iron-laws",
+   "description": "오철칙(Iron Laws) - AI가 만든 코드의 보안·구조·유지보수 문제를 짚어 주는 소스코드 점검 CLI",
+   "language": "Python",
+   "stars": 125,
+   "forks": 23,
+   "age_days": 2,
+   "daily_stars": 62.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 17
+   }
+  },
+  {
+   "full_name": "genex-games/genex-desktop",
+   "url": "https://github.com/genex-games/genex-desktop",
+   "description": "Desktop app for game dev with AI. macOS and Linux, Windows soon.",
+   "language": "TypeScript",
+   "stars": 397,
+   "forks": 50,
+   "age_days": 4,
+   "daily_stars": 99.25,
+   "real_daily_stars": 141.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "storytold/effectcraft",
+   "url": "https://github.com/storytold/effectcraft",
+   "description": "",
+   "language": "Rust",
+   "stars": 1175,
+   "forks": 460,
+   "age_days": 5,
+   "daily_stars": 235.0,
+   "real_daily_stars": 737.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 85,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20,
+    "fraud_penalty": -15,
+    "fraud_reason": "owner_has_2_repos_rapid_star_growth"
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "trycua/cua",
+   "url": "https://github.com/trycua/cua",
+   "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+   "language": "Rust",
+   "stars": 28551,
+   "forks": 2031,
+   "age_days": 613,
+   "daily_stars": 46.57585644371941,
+   "real_daily_stars": 224.5,
+   "watchers": 95,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "language": "JavaScript",
+   "stars": 25586,
+   "forks": 1535,
+   "age_days": 110,
+   "daily_stars": 232.6,
+   "real_daily_stars": 377.2,
+   "watchers": 98,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 2,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 9
+   }
+  },
+  {
+   "full_name": "ayghri/i-have-adhd",
+   "url": "https://github.com/ayghri/i-have-adhd",
+   "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+   "language": "Python",
+   "stars": 54685,
+   "forks": 3136,
+   "age_days": 146,
+   "daily_stars": 374.55479452054794,
+   "real_daily_stars": 297.61538461538464,
+   "watchers": 165,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ]
+}

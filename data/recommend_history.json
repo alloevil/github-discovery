@@ -213,76 +213,6 @@
       ],
       "last_recommended": "2026-09-21T10:13:58.741291+00:00"
     },
-    "BraveOPotato/FckSignups": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-07T09:45:40.454713+00:00"
-    },
-    "ruvnet/ruflo": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-07T09:45:40.457021+00:00"
-    },
-    "vinzdg/codenotch": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-07T09:45:40.459031+00:00"
-    },
-    "EverettFish/holo-card-studio": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-07T09:45:40.461069+00:00"
-    },
-    "humanlayer/skills": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-09-07T09:45:40.463087+00:00"
-    },
-    "biusberline/cloudflare-turnstile-solver": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-09-07T09:45:40.465105+00:00"
-    },
-    "donvito/codex-astra-luna-orchestrator": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-09-07T09:45:40.467103+00:00"
-    },
-    "BoardUI/boardui": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-07T09:45:40.469080+00:00"
-    },
-    "wz1119/Codex-Minecraft-Gameplay": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-09-07T09:45:40.471072+00:00"
-    },
-    "marsbos/mador": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-09-07T09:45:40.473056+00:00"
-    },
     "The-Swarm-Corporation/AutoHedge": {
       "count": 1,
       "scores": [
@@ -427,11 +357,12 @@
       "last_recommended": "2026-09-09T02:38:27.975628+00:00"
     },
     "ayghri/i-have-adhd": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        88
       ],
-      "last_recommended": "2026-09-10T09:12:26.845194+00:00"
+      "last_recommended": "2026-10-07T11:22:12.629027+00:00"
     },
     "pascalorg/editor": {
       "count": 1,
@@ -990,11 +921,12 @@
       "last_recommended": "2026-09-17T09:41:05.549723+00:00"
     },
     "cloudflare/security-audit-skill": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        92
       ],
-      "last_recommended": "2026-09-18T09:13:56.824634+00:00"
+      "last_recommended": "2026-10-07T11:22:12.626837+00:00"
     },
     "Tencent/WeKnora": {
       "count": 1,
@@ -1200,11 +1132,12 @@
       "last_recommended": "2026-09-20T09:28:43.411853+00:00"
     },
     "trycua/cua": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        96
       ],
-      "last_recommended": "2026-09-21T10:13:58.721018+00:00"
+      "last_recommended": "2026-10-07T11:22:12.624635+00:00"
     },
     "higgsfield-ai/higgsfield": {
       "count": 1,
@@ -2319,7 +2252,77 @@
         94
       ],
       "last_recommended": "2026-10-06T11:32:02.282916+00:00"
+    },
+    "deadinside28/bloodborne_pc": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-07T11:22:12.602639+00:00"
+    },
+    "h100envy/gem-search": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-07T11:22:12.605240+00:00"
+    },
+    "AgentMemoryRepo/agentmemoryrepo": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-07T11:22:12.607399+00:00"
+    },
+    "DozenTwelve/Papermorph": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-10-07T11:22:12.609503+00:00"
+    },
+    "mushigaite/short-video-maker": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-10-07T11:22:12.611631+00:00"
+    },
+    "cathrynlavery/diagram-design": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-10-07T11:22:12.613866+00:00"
+    },
+    "mizorewww/x_gift_bot": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-10-07T11:22:12.616007+00:00"
+    },
+    "JinHo-von-Choi/iron-laws": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-10-07T11:22:12.618147+00:00"
+    },
+    "genex-games/genex-desktop": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-10-07T11:22:12.620276+00:00"
+    },
+    "storytold/effectcraft": {
+      "count": 1,
+      "scores": [
+        85
+      ],
+      "last_recommended": "2026-10-07T11:22:12.622468+00:00"
     }
   },
-  "updated_at": "2026-10-06T11:32:02.282942+00:00"
+  "updated_at": "2026-10-07T11:22:12.629056+00:00"
 }
