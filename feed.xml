@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-07T18:00:00Z</updated>
+  <updated>2026-10-08T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>morluto/rea — Reverse engineer anything with agents, from app behavior down to native binaries.</title>
+    <id>https://github.com/morluto/rea#2026-10-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/morluto/rea"/>
+    <updated>2026-10-08T18:00:00Z</updated>
+    <published>2026-10-08T18:00:00Z</published>
+    <summary>Reverse engineer anything with agents, from app behavior down to native binaries.
+
+Why: +7778/day · Trending · 71.9x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 19157 (+7778.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>EpicGames/raddebugger — A native, user-mode, multi-process, graphical debugger.</title>
+    <id>https://github.com/EpicGames/raddebugger#2026-10-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/EpicGames/raddebugger"/>
+    <updated>2026-10-08T18:00:00Z</updated>
+    <published>2026-10-08T18:00:00Z</published>
+    <summary>A native, user-mode, multi-process, graphical debugger.
+
+Why: +278/day · Trending · 34.9x accelerating
+Score: 97/100 | Language: C | ⭐ 7978 (+278.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>alejandrobujan/tendedero — Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen.</title>
+    <id>https://github.com/alejandrobujan/tendedero#2026-10-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/alejandrobujan/tendedero"/>
+    <updated>2026-10-08T18:00:00Z</updated>
+    <published>2026-10-08T18:00:00Z</published>
+    <summary>Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen.
+
+Why: +813/day · Search
+Score: 96/100 | Language: Swift | ⭐ 813 (+813.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>LoreanXavier/pt-pc — Native PC port of P.T. (runs from your own PS4 game files)</title>
+    <id>https://github.com/LoreanXavier/pt-pc#2026-10-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/LoreanXavier/pt-pc"/>
+    <updated>2026-10-08T18:00:00Z</updated>
+    <published>2026-10-08T18:00:00Z</published>
+    <summary>Native PC port of P.T. (runs from your own PS4 game files)
+
+Why: +736/day · Search
+Score: 96/100 | Language: C++ | ⭐ 736 (+736.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>nullmoth/nvidia-macos-driver — Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.</title>
+    <id>https://github.com/nullmoth/nvidia-macos-driver#2026-10-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/nullmoth/nvidia-macos-driver"/>
+    <updated>2026-10-08T18:00:00Z</updated>
+    <published>2026-10-08T18:00:00Z</published>
+    <summary>Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.
+
+Why: +677/day · Search
+Score: 96/100 | Language: Rust | ⭐ 677 (+677.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>anthropics/knowledge-work-plugins — Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork</title>
+    <id>https://github.com/anthropics/knowledge-work-plugins#2026-10-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/anthropics/knowledge-work-plugins"/>
+    <updated>2026-10-08T18:00:00Z</updated>
+    <published>2026-10-08T18:00:00Z</published>
+    <summary>Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork
+
+Why: +215/day · Trending · 2.0x accelerating
+Score: 91/100 | Language: Python | ⭐ 27256 (+215.2/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>liquidslr/system-design-notes — Notes of the book System Desgin Interview - An Insider's Guide</title>
+    <id>https://github.com/liquidslr/system-design-notes#2026-10-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/liquidslr/system-design-notes"/>
+    <updated>2026-10-08T18:00:00Z</updated>
+    <published>2026-10-08T18:00:00Z</published>
+    <summary>Notes of the book System Desgin Interview - An Insider's Guide
+
+Why: +206/day · Trending · 5.6x accelerating
+Score: 76/100 | Language: ? | ⭐ 24175 (+206.3/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>deadinside28/bloodborne_pc — No description</title>
     <id>https://github.com/deadinside28/bloodborne_pc#2026-10-07</id>
@@ -954,71 +1031,5 @@ Score: 95/100 | Language: Python | ⭐ 403 (+403.0/day) | Source: search</summar
 
 Why: +201/day · Trending
 Score: 86/100 | Language: Python | ⭐ 56995 (+200.9/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>google/ax — Google's open agentic orchestration runtime</title>
-    <id>https://github.com/google/ax#2026-09-24</id>
-    <link rel="alternate" type="text/html" href="https://github.com/google/ax"/>
-    <updated>2026-09-24T18:00:00Z</updated>
-    <published>2026-09-24T18:00:00Z</published>
-    <summary>Google's open agentic orchestration runtime
-
-Why: +1415/day · Trending · 26.1x accelerating
-Score: 100/100 | Language: Go | ⭐ 9580 (+1415.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>dream-num/univer — The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.</title>
-    <id>https://github.com/dream-num/univer#2026-09-24</id>
-    <link rel="alternate" type="text/html" href="https://github.com/dream-num/univer"/>
-    <updated>2026-09-24T18:00:00Z</updated>
-    <published>2026-09-24T18:00:00Z</published>
-    <summary>The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.
-
-Why: +622/day · Trending · 54.5x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 16592 (+622.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>agent-substrate/substrate — Agent Substrate: the core system</title>
-    <id>https://github.com/agent-substrate/substrate#2026-09-24</id>
-    <link rel="alternate" type="text/html" href="https://github.com/agent-substrate/substrate"/>
-    <updated>2026-09-24T18:00:00Z</updated>
-    <published>2026-09-24T18:00:00Z</published>
-    <summary>Agent Substrate: the core system
-
-Why: +472/day · Trending · 17.2x accelerating
-Score: 100/100 | Language: Go | ⭐ 3656 (+472.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>superdesigndev/treg — OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn</title>
-    <id>https://github.com/superdesigndev/treg#2026-09-24</id>
-    <link rel="alternate" type="text/html" href="https://github.com/superdesigndev/treg"/>
-    <updated>2026-09-24T18:00:00Z</updated>
-    <published>2026-09-24T18:00:00Z</published>
-    <summary>OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn
-
-Why: +493/day · Trending · 11.9x accelerating
-Score: 100/100 | Language: Python | ⭐ 2901 (+493.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>browser-use/video-use — Edit videos with coding agents</title>
-    <id>https://github.com/browser-use/video-use#2026-09-24</id>
-    <link rel="alternate" type="text/html" href="https://github.com/browser-use/video-use"/>
-    <updated>2026-09-24T18:00:00Z</updated>
-    <published>2026-09-24T18:00:00Z</published>
-    <summary>Edit videos with coding agents
-
-Why: +533/day · Trending · 3.3x accelerating
-Score: 100/100 | Language: Python | ⭐ 26702 (+533.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>obra/superpowers — An agentic skills framework &amp; software development methodology that works.</title>
-    <id>https://github.com/obra/superpowers#2026-09-24</id>
-    <link rel="alternate" type="text/html" href="https://github.com/obra/superpowers"/>
-    <updated>2026-09-24T18:00:00Z</updated>
-    <published>2026-09-24T18:00:00Z</published>
-    <summary>An agentic skills framework &amp; software development methodology that works.
-
-Why: +450/day · Trending
-Score: 79/100 | Language: Shell | ⭐ 290931 (+450.0/day) | Source: trending</summary>
   </entry>
 </feed>
