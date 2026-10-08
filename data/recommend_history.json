@@ -213,13 +213,6 @@
       ],
       "last_recommended": "2026-09-21T10:13:58.741291+00:00"
     },
-    "The-Swarm-Corporation/AutoHedge": {
-      "count": 1,
-      "scores": [
-        99
-      ],
-      "last_recommended": "2026-09-08T04:03:35.487644+00:00"
-    },
     "coreyhaines31/marketingskills": {
       "count": 2,
       "scores": [
@@ -228,34 +221,6 @@
       ],
       "last_recommended": "2026-10-03T10:04:21.053828+00:00"
     },
-    "openai/skills": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-09-08T04:03:35.492149+00:00"
-    },
-    "timgordontg/engrim": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-09-08T04:03:35.494220+00:00"
-    },
-    "okf-memory/okf-agent-memory": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-08T04:03:35.496265+00:00"
-    },
-    "Jarvis322/macos-sysdata": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-09-08T04:03:35.498420+00:00"
-    },
     "heygen-com/hyperframes": {
       "count": 2,
       "scores": [
@@ -263,27 +228,6 @@
         88
       ],
       "last_recommended": "2026-10-01T11:11:44.444270+00:00"
-    },
-    "microsoft/markitdown": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-09-08T04:03:35.502559+00:00"
-    },
-    "Sadpainy/Stuxnet": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-09-08T04:03:35.504609+00:00"
-    },
-    "Mantitup-Org/vista": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-09-08T04:03:35.506704+00:00"
     },
     "jo-inc/camofox-browser": {
       "count": 1,
@@ -449,11 +393,12 @@
       "last_recommended": "2026-09-11T09:10:30.491405+00:00"
     },
     "liquidslr/system-design-notes": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        90
+        90,
+        76
       ],
-      "last_recommended": "2026-09-11T09:10:30.493303+00:00"
+      "last_recommended": "2026-10-08T11:38:17.170938+00:00"
     },
     "angusdevgo/IDM_Pro_Tool": {
       "count": 1,
@@ -943,11 +888,12 @@
       "last_recommended": "2026-09-18T09:13:56.828880+00:00"
     },
     "anthropics/knowledge-work-plugins": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        97
+        97,
+        91
       ],
-      "last_recommended": "2026-09-18T09:13:56.830885+00:00"
+      "last_recommended": "2026-10-08T11:38:17.168940+00:00"
     },
     "TheoLeeCJ/openjev": {
       "count": 1,
@@ -2322,7 +2268,77 @@
         85
       ],
       "last_recommended": "2026-10-07T11:22:12.622468+00:00"
+    },
+    "morluto/rea": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-08T11:38:17.148960+00:00"
+    },
+    "EpicGames/raddebugger": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-10-08T11:38:17.151132+00:00"
+    },
+    "alejandrobujan/tendedero": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-08T11:38:17.153153+00:00"
+    },
+    "LoreanXavier/pt-pc": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-08T11:38:17.155099+00:00"
+    },
+    "nullmoth/nvidia-macos-driver": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-08T11:38:17.157104+00:00"
+    },
+    "pingdotgg/ts-rust": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-08T11:38:17.159082+00:00"
+    },
+    "bas3line/ascii": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-10-08T11:38:17.161035+00:00"
+    },
+    "nano-muse/nanoMuse": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-10-08T11:38:17.162982+00:00"
+    },
+    "LosaLosSantos/aurelio-finance": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-08T11:38:17.164975+00:00"
+    },
+    "szabadkai/c64-keyboard-font": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-08T11:38:17.166960+00:00"
     }
   },
-  "updated_at": "2026-10-07T11:22:12.629056+00:00"
+  "updated_at": "2026-10-08T11:38:17.170960+00:00"
 }

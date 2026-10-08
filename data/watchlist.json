@@ -1,75 +1,5 @@
 {
  "repos": {
-  "mvt-project/mvt": {
-   "first_seen": "2026-09-23",
-   "until": "2026-10-07",
-   "stars_at_discovery": 14287,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "freestylefly/WeChatBridge": {
-   "first_seen": "2026-09-23",
-   "until": "2026-10-07",
-   "stars_at_discovery": 457,
-   "score_at_discovery": 92,
-   "source_at_discovery": "rising"
-  },
-  "anishfn/shapeshift": {
-   "first_seen": "2026-09-23",
-   "until": "2026-10-07",
-   "stars_at_discovery": 162,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "wuyoscar/jev-skill": {
-   "first_seen": "2026-09-23",
-   "until": "2026-10-07",
-   "stars_at_discovery": 455,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "kerpopule/hermes-jev-skills": {
-   "first_seen": "2026-09-23",
-   "until": "2026-10-07",
-   "stars_at_discovery": 657,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "google-research/rrsi": {
-   "first_seen": "2026-09-23",
-   "until": "2026-10-07",
-   "stars_at_discovery": 167,
-   "score_at_discovery": 89,
-   "source_at_discovery": "hf-papers"
-  },
-  "FerryCorleone/crush-monitor": {
-   "first_seen": "2026-09-23",
-   "until": "2026-10-07",
-   "stars_at_discovery": 190,
-   "score_at_discovery": 88,
-   "source_at_discovery": "search"
-  },
-  "wfzyx/von": {
-   "first_seen": "2026-09-23",
-   "until": "2026-10-07",
-   "stars_at_discovery": 525,
-   "score_at_discovery": 87,
-   "source_at_discovery": "search"
-  },
-  "OnlistTeam/ai-manager": {
-   "first_seen": "2026-09-23",
-   "until": "2026-10-07",
-   "stars_at_discovery": 113,
-   "score_at_discovery": 86,
-   "source_at_discovery": "search"
-  },
-  "Yinsongxu/LLM2Jev": {
-   "first_seen": "2026-09-23",
-   "until": "2026-10-07",
-   "stars_at_discovery": 194,
-   "score_at_discovery": 86,
-   "source_at_discovery": "ai-trending"
-  },
   "google/ax": {
    "first_seen": "2026-09-24",
    "until": "2026-10-08",
@@ -1189,7 +1119,91 @@
    "stars_at_discovery": 54685,
    "score_at_discovery": 88,
    "source_at_discovery": "trending"
+  },
+  "morluto/rea": {
+   "first_seen": "2026-10-08",
+   "until": "2026-10-22",
+   "stars_at_discovery": 19157,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "EpicGames/raddebugger": {
+   "first_seen": "2026-10-08",
+   "until": "2026-10-22",
+   "stars_at_discovery": 7978,
+   "score_at_discovery": 97,
+   "source_at_discovery": "trending"
+  },
+  "alejandrobujan/tendedero": {
+   "first_seen": "2026-10-08",
+   "until": "2026-10-22",
+   "stars_at_discovery": 813,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "LoreanXavier/pt-pc": {
+   "first_seen": "2026-10-08",
+   "until": "2026-10-22",
+   "stars_at_discovery": 736,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "nullmoth/nvidia-macos-driver": {
+   "first_seen": "2026-10-08",
+   "until": "2026-10-22",
+   "stars_at_discovery": 677,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "pingdotgg/ts-rust": {
+   "first_seen": "2026-10-08",
+   "until": "2026-10-22",
+   "stars_at_discovery": 595,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "bas3line/ascii": {
+   "first_seen": "2026-10-08",
+   "until": "2026-10-22",
+   "stars_at_discovery": 434,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "nano-muse/nanoMuse": {
+   "first_seen": "2026-10-08",
+   "until": "2026-10-22",
+   "stars_at_discovery": 315,
+   "score_at_discovery": 95,
+   "source_at_discovery": "hn"
+  },
+  "LosaLosSantos/aurelio-finance": {
+   "first_seen": "2026-10-08",
+   "until": "2026-10-22",
+   "stars_at_discovery": 351,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "szabadkai/c64-keyboard-font": {
+   "first_seen": "2026-10-08",
+   "until": "2026-10-22",
+   "stars_at_discovery": 525,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "anthropics/knowledge-work-plugins": {
+   "first_seen": "2026-10-08",
+   "until": "2026-10-22",
+   "stars_at_discovery": 27256,
+   "score_at_discovery": 91,
+   "source_at_discovery": "trending"
+  },
+  "liquidslr/system-design-notes": {
+   "first_seen": "2026-10-08",
+   "until": "2026-10-22",
+   "stars_at_discovery": 24175,
+   "score_at_discovery": 76,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-10-07T11:25:53.669176+00:00"
+ "updated_at": "2026-10-08T11:41:44.263110+00:00"
 }

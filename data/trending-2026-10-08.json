@@ -1,0 +1,51 @@
+{
+ "date": "2026-10-08",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "mattpocock/skills",
+   "stars": 280502,
+   "language": "Shell"
+  },
+  {
+   "full_name": "thedotmack/claude-mem",
+   "stars": 98045,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "cathrynlavery/diagram-design",
+   "stars": 45569,
+   "language": "HTML"
+  },
+  {
+   "full_name": "anthropics/knowledge-work-plugins",
+   "stars": 27256,
+   "language": "Python"
+  },
+  {
+   "full_name": "liquidslr/system-design-notes",
+   "stars": 24175,
+   "language": ""
+  },
+  {
+   "full_name": "morluto/rea",
+   "stars": 19157,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "boykopovar/AnyPS5",
+   "stars": 12739,
+   "language": "C++"
+  },
+  {
+   "full_name": "EpicGames/raddebugger",
+   "stars": 7978,
+   "language": "C"
+  },
+  {
+   "full_name": "storytold/artcraft",
+   "stars": 5955,
+   "language": "Rust"
+  }
+ ]
+}
