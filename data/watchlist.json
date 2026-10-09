@@ -1,82 +1,5 @@
 {
  "repos": {
-  "google/ax": {
-   "first_seen": "2026-09-24",
-   "until": "2026-10-08",
-   "stars_at_discovery": 9580,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "dream-num/univer": {
-   "first_seen": "2026-09-24",
-   "until": "2026-10-08",
-   "stars_at_discovery": 16592,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "agent-substrate/substrate": {
-   "first_seen": "2026-09-24",
-   "until": "2026-10-08",
-   "stars_at_discovery": 3656,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "superdesigndev/treg": {
-   "first_seen": "2026-09-24",
-   "until": "2026-10-08",
-   "stars_at_discovery": 2901,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "browser-use/video-use": {
-   "first_seen": "2026-09-24",
-   "until": "2026-10-08",
-   "stars_at_discovery": 26702,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "davila7/claude-code-templates": {
-   "first_seen": "2026-09-24",
-   "until": "2026-10-08",
-   "stars_at_discovery": 31661,
-   "score_at_discovery": 99,
-   "source_at_discovery": "trending"
-  },
-  "yetone/magpie": {
-   "first_seen": "2026-09-24",
-   "until": "2026-10-08",
-   "stars_at_discovery": 425,
-   "score_at_discovery": 95,
-   "source_at_discovery": "ai-trending"
-  },
-  "driceroland/Search": {
-   "first_seen": "2026-09-24",
-   "until": "2026-10-08",
-   "stars_at_discovery": 921,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "BridgeDruidCompress/TauriKit": {
-   "first_seen": "2026-09-24",
-   "until": "2026-10-08",
-   "stars_at_discovery": 223,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "AutocratGirder/ClashDesk": {
-   "first_seen": "2026-09-24",
-   "until": "2026-10-08",
-   "stars_at_discovery": 223,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "obra/superpowers": {
-   "first_seen": "2026-09-24",
-   "until": "2026-10-08",
-   "stars_at_discovery": 290931,
-   "score_at_discovery": 79,
-   "source_at_discovery": "trending"
-  },
   "strands-agents/harness-sdk": {
    "first_seen": "2026-09-25",
    "until": "2026-10-09",
@@ -1203,7 +1126,84 @@
    "stars_at_discovery": 24175,
    "score_at_discovery": 76,
    "source_at_discovery": "trending"
+  },
+  "zhongerxin/iPhone-use": {
+   "first_seen": "2026-10-09",
+   "until": "2026-10-23",
+   "stars_at_discovery": 1219,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "noahdunnagan/fsearch": {
+   "first_seen": "2026-10-09",
+   "until": "2026-10-23",
+   "stars_at_discovery": 833,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "ThariqS/ai-newtab": {
+   "first_seen": "2026-10-09",
+   "until": "2026-10-23",
+   "stars_at_discovery": 384,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "jiwoochris/artex-ko": {
+   "first_seen": "2026-10-09",
+   "until": "2026-10-23",
+   "stars_at_discovery": 819,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "alchaincyf/huashu-art-motion": {
+   "first_seen": "2026-10-09",
+   "until": "2026-10-23",
+   "stars_at_discovery": 2737,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "Stellar-Sentinel/sentinel-contracts": {
+   "first_seen": "2026-10-09",
+   "until": "2026-10-23",
+   "stars_at_discovery": 131,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "ToiCF/CF-Workers-TGProxy": {
+   "first_seen": "2026-10-09",
+   "until": "2026-10-23",
+   "stars_at_discovery": 444,
+   "score_at_discovery": 90,
+   "source_at_discovery": "rising"
+  },
+  "finnvoor/PiDurableKit": {
+   "first_seen": "2026-10-09",
+   "until": "2026-10-23",
+   "stars_at_discovery": 136,
+   "score_at_discovery": 90,
+   "source_at_discovery": "ai-trending"
+  },
+  "nullmoth/1401": {
+   "first_seen": "2026-10-09",
+   "until": "2026-10-23",
+   "stars_at_discovery": 201,
+   "score_at_discovery": 88,
+   "source_at_discovery": "search"
+  },
+  "BinceQu/RoboHarness": {
+   "first_seen": "2026-10-09",
+   "until": "2026-10-23",
+   "stars_at_discovery": 185,
+   "score_at_discovery": 88,
+   "source_at_discovery": "search"
+  },
+  "alibaba/open-code-review": {
+   "first_seen": "2026-10-09",
+   "until": "2026-10-23",
+   "stars_at_discovery": 44788,
+   "score_at_discovery": 76,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-10-08T11:41:44.263110+00:00"
+ "updated_at": "2026-10-09T11:35:54.748227+00:00"
 }

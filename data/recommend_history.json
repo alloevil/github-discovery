@@ -229,13 +229,6 @@
       ],
       "last_recommended": "2026-10-01T11:11:44.444270+00:00"
     },
-    "jo-inc/camofox-browser": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-09T02:38:27.956036+00:00"
-    },
     "mksglu/context-mode": {
       "count": 2,
       "scores": [
@@ -243,62 +236,6 @@
         71
       ],
       "last_recommended": "2026-10-01T11:11:44.448640+00:00"
-    },
-    "MoonTechLab/LunaTV": {
-      "count": 1,
-      "scores": [
-        98
-      ],
-      "last_recommended": "2026-09-09T02:38:27.960624+00:00"
-    },
-    "openai/NavierStokesAndEuler": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-09T02:38:27.962742+00:00"
-    },
-    "henryzawadzki6542/cloudflare-turnstile-bypass": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-09-09T02:38:27.964899+00:00"
-    },
-    "gazijarin/itsgiving": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-09-09T02:38:27.967072+00:00"
-    },
-    "Sophomoresty/turnstile-bypass": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-09-09T02:38:27.969219+00:00"
-    },
-    "noskillish/bankmcp": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-09T02:38:27.971372+00:00"
-    },
-    "LBEILC/RhineLabUI": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-09T02:38:27.973482+00:00"
-    },
-    "ScottStevenson/SuperAstra": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-09-09T02:38:27.975628+00:00"
     },
     "ayghri/i-have-adhd": {
       "count": 2,
@@ -654,11 +591,12 @@
       "last_recommended": "2026-09-14T06:57:14.885304+00:00"
     },
     "alibaba/open-code-review": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        76
       ],
-      "last_recommended": "2026-09-15T09:37:24.810486+00:00"
+      "last_recommended": "2026-10-09T11:32:12.241633+00:00"
     },
     "huggingface/transformers": {
       "count": 1,
@@ -2338,7 +2276,77 @@
         91
       ],
       "last_recommended": "2026-10-08T11:38:17.166960+00:00"
+    },
+    "zhongerxin/iPhone-use": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-09T11:32:12.219956+00:00"
+    },
+    "noahdunnagan/fsearch": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-09T11:32:12.222417+00:00"
+    },
+    "ThariqS/ai-newtab": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-10-09T11:32:12.224567+00:00"
+    },
+    "jiwoochris/artex-ko": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-09T11:32:12.226671+00:00"
+    },
+    "alchaincyf/huashu-art-motion": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-09T11:32:12.228857+00:00"
+    },
+    "Stellar-Sentinel/sentinel-contracts": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-09T11:32:12.230987+00:00"
+    },
+    "ToiCF/CF-Workers-TGProxy": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-09T11:32:12.233123+00:00"
+    },
+    "finnvoor/PiDurableKit": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-09T11:32:12.235230+00:00"
+    },
+    "nullmoth/1401": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-10-09T11:32:12.237348+00:00"
+    },
+    "BinceQu/RoboHarness": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-10-09T11:32:12.239501+00:00"
     }
   },
-  "updated_at": "2026-10-08T11:38:17.170960+00:00"
+  "updated_at": "2026-10-09T11:32:12.241663+00:00"
 }

@@ -1,0 +1,61 @@
+{
+ "date": "2026-10-09",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "mattpocock/skills",
+   "stars": 281917,
+   "language": "Shell"
+  },
+  {
+   "full_name": "addyosmani/agent-skills",
+   "stars": 103602,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "BerriAI/litellm",
+   "stars": 60447,
+   "language": "Python"
+  },
+  {
+   "full_name": "cathrynlavery/diagram-design",
+   "stars": 47278,
+   "language": "HTML"
+  },
+  {
+   "full_name": "alibaba/open-code-review",
+   "stars": 44788,
+   "language": "Go"
+  },
+  {
+   "full_name": "morluto/rea",
+   "stars": 34293,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "anthropics/knowledge-work-plugins",
+   "stars": 27954,
+   "language": "Python"
+  },
+  {
+   "full_name": "boykopovar/AnyPS5",
+   "stars": 18601,
+   "language": "C++"
+  },
+  {
+   "full_name": "Robbyant/lingbot-map",
+   "stars": 17521,
+   "language": "Python"
+  },
+  {
+   "full_name": "storytold/artcraft",
+   "stars": 9644,
+   "language": "Rust"
+  },
+  {
+   "full_name": "twostraws/SwiftUI-Agent-Skill",
+   "stars": 5210,
+   "language": ""
+  }
+ ]
+}

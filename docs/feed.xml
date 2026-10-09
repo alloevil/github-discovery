@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-08T18:00:00Z</updated>
+  <updated>2026-10-09T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>zhongerxin/iPhone-use — 让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。</title>
+    <id>https://github.com/zhongerxin/iPhone-use#2026-10-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/zhongerxin/iPhone-use"/>
+    <updated>2026-10-09T18:00:00Z</updated>
+    <published>2026-10-09T18:00:00Z</published>
+    <summary>让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。
+
+Why: +610/day · Search
+Score: 96/100 | Language: Python | ⭐ 1219 (+609.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>noahdunnagan/fsearch — Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files.</title>
+    <id>https://github.com/noahdunnagan/fsearch#2026-10-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/noahdunnagan/fsearch"/>
+    <updated>2026-10-09T18:00:00Z</updated>
+    <published>2026-10-09T18:00:00Z</published>
+    <summary>Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files.
+
+Why: +833/day · Search
+Score: 96/100 | Language: Rust | ⭐ 833 (+833.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>ThariqS/ai-newtab — Claude generates a daily new tab page based on your browser history.</title>
+    <id>https://github.com/ThariqS/ai-newtab#2026-10-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ThariqS/ai-newtab"/>
+    <updated>2026-10-09T18:00:00Z</updated>
+    <published>2026-10-09T18:00:00Z</published>
+    <summary>Claude generates a daily new tab page based on your browser history.
+
+Why: +384/day · Search
+Score: 95/100 | Language: TypeScript | ⭐ 384 (+384.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)</title>
+    <id>https://github.com/jiwoochris/artex-ko#2026-10-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/jiwoochris/artex-ko"/>
+    <updated>2026-10-09T18:00:00Z</updated>
+    <published>2026-10-09T18:00:00Z</published>
+    <summary>ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)
+
+Why: +350/day · Search · 2.1x accelerating
+Score: 94/100 | Language: Go | ⭐ 819 (+350.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>alchaincyf/huashu-art-motion — 艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。</title>
+    <id>https://github.com/alchaincyf/huashu-art-motion#2026-10-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/alchaincyf/huashu-art-motion"/>
+    <updated>2026-10-09T18:00:00Z</updated>
+    <published>2026-10-09T18:00:00Z</published>
+    <summary>艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。
+
+Why: +521/day · Search
+Score: 90/100 | Language: JavaScript | ⭐ 2737 (+521.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>alibaba/open-code-review — Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.</title>
+    <id>https://github.com/alibaba/open-code-review#2026-10-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/alibaba/open-code-review"/>
+    <updated>2026-10-09T18:00:00Z</updated>
+    <published>2026-10-09T18:00:00Z</published>
+    <summary>Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.
+
+Why: +231/day · Trending
+Score: 76/100 | Language: Go | ⭐ 44788 (+231.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>morluto/rea — Reverse engineer anything with agents, from app behavior down to native binaries.</title>
     <id>https://github.com/morluto/rea#2026-10-08</id>
@@ -965,71 +1031,5 @@ Score: 90/100 | Language: Shell | ⭐ 269919 (+757.6/day) | Source: trending</su
 
 Why: +54/day · Trending
 Score: 69/100 | Language: Python | ⭐ 37019 (+54.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>strands-agents/harness-sdk — Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python &amp; TypeScript - any model, any cloud.</title>
-    <id>https://github.com/strands-agents/harness-sdk#2026-09-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/strands-agents/harness-sdk"/>
-    <updated>2026-09-25T18:00:00Z</updated>
-    <published>2026-09-25T18:00:00Z</published>
-    <summary>Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python &amp; TypeScript - any model, any cloud.
-
-Why: +338/day · Trending · 20.1x accelerating
-Score: 98/100 | Language: Python | ⭐ 8364 (+338.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>mikehasa/golive-skill — Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry.</title>
-    <id>https://github.com/mikehasa/golive-skill#2026-09-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mikehasa/golive-skill"/>
-    <updated>2026-09-25T18:00:00Z</updated>
-    <published>2026-09-25T18:00:00Z</published>
-    <summary>Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry.
-
-Why: +918/day · Search
-Score: 96/100 | Language: TypeScript | ⭐ 918 (+918.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>tobi/disktree — A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.</title>
-    <id>https://github.com/tobi/disktree#2026-09-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/tobi/disktree"/>
-    <updated>2026-09-25T18:00:00Z</updated>
-    <published>2026-09-25T18:00:00Z</published>
-    <summary>A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.
-
-Why: +457/day · Search
-Score: 96/100 | Language: Rust | ⭐ 457 (+457.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>kryvora-network/kryvora-node — Reference client daemon and verification worker for Kryvora Network nodes.</title>
-    <id>https://github.com/kryvora-network/kryvora-node#2026-09-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/kryvora-network/kryvora-node"/>
-    <updated>2026-09-25T18:00:00Z</updated>
-    <published>2026-09-25T18:00:00Z</published>
-    <summary>Reference client daemon and verification worker for Kryvora Network nodes.
-
-Why: +377/day · Search
-Score: 95/100 | Language: Go | ⭐ 754 (+377.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>samyost1/3dicon — One prompt in, a looping animated 3D icon out — with real transparency. A Claude Code skill.</title>
-    <id>https://github.com/samyost1/3dicon#2026-09-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/samyost1/3dicon"/>
-    <updated>2026-09-25T18:00:00Z</updated>
-    <published>2026-09-25T18:00:00Z</published>
-    <summary>One prompt in, a looping animated 3D icon out — with real transparency. A Claude Code skill.
-
-Why: +403/day · Search
-Score: 95/100 | Language: Python | ⭐ 403 (+403.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>rohitg00/ai-engineering-from-scratch — Learn it. Build it. Ship it for others.</title>
-    <id>https://github.com/rohitg00/ai-engineering-from-scratch#2026-09-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/rohitg00/ai-engineering-from-scratch"/>
-    <updated>2026-09-25T18:00:00Z</updated>
-    <published>2026-09-25T18:00:00Z</published>
-    <summary>Learn it. Build it. Ship it for others.
-
-Why: +201/day · Trending
-Score: 86/100 | Language: Python | ⭐ 56995 (+200.9/day) | Source: trending</summary>
   </entry>
 </feed>
