@@ -1,0 +1,355 @@
+{
+ "date": "2026-10-10",
+ "generated_at": "2026-10-10T10:49:49.282183",
+ "pool_size": 83,
+ "source_health": {
+  "trending": {
+   "fetched": 11,
+   "parsed": 11,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 4
+  },
+  "search": {
+   "fetched": 67,
+   "parsed": 67,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 6
+  },
+  "hn": {
+   "fetched": 10,
+   "parsed": 10,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 1,
+   "parsed": 1,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 12,
+   "parsed": 12,
+   "rejected": 0,
+   "deduplicated": 5,
+   "recommended": 1
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "BerriAI/litellm",
+   "url": "https://github.com/BerriAI/litellm",
+   "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+   "language": "Python",
+   "stars": 60859,
+   "forks": 12207,
+   "age_days": 1171,
+   "daily_stars": 51.971818958155424,
+   "real_daily_stars": 412.0,
+   "watchers": 236,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Robbyant/lingbot-map",
+   "url": "https://github.com/Robbyant/lingbot-map",
+   "description": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+   "language": "Python",
+   "stars": 17890,
+   "forks": 1965,
+   "age_days": 177,
+   "daily_stars": 101.07344632768361,
+   "real_daily_stars": 369.0,
+   "watchers": 172,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 2,
+   "scores": {
+    "total": 94,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 12
+   }
+  },
+  {
+   "full_name": "twostraws/SwiftUI-Agent-Skill",
+   "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+   "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+   "language": "",
+   "stars": 5649,
+   "forks": 199,
+   "age_days": 218,
+   "daily_stars": 25.912844036697248,
+   "real_daily_stars": 439.0,
+   "watchers": 65,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 94,
+    "acceleration": 39,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 14
+   }
+  },
+  {
+   "full_name": "HelixDB/helix-foundry",
+   "url": "https://github.com/HelixDB/helix-foundry",
+   "description": "Your company's data, connected into one ontology, on your own computer. A local-first data workspace built on HelixDB and DuckDB.",
+   "language": "TypeScript",
+   "stars": 699,
+   "forks": 101,
+   "age_days": 3,
+   "daily_stars": 233.0,
+   "real_daily_stars": 445.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "mrsarac/ff-tracking",
+   "url": "https://github.com/mrsarac/ff-tracking",
+   "description": "A virtual camera films an AI agent's screen while a tracker locks onto every glyph. Two fframes passes, one SkSL shader, all sound synthesized.",
+   "language": "Rust",
+   "stars": 188,
+   "forks": 11,
+   "age_days": 1,
+   "daily_stars": 188.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "t4t5/omdrop-owl",
+   "url": "https://github.com/t4t5/omdrop-owl",
+   "description": "airdrop for non-apple devices",
+   "language": "Shell",
+   "stars": 882,
+   "forks": 56,
+   "age_days": 2,
+   "daily_stars": 441.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 90,
+    "acceleration": 35,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "Stellar-Clear/clearledger-contracts",
+   "url": "https://github.com/Stellar-Clear/clearledger-contracts",
+   "description": "Soroban smart contracts on Stellar for invoice finance: participant registry, invoice lifecycle, USDC liquidity pools, and escrow coordination.",
+   "language": "Rust",
+   "stars": 131,
+   "forks": 128,
+   "age_days": 1,
+   "daily_stars": 131.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "sirioberati/Genjustsu-Open-Source-Workflow",
+   "url": "https://github.com/sirioberati/Genjustsu-Open-Source-Workflow",
+   "description": "Open-source AI video replacement workflow by TEIN. Combine depth maps, SAM segmentation, face meshes, and audio processing to replace characters and objects with Seedance. Includes a local web UI to prepare inputs, review masks, preview generations, and export with original audio.",
+   "language": "Python",
+   "stars": 332,
+   "forks": 100,
+   "age_days": 3,
+   "daily_stars": 110.66666666666667,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "binwu1/drama-series-agent",
+   "url": "https://github.com/binwu1/drama-series-agent",
+   "description": "一句话出片的短剧系列 Agent（A short drama series Agent that produces a film in one sentence）",
+   "language": "Python",
+   "stars": 203,
+   "forks": 6,
+   "age_days": 2,
+   "daily_stars": 101.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "GTKottman/mortiflix-oss",
+   "url": "https://github.com/GTKottman/mortiflix-oss",
+   "description": "A motion design studio on your own machine: Claude makes the video step by step, you approve every stage. Bring your own Claude Code or API key.",
+   "language": "JavaScript",
+   "stars": 500,
+   "forks": 16,
+   "age_days": 4,
+   "daily_stars": 125.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "description": "Skills for Real Engineers. Straight from my .agents directory.",
+   "language": "Shell",
+   "stars": 283522,
+   "forks": 23745,
+   "age_days": 248,
+   "daily_stars": 1143.233870967742,
+   "real_daily_stars": 1602.0,
+   "watchers": 1506,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ]
+}

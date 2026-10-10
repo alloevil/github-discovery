@@ -1,82 +1,5 @@
 {
  "repos": {
-  "strands-agents/harness-sdk": {
-   "first_seen": "2026-09-25",
-   "until": "2026-10-09",
-   "stars_at_discovery": 8364,
-   "score_at_discovery": 98,
-   "source_at_discovery": "trending"
-  },
-  "mikehasa/golive-skill": {
-   "first_seen": "2026-09-25",
-   "until": "2026-10-09",
-   "stars_at_discovery": 918,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "tobi/disktree": {
-   "first_seen": "2026-09-25",
-   "until": "2026-10-09",
-   "stars_at_discovery": 457,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "kryvora-network/kryvora-node": {
-   "first_seen": "2026-09-25",
-   "until": "2026-10-09",
-   "stars_at_discovery": 754,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "samyost1/3dicon": {
-   "first_seen": "2026-09-25",
-   "until": "2026-10-09",
-   "stars_at_discovery": 403,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "yukitorido/short-video-generator-AI": {
-   "first_seen": "2026-09-25",
-   "until": "2026-10-09",
-   "stars_at_discovery": 346,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "Cosmicchibattle/zeroclaw-ui": {
-   "first_seen": "2026-09-25",
-   "until": "2026-10-09",
-   "stars_at_discovery": 201,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "jankeesvw/omarchy-meeting-recorder": {
-   "first_seen": "2026-09-25",
-   "until": "2026-10-09",
-   "stars_at_discovery": 166,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "BridgeDruidCompress/Moon-FruityLoops26-FileParser": {
-   "first_seen": "2026-09-25",
-   "until": "2026-10-09",
-   "stars_at_discovery": 196,
-   "score_at_discovery": 91,
-   "source_at_discovery": "rising"
-  },
-  "HKUDS/CLI-Anything": {
-   "first_seen": "2026-09-25",
-   "until": "2026-10-09",
-   "stars_at_discovery": 50455,
-   "score_at_discovery": 90,
-   "source_at_discovery": "trending"
-  },
-  "rohitg00/ai-engineering-from-scratch": {
-   "first_seen": "2026-09-25",
-   "until": "2026-10-09",
-   "stars_at_discovery": 56995,
-   "score_at_discovery": 86,
-   "source_at_discovery": "trending"
-  },
   "vectorize-io/hindsight": {
    "first_seen": "2026-09-26",
    "until": "2026-10-10",
@@ -1203,7 +1126,77 @@
    "stars_at_discovery": 44788,
    "score_at_discovery": 76,
    "source_at_discovery": "trending"
+  },
+  "BerriAI/litellm": {
+   "first_seen": "2026-10-10",
+   "until": "2026-10-24",
+   "stars_at_discovery": 60859,
+   "score_at_discovery": 99,
+   "source_at_discovery": "trending"
+  },
+  "Robbyant/lingbot-map": {
+   "first_seen": "2026-10-10",
+   "until": "2026-10-24",
+   "stars_at_discovery": 17890,
+   "score_at_discovery": 94,
+   "source_at_discovery": "trending"
+  },
+  "twostraws/SwiftUI-Agent-Skill": {
+   "first_seen": "2026-10-10",
+   "until": "2026-10-24",
+   "stars_at_discovery": 5649,
+   "score_at_discovery": 94,
+   "source_at_discovery": "trending"
+  },
+  "HelixDB/helix-foundry": {
+   "first_seen": "2026-10-10",
+   "until": "2026-10-24",
+   "stars_at_discovery": 699,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "mrsarac/ff-tracking": {
+   "first_seen": "2026-10-10",
+   "until": "2026-10-24",
+   "stars_at_discovery": 188,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "t4t5/omdrop-owl": {
+   "first_seen": "2026-10-10",
+   "until": "2026-10-24",
+   "stars_at_discovery": 882,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "Stellar-Clear/clearledger-contracts": {
+   "first_seen": "2026-10-10",
+   "until": "2026-10-24",
+   "stars_at_discovery": 131,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "sirioberati/Genjustsu-Open-Source-Workflow": {
+   "first_seen": "2026-10-10",
+   "until": "2026-10-24",
+   "stars_at_discovery": 332,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "binwu1/drama-series-agent": {
+   "first_seen": "2026-10-10",
+   "until": "2026-10-24",
+   "stars_at_discovery": 203,
+   "score_at_discovery": 88,
+   "source_at_discovery": "search"
+  },
+  "GTKottman/mortiflix-oss": {
+   "first_seen": "2026-10-10",
+   "until": "2026-10-24",
+   "stars_at_discovery": 500,
+   "score_at_discovery": 87,
+   "source_at_discovery": "ai-trending"
   }
  },
- "updated_at": "2026-10-09T11:35:54.748227+00:00"
+ "updated_at": "2026-10-10T10:53:34.070969+00:00"
 }
