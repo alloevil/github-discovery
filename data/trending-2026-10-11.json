@@ -3,69 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "mattpocock/skills",
-   "stars": 285261,
-   "language": "Shell"
-  },
-  {
-   "full_name": "multica-ai/andrej-karpathy-skills",
-   "stars": 218629,
-   "language": ""
-  },
-  {
-   "full_name": "tensorflow/tensorflow",
-   "stars": 200859,
-   "language": "C++"
-  },
-  {
-   "full_name": "flutter/flutter",
-   "stars": 179722,
-   "language": "Dart"
-  },
-  {
-   "full_name": "huggingface/transformers",
-   "stars": 167493,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "pytorch/pytorch",
-   "stars": 104251,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "morluto/rea",
-   "stars": 84863,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "hugohe3/ppt-master",
-   "stars": 60023,
-   "language": "Python"
-  },
-  {
-   "full_name": "cathrynlavery/diagram-design",
-   "stars": 49485,
-   "language": "HTML"
-  },
-  {
-   "full_name": "anthropics/knowledge-work-plugins",
-   "stars": 28995,
-   "language": "Python"
-  },
-  {
-   "full_name": "boykopovar/AnyPS5",
-   "stars": 28165,
-   "language": "C++"
-  },
-  {
-   "full_name": "mksglu/context-mode",
-   "stars": 26547,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "storytold/artcraft",
-   "stars": 15707,
-   "language": "Rust"
   }
  ]
 }
