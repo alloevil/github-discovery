@@ -1,89 +1,5 @@
 {
  "repos": {
-  "vectorize-io/hindsight": {
-   "first_seen": "2026-09-26",
-   "until": "2026-10-10",
-   "stars_at_discovery": 30403,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "devdotfast/whiteboard": {
-   "first_seen": "2026-09-26",
-   "until": "2026-10-10",
-   "stars_at_discovery": 1397,
-   "score_at_discovery": 100,
-   "source_at_discovery": "hn"
-  },
-  "NVIDIA/Model-Optimizer": {
-   "first_seen": "2026-09-26",
-   "until": "2026-10-10",
-   "stars_at_discovery": 4567,
-   "score_at_discovery": 98,
-   "source_at_discovery": "trending"
-  },
-  "asokurasu/text-humanizer": {
-   "first_seen": "2026-09-26",
-   "until": "2026-10-10",
-   "stars_at_discovery": 722,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "dgreenheck/tidewater": {
-   "first_seen": "2026-09-26",
-   "until": "2026-10-10",
-   "stars_at_discovery": 640,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "pbakaus/impeccable": {
-   "first_seen": "2026-09-26",
-   "until": "2026-10-10",
-   "stars_at_discovery": 71363,
-   "score_at_discovery": 93,
-   "source_at_discovery": "trending"
-  },
-  "jamespolyakov9829/captcha-api": {
-   "first_seen": "2026-09-26",
-   "until": "2026-10-10",
-   "stars_at_discovery": 263,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "supermemoryai/company-brain": {
-   "first_seen": "2026-09-26",
-   "until": "2026-10-10",
-   "stars_at_discovery": 229,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "ollaya-dev/ollaya": {
-   "first_seen": "2026-09-26",
-   "until": "2026-10-10",
-   "stars_at_discovery": 272,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "paperclipai/paperclip": {
-   "first_seen": "2026-09-26",
-   "until": "2026-10-10",
-   "stars_at_discovery": 85695,
-   "score_at_discovery": 89,
-   "source_at_discovery": "trending"
-  },
-  "mattpocock/skills": {
-   "first_seen": "2026-09-26",
-   "until": "2026-10-10",
-   "stars_at_discovery": 269919,
-   "score_at_discovery": 90,
-   "source_at_discovery": "trending"
-  },
-  "anthropics/claude-plugins-official": {
-   "first_seen": "2026-09-26",
-   "until": "2026-10-10",
-   "stars_at_discovery": 37019,
-   "score_at_discovery": 69,
-   "source_at_discovery": "trending"
-  },
   "openbao/openbao": {
    "first_seen": "2026-09-27",
    "until": "2026-10-11",
@@ -1196,7 +1112,84 @@
    "stars_at_discovery": 500,
    "score_at_discovery": 87,
    "source_at_discovery": "ai-trending"
+  },
+  "rociiu/talorys": {
+   "first_seen": "2026-10-11",
+   "until": "2026-10-25",
+   "stars_at_discovery": 588,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "wheresryan22/anatomy": {
+   "first_seen": "2026-10-11",
+   "until": "2026-10-25",
+   "stars_at_discovery": 960,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "c22dev/muguet": {
+   "first_seen": "2026-10-11",
+   "until": "2026-10-25",
+   "stars_at_discovery": 365,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "fayazara/robot-heads": {
+   "first_seen": "2026-10-11",
+   "until": "2026-10-25",
+   "stars_at_discovery": 216,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "n1tr00-10/tiktok-web-signature": {
+   "first_seen": "2026-10-11",
+   "until": "2026-10-25",
+   "stars_at_discovery": 709,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "zhouwei713/luobo-ppt": {
+   "first_seen": "2026-10-11",
+   "until": "2026-10-25",
+   "stars_at_discovery": 215,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "mrzh7/scam-with-your-friends-web": {
+   "first_seen": "2026-10-11",
+   "until": "2026-10-25",
+   "stars_at_discovery": 229,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "mhtsec/ARTEX": {
+   "first_seen": "2026-10-11",
+   "until": "2026-10-25",
+   "stars_at_discovery": 3041,
+   "score_at_discovery": 88,
+   "source_at_discovery": "search"
+  },
+  "a-funk/open-appleremote": {
+   "first_seen": "2026-10-11",
+   "until": "2026-10-25",
+   "stars_at_discovery": 200,
+   "score_at_discovery": 88,
+   "source_at_discovery": "search"
+  },
+  "hugohe3/ppt-master": {
+   "first_seen": "2026-10-11",
+   "until": "2026-10-25",
+   "stars_at_discovery": 60023,
+   "score_at_discovery": 86,
+   "source_at_discovery": "trending"
+  },
+  "huggingface/transformers": {
+   "first_seen": "2026-10-11",
+   "until": "2026-10-25",
+   "stars_at_discovery": 167493,
+   "score_at_discovery": 70,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-10-10T10:53:34.070969+00:00"
+ "updated_at": "2026-10-11T11:05:25.231959+00:00"
 }

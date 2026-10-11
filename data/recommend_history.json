@@ -54,15 +54,6 @@
       ],
       "last_recommended": "2026-10-04T10:47:01.103421+00:00"
     },
-    "AlexsJones/llmfit": {
-      "count": 3,
-      "scores": [
-        100,
-        100,
-        84
-      ],
-      "last_recommended": "2026-09-11T09:10:30.512562+00:00"
-    },
     "calesthio/OpenMontage": {
       "count": 4,
       "scores": [
@@ -132,14 +123,6 @@
       ],
       "last_recommended": "2026-10-01T11:11:44.446419+00:00"
     },
-    "bilawalsidhu/gods-eye-view": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-09-11T09:10:30.506645+00:00"
-    },
     "NationalSecurityAgency/ghidra": {
       "count": 2,
       "scores": [
@@ -147,14 +130,6 @@
         95
       ],
       "last_recommended": "2026-09-16T09:32:40.858577+00:00"
-    },
-    "THU-MAIC/OpenMAIC": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-09-11T09:10:30.508641+00:00"
     },
     "jub0t/Concat": {
       "count": 2,
@@ -214,12 +189,13 @@
       "last_recommended": "2026-10-01T11:11:44.444270+00:00"
     },
     "mksglu/context-mode": {
-      "count": 2,
+      "count": 3,
       "scores": [
         100,
-        71
+        71,
+        100
       ],
-      "last_recommended": "2026-10-01T11:11:44.448640+00:00"
+      "last_recommended": "2026-10-11T11:02:26.071093+00:00"
     },
     "ayghri/i-have-adhd": {
       "count": 2,
@@ -229,27 +205,6 @@
       ],
       "last_recommended": "2026-10-07T11:22:12.629027+00:00"
     },
-    "Tencent/teamai-cli": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-11T09:10:30.487308+00:00"
-    },
-    "vastsa/PI-Desktop": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-11T09:10:30.489413+00:00"
-    },
-    "kevinzakka/mjbatch": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-09-11T09:10:30.491405+00:00"
-    },
     "liquidslr/system-design-notes": {
       "count": 2,
       "scores": [
@@ -258,27 +213,6 @@
       ],
       "last_recommended": "2026-10-08T11:38:17.170938+00:00"
     },
-    "angusdevgo/IDM_Pro_Tool": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-11T09:10:30.495198+00:00"
-    },
-    "showlab/Show-Harness": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-11T09:10:30.497134+00:00"
-    },
-    "viettranx/3dviz-pro-max": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-11T09:10:30.499015+00:00"
-    },
     "JustVugg/colibri": {
       "count": 2,
       "scores": [
@@ -286,20 +220,6 @@
         91
       ],
       "last_recommended": "2026-09-18T09:13:56.847163+00:00"
-    },
-    "diegosouzapw/OmniRoute": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-09-11T09:10:30.502806+00:00"
-    },
-    "crwdla/tokentab": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-09-11T09:10:30.504744+00:00"
     },
     "nashsu/llm_wiki": {
       "count": 1,
@@ -520,11 +440,12 @@
       "last_recommended": "2026-10-09T11:32:12.241633+00:00"
     },
     "huggingface/transformers": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        70
       ],
-      "last_recommended": "2026-09-15T09:37:24.812747+00:00"
+      "last_recommended": "2026-10-11T11:02:26.073238+00:00"
     },
     "ever-co/ever-gauzy": {
       "count": 1,
@@ -2337,7 +2258,77 @@
         87
       ],
       "last_recommended": "2026-10-10T10:49:49.081851+00:00"
+    },
+    "rociiu/talorys": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-11T11:02:26.049209+00:00"
+    },
+    "wheresryan22/anatomy": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-11T11:02:26.051673+00:00"
+    },
+    "c22dev/muguet": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-11T11:02:26.053828+00:00"
+    },
+    "fayazara/robot-heads": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-10-11T11:02:26.055981+00:00"
+    },
+    "n1tr00-10/tiktok-web-signature": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-11T11:02:26.058134+00:00"
+    },
+    "zhouwei713/luobo-ppt": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-11T11:02:26.060346+00:00"
+    },
+    "mrzh7/scam-with-your-friends-web": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-11T11:02:26.062463+00:00"
+    },
+    "mhtsec/ARTEX": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-10-11T11:02:26.064599+00:00"
+    },
+    "a-funk/open-appleremote": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-10-11T11:02:26.066724+00:00"
+    },
+    "hugohe3/ppt-master": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-10-11T11:02:26.068910+00:00"
     }
   },
-  "updated_at": "2026-10-10T10:49:49.084042+00:00"
+  "updated_at": "2026-10-11T11:02:26.073265+00:00"
 }

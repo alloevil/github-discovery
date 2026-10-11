@@ -1,0 +1,379 @@
+{
+ "date": "2026-10-11",
+ "generated_at": "2026-10-11T11:02:26.383264",
+ "pool_size": 82,
+ "source_health": {
+  "trending": {
+   "fetched": 13,
+   "parsed": 13,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 3
+  },
+  "search": {
+   "fetched": 68,
+   "parsed": 68,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 9
+  },
+  "hn": {
+   "fetched": 12,
+   "parsed": 12,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 2,
+   "parsed": 2,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 1,
+   "parsed": 1,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "rociiu/talorys",
+   "url": "https://github.com/rociiu/talorys",
+   "description": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
+   "language": "TypeScript",
+   "stars": 588,
+   "forks": 44,
+   "age_days": 1,
+   "daily_stars": 588.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "wheresryan22/anatomy",
+   "url": "https://github.com/wheresryan22/anatomy",
+   "description": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
+   "language": "JavaScript",
+   "stars": 960,
+   "forks": 84,
+   "age_days": 3,
+   "daily_stars": 320.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "c22dev/muguet",
+   "url": "https://github.com/c22dev/muguet",
+   "description": "A native Mach-O port for iOS/macOS of GTA V, with multiplayer",
+   "language": "Rust",
+   "stars": 365,
+   "forks": 86,
+   "age_days": 1,
+   "daily_stars": 365.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "fayazara/robot-heads",
+   "url": "https://github.com/fayazara/robot-heads",
+   "description": "Animated 3D robot heads for React: TV-headed bots with LED faces that show what your agent is doing.",
+   "language": "TypeScript",
+   "stars": 216,
+   "forks": 31,
+   "age_days": 1,
+   "daily_stars": 216.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "n1tr00-10/tiktok-web-signature",
+   "url": "https://github.com/n1tr00-10/tiktok-web-signature",
+   "description": "tiktok web signature reverse engineer generates valid tiktok signatures for API requets",
+   "language": "Python",
+   "stars": 709,
+   "forks": 0,
+   "age_days": 1,
+   "daily_stars": 709.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 91,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "zhouwei713/luobo-ppt",
+   "url": "https://github.com/zhouwei713/luobo-ppt",
+   "description": "生成和美化可编辑原生 PPT 的 Agent Skill",
+   "language": "Python",
+   "stars": 215,
+   "forks": 45,
+   "age_days": 2,
+   "daily_stars": 107.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "mrzh7/scam-with-your-friends-web",
+   "url": "https://github.com/mrzh7/scam-with-your-friends-web",
+   "description": "Scam With Your Friends Web: unofficial open-source browser remake. Co-op AI call center game with a 3D office, voice chat and daily quotas. React + Three.js; self-host on Cloudflare.",
+   "language": "TypeScript",
+   "stars": 229,
+   "forks": 19,
+   "age_days": 2,
+   "daily_stars": 114.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "mhtsec/ARTEX",
+   "url": "https://github.com/mhtsec/ARTEX",
+   "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+   "language": "Go",
+   "stars": 3041,
+   "forks": 5470,
+   "age_days": 3,
+   "daily_stars": 1013.6666666666666,
+   "real_daily_stars": 358.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "a-funk/open-appleremote",
+   "url": "https://github.com/a-funk/open-appleremote",
+   "description": "Use the first-gen Apple Siri Remote (A1513/A1962) on Linux: unlock it, decode touch and buttons, tvOS-style gestures, a virtual keyboard. Pure-stdlib Python.",
+   "language": "Python",
+   "stars": 200,
+   "forks": 10,
+   "age_days": 2,
+   "daily_stars": 100.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "hugohe3/ppt-master",
+   "url": "https://github.com/hugohe3/ppt-master",
+   "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+   "language": "Python",
+   "stars": 60023,
+   "forks": 4723,
+   "age_days": 305,
+   "daily_stars": 196.7967213114754,
+   "watchers": 116,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "mksglu/context-mode",
+   "url": "https://github.com/mksglu/context-mode",
+   "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+   "language": "TypeScript",
+   "stars": 26547,
+   "forks": 1906,
+   "age_days": 230,
+   "daily_stars": 115.42173913043479,
+   "real_daily_stars": 516.0,
+   "watchers": 103,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "huggingface/transformers",
+   "url": "https://github.com/huggingface/transformers",
+   "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+   "language": "Python",
+   "stars": 167493,
+   "forks": 34819,
+   "age_days": 2903,
+   "daily_stars": 57.69652084050982,
+   "real_daily_stars": 57.666666666666664,
+   "watchers": 1249,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "rank": 2,
+   "scores": {
+    "total": 70,
+    "acceleration": 20,
+    "quality": 20,
+    "antispam": 30,
+    "rank_in_pool": 30,
+    "pool_size": 82,
+    "top_pct": 36.6
+   }
+  }
+ ]
+}
