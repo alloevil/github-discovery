@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-10T18:00:00Z</updated>
+  <updated>2026-10-11T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>rociiu/talorys — Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.</title>
+    <id>https://github.com/rociiu/talorys#2026-10-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/rociiu/talorys"/>
+    <updated>2026-10-11T18:00:00Z</updated>
+    <published>2026-10-11T18:00:00Z</published>
+    <summary>Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.
+
+Why: +588/day · Search
+Score: 96/100 | Language: TypeScript | ⭐ 588 (+588.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>wheresryan22/anatomy — A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.</title>
+    <id>https://github.com/wheresryan22/anatomy#2026-10-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/wheresryan22/anatomy"/>
+    <updated>2026-10-11T18:00:00Z</updated>
+    <published>2026-10-11T18:00:00Z</published>
+    <summary>A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.
+
+Why: +320/day · Search
+Score: 94/100 | Language: JavaScript | ⭐ 960 (+320.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>c22dev/muguet — A native Mach-O port for iOS/macOS of GTA V, with multiplayer</title>
+    <id>https://github.com/c22dev/muguet#2026-10-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/c22dev/muguet"/>
+    <updated>2026-10-11T18:00:00Z</updated>
+    <published>2026-10-11T18:00:00Z</published>
+    <summary>A native Mach-O port for iOS/macOS of GTA V, with multiplayer
+
+Why: +365/day · Search
+Score: 94/100 | Language: Rust | ⭐ 365 (+365.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>fayazara/robot-heads — Animated 3D robot heads for React: TV-headed bots with LED faces that show what your agent is doing.</title>
+    <id>https://github.com/fayazara/robot-heads#2026-10-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/fayazara/robot-heads"/>
+    <updated>2026-10-11T18:00:00Z</updated>
+    <published>2026-10-11T18:00:00Z</published>
+    <summary>Animated 3D robot heads for React: TV-headed bots with LED faces that show what your agent is doing.
+
+Why: +216/day · Search
+Score: 92/100 | Language: TypeScript | ⭐ 216 (+216.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>n1tr00-10/tiktok-web-signature — tiktok web signature reverse engineer generates valid tiktok signatures for API requets</title>
+    <id>https://github.com/n1tr00-10/tiktok-web-signature#2026-10-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/n1tr00-10/tiktok-web-signature"/>
+    <updated>2026-10-11T18:00:00Z</updated>
+    <published>2026-10-11T18:00:00Z</published>
+    <summary>tiktok web signature reverse engineer generates valid tiktok signatures for API requets
+
+Why: +709/day · Search
+Score: 91/100 | Language: Python | ⭐ 709 (+709.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>mksglu/context-mode — Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.</title>
+    <id>https://github.com/mksglu/context-mode#2026-10-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mksglu/context-mode"/>
+    <updated>2026-10-11T18:00:00Z</updated>
+    <published>2026-10-11T18:00:00Z</published>
+    <summary>Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.
+
+Why: +516/day · Trending · 4.5x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 26547 (+516.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>huggingface/transformers — 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. </title>
+    <id>https://github.com/huggingface/transformers#2026-10-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/huggingface/transformers"/>
+    <updated>2026-10-11T18:00:00Z</updated>
+    <published>2026-10-11T18:00:00Z</published>
+    <summary>🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
+
+Why: +58/day · Trending
+Score: 70/100 | Language: Python | ⭐ 167493 (+57.7/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>BerriAI/litellm — The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]</title>
     <id>https://github.com/BerriAI/litellm#2026-10-10</id>
@@ -954,71 +1031,5 @@ Score: 87/100 | Language: C++ | ⭐ 671 (+223.7/day) | Source: search</summary>
 
 Why: +886/day · Trending · 3.6x accelerating
 Score: 100/100 | Language: Python | ⭐ 41501 (+885.8/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>openbao/openbao — OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.</title>
-    <id>https://github.com/openbao/openbao#2026-09-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/openbao/openbao"/>
-    <updated>2026-09-27T18:00:00Z</updated>
-    <published>2026-09-27T18:00:00Z</published>
-    <summary>OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.
-
-Why: +238/day · Trending · 31.0x accelerating
-Score: 96/100 | Language: Go | ⭐ 8088 (+238.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>feitangyuan/onetake — Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos.</title>
-    <id>https://github.com/feitangyuan/onetake#2026-09-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/feitangyuan/onetake"/>
-    <updated>2026-09-27T18:00:00Z</updated>
-    <published>2026-09-27T18:00:00Z</published>
-    <summary>Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos.
-
-Why: +388/day · Search+AI/ML
-Score: 95/100 | Language: Python | ⭐ 388 (+388.0/day) | Source: search + ai-trending</summary>
-  </entry>
-  <entry>
-    <title>dzhng/jevgrep — Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.</title>
-    <id>https://github.com/dzhng/jevgrep#2026-09-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/dzhng/jevgrep"/>
-    <updated>2026-09-27T18:00:00Z</updated>
-    <published>2026-09-27T18:00:00Z</published>
-    <summary>Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.
-
-Why: +343/day · Search
-Score: 94/100 | Language: TypeScript | ⭐ 343 (+343.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>hokindeng/object-permanence — Training Object Permanence in World Models — the codebase</title>
-    <id>https://github.com/hokindeng/object-permanence#2026-09-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/hokindeng/object-permanence"/>
-    <updated>2026-09-27T18:00:00Z</updated>
-    <published>2026-09-27T18:00:00Z</published>
-    <summary>Training Object Permanence in World Models — the codebase
-
-Why: +105/day · HF Papers · 9.3x accelerating
-Score: 93/100 | Language: Python | ⭐ 124 (+105.0/day) | Source: hf-papers</summary>
-  </entry>
-  <entry>
-    <title>jaydendavisnc/inkwave — Splatoon-style 4v4 turf-war shooter for the browser, built on three.js. No build step.</title>
-    <id>https://github.com/jaydendavisnc/inkwave#2026-09-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/jaydendavisnc/inkwave"/>
-    <updated>2026-09-27T18:00:00Z</updated>
-    <published>2026-09-27T18:00:00Z</published>
-    <summary>Splatoon-style 4v4 turf-war shooter for the browser, built on three.js. No build step.
-
-Why: +197/day · Rising
-Score: 92/100 | Language: JavaScript | ⭐ 197 (+197.0/day) | Source: rising</summary>
-  </entry>
-  <entry>
-    <title>zhaoxuya520/reverse-skill — Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端</title>
-    <id>https://github.com/zhaoxuya520/reverse-skill#2026-09-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/zhaoxuya520/reverse-skill"/>
-    <updated>2026-09-27T18:00:00Z</updated>
-    <published>2026-09-27T18:00:00Z</published>
-    <summary>Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端
-
-Why: +178/day · Trending
-Score: 85/100 | Language: PowerShell | ⭐ 38211 (+178.5/day) | Source: trending</summary>
   </entry>
 </feed>
