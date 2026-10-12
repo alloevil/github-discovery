@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-12",
+  "stats": {
+    "recommendations": 740,
+    "labelled": 367,
+    "coverage_pct": 49.6,
+    "median_growth": 44.4,
+    "quartile_cut_pct": 139.6,
+    "table": [
+      {
+        "bucket": "90–100",
+        "n": 287,
+        "breakout_rate": 17.1,
+        "median_growth": 39.4,
+        "insufficient": false
+      },
+      {
+        "bucket": "80–89",
+        "n": 77,
+        "breakout_rate": 20.8,
+        "median_growth": 59.6,
+        "insufficient": false
+      },
+      {
+        "bucket": "70–79",
+        "n": 0,
+        "breakout_rate": null,
+        "median_growth": null,
+        "insufficient": true
+      },
+      {
+        "bucket": "60–69",
+        "n": 3,
+        "breakout_rate": 0.0,
+        "median_growth": 40.2,
+        "insufficient": true
+      },
+      {
+        "bucket": "<60",
+        "n": 0,
+        "breakout_rate": null,
+        "median_growth": null,
+        "insufficient": true
+      }
+    ],
+    "unlabelled": 373,
+    "min_bucket_n": 20
+  },
+  "source_groups": [
+    {
+      "source": "ai-trending",
+      "n": 11,
+      "breakout_rate": 36.4,
+      "median_growth": 94.3,
+      "insufficient": true
+    },
+    {
+      "source": "hf-papers",
+      "n": 6,
+      "breakout_rate": 33.3,
+      "median_growth": 56.3,
+      "insufficient": true
+    },
+    {
+      "source": "hn",
+      "n": 14,
+      "breakout_rate": 14.3,
+      "median_growth": 45.6,
+      "insufficient": true
+    },
+    {
+      "source": "rising",
+      "n": 11,
+      "breakout_rate": 27.3,
+      "median_growth": 118.5,
+      "insufficient": true
+    },
+    {
+      "source": "search",
+      "n": 164,
+      "breakout_rate": 28.7,
+      "median_growth": 110.1,
+      "insufficient": false
+    },
+    {
+      "source": "search+ai-trending",
+      "n": 9,
+      "breakout_rate": 22.2,
+      "median_growth": 77.3,
+      "insufficient": true
+    },
+    {
+      "source": "search+ai-trending+hf-papers",
+      "n": 1,
+      "breakout_rate": 0.0,
+      "median_growth": 77.0,
+      "insufficient": true
+    },
+    {
+      "source": "search+hf-papers",
+      "n": 2,
+      "breakout_rate": 0.0,
+      "median_growth": 70.0,
+      "insufficient": true
+    },
+    {
+      "source": "search+rising",
+      "n": 5,
+      "breakout_rate": 40.0,
+      "median_growth": 129.0,
+      "insufficient": true
+    },
+    {
+      "source": "trending",
+      "n": 143,
+      "breakout_rate": 2.1,
+      "median_growth": 8.3,
+      "insufficient": false
+    },
+    {
+      "source": "trending+hn",
+      "n": 1,
+      "breakout_rate": 0.0,
+      "median_growth": 5.2,
+      "insufficient": true
+    }
+  ],
+  "age_groups": [
+    {
+      "bucket": "0–2d",
+      "n": 158,
+      "breakout_rate": 30.4,
+      "median_growth": 119.4,
+      "insufficient": false
+    },
+    {
+      "bucket": "3–13d",
+      "n": 58,
+      "breakout_rate": 22.4,
+      "median_growth": 89.5,
+      "insufficient": false
+    },
+    {
+      "bucket": "14–59d",
+      "n": 3,
+      "breakout_rate": 0.0,
+      "median_growth": 26.5,
+      "insufficient": true
+    },
+    {
+      "bucket": "60d+",
+      "n": 148,
+      "breakout_rate": 2.7,
+      "median_growth": 8.6,
+      "insufficient": false
+    }
+  ],
+  "star_groups": [
+    {
+      "bucket": "0–99",
+      "n": 7,
+      "breakout_rate": 28.6,
+      "median_growth": 164.4,
+      "insufficient": true
+    },
+    {
+      "bucket": "100–999",
+      "n": 204,
+      "breakout_rate": 28.4,
+      "median_growth": 101.2,
+      "insufficient": false
+    },
+    {
+      "bucket": "1k–9.9k",
+      "n": 60,
+      "breakout_rate": 5.0,
+      "median_growth": 22.8,
+      "insufficient": false
+    },
+    {
+      "bucket": "10k+",
+      "n": 96,
+      "breakout_rate": 2.1,
+      "median_growth": 5.2,
+      "insufficient": false
+    }
+  ]
+}
