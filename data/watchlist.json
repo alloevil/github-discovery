@@ -1,82 +1,5 @@
 {
  "repos": {
-  "openbao/openbao": {
-   "first_seen": "2026-09-27",
-   "until": "2026-10-11",
-   "stars_at_discovery": 8088,
-   "score_at_discovery": 96,
-   "source_at_discovery": "trending"
-  },
-  "feitangyuan/onetake": {
-   "first_seen": "2026-09-27",
-   "until": "2026-10-11",
-   "stars_at_discovery": 388,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "dzhng/jevgrep": {
-   "first_seen": "2026-09-27",
-   "until": "2026-10-11",
-   "stars_at_discovery": 343,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "hokindeng/object-permanence": {
-   "first_seen": "2026-09-27",
-   "until": "2026-10-11",
-   "stars_at_discovery": 124,
-   "score_at_discovery": 93,
-   "source_at_discovery": "hf-papers"
-  },
-  "jaydendavisnc/inkwave": {
-   "first_seen": "2026-09-27",
-   "until": "2026-10-11",
-   "stars_at_discovery": 197,
-   "score_at_discovery": 92,
-   "source_at_discovery": "rising"
-  },
-  "lemomo-ai/lemo-opuscar": {
-   "first_seen": "2026-09-27",
-   "until": "2026-10-11",
-   "stars_at_discovery": 233,
-   "score_at_discovery": 92,
-   "source_at_discovery": "ai-trending"
-  },
-  "mexicat/pdoom-video": {
-   "first_seen": "2026-09-27",
-   "until": "2026-10-11",
-   "stars_at_discovery": 313,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "Barty-Bart/motion-graphics": {
-   "first_seen": "2026-09-27",
-   "until": "2026-10-11",
-   "stars_at_discovery": 138,
-   "score_at_discovery": 90,
-   "source_at_discovery": "ai-trending"
-  },
-  "852wa/JIZURA": {
-   "first_seen": "2026-09-27",
-   "until": "2026-10-11",
-   "stars_at_discovery": 701,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "sopersone/cabbage-trading-machine": {
-   "first_seen": "2026-09-27",
-   "until": "2026-10-11",
-   "stars_at_discovery": 250,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "zhaoxuya520/reverse-skill": {
-   "first_seen": "2026-09-27",
-   "until": "2026-10-11",
-   "stars_at_discovery": 38211,
-   "score_at_discovery": 85,
-   "source_at_discovery": "trending"
-  },
   "Appllama/liquid-glass-chat-ui": {
    "first_seen": "2026-09-28",
    "until": "2026-10-12",
@@ -1189,7 +1112,77 @@
    "stars_at_discovery": 167493,
    "score_at_discovery": 70,
    "source_at_discovery": "trending"
+  },
+  "ARahim3/DigUp": {
+   "first_seen": "2026-10-12",
+   "until": "2026-10-26",
+   "stars_at_discovery": 1551,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "chenwei810/Semiconductor_Manufacturing_Introduction": {
+   "first_seen": "2026-10-12",
+   "until": "2026-10-26",
+   "stars_at_discovery": 365,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "bilawalsidhu/gods-eye-view": {
+   "first_seen": "2026-10-12",
+   "until": "2026-10-26",
+   "stars_at_discovery": 52670,
+   "score_at_discovery": 93,
+   "source_at_discovery": "trending"
+  },
+  "zhuyansen/new-term-radar": {
+   "first_seen": "2026-10-12",
+   "until": "2026-10-26",
+   "stars_at_discovery": 282,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "NousResearch/hermes-official-plugins": {
+   "first_seen": "2026-10-12",
+   "until": "2026-10-26",
+   "stars_at_discovery": 218,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "shaongitbd/doory": {
+   "first_seen": "2026-10-12",
+   "until": "2026-10-26",
+   "stars_at_discovery": 467,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "deeplethe/solid-glass": {
+   "first_seen": "2026-10-12",
+   "until": "2026-10-26",
+   "stars_at_discovery": 228,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "bherbruck/solidcraft": {
+   "first_seen": "2026-10-12",
+   "until": "2026-10-26",
+   "stars_at_discovery": 843,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "wesbos/photo-frame-dashboard": {
+   "first_seen": "2026-10-12",
+   "until": "2026-10-26",
+   "stars_at_discovery": 851,
+   "score_at_discovery": 88,
+   "source_at_discovery": "search"
+  },
+  "NandhaKishorM/vegaml": {
+   "first_seen": "2026-10-12",
+   "until": "2026-10-26",
+   "stars_at_discovery": 181,
+   "score_at_discovery": 88,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-10-11T11:05:25.231959+00:00"
+ "updated_at": "2026-10-12T12:31:19.548199+00:00"
 }

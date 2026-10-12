@@ -64,22 +64,6 @@
       ],
       "last_recommended": "2026-10-05T11:52:06.022884+00:00"
     },
-    "holaboss-ai/holaOS": {
-      "count": 2,
-      "scores": [
-        100,
-        89
-      ],
-      "last_recommended": "2026-09-12T08:51:47.497781+00:00"
-    },
-    "github/spec-kit": {
-      "count": 2,
-      "scores": [
-        100,
-        87
-      ],
-      "last_recommended": "2026-09-12T08:51:47.499015+00:00"
-    },
     "anthropics/claude-code": {
       "count": 3,
       "scores": [
@@ -220,76 +204,6 @@
         91
       ],
       "last_recommended": "2026-09-18T09:13:56.847163+00:00"
-    },
-    "nashsu/llm_wiki": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-12T08:51:47.377715+00:00"
-    },
-    "alsk1992/CloddsBot": {
-      "count": 1,
-      "scores": [
-        99
-      ],
-      "last_recommended": "2026-09-12T08:51:47.379201+00:00"
-    },
-    "armory3d/armorpaint": {
-      "count": 1,
-      "scores": [
-        97
-      ],
-      "last_recommended": "2026-09-12T08:51:47.482414+00:00"
-    },
-    "sumimakito/Mac-Duo": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-12T08:51:47.483905+00:00"
-    },
-    "mizzlelover/gongwen-gbt9704-skill": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-09-12T08:51:47.485127+00:00"
-    },
-    "nftechie/stonkfly": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-12T08:51:47.491651+00:00"
-    },
-    "nhovongoc0-max/meme-radar": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-12T08:51:47.492949+00:00"
-    },
-    "SpaceDudem/text-humanizer": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-09-12T08:51:47.494183+00:00"
-    },
-    "kruzovic7/ai-data-extractor": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-09-12T08:51:47.495384+00:00"
-    },
-    "perseval-BLR/DLSS5-NeuralScreen": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-09-12T08:51:47.496596+00:00"
     },
     "melgarafael/DeskcommCRM": {
       "count": 1,
@@ -2328,7 +2242,77 @@
         86
       ],
       "last_recommended": "2026-10-11T11:02:26.068910+00:00"
+    },
+    "ARahim3/DigUp": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-12T12:28:13.336942+00:00"
+    },
+    "chenwei810/Semiconductor_Manufacturing_Introduction": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-12T12:28:13.339280+00:00"
+    },
+    "bilawalsidhu/gods-eye-view": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-10-12T12:28:13.341400+00:00"
+    },
+    "zhuyansen/new-term-radar": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-10-12T12:28:13.343507+00:00"
+    },
+    "NousResearch/hermes-official-plugins": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-10-12T12:28:13.345602+00:00"
+    },
+    "shaongitbd/doory": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-10-12T12:28:13.347788+00:00"
+    },
+    "deeplethe/solid-glass": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-10-12T12:28:13.349980+00:00"
+    },
+    "bherbruck/solidcraft": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-12T12:28:13.352102+00:00"
+    },
+    "wesbos/photo-frame-dashboard": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-10-12T12:28:13.354222+00:00"
+    },
+    "NandhaKishorM/vegaml": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-10-12T12:28:13.356367+00:00"
     }
   },
-  "updated_at": "2026-10-11T11:02:26.073265+00:00"
+  "updated_at": "2026-10-12T12:28:13.356395+00:00"
 }
