@@ -3,49 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "open-webui/open-webui",
-   "stars": 154445,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "morluto/rea",
-   "stars": 132730,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "Alishahryar1/free-claude-code",
-   "stars": 58319,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "bilawalsidhu/gods-eye-view",
-   "stars": 52670,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "cathrynlavery/diagram-design",
-   "stars": 51700,
-   "language": "HTML"
-  },
-  {
-   "full_name": "microsoft/BitNet",
-   "stars": 40739,
-   "language": "C++"
-  },
-  {
-   "full_name": "lyogavin/airllm",
-   "stars": 37016,
-   "language": "Jupyter Notebook"
-  },
-  {
-   "full_name": "mksglu/context-mode",
-   "stars": 26827,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "storytold/artcraft",
-   "stars": 19978,
-   "language": "Rust"
   }
  ]
 }
