@@ -1,0 +1,51 @@
+{
+ "date": "2026-10-13",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "morluto/rea",
+   "stars": 186809,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "debpalash/VoiceStudio",
+   "stars": 61449,
+   "language": "Python"
+  },
+  {
+   "full_name": "bilawalsidhu/gods-eye-view",
+   "stars": 54567,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "cathrynlavery/diagram-design",
+   "stars": 53413,
+   "language": "HTML"
+  },
+  {
+   "full_name": "lyogavin/airllm",
+   "stars": 37979,
+   "language": "Jupyter Notebook"
+  },
+  {
+   "full_name": "vercel-labs/skills",
+   "stars": 34148,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "mksglu/context-mode",
+   "stars": 27779,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "storytold/artcraft",
+   "stars": 24005,
+   "language": "Rust"
+  },
+  {
+   "full_name": "xtool-org/xtool",
+   "stars": 8594,
+   "language": "Swift"
+  }
+ ]
+}

@@ -1,82 +1,5 @@
 {
  "repos": {
-  "Appllama/liquid-glass-chat-ui": {
-   "first_seen": "2026-09-28",
-   "until": "2026-10-12",
-   "stars_at_discovery": 157,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "AgentSystemLabs/agent-office": {
-   "first_seen": "2026-09-28",
-   "until": "2026-10-12",
-   "stars_at_discovery": 218,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "pch/rawmakase": {
-   "first_seen": "2026-09-28",
-   "until": "2026-10-12",
-   "stars_at_discovery": 119,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "glanderness/BeefTV": {
-   "first_seen": "2026-09-28",
-   "until": "2026-10-12",
-   "stars_at_discovery": 296,
-   "score_at_discovery": 88,
-   "source_at_discovery": "search"
-  },
-  "Niko1221/Strata": {
-   "first_seen": "2026-09-28",
-   "until": "2026-10-12",
-   "stars_at_discovery": 671,
-   "score_at_discovery": 87,
-   "source_at_discovery": "search"
-  },
-  "HeyOkay/HaloBattery": {
-   "first_seen": "2026-09-28",
-   "until": "2026-10-12",
-   "stars_at_discovery": 237,
-   "score_at_discovery": 87,
-   "source_at_discovery": "search"
-  },
-  "Badtheorylabs/interference-search": {
-   "first_seen": "2026-09-28",
-   "until": "2026-10-12",
-   "stars_at_discovery": 170,
-   "score_at_discovery": 87,
-   "source_at_discovery": "search"
-  },
-  "DanFessler/trellis": {
-   "first_seen": "2026-09-28",
-   "until": "2026-10-12",
-   "stars_at_discovery": 166,
-   "score_at_discovery": 87,
-   "source_at_discovery": "search"
-  },
-  "emir/claude-s40": {
-   "first_seen": "2026-09-28",
-   "until": "2026-10-12",
-   "stars_at_discovery": 120,
-   "score_at_discovery": 86,
-   "source_at_discovery": "hn"
-  },
-  "Contrastive-LM/CLM": {
-   "first_seen": "2026-09-28",
-   "until": "2026-10-12",
-   "stars_at_discovery": 2103,
-   "score_at_discovery": 86,
-   "source_at_discovery": "search"
-  },
-  "debpalash/VoiceStudio": {
-   "first_seen": "2026-09-28",
-   "until": "2026-10-12",
-   "stars_at_discovery": 41501,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
   "mvschwarz/openrig": {
    "first_seen": "2026-09-29",
    "until": "2026-10-13",
@@ -1182,7 +1105,77 @@
    "stars_at_discovery": 181,
    "score_at_discovery": 88,
    "source_at_discovery": "search"
+  },
+  "lyogavin/airllm": {
+   "first_seen": "2026-10-13",
+   "until": "2026-10-27",
+   "stars_at_discovery": 37979,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "snuri00/ps2-web-recomp": {
+   "first_seen": "2026-10-13",
+   "until": "2026-10-27",
+   "stars_at_discovery": 540,
+   "score_at_discovery": 99,
+   "source_at_discovery": "hn"
+  },
+  "jhaizhou-ops/d2r-mobile": {
+   "first_seen": "2026-10-13",
+   "until": "2026-10-27",
+   "stars_at_discovery": 991,
+   "score_at_discovery": 96,
+   "source_at_discovery": "rising"
+  },
+  "jwuthri-cloud/Tracely-ai": {
+   "first_seen": "2026-10-13",
+   "until": "2026-10-27",
+   "stars_at_discovery": 618,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "juliobsz/skills": {
+   "first_seen": "2026-10-13",
+   "until": "2026-10-27",
+   "stars_at_discovery": 287,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "opengeos/RustGIS": {
+   "first_seen": "2026-10-13",
+   "until": "2026-10-27",
+   "stars_at_discovery": 515,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "Fei2411/DeepSeek-Bot": {
+   "first_seen": "2026-10-13",
+   "until": "2026-10-27",
+   "stars_at_discovery": 1575,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "Arekejoker/qwen21-nsfw-pose-skill": {
+   "first_seen": "2026-10-13",
+   "until": "2026-10-27",
+   "stars_at_discovery": 439,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "Ayzzz123/mcd-coupon-strategist": {
+   "first_seen": "2026-10-13",
+   "until": "2026-10-27",
+   "stars_at_discovery": 256,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "SaarthurR/atticus-mac": {
+   "first_seen": "2026-10-13",
+   "until": "2026-10-27",
+   "stars_at_discovery": 129,
+   "score_at_discovery": 88,
+   "source_at_discovery": "hn"
   }
  },
- "updated_at": "2026-10-12T12:31:19.548199+00:00"
+ "updated_at": "2026-10-13T12:15:31.054198+00:00"
 }

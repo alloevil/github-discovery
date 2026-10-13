@@ -132,13 +132,14 @@
       "last_recommended": "2026-09-27T10:13:45.793938+00:00"
     },
     "debpalash/VoiceStudio": {
-      "count": 3,
+      "count": 4,
       "scores": [
+        100,
         100,
         100,
         100
       ],
-      "last_recommended": "2026-09-28T11:15:08.735534+00:00"
+      "last_recommended": "2026-10-13T12:12:00.970768+00:00"
     },
     "averygan/reclip": {
       "count": 2,
@@ -204,76 +205,6 @@
         91
       ],
       "last_recommended": "2026-09-18T09:13:56.847163+00:00"
-    },
-    "melgarafael/DeskcommCRM": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-13T09:45:07.948378+00:00"
-    },
-    "nab138/iloader": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-13T09:45:07.950536+00:00"
-    },
-    "Sonarr/Sonarr": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-13T09:45:07.952535+00:00"
-    },
-    "p1neappleXpress/OpenFlux": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-13T09:45:07.954522+00:00"
-    },
-    "jihe520/MathModelAgent": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-13T09:45:07.956530+00:00"
-    },
-    "DefiLeoo/YOINK": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-13T09:45:07.958539+00:00"
-    },
-    "Chuloo/mural": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-13T09:45:07.960563+00:00"
-    },
-    "rizqinrr/viserys-agent": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-13T09:45:07.962539+00:00"
-    },
-    "Phyzicalorg/Phyzical_org": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-09-13T09:45:07.964542+00:00"
-    },
-    "mirza-rizvi/ResolveHQ": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-09-13T09:45:07.966641+00:00"
     },
     "asgeirtj/system_prompts_leaks": {
       "count": 1,
@@ -1712,11 +1643,12 @@
       "last_recommended": "2026-10-04T10:47:01.089714+00:00"
     },
     "QingYunA/answer-me-with-html": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        94
+        94,
+        77
       ],
-      "last_recommended": "2026-10-04T10:47:01.091426+00:00"
+      "last_recommended": "2026-10-13T12:12:00.972927+00:00"
     },
     "Jakeschincariol/replica-skill": {
       "count": 1,
@@ -2312,7 +2244,77 @@
         88
       ],
       "last_recommended": "2026-10-12T12:28:13.356367+00:00"
+    },
+    "lyogavin/airllm": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-13T12:12:00.948839+00:00"
+    },
+    "snuri00/ps2-web-recomp": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-10-13T12:12:00.951332+00:00"
+    },
+    "jhaizhou-ops/d2r-mobile": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-13T12:12:00.953472+00:00"
+    },
+    "jwuthri-cloud/Tracely-ai": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-13T12:12:00.955649+00:00"
+    },
+    "juliobsz/skills": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-10-13T12:12:00.957816+00:00"
+    },
+    "opengeos/RustGIS": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-10-13T12:12:00.960019+00:00"
+    },
+    "Fei2411/DeepSeek-Bot": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-10-13T12:12:00.962130+00:00"
+    },
+    "Arekejoker/qwen21-nsfw-pose-skill": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-13T12:12:00.964263+00:00"
+    },
+    "Ayzzz123/mcd-coupon-strategist": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-13T12:12:00.966386+00:00"
+    },
+    "SaarthurR/atticus-mac": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-10-13T12:12:00.968575+00:00"
     }
   },
-  "updated_at": "2026-10-12T12:28:13.356395+00:00"
+  "updated_at": "2026-10-13T12:12:00.972959+00:00"
 }
