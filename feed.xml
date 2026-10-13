@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-12T18:00:00Z</updated>
+  <updated>2026-10-13T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>lyogavin/airllm — AirLLM 2.8T LLM inference with single 4GB GPU</title>
+    <id>https://github.com/lyogavin/airllm#2026-10-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/lyogavin/airllm"/>
+    <updated>2026-10-13T18:00:00Z</updated>
+    <published>2026-10-13T18:00:00Z</published>
+    <summary>AirLLM 2.8T LLM inference with single 4GB GPU
+
+Why: +963/day · Trending · 30.9x accelerating
+Score: 100/100 | Language: Jupyter Notebook | ⭐ 37979 (+963.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>snuri00/ps2-web-recomp — PS2 games in the browser: static recompilation to WebAssembly with a native runtime</title>
+    <id>https://github.com/snuri00/ps2-web-recomp#2026-10-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/snuri00/ps2-web-recomp"/>
+    <updated>2026-10-13T18:00:00Z</updated>
+    <published>2026-10-13T18:00:00Z</published>
+    <summary>PS2 games in the browser: static recompilation to WebAssembly with a native runtime
+
+Why: +447/day · HN · 4.1x accelerating
+Score: 99/100 | Language: C++ | ⭐ 540 (+447.0/day) | Source: hn</summary>
+  </entry>
+  <entry>
+    <title>jhaizhou-ops/d2r-mobile — Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层</title>
+    <id>https://github.com/jhaizhou-ops/d2r-mobile#2026-10-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/jhaizhou-ops/d2r-mobile"/>
+    <updated>2026-10-13T18:00:00Z</updated>
+    <published>2026-10-13T18:00:00Z</published>
+    <summary>Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层
+
+Why: +991/day · Rising
+Score: 96/100 | Language: C | ⭐ 991 (+991.0/day) | Source: rising</summary>
+  </entry>
+  <entry>
+    <title>jwuthri-cloud/Tracely-ai — No description</title>
+    <id>https://github.com/jwuthri-cloud/Tracely-ai#2026-10-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/jwuthri-cloud/Tracely-ai"/>
+    <updated>2026-10-13T18:00:00Z</updated>
+    <published>2026-10-13T18:00:00Z</published>
+    <summary>No description
+
+Why: +618/day · Search
+Score: 96/100 | Language: Python | ⭐ 618 (+618.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>juliobsz/skills — An agent skill that builds award-caliber websites from one line</title>
+    <id>https://github.com/juliobsz/skills#2026-10-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/juliobsz/skills"/>
+    <updated>2026-10-13T18:00:00Z</updated>
+    <published>2026-10-13T18:00:00Z</published>
+    <summary>An agent skill that builds award-caliber websites from one line
+
+Why: +287/day · Search+AI/ML
+Score: 93/100 | Language: TypeScript | ⭐ 287 (+287.0/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>debpalash/VoiceStudio — VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.</title>
+    <id>https://github.com/debpalash/VoiceStudio#2026-10-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/debpalash/VoiceStudio"/>
+    <updated>2026-10-13T18:00:00Z</updated>
+    <published>2026-10-13T18:00:00Z</published>
+    <summary>VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.
+
+Why: +1804/day · Trending · 5.5x accelerating
+Score: 100/100 | Language: Python | ⭐ 61449 (+1804.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>QingYunA/answer-me-with-html — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。</title>
+    <id>https://github.com/QingYunA/answer-me-with-html#2026-10-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/QingYunA/answer-me-with-html"/>
+    <updated>2026-10-13T18:00:00Z</updated>
+    <published>2026-10-13T18:00:00Z</published>
+    <summary>Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。
+
+Why: +268/day · HN
+Score: 77/100 | Language: JavaScript | ⭐ 3256 (+268.0/day) | Source: hn</summary>
+  </entry>
   <entry>
     <title>ARahim3/DigUp — Search your Mac by what's in your files: photos, PDFs, recordings, videos and code. On-device, built on Google DeepMind's EmbeddingGemma 2.</title>
     <id>https://github.com/ARahim3/DigUp#2026-10-12</id>
@@ -965,60 +1042,5 @@ Score: 94/100 | Language: TypeScript | ⭐ 339 (+339.0/day) | Source: search</su
 
 Why: +78/day · Trending
 Score: 83/100 | Language: HTML | ⭐ 10493 (+77.8/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>mvschwarz/openrig — Multi-agent harness that runs Claude Code and Codex together as one system</title>
-    <id>https://github.com/mvschwarz/openrig#2026-09-29</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mvschwarz/openrig"/>
-    <updated>2026-09-29T18:00:00Z</updated>
-    <published>2026-09-29T18:00:00Z</published>
-    <summary>Multi-agent harness that runs Claude Code and Codex together as one system
-
-Why: +725/day · Trending · 64.2x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 2043 (+725.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>firelex/jeff — Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification</title>
-    <id>https://github.com/firelex/jeff#2026-09-29</id>
-    <link rel="alternate" type="text/html" href="https://github.com/firelex/jeff"/>
-    <updated>2026-09-29T18:00:00Z</updated>
-    <published>2026-09-29T18:00:00Z</published>
-    <summary>Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification
-
-Why: +792/day · Search+AI/ML
-Score: 96/100 | Language: Python | ⭐ 792 (+792.0/day) | Source: search + ai-trending</summary>
-  </entry>
-  <entry>
-    <title>kaankiziltug/logo-design-skill — A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.</title>
-    <id>https://github.com/kaankiziltug/logo-design-skill#2026-09-29</id>
-    <link rel="alternate" type="text/html" href="https://github.com/kaankiziltug/logo-design-skill"/>
-    <updated>2026-09-29T18:00:00Z</updated>
-    <published>2026-09-29T18:00:00Z</published>
-    <summary>A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.
-
-Why: +210/day · Search
-Score: 92/100 | Language: HTML | ⭐ 629 (+209.7/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>openJiuwen-ai/iCode — A lightweight, extensible, fully offline development platform and agent/workflow toolkit for the AI era, with an intuitive TUI, easy deployment, and complete control over your data, agents, and workflows.</title>
-    <id>https://github.com/openJiuwen-ai/iCode#2026-09-29</id>
-    <link rel="alternate" type="text/html" href="https://github.com/openJiuwen-ai/iCode"/>
-    <updated>2026-09-29T18:00:00Z</updated>
-    <published>2026-09-29T18:00:00Z</published>
-    <summary>A lightweight, extensible, fully offline development platform and agent/workflow toolkit for the AI era, with an intuitive TUI, easy deployment, and complete control over your data, agents, and workflows.
-
-Why: +201/day · Search
-Score: 92/100 | Language: Python | ⭐ 201 (+201.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>chasmlol/2010-rust-rewrite-mashup — MW2, Skate 3 and Minecraft in one Rust game: IW4L's MW2 rewrite with Skate 3 mode and a real Minecraft world map</title>
-    <id>https://github.com/chasmlol/2010-rust-rewrite-mashup#2026-09-29</id>
-    <link rel="alternate" type="text/html" href="https://github.com/chasmlol/2010-rust-rewrite-mashup"/>
-    <updated>2026-09-29T18:00:00Z</updated>
-    <published>2026-09-29T18:00:00Z</published>
-    <summary>MW2, Skate 3 and Minecraft in one Rust game: IW4L's MW2 rewrite with Skate 3 mode and a real Minecraft world map
-
-Why: +167/day · Search
-Score: 91/100 | Language: Rust | ⭐ 167 (+167.0/day) | Source: search</summary>
   </entry>
 </feed>
