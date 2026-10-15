@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-13T18:00:00Z</updated>
+  <updated>2026-10-15T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>xtool-org/xtool — Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.</title>
+    <id>https://github.com/xtool-org/xtool#2026-10-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/xtool-org/xtool"/>
+    <updated>2026-10-15T18:00:00Z</updated>
+    <published>2026-10-15T18:00:00Z</published>
+    <summary>Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.
+
+Why: +1358/day · Trending · 83.7x accelerating
+Score: 100/100 | Language: Swift | ⭐ 11309 (+1357.5/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>vxcontrol/pentagi — Fully autonomous AI Agents system capable of performing complex penetration testing tasks</title>
+    <id>https://github.com/vxcontrol/pentagi#2026-10-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/vxcontrol/pentagi"/>
+    <updated>2026-10-15T18:00:00Z</updated>
+    <published>2026-10-15T18:00:00Z</published>
+    <summary>Fully autonomous AI Agents system capable of performing complex penetration testing tasks
+
+Why: +298/day · Trending · 6.4x accelerating
+Score: 98/100 | Language: Go | ⭐ 30113 (+297.7/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>HeyPuter/everything — We're rebuilding and open-sourcing the world’s software from scratch.</title>
+    <id>https://github.com/HeyPuter/everything#2026-10-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/HeyPuter/everything"/>
+    <updated>2026-10-15T18:00:00Z</updated>
+    <published>2026-10-15T18:00:00Z</published>
+    <summary>We're rebuilding and open-sourcing the world’s software from scratch.
+
+Why: +843/day · Search
+Score: 96/100 | Language: JavaScript | ⭐ 843 (+843.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>CoolkHz/gptibo — Self-hosted GPTibo storefront, admin and Go backend — sanitized MIT source</title>
+    <id>https://github.com/CoolkHz/gptibo#2026-10-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/CoolkHz/gptibo"/>
+    <updated>2026-10-15T18:00:00Z</updated>
+    <published>2026-10-15T18:00:00Z</published>
+    <summary>Self-hosted GPTibo storefront, admin and Go backend — sanitized MIT source
+
+Why: +784/day · Search
+Score: 96/100 | Language: TypeScript | ⭐ 784 (+784.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>Caho1/open-claude-ui — 基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。纯手写 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。</title>
+    <id>https://github.com/Caho1/open-claude-ui#2026-10-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Caho1/open-claude-ui"/>
+    <updated>2026-10-15T18:00:00Z</updated>
+    <published>2026-10-15T18:00:00Z</published>
+    <summary>基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。纯手写 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。
+
+Why: +473/day · Search
+Score: 96/100 | Language: TypeScript | ⭐ 473 (+473.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>NationalSecurityAgency/ghidra — Ghidra is a software reverse engineering (SRE) framework</title>
+    <id>https://github.com/NationalSecurityAgency/ghidra#2026-10-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/NationalSecurityAgency/ghidra"/>
+    <updated>2026-10-15T18:00:00Z</updated>
+    <published>2026-10-15T18:00:00Z</published>
+    <summary>Ghidra is a software reverse engineering (SRE) framework
+
+Why: +535/day · Trending · 16.9x accelerating
+Score: 100/100 | Language: Java | ⭐ 88006 (+535.3/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>HKUDS/CLI-Anything — &quot;CLI-Anything: Making ALL Software Agent-Native&quot; -- CLI-Hub: https://clianything.cc/</title>
+    <id>https://github.com/HKUDS/CLI-Anything#2026-10-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/HKUDS/CLI-Anything"/>
+    <updated>2026-10-15T18:00:00Z</updated>
+    <published>2026-10-15T18:00:00Z</published>
+    <summary>&quot;CLI-Anything: Making ALL Software Agent-Native&quot; -- CLI-Hub: https://clianything.cc/
+
+Why: +178/day · Trending
+Score: 75/100 | Language: Python | ⭐ 52851 (+178.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>lyogavin/airllm — AirLLM 2.8T LLM inference with single 4GB GPU</title>
     <id>https://github.com/lyogavin/airllm#2026-10-13</id>
@@ -976,71 +1053,5 @@ Score: 85/100 | Language: JavaScript | ⭐ 149697 (+812.8/day) | Source: trendin
 
 Why: +82/day · Trending
 Score: 71/100 | Language: TypeScript | ⭐ 24634 (+82.2/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>cs341-illinois/coursebook — Open Source Introductory Systems Programming Textbook for the University of Illinois</title>
-    <id>https://github.com/cs341-illinois/coursebook#2026-09-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/cs341-illinois/coursebook"/>
-    <updated>2026-09-30T18:00:00Z</updated>
-    <published>2026-09-30T18:00:00Z</published>
-    <summary>Open Source Introductory Systems Programming Textbook for the University of Illinois
-
-Why: +520/day · Trending · 502.4x accelerating
-Score: 97/100 | Language: TeX | ⭐ 3279 (+520.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>feder-cr/dots — Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.</title>
-    <id>https://github.com/feder-cr/dots#2026-09-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/feder-cr/dots"/>
-    <updated>2026-09-30T18:00:00Z</updated>
-    <published>2026-09-30T18:00:00Z</published>
-    <summary>Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.
-
-Why: +862/day · Search
-Score: 96/100 | Language: Python | ⭐ 862 (+862.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>OpSafari/hypoarena — Scientific hypothesis-discovery workbench: grounded hypothesis-evidence graphs, synthetic literature with planted causal chains, generate-debate-evolve loops over pluggable offline adapters, Elo tournaments recovering planted skill order, paraphrase dedup, Bayesian evidence accumulation, reproducible reports. NumPy core, CPU-only torch extra.</title>
-    <id>https://github.com/OpSafari/hypoarena#2026-09-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/OpSafari/hypoarena"/>
-    <updated>2026-09-30T18:00:00Z</updated>
-    <published>2026-09-30T18:00:00Z</published>
-    <summary>Scientific hypothesis-discovery workbench: grounded hypothesis-evidence graphs, synthetic literature with planted causal chains, generate-debate-evolve loops over pluggable offline adapters, Elo tournaments recovering planted skill order, paraphrase dedup, Bayesian evidence accumulation, reproducible reports. NumPy core, CPU-only torch extra.
-
-Why: +545/day · Search
-Score: 96/100 | Language: Python | ⭐ 545 (+545.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>PostHog/jeeves — Jeeves – Reasoning improves Jev-like decision models</title>
-    <id>https://github.com/PostHog/jeeves#2026-09-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/PostHog/jeeves"/>
-    <updated>2026-09-30T18:00:00Z</updated>
-    <published>2026-09-30T18:00:00Z</published>
-    <summary>Jeeves – Reasoning improves Jev-like decision models
-
-Why: +318/day · Search
-Score: 94/100 | Language: Python | ⭐ 318 (+318.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>openai/mcp-extensions — Build plugins that feel like native, first-class features of ChatGPT.</title>
-    <id>https://github.com/openai/mcp-extensions#2026-09-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/openai/mcp-extensions"/>
-    <updated>2026-09-30T18:00:00Z</updated>
-    <published>2026-09-30T18:00:00Z</published>
-    <summary>Build plugins that feel like native, first-class features of ChatGPT.
-
-Why: +339/day · Search
-Score: 94/100 | Language: TypeScript | ⭐ 339 (+339.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>averygan/reclip — Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.</title>
-    <id>https://github.com/averygan/reclip#2026-09-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/averygan/reclip"/>
-    <updated>2026-09-30T18:00:00Z</updated>
-    <published>2026-09-30T18:00:00Z</published>
-    <summary>Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.
-
-Why: +78/day · Trending
-Score: 83/100 | Language: HTML | ⭐ 10493 (+77.8/day) | Source: trending</summary>
   </entry>
 </feed>
