@@ -1,0 +1,66 @@
+{
+ "date": "2026-10-15",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "morluto/rea",
+   "stars": 255113,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "rust-lang/rust",
+   "stars": 120234,
+   "language": "Rust"
+  },
+  {
+   "full_name": "nvm-sh/nvm",
+   "stars": 95530,
+   "language": "Shell"
+  },
+  {
+   "full_name": "NationalSecurityAgency/ghidra",
+   "stars": 88006,
+   "language": "Java"
+  },
+  {
+   "full_name": "debpalash/VoiceStudio",
+   "stars": 67567,
+   "language": "Python"
+  },
+  {
+   "full_name": "HKUDS/CLI-Anything",
+   "stars": 52851,
+   "language": "Python"
+  },
+  {
+   "full_name": "K-Dense-AI/scientific-agent-skills",
+   "stars": 49818,
+   "language": "Python"
+  },
+  {
+   "full_name": "vxcontrol/pentagi",
+   "stars": 30113,
+   "language": "Go"
+  },
+  {
+   "full_name": "mksglu/context-mode",
+   "stars": 29495,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "ifixai-ai/iFixAi",
+   "stars": 28011,
+   "language": "Python"
+  },
+  {
+   "full_name": "ntdevlabs/tiny11builder",
+   "stars": 20415,
+   "language": "C#"
+  },
+  {
+   "full_name": "xtool-org/xtool",
+   "stars": 11309,
+   "language": "Swift"
+  }
+ ]
+}

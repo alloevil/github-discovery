@@ -1,0 +1,381 @@
+{
+ "date": "2026-10-15",
+ "generated_at": "2026-10-15T09:27:17.340347",
+ "pool_size": 85,
+ "source_health": {
+  "trending": {
+   "fetched": 12,
+   "parsed": 12,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 4
+  },
+  "search": {
+   "fetched": 64,
+   "parsed": 64,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 8
+  },
+  "hn": {
+   "fetched": 9,
+   "parsed": 9,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 2,
+   "parsed": 2,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 20,
+   "parsed": 20,
+   "rejected": 0,
+   "deduplicated": 11,
+   "recommended": 1
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "xtool-org/xtool",
+   "url": "https://github.com/xtool-org/xtool",
+   "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+   "language": "Swift",
+   "stars": 11309,
+   "forks": 523,
+   "age_days": 697,
+   "daily_stars": 16.225251076040173,
+   "real_daily_stars": 1357.5,
+   "watchers": 46,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "vxcontrol/pentagi",
+   "url": "https://github.com/vxcontrol/pentagi",
+   "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+   "language": "Go",
+   "stars": 30113,
+   "forks": 4504,
+   "age_days": 646,
+   "daily_stars": 46.61455108359133,
+   "real_daily_stars": 297.70588235294116,
+   "watchers": 160,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 98,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "HeyPuter/everything",
+   "url": "https://github.com/HeyPuter/everything",
+   "description": "We're rebuilding and open-sourcing the world’s software from scratch.",
+   "language": "JavaScript",
+   "stars": 843,
+   "forks": 120,
+   "age_days": 1,
+   "daily_stars": 843.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "CoolkHz/gptibo",
+   "url": "https://github.com/CoolkHz/gptibo",
+   "description": "Self-hosted GPTibo storefront, admin and Go backend — sanitized MIT source",
+   "language": "TypeScript",
+   "stars": 784,
+   "forks": 468,
+   "age_days": 1,
+   "daily_stars": 784.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "Caho1/open-claude-ui",
+   "url": "https://github.com/Caho1/open-claude-ui",
+   "description": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。纯手写 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。",
+   "language": "TypeScript",
+   "stars": 473,
+   "forks": 108,
+   "age_days": 1,
+   "daily_stars": 473.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "outcrawlai/scout",
+   "url": "https://github.com/outcrawlai/scout",
+   "description": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
+   "language": "TypeScript",
+   "stars": 767,
+   "forks": 25,
+   "age_days": 2,
+   "daily_stars": 383.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "egotoadcitadel/palette-from-image-ai",
+   "url": "https://github.com/egotoadcitadel/palette-from-image-ai",
+   "description": "AI coloring palette-from-image generator for designers and pixel artists — pull a clean named palette straight from any image, no subscription or cloud upload.",
+   "language": "Python",
+   "stars": 303,
+   "forks": 78,
+   "age_days": 1,
+   "daily_stars": 303.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "solana-classic/solana-classic",
+   "url": "https://github.com/solana-classic/solana-classic",
+   "description": "Bring back the fun. Open-source SVM blockchain development focused on art, NFTs, memes and their communities. Experimental testnet live.",
+   "language": "Rust",
+   "stars": 352,
+   "forks": 56,
+   "age_days": 1,
+   "daily_stars": 352.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "datalab-to/indra",
+   "url": "https://github.com/datalab-to/indra",
+   "description": "Fast CPU OCR: line detection, CTC recognition, reading order, markdown",
+   "language": "Python",
+   "stars": 293,
+   "forks": 25,
+   "age_days": 1,
+   "daily_stars": 293.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "chenglou/handwired",
+   "url": "https://github.com/chenglou/handwired",
+   "description": "Turn your regular JavaScript code into a neural net.",
+   "language": "TypeScript",
+   "stars": 206,
+   "forks": 12,
+   "age_days": 1,
+   "daily_stars": 206.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "NationalSecurityAgency/ghidra",
+   "url": "https://github.com/NationalSecurityAgency/ghidra",
+   "description": "Ghidra is a software reverse engineering (SRE) framework",
+   "language": "Java",
+   "stars": 88006,
+   "forks": 9820,
+   "age_days": 2785,
+   "daily_stars": 31.6,
+   "real_daily_stars": 535.2666666666667,
+   "watchers": 1183,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "language": "Python",
+   "stars": 52851,
+   "forks": 4792,
+   "age_days": 220,
+   "daily_stars": 240.23181818181817,
+   "real_daily_stars": 178.0,
+   "watchers": 211,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "rank": 2,
+   "scores": {
+    "total": 75,
+    "acceleration": 25,
+    "quality": 20,
+    "antispam": 30,
+    "rank_in_pool": 31,
+    "pool_size": 85,
+    "top_pct": 36.5
+   }
+  }
+ ]
+}

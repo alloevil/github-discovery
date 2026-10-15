@@ -108,12 +108,13 @@
       "last_recommended": "2026-10-01T11:11:44.446419+00:00"
     },
     "NationalSecurityAgency/ghidra": {
-      "count": 2,
+      "count": 3,
       "scores": [
         96,
-        95
+        95,
+        100
       ],
-      "last_recommended": "2026-09-16T09:32:40.858577+00:00"
+      "last_recommended": "2026-10-15T09:27:17.117018+00:00"
     },
     "jub0t/Concat": {
       "count": 2,
@@ -205,76 +206,6 @@
         91
       ],
       "last_recommended": "2026-09-18T09:13:56.847163+00:00"
-    },
-    "asgeirtj/system_prompts_leaks": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-14T06:57:14.867028+00:00"
-    },
-    "vxcontrol/pentagi": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-14T06:57:14.869208+00:00"
-    },
-    "multimodal-art-projection/YuE": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-14T06:57:14.871204+00:00"
-    },
-    "SnailSploit/Claude-Red": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-14T06:57:14.873189+00:00"
-    },
-    "alphaXiv/OpenResearch": {
-      "count": 1,
-      "scores": [
-        99
-      ],
-      "last_recommended": "2026-09-14T06:57:14.875177+00:00"
-    },
-    "yuliskov/SmartTube": {
-      "count": 1,
-      "scores": [
-        97
-      ],
-      "last_recommended": "2026-09-14T06:57:14.877234+00:00"
-    },
-    "yifanzhang-pro/recurrent-looped-tranformer": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-14T06:57:14.879228+00:00"
-    },
-    "eternityspring/reelbench-skills": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-14T06:57:14.881259+00:00"
-    },
-    "unstablebuild/rune": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-14T06:57:14.883252+00:00"
-    },
-    "suoha888/CJ-DeFi-Handbook": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-09-14T06:57:14.885304+00:00"
     },
     "alibaba/open-code-review": {
       "count": 2,
@@ -1047,11 +978,12 @@
       "last_recommended": "2026-09-25T09:49:06.564425+00:00"
     },
     "HKUDS/CLI-Anything": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        90
+        90,
+        75
       ],
-      "last_recommended": "2026-09-25T09:49:06.566501+00:00"
+      "last_recommended": "2026-10-15T09:27:17.119218+00:00"
     },
     "vectorize-io/hindsight": {
       "count": 1,
@@ -2314,7 +2246,77 @@
         88
       ],
       "last_recommended": "2026-10-13T12:12:00.968575+00:00"
+    },
+    "xtool-org/xtool": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-15T09:27:17.094836+00:00"
+    },
+    "vxcontrol/pentagi": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-10-15T09:27:17.097294+00:00"
+    },
+    "HeyPuter/everything": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-15T09:27:17.099490+00:00"
+    },
+    "CoolkHz/gptibo": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-15T09:27:17.101666+00:00"
+    },
+    "Caho1/open-claude-ui": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-15T09:27:17.103848+00:00"
+    },
+    "outcrawlai/scout": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-10-15T09:27:17.106081+00:00"
+    },
+    "egotoadcitadel/palette-from-image-ai": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-15T09:27:17.108295+00:00"
+    },
+    "solana-classic/solana-classic": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-15T09:27:17.110502+00:00"
+    },
+    "datalab-to/indra": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-10-15T09:27:17.112664+00:00"
+    },
+    "chenglou/handwired": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-10-15T09:27:17.114884+00:00"
     }
   },
-  "updated_at": "2026-10-13T12:12:00.972959+00:00"
+  "updated_at": "2026-10-15T09:27:17.119247+00:00"
 }

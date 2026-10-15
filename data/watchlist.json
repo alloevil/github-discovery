@@ -1,152 +1,5 @@
 {
  "repos": {
-  "mvschwarz/openrig": {
-   "first_seen": "2026-09-29",
-   "until": "2026-10-13",
-   "stars_at_discovery": 2043,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "firelex/jeff": {
-   "first_seen": "2026-09-29",
-   "until": "2026-10-13",
-   "stars_at_discovery": 792,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "kaankiziltug/logo-design-skill": {
-   "first_seen": "2026-09-29",
-   "until": "2026-10-13",
-   "stars_at_discovery": 629,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "openJiuwen-ai/iCode": {
-   "first_seen": "2026-09-29",
-   "until": "2026-10-13",
-   "stars_at_discovery": 201,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "chasmlol/2010-rust-rewrite-mashup": {
-   "first_seen": "2026-09-29",
-   "until": "2026-10-13",
-   "stars_at_discovery": 167,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "yihui-dev/awesome-opus5-5-videos": {
-   "first_seen": "2026-09-29",
-   "until": "2026-10-13",
-   "stars_at_discovery": 832,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "scarletkc/seiso": {
-   "first_seen": "2026-09-29",
-   "until": "2026-10-13",
-   "stars_at_discovery": 138,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "shihabal3amri/DiPlay": {
-   "first_seen": "2026-09-29",
-   "until": "2026-10-13",
-   "stars_at_discovery": 706,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "disler/ten-levels-of-jev": {
-   "first_seen": "2026-09-29",
-   "until": "2026-10-13",
-   "stars_at_discovery": 73,
-   "score_at_discovery": 87,
-   "source_at_discovery": "rising"
-  },
-  "aicheye/supersidian": {
-   "first_seen": "2026-09-29",
-   "until": "2026-10-13",
-   "stars_at_discovery": 149,
-   "score_at_discovery": 85,
-   "source_at_discovery": "search"
-  },
-  "cs341-illinois/coursebook": {
-   "first_seen": "2026-09-30",
-   "until": "2026-10-14",
-   "stars_at_discovery": 3279,
-   "score_at_discovery": 97,
-   "source_at_discovery": "trending"
-  },
-  "feder-cr/dots": {
-   "first_seen": "2026-09-30",
-   "until": "2026-10-14",
-   "stars_at_discovery": 862,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "OpSafari/hypoarena": {
-   "first_seen": "2026-09-30",
-   "until": "2026-10-14",
-   "stars_at_discovery": 545,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "PostHog/jeeves": {
-   "first_seen": "2026-09-30",
-   "until": "2026-10-14",
-   "stars_at_discovery": 318,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "openai/mcp-extensions": {
-   "first_seen": "2026-09-30",
-   "until": "2026-10-14",
-   "stars_at_discovery": 339,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "willfaust/Madeira": {
-   "first_seen": "2026-09-30",
-   "until": "2026-10-14",
-   "stars_at_discovery": 1168,
-   "score_at_discovery": 93,
-   "source_at_discovery": "trending"
-  },
-  "fulldiagnose/antigravity-fixer": {
-   "first_seen": "2026-09-30",
-   "until": "2026-10-14",
-   "stars_at_discovery": 142,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "ZacharyZhang-NY/Ely-GPUI-Components": {
-   "first_seen": "2026-09-30",
-   "until": "2026-10-14",
-   "stars_at_discovery": 135,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "ng-native/ng-native": {
-   "first_seen": "2026-09-30",
-   "until": "2026-10-14",
-   "stars_at_discovery": 243,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "alpcanaydin/tusk": {
-   "first_seen": "2026-09-30",
-   "until": "2026-10-14",
-   "stars_at_discovery": 107,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "averygan/reclip": {
-   "first_seen": "2026-09-30",
-   "until": "2026-10-14",
-   "stars_at_discovery": 10493,
-   "score_at_discovery": 83,
-   "source_at_discovery": "trending"
-  },
   "NVIDIA/OpenShell": {
    "first_seen": "2026-10-01",
    "until": "2026-10-15",
@@ -1175,7 +1028,91 @@
    "stars_at_discovery": 129,
    "score_at_discovery": 88,
    "source_at_discovery": "hn"
+  },
+  "xtool-org/xtool": {
+   "first_seen": "2026-10-15",
+   "until": "2026-10-29",
+   "stars_at_discovery": 11309,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "vxcontrol/pentagi": {
+   "first_seen": "2026-10-15",
+   "until": "2026-10-29",
+   "stars_at_discovery": 30113,
+   "score_at_discovery": 98,
+   "source_at_discovery": "trending"
+  },
+  "HeyPuter/everything": {
+   "first_seen": "2026-10-15",
+   "until": "2026-10-29",
+   "stars_at_discovery": 843,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "CoolkHz/gptibo": {
+   "first_seen": "2026-10-15",
+   "until": "2026-10-29",
+   "stars_at_discovery": 784,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "Caho1/open-claude-ui": {
+   "first_seen": "2026-10-15",
+   "until": "2026-10-29",
+   "stars_at_discovery": 473,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "outcrawlai/scout": {
+   "first_seen": "2026-10-15",
+   "until": "2026-10-29",
+   "stars_at_discovery": 767,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "egotoadcitadel/palette-from-image-ai": {
+   "first_seen": "2026-10-15",
+   "until": "2026-10-29",
+   "stars_at_discovery": 303,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "solana-classic/solana-classic": {
+   "first_seen": "2026-10-15",
+   "until": "2026-10-29",
+   "stars_at_discovery": 352,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "datalab-to/indra": {
+   "first_seen": "2026-10-15",
+   "until": "2026-10-29",
+   "stars_at_discovery": 293,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "chenglou/handwired": {
+   "first_seen": "2026-10-15",
+   "until": "2026-10-29",
+   "stars_at_discovery": 206,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "NationalSecurityAgency/ghidra": {
+   "first_seen": "2026-10-15",
+   "until": "2026-10-29",
+   "stars_at_discovery": 88006,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "HKUDS/CLI-Anything": {
+   "first_seen": "2026-10-15",
+   "until": "2026-10-29",
+   "stars_at_discovery": 52851,
+   "score_at_discovery": 75,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-10-13T12:15:31.054198+00:00"
+ "updated_at": "2026-10-15T09:30:57.636383+00:00"
 }
