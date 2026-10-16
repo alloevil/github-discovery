@@ -3,12 +3,100 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-15T18:00:00Z</updated>
+  <updated>2026-10-16T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>K-Dense-AI/scientific-agent-skills — Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.</title>
+    <id>https://github.com/K-Dense-AI/scientific-agent-skills#2026-10-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/K-Dense-AI/scientific-agent-skills"/>
+    <updated>2026-10-16T18:00:00Z</updated>
+    <published>2026-10-16T18:00:00Z</published>
+    <summary>Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
+
+Why: +1133/day · Trending · 8.0x accelerating
+Score: 100/100 | Language: Python | ⭐ 50951 (+1133.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Supermedo/uncharted_pc — Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo</title>
+    <id>https://github.com/Supermedo/uncharted_pc#2026-10-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Supermedo/uncharted_pc"/>
+    <updated>2026-10-16T18:00:00Z</updated>
+    <published>2026-10-16T18:00:00Z</published>
+    <summary>Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo
+
+Why: +813/day · Search
+Score: 96/100 | Language: C++ | ⭐ 813 (+813.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>andunieee/flipflop — filesharing for the meatspace era</title>
+    <id>https://github.com/andunieee/flipflop#2026-10-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/andunieee/flipflop"/>
+    <updated>2026-10-16T18:00:00Z</updated>
+    <published>2026-10-16T18:00:00Z</published>
+    <summary>filesharing for the meatspace era
+
+Why: +129/day · HN · 30.7x accelerating
+Score: 93/100 | Language: Rust | ⭐ 168 (+129.0/day) | Source: hn</summary>
+  </entry>
+  <entry>
+    <title>onehumanbeing/esp32-iphone-agent — Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.</title>
+    <id>https://github.com/onehumanbeing/esp32-iphone-agent#2026-10-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/onehumanbeing/esp32-iphone-agent"/>
+    <updated>2026-10-16T18:00:00Z</updated>
+    <published>2026-10-16T18:00:00Z</published>
+    <summary>Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.
+
+Why: +485/day · Search
+Score: 90/100 | Language: C | ⭐ 2710 (+485.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>assafkip/claudemy — Claudemy: an open-source alternative to Udemy and Coursera. Give Claude a topic, it researches the web and builds a course of 2-minute audio lessons with cited sources. A free Claude Code skill.</title>
+    <id>https://github.com/assafkip/claudemy#2026-10-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/assafkip/claudemy"/>
+    <updated>2026-10-16T18:00:00Z</updated>
+    <published>2026-10-16T18:00:00Z</published>
+    <summary>Claudemy: an open-source alternative to Udemy and Coursera. Give Claude a topic, it researches the web and builds a course of 2-minute audio lessons with cited sources. A free Claude Code skill.
+
+Why: +128/day · Search+AI/ML
+Score: 89/100 | Language: Python | ⭐ 255 (+127.5/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>morluto/rea — Reverse engineer anything with agents, from app behavior down to native binaries.</title>
+    <id>https://github.com/morluto/rea#2026-10-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/morluto/rea"/>
+    <updated>2026-10-16T18:00:00Z</updated>
+    <published>2026-10-16T18:00:00Z</published>
+    <summary>Reverse engineer anything with agents, from app behavior down to native binaries.
+
+Why: +25116/day · Trending · 16.6x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 280322 (+25116.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>anthropics/claude-plugins-official — Official, Anthropic-managed directory of high quality Claude Code Plugins.</title>
+    <id>https://github.com/anthropics/claude-plugins-official#2026-10-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-plugins-official"/>
+    <updated>2026-10-16T18:00:00Z</updated>
+    <published>2026-10-16T18:00:00Z</published>
+    <summary>Official, Anthropic-managed directory of high quality Claude Code Plugins.
+
+Why: +338/day · Trending · 2.8x accelerating
+Score: 97/100 | Language: Python | ⭐ 39633 (+338.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>JuliusBrussee/caveman — 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.</title>
+    <id>https://github.com/JuliusBrussee/caveman#2026-10-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/JuliusBrussee/caveman"/>
+    <updated>2026-10-16T18:00:00Z</updated>
+    <published>2026-10-16T18:00:00Z</published>
+    <summary>🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.
+
+Why: +871/day · Trending
+Score: 92/100 | Language: Go | ⭐ 112888 (+871.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>xtool-org/xtool — Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.</title>
     <id>https://github.com/xtool-org/xtool#2026-10-15</id>
@@ -965,93 +1053,5 @@ Score: 93/100 | Language: TypeScript | ⭐ 111532 (+463.5/day) | Source: trendin
 
 Why: +514/day · Trending
 Score: 90/100 | Language: Shell | ⭐ 294160 (+514.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA/OpenShell — OpenShell is the safe, private runtime for autonomous AI agents.</title>
-    <id>https://github.com/NVIDIA/OpenShell#2026-10-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/NVIDIA/OpenShell"/>
-    <updated>2026-10-01T18:00:00Z</updated>
-    <published>2026-10-01T18:00:00Z</published>
-    <summary>OpenShell is the safe, private runtime for autonomous AI agents.
-
-Why: +2503/day · Trending · 40.1x accelerating
-Score: 100/100 | Language: Rust | ⭐ 13616 (+2503.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>byoungd/up — An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语</title>
-    <id>https://github.com/byoungd/up#2026-10-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/byoungd/up"/>
-    <updated>2026-10-01T18:00:00Z</updated>
-    <published>2026-10-01T18:00:00Z</published>
-    <summary>An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语
-
-Why: +594/day · Trending · 30.5x accelerating
-Score: 100/100 | Language: JavaScript | ⭐ 66557 (+594.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>t8y2/dbx — 25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。</title>
-    <id>https://github.com/t8y2/dbx#2026-10-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/t8y2/dbx"/>
-    <updated>2026-10-01T18:00:00Z</updated>
-    <published>2026-10-01T18:00:00Z</published>
-    <summary>25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。
-
-Why: +878/day · Trending · 5.8x accelerating
-Score: 100/100 | Language: Rust | ⭐ 23604 (+878.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>VectifyAI/PageIndex — 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG</title>
-    <id>https://github.com/VectifyAI/PageIndex#2026-10-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/VectifyAI/PageIndex"/>
-    <updated>2026-10-01T18:00:00Z</updated>
-    <published>2026-10-01T18:00:00Z</published>
-    <summary>📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG
-
-Why: +545/day · Trending · 7.8x accelerating
-Score: 100/100 | Language: Python | ⭐ 38316 (+545.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Louis-CFM/coucou — A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows) and keeps an eye on your Claude Code sessions.</title>
-    <id>https://github.com/Louis-CFM/coucou#2026-10-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Louis-CFM/coucou"/>
-    <updated>2026-10-01T18:00:00Z</updated>
-    <published>2026-10-01T18:00:00Z</published>
-    <summary>A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows) and keeps an eye on your Claude Code sessions.
-
-Why: +660/day · Search
-Score: 96/100 | Language: Swift | ⭐ 1980 (+660.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>heygen-com/hyperframes — Write HTML. Render video. Built for agents.</title>
-    <id>https://github.com/heygen-com/hyperframes#2026-10-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/heygen-com/hyperframes"/>
-    <updated>2026-10-01T18:00:00Z</updated>
-    <published>2026-10-01T18:00:00Z</published>
-    <summary>Write HTML. Render video. Built for agents.
-
-Why: +307/day · Trending
-Score: 88/100 | Language: TypeScript | ⭐ 54998 (+307.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>DietrichGebert/ponytail — Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</title>
-    <id>https://github.com/DietrichGebert/ponytail#2026-10-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/DietrichGebert/ponytail"/>
-    <updated>2026-10-01T18:00:00Z</updated>
-    <published>2026-10-01T18:00:00Z</published>
-    <summary>Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
-
-Why: +813/day · Trending
-Score: 85/100 | Language: JavaScript | ⭐ 149697 (+812.8/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>mksglu/context-mode — Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.</title>
-    <id>https://github.com/mksglu/context-mode#2026-10-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mksglu/context-mode"/>
-    <updated>2026-10-01T18:00:00Z</updated>
-    <published>2026-10-01T18:00:00Z</published>
-    <summary>Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.
-
-Why: +82/day · Trending
-Score: 71/100 | Language: TypeScript | ⭐ 24634 (+82.2/day) | Source: trending</summary>
   </entry>
 </feed>
