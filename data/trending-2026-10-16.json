@@ -1,0 +1,71 @@
+{
+ "date": "2026-10-16",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "obra/superpowers",
+   "stars": 300263,
+   "language": "Shell"
+  },
+  {
+   "full_name": "affaan-m/ECC",
+   "stars": 280746,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "morluto/rea",
+   "stars": 280322,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "JuliusBrussee/caveman",
+   "stars": 112888,
+   "language": "Go"
+  },
+  {
+   "full_name": "NationalSecurityAgency/ghidra",
+   "stars": 89177,
+   "language": "Java"
+  },
+  {
+   "full_name": "ruvnet/ruflo",
+   "stars": 75352,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "debpalash/VoiceStudio",
+   "stars": 69853,
+   "language": "Python"
+  },
+  {
+   "full_name": "K-Dense-AI/scientific-agent-skills",
+   "stars": 50951,
+   "language": "Python"
+  },
+  {
+   "full_name": "anthropics/claude-plugins-official",
+   "stars": 39633,
+   "language": "Python"
+  },
+  {
+   "full_name": "mksglu/context-mode",
+   "stars": 29956,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "LibreSpark/LibreTV",
+   "stars": 18523,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "xerj-org/xerj",
+   "stars": 6149,
+   "language": "Rust"
+  },
+  {
+   "full_name": "lightseekorg/tokenspeed",
+   "stars": 2612,
+   "language": "Python"
+  }
+ ]
+}

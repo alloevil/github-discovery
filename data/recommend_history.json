@@ -1,7 +1,7 @@
 {
   "repos": {
     "obra/superpowers": {
-      "count": 9,
+      "count": 10,
       "scores": [
         100,
         100,
@@ -11,12 +11,13 @@
         89,
         90,
         79,
+        90,
         90
       ],
-      "last_recommended": "2026-10-02T10:45:25.824429+00:00"
+      "last_recommended": "2026-10-16T09:19:03.657044+00:00"
     },
     "affaan-m/ECC": {
-      "count": 7,
+      "count": 8,
       "scores": [
         100,
         100,
@@ -24,9 +25,10 @@
         88,
         91,
         90,
+        90,
         90
       ],
-      "last_recommended": "2026-10-04T10:47:01.101701+00:00"
+      "last_recommended": "2026-10-16T09:19:03.659025+00:00"
     },
     "mattpocock/skills": {
       "count": 9,
@@ -73,14 +75,6 @@
       ],
       "last_recommended": "2026-10-04T10:47:01.105177+00:00"
     },
-    "dani-garcia/vaultwarden": {
-      "count": 2,
-      "scores": [
-        95,
-        91
-      ],
-      "last_recommended": "2026-09-15T09:37:24.830833+00:00"
-    },
     "rohitg00/ai-engineering-from-scratch": {
       "count": 3,
       "scores": [
@@ -91,12 +85,13 @@
       "last_recommended": "2026-09-25T09:49:06.568574+00:00"
     },
     "anthropics/claude-plugins-official": {
-      "count": 2,
+      "count": 3,
       "scores": [
         99,
-        69
+        69,
+        97
       ],
-      "last_recommended": "2026-09-26T09:32:50.365232+00:00"
+      "last_recommended": "2026-10-16T09:19:03.652943+00:00"
     },
     "DietrichGebert/ponytail": {
       "count": 3,
@@ -223,41 +218,6 @@
       ],
       "last_recommended": "2026-10-11T11:02:26.073238+00:00"
     },
-    "ever-co/ever-gauzy": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-15T09:37:24.814729+00:00"
-    },
-    "tech-leads-club/agent-skills": {
-      "count": 1,
-      "scores": [
-        99
-      ],
-      "last_recommended": "2026-09-15T09:37:24.816706+00:00"
-    },
-    "nilbuild/page-mascot": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-09-15T09:37:24.818695+00:00"
-    },
-    "agentverse-os/AgentVerse-OS": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-15T09:37:24.820772+00:00"
-    },
-    "ViceVerse-cz/Serein": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-15T09:37:24.822781+00:00"
-    },
     "Panniantong/Agent-Reach": {
       "count": 2,
       "scores": [
@@ -265,20 +225,6 @@
         95
       ],
       "last_recommended": "2026-10-03T10:04:21.049336+00:00"
-    },
-    "yi1108/printfilm": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-09-15T09:37:24.826796+00:00"
-    },
-    "666ghj/MiroFish": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-09-15T09:37:24.828801+00:00"
     },
     "tonhowtf/omniget": {
       "count": 1,
@@ -1590,11 +1536,12 @@
       "last_recommended": "2026-10-04T10:47:01.093148+00:00"
     },
     "JuliusBrussee/caveman": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        89
+        89,
+        92
       ],
-      "last_recommended": "2026-10-04T10:47:01.094848+00:00"
+      "last_recommended": "2026-10-16T09:19:03.655020+00:00"
     },
     "StayLameBro/backburner": {
       "count": 1,
@@ -1828,11 +1775,12 @@
       "last_recommended": "2026-10-07T11:22:12.622468+00:00"
     },
     "morluto/rea": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-10-08T11:38:17.148960+00:00"
+      "last_recommended": "2026-10-16T09:19:03.650955+00:00"
     },
     "EpicGames/raddebugger": {
       "count": 1,
@@ -2316,7 +2264,77 @@
         92
       ],
       "last_recommended": "2026-10-15T09:27:17.114884+00:00"
+    },
+    "K-Dense-AI/scientific-agent-skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-16T09:19:03.630500+00:00"
+    },
+    "Supermedo/uncharted_pc": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-16T09:19:03.632930+00:00"
+    },
+    "andunieee/flipflop": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-10-16T09:19:03.634953+00:00"
+    },
+    "onehumanbeing/esp32-iphone-agent": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-16T09:19:03.636961+00:00"
+    },
+    "assafkip/claudemy": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-16T09:19:03.638946+00:00"
+    },
+    "Zfinix/eleven": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-16T09:19:03.640989+00:00"
+    },
+    "zgsfsec/Full-Chain-Sentinel-System": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-16T09:19:03.642969+00:00"
+    },
+    "LargeModGames/spotatui": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-16T09:19:03.644976+00:00"
+    },
+    "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-10-16T09:19:03.646944+00:00"
+    },
+    "AirsupHQ/machine-skill": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-10-16T09:19:03.648968+00:00"
     }
   },
-  "updated_at": "2026-10-15T09:27:17.119247+00:00"
+  "updated_at": "2026-10-16T09:19:03.659051+00:00"
 }

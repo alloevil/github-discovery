@@ -1,96 +1,5 @@
 {
  "repos": {
-  "NVIDIA/OpenShell": {
-   "first_seen": "2026-10-01",
-   "until": "2026-10-15",
-   "stars_at_discovery": 13616,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "byoungd/up": {
-   "first_seen": "2026-10-01",
-   "until": "2026-10-15",
-   "stars_at_discovery": 66557,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "t8y2/dbx": {
-   "first_seen": "2026-10-01",
-   "until": "2026-10-15",
-   "stars_at_discovery": 23604,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "VectifyAI/PageIndex": {
-   "first_seen": "2026-10-01",
-   "until": "2026-10-15",
-   "stars_at_discovery": 38316,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "Louis-CFM/coucou": {
-   "first_seen": "2026-10-01",
-   "until": "2026-10-15",
-   "stars_at_discovery": 1980,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "nanaism/yomiyasu": {
-   "first_seen": "2026-10-01",
-   "until": "2026-10-15",
-   "stars_at_discovery": 746,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "edenfunf/reelmimic": {
-   "first_seen": "2026-10-01",
-   "until": "2026-10-15",
-   "stars_at_discovery": 622,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "echris6/motion-video-kit": {
-   "first_seen": "2026-10-01",
-   "until": "2026-10-15",
-   "stars_at_discovery": 717,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "MisakaZentai/world-execute-me-dsh-pv": {
-   "first_seen": "2026-10-01",
-   "until": "2026-10-15",
-   "stars_at_discovery": 202,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "NawfalMotii79/PLFM_RADAR": {
-   "first_seen": "2026-10-01",
-   "until": "2026-10-15",
-   "stars_at_discovery": 26497,
-   "score_at_discovery": 91,
-   "source_at_discovery": "trending"
-  },
-  "heygen-com/hyperframes": {
-   "first_seen": "2026-10-01",
-   "until": "2026-10-15",
-   "stars_at_discovery": 54998,
-   "score_at_discovery": 88,
-   "source_at_discovery": "trending"
-  },
-  "DietrichGebert/ponytail": {
-   "first_seen": "2026-10-01",
-   "until": "2026-10-15",
-   "stars_at_discovery": 149697,
-   "score_at_discovery": 85,
-   "source_at_discovery": "trending"
-  },
-  "mksglu/context-mode": {
-   "first_seen": "2026-10-01",
-   "until": "2026-10-15",
-   "stars_at_discovery": 24634,
-   "score_at_discovery": 71,
-   "source_at_discovery": "trending"
-  },
   "Edwardxlai/easyread": {
    "first_seen": "2026-10-02",
    "until": "2026-10-16",
@@ -1112,7 +1021,91 @@
    "stars_at_discovery": 52851,
    "score_at_discovery": 75,
    "source_at_discovery": "trending"
+  },
+  "K-Dense-AI/scientific-agent-skills": {
+   "first_seen": "2026-10-16",
+   "until": "2026-10-30",
+   "stars_at_discovery": 50951,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "Supermedo/uncharted_pc": {
+   "first_seen": "2026-10-16",
+   "until": "2026-10-30",
+   "stars_at_discovery": 813,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "andunieee/flipflop": {
+   "first_seen": "2026-10-16",
+   "until": "2026-10-30",
+   "stars_at_discovery": 168,
+   "score_at_discovery": 93,
+   "source_at_discovery": "hn"
+  },
+  "onehumanbeing/esp32-iphone-agent": {
+   "first_seen": "2026-10-16",
+   "until": "2026-10-30",
+   "stars_at_discovery": 2710,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "assafkip/claudemy": {
+   "first_seen": "2026-10-16",
+   "until": "2026-10-30",
+   "stars_at_discovery": 255,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "Zfinix/eleven": {
+   "first_seen": "2026-10-16",
+   "until": "2026-10-30",
+   "stars_at_discovery": 545,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "zgsfsec/Full-Chain-Sentinel-System": {
+   "first_seen": "2026-10-16",
+   "until": "2026-10-30",
+   "stars_at_discovery": 118,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "LargeModGames/spotatui": {
+   "first_seen": "2026-10-16",
+   "until": "2026-10-30",
+   "stars_at_discovery": 1661,
+   "score_at_discovery": 89,
+   "source_at_discovery": "hn"
+  },
+  "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit": {
+   "first_seen": "2026-10-16",
+   "until": "2026-10-30",
+   "stars_at_discovery": 256,
+   "score_at_discovery": 88,
+   "source_at_discovery": "search"
+  },
+  "AirsupHQ/machine-skill": {
+   "first_seen": "2026-10-16",
+   "until": "2026-10-30",
+   "stars_at_discovery": 257,
+   "score_at_discovery": 88,
+   "source_at_discovery": "ai-trending"
+  },
+  "anthropics/claude-plugins-official": {
+   "first_seen": "2026-10-16",
+   "until": "2026-10-30",
+   "stars_at_discovery": 39633,
+   "score_at_discovery": 97,
+   "source_at_discovery": "trending"
+  },
+  "obra/superpowers": {
+   "first_seen": "2026-10-16",
+   "until": "2026-10-30",
+   "stars_at_discovery": 300263,
+   "score_at_discovery": 90,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-10-15T09:30:57.636383+00:00"
+ "updated_at": "2026-10-16T09:23:32.518037+00:00"
 }
