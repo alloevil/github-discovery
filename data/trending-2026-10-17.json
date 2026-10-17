@@ -3,69 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "obra/superpowers",
-   "stars": 300884,
-   "language": "Shell"
-  },
-  {
-   "full_name": "affaan-m/ECC",
-   "stars": 281800,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "ruvnet/ruflo",
-   "stars": 75767,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "debpalash/VoiceStudio",
-   "stars": 71877,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "HKUDS/CLI-Anything",
-   "stars": 53685,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "K-Dense-AI/scientific-agent-skills",
-   "stars": 51799,
-   "language": "Python"
-  },
-  {
-   "full_name": "MadsLorentzen/ai-job-search",
-   "stars": 48963,
-   "language": "Python"
-  },
-  {
-   "full_name": "anthropics/claude-plugins-official",
-   "stars": 40985,
-   "language": "Python"
-  },
-  {
-   "full_name": "mksglu/context-mode",
-   "stars": 30359,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "hmjz100/LinkSwift",
-   "stars": 24115,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "cursor/plugins",
-   "stars": 12117,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "android/skills",
-   "stars": 8187,
-   "language": "Kotlin"
-  },
-  {
-   "full_name": "xerj-org/xerj",
-   "stars": 7235,
-   "language": "Rust"
   }
  ]
 }

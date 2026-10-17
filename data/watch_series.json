@@ -47055,8 +47055,8 @@
    },
    {
     "date": "2026-10-17",
-    "stars": 1603,
-    "forks": 1894,
+    "stars": 1607,
+    "forks": 1901,
     "open_issues": 10,
     "commits_7d": 19,
     "contributors_7d": 16,
@@ -47408,12 +47408,12 @@
   "tangency-labs/solidcraft": [
    {
     "date": "2026-10-17",
-    "stars": 3189,
-    "forks": 357,
-    "open_issues": 512,
+    "stars": 3501,
+    "forks": 391,
+    "open_issues": 526,
     "commits_7d": 100,
-    "contributors_7d": 80,
-    "pushed_at": "2026-10-17T08:47:06Z"
+    "contributors_7d": 85,
+    "pushed_at": "2026-10-17T12:00:06Z"
    }
   ],
   "reason-machines/reason-network": [
@@ -47461,5 +47461,5 @@
    }
   ]
  },
- "updated_at": "2026-10-17T08:52:56.357882+00:00"
+ "updated_at": "2026-10-17T12:24:37.455752+00:00"
 }
