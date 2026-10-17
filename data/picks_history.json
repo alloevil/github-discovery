@@ -1,0 +1,15 @@
+{
+  "repos": {
+    "openai/math": {"first_picked": "2026-10-16", "source": "chat"},
+    "NandhaKishorM/laya": {"first_picked": "2026-10-16", "source": "chat"},
+    "morluto/rea": {"first_picked": "2026-10-16", "source": "chat"},
+    "zai-org/ZCode": {"first_picked": "2026-10-16", "source": "chat"},
+    "feder-cr/git-ai": {"first_picked": "2026-10-16", "source": "chat"},
+    "anthropics/oss-scanner": {"first_picked": "2026-10-16", "source": "chat"},
+    "rociiu/talorys": {"first_picked": "2026-10-16", "source": "chat"},
+    "chenwei810/Semiconductor_Manufacturing_Introduction": {"first_picked": "2026-10-16", "source": "chat"},
+    "hdl-tools/digital-chip-design-agents": {"first_picked": "2026-10-16", "source": "chat"},
+    "BLANK2077/xverif": {"first_picked": "2026-10-16", "source": "chat"}
+  },
+  "updated_at": "2026-10-16T17:00:00-07:00"
+}

@@ -213,7 +213,9 @@
       "verified": "2026-09-26",
       "check": {
         "cmd": "python3 - <<'PY'\nimport glob, json\npaths = sorted(glob.glob('data/candidate-pool-*.json'))\nif not paths:\n    print('candidate pool: not-ready (no production pool yet)')\n    raise SystemExit(0)\npath = paths[-1]\ndoc = json.load(open(path, encoding='utf-8'))\nrows = doc.get('candidates') or []\nallowed = {'candidate', 'deduplicated', 'content_blocked', 'eligible', 'recommended'}\nnames = [r.get('full_name') for r in rows]\nproblems = []\nif len(names) != len(set(names)): problems.append('duplicate names')\nfor row in rows:\n    if not row.get('full_name'): problems.append('missing name')\n    if not (row.get('sources') or row.get('source')): problems.append('missing source')\n    if row.get('pool_status') not in allowed: problems.append('bad status')\nprint('candidate pool', path, 'rows', len(rows), 'problems', sorted(set(problems)))\nassert rows and not problems\nPY",
-        "expect": {"regex": "candidate pool: not-ready|candidate pool .* problems \\[\\]"},
+        "expect": {
+          "regex": "candidate pool: not-ready|candidate pool .* problems \\[\\]"
+        },
         "timeout": 60
       }
     },
@@ -228,7 +230,9 @@
       "as_of": "2026-09-26",
       "check": {
         "cmd": "python3 -c \"import re,subprocess,pathlib;out=subprocess.run(['python3','-m','pytest','--collect-only','-q'],capture_output=True,text=True).stdout;got=int(re.search(r'(\\d+) tests? collected', out).group(1));doc=int(re.search(r'(\\d+) tests', pathlib.Path('docs/ROADMAP.md').read_text()).group(1));print('pytest', got, 'roadmap', doc);assert got==doc\"",
-        "expect": {"regex": "pytest \\d+ roadmap \\d+$"},
+        "expect": {
+          "regex": "pytest \\d+ roadmap \\d+$"
+        },
         "timeout": 180
       }
     },
@@ -350,6 +354,40 @@
           "regex": "^toolbar and stats row align on one baseline; chart 80x12 "
         },
         "timeout": 120
+      }
+    },
+    {
+      "id": "picks-never-repeat",
+      "claim": "No repository appears in more than one picks issue, every pick is recorded in the permanent history, and none repeats a repository already recommended in chat.",
+      "value": "0 repeats",
+      "metric": "duplicate full_name across data/picks-*.json, plus picks missing from or colliding with data/picks_history.json",
+      "method": "scripts/picks.py filters candidates against data/picks_history.json, which is never pruned; this receipt re-derives the property from the committed files alone.",
+      "repro": "ls data/picks-*.json",
+      "evidence": "data/picks_history.json",
+      "as_of": "2026-10-16",
+      "check": {
+        "cmd": "python3 - <<'PY'\nimport glob, json\npaths = sorted(glob.glob('data/picks-*.json'))\nhist = json.load(open('data/picks_history.json', encoding='utf-8'))['repos']\nseen, problems = {}, []\nfor path in paths:\n    for p in json.load(open(path, encoding='utf-8'))['picks']:\n        k = p['full_name'].lower()\n        if k in seen: problems.append(f\"{p['full_name']} in {seen[k]} and {path}\")\n        seen[k] = path\n        if p['full_name'] not in hist: problems.append(f\"{p['full_name']} missing from history\")\n        elif hist[p['full_name']].get('source') == 'chat': problems.append(f\"{p['full_name']} repeats a chat pick\")\nprint('picks files', len(paths), 'repos', len(seen), 'problems', problems)\nassert not problems\nPY",
+        "expect": {
+          "regex": "problems \\[\\]$"
+        },
+        "timeout": 60
+      }
+    },
+    {
+      "id": "picks-count-in-range",
+      "claim": "Every picks issue holds 8 to 10 repositories with GitHub URLs, integer star counts, and a growth field that is either a measured snapshot delta or null.",
+      "value": "8-10 per issue",
+      "metric": "len(picks) per data/picks-*.json and the shape of its url, stars and growth fields",
+      "method": "scripts/picks.py publishes an issue only when at least PICKS_MIN verified repositories exist and never substitutes lifetime averages for growth; this receipt checks every committed issue.",
+      "repro": "ls data/picks-*.json",
+      "evidence": "data/picks-*.json",
+      "as_of": "2026-10-16",
+      "check": {
+        "cmd": "python3 - <<'PY'\nimport glob, json\npaths = sorted(glob.glob('data/picks-*.json'))\nproblems = []\nfor path in paths:\n    d = json.load(open(path, encoding='utf-8'))\n    n = len(d['picks'])\n    if not 8 <= n <= 10 or d['count'] != n: problems.append(f'{path}: count {n}')\n    for p in d['picks']:\n        if not p['url'].startswith('https://github.com/'): problems.append(f\"{p['full_name']}: url\")\n        if not isinstance(p['stars'], int): problems.append(f\"{p['full_name']}: stars\")\n        g = p['growth']\n        if g is not None and (g.get('source') != 'star_snapshots' or not isinstance(g.get('stars_gained'), int)):\n            problems.append(f\"{p['full_name']}: growth not measured\")\nprint('picks files', len(paths), 'problems', problems)\nassert not problems\nPY",
+        "expect": {
+          "regex": "problems \\[\\]$"
+        },
+        "timeout": 60
       }
     }
   ]

@@ -85,7 +85,7 @@ Every day it collects signals from 6 data sources, runs them through a smart sco
 | GitHub Search | New & rising | Repos created in the last 7 days with fast star growth |
 | [Hacker News](https://news.ycombinator.com/) | Community picks | GitHub repos from Show HN posts |
 | Rising Detection | Early signal | Repos created in the last 3 days with a fork/star ratio above 0.3 and at most 0.5 — forks as an early usage signal; higher ratios are discarded as fork farms |
-| AI/ML Keyword Sweep | AI focus | GitHub Search over an AI/ML keyword list, 5 keywords per day on a rotating schedule (inspired by [OSSInsight trending/ai](https://ossinsight.io/trending/ai), implemented against the GitHub Search API) |
+| AI/ML Keyword Sweep | AI focus | GitHub Search over an AI/ML keyword list, 5 keywords per day on a rotating schedule, plus 2 semiconductor / industrial-AI keywords per day over repos pushed in the last 30 days (inspired by [OSSInsight trending/ai](https://ossinsight.io/trending/ai), implemented against the GitHub Search API) |
 | [HF Daily Papers](https://huggingface.co/papers) | Research signal | GitHub repos linked from trending Hugging Face papers — we assume paper upvotes lead GitHub stars by days, but no committed measurement backs that lead time yet |
 
 ### Smart Scoring (100 points)
@@ -104,11 +104,22 @@ Every day it collects signals from 6 data sources, runs them through a smart sco
 - **Star fraud detection**: age ≤ 1 day with 1000+ stars, age ≤ 2 days with 2000+ stars, or 1000+ stars/day with an empty description → flagged
 - **Batch fraud detection**: same owner with ≥ 3 repos in one batch, or ≥ 2 repos under 7 days old already past 200 stars → flagged
 - **Content quality**: No description or no README → penalty
-- **Cross-day dedup**: 7-day window, no duplicate recommendations across days (a same-day rerun may repeat a pick)
+- **Cross-day dedup**: 7-day window for the daily report (a same-day rerun may repeat a pick)
+- **Picks never repeat**: a repo that has appeared in a picks issue (or was recommended in chat) is never picked again — see `data/picks_history.json`
+
+### Picks (every 3 days)
+
+Collection still runs daily; every `PICKS_EVERY_DAYS` (3) days `scripts/picks.py` publishes `data/picks-YYYY-MM-DD.json`:
+
+- 8–10 repos (`PICKS_MIN`/`PICKS_MAX`), at least `SEMI_MIN` (2) tagged semiconductor / industrial AI when the pool has them (`semi_min_met` says whether it did); AI-tagged repos rank ahead of untagged ones
+- every pick is re-read from `GET /repos/{owner}/{repo}` right before publishing; missing, archived or disabled repos are dropped
+- facts only: stars, forks, topics, dates and the sources that surfaced it; `growth` is a measured delta from the committed star snapshots, or `null` — never a lifetime average
+- no repeat performers, and no LLM in the pipeline; fewer than 8 verified candidates means no issue that day
+- `picks-never-repeat` and `picks-count-in-range` in `docs/claims.json` re-check every committed issue
 
 ### Email Subscription
 
-- Daily curated repos delivered to your inbox
+- Each picks issue (the same 8–10 repos) is delivered to your inbox; non-picks days send no email
 - Rendered dark-only, with `color-scheme` declared for dark-aware clients (Apple Mail / iOS)
 - Powered by Resend API
 
@@ -245,6 +256,7 @@ github-discovery/
 │   ├── quality.py           # Code quality detection
 │   ├── anti_spam.py         # Anti-spam scoring dimension
 │   ├── dedup.py             # Cross-day deduplication (7-day window)
+│   ├── picks.py             # Picks issue every 3 days (permanent dedup, facts only)
 │   ├── fraud_detection.py   # Batch fraud detection
 │   ├── snapshots.py         # Daily star snapshots (real growth)
 │   ├── verify_scoring.py    # Scoring verification / backtesting
@@ -324,7 +336,7 @@ have since moved.
 
 **Do I need any paid service?** Only for email. `RESEND_API_KEY` sends the digest through Resend; `FIRECRAWL_API_KEY` is optional and only makes GitHub Trending parsing more robust than regex-matching raw HTML. Everything else runs on the GitHub Actions free tier with the default `GITHUB_TOKEN`.
 
-**Will the same repo be recommended every day while it is hot?** No. Cross-day dedup blocks any repo recommended in the previous 7 days, using the history committed at `data/recommend_history.json`; records older than 30 days are cleaned up. The history has to be a committed file because every CI run starts from a fresh checkout with no local state.
+**Will the same repo be recommended every day while it is hot?** No. Picks never repeat a repo (permanent history in `data/picks_history.json`). The daily report's cross-day dedup blocks any repo recommended in the previous 7 days, using the history committed at `data/recommend_history.json`; records older than 30 days are cleaned up. The history has to be a committed file because every CI run starts from a fresh checkout with no local state.
 
 **Can I trust the numbers on the published page?** The page is a build artifact: `scripts/generate_site.py` renders `docs/index.html` from `docs/template.html` plus the committed reports, and the workflow publishes `docs/` to the `gh-pages` branch. The authoritative copies are the committed JSON under `data/`, which is what `verify_scoring.py` reads; the Markdown digests under `output/` are the human-readable copies, and the site reads the JSON first and falls back to those digests. So any claim on the page can be recomputed from a fresh clone.
 
