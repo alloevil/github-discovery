@@ -1,0 +1,356 @@
+{
+ "date": "2026-10-17",
+ "generated_at": "2026-10-17T08:49:46.660313",
+ "pool_size": 87,
+ "source_health": {
+  "trending": {
+   "fetched": 13,
+   "parsed": 13,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 3
+  },
+  "search": {
+   "fetched": 57,
+   "parsed": 57,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 7
+  },
+  "hn": {
+   "fetched": 8,
+   "parsed": 8,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 2,
+   "parsed": 2,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 22,
+   "parsed": 22,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  }
+ },
+ "new": [
+  {
+   "full_name": "xerj-org/xerj",
+   "url": "https://github.com/xerj-org/xerj",
+   "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
+   "language": "Rust",
+   "stars": 7235,
+   "forks": 372,
+   "age_days": 109,
+   "daily_stars": 66.37614678899082,
+   "real_daily_stars": 1086.0,
+   "watchers": 20,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "ruvnet/ruflo",
+   "url": "https://github.com/ruvnet/ruflo",
+   "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+   "language": "TypeScript",
+   "stars": 75767,
+   "forks": 8976,
+   "age_days": 501,
+   "daily_stars": 151.2315369261477,
+   "real_daily_stars": 415.0,
+   "watchers": 466,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 98,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "Tencent-Hunyuan/Hy-Memory",
+   "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
+   "description": "",
+   "language": "Python",
+   "stars": 459,
+   "forks": 45,
+   "age_days": 1,
+   "daily_stars": 459.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "anujasid/mcp-for-blender-pro",
+   "url": "https://github.com/anujasid/mcp-for-blender-pro",
+   "description": "AI assistant and MCP server for Blender: visual chat, scene tools, model selection, multi-agent workflows. Works with OpenAI, Claude, Gemini, Ollama and OpenCode. Blender AI automation, bpy scripting, 3D modeling, geometry nodes and MCP integration.",
+   "language": "Python",
+   "stars": 340,
+   "forks": 0,
+   "age_days": 1,
+   "daily_stars": 340.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "OpenMOSS/MOSS-Image",
+   "url": "https://github.com/OpenMOSS/MOSS-Image",
+   "description": "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning.",
+   "language": "Python",
+   "stars": 325,
+   "forks": 12,
+   "age_days": 1,
+   "daily_stars": 325.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "zgcagi/Harness-RSI",
+   "url": "https://github.com/zgcagi/Harness-RSI",
+   "description": "Harness self-evolution: update targets, theory, evaluation, and reported evidence. Bilingual reading list and project website.",
+   "language": "TeX",
+   "stars": 144,
+   "forks": 0,
+   "age_days": 15,
+   "daily_stars": 9.6,
+   "real_daily_stars": 125.0,
+   "watchers": 1,
+   "source": "hf-papers",
+   "sources": [
+    "hf-papers"
+   ],
+   "license": "CC-BY-4.0",
+   "hf_title": "Self-Evolving Agent Harness",
+   "hf_upvotes": 194,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "Leonxlnx/earshot",
+   "url": "https://github.com/Leonxlnx/earshot",
+   "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+   "language": "Python",
+   "stars": 445,
+   "forks": 27,
+   "age_days": 2,
+   "daily_stars": 222.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "AjncSystem/ShadowOfTheColossus-PC",
+   "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC",
+   "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
+   "language": "C++",
+   "stars": 910,
+   "forks": 40,
+   "age_days": 4,
+   "daily_stars": 227.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 14
+   }
+  },
+  {
+   "full_name": "threerocks/sweety-handdraw-video",
+   "url": "https://github.com/threerocks/sweety-handdraw-video",
+   "description": "从主题或文章制作完整手绘讲解视频：按部位描线、逐字书写、VoiceStudio 配音、五项内置制作依赖。",
+   "language": "JavaScript",
+   "stars": 656,
+   "forks": 124,
+   "age_days": 4,
+   "daily_stars": 164.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "reason-machines/reason-network",
+   "url": "https://github.com/reason-machines/reason-network",
+   "description": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
+   "language": "Rust",
+   "stars": 125,
+   "forks": 13,
+   "age_days": 1,
+   "daily_stars": 125.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "description": "Cursor plugin specification and official plugins",
+   "language": "TypeScript",
+   "stars": 12117,
+   "forks": 1176,
+   "age_days": 267,
+   "daily_stars": 45.38202247191011,
+   "real_daily_stars": 379.0,
+   "watchers": 59,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 95,
+    "acceleration": 39,
+    "quality": 26,
+    "antispam": 30,
+    "quality_bonus": 17
+   }
+  }
+ ]
+}

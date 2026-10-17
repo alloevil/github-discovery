@@ -226,41 +226,6 @@
       ],
       "last_recommended": "2026-10-03T10:04:21.049336+00:00"
     },
-    "tonhowtf/omniget": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-16T09:32:40.842137+00:00"
-    },
-    "letorig/video-generator-client": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-16T09:32:40.843944+00:00"
-    },
-    "pacifio/atlas": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-09-16T09:32:40.845521+00:00"
-    },
-    "opencoredev/bg0": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-16T09:32:40.847096+00:00"
-    },
-    "zgcagi/ZGCM-1": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-16T09:32:40.848680+00:00"
-    },
     "earendil-works/pi": {
       "count": 2,
       "scores": [
@@ -268,34 +233,6 @@
         93
       ],
       "last_recommended": "2026-10-02T10:45:25.822448+00:00"
-    },
-    "AetherLabsAI/RSIAgent": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-09-16T09:32:40.852018+00:00"
-    },
-    "ai-sucks-butt/ai-sucks-butt": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-09-16T09:32:40.853659+00:00"
-    },
-    "LynnReal-AI/LynnReal-Omni": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-09-16T09:32:40.855300+00:00"
-    },
-    "MiaAI-Lab/DeepSeek-v4.1-Flash-EXL3-2x-DGX-Sparks": {
-      "count": 1,
-      "scores": [
-        85
-      ],
-      "last_recommended": "2026-09-16T09:32:40.856929+00:00"
     },
     "arnegiacomo/fugleramme": {
       "count": 1,
@@ -1465,11 +1402,12 @@
       "last_recommended": "2026-10-03T10:04:21.036513+00:00"
     },
     "cursor/plugins": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        91
+        91,
+        95
       ],
-      "last_recommended": "2026-10-03T10:04:21.038639+00:00"
+      "last_recommended": "2026-10-17T08:49:46.656587+00:00"
     },
     "kitao/pyxel": {
       "count": 1,
@@ -2334,7 +2272,77 @@
         88
       ],
       "last_recommended": "2026-10-16T09:19:03.648968+00:00"
+    },
+    "xerj-org/xerj": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-17T08:49:46.634978+00:00"
+    },
+    "ruvnet/ruflo": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-10-17T08:49:46.637345+00:00"
+    },
+    "Tencent-Hunyuan/Hy-Memory": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-17T08:49:46.639472+00:00"
+    },
+    "anujasid/mcp-for-blender-pro": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-17T08:49:46.641632+00:00"
+    },
+    "OpenMOSS/MOSS-Image": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-17T08:49:46.643776+00:00"
+    },
+    "zgcagi/Harness-RSI": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-10-17T08:49:46.645890+00:00"
+    },
+    "Leonxlnx/earshot": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-10-17T08:49:46.648008+00:00"
+    },
+    "AjncSystem/ShadowOfTheColossus-PC": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-17T08:49:46.650202+00:00"
+    },
+    "threerocks/sweety-handdraw-video": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-17T08:49:46.652325+00:00"
+    },
+    "reason-machines/reason-network": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-17T08:49:46.654458+00:00"
     }
   },
-  "updated_at": "2026-10-16T09:19:03.659051+00:00"
+  "updated_at": "2026-10-17T08:49:46.656626+00:00"
 }

@@ -1,82 +1,5 @@
 {
  "repos": {
-  "Edwardxlai/easyread": {
-   "first_seen": "2026-10-02",
-   "until": "2026-10-16",
-   "stars_at_discovery": 564,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "CopilotKit/OpenDots": {
-   "first_seen": "2026-10-02",
-   "until": "2026-10-16",
-   "stars_at_discovery": 839,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "firebase/firebase-ios-sdk": {
-   "first_seen": "2026-10-02",
-   "until": "2026-10-16",
-   "stars_at_discovery": 6910,
-   "score_at_discovery": 93,
-   "source_at_discovery": "trending"
-  },
-  "KKKKhazix/AIHOT": {
-   "first_seen": "2026-10-02",
-   "until": "2026-10-16",
-   "stars_at_discovery": 4878,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "rehan-remade/universal-modder": {
-   "first_seen": "2026-10-02",
-   "until": "2026-10-16",
-   "stars_at_discovery": 1757,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "amywork777/lipflow": {
-   "first_seen": "2026-10-02",
-   "until": "2026-10-16",
-   "stars_at_discovery": 308,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "1molchuan/edge-smart-doh": {
-   "first_seen": "2026-10-02",
-   "until": "2026-10-16",
-   "stars_at_discovery": 110,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "luxine/CalcKernel": {
-   "first_seen": "2026-10-02",
-   "until": "2026-10-16",
-   "stars_at_discovery": 210,
-   "score_at_discovery": 87,
-   "source_at_discovery": "search"
-  },
-  "strands-labs/strands-decider": {
-   "first_seen": "2026-10-02",
-   "until": "2026-10-16",
-   "stars_at_discovery": 114,
-   "score_at_discovery": 86,
-   "source_at_discovery": "ai-trending"
-  },
-  "d4ncboz/museai": {
-   "first_seen": "2026-10-02",
-   "until": "2026-10-16",
-   "stars_at_discovery": 112,
-   "score_at_discovery": 86,
-   "source_at_discovery": "ai-trending"
-  },
-  "earendil-works/pi": {
-   "first_seen": "2026-10-02",
-   "until": "2026-10-16",
-   "stars_at_discovery": 111532,
-   "score_at_discovery": 93,
-   "source_at_discovery": "trending"
-  },
   "pablostanley/yoinks": {
    "first_seen": "2026-10-03",
    "until": "2026-10-17",
@@ -1105,7 +1028,77 @@
    "stars_at_discovery": 300263,
    "score_at_discovery": 90,
    "source_at_discovery": "trending"
+  },
+  "xerj-org/xerj": {
+   "first_seen": "2026-10-17",
+   "until": "2026-10-31",
+   "stars_at_discovery": 7235,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "ruvnet/ruflo": {
+   "first_seen": "2026-10-17",
+   "until": "2026-10-31",
+   "stars_at_discovery": 75767,
+   "score_at_discovery": 98,
+   "source_at_discovery": "trending"
+  },
+  "Tencent-Hunyuan/Hy-Memory": {
+   "first_seen": "2026-10-17",
+   "until": "2026-10-31",
+   "stars_at_discovery": 459,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "anujasid/mcp-for-blender-pro": {
+   "first_seen": "2026-10-17",
+   "until": "2026-10-31",
+   "stars_at_discovery": 340,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "OpenMOSS/MOSS-Image": {
+   "first_seen": "2026-10-17",
+   "until": "2026-10-31",
+   "stars_at_discovery": 325,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "zgcagi/Harness-RSI": {
+   "first_seen": "2026-10-17",
+   "until": "2026-10-31",
+   "stars_at_discovery": 144,
+   "score_at_discovery": 93,
+   "source_at_discovery": "hf-papers"
+  },
+  "Leonxlnx/earshot": {
+   "first_seen": "2026-10-17",
+   "until": "2026-10-31",
+   "stars_at_discovery": 445,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "AjncSystem/ShadowOfTheColossus-PC": {
+   "first_seen": "2026-10-17",
+   "until": "2026-10-31",
+   "stars_at_discovery": 910,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "threerocks/sweety-handdraw-video": {
+   "first_seen": "2026-10-17",
+   "until": "2026-10-31",
+   "stars_at_discovery": 656,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "reason-machines/reason-network": {
+   "first_seen": "2026-10-17",
+   "until": "2026-10-31",
+   "stars_at_discovery": 125,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-10-16T09:23:32.518037+00:00"
+ "updated_at": "2026-10-17T08:52:56.394447+00:00"
 }
