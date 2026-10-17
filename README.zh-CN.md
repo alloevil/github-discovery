@@ -85,7 +85,7 @@ GitHub Discovery 告诉你什么**即将火起来**——增长曲线异常的�
 | GitHub Search | 新晋上升 | 最近 7 天创建、星标增长迅猛的仓库 |
 | [Hacker News](https://news.ycombinator.com/) | 社区精选 | Show HN 帖子中出现的 GitHub 仓库 |
 | Rising Detection | 早期信号 | 最近 3 天创建、fork/star 比大于 0.3 且不超过 0.5 的仓库——fork 作为真实使用的早期信号；比率更高的按 fork farm 直接排除 |
-| AI/ML 关键词轮扫 | AI 方向 | 用一组 AI/ML 关键词扫 GitHub Search，每天轮换 5 个词（思路来自 [OSSInsight trending/ai](https://ossinsight.io/trending/ai)，实现走的是 GitHub Search API） |
+| AI/ML 关键词轮扫 | AI 方向 | 用一组 AI/ML 关键词扫 GitHub Search，每天轮换 5 个词，另加每天 2 个半导体/工业 AI 关键词（看近 30 天有推送的仓库）（思路来自 [OSSInsight trending/ai](https://ossinsight.io/trending/ai)，实现走的是 GitHub Search API） |
 | [HF Daily Papers](https://huggingface.co/papers) | 研究信号 | Hugging Face 热门论文关联的 GitHub 仓库——我们假设论文点赞领先 GitHub 星标几天，但仓库里还没有可提交的测量来支撑这个领先时间 |
 
 ### 智能评分（满分 100 分）
@@ -104,11 +104,22 @@ GitHub Discovery 告诉你什么**即将火起来**——增长曲线异常的�
 - **刷星检测**：年龄 ≤ 1 天且 1000+ 星、年龄 ≤ 2 天且 2000+ 星，或日增 1000+ 星且描述为空 → 标记
 - **批量刷量检测**：同一作者一批里出现 ≥ 3 个仓库，或 ≥ 2 个上线不足 7 天的仓库已过 200 星 → 标记
 - **内容质量**：没有描述或没有 README → 扣分
-- **跨日去重**：7 天窗口内跨天不重复推荐（同日重跑可能重复选到同一个仓库）
+- **跨日去重**：每日报告 7 天窗口内跨天不重复推荐（同日重跑可能重复选到同一个仓库）
+- **推荐期永不重复**：进过推荐期（或在聊天里推过）的仓库永不再推，见 `data/picks_history.json`
+
+### 推荐期（每 3 天一期）
+
+采集仍是每天一次；每 `PICKS_EVERY_DAYS`（3）天，`scripts/picks.py` 发布一期 `data/picks-YYYY-MM-DD.json`：
+
+- 每期 8–10 个（`PICKS_MIN`/`PICKS_MAX`），候选里有的话至少 `SEMI_MIN`（2）个半导体/工业 AI 仓库（是否达标见 `semi_min_met`）；带 AI 标签的排在无主题的前面
+- 发布前逐个用 `GET /repos/{owner}/{repo}` 重新读取，不存在、已归档或已禁用的剔除
+- 只放事实：star、fork、topics、日期和发现它的数据源；`growth` 是按已提交 star 快照算出的实测增量，拿不到就是 `null`，绝不用终身平均值顶替
+- 不带 repeat，流程里不接大模型；核实后不足 8 个当天就不出刊
+- `docs/claims.json` 里的 `picks-never-repeat` 和 `picks-count-in-range` 会复核每一期
 
 ### 邮件订阅
 
-- 每日精选仓库直达你的收件箱
+- 每期推荐（同一份 8–10 个）直达你的收件箱；非推荐日不发邮件
 - 只渲染深色版本，并声明 `color-scheme` 供支持深色的客户端使用（Apple Mail / iOS）
 - 基于 Resend API 发送
 
@@ -198,6 +209,7 @@ github-discovery/
 │   ├── quality.py           # Code quality detection
 │   ├── anti_spam.py         # Anti-spam scoring dimension
 │   ├── dedup.py             # Cross-day deduplication (7-day window)
+│   ├── picks.py             # Picks issue every 3 days (permanent dedup, facts only)
 │   ├── fraud_detection.py   # Batch fraud detection
 │   ├── snapshots.py         # Daily star snapshots (real growth)
 │   ├── verify_scoring.py    # Scoring verification / backtesting
@@ -274,7 +286,7 @@ python scripts/verify_scoring.py --days 30
 
 **需要付费服务吗？** 只有邮件需要。`RESEND_API_KEY` 用于通过 Resend 发送日报；`FIRECRAWL_API_KEY` 是可选的，只是让 GitHub Trending 的解析比正则匹配原始 HTML 更健壮。其余部分都跑在 GitHub Actions 免费额度上，用默认的 `GITHUB_TOKEN` 即可。
 
-**一个仓库火着的时候会天天被推荐吗？** 不会。跨日去重会拦掉过去 7 天内推荐过的仓库，依据是提交在 `data/recommend_history.json` 里的推荐历史，超过 30 天的记录会被清理。这份历史必须是提交进仓库的文件，因为每次 CI 都是全新 checkout，没有任何本地状态。
+**一个仓库火着的时候会天天被推荐吗？** 不会。推荐期永不重复推同一个仓库（永久历史见 `data/picks_history.json`）；每日报告的跨日去重会拦掉过去 7 天内推荐过的仓库，依据是提交在 `data/recommend_history.json` 里的推荐历史，超过 30 天的记录会被清理。这份历史必须是提交进仓库的文件，因为每次 CI 都是全新 checkout，没有任何本地状态。
 
 **网页上的数字可信吗？** 网页是构建产物：`scripts/generate_site.py` 用 `docs/template.html` 加上已提交的报告渲染出 `docs/index.html`，工作流再把整个 `docs/` 发布到 `gh-pages` 分支。真正权威的是提交在 `data/` 下的 JSON，`verify_scoring.py` 读的就是它；`output/` 下的 Markdown 日报是给人看的副本，站点优先读 JSON、读不到才回退到日报。所以网页上的任何结论都能在全新 clone 上重算一遍。
 

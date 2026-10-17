@@ -27,6 +27,9 @@ from quality import check_quality, check_star_authenticity, is_blocked_content
 from fraud_detection import detect_batch_fraud, apply_fraud_penalty
 from snapshots import record_snapshots, get_growth
 from watchlist import add_discoveries
+import picks as picks_mod
+from sources import _gh_api
+from snapshots import _load as load_snapshots
 
 
 def get_subscribers() -> list[str]:
@@ -586,7 +589,24 @@ def main():
     # been sent (or benignly skipped). If the email fails, we exit non-zero
     # without writing the marker, so the next scheduled run retries.
     date_str = datetime.now().strftime("%Y-%m-%d")
-    email_result = send_digest_email(date_str, top_new)
+
+    # ── 推荐期（picks）：每 PICKS_EVERY_DAYS 天一期，邮件和聊天共用这一份 ──
+    # 非推荐日只采集（报告/站点/快照照常），不发邮件。
+    chosen = []
+    if picks_mod.is_picks_day():
+        ordered = picks_mod.select_candidates(scored)
+        chosen = picks_mod.verify_picks(ordered, _gh_api)
+        if len(chosen) < picks_mod.PICKS_MIN:
+            print(f"[Picks] only {len(chosen)} verified candidates (< {picks_mod.PICKS_MIN}); "
+                  "no picks issue today, no email.")
+            chosen = []
+    else:
+        print("[Picks] not a picks day — collect only, no email.")
+
+    if chosen:
+        email_result = send_digest_email(date_str, chosen)
+    else:
+        email_result = "skipped"
     if email_result == "failed":
         print("[ERROR] Email send failed — not writing today's report so the "
               "next run retries. Exiting non-zero to flag the failure.")
@@ -598,6 +618,11 @@ def main():
     with open(out_path, "w") as f:
         f.write(md)
     print(f"\n[Saved] Report written to {out_path}")
+
+    if chosen:
+        picks_path = picks_mod.write_picks(date_str, chosen, load_snapshots())
+        picks_mod.record_picks([r for r, _ in chosen], date_str)
+        print(f"[Saved] Picks written to {picks_path}")
 
     # Persist source health only after ranking, dedup and recommendation selection are complete.
     set_source_recommendations([repo for repo, _scores in top_new + top_repeat])

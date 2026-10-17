@@ -388,8 +388,11 @@ class TestAITrendingRotation:
     @patch("time.sleep")
     @patch("sources._gh_api", return_value={"items": []})
     def test_uses_five_keywords_per_day(self, mock_api, mock_sleep):
+        """5 个 AI 关键词（近 7 天新建）+ 2 个半导体/工业关键词（近 30 天有推送）。"""
         sources.fetch_ai_trending()
-        assert mock_api.call_count == 5
+        qs = [c.args[1]["q"] for c in mock_api.call_args_list]
+        assert sum("created:>" in q for q in qs) == 5
+        assert sum("pushed:>" in q for q in qs) == 2
 
     @patch("time.sleep")
     @patch("sources._gh_api", return_value={"items": []})

@@ -501,6 +501,28 @@ def fetch_ai_trending() -> list[dict]:
             print(f"  [WARN] AI trending error for {keyword}: {e}")
             continue
     
+    # 半导体/工业 AI：这个领域涨得慢，"近 7 天新建"几乎捞不到，所以改看近 30 天
+    # 有推送、star 过百的仓库。仍属于 ai-trending 这一个数据源（不新增 fetcher）。
+    semi_keywords = [
+        "chip design", "verilog", "systemverilog", "fpga", "rtl", "eda",
+        "semiconductor", "risc-v", "formal verification", "industrial ai",
+        "predictive maintenance", "plc",
+    ]
+    s_start = (day * 2) % len(semi_keywords)
+    pushed_from = (datetime.now(timezone.utc) - timedelta(days=30)).strftime('%Y-%m-%d')
+    for keyword in [semi_keywords[(s_start + i) % len(semi_keywords)] for i in range(2)]:
+        try:
+            data = _gh_api("/search/repositories", {
+                "q": f'"{keyword}" pushed:>{pushed_from} stars:>100',
+                "sort": "stars", "order": "desc", "per_page": 10,
+            })
+            if data and "items" in data:
+                for repo in data["items"]:
+                    all_repos.append(_normalize_repo(repo))
+            time.sleep(API_DELAY)
+        except Exception as e:
+            print(f"  [WARN] semi sweep error for {keyword}: {e}")
+
     # 去重
     seen = set()
     unique = []
@@ -513,4 +535,4 @@ def fetch_ai_trending() -> list[dict]:
     unique.sort(key=lambda x: x.get("stars", 0), reverse=True)
     
     print(f"[AI Trending] {len(unique)} repos")
-    return unique[:30]  # 返回前 30 个
+    return unique[:40]  # 返回前 40 个（含半导体扫描）
