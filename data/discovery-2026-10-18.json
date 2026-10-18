@@ -1,0 +1,354 @@
+{
+ "date": "2026-10-18",
+ "generated_at": "2026-10-18T09:06:05.782437",
+ "pool_size": 75,
+ "source_health": {
+  "trending": {
+   "fetched": 13,
+   "parsed": 13,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 5
+  },
+  "search": {
+   "fetched": 56,
+   "parsed": 56,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 5
+  },
+  "hn": {
+   "fetched": 5,
+   "parsed": 5,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 1,
+   "parsed": 1,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 22,
+   "parsed": 22,
+   "rejected": 0,
+   "deduplicated": 2,
+   "recommended": 1
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "MadsLorentzen/ai-job-search",
+   "url": "https://github.com/MadsLorentzen/ai-job-search",
+   "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+   "language": "Python",
+   "stars": 51130,
+   "forks": 17022,
+   "age_days": 213,
+   "daily_stars": 240.04694835680752,
+   "real_daily_stars": 2167.0,
+   "watchers": 187,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "aicodeking/leanrea",
+   "url": "https://github.com/aicodeking/leanrea",
+   "description": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
+   "language": "Python",
+   "stars": 509,
+   "forks": 93,
+   "age_days": 1,
+   "daily_stars": 509.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 2,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "android/skills",
+   "url": "https://github.com/android/skills",
+   "description": "",
+   "language": "Kotlin",
+   "stars": 8554,
+   "forks": 559,
+   "age_days": 215,
+   "daily_stars": 39.78604651162791,
+   "real_daily_stars": 367.0,
+   "watchers": 92,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 96,
+    "acceleration": 39,
+    "quality": 27,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "LiCinCan/blender-ai-mcp-addon",
+   "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
+   "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.",
+   "language": "Python",
+   "stars": 688,
+   "forks": 237,
+   "age_days": 2,
+   "daily_stars": 344.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+   "language": "TypeScript",
+   "stars": 95795,
+   "forks": 6128,
+   "age_days": 215,
+   "daily_stars": 445.5581395348837,
+   "watchers": 148,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "rohit267/net-merge",
+   "url": "https://github.com/rohit267/net-merge",
+   "description": "Use all your network adapters at once on Windows/Linux/Mac: per-connection load balancing over Wi-Fi, Ethernet and phone/USB tethers (TUN + Wintun)",
+   "language": "Go",
+   "stars": 909,
+   "forks": 34,
+   "age_days": 5,
+   "daily_stars": 181.8,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "c22dev/mush8",
+   "url": "https://github.com/c22dev/mush8",
+   "description": "A native Mach-O iOS/macOS port of Mario Kart 8 Deluxe, with LAN, online and wireless multiplayer",
+   "language": "Rust",
+   "stars": 110,
+   "forks": 25,
+   "age_days": 1,
+   "daily_stars": 110.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "anomalyco/opencode",
+   "url": "https://github.com/anomalyco/opencode",
+   "description": "The open source coding agent.",
+   "language": "TypeScript",
+   "stars": 215795,
+   "forks": 28905,
+   "age_days": 535,
+   "daily_stars": 403.3551401869159,
+   "real_daily_stars": 251.0344827586207,
+   "watchers": 830,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "xscreensaver-official/xscreensaver",
+   "url": "https://github.com/xscreensaver-official/xscreensaver",
+   "description": "There is no official XScreenSaver GitHub repository.",
+   "language": "",
+   "stars": 782,
+   "forks": 21,
+   "age_days": 1,
+   "daily_stars": 782.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 86,
+    "acceleration": 36,
+    "quality": 20,
+    "antispam": 30,
+    "quality_bonus": 12
+   }
+  },
+  {
+   "full_name": "justxor/deepseek-local-guide-ru",
+   "url": "https://github.com/justxor/deepseek-local-guide-ru",
+   "description": "🐋 Полный гайд на русском: как установить и запустить DeepSeek локально (V4, R1) на ПК, Mac и сервере — Ollama, llama.cpp, LM Studio, vLLM, Open WebUI, API, RAG, агенты, fine-tuning, лучшие фишки",
+   "language": "Shell",
+   "stars": 68,
+   "forks": 11,
+   "age_days": 1,
+   "daily_stars": 68.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "language": "TypeScript",
+   "stars": 152168,
+   "forks": 26948,
+   "age_days": 602,
+   "daily_stars": 252.77076411960132,
+   "real_daily_stars": 861.0,
+   "watchers": 930,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ]
+}

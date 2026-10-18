@@ -67,13 +67,14 @@
       "last_recommended": "2026-10-05T11:52:06.022884+00:00"
     },
     "anthropics/claude-code": {
-      "count": 3,
+      "count": 4,
       "scores": [
         87,
         68,
-        70
+        70,
+        100
       ],
-      "last_recommended": "2026-10-04T10:47:01.105177+00:00"
+      "last_recommended": "2026-10-18T09:06:05.779332+00:00"
     },
     "rohitg00/ai-engineering-from-scratch": {
       "count": 3,
@@ -233,76 +234,6 @@
         93
       ],
       "last_recommended": "2026-10-02T10:45:25.822448+00:00"
-    },
-    "arnegiacomo/fugleramme": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-17T09:41:05.505416+00:00"
-    },
-    "rlaope/oh-my-hermes": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-09-17T09:41:05.506851+00:00"
-    },
-    "saragordic/window-sweaters": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-17T09:41:05.515676+00:00"
-    },
-    "theoephraim/awesome-cloudflare-selfhosted": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-17T09:41:05.516930+00:00"
-    },
-    "jarrodwatts/jev-trader": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-17T09:41:05.518152+00:00"
-    },
-    "Lakr233/vphone-cli": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-17T09:41:05.519420+00:00"
-    },
-    "browser-use/jev-ultrafast": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-17T09:41:05.520622+00:00"
-    },
-    "korcarc/text-humanizer": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-17T09:41:05.547255+00:00"
-    },
-    "Eurekaleo/awesome-ai-for-games": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-17T09:41:05.548503+00:00"
-    },
-    "vinnylarouge/jevlike": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-17T09:41:05.549723+00:00"
     },
     "cloudflare/security-audit-skill": {
       "count": 2,
@@ -2342,7 +2273,77 @@
         89
       ],
       "last_recommended": "2026-10-17T08:49:46.654458+00:00"
+    },
+    "MadsLorentzen/ai-job-search": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-18T09:06:05.760987+00:00"
+    },
+    "aicodeking/leanrea": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-18T09:06:05.763168+00:00"
+    },
+    "android/skills": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-18T09:06:05.764980+00:00"
+    },
+    "LiCinCan/blender-ai-mcp-addon": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-18T09:06:05.766752+00:00"
+    },
+    "stablyai/orca": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-18T09:06:05.768567+00:00"
+    },
+    "rohit267/net-merge": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-18T09:06:05.770386+00:00"
+    },
+    "c22dev/mush8": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-18T09:06:05.772196+00:00"
+    },
+    "anomalyco/opencode": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-10-18T09:06:05.773977+00:00"
+    },
+    "xscreensaver-official/xscreensaver": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-10-18T09:06:05.775742+00:00"
+    },
+    "justxor/deepseek-local-guide-ru": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-10-18T09:06:05.777531+00:00"
     }
   },
-  "updated_at": "2026-10-17T08:49:46.656626+00:00"
+  "updated_at": "2026-10-18T09:06:05.779354+00:00"
 }
