@@ -3,69 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "affaan-m/ECC",
-   "stars": 282831,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "anomalyco/opencode",
-   "stars": 215795,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "anthropics/claude-code",
-   "stars": 152168,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "stablyai/orca",
-   "stars": 95795,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "ruvnet/ruflo",
-   "stars": 76238,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "debpalash/VoiceStudio",
-   "stars": 73979,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "HKUDS/CLI-Anything",
-   "stars": 54257,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "K-Dense-AI/scientific-agent-skills",
-   "stars": 52473,
-   "language": "Python"
-  },
-  {
-   "full_name": "MadsLorentzen/ai-job-search",
-   "stars": 51130,
-   "language": "Python"
-  },
-  {
-   "full_name": "anthropics/claude-plugins-official",
-   "stars": 42147,
-   "language": "Python"
-  },
-  {
-   "full_name": "akitaonrails/ai-memory",
-   "stars": 10125,
-   "language": "Rust"
-  },
-  {
-   "full_name": "android/skills",
-   "stars": 8554,
-   "language": "Kotlin"
-  },
-  {
-   "full_name": "xerj-org/xerj",
-   "stars": 8069,
-   "language": "Rust"
   }
  ]
 }

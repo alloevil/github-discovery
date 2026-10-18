@@ -48153,10 +48153,10 @@
    },
    {
     "date": "2026-10-18",
-    "stars": 1644,
-    "forks": 1929,
+    "stars": 1650,
+    "forks": 1939,
     "open_issues": 12,
-    "commits_7d": 17,
+    "commits_7d": 16,
     "contributors_7d": 16,
     "pushed_at": "2026-10-14T07:52:45Z"
    }
@@ -48668,12 +48668,12 @@
    },
    {
     "date": "2026-10-18",
-    "stars": 4599,
-    "forks": 547,
-    "open_issues": 788,
+    "stars": 4832,
+    "forks": 576,
+    "open_issues": 866,
     "commits_7d": 100,
-    "contributors_7d": 92,
-    "pushed_at": "2026-10-18T08:54:26Z"
+    "contributors_7d": 94,
+    "pushed_at": "2026-10-18T12:46:50Z"
    }
   ],
   "reason-machines/reason-network": [
@@ -48759,9 +48759,9 @@
   "LiCinCan/blender-ai-mcp-addon": [
    {
     "date": "2026-10-18",
-    "stars": 689,
-    "forks": 238,
-    "open_issues": 0,
+    "stars": 727,
+    "forks": 316,
+    "open_issues": 5,
     "commits_7d": 1,
     "contributors_7d": 1,
     "pushed_at": "2026-10-17T09:46:44Z"
@@ -48856,5 +48856,5 @@
    }
   ]
  },
- "updated_at": "2026-10-18T09:08:41.959673+00:00"
+ "updated_at": "2026-10-18T12:47:11.554625+00:00"
 }
