@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-17T18:00:00Z</updated>
+  <updated>2026-10-18T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>MadsLorentzen/ai-job-search — The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.</title>
+    <id>https://github.com/MadsLorentzen/ai-job-search#2026-10-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/MadsLorentzen/ai-job-search"/>
+    <updated>2026-10-18T18:00:00Z</updated>
+    <published>2026-10-18T18:00:00Z</published>
+    <summary>The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.
+
+Why: +2167/day · Trending · 9.0x accelerating
+Score: 100/100 | Language: Python | ⭐ 51130 (+2167.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>aicodeking/leanrea — One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.</title>
+    <id>https://github.com/aicodeking/leanrea#2026-10-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/aicodeking/leanrea"/>
+    <updated>2026-10-18T18:00:00Z</updated>
+    <published>2026-10-18T18:00:00Z</published>
+    <summary>One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.
+
+Why: +509/day · Search
+Score: 96/100 | Language: Python | ⭐ 509 (+509.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>android/skills — No description</title>
+    <id>https://github.com/android/skills#2026-10-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/android/skills"/>
+    <updated>2026-10-18T18:00:00Z</updated>
+    <published>2026-10-18T18:00:00Z</published>
+    <summary>No description
+
+Why: +367/day · Trending · 9.2x accelerating
+Score: 96/100 | Language: Kotlin | ⭐ 8554 (+367.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>LiCinCan/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.</title>
+    <id>https://github.com/LiCinCan/blender-ai-mcp-addon#2026-10-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/LiCinCan/blender-ai-mcp-addon"/>
+    <updated>2026-10-18T18:00:00Z</updated>
+    <published>2026-10-18T18:00:00Z</published>
+    <summary>AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.
+
+Why: +344/day · Search
+Score: 94/100 | Language: Python | ⭐ 688 (+344.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>stablyai/orca — Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.</title>
+    <id>https://github.com/stablyai/orca#2026-10-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/stablyai/orca"/>
+    <updated>2026-10-18T18:00:00Z</updated>
+    <published>2026-10-18T18:00:00Z</published>
+    <summary>Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.
+
+Why: +446/day · Trending
+Score: 89/100 | Language: TypeScript | ⭐ 95795 (+445.6/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</title>
+    <id>https://github.com/anthropics/claude-code#2026-10-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code"/>
+    <updated>2026-10-18T18:00:00Z</updated>
+    <published>2026-10-18T18:00:00Z</published>
+    <summary>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
+
+Why: +861/day · Trending · 3.4x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 152168 (+861.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>xerj-org/xerj — XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.</title>
     <id>https://github.com/xerj-org/xerj#2026-10-17</id>
@@ -954,93 +1020,5 @@ Score: 86/100 | Language: JavaScript | ⭐ 100959 (+234.2/day) | Source: trendin
 
 Why: +188/day · Trending
 Score: 70/100 | Language: TypeScript | ⭐ 149342 (+188.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>pablostanley/yoinks — yoink any video from your terminal. no shady ads.</title>
-    <id>https://github.com/pablostanley/yoinks#2026-10-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/pablostanley/yoinks"/>
-    <updated>2026-10-03T18:00:00Z</updated>
-    <published>2026-10-03T18:00:00Z</published>
-    <summary>yoink any video from your terminal. no shady ads.
-
-Why: +500/day · Trending · 10.8x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 3670 (+500.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>CAPCOM-TD-OSS/REDox — High-performance, token-based structured data engine for .NET. A core component of REX, the technology behind CAPCOM's next-generation game engine.</title>
-    <id>https://github.com/CAPCOM-TD-OSS/REDox#2026-10-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/CAPCOM-TD-OSS/REDox"/>
-    <updated>2026-10-03T18:00:00Z</updated>
-    <published>2026-10-03T18:00:00Z</published>
-    <summary>High-performance, token-based structured data engine for .NET. A core component of REX, the technology behind CAPCOM's next-generation game engine.
-
-Why: +458/day · Search
-Score: 96/100 | Language: C# | ⭐ 915 (+457.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>facebookincubator/muse-gadget-sdk — Open source SDK to build Muse gadgets</title>
-    <id>https://github.com/facebookincubator/muse-gadget-sdk#2026-10-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/facebookincubator/muse-gadget-sdk"/>
-    <updated>2026-10-03T18:00:00Z</updated>
-    <published>2026-10-03T18:00:00Z</published>
-    <summary>Open source SDK to build Muse gadgets
-
-Why: +499/day · Search
-Score: 96/100 | Language: C | ⭐ 499 (+499.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>chasmlol/SkyCraft — Play Skyrim as a Minecraft player: Minecraft physics, inventory, blocks and combat inside Skyrim's world (SKSE plugin + Fabric mod).</title>
-    <id>https://github.com/chasmlol/SkyCraft#2026-10-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/chasmlol/SkyCraft"/>
-    <updated>2026-10-03T18:00:00Z</updated>
-    <published>2026-10-03T18:00:00Z</published>
-    <summary>Play Skyrim as a Minecraft player: Minecraft physics, inventory, blocks and combat inside Skyrim's world (SKSE plugin + Fabric mod).
-
-Why: +310/day · Search
-Score: 94/100 | Language: C++ | ⭐ 619 (+309.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>kvoltmer/Audionaut — Audionaut professional audio editing and audio recording</title>
-    <id>https://github.com/kvoltmer/Audionaut#2026-10-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/kvoltmer/Audionaut"/>
-    <updated>2026-10-03T18:00:00Z</updated>
-    <published>2026-10-03T18:00:00Z</published>
-    <summary>Audionaut professional audio editing and audio recording
-
-Why: +151/day · HN · 1215.2x accelerating
-Score: 94/100 | Language: C++ | ⭐ 167 (+151.0/day) | Source: hn</summary>
-  </entry>
-  <entry>
-    <title>pbakaus/impeccable — The design language that makes your AI harness better at design.</title>
-    <id>https://github.com/pbakaus/impeccable#2026-10-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/pbakaus/impeccable"/>
-    <updated>2026-10-03T18:00:00Z</updated>
-    <published>2026-10-03T18:00:00Z</published>
-    <summary>The design language that makes your AI harness better at design.
-
-Why: +639/day · Trending · 2.8x accelerating
-Score: 99/100 | Language: JavaScript | ⭐ 74580 (+639.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Panniantong/Agent-Reach — Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.</title>
-    <id>https://github.com/Panniantong/Agent-Reach#2026-10-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Panniantong/Agent-Reach"/>
-    <updated>2026-10-03T18:00:00Z</updated>
-    <published>2026-10-03T18:00:00Z</published>
-    <summary>Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
-
-Why: +786/day · Trending · 1.9x accelerating
-Score: 95/100 | Language: Python | ⭐ 89248 (+786.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>mattpocock/skills — Skills for Real Engineers. Straight from my .agents directory.</title>
-    <id>https://github.com/mattpocock/skills#2026-10-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mattpocock/skills"/>
-    <updated>2026-10-03T18:00:00Z</updated>
-    <published>2026-10-03T18:00:00Z</published>
-    <summary>Skills for Real Engineers. Straight from my .agents directory.
-
-Why: +683/day · Trending
-Score: 90/100 | Language: Shell | ⭐ 274962 (+683.0/day) | Source: trending</summary>
   </entry>
 </feed>
