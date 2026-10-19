@@ -1,0 +1,336 @@
+{
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T10:19:17+00:00",
+  "every_days": 3,
+  "count": 10,
+  "semi_count": 2,
+  "semi_min_met": true,
+  "picks": [
+    {
+      "rank": 1,
+      "full_name": "berkeley-abc/abc",
+      "url": "https://github.com/berkeley-abc/abc",
+      "description": "ABC: System for Sequential Logic Synthesis and Formal Verification",
+      "topic": "semi",
+      "language": "C",
+      "topics": [],
+      "license": "NOASSERTION",
+      "stars": 1243,
+      "forks": 849,
+      "created_at": "2018-03-11T11:33:37Z",
+      "pushed_at": "2026-10-18T03:45:44Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 52,
+      "verified_at": "2026-10-19T10:19:13+00:00"
+    },
+    {
+      "rank": 2,
+      "full_name": "Verified-zkEVM/ArkLib",
+      "url": "https://github.com/Verified-zkEVM/ArkLib",
+      "description": "Formally Verified Arguments of Knowledge in Lean",
+      "topic": "semi",
+      "language": "Lean",
+      "topics": [
+        "formal-verification",
+        "lean",
+        "lean4",
+        "snark",
+        "zero-knowledge",
+        "zk"
+      ],
+      "license": "Apache-2.0",
+      "stars": 347,
+      "forks": 121,
+      "created_at": "2024-12-18T16:10:14Z",
+      "pushed_at": "2026-10-19T09:31:45Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 52,
+      "verified_at": "2026-10-19T10:19:13+00:00"
+    },
+    {
+      "rank": 3,
+      "full_name": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "topic": "ai",
+      "language": "Rust",
+      "topics": [],
+      "license": "MIT",
+      "stars": 10805,
+      "forks": 765,
+      "created_at": "2026-05-21T23:23:51Z",
+      "pushed_at": "2026-10-19T00:51:45Z",
+      "growth": {
+        "since": "2026-10-18",
+        "window_days": 1,
+        "stars_gained": 680,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 90,
+      "verified_at": "2026-10-19T10:19:14+00:00"
+    },
+    {
+      "rank": 4,
+      "full_name": "Noniv/web-ocean",
+      "url": "https://github.com/Noniv/web-ocean",
+      "description": "Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome.",
+      "topic": "ai",
+      "language": "HTML",
+      "topics": [],
+      "license": "MIT",
+      "stars": 717,
+      "forks": 111,
+      "created_at": "2026-10-16T23:49:53Z",
+      "pushed_at": "2026-10-17T00:39:56Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 84,
+      "verified_at": "2026-10-19T10:19:14+00:00"
+    },
+    {
+      "rank": 5,
+      "full_name": "finereli/whatsapp-mcp",
+      "url": "https://github.com/finereli/whatsapp-mcp",
+      "description": "A read-only MCP server that lets your AI agent search and read your own WhatsApp messages. Runs on Cloudflare Workers.",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "stars": 193,
+      "forks": 12,
+      "created_at": "2026-10-18T21:01:54Z",
+      "pushed_at": "2026-10-18T22:21:52Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search",
+          "hn"
+        ],
+        "hn_title": "Show HN: WhatsApp MCP running free on Cloudflare",
+        "hn_score": 112,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 81,
+      "verified_at": "2026-10-19T10:19:15+00:00"
+    },
+    {
+      "rank": 6,
+      "full_name": "zcbacxc/mcd-party-planner",
+      "url": "https://github.com/zcbacxc/mcd-party-planner",
+      "description": "麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "stars": 389,
+      "forks": 19,
+      "created_at": "2026-10-15T18:29:02Z",
+      "pushed_at": "2026-10-15T18:29:51Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 80,
+      "verified_at": "2026-10-19T10:19:15+00:00"
+    },
+    {
+      "rank": 7,
+      "full_name": "fzn0x/idx",
+      "url": "https://github.com/fzn0x/idx",
+      "description": "Analyze the Indonesian stock market (IDX/IHSG) from web terminal, CLI, or any AI agents via MCP server. IHSG Prices, Fundamentals, and Screening. Free and No API keys required. Changelog: https://github.com/fzn0x/idx/blob/main/CHANGELOG.md",
+      "topic": "ai",
+      "language": "Rust",
+      "topics": [
+        "analytics",
+        "cli",
+        "finance",
+        "idx",
+        "ihsg",
+        "indonesia",
+        "mcp",
+        "rust",
+        "stocks",
+        "terminal"
+      ],
+      "license": "MIT",
+      "stars": 142,
+      "forks": 5,
+      "created_at": "2026-10-16T17:51:21Z",
+      "pushed_at": "2026-10-18T14:57:56Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 77,
+      "verified_at": "2026-10-19T10:19:16+00:00"
+    },
+    {
+      "rank": 8,
+      "full_name": "repoboost-hq/github-star-benchmarks",
+      "url": "https://github.com/repoboost-hq/github-star-benchmarks",
+      "description": "AI research dataset on GitHub stars: 32.6M starred repositories, star thresholds (100/1k/10k/100k), language and age cohorts, plus star-buying and fake-star research context from ICSE 2026. Open CSVs and reproducible queries for empirical software engineering, scientometrics and LLM evaluation.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-research",
+        "benchmarks",
+        "csv",
+        "dataset",
+        "empirical-software-engineering",
+        "fake-stars",
+        "github",
+        "github-api",
+        "github-stars",
+        "github-statistics",
+        "llm-evaluation",
+        "open-data",
+        "popularity-metrics",
+        "python",
+        "repository-analytics",
+        "reproducibility",
+        "research",
+        "scientometrics",
+        "star-history"
+      ],
+      "license": "NOASSERTION",
+      "stars": 74,
+      "forks": 33,
+      "created_at": "2026-10-18T06:19:48Z",
+      "pushed_at": "2026-10-18T07:01:14Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "rising"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 77,
+      "verified_at": "2026-10-19T10:19:16+00:00"
+    },
+    {
+      "rank": 9,
+      "full_name": "MaryCache/imozuru",
+      "url": "https://github.com/MaryCache/imozuru",
+      "description": "知らない分野を、原文にたどりつくまで芋づる式に掘る Claude Code のスキル",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "stars": 586,
+      "forks": 26,
+      "created_at": "2026-10-13T05:56:21Z",
+      "pushed_at": "2026-10-19T09:34:58Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 76,
+      "verified_at": "2026-10-19T10:19:16+00:00"
+    },
+    {
+      "rank": 10,
+      "full_name": "ralphtradesz/trading-hub",
+      "url": "https://github.com/ralphtradesz/trading-hub",
+      "description": "Plataforma de trading gratis y de código abierto para Mac (con guía para portarla a Windows con Claude): footprint, DOM, backtesting anti-sobreoptimización y estrategias con IA. 100 % local.",
+      "topic": "ai",
+      "language": "C#",
+      "topics": [
+        "algorithmic-trading",
+        "apple-silicon",
+        "avalonia",
+        "backtesting",
+        "binance",
+        "claude",
+        "claude-code",
+        "crypto",
+        "csharp",
+        "databento",
+        "dotnet",
+        "footprint-chart",
+        "futures",
+        "macos",
+        "order-flow",
+        "rithmic",
+        "source-available",
+        "trading",
+        "trading-platform",
+        "walk-forward-optimization"
+      ],
+      "license": "NOASSERTION",
+      "stars": 59,
+      "forks": 28,
+      "created_at": "2026-10-17T20:16:54Z",
+      "pushed_at": "2026-10-17T22:08:35Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "rising"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 76,
+      "verified_at": "2026-10-19T10:19:17+00:00"
+    }
+  ]
+}

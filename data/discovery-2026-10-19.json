@@ -1,0 +1,333 @@
+{
+ "date": "2026-10-19",
+ "generated_at": "2026-10-19T10:19:17.437678",
+ "pool_size": 85,
+ "source_health": {
+  "trending": {
+   "fetched": 14,
+   "parsed": 14,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  },
+  "search": {
+   "fetched": 57,
+   "parsed": 57,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 8
+  },
+  "hn": {
+   "fetched": 14,
+   "parsed": 14,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 2
+  },
+  "rising": {
+   "fetched": 5,
+   "parsed": 5,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 1
+  },
+  "ai-trending": {
+   "fetched": 14,
+   "parsed": 14,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "akitaonrails/ai-memory",
+   "url": "https://github.com/akitaonrails/ai-memory",
+   "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+   "language": "Rust",
+   "stars": 10805,
+   "forks": 765,
+   "age_days": 150,
+   "daily_stars": 72.01333333333334,
+   "real_daily_stars": 677.0,
+   "watchers": 56,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "mikroverk/esp32sim",
+   "url": "https://github.com/mikroverk/esp32sim",
+   "description": "Open-source ESP32 emulator. Run real firmware locally or in your browser — no hardware, no cloud, no subscription.",
+   "language": "Rust",
+   "stars": 385,
+   "forks": 20,
+   "age_days": 55,
+   "daily_stars": 7.0,
+   "real_daily_stars": 163.0,
+   "watchers": 3,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "MIT",
+   "hn_title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
+   "hn_score": 195,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Noniv/web-ocean",
+   "url": "https://github.com/Noniv/web-ocean",
+   "description": "Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome.",
+   "language": "HTML",
+   "stars": 717,
+   "forks": 111,
+   "age_days": 2,
+   "daily_stars": 358.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 14
+   }
+  },
+  {
+   "full_name": "interplains/zero-breach",
+   "url": "https://github.com/interplains/zero-breach",
+   "description": "Zero Breach — local, read-only scanner that checks a computer for indicators of the AdFection / Candiru ad-delivered spyware campaign. No network, no admin, no dependencies.",
+   "language": "Python",
+   "stars": 300,
+   "forks": 18,
+   "age_days": 1,
+   "daily_stars": 300.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "feder-cr/git-ai",
+   "url": "https://github.com/feder-cr/git-ai",
+   "description": "Git designed for AI agents.",
+   "language": "Go",
+   "stars": 2358,
+   "forks": 262,
+   "age_days": 3,
+   "daily_stars": 786.0,
+   "real_daily_stars": 1199.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "longbridge/nsh",
+   "url": "https://github.com/longbridge/nsh",
+   "description": "NSH runs modules written in TSX — natively on iOS, Android, macOS, Windows, Linux, GPUI and the web",
+   "language": "Rust",
+   "stars": 309,
+   "forks": 22,
+   "age_days": 4,
+   "daily_stars": 77.25,
+   "real_daily_stars": 186.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "xiaoyang111222/cn-math-taxonomy",
+   "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+   "description": "初中数学知识图谱 + 前置诊断：课标对齐、人教版七–九、333 知识点、自适应诊断",
+   "language": "Python",
+   "stars": 678,
+   "forks": 169,
+   "age_days": 1,
+   "daily_stars": 678.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 91,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "finereli/whatsapp-mcp",
+   "url": "https://github.com/finereli/whatsapp-mcp",
+   "description": "A read-only MCP server that lets your AI agent search and read your own WhatsApp messages. Runs on Cloudflare Workers.",
+   "language": "TypeScript",
+   "stars": 193,
+   "forks": 12,
+   "age_days": 1,
+   "daily_stars": 192.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "hn"
+   ],
+   "license": "MIT",
+   "hn_title": "Show HN: WhatsApp MCP running free on Cloudflare",
+   "hn_score": 112,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "Agent2API/agent2api",
+   "url": "https://github.com/Agent2API/agent2api",
+   "description": "Agent2API - 多提供商本地网关：把 WorkBuddy / 小浣熊 / CatPaw / AutoClaw 等客户端登录态包装成 OpenAI 兼容接口，附带账号管理、出站指纹脱敏与请求报表",
+   "language": "Rust",
+   "stars": 184,
+   "forks": 83,
+   "age_days": 1,
+   "daily_stars": 184.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "rising"
+   ],
+   "license": "NOASSERTION",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "zcbacxc/mcd-party-planner",
+   "url": "https://github.com/zcbacxc/mcd-party-planner",
+   "description": "麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill",
+   "language": "Python",
+   "stars": 389,
+   "forks": 19,
+   "age_days": 3,
+   "daily_stars": 129.66666666666666,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 17
+   }
+  }
+ ],
+ "repeat": []
+}

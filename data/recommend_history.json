@@ -112,14 +112,6 @@
       ],
       "last_recommended": "2026-10-15T09:27:17.117018+00:00"
     },
-    "jub0t/Concat": {
-      "count": 2,
-      "scores": [
-        89,
-        93
-      ],
-      "last_recommended": "2026-09-18T09:13:56.845142+00:00"
-    },
     "zhaoxuya520/reverse-skill": {
       "count": 2,
       "scores": [
@@ -195,14 +187,6 @@
       ],
       "last_recommended": "2026-10-08T11:38:17.170938+00:00"
     },
-    "JustVugg/colibri": {
-      "count": 2,
-      "scores": [
-        89,
-        91
-      ],
-      "last_recommended": "2026-09-18T09:13:56.847163+00:00"
-    },
     "alibaba/open-code-review": {
       "count": 2,
       "scores": [
@@ -243,20 +227,6 @@
       ],
       "last_recommended": "2026-10-07T11:22:12.626837+00:00"
     },
-    "Tencent/WeKnora": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-18T09:13:56.826880+00:00"
-    },
-    "abue-ammar/tinycast": {
-      "count": 1,
-      "scores": [
-        99
-      ],
-      "last_recommended": "2026-09-18T09:13:56.828880+00:00"
-    },
     "anthropics/knowledge-work-plugins": {
       "count": 2,
       "scores": [
@@ -264,118 +234,6 @@
         91
       ],
       "last_recommended": "2026-10-08T11:38:17.168940+00:00"
-    },
-    "TheoLeeCJ/openjev": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-18T09:13:56.832901+00:00"
-    },
-    "roboflow/supervision": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-09-18T09:13:56.834975+00:00"
-    },
-    "mcncarl/jianying-headless": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-09-18T09:13:56.837005+00:00"
-    },
-    "thruwire/foreman": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-18T09:13:56.839018+00:00"
-    },
-    "devagrawal09/jev-review": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-18T09:13:56.841071+00:00"
-    },
-    "jamiepine/voicebox": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-18T09:13:56.843096+00:00"
-    },
-    "Tencent/BrowserSkill": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-19T09:00:11.195187+00:00"
-    },
-    "coder/coder": {
-      "count": 1,
-      "scores": [
-        99
-      ],
-      "last_recommended": "2026-09-19T09:00:11.197483+00:00"
-    },
-    "TencentCloud/Octop": {
-      "count": 1,
-      "scores": [
-        98
-      ],
-      "last_recommended": "2026-09-19T09:00:11.199458+00:00"
-    },
-    "TheoLeeCJ/SemIf": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-19T09:00:11.201439+00:00"
-    },
-    "robbietilton/Compositor": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-19T09:00:11.203481+00:00"
-    },
-    "TianyuCodings/NanoJev": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-19T09:00:11.205495+00:00"
-    },
-    "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-09-19T09:00:11.207516+00:00"
-    },
-    "NandhaKishorM/laya": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-09-19T09:00:11.209566+00:00"
-    },
-    "supabase/supabase": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-09-19T09:00:11.211562+00:00"
-    },
-    "ankitects/anki": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-09-19T09:00:11.213558+00:00"
     },
     "asciimoo/hister": {
       "count": 1,
@@ -2343,7 +2201,77 @@
         86
       ],
       "last_recommended": "2026-10-18T09:06:05.777531+00:00"
+    },
+    "akitaonrails/ai-memory": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-19T10:19:13.162128+00:00"
+    },
+    "mikroverk/esp32sim": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-10-19T10:19:13.164506+00:00"
+    },
+    "Noniv/web-ocean": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-19T10:19:13.166452+00:00"
+    },
+    "interplains/zero-breach": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-19T10:19:13.168380+00:00"
+    },
+    "feder-cr/git-ai": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-10-19T10:19:13.170269+00:00"
+    },
+    "longbridge/nsh": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-10-19T10:19:13.172204+00:00"
+    },
+    "xiaoyang111222/cn-math-taxonomy": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-19T10:19:13.174078+00:00"
+    },
+    "finereli/whatsapp-mcp": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-19T10:19:13.175934+00:00"
+    },
+    "Agent2API/agent2api": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-19T10:19:13.177795+00:00"
+    },
+    "zcbacxc/mcd-party-planner": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-19T10:19:13.179653+00:00"
     }
   },
-  "updated_at": "2026-10-18T09:06:05.779354+00:00"
+  "updated_at": "2026-10-19T10:19:13.179675+00:00"
 }

@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-18T18:00:00Z</updated>
+  <updated>2026-10-19T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>akitaonrails/ai-memory — Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors</title>
+    <id>https://github.com/akitaonrails/ai-memory#2026-10-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/akitaonrails/ai-memory"/>
+    <updated>2026-10-19T18:00:00Z</updated>
+    <published>2026-10-19T18:00:00Z</published>
+    <summary>Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors
+
+Why: +677/day · Trending · 9.4x accelerating
+Score: 100/100 | Language: Rust | ⭐ 10805 (+677.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>mikroverk/esp32sim — Open-source ESP32 emulator. Run real firmware locally or in your browser — no hardware, no cloud, no subscription.</title>
+    <id>https://github.com/mikroverk/esp32sim#2026-10-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mikroverk/esp32sim"/>
+    <updated>2026-10-19T18:00:00Z</updated>
+    <published>2026-10-19T18:00:00Z</published>
+    <summary>Open-source ESP32 emulator. Run real firmware locally or in your browser — no hardware, no cloud, no subscription.
+
+Why: +163/day · HN · 23.3x accelerating
+Score: 95/100 | Language: Rust | ⭐ 385 (+163.0/day) | Source: hn</summary>
+  </entry>
+  <entry>
+    <title>Noniv/web-ocean — Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome.</title>
+    <id>https://github.com/Noniv/web-ocean#2026-10-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Noniv/web-ocean"/>
+    <updated>2026-10-19T18:00:00Z</updated>
+    <published>2026-10-19T18:00:00Z</published>
+    <summary>Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome.
+
+Why: +358/day · Search
+Score: 94/100 | Language: HTML | ⭐ 717 (+358.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>interplains/zero-breach — Zero Breach — local, read-only scanner that checks a computer for indicators of the AdFection / Candiru ad-delivered spyware campaign. No network, no admin, no dependencies.</title>
+    <id>https://github.com/interplains/zero-breach#2026-10-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/interplains/zero-breach"/>
+    <updated>2026-10-19T18:00:00Z</updated>
+    <published>2026-10-19T18:00:00Z</published>
+    <summary>Zero Breach — local, read-only scanner that checks a computer for indicators of the AdFection / Candiru ad-delivered spyware campaign. No network, no admin, no dependencies.
+
+Why: +300/day · Search
+Score: 94/100 | Language: Python | ⭐ 300 (+300.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>feder-cr/git-ai — Git designed for AI agents.</title>
+    <id>https://github.com/feder-cr/git-ai#2026-10-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/feder-cr/git-ai"/>
+    <updated>2026-10-19T18:00:00Z</updated>
+    <published>2026-10-19T18:00:00Z</published>
+    <summary>Git designed for AI agents.
+
+Why: +1199/day · Search · 1.5x accelerating
+Score: 93/100 | Language: Go | ⭐ 2358 (+1199.0/day) | Source: search</summary>
+  </entry>
   <entry>
     <title>MadsLorentzen/ai-job-search — The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.</title>
     <id>https://github.com/MadsLorentzen/ai-job-search#2026-10-18</id>
@@ -932,93 +987,5 @@ Score: 92/100 | Language: TypeScript | ⭐ 200 (+200.0/day) | Source: search</su
 
 Why: +270/day · Trending
 Score: 87/100 | Language: Python | ⭐ 63536 (+270.4/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Effect-TS/effect — Build production-ready applications in TypeScript</title>
-    <id>https://github.com/Effect-TS/effect#2026-10-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Effect-TS/effect"/>
-    <updated>2026-10-04T18:00:00Z</updated>
-    <published>2026-10-04T18:00:00Z</published>
-    <summary>Build production-ready applications in TypeScript
-
-Why: +252/day · Trending · 37.5x accelerating
-Score: 97/100 | Language: TypeScript | ⭐ 16910 (+252.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>nykooi1/vibe-wise — A Claude Code plugin that helps you learn how to build while AI writes the code.</title>
-    <id>https://github.com/nykooi1/vibe-wise#2026-10-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/nykooi1/vibe-wise"/>
-    <updated>2026-10-04T18:00:00Z</updated>
-    <published>2026-10-04T18:00:00Z</published>
-    <summary>A Claude Code plugin that helps you learn how to build while AI writes the code.
-
-Why: +405/day · Search · 2.5x accelerating
-Score: 96/100 | Language: Python | ⭐ 818 (+405.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>whirlchat/whirl — The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.</title>
-    <id>https://github.com/whirlchat/whirl#2026-10-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/whirlchat/whirl"/>
-    <updated>2026-10-04T18:00:00Z</updated>
-    <published>2026-10-04T18:00:00Z</published>
-    <summary>The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.
-
-Why: +381/day · Search
-Score: 95/100 | Language: TypeScript | ⭐ 381 (+381.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>getsentry/sentry — Developer-first error tracking and performance monitoring</title>
-    <id>https://github.com/getsentry/sentry#2026-10-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/getsentry/sentry"/>
-    <updated>2026-10-04T18:00:00Z</updated>
-    <published>2026-10-04T18:00:00Z</published>
-    <summary>Developer-first error tracking and performance monitoring
-
-Why: +159/day · Trending · 20.7x accelerating
-Score: 94/100 | Language: Python | ⭐ 45258 (+159.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>QingYunA/answer-me-with-html — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。</title>
-    <id>https://github.com/QingYunA/answer-me-with-html#2026-10-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/QingYunA/answer-me-with-html"/>
-    <updated>2026-10-04T18:00:00Z</updated>
-    <published>2026-10-04T18:00:00Z</published>
-    <summary>Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。
-
-Why: +358/day · Search
-Score: 94/100 | Language: JavaScript | ⭐ 715 (+357.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>affaan-m/ECC — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</title>
-    <id>https://github.com/affaan-m/ECC#2026-10-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/affaan-m/ECC"/>
-    <updated>2026-10-04T18:00:00Z</updated>
-    <published>2026-10-04T18:00:00Z</published>
-    <summary>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-
-Why: +712/day · Trending
-Score: 90/100 | Language: JavaScript | ⭐ 272539 (+711.7/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.</title>
-    <id>https://github.com/addyosmani/agent-skills#2026-10-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/addyosmani/agent-skills"/>
-    <updated>2026-10-04T18:00:00Z</updated>
-    <published>2026-10-04T18:00:00Z</published>
-    <summary>Production-grade engineering skills for AI coding agents.
-
-Why: +234/day · Trending
-Score: 86/100 | Language: JavaScript | ⭐ 100959 (+234.2/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</title>
-    <id>https://github.com/anthropics/claude-code#2026-10-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code"/>
-    <updated>2026-10-04T18:00:00Z</updated>
-    <published>2026-10-04T18:00:00Z</published>
-    <summary>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
-
-Why: +188/day · Trending
-Score: 70/100 | Language: TypeScript | ⭐ 149342 (+188.0/day) | Source: trending</summary>
   </entry>
 </feed>

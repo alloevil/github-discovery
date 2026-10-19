@@ -1,96 +1,5 @@
 {
  "repos": {
-  "Effect-TS/effect": {
-   "first_seen": "2026-10-04",
-   "until": "2026-10-18",
-   "stars_at_discovery": 16910,
-   "score_at_discovery": 97,
-   "source_at_discovery": "trending"
-  },
-  "nykooi1/vibe-wise": {
-   "first_seen": "2026-10-04",
-   "until": "2026-10-18",
-   "stars_at_discovery": 818,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "whirlchat/whirl": {
-   "first_seen": "2026-10-04",
-   "until": "2026-10-18",
-   "stars_at_discovery": 381,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "getsentry/sentry": {
-   "first_seen": "2026-10-04",
-   "until": "2026-10-18",
-   "stars_at_discovery": 45258,
-   "score_at_discovery": 94,
-   "source_at_discovery": "trending"
-  },
-  "QingYunA/answer-me-with-html": {
-   "first_seen": "2026-10-04",
-   "until": "2026-10-18",
-   "stars_at_discovery": 715,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "Jakeschincariol/replica-skill": {
-   "first_seen": "2026-10-04",
-   "until": "2026-10-18",
-   "stars_at_discovery": 260,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "JuliusBrussee/caveman": {
-   "first_seen": "2026-10-04",
-   "until": "2026-10-18",
-   "stars_at_discovery": 109692,
-   "score_at_discovery": 89,
-   "source_at_discovery": "trending"
-  },
-  "StayLameBro/backburner": {
-   "first_seen": "2026-10-04",
-   "until": "2026-10-18",
-   "stars_at_discovery": 257,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "jarrodwatts/claude-image-view": {
-   "first_seen": "2026-10-04",
-   "until": "2026-10-18",
-   "stars_at_discovery": 119,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "oil-oil/oil-ui": {
-   "first_seen": "2026-10-04",
-   "until": "2026-10-18",
-   "stars_at_discovery": 412,
-   "score_at_discovery": 88,
-   "source_at_discovery": "search"
-  },
-  "affaan-m/ECC": {
-   "first_seen": "2026-10-04",
-   "until": "2026-10-18",
-   "stars_at_discovery": 272539,
-   "score_at_discovery": 90,
-   "source_at_discovery": "trending"
-  },
-  "addyosmani/agent-skills": {
-   "first_seen": "2026-10-04",
-   "until": "2026-10-18",
-   "stars_at_discovery": 100959,
-   "score_at_discovery": 86,
-   "source_at_discovery": "trending"
-  },
-  "anthropics/claude-code": {
-   "first_seen": "2026-10-04",
-   "until": "2026-10-18",
-   "stars_at_discovery": 149342,
-   "score_at_discovery": 70,
-   "source_at_discovery": "trending"
-  },
   "pingdotgg/t3code": {
    "first_seen": "2026-10-05",
    "until": "2026-10-19",
@@ -1084,7 +993,77 @@
    "stars_at_discovery": 68,
    "score_at_discovery": 86,
    "source_at_discovery": "ai-trending"
+  },
+  "akitaonrails/ai-memory": {
+   "first_seen": "2026-10-19",
+   "until": "2026-11-02",
+   "stars_at_discovery": 10802,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "mikroverk/esp32sim": {
+   "first_seen": "2026-10-19",
+   "until": "2026-11-02",
+   "stars_at_discovery": 385,
+   "score_at_discovery": 95,
+   "source_at_discovery": "hn"
+  },
+  "Noniv/web-ocean": {
+   "first_seen": "2026-10-19",
+   "until": "2026-11-02",
+   "stars_at_discovery": 717,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "interplains/zero-breach": {
+   "first_seen": "2026-10-19",
+   "until": "2026-11-02",
+   "stars_at_discovery": 300,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "feder-cr/git-ai": {
+   "first_seen": "2026-10-19",
+   "until": "2026-11-02",
+   "stars_at_discovery": 2358,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "longbridge/nsh": {
+   "first_seen": "2026-10-19",
+   "until": "2026-11-02",
+   "stars_at_discovery": 309,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "xiaoyang111222/cn-math-taxonomy": {
+   "first_seen": "2026-10-19",
+   "until": "2026-11-02",
+   "stars_at_discovery": 678,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "finereli/whatsapp-mcp": {
+   "first_seen": "2026-10-19",
+   "until": "2026-11-02",
+   "stars_at_discovery": 192,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "Agent2API/agent2api": {
+   "first_seen": "2026-10-19",
+   "until": "2026-11-02",
+   "stars_at_discovery": 184,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "zcbacxc/mcd-party-planner": {
+   "first_seen": "2026-10-19",
+   "until": "2026-11-02",
+   "stars_at_discovery": 389,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-10-18T09:08:41.995100+00:00"
+ "updated_at": "2026-10-19T10:23:38.233129+00:00"
 }

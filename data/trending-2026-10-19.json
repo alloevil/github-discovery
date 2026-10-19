@@ -1,0 +1,76 @@
+{
+ "date": "2026-10-19",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "anomalyco/opencode",
+   "stars": 217090,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "Comfy-Org/ComfyUI",
+   "stars": 139075,
+   "language": "Python"
+  },
+  {
+   "full_name": "stablyai/orca",
+   "stars": 97387,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "mlabonne/llm-course",
+   "stars": 84309,
+   "language": ""
+  },
+  {
+   "full_name": "ruvnet/ruflo",
+   "stars": 76801,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "debpalash/VoiceStudio",
+   "stars": 76515,
+   "language": "Python"
+  },
+  {
+   "full_name": "MadsLorentzen/ai-job-search",
+   "stars": 54962,
+   "language": "Python"
+  },
+  {
+   "full_name": "HKUDS/CLI-Anything",
+   "stars": 54898,
+   "language": "Python"
+  },
+  {
+   "full_name": "anthropics/claude-plugins-official",
+   "stars": 43017,
+   "language": "Python"
+  },
+  {
+   "full_name": "cursor/plugins",
+   "stars": 12920,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "akitaonrails/ai-memory",
+   "stars": 10802,
+   "language": "Rust"
+  },
+  {
+   "full_name": "android/skills",
+   "stars": 8961,
+   "language": "Kotlin"
+  },
+  {
+   "full_name": "YuJunZhiXue/dsh-purge",
+   "stars": 7527,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "Kruk2/jasna",
+   "stars": 2671,
+   "language": "Python"
+  }
+ ]
+}

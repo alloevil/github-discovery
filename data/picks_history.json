@@ -1,15 +1,85 @@
 {
   "repos": {
-    "openai/math": {"first_picked": "2026-10-16", "source": "chat"},
-    "NandhaKishorM/laya": {"first_picked": "2026-10-16", "source": "chat"},
-    "morluto/rea": {"first_picked": "2026-10-16", "source": "chat"},
-    "zai-org/ZCode": {"first_picked": "2026-10-16", "source": "chat"},
-    "feder-cr/git-ai": {"first_picked": "2026-10-16", "source": "chat"},
-    "anthropics/oss-scanner": {"first_picked": "2026-10-16", "source": "chat"},
-    "rociiu/talorys": {"first_picked": "2026-10-16", "source": "chat"},
-    "chenwei810/Semiconductor_Manufacturing_Introduction": {"first_picked": "2026-10-16", "source": "chat"},
-    "hdl-tools/digital-chip-design-agents": {"first_picked": "2026-10-16", "source": "chat"},
-    "BLANK2077/xverif": {"first_picked": "2026-10-16", "source": "chat"}
+    "openai/math": {
+      "first_picked": "2026-10-16",
+      "source": "chat"
+    },
+    "NandhaKishorM/laya": {
+      "first_picked": "2026-10-16",
+      "source": "chat"
+    },
+    "morluto/rea": {
+      "first_picked": "2026-10-16",
+      "source": "chat"
+    },
+    "zai-org/ZCode": {
+      "first_picked": "2026-10-16",
+      "source": "chat"
+    },
+    "feder-cr/git-ai": {
+      "first_picked": "2026-10-16",
+      "source": "chat"
+    },
+    "anthropics/oss-scanner": {
+      "first_picked": "2026-10-16",
+      "source": "chat"
+    },
+    "rociiu/talorys": {
+      "first_picked": "2026-10-16",
+      "source": "chat"
+    },
+    "chenwei810/Semiconductor_Manufacturing_Introduction": {
+      "first_picked": "2026-10-16",
+      "source": "chat"
+    },
+    "hdl-tools/digital-chip-design-agents": {
+      "first_picked": "2026-10-16",
+      "source": "chat"
+    },
+    "BLANK2077/xverif": {
+      "first_picked": "2026-10-16",
+      "source": "chat"
+    },
+    "berkeley-abc/abc": {
+      "first_picked": "2026-10-19",
+      "source": "github-discovery"
+    },
+    "Verified-zkEVM/ArkLib": {
+      "first_picked": "2026-10-19",
+      "source": "github-discovery"
+    },
+    "akitaonrails/ai-memory": {
+      "first_picked": "2026-10-19",
+      "source": "github-discovery"
+    },
+    "Noniv/web-ocean": {
+      "first_picked": "2026-10-19",
+      "source": "github-discovery"
+    },
+    "finereli/whatsapp-mcp": {
+      "first_picked": "2026-10-19",
+      "source": "github-discovery"
+    },
+    "zcbacxc/mcd-party-planner": {
+      "first_picked": "2026-10-19",
+      "source": "github-discovery"
+    },
+    "fzn0x/idx": {
+      "first_picked": "2026-10-19",
+      "source": "github-discovery"
+    },
+    "repoboost-hq/github-star-benchmarks": {
+      "first_picked": "2026-10-19",
+      "source": "github-discovery"
+    },
+    "MaryCache/imozuru": {
+      "first_picked": "2026-10-19",
+      "source": "github-discovery"
+    },
+    "ralphtradesz/trading-hub": {
+      "first_picked": "2026-10-19",
+      "source": "github-discovery"
+    }
   },
-  "updated_at": "2026-10-16T17:00:00-07:00"
+  "updated_at": "2026-10-19T10:19:17.437267+00:00"
 }
