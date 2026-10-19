@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-19",
+  "stats": {
+    "recommendations": 792,
+    "labelled": 431,
+    "coverage_pct": 54.4,
+    "median_growth": 48.4,
+    "quartile_cut_pct": 150.1,
+    "table": [
+      {
+        "bucket": "90–100",
+        "n": 334,
+        "breakout_rate": 18.9,
+        "median_growth": 47.2,
+        "insufficient": false
+      },
+      {
+        "bucket": "80–89",
+        "n": 94,
+        "breakout_rate": 19.1,
+        "median_growth": 56.2,
+        "insufficient": false
+      },
+      {
+        "bucket": "70–79",
+        "n": 0,
+        "breakout_rate": null,
+        "median_growth": null,
+        "insufficient": true
+      },
+      {
+        "bucket": "60–69",
+        "n": 3,
+        "breakout_rate": 0.0,
+        "median_growth": 40.2,
+        "insufficient": true
+      },
+      {
+        "bucket": "<60",
+        "n": 0,
+        "breakout_rate": null,
+        "median_growth": null,
+        "insufficient": true
+      }
+    ],
+    "unlabelled": 361,
+    "min_bucket_n": 20
+  },
+  "source_groups": [
+    {
+      "source": "ai-trending",
+      "n": 13,
+      "breakout_rate": 30.8,
+      "median_growth": 89.7,
+      "insufficient": true
+    },
+    {
+      "source": "hf-papers",
+      "n": 6,
+      "breakout_rate": 33.3,
+      "median_growth": 56.3,
+      "insufficient": true
+    },
+    {
+      "source": "hn",
+      "n": 14,
+      "breakout_rate": 14.3,
+      "median_growth": 45.6,
+      "insufficient": true
+    },
+    {
+      "source": "hn+hf-papers",
+      "n": 1,
+      "breakout_rate": 100.0,
+      "median_growth": 290.8,
+      "insufficient": true
+    },
+    {
+      "source": "rising",
+      "n": 13,
+      "breakout_rate": 30.8,
+      "median_growth": 118.5,
+      "insufficient": true
+    },
+    {
+      "source": "search",
+      "n": 209,
+      "breakout_rate": 27.3,
+      "median_growth": 105.9,
+      "insufficient": false
+    },
+    {
+      "source": "search+ai-trending",
+      "n": 10,
+      "breakout_rate": 20.0,
+      "median_growth": 66.4,
+      "insufficient": true
+    },
+    {
+      "source": "search+ai-trending+hf-papers",
+      "n": 1,
+      "breakout_rate": 0.0,
+      "median_growth": 77.0,
+      "insufficient": true
+    },
+    {
+      "source": "search+hf-papers",
+      "n": 2,
+      "breakout_rate": 0.0,
+      "median_growth": 70.0,
+      "insufficient": true
+    },
+    {
+      "source": "search+rising",
+      "n": 6,
+      "breakout_rate": 50.0,
+      "median_growth": 213.2,
+      "insufficient": true
+    },
+    {
+      "source": "trending",
+      "n": 155,
+      "breakout_rate": 3.9,
+      "median_growth": 8.9,
+      "insufficient": false
+    },
+    {
+      "source": "trending+hn",
+      "n": 1,
+      "breakout_rate": 0.0,
+      "median_growth": 5.2,
+      "insufficient": true
+    }
+  ],
+  "age_groups": [
+    {
+      "bucket": "0–2d",
+      "n": 196,
+      "breakout_rate": 29.1,
+      "median_growth": 106.4,
+      "insufficient": false
+    },
+    {
+      "bucket": "3–13d",
+      "n": 71,
+      "breakout_rate": 22.5,
+      "median_growth": 87.1,
+      "insufficient": false
+    },
+    {
+      "bucket": "14–59d",
+      "n": 4,
+      "breakout_rate": 25.0,
+      "median_growth": 56.6,
+      "insufficient": true
+    },
+    {
+      "bucket": "60d+",
+      "n": 160,
+      "breakout_rate": 4.4,
+      "median_growth": 9.1,
+      "insufficient": false
+    }
+  ],
+  "star_groups": [
+    {
+      "bucket": "0–99",
+      "n": 8,
+      "breakout_rate": 37.5,
+      "median_growth": 166.7,
+      "insufficient": true
+    },
+    {
+      "bucket": "100–999",
+      "n": 250,
+      "breakout_rate": 26.8,
+      "median_growth": 97.0,
+      "insufficient": false
+    },
+    {
+      "bucket": "1k–9.9k",
+      "n": 69,
+      "breakout_rate": 10.1,
+      "median_growth": 25.5,
+      "insufficient": false
+    },
+    {
+      "bucket": "10k+",
+      "n": 104,
+      "breakout_rate": 3.8,
+      "median_growth": 5.4,
+      "insufficient": false
+    }
+  ]
+}
