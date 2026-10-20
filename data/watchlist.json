@@ -1,82 +1,5 @@
 {
  "repos": {
-  "pingdotgg/t3code": {
-   "first_seen": "2026-10-05",
-   "until": "2026-10-19",
-   "stars_at_discovery": 25382,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "thedotmack/claude-mem": {
-   "first_seen": "2026-10-05",
-   "until": "2026-10-19",
-   "stars_at_discovery": 96357,
-   "score_at_discovery": 96,
-   "source_at_discovery": "trending"
-  },
-  "lucasmarkes/hairline": {
-   "first_seen": "2026-10-05",
-   "until": "2026-10-19",
-   "stars_at_discovery": 431,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "sganggs/Stronghold-Protocol": {
-   "first_seen": "2026-10-05",
-   "until": "2026-10-19",
-   "stars_at_discovery": 658,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "shinshin86/mesh-avatar-studio": {
-   "first_seen": "2026-10-05",
-   "until": "2026-10-19",
-   "stars_at_discovery": 200,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "cneuralnetwork/kharcha": {
-   "first_seen": "2026-10-05",
-   "until": "2026-10-19",
-   "stars_at_discovery": 163,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "zeemscript/TrustMint": {
-   "first_seen": "2026-10-05",
-   "until": "2026-10-19",
-   "stars_at_discovery": 131,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "anteloc/ldraw-nova": {
-   "first_seen": "2026-10-05",
-   "until": "2026-10-19",
-   "stars_at_discovery": 263,
-   "score_at_discovery": 90,
-   "source_at_discovery": "hn"
-  },
-  "empero-org/brewery-ai": {
-   "first_seen": "2026-10-05",
-   "until": "2026-10-19",
-   "stars_at_discovery": 133,
-   "score_at_discovery": 90,
-   "source_at_discovery": "ai-trending"
-  },
-  "msitarzewski/agency-agents": {
-   "first_seen": "2026-10-05",
-   "until": "2026-10-19",
-   "stars_at_discovery": 156931,
-   "score_at_discovery": 89,
-   "source_at_discovery": "trending"
-  },
-  "calesthio/OpenMontage": {
-   "first_seen": "2026-10-05",
-   "until": "2026-10-19",
-   "stars_at_discovery": 63536,
-   "score_at_discovery": 87,
-   "source_at_discovery": "trending"
-  },
   "tester-army/e2e": {
    "first_seen": "2026-10-06",
    "until": "2026-10-20",
@@ -1063,7 +986,77 @@
    "stars_at_discovery": 389,
    "score_at_discovery": 90,
    "source_at_discovery": "search"
+  },
+  "Comfy-Org/ComfyUI": {
+   "first_seen": "2026-10-20",
+   "until": "2026-11-03",
+   "stars_at_discovery": 140224,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "Kruk2/jasna": {
+   "first_seen": "2026-10-20",
+   "until": "2026-11-03",
+   "stars_at_discovery": 3163,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "kitlangton/scrawl": {
+   "first_seen": "2026-10-20",
+   "until": "2026-11-03",
+   "stars_at_discovery": 516,
+   "score_at_discovery": 98,
+   "source_at_discovery": "search"
+  },
+  "Gathin23/cleanyourtv": {
+   "first_seen": "2026-10-20",
+   "until": "2026-11-03",
+   "stars_at_discovery": 8038,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "simbasjungles/free-my-tv": {
+   "first_seen": "2026-10-20",
+   "until": "2026-11-03",
+   "stars_at_discovery": 766,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "humblemuzzu/dumbtv": {
+   "first_seen": "2026-10-20",
+   "until": "2026-11-03",
+   "stars_at_discovery": 725,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "ELY-Open-Source/ElyOffice": {
+   "first_seen": "2026-10-20",
+   "until": "2026-11-03",
+   "stars_at_discovery": 385,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "VictorTaelin/uniichat": {
+   "first_seen": "2026-10-20",
+   "until": "2026-11-03",
+   "stars_at_discovery": 416,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "deepseek-ai/DeepInfer": {
+   "first_seen": "2026-10-20",
+   "until": "2026-11-03",
+   "stars_at_discovery": 2300,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "kanaworksai-hue/audio-studio-mcp": {
+   "first_seen": "2026-10-20",
+   "until": "2026-11-03",
+   "stars_at_discovery": 290,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-10-19T10:23:38.233129+00:00"
+ "updated_at": "2026-10-20T09:42:03.630242+00:00"
 }
