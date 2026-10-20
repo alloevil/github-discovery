@@ -50016,10 +50016,10 @@
    },
    {
     "date": "2026-10-20",
-    "stars": 1770,
-    "forks": 2042,
+    "stars": 1803,
+    "forks": 2055,
     "open_issues": 12,
-    "commits_7d": 13,
+    "commits_7d": 12,
     "contributors_7d": 16,
     "pushed_at": "2026-10-14T07:52:45Z"
    }
@@ -50855,12 +50855,12 @@
    },
    {
     "date": "2026-10-20",
-    "stars": 7745,
-    "forks": 890,
-    "open_issues": 1527,
+    "stars": 7916,
+    "forks": 908,
+    "open_issues": 1570,
     "commits_7d": 100,
     "contributors_7d": 100,
-    "pushed_at": "2026-10-20T08:49:27Z"
+    "pushed_at": "2026-10-20T13:40:19Z"
    }
   ],
   "reason-machines/reason-network": [
@@ -51036,7 +51036,7 @@
    },
    {
     "date": "2026-10-20",
-    "stars": 929,
+    "stars": 934,
     "forks": 382,
     "open_issues": 31,
     "commits_7d": 3,
@@ -51578,5 +51578,5 @@
    }
   ]
  },
- "updated_at": "2026-10-20T09:42:03.588966+00:00"
+ "updated_at": "2026-10-20T13:50:58.655985+00:00"
 }

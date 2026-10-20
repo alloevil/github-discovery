@@ -3,63 +3,13 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "anomalyco/opencode",
-   "stars": 218269,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "anthropics/claude-code",
-   "stars": 152854,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "Comfy-Org/ComfyUI",
-   "stars": 140224,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "stablyai/orca",
-   "stars": 98864,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "ruvnet/ruflo",
-   "stars": 77461,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "headroomlabs-ai/headroom",
-   "stars": 76467,
-   "language": "Python"
-  },
-  {
-   "full_name": "MadsLorentzen/ai-job-search",
-   "stars": 58712,
-   "language": "Python"
-  },
-  {
-   "full_name": "HKUDS/CLI-Anything",
-   "stars": 55496,
-   "language": "Python"
-  },
-  {
-   "full_name": "shiyu-coder/Kronos",
-   "stars": 41962,
-   "language": "Python"
-  },
-  {
-   "full_name": "akitaonrails/ai-memory",
-   "stars": 11672,
-   "language": "Rust"
-  },
-  {
-   "full_name": "withmarbleapp/os-taxonomy",
-   "stars": 6395,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "Kruk2/jasna",
-   "stars": 3163,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
   }
  ]
