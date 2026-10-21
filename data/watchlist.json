@@ -1,75 +1,5 @@
 {
  "repos": {
-  "tester-army/e2e": {
-   "first_seen": "2026-10-06",
-   "until": "2026-10-20",
-   "stars_at_discovery": 5498,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "earthtojake/text-to-cad": {
-   "first_seen": "2026-10-06",
-   "until": "2026-10-20",
-   "stars_at_discovery": 17692,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "boykopovar/AnyPS5": {
-   "first_seen": "2026-10-06",
-   "until": "2026-10-20",
-   "stars_at_discovery": 5321,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "caddyserver/caddy": {
-   "first_seen": "2026-10-06",
-   "until": "2026-10-20",
-   "stars_at_discovery": 77371,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "DuarteSantos8/openGym": {
-   "first_seen": "2026-10-06",
-   "until": "2026-10-20",
-   "stars_at_discovery": 4834,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "cloudflare/cloudflare-os": {
-   "first_seen": "2026-10-06",
-   "until": "2026-10-20",
-   "stars_at_discovery": 11160,
-   "score_at_discovery": 98,
-   "source_at_discovery": "trending"
-  },
-  "Stremio/stremio-web": {
-   "first_seen": "2026-10-06",
-   "until": "2026-10-20",
-   "stars_at_discovery": 14400,
-   "score_at_discovery": 97,
-   "source_at_discovery": "trending"
-  },
-  "elstongun/leviathan": {
-   "first_seen": "2026-10-06",
-   "until": "2026-10-20",
-   "stars_at_discovery": 519,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "rauchg/gdp-ts": {
-   "first_seen": "2026-10-06",
-   "until": "2026-10-20",
-   "stars_at_discovery": 612,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "ythx-101/live-panel-skill": {
-   "first_seen": "2026-10-06",
-   "until": "2026-10-20",
-   "stars_at_discovery": 611,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
   "deadinside28/bloodborne_pc": {
    "first_seen": "2026-10-07",
    "until": "2026-10-21",
@@ -1056,7 +986,91 @@
    "stars_at_discovery": 290,
    "score_at_discovery": 93,
    "source_at_discovery": "search"
+  },
+  "shiyu-coder/Kronos": {
+   "first_seen": "2026-10-21",
+   "until": "2026-11-04",
+   "stars_at_discovery": 42535,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "UniXNU/UniXNU": {
+   "first_seen": "2026-10-21",
+   "until": "2026-11-04",
+   "stars_at_discovery": 475,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "dominikmartn/harp": {
+   "first_seen": "2026-10-21",
+   "until": "2026-11-04",
+   "stars_at_discovery": 424,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "Ansub/tv-detox": {
+   "first_seen": "2026-10-21",
+   "until": "2026-11-04",
+   "stars_at_discovery": 1036,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "headroomlabs-ai/headroom": {
+   "first_seen": "2026-10-21",
+   "until": "2026-11-04",
+   "stars_at_discovery": 76937,
+   "score_at_discovery": 93,
+   "source_at_discovery": "trending"
+  },
+  "NVIDIA/flare-local-inference": {
+   "first_seen": "2026-10-21",
+   "until": "2026-11-04",
+   "stars_at_discovery": 290,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "indexable-inc/ra-jit": {
+   "first_seen": "2026-10-21",
+   "until": "2026-11-04",
+   "stars_at_discovery": 171,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "Graphify-Labs/graphify": {
+   "first_seen": "2026-10-21",
+   "until": "2026-11-04",
+   "stars_at_discovery": 130773,
+   "score_at_discovery": 90,
+   "source_at_discovery": "trending"
+  },
+  "Hugo-Dz/spritefusion-sprite-normals": {
+   "first_seen": "2026-10-21",
+   "until": "2026-11-04",
+   "stars_at_discovery": 449,
+   "score_at_discovery": 88,
+   "source_at_discovery": "search"
+  },
+  "wevm/ondine": {
+   "first_seen": "2026-10-21",
+   "until": "2026-11-04",
+   "stars_at_discovery": 322,
+   "score_at_discovery": 87,
+   "source_at_discovery": "search"
+  },
+  "msitarzewski/agency-agents": {
+   "first_seen": "2026-10-21",
+   "until": "2026-11-04",
+   "stars_at_discovery": 162678,
+   "score_at_discovery": 92,
+   "source_at_discovery": "trending"
+  },
+  "DietrichGebert/ponytail": {
+   "first_seen": "2026-10-21",
+   "until": "2026-11-04",
+   "stars_at_discovery": 170515,
+   "score_at_discovery": 85,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-10-20T09:42:03.630242+00:00"
+ "updated_at": "2026-10-21T09:42:54.134572+00:00"
 }

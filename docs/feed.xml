@@ -3,12 +3,100 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-20T18:00:00Z</updated>
+  <updated>2026-10-21T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>shiyu-coder/Kronos — Kronos: A Foundation Model for the Language of Financial Markets</title>
+    <id>https://github.com/shiyu-coder/Kronos#2026-10-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/shiyu-coder/Kronos"/>
+    <updated>2026-10-21T18:00:00Z</updated>
+    <published>2026-10-21T18:00:00Z</published>
+    <summary>Kronos: A Foundation Model for the Language of Financial Markets
+
+Why: +573/day · Trending · 6.4x accelerating
+Score: 100/100 | Language: Python | ⭐ 42535 (+573.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>UniXNU/UniXNU — Run iOS and macOS on non-Apple ARM64 hardware through UEFI.</title>
+    <id>https://github.com/UniXNU/UniXNU#2026-10-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/UniXNU/UniXNU"/>
+    <updated>2026-10-21T18:00:00Z</updated>
+    <published>2026-10-21T18:00:00Z</published>
+    <summary>Run iOS and macOS on non-Apple ARM64 hardware through UEFI.
+
+Why: +475/day · Search
+Score: 96/100 | Language: Python | ⭐ 475 (+475.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>dominikmartn/harp — Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp.</title>
+    <id>https://github.com/dominikmartn/harp#2026-10-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/dominikmartn/harp"/>
+    <updated>2026-10-21T18:00:00Z</updated>
+    <published>2026-10-21T18:00:00Z</published>
+    <summary>Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp.
+
+Why: +424/day · Search
+Score: 95/100 | Language: Rust | ⭐ 424 (+424.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>Ansub/tv-detox — Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up</title>
+    <id>https://github.com/Ansub/tv-detox#2026-10-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Ansub/tv-detox"/>
+    <updated>2026-10-21T18:00:00Z</updated>
+    <published>2026-10-21T18:00:00Z</published>
+    <summary>Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up
+
+Why: +345/day · Search
+Score: 94/100 | Language: Java | ⭐ 1036 (+345.3/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>headroomlabs-ai/headroom — Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.</title>
+    <id>https://github.com/headroomlabs-ai/headroom#2026-10-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/headroomlabs-ai/headroom"/>
+    <updated>2026-10-21T18:00:00Z</updated>
+    <published>2026-10-21T18:00:00Z</published>
+    <summary>Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.
+
+Why: +470/day · Trending · 1.7x accelerating
+Score: 93/100 | Language: Python | ⭐ 76937 (+470.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>cloudflare/security-audit-skill — A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings</title>
+    <id>https://github.com/cloudflare/security-audit-skill#2026-10-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/cloudflare/security-audit-skill"/>
+    <updated>2026-10-21T18:00:00Z</updated>
+    <published>2026-10-21T18:00:00Z</published>
+    <summary>A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
+
+Why: +1974/day · Trending · 7.0x accelerating
+Score: 100/100 | Language: JavaScript | ⭐ 34910 (+1974.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>anthropics/knowledge-work-plugins — Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork</title>
+    <id>https://github.com/anthropics/knowledge-work-plugins#2026-10-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/anthropics/knowledge-work-plugins"/>
+    <updated>2026-10-21T18:00:00Z</updated>
+    <published>2026-10-21T18:00:00Z</published>
+    <summary>Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork
+
+Why: +359/day · Trending · 3.1x accelerating
+Score: 98/100 | Language: Python | ⭐ 30948 (+359.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>msitarzewski/agency-agents — A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.</title>
+    <id>https://github.com/msitarzewski/agency-agents#2026-10-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/msitarzewski/agency-agents"/>
+    <updated>2026-10-21T18:00:00Z</updated>
+    <published>2026-10-21T18:00:00Z</published>
+    <summary>A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
+
+Why: +636/day · Trending
+Score: 92/100 | Language: Shell | ⭐ 162678 (+635.5/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>Comfy-Org/ComfyUI — The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.</title>
     <id>https://github.com/Comfy-Org/ComfyUI#2026-10-20</id>
@@ -921,60 +1009,5 @@ Score: 92/100 | Language: JavaScript | ⭐ 25586 (+377.2/day) | Source: trending
 
 Why: +298/day · Trending
 Score: 88/100 | Language: Python | ⭐ 54685 (+297.6/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>tester-army/e2e — Next generation e2e testing framework for web and mobile apps.</title>
-    <id>https://github.com/tester-army/e2e#2026-10-06</id>
-    <link rel="alternate" type="text/html" href="https://github.com/tester-army/e2e"/>
-    <updated>2026-10-06T18:00:00Z</updated>
-    <published>2026-10-06T18:00:00Z</published>
-    <summary>Next generation e2e testing framework for web and mobile apps.
-
-Why: +1705/day · Trending · 23.6x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 5498 (+1705.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>earthtojake/text-to-cad — Give your agent CAD superpowers.</title>
-    <id>https://github.com/earthtojake/text-to-cad#2026-10-06</id>
-    <link rel="alternate" type="text/html" href="https://github.com/earthtojake/text-to-cad"/>
-    <updated>2026-10-06T18:00:00Z</updated>
-    <published>2026-10-06T18:00:00Z</published>
-    <summary>Give your agent CAD superpowers.
-
-Why: +596/day · Trending · 5.6x accelerating
-Score: 100/100 | Language: Python | ⭐ 17692 (+596.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>boykopovar/AnyPS5 — Tool for automatic PS5 executables porting to Linux and Windows</title>
-    <id>https://github.com/boykopovar/AnyPS5#2026-10-06</id>
-    <link rel="alternate" type="text/html" href="https://github.com/boykopovar/AnyPS5"/>
-    <updated>2026-10-06T18:00:00Z</updated>
-    <published>2026-10-06T18:00:00Z</published>
-    <summary>Tool for automatic PS5 executables porting to Linux and Windows
-
-Why: +932/day · Trending · 11.0x accelerating
-Score: 100/100 | Language: C++ | ⭐ 5321 (+932.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>caddyserver/caddy — Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS</title>
-    <id>https://github.com/caddyserver/caddy#2026-10-06</id>
-    <link rel="alternate" type="text/html" href="https://github.com/caddyserver/caddy"/>
-    <updated>2026-10-06T18:00:00Z</updated>
-    <published>2026-10-06T18:00:00Z</published>
-    <summary>Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
-
-Why: +586/day · Trending · 32.4x accelerating
-Score: 100/100 | Language: Go | ⭐ 77371 (+586.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>DuarteSantos8/openGym — Self-hosted gym &amp; body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.</title>
-    <id>https://github.com/DuarteSantos8/openGym#2026-10-06</id>
-    <link rel="alternate" type="text/html" href="https://github.com/DuarteSantos8/openGym"/>
-    <updated>2026-10-06T18:00:00Z</updated>
-    <published>2026-10-06T18:00:00Z</published>
-    <summary>Self-hosted gym &amp; body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.
-
-Why: +1405/day · Trending · 23.0x accelerating
-Score: 100/100 | Language: JavaScript | ⭐ 4834 (+1405.0/day) | Source: trending</summary>
   </entry>
 </feed>
