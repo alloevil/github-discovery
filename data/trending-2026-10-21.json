@@ -3,73 +3,13 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "anomalyco/opencode",
-   "stars": 219389,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "DietrichGebert/ponytail",
-   "stars": 170515,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "msitarzewski/agency-agents",
-   "stars": 162678,
-   "language": "Shell"
-  },
-  {
-   "full_name": "Comfy-Org/ComfyUI",
-   "stars": 141129,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "Graphify-Labs/graphify",
-   "stars": 130773,
-   "language": "Python"
-  },
-  {
-   "full_name": "stablyai/orca",
-   "stars": 100369,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "vllm-project/vllm",
-   "stars": 94622,
-   "language": "Python"
-  },
-  {
-   "full_name": "ruvnet/ruflo",
-   "stars": 78040,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "headroomlabs-ai/headroom",
-   "stars": 76937,
-   "language": "Python"
-  },
-  {
-   "full_name": "MadsLorentzen/ai-job-search",
-   "stars": 61853,
-   "language": "Python"
-  },
-  {
-   "full_name": "shiyu-coder/Kronos",
-   "stars": 42535,
-   "language": "Python"
-  },
-  {
-   "full_name": "wshobson/agents",
-   "stars": 41384,
-   "language": "Python"
-  },
-  {
-   "full_name": "cloudflare/security-audit-skill",
-   "stars": 34910,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "anthropics/knowledge-work-plugins",
-   "stars": 30948,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
   }
  ]

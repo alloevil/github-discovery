@@ -50817,8 +50817,8 @@
    },
    {
     "date": "2026-10-21",
-    "stars": 1874,
-    "forks": 2086,
+    "stars": 1888,
+    "forks": 2096,
     "open_issues": 11,
     "commits_7d": 0,
     "contributors_7d": 16,
@@ -51818,12 +51818,12 @@
    },
    {
     "date": "2026-10-21",
-    "stars": 8527,
-    "forks": 998,
-    "open_issues": 1903,
+    "stars": 8651,
+    "forks": 1016,
+    "open_issues": 2017,
     "commits_7d": 100,
     "contributors_7d": 100,
-    "pushed_at": "2026-10-21T09:40:21Z"
+    "pushed_at": "2026-10-21T14:00:51Z"
    }
   ],
   "reason-machines/reason-network": [
@@ -52044,8 +52044,8 @@
    },
    {
     "date": "2026-10-21",
-    "stars": 955,
-    "forks": 387,
+    "stars": 962,
+    "forks": 389,
     "open_issues": 31,
     "commits_7d": 3,
     "contributors_7d": 1,
@@ -52939,5 +52939,5 @@
    }
   ]
  },
- "updated_at": "2026-10-21T09:42:54.090864+00:00"
+ "updated_at": "2026-10-21T14:07:32.555044+00:00"
 }
