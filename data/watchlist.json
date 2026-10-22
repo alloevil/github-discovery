@@ -1,96 +1,5 @@
 {
  "repos": {
-  "deadinside28/bloodborne_pc": {
-   "first_seen": "2026-10-07",
-   "until": "2026-10-21",
-   "stars_at_discovery": 1418,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "h100envy/gem-search": {
-   "first_seen": "2026-10-07",
-   "until": "2026-10-21",
-   "stars_at_discovery": 161,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "AgentMemoryRepo/agentmemoryrepo": {
-   "first_seen": "2026-10-07",
-   "until": "2026-10-21",
-   "stars_at_discovery": 597,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "DozenTwelve/Papermorph": {
-   "first_seen": "2026-10-07",
-   "until": "2026-10-21",
-   "stars_at_discovery": 486,
-   "score_at_discovery": 87,
-   "source_at_discovery": "search"
-  },
-  "mushigaite/short-video-maker": {
-   "first_seen": "2026-10-07",
-   "until": "2026-10-21",
-   "stars_at_discovery": 70,
-   "score_at_discovery": 87,
-   "source_at_discovery": "rising"
-  },
-  "cathrynlavery/diagram-design": {
-   "first_seen": "2026-10-07",
-   "until": "2026-10-21",
-   "stars_at_discovery": 44409,
-   "score_at_discovery": 86,
-   "source_at_discovery": "trending"
-  },
-  "mizorewww/x_gift_bot": {
-   "first_seen": "2026-10-07",
-   "until": "2026-10-21",
-   "stars_at_discovery": 794,
-   "score_at_discovery": 86,
-   "source_at_discovery": "search"
-  },
-  "JinHo-von-Choi/iron-laws": {
-   "first_seen": "2026-10-07",
-   "until": "2026-10-21",
-   "stars_at_discovery": 125,
-   "score_at_discovery": 86,
-   "source_at_discovery": "search"
-  },
-  "genex-games/genex-desktop": {
-   "first_seen": "2026-10-07",
-   "until": "2026-10-21",
-   "stars_at_discovery": 397,
-   "score_at_discovery": 86,
-   "source_at_discovery": "search"
-  },
-  "storytold/effectcraft": {
-   "first_seen": "2026-10-07",
-   "until": "2026-10-21",
-   "stars_at_discovery": 1175,
-   "score_at_discovery": 85,
-   "source_at_discovery": "search"
-  },
-  "trycua/cua": {
-   "first_seen": "2026-10-07",
-   "until": "2026-10-21",
-   "stars_at_discovery": 28551,
-   "score_at_discovery": 96,
-   "source_at_discovery": "trending"
-  },
-  "cloudflare/security-audit-skill": {
-   "first_seen": "2026-10-07",
-   "until": "2026-10-21",
-   "stars_at_discovery": 25586,
-   "score_at_discovery": 92,
-   "source_at_discovery": "trending"
-  },
-  "ayghri/i-have-adhd": {
-   "first_seen": "2026-10-07",
-   "until": "2026-10-21",
-   "stars_at_discovery": 54685,
-   "score_at_discovery": 88,
-   "source_at_discovery": "trending"
-  },
   "morluto/rea": {
    "first_seen": "2026-10-08",
    "until": "2026-10-22",
@@ -1070,7 +979,77 @@
    "stars_at_discovery": 170515,
    "score_at_discovery": 85,
    "source_at_discovery": "trending"
+  },
+  "vllm-project/vllm": {
+   "first_seen": "2026-10-22",
+   "until": "2026-11-05",
+   "stars_at_discovery": 95079,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "Jakeschincariol/day-trader-skill": {
+   "first_seen": "2026-10-22",
+   "until": "2026-11-05",
+   "stars_at_discovery": 313,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "renjiegod/dyt-ashare-cli": {
+   "first_seen": "2026-10-22",
+   "until": "2026-11-05",
+   "stars_at_discovery": 301,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "aicodeking/pandacode": {
+   "first_seen": "2026-10-22",
+   "until": "2026-11-05",
+   "stars_at_discovery": 434,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "supabase/supabase": {
+   "first_seen": "2026-10-22",
+   "until": "2026-11-05",
+   "stars_at_discovery": 113226,
+   "score_at_discovery": 91,
+   "source_at_discovery": "trending"
+  },
+  "qianshuixia/shrimpreel": {
+   "first_seen": "2026-10-22",
+   "until": "2026-11-05",
+   "stars_at_discovery": 170,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "garycaogan/ai-live-avatar": {
+   "first_seen": "2026-10-22",
+   "until": "2026-11-05",
+   "stars_at_discovery": 322,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "mihirgupta0900/tv-home": {
+   "first_seen": "2026-10-22",
+   "until": "2026-11-05",
+   "stars_at_discovery": 385,
+   "score_at_discovery": 89,
+   "source_at_discovery": "ai-trending"
+  },
+  "eagle-hq/EAGLE-4": {
+   "first_seen": "2026-10-22",
+   "until": "2026-11-05",
+   "stars_at_discovery": 789,
+   "score_at_discovery": 87,
+   "source_at_discovery": "search"
+  },
+  "theanam/openlaser.app": {
+   "first_seen": "2026-10-22",
+   "until": "2026-11-05",
+   "stars_at_discovery": 138,
+   "score_at_discovery": 87,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-10-21T09:42:54.134572+00:00"
+ "updated_at": "2026-10-22T09:43:17.825056+00:00"
 }

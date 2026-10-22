@@ -79,7 +79,47 @@
     "ralphtradesz/trading-hub": {
       "first_picked": "2026-10-19",
       "source": "github-discovery"
+    },
+    "logisim-evolution/logisim-evolution": {
+      "first_picked": "2026-10-22",
+      "source": "github-discovery"
+    },
+    "verilator/verilator": {
+      "first_picked": "2026-10-22",
+      "source": "github-discovery"
+    },
+    "vllm-project/vllm": {
+      "first_picked": "2026-10-22",
+      "source": "github-discovery"
+    },
+    "Jakeschincariol/day-trader-skill": {
+      "first_picked": "2026-10-22",
+      "source": "github-discovery"
+    },
+    "renjiegod/dyt-ashare-cli": {
+      "first_picked": "2026-10-22",
+      "source": "github-discovery"
+    },
+    "supabase/supabase": {
+      "first_picked": "2026-10-22",
+      "source": "github-discovery"
+    },
+    "qianshuixia/shrimpreel": {
+      "first_picked": "2026-10-22",
+      "source": "github-discovery"
+    },
+    "garycaogan/ai-live-avatar": {
+      "first_picked": "2026-10-22",
+      "source": "github-discovery"
+    },
+    "mihirgupta0900/tv-home": {
+      "first_picked": "2026-10-22",
+      "source": "github-discovery"
+    },
+    "eagle-hq/EAGLE-4": {
+      "first_picked": "2026-10-22",
+      "source": "github-discovery"
     }
   },
-  "updated_at": "2026-10-19T10:19:17.437267+00:00"
+  "updated_at": "2026-10-22T09:39:32.023802+00:00"
 }

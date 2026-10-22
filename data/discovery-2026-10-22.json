@@ -1,0 +1,327 @@
+{
+ "date": "2026-10-22",
+ "generated_at": "2026-10-22T09:39:32.024140",
+ "pool_size": 98,
+ "source_health": {
+  "trending": {
+   "fetched": 12,
+   "parsed": 12,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 2
+  },
+  "search": {
+   "fetched": 67,
+   "parsed": 67,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 7
+  },
+  "hn": {
+   "fetched": 10,
+   "parsed": 10,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 3,
+   "parsed": 3,
+   "rejected": 0,
+   "deduplicated": 2,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 33,
+   "parsed": 33,
+   "rejected": 0,
+   "deduplicated": 6,
+   "recommended": 2
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "vllm-project/vllm",
+   "url": "https://github.com/vllm-project/vllm",
+   "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+   "language": "Python",
+   "stars": 95079,
+   "forks": 23789,
+   "age_days": 1350,
+   "daily_stars": 70.42888888888889,
+   "real_daily_stars": 457.0,
+   "watchers": 609,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Jakeschincariol/day-trader-skill",
+   "url": "https://github.com/Jakeschincariol/day-trader-skill",
+   "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+   "language": "Python",
+   "stars": 313,
+   "forks": 47,
+   "age_days": 1,
+   "daily_stars": 313.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 2,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "renjiegod/dyt-ashare-cli",
+   "url": "https://github.com/renjiegod/dyt-ashare-cli",
+   "description": "DYT CN: reproducible China-market research CLI and agent skills",
+   "language": "Rust",
+   "stars": 301,
+   "forks": 0,
+   "age_days": 1,
+   "daily_stars": 301.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "aicodeking/pandacode",
+   "url": "https://github.com/aicodeking/pandacode",
+   "description": "PandaCode: a calm desktop workspace for coding agents",
+   "language": "Rust",
+   "stars": 434,
+   "forks": 73,
+   "age_days": 4,
+   "daily_stars": 108.5,
+   "real_daily_stars": 240.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "supabase/supabase",
+   "url": "https://github.com/supabase/supabase",
+   "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+   "language": "TypeScript",
+   "stars": 113226,
+   "forks": 16987,
+   "age_days": 2567,
+   "daily_stars": 44.10829762368524,
+   "real_daily_stars": 115.3157894736842,
+   "watchers": 756,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "qianshuixia/shrimpreel",
+   "url": "https://github.com/qianshuixia/shrimpreel",
+   "description": "Open-source template for \"one photo → AI video that follows a viral template\" SaaS sites, one site per trending keyword. Cloudflare Workers + D1/R2/KV/Queues, TanStack Start + Hono, Google sign-in, credit packs (Waffo/Dodo), fal.ai video generation, admin console.",
+   "language": "TypeScript",
+   "stars": 170,
+   "forks": 63,
+   "age_days": 1,
+   "daily_stars": 170.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "garycaogan/ai-live-avatar",
+   "url": "https://github.com/garycaogan/ai-live-avatar",
+   "description": "AI 实时直播间：Vidu S2 实时数字人 + 弹幕过滤调度 + 衣柜换装 + OBS 叠层（角色资产不含）",
+   "language": "Python",
+   "stars": 322,
+   "forks": 96,
+   "age_days": 3,
+   "daily_stars": 107.33333333333333,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "mihirgupta0900/tv-home",
+   "url": "https://github.com/mihirgupta0900/tv-home",
+   "description": "Debloat a slow, ad-filled Android TV over Wi-Fi and give it a fast Apple TV-style home screen. One prompt for Claude Code, or do it by hand.",
+   "language": "Java",
+   "stars": 385,
+   "forks": 51,
+   "age_days": 3,
+   "daily_stars": 128.33333333333334,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 14
+   }
+  },
+  {
+   "full_name": "eagle-hq/EAGLE-4",
+   "url": "https://github.com/eagle-hq/EAGLE-4",
+   "description": "Official Inference Code of EAGLE-4",
+   "language": "Python",
+   "stars": 789,
+   "forks": 21,
+   "age_days": 1,
+   "daily_stars": 789.0,
+   "real_daily_stars": 263.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "theanam/openlaser.app",
+   "url": "https://github.com/theanam/openlaser.app",
+   "description": "Open source software to control laser cutters and engravers. No install needed",
+   "language": "TypeScript",
+   "stars": 138,
+   "forks": 0,
+   "age_days": 2,
+   "daily_stars": 69.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  }
+ ],
+ "repeat": []
+}

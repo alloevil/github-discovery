@@ -1,0 +1,396 @@
+{
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T09:39:32+00:00",
+  "every_days": 3,
+  "count": 10,
+  "semi_count": 2,
+  "semi_min_met": true,
+  "picks": [
+    {
+      "rank": 1,
+      "full_name": "logisim-evolution/logisim-evolution",
+      "url": "https://github.com/logisim-evolution/logisim-evolution",
+      "description": "Digital logic design tool and simulator",
+      "topic": "semi",
+      "language": "Java",
+      "topics": [
+        "circuit",
+        "circuits",
+        "digital-circuit",
+        "digital-circuits",
+        "digital-logic",
+        "digital-logic-design",
+        "education",
+        "fpga",
+        "logic",
+        "logisim",
+        "logisim-evolution",
+        "simulator",
+        "timing-diagram",
+        "verilog",
+        "vhdl"
+      ],
+      "license": "GPL-3.0",
+      "stars": 7809,
+      "forks": 1038,
+      "created_at": "2014-09-19T05:23:24Z",
+      "pushed_at": "2026-10-22T02:22:33Z",
+      "growth": {
+        "since": "2026-10-21",
+        "window_days": 1,
+        "stars_gained": 4,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 64,
+      "verified_at": "2026-10-22T09:39:28+00:00"
+    },
+    {
+      "rank": 2,
+      "full_name": "verilator/verilator",
+      "url": "https://github.com/verilator/verilator",
+      "description": "Verilator open-source SystemVerilog simulator and lint system",
+      "topic": "semi",
+      "language": "SystemVerilog",
+      "topics": [
+        "compilers",
+        "cpp",
+        "rtl",
+        "system-verilog",
+        "systemc",
+        "verilator",
+        "verilog",
+        "verilog-simulator"
+      ],
+      "license": "NOASSERTION",
+      "stars": 4026,
+      "forks": 946,
+      "created_at": "2019-06-13T22:38:59Z",
+      "pushed_at": "2026-10-22T08:52:25Z",
+      "growth": {
+        "since": "2026-10-21",
+        "window_days": 1,
+        "stars_gained": 3,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 62,
+      "verified_at": "2026-10-22T09:39:28+00:00"
+    },
+    {
+      "rank": 3,
+      "full_name": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "amd",
+        "blackwell",
+        "cuda",
+        "deepseek",
+        "deepseek-v3",
+        "gpt",
+        "gpt-oss",
+        "inference",
+        "kimi",
+        "llama",
+        "llm",
+        "llm-serving",
+        "model-serving",
+        "moe",
+        "openai",
+        "pytorch",
+        "qwen",
+        "qwen3",
+        "tpu",
+        "transformer"
+      ],
+      "license": "Apache-2.0",
+      "stars": 95079,
+      "forks": 23789,
+      "created_at": "2023-02-09T11:23:20Z",
+      "pushed_at": "2026-10-22T09:00:22Z",
+      "growth": {
+        "since": "2026-10-21",
+        "window_days": 1,
+        "stars_gained": 457,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 90,
+      "verified_at": "2026-10-22T09:39:29+00:00"
+    },
+    {
+      "rank": 4,
+      "full_name": "Jakeschincariol/day-trader-skill",
+      "url": "https://github.com/Jakeschincariol/day-trader-skill",
+      "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "backtesting",
+        "claude",
+        "claude-skills",
+        "day-trading",
+        "stock-market"
+      ],
+      "license": "MIT",
+      "stars": 313,
+      "forks": 47,
+      "created_at": "2026-10-20T14:17:54Z",
+      "pushed_at": "2026-10-20T14:18:00Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search",
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 84,
+      "verified_at": "2026-10-22T09:39:29+00:00"
+    },
+    {
+      "rank": 5,
+      "full_name": "renjiegod/dyt-ashare-cli",
+      "url": "https://github.com/renjiegod/dyt-ashare-cli",
+      "description": "DYT CN: reproducible China-market research CLI and agent skills",
+      "topic": "ai",
+      "language": "Rust",
+      "topics": [],
+      "license": "MIT",
+      "stars": 301,
+      "forks": 0,
+      "created_at": "2026-10-20T10:00:24Z",
+      "pushed_at": "2026-10-22T07:00:32Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 84,
+      "verified_at": "2026-10-22T09:39:29+00:00"
+    },
+    {
+      "rank": 6,
+      "full_name": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "alternative",
+        "auth",
+        "database",
+        "deno",
+        "embeddings",
+        "example",
+        "firebase",
+        "nextjs",
+        "oauth2",
+        "pgvector",
+        "postgis",
+        "postgres",
+        "postgresql",
+        "postgrest",
+        "realtime",
+        "supabase",
+        "vectors",
+        "websockets"
+      ],
+      "license": "Apache-2.0",
+      "stars": 113226,
+      "forks": 16987,
+      "created_at": "2019-10-12T05:56:49Z",
+      "pushed_at": "2026-10-22T09:17:31Z",
+      "growth": {
+        "since": "2026-10-03",
+        "window_days": 19,
+        "stars_gained": 2191,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 81,
+      "verified_at": "2026-10-22T09:39:30+00:00"
+    },
+    {
+      "rank": 7,
+      "full_name": "qianshuixia/shrimpreel",
+      "url": "https://github.com/qianshuixia/shrimpreel",
+      "description": "Open-source template for \"one photo → AI video that follows a viral template\" SaaS sites, one site per trending keyword. Cloudflare Workers + D1/R2/KV/Queues, TanStack Start + Hono, Google sign-in, credit packs (Waffo/Dodo), fal.ai video generation, admin console.",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "ai-video",
+        "cloudflare-d1",
+        "cloudflare-r2",
+        "cloudflare-workers",
+        "fal-ai",
+        "hono",
+        "image-to-video",
+        "react",
+        "saas-boilerplate",
+        "saas-template",
+        "tanstack-start",
+        "typescript"
+      ],
+      "license": "MIT",
+      "stars": 170,
+      "forks": 63,
+      "created_at": "2026-10-20T18:08:00Z",
+      "pushed_at": "2026-10-21T18:03:41Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 81,
+      "verified_at": "2026-10-22T09:39:30+00:00"
+    },
+    {
+      "rank": 8,
+      "full_name": "garycaogan/ai-live-avatar",
+      "url": "https://github.com/garycaogan/ai-live-avatar",
+      "description": "AI 实时直播间：Vidu S2 实时数字人 + 弹幕过滤调度 + 衣柜换装 + OBS 叠层（角色资产不含）",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "stars": 322,
+      "forks": 96,
+      "created_at": "2026-10-19T08:10:48Z",
+      "pushed_at": "2026-10-19T13:47:28Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 79,
+      "verified_at": "2026-10-22T09:39:30+00:00"
+    },
+    {
+      "rank": 9,
+      "full_name": "mihirgupta0900/tv-home",
+      "url": "https://github.com/mihirgupta0900/tv-home",
+      "description": "Debloat a slow, ad-filled Android TV over Wi-Fi and give it a fast Apple TV-style home screen. One prompt for Claude Code, or do it by hand.",
+      "topic": "ai",
+      "language": "Java",
+      "topics": [
+        "adb",
+        "android-tv",
+        "claude-code",
+        "debloat",
+        "google-tv",
+        "launcher"
+      ],
+      "license": "NOASSERTION",
+      "stars": 385,
+      "forks": 51,
+      "created_at": "2026-10-18T20:12:18Z",
+      "pushed_at": "2026-10-18T20:15:22Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 79,
+      "verified_at": "2026-10-22T09:39:31+00:00"
+    },
+    {
+      "rank": 10,
+      "full_name": "eagle-hq/EAGLE-4",
+      "url": "https://github.com/eagle-hq/EAGLE-4",
+      "description": "Official Inference Code of EAGLE-4",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "eagle",
+        "gpu",
+        "llm-inference",
+        "sglang",
+        "speculative-decoding",
+        "tokenspeed",
+        "vllm"
+      ],
+      "license": "NOASSERTION",
+      "stars": 789,
+      "forks": 21,
+      "created_at": "2026-10-20T14:03:04Z",
+      "pushed_at": "2026-10-22T05:12:19Z",
+      "growth": {
+        "since": "2026-10-21",
+        "window_days": 1,
+        "stars_gained": 263,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 77,
+      "verified_at": "2026-10-22T09:39:31+00:00"
+    }
+  ]
+}

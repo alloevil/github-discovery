@@ -139,14 +139,6 @@
       ],
       "last_recommended": "2026-09-30T10:45:34.342816+00:00"
     },
-    "gioblu/NPC-Forge": {
-      "count": 2,
-      "scores": [
-        91,
-        60
-      ],
-      "last_recommended": "2026-09-21T10:13:58.741291+00:00"
-    },
     "coreyhaines31/marketingskills": {
       "count": 2,
       "scores": [
@@ -245,139 +237,6 @@
         96
       ],
       "last_recommended": "2026-10-07T11:22:12.624635+00:00"
-    },
-    "higgsfield-ai/higgsfield": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-21T10:13:58.723182+00:00"
-    },
-    "Open-Dev-Society/OpenStock": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-21T10:13:58.725159+00:00"
-    },
-    "mizorewww/laya-coreml": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-21T10:13:58.727142+00:00"
-    },
-    "caxete/crypto-tax-calculator": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-21T10:13:58.729111+00:00"
-    },
-    "NVlabs/SoL-Pi": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-21T10:13:58.731167+00:00"
-    },
-    "tamaratran/fast-jev-compaction": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-21T10:13:58.733189+00:00"
-    },
-    "Mak5er/AirCard": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-21T10:13:58.735244+00:00"
-    },
-    "unicodef1wn/grokbot-field-notes": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-21T10:13:58.737243+00:00"
-    },
-    "featherless-ai/simple-jev": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-21T10:13:58.739256+00:00"
-    },
-    "BuilderIO/agent-native": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-22T09:29:58.267938+00:00"
-    },
-    "anthropics/financial-services": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-22T09:29:58.270171+00:00"
-    },
-    "cloudflare/quiche": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-09-22T09:29:58.272232+00:00"
-    },
-    "yynxxxxx/Codex-X": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-09-22T09:29:58.274222+00:00"
-    },
-    "volotat/mini-AGI": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-09-22T09:29:58.276293+00:00"
-    },
-    "receptron/laya": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-09-22T09:29:58.278369+00:00"
-    },
-    "Futureppo/typesafe_register": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-09-22T09:29:58.280420+00:00"
-    },
-    "hydra-db/open-glean": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-09-22T09:29:58.282460+00:00"
-    },
-    "heyjunpenn/awesome-jev": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-09-22T09:29:58.284482+00:00"
-    },
-    "pbs05/uboot-an758x": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-09-22T09:29:58.286574+00:00"
     },
     "mvt-project/mvt": {
       "count": 1,
@@ -2345,7 +2204,77 @@
         87
       ],
       "last_recommended": "2026-10-21T09:40:03.735592+00:00"
+    },
+    "vllm-project/vllm": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-22T09:39:28.068160+00:00"
+    },
+    "Jakeschincariol/day-trader-skill": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-22T09:39:28.069922+00:00"
+    },
+    "renjiegod/dyt-ashare-cli": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-22T09:39:28.071290+00:00"
+    },
+    "aicodeking/pandacode": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-10-22T09:39:28.072583+00:00"
+    },
+    "supabase/supabase": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-22T09:39:28.073939+00:00"
+    },
+    "qianshuixia/shrimpreel": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-22T09:39:28.075880+00:00"
+    },
+    "garycaogan/ai-live-avatar": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-22T09:39:28.077229+00:00"
+    },
+    "mihirgupta0900/tv-home": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-22T09:39:28.078516+00:00"
+    },
+    "eagle-hq/EAGLE-4": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-10-22T09:39:28.079854+00:00"
+    },
+    "theanam/openlaser.app": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-10-22T09:39:28.081192+00:00"
     }
   },
-  "updated_at": "2026-10-21T09:40:03.744482+00:00"
+  "updated_at": "2026-10-22T09:39:28.081204+00:00"
 }
