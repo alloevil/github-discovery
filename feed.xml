@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-21T18:00:00Z</updated>
+  <updated>2026-10-22T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>vllm-project/vllm — A high-throughput and memory-efficient inference and serving engine for LLMs</title>
+    <id>https://github.com/vllm-project/vllm#2026-10-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/vllm-project/vllm"/>
+    <updated>2026-10-22T18:00:00Z</updated>
+    <published>2026-10-22T18:00:00Z</published>
+    <summary>A high-throughput and memory-efficient inference and serving engine for LLMs
+
+Why: +457/day · Trending · 6.5x accelerating
+Score: 100/100 | Language: Python | ⭐ 95079 (+457.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Jakeschincariol/day-trader-skill — 11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.</title>
+    <id>https://github.com/Jakeschincariol/day-trader-skill#2026-10-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Jakeschincariol/day-trader-skill"/>
+    <updated>2026-10-22T18:00:00Z</updated>
+    <published>2026-10-22T18:00:00Z</published>
+    <summary>11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.
+
+Why: +313/day · Search+AI/ML
+Score: 94/100 | Language: Python | ⭐ 313 (+313.0/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>renjiegod/dyt-ashare-cli — DYT CN: reproducible China-market research CLI and agent skills</title>
+    <id>https://github.com/renjiegod/dyt-ashare-cli#2026-10-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/renjiegod/dyt-ashare-cli"/>
+    <updated>2026-10-22T18:00:00Z</updated>
+    <published>2026-10-22T18:00:00Z</published>
+    <summary>DYT CN: reproducible China-market research CLI and agent skills
+
+Why: +301/day · Search
+Score: 94/100 | Language: Rust | ⭐ 301 (+301.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>aicodeking/pandacode — PandaCode: a calm desktop workspace for coding agents</title>
+    <id>https://github.com/aicodeking/pandacode#2026-10-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/aicodeking/pandacode"/>
+    <updated>2026-10-22T18:00:00Z</updated>
+    <published>2026-10-22T18:00:00Z</published>
+    <summary>PandaCode: a calm desktop workspace for coding agents
+
+Why: +240/day · Search · 2.2x accelerating
+Score: 93/100 | Language: Rust | ⭐ 434 (+240.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>supabase/supabase — The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.</title>
+    <id>https://github.com/supabase/supabase#2026-10-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/supabase/supabase"/>
+    <updated>2026-10-22T18:00:00Z</updated>
+    <published>2026-10-22T18:00:00Z</published>
+    <summary>The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
+
+Why: +115/day · Trending · 2.6x accelerating
+Score: 91/100 | Language: TypeScript | ⭐ 113226 (+115.3/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>shiyu-coder/Kronos — Kronos: A Foundation Model for the Language of Financial Markets</title>
     <id>https://github.com/shiyu-coder/Kronos#2026-10-21</id>
@@ -921,93 +976,5 @@ Score: 91/100 | Language: Python | ⭐ 27256 (+215.2/day) | Source: trending</su
 
 Why: +206/day · Trending · 5.6x accelerating
 Score: 76/100 | Language: ? | ⭐ 24175 (+206.3/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>deadinside28/bloodborne_pc — No description</title>
-    <id>https://github.com/deadinside28/bloodborne_pc#2026-10-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/deadinside28/bloodborne_pc"/>
-    <updated>2026-10-07T18:00:00Z</updated>
-    <published>2026-10-07T18:00:00Z</published>
-    <summary>No description
-
-Why: +538/day · Search · 2.3x accelerating
-Score: 91/100 | Language: C++ | ⭐ 1418 (+538.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>h100envy/gem-search — Rainbow spider that X-rays memecoins: bundles, linked wallets, dev history. Scanner, Telegram bot, live Bundle Index.</title>
-    <id>https://github.com/h100envy/gem-search#2026-10-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/h100envy/gem-search"/>
-    <updated>2026-10-07T18:00:00Z</updated>
-    <published>2026-10-07T18:00:00Z</published>
-    <summary>Rainbow spider that X-rays memecoins: bundles, linked wallets, dev history. Scanner, Telegram bot, live Bundle Index.
-
-Why: +161/day · Search
-Score: 91/100 | Language: Python | ⭐ 161 (+161.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>AgentMemoryRepo/agentmemoryrepo — Spec for Agent Memory Repo</title>
-    <id>https://github.com/AgentMemoryRepo/agentmemoryrepo#2026-10-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/AgentMemoryRepo/agentmemoryrepo"/>
-    <updated>2026-10-07T18:00:00Z</updated>
-    <published>2026-10-07T18:00:00Z</published>
-    <summary>Spec for Agent Memory Repo
-
-Why: +298/day · Search+AI/ML
-Score: 89/100 | Language: ? | ⭐ 597 (+298.5/day) | Source: search + ai-trending</summary>
-  </entry>
-  <entry>
-    <title>DozenTwelve/Papermorph — An AI skill that turns books into animated, narrated, interactive web experiences</title>
-    <id>https://github.com/DozenTwelve/Papermorph#2026-10-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/DozenTwelve/Papermorph"/>
-    <updated>2026-10-07T18:00:00Z</updated>
-    <published>2026-10-07T18:00:00Z</published>
-    <summary>An AI skill that turns books into animated, narrated, interactive web experiences
-
-Why: +122/day · Search
-Score: 87/100 | Language: HTML | ⭐ 486 (+121.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>mushigaite/short-video-maker — A free open-source project designed to turn youtube-videos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content: no pre-clip credits or any watermarks. Designed for creators who want an alternative to short-video SaaS tools like OpusClip or Vidyo.ai for free.</title>
-    <id>https://github.com/mushigaite/short-video-maker#2026-10-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mushigaite/short-video-maker"/>
-    <updated>2026-10-07T18:00:00Z</updated>
-    <published>2026-10-07T18:00:00Z</published>
-    <summary>A free open-source project designed to turn youtube-videos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content: no pre-clip credits or any watermarks. Designed for creators who want an alternative to short-video SaaS tools like OpusClip or Vidyo.ai for free.
-
-Why: +70/day · Rising
-Score: 87/100 | Language: Python | ⭐ 70 (+70.0/day) | Source: rising</summary>
-  </entry>
-  <entry>
-    <title>trycua/cua — Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.</title>
-    <id>https://github.com/trycua/cua#2026-10-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/trycua/cua"/>
-    <updated>2026-10-07T18:00:00Z</updated>
-    <published>2026-10-07T18:00:00Z</published>
-    <summary>Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.
-
-Why: +224/day · Trending · 4.8x accelerating
-Score: 96/100 | Language: Rust | ⭐ 28551 (+224.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>cloudflare/security-audit-skill — A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings</title>
-    <id>https://github.com/cloudflare/security-audit-skill#2026-10-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/cloudflare/security-audit-skill"/>
-    <updated>2026-10-07T18:00:00Z</updated>
-    <published>2026-10-07T18:00:00Z</published>
-    <summary>A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
-
-Why: +377/day · Trending · 1.6x accelerating
-Score: 92/100 | Language: JavaScript | ⭐ 25586 (+377.2/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>ayghri/i-have-adhd — A skill to stop your coding agent from burying the answer. ADHD-friendly output.</title>
-    <id>https://github.com/ayghri/i-have-adhd#2026-10-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ayghri/i-have-adhd"/>
-    <updated>2026-10-07T18:00:00Z</updated>
-    <published>2026-10-07T18:00:00Z</published>
-    <summary>A skill to stop your coding agent from burying the answer. ADHD-friendly output.
-
-Why: +298/day · Trending
-Score: 88/100 | Language: Python | ⭐ 54685 (+297.6/day) | Source: trending</summary>
   </entry>
 </feed>
