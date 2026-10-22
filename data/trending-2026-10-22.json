@@ -3,64 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "DietrichGebert/ponytail",
-   "stars": 172397,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "Comfy-Org/ComfyUI",
-   "stars": 141816,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "Graphify-Labs/graphify",
-   "stars": 132147,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "supabase/supabase",
-   "stars": 113226,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "stablyai/orca",
-   "stars": 101980,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "vllm-project/vllm",
-   "stars": 95079,
-   "language": "Python"
-  },
-  {
-   "full_name": "headroomlabs-ai/headroom",
-   "stars": 77469,
-   "language": "Python"
-  },
-  {
-   "full_name": "twentyhq/twenty",
-   "stars": 59458,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "shiyu-coder/Kronos",
-   "stars": 43038,
-   "language": "Python"
-  },
-  {
-   "full_name": "cloudflare/security-audit-skill",
-   "stars": 37763,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "akitaonrails/ai-memory",
-   "stars": 12586,
-   "language": "Rust"
-  },
-  {
-   "full_name": "strelov1/freehire",
-   "stars": 2651,
-   "language": "Go"
   }
  ]
 }

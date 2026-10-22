@@ -51510,8 +51510,8 @@
    },
    {
     "date": "2026-10-22",
-    "stars": 1951,
-    "forks": 2148,
+    "stars": 1970,
+    "forks": 2165,
     "open_issues": 14,
     "commits_7d": 0,
     "contributors_7d": 16,
@@ -52673,12 +52673,12 @@
    },
    {
     "date": "2026-10-22",
-    "stars": 9051,
-    "forks": 1073,
-    "open_issues": 2385,
+    "stars": 9127,
+    "forks": 1085,
+    "open_issues": 2484,
     "commits_7d": 100,
     "contributors_7d": 100,
-    "pushed_at": "2026-10-22T04:22:55Z"
+    "pushed_at": "2026-10-22T13:53:52Z"
    }
   ],
   "reason-machines/reason-network": [
@@ -54176,10 +54176,10 @@
   "ai-job-search-dev/ai-job-search": [
    {
     "date": "2026-10-22",
-    "stars": 63178,
-    "forks": 19502,
+    "stars": 63293,
+    "forks": 19549,
     "open_issues": 55,
-    "commits_7d": 100,
+    "commits_7d": 96,
     "contributors_7d": 92,
     "pushed_at": "2026-10-21T05:29:11Z"
    }
@@ -54253,7 +54253,7 @@
   "t4t5/owly": [
    {
     "date": "2026-10-22",
-    "stars": 2953,
+    "stars": 2960,
     "forks": 226,
     "open_issues": 25,
     "commits_7d": 23,
@@ -54284,5 +54284,5 @@
    }
   ]
  },
- "updated_at": "2026-10-22T09:43:17.796957+00:00"
+ "updated_at": "2026-10-22T14:06:17.072073+00:00"
 }
