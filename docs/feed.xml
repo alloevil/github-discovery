@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-22T18:00:00Z</updated>
+  <updated>2026-10-23T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>Snapintosh/Snapintosh — EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack</title>
+    <id>https://github.com/Snapintosh/Snapintosh#2026-10-23</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Snapintosh/Snapintosh"/>
+    <updated>2026-10-23T18:00:00Z</updated>
+    <published>2026-10-23T18:00:00Z</published>
+    <summary>EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack
+
+Why: +658/day · Search
+Score: 96/100 | Language: Python | ⭐ 658 (+658.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>zita-ch/supermimic_vibed — vibe coded supermimic within 1h, LAFAN passed within 1.5 gpuh training</title>
+    <id>https://github.com/zita-ch/supermimic_vibed#2026-10-23</id>
+    <link rel="alternate" type="text/html" href="https://github.com/zita-ch/supermimic_vibed"/>
+    <updated>2026-10-23T18:00:00Z</updated>
+    <published>2026-10-23T18:00:00Z</published>
+    <summary>vibe coded supermimic within 1h, LAFAN passed within 1.5 gpuh training
+
+Why: +375/day · Search
+Score: 95/100 | Language: Python | ⭐ 375 (+375.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>omnara-ai/omnara — The open-source managed agent platform. A self-hostable alternative to Claude Managed Agents and OpenAI's Agents API.</title>
+    <id>https://github.com/omnara-ai/omnara#2026-10-23</id>
+    <link rel="alternate" type="text/html" href="https://github.com/omnara-ai/omnara"/>
+    <updated>2026-10-23T18:00:00Z</updated>
+    <published>2026-10-23T18:00:00Z</published>
+    <summary>The open-source managed agent platform. A self-hostable alternative to Claude Managed Agents and OpenAI's Agents API.
+
+Why: +108/day · HN · 15.9x accelerating
+Score: 93/100 | Language: Go | ⭐ 3192 (+108.0/day) | Source: hn</summary>
+  </entry>
+  <entry>
+    <title>eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC — Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only.</title>
+    <id>https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC#2026-10-23</id>
+    <link rel="alternate" type="text/html" href="https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC"/>
+    <updated>2026-10-23T18:00:00Z</updated>
+    <published>2026-10-23T18:00:00Z</published>
+    <summary>Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only.
+
+Why: +460/day · Search
+Score: 91/100 | Language: Shell | ⭐ 921 (+460.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>pengchujin/aerial-tv — 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.</title>
+    <id>https://github.com/pengchujin/aerial-tv#2026-10-23</id>
+    <link rel="alternate" type="text/html" href="https://github.com/pengchujin/aerial-tv"/>
+    <updated>2026-10-23T18:00:00Z</updated>
+    <published>2026-10-23T18:00:00Z</published>
+    <summary>给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.
+
+Why: +816/day · Search
+Score: 90/100 | Language: Kotlin | ⭐ 3526 (+816.0/day) | Source: search</summary>
+  </entry>
   <entry>
     <title>vllm-project/vllm — A high-throughput and memory-efficient inference and serving engine for LLMs</title>
     <id>https://github.com/vllm-project/vllm#2026-10-22</id>
@@ -899,82 +954,5 @@ Score: 90/100 | Language: JavaScript | ⭐ 2737 (+521.0/day) | Source: search</s
 
 Why: +231/day · Trending
 Score: 76/100 | Language: Go | ⭐ 44788 (+231.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>morluto/rea — Reverse engineer anything with agents, from app behavior down to native binaries.</title>
-    <id>https://github.com/morluto/rea#2026-10-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/morluto/rea"/>
-    <updated>2026-10-08T18:00:00Z</updated>
-    <published>2026-10-08T18:00:00Z</published>
-    <summary>Reverse engineer anything with agents, from app behavior down to native binaries.
-
-Why: +7778/day · Trending · 71.9x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 19157 (+7778.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>EpicGames/raddebugger — A native, user-mode, multi-process, graphical debugger.</title>
-    <id>https://github.com/EpicGames/raddebugger#2026-10-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/EpicGames/raddebugger"/>
-    <updated>2026-10-08T18:00:00Z</updated>
-    <published>2026-10-08T18:00:00Z</published>
-    <summary>A native, user-mode, multi-process, graphical debugger.
-
-Why: +278/day · Trending · 34.9x accelerating
-Score: 97/100 | Language: C | ⭐ 7978 (+278.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>alejandrobujan/tendedero — Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen.</title>
-    <id>https://github.com/alejandrobujan/tendedero#2026-10-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/alejandrobujan/tendedero"/>
-    <updated>2026-10-08T18:00:00Z</updated>
-    <published>2026-10-08T18:00:00Z</published>
-    <summary>Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen.
-
-Why: +813/day · Search
-Score: 96/100 | Language: Swift | ⭐ 813 (+813.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>LoreanXavier/pt-pc — Native PC port of P.T. (runs from your own PS4 game files)</title>
-    <id>https://github.com/LoreanXavier/pt-pc#2026-10-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/LoreanXavier/pt-pc"/>
-    <updated>2026-10-08T18:00:00Z</updated>
-    <published>2026-10-08T18:00:00Z</published>
-    <summary>Native PC port of P.T. (runs from your own PS4 game files)
-
-Why: +736/day · Search
-Score: 96/100 | Language: C++ | ⭐ 736 (+736.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>nullmoth/nvidia-macos-driver — Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.</title>
-    <id>https://github.com/nullmoth/nvidia-macos-driver#2026-10-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/nullmoth/nvidia-macos-driver"/>
-    <updated>2026-10-08T18:00:00Z</updated>
-    <published>2026-10-08T18:00:00Z</published>
-    <summary>Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.
-
-Why: +677/day · Search
-Score: 96/100 | Language: Rust | ⭐ 677 (+677.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>anthropics/knowledge-work-plugins — Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork</title>
-    <id>https://github.com/anthropics/knowledge-work-plugins#2026-10-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/anthropics/knowledge-work-plugins"/>
-    <updated>2026-10-08T18:00:00Z</updated>
-    <published>2026-10-08T18:00:00Z</published>
-    <summary>Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork
-
-Why: +215/day · Trending · 2.0x accelerating
-Score: 91/100 | Language: Python | ⭐ 27256 (+215.2/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>liquidslr/system-design-notes — Notes of the book System Desgin Interview - An Insider's Guide</title>
-    <id>https://github.com/liquidslr/system-design-notes#2026-10-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/liquidslr/system-design-notes"/>
-    <updated>2026-10-08T18:00:00Z</updated>
-    <published>2026-10-08T18:00:00Z</published>
-    <summary>Notes of the book System Desgin Interview - An Insider's Guide
-
-Why: +206/day · Trending · 5.6x accelerating
-Score: 76/100 | Language: ? | ⭐ 24175 (+206.3/day) | Source: trending</summary>
   </entry>
 </feed>

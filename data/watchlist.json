@@ -1,89 +1,5 @@
 {
  "repos": {
-  "morluto/rea": {
-   "first_seen": "2026-10-08",
-   "until": "2026-10-22",
-   "stars_at_discovery": 19157,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "EpicGames/raddebugger": {
-   "first_seen": "2026-10-08",
-   "until": "2026-10-22",
-   "stars_at_discovery": 7978,
-   "score_at_discovery": 97,
-   "source_at_discovery": "trending"
-  },
-  "alejandrobujan/tendedero": {
-   "first_seen": "2026-10-08",
-   "until": "2026-10-22",
-   "stars_at_discovery": 813,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "LoreanXavier/pt-pc": {
-   "first_seen": "2026-10-08",
-   "until": "2026-10-22",
-   "stars_at_discovery": 736,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "nullmoth/nvidia-macos-driver": {
-   "first_seen": "2026-10-08",
-   "until": "2026-10-22",
-   "stars_at_discovery": 677,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "pingdotgg/ts-rust": {
-   "first_seen": "2026-10-08",
-   "until": "2026-10-22",
-   "stars_at_discovery": 595,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "bas3line/ascii": {
-   "first_seen": "2026-10-08",
-   "until": "2026-10-22",
-   "stars_at_discovery": 434,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "nano-muse/nanoMuse": {
-   "first_seen": "2026-10-08",
-   "until": "2026-10-22",
-   "stars_at_discovery": 315,
-   "score_at_discovery": 95,
-   "source_at_discovery": "hn"
-  },
-  "LosaLosSantos/aurelio-finance": {
-   "first_seen": "2026-10-08",
-   "until": "2026-10-22",
-   "stars_at_discovery": 351,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "szabadkai/c64-keyboard-font": {
-   "first_seen": "2026-10-08",
-   "until": "2026-10-22",
-   "stars_at_discovery": 525,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "anthropics/knowledge-work-plugins": {
-   "first_seen": "2026-10-08",
-   "until": "2026-10-22",
-   "stars_at_discovery": 27256,
-   "score_at_discovery": 91,
-   "source_at_discovery": "trending"
-  },
-  "liquidslr/system-design-notes": {
-   "first_seen": "2026-10-08",
-   "until": "2026-10-22",
-   "stars_at_discovery": 24175,
-   "score_at_discovery": 76,
-   "source_at_discovery": "trending"
-  },
   "zhongerxin/iPhone-use": {
    "first_seen": "2026-10-09",
    "until": "2026-10-23",
@@ -1049,7 +965,77 @@
    "stars_at_discovery": 138,
    "score_at_discovery": 87,
    "source_at_discovery": "search"
+  },
+  "Snapintosh/Snapintosh": {
+   "first_seen": "2026-10-23",
+   "until": "2026-11-06",
+   "stars_at_discovery": 658,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "zita-ch/supermimic_vibed": {
+   "first_seen": "2026-10-23",
+   "until": "2026-11-06",
+   "stars_at_discovery": 375,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "omnara-ai/omnara": {
+   "first_seen": "2026-10-23",
+   "until": "2026-11-06",
+   "stars_at_discovery": 3192,
+   "score_at_discovery": 93,
+   "source_at_discovery": "hn"
+  },
+  "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC": {
+   "first_seen": "2026-10-23",
+   "until": "2026-11-06",
+   "stars_at_discovery": 921,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "pengchujin/aerial-tv": {
+   "first_seen": "2026-10-23",
+   "until": "2026-11-06",
+   "stars_at_discovery": 3526,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "openai/php2shell-checker": {
+   "first_seen": "2026-10-23",
+   "until": "2026-11-06",
+   "stars_at_discovery": 870,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "assetnote/php2shell-scanner": {
+   "first_seen": "2026-10-23",
+   "until": "2026-11-06",
+   "stars_at_discovery": 373,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "EthanArbuckle/fairplay-decrypt": {
+   "first_seen": "2026-10-23",
+   "until": "2026-11-06",
+   "stars_at_discovery": 1003,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "xevrion/hatchzip": {
+   "first_seen": "2026-10-23",
+   "until": "2026-11-06",
+   "stars_at_discovery": 128,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "ikow/php2shell-poc": {
+   "first_seen": "2026-10-23",
+   "until": "2026-11-06",
+   "stars_at_discovery": 1615,
+   "score_at_discovery": 88,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-10-22T09:43:17.825056+00:00"
+ "updated_at": "2026-10-23T09:40:32.720363+00:00"
 }
