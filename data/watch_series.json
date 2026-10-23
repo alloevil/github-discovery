@@ -52095,9 +52095,9 @@
    },
    {
     "date": "2026-10-23",
-    "stars": 2047,
-    "forks": 2216,
-    "open_issues": 14,
+    "stars": 2062,
+    "forks": 2226,
+    "open_issues": 15,
     "commits_7d": 0,
     "contributors_7d": 16,
     "pushed_at": "2026-10-14T07:52:45Z"
@@ -53420,12 +53420,12 @@
    },
    {
     "date": "2026-10-23",
-    "stars": 9478,
-    "forks": 1139,
-    "open_issues": 2849,
+    "stars": 9561,
+    "forks": 1152,
+    "open_issues": 2946,
     "commits_7d": 100,
     "contributors_7d": 100,
-    "pushed_at": "2026-10-23T07:01:08Z"
+    "pushed_at": "2026-10-23T13:43:01Z"
    }
   ],
   "reason-machines/reason-network": [
@@ -55301,9 +55301,9 @@
    },
    {
     "date": "2026-10-23",
-    "stars": 63771,
-    "forks": 19730,
-    "open_issues": 56,
+    "stars": 63878,
+    "forks": 19767,
+    "open_issues": 58,
     "commits_7d": 92,
     "contributors_7d": 92,
     "pushed_at": "2026-10-21T05:29:11Z"
@@ -55441,12 +55441,12 @@
    },
    {
     "date": "2026-10-23",
-    "stars": 2986,
+    "stars": 2990,
     "forks": 227,
-    "open_issues": 27,
-    "commits_7d": 21,
+    "open_issues": 24,
+    "commits_7d": 16,
     "contributors_7d": 16,
-    "pushed_at": "2026-10-21T16:51:50Z"
+    "pushed_at": "2026-10-23T13:40:15Z"
    }
   ],
   "theanam/openlaser.app": [
@@ -55600,5 +55600,5 @@
    }
   ]
  },
- "updated_at": "2026-10-23T09:40:32.694318+00:00"
+ "updated_at": "2026-10-23T13:48:54.979689+00:00"
 }

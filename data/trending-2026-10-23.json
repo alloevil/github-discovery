@@ -3,49 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "DietrichGebert/ponytail",
-   "stars": 174206,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "Graphify-Labs/graphify",
-   "stars": 133460,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "supabase/supabase",
-   "stars": 113653,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "fastapi/fastapi",
-   "stars": 104002,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "luongnv89/claude-howto",
-   "stars": 43662,
-   "language": "Python"
-  },
-  {
-   "full_name": "php/php-src",
-   "stars": 41395,
-   "language": "C"
-  },
-  {
-   "full_name": "cloudflare/security-audit-skill",
-   "stars": 40460,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "anthropics/knowledge-work-plugins",
-   "stars": 31865,
-   "language": "Python"
-  },
-  {
-   "full_name": "Meloong-Git/PCL",
-   "stars": 8851,
-   "language": "Visual Basic .NET"
   }
  ]
 }
