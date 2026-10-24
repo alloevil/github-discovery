@@ -1,82 +1,5 @@
 {
  "repos": {
-  "zhongerxin/iPhone-use": {
-   "first_seen": "2026-10-09",
-   "until": "2026-10-23",
-   "stars_at_discovery": 1219,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "noahdunnagan/fsearch": {
-   "first_seen": "2026-10-09",
-   "until": "2026-10-23",
-   "stars_at_discovery": 833,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "ThariqS/ai-newtab": {
-   "first_seen": "2026-10-09",
-   "until": "2026-10-23",
-   "stars_at_discovery": 384,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "jiwoochris/artex-ko": {
-   "first_seen": "2026-10-09",
-   "until": "2026-10-23",
-   "stars_at_discovery": 819,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "alchaincyf/huashu-art-motion": {
-   "first_seen": "2026-10-09",
-   "until": "2026-10-23",
-   "stars_at_discovery": 2737,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "Stellar-Sentinel/sentinel-contracts": {
-   "first_seen": "2026-10-09",
-   "until": "2026-10-23",
-   "stars_at_discovery": 131,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "ToiCF/CF-Workers-TGProxy": {
-   "first_seen": "2026-10-09",
-   "until": "2026-10-23",
-   "stars_at_discovery": 444,
-   "score_at_discovery": 90,
-   "source_at_discovery": "rising"
-  },
-  "finnvoor/PiDurableKit": {
-   "first_seen": "2026-10-09",
-   "until": "2026-10-23",
-   "stars_at_discovery": 136,
-   "score_at_discovery": 90,
-   "source_at_discovery": "ai-trending"
-  },
-  "nullmoth/1401": {
-   "first_seen": "2026-10-09",
-   "until": "2026-10-23",
-   "stars_at_discovery": 201,
-   "score_at_discovery": 88,
-   "source_at_discovery": "search"
-  },
-  "BinceQu/RoboHarness": {
-   "first_seen": "2026-10-09",
-   "until": "2026-10-23",
-   "stars_at_discovery": 185,
-   "score_at_discovery": 88,
-   "source_at_discovery": "search"
-  },
-  "alibaba/open-code-review": {
-   "first_seen": "2026-10-09",
-   "until": "2026-10-23",
-   "stars_at_discovery": 44788,
-   "score_at_discovery": 76,
-   "source_at_discovery": "trending"
-  },
   "BerriAI/litellm": {
    "first_seen": "2026-10-10",
    "until": "2026-10-24",
@@ -1035,7 +958,84 @@
    "stars_at_discovery": 1615,
    "score_at_discovery": 88,
    "source_at_discovery": "search"
+  },
+  "wesbos/3d-model-anything": {
+   "first_seen": "2026-10-24",
+   "until": "2026-11-07",
+   "stars_at_discovery": 1307,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "php/php-src": {
+   "first_seen": "2026-10-24",
+   "until": "2026-11-07",
+   "stars_at_discovery": 41617,
+   "score_at_discovery": 96,
+   "source_at_discovery": "trending"
+  },
+  "actionow-ai/vvv": {
+   "first_seen": "2026-10-24",
+   "until": "2026-11-07",
+   "stars_at_discovery": 300,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "ivarvong/lantern": {
+   "first_seen": "2026-10-24",
+   "until": "2026-11-07",
+   "stars_at_discovery": 112,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "openmathmodel/open-math-harness": {
+   "first_seen": "2026-10-24",
+   "until": "2026-11-07",
+   "stars_at_discovery": 143,
+   "score_at_discovery": 87,
+   "source_at_discovery": "search"
+  },
+  "dsmurrell/onkey": {
+   "first_seen": "2026-10-24",
+   "until": "2026-11-07",
+   "stars_at_discovery": 255,
+   "score_at_discovery": 86,
+   "source_at_discovery": "search"
+  },
+  "anubhavmalhotra/r2d2-tv": {
+   "first_seen": "2026-10-24",
+   "until": "2026-11-07",
+   "stars_at_discovery": 55,
+   "score_at_discovery": 86,
+   "source_at_discovery": "hn"
+  },
+  "mytechnotalent/Reverse-Engineering": {
+   "first_seen": "2026-10-24",
+   "until": "2026-11-07",
+   "stars_at_discovery": 14967,
+   "score_at_discovery": 86,
+   "source_at_discovery": "ai-trending"
+  },
+  "quanhoangindex/ascii-reveal": {
+   "first_seen": "2026-10-24",
+   "until": "2026-11-07",
+   "stars_at_discovery": 160,
+   "score_at_discovery": 85,
+   "source_at_discovery": "search"
+  },
+  "SnailSploit/Claude-Red": {
+   "first_seen": "2026-10-24",
+   "until": "2026-11-07",
+   "stars_at_discovery": 8703,
+   "score_at_discovery": 84,
+   "source_at_discovery": "trending"
+  },
+  "NVIDIA/OpenShell": {
+   "first_seen": "2026-10-24",
+   "until": "2026-11-07",
+   "stars_at_discovery": 19018,
+   "score_at_discovery": 98,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-10-23T09:40:32.720363+00:00"
+ "updated_at": "2026-10-24T09:12:00.311675+00:00"
 }

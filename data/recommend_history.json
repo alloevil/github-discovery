@@ -731,11 +731,12 @@
       "last_recommended": "2026-09-30T10:45:34.340648+00:00"
     },
     "NVIDIA/OpenShell": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        98
       ],
-      "last_recommended": "2026-10-01T11:11:44.422399+00:00"
+      "last_recommended": "2026-10-24T09:08:40.714612+00:00"
     },
     "byoungd/up": {
       "count": 1,
@@ -1513,11 +1514,12 @@
       "last_recommended": "2026-10-12T12:28:13.336942+00:00"
     },
     "chenwei810/Semiconductor_Manufacturing_Introduction": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        94
+        94,
+        58
       ],
-      "last_recommended": "2026-10-12T12:28:13.339280+00:00"
+      "last_recommended": "2026-10-24T09:08:40.716410+00:00"
     },
     "bilawalsidhu/gods-eye-view": {
       "count": 1,
@@ -2274,7 +2276,77 @@
         88
       ],
       "last_recommended": "2026-10-23T09:36:16.017668+00:00"
+    },
+    "wesbos/3d-model-anything": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-24T09:08:40.685855+00:00"
+    },
+    "php/php-src": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-24T09:08:40.687896+00:00"
+    },
+    "actionow-ai/vvv": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-24T09:08:40.689638+00:00"
+    },
+    "ivarvong/lantern": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-24T09:08:40.691391+00:00"
+    },
+    "openmathmodel/open-math-harness": {
+      "count": 1,
+      "scores": [
+        87
+      ],
+      "last_recommended": "2026-10-24T09:08:40.703923+00:00"
+    },
+    "dsmurrell/onkey": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-10-24T09:08:40.705719+00:00"
+    },
+    "anubhavmalhotra/r2d2-tv": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-10-24T09:08:40.707508+00:00"
+    },
+    "mytechnotalent/Reverse-Engineering": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-10-24T09:08:40.709263+00:00"
+    },
+    "quanhoangindex/ascii-reveal": {
+      "count": 1,
+      "scores": [
+        85
+      ],
+      "last_recommended": "2026-10-24T09:08:40.711041+00:00"
+    },
+    "SnailSploit/Claude-Red": {
+      "count": 1,
+      "scores": [
+        84
+      ],
+      "last_recommended": "2026-10-24T09:08:40.712797+00:00"
     }
   },
-  "updated_at": "2026-10-23T09:36:16.017685+00:00"
+  "updated_at": "2026-10-24T09:08:40.716433+00:00"
 }

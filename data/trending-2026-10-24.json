@@ -1,0 +1,46 @@
+{
+ "date": "2026-10-24",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "nodejs/node",
+   "stars": 123008,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "cloudflare/security-audit-skill",
+   "stars": 42751,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "php/php-src",
+   "stars": 41617,
+   "language": "C"
+  },
+  {
+   "full_name": "OpenBMB/VoxCPM",
+   "stars": 40427,
+   "language": "Python"
+  },
+  {
+   "full_name": "anthropics/knowledge-work-plugins",
+   "stars": 32435,
+   "language": "Python"
+  },
+  {
+   "full_name": "NVIDIA/OpenShell",
+   "stars": 19018,
+   "language": "Rust"
+  },
+  {
+   "full_name": "SnailSploit/Claude-Red",
+   "stars": 8703,
+   "language": "Python"
+  },
+  {
+   "full_name": "Renhuai123/ziwei-doushu",
+   "stars": 7113,
+   "language": "TypeScript"
+  }
+ ]
+}

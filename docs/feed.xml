@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-23T18:00:00Z</updated>
+  <updated>2026-10-24T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>wesbos/3d-model-anything — Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.</title>
+    <id>https://github.com/wesbos/3d-model-anything#2026-10-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/wesbos/3d-model-anything"/>
+    <updated>2026-10-24T18:00:00Z</updated>
+    <published>2026-10-24T18:00:00Z</published>
+    <summary>Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.
+
+Why: +654/day · Search
+Score: 96/100 | Language: Swift | ⭐ 1307 (+653.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>php/php-src — The PHP Interpreter</title>
+    <id>https://github.com/php/php-src#2026-10-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/php/php-src"/>
+    <updated>2026-10-24T18:00:00Z</updated>
+    <published>2026-10-24T18:00:00Z</published>
+    <summary>The PHP Interpreter
+
+Why: +222/day · Trending · 29.9x accelerating
+Score: 96/100 | Language: C | ⭐ 41617 (+222.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>actionow-ai/vvv — Build a video template once, reuse it across coding agents. Editable Remotion templates and an Agent Skill for Claude Code, Codex and 25+ agents.</title>
+    <id>https://github.com/actionow-ai/vvv#2026-10-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/actionow-ai/vvv"/>
+    <updated>2026-10-24T18:00:00Z</updated>
+    <published>2026-10-24T18:00:00Z</published>
+    <summary>Build a video template once, reuse it across coding agents. Editable Remotion templates and an Agent Skill for Claude Code, Codex and 25+ agents.
+
+Why: +150/day · Search
+Score: 90/100 | Language: Python | ⭐ 300 (+150.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>ivarvong/lantern — Animated, steppable code explainers. Zero-dependency TypeScript, SVG output, browser and Cloudflare Workers.</title>
+    <id>https://github.com/ivarvong/lantern#2026-10-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ivarvong/lantern"/>
+    <updated>2026-10-24T18:00:00Z</updated>
+    <published>2026-10-24T18:00:00Z</published>
+    <summary>Animated, steppable code explainers. Zero-dependency TypeScript, SVG output, browser and Cloudflare Workers.
+
+Why: +112/day · Search
+Score: 89/100 | Language: TypeScript | ⭐ 112 (+112.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>openmathmodel/open-math-harness — The harness of Open Math OS, infrastructure for Math 2.0. Built for everyday math research.</title>
+    <id>https://github.com/openmathmodel/open-math-harness#2026-10-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/openmathmodel/open-math-harness"/>
+    <updated>2026-10-24T18:00:00Z</updated>
+    <published>2026-10-24T18:00:00Z</published>
+    <summary>The harness of Open Math OS, infrastructure for Math 2.0. Built for everyday math research.
+
+Why: +72/day · Search
+Score: 87/100 | Language: Rust | ⭐ 143 (+71.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA/OpenShell — OpenShell is the safe, private runtime for autonomous AI agents.</title>
+    <id>https://github.com/NVIDIA/OpenShell#2026-10-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/NVIDIA/OpenShell"/>
+    <updated>2026-10-24T18:00:00Z</updated>
+    <published>2026-10-24T18:00:00Z</published>
+    <summary>OpenShell is the safe, private runtime for autonomous AI agents.
+
+Why: +303/day · Trending · 3.8x accelerating
+Score: 98/100 | Language: Rust | ⭐ 19018 (+303.3/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>chenwei810/Semiconductor_Manufacturing_Introduction — Introduction to Semiconductor Manufacturing</title>
+    <id>https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction#2026-10-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction"/>
+    <updated>2026-10-24T18:00:00Z</updated>
+    <published>2026-10-24T18:00:00Z</published>
+    <summary>Introduction to Semiconductor Manufacturing
+
+Why: +4.0/day · AI/ML
+Score: 58/100 | Language: Python | ⭐ 1307 (+4.0/day) | Source: ai-trending</summary>
+  </entry>
   <entry>
     <title>Snapintosh/Snapintosh — EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack</title>
     <id>https://github.com/Snapintosh/Snapintosh#2026-10-23</id>
@@ -888,71 +965,5 @@ Score: 91/100 | Language: Rust | ⭐ 188 (+188.0/day) | Source: search</summary>
 
 Why: +1602/day · Trending
 Score: 92/100 | Language: Shell | ⭐ 283522 (+1602.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>zhongerxin/iPhone-use — 让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。</title>
-    <id>https://github.com/zhongerxin/iPhone-use#2026-10-09</id>
-    <link rel="alternate" type="text/html" href="https://github.com/zhongerxin/iPhone-use"/>
-    <updated>2026-10-09T18:00:00Z</updated>
-    <published>2026-10-09T18:00:00Z</published>
-    <summary>让 Codex 通过 USB 操作真实 iPhone：引导安装、App 自动化、实时屏幕与截图回退。
-
-Why: +610/day · Search
-Score: 96/100 | Language: Python | ⭐ 1219 (+609.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>noahdunnagan/fsearch — Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files.</title>
-    <id>https://github.com/noahdunnagan/fsearch#2026-10-09</id>
-    <link rel="alternate" type="text/html" href="https://github.com/noahdunnagan/fsearch"/>
-    <updated>2026-10-09T18:00:00Z</updated>
-    <published>2026-10-09T18:00:00Z</published>
-    <summary>Whole-disk file search for macOS: fuzzy names, typo tolerance, indexed content grep. ~1 ms over 8M files.
-
-Why: +833/day · Search
-Score: 96/100 | Language: Rust | ⭐ 833 (+833.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>ThariqS/ai-newtab — Claude generates a daily new tab page based on your browser history.</title>
-    <id>https://github.com/ThariqS/ai-newtab#2026-10-09</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ThariqS/ai-newtab"/>
-    <updated>2026-10-09T18:00:00Z</updated>
-    <published>2026-10-09T18:00:00Z</published>
-    <summary>Claude generates a daily new tab page based on your browser history.
-
-Why: +384/day · Search
-Score: 95/100 | Language: TypeScript | ⭐ 384 (+384.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>jiwoochris/artex-ko — ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)</title>
-    <id>https://github.com/jiwoochris/artex-ko#2026-10-09</id>
-    <link rel="alternate" type="text/html" href="https://github.com/jiwoochris/artex-ko"/>
-    <updated>2026-10-09T18:00:00Z</updated>
-    <published>2026-10-09T18:00:00Z</published>
-    <summary>ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)
-
-Why: +350/day · Search · 2.1x accelerating
-Score: 94/100 | Language: Go | ⭐ 819 (+350.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>alchaincyf/huashu-art-motion — 艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。</title>
-    <id>https://github.com/alchaincyf/huashu-art-motion#2026-10-09</id>
-    <link rel="alternate" type="text/html" href="https://github.com/alchaincyf/huashu-art-motion"/>
-    <updated>2026-10-09T18:00:00Z</updated>
-    <published>2026-10-09T18:00:00Z</published>
-    <summary>艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。
-
-Why: +521/day · Search
-Score: 90/100 | Language: JavaScript | ⭐ 2737 (+521.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>alibaba/open-code-review — Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.</title>
-    <id>https://github.com/alibaba/open-code-review#2026-10-09</id>
-    <link rel="alternate" type="text/html" href="https://github.com/alibaba/open-code-review"/>
-    <updated>2026-10-09T18:00:00Z</updated>
-    <published>2026-10-09T18:00:00Z</published>
-    <summary>Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.
-
-Why: +231/day · Trending
-Score: 76/100 | Language: Go | ⭐ 44788 (+231.0/day) | Source: trending</summary>
   </entry>
 </feed>
