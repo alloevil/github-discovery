@@ -54662,12 +54662,12 @@
    },
    {
     "date": "2026-10-25",
-    "stars": 10223,
-    "forks": 1251,
-    "open_issues": 3181,
+    "stars": 10320,
+    "forks": 1263,
+    "open_issues": 3258,
     "commits_7d": 100,
     "contributors_7d": 100,
-    "pushed_at": "2026-10-25T09:25:17Z"
+    "pushed_at": "2026-10-25T13:15:55Z"
    }
   ],
   "reason-machines/reason-network": [
@@ -57290,8 +57290,8 @@
    },
    {
     "date": "2026-10-25",
-    "stars": 65207,
-    "forks": 20330,
+    "stars": 65367,
+    "forks": 20414,
     "open_issues": 66,
     "commits_7d": 56,
     "contributors_7d": 92,
@@ -58148,12 +58148,12 @@
   "indexable-inc/blaze": [
    {
     "date": "2026-10-25",
-    "stars": 309,
+    "stars": 344,
     "forks": 13,
-    "open_issues": 87,
+    "open_issues": 107,
     "commits_7d": 100,
     "contributors_7d": 6,
-    "pushed_at": "2026-10-25T09:26:32Z"
+    "pushed_at": "2026-10-25T13:18:57Z"
    }
   ],
   "jss8649/quiet-tizen": [
@@ -58223,5 +58223,5 @@
    }
   ]
  },
- "updated_at": "2026-10-25T09:29:24.926692+00:00"
+ "updated_at": "2026-10-25T13:21:37.162108+00:00"
 }
