@@ -1,75 +1,5 @@
 {
  "repos": {
-  "BerriAI/litellm": {
-   "first_seen": "2026-10-10",
-   "until": "2026-10-24",
-   "stars_at_discovery": 60859,
-   "score_at_discovery": 99,
-   "source_at_discovery": "trending"
-  },
-  "Robbyant/lingbot-map": {
-   "first_seen": "2026-10-10",
-   "until": "2026-10-24",
-   "stars_at_discovery": 17890,
-   "score_at_discovery": 94,
-   "source_at_discovery": "trending"
-  },
-  "twostraws/SwiftUI-Agent-Skill": {
-   "first_seen": "2026-10-10",
-   "until": "2026-10-24",
-   "stars_at_discovery": 5649,
-   "score_at_discovery": 94,
-   "source_at_discovery": "trending"
-  },
-  "HelixDB/helix-foundry": {
-   "first_seen": "2026-10-10",
-   "until": "2026-10-24",
-   "stars_at_discovery": 699,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "mrsarac/ff-tracking": {
-   "first_seen": "2026-10-10",
-   "until": "2026-10-24",
-   "stars_at_discovery": 188,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "t4t5/omdrop-owl": {
-   "first_seen": "2026-10-10",
-   "until": "2026-10-24",
-   "stars_at_discovery": 882,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "Stellar-Clear/clearledger-contracts": {
-   "first_seen": "2026-10-10",
-   "until": "2026-10-24",
-   "stars_at_discovery": 131,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "sirioberati/Genjustsu-Open-Source-Workflow": {
-   "first_seen": "2026-10-10",
-   "until": "2026-10-24",
-   "stars_at_discovery": 332,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "binwu1/drama-series-agent": {
-   "first_seen": "2026-10-10",
-   "until": "2026-10-24",
-   "stars_at_discovery": 203,
-   "score_at_discovery": 88,
-   "source_at_discovery": "search"
-  },
-  "GTKottman/mortiflix-oss": {
-   "first_seen": "2026-10-10",
-   "until": "2026-10-24",
-   "stars_at_discovery": 500,
-   "score_at_discovery": 87,
-   "source_at_discovery": "ai-trending"
-  },
   "rociiu/talorys": {
    "first_seen": "2026-10-11",
    "until": "2026-10-25",
@@ -1035,7 +965,84 @@
    "stars_at_discovery": 19018,
    "score_at_discovery": 98,
    "source_at_discovery": "trending"
+  },
+  "luongnv89/claude-howto": {
+   "first_seen": "2026-10-25",
+   "until": "2026-11-08",
+   "stars_at_discovery": 44808,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "rddmwmddr/android-ad-cleaner": {
+   "first_seen": "2026-10-25",
+   "until": "2026-11-08",
+   "stars_at_discovery": 330,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "mizorewww/gdirect": {
+   "first_seen": "2026-10-25",
+   "until": "2026-11-08",
+   "stars_at_discovery": 211,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "morganlinton/BeautifulRust": {
+   "first_seen": "2026-10-25",
+   "until": "2026-11-08",
+   "stars_at_discovery": 346,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "recursive-oss/rec": {
+   "first_seen": "2026-10-25",
+   "until": "2026-11-08",
+   "stars_at_discovery": 191,
+   "score_at_discovery": 86,
+   "source_at_discovery": "ai-trending"
+  },
+  "Physical2RSI/Awesome-Physical2RSI": {
+   "first_seen": "2026-10-25",
+   "until": "2026-11-08",
+   "stars_at_discovery": 44,
+   "score_at_discovery": 86,
+   "source_at_discovery": "hf-papers"
+  },
+  "Nutlope/hallmark": {
+   "first_seen": "2026-10-25",
+   "until": "2026-11-08",
+   "stars_at_discovery": 32647,
+   "score_at_discovery": 85,
+   "source_at_discovery": "trending"
+  },
+  "google-gemini/gemini-cli": {
+   "first_seen": "2026-10-25",
+   "until": "2026-11-08",
+   "stars_at_discovery": 108318,
+   "score_at_discovery": 85,
+   "source_at_discovery": "trending"
+  },
+  "jss8649/quiet-tizen": {
+   "first_seen": "2026-10-25",
+   "until": "2026-11-08",
+   "stars_at_discovery": 340,
+   "score_at_discovery": 85,
+   "source_at_discovery": "search"
+  },
+  "atbfun/ATBGamePort": {
+   "first_seen": "2026-10-25",
+   "until": "2026-11-08",
+   "stars_at_discovery": 294,
+   "score_at_discovery": 85,
+   "source_at_discovery": "search"
+  },
+  "pbakaus/impeccable": {
+   "first_seen": "2026-10-25",
+   "until": "2026-11-08",
+   "stars_at_discovery": 86783,
+   "score_at_discovery": 95,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-10-24T09:12:00.311675+00:00"
+ "updated_at": "2026-10-25T09:29:24.973244+00:00"
 }

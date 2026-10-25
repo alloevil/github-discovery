@@ -119,7 +119,47 @@
     "eagle-hq/EAGLE-4": {
       "first_picked": "2026-10-22",
       "source": "github-discovery"
+    },
+    "agharsallah/esp-labs-web": {
+      "first_picked": "2026-10-25",
+      "source": "github-discovery"
+    },
+    "verifast/verifast": {
+      "first_picked": "2026-10-25",
+      "source": "github-discovery"
+    },
+    "luongnv89/claude-howto": {
+      "first_picked": "2026-10-25",
+      "source": "github-discovery"
+    },
+    "pbakaus/impeccable": {
+      "first_picked": "2026-10-25",
+      "source": "github-discovery"
+    },
+    "rddmwmddr/android-ad-cleaner": {
+      "first_picked": "2026-10-25",
+      "source": "github-discovery"
+    },
+    "morganlinton/BeautifulRust": {
+      "first_picked": "2026-10-25",
+      "source": "github-discovery"
+    },
+    "recursive-oss/rec": {
+      "first_picked": "2026-10-25",
+      "source": "github-discovery"
+    },
+    "Physical2RSI/Awesome-Physical2RSI": {
+      "first_picked": "2026-10-25",
+      "source": "github-discovery"
+    },
+    "Nutlope/hallmark": {
+      "first_picked": "2026-10-25",
+      "source": "github-discovery"
+    },
+    "google-gemini/gemini-cli": {
+      "first_picked": "2026-10-25",
+      "source": "github-discovery"
     }
   },
-  "updated_at": "2026-10-22T09:39:32.023802+00:00"
+  "updated_at": "2026-10-25T09:26:07.316313+00:00"
 }

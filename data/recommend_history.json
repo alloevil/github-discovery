@@ -238,76 +238,6 @@
       ],
       "last_recommended": "2026-10-07T11:22:12.624635+00:00"
     },
-    "google/ax": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-24T09:33:33.022632+00:00"
-    },
-    "dream-num/univer": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-24T09:33:33.024950+00:00"
-    },
-    "agent-substrate/substrate": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-24T09:33:33.027028+00:00"
-    },
-    "superdesigndev/treg": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-24T09:33:33.029107+00:00"
-    },
-    "browser-use/video-use": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-24T09:33:33.031202+00:00"
-    },
-    "davila7/claude-code-templates": {
-      "count": 1,
-      "scores": [
-        99
-      ],
-      "last_recommended": "2026-09-24T09:33:33.033283+00:00"
-    },
-    "yetone/magpie": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-09-24T09:33:33.035414+00:00"
-    },
-    "driceroland/Search": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-09-24T09:33:33.037504+00:00"
-    },
-    "BridgeDruidCompress/TauriKit": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-24T09:33:33.039586+00:00"
-    },
-    "AutocratGirder/ClashDesk": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-24T09:33:33.041743+00:00"
-    },
     "strands-agents/harness-sdk": {
       "count": 1,
       "scores": [
@@ -415,12 +345,13 @@
       "last_recommended": "2026-09-26T09:32:50.349481+00:00"
     },
     "pbakaus/impeccable": {
-      "count": 2,
+      "count": 3,
       "scores": [
         93,
-        99
+        99,
+        95
       ],
-      "last_recommended": "2026-10-03T10:04:21.047153+00:00"
+      "last_recommended": "2026-10-25T09:26:04.300391+00:00"
     },
     "jamespolyakov9829/captcha-api": {
       "count": 1,
@@ -2346,7 +2277,77 @@
         84
       ],
       "last_recommended": "2026-10-24T09:08:40.712797+00:00"
+    },
+    "luongnv89/claude-howto": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-25T09:26:04.278310+00:00"
+    },
+    "rddmwmddr/android-ad-cleaner": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-25T09:26:04.280756+00:00"
+    },
+    "mizorewww/gdirect": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-10-25T09:26:04.283013+00:00"
+    },
+    "morganlinton/BeautifulRust": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-25T09:26:04.285153+00:00"
+    },
+    "recursive-oss/rec": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-10-25T09:26:04.287308+00:00"
+    },
+    "Physical2RSI/Awesome-Physical2RSI": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-10-25T09:26:04.289540+00:00"
+    },
+    "Nutlope/hallmark": {
+      "count": 1,
+      "scores": [
+        85
+      ],
+      "last_recommended": "2026-10-25T09:26:04.291682+00:00"
+    },
+    "google-gemini/gemini-cli": {
+      "count": 1,
+      "scores": [
+        85
+      ],
+      "last_recommended": "2026-10-25T09:26:04.293835+00:00"
+    },
+    "jss8649/quiet-tizen": {
+      "count": 1,
+      "scores": [
+        85
+      ],
+      "last_recommended": "2026-10-25T09:26:04.296046+00:00"
+    },
+    "atbfun/ATBGamePort": {
+      "count": 1,
+      "scores": [
+        85
+      ],
+      "last_recommended": "2026-10-25T09:26:04.298228+00:00"
     }
   },
-  "updated_at": "2026-10-24T09:08:40.716433+00:00"
+  "updated_at": "2026-10-25T09:26:04.300418+00:00"
 }

@@ -1,0 +1,56 @@
+{
+ "date": "2026-10-25",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "google-gemini/gemini-cli",
+   "stars": 108318,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "pbakaus/impeccable",
+   "stars": 86783,
+   "language": "Rust"
+  },
+  {
+   "full_name": "cloudflare/security-audit-skill",
+   "stars": 45504,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "luongnv89/claude-howto",
+   "stars": 44808,
+   "language": "Python"
+  },
+  {
+   "full_name": "Nutlope/hallmark",
+   "stars": 32647,
+   "language": "CSS"
+  },
+  {
+   "full_name": "jbiaojerry/ebook-treasure-chest",
+   "stars": 22958,
+   "language": "Python"
+  },
+  {
+   "full_name": "NVIDIA/OpenShell",
+   "stars": 19683,
+   "language": "Rust"
+  },
+  {
+   "full_name": "pollen-robotics/microduck",
+   "stars": 11220,
+   "language": "Rust"
+  },
+  {
+   "full_name": "makecindy/cindy",
+   "stars": 4346,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "aws/agent-toolkit-for-aws",
+   "stars": 3243,
+   "language": "Python"
+  }
+ ]
+}

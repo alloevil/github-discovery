@@ -1,0 +1,342 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T09:26:07+00:00",
+  "every_days": 3,
+  "count": 10,
+  "semi_count": 2,
+  "semi_min_met": true,
+  "picks": [
+    {
+      "rank": 1,
+      "full_name": "agharsallah/esp-labs-web",
+      "url": "https://github.com/agharsallah/esp-labs-web",
+      "description": "The ESP32-S3 bench guide as a React app: live pinout, lessons with interactive simulators, a code reader for the esp-labs firmware, and the bench log. In 8 languages, including Arabic (RTL).",
+      "topic": "semi",
+      "language": "TypeScript",
+      "topics": [
+        "education",
+        "electronics",
+        "embedded",
+        "esp32",
+        "esp32-s3",
+        "i18n",
+        "interactive-learning",
+        "pinout",
+        "react",
+        "react-router",
+        "rtl",
+        "simulator",
+        "tanstack-query",
+        "typescript",
+        "vite"
+      ],
+      "license": "",
+      "stars": 218,
+      "forks": 37,
+      "created_at": "2026-10-21T13:40:04Z",
+      "pushed_at": "2026-10-25T09:17:44Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 72,
+      "verified_at": "2026-10-25T09:26:04+00:00"
+    },
+    {
+      "rank": 2,
+      "full_name": "verifast/verifast",
+      "url": "https://github.com/verifast/verifast",
+      "description": "Research prototype tool for modular formal verification of C, Rust and Java programs",
+      "topic": "semi",
+      "language": "Rust",
+      "topics": [],
+      "license": "NOASSERTION",
+      "stars": 523,
+      "forks": 79,
+      "created_at": "2013-11-19T08:57:02Z",
+      "pushed_at": "2026-10-09T18:46:08Z",
+      "growth": {
+        "since": "2026-10-19",
+        "window_days": 6,
+        "stars_gained": 2,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 61,
+      "verified_at": "2026-10-25T09:26:04+00:00"
+    },
+    {
+      "rank": 3,
+      "full_name": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "claude-code",
+        "guide",
+        "tutorial"
+      ],
+      "license": "MIT",
+      "stars": 44810,
+      "forks": 5511,
+      "created_at": "2025-11-07T22:59:34Z",
+      "pushed_at": "2026-10-20T12:23:14Z",
+      "growth": {
+        "since": "2026-10-23",
+        "window_days": 2,
+        "stars_gained": 1148,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 90,
+      "verified_at": "2026-10-25T09:26:05+00:00"
+    },
+    {
+      "rank": 4,
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "topic": "ai",
+      "language": "Rust",
+      "topics": [],
+      "license": "Apache-2.0",
+      "stars": 86786,
+      "forks": 5180,
+      "created_at": "2025-11-16T01:52:04Z",
+      "pushed_at": "2026-10-24T06:29:27Z",
+      "growth": {
+        "since": "2026-10-10",
+        "window_days": 15,
+        "stars_gained": 7587,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 85,
+      "verified_at": "2026-10-25T09:26:05+00:00"
+    },
+    {
+      "rank": 5,
+      "full_name": "rddmwmddr/android-ad-cleaner",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "adb",
+        "ai-agent",
+        "android",
+        "coloros",
+        "debloat",
+        "hyperos",
+        "magicos",
+        "originos"
+      ],
+      "license": "MIT",
+      "stars": 330,
+      "forks": 31,
+      "created_at": "2026-10-24T05:35:47Z",
+      "pushed_at": "2026-10-24T08:21:19Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 84,
+      "verified_at": "2026-10-25T09:26:05+00:00"
+    },
+    {
+      "rank": 6,
+      "full_name": "morganlinton/BeautifulRust",
+      "url": "https://github.com/morganlinton/BeautifulRust",
+      "description": "A Claude Code plugin that teaches Claude to write idiomatic, robust Rust",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "claude-code",
+        "claude-plugin",
+        "claude-skills",
+        "coding-agent",
+        "rust",
+        "style-guide"
+      ],
+      "license": "MIT",
+      "stars": 346,
+      "forks": 23,
+      "created_at": "2026-10-23T03:01:11Z",
+      "pushed_at": "2026-10-25T02:19:48Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 81,
+      "verified_at": "2026-10-25T09:26:05+00:00"
+    },
+    {
+      "rank": 7,
+      "full_name": "recursive-oss/rec",
+      "url": "https://github.com/recursive-oss/rec",
+      "description": "Our lightning-fast inference engine.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "stars": 191,
+      "forks": 32,
+      "created_at": "2026-10-21T15:35:55Z",
+      "pushed_at": "2026-10-23T05:01:10Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 76,
+      "verified_at": "2026-10-25T09:26:06+00:00"
+    },
+    {
+      "rank": 8,
+      "full_name": "Physical2RSI/Awesome-Physical2RSI",
+      "url": "https://github.com/Physical2RSI/Awesome-Physical2RSI",
+      "description": "Toward Recursive Self-Improvement in Physical AI: Foundations, Mechanisms, and Open Problems. Survey overview and open reference library.",
+      "topic": "ai",
+      "language": "JavaScript",
+      "topics": [
+        "bibliography",
+        "embodied-ai",
+        "physical-ai",
+        "recursive-self-improvement",
+        "robotics",
+        "self-improving-ai",
+        "survey"
+      ],
+      "license": "MIT",
+      "stars": 44,
+      "forks": 0,
+      "created_at": "2026-10-06T05:08:02Z",
+      "pushed_at": "2026-10-23T05:10:20Z",
+      "growth": {
+        "since": "2026-10-24",
+        "window_days": 1,
+        "stars_gained": 24,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "hf-papers"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": "Toward Recursive Self-Improvement in Physical AI",
+        "hf_upvotes": 57
+      },
+      "score": 76,
+      "verified_at": "2026-10-25T09:26:06+00:00"
+    },
+    {
+      "rank": 9,
+      "full_name": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "topic": "ai",
+      "language": "CSS",
+      "topics": [],
+      "license": "MIT",
+      "stars": 32648,
+      "forks": 1683,
+      "created_at": "2026-04-27T20:47:10Z",
+      "pushed_at": "2026-10-22T17:20:32Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 75,
+      "verified_at": "2026-10-25T09:26:06+00:00"
+    },
+    {
+      "rank": 10,
+      "full_name": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "cli",
+        "gemini",
+        "gemini-api",
+        "mcp-client",
+        "mcp-server"
+      ],
+      "license": "Apache-2.0",
+      "stars": 108318,
+      "forks": 14826,
+      "created_at": "2025-04-17T17:04:31Z",
+      "pushed_at": "2026-10-25T01:31:54Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 75,
+      "verified_at": "2026-10-25T09:26:07+00:00"
+    }
+  ]
+}

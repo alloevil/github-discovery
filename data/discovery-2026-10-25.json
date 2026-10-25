@@ -1,0 +1,355 @@
+{
+ "date": "2026-10-25",
+ "generated_at": "2026-10-25T09:26:07.316742",
+ "pool_size": 76,
+ "source_health": {
+  "trending": {
+   "fetched": 10,
+   "parsed": 10,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 4
+  },
+  "search": {
+   "fetched": 54,
+   "parsed": 54,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 5
+  },
+  "hn": {
+   "fetched": 12,
+   "parsed": 12,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 0,
+   "parsed": 0,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 19,
+   "parsed": 19,
+   "rejected": 0,
+   "deduplicated": 3,
+   "recommended": 1
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  }
+ },
+ "new": [
+  {
+   "full_name": "luongnv89/claude-howto",
+   "url": "https://github.com/luongnv89/claude-howto",
+   "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+   "language": "Python",
+   "stars": 44810,
+   "forks": 5511,
+   "age_days": 351,
+   "daily_stars": 127.65811965811966,
+   "real_daily_stars": 573.0,
+   "watchers": 205,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "rddmwmddr/android-ad-cleaner",
+   "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+   "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+   "language": "Python",
+   "stars": 330,
+   "forks": 31,
+   "age_days": 1,
+   "daily_stars": 330.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "mizorewww/gdirect",
+   "url": "https://github.com/mizorewww/gdirect",
+   "description": "Rust Google Drive direct downloader using pinned libaria2",
+   "language": "Rust",
+   "stars": 211,
+   "forks": 10,
+   "age_days": 1,
+   "daily_stars": 211.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "morganlinton/BeautifulRust",
+   "url": "https://github.com/morganlinton/BeautifulRust",
+   "description": "A Claude Code plugin that teaches Claude to write idiomatic, robust Rust",
+   "language": "Python",
+   "stars": 346,
+   "forks": 23,
+   "age_days": 2,
+   "daily_stars": 173.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "recursive-oss/rec",
+   "url": "https://github.com/recursive-oss/rec",
+   "description": "Our lightning-fast inference engine.",
+   "language": "Python",
+   "stars": 191,
+   "forks": 32,
+   "age_days": 3,
+   "daily_stars": 63.666666666666664,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "Physical2RSI/Awesome-Physical2RSI",
+   "url": "https://github.com/Physical2RSI/Awesome-Physical2RSI",
+   "description": "Toward Recursive Self-Improvement in Physical AI: Foundations, Mechanisms, and Open Problems. Survey overview and open reference library.",
+   "language": "JavaScript",
+   "stars": 44,
+   "forks": 0,
+   "age_days": 19,
+   "daily_stars": 2.3157894736842106,
+   "real_daily_stars": 24.0,
+   "watchers": 0,
+   "source": "hf-papers",
+   "sources": [
+    "hf-papers"
+   ],
+   "license": "MIT",
+   "hf_title": "Toward Recursive Self-Improvement in Physical AI",
+   "hf_upvotes": 57,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 86,
+    "acceleration": 26,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 17
+   }
+  },
+  {
+   "full_name": "Nutlope/hallmark",
+   "url": "https://github.com/Nutlope/hallmark",
+   "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+   "language": "CSS",
+   "stars": 32648,
+   "forks": 1683,
+   "age_days": 180,
+   "daily_stars": 181.37222222222223,
+   "watchers": 65,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 85,
+    "acceleration": 25,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "google-gemini/gemini-cli",
+   "url": "https://github.com/google-gemini/gemini-cli",
+   "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+   "language": "TypeScript",
+   "stars": 108318,
+   "forks": 14826,
+   "age_days": 555,
+   "daily_stars": 195.16756756756757,
+   "watchers": 587,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 85,
+    "acceleration": 25,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "jss8649/quiet-tizen",
+   "url": "https://github.com/jss8649/quiet-tizen",
+   "description": "Native Quiet Home launcher, reversible cleanup tools, and an agent-readable guide for the Samsung U8000F running Tizen 9.",
+   "language": "Python",
+   "stars": 340,
+   "forks": 43,
+   "age_days": 4,
+   "daily_stars": 85.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 85,
+    "acceleration": 25,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "atbfun/ATBGamePort",
+   "url": "https://github.com/atbfun/ATBGamePort",
+   "description": "Transplant all the games to the web platform",
+   "language": "Python",
+   "stars": 294,
+   "forks": 58,
+   "age_days": 4,
+   "daily_stars": 73.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 85,
+    "acceleration": 25,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 17
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "description": "The design language that makes your AI harness better at design.",
+   "language": "Rust",
+   "stars": 86786,
+   "forks": 5180,
+   "age_days": 343,
+   "daily_stars": 253.01166180758017,
+   "real_daily_stars": 505.6,
+   "watchers": 197,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ]
+}

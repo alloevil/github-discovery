@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-24T18:00:00Z</updated>
+  <updated>2026-10-25T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>luongnv89/claude-howto — A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.</title>
+    <id>https://github.com/luongnv89/claude-howto#2026-10-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/luongnv89/claude-howto"/>
+    <updated>2026-10-25T18:00:00Z</updated>
+    <published>2026-10-25T18:00:00Z</published>
+    <summary>A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.
+
+Why: +573/day · Trending · 4.5x accelerating
+Score: 100/100 | Language: Python | ⭐ 44810 (+573.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>rddmwmddr/android-ad-cleaner — 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。</title>
+    <id>https://github.com/rddmwmddr/android-ad-cleaner#2026-10-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/rddmwmddr/android-ad-cleaner"/>
+    <updated>2026-10-25T18:00:00Z</updated>
+    <published>2026-10-25T18:00:00Z</published>
+    <summary>关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。
+
+Why: +330/day · Search
+Score: 94/100 | Language: Python | ⭐ 330 (+330.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>mizorewww/gdirect — Rust Google Drive direct downloader using pinned libaria2</title>
+    <id>https://github.com/mizorewww/gdirect#2026-10-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mizorewww/gdirect"/>
+    <updated>2026-10-25T18:00:00Z</updated>
+    <published>2026-10-25T18:00:00Z</published>
+    <summary>Rust Google Drive direct downloader using pinned libaria2
+
+Why: +211/day · Search
+Score: 92/100 | Language: Rust | ⭐ 211 (+211.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>morganlinton/BeautifulRust — A Claude Code plugin that teaches Claude to write idiomatic, robust Rust</title>
+    <id>https://github.com/morganlinton/BeautifulRust#2026-10-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/morganlinton/BeautifulRust"/>
+    <updated>2026-10-25T18:00:00Z</updated>
+    <published>2026-10-25T18:00:00Z</published>
+    <summary>A Claude Code plugin that teaches Claude to write idiomatic, robust Rust
+
+Why: +173/day · Search
+Score: 91/100 | Language: Python | ⭐ 346 (+173.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>recursive-oss/rec — Our lightning-fast inference engine.</title>
+    <id>https://github.com/recursive-oss/rec#2026-10-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/recursive-oss/rec"/>
+    <updated>2026-10-25T18:00:00Z</updated>
+    <published>2026-10-25T18:00:00Z</published>
+    <summary>Our lightning-fast inference engine.
+
+Why: +64/day · AI/ML
+Score: 86/100 | Language: Python | ⭐ 191 (+63.7/day) | Source: ai-trending</summary>
+  </entry>
+  <entry>
+    <title>pbakaus/impeccable — The design language that makes your AI harness better at design.</title>
+    <id>https://github.com/pbakaus/impeccable#2026-10-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/pbakaus/impeccable"/>
+    <updated>2026-10-25T18:00:00Z</updated>
+    <published>2026-10-25T18:00:00Z</published>
+    <summary>The design language that makes your AI harness better at design.
+
+Why: +506/day · Trending · 2.0x accelerating
+Score: 95/100 | Language: Rust | ⭐ 86786 (+505.6/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>wesbos/3d-model-anything — Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.</title>
     <id>https://github.com/wesbos/3d-model-anything#2026-10-24</id>
@@ -899,71 +965,5 @@ Score: 100/100 | Language: TypeScript | ⭐ 26547 (+516.0/day) | Source: trendin
 
 Why: +58/day · Trending
 Score: 70/100 | Language: Python | ⭐ 167493 (+57.7/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>BerriAI/litellm — The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]</title>
-    <id>https://github.com/BerriAI/litellm#2026-10-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/BerriAI/litellm"/>
-    <updated>2026-10-10T18:00:00Z</updated>
-    <published>2026-10-10T18:00:00Z</published>
-    <summary>The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]
-
-Why: +412/day · Trending · 7.9x accelerating
-Score: 99/100 | Language: Python | ⭐ 60859 (+412.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Robbyant/lingbot-map — [ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction</title>
-    <id>https://github.com/Robbyant/lingbot-map#2026-10-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Robbyant/lingbot-map"/>
-    <updated>2026-10-10T18:00:00Z</updated>
-    <published>2026-10-10T18:00:00Z</published>
-    <summary>[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction
-
-Why: +369/day · Trending · 3.7x accelerating
-Score: 94/100 | Language: Python | ⭐ 17890 (+369.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>twostraws/SwiftUI-Agent-Skill — SwiftUI agent skill for Claude Code, Codex, and other AI tools.</title>
-    <id>https://github.com/twostraws/SwiftUI-Agent-Skill#2026-10-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/twostraws/SwiftUI-Agent-Skill"/>
-    <updated>2026-10-10T18:00:00Z</updated>
-    <published>2026-10-10T18:00:00Z</published>
-    <summary>SwiftUI agent skill for Claude Code, Codex, and other AI tools.
-
-Why: +439/day · Trending · 16.9x accelerating
-Score: 94/100 | Language: ? | ⭐ 5649 (+439.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>HelixDB/helix-foundry — Your company's data, connected into one ontology, on your own computer. A local-first data workspace built on HelixDB and DuckDB.</title>
-    <id>https://github.com/HelixDB/helix-foundry#2026-10-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/HelixDB/helix-foundry"/>
-    <updated>2026-10-10T18:00:00Z</updated>
-    <published>2026-10-10T18:00:00Z</published>
-    <summary>Your company's data, connected into one ontology, on your own computer. A local-first data workspace built on HelixDB and DuckDB.
-
-Why: +445/day · Search · 1.9x accelerating
-Score: 94/100 | Language: TypeScript | ⭐ 699 (+445.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>mrsarac/ff-tracking — A virtual camera films an AI agent's screen while a tracker locks onto every glyph. Two fframes passes, one SkSL shader, all sound synthesized.</title>
-    <id>https://github.com/mrsarac/ff-tracking#2026-10-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mrsarac/ff-tracking"/>
-    <updated>2026-10-10T18:00:00Z</updated>
-    <published>2026-10-10T18:00:00Z</published>
-    <summary>A virtual camera films an AI agent's screen while a tracker locks onto every glyph. Two fframes passes, one SkSL shader, all sound synthesized.
-
-Why: +188/day · Search
-Score: 91/100 | Language: Rust | ⭐ 188 (+188.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>mattpocock/skills — Skills for Real Engineers. Straight from my .agents directory.</title>
-    <id>https://github.com/mattpocock/skills#2026-10-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mattpocock/skills"/>
-    <updated>2026-10-10T18:00:00Z</updated>
-    <published>2026-10-10T18:00:00Z</published>
-    <summary>Skills for Real Engineers. Straight from my .agents directory.
-
-Why: +1602/day · Trending
-Score: 92/100 | Language: Shell | ⭐ 283522 (+1602.0/day) | Source: trending</summary>
   </entry>
 </feed>
