@@ -1,0 +1,118 @@
+{
+  "cutoff": "2026-10-26",
+  "horizons": {
+    "1": {
+      "train": {
+        "rows": 3266,
+        "mature": 2102,
+        "coverage_pct": 64.4,
+        "recommended_mature": 333,
+        "eligible_mature": 950,
+        "recommended_breakout_rate": 2.7,
+        "eligible_breakout_rate": 3.6,
+        "lift": 0.76
+      },
+      "holdout": {
+        "rows": 0,
+        "mature": 0,
+        "coverage_pct": 0,
+        "recommended_mature": 0,
+        "eligible_mature": 0,
+        "recommended_breakout_rate": null,
+        "eligible_breakout_rate": null,
+        "lift": null
+      },
+      "interpretation": "exploratory"
+    },
+    "3": {
+      "train": {
+        "rows": 3266,
+        "mature": 1433,
+        "coverage_pct": 43.9,
+        "recommended_mature": 304,
+        "eligible_mature": 388,
+        "recommended_breakout_rate": 11.5,
+        "eligible_breakout_rate": 13.9,
+        "lift": 0.83
+      },
+      "holdout": {
+        "rows": 0,
+        "mature": 0,
+        "coverage_pct": 0,
+        "recommended_mature": 0,
+        "eligible_mature": 0,
+        "recommended_breakout_rate": null,
+        "eligible_breakout_rate": null,
+        "lift": null
+      },
+      "interpretation": "exploratory"
+    },
+    "7": {
+      "train": {
+        "rows": 3266,
+        "mature": 943,
+        "coverage_pct": 28.9,
+        "recommended_mature": 250,
+        "eligible_mature": 83,
+        "recommended_breakout_rate": 21.2,
+        "eligible_breakout_rate": 32.5,
+        "lift": 0.65
+      },
+      "holdout": {
+        "rows": 0,
+        "mature": 0,
+        "coverage_pct": 0,
+        "recommended_mature": 0,
+        "eligible_mature": 0,
+        "recommended_breakout_rate": null,
+        "eligible_breakout_rate": null,
+        "lift": null
+      },
+      "interpretation": "formal"
+    },
+    "14": {
+      "train": {
+        "rows": 3266,
+        "mature": 251,
+        "coverage_pct": 7.7,
+        "recommended_mature": 173,
+        "eligible_mature": 60,
+        "recommended_breakout_rate": 26.0,
+        "eligible_breakout_rate": 36.7,
+        "lift": 0.71
+      },
+      "holdout": {
+        "rows": 0,
+        "mature": 0,
+        "coverage_pct": 0,
+        "recommended_mature": 0,
+        "eligible_mature": 0,
+        "recommended_breakout_rate": null,
+        "eligible_breakout_rate": null,
+        "lift": null
+      },
+      "interpretation": "exploratory"
+    }
+  },
+  "train": {
+    "rows": 3266,
+    "mature": 943,
+    "coverage_pct": 28.9,
+    "recommended_mature": 250,
+    "eligible_mature": 83,
+    "recommended_breakout_rate": 21.2,
+    "eligible_breakout_rate": 32.5,
+    "lift": 0.65
+  },
+  "holdout": {
+    "rows": 0,
+    "mature": 0,
+    "coverage_pct": 0,
+    "recommended_mature": 0,
+    "eligible_mature": 0,
+    "recommended_breakout_rate": null,
+    "eligible_breakout_rate": null,
+    "lift": null
+  },
+  "status": "not-ready"
+}
