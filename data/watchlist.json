@@ -1,82 +1,5 @@
 {
  "repos": {
-  "rociiu/talorys": {
-   "first_seen": "2026-10-11",
-   "until": "2026-10-25",
-   "stars_at_discovery": 588,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "wheresryan22/anatomy": {
-   "first_seen": "2026-10-11",
-   "until": "2026-10-25",
-   "stars_at_discovery": 960,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "c22dev/muguet": {
-   "first_seen": "2026-10-11",
-   "until": "2026-10-25",
-   "stars_at_discovery": 365,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "fayazara/robot-heads": {
-   "first_seen": "2026-10-11",
-   "until": "2026-10-25",
-   "stars_at_discovery": 216,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "n1tr00-10/tiktok-web-signature": {
-   "first_seen": "2026-10-11",
-   "until": "2026-10-25",
-   "stars_at_discovery": 709,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "zhouwei713/luobo-ppt": {
-   "first_seen": "2026-10-11",
-   "until": "2026-10-25",
-   "stars_at_discovery": 215,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "mrzh7/scam-with-your-friends-web": {
-   "first_seen": "2026-10-11",
-   "until": "2026-10-25",
-   "stars_at_discovery": 229,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "mhtsec/ARTEX": {
-   "first_seen": "2026-10-11",
-   "until": "2026-10-25",
-   "stars_at_discovery": 3041,
-   "score_at_discovery": 88,
-   "source_at_discovery": "search"
-  },
-  "a-funk/open-appleremote": {
-   "first_seen": "2026-10-11",
-   "until": "2026-10-25",
-   "stars_at_discovery": 200,
-   "score_at_discovery": 88,
-   "source_at_discovery": "search"
-  },
-  "hugohe3/ppt-master": {
-   "first_seen": "2026-10-11",
-   "until": "2026-10-25",
-   "stars_at_discovery": 60023,
-   "score_at_discovery": 86,
-   "source_at_discovery": "trending"
-  },
-  "huggingface/transformers": {
-   "first_seen": "2026-10-11",
-   "until": "2026-10-25",
-   "stars_at_discovery": 167493,
-   "score_at_discovery": 70,
-   "source_at_discovery": "trending"
-  },
   "ARahim3/DigUp": {
    "first_seen": "2026-10-12",
    "until": "2026-10-26",
@@ -1042,7 +965,84 @@
    "stars_at_discovery": 86783,
    "score_at_discovery": 95,
    "source_at_discovery": "trending"
+  },
+  "makecindy/cindy": {
+   "first_seen": "2026-10-26",
+   "until": "2026-11-09",
+   "stars_at_discovery": 5609,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "pollen-robotics/microduck": {
+   "first_seen": "2026-10-26",
+   "until": "2026-11-09",
+   "stars_at_discovery": 12070,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "Renhuai123/ziwei-doushu": {
+   "first_seen": "2026-10-26",
+   "until": "2026-11-09",
+   "stars_at_discovery": 8146,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "DenisSergeevitch/ex-ussr-kinship-research": {
+   "first_seen": "2026-10-26",
+   "until": "2026-11-09",
+   "stars_at_discovery": 636,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "wangrongding/tv-fresh": {
+   "first_seen": "2026-10-26",
+   "until": "2026-11-09",
+   "stars_at_discovery": 445,
+   "score_at_discovery": 95,
+   "source_at_discovery": "ai-trending"
+  },
+  "t3dotgg/tstack": {
+   "first_seen": "2026-10-26",
+   "until": "2026-11-09",
+   "stars_at_discovery": 601,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "surendrapandar/minilytics": {
+   "first_seen": "2026-10-26",
+   "until": "2026-11-09",
+   "stars_at_discovery": 508,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "andyhuo520/digital-human-koubo": {
+   "first_seen": "2026-10-26",
+   "until": "2026-11-09",
+   "stars_at_discovery": 274,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "DrWhax/unfairplay": {
+   "first_seen": "2026-10-26",
+   "until": "2026-11-09",
+   "stars_at_discovery": 275,
+   "score_at_discovery": 93,
+   "source_at_discovery": "rising"
+  },
+  "KillaBoi/StealMyBitcoin-PoC": {
+   "first_seen": "2026-10-26",
+   "until": "2026-11-09",
+   "stars_at_discovery": 546,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "debpalash/VoiceStudio": {
+   "first_seen": "2026-10-26",
+   "until": "2026-11-09",
+   "stars_at_discovery": 87776,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-10-25T09:29:24.973244+00:00"
+ "updated_at": "2026-10-26T10:36:01.783473+00:00"
 }

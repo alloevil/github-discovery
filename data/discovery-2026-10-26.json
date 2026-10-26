@@ -1,0 +1,358 @@
+{
+ "date": "2026-10-26",
+ "generated_at": "2026-10-26T10:32:41.333610",
+ "pool_size": 86,
+ "source_health": {
+  "trending": {
+   "fetched": 11,
+   "parsed": 11,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 4
+  },
+  "search": {
+   "fetched": 56,
+   "parsed": 56,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 5
+  },
+  "hn": {
+   "fetched": 9,
+   "parsed": 9,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 1,
+   "parsed": 1,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  },
+  "ai-trending": {
+   "fetched": 27,
+   "parsed": 27,
+   "rejected": 0,
+   "deduplicated": 7,
+   "recommended": 4
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "makecindy/cindy",
+   "url": "https://github.com/makecindy/cindy",
+   "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+   "language": "TypeScript",
+   "stars": 5609,
+   "forks": 722,
+   "age_days": 95,
+   "daily_stars": 59.04210526315789,
+   "real_daily_stars": 1263.0,
+   "watchers": 21,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "pollen-robotics/microduck",
+   "url": "https://github.com/pollen-robotics/microduck",
+   "description": "A Tiny biped duck robot 🦆",
+   "language": "Rust",
+   "stars": 12070,
+   "forks": 1518,
+   "age_days": 89,
+   "daily_stars": 135.61797752808988,
+   "real_daily_stars": 850.0,
+   "watchers": 77,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "Renhuai123/ziwei-doushu",
+   "url": "https://github.com/Renhuai123/ziwei-doushu",
+   "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+   "language": "TypeScript",
+   "stars": 8146,
+   "forks": 1631,
+   "age_days": 178,
+   "daily_stars": 45.764044943820224,
+   "real_daily_stars": 516.5,
+   "watchers": 34,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "DenisSergeevitch/ex-ussr-kinship-research",
+   "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+   "description": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
+   "language": "Python",
+   "stars": 636,
+   "forks": 61,
+   "age_days": 1,
+   "daily_stars": 636.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "wangrongding/tv-fresh",
+   "url": "https://github.com/wangrongding/tv-fresh",
+   "description": "tv-fresh 电视焕新：小米电视(MIUI TV)去广告/清理预装/换桌面/装代理与影视仓的 Agent Skill——免root可逆，含固件逆向实录与一键脚本",
+   "language": "Shell",
+   "stars": 445,
+   "forks": 59,
+   "age_days": 1,
+   "daily_stars": 445.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "t3dotgg/tstack",
+   "url": "https://github.com/t3dotgg/tstack",
+   "description": "The agent skills I use every day. Works with Claude Code and Codex.",
+   "language": "Python",
+   "stars": 601,
+   "forks": 24,
+   "age_days": 2,
+   "daily_stars": 300.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "surendrapandar/minilytics",
+   "url": "https://github.com/surendrapandar/minilytics",
+   "description": "Opensource Revenue-first analytics for indie hackers & solo founders ",
+   "language": "TypeScript",
+   "stars": 508,
+   "forks": 131,
+   "age_days": 2,
+   "daily_stars": 254.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "andyhuo520/digital-human-koubo",
+   "url": "https://github.com/andyhuo520/digital-human-koubo",
+   "description": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
+   "language": "TypeScript",
+   "stars": 274,
+   "forks": 77,
+   "age_days": 1,
+   "daily_stars": 274.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "DrWhax/unfairplay",
+   "url": "https://github.com/DrWhax/unfairplay",
+   "description": "Decrypt IPA's on MacOS",
+   "language": "Go",
+   "stars": 275,
+   "forks": 83,
+   "age_days": 1,
+   "daily_stars": 275.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "KillaBoi/StealMyBitcoin-PoC",
+   "url": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
+   "description": "A public release of the Steal My Bitcoin challenge",
+   "language": "Python",
+   "stars": 546,
+   "forks": 79,
+   "age_days": 1,
+   "daily_stars": 546.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 91,
+    "acceleration": 36,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "language": "Python",
+   "stars": 87776,
+   "forks": 9682,
+   "age_days": 199,
+   "daily_stars": 441.0854271356784,
+   "real_daily_stars": 1608.7142857142858,
+   "watchers": 306,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ]
+}

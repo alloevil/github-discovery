@@ -1,0 +1,61 @@
+{
+ "date": "2026-10-26",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "TauricResearch/TradingAgents",
+   "stars": 115179,
+   "language": "Python"
+  },
+  {
+   "full_name": "pbakaus/impeccable",
+   "stars": 88360,
+   "language": "Rust"
+  },
+  {
+   "full_name": "debpalash/VoiceStudio",
+   "stars": 87776,
+   "language": "Python"
+  },
+  {
+   "full_name": "coollabsio/coolify",
+   "stars": 64838,
+   "language": "PHP"
+  },
+  {
+   "full_name": "cloudflare/security-audit-skill",
+   "stars": 47714,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "Nutlope/hallmark",
+   "stars": 34906,
+   "language": "CSS"
+  },
+  {
+   "full_name": "AgriciDaniel/claude-seo",
+   "stars": 21653,
+   "language": "Python"
+  },
+  {
+   "full_name": "pollen-robotics/microduck",
+   "stars": 12070,
+   "language": "Rust"
+  },
+  {
+   "full_name": "Renhuai123/ziwei-doushu",
+   "stars": 8146,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "makecindy/cindy",
+   "stars": 5609,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "JetBrains/thinkrail",
+   "stars": 2239,
+   "language": "TypeScript"
+  }
+ ]
+}

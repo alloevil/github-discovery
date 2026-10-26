@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-25T18:00:00Z</updated>
+  <updated>2026-10-26T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>makecindy/cindy — Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。</title>
+    <id>https://github.com/makecindy/cindy#2026-10-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/makecindy/cindy"/>
+    <updated>2026-10-26T18:00:00Z</updated>
+    <published>2026-10-26T18:00:00Z</published>
+    <summary>Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。
+
+Why: +1263/day · Trending · 21.4x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 5609 (+1263.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>pollen-robotics/microduck — A Tiny biped duck robot 🦆</title>
+    <id>https://github.com/pollen-robotics/microduck#2026-10-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/pollen-robotics/microduck"/>
+    <updated>2026-10-26T18:00:00Z</updated>
+    <published>2026-10-26T18:00:00Z</published>
+    <summary>A Tiny biped duck robot 🦆
+
+Why: +850/day · Trending · 6.3x accelerating
+Score: 100/100 | Language: Rust | ⭐ 12070 (+850.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Renhuai123/ziwei-doushu — 紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据</title>
+    <id>https://github.com/Renhuai123/ziwei-doushu#2026-10-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Renhuai123/ziwei-doushu"/>
+    <updated>2026-10-26T18:00:00Z</updated>
+    <published>2026-10-26T18:00:00Z</published>
+    <summary>紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据
+
+Why: +516/day · Trending · 11.3x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 8146 (+516.5/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>DenisSergeevitch/ex-ussr-kinship-research — Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.</title>
+    <id>https://github.com/DenisSergeevitch/ex-ussr-kinship-research#2026-10-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/DenisSergeevitch/ex-ussr-kinship-research"/>
+    <updated>2026-10-26T18:00:00Z</updated>
+    <published>2026-10-26T18:00:00Z</published>
+    <summary>Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.
+
+Why: +636/day · Search+AI/ML
+Score: 96/100 | Language: Python | ⭐ 636 (+636.0/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>wangrongding/tv-fresh — tv-fresh 电视焕新：小米电视(MIUI TV)去广告/清理预装/换桌面/装代理与影视仓的 Agent Skill——免root可逆，含固件逆向实录与一键脚本</title>
+    <id>https://github.com/wangrongding/tv-fresh#2026-10-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/wangrongding/tv-fresh"/>
+    <updated>2026-10-26T18:00:00Z</updated>
+    <published>2026-10-26T18:00:00Z</published>
+    <summary>tv-fresh 电视焕新：小米电视(MIUI TV)去广告/清理预装/换桌面/装代理与影视仓的 Agent Skill——免root可逆，含固件逆向实录与一键脚本
+
+Why: +445/day · AI/ML
+Score: 95/100 | Language: Shell | ⭐ 445 (+445.0/day) | Source: ai-trending</summary>
+  </entry>
+  <entry>
+    <title>debpalash/VoiceStudio — VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.</title>
+    <id>https://github.com/debpalash/VoiceStudio#2026-10-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/debpalash/VoiceStudio"/>
+    <updated>2026-10-26T18:00:00Z</updated>
+    <published>2026-10-26T18:00:00Z</published>
+    <summary>VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.
+
+Why: +1609/day · Trending · 3.6x accelerating
+Score: 100/100 | Language: Python | ⭐ 87776 (+1608.7/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>luongnv89/claude-howto — A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.</title>
     <id>https://github.com/luongnv89/claude-howto#2026-10-25</id>
@@ -888,82 +954,5 @@ Score: 93/100 | Language: Python | ⭐ 282 (+282.0/day) | Source: search + risin
 
 Why: +218/day · Search
 Score: 92/100 | Language: Python | ⭐ 218 (+218.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>rociiu/talorys — Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.</title>
-    <id>https://github.com/rociiu/talorys#2026-10-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/rociiu/talorys"/>
-    <updated>2026-10-11T18:00:00Z</updated>
-    <published>2026-10-11T18:00:00Z</published>
-    <summary>Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.
-
-Why: +588/day · Search
-Score: 96/100 | Language: TypeScript | ⭐ 588 (+588.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>wheresryan22/anatomy — A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.</title>
-    <id>https://github.com/wheresryan22/anatomy#2026-10-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/wheresryan22/anatomy"/>
-    <updated>2026-10-11T18:00:00Z</updated>
-    <published>2026-10-11T18:00:00Z</published>
-    <summary>A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.
-
-Why: +320/day · Search
-Score: 94/100 | Language: JavaScript | ⭐ 960 (+320.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>c22dev/muguet — A native Mach-O port for iOS/macOS of GTA V, with multiplayer</title>
-    <id>https://github.com/c22dev/muguet#2026-10-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/c22dev/muguet"/>
-    <updated>2026-10-11T18:00:00Z</updated>
-    <published>2026-10-11T18:00:00Z</published>
-    <summary>A native Mach-O port for iOS/macOS of GTA V, with multiplayer
-
-Why: +365/day · Search
-Score: 94/100 | Language: Rust | ⭐ 365 (+365.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>fayazara/robot-heads — Animated 3D robot heads for React: TV-headed bots with LED faces that show what your agent is doing.</title>
-    <id>https://github.com/fayazara/robot-heads#2026-10-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/fayazara/robot-heads"/>
-    <updated>2026-10-11T18:00:00Z</updated>
-    <published>2026-10-11T18:00:00Z</published>
-    <summary>Animated 3D robot heads for React: TV-headed bots with LED faces that show what your agent is doing.
-
-Why: +216/day · Search
-Score: 92/100 | Language: TypeScript | ⭐ 216 (+216.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>n1tr00-10/tiktok-web-signature — tiktok web signature reverse engineer generates valid tiktok signatures for API requets</title>
-    <id>https://github.com/n1tr00-10/tiktok-web-signature#2026-10-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/n1tr00-10/tiktok-web-signature"/>
-    <updated>2026-10-11T18:00:00Z</updated>
-    <published>2026-10-11T18:00:00Z</published>
-    <summary>tiktok web signature reverse engineer generates valid tiktok signatures for API requets
-
-Why: +709/day · Search
-Score: 91/100 | Language: Python | ⭐ 709 (+709.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>mksglu/context-mode — Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.</title>
-    <id>https://github.com/mksglu/context-mode#2026-10-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mksglu/context-mode"/>
-    <updated>2026-10-11T18:00:00Z</updated>
-    <published>2026-10-11T18:00:00Z</published>
-    <summary>Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.
-
-Why: +516/day · Trending · 4.5x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 26547 (+516.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>huggingface/transformers — 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. </title>
-    <id>https://github.com/huggingface/transformers#2026-10-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/huggingface/transformers"/>
-    <updated>2026-10-11T18:00:00Z</updated>
-    <published>2026-10-11T18:00:00Z</published>
-    <summary>🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. 
-
-Why: +58/day · Trending
-Score: 70/100 | Language: Python | ⭐ 167493 (+57.7/day) | Source: trending</summary>
   </entry>
 </feed>
