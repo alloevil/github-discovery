@@ -55166,12 +55166,12 @@
    },
    {
     "date": "2026-10-26",
-    "stars": 10623,
-    "forks": 1321,
-    "open_issues": 3427,
+    "stars": 10696,
+    "forks": 1338,
+    "open_issues": 3472,
     "commits_7d": 100,
     "contributors_7d": 100,
-    "pushed_at": "2026-10-26T10:28:10Z"
+    "pushed_at": "2026-10-26T15:14:54Z"
    }
   ],
   "reason-machines/reason-network": [
@@ -58163,12 +58163,12 @@
    },
    {
     "date": "2026-10-26",
-    "stars": 65980,
-    "forks": 20717,
-    "open_issues": 70,
+    "stars": 66145,
+    "forks": 20790,
+    "open_issues": 64,
     "commits_7d": 54,
-    "contributors_7d": 92,
-    "pushed_at": "2026-10-21T05:29:11Z"
+    "contributors_7d": 93,
+    "pushed_at": "2026-10-26T14:56:55Z"
    }
   ],
   "aicodeking/pandacode": [
@@ -59309,12 +59309,12 @@
    },
    {
     "date": "2026-10-26",
-    "stars": 474,
+    "stars": 504,
     "forks": 18,
-    "open_issues": 107,
+    "open_issues": 105,
     "commits_7d": 100,
     "contributors_7d": 6,
-    "pushed_at": "2026-10-26T09:55:36Z"
+    "pushed_at": "2026-10-26T15:25:12Z"
    }
   ],
   "jss8649/quiet-tizen": [
@@ -59462,12 +59462,12 @@
   "Fei2411/DS-Bot": [
    {
     "date": "2026-10-26",
-    "stars": 4056,
-    "forks": 378,
-    "open_issues": 112,
+    "stars": 4107,
+    "forks": 381,
+    "open_issues": 124,
     "commits_7d": 100,
     "contributors_7d": 4,
-    "pushed_at": "2026-10-25T16:51:19Z"
+    "pushed_at": "2026-10-26T15:27:03Z"
    }
   ],
   "KillaBoi/StealMyBitcoin-PoC": [
@@ -59559,5 +59559,5 @@
    }
   ]
  },
- "updated_at": "2026-10-26T10:36:01.731030+00:00"
+ "updated_at": "2026-10-26T15:28:22.813244+00:00"
 }
