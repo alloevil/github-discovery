@@ -3,74 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "affaan-m/ECC",
-   "stars": 290235,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "multica-ai/andrej-karpathy-skills",
-   "stars": 225095,
-   "language": ""
-  },
-  {
-   "full_name": "TauricResearch/TradingAgents",
-   "stars": 116828,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "Panniantong/Agent-Reach",
-   "stars": 104369,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "debpalash/VoiceStudio",
-   "stars": 90295,
-   "language": "Python"
-  },
-  {
-   "full_name": "pbakaus/impeccable",
-   "stars": 89746,
-   "language": "Rust"
-  },
-  {
-   "full_name": "gitroomhq/postiz-app",
-   "stars": 38796,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "Nutlope/hallmark",
-   "stars": 37641,
-   "language": "CSS"
-  },
-  {
-   "full_name": "alchaincyf/huashu-design",
-   "stars": 27543,
-   "language": "HTML"
-  },
-  {
-   "full_name": "NVIDIA/SkillSpector",
-   "stars": 22587,
-   "language": "Python"
-  },
-  {
-   "full_name": "pollen-robotics/microduck",
-   "stars": 12651,
-   "language": "Rust"
-  },
-  {
-   "full_name": "makecindy/cindy",
-   "stars": 7037,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "JetBrains/thinkrail",
-   "stars": 3402,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "nightly-labs/openbot",
-   "stars": 1787,
-   "language": "TypeScript"
   }
  ]
 }

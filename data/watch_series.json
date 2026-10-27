@@ -58955,8 +58955,8 @@
    },
    {
     "date": "2026-10-27",
-    "stars": 66517,
-    "forks": 20963,
+    "stars": 66613,
+    "forks": 21004,
     "open_issues": 65,
     "commits_7d": 22,
     "contributors_7d": 93,
@@ -60389,12 +60389,12 @@
    },
    {
     "date": "2026-10-27",
-    "stars": 1056,
-    "forks": 33,
-    "open_issues": 109,
+    "stars": 1226,
+    "forks": 37,
+    "open_issues": 97,
     "commits_7d": 100,
     "contributors_7d": 15,
-    "pushed_at": "2026-10-27T10:06:09Z"
+    "pushed_at": "2026-10-27T14:54:35Z"
    }
   ],
   "jss8649/quiet-tizen": [
@@ -60623,12 +60623,12 @@
    },
    {
     "date": "2026-10-27",
-    "stars": 4198,
+    "stars": 4229,
     "forks": 384,
-    "open_issues": 150,
+    "open_issues": 96,
     "commits_7d": 100,
     "contributors_7d": 4,
-    "pushed_at": "2026-10-27T09:49:52Z"
+    "pushed_at": "2026-10-27T14:50:19Z"
    }
   ],
   "KillaBoi/StealMyBitcoin-PoC": [
@@ -60794,7 +60794,7 @@
   "Syenzzz/mcd-coupon-strategist": [
    {
     "date": "2026-10-27",
-    "stars": 990,
+    "stars": 992,
     "forks": 21,
     "open_issues": 0,
     "commits_7d": 2,
@@ -60913,5 +60913,5 @@
    }
   ]
  },
- "updated_at": "2026-10-27T10:07:48.672432+00:00"
+ "updated_at": "2026-10-27T14:54:47.840199+00:00"
 }
