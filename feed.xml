@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-26T18:00:00Z</updated>
+  <updated>2026-10-27T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>TauricResearch/TradingAgents — TradingAgents: Multi-Agents LLM Financial Trading Framework</title>
+    <id>https://github.com/TauricResearch/TradingAgents#2026-10-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/TauricResearch/TradingAgents"/>
+    <updated>2026-10-27T18:00:00Z</updated>
+    <published>2026-10-27T18:00:00Z</published>
+    <summary>TradingAgents: Multi-Agents LLM Financial Trading Framework
+
+Why: +1649/day · Trending · 9.4x accelerating
+Score: 100/100 | Language: Python | ⭐ 116828 (+1649.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>JetBrains/thinkrail — Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need</title>
+    <id>https://github.com/JetBrains/thinkrail#2026-10-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/JetBrains/thinkrail"/>
+    <updated>2026-10-27T18:00:00Z</updated>
+    <published>2026-10-27T18:00:00Z</published>
+    <summary>Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need
+
+Why: +1163/day · Trending · 37.9x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 3402 (+1163.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>martinkeith700/ruyiJS — Run any site  from Python with the real mini AI headless browser , bypass any security anti-crawler , get the data and token you want</title>
+    <id>https://github.com/martinkeith700/ruyiJS#2026-10-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/martinkeith700/ruyiJS"/>
+    <updated>2026-10-27T18:00:00Z</updated>
+    <published>2026-10-27T18:00:00Z</published>
+    <summary>Run any site  from Python with the real mini AI headless browser , bypass any security anti-crawler , get the data and token you want
+
+Why: +382/day · Rising
+Score: 95/100 | Language: C++ | ⭐ 382 (+382.0/day) | Source: rising</summary>
+  </entry>
+  <entry>
+    <title>blakeandersonw/ai-app-playbook — How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.</title>
+    <id>https://github.com/blakeandersonw/ai-app-playbook#2026-10-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/blakeandersonw/ai-app-playbook"/>
+    <updated>2026-10-27T18:00:00Z</updated>
+    <published>2026-10-27T18:00:00Z</published>
+    <summary>How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.
+
+Why: +281/day · Search
+Score: 93/100 | Language: TypeScript | ⭐ 281 (+281.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>hevnsnt/CVEngine — AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.</title>
+    <id>https://github.com/hevnsnt/CVEngine#2026-10-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/hevnsnt/CVEngine"/>
+    <updated>2026-10-27T18:00:00Z</updated>
+    <published>2026-10-27T18:00:00Z</published>
+    <summary>AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.
+
+Why: +200/day · Search
+Score: 92/100 | Language: Python | ⭐ 399 (+199.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>Panniantong/Agent-Reach — Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.</title>
+    <id>https://github.com/Panniantong/Agent-Reach#2026-10-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Panniantong/Agent-Reach"/>
+    <updated>2026-10-27T18:00:00Z</updated>
+    <published>2026-10-27T18:00:00Z</published>
+    <summary>Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
+
+Why: +597/day · Trending
+Score: 92/100 | Language: Python | ⭐ 104369 (+596.7/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>affaan-m/ECC — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</title>
+    <id>https://github.com/affaan-m/ECC#2026-10-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/affaan-m/ECC"/>
+    <updated>2026-10-27T18:00:00Z</updated>
+    <published>2026-10-27T18:00:00Z</published>
+    <summary>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+
+Why: +822/day · Trending
+Score: 90/100 | Language: JavaScript | ⭐ 290235 (+822.4/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>makecindy/cindy — Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。</title>
     <id>https://github.com/makecindy/cindy#2026-10-26</id>
@@ -899,60 +976,5 @@ Score: 100/100 | Language: Python | ⭐ 61449 (+1804.0/day) | Source: trending</
 
 Why: +268/day · HN
 Score: 77/100 | Language: JavaScript | ⭐ 3256 (+268.0/day) | Source: hn</summary>
-  </entry>
-  <entry>
-    <title>ARahim3/DigUp — Search your Mac by what's in your files: photos, PDFs, recordings, videos and code. On-device, built on Google DeepMind's EmbeddingGemma 2.</title>
-    <id>https://github.com/ARahim3/DigUp#2026-10-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ARahim3/DigUp"/>
-    <updated>2026-10-12T18:00:00Z</updated>
-    <published>2026-10-12T18:00:00Z</published>
-    <summary>Search your Mac by what's in your files: photos, PDFs, recordings, videos and code. On-device, built on Google DeepMind's EmbeddingGemma 2.
-
-Why: +517/day · Search
-Score: 96/100 | Language: Swift | ⭐ 1551 (+517.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>chenwei810/Semiconductor_Manufacturing_Introduction — Introduction to Semiconductor Manufacturing</title>
-    <id>https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction#2026-10-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction"/>
-    <updated>2026-10-12T18:00:00Z</updated>
-    <published>2026-10-12T18:00:00Z</published>
-    <summary>Introduction to Semiconductor Manufacturing
-
-Why: +365/day · Search
-Score: 94/100 | Language: Python | ⭐ 365 (+365.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>bilawalsidhu/gods-eye-view — A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.</title>
-    <id>https://github.com/bilawalsidhu/gods-eye-view#2026-10-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/bilawalsidhu/gods-eye-view"/>
-    <updated>2026-10-12T18:00:00Z</updated>
-    <published>2026-10-12T18:00:00Z</published>
-    <summary>A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.
-
-Why: +722/day · Trending · 1.5x accelerating
-Score: 93/100 | Language: JavaScript | ⭐ 52670 (+722.2/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>zhuyansen/new-term-radar — Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.</title>
-    <id>https://github.com/zhuyansen/new-term-radar#2026-10-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/zhuyansen/new-term-radar"/>
-    <updated>2026-10-12T18:00:00Z</updated>
-    <published>2026-10-12T18:00:00Z</published>
-    <summary>Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.
-
-Why: +282/day · Search+Rising
-Score: 93/100 | Language: Python | ⭐ 282 (+282.0/day) | Source: search + rising</summary>
-  </entry>
-  <entry>
-    <title>NousResearch/hermes-official-plugins — ☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes plugin catalog.</title>
-    <id>https://github.com/NousResearch/hermes-official-plugins#2026-10-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/NousResearch/hermes-official-plugins"/>
-    <updated>2026-10-12T18:00:00Z</updated>
-    <published>2026-10-12T18:00:00Z</published>
-    <summary>☤ The official plugins for Hermes Agent, built and maintained by Nous Research: Home Assistant, Spotify, Claude Subscription DirectSDK and more, one install away from the Hermes plugin catalog.
-
-Why: +218/day · Search
-Score: 92/100 | Language: Python | ⭐ 218 (+218.0/day) | Source: search</summary>
   </entry>
 </feed>
