@@ -17,7 +17,7 @@
       "last_recommended": "2026-10-16T09:19:03.657044+00:00"
     },
     "affaan-m/ECC": {
-      "count": 8,
+      "count": 9,
       "scores": [
         100,
         100,
@@ -26,9 +26,10 @@
         91,
         90,
         90,
+        90,
         90
       ],
-      "last_recommended": "2026-10-16T09:19:03.659025+00:00"
+      "last_recommended": "2026-10-27T10:04:14.542055+00:00"
     },
     "mattpocock/skills": {
       "count": 9,
@@ -189,12 +190,13 @@
       "last_recommended": "2026-10-11T11:02:26.073238+00:00"
     },
     "Panniantong/Agent-Reach": {
-      "count": 2,
+      "count": 3,
       "scores": [
         89,
-        95
+        95,
+        92
       ],
-      "last_recommended": "2026-10-03T10:04:21.049336+00:00"
+      "last_recommended": "2026-10-27T10:04:14.539787+00:00"
     },
     "earendil-works/pi": {
       "count": 2,
@@ -2283,7 +2285,77 @@
         91
       ],
       "last_recommended": "2026-10-26T10:32:41.327915+00:00"
+    },
+    "TauricResearch/TradingAgents": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-27T10:04:14.517208+00:00"
+    },
+    "JetBrains/thinkrail": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-27T10:04:14.519674+00:00"
+    },
+    "martinkeith700/ruyiJS": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-10-27T10:04:14.521934+00:00"
+    },
+    "blakeandersonw/ai-app-playbook": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-10-27T10:04:14.524139+00:00"
+    },
+    "hevnsnt/CVEngine": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-10-27T10:04:14.526358+00:00"
+    },
+    "JustAResearcher/gpu-unlock-ada": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-27T10:04:14.528532+00:00"
+    },
+    "athcagithub/postiz-leaked": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-27T10:04:14.530707+00:00"
+    },
+    "enesozturk/dimensional-drawing": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-27T10:04:14.533012+00:00"
+    },
+    "heydeer/pngdeer": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-27T10:04:14.535201+00:00"
+    },
+    "boyuchengz/canvas-mcp": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-27T10:04:14.537549+00:00"
     }
   },
-  "updated_at": "2026-10-26T10:32:41.330047+00:00"
+  "updated_at": "2026-10-27T10:04:14.542085+00:00"
 }

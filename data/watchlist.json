@@ -1,75 +1,5 @@
 {
  "repos": {
-  "ARahim3/DigUp": {
-   "first_seen": "2026-10-12",
-   "until": "2026-10-26",
-   "stars_at_discovery": 1551,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "chenwei810/Semiconductor_Manufacturing_Introduction": {
-   "first_seen": "2026-10-12",
-   "until": "2026-10-26",
-   "stars_at_discovery": 365,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "bilawalsidhu/gods-eye-view": {
-   "first_seen": "2026-10-12",
-   "until": "2026-10-26",
-   "stars_at_discovery": 52670,
-   "score_at_discovery": 93,
-   "source_at_discovery": "trending"
-  },
-  "zhuyansen/new-term-radar": {
-   "first_seen": "2026-10-12",
-   "until": "2026-10-26",
-   "stars_at_discovery": 282,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "NousResearch/hermes-official-plugins": {
-   "first_seen": "2026-10-12",
-   "until": "2026-10-26",
-   "stars_at_discovery": 218,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "shaongitbd/doory": {
-   "first_seen": "2026-10-12",
-   "until": "2026-10-26",
-   "stars_at_discovery": 467,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "deeplethe/solid-glass": {
-   "first_seen": "2026-10-12",
-   "until": "2026-10-26",
-   "stars_at_discovery": 228,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "bherbruck/solidcraft": {
-   "first_seen": "2026-10-12",
-   "until": "2026-10-26",
-   "stars_at_discovery": 843,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "wesbos/photo-frame-dashboard": {
-   "first_seen": "2026-10-12",
-   "until": "2026-10-26",
-   "stars_at_discovery": 851,
-   "score_at_discovery": 88,
-   "source_at_discovery": "search"
-  },
-  "NandhaKishorM/vegaml": {
-   "first_seen": "2026-10-12",
-   "until": "2026-10-26",
-   "stars_at_discovery": 181,
-   "score_at_discovery": 88,
-   "source_at_discovery": "search"
-  },
   "lyogavin/airllm": {
    "first_seen": "2026-10-13",
    "until": "2026-10-27",
@@ -1042,7 +972,91 @@
    "stars_at_discovery": 87776,
    "score_at_discovery": 100,
    "source_at_discovery": "trending"
+  },
+  "TauricResearch/TradingAgents": {
+   "first_seen": "2026-10-27",
+   "until": "2026-11-10",
+   "stars_at_discovery": 116828,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "JetBrains/thinkrail": {
+   "first_seen": "2026-10-27",
+   "until": "2026-11-10",
+   "stars_at_discovery": 3402,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "martinkeith700/ruyiJS": {
+   "first_seen": "2026-10-27",
+   "until": "2026-11-10",
+   "stars_at_discovery": 382,
+   "score_at_discovery": 95,
+   "source_at_discovery": "rising"
+  },
+  "blakeandersonw/ai-app-playbook": {
+   "first_seen": "2026-10-27",
+   "until": "2026-11-10",
+   "stars_at_discovery": 281,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "hevnsnt/CVEngine": {
+   "first_seen": "2026-10-27",
+   "until": "2026-11-10",
+   "stars_at_discovery": 399,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "JustAResearcher/gpu-unlock-ada": {
+   "first_seen": "2026-10-27",
+   "until": "2026-11-10",
+   "stars_at_discovery": 4055,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "athcagithub/postiz-leaked": {
+   "first_seen": "2026-10-27",
+   "until": "2026-11-10",
+   "stars_at_discovery": 147,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "enesozturk/dimensional-drawing": {
+   "first_seen": "2026-10-27",
+   "until": "2026-11-10",
+   "stars_at_discovery": 1100,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "heydeer/pngdeer": {
+   "first_seen": "2026-10-27",
+   "until": "2026-11-10",
+   "stars_at_discovery": 230,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "boyuchengz/canvas-mcp": {
+   "first_seen": "2026-10-27",
+   "until": "2026-11-10",
+   "stars_at_discovery": 115,
+   "score_at_discovery": 89,
+   "source_at_discovery": "ai-trending"
+  },
+  "Panniantong/Agent-Reach": {
+   "first_seen": "2026-10-27",
+   "until": "2026-11-10",
+   "stars_at_discovery": 104369,
+   "score_at_discovery": 92,
+   "source_at_discovery": "trending"
+  },
+  "affaan-m/ECC": {
+   "first_seen": "2026-10-27",
+   "until": "2026-11-10",
+   "stars_at_discovery": 290235,
+   "score_at_discovery": 90,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-10-26T10:36:01.783473+00:00"
+ "updated_at": "2026-10-27T10:07:48.720784+00:00"
 }
