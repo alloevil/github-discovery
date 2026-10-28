@@ -59657,9 +59657,9 @@
    },
    {
     "date": "2026-10-28",
-    "stars": 66962,
-    "forks": 21185,
-    "open_issues": 64,
+    "stars": 67043,
+    "forks": 21227,
+    "open_issues": 67,
     "commits_7d": 14,
     "contributors_7d": 93,
     "pushed_at": "2026-10-27T15:16:51Z"
@@ -61379,12 +61379,12 @@
    },
    {
     "date": "2026-10-28",
-    "stars": 1617,
-    "forks": 50,
-    "open_issues": 108,
+    "stars": 1652,
+    "forks": 52,
+    "open_issues": 382,
     "commits_7d": 100,
     "contributors_7d": 18,
-    "pushed_at": "2026-10-28T10:50:26Z"
+    "pushed_at": "2026-10-28T15:16:25Z"
    }
   ],
   "jss8649/quiet-tizen": [
@@ -62247,7 +62247,18 @@
     "contributors_7d": 1,
     "pushed_at": "2026-10-25T19:19:08Z"
    }
+  ],
+  "NVIDIA/spark-local-inference": [
+   {
+    "date": "2026-10-28",
+    "stars": 690,
+    "forks": 74,
+    "open_issues": 52,
+    "commits_7d": 100,
+    "contributors_7d": 11,
+    "pushed_at": "2026-10-28T15:21:15Z"
+   }
   ]
  },
- "updated_at": "2026-10-28T10:53:56.331294+00:00"
+ "updated_at": "2026-10-28T15:26:54.866660+00:00"
 }
