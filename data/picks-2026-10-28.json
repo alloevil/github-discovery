@@ -1,0 +1,417 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T10:50:48+00:00",
+  "every_days": 3,
+  "count": 10,
+  "semi_count": 2,
+  "semi_min_met": true,
+  "picks": [
+    {
+      "rank": 1,
+      "full_name": "Abdess/retrobios",
+      "url": "https://github.com/Abdess/retrobios",
+      "description": "Source-verified BIOS and firmware packs for RetroArch, Batocera, Recalbox, Lakka, RetroPie, EmuDeck, RetroBat, RetroDECK, RomM, BizHawk, ROCKNIX, and MiSTer FPGA. Platform-native verification, with emulator source code as the deciding authority.",
+      "topic": "semi",
+      "language": "Python",
+      "topics": [
+        "batocera",
+        "bios",
+        "emudeck",
+        "emulator",
+        "emulatorjs",
+        "firmware",
+        "lakka",
+        "libretro",
+        "mame",
+        "nintendo",
+        "playstation",
+        "preservation",
+        "recalbox",
+        "retroarch",
+        "retrobat",
+        "retrodeck",
+        "retrogaming",
+        "retropie",
+        "romm",
+        "sega"
+      ],
+      "license": "NOASSERTION",
+      "stars": 7524,
+      "forks": 705,
+      "created_at": "2020-05-04T16:33:06Z",
+      "pushed_at": "2026-10-28T10:30:21Z",
+      "growth": {
+        "since": "2026-10-22",
+        "window_days": 6,
+        "stars_gained": 53,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 70,
+      "verified_at": "2026-10-28T10:50:45+00:00"
+    },
+    {
+      "rank": 2,
+      "full_name": "openwall/john",
+      "url": "https://github.com/openwall/john",
+      "description": "John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs",
+      "topic": "semi",
+      "language": "C",
+      "topics": [
+        "assembler",
+        "c",
+        "cracker",
+        "crypt",
+        "fpga",
+        "gpgpu",
+        "gpu",
+        "hash",
+        "john",
+        "jtr",
+        "mpi",
+        "opencl",
+        "openmp",
+        "password",
+        "ripper",
+        "simd"
+      ],
+      "license": "NOASSERTION",
+      "stars": 13827,
+      "forks": 2564,
+      "created_at": "2011-12-16T19:43:47Z",
+      "pushed_at": "2026-10-11T12:19:00Z",
+      "growth": {
+        "since": "2026-10-22",
+        "window_days": 6,
+        "stars_gained": 21,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 59,
+      "verified_at": "2026-10-28T10:50:45+00:00"
+    },
+    {
+      "rank": 3,
+      "full_name": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "bun",
+        "codex",
+        "electron",
+        "local-first",
+        "macos",
+        "solidjs",
+        "typescript"
+      ],
+      "license": "NOASSERTION",
+      "stars": 2856,
+      "forks": 285,
+      "created_at": "2026-08-12T21:32:03Z",
+      "pushed_at": "2026-10-28T10:09:36Z",
+      "growth": {
+        "since": "2026-10-27",
+        "window_days": 1,
+        "stars_gained": 1069,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 90,
+      "verified_at": "2026-10-28T10:50:46+00:00"
+    },
+    {
+      "rank": 4,
+      "full_name": "gitroomhq/postiz-app",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "description": "📨 The ultimate agentic social media scheduling tool 🤖",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "nextjs",
+        "open-source",
+        "open-source-social-media-scheduling-tool",
+        "oss",
+        "postiz-cloud",
+        "postiz-hosted",
+        "redis",
+        "scheduling-tool",
+        "social-media-scheduling-tool",
+        "typescript"
+      ],
+      "license": "AGPL-3.0",
+      "stars": 39814,
+      "forks": 7550,
+      "created_at": "2023-07-08T17:24:22Z",
+      "pushed_at": "2026-10-24T18:27:21Z",
+      "growth": {
+        "since": "2026-10-27",
+        "window_days": 1,
+        "stars_gained": 1018,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 85,
+      "verified_at": "2026-10-28T10:50:46+00:00"
+    },
+    {
+      "rank": 5,
+      "full_name": "Motionsites-AI/claude-skill",
+      "url": "https://github.com/Motionsites-AI/claude-skill",
+      "description": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "stars": 701,
+      "forks": 74,
+      "created_at": "2026-10-26T06:58:45Z",
+      "pushed_at": "2026-10-26T07:04:24Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 84,
+      "verified_at": "2026-10-28T10:50:46+00:00"
+    },
+    {
+      "rank": 6,
+      "full_name": "ZiChuanLan/agent-purge",
+      "url": "https://github.com/ZiChuanLan/agent-purge",
+      "description": "One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console.",
+      "topic": "ai",
+      "language": "JavaScript",
+      "topics": [
+        "claude-code",
+        "codex",
+        "coding-agent",
+        "deepseek-harness",
+        "harness",
+        "omp",
+        "opencode",
+        "pi",
+        "system-prompt"
+      ],
+      "license": "MIT",
+      "stars": 742,
+      "forks": 557,
+      "created_at": "2026-10-25T06:06:02Z",
+      "pushed_at": "2026-10-27T17:39:35Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 83,
+      "verified_at": "2026-10-28T10:50:47+00:00"
+    },
+    {
+      "rank": 7,
+      "full_name": "stormydayy/halo-overlay",
+      "url": "https://github.com/stormydayy/halo-overlay",
+      "description": "Lightweight opensource AI overlay for live conversations. Hears, sees, suggests.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "ai-overlay",
+        "cheating-daddy",
+        "interview-cheating-tool",
+        "interview-helper",
+        "interview-overlay",
+        "live-conversation",
+        "meetings-cheating",
+        "meetings-overlay",
+        "zoom-meetings"
+      ],
+      "license": "GPL-3.0",
+      "stars": 516,
+      "forks": 36,
+      "created_at": "2026-10-25T17:33:04Z",
+      "pushed_at": "2026-10-25T19:19:08Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 83,
+      "verified_at": "2026-10-28T10:50:47+00:00"
+    },
+    {
+      "rank": 8,
+      "full_name": "patch-gg/anymove",
+      "url": "https://github.com/patch-gg/anymove",
+      "description": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "animation",
+        "blender",
+        "claude-code-plugin",
+        "dinov2",
+        "gamedev",
+        "generative-ai",
+        "motion-capture"
+      ],
+      "license": "Apache-2.0",
+      "stars": 268,
+      "forks": 27,
+      "created_at": "2026-10-27T08:00:42Z",
+      "pushed_at": "2026-10-27T08:49:46Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 83,
+      "verified_at": "2026-10-28T10:50:47+00:00"
+    },
+    {
+      "rank": 9,
+      "full_name": "FrigadeHQ/hob",
+      "url": "https://github.com/FrigadeHQ/hob",
+      "description": "An easier way to use AI on your own computer. A free, open-source alternative to Claude and ChatGPT that runs open-weight models like Gemma and gpt-oss locally on Mac, Windows and Linux. Private, and works offline.",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agent",
+        "ai-assistant",
+        "chatgpt-alternative",
+        "claude-alternative",
+        "desktop-app",
+        "electron",
+        "gemma",
+        "gpt-oss",
+        "linux",
+        "llama-cpp",
+        "llm",
+        "local-ai",
+        "local-llm",
+        "macos",
+        "mcp",
+        "offline-ai",
+        "open-source",
+        "privacy",
+        "private-ai",
+        "windows"
+      ],
+      "license": "MIT",
+      "stars": 300,
+      "forks": 18,
+      "created_at": "2026-10-14T22:11:20Z",
+      "pushed_at": "2026-10-28T00:43:15Z",
+      "growth": {
+        "since": "2026-10-27",
+        "window_days": 1,
+        "stars_gained": 112,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "hn"
+        ],
+        "hn_title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+        "hn_score": 169,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 83,
+      "verified_at": "2026-10-28T10:50:47+00:00"
+    },
+    {
+      "rank": 10,
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "topic": "ai",
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "license": "MIT",
+      "stars": 306878,
+      "forks": 27313,
+      "created_at": "2025-10-09T19:45:18Z",
+      "pushed_at": "2026-10-23T03:48:57Z",
+      "growth": {
+        "since": "2026-10-21",
+        "window_days": 7,
+        "stars_gained": 4077,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 82,
+      "verified_at": "2026-10-28T10:50:48+00:00"
+    }
+  ]
+}

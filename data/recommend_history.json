@@ -1,7 +1,7 @@
 {
   "repos": {
     "obra/superpowers": {
-      "count": 10,
+      "count": 11,
       "scores": [
         100,
         100,
@@ -12,9 +12,10 @@
         90,
         79,
         90,
-        90
+        90,
+        92
       ],
-      "last_recommended": "2026-10-16T09:19:03.657044+00:00"
+      "last_recommended": "2026-10-28T10:50:45.444200+00:00"
     },
     "affaan-m/ECC": {
       "count": 9,
@@ -104,14 +105,6 @@
         100
       ],
       "last_recommended": "2026-10-15T09:27:17.117018+00:00"
-    },
-    "zhaoxuya520/reverse-skill": {
-      "count": 2,
-      "scores": [
-        94,
-        85
-      ],
-      "last_recommended": "2026-09-27T10:13:45.793938+00:00"
     },
     "debpalash/VoiceStudio": {
       "count": 5,
@@ -248,76 +241,6 @@
         95
       ],
       "last_recommended": "2026-10-25T09:26:04.300391+00:00"
-    },
-    "openbao/openbao": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-27T10:13:45.780521+00:00"
-    },
-    "feitangyuan/onetake": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-09-27T10:13:45.782184+00:00"
-    },
-    "dzhng/jevgrep": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-09-27T10:13:45.783522+00:00"
-    },
-    "hokindeng/object-permanence": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-09-27T10:13:45.784815+00:00"
-    },
-    "jaydendavisnc/inkwave": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-27T10:13:45.786125+00:00"
-    },
-    "lemomo-ai/lemo-opuscar": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-27T10:13:45.787400+00:00"
-    },
-    "mexicat/pdoom-video": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-27T10:13:45.788707+00:00"
-    },
-    "Barty-Bart/motion-graphics": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-27T10:13:45.790014+00:00"
-    },
-    "852wa/JIZURA": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-09-27T10:13:45.791345+00:00"
-    },
-    "sopersone/cabbage-trading-machine": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-09-27T10:13:45.792627+00:00"
     },
     "Appllama/liquid-glass-chat-ui": {
       "count": 1,
@@ -2355,7 +2278,77 @@
         89
       ],
       "last_recommended": "2026-10-27T10:04:14.537549+00:00"
+    },
+    "nightly-labs/openbot": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-28T10:50:45.430806+00:00"
+    },
+    "interplains/Zero-Breach-Toolkit": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-28T10:50:45.432477+00:00"
+    },
+    "gitroomhq/postiz-app": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-10-28T10:50:45.433777+00:00"
+    },
+    "Motionsites-AI/claude-skill": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-28T10:50:45.435075+00:00"
+    },
+    "ZiChuanLan/agent-purge": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-10-28T10:50:45.436392+00:00"
+    },
+    "stormydayy/halo-overlay": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-10-28T10:50:45.437689+00:00"
+    },
+    "patch-gg/anymove": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-10-28T10:50:45.438979+00:00"
+    },
+    "FrigadeHQ/hob": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-10-28T10:50:45.440285+00:00"
+    },
+    "kargulstudio/calender-app-design": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-28T10:50:45.441579+00:00"
+    },
+    "designfuchen/word-atlas": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-28T10:50:45.442922+00:00"
     }
   },
-  "updated_at": "2026-10-27T10:04:14.542085+00:00"
+  "updated_at": "2026-10-28T10:50:45.444212+00:00"
 }

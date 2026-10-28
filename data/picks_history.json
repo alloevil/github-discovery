@@ -159,7 +159,47 @@
     "google-gemini/gemini-cli": {
       "first_picked": "2026-10-25",
       "source": "github-discovery"
+    },
+    "Abdess/retrobios": {
+      "first_picked": "2026-10-28",
+      "source": "github-discovery"
+    },
+    "openwall/john": {
+      "first_picked": "2026-10-28",
+      "source": "github-discovery"
+    },
+    "nightly-labs/openbot": {
+      "first_picked": "2026-10-28",
+      "source": "github-discovery"
+    },
+    "gitroomhq/postiz-app": {
+      "first_picked": "2026-10-28",
+      "source": "github-discovery"
+    },
+    "Motionsites-AI/claude-skill": {
+      "first_picked": "2026-10-28",
+      "source": "github-discovery"
+    },
+    "ZiChuanLan/agent-purge": {
+      "first_picked": "2026-10-28",
+      "source": "github-discovery"
+    },
+    "stormydayy/halo-overlay": {
+      "first_picked": "2026-10-28",
+      "source": "github-discovery"
+    },
+    "patch-gg/anymove": {
+      "first_picked": "2026-10-28",
+      "source": "github-discovery"
+    },
+    "FrigadeHQ/hob": {
+      "first_picked": "2026-10-28",
+      "source": "github-discovery"
+    },
+    "obra/superpowers": {
+      "first_picked": "2026-10-28",
+      "source": "github-discovery"
     }
   },
-  "updated_at": "2026-10-25T09:26:07.316313+00:00"
+  "updated_at": "2026-10-28T10:50:48.392695+00:00"
 }

@@ -1,0 +1,357 @@
+{
+ "date": "2026-10-28",
+ "generated_at": "2026-10-28T10:50:48.393100",
+ "pool_size": 97,
+ "source_health": {
+  "trending": {
+   "fetched": 11,
+   "parsed": 11,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 3
+  },
+  "search": {
+   "fetched": 56,
+   "parsed": 56,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 7
+  },
+  "hn": {
+   "fetched": 10,
+   "parsed": 10,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  },
+  "rising": {
+   "fetched": 1,
+   "parsed": 1,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 30,
+   "parsed": 30,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "nightly-labs/openbot",
+   "url": "https://github.com/nightly-labs/openbot",
+   "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+   "language": "TypeScript",
+   "stars": 2856,
+   "forks": 285,
+   "age_days": 76,
+   "daily_stars": 37.578947368421055,
+   "real_daily_stars": 1069.0,
+   "watchers": 11,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "interplains/Zero-Breach-Toolkit",
+   "url": "https://github.com/interplains/Zero-Breach-Toolkit",
+   "description": "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.",
+   "language": "Python",
+   "stars": 1663,
+   "forks": 182,
+   "age_days": 2,
+   "daily_stars": 831.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "gitroomhq/postiz-app",
+   "url": "https://github.com/gitroomhq/postiz-app",
+   "description": "📨 The ultimate agentic social media scheduling tool 🤖",
+   "language": "TypeScript",
+   "stars": 39814,
+   "forks": 7550,
+   "age_days": 1207,
+   "daily_stars": 32.985915492957744,
+   "real_daily_stars": 1018.0,
+   "watchers": 140,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 95,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "Motionsites-AI/claude-skill",
+   "url": "https://github.com/Motionsites-AI/claude-skill",
+   "description": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.",
+   "language": "Python",
+   "stars": 701,
+   "forks": 74,
+   "age_days": 2,
+   "daily_stars": 350.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "ZiChuanLan/agent-purge",
+   "url": "https://github.com/ZiChuanLan/agent-purge",
+   "description": "One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console.",
+   "language": "JavaScript",
+   "stars": 742,
+   "forks": 557,
+   "age_days": 3,
+   "daily_stars": 247.33333333333334,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "stormydayy/halo-overlay",
+   "url": "https://github.com/stormydayy/halo-overlay",
+   "description": "Lightweight opensource AI overlay for live conversations. Hears, sees, suggests.",
+   "language": "Python",
+   "stars": 516,
+   "forks": 36,
+   "age_days": 2,
+   "daily_stars": 258.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "patch-gg/anymove",
+   "url": "https://github.com/patch-gg/anymove",
+   "description": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
+   "language": "Python",
+   "stars": 268,
+   "forks": 27,
+   "age_days": 1,
+   "daily_stars": 268.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "FrigadeHQ/hob",
+   "url": "https://github.com/FrigadeHQ/hob",
+   "description": "An easier way to use AI on your own computer. A free, open-source alternative to Claude and ChatGPT that runs open-weight models like Gemma and gpt-oss locally on Mac, Windows and Linux. Private, and works offline.",
+   "language": "TypeScript",
+   "stars": 300,
+   "forks": 18,
+   "age_days": 13,
+   "daily_stars": 23.076923076923077,
+   "real_daily_stars": 112.0,
+   "watchers": 3,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "MIT",
+   "hn_title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+   "hn_score": 169,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "kargulstudio/calender-app-design",
+   "url": "https://github.com/kargulstudio/calender-app-design",
+   "description": "",
+   "language": "TypeScript",
+   "stars": 716,
+   "forks": 89,
+   "age_days": 1,
+   "daily_stars": 716.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 91,
+    "acceleration": 36,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "designfuchen/word-atlas",
+   "url": "https://github.com/designfuchen/word-atlas",
+   "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
+   "language": "TypeScript",
+   "stars": 2907,
+   "forks": 651,
+   "age_days": 3,
+   "daily_stars": 969.0,
+   "real_daily_stars": 781.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "description": "An agentic skills framework & software development methodology that works.",
+   "language": "Shell",
+   "stars": 306878,
+   "forks": 27313,
+   "age_days": 383,
+   "daily_stars": 801.248041775457,
+   "real_daily_stars": 1044.0,
+   "watchers": 1106,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  }
+ ]
+}

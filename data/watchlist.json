@@ -1,75 +1,5 @@
 {
  "repos": {
-  "lyogavin/airllm": {
-   "first_seen": "2026-10-13",
-   "until": "2026-10-27",
-   "stars_at_discovery": 37979,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "snuri00/ps2-web-recomp": {
-   "first_seen": "2026-10-13",
-   "until": "2026-10-27",
-   "stars_at_discovery": 540,
-   "score_at_discovery": 99,
-   "source_at_discovery": "hn"
-  },
-  "jhaizhou-ops/d2r-mobile": {
-   "first_seen": "2026-10-13",
-   "until": "2026-10-27",
-   "stars_at_discovery": 991,
-   "score_at_discovery": 96,
-   "source_at_discovery": "rising"
-  },
-  "jwuthri-cloud/Tracely-ai": {
-   "first_seen": "2026-10-13",
-   "until": "2026-10-27",
-   "stars_at_discovery": 618,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "juliobsz/skills": {
-   "first_seen": "2026-10-13",
-   "until": "2026-10-27",
-   "stars_at_discovery": 287,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "opengeos/RustGIS": {
-   "first_seen": "2026-10-13",
-   "until": "2026-10-27",
-   "stars_at_discovery": 515,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "Fei2411/DeepSeek-Bot": {
-   "first_seen": "2026-10-13",
-   "until": "2026-10-27",
-   "stars_at_discovery": 1575,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "Arekejoker/qwen21-nsfw-pose-skill": {
-   "first_seen": "2026-10-13",
-   "until": "2026-10-27",
-   "stars_at_discovery": 439,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "Ayzzz123/mcd-coupon-strategist": {
-   "first_seen": "2026-10-13",
-   "until": "2026-10-27",
-   "stars_at_discovery": 256,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "SaarthurR/atticus-mac": {
-   "first_seen": "2026-10-13",
-   "until": "2026-10-27",
-   "stars_at_discovery": 129,
-   "score_at_discovery": 88,
-   "source_at_discovery": "hn"
-  },
   "xtool-org/xtool": {
    "first_seen": "2026-10-15",
    "until": "2026-10-29",
@@ -1056,7 +986,77 @@
    "stars_at_discovery": 290235,
    "score_at_discovery": 90,
    "source_at_discovery": "trending"
+  },
+  "nightly-labs/openbot": {
+   "first_seen": "2026-10-28",
+   "until": "2026-11-11",
+   "stars_at_discovery": 2856,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "interplains/Zero-Breach-Toolkit": {
+   "first_seen": "2026-10-28",
+   "until": "2026-11-11",
+   "stars_at_discovery": 1663,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "gitroomhq/postiz-app": {
+   "first_seen": "2026-10-28",
+   "until": "2026-11-11",
+   "stars_at_discovery": 39814,
+   "score_at_discovery": 95,
+   "source_at_discovery": "trending"
+  },
+  "Motionsites-AI/claude-skill": {
+   "first_seen": "2026-10-28",
+   "until": "2026-11-11",
+   "stars_at_discovery": 701,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "ZiChuanLan/agent-purge": {
+   "first_seen": "2026-10-28",
+   "until": "2026-11-11",
+   "stars_at_discovery": 742,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "stormydayy/halo-overlay": {
+   "first_seen": "2026-10-28",
+   "until": "2026-11-11",
+   "stars_at_discovery": 516,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "patch-gg/anymove": {
+   "first_seen": "2026-10-28",
+   "until": "2026-11-11",
+   "stars_at_discovery": 268,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "FrigadeHQ/hob": {
+   "first_seen": "2026-10-28",
+   "until": "2026-11-11",
+   "stars_at_discovery": 300,
+   "score_at_discovery": 93,
+   "source_at_discovery": "hn"
+  },
+  "kargulstudio/calender-app-design": {
+   "first_seen": "2026-10-28",
+   "until": "2026-11-11",
+   "stars_at_discovery": 716,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "designfuchen/word-atlas": {
+   "first_seen": "2026-10-28",
+   "until": "2026-11-11",
+   "stars_at_discovery": 2907,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-10-27T10:07:48.720784+00:00"
+ "updated_at": "2026-10-28T10:53:56.366023+00:00"
 }

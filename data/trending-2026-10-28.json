@@ -1,0 +1,61 @@
+{
+ "date": "2026-10-28",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "obra/superpowers",
+   "stars": 306878,
+   "language": "Shell"
+  },
+  {
+   "full_name": "affaan-m/ECC",
+   "stars": 291289,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "pbakaus/impeccable",
+   "stars": 91231,
+   "language": "Rust"
+  },
+  {
+   "full_name": "HKUDS/DeepTutor",
+   "stars": 47055,
+   "language": "Python"
+  },
+  {
+   "full_name": "gitroomhq/postiz-app",
+   "stars": 39814,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "Nutlope/hallmark",
+   "stars": 39796,
+   "language": "CSS"
+  },
+  {
+   "full_name": "elayadesign/ai-design-skills",
+   "stars": 10481,
+   "language": ""
+  },
+  {
+   "full_name": "makecindy/cindy",
+   "stars": 7797,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "togg53192-cmd/jailbreaks",
+   "stars": 6259,
+   "language": ""
+  },
+  {
+   "full_name": "JetBrains/thinkrail",
+   "stars": 4496,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "nightly-labs/openbot",
+   "stars": 2856,
+   "language": "TypeScript"
+  }
+ ]
+}

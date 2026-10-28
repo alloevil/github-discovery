@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-27T18:00:00Z</updated>
+  <updated>2026-10-28T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>nightly-labs/openbot — A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.</title>
+    <id>https://github.com/nightly-labs/openbot#2026-10-28</id>
+    <link rel="alternate" type="text/html" href="https://github.com/nightly-labs/openbot"/>
+    <updated>2026-10-28T18:00:00Z</updated>
+    <published>2026-10-28T18:00:00Z</published>
+    <summary>A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.
+
+Why: +1069/day · Trending · 28.4x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 2856 (+1069.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>interplains/Zero-Breach-Toolkit — Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.</title>
+    <id>https://github.com/interplains/Zero-Breach-Toolkit#2026-10-28</id>
+    <link rel="alternate" type="text/html" href="https://github.com/interplains/Zero-Breach-Toolkit"/>
+    <updated>2026-10-28T18:00:00Z</updated>
+    <published>2026-10-28T18:00:00Z</published>
+    <summary>Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.
+
+Why: +832/day · Search
+Score: 96/100 | Language: Python | ⭐ 1663 (+831.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>gitroomhq/postiz-app — 📨 The ultimate agentic social media scheduling tool 🤖</title>
+    <id>https://github.com/gitroomhq/postiz-app#2026-10-28</id>
+    <link rel="alternate" type="text/html" href="https://github.com/gitroomhq/postiz-app"/>
+    <updated>2026-10-28T18:00:00Z</updated>
+    <published>2026-10-28T18:00:00Z</published>
+    <summary>📨 The ultimate agentic social media scheduling tool 🤖
+
+Why: +1018/day · Trending · 30.9x accelerating
+Score: 95/100 | Language: TypeScript | ⭐ 39814 (+1018.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Motionsites-AI/claude-skill — Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.</title>
+    <id>https://github.com/Motionsites-AI/claude-skill#2026-10-28</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Motionsites-AI/claude-skill"/>
+    <updated>2026-10-28T18:00:00Z</updated>
+    <published>2026-10-28T18:00:00Z</published>
+    <summary>Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.
+
+Why: +350/day · Search
+Score: 94/100 | Language: Python | ⭐ 701 (+350.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>ZiChuanLan/agent-purge — One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console.</title>
+    <id>https://github.com/ZiChuanLan/agent-purge#2026-10-28</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ZiChuanLan/agent-purge"/>
+    <updated>2026-10-28T18:00:00Z</updated>
+    <published>2026-10-28T18:00:00Z</published>
+    <summary>One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console.
+
+Why: +247/day · Search
+Score: 93/100 | Language: JavaScript | ⭐ 742 (+247.3/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>obra/superpowers — An agentic skills framework &amp; software development methodology that works.</title>
+    <id>https://github.com/obra/superpowers#2026-10-28</id>
+    <link rel="alternate" type="text/html" href="https://github.com/obra/superpowers"/>
+    <updated>2026-10-28T18:00:00Z</updated>
+    <published>2026-10-28T18:00:00Z</published>
+    <summary>An agentic skills framework &amp; software development methodology that works.
+
+Why: +1044/day · Trending
+Score: 92/100 | Language: Shell | ⭐ 306878 (+1044.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>TauricResearch/TradingAgents — TradingAgents: Multi-Agents LLM Financial Trading Framework</title>
     <id>https://github.com/TauricResearch/TradingAgents#2026-10-27</id>
@@ -899,82 +965,5 @@ Score: 100/100 | Language: Java | ⭐ 88006 (+535.3/day) | Source: trending</sum
 
 Why: +178/day · Trending
 Score: 75/100 | Language: Python | ⭐ 52851 (+178.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>lyogavin/airllm — AirLLM 2.8T LLM inference with single 4GB GPU</title>
-    <id>https://github.com/lyogavin/airllm#2026-10-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/lyogavin/airllm"/>
-    <updated>2026-10-13T18:00:00Z</updated>
-    <published>2026-10-13T18:00:00Z</published>
-    <summary>AirLLM 2.8T LLM inference with single 4GB GPU
-
-Why: +963/day · Trending · 30.9x accelerating
-Score: 100/100 | Language: Jupyter Notebook | ⭐ 37979 (+963.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>snuri00/ps2-web-recomp — PS2 games in the browser: static recompilation to WebAssembly with a native runtime</title>
-    <id>https://github.com/snuri00/ps2-web-recomp#2026-10-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/snuri00/ps2-web-recomp"/>
-    <updated>2026-10-13T18:00:00Z</updated>
-    <published>2026-10-13T18:00:00Z</published>
-    <summary>PS2 games in the browser: static recompilation to WebAssembly with a native runtime
-
-Why: +447/day · HN · 4.1x accelerating
-Score: 99/100 | Language: C++ | ⭐ 540 (+447.0/day) | Source: hn</summary>
-  </entry>
-  <entry>
-    <title>jhaizhou-ops/d2r-mobile — Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层</title>
-    <id>https://github.com/jhaizhou-ops/d2r-mobile#2026-10-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/jhaizhou-ops/d2r-mobile"/>
-    <updated>2026-10-13T18:00:00Z</updated>
-    <published>2026-10-13T18:00:00Z</published>
-    <summary>Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层
-
-Why: +991/day · Rising
-Score: 96/100 | Language: C | ⭐ 991 (+991.0/day) | Source: rising</summary>
-  </entry>
-  <entry>
-    <title>jwuthri-cloud/Tracely-ai — No description</title>
-    <id>https://github.com/jwuthri-cloud/Tracely-ai#2026-10-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/jwuthri-cloud/Tracely-ai"/>
-    <updated>2026-10-13T18:00:00Z</updated>
-    <published>2026-10-13T18:00:00Z</published>
-    <summary>No description
-
-Why: +618/day · Search
-Score: 96/100 | Language: Python | ⭐ 618 (+618.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>juliobsz/skills — An agent skill that builds award-caliber websites from one line</title>
-    <id>https://github.com/juliobsz/skills#2026-10-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/juliobsz/skills"/>
-    <updated>2026-10-13T18:00:00Z</updated>
-    <published>2026-10-13T18:00:00Z</published>
-    <summary>An agent skill that builds award-caliber websites from one line
-
-Why: +287/day · Search+AI/ML
-Score: 93/100 | Language: TypeScript | ⭐ 287 (+287.0/day) | Source: search + ai-trending</summary>
-  </entry>
-  <entry>
-    <title>debpalash/VoiceStudio — VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.</title>
-    <id>https://github.com/debpalash/VoiceStudio#2026-10-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/debpalash/VoiceStudio"/>
-    <updated>2026-10-13T18:00:00Z</updated>
-    <published>2026-10-13T18:00:00Z</published>
-    <summary>VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.
-
-Why: +1804/day · Trending · 5.5x accelerating
-Score: 100/100 | Language: Python | ⭐ 61449 (+1804.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>QingYunA/answer-me-with-html — Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。</title>
-    <id>https://github.com/QingYunA/answer-me-with-html#2026-10-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/QingYunA/answer-me-with-html"/>
-    <updated>2026-10-13T18:00:00Z</updated>
-    <published>2026-10-13T18:00:00Z</published>
-    <summary>Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。
-
-Why: +268/day · HN
-Score: 77/100 | Language: JavaScript | ⭐ 3256 (+268.0/day) | Source: hn</summary>
   </entry>
 </feed>
