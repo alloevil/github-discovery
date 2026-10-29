@@ -1,0 +1,354 @@
+{
+ "date": "2026-10-29",
+ "generated_at": "2026-10-29T11:08:05.087713",
+ "pool_size": 95,
+ "source_health": {
+  "trending": {
+   "fetched": 11,
+   "parsed": 11,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 3
+  },
+  "search": {
+   "fetched": 61,
+   "parsed": 61,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 8
+  },
+  "hn": {
+   "fetched": 10,
+   "parsed": 10,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 0,
+   "parsed": 0,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 25,
+   "parsed": 25,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "HKUDS/DeepTutor",
+   "url": "https://github.com/HKUDS/DeepTutor",
+   "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+   "language": "Python",
+   "stars": 48962,
+   "forks": 6058,
+   "age_days": 304,
+   "daily_stars": 161.05921052631578,
+   "real_daily_stars": 1907.0,
+   "watchers": 219,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "OpenBMB/MiniCPM-OCR",
+   "url": "https://github.com/OpenBMB/MiniCPM-OCR",
+   "description": "Fast, accurate OCR with correctness assessment.",
+   "language": "Python",
+   "stars": 418,
+   "forks": 26,
+   "age_days": 1,
+   "daily_stars": 418.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "MiniMax-AI/mcode-stack",
+   "url": "https://github.com/MiniMax-AI/mcode-stack",
+   "description": "The workflows and skills the MiniMax Code team uses to build MiniMax Code. Open source, install and use.",
+   "language": "Python",
+   "stars": 370,
+   "forks": 25,
+   "age_days": 1,
+   "daily_stars": 370.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "elayadesign/ai-design-skills",
+   "url": "https://github.com/elayadesign/ai-design-skills",
+   "description": "",
+   "language": "",
+   "stars": 11678,
+   "forks": 847,
+   "age_days": 92,
+   "daily_stars": 126.93478260869566,
+   "real_daily_stars": 1197.0,
+   "watchers": 41,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 94,
+    "acceleration": 40,
+    "quality": 24,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "shipwords-dev/shipwords",
+   "url": "https://github.com/shipwords-dev/shipwords",
+   "description": "Ship a money-making AI site for every new keyword. Cloudflare-native starter with auth, credits, payments and AI generation. | 新词站群框架：一个新词一个站，一个下午上线。起量的继续迭代，没起来的放着不管。不变的共享，变的独立。",
+   "language": "TypeScript",
+   "stars": 237,
+   "forks": 152,
+   "age_days": 1,
+   "daily_stars": 237.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "smithjohn78390/tongjiang-lab",
+   "url": "https://github.com/smithjohn78390/tongjiang-lab",
+   "description": "Free interactive 3D science lessons for high school · 铜匠实验室 · https://lab.tongjiang.app",
+   "language": "HTML",
+   "stars": 761,
+   "forks": 206,
+   "age_days": 1,
+   "daily_stars": 761.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 91,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "anonnerdfrenzy/survival-llm",
+   "url": "https://github.com/anonnerdfrenzy/survival-llm",
+   "description": "A free AI assistant and survival library that runs on your own computer, with no internet needed. Shows the source of every answer.",
+   "language": "Python",
+   "stars": 689,
+   "forks": 56,
+   "age_days": 4,
+   "daily_stars": 172.25,
+   "real_daily_stars": 301.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "toyxyz/toyxyz_RGBMocap",
+   "url": "https://github.com/toyxyz/toyxyz_RGBMocap",
+   "description": "Native Windows video motion capture with ExMR, FlowHMR and GVHMR, contact correction, humanoid retargeting, and FBX/VMD export.",
+   "language": "Python",
+   "stars": 274,
+   "forks": 41,
+   "age_days": 2,
+   "daily_stars": 137.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "D3voz/openjutsu",
+   "url": "https://github.com/D3voz/openjutsu",
+   "description": "One-click character swap for videos: an open-source, local Higgsfield Genjutsu alternative built on ComfyUI and MiniMax H3.",
+   "language": "TypeScript",
+   "stars": 226,
+   "forks": 41,
+   "age_days": 2,
+   "daily_stars": 113.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "athenaos-tech/athenaos-agent",
+   "url": "https://github.com/athenaos-tech/athenaos-agent",
+   "description": "",
+   "language": "TypeScript",
+   "stars": 150,
+   "forks": 166,
+   "age_days": 1,
+   "daily_stars": 150.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 88,
+    "acceleration": 30,
+    "quality": 28,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+   "language": "TypeScript",
+   "stars": 104164,
+   "forks": 9190,
+   "age_days": 423,
+   "daily_stars": 246.25059101654847,
+   "real_daily_stars": 246.5,
+   "watchers": 320,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ]
+}

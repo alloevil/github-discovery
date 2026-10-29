@@ -242,146 +242,6 @@
       ],
       "last_recommended": "2026-10-25T09:26:04.300391+00:00"
     },
-    "Appllama/liquid-glass-chat-ui": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-28T11:15:08.648546+00:00"
-    },
-    "AgentSystemLabs/agent-office": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-09-28T11:15:08.650531+00:00"
-    },
-    "pch/rawmakase": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-09-28T11:15:08.652346+00:00"
-    },
-    "glanderness/BeefTV": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-09-28T11:15:08.654089+00:00"
-    },
-    "Niko1221/Strata": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-09-28T11:15:08.724544+00:00"
-    },
-    "HeyOkay/HaloBattery": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-09-28T11:15:08.726597+00:00"
-    },
-    "Badtheorylabs/interference-search": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-09-28T11:15:08.728376+00:00"
-    },
-    "DanFessler/trellis": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-09-28T11:15:08.730136+00:00"
-    },
-    "emir/claude-s40": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-09-28T11:15:08.731919+00:00"
-    },
-    "Contrastive-LM/CLM": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-09-28T11:15:08.733685+00:00"
-    },
-    "mvschwarz/openrig": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-09-29T10:55:41.664346+00:00"
-    },
-    "firelex/jeff": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-29T10:55:41.666754+00:00"
-    },
-    "kaankiziltug/logo-design-skill": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-29T10:55:41.668878+00:00"
-    },
-    "openJiuwen-ai/iCode": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-09-29T10:55:41.671005+00:00"
-    },
-    "chasmlol/2010-rust-rewrite-mashup": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-09-29T10:55:41.673108+00:00"
-    },
-    "yihui-dev/awesome-opus5-5-videos": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-29T10:55:41.675354+00:00"
-    },
-    "scarletkc/seiso": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-29T10:55:41.677490+00:00"
-    },
-    "shihabal3amri/DiPlay": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-09-29T10:55:41.679847+00:00"
-    },
-    "disler/ten-levels-of-jev": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-09-29T10:55:41.681942+00:00"
-    },
-    "aicheye/supersidian": {
-      "count": 1,
-      "scores": [
-        85
-      ],
-      "last_recommended": "2026-09-29T10:55:41.684207+00:00"
-    },
     "cs341-illinois/coursebook": {
       "count": 1,
       "scores": [
@@ -744,11 +604,12 @@
       "last_recommended": "2026-10-05T11:52:06.005661+00:00"
     },
     "thedotmack/claude-mem": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        96
+        96,
+        87
       ],
-      "last_recommended": "2026-10-05T11:52:06.007599+00:00"
+      "last_recommended": "2026-10-29T11:08:05.085366+00:00"
     },
     "lucasmarkes/hairline": {
       "count": 1,
@@ -2348,7 +2209,77 @@
         90
       ],
       "last_recommended": "2026-10-28T10:50:45.442922+00:00"
+    },
+    "HKUDS/DeepTutor": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-29T11:08:05.072227+00:00"
+    },
+    "OpenBMB/MiniCPM-OCR": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-10-29T11:08:05.073937+00:00"
+    },
+    "MiniMax-AI/mcode-stack": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-10-29T11:08:05.075250+00:00"
+    },
+    "elayadesign/ai-design-skills": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-10-29T11:08:05.076553+00:00"
+    },
+    "shipwords-dev/shipwords": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-10-29T11:08:05.077809+00:00"
+    },
+    "smithjohn78390/tongjiang-lab": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-29T11:08:05.079111+00:00"
+    },
+    "anonnerdfrenzy/survival-llm": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-29T11:08:05.080375+00:00"
+    },
+    "toyxyz/toyxyz_RGBMocap": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-29T11:08:05.081625+00:00"
+    },
+    "D3voz/openjutsu": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-10-29T11:08:05.082856+00:00"
+    },
+    "athenaos-tech/athenaos-agent": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-10-29T11:08:05.084113+00:00"
     }
   },
-  "updated_at": "2026-10-28T10:50:45.444212+00:00"
+  "updated_at": "2026-10-29T11:08:05.085379+00:00"
 }

@@ -1,0 +1,61 @@
+{
+ "date": "2026-10-29",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "obra/superpowers",
+   "stars": 307866,
+   "language": "Shell"
+  },
+  {
+   "full_name": "thedotmack/claude-mem",
+   "stars": 104164,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "pbakaus/impeccable",
+   "stars": 94065,
+   "language": "Rust"
+  },
+  {
+   "full_name": "HKUDS/DeepTutor",
+   "stars": 48962,
+   "language": "Python"
+  },
+  {
+   "full_name": "Donchitos/Claude-Code-Game-Studios",
+   "stars": 28578,
+   "language": "Shell"
+  },
+  {
+   "full_name": "elayadesign/ai-design-skills",
+   "stars": 11678,
+   "language": ""
+  },
+  {
+   "full_name": "togg53192-cmd/jailbreaks",
+   "stars": 7848,
+   "language": ""
+  },
+  {
+   "full_name": "CopilotKit/OpenBot",
+   "stars": 7740,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "milind-soni/OpenMausBot",
+   "stars": 7002,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "JetBrains/thinkrail",
+   "stars": 5611,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "nightly-labs/openbot",
+   "stars": 3571,
+   "language": "TypeScript"
+  }
+ ]
+}
