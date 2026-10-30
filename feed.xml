@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-29T18:00:00Z</updated>
+  <updated>2026-10-30T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>milind-soni/OpenMausBot — Open-source Grok Bot alternative with a virtual machine that bots can use</title>
+    <id>https://github.com/milind-soni/OpenMausBot#2026-10-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/milind-soni/OpenMausBot"/>
+    <updated>2026-10-30T18:00:00Z</updated>
+    <published>2026-10-30T18:00:00Z</published>
+    <summary>Open-source Grok Bot alternative with a virtual machine that bots can use
+
+Why: +879/day · Trending · 8.8x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 7881 (+879.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>CopilotKit/OpenBot — Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.</title>
+    <id>https://github.com/CopilotKit/OpenBot#2026-10-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/CopilotKit/OpenBot"/>
+    <updated>2026-10-30T18:00:00Z</updated>
+    <published>2026-10-30T18:00:00Z</published>
+    <summary>Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.
+
+Why: +696/day · Trending · 6.1x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 8436 (+696.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>qybaihe/bla — 🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -&gt; Exhaust -&gt; Hallucinate.</title>
+    <id>https://github.com/qybaihe/bla#2026-10-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/qybaihe/bla"/>
+    <updated>2026-10-30T18:00:00Z</updated>
+    <published>2026-10-30T18:00:00Z</published>
+    <summary>🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -&gt; Exhaust -&gt; Hallucinate.
+
+Why: +935/day · Search · 4.1x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 1145 (+935.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>valentderah/totk-pc-recomp — Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.</title>
+    <id>https://github.com/valentderah/totk-pc-recomp#2026-10-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/valentderah/totk-pc-recomp"/>
+    <updated>2026-10-30T18:00:00Z</updated>
+    <published>2026-10-30T18:00:00Z</published>
+    <summary>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.
+
+Why: +917/day · Search
+Score: 96/100 | Language: C | ⭐ 917 (+917.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>BryceYuuu/RUN — RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）</title>
+    <id>https://github.com/BryceYuuu/RUN#2026-10-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/BryceYuuu/RUN"/>
+    <updated>2026-10-30T18:00:00Z</updated>
+    <published>2026-10-30T18:00:00Z</published>
+    <summary>RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）
+
+Why: +499/day · Search
+Score: 96/100 | Language: Python | ⭐ 499 (+499.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>pingdotgg/t3code — No description</title>
+    <id>https://github.com/pingdotgg/t3code#2026-10-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/pingdotgg/t3code"/>
+    <updated>2026-10-30T18:00:00Z</updated>
+    <published>2026-10-30T18:00:00Z</published>
+    <summary>No description
+
+Why: +341/day · Trending · 2.8x accelerating
+Score: 97/100 | Language: TypeScript | ⭐ 32237 (+341.2/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>mattpocock/skills — Skills for Real Engineers. Straight from my .agents directory.</title>
+    <id>https://github.com/mattpocock/skills#2026-10-30</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mattpocock/skills"/>
+    <updated>2026-10-30T18:00:00Z</updated>
+    <published>2026-10-30T18:00:00Z</published>
+    <summary>Skills for Real Engineers. Straight from my .agents directory.
+
+Why: +1143/day · Trending
+Score: 90/100 | Language: Shell | ⭐ 306974 (+1142.8/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>HKUDS/DeepTutor — DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.</title>
     <id>https://github.com/HKUDS/DeepTutor#2026-10-29</id>
@@ -866,93 +943,5 @@ Score: 94/100 | Language: Python | ⭐ 325 (+325.0/day) | Source: search</summar
 
 Why: +379/day · Trending · 8.4x accelerating
 Score: 95/100 | Language: TypeScript | ⭐ 12117 (+379.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>K-Dense-AI/scientific-agent-skills — Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.</title>
-    <id>https://github.com/K-Dense-AI/scientific-agent-skills#2026-10-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/K-Dense-AI/scientific-agent-skills"/>
-    <updated>2026-10-16T18:00:00Z</updated>
-    <published>2026-10-16T18:00:00Z</published>
-    <summary>Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
-
-Why: +1133/day · Trending · 8.0x accelerating
-Score: 100/100 | Language: Python | ⭐ 50951 (+1133.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Supermedo/uncharted_pc — Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo</title>
-    <id>https://github.com/Supermedo/uncharted_pc#2026-10-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Supermedo/uncharted_pc"/>
-    <updated>2026-10-16T18:00:00Z</updated>
-    <published>2026-10-16T18:00:00Z</published>
-    <summary>Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo
-
-Why: +813/day · Search
-Score: 96/100 | Language: C++ | ⭐ 813 (+813.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>andunieee/flipflop — filesharing for the meatspace era</title>
-    <id>https://github.com/andunieee/flipflop#2026-10-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/andunieee/flipflop"/>
-    <updated>2026-10-16T18:00:00Z</updated>
-    <published>2026-10-16T18:00:00Z</published>
-    <summary>filesharing for the meatspace era
-
-Why: +129/day · HN · 30.7x accelerating
-Score: 93/100 | Language: Rust | ⭐ 168 (+129.0/day) | Source: hn</summary>
-  </entry>
-  <entry>
-    <title>onehumanbeing/esp32-iphone-agent — Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.</title>
-    <id>https://github.com/onehumanbeing/esp32-iphone-agent#2026-10-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/onehumanbeing/esp32-iphone-agent"/>
-    <updated>2026-10-16T18:00:00Z</updated>
-    <published>2026-10-16T18:00:00Z</published>
-    <summary>Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.
-
-Why: +485/day · Search
-Score: 90/100 | Language: C | ⭐ 2710 (+485.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>assafkip/claudemy — Claudemy: an open-source alternative to Udemy and Coursera. Give Claude a topic, it researches the web and builds a course of 2-minute audio lessons with cited sources. A free Claude Code skill.</title>
-    <id>https://github.com/assafkip/claudemy#2026-10-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/assafkip/claudemy"/>
-    <updated>2026-10-16T18:00:00Z</updated>
-    <published>2026-10-16T18:00:00Z</published>
-    <summary>Claudemy: an open-source alternative to Udemy and Coursera. Give Claude a topic, it researches the web and builds a course of 2-minute audio lessons with cited sources. A free Claude Code skill.
-
-Why: +128/day · Search+AI/ML
-Score: 89/100 | Language: Python | ⭐ 255 (+127.5/day) | Source: search + ai-trending</summary>
-  </entry>
-  <entry>
-    <title>morluto/rea — Reverse engineer anything with agents, from app behavior down to native binaries.</title>
-    <id>https://github.com/morluto/rea#2026-10-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/morluto/rea"/>
-    <updated>2026-10-16T18:00:00Z</updated>
-    <published>2026-10-16T18:00:00Z</published>
-    <summary>Reverse engineer anything with agents, from app behavior down to native binaries.
-
-Why: +25116/day · Trending · 16.6x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 280322 (+25116.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>anthropics/claude-plugins-official — Official, Anthropic-managed directory of high quality Claude Code Plugins.</title>
-    <id>https://github.com/anthropics/claude-plugins-official#2026-10-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-plugins-official"/>
-    <updated>2026-10-16T18:00:00Z</updated>
-    <published>2026-10-16T18:00:00Z</published>
-    <summary>Official, Anthropic-managed directory of high quality Claude Code Plugins.
-
-Why: +338/day · Trending · 2.8x accelerating
-Score: 97/100 | Language: Python | ⭐ 39633 (+338.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>JuliusBrussee/caveman — 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.</title>
-    <id>https://github.com/JuliusBrussee/caveman#2026-10-16</id>
-    <link rel="alternate" type="text/html" href="https://github.com/JuliusBrussee/caveman"/>
-    <updated>2026-10-16T18:00:00Z</updated>
-    <published>2026-10-16T18:00:00Z</published>
-    <summary>🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.
-
-Why: +871/day · Trending
-Score: 92/100 | Language: Go | ⭐ 112888 (+871.0/day) | Source: trending</summary>
   </entry>
 </feed>
