@@ -33,7 +33,7 @@
       "last_recommended": "2026-10-27T10:04:14.542055+00:00"
     },
     "mattpocock/skills": {
-      "count": 9,
+      "count": 10,
       "scores": [
         100,
         100,
@@ -43,9 +43,10 @@
         90,
         90,
         90,
-        92
+        92,
+        90
       ],
-      "last_recommended": "2026-10-10T10:49:49.084014+00:00"
+      "last_recommended": "2026-10-30T11:02:42.082597+00:00"
     },
     "addyosmani/agent-skills": {
       "count": 5,
@@ -116,14 +117,6 @@
         100
       ],
       "last_recommended": "2026-10-26T10:32:41.330020+00:00"
-    },
-    "averygan/reclip": {
-      "count": 2,
-      "scores": [
-        98,
-        83
-      ],
-      "last_recommended": "2026-09-30T10:45:34.342816+00:00"
     },
     "coreyhaines31/marketingskills": {
       "count": 2,
@@ -241,76 +234,6 @@
         95
       ],
       "last_recommended": "2026-10-25T09:26:04.300391+00:00"
-    },
-    "cs341-illinois/coursebook": {
-      "count": 1,
-      "scores": [
-        97
-      ],
-      "last_recommended": "2026-09-30T10:45:34.320677+00:00"
-    },
-    "feder-cr/dots": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-30T10:45:34.323118+00:00"
-    },
-    "OpSafari/hypoarena": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-09-30T10:45:34.325322+00:00"
-    },
-    "PostHog/jeeves": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-09-30T10:45:34.327477+00:00"
-    },
-    "openai/mcp-extensions": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-09-30T10:45:34.329628+00:00"
-    },
-    "willfaust/Madeira": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-09-30T10:45:34.331837+00:00"
-    },
-    "fulldiagnose/antigravity-fixer": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-30T10:45:34.333999+00:00"
-    },
-    "ZacharyZhang-NY/Ely-GPUI-Components": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-09-30T10:45:34.336318+00:00"
-    },
-    "ng-native/ng-native": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-09-30T10:45:34.338484+00:00"
-    },
-    "alpcanaydin/tusk": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-09-30T10:45:34.340648+00:00"
     },
     "NVIDIA/OpenShell": {
       "count": 2,
@@ -597,11 +520,12 @@
       "last_recommended": "2026-10-04T10:47:01.099992+00:00"
     },
     "pingdotgg/t3code": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        97
       ],
-      "last_recommended": "2026-10-05T11:52:06.005661+00:00"
+      "last_recommended": "2026-10-30T11:02:42.080431+00:00"
     },
     "thedotmack/claude-mem": {
       "count": 2,
@@ -2279,7 +2203,77 @@
         88
       ],
       "last_recommended": "2026-10-29T11:08:05.084113+00:00"
+    },
+    "milind-soni/OpenMausBot": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-30T11:02:42.058717+00:00"
+    },
+    "CopilotKit/OpenBot": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-30T11:02:42.061119+00:00"
+    },
+    "qybaihe/bla": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-10-30T11:02:42.063236+00:00"
+    },
+    "valentderah/totk-pc-recomp": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-30T11:02:42.065334+00:00"
+    },
+    "BryceYuuu/RUN": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-30T11:02:42.067523+00:00"
+    },
+    "paipiange/nvzhuang": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-10-30T11:02:42.069764+00:00"
+    },
+    "ccch1mneyyy/dsh-Go": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-10-30T11:02:42.071930+00:00"
+    },
+    "yjid/kensaku": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-10-30T11:02:42.074088+00:00"
+    },
+    "oxnw/ai-phone": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-30T11:02:42.076206+00:00"
+    },
+    "brainstormity/LightPost": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-10-30T11:02:42.078291+00:00"
     }
   },
-  "updated_at": "2026-10-29T11:08:05.085379+00:00"
+  "updated_at": "2026-10-30T11:02:42.082625+00:00"
 }

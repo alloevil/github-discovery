@@ -1,89 +1,5 @@
 {
  "repos": {
-  "xtool-org/xtool": {
-   "first_seen": "2026-10-15",
-   "until": "2026-10-29",
-   "stars_at_discovery": 11309,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "vxcontrol/pentagi": {
-   "first_seen": "2026-10-15",
-   "until": "2026-10-29",
-   "stars_at_discovery": 30113,
-   "score_at_discovery": 98,
-   "source_at_discovery": "trending"
-  },
-  "HeyPuter/everything": {
-   "first_seen": "2026-10-15",
-   "until": "2026-10-29",
-   "stars_at_discovery": 843,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "CoolkHz/gptibo": {
-   "first_seen": "2026-10-15",
-   "until": "2026-10-29",
-   "stars_at_discovery": 784,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "Caho1/open-claude-ui": {
-   "first_seen": "2026-10-15",
-   "until": "2026-10-29",
-   "stars_at_discovery": 473,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "outcrawlai/scout": {
-   "first_seen": "2026-10-15",
-   "until": "2026-10-29",
-   "stars_at_discovery": 767,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "egotoadcitadel/palette-from-image-ai": {
-   "first_seen": "2026-10-15",
-   "until": "2026-10-29",
-   "stars_at_discovery": 303,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "solana-classic/solana-classic": {
-   "first_seen": "2026-10-15",
-   "until": "2026-10-29",
-   "stars_at_discovery": 352,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "datalab-to/indra": {
-   "first_seen": "2026-10-15",
-   "until": "2026-10-29",
-   "stars_at_discovery": 293,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "chenglou/handwired": {
-   "first_seen": "2026-10-15",
-   "until": "2026-10-29",
-   "stars_at_discovery": 206,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "NationalSecurityAgency/ghidra": {
-   "first_seen": "2026-10-15",
-   "until": "2026-10-29",
-   "stars_at_discovery": 88006,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "HKUDS/CLI-Anything": {
-   "first_seen": "2026-10-15",
-   "until": "2026-10-29",
-   "stars_at_discovery": 52851,
-   "score_at_discovery": 75,
-   "source_at_discovery": "trending"
-  },
   "K-Dense-AI/scientific-agent-skills": {
    "first_seen": "2026-10-16",
    "until": "2026-10-30",
@@ -1133,7 +1049,91 @@
    "stars_at_discovery": 104164,
    "score_at_discovery": 87,
    "source_at_discovery": "trending"
+  },
+  "milind-soni/OpenMausBot": {
+   "first_seen": "2026-10-30",
+   "until": "2026-11-13",
+   "stars_at_discovery": 7881,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "CopilotKit/OpenBot": {
+   "first_seen": "2026-10-30",
+   "until": "2026-11-13",
+   "stars_at_discovery": 8436,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "qybaihe/bla": {
+   "first_seen": "2026-10-30",
+   "until": "2026-11-13",
+   "stars_at_discovery": 1145,
+   "score_at_discovery": 100,
+   "source_at_discovery": "search"
+  },
+  "valentderah/totk-pc-recomp": {
+   "first_seen": "2026-10-30",
+   "until": "2026-11-13",
+   "stars_at_discovery": 917,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "BryceYuuu/RUN": {
+   "first_seen": "2026-10-30",
+   "until": "2026-11-13",
+   "stars_at_discovery": 499,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "paipiange/nvzhuang": {
+   "first_seen": "2026-10-30",
+   "until": "2026-11-13",
+   "stars_at_discovery": 764,
+   "score_at_discovery": 96,
+   "source_at_discovery": "rising"
+  },
+  "ccch1mneyyy/dsh-Go": {
+   "first_seen": "2026-10-30",
+   "until": "2026-11-13",
+   "stars_at_discovery": 1550,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "yjid/kensaku": {
+   "first_seen": "2026-10-30",
+   "until": "2026-11-13",
+   "stars_at_discovery": 251,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "oxnw/ai-phone": {
+   "first_seen": "2026-10-30",
+   "until": "2026-11-13",
+   "stars_at_discovery": 298,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "brainstormity/LightPost": {
+   "first_seen": "2026-10-30",
+   "until": "2026-11-13",
+   "stars_at_discovery": 280,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "pingdotgg/t3code": {
+   "first_seen": "2026-10-30",
+   "until": "2026-11-13",
+   "stars_at_discovery": 32237,
+   "score_at_discovery": 97,
+   "source_at_discovery": "trending"
+  },
+  "mattpocock/skills": {
+   "first_seen": "2026-10-30",
+   "until": "2026-11-13",
+   "stars_at_discovery": 306974,
+   "score_at_discovery": 90,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-10-29T11:08:05.086761+00:00"
+ "updated_at": "2026-10-30T11:05:48.316466+00:00"
 }
