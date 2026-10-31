@@ -1,89 +1,5 @@
 {
  "repos": {
-  "K-Dense-AI/scientific-agent-skills": {
-   "first_seen": "2026-10-16",
-   "until": "2026-10-30",
-   "stars_at_discovery": 50951,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "Supermedo/uncharted_pc": {
-   "first_seen": "2026-10-16",
-   "until": "2026-10-30",
-   "stars_at_discovery": 813,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "andunieee/flipflop": {
-   "first_seen": "2026-10-16",
-   "until": "2026-10-30",
-   "stars_at_discovery": 168,
-   "score_at_discovery": 93,
-   "source_at_discovery": "hn"
-  },
-  "onehumanbeing/esp32-iphone-agent": {
-   "first_seen": "2026-10-16",
-   "until": "2026-10-30",
-   "stars_at_discovery": 2710,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "assafkip/claudemy": {
-   "first_seen": "2026-10-16",
-   "until": "2026-10-30",
-   "stars_at_discovery": 255,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "Zfinix/eleven": {
-   "first_seen": "2026-10-16",
-   "until": "2026-10-30",
-   "stars_at_discovery": 545,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "zgsfsec/Full-Chain-Sentinel-System": {
-   "first_seen": "2026-10-16",
-   "until": "2026-10-30",
-   "stars_at_discovery": 118,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "LargeModGames/spotatui": {
-   "first_seen": "2026-10-16",
-   "until": "2026-10-30",
-   "stars_at_discovery": 1661,
-   "score_at_discovery": 89,
-   "source_at_discovery": "hn"
-  },
-  "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit": {
-   "first_seen": "2026-10-16",
-   "until": "2026-10-30",
-   "stars_at_discovery": 256,
-   "score_at_discovery": 88,
-   "source_at_discovery": "search"
-  },
-  "AirsupHQ/machine-skill": {
-   "first_seen": "2026-10-16",
-   "until": "2026-10-30",
-   "stars_at_discovery": 257,
-   "score_at_discovery": 88,
-   "source_at_discovery": "ai-trending"
-  },
-  "anthropics/claude-plugins-official": {
-   "first_seen": "2026-10-16",
-   "until": "2026-10-30",
-   "stars_at_discovery": 39633,
-   "score_at_discovery": 97,
-   "source_at_discovery": "trending"
-  },
-  "obra/superpowers": {
-   "first_seen": "2026-10-16",
-   "until": "2026-10-30",
-   "stars_at_discovery": 300263,
-   "score_at_discovery": 90,
-   "source_at_discovery": "trending"
-  },
   "xerj-org/xerj": {
    "first_seen": "2026-10-17",
    "until": "2026-10-31",
@@ -1133,7 +1049,77 @@
    "stars_at_discovery": 306974,
    "score_at_discovery": 90,
    "source_at_discovery": "trending"
+  },
+  "lightpanda-io/browser": {
+   "first_seen": "2026-10-31",
+   "until": "2026-11-14",
+   "stars_at_discovery": 38735,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "macro-inc/macro": {
+   "first_seen": "2026-10-31",
+   "until": "2026-11-14",
+   "stars_at_discovery": 5988,
+   "score_at_discovery": 98,
+   "source_at_discovery": "trending"
+  },
+  "lexifina/global-law": {
+   "first_seen": "2026-10-31",
+   "until": "2026-11-14",
+   "stars_at_discovery": 1191,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "kevinraymond/florilegium": {
+   "first_seen": "2026-10-31",
+   "until": "2026-11-14",
+   "stars_at_discovery": 901,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "physicsdolphin/nv-uefi-unlocker": {
+   "first_seen": "2026-10-31",
+   "until": "2026-11-14",
+   "stars_at_discovery": 362,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "expo/skills": {
+   "first_seen": "2026-10-31",
+   "until": "2026-11-14",
+   "stars_at_discovery": 3965,
+   "score_at_discovery": 95,
+   "source_at_discovery": "trending"
+  },
+  "QuantumBladesmith/FPS-Optimizer-Universal-Game-Performance-Booster-2026": {
+   "first_seen": "2026-10-31",
+   "until": "2026-11-14",
+   "stars_at_discovery": 300,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "TinsmithConsole60/Roblox-Account-Manager-Multi-Account-Tool-2026": {
+   "first_seen": "2026-10-31",
+   "until": "2026-11-14",
+   "stars_at_discovery": 300,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "N1nEmAn/sapper-v2": {
+   "first_seen": "2026-10-31",
+   "until": "2026-11-14",
+   "stars_at_discovery": 272,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "Pika-Labs/Pika-H3-Flex": {
+   "first_seen": "2026-10-31",
+   "until": "2026-11-14",
+   "stars_at_discovery": 245,
+   "score_at_discovery": 93,
+   "source_at_discovery": "ai-trending"
   }
  },
- "updated_at": "2026-10-30T11:05:48.316466+00:00"
+ "updated_at": "2026-10-31T10:42:41.285786+00:00"
 }
