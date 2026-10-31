@@ -3,79 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "obra/superpowers",
-   "stars": 309671,
-   "language": "Shell"
-  },
-  {
-   "full_name": "mattpocock/skills",
-   "stars": 307793,
-   "language": "Shell"
-  },
-  {
-   "full_name": "anthropics/skills",
-   "stars": 185642,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "thedotmack/claude-mem",
-   "stars": 106914,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "pbakaus/impeccable",
-   "stars": 97593,
-   "language": "Rust"
-  },
-  {
-   "full_name": "HKUDS/DeepTutor",
-   "stars": 52203,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "lightpanda-io/browser",
-   "stars": 38735,
-   "language": "Zig"
-  },
-  {
-   "full_name": "pingdotgg/t3code",
-   "stars": 33329,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "Renhuai123/ziwei-doushu",
-   "stars": 11756,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "togg53192-cmd/jailbreaks",
-   "stars": 11752,
-   "language": ""
-  },
-  {
-   "full_name": "milind-soni/OpenMausBot",
-   "stars": 9155,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "CopilotKit/OpenBot",
-   "stars": 9023,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "JetBrains/thinkrail",
-   "stars": 6734,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "macro-inc/macro",
-   "stars": 5988,
-   "language": "Rust"
-  },
-  {
-   "full_name": "expo/skills",
-   "stars": 3965,
-   "language": "Shell"
   }
  ]
 }
