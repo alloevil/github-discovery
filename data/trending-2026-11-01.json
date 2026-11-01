@@ -3,89 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "public-apis/public-apis",
-   "stars": 493961,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "thedotmack/claude-mem",
-   "stars": 108437,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "shiyu-coder/Kronos",
-   "stars": 44913,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "patchy631/ai-engineering-hub",
-   "stars": 39739,
-   "language": "Jupyter Notebook"
-  },
-  {
-   "full_name": "lightpanda-io/browser",
-   "stars": 39573,
-   "language": "Zig"
-  },
-  {
-   "full_name": "hyprwm/Hyprland",
-   "stars": 39121,
-   "language": "C++"
-  },
-  {
-   "full_name": "pingdotgg/t3code",
-   "stars": 36483,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "cjpais/Handy",
-   "stars": 36030,
-   "language": "Rust"
-  },
-  {
-   "full_name": "Donchitos/Claude-Code-Game-Studios",
-   "stars": 31603,
-   "language": "Shell"
-  },
-  {
-   "full_name": "FlashML-org/FreeToken",
-   "stars": 15084,
-   "language": "Python"
-  },
-  {
-   "full_name": "Renhuai123/ziwei-doushu",
-   "stars": 12722,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "togg53192-cmd/jailbreaks",
-   "stars": 12498,
-   "language": ""
-  },
-  {
-   "full_name": "kornia/kornia",
-   "stars": 11571,
-   "language": "Python"
-  },
-  {
-   "full_name": "milind-soni/OpenMausBot",
-   "stars": 10086,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "CopilotKit/OpenBot",
-   "stars": 9213,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "beenuar/AiSOC",
-   "stars": 5841,
-   "language": "Python"
-  },
-  {
-   "full_name": "anomalyco/hex",
-   "stars": 2489,
-   "language": "Rust"
   }
  ]
 }
