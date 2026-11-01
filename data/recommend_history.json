@@ -126,14 +126,6 @@
       ],
       "last_recommended": "2026-10-03T10:04:21.053828+00:00"
     },
-    "heygen-com/hyperframes": {
-      "count": 2,
-      "scores": [
-        87,
-        88
-      ],
-      "last_recommended": "2026-10-01T11:11:44.444270+00:00"
-    },
     "mksglu/context-mode": {
       "count": 3,
       "scores": [
@@ -183,14 +175,6 @@
         92
       ],
       "last_recommended": "2026-10-27T10:04:14.539787+00:00"
-    },
-    "earendil-works/pi": {
-      "count": 2,
-      "scores": [
-        87,
-        93
-      ],
-      "last_recommended": "2026-10-02T10:45:25.822448+00:00"
     },
     "cloudflare/security-audit-skill": {
       "count": 3,
@@ -242,139 +226,6 @@
         98
       ],
       "last_recommended": "2026-10-24T09:08:40.714612+00:00"
-    },
-    "byoungd/up": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-01T11:11:44.424877+00:00"
-    },
-    "t8y2/dbx": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-01T11:11:44.426990+00:00"
-    },
-    "VectifyAI/PageIndex": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-01T11:11:44.429154+00:00"
-    },
-    "Louis-CFM/coucou": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-01T11:11:44.431261+00:00"
-    },
-    "nanaism/yomiyasu": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-01T11:11:44.433456+00:00"
-    },
-    "edenfunf/reelmimic": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-01T11:11:44.435648+00:00"
-    },
-    "echris6/motion-video-kit": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-10-01T11:11:44.437767+00:00"
-    },
-    "MisakaZentai/world-execute-me-dsh-pv": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-10-01T11:11:44.439948+00:00"
-    },
-    "NawfalMotii79/PLFM_RADAR": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-10-01T11:11:44.442096+00:00"
-    },
-    "Edwardxlai/easyread": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-02T10:45:25.802180+00:00"
-    },
-    "CopilotKit/OpenDots": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-10-02T10:45:25.804771+00:00"
-    },
-    "firebase/firebase-ios-sdk": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-10-02T10:45:25.806883+00:00"
-    },
-    "KKKKhazix/AIHOT": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-02T10:45:25.808848+00:00"
-    },
-    "rehan-remade/universal-modder": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-02T10:45:25.810814+00:00"
-    },
-    "amywork777/lipflow": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-02T10:45:25.812744+00:00"
-    },
-    "1molchuan/edge-smart-doh": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-02T10:45:25.814635+00:00"
-    },
-    "luxine/CalcKernel": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-10-02T10:45:25.816496+00:00"
-    },
-    "strands-labs/strands-decider": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-10-02T10:45:25.818384+00:00"
-    },
-    "d4ncboz/museai": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-10-02T10:45:25.820393+00:00"
     },
     "pablostanley/yoinks": {
       "count": 1,
@@ -1575,11 +1426,12 @@
       "last_recommended": "2026-10-20T09:39:11.358612+00:00"
     },
     "shiyu-coder/Kronos": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-10-21T09:40:03.715235+00:00"
+      "last_recommended": "2026-11-01T11:31:08.503154+00:00"
     },
     "UniXNU/UniXNU": {
       "count": 1,
@@ -2343,7 +2195,77 @@
         93
       ],
       "last_recommended": "2026-10-31T10:37:36.352913+00:00"
+    },
+    "Donchitos/Claude-Code-Game-Studios": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-01T11:31:08.483572+00:00"
+    },
+    "patch-gg/pixelfx": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-01T11:31:08.486099+00:00"
+    },
+    "Djihads80/Eglantine": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-01T11:31:08.488005+00:00"
+    },
+    "Arjun-Ingole/hop": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-01T11:31:08.489898+00:00"
+    },
+    "storytold/craft-anything": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-01T11:31:08.491825+00:00"
+    },
+    "hyz317/HairDeck": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-01T11:31:08.493734+00:00"
+    },
+    "redjellyfishrampart/Bunny-Hop-Script-Auto-Bhop-Movement-Tool-2026": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-01T11:31:08.495625+00:00"
+    },
+    "Centiplatrap/pc-game-fps-doctor": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-01T11:31:08.497509+00:00"
+    },
+    "haydenschmitty/floorplan": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-01T11:31:08.499363+00:00"
+    },
+    "ShineFinancialStrut/game-server-route-racer": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-01T11:31:08.501261+00:00"
     }
   },
-  "updated_at": "2026-10-31T10:37:36.352926+00:00"
+  "updated_at": "2026-11-01T11:31:08.503178+00:00"
 }
