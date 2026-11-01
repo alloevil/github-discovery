@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-10-31T18:00:00Z</updated>
+  <updated>2026-11-01T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>Donchitos/Claude-Code-Game-Studios — Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.</title>
+    <id>https://github.com/Donchitos/Claude-Code-Game-Studios#2026-11-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Donchitos/Claude-Code-Game-Studios"/>
+    <updated>2026-11-01T18:00:00Z</updated>
+    <published>2026-11-01T18:00:00Z</published>
+    <summary>Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.
+
+Why: +1008/day · Trending · 8.4x accelerating
+Score: 100/100 | Language: Shell | ⭐ 31603 (+1008.3/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>patch-gg/pixelfx — 244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.</title>
+    <id>https://github.com/patch-gg/pixelfx#2026-11-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/patch-gg/pixelfx"/>
+    <updated>2026-11-01T18:00:00Z</updated>
+    <published>2026-11-01T18:00:00Z</published>
+    <summary>244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.
+
+Why: +982/day · Search
+Score: 96/100 | Language: JavaScript | ⭐ 1964 (+982.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>Djihads80/Eglantine — VERY experimental Nintendo Switch 2 emulator</title>
+    <id>https://github.com/Djihads80/Eglantine#2026-11-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Djihads80/Eglantine"/>
+    <updated>2026-11-01T18:00:00Z</updated>
+    <published>2026-11-01T18:00:00Z</published>
+    <summary>VERY experimental Nintendo Switch 2 emulator
+
+Why: +519/day · Search
+Score: 96/100 | Language: C++ | ⭐ 1558 (+519.3/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>Arjun-Ingole/hop — Install Linux next to Windows without a USB stick</title>
+    <id>https://github.com/Arjun-Ingole/hop#2026-11-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Arjun-Ingole/hop"/>
+    <updated>2026-11-01T18:00:00Z</updated>
+    <published>2026-11-01T18:00:00Z</published>
+    <summary>Install Linux next to Windows without a USB stick
+
+Why: +914/day · Search
+Score: 96/100 | Language: PowerShell | ⭐ 914 (+914.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>storytold/craft-anything — Craft Anything: understand how any software works, and craft your own.</title>
+    <id>https://github.com/storytold/craft-anything#2026-11-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/storytold/craft-anything"/>
+    <updated>2026-11-01T18:00:00Z</updated>
+    <published>2026-11-01T18:00:00Z</published>
+    <summary>Craft Anything: understand how any software works, and craft your own.
+
+Why: +379/day · Search
+Score: 95/100 | Language: Rust | ⭐ 379 (+379.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>shiyu-coder/Kronos — Kronos: A Foundation Model for the Language of Financial Markets</title>
+    <id>https://github.com/shiyu-coder/Kronos#2026-11-01</id>
+    <link rel="alternate" type="text/html" href="https://github.com/shiyu-coder/Kronos"/>
+    <updated>2026-11-01T18:00:00Z</updated>
+    <published>2026-11-01T18:00:00Z</published>
+    <summary>Kronos: A Foundation Model for the Language of Financial Markets
+
+Why: +631/day · Trending · 6.9x accelerating
+Score: 100/100 | Language: Python | ⭐ 44913 (+631.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>lightpanda-io/browser — Lightpanda: the headless browser designed for AI and automation</title>
     <id>https://github.com/lightpanda-io/browser#2026-10-31</id>
@@ -866,71 +932,5 @@ Score: 94/100 | Language: Python | ⭐ 300 (+300.0/day) | Source: search</summar
 
 Why: +1199/day · Search · 1.5x accelerating
 Score: 93/100 | Language: Go | ⭐ 2358 (+1199.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>MadsLorentzen/ai-job-search — The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.</title>
-    <id>https://github.com/MadsLorentzen/ai-job-search#2026-10-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/MadsLorentzen/ai-job-search"/>
-    <updated>2026-10-18T18:00:00Z</updated>
-    <published>2026-10-18T18:00:00Z</published>
-    <summary>The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.
-
-Why: +2167/day · Trending · 9.0x accelerating
-Score: 100/100 | Language: Python | ⭐ 51130 (+2167.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>aicodeking/leanrea — One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.</title>
-    <id>https://github.com/aicodeking/leanrea#2026-10-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/aicodeking/leanrea"/>
-    <updated>2026-10-18T18:00:00Z</updated>
-    <published>2026-10-18T18:00:00Z</published>
-    <summary>One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.
-
-Why: +509/day · Search
-Score: 96/100 | Language: Python | ⭐ 509 (+509.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>android/skills — No description</title>
-    <id>https://github.com/android/skills#2026-10-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/android/skills"/>
-    <updated>2026-10-18T18:00:00Z</updated>
-    <published>2026-10-18T18:00:00Z</published>
-    <summary>No description
-
-Why: +367/day · Trending · 9.2x accelerating
-Score: 96/100 | Language: Kotlin | ⭐ 8554 (+367.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>LiCinCan/blender-ai-mcp-addon — AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.</title>
-    <id>https://github.com/LiCinCan/blender-ai-mcp-addon#2026-10-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/LiCinCan/blender-ai-mcp-addon"/>
-    <updated>2026-10-18T18:00:00Z</updated>
-    <published>2026-10-18T18:00:00Z</published>
-    <summary>AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.
-
-Why: +344/day · Search
-Score: 94/100 | Language: Python | ⭐ 688 (+344.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>stablyai/orca — Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.</title>
-    <id>https://github.com/stablyai/orca#2026-10-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/stablyai/orca"/>
-    <updated>2026-10-18T18:00:00Z</updated>
-    <published>2026-10-18T18:00:00Z</published>
-    <summary>Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.
-
-Why: +446/day · Trending
-Score: 89/100 | Language: TypeScript | ⭐ 95795 (+445.6/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>anthropics/claude-code — Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</title>
-    <id>https://github.com/anthropics/claude-code#2026-10-18</id>
-    <link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-code"/>
-    <updated>2026-10-18T18:00:00Z</updated>
-    <published>2026-10-18T18:00:00Z</published>
-    <summary>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
-
-Why: +861/day · Trending · 3.4x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 152168 (+861.0/day) | Source: trending</summary>
   </entry>
 </feed>
