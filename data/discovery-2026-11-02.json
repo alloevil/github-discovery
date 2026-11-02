@@ -1,0 +1,328 @@
+{
+ "date": "2026-11-02",
+ "generated_at": "2026-11-02T12:53:42.407444",
+ "pool_size": 106,
+ "source_health": {
+  "trending": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 3
+  },
+  "search": {
+   "fetched": 69,
+   "parsed": 69,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 7
+  },
+  "hn": {
+   "fetched": 11,
+   "parsed": 11,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 2,
+   "parsed": 2,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 1
+  },
+  "ai-trending": {
+   "fetched": 32,
+   "parsed": 32,
+   "rejected": 0,
+   "deduplicated": 7,
+   "recommended": 1
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "hyprwm/Hyprland",
+   "url": "https://github.com/hyprwm/Hyprland",
+   "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+   "language": "C++",
+   "stars": 39645,
+   "forks": 2141,
+   "age_days": 1691,
+   "daily_stars": 23.444707273802482,
+   "real_daily_stars": 524.0,
+   "watchers": 142,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "BSD-3-Clause",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "FlashML-org/FreeToken",
+   "url": "https://github.com/FlashML-org/FreeToken",
+   "description": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.",
+   "language": "Python",
+   "stars": 15776,
+   "forks": 1571,
+   "age_days": 104,
+   "daily_stars": 151.69230769230768,
+   "real_daily_stars": 692.0,
+   "watchers": 99,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "kornia/kornia",
+   "url": "https://github.com/kornia/kornia",
+   "description": "🐍 Geometric Computer Vision Library for Spatial AI",
+   "language": "Python",
+   "stars": 11999,
+   "forks": 1482,
+   "age_days": 2994,
+   "daily_stars": 4.007682030728123,
+   "real_daily_stars": 428.0,
+   "watchers": 121,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Verlintas/NOIR",
+   "url": "https://github.com/Verlintas/NOIR",
+   "description": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
+   "language": "Kotlin",
+   "stars": 901,
+   "forks": 68,
+   "age_days": 1,
+   "daily_stars": 901.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "caru-ini/stack-diagram",
+   "url": "https://github.com/caru-ini/stack-diagram",
+   "description": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+   "language": "TypeScript",
+   "stars": 882,
+   "forks": 38,
+   "age_days": 1,
+   "daily_stars": 882.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "elvarofficial/teardown",
+   "url": "https://github.com/elvarofficial/teardown",
+   "description": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
+   "language": "JavaScript",
+   "stars": 1121,
+   "forks": 176,
+   "age_days": 3,
+   "daily_stars": 373.6666666666667,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "AssassinCreator/steam-stash-value-report-card",
+   "url": "https://github.com/AssassinCreator/steam-stash-value-report-card",
+   "description": "Value your Steam stash in the terminal and print it as a share card: per game, per market, what sold and what sits. One Windows portable build, no account.",
+   "language": "Python",
+   "stars": 431,
+   "forks": 30,
+   "age_days": 1,
+   "daily_stars": 431.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "maxwilsoneng2098t9/pdf-compressor-offline",
+   "url": "https://github.com/maxwilsoneng2098t9/pdf-compressor-offline",
+   "description": "Offline PDF compressor for Windows 2026. Reduce PDF file size up to 90% with minimal quality loss. Supports batch mode, drag & drop and works without internet connection.",
+   "language": "Python",
+   "stars": 300,
+   "forks": 182,
+   "age_days": 1,
+   "daily_stars": 300.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "davidlopez-x05x8/minecraft-aim-assist",
+   "url": "https://github.com/davidlopez-x05x8/minecraft-aim-assist",
+   "description": "Minecraft Aim Assist 2026 — Smooth aiming assistance for 1.21.4 Fabric. Adaptive tracking, customizable FOV, visibility check and clean UI. Easy install, regularly updated",
+   "language": "Python",
+   "stars": 300,
+   "forks": 254,
+   "age_days": 1,
+   "daily_stars": 300.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "mromidev/claude-animated-shorts",
+   "url": "https://github.com/mromidev/claude-animated-shorts",
+   "description": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
+   "language": "TypeScript",
+   "stars": 359,
+   "forks": 111,
+   "age_days": 1,
+   "daily_stars": 359.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  }
+ ],
+ "repeat": []
+}

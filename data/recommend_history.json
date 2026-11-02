@@ -118,14 +118,6 @@
       ],
       "last_recommended": "2026-10-26T10:32:41.330020+00:00"
     },
-    "coreyhaines31/marketingskills": {
-      "count": 2,
-      "scores": [
-        97,
-        73
-      ],
-      "last_recommended": "2026-10-03T10:04:21.053828+00:00"
-    },
     "mksglu/context-mode": {
       "count": 3,
       "scores": [
@@ -227,48 +219,6 @@
       ],
       "last_recommended": "2026-10-24T09:08:40.714612+00:00"
     },
-    "pablostanley/yoinks": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-03T10:04:21.025224+00:00"
-    },
-    "CAPCOM-TD-OSS/REDox": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-03T10:04:21.027717+00:00"
-    },
-    "facebookincubator/muse-gadget-sdk": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-03T10:04:21.029975+00:00"
-    },
-    "chasmlol/SkyCraft": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-03T10:04:21.032148+00:00"
-    },
-    "kvoltmer/Audionaut": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-03T10:04:21.034295+00:00"
-    },
-    "BootLoops-ai/bootloops": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-10-03T10:04:21.036513+00:00"
-    },
     "cursor/plugins": {
       "count": 2,
       "scores": [
@@ -276,27 +226,6 @@
         95
       ],
       "last_recommended": "2026-10-17T08:49:46.656587+00:00"
-    },
-    "kitao/pyxel": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-03T10:04:21.040827+00:00"
-    },
-    "Remocn/remocn-studio": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-10-03T10:04:21.042905+00:00"
-    },
-    "Vibra-Ingenn/Janus": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-10-03T10:04:21.045038+00:00"
     },
     "Effect-TS/effect": {
       "count": 1,
@@ -2265,7 +2194,77 @@
         91
       ],
       "last_recommended": "2026-11-01T11:31:08.501261+00:00"
+    },
+    "hyprwm/Hyprland": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-02T12:53:42.384239+00:00"
+    },
+    "FlashML-org/FreeToken": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-02T12:53:42.386636+00:00"
+    },
+    "kornia/kornia": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-11-02T12:53:42.388785+00:00"
+    },
+    "Verlintas/NOIR": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-02T12:53:42.390940+00:00"
+    },
+    "caru-ini/stack-diagram": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-02T12:53:42.393112+00:00"
+    },
+    "elvarofficial/teardown": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-02T12:53:42.395279+00:00"
+    },
+    "AssassinCreator/steam-stash-value-report-card": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-02T12:53:42.397418+00:00"
+    },
+    "maxwilsoneng2098t9/pdf-compressor-offline": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-02T12:53:42.399522+00:00"
+    },
+    "davidlopez-x05x8/minecraft-aim-assist": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-02T12:53:42.401680+00:00"
+    },
+    "mromidev/claude-animated-shorts": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-02T12:53:42.403778+00:00"
     }
   },
-  "updated_at": "2026-11-01T11:31:08.503178+00:00"
+  "updated_at": "2026-11-02T12:53:42.403808+00:00"
 }

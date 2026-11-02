@@ -1,75 +1,5 @@
 {
  "repos": {
-  "MadsLorentzen/ai-job-search": {
-   "first_seen": "2026-10-18",
-   "until": "2026-11-01",
-   "stars_at_discovery": 51130,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "aicodeking/leanrea": {
-   "first_seen": "2026-10-18",
-   "until": "2026-11-01",
-   "stars_at_discovery": 509,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "android/skills": {
-   "first_seen": "2026-10-18",
-   "until": "2026-11-01",
-   "stars_at_discovery": 8554,
-   "score_at_discovery": 96,
-   "source_at_discovery": "trending"
-  },
-  "LiCinCan/blender-ai-mcp-addon": {
-   "first_seen": "2026-10-18",
-   "until": "2026-11-01",
-   "stars_at_discovery": 688,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "stablyai/orca": {
-   "first_seen": "2026-10-18",
-   "until": "2026-11-01",
-   "stars_at_discovery": 95795,
-   "score_at_discovery": 89,
-   "source_at_discovery": "trending"
-  },
-  "rohit267/net-merge": {
-   "first_seen": "2026-10-18",
-   "until": "2026-11-01",
-   "stars_at_discovery": 909,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "c22dev/mush8": {
-   "first_seen": "2026-10-18",
-   "until": "2026-11-01",
-   "stars_at_discovery": 110,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "anomalyco/opencode": {
-   "first_seen": "2026-10-18",
-   "until": "2026-11-01",
-   "stars_at_discovery": 215795,
-   "score_at_discovery": 87,
-   "source_at_discovery": "trending"
-  },
-  "xscreensaver-official/xscreensaver": {
-   "first_seen": "2026-10-18",
-   "until": "2026-11-01",
-   "stars_at_discovery": 782,
-   "score_at_discovery": 86,
-   "source_at_discovery": "search"
-  },
-  "justxor/deepseek-local-guide-ru": {
-   "first_seen": "2026-10-18",
-   "until": "2026-11-01",
-   "stars_at_discovery": 68,
-   "score_at_discovery": 86,
-   "source_at_discovery": "ai-trending"
-  },
   "akitaonrails/ai-memory": {
    "first_seen": "2026-10-19",
    "until": "2026-11-02",
@@ -1119,7 +1049,77 @@
    "stars_at_discovery": 196,
    "score_at_discovery": 91,
    "source_at_discovery": "search"
+  },
+  "hyprwm/Hyprland": {
+   "first_seen": "2026-11-02",
+   "until": "2026-11-16",
+   "stars_at_discovery": 39645,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "FlashML-org/FreeToken": {
+   "first_seen": "2026-11-02",
+   "until": "2026-11-16",
+   "stars_at_discovery": 15776,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "kornia/kornia": {
+   "first_seen": "2026-11-02",
+   "until": "2026-11-16",
+   "stars_at_discovery": 11999,
+   "score_at_discovery": 99,
+   "source_at_discovery": "trending"
+  },
+  "Verlintas/NOIR": {
+   "first_seen": "2026-11-02",
+   "until": "2026-11-16",
+   "stars_at_discovery": 901,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "caru-ini/stack-diagram": {
+   "first_seen": "2026-11-02",
+   "until": "2026-11-16",
+   "stars_at_discovery": 882,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "elvarofficial/teardown": {
+   "first_seen": "2026-11-02",
+   "until": "2026-11-16",
+   "stars_at_discovery": 1121,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "AssassinCreator/steam-stash-value-report-card": {
+   "first_seen": "2026-11-02",
+   "until": "2026-11-16",
+   "stars_at_discovery": 431,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "maxwilsoneng2098t9/pdf-compressor-offline": {
+   "first_seen": "2026-11-02",
+   "until": "2026-11-16",
+   "stars_at_discovery": 300,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "davidlopez-x05x8/minecraft-aim-assist": {
+   "first_seen": "2026-11-02",
+   "until": "2026-11-16",
+   "stars_at_discovery": 300,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "mromidev/claude-animated-shorts": {
+   "first_seen": "2026-11-02",
+   "until": "2026-11-16",
+   "stars_at_discovery": 359,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-11-01T11:35:54.499655+00:00"
+ "updated_at": "2026-11-02T12:57:59.664070+00:00"
 }

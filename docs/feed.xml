@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-01T18:00:00Z</updated>
+  <updated>2026-11-02T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>hyprwm/Hyprland — Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.</title>
+    <id>https://github.com/hyprwm/Hyprland#2026-11-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/hyprwm/Hyprland"/>
+    <updated>2026-11-02T18:00:00Z</updated>
+    <published>2026-11-02T18:00:00Z</published>
+    <summary>Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
+
+Why: +524/day · Trending · 22.4x accelerating
+Score: 100/100 | Language: C++ | ⭐ 39645 (+524.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>FlashML-org/FreeToken — FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.</title>
+    <id>https://github.com/FlashML-org/FreeToken#2026-11-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/FlashML-org/FreeToken"/>
+    <updated>2026-11-02T18:00:00Z</updated>
+    <published>2026-11-02T18:00:00Z</published>
+    <summary>FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.
+
+Why: +692/day · Trending · 4.6x accelerating
+Score: 100/100 | Language: Python | ⭐ 15776 (+692.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>kornia/kornia — 🐍 Geometric Computer Vision Library for Spatial AI</title>
+    <id>https://github.com/kornia/kornia#2026-11-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/kornia/kornia"/>
+    <updated>2026-11-02T18:00:00Z</updated>
+    <published>2026-11-02T18:00:00Z</published>
+    <summary>🐍 Geometric Computer Vision Library for Spatial AI
+
+Why: +428/day · Trending · 106.8x accelerating
+Score: 99/100 | Language: Python | ⭐ 11999 (+428.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Verlintas/NOIR — 手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.</title>
+    <id>https://github.com/Verlintas/NOIR#2026-11-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Verlintas/NOIR"/>
+    <updated>2026-11-02T18:00:00Z</updated>
+    <published>2026-11-02T18:00:00Z</published>
+    <summary>手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.
+
+Why: +901/day · Search
+Score: 96/100 | Language: Kotlin | ⭐ 901 (+901.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>caru-ini/stack-diagram — Agent skill: describe your stack in a sentence, get an architecture diagram with official logos</title>
+    <id>https://github.com/caru-ini/stack-diagram#2026-11-02</id>
+    <link rel="alternate" type="text/html" href="https://github.com/caru-ini/stack-diagram"/>
+    <updated>2026-11-02T18:00:00Z</updated>
+    <published>2026-11-02T18:00:00Z</published>
+    <summary>Agent skill: describe your stack in a sentence, get an architecture diagram with official logos
+
+Why: +882/day · Search+AI/ML
+Score: 96/100 | Language: TypeScript | ⭐ 882 (+882.0/day) | Source: search + ai-trending</summary>
+  </entry>
   <entry>
     <title>Donchitos/Claude-Code-Game-Studios — Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.</title>
     <id>https://github.com/Donchitos/Claude-Code-Game-Studios#2026-11-01</id>
@@ -877,60 +932,5 @@ Score: 96/100 | Language: Java | ⭐ 8038 (+2679.3/day) | Source: search</summar
 
 Why: +766/day · Search
 Score: 96/100 | Language: Java | ⭐ 766 (+766.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>akitaonrails/ai-memory — Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors</title>
-    <id>https://github.com/akitaonrails/ai-memory#2026-10-19</id>
-    <link rel="alternate" type="text/html" href="https://github.com/akitaonrails/ai-memory"/>
-    <updated>2026-10-19T18:00:00Z</updated>
-    <published>2026-10-19T18:00:00Z</published>
-    <summary>Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors
-
-Why: +677/day · Trending · 9.4x accelerating
-Score: 100/100 | Language: Rust | ⭐ 10805 (+677.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>mikroverk/esp32sim — Open-source ESP32 emulator. Run real firmware locally or in your browser — no hardware, no cloud, no subscription.</title>
-    <id>https://github.com/mikroverk/esp32sim#2026-10-19</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mikroverk/esp32sim"/>
-    <updated>2026-10-19T18:00:00Z</updated>
-    <published>2026-10-19T18:00:00Z</published>
-    <summary>Open-source ESP32 emulator. Run real firmware locally or in your browser — no hardware, no cloud, no subscription.
-
-Why: +163/day · HN · 23.3x accelerating
-Score: 95/100 | Language: Rust | ⭐ 385 (+163.0/day) | Source: hn</summary>
-  </entry>
-  <entry>
-    <title>Noniv/web-ocean — Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome.</title>
-    <id>https://github.com/Noniv/web-ocean#2026-10-19</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Noniv/web-ocean"/>
-    <updated>2026-10-19T18:00:00Z</updated>
-    <published>2026-10-19T18:00:00Z</published>
-    <summary>Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome.
-
-Why: +358/day · Search
-Score: 94/100 | Language: HTML | ⭐ 717 (+358.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>interplains/zero-breach — Zero Breach — local, read-only scanner that checks a computer for indicators of the AdFection / Candiru ad-delivered spyware campaign. No network, no admin, no dependencies.</title>
-    <id>https://github.com/interplains/zero-breach#2026-10-19</id>
-    <link rel="alternate" type="text/html" href="https://github.com/interplains/zero-breach"/>
-    <updated>2026-10-19T18:00:00Z</updated>
-    <published>2026-10-19T18:00:00Z</published>
-    <summary>Zero Breach — local, read-only scanner that checks a computer for indicators of the AdFection / Candiru ad-delivered spyware campaign. No network, no admin, no dependencies.
-
-Why: +300/day · Search
-Score: 94/100 | Language: Python | ⭐ 300 (+300.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>feder-cr/git-ai — Git designed for AI agents.</title>
-    <id>https://github.com/feder-cr/git-ai#2026-10-19</id>
-    <link rel="alternate" type="text/html" href="https://github.com/feder-cr/git-ai"/>
-    <updated>2026-10-19T18:00:00Z</updated>
-    <published>2026-10-19T18:00:00Z</published>
-    <summary>Git designed for AI agents.
-
-Why: +1199/day · Search · 1.5x accelerating
-Score: 93/100 | Language: Go | ⭐ 2358 (+1199.0/day) | Source: search</summary>
   </entry>
 </feed>
