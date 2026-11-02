@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-02",
+  "stats": {
+    "recommendations": 923,
+    "labelled": 548,
+    "coverage_pct": 59.4,
+    "median_growth": 54.3,
+    "quartile_cut_pct": 155.2,
+    "table": [
+      {
+        "bucket": "90–100",
+        "n": 416,
+        "breakout_rate": 20.9,
+        "median_growth": 55.1,
+        "insufficient": false
+      },
+      {
+        "bucket": "80–89",
+        "n": 129,
+        "breakout_rate": 17.8,
+        "median_growth": 52.7,
+        "insufficient": false
+      },
+      {
+        "bucket": "70–79",
+        "n": 1,
+        "breakout_rate": 0.0,
+        "median_growth": 16.9,
+        "insufficient": true
+      },
+      {
+        "bucket": "60–69",
+        "n": 2,
+        "breakout_rate": 0.0,
+        "median_growth": 41.2,
+        "insufficient": true
+      },
+      {
+        "bucket": "<60",
+        "n": 0,
+        "breakout_rate": null,
+        "median_growth": null,
+        "insufficient": true
+      }
+    ],
+    "unlabelled": 375,
+    "min_bucket_n": 20
+  },
+  "source_groups": [
+    {
+      "source": "ai-trending",
+      "n": 19,
+      "breakout_rate": 21.1,
+      "median_growth": 70.6,
+      "insufficient": true
+    },
+    {
+      "source": "hf-papers",
+      "n": 8,
+      "breakout_rate": 25.0,
+      "median_growth": 69.5,
+      "insufficient": true
+    },
+    {
+      "source": "hn",
+      "n": 21,
+      "breakout_rate": 9.5,
+      "median_growth": 47.9,
+      "insufficient": false
+    },
+    {
+      "source": "hn+hf-papers",
+      "n": 1,
+      "breakout_rate": 100.0,
+      "median_growth": 290.8,
+      "insufficient": true
+    },
+    {
+      "source": "rising",
+      "n": 15,
+      "breakout_rate": 40.0,
+      "median_growth": 152.8,
+      "insufficient": true
+    },
+    {
+      "source": "search",
+      "n": 281,
+      "breakout_rate": 28.1,
+      "median_growth": 105.9,
+      "insufficient": false
+    },
+    {
+      "source": "search+ai-trending",
+      "n": 18,
+      "breakout_rate": 27.8,
+      "median_growth": 104.9,
+      "insufficient": true
+    },
+    {
+      "source": "search+ai-trending+hf-papers",
+      "n": 1,
+      "breakout_rate": 0.0,
+      "median_growth": 77.0,
+      "insufficient": true
+    },
+    {
+      "source": "search+hf-papers",
+      "n": 2,
+      "breakout_rate": 0.0,
+      "median_growth": 70.0,
+      "insufficient": true
+    },
+    {
+      "source": "search+hn",
+      "n": 2,
+      "breakout_rate": 0.0,
+      "median_growth": 71.5,
+      "insufficient": true
+    },
+    {
+      "source": "search+rising",
+      "n": 8,
+      "breakout_rate": 50.0,
+      "median_growth": 196.7,
+      "insufficient": true
+    },
+    {
+      "source": "trending",
+      "n": 171,
+      "breakout_rate": 4.1,
+      "median_growth": 9.2,
+      "insufficient": false
+    },
+    {
+      "source": "trending+hn",
+      "n": 1,
+      "breakout_rate": 0.0,
+      "median_growth": 5.2,
+      "insufficient": true
+    }
+  ],
+  "age_groups": [
+    {
+      "bucket": "0–2d",
+      "n": 263,
+      "breakout_rate": 30.8,
+      "median_growth": 113.5,
+      "insufficient": false
+    },
+    {
+      "bucket": "3–13d",
+      "n": 98,
+      "breakout_rate": 20.4,
+      "median_growth": 77.3,
+      "insufficient": false
+    },
+    {
+      "bucket": "14–59d",
+      "n": 8,
+      "breakout_rate": 12.5,
+      "median_growth": 77.8,
+      "insufficient": true
+    },
+    {
+      "bucket": "60d+",
+      "n": 179,
+      "breakout_rate": 4.5,
+      "median_growth": 9.2,
+      "insufficient": false
+    }
+  ],
+  "star_groups": [
+    {
+      "bucket": "0–99",
+      "n": 11,
+      "breakout_rate": 27.3,
+      "median_growth": 102.9,
+      "insufficient": true
+    },
+    {
+      "bucket": "100–999",
+      "n": 334,
+      "breakout_rate": 27.5,
+      "median_growth": 97.6,
+      "insufficient": false
+    },
+    {
+      "bucket": "1k–9.9k",
+      "n": 87,
+      "breakout_rate": 12.6,
+      "median_growth": 32.0,
+      "insufficient": false
+    },
+    {
+      "bucket": "10k+",
+      "n": 116,
+      "breakout_rate": 3.4,
+      "median_growth": 5.5,
+      "insufficient": false
+    }
+  ]
+}
