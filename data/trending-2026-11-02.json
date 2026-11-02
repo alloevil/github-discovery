@@ -3,79 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "mattpocock/skills",
-   "stars": 309735,
-   "language": "Shell"
-  },
-  {
-   "full_name": "thedotmack/claude-mem",
-   "stars": 110252,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "paperclipai/paperclip",
-   "stars": 110121,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "D4Vinci/Scrapling",
-   "stars": 92203,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "karpathy/nanochat",
-   "stars": 59640,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "JustVugg/colibri",
-   "stars": 46192,
-   "language": "C"
-  },
-  {
-   "full_name": "shiyu-coder/Kronos",
-   "stars": 45759,
-   "language": "Python"
-  },
-  {
-   "full_name": "pingdotgg/t3code",
-   "stars": 39952,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "hyprwm/Hyprland",
-   "stars": 39645,
-   "language": "C++"
-  },
-  {
-   "full_name": "p-e-w/heretic",
-   "stars": 37805,
-   "language": "Python"
-  },
-  {
-   "full_name": "Donchitos/Claude-Code-Game-Studios",
-   "stars": 33026,
-   "language": "Shell"
-  },
-  {
-   "full_name": "FlashML-org/FreeToken",
-   "stars": 15776,
-   "language": "Python"
-  },
-  {
-   "full_name": "kornia/kornia",
-   "stars": 11999,
-   "language": "Python"
-  },
-  {
-   "full_name": "max-sixty/worktrunk",
-   "stars": 9839,
-   "language": "Rust"
-  },
-  {
-   "full_name": "vercel-labs/agent-desktop",
-   "stars": 8018,
-   "language": "Rust"
   }
  ]
 }
