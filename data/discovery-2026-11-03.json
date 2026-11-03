@@ -1,0 +1,330 @@
+{
+ "date": "2026-11-03",
+ "generated_at": "2026-11-03T12:23:11.774469",
+ "pool_size": 108,
+ "source_health": {
+  "trending": {
+   "fetched": 13,
+   "parsed": 13,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 6
+  },
+  "search": {
+   "fetched": 69,
+   "parsed": 69,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 4
+  },
+  "hn": {
+   "fetched": 9,
+   "parsed": 9,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 1,
+   "parsed": 1,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 37,
+   "parsed": 37,
+   "rejected": 0,
+   "deduplicated": 5,
+   "recommended": 0
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "vercel-labs/agent-desktop",
+   "url": "https://github.com/vercel-labs/agent-desktop",
+   "description": "Computer use CLI for AI agents",
+   "language": "Rust",
+   "stars": 11597,
+   "forks": 786,
+   "age_days": 256,
+   "daily_stars": 45.28125,
+   "real_daily_stars": 3574.0,
+   "watchers": 22,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "p-e-w/heretic",
+   "url": "https://github.com/p-e-w/heretic",
+   "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
+   "language": "Python",
+   "stars": 38469,
+   "forks": 4349,
+   "age_days": 408,
+   "daily_stars": 94.2843137254902,
+   "real_daily_stars": 663.0,
+   "watchers": 199,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "anomalyco/hex",
+   "url": "https://github.com/anomalyco/hex",
+   "description": "Local voice dictation for mac, windows and linux",
+   "language": "Rust",
+   "stars": 4237,
+   "forks": 249,
+   "age_days": 108,
+   "daily_stars": 39.23148148148148,
+   "real_daily_stars": 874.0,
+   "watchers": 7,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "max-sixty/worktrunk",
+   "url": "https://github.com/max-sixty/worktrunk",
+   "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+   "language": "Rust",
+   "stars": 10262,
+   "forks": 371,
+   "age_days": 381,
+   "daily_stars": 26.93438320209974,
+   "real_daily_stars": 423.0,
+   "watchers": 21,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "JustVugg/colibri",
+   "url": "https://github.com/JustVugg/colibri",
+   "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
+   "language": "C",
+   "stars": 46944,
+   "forks": 5419,
+   "age_days": 124,
+   "daily_stars": 378.5806451612903,
+   "real_daily_stars": 752.0,
+   "watchers": 378,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "D4Vinci/Scrapling",
+   "url": "https://github.com/D4Vinci/Scrapling",
+   "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+   "language": "Python",
+   "stars": 93751,
+   "forks": 9846,
+   "age_days": 750,
+   "daily_stars": 125.0,
+   "real_daily_stars": 1547.0,
+   "watchers": 328,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "BSD-3-Clause",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 95,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "SplendorHornbill/windows-animated-wallpapers",
+   "url": "https://github.com/SplendorHornbill/windows-animated-wallpapers",
+   "description": "High-quality animated and live wallpapers for Windows 10 and 11. Smooth 60 FPS animations, low CPU usage, 4K support. Open-source and portable",
+   "language": "Python",
+   "stars": 300,
+   "forks": 278,
+   "age_days": 1,
+   "daily_stars": 300.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "smarkyie/NSP-Box",
+   "url": "https://github.com/smarkyie/NSP-Box",
+   "description": "NSP Box: A Switch 2 Game Packager. Experimental Windows tool for lawfully obtained game snapshots and extracted DLC, with reversible emulator patching.",
+   "language": "Python",
+   "stars": 371,
+   "forks": 23,
+   "age_days": 2,
+   "daily_stars": 185.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "deepseek-ai/dsh-superagent-prototype",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "description": "Towards a More Autonomous Agent System",
+   "language": "TypeScript",
+   "stars": 15566,
+   "forks": 1666,
+   "age_days": 3,
+   "daily_stars": 5187.666666666667,
+   "real_daily_stars": 4173.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "heydamir/unslop",
+   "url": "https://github.com/heydamir/unslop",
+   "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+   "language": "JavaScript",
+   "stars": 6930,
+   "forks": 352,
+   "age_days": 4,
+   "daily_stars": 1732.25,
+   "real_daily_stars": 1409.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "CC-BY-4.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  }
+ ],
+ "repeat": []
+}

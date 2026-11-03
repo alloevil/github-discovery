@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-02T18:00:00Z</updated>
+  <updated>2026-11-03T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>vercel-labs/agent-desktop — Computer use CLI for AI agents</title>
+    <id>https://github.com/vercel-labs/agent-desktop#2026-11-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/vercel-labs/agent-desktop"/>
+    <updated>2026-11-03T18:00:00Z</updated>
+    <published>2026-11-03T18:00:00Z</published>
+    <summary>Computer use CLI for AI agents
+
+Why: +3574/day · Trending · 78.9x accelerating
+Score: 100/100 | Language: Rust | ⭐ 11597 (+3574.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>p-e-w/heretic — Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more</title>
+    <id>https://github.com/p-e-w/heretic#2026-11-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/p-e-w/heretic"/>
+    <updated>2026-11-03T18:00:00Z</updated>
+    <published>2026-11-03T18:00:00Z</published>
+    <summary>Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more
+
+Why: +663/day · Trending · 7.0x accelerating
+Score: 100/100 | Language: Python | ⭐ 38469 (+663.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>anomalyco/hex — Local voice dictation for mac, windows and linux</title>
+    <id>https://github.com/anomalyco/hex#2026-11-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/anomalyco/hex"/>
+    <updated>2026-11-03T18:00:00Z</updated>
+    <published>2026-11-03T18:00:00Z</published>
+    <summary>Local voice dictation for mac, windows and linux
+
+Why: +874/day · Trending · 22.3x accelerating
+Score: 100/100 | Language: Rust | ⭐ 4237 (+874.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>max-sixty/worktrunk — Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows</title>
+    <id>https://github.com/max-sixty/worktrunk#2026-11-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/max-sixty/worktrunk"/>
+    <updated>2026-11-03T18:00:00Z</updated>
+    <published>2026-11-03T18:00:00Z</published>
+    <summary>Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows
+
+Why: +423/day · Trending · 15.7x accelerating
+Score: 99/100 | Language: Rust | ⭐ 10262 (+423.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>JustVugg/colibri — A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.</title>
+    <id>https://github.com/JustVugg/colibri#2026-11-03</id>
+    <link rel="alternate" type="text/html" href="https://github.com/JustVugg/colibri"/>
+    <updated>2026-11-03T18:00:00Z</updated>
+    <published>2026-11-03T18:00:00Z</published>
+    <summary>A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.
+
+Why: +752/day · Trending · 2.0x accelerating
+Score: 95/100 | Language: C | ⭐ 46944 (+752.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>hyprwm/Hyprland — Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.</title>
     <id>https://github.com/hyprwm/Hyprland#2026-11-02</id>
@@ -877,60 +932,5 @@ Score: 98/100 | Language: Python | ⭐ 30948 (+359.0/day) | Source: trending</su
 
 Why: +636/day · Trending
 Score: 92/100 | Language: Shell | ⭐ 162678 (+635.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Comfy-Org/ComfyUI — The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.</title>
-    <id>https://github.com/Comfy-Org/ComfyUI#2026-10-20</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Comfy-Org/ComfyUI"/>
-    <updated>2026-10-20T18:00:00Z</updated>
-    <published>2026-10-20T18:00:00Z</published>
-    <summary>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.
-
-Why: +1149/day · Trending · 11.2x accelerating
-Score: 100/100 | Language: Python | ⭐ 140224 (+1149.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Kruk2/jasna — Video restoration tool</title>
-    <id>https://github.com/Kruk2/jasna#2026-10-20</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Kruk2/jasna"/>
-    <updated>2026-10-20T18:00:00Z</updated>
-    <published>2026-10-20T18:00:00Z</published>
-    <summary>Video restoration tool
-
-Why: +492/day · Trending · 42.6x accelerating
-Score: 100/100 | Language: Python | ⭐ 3163 (+492.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>kitlangton/scrawl — Show an agent a problem: mark up, record, send</title>
-    <id>https://github.com/kitlangton/scrawl#2026-10-20</id>
-    <link rel="alternate" type="text/html" href="https://github.com/kitlangton/scrawl"/>
-    <updated>2026-10-20T18:00:00Z</updated>
-    <published>2026-10-20T18:00:00Z</published>
-    <summary>Show an agent a problem: mark up, record, send
-
-Why: +317/day · Search+AI/ML · 3.1x accelerating
-Score: 98/100 | Language: Rust | ⭐ 516 (+317.0/day) | Source: search + ai-trending</summary>
-  </entry>
-  <entry>
-    <title>Gathin23/cleanyourtv — Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.</title>
-    <id>https://github.com/Gathin23/cleanyourtv#2026-10-20</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Gathin23/cleanyourtv"/>
-    <updated>2026-10-20T18:00:00Z</updated>
-    <published>2026-10-20T18:00:00Z</published>
-    <summary>Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.
-
-Why: +2679/day · Search
-Score: 96/100 | Language: Java | ⭐ 8038 (+2679.3/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>simbasjungles/free-my-tv — A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.</title>
-    <id>https://github.com/simbasjungles/free-my-tv#2026-10-20</id>
-    <link rel="alternate" type="text/html" href="https://github.com/simbasjungles/free-my-tv"/>
-    <updated>2026-10-20T18:00:00Z</updated>
-    <published>2026-10-20T18:00:00Z</published>
-    <summary>A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.
-
-Why: +766/day · Search
-Score: 96/100 | Language: Java | ⭐ 766 (+766.0/day) | Source: search</summary>
   </entry>
 </feed>

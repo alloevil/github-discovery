@@ -48,17 +48,6 @@
       ],
       "last_recommended": "2026-10-30T11:02:42.082597+00:00"
     },
-    "addyosmani/agent-skills": {
-      "count": 5,
-      "scores": [
-        100,
-        100,
-        87,
-        87,
-        86
-      ],
-      "last_recommended": "2026-10-04T10:47:01.103421+00:00"
-    },
     "calesthio/OpenMontage": {
       "count": 4,
       "scores": [
@@ -227,34 +216,6 @@
       ],
       "last_recommended": "2026-10-17T08:49:46.656587+00:00"
     },
-    "Effect-TS/effect": {
-      "count": 1,
-      "scores": [
-        97
-      ],
-      "last_recommended": "2026-10-04T10:47:01.064152+00:00"
-    },
-    "nykooi1/vibe-wise": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-04T10:47:01.066093+00:00"
-    },
-    "whirlchat/whirl": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-10-04T10:47:01.087911+00:00"
-    },
-    "getsentry/sentry": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-04T10:47:01.089714+00:00"
-    },
     "QingYunA/answer-me-with-html": {
       "count": 2,
       "scores": [
@@ -263,13 +224,6 @@
       ],
       "last_recommended": "2026-10-13T12:12:00.972927+00:00"
     },
-    "Jakeschincariol/replica-skill": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-10-04T10:47:01.093148+00:00"
-    },
     "JuliusBrussee/caveman": {
       "count": 2,
       "scores": [
@@ -277,27 +231,6 @@
         92
       ],
       "last_recommended": "2026-10-16T09:19:03.655020+00:00"
-    },
-    "StayLameBro/backburner": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-04T10:47:01.096556+00:00"
-    },
-    "jarrodwatts/claude-image-view": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-04T10:47:01.098274+00:00"
-    },
-    "oil-oil/oil-ui": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-10-04T10:47:01.099992+00:00"
     },
     "pingdotgg/t3code": {
       "count": 2,
@@ -2264,7 +2197,77 @@
         94
       ],
       "last_recommended": "2026-11-02T12:53:42.403778+00:00"
+    },
+    "vercel-labs/agent-desktop": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-03T12:23:07.465406+00:00"
+    },
+    "p-e-w/heretic": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-03T12:23:07.467111+00:00"
+    },
+    "anomalyco/hex": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-03T12:23:07.480179+00:00"
+    },
+    "max-sixty/worktrunk": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-11-03T12:23:07.481676+00:00"
+    },
+    "JustVugg/colibri": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-03T12:23:07.483194+00:00"
+    },
+    "D4Vinci/Scrapling": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-03T12:23:07.484718+00:00"
+    },
+    "SplendorHornbill/windows-animated-wallpapers": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-03T12:23:07.486170+00:00"
+    },
+    "smarkyie/NSP-Box": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-03T12:23:07.487633+00:00"
+    },
+    "deepseek-ai/dsh-superagent-prototype": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-11-03T12:23:07.489084+00:00"
+    },
+    "heydamir/unslop": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-11-03T12:23:07.490584+00:00"
     }
   },
-  "updated_at": "2026-11-02T12:53:42.403808+00:00"
+  "updated_at": "2026-11-03T12:23:07.490600+00:00"
 }

@@ -1,75 +1,5 @@
 {
  "repos": {
-  "akitaonrails/ai-memory": {
-   "first_seen": "2026-10-19",
-   "until": "2026-11-02",
-   "stars_at_discovery": 10802,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "mikroverk/esp32sim": {
-   "first_seen": "2026-10-19",
-   "until": "2026-11-02",
-   "stars_at_discovery": 385,
-   "score_at_discovery": 95,
-   "source_at_discovery": "hn"
-  },
-  "Noniv/web-ocean": {
-   "first_seen": "2026-10-19",
-   "until": "2026-11-02",
-   "stars_at_discovery": 717,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "interplains/zero-breach": {
-   "first_seen": "2026-10-19",
-   "until": "2026-11-02",
-   "stars_at_discovery": 300,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "feder-cr/git-ai": {
-   "first_seen": "2026-10-19",
-   "until": "2026-11-02",
-   "stars_at_discovery": 2358,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "longbridge/nsh": {
-   "first_seen": "2026-10-19",
-   "until": "2026-11-02",
-   "stars_at_discovery": 309,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "xiaoyang111222/cn-math-taxonomy": {
-   "first_seen": "2026-10-19",
-   "until": "2026-11-02",
-   "stars_at_discovery": 678,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "finereli/whatsapp-mcp": {
-   "first_seen": "2026-10-19",
-   "until": "2026-11-02",
-   "stars_at_discovery": 192,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "Agent2API/agent2api": {
-   "first_seen": "2026-10-19",
-   "until": "2026-11-02",
-   "stars_at_discovery": 184,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "zcbacxc/mcd-party-planner": {
-   "first_seen": "2026-10-19",
-   "until": "2026-11-02",
-   "stars_at_discovery": 389,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
   "Comfy-Org/ComfyUI": {
    "first_seen": "2026-10-20",
    "until": "2026-11-03",
@@ -1119,7 +1049,77 @@
    "stars_at_discovery": 359,
    "score_at_discovery": 94,
    "source_at_discovery": "search"
+  },
+  "vercel-labs/agent-desktop": {
+   "first_seen": "2026-11-03",
+   "until": "2026-11-17",
+   "stars_at_discovery": 11592,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "p-e-w/heretic": {
+   "first_seen": "2026-11-03",
+   "until": "2026-11-17",
+   "stars_at_discovery": 38468,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "anomalyco/hex": {
+   "first_seen": "2026-11-03",
+   "until": "2026-11-17",
+   "stars_at_discovery": 4237,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "max-sixty/worktrunk": {
+   "first_seen": "2026-11-03",
+   "until": "2026-11-17",
+   "stars_at_discovery": 10262,
+   "score_at_discovery": 99,
+   "source_at_discovery": "trending"
+  },
+  "JustVugg/colibri": {
+   "first_seen": "2026-11-03",
+   "until": "2026-11-17",
+   "stars_at_discovery": 46944,
+   "score_at_discovery": 95,
+   "source_at_discovery": "trending"
+  },
+  "D4Vinci/Scrapling": {
+   "first_seen": "2026-11-03",
+   "until": "2026-11-17",
+   "stars_at_discovery": 93750,
+   "score_at_discovery": 95,
+   "source_at_discovery": "trending"
+  },
+  "SplendorHornbill/windows-animated-wallpapers": {
+   "first_seen": "2026-11-03",
+   "until": "2026-11-17",
+   "stars_at_discovery": 300,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "smarkyie/NSP-Box": {
+   "first_seen": "2026-11-03",
+   "until": "2026-11-17",
+   "stars_at_discovery": 371,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "deepseek-ai/dsh-superagent-prototype": {
+   "first_seen": "2026-11-03",
+   "until": "2026-11-17",
+   "stars_at_discovery": 15563,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "heydamir/unslop": {
+   "first_seen": "2026-11-03",
+   "until": "2026-11-17",
+   "stars_at_discovery": 6929,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-11-02T12:57:59.664070+00:00"
+ "updated_at": "2026-11-03T12:28:06.333688+00:00"
 }

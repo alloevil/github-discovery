@@ -1,0 +1,377 @@
+{
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T12:23:11+00:00",
+  "every_days": 3,
+  "count": 10,
+  "semi_count": 2,
+  "semi_min_met": true,
+  "picks": [
+    {
+      "rank": 1,
+      "full_name": "openhwfoundation/core-v-verif",
+      "url": "https://github.com/openhwfoundation/core-v-verif",
+      "description": "Functional verification project for the CORE-V family of RISC-V cores.",
+      "topic": "semi",
+      "language": "Assembly",
+      "topics": [
+        "risc-v",
+        "systemverilog",
+        "uvm",
+        "verification"
+      ],
+      "license": "NOASSERTION",
+      "stars": 737,
+      "forks": 332,
+      "created_at": "2019-11-29T16:09:33Z",
+      "pushed_at": "2026-11-03T11:26:57Z",
+      "growth": {
+        "since": "2026-10-22",
+        "window_days": 12,
+        "stars_gained": 5,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 59,
+      "verified_at": "2026-11-03T12:23:07+00:00"
+    },
+    {
+      "rank": 2,
+      "full_name": "openhwfoundation/cva6",
+      "url": "https://github.com/openhwfoundation/cva6",
+      "description": "The CORE-V CVA6 is a highly configurable, 6-stage RISC-V core for both application and embedded applications. Application class configurations are capable of booting Linux.",
+      "topic": "semi",
+      "language": "Assembly",
+      "topics": [
+        "ariane",
+        "asic",
+        "cpu",
+        "fpga",
+        "risc-v",
+        "rv64gc",
+        "systemverilog-hdl"
+      ],
+      "license": "NOASSERTION",
+      "stars": 3184,
+      "forks": 1046,
+      "created_at": "2018-01-23T18:36:12Z",
+      "pushed_at": "2026-11-03T11:26:40Z",
+      "growth": {
+        "since": "2026-10-22",
+        "window_days": 12,
+        "stars_gained": 16,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 58,
+      "verified_at": "2026-11-03T12:23:08+00:00"
+    },
+    {
+      "rank": 3,
+      "full_name": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "description": "Computer use CLI for AI agents",
+      "topic": "ai",
+      "language": "Rust",
+      "topics": [
+        "accessibility",
+        "accessibility-api",
+        "ai-agents",
+        "automation",
+        "cli",
+        "computer-use",
+        "computer-use-agent",
+        "computer-use-agents",
+        "desktop-automation",
+        "macos",
+        "mcp",
+        "rust"
+      ],
+      "license": "Apache-2.0",
+      "stars": 11597,
+      "forks": 786,
+      "created_at": "2026-02-19T18:00:49Z",
+      "pushed_at": "2026-11-03T12:17:06Z",
+      "growth": {
+        "since": "2026-11-02",
+        "window_days": 1,
+        "stars_gained": 3579,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 90,
+      "verified_at": "2026-11-03T12:23:08+00:00"
+    },
+    {
+      "rank": 4,
+      "full_name": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "abliteration",
+        "anti-censorship",
+        "anticensorship",
+        "censorship",
+        "censorship-resistance",
+        "llm",
+        "transformer"
+      ],
+      "license": "AGPL-3.0",
+      "stars": 38469,
+      "forks": 4349,
+      "created_at": "2025-09-21T05:46:16Z",
+      "pushed_at": "2026-11-03T11:36:53Z",
+      "growth": {
+        "since": "2026-11-02",
+        "window_days": 1,
+        "stars_gained": 664,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 90,
+      "verified_at": "2026-11-03T12:23:09+00:00"
+    },
+    {
+      "rank": 5,
+      "full_name": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "topic": "ai",
+      "language": "Rust",
+      "topics": [
+        "agents",
+        "claude-code",
+        "codex",
+        "developer-tools",
+        "git",
+        "worktrees"
+      ],
+      "license": "NOASSERTION",
+      "stars": 10262,
+      "forks": 371,
+      "created_at": "2025-10-17T22:13:14Z",
+      "pushed_at": "2026-11-03T10:43:10Z",
+      "growth": {
+        "since": "2026-11-02",
+        "window_days": 1,
+        "stars_gained": 423,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 89,
+      "verified_at": "2026-11-03T12:23:09+00:00"
+    },
+    {
+      "rank": 6,
+      "full_name": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
+      "topic": "ai",
+      "language": "C",
+      "topics": [],
+      "license": "Apache-2.0",
+      "stars": 46944,
+      "forks": 5419,
+      "created_at": "2026-07-01T12:27:49Z",
+      "pushed_at": "2026-11-03T10:56:51Z",
+      "growth": {
+        "since": "2026-11-02",
+        "window_days": 1,
+        "stars_gained": 752,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 85,
+      "verified_at": "2026-11-03T12:23:09+00:00"
+    },
+    {
+      "rank": 7,
+      "full_name": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-scraping",
+        "automation",
+        "crawler",
+        "crawling",
+        "crawling-python",
+        "data",
+        "data-extraction",
+        "mcp",
+        "mcp-server",
+        "playwright",
+        "python",
+        "scraping",
+        "selectors",
+        "stealth",
+        "web-scraper",
+        "web-scraping",
+        "web-scraping-python",
+        "webscraping",
+        "xpath"
+      ],
+      "license": "BSD-3-Clause",
+      "stars": 93751,
+      "forks": 9846,
+      "created_at": "2024-10-13T20:29:53Z",
+      "pushed_at": "2026-11-02T20:16:23Z",
+      "growth": {
+        "since": "2026-11-02",
+        "window_days": 1,
+        "stars_gained": 1548,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 85,
+      "verified_at": "2026-11-03T12:23:10+00:00"
+    },
+    {
+      "rank": 8,
+      "full_name": "Balanov/verdict",
+      "url": "https://github.com/Balanov/verdict",
+      "description": "A 197 KB local semantic verifier for AI agent tool calls. Exit code 0 is not proof.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "stars": 217,
+      "forks": 0,
+      "created_at": "2026-11-02T19:14:51Z",
+      "pushed_at": "2026-11-02T22:36:33Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 82,
+      "verified_at": "2026-11-03T12:23:10+00:00"
+    },
+    {
+      "rank": 9,
+      "full_name": "deepseek-ai/dsh-superagent-prototype",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "description": "Towards a More Autonomous Agent System",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "stars": 15566,
+      "forks": 1666,
+      "created_at": "2026-10-31T09:32:46Z",
+      "pushed_at": "2026-11-03T09:29:14Z",
+      "growth": {
+        "since": "2026-11-02",
+        "window_days": 1,
+        "stars_gained": 4176,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 80,
+      "verified_at": "2026-11-03T12:23:11+00:00"
+    },
+    {
+      "rank": 10,
+      "full_name": "heydamir/unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "topic": "ai",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "CC-BY-4.0",
+      "stars": 6930,
+      "forks": 352,
+      "created_at": "2026-10-29T15:41:21Z",
+      "pushed_at": "2026-11-01T16:46:10Z",
+      "growth": {
+        "since": "2026-11-02",
+        "window_days": 1,
+        "stars_gained": 1410,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 80,
+      "verified_at": "2026-11-03T12:23:11+00:00"
+    }
+  ]
+}

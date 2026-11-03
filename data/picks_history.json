@@ -239,7 +239,47 @@
     "anthropics/skills": {
       "first_picked": "2026-10-31",
       "source": "github-discovery"
+    },
+    "openhwfoundation/core-v-verif": {
+      "first_picked": "2026-11-03",
+      "source": "github-discovery"
+    },
+    "openhwfoundation/cva6": {
+      "first_picked": "2026-11-03",
+      "source": "github-discovery"
+    },
+    "vercel-labs/agent-desktop": {
+      "first_picked": "2026-11-03",
+      "source": "github-discovery"
+    },
+    "p-e-w/heretic": {
+      "first_picked": "2026-11-03",
+      "source": "github-discovery"
+    },
+    "max-sixty/worktrunk": {
+      "first_picked": "2026-11-03",
+      "source": "github-discovery"
+    },
+    "JustVugg/colibri": {
+      "first_picked": "2026-11-03",
+      "source": "github-discovery"
+    },
+    "D4Vinci/Scrapling": {
+      "first_picked": "2026-11-03",
+      "source": "github-discovery"
+    },
+    "Balanov/verdict": {
+      "first_picked": "2026-11-03",
+      "source": "github-discovery"
+    },
+    "deepseek-ai/dsh-superagent-prototype": {
+      "first_picked": "2026-11-03",
+      "source": "github-discovery"
+    },
+    "heydamir/unslop": {
+      "first_picked": "2026-11-03",
+      "source": "github-discovery"
     }
   },
-  "updated_at": "2026-10-31T10:37:40.530970+00:00"
+  "updated_at": "2026-11-03T12:23:11.773941+00:00"
 }
