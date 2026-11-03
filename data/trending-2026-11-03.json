@@ -3,69 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "mattpocock/skills",
-   "stars": 310825,
-   "language": "Shell"
-  },
-  {
-   "full_name": "thedotmack/claude-mem",
-   "stars": 111325,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "D4Vinci/Scrapling",
-   "stars": 93750,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "JustVugg/colibri",
-   "stars": 46944,
-   "language": "C"
-  },
-  {
-   "full_name": "shiyu-coder/Kronos",
-   "stars": 46234,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "p-e-w/heretic",
-   "stars": 38468,
-   "language": "Python"
-  },
-  {
-   "full_name": "Donchitos/Claude-Code-Game-Studios",
-   "stars": 34173,
-   "language": "Shell"
-  },
-  {
-   "full_name": "floci-io/floci",
-   "stars": 28190,
-   "language": "Java"
-  },
-  {
-   "full_name": "Usagi-org/ai-goofish-monitor",
-   "stars": 16120,
-   "language": "Python"
-  },
-  {
-   "full_name": "vercel-labs/agent-desktop",
-   "stars": 11592,
-   "language": "Rust"
-  },
-  {
-   "full_name": "max-sixty/worktrunk",
-   "stars": 10262,
-   "language": "Rust"
-  },
-  {
-   "full_name": "anomalyco/hex",
-   "stars": 4237,
-   "language": "Rust"
-  },
-  {
-   "full_name": "spotify/portal-ai-plugins",
-   "stars": 2920,
-   "language": "TypeScript"
   }
  ]
 }
