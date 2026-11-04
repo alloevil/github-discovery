@@ -48,16 +48,6 @@
       ],
       "last_recommended": "2026-10-30T11:02:42.082597+00:00"
     },
-    "calesthio/OpenMontage": {
-      "count": 4,
-      "scores": [
-        100,
-        88,
-        87,
-        87
-      ],
-      "last_recommended": "2026-10-05T11:52:06.022884+00:00"
-    },
     "anthropics/claude-code": {
       "count": 4,
       "scores": [
@@ -247,55 +237,6 @@
         87
       ],
       "last_recommended": "2026-10-29T11:08:05.085366+00:00"
-    },
-    "lucasmarkes/hairline": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-05T11:52:06.009291+00:00"
-    },
-    "sganggs/Stronghold-Protocol": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-10-05T11:52:06.010963+00:00"
-    },
-    "shinshin86/mesh-avatar-studio": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-10-05T11:52:06.012653+00:00"
-    },
-    "cneuralnetwork/kharcha": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-10-05T11:52:06.014368+00:00"
-    },
-    "zeemscript/TrustMint": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-05T11:52:06.016058+00:00"
-    },
-    "anteloc/ldraw-nova": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-05T11:52:06.017834+00:00"
-    },
-    "empero-org/brewery-ai": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-05T11:52:06.019465+00:00"
     },
     "msitarzewski/agency-agents": {
       "count": 2,
@@ -2267,7 +2208,77 @@
         90
       ],
       "last_recommended": "2026-11-03T12:23:07.490584+00:00"
+    },
+    "floci-io/floci": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-04T12:34:12.032066+00:00"
+    },
+    "govijr/terminal-mac": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-04T12:34:12.034194+00:00"
+    },
+    "Minireel/HGhub": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-04T12:34:12.036036+00:00"
+    },
+    "Chipwithinflash/watson-AI-osint-all-in-one": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-04T12:34:12.037868+00:00"
+    },
+    "andrew-babo/muse4ai": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-04T12:34:12.039707+00:00"
+    },
+    "RikiyaT/lm_understand-logs": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-04T12:34:12.041445+00:00"
+    },
+    "MagoStudio/MagoStudio": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-04T12:34:12.043200+00:00"
+    },
+    "Minglink/dsh-jailbreak-workflow": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-04T12:34:12.044926+00:00"
+    },
+    "StormSkinkGrip/game-ping-multipath-router": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-04T12:34:12.046724+00:00"
+    },
+    "DeltaProviderGuide/auto-auction-bot-wow-forever": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-04T12:34:12.048473+00:00"
     }
   },
-  "updated_at": "2026-11-03T12:23:07.490600+00:00"
+  "updated_at": "2026-11-04T12:34:12.048494+00:00"
 }

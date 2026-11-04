@@ -1,75 +1,5 @@
 {
  "repos": {
-  "Comfy-Org/ComfyUI": {
-   "first_seen": "2026-10-20",
-   "until": "2026-11-03",
-   "stars_at_discovery": 140224,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "Kruk2/jasna": {
-   "first_seen": "2026-10-20",
-   "until": "2026-11-03",
-   "stars_at_discovery": 3163,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "kitlangton/scrawl": {
-   "first_seen": "2026-10-20",
-   "until": "2026-11-03",
-   "stars_at_discovery": 516,
-   "score_at_discovery": 98,
-   "source_at_discovery": "search"
-  },
-  "Gathin23/cleanyourtv": {
-   "first_seen": "2026-10-20",
-   "until": "2026-11-03",
-   "stars_at_discovery": 8038,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "simbasjungles/free-my-tv": {
-   "first_seen": "2026-10-20",
-   "until": "2026-11-03",
-   "stars_at_discovery": 766,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "humblemuzzu/dumbtv": {
-   "first_seen": "2026-10-20",
-   "until": "2026-11-03",
-   "stars_at_discovery": 725,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "ELY-Open-Source/ElyOffice": {
-   "first_seen": "2026-10-20",
-   "until": "2026-11-03",
-   "stars_at_discovery": 385,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "VictorTaelin/uniichat": {
-   "first_seen": "2026-10-20",
-   "until": "2026-11-03",
-   "stars_at_discovery": 416,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "deepseek-ai/DeepInfer": {
-   "first_seen": "2026-10-20",
-   "until": "2026-11-03",
-   "stars_at_discovery": 2300,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "kanaworksai-hue/audio-studio-mcp": {
-   "first_seen": "2026-10-20",
-   "until": "2026-11-03",
-   "stars_at_discovery": 290,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
   "shiyu-coder/Kronos": {
    "first_seen": "2026-10-21",
    "until": "2026-11-04",
@@ -1119,7 +1049,77 @@
    "stars_at_discovery": 6929,
    "score_at_discovery": 90,
    "source_at_discovery": "search"
+  },
+  "floci-io/floci": {
+   "first_seen": "2026-11-04",
+   "until": "2026-11-18",
+   "stars_at_discovery": 29235,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "govijr/terminal-mac": {
+   "first_seen": "2026-11-04",
+   "until": "2026-11-18",
+   "stars_at_discovery": 958,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "Minireel/HGhub": {
+   "first_seen": "2026-11-04",
+   "until": "2026-11-18",
+   "stars_at_discovery": 492,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "Chipwithinflash/watson-AI-osint-all-in-one": {
+   "first_seen": "2026-11-04",
+   "until": "2026-11-18",
+   "stars_at_discovery": 446,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "andrew-babo/muse4ai": {
+   "first_seen": "2026-11-04",
+   "until": "2026-11-18",
+   "stars_at_discovery": 367,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "RikiyaT/lm_understand-logs": {
+   "first_seen": "2026-11-04",
+   "until": "2026-11-18",
+   "stars_at_discovery": 843,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "MagoStudio/MagoStudio": {
+   "first_seen": "2026-11-04",
+   "until": "2026-11-18",
+   "stars_at_discovery": 251,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "Minglink/dsh-jailbreak-workflow": {
+   "first_seen": "2026-11-04",
+   "until": "2026-11-18",
+   "stars_at_discovery": 504,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "StormSkinkGrip/game-ping-multipath-router": {
+   "first_seen": "2026-11-04",
+   "until": "2026-11-18",
+   "stars_at_discovery": 222,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "DeltaProviderGuide/auto-auction-bot-wow-forever": {
+   "first_seen": "2026-11-04",
+   "until": "2026-11-18",
+   "stars_at_discovery": 211,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-11-03T12:28:06.333688+00:00"
+ "updated_at": "2026-11-04T12:39:06.245756+00:00"
 }
