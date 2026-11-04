@@ -3,73 +3,13 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "mattpocock/skills",
-   "stars": 312245,
-   "language": "Shell"
-  },
-  {
-   "full_name": "github/spec-kit",
-   "stars": 146927,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "garrytan/gstack",
-   "stars": 139042,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "harry0703/MoneyPrinterTurbo",
-   "stars": 138564,
-   "language": "Python"
-  },
-  {
-   "full_name": "thedotmack/claude-mem",
-   "stars": 112435,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "D4Vinci/Scrapling",
-   "stars": 95761,
-   "language": "Python"
-  },
-  {
-   "full_name": "MichaelCade/90DaysOfDevOps",
-   "stars": 30158,
-   "language": "Shell"
-  },
-  {
-   "full_name": "floci-io/floci",
-   "stars": 29235,
-   "language": "Java"
-  },
-  {
-   "full_name": "The-PR-Agent/pr-agent",
-   "stars": 14510,
-   "language": "Python"
-  },
-  {
-   "full_name": "vercel-labs/agent-desktop",
-   "stars": 14035,
-   "language": "Rust"
-  },
-  {
-   "full_name": "max-sixty/worktrunk",
-   "stars": 10784,
-   "language": "Rust"
-  },
-  {
-   "full_name": "JiaFeiMiao-K-Cat/DiscImageStudio",
-   "stars": 6011,
-   "language": "C#"
-  },
-  {
-   "full_name": "NVIDIA/auto-ontology",
-   "stars": 3706,
-   "language": "Python"
-  },
-  {
-   "full_name": "scenario-labs/skills",
-   "stars": 2093,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
   }
  ]
