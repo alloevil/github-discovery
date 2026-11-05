@@ -246,76 +246,6 @@
       ],
       "last_recommended": "2026-10-21T09:40:03.742227+00:00"
     },
-    "tester-army/e2e": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-06T11:32:02.263735+00:00"
-    },
-    "earthtojake/text-to-cad": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-06T11:32:02.266170+00:00"
-    },
-    "boykopovar/AnyPS5": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-06T11:32:02.268273+00:00"
-    },
-    "caddyserver/caddy": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-06T11:32:02.270415+00:00"
-    },
-    "DuarteSantos8/openGym": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-06T11:32:02.272514+00:00"
-    },
-    "cloudflare/cloudflare-os": {
-      "count": 1,
-      "scores": [
-        98
-      ],
-      "last_recommended": "2026-10-06T11:32:02.274637+00:00"
-    },
-    "Stremio/stremio-web": {
-      "count": 1,
-      "scores": [
-        97
-      ],
-      "last_recommended": "2026-10-06T11:32:02.276707+00:00"
-    },
-    "elstongun/leviathan": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-06T11:32:02.278783+00:00"
-    },
-    "rauchg/gdp-ts": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-06T11:32:02.280850+00:00"
-    },
-    "ythx-101/live-panel-skill": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-06T11:32:02.282916+00:00"
-    },
     "deadinside28/bloodborne_pc": {
       "count": 1,
       "scores": [
@@ -675,12 +605,13 @@
       "last_recommended": "2026-10-12T12:28:13.336942+00:00"
     },
     "chenwei810/Semiconductor_Manufacturing_Introduction": {
-      "count": 2,
+      "count": 3,
       "scores": [
         94,
+        58,
         58
       ],
-      "last_recommended": "2026-10-24T09:08:40.716410+00:00"
+      "last_recommended": "2026-11-05T12:46:04.988213+00:00"
     },
     "bilawalsidhu/gods-eye-view": {
       "count": 1,
@@ -1489,11 +1420,12 @@
       "last_recommended": "2026-10-24T09:08:40.707508+00:00"
     },
     "mytechnotalent/Reverse-Engineering": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        86
+        86,
+        65
       ],
-      "last_recommended": "2026-10-24T09:08:40.709263+00:00"
+      "last_recommended": "2026-11-05T12:46:04.986477+00:00"
     },
     "quanhoangindex/ascii-reveal": {
       "count": 1,
@@ -2278,7 +2210,77 @@
         92
       ],
       "last_recommended": "2026-11-04T12:34:12.048473+00:00"
+    },
+    "NVIDIA/auto-ontology": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-05T12:46:04.969290+00:00"
+    },
+    "Usagi-org/ai-goofish-monitor": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-05T12:46:04.971255+00:00"
+    },
+    "scenario-labs/skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-05T12:46:04.972972+00:00"
+    },
+    "JiaFeiMiao-K-Cat/DiscImageStudio": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-05T12:46:04.974637+00:00"
+    },
+    "dragonwolfshovel/youtube-uploader": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-05T12:46:04.976352+00:00"
+    },
+    "TagPhaseArcade/tiktok-uploader": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-05T12:46:04.978035+00:00"
+    },
+    "s1dashu/quiet-md": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-05T12:46:04.979718+00:00"
+    },
+    "UncensoredLabs/uncensored-ai-api": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-05T12:46:04.981409+00:00"
+    },
+    "wquguru/cicada": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-05T12:46:04.983088+00:00"
+    },
+    "AtomIllusionistDwell/watson-username-footprint-finder": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-05T12:46:04.984777+00:00"
     }
   },
-  "updated_at": "2026-11-04T12:34:12.048494+00:00"
+  "updated_at": "2026-11-05T12:46:04.988233+00:00"
 }

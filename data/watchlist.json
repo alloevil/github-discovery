@@ -1,89 +1,5 @@
 {
  "repos": {
-  "shiyu-coder/Kronos": {
-   "first_seen": "2026-10-21",
-   "until": "2026-11-04",
-   "stars_at_discovery": 42535,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "UniXNU/UniXNU": {
-   "first_seen": "2026-10-21",
-   "until": "2026-11-04",
-   "stars_at_discovery": 475,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "dominikmartn/harp": {
-   "first_seen": "2026-10-21",
-   "until": "2026-11-04",
-   "stars_at_discovery": 424,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "Ansub/tv-detox": {
-   "first_seen": "2026-10-21",
-   "until": "2026-11-04",
-   "stars_at_discovery": 1036,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "headroomlabs-ai/headroom": {
-   "first_seen": "2026-10-21",
-   "until": "2026-11-04",
-   "stars_at_discovery": 76937,
-   "score_at_discovery": 93,
-   "source_at_discovery": "trending"
-  },
-  "NVIDIA/flare-local-inference": {
-   "first_seen": "2026-10-21",
-   "until": "2026-11-04",
-   "stars_at_discovery": 290,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "indexable-inc/ra-jit": {
-   "first_seen": "2026-10-21",
-   "until": "2026-11-04",
-   "stars_at_discovery": 171,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "Graphify-Labs/graphify": {
-   "first_seen": "2026-10-21",
-   "until": "2026-11-04",
-   "stars_at_discovery": 130773,
-   "score_at_discovery": 90,
-   "source_at_discovery": "trending"
-  },
-  "Hugo-Dz/spritefusion-sprite-normals": {
-   "first_seen": "2026-10-21",
-   "until": "2026-11-04",
-   "stars_at_discovery": 449,
-   "score_at_discovery": 88,
-   "source_at_discovery": "search"
-  },
-  "wevm/ondine": {
-   "first_seen": "2026-10-21",
-   "until": "2026-11-04",
-   "stars_at_discovery": 322,
-   "score_at_discovery": 87,
-   "source_at_discovery": "search"
-  },
-  "msitarzewski/agency-agents": {
-   "first_seen": "2026-10-21",
-   "until": "2026-11-04",
-   "stars_at_discovery": 162678,
-   "score_at_discovery": 92,
-   "source_at_discovery": "trending"
-  },
-  "DietrichGebert/ponytail": {
-   "first_seen": "2026-10-21",
-   "until": "2026-11-04",
-   "stars_at_discovery": 170515,
-   "score_at_discovery": 85,
-   "source_at_discovery": "trending"
-  },
   "vllm-project/vllm": {
    "first_seen": "2026-10-22",
    "until": "2026-11-05",
@@ -1119,7 +1035,84 @@
    "stars_at_discovery": 211,
    "score_at_discovery": 92,
    "source_at_discovery": "search"
+  },
+  "NVIDIA/auto-ontology": {
+   "first_seen": "2026-11-05",
+   "until": "2026-11-19",
+   "stars_at_discovery": 6407,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "Usagi-org/ai-goofish-monitor": {
+   "first_seen": "2026-11-05",
+   "until": "2026-11-19",
+   "stars_at_discovery": 17315,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "scenario-labs/skills": {
+   "first_seen": "2026-11-05",
+   "until": "2026-11-19",
+   "stars_at_discovery": 2767,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "JiaFeiMiao-K-Cat/DiscImageStudio": {
+   "first_seen": "2026-11-05",
+   "until": "2026-11-19",
+   "stars_at_discovery": 6996,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "dragonwolfshovel/youtube-uploader": {
+   "first_seen": "2026-11-05",
+   "until": "2026-11-19",
+   "stars_at_discovery": 426,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "TagPhaseArcade/tiktok-uploader": {
+   "first_seen": "2026-11-05",
+   "until": "2026-11-19",
+   "stars_at_discovery": 425,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "s1dashu/quiet-md": {
+   "first_seen": "2026-11-05",
+   "until": "2026-11-19",
+   "stars_at_discovery": 949,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "UncensoredLabs/uncensored-ai-api": {
+   "first_seen": "2026-11-05",
+   "until": "2026-11-19",
+   "stars_at_discovery": 805,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "wquguru/cicada": {
+   "first_seen": "2026-11-05",
+   "until": "2026-11-19",
+   "stars_at_discovery": 1410,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "AtomIllusionistDwell/watson-username-footprint-finder": {
+   "first_seen": "2026-11-05",
+   "until": "2026-11-19",
+   "stars_at_discovery": 232,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "chenwei810/Semiconductor_Manufacturing_Introduction": {
+   "first_seen": "2026-11-05",
+   "until": "2026-11-19",
+   "stars_at_discovery": 1379,
+   "score_at_discovery": 58,
+   "source_at_discovery": "ai-trending"
   }
  },
- "updated_at": "2026-11-04T12:39:06.245756+00:00"
+ "updated_at": "2026-11-05T12:51:17.756856+00:00"
 }

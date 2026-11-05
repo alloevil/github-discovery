@@ -1,0 +1,81 @@
+{
+ "date": "2026-11-05",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "mattpocock/skills",
+   "stars": 314236,
+   "language": "Shell"
+  },
+  {
+   "full_name": "garrytan/gstack",
+   "stars": 139635,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "D4Vinci/Scrapling",
+   "stars": 97360,
+   "language": "Python"
+  },
+  {
+   "full_name": "microsoft/VibeVoice",
+   "stars": 55412,
+   "language": "Python"
+  },
+  {
+   "full_name": "vercel-labs/agent-browser",
+   "stars": 45630,
+   "language": "Rust"
+  },
+  {
+   "full_name": "floci-io/floci",
+   "stars": 30013,
+   "language": "Java"
+  },
+  {
+   "full_name": "google/skills",
+   "stars": 22114,
+   "language": "Python"
+  },
+  {
+   "full_name": "Usagi-org/ai-goofish-monitor",
+   "stars": 17315,
+   "language": "Python"
+  },
+  {
+   "full_name": "vercel-labs/agent-desktop",
+   "stars": 16183,
+   "language": "Rust"
+  },
+  {
+   "full_name": "ConardLi/garden-skills",
+   "stars": 13954,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "lz4/lz4",
+   "stars": 12237,
+   "language": "C"
+  },
+  {
+   "full_name": "max-sixty/worktrunk",
+   "stars": 11319,
+   "language": "Rust"
+  },
+  {
+   "full_name": "JiaFeiMiao-K-Cat/DiscImageStudio",
+   "stars": 6996,
+   "language": "C#"
+  },
+  {
+   "full_name": "NVIDIA/auto-ontology",
+   "stars": 6407,
+   "language": "Python"
+  },
+  {
+   "full_name": "scenario-labs/skills",
+   "stars": 2767,
+   "language": "Python"
+  }
+ ]
+}

@@ -1,0 +1,382 @@
+{
+ "date": "2026-11-05",
+ "generated_at": "2026-11-05T12:46:04.991205",
+ "pool_size": 99,
+ "source_health": {
+  "trending": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 4
+  },
+  "search": {
+   "fetched": 70,
+   "parsed": 70,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 6
+  },
+  "hn": {
+   "fetched": 7,
+   "parsed": 7,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 1,
+   "parsed": 1,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 22,
+   "parsed": 22,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 2
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "NVIDIA/auto-ontology",
+   "url": "https://github.com/NVIDIA/auto-ontology",
+   "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+   "language": "Python",
+   "stars": 6407,
+   "forks": 502,
+   "age_days": 191,
+   "daily_stars": 33.544502617801044,
+   "real_daily_stars": 2701.0,
+   "watchers": 38,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Usagi-org/ai-goofish-monitor",
+   "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+   "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+   "language": "Python",
+   "stars": 17315,
+   "forks": 2925,
+   "age_days": 477,
+   "daily_stars": 36.299790356394126,
+   "real_daily_stars": 597.5,
+   "watchers": 60,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "scenario-labs/skills",
+   "url": "https://github.com/scenario-labs/skills",
+   "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
+   "language": "Python",
+   "stars": 2767,
+   "forks": 256,
+   "age_days": 85,
+   "daily_stars": 32.55294117647059,
+   "real_daily_stars": 674.0,
+   "watchers": 11,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "JiaFeiMiao-K-Cat/DiscImageStudio",
+   "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+   "description": "",
+   "language": "C#",
+   "stars": 6996,
+   "forks": 247,
+   "age_days": 74,
+   "daily_stars": 94.54054054054055,
+   "real_daily_stars": 985.0,
+   "watchers": 16,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "dragonwolfshovel/youtube-uploader",
+   "url": "https://github.com/dragonwolfshovel/youtube-uploader",
+   "description": "Automated YouTube video uploader with batch processing, thumbnail support, and scheduled publishing. Uses official YouTube Data API v3. Open-source and privacy-first",
+   "language": "Python",
+   "stars": 426,
+   "forks": 358,
+   "age_days": 1,
+   "daily_stars": 426.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "TagPhaseArcade/tiktok-uploader",
+   "url": "https://github.com/TagPhaseArcade/tiktok-uploader",
+   "description": "Automated TikTok video uploader with batch processing, scheduling, and hashtag management. Local session-based auth. Open-source and cross-platform",
+   "language": "Python",
+   "stars": 425,
+   "forks": 336,
+   "age_days": 1,
+   "daily_stars": 425.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "s1dashu/quiet-md",
+   "url": "https://github.com/s1dashu/quiet-md",
+   "description": "Blazing-fast native notes app for macOS & Windows. Rust + GPUI, local-first, compatible with Feishu/Lark DocxXML. 高性能本地笔记，兼容飞书文档格式。",
+   "language": "Rust",
+   "stars": 949,
+   "forks": 82,
+   "age_days": 3,
+   "daily_stars": 316.3333333333333,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "UncensoredLabs/uncensored-ai-api",
+   "url": "https://github.com/UncensoredLabs/uncensored-ai-api",
+   "description": "Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python and TypeScript examples, pricing and setup guides.",
+   "language": "JavaScript",
+   "stars": 805,
+   "forks": 52,
+   "age_days": 3,
+   "daily_stars": 268.3333333333333,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "wquguru/cicada",
+   "url": "https://github.com/wquguru/cicada",
+   "description": "知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android.",
+   "language": "Swift",
+   "stars": 1410,
+   "forks": 252,
+   "age_days": 4,
+   "daily_stars": 352.5,
+   "real_daily_stars": 489.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "AtomIllusionistDwell/watson-username-footprint-finder",
+   "url": "https://github.com/AtomIllusionistDwell/watson-username-footprint-finder",
+   "description": "Free people-search desktop app: look up a nickname, email, phone or site across 3,100+ public pages and get one readable report.",
+   "language": "TypeScript",
+   "stars": 232,
+   "forks": 24,
+   "age_days": 1,
+   "daily_stars": 232.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "mytechnotalent/Reverse-Engineering",
+   "url": "https://github.com/mytechnotalent/Reverse-Engineering",
+   "description": "A FREE comprehensive reverse engineering tutorial covering x86, x64, 32-bit/64-bit ARM, 8-bit AVR and 32-bit RISC-V architectures.",
+   "language": "Assembly",
+   "stars": 15105,
+   "forks": 1682,
+   "age_days": 2455,
+   "daily_stars": 6.15274949083503,
+   "real_daily_stars": 10.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "Apache-2.0",
+   "rank": 1,
+   "scores": {
+    "total": 65,
+    "acceleration": 15,
+    "quality": 20,
+    "antispam": 30,
+    "rank_in_pool": 49,
+    "pool_size": 99,
+    "top_pct": 49.5
+   }
+  },
+  {
+   "full_name": "chenwei810/Semiconductor_Manufacturing_Introduction",
+   "url": "https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction",
+   "description": "Introduction to Semiconductor Manufacturing",
+   "language": "Python",
+   "stars": 1379,
+   "forks": 130,
+   "age_days": 25,
+   "daily_stars": 55.16,
+   "real_daily_stars": 4.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "NOASSERTION",
+   "rank": 2,
+   "scores": {
+    "total": 58,
+    "acceleration": 8,
+    "quality": 20,
+    "antispam": 30,
+    "rank_in_pool": 64,
+    "pool_size": 99,
+    "top_pct": 64.6
+   }
+  }
+ ]
+}
