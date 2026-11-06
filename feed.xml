@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-05T18:00:00Z</updated>
+  <updated>2026-11-06T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>google/skills — Agent Skills for Google products and technologies</title>
+    <id>https://github.com/google/skills#2026-11-06</id>
+    <link rel="alternate" type="text/html" href="https://github.com/google/skills"/>
+    <updated>2026-11-06T18:00:00Z</updated>
+    <published>2026-11-06T18:00:00Z</published>
+    <summary>Agent Skills for Google products and technologies
+
+Why: +514/day · Trending · 5.0x accelerating
+Score: 100/100 | Language: Python | ⭐ 22628 (+514.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>lz4/lz4 — Extremely Fast Compression algorithm</title>
+    <id>https://github.com/lz4/lz4#2026-11-06</id>
+    <link rel="alternate" type="text/html" href="https://github.com/lz4/lz4"/>
+    <updated>2026-11-06T18:00:00Z</updated>
+    <published>2026-11-06T18:00:00Z</published>
+    <summary>Extremely Fast Compression algorithm
+
+Why: +298/day · Trending · 109.5x accelerating
+Score: 98/100 | Language: C | ⭐ 12535 (+298.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>WoYun520/pixel-gif-sticker-pack — A Codex skill for creating and verifying animated GIF sticker packs from character references.</title>
+    <id>https://github.com/WoYun520/pixel-gif-sticker-pack#2026-11-06</id>
+    <link rel="alternate" type="text/html" href="https://github.com/WoYun520/pixel-gif-sticker-pack"/>
+    <updated>2026-11-06T18:00:00Z</updated>
+    <published>2026-11-06T18:00:00Z</published>
+    <summary>A Codex skill for creating and verifying animated GIF sticker packs from character references.
+
+Why: +528/day · Search
+Score: 96/100 | Language: Python | ⭐ 528 (+528.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>livliv-dev/player — A lightweight 2.5D character player for the web, with lip sync and webcam face tracking.</title>
+    <id>https://github.com/livliv-dev/player#2026-11-06</id>
+    <link rel="alternate" type="text/html" href="https://github.com/livliv-dev/player"/>
+    <updated>2026-11-06T18:00:00Z</updated>
+    <published>2026-11-06T18:00:00Z</published>
+    <summary>A lightweight 2.5D character player for the web, with lip sync and webcam face tracking.
+
+Why: +402/day · Search
+Score: 95/100 | Language: TypeScript | ⭐ 805 (+402.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>HerdBuilderEstimate/roblox-studio-mcp — Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight</title>
+    <id>https://github.com/HerdBuilderEstimate/roblox-studio-mcp#2026-11-06</id>
+    <link rel="alternate" type="text/html" href="https://github.com/HerdBuilderEstimate/roblox-studio-mcp"/>
+    <updated>2026-11-06T18:00:00Z</updated>
+    <published>2026-11-06T18:00:00Z</published>
+    <summary>Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight
+
+Why: +427/day · Search
+Score: 95/100 | Language: Python | ⭐ 427 (+427.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>cloudflare/security-audit-skill — A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings</title>
+    <id>https://github.com/cloudflare/security-audit-skill#2026-11-06</id>
+    <link rel="alternate" type="text/html" href="https://github.com/cloudflare/security-audit-skill"/>
+    <updated>2026-11-06T18:00:00Z</updated>
+    <published>2026-11-06T18:00:00Z</published>
+    <summary>A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
+
+Why: +1370/day · Trending · 3.1x accelerating
+Score: 100/100 | Language: JavaScript | ⭐ 62790 (+1370.3/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>mattpocock/skills — Skills for Real Engineers. Straight from my .agents directory.</title>
+    <id>https://github.com/mattpocock/skills#2026-11-06</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mattpocock/skills"/>
+    <updated>2026-11-06T18:00:00Z</updated>
+    <published>2026-11-06T18:00:00Z</published>
+    <summary>Skills for Real Engineers. Straight from my .agents directory.
+
+Why: +1893/day · Trending · 1.7x accelerating
+Score: 93/100 | Language: Shell | ⭐ 316138 (+1893.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>NVIDIA/auto-ontology — Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.</title>
     <id>https://github.com/NVIDIA/auto-ontology#2026-11-05</id>
@@ -866,60 +943,5 @@ Score: 98/100 | Language: Rust | ⭐ 19018 (+303.3/day) | Source: trending</summ
 
 Why: +4.0/day · AI/ML
 Score: 58/100 | Language: Python | ⭐ 1307 (+4.0/day) | Source: ai-trending</summary>
-  </entry>
-  <entry>
-    <title>Snapintosh/Snapintosh — EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack</title>
-    <id>https://github.com/Snapintosh/Snapintosh#2026-10-23</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Snapintosh/Snapintosh"/>
-    <updated>2026-10-23T18:00:00Z</updated>
-    <published>2026-10-23T18:00:00Z</published>
-    <summary>EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack
-
-Why: +658/day · Search
-Score: 96/100 | Language: Python | ⭐ 658 (+658.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>zita-ch/supermimic_vibed — vibe coded supermimic within 1h, LAFAN passed within 1.5 gpuh training</title>
-    <id>https://github.com/zita-ch/supermimic_vibed#2026-10-23</id>
-    <link rel="alternate" type="text/html" href="https://github.com/zita-ch/supermimic_vibed"/>
-    <updated>2026-10-23T18:00:00Z</updated>
-    <published>2026-10-23T18:00:00Z</published>
-    <summary>vibe coded supermimic within 1h, LAFAN passed within 1.5 gpuh training
-
-Why: +375/day · Search
-Score: 95/100 | Language: Python | ⭐ 375 (+375.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>omnara-ai/omnara — The open-source managed agent platform. A self-hostable alternative to Claude Managed Agents and OpenAI's Agents API.</title>
-    <id>https://github.com/omnara-ai/omnara#2026-10-23</id>
-    <link rel="alternate" type="text/html" href="https://github.com/omnara-ai/omnara"/>
-    <updated>2026-10-23T18:00:00Z</updated>
-    <published>2026-10-23T18:00:00Z</published>
-    <summary>The open-source managed agent platform. A self-hostable alternative to Claude Managed Agents and OpenAI's Agents API.
-
-Why: +108/day · HN · 15.9x accelerating
-Score: 93/100 | Language: Go | ⭐ 3192 (+108.0/day) | Source: hn</summary>
-  </entry>
-  <entry>
-    <title>eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC — Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only.</title>
-    <id>https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC#2026-10-23</id>
-    <link rel="alternate" type="text/html" href="https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC"/>
-    <updated>2026-10-23T18:00:00Z</updated>
-    <published>2026-10-23T18:00:00Z</published>
-    <summary>Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only.
-
-Why: +460/day · Search
-Score: 91/100 | Language: Shell | ⭐ 921 (+460.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>pengchujin/aerial-tv — 给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.</title>
-    <id>https://github.com/pengchujin/aerial-tv#2026-10-23</id>
-    <link rel="alternate" type="text/html" href="https://github.com/pengchujin/aerial-tv"/>
-    <updated>2026-10-23T18:00:00Z</updated>
-    <published>2026-10-23T18:00:00Z</published>
-    <summary>给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.
-
-Why: +816/day · Search
-Score: 90/100 | Language: Kotlin | ⭐ 3526 (+816.0/day) | Source: search</summary>
   </entry>
 </feed>
