@@ -3,93 +3,13 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "mattpocock/skills",
-   "stars": 316138,
-   "language": "Shell"
-  },
-  {
-   "full_name": "react/react",
-   "stars": 252049,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "microsoft/vscode",
-   "stars": 194796,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "rust-lang/rust",
-   "stars": 121173,
-   "language": "Rust"
-  },
-  {
-   "full_name": "angular/angular",
-   "stars": 101146,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "zed-industries/zed",
-   "stars": 93013,
-   "language": "Rust"
-  },
-  {
-   "full_name": "prometheus/prometheus",
-   "stars": 66994,
-   "language": "Go"
-  },
-  {
-   "full_name": "cloudflare/security-audit-skill",
-   "stars": 62787,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "rails/rails",
-   "stars": 58896,
-   "language": "Ruby"
-  },
-  {
-   "full_name": "etcd-io/etcd",
-   "stars": 52488,
-   "language": "Go"
-  },
-  {
-   "full_name": "astral-sh/ruff",
-   "stars": 50491,
-   "language": "Rust"
-  },
-  {
-   "full_name": "nushell/nushell",
-   "stars": 40805,
-   "language": "Rust"
-  },
-  {
-   "full_name": "mpv-player/mpv",
-   "stars": 37761,
-   "language": "C"
-  },
-  {
-   "full_name": "symfony/symfony",
-   "stars": 31253,
-   "language": "PHP"
-  },
-  {
-   "full_name": "openssl/openssl",
-   "stars": 31203,
-   "language": "C"
-  },
-  {
-   "full_name": "google/skills",
-   "stars": 22628,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "lz4/lz4",
-   "stars": 12535,
-   "language": "C"
-  },
-  {
-   "full_name": "NVIDIA/auto-ontology",
-   "stars": 8324,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
   }
  ]
