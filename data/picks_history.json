@@ -279,7 +279,47 @@
     "heydamir/unslop": {
       "first_picked": "2026-11-03",
       "source": "github-discovery"
+    },
+    "YosysHQ/sby": {
+      "first_picked": "2026-11-06",
+      "source": "github-discovery"
+    },
+    "hacl-star/hacl-star": {
+      "first_picked": "2026-11-06",
+      "source": "github-discovery"
+    },
+    "google/skills": {
+      "first_picked": "2026-11-06",
+      "source": "github-discovery"
+    },
+    "cloudflare/security-audit-skill": {
+      "first_picked": "2026-11-06",
+      "source": "github-discovery"
+    },
+    "HerdBuilderEstimate/roblox-studio-mcp": {
+      "first_picked": "2026-11-06",
+      "source": "github-discovery"
+    },
+    "majorminorlabs/hermes-voice": {
+      "first_picked": "2026-11-06",
+      "source": "github-discovery"
+    },
+    "zeekk0/OpenAmika": {
+      "first_picked": "2026-11-06",
+      "source": "github-discovery"
+    },
+    "orkbot-run/ork": {
+      "first_picked": "2026-11-06",
+      "source": "github-discovery"
+    },
+    "aa1143/NamiDSH": {
+      "first_picked": "2026-11-06",
+      "source": "github-discovery"
+    },
+    "KKKKhazix/agent-autoloop": {
+      "first_picked": "2026-11-06",
+      "source": "github-discovery"
     }
   },
-  "updated_at": "2026-11-03T12:23:11.773941+00:00"
+  "updated_at": "2026-11-06T12:30:24.358131+00:00"
 }

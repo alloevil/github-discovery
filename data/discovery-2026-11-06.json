@@ -1,0 +1,382 @@
+{
+ "date": "2026-11-06",
+ "generated_at": "2026-11-06T12:30:24.358683",
+ "pool_size": 98,
+ "source_health": {
+  "trending": {
+   "fetched": 18,
+   "parsed": 18,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 4
+  },
+  "search": {
+   "fetched": 68,
+   "parsed": 68,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 8
+  },
+  "hn": {
+   "fetched": 7,
+   "parsed": 7,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 2,
+   "parsed": 2,
+   "rejected": 0,
+   "deduplicated": 2,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 11,
+   "parsed": 11,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "google/skills",
+   "url": "https://github.com/google/skills",
+   "description": "Agent Skills for Google products and technologies",
+   "language": "Python",
+   "stars": 22628,
+   "forks": 1904,
+   "age_days": 219,
+   "daily_stars": 103.32420091324201,
+   "real_daily_stars": 514.0,
+   "watchers": 139,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "lz4/lz4",
+   "url": "https://github.com/lz4/lz4",
+   "description": "Extremely Fast Compression algorithm",
+   "language": "C",
+   "stars": 12535,
+   "forks": 1640,
+   "age_days": 4608,
+   "daily_stars": 2.7202690972222223,
+   "real_daily_stars": 298.0,
+   "watchers": 229,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 98,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "WoYun520/pixel-gif-sticker-pack",
+   "url": "https://github.com/WoYun520/pixel-gif-sticker-pack",
+   "description": "A Codex skill for creating and verifying animated GIF sticker packs from character references.",
+   "language": "Python",
+   "stars": 528,
+   "forks": 61,
+   "age_days": 1,
+   "daily_stars": 528.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "livliv-dev/player",
+   "url": "https://github.com/livliv-dev/player",
+   "description": "A lightweight 2.5D character player for the web, with lip sync and webcam face tracking.",
+   "language": "TypeScript",
+   "stars": 805,
+   "forks": 80,
+   "age_days": 2,
+   "daily_stars": 402.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "HerdBuilderEstimate/roblox-studio-mcp",
+   "url": "https://github.com/HerdBuilderEstimate/roblox-studio-mcp",
+   "description": "Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight",
+   "language": "Python",
+   "stars": 427,
+   "forks": 260,
+   "age_days": 1,
+   "daily_stars": 427.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "PulverizeLink/roblox-performance-tool",
+   "url": "https://github.com/PulverizeLink/roblox-performance-tool",
+   "description": "Lightweight performance utility for Roblox on Windows. Boosts FPS, fixes stutter, reduces input lag, and allows custom frame limits. Safe, offline, and open-source",
+   "language": "Python",
+   "stars": 425,
+   "forks": 386,
+   "age_days": 1,
+   "daily_stars": 425.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "Lowbetweentrim/crypto-portfolio-tracker",
+   "url": "https://github.com/Lowbetweentrim/crypto-portfolio-tracker",
+   "description": "Self-hosted, privacy-first crypto portfolio tracker. Import transactions via CSV, track real-time PnL, and manage your assets locally. No cloud, no subscriptions. Open-source",
+   "language": "Python",
+   "stars": 425,
+   "forks": 358,
+   "age_days": 1,
+   "daily_stars": 425.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "zortos293/Lichii",
+   "url": "https://github.com/zortos293/Lichii",
+   "description": "VERY experimental Nintendo Switch 2 emulator",
+   "language": "C++",
+   "stars": 3030,
+   "forks": 460,
+   "age_days": 5,
+   "daily_stars": 606.0,
+   "real_daily_stars": 1638.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 94,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "majorminorlabs/hermes-voice",
+   "url": "https://github.com/majorminorlabs/hermes-voice",
+   "description": "Talk to a Hermes Agent profile through Home Assistant Assist",
+   "language": "Python",
+   "stars": 321,
+   "forks": 14,
+   "age_days": 1,
+   "daily_stars": 321.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "zeekk0/OpenAmika",
+   "url": "https://github.com/zeekk0/OpenAmika",
+   "description": "OpenAmika: MekaHime's AI companion Amika, open source. Live2D avatar, real-time voice, long-term memory, OpenRouter or Ollama brain.",
+   "language": "Python",
+   "stars": 376,
+   "forks": 48,
+   "age_days": 2,
+   "daily_stars": 188.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "language": "JavaScript",
+   "stars": 62790,
+   "forks": 4072,
+   "age_days": 140,
+   "daily_stars": 448.47857142857146,
+   "real_daily_stars": 1370.2727272727273,
+   "watchers": 222,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 9
+   }
+  },
+  {
+   "full_name": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "description": "Skills for Real Engineers. Straight from my .agents directory.",
+   "language": "Shell",
+   "stars": 316138,
+   "forks": 26448,
+   "age_days": 276,
+   "daily_stars": 1145.427536231884,
+   "real_daily_stars": 1893.0,
+   "watchers": 1627,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  }
+ ]
+}

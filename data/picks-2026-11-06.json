@@ -1,0 +1,359 @@
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T12:30:24+00:00",
+  "every_days": 3,
+  "count": 10,
+  "semi_count": 2,
+  "semi_min_met": true,
+  "picks": [
+    {
+      "rank": 1,
+      "full_name": "YosysHQ/sby",
+      "url": "https://github.com/YosysHQ/sby",
+      "description": "SymbiYosys (sby) -- Front-end for Yosys-based formal verification flows",
+      "topic": "semi",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "stars": 564,
+      "forks": 109,
+      "created_at": "2017-01-22T15:45:08Z",
+      "pushed_at": "2026-11-02T18:19:18Z",
+      "growth": {
+        "since": "2026-10-25",
+        "window_days": 12,
+        "stars_gained": 5,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 62,
+      "verified_at": "2026-11-06T12:30:20+00:00"
+    },
+    {
+      "rank": 2,
+      "full_name": "hacl-star/hacl-star",
+      "url": "https://github.com/hacl-star/hacl-star",
+      "description": "HACL*, a formally verified cryptographic library written in F*",
+      "topic": "semi",
+      "language": "F*",
+      "topics": [
+        "cryptography",
+        "everest",
+        "formal-methods",
+        "formal-verification",
+        "hacl",
+        "high-performance",
+        "inria",
+        "security",
+        "verification",
+        "verified-primitives"
+      ],
+      "license": "Apache-2.0",
+      "stars": 1846,
+      "forks": 194,
+      "created_at": "2016-06-23T12:37:16Z",
+      "pushed_at": "2026-11-01T05:07:36Z",
+      "growth": {
+        "since": "2026-10-31",
+        "window_days": 6,
+        "stars_gained": 1,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 51,
+      "verified_at": "2026-11-06T12:30:21+00:00"
+    },
+    {
+      "rank": 3,
+      "full_name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "google",
+        "googlecloud",
+        "skills"
+      ],
+      "license": "Apache-2.0",
+      "stars": 22628,
+      "forks": 1904,
+      "created_at": "2026-03-31T19:02:20Z",
+      "pushed_at": "2026-11-05T22:00:15Z",
+      "growth": {
+        "since": "2026-11-05",
+        "window_days": 1,
+        "stars_gained": 514,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 90,
+      "verified_at": "2026-11-06T12:30:21+00:00"
+    },
+    {
+      "rank": 4,
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "topic": "ai",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "stars": 62790,
+      "forks": 4072,
+      "created_at": "2026-06-18T14:08:44Z",
+      "pushed_at": "2026-09-14T19:29:02Z",
+      "growth": {
+        "since": "2026-10-26",
+        "window_days": 11,
+        "stars_gained": 15076,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 90,
+      "verified_at": "2026-11-06T12:30:21+00:00"
+    },
+    {
+      "rank": 5,
+      "full_name": "HerdBuilderEstimate/roblox-studio-mcp",
+      "url": "https://github.com/HerdBuilderEstimate/roblox-studio-mcp",
+      "description": "Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "ai-tools",
+        "automation",
+        "claude",
+        "cursor",
+        "developer-tools",
+        "game-development",
+        "mcp",
+        "model-context-protocol",
+        "open-source",
+        "roblox",
+        "roblox-studio",
+        "typescript"
+      ],
+      "license": "MIT",
+      "stars": 427,
+      "forks": 260,
+      "created_at": "2026-11-06T06:16:35Z",
+      "pushed_at": "2026-11-06T06:16:56Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 85,
+      "verified_at": "2026-11-06T12:30:22+00:00"
+    },
+    {
+      "rank": 6,
+      "full_name": "majorminorlabs/hermes-voice",
+      "url": "https://github.com/majorminorlabs/hermes-voice",
+      "description": "Talk to a Hermes Agent profile through Home Assistant Assist",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "stars": 321,
+      "forks": 14,
+      "created_at": "2026-11-05T05:28:37Z",
+      "pushed_at": "2026-11-06T02:48:04Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 84,
+      "verified_at": "2026-11-06T12:30:22+00:00"
+    },
+    {
+      "rank": 7,
+      "full_name": "zeekk0/OpenAmika",
+      "url": "https://github.com/zeekk0/OpenAmika",
+      "description": "OpenAmika: MekaHime's AI companion Amika, open source. Live2D avatar, real-time voice, long-term memory, OpenRouter or Ollama brain.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "ai-companion",
+        "live2d",
+        "long-term-memory",
+        "mekahime",
+        "ollama",
+        "openrouter",
+        "speech-recognition",
+        "text-to-speech"
+      ],
+      "license": "NOASSERTION",
+      "stars": 376,
+      "forks": 48,
+      "created_at": "2026-11-03T17:47:08Z",
+      "pushed_at": "2026-11-05T13:31:30Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 81,
+      "verified_at": "2026-11-06T12:30:22+00:00"
+    },
+    {
+      "rank": 8,
+      "full_name": "orkbot-run/ork",
+      "url": "https://github.com/orkbot-run/ork",
+      "description": "Source-available AI assistant with persistent bots that share conversations and work on isolated computers. Self-hosted, with web, desktop, and mobile apps.",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "ai-assistants",
+        "automation",
+        "electron",
+        "expo",
+        "self-hosted",
+        "source-available",
+        "typescript"
+      ],
+      "license": "Apache-2.0",
+      "stars": 147,
+      "forks": 0,
+      "created_at": "2026-11-04T19:57:31Z",
+      "pushed_at": "2026-11-06T12:23:54Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 80,
+      "verified_at": "2026-11-06T12:30:23+00:00"
+    },
+    {
+      "rank": 9,
+      "full_name": "aa1143/NamiDSH",
+      "url": "https://github.com/aa1143/NamiDSH",
+      "description": "对照 DeepSeek Harness 的迷你学习项目：迷你版 Cordis + 迷你版 DSH + 网页端 Agent",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "cordis",
+        "deepseek-harness",
+        "plugin-architecture",
+        "typescript"
+      ],
+      "license": "MIT",
+      "stars": 134,
+      "forks": 16,
+      "created_at": "2026-11-05T06:10:10Z",
+      "pushed_at": "2026-11-05T13:03:00Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 80,
+      "verified_at": "2026-11-06T12:30:23+00:00"
+    },
+    {
+      "rank": 10,
+      "full_name": "KKKKhazix/agent-autoloop",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "description": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "automation",
+        "claude-code",
+        "cli",
+        "codex",
+        "event-driven",
+        "mcp",
+        "nodejs",
+        "self-hosted",
+        "typescript",
+        "workflow"
+      ],
+      "license": "MIT",
+      "stars": 3486,
+      "forks": 640,
+      "created_at": "2026-11-03T08:02:11Z",
+      "pushed_at": "2026-11-06T12:12:41Z",
+      "growth": {
+        "since": "2026-11-05",
+        "window_days": 1,
+        "stars_gained": 435,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 79,
+      "verified_at": "2026-11-06T12:30:24+00:00"
+    }
+  ]
+}
