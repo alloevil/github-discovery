@@ -1,75 +1,5 @@
 {
  "repos": {
-  "Snapintosh/Snapintosh": {
-   "first_seen": "2026-10-23",
-   "until": "2026-11-06",
-   "stars_at_discovery": 658,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "zita-ch/supermimic_vibed": {
-   "first_seen": "2026-10-23",
-   "until": "2026-11-06",
-   "stars_at_discovery": 375,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "omnara-ai/omnara": {
-   "first_seen": "2026-10-23",
-   "until": "2026-11-06",
-   "stars_at_discovery": 3192,
-   "score_at_discovery": 93,
-   "source_at_discovery": "hn"
-  },
-  "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC": {
-   "first_seen": "2026-10-23",
-   "until": "2026-11-06",
-   "stars_at_discovery": 921,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "pengchujin/aerial-tv": {
-   "first_seen": "2026-10-23",
-   "until": "2026-11-06",
-   "stars_at_discovery": 3526,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "openai/php2shell-checker": {
-   "first_seen": "2026-10-23",
-   "until": "2026-11-06",
-   "stars_at_discovery": 870,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "assetnote/php2shell-scanner": {
-   "first_seen": "2026-10-23",
-   "until": "2026-11-06",
-   "stars_at_discovery": 373,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "EthanArbuckle/fairplay-decrypt": {
-   "first_seen": "2026-10-23",
-   "until": "2026-11-06",
-   "stars_at_discovery": 1003,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "xevrion/hatchzip": {
-   "first_seen": "2026-10-23",
-   "until": "2026-11-06",
-   "stars_at_discovery": 128,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "ikow/php2shell-poc": {
-   "first_seen": "2026-10-23",
-   "until": "2026-11-06",
-   "stars_at_discovery": 1615,
-   "score_at_discovery": 88,
-   "source_at_discovery": "search"
-  },
   "wesbos/3d-model-anything": {
    "first_seen": "2026-10-24",
    "until": "2026-11-07",
@@ -1119,7 +1049,77 @@
    "stars_at_discovery": 62787,
    "score_at_discovery": 100,
    "source_at_discovery": "trending"
+  },
+  "zed-industries/zed": {
+   "first_seen": "2026-11-07",
+   "until": "2026-11-21",
+   "stars_at_discovery": 94017,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "astral-sh/ruff": {
+   "first_seen": "2026-11-07",
+   "until": "2026-11-21",
+   "stars_at_discovery": 50800,
+   "score_at_discovery": 98,
+   "source_at_discovery": "trending"
+  },
+  "prometheus/prometheus": {
+   "first_seen": "2026-11-07",
+   "until": "2026-11-21",
+   "stars_at_discovery": 67280,
+   "score_at_discovery": 97,
+   "source_at_discovery": "trending"
+  },
+  "vercel-labs/agent-browser": {
+   "first_seen": "2026-11-07",
+   "until": "2026-11-21",
+   "stars_at_discovery": 46388,
+   "score_at_discovery": 96,
+   "source_at_discovery": "trending"
+  },
+  "NotRexed/Hookshot": {
+   "first_seen": "2026-11-07",
+   "until": "2026-11-21",
+   "stars_at_discovery": 836,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "voyager-so/vork": {
+   "first_seen": "2026-11-07",
+   "until": "2026-11-21",
+   "stars_at_discovery": 600,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "phaseboulderfetter/discord-quest-completer": {
+   "first_seen": "2026-11-07",
+   "until": "2026-11-21",
+   "stars_at_discovery": 425,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "imraywang/ray-sticker-shop": {
+   "first_seen": "2026-11-07",
+   "until": "2026-11-21",
+   "stars_at_discovery": 351,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "WoYun520/gif-factory": {
+   "first_seen": "2026-11-07",
+   "until": "2026-11-21",
+   "stars_at_discovery": 594,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "PackArtisanMold/phone-to-webcam": {
+   "first_seen": "2026-11-07",
+   "until": "2026-11-21",
+   "stars_at_discovery": 243,
+   "score_at_discovery": 93,
+   "source_at_discovery": "rising"
   }
  },
- "updated_at": "2026-11-06T12:34:50.875421+00:00"
+ "updated_at": "2026-11-07T11:24:47.412097+00:00"
 }

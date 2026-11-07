@@ -1708,11 +1708,12 @@
       "last_recommended": "2026-10-29T11:08:05.084113+00:00"
     },
     "milind-soni/OpenMausBot": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-10-30T11:02:42.058717+00:00"
+      "last_recommended": "2026-11-07T11:21:15.607802+00:00"
     },
     "CopilotKit/OpenBot": {
       "count": 1,
@@ -2266,7 +2267,77 @@
         91
       ],
       "last_recommended": "2026-11-06T12:30:20.230382+00:00"
+    },
+    "zed-industries/zed": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-07T11:21:15.590491+00:00"
+    },
+    "astral-sh/ruff": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-11-07T11:21:15.592454+00:00"
+    },
+    "prometheus/prometheus": {
+      "count": 1,
+      "scores": [
+        97
+      ],
+      "last_recommended": "2026-11-07T11:21:15.594143+00:00"
+    },
+    "vercel-labs/agent-browser": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-07T11:21:15.595841+00:00"
+    },
+    "NotRexed/Hookshot": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-07T11:21:15.597598+00:00"
+    },
+    "voyager-so/vork": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-07T11:21:15.599320+00:00"
+    },
+    "phaseboulderfetter/discord-quest-completer": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-07T11:21:15.601001+00:00"
+    },
+    "imraywang/ray-sticker-shop": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-07T11:21:15.602686+00:00"
+    },
+    "WoYun520/gif-factory": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-07T11:21:15.604400+00:00"
+    },
+    "PackArtisanMold/phone-to-webcam": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-07T11:21:15.606066+00:00"
     }
   },
-  "updated_at": "2026-11-06T12:30:20.234527+00:00"
+  "updated_at": "2026-11-07T11:21:15.607822+00:00"
 }
