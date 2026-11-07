@@ -3,79 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "mattpocock/skills",
-   "stars": 317134,
-   "language": "Shell"
-  },
-  {
-   "full_name": "anthropics/skills",
-   "stars": 188332,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "sherlock-project/sherlock",
-   "stars": 99268,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "tailwindlabs/tailwindcss",
-   "stars": 98183,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "zed-industries/zed",
-   "stars": 94017,
-   "language": "Rust"
-  },
-  {
-   "full_name": "prometheus/prometheus",
-   "stars": 67280,
-   "language": "Go"
-  },
-  {
-   "full_name": "cloudflare/security-audit-skill",
-   "stars": 64723,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "astral-sh/ruff",
-   "stars": 50800,
-   "language": "Rust"
-  },
-  {
-   "full_name": "vercel-labs/agent-browser",
-   "stars": 46388,
-   "language": "Rust"
-  },
-  {
-   "full_name": "google/skills",
-   "stars": 23044,
-   "language": "Python"
-  },
-  {
-   "full_name": "milind-soni/OpenMausBot",
-   "stars": 16148,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "meta/astryx",
-   "stars": 14109,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "ranxianglei/billion-context",
-   "stars": 4383,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "mbillow/localthings",
-   "stars": 929,
-   "language": "Python"
-  },
-  {
-   "full_name": "dsx-ai-factory/nvke",
-   "stars": 329,
-   "language": "Go"
   }
  ]
 }
