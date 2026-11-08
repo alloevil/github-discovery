@@ -1,0 +1,81 @@
+{
+ "date": "2026-11-08",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "mattpocock/skills",
+   "stars": 318115,
+   "language": "Shell"
+  },
+  {
+   "full_name": "anthropics/skills",
+   "stars": 189100,
+   "language": "Python"
+  },
+  {
+   "full_name": "sherlock-project/sherlock",
+   "stars": 101619,
+   "language": "Python"
+  },
+  {
+   "full_name": "tailwindlabs/tailwindcss",
+   "stars": 98640,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "zed-industries/zed",
+   "stars": 94419,
+   "language": "Rust"
+  },
+  {
+   "full_name": "prometheus/prometheus",
+   "stars": 67538,
+   "language": "Go"
+  },
+  {
+   "full_name": "cloudflare/security-audit-skill",
+   "stars": 66297,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "astral-sh/ruff",
+   "stars": 51079,
+   "language": "Rust"
+  },
+  {
+   "full_name": "vercel-labs/agent-browser",
+   "stars": 47194,
+   "language": "Rust"
+  },
+  {
+   "full_name": "google/skills",
+   "stars": 23630,
+   "language": "Python"
+  },
+  {
+   "full_name": "milind-soni/OpenMausBot",
+   "stars": 17576,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "meta/astryx",
+   "stars": 14963,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "ranxianglei/billion-context",
+   "stars": 4822,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "mbillow/localthings",
+   "stars": 1130,
+   "language": "Python"
+  },
+  {
+   "full_name": "dsx-ai-factory/nvke",
+   "stars": 676,
+   "language": "Go"
+  }
+ ]
+}

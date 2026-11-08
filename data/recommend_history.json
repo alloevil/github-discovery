@@ -107,14 +107,6 @@
       ],
       "last_recommended": "2026-10-11T11:02:26.071093+00:00"
     },
-    "liquidslr/system-design-notes": {
-      "count": 2,
-      "scores": [
-        90,
-        76
-      ],
-      "last_recommended": "2026-10-08T11:38:17.170938+00:00"
-    },
     "alibaba/open-code-review": {
       "count": 2,
       "scores": [
@@ -239,69 +231,6 @@
         100
       ],
       "last_recommended": "2026-10-16T09:19:03.650955+00:00"
-    },
-    "EpicGames/raddebugger": {
-      "count": 1,
-      "scores": [
-        97
-      ],
-      "last_recommended": "2026-10-08T11:38:17.151132+00:00"
-    },
-    "alejandrobujan/tendedero": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-08T11:38:17.153153+00:00"
-    },
-    "LoreanXavier/pt-pc": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-08T11:38:17.155099+00:00"
-    },
-    "nullmoth/nvidia-macos-driver": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-08T11:38:17.157104+00:00"
-    },
-    "pingdotgg/ts-rust": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-08T11:38:17.159082+00:00"
-    },
-    "bas3line/ascii": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-10-08T11:38:17.161035+00:00"
-    },
-    "nano-muse/nanoMuse": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-10-08T11:38:17.162982+00:00"
-    },
-    "LosaLosSantos/aurelio-finance": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-08T11:38:17.164975+00:00"
-    },
-    "szabadkai/c64-keyboard-font": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-10-08T11:38:17.166960+00:00"
     },
     "zhongerxin/iPhone-use": {
       "count": 1,
@@ -2337,7 +2266,77 @@
         93
       ],
       "last_recommended": "2026-11-07T11:21:15.606066+00:00"
+    },
+    "meta/astryx": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-08T11:32:28.357640+00:00"
+    },
+    "tailwindlabs/tailwindcss": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-08T11:32:28.359978+00:00"
+    },
+    "sarpstar/cinecode": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-08T11:32:28.362113+00:00"
+    },
+    "ranxianglei/billion-context": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-11-08T11:32:28.364242+00:00"
+    },
+    "dsx-ai-factory/nvke": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-11-08T11:32:28.366438+00:00"
+    },
+    "mbillow/localthings": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-08T11:32:28.368597+00:00"
+    },
+    "sostenesfreitas/ocarina-recomp": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-08T11:32:28.370765+00:00"
+    },
+    "Th0rgal/satmux": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-08T11:32:28.372968+00:00"
+    },
+    "MuseumCassowaryCarve/twitch-drops-miner": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-08T11:32:28.375111+00:00"
+    },
+    "Poltergeistlunagrid/Steam-Idler": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-08T11:32:28.377240+00:00"
     }
   },
-  "updated_at": "2026-11-07T11:21:15.607822+00:00"
+  "updated_at": "2026-11-08T11:32:28.377267+00:00"
 }

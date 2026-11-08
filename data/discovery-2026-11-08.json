@@ -1,0 +1,329 @@
+{
+ "date": "2026-11-08",
+ "generated_at": "2026-11-08T11:32:28.380832",
+ "pool_size": 110,
+ "source_health": {
+  "trending": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 5
+  },
+  "search": {
+   "fetched": 68,
+   "parsed": 68,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 5
+  },
+  "hn": {
+   "fetched": 12,
+   "parsed": 12,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 2,
+   "parsed": 2,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 32,
+   "parsed": 32,
+   "rejected": 0,
+   "deduplicated": 6,
+   "recommended": 1
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "meta/astryx",
+   "url": "https://github.com/meta/astryx",
+   "description": "An open source design system that's fully customizable and agent ready",
+   "language": "TypeScript",
+   "stars": 14963,
+   "forks": 1221,
+   "age_days": 302,
+   "daily_stars": 49.54635761589404,
+   "real_daily_stars": 854.0,
+   "watchers": 80,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "tailwindlabs/tailwindcss",
+   "url": "https://github.com/tailwindlabs/tailwindcss",
+   "description": "A utility-first CSS framework for rapid UI development.",
+   "language": "TypeScript",
+   "stars": 98640,
+   "forks": 7119,
+   "age_days": 3319,
+   "daily_stars": 29.71979511901175,
+   "real_daily_stars": 457.0,
+   "watchers": 737,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "sarpstar/cinecode",
+   "url": "https://github.com/sarpstar/cinecode",
+   "description": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
+   "language": "Python",
+   "stars": 1232,
+   "forks": 225,
+   "age_days": 5,
+   "daily_stars": 246.4,
+   "real_daily_stars": 717.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "ranxianglei/billion-context",
+   "url": "https://github.com/ranxianglei/billion-context",
+   "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+   "language": "TypeScript",
+   "stars": 4822,
+   "forks": 388,
+   "age_days": 94,
+   "daily_stars": 51.297872340425535,
+   "real_daily_stars": 439.0,
+   "watchers": 10,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "dsx-ai-factory/nvke",
+   "url": "https://github.com/dsx-ai-factory/nvke",
+   "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+   "language": "Go",
+   "stars": 676,
+   "forks": 102,
+   "age_days": 95,
+   "daily_stars": 7.11578947368421,
+   "real_daily_stars": 347.0,
+   "watchers": 10,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 98,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "mbillow/localthings",
+   "url": "https://github.com/mbillow/localthings",
+   "description": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
+   "language": "Python",
+   "stars": 1130,
+   "forks": 115,
+   "age_days": 130,
+   "daily_stars": 8.692307692307692,
+   "real_daily_stars": 201.0,
+   "watchers": 5,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "sostenesfreitas/ocarina-recomp",
+   "url": "https://github.com/sostenesfreitas/ocarina-recomp",
+   "description": "Ocarina of Time running natively on Windows, no emulator. Built on your PC from your own copy. No game files included.",
+   "language": "C",
+   "stars": 865,
+   "forks": 48,
+   "age_days": 1,
+   "daily_stars": 865.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Th0rgal/satmux",
+   "url": "https://github.com/Th0rgal/satmux",
+   "description": "Accelerate high-latency GEO inflight Wi-Fi via warm BBR TCP multiplexing + 1-RTT Ground-TLS + zlib (zero dependencies)",
+   "language": "Python",
+   "stars": 719,
+   "forks": 36,
+   "age_days": 1,
+   "daily_stars": 719.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "MuseumCassowaryCarve/twitch-drops-miner",
+   "url": "https://github.com/MuseumCassowaryCarve/twitch-drops-miner",
+   "description": "Auto-farm Twitch drops in the background. Claim rewards, switch channels, and mine timed drops with zero video download. Lightweight AFK miner for Windows, macOS, and Linux.",
+   "language": "Python",
+   "stars": 425,
+   "forks": 281,
+   "age_days": 1,
+   "daily_stars": 425.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "Poltergeistlunagrid/Steam-Idler",
+   "url": "https://github.com/Poltergeistlunagrid/Steam-Idler",
+   "description": "Steam Idler, Card Farmer & Playtime Booster. Idle multiple games to farm trading cards, boost playtime hours, and manage multiple accounts. Lightweight, open-source, and easy to use.",
+   "language": "Python",
+   "stars": 425,
+   "forks": 313,
+   "age_days": 1,
+   "daily_stars": 425.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  }
+ ],
+ "repeat": []
+}
