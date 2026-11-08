@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-07T18:00:00Z</updated>
+  <updated>2026-11-08T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>meta/astryx — An open source design system that's fully customizable and agent ready</title>
+    <id>https://github.com/meta/astryx#2026-11-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/meta/astryx"/>
+    <updated>2026-11-08T18:00:00Z</updated>
+    <published>2026-11-08T18:00:00Z</published>
+    <summary>An open source design system that's fully customizable and agent ready
+
+Why: +854/day · Trending · 17.2x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 14963 (+854.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>tailwindlabs/tailwindcss — A utility-first CSS framework for rapid UI development.</title>
+    <id>https://github.com/tailwindlabs/tailwindcss#2026-11-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/tailwindlabs/tailwindcss"/>
+    <updated>2026-11-08T18:00:00Z</updated>
+    <published>2026-11-08T18:00:00Z</published>
+    <summary>A utility-first CSS framework for rapid UI development.
+
+Why: +457/day · Trending · 15.4x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 98640 (+457.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>sarpstar/cinecode — Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.</title>
+    <id>https://github.com/sarpstar/cinecode#2026-11-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/sarpstar/cinecode"/>
+    <updated>2026-11-08T18:00:00Z</updated>
+    <published>2026-11-08T18:00:00Z</published>
+    <summary>Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.
+
+Why: +717/day · Search+AI/ML · 2.9x accelerating
+Score: 100/100 | Language: Python | ⭐ 1232 (+717.0/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>ranxianglei/billion-context — A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need</title>
+    <id>https://github.com/ranxianglei/billion-context#2026-11-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ranxianglei/billion-context"/>
+    <updated>2026-11-08T18:00:00Z</updated>
+    <published>2026-11-08T18:00:00Z</published>
+    <summary>A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need
+
+Why: +439/day · Trending · 8.6x accelerating
+Score: 99/100 | Language: TypeScript | ⭐ 4822 (+439.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>dsx-ai-factory/nvke — NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.</title>
+    <id>https://github.com/dsx-ai-factory/nvke#2026-11-08</id>
+    <link rel="alternate" type="text/html" href="https://github.com/dsx-ai-factory/nvke"/>
+    <updated>2026-11-08T18:00:00Z</updated>
+    <published>2026-11-08T18:00:00Z</published>
+    <summary>NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.
+
+Why: +347/day · Trending · 48.8x accelerating
+Score: 98/100 | Language: Go | ⭐ 676 (+347.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>zed-industries/zed — Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.</title>
     <id>https://github.com/zed-industries/zed#2026-11-07</id>
@@ -866,71 +921,5 @@ Score: 95/100 | Language: Shell | ⭐ 445 (+445.0/day) | Source: ai-trending</su
 
 Why: +1609/day · Trending · 3.6x accelerating
 Score: 100/100 | Language: Python | ⭐ 87776 (+1608.7/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>luongnv89/claude-howto — A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.</title>
-    <id>https://github.com/luongnv89/claude-howto#2026-10-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/luongnv89/claude-howto"/>
-    <updated>2026-10-25T18:00:00Z</updated>
-    <published>2026-10-25T18:00:00Z</published>
-    <summary>A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.
-
-Why: +573/day · Trending · 4.5x accelerating
-Score: 100/100 | Language: Python | ⭐ 44810 (+573.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>rddmwmddr/android-ad-cleaner — 关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。</title>
-    <id>https://github.com/rddmwmddr/android-ad-cleaner#2026-10-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/rddmwmddr/android-ad-cleaner"/>
-    <updated>2026-10-25T18:00:00Z</updated>
-    <published>2026-10-25T18:00:00Z</published>
-    <summary>关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。
-
-Why: +330/day · Search
-Score: 94/100 | Language: Python | ⭐ 330 (+330.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>mizorewww/gdirect — Rust Google Drive direct downloader using pinned libaria2</title>
-    <id>https://github.com/mizorewww/gdirect#2026-10-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mizorewww/gdirect"/>
-    <updated>2026-10-25T18:00:00Z</updated>
-    <published>2026-10-25T18:00:00Z</published>
-    <summary>Rust Google Drive direct downloader using pinned libaria2
-
-Why: +211/day · Search
-Score: 92/100 | Language: Rust | ⭐ 211 (+211.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>morganlinton/BeautifulRust — A Claude Code plugin that teaches Claude to write idiomatic, robust Rust</title>
-    <id>https://github.com/morganlinton/BeautifulRust#2026-10-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/morganlinton/BeautifulRust"/>
-    <updated>2026-10-25T18:00:00Z</updated>
-    <published>2026-10-25T18:00:00Z</published>
-    <summary>A Claude Code plugin that teaches Claude to write idiomatic, robust Rust
-
-Why: +173/day · Search
-Score: 91/100 | Language: Python | ⭐ 346 (+173.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>recursive-oss/rec — Our lightning-fast inference engine.</title>
-    <id>https://github.com/recursive-oss/rec#2026-10-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/recursive-oss/rec"/>
-    <updated>2026-10-25T18:00:00Z</updated>
-    <published>2026-10-25T18:00:00Z</published>
-    <summary>Our lightning-fast inference engine.
-
-Why: +64/day · AI/ML
-Score: 86/100 | Language: Python | ⭐ 191 (+63.7/day) | Source: ai-trending</summary>
-  </entry>
-  <entry>
-    <title>pbakaus/impeccable — The design language that makes your AI harness better at design.</title>
-    <id>https://github.com/pbakaus/impeccable#2026-10-25</id>
-    <link rel="alternate" type="text/html" href="https://github.com/pbakaus/impeccable"/>
-    <updated>2026-10-25T18:00:00Z</updated>
-    <published>2026-10-25T18:00:00Z</published>
-    <summary>The design language that makes your AI harness better at design.
-
-Why: +506/day · Trending · 2.0x accelerating
-Score: 95/100 | Language: Rust | ⭐ 86786 (+505.6/day) | Source: trending</summary>
   </entry>
 </feed>
