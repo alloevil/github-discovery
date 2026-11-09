@@ -3,58 +3,13 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "anthropics/skills",
-   "stars": 190242,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "sherlock-project/sherlock",
-   "stars": 106053,
-   "language": "Python"
-  },
-  {
-   "full_name": "ruvnet/RuView",
-   "stars": 103177,
-   "language": "Rust"
-  },
-  {
-   "full_name": "ZhuLinsen/daily_stock_analysis",
-   "stars": 68499,
-   "language": "Python"
-  },
-  {
-   "full_name": "vercel-labs/agent-browser",
-   "stars": 48156,
-   "language": "Rust"
-  },
-  {
-   "full_name": "garrytan/gbrain",
-   "stars": 31890,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "anthropics/claude-quickstarts",
-   "stars": 19761,
-   "language": "Python"
-  },
-  {
-   "full_name": "milind-soni/OpenMausBot",
-   "stars": 19241,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "meta/astryx",
-   "stars": 18531,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "google-deepmind/mujoco",
-   "stars": 16742,
-   "language": "C++"
-  },
-  {
-   "full_name": "homeassistant-ai/ha-mcp",
-   "stars": 5587,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
   }
  ]
