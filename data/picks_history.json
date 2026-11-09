@@ -319,7 +319,47 @@
     "KKKKhazix/agent-autoloop": {
       "first_picked": "2026-11-06",
       "source": "github-discovery"
+    },
+    "open-sdr/openwifi": {
+      "first_picked": "2026-11-09",
+      "source": "github-discovery"
+    },
+    "stnolting/neorv32": {
+      "first_picked": "2026-11-09",
+      "source": "github-discovery"
+    },
+    "shanselman/gputaskman": {
+      "first_picked": "2026-11-09",
+      "source": "github-discovery"
+    },
+    "Nanoutrolley/roblox-studio-mcp": {
+      "first_picked": "2026-11-09",
+      "source": "github-discovery"
+    },
+    "DIYgod/pinky": {
+      "first_picked": "2026-11-09",
+      "source": "github-discovery"
+    },
+    "AutocratMinaret/valorant-ai-clip-editor": {
+      "first_picked": "2026-11-09",
+      "source": "github-discovery"
+    },
+    "Sandflow-ai/sand3d": {
+      "first_picked": "2026-11-09",
+      "source": "github-discovery"
+    },
+    "yucezerey/turkish-anti-ai-skill": {
+      "first_picked": "2026-11-09",
+      "source": "github-discovery"
+    },
+    "ngophatneknha/ai-engineering-hub": {
+      "first_picked": "2026-11-09",
+      "source": "github-discovery"
+    },
+    "ruvnet/RuView": {
+      "first_picked": "2026-11-09",
+      "source": "github-discovery"
     }
   },
-  "updated_at": "2026-11-06T12:30:24.358131+00:00"
+  "updated_at": "2026-11-09T13:23:43.163633+00:00"
 }

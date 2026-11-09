@@ -1,0 +1,394 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T13:23:43+00:00",
+  "every_days": 3,
+  "count": 10,
+  "semi_count": 2,
+  "semi_min_met": true,
+  "picks": [
+    {
+      "rank": 1,
+      "full_name": "open-sdr/openwifi",
+      "url": "https://github.com/open-sdr/openwifi",
+      "description": "open-source IEEE 802.11 WiFi baseband FPGA (chip) design: driver, software",
+      "topic": "semi",
+      "language": "C",
+      "topics": [
+        "802-11",
+        "ad9361",
+        "analog-devices",
+        "csma",
+        "dma",
+        "fpga",
+        "hardware",
+        "hls",
+        "ieee80211",
+        "linux",
+        "mac80211",
+        "ofdm",
+        "openwifi",
+        "sdr",
+        "software-defined-radio",
+        "verilog",
+        "wifi",
+        "xilinx",
+        "xilinx-fpga",
+        "zynq"
+      ],
+      "license": "AGPL-3.0",
+      "stars": 4865,
+      "forks": 828,
+      "created_at": "2019-11-08T11:07:20Z",
+      "pushed_at": "2026-10-22T14:18:58Z",
+      "growth": {
+        "since": "2026-11-02",
+        "window_days": 7,
+        "stars_gained": 8,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 60,
+      "verified_at": "2026-11-09T13:23:40+00:00"
+    },
+    {
+      "rank": 2,
+      "full_name": "stnolting/neorv32",
+      "url": "https://github.com/stnolting/neorv32",
+      "description": "🖥️ A small, customizable and extensible MCU-class 32-bit RISC-V soft-core CPU and microcontroller-like SoC written in platform-independent VHDL.",
+      "topic": "semi",
+      "language": "VHDL",
+      "topics": [
+        "asic",
+        "cpu",
+        "fpga",
+        "microcontroller",
+        "processor",
+        "risc-v",
+        "soc",
+        "soft-core",
+        "verilog",
+        "vhdl"
+      ],
+      "license": "BSD-3-Clause",
+      "stars": 2307,
+      "forks": 400,
+      "created_at": "2020-06-23T15:29:41Z",
+      "pushed_at": "2026-11-08T07:41:23Z",
+      "growth": {
+        "since": "2026-11-02",
+        "window_days": 7,
+        "stars_gained": 5,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 60,
+      "verified_at": "2026-11-09T13:23:40+00:00"
+    },
+    {
+      "rank": 3,
+      "full_name": "shanselman/gputaskman",
+      "url": "https://github.com/shanselman/gputaskman",
+      "description": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "stars": 1345,
+      "forks": 64,
+      "created_at": "2026-11-03T00:49:34Z",
+      "pushed_at": "2026-11-09T10:28:16Z",
+      "growth": {
+        "since": "2026-11-08",
+        "window_days": 1,
+        "stars_gained": 718,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "search",
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 90,
+      "verified_at": "2026-11-09T13:23:41+00:00"
+    },
+    {
+      "rank": 4,
+      "full_name": "Nanoutrolley/roblox-studio-mcp",
+      "url": "https://github.com/Nanoutrolley/roblox-studio-mcp",
+      "description": "Model Context Protocol (MCP) server for Roblox Studio. Connect AI assistants (Claude, Cursor, Cline) to read object trees, automate Lua scripting, and run playtests safely. Open-source AI bridge.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "ai-tools",
+        "automation",
+        "claude",
+        "cursor",
+        "game-development",
+        "lua",
+        "mcp",
+        "model-context-protocol",
+        "open-source",
+        "roblox",
+        "roblox-studio",
+        "typescript"
+      ],
+      "license": "MIT",
+      "stars": 279,
+      "forks": 215,
+      "created_at": "2026-11-09T08:58:06Z",
+      "pushed_at": "2026-11-09T08:58:38Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 83,
+      "verified_at": "2026-11-09T13:23:41+00:00"
+    },
+    {
+      "rank": 5,
+      "full_name": "DIYgod/pinky",
+      "url": "https://github.com/DIYgod/pinky",
+      "description": "Let AI agents use your phone, with you in the loop.",
+      "topic": "ai",
+      "language": "Go",
+      "topics": [],
+      "license": "Apache-2.0",
+      "stars": 1288,
+      "forks": 135,
+      "created_at": "2026-11-06T16:53:14Z",
+      "pushed_at": "2026-11-09T13:17:54Z",
+      "growth": {
+        "since": "2026-11-08",
+        "window_days": 1,
+        "stars_gained": 902,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 82,
+      "verified_at": "2026-11-09T13:23:41+00:00"
+    },
+    {
+      "rank": 6,
+      "full_name": "AutocratMinaret/valorant-ai-clip-editor",
+      "url": "https://github.com/AutocratMinaret/valorant-ai-clip-editor",
+      "description": "AI Valorant clip editor and montage maker with beat sync and NVENC",
+      "topic": "ai",
+      "language": "Rust",
+      "topics": [
+        "ai-video-editor",
+        "beat-sync",
+        "highlight-detection",
+        "montage-maker",
+        "tiktok-clips",
+        "valorant",
+        "valorant-clips",
+        "video-editor"
+      ],
+      "license": "MIT",
+      "stars": 167,
+      "forks": 10,
+      "created_at": "2026-11-08T18:36:49Z",
+      "pushed_at": "2026-11-09T11:55:03Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 81,
+      "verified_at": "2026-11-09T13:23:41+00:00"
+    },
+    {
+      "rank": 7,
+      "full_name": "Sandflow-ai/sand3d",
+      "url": "https://github.com/Sandflow-ai/sand3d",
+      "description": "3D modeling in Python, built for LLMs.",
+      "topic": "ai",
+      "language": "HTML",
+      "topics": [
+        "3d",
+        "blender",
+        "cad",
+        "llm",
+        "procedural-modeling",
+        "python",
+        "usd"
+      ],
+      "license": "Apache-2.0",
+      "stars": 1554,
+      "forks": 173,
+      "created_at": "2026-11-03T08:23:03Z",
+      "pushed_at": "2026-11-06T11:03:55Z",
+      "growth": {
+        "since": "2026-11-08",
+        "window_days": 1,
+        "stars_gained": 352,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "search",
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 80,
+      "verified_at": "2026-11-09T13:23:42+00:00"
+    },
+    {
+      "rank": 8,
+      "full_name": "yucezerey/turkish-anti-ai-skill",
+      "url": "https://github.com/yucezerey/turkish-anti-ai-skill",
+      "description": "Türkçe metinlerdeki yapay zeka izlerini (AI slop, translationese, çeviri kokan cümle mimarisi ve TDK hatalarını) temizleyen Agent Skill ve Humanizer paketi.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-skills",
+        "ai-writing",
+        "claude-code",
+        "codex",
+        "cursor-rules",
+        "de-slop",
+        "gemini-cli",
+        "humanizer",
+        "llm",
+        "prompt-engineering",
+        "tdk",
+        "turkish",
+        "turkish-nlp"
+      ],
+      "license": "MIT",
+      "stars": 277,
+      "forks": 21,
+      "created_at": "2026-11-05T20:08:28Z",
+      "pushed_at": "2026-11-08T21:30:56Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 78,
+      "verified_at": "2026-11-09T13:23:42+00:00"
+    },
+    {
+      "rank": 9,
+      "full_name": "ngophatneknha/ai-engineering-hub",
+      "url": "https://github.com/ngophatneknha/ai-engineering-hub",
+      "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications (Personal learning hub)",
+      "topic": "ai",
+      "language": "MDX",
+      "topics": [],
+      "license": "MIT",
+      "stars": 159,
+      "forks": 49,
+      "created_at": "2026-11-07T10:08:24Z",
+      "pushed_at": "2026-11-07T10:48:50Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 77,
+      "verified_at": "2026-11-09T13:23:42+00:00"
+    },
+    {
+      "rank": 10,
+      "full_name": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "topic": "ai",
+      "language": "Rust",
+      "topics": [
+        "claude",
+        "claude-code",
+        "esp32",
+        "firmware",
+        "home-assistant",
+        "home-automation",
+        "iot",
+        "mcp",
+        "monitoring",
+        "networking",
+        "pose-estimation",
+        "react",
+        "rf",
+        "self-learning",
+        "spatial-intelligence",
+        "typescript",
+        "webassembly",
+        "wifi",
+        "wifi-security"
+      ],
+      "license": "MIT",
+      "stars": 103178,
+      "forks": 13387,
+      "created_at": "2025-06-07T04:32:30Z",
+      "pushed_at": "2026-11-09T12:15:41Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 76,
+      "verified_at": "2026-11-09T13:23:42+00:00"
+    }
+  ]
+}

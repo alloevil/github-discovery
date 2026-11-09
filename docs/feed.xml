@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-08T18:00:00Z</updated>
+  <updated>2026-11-09T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>shanselman/gputaskman — A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).</title>
+    <id>https://github.com/shanselman/gputaskman#2026-11-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/shanselman/gputaskman"/>
+    <updated>2026-11-09T18:00:00Z</updated>
+    <published>2026-11-09T18:00:00Z</published>
+    <summary>A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).
+
+Why: +717/day · Search+AI/ML · 3.2x accelerating
+Score: 100/100 | Language: Python | ⭐ 1345 (+717.0/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>huamidev/GestaltX — An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.</title>
+    <id>https://github.com/huamidev/GestaltX#2026-11-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/huamidev/GestaltX"/>
+    <updated>2026-11-09T18:00:00Z</updated>
+    <published>2026-11-09T18:00:00Z</published>
+    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.
+
+Why: +642/day · Rising
+Score: 96/100 | Language: Swift | ⭐ 642 (+642.0/day) | Source: rising</summary>
+  </entry>
+  <entry>
+    <title>tangerineturtle1/NX2navi — No description</title>
+    <id>https://github.com/tangerineturtle1/NX2navi#2026-11-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/tangerineturtle1/NX2navi"/>
+    <updated>2026-11-09T18:00:00Z</updated>
+    <published>2026-11-09T18:00:00Z</published>
+    <summary>No description
+
+Why: +943/day · Search
+Score: 96/100 | Language: C | ⭐ 1886 (+943.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>IainKay/ram-altman — Monitors your RAM and reports any &quot;quite terrible&quot; unused capacity directly to the CEO of OpenAI.</title>
+    <id>https://github.com/IainKay/ram-altman#2026-11-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/IainKay/ram-altman"/>
+    <updated>2026-11-09T18:00:00Z</updated>
+    <published>2026-11-09T18:00:00Z</published>
+    <summary>Monitors your RAM and reports any &quot;quite terrible&quot; unused capacity directly to the CEO of OpenAI.
+
+Why: +373/day · Search
+Score: 95/100 | Language: Shell | ⭐ 1118 (+372.7/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>lxe/phoneuse — See and operate an unmodified iPhone from a Linux PC: AirPlay mirror in, Bluetooth HID mouse/keyboard out, plus a CLI and skill for agents.</title>
+    <id>https://github.com/lxe/phoneuse#2026-11-09</id>
+    <link rel="alternate" type="text/html" href="https://github.com/lxe/phoneuse"/>
+    <updated>2026-11-09T18:00:00Z</updated>
+    <published>2026-11-09T18:00:00Z</published>
+    <summary>See and operate an unmodified iPhone from a Linux PC: AirPlay mirror in, Bluetooth HID mouse/keyboard out, plus a CLI and skill for agents.
+
+Why: +254/day · Search
+Score: 93/100 | Language: Python | ⭐ 507 (+253.5/day) | Source: search</summary>
+  </entry>
   <entry>
     <title>meta/astryx — An open source design system that's fully customizable and agent ready</title>
     <id>https://github.com/meta/astryx#2026-11-08</id>
@@ -855,71 +910,5 @@ Score: 92/100 | Language: Python | ⭐ 104369 (+596.7/day) | Source: trending</s
 
 Why: +822/day · Trending
 Score: 90/100 | Language: JavaScript | ⭐ 290235 (+822.4/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>makecindy/cindy — Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。</title>
-    <id>https://github.com/makecindy/cindy#2026-10-26</id>
-    <link rel="alternate" type="text/html" href="https://github.com/makecindy/cindy"/>
-    <updated>2026-10-26T18:00:00Z</updated>
-    <published>2026-10-26T18:00:00Z</published>
-    <summary>Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。
-
-Why: +1263/day · Trending · 21.4x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 5609 (+1263.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>pollen-robotics/microduck — A Tiny biped duck robot 🦆</title>
-    <id>https://github.com/pollen-robotics/microduck#2026-10-26</id>
-    <link rel="alternate" type="text/html" href="https://github.com/pollen-robotics/microduck"/>
-    <updated>2026-10-26T18:00:00Z</updated>
-    <published>2026-10-26T18:00:00Z</published>
-    <summary>A Tiny biped duck robot 🦆
-
-Why: +850/day · Trending · 6.3x accelerating
-Score: 100/100 | Language: Rust | ⭐ 12070 (+850.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Renhuai123/ziwei-doushu — 紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据</title>
-    <id>https://github.com/Renhuai123/ziwei-doushu#2026-10-26</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Renhuai123/ziwei-doushu"/>
-    <updated>2026-10-26T18:00:00Z</updated>
-    <published>2026-10-26T18:00:00Z</published>
-    <summary>紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据
-
-Why: +516/day · Trending · 11.3x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 8146 (+516.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>DenisSergeevitch/ex-ussr-kinship-research — Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.</title>
-    <id>https://github.com/DenisSergeevitch/ex-ussr-kinship-research#2026-10-26</id>
-    <link rel="alternate" type="text/html" href="https://github.com/DenisSergeevitch/ex-ussr-kinship-research"/>
-    <updated>2026-10-26T18:00:00Z</updated>
-    <published>2026-10-26T18:00:00Z</published>
-    <summary>Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.
-
-Why: +636/day · Search+AI/ML
-Score: 96/100 | Language: Python | ⭐ 636 (+636.0/day) | Source: search + ai-trending</summary>
-  </entry>
-  <entry>
-    <title>wangrongding/tv-fresh — tv-fresh 电视焕新：小米电视(MIUI TV)去广告/清理预装/换桌面/装代理与影视仓的 Agent Skill——免root可逆，含固件逆向实录与一键脚本</title>
-    <id>https://github.com/wangrongding/tv-fresh#2026-10-26</id>
-    <link rel="alternate" type="text/html" href="https://github.com/wangrongding/tv-fresh"/>
-    <updated>2026-10-26T18:00:00Z</updated>
-    <published>2026-10-26T18:00:00Z</published>
-    <summary>tv-fresh 电视焕新：小米电视(MIUI TV)去广告/清理预装/换桌面/装代理与影视仓的 Agent Skill——免root可逆，含固件逆向实录与一键脚本
-
-Why: +445/day · AI/ML
-Score: 95/100 | Language: Shell | ⭐ 445 (+445.0/day) | Source: ai-trending</summary>
-  </entry>
-  <entry>
-    <title>debpalash/VoiceStudio — VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.</title>
-    <id>https://github.com/debpalash/VoiceStudio#2026-10-26</id>
-    <link rel="alternate" type="text/html" href="https://github.com/debpalash/VoiceStudio"/>
-    <updated>2026-10-26T18:00:00Z</updated>
-    <published>2026-10-26T18:00:00Z</published>
-    <summary>VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.
-
-Why: +1609/day · Trending · 3.6x accelerating
-Score: 100/100 | Language: Python | ⭐ 87776 (+1608.7/day) | Source: trending</summary>
   </entry>
 </feed>

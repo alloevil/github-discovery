@@ -1,0 +1,328 @@
+{
+ "date": "2026-11-09",
+ "generated_at": "2026-11-09T13:23:43.164361",
+ "pool_size": 132,
+ "source_health": {
+  "trending": {
+   "fetched": 11,
+   "parsed": 11,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  },
+  "search": {
+   "fetched": 72,
+   "parsed": 72,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 6
+  },
+  "hn": {
+   "fetched": 17,
+   "parsed": 17,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 3,
+   "parsed": 3,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 2
+  },
+  "ai-trending": {
+   "fetched": 34,
+   "parsed": 34,
+   "rejected": 0,
+   "deduplicated": 2,
+   "recommended": 2
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "shanselman/gputaskman",
+   "url": "https://github.com/shanselman/gputaskman",
+   "description": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).",
+   "language": "Python",
+   "stars": 1345,
+   "forks": 64,
+   "age_days": 6,
+   "daily_stars": 224.0,
+   "real_daily_stars": 717.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "huamidev/GestaltX",
+   "url": "https://github.com/huamidev/GestaltX",
+   "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
+   "language": "Swift",
+   "stars": 642,
+   "forks": 278,
+   "age_days": 1,
+   "daily_stars": 642.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "GPL-3.0",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 2,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "tangerineturtle1/NX2navi",
+   "url": "https://github.com/tangerineturtle1/NX2navi",
+   "description": "",
+   "language": "C",
+   "stars": 1886,
+   "forks": 101,
+   "age_days": 2,
+   "daily_stars": 943.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "IainKay/ram-altman",
+   "url": "https://github.com/IainKay/ram-altman",
+   "description": "Monitors your RAM and reports any \"quite terrible\" unused capacity directly to the CEO of OpenAI.",
+   "language": "Shell",
+   "stars": 1118,
+   "forks": 28,
+   "age_days": 3,
+   "daily_stars": 372.6666666666667,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Unlicense",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 4,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 14
+   }
+  },
+  {
+   "full_name": "lxe/phoneuse",
+   "url": "https://github.com/lxe/phoneuse",
+   "description": "See and operate an unmodified iPhone from a Linux PC: AirPlay mirror in, Bluetooth HID mouse/keyboard out, plus a CLI and skill for agents.",
+   "language": "Python",
+   "stars": 507,
+   "forks": 50,
+   "age_days": 2,
+   "daily_stars": 253.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "ridgecobblerslide/windows-animated-wallpapers",
+   "url": "https://github.com/ridgecobblerslide/windows-animated-wallpapers",
+   "description": "High-quality animated and live wallpapers for Windows 10 and 11. Smooth 60 FPS animations, low CPU usage, 4K support. Open-source, portable, and easy to set up.",
+   "language": "Python",
+   "stars": 279,
+   "forks": 264,
+   "age_days": 1,
+   "daily_stars": 279.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "ServantSieve/Roblox-Account-Manager-Multi-Account-Tool",
+   "url": "https://github.com/ServantSieve/Roblox-Account-Manager-Multi-Account-Tool",
+   "description": "Lightweight profile launcher and session organizer for Roblox. Easily manage multiple profiles, launch the game with saved sessions, and organize your playtime. Windows 10/11.",
+   "language": "Python",
+   "stars": 279,
+   "forks": 91,
+   "age_days": 1,
+   "daily_stars": 279.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "Nanoutrolley/roblox-studio-mcp",
+   "url": "https://github.com/Nanoutrolley/roblox-studio-mcp",
+   "description": "Model Context Protocol (MCP) server for Roblox Studio. Connect AI assistants (Claude, Cursor, Cline) to read object trees, automate Lua scripting, and run playtests safely. Open-source AI bridge.",
+   "language": "Python",
+   "stars": 279,
+   "forks": 215,
+   "age_days": 1,
+   "daily_stars": 279.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "description": "Public repository for Agent Skills",
+   "language": "Python",
+   "stars": 190242,
+   "forks": 22396,
+   "age_days": 412,
+   "daily_stars": 461.752427184466,
+   "real_daily_stars": 1142.0,
+   "watchers": 1160,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 92,
+    "acceleration": 37,
+    "quality": 25,
+    "antispam": 30,
+    "quality_bonus": 11
+   }
+  },
+  {
+   "full_name": "DIYgod/pinky",
+   "url": "https://github.com/DIYgod/pinky",
+   "description": "Let AI agents use your phone, with you in the loop.",
+   "language": "Go",
+   "stars": 1288,
+   "forks": 135,
+   "age_days": 2,
+   "daily_stars": 644.0,
+   "real_daily_stars": 902.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": []
+}

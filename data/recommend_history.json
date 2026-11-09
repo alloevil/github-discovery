@@ -107,14 +107,6 @@
       ],
       "last_recommended": "2026-10-11T11:02:26.071093+00:00"
     },
-    "alibaba/open-code-review": {
-      "count": 2,
-      "scores": [
-        100,
-        76
-      ],
-      "last_recommended": "2026-10-09T11:32:12.241633+00:00"
-    },
     "huggingface/transformers": {
       "count": 2,
       "scores": [
@@ -231,146 +223,6 @@
         100
       ],
       "last_recommended": "2026-10-16T09:19:03.650955+00:00"
-    },
-    "zhongerxin/iPhone-use": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-09T11:32:12.219956+00:00"
-    },
-    "noahdunnagan/fsearch": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-09T11:32:12.222417+00:00"
-    },
-    "ThariqS/ai-newtab": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-10-09T11:32:12.224567+00:00"
-    },
-    "jiwoochris/artex-ko": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-09T11:32:12.226671+00:00"
-    },
-    "alchaincyf/huashu-art-motion": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-09T11:32:12.228857+00:00"
-    },
-    "Stellar-Sentinel/sentinel-contracts": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-09T11:32:12.230987+00:00"
-    },
-    "ToiCF/CF-Workers-TGProxy": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-09T11:32:12.233123+00:00"
-    },
-    "finnvoor/PiDurableKit": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-09T11:32:12.235230+00:00"
-    },
-    "nullmoth/1401": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-10-09T11:32:12.237348+00:00"
-    },
-    "BinceQu/RoboHarness": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-10-09T11:32:12.239501+00:00"
-    },
-    "BerriAI/litellm": {
-      "count": 1,
-      "scores": [
-        99
-      ],
-      "last_recommended": "2026-10-10T10:49:49.062022+00:00"
-    },
-    "Robbyant/lingbot-map": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-10T10:49:49.064480+00:00"
-    },
-    "twostraws/SwiftUI-Agent-Skill": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-10T10:49:49.066694+00:00"
-    },
-    "HelixDB/helix-foundry": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-10T10:49:49.068854+00:00"
-    },
-    "mrsarac/ff-tracking": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-10-10T10:49:49.071091+00:00"
-    },
-    "t4t5/omdrop-owl": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-10T10:49:49.073256+00:00"
-    },
-    "Stellar-Clear/clearledger-contracts": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-10T10:49:49.075382+00:00"
-    },
-    "sirioberati/Genjustsu-Open-Source-Workflow": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-10T10:49:49.077579+00:00"
-    },
-    "binwu1/drama-series-agent": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-10-10T10:49:49.079712+00:00"
-    },
-    "GTKottman/mortiflix-oss": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-10-10T10:49:49.081851+00:00"
     },
     "rociiu/talorys": {
       "count": 1,
@@ -2336,7 +2188,77 @@
         95
       ],
       "last_recommended": "2026-11-08T11:32:28.377240+00:00"
+    },
+    "shanselman/gputaskman": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-09T13:23:40.185056+00:00"
+    },
+    "huamidev/GestaltX": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-09T13:23:40.187583+00:00"
+    },
+    "tangerineturtle1/NX2navi": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-09T13:23:40.189500+00:00"
+    },
+    "IainKay/ram-altman": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-09T13:23:40.195395+00:00"
+    },
+    "lxe/phoneuse": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-09T13:23:40.197362+00:00"
+    },
+    "ridgecobblerslide/windows-animated-wallpapers": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-09T13:23:40.199262+00:00"
+    },
+    "ServantSieve/Roblox-Account-Manager-Multi-Account-Tool": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-09T13:23:40.201194+00:00"
+    },
+    "Nanoutrolley/roblox-studio-mcp": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-09T13:23:40.203128+00:00"
+    },
+    "anthropics/skills": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-09T13:23:40.204990+00:00"
+    },
+    "DIYgod/pinky": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-09T13:23:40.206913+00:00"
     }
   },
-  "updated_at": "2026-11-08T11:32:28.377267+00:00"
+  "updated_at": "2026-11-09T13:23:40.206936+00:00"
 }
