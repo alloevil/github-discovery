@@ -3,64 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "mattpocock/skills",
-   "stars": 320363,
-   "language": "Shell"
-  },
-  {
-   "full_name": "anthropics/skills",
-   "stars": 191808,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "addyosmani/agent-skills",
-   "stars": 114812,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "sherlock-project/sherlock",
-   "stars": 108277,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "vercel-labs/agent-browser",
-   "stars": 48909,
-   "language": "Rust"
-  },
-  {
-   "full_name": "meta/astryx",
-   "stars": 21562,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "anthropics/claude-quickstarts",
-   "stars": 20266,
-   "language": "Python"
-  },
-  {
-   "full_name": "google-deepmind/mujoco",
-   "stars": 17170,
-   "language": "C++"
-  },
-  {
-   "full_name": "we-promise/sure",
-   "stars": 11450,
-   "language": "Ruby"
-  },
-  {
-   "full_name": "tokio-rs/topcoat",
-   "stars": 6600,
-   "language": "Rust"
-  },
-  {
-   "full_name": "homeassistant-ai/ha-mcp",
-   "stars": 6352,
-   "language": "Python"
-  },
-  {
-   "full_name": "ranxianglei/billion-context",
-   "stars": 5989,
-   "language": "TypeScript"
   }
  ]
 }
