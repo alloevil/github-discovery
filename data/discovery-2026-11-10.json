@@ -1,0 +1,333 @@
+{
+ "date": "2026-11-10",
+ "generated_at": "2026-11-10T13:00:43.758838",
+ "pool_size": 129,
+ "source_health": {
+  "trending": {
+   "fetched": 12,
+   "parsed": 12,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 3
+  },
+  "search": {
+   "fetched": 73,
+   "parsed": 73,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 5
+  },
+  "hn": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 2
+  },
+  "rising": {
+   "fetched": 2,
+   "parsed": 2,
+   "rejected": 0,
+   "deduplicated": 2,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 40,
+   "parsed": 40,
+   "rejected": 0,
+   "deduplicated": 2,
+   "recommended": 0
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 1
+  }
+ },
+ "new": [
+  {
+   "full_name": "anthropics/claude-quickstarts",
+   "url": "https://github.com/anthropics/claude-quickstarts",
+   "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+   "language": "Python",
+   "stars": 20266,
+   "forks": 3387,
+   "age_days": 802,
+   "daily_stars": 25.26932668329177,
+   "real_daily_stars": 505.0,
+   "watchers": 180,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "homeassistant-ai/ha-mcp",
+   "url": "https://github.com/homeassistant-ai/ha-mcp",
+   "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+   "language": "Python",
+   "stars": 6352,
+   "forks": 348,
+   "age_days": 421,
+   "daily_stars": 15.087885985748219,
+   "real_daily_stars": 765.0,
+   "watchers": 20,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "google-deepmind/mujoco",
+   "url": "https://github.com/google-deepmind/mujoco",
+   "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+   "language": "C++",
+   "stars": 17170,
+   "forks": 2069,
+   "age_days": 1901,
+   "daily_stars": 9.032088374539716,
+   "real_daily_stars": 428.0,
+   "watchers": 142,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Kianuni/Erosion-CN",
+   "url": "https://github.com/Kianuni/Erosion-CN",
+   "description": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
+   "language": "Swift",
+   "stars": 713,
+   "forks": 148,
+   "age_days": 1,
+   "daily_stars": 713.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "OmniJev/Flide",
+   "url": "https://github.com/OmniJev/Flide",
+   "description": "🔥🔥 The extremely fast inference engine for decision model",
+   "language": "Python",
+   "stars": 329,
+   "forks": 13,
+   "age_days": 17,
+   "daily_stars": 19.352941176470587,
+   "real_daily_stars": 186.0,
+   "watchers": 1,
+   "source": "hn",
+   "sources": [
+    "hn",
+    "hf-papers"
+   ],
+   "license": "Apache-2.0",
+   "hn_title": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
+   "hn_score": 123,
+   "hf_title": "Flide: Accelerating Decision Inference with Exact State Forking",
+   "hf_upvotes": 23,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Sectionsereclaim/discord-auto-quest",
+   "url": "https://github.com/Sectionsereclaim/discord-auto-quest",
+   "description": "Advanced activity automation and process manager for Discord. Automatically handles game, video, and stream tasks in the background. Lightweight, fast, and easy setup.",
+   "language": "Python",
+   "stars": 279,
+   "forks": 279,
+   "age_days": 1,
+   "daily_stars": 279.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "TameCarpenterEstate/Roblox-FPS-Optimizer",
+   "url": "https://github.com/TameCarpenterEstate/Roblox-FPS-Optimizer",
+   "description": "Lightweight Roblox FPS Unlocker & Performance Optimizer for Windows. Remove the 60 FPS cap, fix lag, reduce input delay, and boost your frame rate safely. Open-source and portable.",
+   "language": "Python",
+   "stars": 279,
+   "forks": 234,
+   "age_days": 1,
+   "daily_stars": 279.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 7,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "Dodaios/ste80-humanizer",
+   "url": "https://github.com/Dodaios/ste80-humanizer",
+   "description": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared.",
+   "language": "Python",
+   "stars": 236,
+   "forks": 14,
+   "age_days": 1,
+   "daily_stars": 236.0,
+   "watchers": 0,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "MIT",
+   "hn_title": "Show HN: STE80 Humanizer – de-AI text by writing 80% of the way to ASD-STE100",
+   "hn_score": 96,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "Paulinho182/hitfilm-desktop-installer",
+   "url": "https://github.com/Paulinho182/hitfilm-desktop-installer",
+   "description": "HitFilm: Fully Featured Desktop Video Editing and VFX Suite",
+   "language": "TypeScript",
+   "stars": 480,
+   "forks": 0,
+   "age_days": 3,
+   "daily_stars": 160.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "ebtsamalhakmy-sketch/desktop-backup-suite",
+   "url": "https://github.com/ebtsamalhakmy-sketch/desktop-backup-suite",
+   "description": "Aomei Backupper 2026: Full-Feature Desktop Backup and Recovery Suite",
+   "language": "TypeScript",
+   "stars": 479,
+   "forks": 0,
+   "age_days": 3,
+   "daily_stars": 159.66666666666666,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  }
+ ],
+ "repeat": []
+}

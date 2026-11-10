@@ -1,82 +1,5 @@
 {
  "repos": {
-  "makecindy/cindy": {
-   "first_seen": "2026-10-26",
-   "until": "2026-11-09",
-   "stars_at_discovery": 5609,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "pollen-robotics/microduck": {
-   "first_seen": "2026-10-26",
-   "until": "2026-11-09",
-   "stars_at_discovery": 12070,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "Renhuai123/ziwei-doushu": {
-   "first_seen": "2026-10-26",
-   "until": "2026-11-09",
-   "stars_at_discovery": 8146,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "DenisSergeevitch/ex-ussr-kinship-research": {
-   "first_seen": "2026-10-26",
-   "until": "2026-11-09",
-   "stars_at_discovery": 636,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "wangrongding/tv-fresh": {
-   "first_seen": "2026-10-26",
-   "until": "2026-11-09",
-   "stars_at_discovery": 445,
-   "score_at_discovery": 95,
-   "source_at_discovery": "ai-trending"
-  },
-  "t3dotgg/tstack": {
-   "first_seen": "2026-10-26",
-   "until": "2026-11-09",
-   "stars_at_discovery": 601,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "surendrapandar/minilytics": {
-   "first_seen": "2026-10-26",
-   "until": "2026-11-09",
-   "stars_at_discovery": 508,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "andyhuo520/digital-human-koubo": {
-   "first_seen": "2026-10-26",
-   "until": "2026-11-09",
-   "stars_at_discovery": 274,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "DrWhax/unfairplay": {
-   "first_seen": "2026-10-26",
-   "until": "2026-11-09",
-   "stars_at_discovery": 275,
-   "score_at_discovery": 93,
-   "source_at_discovery": "rising"
-  },
-  "KillaBoi/StealMyBitcoin-PoC": {
-   "first_seen": "2026-10-26",
-   "until": "2026-11-09",
-   "stars_at_discovery": 546,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "debpalash/VoiceStudio": {
-   "first_seen": "2026-10-26",
-   "until": "2026-11-09",
-   "stars_at_discovery": 87776,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
   "TauricResearch/TradingAgents": {
    "first_seen": "2026-10-27",
    "until": "2026-11-10",
@@ -1105,7 +1028,77 @@
    "stars_at_discovery": 1288,
    "score_at_discovery": 92,
    "source_at_discovery": "search"
+  },
+  "anthropics/claude-quickstarts": {
+   "first_seen": "2026-11-10",
+   "until": "2026-11-24",
+   "stars_at_discovery": 20266,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "homeassistant-ai/ha-mcp": {
+   "first_seen": "2026-11-10",
+   "until": "2026-11-24",
+   "stars_at_discovery": 6352,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "google-deepmind/mujoco": {
+   "first_seen": "2026-11-10",
+   "until": "2026-11-24",
+   "stars_at_discovery": 17170,
+   "score_at_discovery": 99,
+   "source_at_discovery": "trending"
+  },
+  "Kianuni/Erosion-CN": {
+   "first_seen": "2026-11-10",
+   "until": "2026-11-24",
+   "stars_at_discovery": 713,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "OmniJev/Flide": {
+   "first_seen": "2026-11-10",
+   "until": "2026-11-24",
+   "stars_at_discovery": 329,
+   "score_at_discovery": 95,
+   "source_at_discovery": "hn"
+  },
+  "Sectionsereclaim/discord-auto-quest": {
+   "first_seen": "2026-11-10",
+   "until": "2026-11-24",
+   "stars_at_discovery": 279,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "TameCarpenterEstate/Roblox-FPS-Optimizer": {
+   "first_seen": "2026-11-10",
+   "until": "2026-11-24",
+   "stars_at_discovery": 279,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "Dodaios/ste80-humanizer": {
+   "first_seen": "2026-11-10",
+   "until": "2026-11-24",
+   "stars_at_discovery": 236,
+   "score_at_discovery": 92,
+   "source_at_discovery": "hn"
+  },
+  "Paulinho182/hitfilm-desktop-installer": {
+   "first_seen": "2026-11-10",
+   "until": "2026-11-24",
+   "stars_at_discovery": 480,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "ebtsamalhakmy-sketch/desktop-backup-suite": {
+   "first_seen": "2026-11-10",
+   "until": "2026-11-24",
+   "stars_at_discovery": 479,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-11-09T13:27:21.681785+00:00"
+ "updated_at": "2026-11-10T13:05:16.452716+00:00"
 }

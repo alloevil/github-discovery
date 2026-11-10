@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-09T18:00:00Z</updated>
+  <updated>2026-11-10T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>anthropics/claude-quickstarts — A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API</title>
+    <id>https://github.com/anthropics/claude-quickstarts#2026-11-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-quickstarts"/>
+    <updated>2026-11-10T18:00:00Z</updated>
+    <published>2026-11-10T18:00:00Z</published>
+    <summary>A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API
+
+Why: +505/day · Trending · 20.0x accelerating
+Score: 100/100 | Language: Python | ⭐ 20266 (+505.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>homeassistant-ai/ha-mcp — Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.</title>
+    <id>https://github.com/homeassistant-ai/ha-mcp#2026-11-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/homeassistant-ai/ha-mcp"/>
+    <updated>2026-11-10T18:00:00Z</updated>
+    <published>2026-11-10T18:00:00Z</published>
+    <summary>Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.
+
+Why: +765/day · Trending · 50.7x accelerating
+Score: 100/100 | Language: Python | ⭐ 6352 (+765.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>google-deepmind/mujoco — Multi-Joint dynamics with Contact. A general purpose physics simulator.</title>
+    <id>https://github.com/google-deepmind/mujoco#2026-11-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/google-deepmind/mujoco"/>
+    <updated>2026-11-10T18:00:00Z</updated>
+    <published>2026-11-10T18:00:00Z</published>
+    <summary>Multi-Joint dynamics with Contact. A general purpose physics simulator.
+
+Why: +428/day · Trending · 47.4x accelerating
+Score: 99/100 | Language: C++ | ⭐ 17170 (+428.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Kianuni/Erosion-CN — iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）</title>
+    <id>https://github.com/Kianuni/Erosion-CN#2026-11-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Kianuni/Erosion-CN"/>
+    <updated>2026-11-10T18:00:00Z</updated>
+    <published>2026-11-10T18:00:00Z</published>
+    <summary>iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）
+
+Why: +713/day · Search
+Score: 96/100 | Language: Swift | ⭐ 713 (+713.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>OmniJev/Flide — 🔥🔥 The extremely fast inference engine for decision model</title>
+    <id>https://github.com/OmniJev/Flide#2026-11-10</id>
+    <link rel="alternate" type="text/html" href="https://github.com/OmniJev/Flide"/>
+    <updated>2026-11-10T18:00:00Z</updated>
+    <published>2026-11-10T18:00:00Z</published>
+    <summary>🔥🔥 The extremely fast inference engine for decision model
+
+Why: +186/day · HN+HF Papers · 9.6x accelerating
+Score: 95/100 | Language: Python | ⭐ 329 (+186.0/day) | Source: hn + hf-papers</summary>
+  </entry>
   <entry>
     <title>shanselman/gputaskman — A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).</title>
     <id>https://github.com/shanselman/gputaskman#2026-11-09</id>
@@ -833,82 +888,5 @@ Score: 93/100 | Language: JavaScript | ⭐ 742 (+247.3/day) | Source: search</su
 
 Why: +1044/day · Trending
 Score: 92/100 | Language: Shell | ⭐ 306878 (+1044.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>TauricResearch/TradingAgents — TradingAgents: Multi-Agents LLM Financial Trading Framework</title>
-    <id>https://github.com/TauricResearch/TradingAgents#2026-10-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/TauricResearch/TradingAgents"/>
-    <updated>2026-10-27T18:00:00Z</updated>
-    <published>2026-10-27T18:00:00Z</published>
-    <summary>TradingAgents: Multi-Agents LLM Financial Trading Framework
-
-Why: +1649/day · Trending · 9.4x accelerating
-Score: 100/100 | Language: Python | ⭐ 116828 (+1649.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>JetBrains/thinkrail — Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need</title>
-    <id>https://github.com/JetBrains/thinkrail#2026-10-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/JetBrains/thinkrail"/>
-    <updated>2026-10-27T18:00:00Z</updated>
-    <published>2026-10-27T18:00:00Z</published>
-    <summary>Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need
-
-Why: +1163/day · Trending · 37.9x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 3402 (+1163.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>martinkeith700/ruyiJS — Run any site  from Python with the real mini AI headless browser , bypass any security anti-crawler , get the data and token you want</title>
-    <id>https://github.com/martinkeith700/ruyiJS#2026-10-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/martinkeith700/ruyiJS"/>
-    <updated>2026-10-27T18:00:00Z</updated>
-    <published>2026-10-27T18:00:00Z</published>
-    <summary>Run any site  from Python with the real mini AI headless browser , bypass any security anti-crawler , get the data and token you want
-
-Why: +382/day · Rising
-Score: 95/100 | Language: C++ | ⭐ 382 (+382.0/day) | Source: rising</summary>
-  </entry>
-  <entry>
-    <title>blakeandersonw/ai-app-playbook — How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.</title>
-    <id>https://github.com/blakeandersonw/ai-app-playbook#2026-10-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/blakeandersonw/ai-app-playbook"/>
-    <updated>2026-10-27T18:00:00Z</updated>
-    <published>2026-10-27T18:00:00Z</published>
-    <summary>How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.
-
-Why: +281/day · Search
-Score: 93/100 | Language: TypeScript | ⭐ 281 (+281.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>hevnsnt/CVEngine — AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.</title>
-    <id>https://github.com/hevnsnt/CVEngine#2026-10-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/hevnsnt/CVEngine"/>
-    <updated>2026-10-27T18:00:00Z</updated>
-    <published>2026-10-27T18:00:00Z</published>
-    <summary>AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.
-
-Why: +200/day · Search
-Score: 92/100 | Language: Python | ⭐ 399 (+199.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>Panniantong/Agent-Reach — Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.</title>
-    <id>https://github.com/Panniantong/Agent-Reach#2026-10-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Panniantong/Agent-Reach"/>
-    <updated>2026-10-27T18:00:00Z</updated>
-    <published>2026-10-27T18:00:00Z</published>
-    <summary>Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
-
-Why: +597/day · Trending
-Score: 92/100 | Language: Python | ⭐ 104369 (+596.7/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>affaan-m/ECC — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</title>
-    <id>https://github.com/affaan-m/ECC#2026-10-27</id>
-    <link rel="alternate" type="text/html" href="https://github.com/affaan-m/ECC"/>
-    <updated>2026-10-27T18:00:00Z</updated>
-    <published>2026-10-27T18:00:00Z</published>
-    <summary>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-
-Why: +822/day · Trending
-Score: 90/100 | Language: JavaScript | ⭐ 290235 (+822.4/day) | Source: trending</summary>
   </entry>
 </feed>

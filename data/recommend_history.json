@@ -98,23 +98,6 @@
       ],
       "last_recommended": "2026-10-26T10:32:41.330020+00:00"
     },
-    "mksglu/context-mode": {
-      "count": 3,
-      "scores": [
-        100,
-        71,
-        100
-      ],
-      "last_recommended": "2026-10-11T11:02:26.071093+00:00"
-    },
-    "huggingface/transformers": {
-      "count": 2,
-      "scores": [
-        100,
-        70
-      ],
-      "last_recommended": "2026-10-11T11:02:26.073238+00:00"
-    },
     "Panniantong/Agent-Reach": {
       "count": 3,
       "scores": [
@@ -223,76 +206,6 @@
         100
       ],
       "last_recommended": "2026-10-16T09:19:03.650955+00:00"
-    },
-    "rociiu/talorys": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-11T11:02:26.049209+00:00"
-    },
-    "wheresryan22/anatomy": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-11T11:02:26.051673+00:00"
-    },
-    "c22dev/muguet": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-11T11:02:26.053828+00:00"
-    },
-    "fayazara/robot-heads": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-10-11T11:02:26.055981+00:00"
-    },
-    "n1tr00-10/tiktok-web-signature": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-10-11T11:02:26.058134+00:00"
-    },
-    "zhouwei713/luobo-ppt": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-11T11:02:26.060346+00:00"
-    },
-    "mrzh7/scam-with-your-friends-web": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-11T11:02:26.062463+00:00"
-    },
-    "mhtsec/ARTEX": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-10-11T11:02:26.064599+00:00"
-    },
-    "a-funk/open-appleremote": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-10-11T11:02:26.066724+00:00"
-    },
-    "hugohe3/ppt-master": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-10-11T11:02:26.068910+00:00"
     },
     "ARahim3/DigUp": {
       "count": 1,
@@ -2258,7 +2171,77 @@
         92
       ],
       "last_recommended": "2026-11-09T13:23:40.206913+00:00"
+    },
+    "anthropics/claude-quickstarts": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-10T13:00:43.744369+00:00"
+    },
+    "homeassistant-ai/ha-mcp": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-10T13:00:43.746088+00:00"
+    },
+    "google-deepmind/mujoco": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-11-10T13:00:43.747450+00:00"
+    },
+    "Kianuni/Erosion-CN": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-10T13:00:43.748740+00:00"
+    },
+    "OmniJev/Flide": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-10T13:00:43.750050+00:00"
+    },
+    "Sectionsereclaim/discord-auto-quest": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-10T13:00:43.751345+00:00"
+    },
+    "TameCarpenterEstate/Roblox-FPS-Optimizer": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-10T13:00:43.752616+00:00"
+    },
+    "Dodaios/ste80-humanizer": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-10T13:00:43.753908+00:00"
+    },
+    "Paulinho182/hitfilm-desktop-installer": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-10T13:00:43.755174+00:00"
+    },
+    "ebtsamalhakmy-sketch/desktop-backup-suite": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-10T13:00:43.756465+00:00"
     }
   },
-  "updated_at": "2026-11-09T13:23:40.206936+00:00"
+  "updated_at": "2026-11-10T13:00:43.756490+00:00"
 }
