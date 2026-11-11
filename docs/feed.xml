@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-10T18:00:00Z</updated>
+  <updated>2026-11-11T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>we-promise/sure — The personal finance app for everyone (by everyone)</title>
+    <id>https://github.com/we-promise/sure#2026-11-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/we-promise/sure"/>
+    <updated>2026-11-11T18:00:00Z</updated>
+    <published>2026-11-11T18:00:00Z</published>
+    <summary>The personal finance app for everyone (by everyone)
+
+Why: +1039/day · Trending · 39.6x accelerating
+Score: 100/100 | Language: Ruby | ⭐ 12489 (+1039.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>ZhuLinsen/daily_stock_analysis — LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.</title>
+    <id>https://github.com/ZhuLinsen/daily_stock_analysis#2026-11-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ZhuLinsen/daily_stock_analysis"/>
+    <updated>2026-11-11T18:00:00Z</updated>
+    <published>2026-11-11T18:00:00Z</published>
+    <summary>LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.
+
+Why: +620/day · Trending · 2.7x accelerating
+Score: 99/100 | Language: Python | ⭐ 69738 (+619.5/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>HybridRobotics/supermimic — Humanoid whole-body motion tracking with one differentiable world model.</title>
+    <id>https://github.com/HybridRobotics/supermimic#2026-11-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/HybridRobotics/supermimic"/>
+    <updated>2026-11-11T18:00:00Z</updated>
+    <published>2026-11-11T18:00:00Z</published>
+    <summary>Humanoid whole-body motion tracking with one differentiable world model.
+
+Why: +922/day · Search
+Score: 96/100 | Language: Python | ⭐ 922 (+922.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.</title>
+    <id>https://github.com/addyosmani/agent-skills#2026-11-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/addyosmani/agent-skills"/>
+    <updated>2026-11-11T18:00:00Z</updated>
+    <published>2026-11-11T18:00:00Z</published>
+    <summary>Production-grade engineering skills for AI coding agents.
+
+Why: +743/day · Trending · 1.7x accelerating
+Score: 94/100 | Language: JavaScript | ⭐ 115555 (+743.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>JDhruv14/line-art-animation — A Claude skill and TypeScript library for animated line-art SVG components: ink figures that walk and react, scenes with a day/night cycle.</title>
+    <id>https://github.com/JDhruv14/line-art-animation#2026-11-11</id>
+    <link rel="alternate" type="text/html" href="https://github.com/JDhruv14/line-art-animation"/>
+    <updated>2026-11-11T18:00:00Z</updated>
+    <published>2026-11-11T18:00:00Z</published>
+    <summary>A Claude skill and TypeScript library for animated line-art SVG components: ink figures that walk and react, scenes with a day/night cycle.
+
+Why: +327/day · Search+AI/ML
+Score: 94/100 | Language: TypeScript | ⭐ 327 (+327.0/day) | Source: search + ai-trending</summary>
+  </entry>
   <entry>
     <title>anthropics/claude-quickstarts — A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API</title>
     <id>https://github.com/anthropics/claude-quickstarts#2026-11-10</id>
@@ -822,71 +877,5 @@ Score: 92/100 | Language: TypeScript | ⭐ 237 (+237.0/day) | Source: search</su
 
 Why: +246/day · Trending
 Score: 87/100 | Language: TypeScript | ⭐ 104164 (+246.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>nightly-labs/openbot — A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.</title>
-    <id>https://github.com/nightly-labs/openbot#2026-10-28</id>
-    <link rel="alternate" type="text/html" href="https://github.com/nightly-labs/openbot"/>
-    <updated>2026-10-28T18:00:00Z</updated>
-    <published>2026-10-28T18:00:00Z</published>
-    <summary>A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.
-
-Why: +1069/day · Trending · 28.4x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 2856 (+1069.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>interplains/Zero-Breach-Toolkit — Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.</title>
-    <id>https://github.com/interplains/Zero-Breach-Toolkit#2026-10-28</id>
-    <link rel="alternate" type="text/html" href="https://github.com/interplains/Zero-Breach-Toolkit"/>
-    <updated>2026-10-28T18:00:00Z</updated>
-    <published>2026-10-28T18:00:00Z</published>
-    <summary>Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.
-
-Why: +832/day · Search
-Score: 96/100 | Language: Python | ⭐ 1663 (+831.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>gitroomhq/postiz-app — 📨 The ultimate agentic social media scheduling tool 🤖</title>
-    <id>https://github.com/gitroomhq/postiz-app#2026-10-28</id>
-    <link rel="alternate" type="text/html" href="https://github.com/gitroomhq/postiz-app"/>
-    <updated>2026-10-28T18:00:00Z</updated>
-    <published>2026-10-28T18:00:00Z</published>
-    <summary>📨 The ultimate agentic social media scheduling tool 🤖
-
-Why: +1018/day · Trending · 30.9x accelerating
-Score: 95/100 | Language: TypeScript | ⭐ 39814 (+1018.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Motionsites-AI/claude-skill — Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.</title>
-    <id>https://github.com/Motionsites-AI/claude-skill#2026-10-28</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Motionsites-AI/claude-skill"/>
-    <updated>2026-10-28T18:00:00Z</updated>
-    <published>2026-10-28T18:00:00Z</published>
-    <summary>Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.
-
-Why: +350/day · Search
-Score: 94/100 | Language: Python | ⭐ 701 (+350.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>ZiChuanLan/agent-purge — One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console.</title>
-    <id>https://github.com/ZiChuanLan/agent-purge#2026-10-28</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ZiChuanLan/agent-purge"/>
-    <updated>2026-10-28T18:00:00Z</updated>
-    <published>2026-10-28T18:00:00Z</published>
-    <summary>One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console.
-
-Why: +247/day · Search
-Score: 93/100 | Language: JavaScript | ⭐ 742 (+247.3/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>obra/superpowers — An agentic skills framework &amp; software development methodology that works.</title>
-    <id>https://github.com/obra/superpowers#2026-10-28</id>
-    <link rel="alternate" type="text/html" href="https://github.com/obra/superpowers"/>
-    <updated>2026-10-28T18:00:00Z</updated>
-    <published>2026-10-28T18:00:00Z</published>
-    <summary>An agentic skills framework &amp; software development methodology that works.
-
-Why: +1044/day · Trending
-Score: 92/100 | Language: Shell | ⭐ 306878 (+1044.0/day) | Source: trending</summary>
   </entry>
 </feed>

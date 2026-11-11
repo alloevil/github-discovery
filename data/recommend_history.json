@@ -2241,7 +2241,77 @@
         91
       ],
       "last_recommended": "2026-11-10T13:00:43.756465+00:00"
+    },
+    "we-promise/sure": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-11T12:11:59.604518+00:00"
+    },
+    "ZhuLinsen/daily_stock_analysis": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-11-11T12:11:59.606898+00:00"
+    },
+    "HybridRobotics/supermimic": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-11T12:11:59.609017+00:00"
+    },
+    "addyosmani/agent-skills": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-11T12:11:59.611089+00:00"
+    },
+    "JDhruv14/line-art-animation": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-11T12:11:59.613222+00:00"
+    },
+    "Goblinmine/homelab-diagram": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-11T12:11:59.615289+00:00"
+    },
+    "aronhy/pibrowse": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-11T12:11:59.617380+00:00"
+    },
+    "alexeyw/lot-map": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-11T12:11:59.619420+00:00"
+    },
+    "bea4dev/shoji-bar-4": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-11T12:11:59.621460+00:00"
+    },
+    "thiagoaureliomartins-programador/chief-architect-premier": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-11-11T12:11:59.623483+00:00"
     }
   },
-  "updated_at": "2026-11-10T13:00:43.756490+00:00"
+  "updated_at": "2026-11-11T12:11:59.623519+00:00"
 }
