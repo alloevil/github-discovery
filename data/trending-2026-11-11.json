@@ -3,54 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "addyosmani/agent-skills",
-   "stars": 115555,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "ZhuLinsen/daily_stock_analysis",
-   "stars": 69738,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "TheAlgorithms/Java",
-   "stars": 66858,
-   "language": "Java"
-  },
-  {
-   "full_name": "vercel-labs/agent-browser",
-   "stars": 49583,
-   "language": "Rust"
-  },
-  {
-   "full_name": "meta/astryx",
-   "stars": 24165,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "we-promise/sure",
-   "stars": 12489,
-   "language": "Ruby"
-  },
-  {
-   "full_name": "openai/codex-security",
-   "stars": 11403,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "shadcn/improve",
-   "stars": 10415,
-   "language": ""
-  },
-  {
-   "full_name": "homeassistant-ai/ha-mcp",
-   "stars": 6969,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
-  },
-  {
-   "full_name": "GoogleChrome/modern-web-guidance-src",
-   "stars": 1420,
-   "language": "TypeScript"
   }
  ]
 }
