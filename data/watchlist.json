@@ -1,75 +1,5 @@
 {
  "repos": {
-  "nightly-labs/openbot": {
-   "first_seen": "2026-10-28",
-   "until": "2026-11-11",
-   "stars_at_discovery": 2856,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "interplains/Zero-Breach-Toolkit": {
-   "first_seen": "2026-10-28",
-   "until": "2026-11-11",
-   "stars_at_discovery": 1663,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "gitroomhq/postiz-app": {
-   "first_seen": "2026-10-28",
-   "until": "2026-11-11",
-   "stars_at_discovery": 39814,
-   "score_at_discovery": 95,
-   "source_at_discovery": "trending"
-  },
-  "Motionsites-AI/claude-skill": {
-   "first_seen": "2026-10-28",
-   "until": "2026-11-11",
-   "stars_at_discovery": 701,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "ZiChuanLan/agent-purge": {
-   "first_seen": "2026-10-28",
-   "until": "2026-11-11",
-   "stars_at_discovery": 742,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "stormydayy/halo-overlay": {
-   "first_seen": "2026-10-28",
-   "until": "2026-11-11",
-   "stars_at_discovery": 516,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "patch-gg/anymove": {
-   "first_seen": "2026-10-28",
-   "until": "2026-11-11",
-   "stars_at_discovery": 268,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "FrigadeHQ/hob": {
-   "first_seen": "2026-10-28",
-   "until": "2026-11-11",
-   "stars_at_discovery": 300,
-   "score_at_discovery": 93,
-   "source_at_discovery": "hn"
-  },
-  "kargulstudio/calender-app-design": {
-   "first_seen": "2026-10-28",
-   "until": "2026-11-11",
-   "stars_at_discovery": 716,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "designfuchen/word-atlas": {
-   "first_seen": "2026-10-28",
-   "until": "2026-11-11",
-   "stars_at_discovery": 2907,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
   "HKUDS/DeepTutor": {
    "first_seen": "2026-10-29",
    "until": "2026-11-12",
@@ -1084,7 +1014,77 @@
    "stars_at_discovery": 769,
    "score_at_discovery": 90,
    "source_at_discovery": "search"
+  },
+  "openai/codex-security": {
+   "first_seen": "2026-11-12",
+   "until": "2026-11-26",
+   "stars_at_discovery": 12108,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "GoogleChrome/modern-web-guidance-src": {
+   "first_seen": "2026-11-12",
+   "until": "2026-11-26",
+   "stars_at_discovery": 2282,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "FrigadeHQ/yogurt": {
+   "first_seen": "2026-11-12",
+   "until": "2026-11-26",
+   "stars_at_discovery": 741,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "agentes-chat/agentes-chat": {
+   "first_seen": "2026-11-12",
+   "until": "2026-11-26",
+   "stars_at_discovery": 822,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "tigerogijzooav/Hyperliquid-Trade-Bot": {
+   "first_seen": "2026-11-12",
+   "until": "2026-11-26",
+   "stars_at_discovery": 230,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "adrbn/bo2-mac": {
+   "first_seen": "2026-11-12",
+   "until": "2026-11-26",
+   "stars_at_discovery": 207,
+   "score_at_discovery": 92,
+   "source_at_discovery": "hn"
+  },
+  "GoogleChrome/modern-web-guidance": {
+   "first_seen": "2026-11-12",
+   "until": "2026-11-26",
+   "stars_at_discovery": 6090,
+   "score_at_discovery": 92,
+   "source_at_discovery": "hn"
+  },
+  "rdeepak-wq121/quicken-deluxe-installer": {
+   "first_seen": "2026-11-12",
+   "until": "2026-11-26",
+   "stars_at_discovery": 1103,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "hembramneeraj3-create/aida-64-extreme": {
+   "first_seen": "2026-11-12",
+   "until": "2026-11-26",
+   "stars_at_discovery": 1207,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "abdulmannanmalik13-wq/adobe-substance-3d-studio": {
+   "first_seen": "2026-11-12",
+   "until": "2026-11-26",
+   "stars_at_discovery": 1207,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-11-11T12:16:43.602237+00:00"
+ "updated_at": "2026-11-12T13:21:52.552981+00:00"
 }

@@ -359,7 +359,47 @@
     "ruvnet/RuView": {
       "first_picked": "2026-11-09",
       "source": "github-discovery"
+    },
+    "Certora/CertoraProver": {
+      "first_picked": "2026-11-12",
+      "source": "github-discovery"
+    },
+    "stepchowfun/proofs": {
+      "first_picked": "2026-11-12",
+      "source": "github-discovery"
+    },
+    "openai/codex-security": {
+      "first_picked": "2026-11-12",
+      "source": "github-discovery"
+    },
+    "CopilotKit/OpenBot": {
+      "first_picked": "2026-11-12",
+      "source": "github-discovery"
+    },
+    "FrigadeHQ/yogurt": {
+      "first_picked": "2026-11-12",
+      "source": "github-discovery"
+    },
+    "agentes-chat/agentes-chat": {
+      "first_picked": "2026-11-12",
+      "source": "github-discovery"
+    },
+    "tigerogijzooav/Hyperliquid-Trade-Bot": {
+      "first_picked": "2026-11-12",
+      "source": "github-discovery"
+    },
+    "MiniMax-AI/MiniMax-H3-Image": {
+      "first_picked": "2026-11-12",
+      "source": "github-discovery"
+    },
+    "GoogleChrome/modern-web-guidance": {
+      "first_picked": "2026-11-12",
+      "source": "github-discovery"
+    },
+    "ScottDuncanAI/PID-to-Knowledge-Graph": {
+      "first_picked": "2026-11-12",
+      "source": "github-discovery"
     }
   },
-  "updated_at": "2026-11-09T13:23:43.163633+00:00"
+  "updated_at": "2026-11-12T13:17:15.396717+00:00"
 }

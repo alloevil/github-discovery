@@ -159,14 +159,6 @@
       ],
       "last_recommended": "2026-10-17T08:49:46.656587+00:00"
     },
-    "QingYunA/answer-me-with-html": {
-      "count": 2,
-      "scores": [
-        94,
-        77
-      ],
-      "last_recommended": "2026-10-13T12:12:00.972927+00:00"
-    },
     "JuliusBrussee/caveman": {
       "count": 2,
       "scores": [
@@ -207,13 +199,6 @@
       ],
       "last_recommended": "2026-10-16T09:19:03.650955+00:00"
     },
-    "ARahim3/DigUp": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-12T12:28:13.336942+00:00"
-    },
     "chenwei810/Semiconductor_Manufacturing_Introduction": {
       "count": 3,
       "scores": [
@@ -222,132 +207,6 @@
         58
       ],
       "last_recommended": "2026-11-05T12:46:04.988213+00:00"
-    },
-    "bilawalsidhu/gods-eye-view": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-10-12T12:28:13.341400+00:00"
-    },
-    "zhuyansen/new-term-radar": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-10-12T12:28:13.343507+00:00"
-    },
-    "NousResearch/hermes-official-plugins": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-10-12T12:28:13.345602+00:00"
-    },
-    "shaongitbd/doory": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-10-12T12:28:13.347788+00:00"
-    },
-    "deeplethe/solid-glass": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-10-12T12:28:13.349980+00:00"
-    },
-    "bherbruck/solidcraft": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-12T12:28:13.352102+00:00"
-    },
-    "wesbos/photo-frame-dashboard": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-10-12T12:28:13.354222+00:00"
-    },
-    "NandhaKishorM/vegaml": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-10-12T12:28:13.356367+00:00"
-    },
-    "lyogavin/airllm": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-13T12:12:00.948839+00:00"
-    },
-    "snuri00/ps2-web-recomp": {
-      "count": 1,
-      "scores": [
-        99
-      ],
-      "last_recommended": "2026-10-13T12:12:00.951332+00:00"
-    },
-    "jhaizhou-ops/d2r-mobile": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-13T12:12:00.953472+00:00"
-    },
-    "jwuthri-cloud/Tracely-ai": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-13T12:12:00.955649+00:00"
-    },
-    "juliobsz/skills": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-10-13T12:12:00.957816+00:00"
-    },
-    "opengeos/RustGIS": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-10-13T12:12:00.960019+00:00"
-    },
-    "Fei2411/DeepSeek-Bot": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-10-13T12:12:00.962130+00:00"
-    },
-    "Arekejoker/qwen21-nsfw-pose-skill": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-13T12:12:00.964263+00:00"
-    },
-    "Ayzzz123/mcd-coupon-strategist": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-13T12:12:00.966386+00:00"
-    },
-    "SaarthurR/atticus-mac": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-10-13T12:12:00.968575+00:00"
     },
     "xtool-org/xtool": {
       "count": 1,
@@ -1410,11 +1269,12 @@
       "last_recommended": "2026-11-07T11:21:15.607802+00:00"
     },
     "CopilotKit/OpenBot": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        96
       ],
-      "last_recommended": "2026-10-30T11:02:42.061119+00:00"
+      "last_recommended": "2026-11-12T13:17:09.591720+00:00"
     },
     "qybaihe/bla": {
       "count": 1,
@@ -2311,7 +2171,77 @@
         90
       ],
       "last_recommended": "2026-11-11T12:11:59.623483+00:00"
+    },
+    "openai/codex-security": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-12T13:17:09.574609+00:00"
+    },
+    "GoogleChrome/modern-web-guidance-src": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-12T13:17:09.576580+00:00"
+    },
+    "FrigadeHQ/yogurt": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-12T13:17:09.578248+00:00"
+    },
+    "agentes-chat/agentes-chat": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-12T13:17:09.579900+00:00"
+    },
+    "tigerogijzooav/Hyperliquid-Trade-Bot": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-12T13:17:09.581624+00:00"
+    },
+    "adrbn/bo2-mac": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-12T13:17:09.583299+00:00"
+    },
+    "GoogleChrome/modern-web-guidance": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-12T13:17:09.584975+00:00"
+    },
+    "rdeepak-wq121/quicken-deluxe-installer": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-12T13:17:09.586675+00:00"
+    },
+    "hembramneeraj3-create/aida-64-extreme": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-11-12T13:17:09.588345+00:00"
+    },
+    "abdulmannanmalik13-wq/adobe-substance-3d-studio": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-11-12T13:17:09.590032+00:00"
     }
   },
-  "updated_at": "2026-11-11T12:11:59.623519+00:00"
+  "updated_at": "2026-11-12T13:17:09.591740+00:00"
 }

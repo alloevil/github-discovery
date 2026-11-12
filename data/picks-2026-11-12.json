@@ -1,0 +1,411 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T13:17:15+00:00",
+  "every_days": 3,
+  "count": 10,
+  "semi_count": 2,
+  "semi_min_met": true,
+  "picks": [
+    {
+      "rank": 1,
+      "full_name": "Certora/CertoraProver",
+      "url": "https://github.com/Certora/CertoraProver",
+      "description": "The Certora Prover is the state-of-the-art security tool for automated formal verification of smart contracts running on EVM-based chains, Solana and Stellar",
+      "topic": "semi",
+      "language": "Kotlin",
+      "topics": [
+        "blockchain",
+        "certora",
+        "certora-prover",
+        "ethereum",
+        "formal-verification",
+        "security-tools",
+        "smart-contracts",
+        "solana",
+        "stellar",
+        "web3"
+      ],
+      "license": "GPL-3.0",
+      "stars": 342,
+      "forks": 53,
+      "created_at": "2025-02-23T10:47:48Z",
+      "pushed_at": "2026-10-26T12:24:27Z",
+      "growth": {
+        "since": "2026-10-31",
+        "window_days": 12,
+        "stars_gained": 3,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 51,
+      "verified_at": "2026-11-12T13:17:10+00:00"
+    },
+    {
+      "rank": 2,
+      "full_name": "stepchowfun/proofs",
+      "url": "https://github.com/stepchowfun/proofs",
+      "description": "My personal repository of formally verified mathematics.",
+      "topic": "semi",
+      "language": "Rocq Prover",
+      "topics": [
+        "coq",
+        "formal-verification",
+        "interactive-theorem-proving",
+        "lean",
+        "lean-theorem-prover",
+        "lean4",
+        "proof-assistant",
+        "rocq",
+        "rocq-prover",
+        "type-theory"
+      ],
+      "license": "MIT",
+      "stars": 317,
+      "forks": 15,
+      "created_at": "2017-07-04T08:35:13Z",
+      "pushed_at": "2026-11-01T01:35:17Z",
+      "growth": {
+        "since": "2026-10-25",
+        "window_days": 18,
+        "stars_gained": 2,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 51,
+      "verified_at": "2026-11-12T13:17:11+00:00"
+    },
+    {
+      "rank": 3,
+      "full_name": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "ai-security",
+        "application-security",
+        "cli",
+        "code-scanning",
+        "codex",
+        "codex-security",
+        "cybersecurity",
+        "devsecops",
+        "nodejs",
+        "npm",
+        "openai",
+        "sdk",
+        "security",
+        "typescript",
+        "vulnerability-scanning"
+      ],
+      "license": "Apache-2.0",
+      "stars": 12111,
+      "forks": 958,
+      "created_at": "2026-07-13T22:00:13Z",
+      "pushed_at": "2026-11-12T10:06:19Z",
+      "growth": {
+        "since": "2026-11-11",
+        "window_days": 1,
+        "stars_gained": 708,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 90,
+      "verified_at": "2026-11-12T13:17:11+00:00"
+    },
+    {
+      "rank": 4,
+      "full_name": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "ag-ui",
+        "agent-governance",
+        "ai-agents",
+        "browser-automation",
+        "copilotkit",
+        "generative-ui",
+        "mcp"
+      ],
+      "license": "MIT",
+      "stars": 11250,
+      "forks": 1395,
+      "created_at": "2026-08-17T00:44:59Z",
+      "pushed_at": "2026-11-12T07:59:52Z",
+      "growth": {
+        "since": "2026-11-05",
+        "window_days": 7,
+        "stars_gained": 1037,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 86,
+      "verified_at": "2026-11-12T13:17:12+00:00"
+    },
+    {
+      "rank": 5,
+      "full_name": "FrigadeHQ/yogurt",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "description": "Private AI meeting notes. Free and open source.",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "electron",
+        "linux",
+        "llama-cpp",
+        "local-ai",
+        "macos",
+        "mcp",
+        "meeting-notes",
+        "open-source",
+        "privacy",
+        "transcription",
+        "whisper",
+        "windows"
+      ],
+      "license": "MIT",
+      "stars": 742,
+      "forks": 24,
+      "created_at": "2026-11-10T20:01:01Z",
+      "pushed_at": "2026-11-12T08:49:35Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search",
+          "hn"
+        ],
+        "hn_title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+        "hn_score": 263,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 86,
+      "verified_at": "2026-11-12T13:17:12+00:00"
+    },
+    {
+      "rank": 6,
+      "full_name": "agentes-chat/agentes-chat",
+      "url": "https://github.com/agentes-chat/agentes-chat",
+      "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "agentic-ai",
+        "ai-agents",
+        "browser-automation",
+        "chat",
+        "claude",
+        "claude-code",
+        "codex",
+        "collaboration",
+        "computer-use",
+        "docker-compose",
+        "gemini",
+        "grok",
+        "human-in-the-loop",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "openai",
+        "self-hosted",
+        "slack-alternative",
+        "team-chat"
+      ],
+      "license": "AGPL-3.0",
+      "stars": 822,
+      "forks": 109,
+      "created_at": "2026-11-09T00:50:28Z",
+      "pushed_at": "2026-11-12T13:07:55Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 83,
+      "verified_at": "2026-11-12T13:17:12+00:00"
+    },
+    {
+      "rank": 7,
+      "full_name": "tigerogijzooav/Hyperliquid-Trade-Bot",
+      "url": "https://github.com/tigerogijzooav/Hyperliquid-Trade-Bot",
+      "description": "Independently analyze ROI, win rate, and PnL using the public Hyperliquid API, detect martingale/grid recovery strategies, and assess maximum drawdown and risk-adjusted returns. Read-only terminal checker — no trading, no API keys. Unofficial community project, not affiliated with Hyperliquid.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "ai-trade",
+        "binance-future",
+        "copy-trade",
+        "copytrade",
+        "crypto-trading-bot-windows",
+        "defi-bot",
+        "defi-bots",
+        "dex",
+        "dexscreener",
+        "hyperliquid-api",
+        "hyperliquid-bots",
+        "hyperliquid-copy-trading",
+        "hyperliquid-crack",
+        "hyperliquid-dex",
+        "hyperliquid-perp-dex",
+        "polymarket-bot-free",
+        "rate-bot",
+        "raydium-bot",
+        "signal-copier",
+        "trade-copier"
+      ],
+      "license": "MIT",
+      "stars": 231,
+      "forks": 54,
+      "created_at": "2026-11-11T19:11:59Z",
+      "pushed_at": "2026-11-12T13:16:10Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 82,
+      "verified_at": "2026-11-12T13:17:13+00:00"
+    },
+    {
+      "rank": 8,
+      "full_name": "MiniMax-AI/MiniMax-H3-Image",
+      "url": "https://github.com/MiniMax-AI/MiniMax-H3-Image",
+      "description": "MiniMax-H3-Image, an open-weight model for 16-megapixel image generation and editing.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "diffusion-models",
+        "image-editing",
+        "image-generation",
+        "minimax-h3-image",
+        "text-to-image"
+      ],
+      "license": "NOASSERTION",
+      "stars": 278,
+      "forks": 14,
+      "created_at": "2026-11-09T17:11:00Z",
+      "pushed_at": "2026-11-11T18:48:54Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 80,
+      "verified_at": "2026-11-12T13:17:13+00:00"
+    },
+    {
+      "rank": 9,
+      "full_name": "GoogleChrome/modern-web-guidance",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "topic": "ai",
+      "language": "",
+      "topics": [],
+      "license": "Apache-2.0",
+      "stars": 6092,
+      "forks": 198,
+      "created_at": "2026-03-23T17:49:14Z",
+      "pushed_at": "2026-11-10T03:22:38Z",
+      "growth": {
+        "since": "2026-11-11",
+        "window_days": 1,
+        "stars_gained": 2317,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "hn"
+        ],
+        "hn_title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+        "hn_score": 431,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 80,
+      "verified_at": "2026-11-12T13:17:14+00:00"
+    },
+    {
+      "rank": 10,
+      "full_name": "ScottDuncanAI/PID-to-Knowledge-Graph",
+      "url": "https://github.com/ScottDuncanAI/PID-to-Knowledge-Graph",
+      "description": "P&ID to Knowledge Graph: a Claude skill that turns P&ID PDFs (digital or scanned) into a process knowledge graph of flow, instruments and control loops.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "chemical-engineering",
+        "claude-skills",
+        "isa-5-1",
+        "knowledge-graph",
+        "pid",
+        "process-engineering"
+      ],
+      "license": "MIT",
+      "stars": 247,
+      "forks": 51,
+      "created_at": "2026-11-08T18:58:21Z",
+      "pushed_at": "2026-11-08T20:33:02Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 77,
+      "verified_at": "2026-11-12T13:17:15+00:00"
+    }
+  ]
+}
