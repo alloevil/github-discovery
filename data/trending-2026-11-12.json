@@ -3,69 +3,14 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "ggml-org/llama.cpp",
-   "stars": 134281,
-   "language": "C++"
-  },
-  {
-   "full_name": "nodejs/node",
-   "stars": 123507,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "addyosmani/agent-skills",
-   "stars": 116362,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "nvm-sh/nvm",
-   "stars": 95931,
-   "language": "Shell"
-  },
-  {
-   "full_name": "Alishahryar1/free-claude-code",
-   "stars": 68895,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "QwenLM/qwen-code",
-   "stars": 29578,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "meta/astryx",
-   "stars": 25978,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "we-promise/sure",
-   "stars": 13509,
-   "language": "Ruby"
-  },
-  {
-   "full_name": "openai/codex-security",
-   "stars": 12108,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "CopilotKit/OpenBot",
-   "stars": 11250,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "GoogleChrome/modern-web-guidance-src",
-   "stars": 2282,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "ashhart/TensorFold",
-   "stars": 1837,
-   "language": "Zig"
-  },
-  {
-   "full_name": "pookjw/HermesEnabler",
-   "stars": 1361,
-   "language": "Objective-C"
+   "full_name": "brand/new",
+   "stars": 500,
+   "language": "Python"
   }
  ]
 }
