@@ -1,82 +1,5 @@
 {
  "repos": {
-  "HKUDS/DeepTutor": {
-   "first_seen": "2026-10-29",
-   "until": "2026-11-12",
-   "stars_at_discovery": 48962,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "OpenBMB/MiniCPM-OCR": {
-   "first_seen": "2026-10-29",
-   "until": "2026-11-12",
-   "stars_at_discovery": 418,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "MiniMax-AI/mcode-stack": {
-   "first_seen": "2026-10-29",
-   "until": "2026-11-12",
-   "stars_at_discovery": 370,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "elayadesign/ai-design-skills": {
-   "first_seen": "2026-10-29",
-   "until": "2026-11-12",
-   "stars_at_discovery": 11678,
-   "score_at_discovery": 94,
-   "source_at_discovery": "trending"
-  },
-  "shipwords-dev/shipwords": {
-   "first_seen": "2026-10-29",
-   "until": "2026-11-12",
-   "stars_at_discovery": 237,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "smithjohn78390/tongjiang-lab": {
-   "first_seen": "2026-10-29",
-   "until": "2026-11-12",
-   "stars_at_discovery": 761,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "anonnerdfrenzy/survival-llm": {
-   "first_seen": "2026-10-29",
-   "until": "2026-11-12",
-   "stars_at_discovery": 689,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "toyxyz/toyxyz_RGBMocap": {
-   "first_seen": "2026-10-29",
-   "until": "2026-11-12",
-   "stars_at_discovery": 274,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "D3voz/openjutsu": {
-   "first_seen": "2026-10-29",
-   "until": "2026-11-12",
-   "stars_at_discovery": 226,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "athenaos-tech/athenaos-agent": {
-   "first_seen": "2026-10-29",
-   "until": "2026-11-12",
-   "stars_at_discovery": 150,
-   "score_at_discovery": 88,
-   "source_at_discovery": "search"
-  },
-  "thedotmack/claude-mem": {
-   "first_seen": "2026-10-29",
-   "until": "2026-11-12",
-   "stars_at_discovery": 104164,
-   "score_at_discovery": 87,
-   "source_at_discovery": "trending"
-  },
   "milind-soni/OpenMausBot": {
    "first_seen": "2026-10-30",
    "until": "2026-11-13",
@@ -1084,7 +1007,77 @@
    "stars_at_discovery": 1207,
    "score_at_discovery": 90,
    "source_at_discovery": "search"
+  },
+  "AIRzZ90/study-materials-fork": {
+   "first_seen": "2026-11-13",
+   "until": "2026-11-27",
+   "stars_at_discovery": 464,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "rivet-dev/open-orange": {
+   "first_seen": "2026-11-13",
+   "until": "2026-11-27",
+   "stars_at_discovery": 328,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "kolbicz/WQFiles": {
+   "first_seen": "2026-11-13",
+   "until": "2026-11-27",
+   "stars_at_discovery": 779,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "DandanLLab/SnowCatQQ": {
+   "first_seen": "2026-11-13",
+   "until": "2026-11-27",
+   "stars_at_discovery": 256,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "adriadam10/mkw-recomp": {
+   "first_seen": "2026-11-13",
+   "until": "2026-11-27",
+   "stars_at_discovery": 635,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "TomyJan/SnowLuma": {
+   "first_seen": "2026-11-13",
+   "until": "2026-11-27",
+   "stars_at_discovery": 394,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "gabrielbuzziv/emissor-nfse-nacional": {
+   "first_seen": "2026-11-13",
+   "until": "2026-11-27",
+   "stars_at_discovery": 135,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "serveroshq/panel": {
+   "first_seen": "2026-11-13",
+   "until": "2026-11-27",
+   "stars_at_discovery": 695,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "Superkechaos/Roblox-FPS-Optimizer": {
+   "first_seen": "2026-11-13",
+   "until": "2026-11-27",
+   "stars_at_discovery": 119,
+   "score_at_discovery": 89,
+   "source_at_discovery": "rising"
+  },
+  "Goldoire/fefw-recomp": {
+   "first_seen": "2026-11-13",
+   "until": "2026-11-27",
+   "stars_at_discovery": 687,
+   "score_at_discovery": 88,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-11-12T13:21:52.552981+00:00"
+ "updated_at": "2026-11-13T12:44:31.502887+00:00"
 }

@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-12T18:00:00Z</updated>
+  <updated>2026-11-13T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>AIRzZ90/study-materials-fork — A cross-platform Tauri 2 interface and interaction practice project</title>
+    <id>https://github.com/AIRzZ90/study-materials-fork#2026-11-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/AIRzZ90/study-materials-fork"/>
+    <updated>2026-11-13T18:00:00Z</updated>
+    <published>2026-11-13T18:00:00Z</published>
+    <summary>A cross-platform Tauri 2 interface and interaction practice project
+
+Why: +464/day · Search
+Score: 96/100 | Language: TypeScript | ⭐ 464 (+464.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>rivet-dev/open-orange — Run Cloudflare Workers and Durable Objects unchanged on AWS, GCP, Azure or your own servers.</title>
+    <id>https://github.com/rivet-dev/open-orange#2026-11-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/rivet-dev/open-orange"/>
+    <updated>2026-11-13T18:00:00Z</updated>
+    <published>2026-11-13T18:00:00Z</published>
+    <summary>Run Cloudflare Workers and Durable Objects unchanged on AWS, GCP, Azure or your own servers.
+
+Why: +328/day · Search
+Score: 94/100 | Language: TypeScript | ⭐ 328 (+328.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>kolbicz/WQFiles — File browser, app data manager and cache cleaner for iOS 26 and 27 (worse_query, no jailbreak)</title>
+    <id>https://github.com/kolbicz/WQFiles#2026-11-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/kolbicz/WQFiles"/>
+    <updated>2026-11-13T18:00:00Z</updated>
+    <published>2026-11-13T18:00:00Z</published>
+    <summary>File browser, app data manager and cache cleaner for iOS 26 and 27 (worse_query, no jailbreak)
+
+Why: +260/day · Search
+Score: 93/100 | Language: Objective-C | ⭐ 779 (+259.7/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>DandanLLab/SnowCatQQ — SnowCat 雪猫：NapCat + SnowLuma 融合第三方 QQ 客户端，社区接力维护，V8 通道全功能适配 QQ 9.9.37，全工具全源码公开</title>
+    <id>https://github.com/DandanLLab/SnowCatQQ#2026-11-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/DandanLLab/SnowCatQQ"/>
+    <updated>2026-11-13T18:00:00Z</updated>
+    <published>2026-11-13T18:00:00Z</published>
+    <summary>SnowCat 雪猫：NapCat + SnowLuma 融合第三方 QQ 客户端，社区接力维护，V8 通道全功能适配 QQ 9.9.37，全工具全源码公开
+
+Why: +256/day · Search+Rising
+Score: 93/100 | Language: TypeScript | ⭐ 256 (+256.0/day) | Source: search + rising</summary>
+  </entry>
+  <entry>
+    <title>adriadam10/mkw-recomp — Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program</title>
+    <id>https://github.com/adriadam10/mkw-recomp#2026-11-13</id>
+    <link rel="alternate" type="text/html" href="https://github.com/adriadam10/mkw-recomp"/>
+    <updated>2026-11-13T18:00:00Z</updated>
+    <published>2026-11-13T18:00:00Z</published>
+    <summary>Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program
+
+Why: +212/day · Search
+Score: 92/100 | Language: C | ⭐ 635 (+211.7/day) | Source: search</summary>
+  </entry>
   <entry>
     <title>openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security</title>
     <id>https://github.com/openai/codex-security#2026-11-12</id>
@@ -800,82 +855,5 @@ Score: 96/100 | Language: Lua | ⭐ 901 (+901.0/day) | Source: search</summary>
 
 Why: +222/day · Search · 3.1x accelerating
 Score: 96/100 | Language: Rust | ⭐ 362 (+222.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>milind-soni/OpenMausBot — Open-source Grok Bot alternative with a virtual machine that bots can use</title>
-    <id>https://github.com/milind-soni/OpenMausBot#2026-10-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/milind-soni/OpenMausBot"/>
-    <updated>2026-10-30T18:00:00Z</updated>
-    <published>2026-10-30T18:00:00Z</published>
-    <summary>Open-source Grok Bot alternative with a virtual machine that bots can use
-
-Why: +879/day · Trending · 8.8x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 7881 (+879.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>CopilotKit/OpenBot — Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.</title>
-    <id>https://github.com/CopilotKit/OpenBot#2026-10-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/CopilotKit/OpenBot"/>
-    <updated>2026-10-30T18:00:00Z</updated>
-    <published>2026-10-30T18:00:00Z</published>
-    <summary>Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.
-
-Why: +696/day · Trending · 6.1x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 8436 (+696.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>qybaihe/bla — 🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -&gt; Exhaust -&gt; Hallucinate.</title>
-    <id>https://github.com/qybaihe/bla#2026-10-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/qybaihe/bla"/>
-    <updated>2026-10-30T18:00:00Z</updated>
-    <published>2026-10-30T18:00:00Z</published>
-    <summary>🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -&gt; Exhaust -&gt; Hallucinate.
-
-Why: +935/day · Search · 4.1x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 1145 (+935.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>valentderah/totk-pc-recomp — Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.</title>
-    <id>https://github.com/valentderah/totk-pc-recomp#2026-10-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/valentderah/totk-pc-recomp"/>
-    <updated>2026-10-30T18:00:00Z</updated>
-    <published>2026-10-30T18:00:00Z</published>
-    <summary>Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.
-
-Why: +917/day · Search
-Score: 96/100 | Language: C | ⭐ 917 (+917.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>BryceYuuu/RUN — RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）</title>
-    <id>https://github.com/BryceYuuu/RUN#2026-10-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/BryceYuuu/RUN"/>
-    <updated>2026-10-30T18:00:00Z</updated>
-    <published>2026-10-30T18:00:00Z</published>
-    <summary>RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）
-
-Why: +499/day · Search
-Score: 96/100 | Language: Python | ⭐ 499 (+499.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>pingdotgg/t3code — No description</title>
-    <id>https://github.com/pingdotgg/t3code#2026-10-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/pingdotgg/t3code"/>
-    <updated>2026-10-30T18:00:00Z</updated>
-    <published>2026-10-30T18:00:00Z</published>
-    <summary>No description
-
-Why: +341/day · Trending · 2.8x accelerating
-Score: 97/100 | Language: TypeScript | ⭐ 32237 (+341.2/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>mattpocock/skills — Skills for Real Engineers. Straight from my .agents directory.</title>
-    <id>https://github.com/mattpocock/skills#2026-10-30</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mattpocock/skills"/>
-    <updated>2026-10-30T18:00:00Z</updated>
-    <published>2026-10-30T18:00:00Z</published>
-    <summary>Skills for Real Engineers. Straight from my .agents directory.
-
-Why: +1143/day · Trending
-Score: 90/100 | Language: Shell | ⭐ 306974 (+1142.8/day) | Source: trending</summary>
   </entry>
 </feed>
