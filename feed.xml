@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-13T18:00:00Z</updated>
+  <updated>2026-11-14T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>alibaba/open-code-review — Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.</title>
+    <id>https://github.com/alibaba/open-code-review#2026-11-14</id>
+    <link rel="alternate" type="text/html" href="https://github.com/alibaba/open-code-review"/>
+    <updated>2026-11-14T18:00:00Z</updated>
+    <published>2026-11-14T18:00:00Z</published>
+    <summary>Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.
+
+Why: +837/day · Trending · 3.0x accelerating
+Score: 100/100 | Language: Go | ⭐ 51019 (+837.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>tradermonty/claude-trading-skills — Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.</title>
+    <id>https://github.com/tradermonty/claude-trading-skills#2026-11-14</id>
+    <link rel="alternate" type="text/html" href="https://github.com/tradermonty/claude-trading-skills"/>
+    <updated>2026-11-14T18:00:00Z</updated>
+    <published>2026-11-14T18:00:00Z</published>
+    <summary>Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.
+
+Why: +527/day · Trending · 46.6x accelerating
+Score: 100/100 | Language: Python | ⭐ 4413 (+527.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>tailscale/tailcat — like netcat, but over Tailscale's data plane, without Tailscale's control plane</title>
+    <id>https://github.com/tailscale/tailcat#2026-11-14</id>
+    <link rel="alternate" type="text/html" href="https://github.com/tailscale/tailcat"/>
+    <updated>2026-11-14T18:00:00Z</updated>
+    <published>2026-11-14T18:00:00Z</published>
+    <summary>like netcat, but over Tailscale's data plane, without Tailscale's control plane
+
+Why: +475/day · Trending · 36.6x accelerating
+Score: 100/100 | Language: Go | ⭐ 9671 (+475.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>ChromeDevTools/chrome-devtools-mcp — Chrome DevTools for coding agents</title>
+    <id>https://github.com/ChromeDevTools/chrome-devtools-mcp#2026-11-14</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ChromeDevTools/chrome-devtools-mcp"/>
+    <updated>2026-11-14T18:00:00Z</updated>
+    <published>2026-11-14T18:00:00Z</published>
+    <summary>Chrome DevTools for coding agents
+
+Why: +644/day · Trending · 4.9x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 55875 (+644.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>backnotprop/plannotator — The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. </title>
+    <id>https://github.com/backnotprop/plannotator#2026-11-14</id>
+    <link rel="alternate" type="text/html" href="https://github.com/backnotprop/plannotator"/>
+    <updated>2026-11-14T18:00:00Z</updated>
+    <published>2026-11-14T18:00:00Z</published>
+    <summary>The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. 
+
+Why: +399/day · Trending · 12.0x accelerating
+Score: 99/100 | Language: TypeScript | ⭐ 10662 (+399.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>AIRzZ90/study-materials-fork — A cross-platform Tauri 2 interface and interaction practice project</title>
     <id>https://github.com/AIRzZ90/study-materials-fork#2026-11-13</id>
@@ -800,60 +855,5 @@ Score: 95/100 | Language: Rust | ⭐ 379 (+379.0/day) | Source: search</summary>
 
 Why: +631/day · Trending · 6.9x accelerating
 Score: 100/100 | Language: Python | ⭐ 44913 (+631.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>lightpanda-io/browser — Lightpanda: the headless browser designed for AI and automation</title>
-    <id>https://github.com/lightpanda-io/browser#2026-10-31</id>
-    <link rel="alternate" type="text/html" href="https://github.com/lightpanda-io/browser"/>
-    <updated>2026-10-31T18:00:00Z</updated>
-    <published>2026-10-31T18:00:00Z</published>
-    <summary>Lightpanda: the headless browser designed for AI and automation
-
-Why: +897/day · Trending · 31.5x accelerating
-Score: 100/100 | Language: Zig | ⭐ 38736 (+897.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>macro-inc/macro — Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.</title>
-    <id>https://github.com/macro-inc/macro#2026-10-31</id>
-    <link rel="alternate" type="text/html" href="https://github.com/macro-inc/macro"/>
-    <updated>2026-10-31T18:00:00Z</updated>
-    <published>2026-10-31T18:00:00Z</published>
-    <summary>Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.
-
-Why: +310/day · Trending · 18.4x accelerating
-Score: 98/100 | Language: Rust | ⭐ 5988 (+310.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>lexifina/global-law — Git for Global Law: the law of every country as one git history, each country's record a submodule, every commit one law taking effect</title>
-    <id>https://github.com/lexifina/global-law#2026-10-31</id>
-    <link rel="alternate" type="text/html" href="https://github.com/lexifina/global-law"/>
-    <updated>2026-10-31T18:00:00Z</updated>
-    <published>2026-10-31T18:00:00Z</published>
-    <summary>Git for Global Law: the law of every country as one git history, each country's record a submodule, every commit one law taking effect
-
-Why: +596/day · Search
-Score: 96/100 | Language: HTML | ⭐ 1191 (+595.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>kevinraymond/florilegium — Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua</title>
-    <id>https://github.com/kevinraymond/florilegium#2026-10-31</id>
-    <link rel="alternate" type="text/html" href="https://github.com/kevinraymond/florilegium"/>
-    <updated>2026-10-31T18:00:00Z</updated>
-    <published>2026-10-31T18:00:00Z</published>
-    <summary>Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua
-
-Why: +901/day · Search
-Score: 96/100 | Language: Lua | ⭐ 901 (+901.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>physicsdolphin/nv-uefi-unlocker — UEFI pre-driver NVIDIA GPU unlocker for Windows Linux Hackintosh and all EFI-bootable system (Rust): SEC2 scrubber -&gt; FWSEC/WPR2 -&gt; signed Booter -&gt; V67 four-write payload, read-back verified. Verified on most RTX 20 30 40 Series.</title>
-    <id>https://github.com/physicsdolphin/nv-uefi-unlocker#2026-10-31</id>
-    <link rel="alternate" type="text/html" href="https://github.com/physicsdolphin/nv-uefi-unlocker"/>
-    <updated>2026-10-31T18:00:00Z</updated>
-    <published>2026-10-31T18:00:00Z</published>
-    <summary>UEFI pre-driver NVIDIA GPU unlocker for Windows Linux Hackintosh and all EFI-bootable system (Rust): SEC2 scrubber -&gt; FWSEC/WPR2 -&gt; signed Booter -&gt; V67 four-write payload, read-back verified. Verified on most RTX 20 30 40 Series.
-
-Why: +222/day · Search · 3.1x accelerating
-Score: 96/100 | Language: Rust | ⭐ 362 (+222.0/day) | Source: search</summary>
   </entry>
 </feed>
