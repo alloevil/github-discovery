@@ -1,0 +1,335 @@
+{
+ "date": "2026-11-14",
+ "generated_at": "2026-11-14T11:47:02.898638",
+ "pool_size": 105,
+ "source_health": {
+  "trending": {
+   "fetched": 12,
+   "parsed": 12,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 7
+  },
+  "search": {
+   "fetched": 70,
+   "parsed": 70,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  },
+  "hn": {
+   "fetched": 13,
+   "parsed": 13,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 2
+  },
+  "rising": {
+   "fetched": 2,
+   "parsed": 2,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 24,
+   "parsed": 24,
+   "rejected": 0,
+   "deduplicated": 6,
+   "recommended": 0
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "alibaba/open-code-review",
+   "url": "https://github.com/alibaba/open-code-review",
+   "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "language": "Go",
+   "stars": 51019,
+   "forks": 3805,
+   "age_days": 180,
+   "daily_stars": 283.43888888888887,
+   "real_daily_stars": 837.0,
+   "watchers": 145,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "tradermonty/claude-trading-skills",
+   "url": "https://github.com/tradermonty/claude-trading-skills",
+   "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+   "language": "Python",
+   "stars": 4413,
+   "forks": 885,
+   "age_days": 390,
+   "daily_stars": 11.315384615384616,
+   "real_daily_stars": 527.0,
+   "watchers": 42,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "tailscale/tailcat",
+   "url": "https://github.com/tailscale/tailcat",
+   "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+   "language": "Go",
+   "stars": 9671,
+   "forks": 443,
+   "age_days": 745,
+   "daily_stars": 12.981208053691276,
+   "real_daily_stars": 475.0,
+   "watchers": 30,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "BSD-3-Clause",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "ChromeDevTools/chrome-devtools-mcp",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "description": "Chrome DevTools for coding agents",
+   "language": "TypeScript",
+   "stars": 55875,
+   "forks": 4629,
+   "age_days": 429,
+   "daily_stars": 130.24475524475525,
+   "real_daily_stars": 644.0,
+   "watchers": 252,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "backnotprop/plannotator",
+   "url": "https://github.com/backnotprop/plannotator",
+   "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
+   "language": "TypeScript",
+   "stars": 10662,
+   "forks": 795,
+   "age_days": 321,
+   "daily_stars": 33.21495327102804,
+   "real_daily_stars": 399.0,
+   "watchers": 24,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "louislam/uptime-kuma",
+   "url": "https://github.com/louislam/uptime-kuma",
+   "description": "A fancy self-hosted monitoring tool",
+   "language": "JavaScript",
+   "stars": 94039,
+   "forks": 8730,
+   "age_days": 1960,
+   "daily_stars": 47.97908163265306,
+   "real_daily_stars": 406.0,
+   "watchers": 317,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Likely7/Veyra-NRVideo",
+   "url": "https://github.com/Likely7/Veyra-NRVideo",
+   "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
+   "language": "C++",
+   "stars": 1819,
+   "forks": 81,
+   "age_days": 66,
+   "daily_stars": 27.560606060606062,
+   "real_daily_stars": 399.0,
+   "watchers": 9,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "opencoredev/islandcn",
+   "url": "https://github.com/opencoredev/islandcn",
+   "description": "The open-source Dynamic Island for React, installed with shadcn.",
+   "language": "TypeScript",
+   "stars": 552,
+   "forks": 50,
+   "age_days": 1,
+   "daily_stars": 552.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "simpsoka/zigzag",
+   "url": "https://github.com/simpsoka/zigzag",
+   "description": "Free, open-source embroidery software for Mac and Windows. Turn SVG artwork into machine embroidery, edit stitches visually, and create designs with AI agents via MCP.",
+   "language": "Rust",
+   "stars": 660,
+   "forks": 32,
+   "age_days": 15,
+   "daily_stars": 44.0,
+   "real_daily_stars": 209.0,
+   "watchers": 6,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "Apache-2.0",
+   "hn_title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+   "hn_score": 724,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Parcha-ai/agentrun",
+   "url": "https://github.com/Parcha-ai/agentrun",
+   "description": "AgentRun is an open-source platform that supercharges your agents. It adds self-improvement, durable execution and a control plane on top of your favorite agent harness. Your agents become smarter, more fault tolerant and use fewer tokens with every run.",
+   "language": "JavaScript",
+   "stars": 928,
+   "forks": 68,
+   "age_days": 52,
+   "daily_stars": 17.846153846153847,
+   "real_daily_stars": 180.0,
+   "watchers": 0,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "Apache-2.0",
+   "hn_title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+   "hn_score": 135,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": []
+}

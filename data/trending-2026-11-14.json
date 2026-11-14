@@ -1,0 +1,66 @@
+{
+ "date": "2026-11-14",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "louislam/uptime-kuma",
+   "stars": 94039,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "ZhuLinsen/daily_stock_analysis",
+   "stars": 72058,
+   "language": "Python"
+  },
+  {
+   "full_name": "ChromeDevTools/chrome-devtools-mcp",
+   "stars": 55875,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "alibaba/open-code-review",
+   "stars": 51019,
+   "language": "Go"
+  },
+  {
+   "full_name": "block/buzz",
+   "stars": 37410,
+   "language": "Rust"
+  },
+  {
+   "full_name": "we-promise/sure",
+   "stars": 14997,
+   "language": "Ruby"
+  },
+  {
+   "full_name": "openai/codex-security",
+   "stars": 13394,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "backnotprop/plannotator",
+   "stars": 10662,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "tailscale/tailcat",
+   "stars": 9671,
+   "language": "Go"
+  },
+  {
+   "full_name": "GoogleChrome/modern-web-guidance-src",
+   "stars": 5314,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "tradermonty/claude-trading-skills",
+   "stars": 4413,
+   "language": "Python"
+  },
+  {
+   "full_name": "Likely7/Veyra-NRVideo",
+   "stars": 1819,
+   "language": "C++"
+  }
+ ]
+}

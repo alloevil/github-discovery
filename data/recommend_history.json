@@ -78,15 +78,6 @@
       ],
       "last_recommended": "2026-10-21T09:40:03.744448+00:00"
     },
-    "NationalSecurityAgency/ghidra": {
-      "count": 3,
-      "scores": [
-        96,
-        95,
-        100
-      ],
-      "last_recommended": "2026-10-15T09:27:17.117018+00:00"
-    },
     "debpalash/VoiceStudio": {
       "count": 5,
       "scores": [
@@ -125,14 +116,6 @@
         98
       ],
       "last_recommended": "2026-10-21T09:40:03.740054+00:00"
-    },
-    "HKUDS/CLI-Anything": {
-      "count": 2,
-      "scores": [
-        90,
-        75
-      ],
-      "last_recommended": "2026-10-15T09:27:17.119218+00:00"
     },
     "pbakaus/impeccable": {
       "count": 3,
@@ -207,76 +190,6 @@
         58
       ],
       "last_recommended": "2026-11-05T12:46:04.988213+00:00"
-    },
-    "xtool-org/xtool": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-15T09:27:17.094836+00:00"
-    },
-    "vxcontrol/pentagi": {
-      "count": 1,
-      "scores": [
-        98
-      ],
-      "last_recommended": "2026-10-15T09:27:17.097294+00:00"
-    },
-    "HeyPuter/everything": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-15T09:27:17.099490+00:00"
-    },
-    "CoolkHz/gptibo": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-15T09:27:17.101666+00:00"
-    },
-    "Caho1/open-claude-ui": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-15T09:27:17.103848+00:00"
-    },
-    "outcrawlai/scout": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-10-15T09:27:17.106081+00:00"
-    },
-    "egotoadcitadel/palette-from-image-ai": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-15T09:27:17.108295+00:00"
-    },
-    "solana-classic/solana-classic": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-15T09:27:17.110502+00:00"
-    },
-    "datalab-to/indra": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-10-15T09:27:17.112664+00:00"
-    },
-    "chenglou/handwired": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-10-15T09:27:17.114884+00:00"
     },
     "K-Dense-AI/scientific-agent-skills": {
       "count": 1,
@@ -2311,7 +2224,77 @@
         88
       ],
       "last_recommended": "2026-11-13T12:39:32.077649+00:00"
+    },
+    "alibaba/open-code-review": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-14T11:47:02.876872+00:00"
+    },
+    "tradermonty/claude-trading-skills": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-14T11:47:02.879510+00:00"
+    },
+    "tailscale/tailcat": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-14T11:47:02.881621+00:00"
+    },
+    "ChromeDevTools/chrome-devtools-mcp": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-14T11:47:02.883590+00:00"
+    },
+    "backnotprop/plannotator": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-11-14T11:47:02.885524+00:00"
+    },
+    "louislam/uptime-kuma": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-11-14T11:47:02.887451+00:00"
+    },
+    "Likely7/Veyra-NRVideo": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-11-14T11:47:02.889384+00:00"
+    },
+    "opencoredev/islandcn": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-14T11:47:02.891391+00:00"
+    },
+    "simpsoka/zigzag": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-14T11:47:02.893344+00:00"
+    },
+    "Parcha-ai/agentrun": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-14T11:47:02.895261+00:00"
     }
   },
-  "updated_at": "2026-11-13T12:39:32.077680+00:00"
+  "updated_at": "2026-11-14T11:47:02.895287+00:00"
 }

@@ -1,89 +1,5 @@
 {
  "repos": {
-  "milind-soni/OpenMausBot": {
-   "first_seen": "2026-10-30",
-   "until": "2026-11-13",
-   "stars_at_discovery": 7881,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "CopilotKit/OpenBot": {
-   "first_seen": "2026-10-30",
-   "until": "2026-11-13",
-   "stars_at_discovery": 8436,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "qybaihe/bla": {
-   "first_seen": "2026-10-30",
-   "until": "2026-11-13",
-   "stars_at_discovery": 1145,
-   "score_at_discovery": 100,
-   "source_at_discovery": "search"
-  },
-  "valentderah/totk-pc-recomp": {
-   "first_seen": "2026-10-30",
-   "until": "2026-11-13",
-   "stars_at_discovery": 917,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "BryceYuuu/RUN": {
-   "first_seen": "2026-10-30",
-   "until": "2026-11-13",
-   "stars_at_discovery": 499,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "paipiange/nvzhuang": {
-   "first_seen": "2026-10-30",
-   "until": "2026-11-13",
-   "stars_at_discovery": 764,
-   "score_at_discovery": 96,
-   "source_at_discovery": "rising"
-  },
-  "ccch1mneyyy/dsh-Go": {
-   "first_seen": "2026-10-30",
-   "until": "2026-11-13",
-   "stars_at_discovery": 1550,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "yjid/kensaku": {
-   "first_seen": "2026-10-30",
-   "until": "2026-11-13",
-   "stars_at_discovery": 251,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "oxnw/ai-phone": {
-   "first_seen": "2026-10-30",
-   "until": "2026-11-13",
-   "stars_at_discovery": 298,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "brainstormity/LightPost": {
-   "first_seen": "2026-10-30",
-   "until": "2026-11-13",
-   "stars_at_discovery": 280,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "pingdotgg/t3code": {
-   "first_seen": "2026-10-30",
-   "until": "2026-11-13",
-   "stars_at_discovery": 32237,
-   "score_at_discovery": 97,
-   "source_at_discovery": "trending"
-  },
-  "mattpocock/skills": {
-   "first_seen": "2026-10-30",
-   "until": "2026-11-13",
-   "stars_at_discovery": 306974,
-   "score_at_discovery": 90,
-   "source_at_discovery": "trending"
-  },
   "lightpanda-io/browser": {
    "first_seen": "2026-10-31",
    "until": "2026-11-14",
@@ -1077,7 +993,77 @@
    "stars_at_discovery": 687,
    "score_at_discovery": 88,
    "source_at_discovery": "search"
+  },
+  "alibaba/open-code-review": {
+   "first_seen": "2026-11-14",
+   "until": "2026-11-28",
+   "stars_at_discovery": 51019,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "tradermonty/claude-trading-skills": {
+   "first_seen": "2026-11-14",
+   "until": "2026-11-28",
+   "stars_at_discovery": 4413,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "tailscale/tailcat": {
+   "first_seen": "2026-11-14",
+   "until": "2026-11-28",
+   "stars_at_discovery": 9671,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "ChromeDevTools/chrome-devtools-mcp": {
+   "first_seen": "2026-11-14",
+   "until": "2026-11-28",
+   "stars_at_discovery": 55875,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "backnotprop/plannotator": {
+   "first_seen": "2026-11-14",
+   "until": "2026-11-28",
+   "stars_at_discovery": 10662,
+   "score_at_discovery": 99,
+   "source_at_discovery": "trending"
+  },
+  "louislam/uptime-kuma": {
+   "first_seen": "2026-11-14",
+   "until": "2026-11-28",
+   "stars_at_discovery": 94039,
+   "score_at_discovery": 99,
+   "source_at_discovery": "trending"
+  },
+  "Likely7/Veyra-NRVideo": {
+   "first_seen": "2026-11-14",
+   "until": "2026-11-28",
+   "stars_at_discovery": 1819,
+   "score_at_discovery": 99,
+   "source_at_discovery": "trending"
+  },
+  "opencoredev/islandcn": {
+   "first_seen": "2026-11-14",
+   "until": "2026-11-28",
+   "stars_at_discovery": 552,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "simpsoka/zigzag": {
+   "first_seen": "2026-11-14",
+   "until": "2026-11-28",
+   "stars_at_discovery": 660,
+   "score_at_discovery": 96,
+   "source_at_discovery": "hn"
+  },
+  "Parcha-ai/agentrun": {
+   "first_seen": "2026-11-14",
+   "until": "2026-11-28",
+   "stars_at_discovery": 928,
+   "score_at_discovery": 95,
+   "source_at_discovery": "hn"
   }
  },
- "updated_at": "2026-11-13T12:44:31.502887+00:00"
+ "updated_at": "2026-11-14T11:50:44.643367+00:00"
 }
