@@ -1,0 +1,356 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T12:17:27+00:00",
+  "every_days": 3,
+  "count": 10,
+  "semi_count": 2,
+  "semi_min_met": true,
+  "picks": [
+    {
+      "rank": 1,
+      "full_name": "jbush001/NyuziProcessor",
+      "url": "https://github.com/jbush001/NyuziProcessor",
+      "description": "GPGPU microprocessor architecture",
+      "topic": "semi",
+      "language": "C",
+      "topics": [
+        "fpga",
+        "gpu",
+        "gpu-computing",
+        "graphics",
+        "hardware",
+        "microprocessor",
+        "processor-architecture",
+        "verilog"
+      ],
+      "license": "Apache-2.0",
+      "stars": 2236,
+      "forks": 380,
+      "created_at": "2011-10-29T16:39:37Z",
+      "pushed_at": "2026-11-01T00:00:02Z",
+      "growth": {
+        "since": "2026-11-14",
+        "window_days": 1,
+        "stars_gained": 2,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 65,
+      "verified_at": "2026-11-15T12:17:24+00:00"
+    },
+    {
+      "rank": 2,
+      "full_name": "pulp-platform/axi",
+      "url": "https://github.com/pulp-platform/axi",
+      "description": "AXI SystemVerilog synthesizable IP modules and verification infrastructure for high-performance on-chip communication",
+      "topic": "semi",
+      "language": "SystemVerilog",
+      "topics": [
+        "asic",
+        "axi",
+        "axi4",
+        "axi4-lite",
+        "fpga",
+        "hardware",
+        "ip",
+        "network-on-chip",
+        "rtl",
+        "systemverilog"
+      ],
+      "license": "NOASSERTION",
+      "stars": 1758,
+      "forks": 382,
+      "created_at": "2018-04-12T09:47:20Z",
+      "pushed_at": "2026-11-12T19:54:19Z",
+      "growth": {
+        "since": "2026-11-03",
+        "window_days": 12,
+        "stars_gained": 13,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 61,
+      "verified_at": "2026-11-15T12:17:24+00:00"
+    },
+    {
+      "rank": 3,
+      "full_name": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "agentic",
+        "ai",
+        "ai-agent",
+        "ai-coding",
+        "cli",
+        "coding-agent",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "qwen",
+        "terminal",
+        "typescript"
+      ],
+      "license": "Apache-2.0",
+      "stars": 30496,
+      "forks": 3531,
+      "created_at": "2025-06-26T01:37:46Z",
+      "pushed_at": "2026-11-15T12:15:07Z",
+      "growth": {
+        "since": "2026-11-12",
+        "window_days": 3,
+        "stars_gained": 918,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 88,
+      "verified_at": "2026-11-15T12:17:25+00:00"
+    },
+    {
+      "rank": 4,
+      "full_name": "ashhart/TensorFold",
+      "url": "https://github.com/ashhart/TensorFold",
+      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "topic": "ai",
+      "language": "Zig",
+      "topics": [
+        "ai",
+        "ai-tools",
+        "llm",
+        "llm-inference",
+        "llm-tools"
+      ],
+      "license": "Apache-2.0",
+      "stars": 2229,
+      "forks": 521,
+      "created_at": "2026-06-19T20:27:39Z",
+      "pushed_at": "2026-11-15T12:00:26Z",
+      "growth": {
+        "since": "2026-11-12",
+        "window_days": 3,
+        "stars_gained": 392,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 84,
+      "verified_at": "2026-11-15T12:17:25+00:00"
+    },
+    {
+      "rank": 5,
+      "full_name": "haziqahmedqasmi/PeakCut",
+      "url": "https://github.com/haziqahmedqasmi/PeakCut",
+      "description": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "stars": 334,
+      "forks": 128,
+      "created_at": "2026-11-14T07:38:20Z",
+      "pushed_at": "2026-11-15T08:51:19Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 84,
+      "verified_at": "2026-11-15T12:17:25+00:00"
+    },
+    {
+      "rank": 6,
+      "full_name": "Forward-Future/scarlet",
+      "url": "https://github.com/Forward-Future/scarlet",
+      "description": "Scarlet is an AI video editor for macOS and Windows.",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "stars": 258,
+      "forks": 34,
+      "created_at": "2026-11-13T17:02:31Z",
+      "pushed_at": "2026-11-15T06:31:42Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 83,
+      "verified_at": "2026-11-15T12:17:26+00:00"
+    },
+    {
+      "rank": 7,
+      "full_name": "ZiChuanLan/freebie-radar",
+      "url": "https://github.com/ZiChuanLan/freebie-radar",
+      "description": "白嫖资源聚合雷达：57 个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "stars": 631,
+      "forks": 107,
+      "created_at": "2026-11-12T09:08:11Z",
+      "pushed_at": "2026-11-15T09:17:24Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 82,
+      "verified_at": "2026-11-15T12:17:26+00:00"
+    },
+    {
+      "rank": 8,
+      "full_name": "Vaibhaav-Tiwari/deepseek-v3-jax",
+      "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+      "description": "DeepSeek V3 (MLA, DeepSeekMoE, aux-loss-free balancing, MTP) in 190 lines of pure JAX, trained on a MacBook Air. Write-up: vaibhaav.in/writing/deepseek-v3-jax",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "stars": 171,
+      "forks": 14,
+      "created_at": "2026-11-13T14:59:13Z",
+      "pushed_at": "2026-11-15T06:53:08Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "hn"
+        ],
+        "hn_title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+        "hn_score": 241,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 81,
+      "verified_at": "2026-11-15T12:17:26+00:00"
+    },
+    {
+      "rank": 9,
+      "full_name": "duwqijlk/muse-protocol",
+      "url": "https://github.com/duwqijlk/muse-protocol",
+      "description": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "stars": 753,
+      "forks": 355,
+      "created_at": "2026-11-14T01:24:58Z",
+      "pushed_at": "2026-11-15T02:55:33Z",
+      "growth": {
+        "since": "2026-11-14",
+        "window_days": 1,
+        "stars_gained": 414,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "search",
+          "rising"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 79,
+      "verified_at": "2026-11-15T12:17:26+00:00"
+    },
+    {
+      "rank": 10,
+      "full_name": "0xdeadf1sh/T1DMAI",
+      "url": "https://github.com/0xdeadf1sh/T1DMAI",
+      "description": "A model zoo of blood glucose forecasters trained & tested on my own data",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "benchmark",
+        "benchmarking",
+        "blood-glucose",
+        "blood-glucose-forecasting",
+        "blood-glucose-prediction",
+        "deep-learning",
+        "diabetes",
+        "t1dm",
+        "time-series",
+        "time-series-analysis-and-forecasting",
+        "time-series-forecasting",
+        "time-series-prediction",
+        "transformers",
+        "type-1-diabetes",
+        "xgboost"
+      ],
+      "license": "MIT",
+      "stars": 74,
+      "forks": 4,
+      "created_at": "2026-07-29T05:07:53Z",
+      "pushed_at": "2026-11-15T09:59:07Z",
+      "growth": {
+        "since": "2026-11-14",
+        "window_days": 1,
+        "stars_gained": 37,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "hn"
+        ],
+        "hn_title": "Show HN: I have trained 15 blood glucose forecasting models on my own data",
+        "hn_score": 110,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 78,
+      "verified_at": "2026-11-15T12:17:27+00:00"
+    }
+  ]
+}

@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-14T18:00:00Z</updated>
+  <updated>2026-11-15T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>QwenLM/qwen-code — An open-source AI coding agent that lives in your terminal.</title>
+    <id>https://github.com/QwenLM/qwen-code#2026-11-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/QwenLM/qwen-code"/>
+    <updated>2026-11-15T18:00:00Z</updated>
+    <published>2026-11-15T18:00:00Z</published>
+    <summary>An open-source AI coding agent that lives in your terminal.
+
+Why: +306/day · Trending · 5.1x accelerating
+Score: 98/100 | Language: TypeScript | ⭐ 30496 (+305.7/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>TowerStalker/IPTV_Player_2.0 — 🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android &amp; TV Boxes. </title>
+    <id>https://github.com/TowerStalker/IPTV_Player_2.0#2026-11-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/TowerStalker/IPTV_Player_2.0"/>
+    <updated>2026-11-15T18:00:00Z</updated>
+    <published>2026-11-15T18:00:00Z</published>
+    <summary>🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android &amp; TV Boxes. 
+
+Why: +665/day · Search
+Score: 96/100 | Language: Rust | ⭐ 665 (+665.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>Tornadovonmodify/IPTV_Player_2.0 — 🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android &amp; TV Boxes. </title>
+    <id>https://github.com/Tornadovonmodify/IPTV_Player_2.0#2026-11-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Tornadovonmodify/IPTV_Player_2.0"/>
+    <updated>2026-11-15T18:00:00Z</updated>
+    <published>2026-11-15T18:00:00Z</published>
+    <summary>🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android &amp; TV Boxes. 
+
+Why: +663/day · Search
+Score: 96/100 | Language: Rust | ⭐ 663 (+663.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>TorrentArrow/IPTV_Player_2.0 — 🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android &amp; TV Boxes. </title>
+    <id>https://github.com/TorrentArrow/IPTV_Player_2.0#2026-11-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/TorrentArrow/IPTV_Player_2.0"/>
+    <updated>2026-11-15T18:00:00Z</updated>
+    <published>2026-11-15T18:00:00Z</published>
+    <summary>🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android &amp; TV Boxes. 
+
+Why: +661/day · Search
+Score: 96/100 | Language: Rust | ⭐ 661 (+661.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>tremorbuffalospire/IPTV_Player_2.0 — 🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android &amp; TV Boxes. </title>
+    <id>https://github.com/tremorbuffalospire/IPTV_Player_2.0#2026-11-15</id>
+    <link rel="alternate" type="text/html" href="https://github.com/tremorbuffalospire/IPTV_Player_2.0"/>
+    <updated>2026-11-15T18:00:00Z</updated>
+    <published>2026-11-15T18:00:00Z</published>
+    <summary>🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android &amp; TV Boxes. 
+
+Why: +661/day · Search
+Score: 96/100 | Language: Rust | ⭐ 661 (+661.0/day) | Source: search</summary>
+  </entry>
   <entry>
     <title>alibaba/open-code-review — Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.</title>
     <id>https://github.com/alibaba/open-code-review#2026-11-14</id>
@@ -789,71 +844,5 @@ Score: 96/100 | Language: Kotlin | ⭐ 901 (+901.0/day) | Source: search</summar
 
 Why: +882/day · Search+AI/ML
 Score: 96/100 | Language: TypeScript | ⭐ 882 (+882.0/day) | Source: search + ai-trending</summary>
-  </entry>
-  <entry>
-    <title>Donchitos/Claude-Code-Game-Studios — Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.</title>
-    <id>https://github.com/Donchitos/Claude-Code-Game-Studios#2026-11-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Donchitos/Claude-Code-Game-Studios"/>
-    <updated>2026-11-01T18:00:00Z</updated>
-    <published>2026-11-01T18:00:00Z</published>
-    <summary>Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.
-
-Why: +1008/day · Trending · 8.4x accelerating
-Score: 100/100 | Language: Shell | ⭐ 31603 (+1008.3/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>patch-gg/pixelfx — 244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.</title>
-    <id>https://github.com/patch-gg/pixelfx#2026-11-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/patch-gg/pixelfx"/>
-    <updated>2026-11-01T18:00:00Z</updated>
-    <published>2026-11-01T18:00:00Z</published>
-    <summary>244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.
-
-Why: +982/day · Search
-Score: 96/100 | Language: JavaScript | ⭐ 1964 (+982.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>Djihads80/Eglantine — VERY experimental Nintendo Switch 2 emulator</title>
-    <id>https://github.com/Djihads80/Eglantine#2026-11-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Djihads80/Eglantine"/>
-    <updated>2026-11-01T18:00:00Z</updated>
-    <published>2026-11-01T18:00:00Z</published>
-    <summary>VERY experimental Nintendo Switch 2 emulator
-
-Why: +519/day · Search
-Score: 96/100 | Language: C++ | ⭐ 1558 (+519.3/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>Arjun-Ingole/hop — Install Linux next to Windows without a USB stick</title>
-    <id>https://github.com/Arjun-Ingole/hop#2026-11-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Arjun-Ingole/hop"/>
-    <updated>2026-11-01T18:00:00Z</updated>
-    <published>2026-11-01T18:00:00Z</published>
-    <summary>Install Linux next to Windows without a USB stick
-
-Why: +914/day · Search
-Score: 96/100 | Language: PowerShell | ⭐ 914 (+914.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>storytold/craft-anything — Craft Anything: understand how any software works, and craft your own.</title>
-    <id>https://github.com/storytold/craft-anything#2026-11-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/storytold/craft-anything"/>
-    <updated>2026-11-01T18:00:00Z</updated>
-    <published>2026-11-01T18:00:00Z</published>
-    <summary>Craft Anything: understand how any software works, and craft your own.
-
-Why: +379/day · Search
-Score: 95/100 | Language: Rust | ⭐ 379 (+379.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>shiyu-coder/Kronos — Kronos: A Foundation Model for the Language of Financial Markets</title>
-    <id>https://github.com/shiyu-coder/Kronos#2026-11-01</id>
-    <link rel="alternate" type="text/html" href="https://github.com/shiyu-coder/Kronos"/>
-    <updated>2026-11-01T18:00:00Z</updated>
-    <published>2026-11-01T18:00:00Z</published>
-    <summary>Kronos: A Foundation Model for the Language of Financial Markets
-
-Why: +631/day · Trending · 6.9x accelerating
-Score: 100/100 | Language: Python | ⭐ 44913 (+631.0/day) | Source: trending</summary>
   </entry>
 </feed>

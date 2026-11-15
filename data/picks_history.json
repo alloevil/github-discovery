@@ -399,7 +399,47 @@
     "ScottDuncanAI/PID-to-Knowledge-Graph": {
       "first_picked": "2026-11-12",
       "source": "github-discovery"
+    },
+    "jbush001/NyuziProcessor": {
+      "first_picked": "2026-11-15",
+      "source": "github-discovery"
+    },
+    "pulp-platform/axi": {
+      "first_picked": "2026-11-15",
+      "source": "github-discovery"
+    },
+    "QwenLM/qwen-code": {
+      "first_picked": "2026-11-15",
+      "source": "github-discovery"
+    },
+    "ashhart/TensorFold": {
+      "first_picked": "2026-11-15",
+      "source": "github-discovery"
+    },
+    "haziqahmedqasmi/PeakCut": {
+      "first_picked": "2026-11-15",
+      "source": "github-discovery"
+    },
+    "Forward-Future/scarlet": {
+      "first_picked": "2026-11-15",
+      "source": "github-discovery"
+    },
+    "ZiChuanLan/freebie-radar": {
+      "first_picked": "2026-11-15",
+      "source": "github-discovery"
+    },
+    "Vaibhaav-Tiwari/deepseek-v3-jax": {
+      "first_picked": "2026-11-15",
+      "source": "github-discovery"
+    },
+    "duwqijlk/muse-protocol": {
+      "first_picked": "2026-11-15",
+      "source": "github-discovery"
+    },
+    "0xdeadf1sh/T1DMAI": {
+      "first_picked": "2026-11-15",
+      "source": "github-discovery"
     }
   },
-  "updated_at": "2026-11-12T13:17:15.396717+00:00"
+  "updated_at": "2026-11-15T12:17:27.275356+00:00"
 }

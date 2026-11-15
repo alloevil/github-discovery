@@ -59,15 +59,6 @@
       ],
       "last_recommended": "2026-10-18T09:06:05.779332+00:00"
     },
-    "anthropics/claude-plugins-official": {
-      "count": 3,
-      "scores": [
-        99,
-        69,
-        97
-      ],
-      "last_recommended": "2026-10-16T09:19:03.652943+00:00"
-    },
     "DietrichGebert/ponytail": {
       "count": 4,
       "scores": [
@@ -142,14 +133,6 @@
       ],
       "last_recommended": "2026-10-17T08:49:46.656587+00:00"
     },
-    "JuliusBrussee/caveman": {
-      "count": 2,
-      "scores": [
-        89,
-        92
-      ],
-      "last_recommended": "2026-10-16T09:19:03.655020+00:00"
-    },
     "pingdotgg/t3code": {
       "count": 2,
       "scores": [
@@ -174,14 +157,6 @@
       ],
       "last_recommended": "2026-10-21T09:40:03.742227+00:00"
     },
-    "morluto/rea": {
-      "count": 2,
-      "scores": [
-        100,
-        100
-      ],
-      "last_recommended": "2026-10-16T09:19:03.650955+00:00"
-    },
     "chenwei810/Semiconductor_Manufacturing_Introduction": {
       "count": 3,
       "scores": [
@@ -190,76 +165,6 @@
         58
       ],
       "last_recommended": "2026-11-05T12:46:04.988213+00:00"
-    },
-    "K-Dense-AI/scientific-agent-skills": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-16T09:19:03.630500+00:00"
-    },
-    "Supermedo/uncharted_pc": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-16T09:19:03.632930+00:00"
-    },
-    "andunieee/flipflop": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-10-16T09:19:03.634953+00:00"
-    },
-    "onehumanbeing/esp32-iphone-agent": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-16T09:19:03.636961+00:00"
-    },
-    "assafkip/claudemy": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-16T09:19:03.638946+00:00"
-    },
-    "Zfinix/eleven": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-16T09:19:03.640989+00:00"
-    },
-    "zgsfsec/Full-Chain-Sentinel-System": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-16T09:19:03.642969+00:00"
-    },
-    "LargeModGames/spotatui": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-16T09:19:03.644976+00:00"
-    },
-    "heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-10-16T09:19:03.646944+00:00"
-    },
-    "AirsupHQ/machine-skill": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-10-16T09:19:03.648968+00:00"
     },
     "xerj-org/xerj": {
       "count": 1,
@@ -2294,7 +2199,77 @@
         95
       ],
       "last_recommended": "2026-11-14T11:47:02.895261+00:00"
+    },
+    "QwenLM/qwen-code": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-11-15T12:17:24.091054+00:00"
+    },
+    "TowerStalker/IPTV_Player_2.0": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-15T12:17:24.093376+00:00"
+    },
+    "Tornadovonmodify/IPTV_Player_2.0": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-15T12:17:24.095602+00:00"
+    },
+    "TorrentArrow/IPTV_Player_2.0": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-15T12:17:24.097660+00:00"
+    },
+    "tremorbuffalospire/IPTV_Player_2.0": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-15T12:17:24.099813+00:00"
+    },
+    "TurquoiseFarmer/IPTV_Player_2.0": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-15T12:17:24.101870+00:00"
+    },
+    "ashhart/TensorFold": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-15T12:17:24.103903+00:00"
+    },
+    "Noniv/abyssal-garden": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-15T12:17:24.105949+00:00"
+    },
+    "haziqahmedqasmi/PeakCut": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-15T12:17:24.108015+00:00"
+    },
+    "mit-han-lab/pear": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-15T12:17:24.110046+00:00"
     }
   },
-  "updated_at": "2026-11-14T11:47:02.895287+00:00"
+  "updated_at": "2026-11-15T12:17:24.110071+00:00"
 }
