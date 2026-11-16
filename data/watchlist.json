@@ -1,75 +1,5 @@
 {
  "repos": {
-  "Donchitos/Claude-Code-Game-Studios": {
-   "first_seen": "2026-11-01",
-   "until": "2026-11-15",
-   "stars_at_discovery": 31603,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "patch-gg/pixelfx": {
-   "first_seen": "2026-11-01",
-   "until": "2026-11-15",
-   "stars_at_discovery": 1964,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "Djihads80/Eglantine": {
-   "first_seen": "2026-11-01",
-   "until": "2026-11-15",
-   "stars_at_discovery": 1558,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "Arjun-Ingole/hop": {
-   "first_seen": "2026-11-01",
-   "until": "2026-11-15",
-   "stars_at_discovery": 914,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "storytold/craft-anything": {
-   "first_seen": "2026-11-01",
-   "until": "2026-11-15",
-   "stars_at_discovery": 379,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "hyz317/HairDeck": {
-   "first_seen": "2026-11-01",
-   "until": "2026-11-15",
-   "stars_at_discovery": 482,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "redjellyfishrampart/Bunny-Hop-Script-Auto-Bhop-Movement-Tool-2026": {
-   "first_seen": "2026-11-01",
-   "until": "2026-11-15",
-   "stars_at_discovery": 300,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "Centiplatrap/pc-game-fps-doctor": {
-   "first_seen": "2026-11-01",
-   "until": "2026-11-15",
-   "stars_at_discovery": 319,
-   "score_at_discovery": 94,
-   "source_at_discovery": "rising"
-  },
-  "haydenschmitty/floorplan": {
-   "first_seen": "2026-11-01",
-   "until": "2026-11-15",
-   "stars_at_discovery": 1113,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "ShineFinancialStrut/game-server-route-racer": {
-   "first_seen": "2026-11-01",
-   "until": "2026-11-15",
-   "stars_at_discovery": 196,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
   "hyprwm/Hyprland": {
    "first_seen": "2026-11-02",
    "until": "2026-11-16",
@@ -1063,7 +993,77 @@
    "stars_at_discovery": 250,
    "score_at_discovery": 93,
    "source_at_discovery": "search"
+  },
+  "ag-ui-protocol/ag-ui": {
+   "first_seen": "2026-11-16",
+   "until": "2026-11-30",
+   "stars_at_discovery": 18389,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "dream-num/univer": {
+   "first_seen": "2026-11-16",
+   "until": "2026-11-30",
+   "stars_at_discovery": 27475,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "yetanotherbrowser/yab": {
+   "first_seen": "2026-11-16",
+   "until": "2026-11-30",
+   "stars_at_discovery": 517,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "n4ze3m/tiny-voca": {
+   "first_seen": "2026-11-16",
+   "until": "2026-11-30",
+   "stars_at_discovery": 512,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "YellowLaborerMarket/Gemini-Config-Checker-": {
+   "first_seen": "2026-11-16",
+   "until": "2026-11-30",
+   "stars_at_discovery": 474,
+   "score_at_discovery": 96,
+   "source_at_discovery": "ai-trending"
+  },
+  "Visionbeyondtrack/Gemini-Config-Checker-": {
+   "first_seen": "2026-11-16",
+   "until": "2026-11-30",
+   "stars_at_discovery": 473,
+   "score_at_discovery": 96,
+   "source_at_discovery": "ai-trending"
+  },
+  "WinnerSpecialist/Gemini-Config-Checker-": {
+   "first_seen": "2026-11-16",
+   "until": "2026-11-30",
+   "stars_at_discovery": 473,
+   "score_at_discovery": 96,
+   "source_at_discovery": "ai-trending"
+  },
+  "VortexHostFeel/Gemini-Config-Checker-": {
+   "first_seen": "2026-11-16",
+   "until": "2026-11-30",
+   "stars_at_discovery": 473,
+   "score_at_discovery": 96,
+   "source_at_discovery": "ai-trending"
+  },
+  "TurtleReside/Gemini-Config-Checker-": {
+   "first_seen": "2026-11-16",
+   "until": "2026-11-30",
+   "stars_at_discovery": 473,
+   "score_at_discovery": 96,
+   "source_at_discovery": "ai-trending"
+  },
+  "WingDataVacuum/Gemini-Config-Checker-": {
+   "first_seen": "2026-11-16",
+   "until": "2026-11-30",
+   "stars_at_discovery": 473,
+   "score_at_discovery": 96,
+   "source_at_discovery": "ai-trending"
   }
  },
- "updated_at": "2026-11-15T12:20:30.329370+00:00"
+ "updated_at": "2026-11-16T13:14:08.455937+00:00"
 }
