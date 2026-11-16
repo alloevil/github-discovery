@@ -3,78 +3,13 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "sveltejs/svelte",
-   "stars": 88807,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "mvanhorn/last30days-skill",
-   "stars": 67839,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "ChromeDevTools/chrome-devtools-mcp",
-   "stars": 57430,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "alibaba/open-code-review",
-   "stars": 52669,
-   "language": "Go"
-  },
-  {
-   "full_name": "dream-num/univer",
-   "stars": 27475,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "ag-ui-protocol/ag-ui",
-   "stars": 18389,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "backnotprop/plannotator",
-   "stars": 12229,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "google-labs-code/stitch-skills",
-   "stars": 9583,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "getarcaneapp/arcane",
-   "stars": 8426,
-   "language": "Go"
-  },
-  {
-   "full_name": "elementalsouls/Claude-BugHunter",
-   "stars": 7085,
-   "language": "Python"
-  },
-  {
-   "full_name": "DeanChensj/jiangshan-map",
-   "stars": 6495,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "kajisho5/ffmpeg-skill",
-   "stars": 6157,
-   "language": "Python"
-  },
-  {
-   "full_name": "tradermonty/claude-trading-skills",
-   "stars": 5998,
-   "language": "Python"
-  },
-  {
-   "full_name": "NVIDIA/SkillEvaluator",
-   "stars": 2244,
-   "language": "Python"
-  },
-  {
-   "full_name": "google-research/paper-orchestra",
-   "stars": 1034,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
   }
  ]
