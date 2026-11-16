@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-15T18:00:00Z</updated>
+  <updated>2026-11-16T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>ag-ui-protocol/ag-ui — AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.</title>
+    <id>https://github.com/ag-ui-protocol/ag-ui#2026-11-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ag-ui-protocol/ag-ui"/>
+    <updated>2026-11-16T18:00:00Z</updated>
+    <published>2026-11-16T18:00:00Z</published>
+    <summary>AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.
+
+Why: +844/day · Trending · 25.6x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 18389 (+844.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>dream-num/univer — Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.</title>
+    <id>https://github.com/dream-num/univer#2026-11-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/dream-num/univer"/>
+    <updated>2026-11-16T18:00:00Z</updated>
+    <published>2026-11-16T18:00:00Z</published>
+    <summary>Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.
+
+Why: +2259/day · Trending · 124.1x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 27475 (+2259.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>yetanotherbrowser/yab — Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion</title>
+    <id>https://github.com/yetanotherbrowser/yab#2026-11-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/yetanotherbrowser/yab"/>
+    <updated>2026-11-16T18:00:00Z</updated>
+    <published>2026-11-16T18:00:00Z</published>
+    <summary>Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion
+
+Why: +517/day · Search
+Score: 96/100 | Language: Swift | ⭐ 517 (+517.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>n4ze3m/tiny-voca — A 4.5M-parameter two-voice English text-to-speech model, trained from scratch</title>
+    <id>https://github.com/n4ze3m/tiny-voca#2026-11-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/n4ze3m/tiny-voca"/>
+    <updated>2026-11-16T18:00:00Z</updated>
+    <published>2026-11-16T18:00:00Z</published>
+    <summary>A 4.5M-parameter two-voice English text-to-speech model, trained from scratch
+
+Why: +512/day · Search
+Score: 96/100 | Language: Python | ⭐ 512 (+512.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>YellowLaborerMarket/Gemini-Config-Checker- — Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) </title>
+    <id>https://github.com/YellowLaborerMarket/Gemini-Config-Checker-#2026-11-16</id>
+    <link rel="alternate" type="text/html" href="https://github.com/YellowLaborerMarket/Gemini-Config-Checker-"/>
+    <updated>2026-11-16T18:00:00Z</updated>
+    <published>2026-11-16T18:00:00Z</published>
+    <summary>Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) 
+
+Why: +474/day · AI/ML
+Score: 96/100 | Language: Makefile | ⭐ 474 (+474.0/day) | Source: ai-trending</summary>
+  </entry>
   <entry>
     <title>QwenLM/qwen-code — An open-source AI coding agent that lives in your terminal.</title>
     <id>https://github.com/QwenLM/qwen-code#2026-11-15</id>
@@ -789,60 +844,5 @@ Score: 99/100 | Language: Rust | ⭐ 10262 (+423.0/day) | Source: trending</summ
 
 Why: +752/day · Trending · 2.0x accelerating
 Score: 95/100 | Language: C | ⭐ 46944 (+752.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>hyprwm/Hyprland — Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.</title>
-    <id>https://github.com/hyprwm/Hyprland#2026-11-02</id>
-    <link rel="alternate" type="text/html" href="https://github.com/hyprwm/Hyprland"/>
-    <updated>2026-11-02T18:00:00Z</updated>
-    <published>2026-11-02T18:00:00Z</published>
-    <summary>Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
-
-Why: +524/day · Trending · 22.4x accelerating
-Score: 100/100 | Language: C++ | ⭐ 39645 (+524.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>FlashML-org/FreeToken — FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.</title>
-    <id>https://github.com/FlashML-org/FreeToken#2026-11-02</id>
-    <link rel="alternate" type="text/html" href="https://github.com/FlashML-org/FreeToken"/>
-    <updated>2026-11-02T18:00:00Z</updated>
-    <published>2026-11-02T18:00:00Z</published>
-    <summary>FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.
-
-Why: +692/day · Trending · 4.6x accelerating
-Score: 100/100 | Language: Python | ⭐ 15776 (+692.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>kornia/kornia — 🐍 Geometric Computer Vision Library for Spatial AI</title>
-    <id>https://github.com/kornia/kornia#2026-11-02</id>
-    <link rel="alternate" type="text/html" href="https://github.com/kornia/kornia"/>
-    <updated>2026-11-02T18:00:00Z</updated>
-    <published>2026-11-02T18:00:00Z</published>
-    <summary>🐍 Geometric Computer Vision Library for Spatial AI
-
-Why: +428/day · Trending · 106.8x accelerating
-Score: 99/100 | Language: Python | ⭐ 11999 (+428.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Verlintas/NOIR — 手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.</title>
-    <id>https://github.com/Verlintas/NOIR#2026-11-02</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Verlintas/NOIR"/>
-    <updated>2026-11-02T18:00:00Z</updated>
-    <published>2026-11-02T18:00:00Z</published>
-    <summary>手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.
-
-Why: +901/day · Search
-Score: 96/100 | Language: Kotlin | ⭐ 901 (+901.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>caru-ini/stack-diagram — Agent skill: describe your stack in a sentence, get an architecture diagram with official logos</title>
-    <id>https://github.com/caru-ini/stack-diagram#2026-11-02</id>
-    <link rel="alternate" type="text/html" href="https://github.com/caru-ini/stack-diagram"/>
-    <updated>2026-11-02T18:00:00Z</updated>
-    <published>2026-11-02T18:00:00Z</published>
-    <summary>Agent skill: describe your stack in a sentence, get an architecture diagram with official logos
-
-Why: +882/day · Search+AI/ML
-Score: 96/100 | Language: TypeScript | ⭐ 882 (+882.0/day) | Source: search + ai-trending</summary>
   </entry>
 </feed>
