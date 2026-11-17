@@ -1,0 +1,442 @@
+{
+ "date": "2026-11-17",
+ "generated_at": "2026-11-17T13:52:48.551890",
+ "pool_size": 125,
+ "source_health": {
+  "trending": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 9
+  },
+  "search": {
+   "fetched": 68,
+   "parsed": 68,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 3
+  },
+  "hn": {
+   "fetched": 14,
+   "parsed": 14,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 4,
+   "parsed": 4,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 1
+  },
+  "ai-trending": {
+   "fetched": 32,
+   "parsed": 32,
+   "rejected": 0,
+   "deduplicated": 3,
+   "recommended": 2
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "elementalsouls/Claude-BugHunter",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+   "language": "Python",
+   "stars": 8295,
+   "forks": 1271,
+   "age_days": 196,
+   "daily_stars": 42.32142857142857,
+   "real_daily_stars": 1210.0,
+   "watchers": 49,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "mvanhorn/last30days-skill",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+   "language": "Python",
+   "stars": 68619,
+   "forks": 6111,
+   "age_days": 297,
+   "daily_stars": 231.04040404040404,
+   "real_daily_stars": 780.0,
+   "watchers": 220,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Tencent/LoopForge",
+   "url": "https://github.com/Tencent/LoopForge",
+   "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+   "language": "Go",
+   "stars": 2843,
+   "forks": 415,
+   "age_days": 112,
+   "daily_stars": 25.383928571428573,
+   "real_daily_stars": 849.0,
+   "watchers": 12,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "getarcaneapp/arcane",
+   "url": "https://github.com/getarcaneapp/arcane",
+   "description": "Modern Docker Management, Designed for Everyone",
+   "language": "Go",
+   "stars": 9084,
+   "forks": 483,
+   "age_days": 577,
+   "daily_stars": 15.743500866551127,
+   "real_daily_stars": 658.0,
+   "watchers": 17,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "BSD-3-Clause",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "sveltejs/svelte",
+   "url": "https://github.com/sveltejs/svelte",
+   "description": "web development for the rest of us",
+   "language": "JavaScript",
+   "stars": 89306,
+   "forks": 6178,
+   "age_days": 3648,
+   "daily_stars": 24.48081140350877,
+   "real_daily_stars": 499.0,
+   "watchers": 954,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "google-research/paper-orchestra",
+   "url": "https://github.com/google-research/paper-orchestra",
+   "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+   "language": "Python",
+   "stars": 2272,
+   "forks": 329,
+   "age_days": 199,
+   "daily_stars": 11.417085427135678,
+   "real_daily_stars": 1238.0,
+   "watchers": 23,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "google-labs-code/stitch-skills",
+   "url": "https://github.com/google-labs-code/stitch-skills",
+   "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+   "language": "TypeScript",
+   "stars": 9941,
+   "forks": 1298,
+   "age_days": 304,
+   "daily_stars": 32.70065789473684,
+   "real_daily_stars": 358.0,
+   "watchers": 86,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 98,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "joshpuckett/allo",
+   "url": "https://github.com/joshpuckett/allo",
+   "description": "Allo is your friendly neighborhood typeface, free and open source",
+   "language": "Python",
+   "stars": 702,
+   "forks": 16,
+   "age_days": 1,
+   "daily_stars": 702.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "OFL-1.1",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "sybil-solutions/inference-optimisation-skill",
+   "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+   "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+   "language": "Python",
+   "stars": 609,
+   "forks": 61,
+   "age_days": 1,
+   "daily_stars": 609.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "boringmarketer/boring-marketing-skills",
+   "url": "https://github.com/boringmarketer/boring-marketing-skills",
+   "description": "31 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT.",
+   "language": "Python",
+   "stars": 383,
+   "forks": 166,
+   "age_days": 1,
+   "daily_stars": 383.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "description": "An agentic skills framework & software development methodology that works.",
+   "language": "Shell",
+   "stars": 319008,
+   "forks": 28442,
+   "age_days": 403,
+   "daily_stars": 791.5831265508685,
+   "real_daily_stars": 549.2352941176471,
+   "watchers": 1155,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "language": "JavaScript",
+   "stars": 305060,
+   "forks": 44923,
+   "age_days": 303,
+   "daily_stars": 1006.7986798679868,
+   "real_daily_stars": 650.7142857142857,
+   "watchers": 1495,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "mytechnotalent/Reverse-Engineering",
+   "url": "https://github.com/mytechnotalent/Reverse-Engineering",
+   "description": "A FREE comprehensive reverse engineering tutorial covering x86, x64, 32-bit/64-bit ARM, 8-bit AVR and 32-bit RISC-V architectures.",
+   "language": "Assembly",
+   "stars": 15201,
+   "forks": 1691,
+   "age_days": 2468,
+   "daily_stars": 6.1592382495948135,
+   "real_daily_stars": 6.333333333333333,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "Apache-2.0",
+   "rank": 3,
+   "scores": {
+    "total": 60,
+    "acceleration": 10,
+    "quality": 20,
+    "antispam": 30,
+    "rank_in_pool": 80,
+    "pool_size": 125,
+    "top_pct": 64.0
+   }
+  },
+  {
+   "full_name": "chenwei810/Semiconductor_Manufacturing_Introduction",
+   "url": "https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction",
+   "description": "Introduction to Semiconductor Manufacturing",
+   "language": "Python",
+   "stars": 1405,
+   "forks": 135,
+   "age_days": 37,
+   "daily_stars": 37.972972972972975,
+   "real_daily_stars": 2.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "NOASSERTION",
+   "rank": 4,
+   "scores": {
+    "total": 55,
+    "acceleration": 5,
+    "quality": 20,
+    "antispam": 30,
+    "rank_in_pool": 93,
+    "pool_size": 125,
+    "top_pct": 74.4
+   }
+  }
+ ]
+}

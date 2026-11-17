@@ -1,7 +1,7 @@
 {
   "repos": {
     "obra/superpowers": {
-      "count": 11,
+      "count": 12,
       "scores": [
         100,
         100,
@@ -13,12 +13,13 @@
         79,
         90,
         90,
-        92
+        92,
+        90
       ],
-      "last_recommended": "2026-10-28T10:50:45.444200+00:00"
+      "last_recommended": "2026-11-17T13:52:48.541908+00:00"
     },
     "affaan-m/ECC": {
-      "count": 9,
+      "count": 10,
       "scores": [
         100,
         100,
@@ -28,9 +29,10 @@
         90,
         90,
         90,
+        90,
         90
       ],
-      "last_recommended": "2026-10-27T10:04:14.542055+00:00"
+      "last_recommended": "2026-11-17T13:52:48.543994+00:00"
     },
     "mattpocock/skills": {
       "count": 11,
@@ -48,16 +50,6 @@
         93
       ],
       "last_recommended": "2026-11-06T12:30:20.234502+00:00"
-    },
-    "anthropics/claude-code": {
-      "count": 4,
-      "scores": [
-        87,
-        68,
-        70,
-        100
-      ],
-      "last_recommended": "2026-10-18T09:06:05.779332+00:00"
     },
     "DietrichGebert/ponytail": {
       "count": 4,
@@ -150,83 +142,14 @@
       "last_recommended": "2026-10-21T09:40:03.742227+00:00"
     },
     "chenwei810/Semiconductor_Manufacturing_Introduction": {
-      "count": 3,
+      "count": 4,
       "scores": [
         94,
         58,
-        58
+        58,
+        55
       ],
-      "last_recommended": "2026-11-05T12:46:04.988213+00:00"
-    },
-    "MadsLorentzen/ai-job-search": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-18T09:06:05.760987+00:00"
-    },
-    "aicodeking/leanrea": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-18T09:06:05.763168+00:00"
-    },
-    "android/skills": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-18T09:06:05.764980+00:00"
-    },
-    "LiCinCan/blender-ai-mcp-addon": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-18T09:06:05.766752+00:00"
-    },
-    "stablyai/orca": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-18T09:06:05.768567+00:00"
-    },
-    "rohit267/net-merge": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-18T09:06:05.770386+00:00"
-    },
-    "c22dev/mush8": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-18T09:06:05.772196+00:00"
-    },
-    "anomalyco/opencode": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-10-18T09:06:05.773977+00:00"
-    },
-    "xscreensaver-official/xscreensaver": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-10-18T09:06:05.775742+00:00"
-    },
-    "justxor/deepseek-local-guide-ru": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-10-18T09:06:05.777531+00:00"
+      "last_recommended": "2026-11-17T13:52:48.548112+00:00"
     },
     "akitaonrails/ai-memory": {
       "count": 1,
@@ -629,12 +552,13 @@
       "last_recommended": "2026-10-24T09:08:40.707508+00:00"
     },
     "mytechnotalent/Reverse-Engineering": {
-      "count": 2,
+      "count": 3,
       "scores": [
         86,
-        65
+        65,
+        60
       ],
-      "last_recommended": "2026-11-05T12:46:04.986477+00:00"
+      "last_recommended": "2026-11-17T13:52:48.546076+00:00"
     },
     "quanhoangindex/ascii-reveal": {
       "count": 1,
@@ -2261,7 +2185,77 @@
         96
       ],
       "last_recommended": "2026-11-16T13:10:37.131730+00:00"
+    },
+    "elementalsouls/Claude-BugHunter": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-17T13:52:48.521206+00:00"
+    },
+    "mvanhorn/last30days-skill": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-17T13:52:48.523469+00:00"
+    },
+    "Tencent/LoopForge": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-17T13:52:48.525549+00:00"
+    },
+    "getarcaneapp/arcane": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-17T13:52:48.527605+00:00"
+    },
+    "sveltejs/svelte": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-17T13:52:48.529696+00:00"
+    },
+    "google-research/paper-orchestra": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-17T13:52:48.531726+00:00"
+    },
+    "google-labs-code/stitch-skills": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-11-17T13:52:48.533755+00:00"
+    },
+    "joshpuckett/allo": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-17T13:52:48.535808+00:00"
+    },
+    "sybil-solutions/inference-optimisation-skill": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-17T13:52:48.537831+00:00"
+    },
+    "boringmarketer/boring-marketing-skills": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-17T13:52:48.539863+00:00"
     }
   },
-  "updated_at": "2026-11-16T13:10:37.131754+00:00"
+  "updated_at": "2026-11-17T13:52:48.548139+00:00"
 }

@@ -1,0 +1,81 @@
+{
+ "date": "2026-11-17",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "obra/superpowers",
+   "stars": 319008,
+   "language": "Shell"
+  },
+  {
+   "full_name": "affaan-m/ECC",
+   "stars": 305060,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "sveltejs/svelte",
+   "stars": 89306,
+   "language": "JavaScript"
+  },
+  {
+   "full_name": "mvanhorn/last30days-skill",
+   "stars": 68619,
+   "language": "Python"
+  },
+  {
+   "full_name": "jingyaogong/minimind",
+   "stars": 65696,
+   "language": "Python"
+  },
+  {
+   "full_name": "alibaba/open-code-review",
+   "stars": 53433,
+   "language": "Go"
+  },
+  {
+   "full_name": "dream-num/univer",
+   "stars": 28685,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "ag-ui-protocol/ag-ui",
+   "stars": 19805,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "cursor/plugins",
+   "stars": 16759,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "backnotprop/plannotator",
+   "stars": 12912,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "google-labs-code/stitch-skills",
+   "stars": 9941,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "getarcaneapp/arcane",
+   "stars": 9084,
+   "language": "Go"
+  },
+  {
+   "full_name": "elementalsouls/Claude-BugHunter",
+   "stars": 8295,
+   "language": "Python"
+  },
+  {
+   "full_name": "Tencent/LoopForge",
+   "stars": 2843,
+   "language": "Go"
+  },
+  {
+   "full_name": "google-research/paper-orchestra",
+   "stars": 2272,
+   "language": "Python"
+  }
+ ]
+}
