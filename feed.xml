@@ -3,12 +3,100 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-16T18:00:00Z</updated>
+  <updated>2026-11-17T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>elementalsouls/Claude-BugHunter — A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.</title>
+    <id>https://github.com/elementalsouls/Claude-BugHunter#2026-11-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/elementalsouls/Claude-BugHunter"/>
+    <updated>2026-11-17T18:00:00Z</updated>
+    <published>2026-11-17T18:00:00Z</published>
+    <summary>A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
+
+Why: +1210/day · Trending · 28.6x accelerating
+Score: 100/100 | Language: Python | ⭐ 8295 (+1210.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>mvanhorn/last30days-skill — AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary</title>
+    <id>https://github.com/mvanhorn/last30days-skill#2026-11-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mvanhorn/last30days-skill"/>
+    <updated>2026-11-17T18:00:00Z</updated>
+    <published>2026-11-17T18:00:00Z</published>
+    <summary>AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
+
+Why: +780/day · Trending · 3.4x accelerating
+Score: 100/100 | Language: Python | ⭐ 68619 (+780.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Tencent/LoopForge — Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.</title>
+    <id>https://github.com/Tencent/LoopForge#2026-11-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Tencent/LoopForge"/>
+    <updated>2026-11-17T18:00:00Z</updated>
+    <published>2026-11-17T18:00:00Z</published>
+    <summary>Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.
+
+Why: +849/day · Trending · 33.4x accelerating
+Score: 100/100 | Language: Go | ⭐ 2843 (+849.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>getarcaneapp/arcane — Modern Docker Management, Designed for Everyone</title>
+    <id>https://github.com/getarcaneapp/arcane#2026-11-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/getarcaneapp/arcane"/>
+    <updated>2026-11-17T18:00:00Z</updated>
+    <published>2026-11-17T18:00:00Z</published>
+    <summary>Modern Docker Management, Designed for Everyone
+
+Why: +658/day · Trending · 41.8x accelerating
+Score: 100/100 | Language: Go | ⭐ 9084 (+658.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>sveltejs/svelte — web development for the rest of us</title>
+    <id>https://github.com/sveltejs/svelte#2026-11-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/sveltejs/svelte"/>
+    <updated>2026-11-17T18:00:00Z</updated>
+    <published>2026-11-17T18:00:00Z</published>
+    <summary>web development for the rest of us
+
+Why: +499/day · Trending · 20.4x accelerating
+Score: 100/100 | Language: JavaScript | ⭐ 89306 (+499.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>obra/superpowers — An agentic skills framework &amp; software development methodology that works.</title>
+    <id>https://github.com/obra/superpowers#2026-11-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/obra/superpowers"/>
+    <updated>2026-11-17T18:00:00Z</updated>
+    <published>2026-11-17T18:00:00Z</published>
+    <summary>An agentic skills framework &amp; software development methodology that works.
+
+Why: +549/day · Trending
+Score: 90/100 | Language: Shell | ⭐ 319008 (+549.2/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>affaan-m/ECC — The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</title>
+    <id>https://github.com/affaan-m/ECC#2026-11-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/affaan-m/ECC"/>
+    <updated>2026-11-17T18:00:00Z</updated>
+    <published>2026-11-17T18:00:00Z</published>
+    <summary>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+
+Why: +651/day · Trending
+Score: 90/100 | Language: JavaScript | ⭐ 305060 (+650.7/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>mytechnotalent/Reverse-Engineering — A FREE comprehensive reverse engineering tutorial covering x86, x64, 32-bit/64-bit ARM, 8-bit AVR and 32-bit RISC-V architectures.</title>
+    <id>https://github.com/mytechnotalent/Reverse-Engineering#2026-11-17</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mytechnotalent/Reverse-Engineering"/>
+    <updated>2026-11-17T18:00:00Z</updated>
+    <published>2026-11-17T18:00:00Z</published>
+    <summary>A FREE comprehensive reverse engineering tutorial covering x86, x64, 32-bit/64-bit ARM, 8-bit AVR and 32-bit RISC-V architectures.
+
+Why: +6.3/day · AI/ML
+Score: 60/100 | Language: Assembly | ⭐ 15201 (+6.3/day) | Source: ai-trending</summary>
+  </entry>
   <entry>
     <title>ag-ui-protocol/ag-ui — AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.</title>
     <id>https://github.com/ag-ui-protocol/ag-ui#2026-11-16</id>
@@ -789,60 +877,5 @@ Score: 95/100 | Language: TypeScript | ⭐ 446 (+446.0/day) | Source: search</su
 
 Why: +367/day · Search
 Score: 95/100 | Language: TypeScript | ⭐ 367 (+367.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>vercel-labs/agent-desktop — Computer use CLI for AI agents</title>
-    <id>https://github.com/vercel-labs/agent-desktop#2026-11-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/vercel-labs/agent-desktop"/>
-    <updated>2026-11-03T18:00:00Z</updated>
-    <published>2026-11-03T18:00:00Z</published>
-    <summary>Computer use CLI for AI agents
-
-Why: +3574/day · Trending · 78.9x accelerating
-Score: 100/100 | Language: Rust | ⭐ 11597 (+3574.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>p-e-w/heretic — Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more</title>
-    <id>https://github.com/p-e-w/heretic#2026-11-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/p-e-w/heretic"/>
-    <updated>2026-11-03T18:00:00Z</updated>
-    <published>2026-11-03T18:00:00Z</published>
-    <summary>Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more
-
-Why: +663/day · Trending · 7.0x accelerating
-Score: 100/100 | Language: Python | ⭐ 38469 (+663.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>anomalyco/hex — Local voice dictation for mac, windows and linux</title>
-    <id>https://github.com/anomalyco/hex#2026-11-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/anomalyco/hex"/>
-    <updated>2026-11-03T18:00:00Z</updated>
-    <published>2026-11-03T18:00:00Z</published>
-    <summary>Local voice dictation for mac, windows and linux
-
-Why: +874/day · Trending · 22.3x accelerating
-Score: 100/100 | Language: Rust | ⭐ 4237 (+874.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>max-sixty/worktrunk — Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows</title>
-    <id>https://github.com/max-sixty/worktrunk#2026-11-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/max-sixty/worktrunk"/>
-    <updated>2026-11-03T18:00:00Z</updated>
-    <published>2026-11-03T18:00:00Z</published>
-    <summary>Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows
-
-Why: +423/day · Trending · 15.7x accelerating
-Score: 99/100 | Language: Rust | ⭐ 10262 (+423.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>JustVugg/colibri — A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.</title>
-    <id>https://github.com/JustVugg/colibri#2026-11-03</id>
-    <link rel="alternate" type="text/html" href="https://github.com/JustVugg/colibri"/>
-    <updated>2026-11-03T18:00:00Z</updated>
-    <published>2026-11-03T18:00:00Z</published>
-    <summary>A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.
-
-Why: +752/day · Trending · 2.0x accelerating
-Score: 95/100 | Language: C | ⭐ 46944 (+752.0/day) | Source: trending</summary>
   </entry>
 </feed>
