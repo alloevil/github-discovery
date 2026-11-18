@@ -3,103 +3,13 @@
  "source": "https://github.com/trending?since=daily",
  "repos": [
   {
-   "full_name": "obra/superpowers",
-   "stars": 319732,
-   "language": "Shell"
-  },
-  {
-   "full_name": "affaan-m/ECC",
-   "stars": 306086,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "n8n-io/n8n",
-   "stars": 210868,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "punkpeye/awesome-mcp-servers",
-   "stars": 97874,
-   "language": ""
-  },
-  {
-   "full_name": "nvm-sh/nvm",
-   "stars": 96120,
-   "language": "Shell"
-  },
-  {
-   "full_name": "astral-sh/uv",
-   "stars": 92135,
-   "language": "Rust"
-  },
-  {
-   "full_name": "sveltejs/svelte",
-   "stars": 89654,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "mvanhorn/last30days-skill",
-   "stars": 69623,
+   "full_name": "seen/before",
+   "stars": 800,
    "language": "Python"
   },
   {
-   "full_name": "jquery/jquery",
-   "stars": 59982,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "HKUDS/CLI-Anything",
-   "stars": 59367,
-   "language": "Python"
-  },
-  {
-   "full_name": "appwrite/appwrite",
-   "stars": 58135,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "solidjs/solid",
-   "stars": 36358,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "cursor/plugins",
-   "stars": 17066,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "openvinotoolkit/openvino",
-   "stars": 11225,
-   "language": "C++"
-  },
-  {
-   "full_name": "elementalsouls/Claude-BugHunter",
-   "stars": 10514,
-   "language": "Python"
-  },
-  {
-   "full_name": "google-labs-code/stitch-skills",
-   "stars": 10288,
-   "language": "TypeScript"
-  },
-  {
-   "full_name": "getarcaneapp/arcane",
-   "stars": 9611,
-   "language": "Go"
-  },
-  {
-   "full_name": "DeanChensj/jiangshan-map",
-   "stars": 7805,
-   "language": "JavaScript"
-  },
-  {
-   "full_name": "google-research/paper-orchestra",
-   "stars": 3748,
-   "language": "Python"
-  },
-  {
-   "full_name": "NVIDIA/SkillEvaluator",
-   "stars": 3492,
+   "full_name": "brand/new",
+   "stars": 500,
    "language": "Python"
   }
  ]
