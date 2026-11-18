@@ -1,0 +1,363 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T13:28:42+00:00",
+  "every_days": 3,
+  "count": 10,
+  "semi_count": 2,
+  "semi_min_met": true,
+  "picks": [
+    {
+      "rank": 1,
+      "full_name": "NebanProV/eft-dma-radar",
+      "url": "https://github.com/NebanProV/eft-dma-radar",
+      "description": "EFT DMA Radar - PCIe DMA External Game State Reader, No Injection",
+      "topic": "semi",
+      "language": "TypeScript",
+      "topics": [
+        "atr",
+        "axi",
+        "bluepill",
+        "chisel",
+        "cubeide",
+        "dds",
+        "function-generator",
+        "gpio",
+        "lidar",
+        "low-level",
+        "memory-access",
+        "stanford",
+        "stanford-aha",
+        "systemverilog",
+        "timer",
+        "waveform-generator"
+      ],
+      "license": "",
+      "stars": 154,
+      "forks": 0,
+      "created_at": "2026-11-15T19:49:31Z",
+      "pushed_at": "2026-11-18T09:51:27Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 72,
+      "verified_at": "2026-11-18T13:28:39+00:00"
+    },
+    {
+      "rank": 2,
+      "full_name": "formal-land/rocq-of-rust",
+      "url": "https://github.com/formal-land/rocq-of-rust",
+      "description": "Formal verification tool for Rust: check 100% of execution cases of your programs to make safer applications.",
+      "topic": "semi",
+      "language": "Rocq Prover",
+      "topics": [
+        "formal-verification",
+        "proof",
+        "rocq",
+        "rust"
+      ],
+      "license": "",
+      "stars": 1196,
+      "forks": 43,
+      "created_at": "2022-12-28T13:46:19Z",
+      "pushed_at": "2026-11-12T22:31:30Z",
+      "growth": {
+        "since": "2026-11-06",
+        "window_days": 12,
+        "stars_gained": 0,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 45,
+      "verified_at": "2026-11-18T13:28:39+00:00"
+    },
+    {
+      "rank": 3,
+      "full_name": "NVIDIA/SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "agent-evaluation",
+        "agent-plugins",
+        "agent-security",
+        "agent-skills",
+        "agentic-ai",
+        "benchmark",
+        "claude-code",
+        "codex",
+        "evaluate",
+        "evaluation",
+        "plugin",
+        "plugin-evaluation",
+        "security-scanner",
+        "skill-eval",
+        "skill-evals",
+        "skill-evaluation",
+        "skill-evaluator",
+        "skills"
+      ],
+      "license": "Apache-2.0",
+      "stars": 3492,
+      "forks": 481,
+      "created_at": "2026-06-24T02:32:26Z",
+      "pushed_at": "2026-11-18T09:12:59Z",
+      "growth": {
+        "since": "2026-11-16",
+        "window_days": 2,
+        "stars_gained": 1248,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 90,
+      "verified_at": "2026-11-18T13:28:39+00:00"
+    },
+    {
+      "rank": 4,
+      "full_name": "Immortal-Protocols/lastbook",
+      "url": "https://github.com/Immortal-Protocols/lastbook",
+      "description": "Offline knowledge AI, maps and videos for survival and rebuilding",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "stars": 2003,
+      "forks": 265,
+      "created_at": "2026-11-12T23:49:03Z",
+      "pushed_at": "2026-11-18T03:25:03Z",
+      "growth": {
+        "since": "2026-11-17",
+        "window_days": 1,
+        "stars_gained": 799,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 85,
+      "verified_at": "2026-11-18T13:28:40+00:00"
+    },
+    {
+      "rank": 5,
+      "full_name": "scarletkc/colab-playground",
+      "url": "https://github.com/scarletkc/colab-playground",
+      "description": "A desktop app for the Google Colab CLI: accounts, GPU sessions with cost guards, port forwarding and plugins.",
+      "topic": "ai",
+      "language": "Rust",
+      "topics": [
+        "colab",
+        "desktop-app",
+        "gguf",
+        "google-colab",
+        "gpu",
+        "gpui",
+        "huggingface",
+        "llama-cpp",
+        "port-forwarding",
+        "rust",
+        "wsl"
+      ],
+      "license": "MIT",
+      "stars": 244,
+      "forks": 15,
+      "created_at": "2026-11-16T09:03:25Z",
+      "pushed_at": "2026-11-18T11:45:58Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 79,
+      "verified_at": "2026-11-18T13:28:40+00:00"
+    },
+    {
+      "rank": 6,
+      "full_name": "tejedabrayan024-ship-it/job-search-bot",
+      "url": "https://github.com/tejedabrayan024-ship-it/job-search-bot",
+      "description": "Job Search Bot: Community-Driven Job Alerts with Tailored Resumes and Cover Letters",
+      "topic": "ai",
+      "language": "HTML",
+      "topics": [
+        "chat-memory",
+        "cloudflare-workers-ai",
+        "firebase",
+        "job-alerts",
+        "job-search",
+        "job-tracker",
+        "jobs",
+        "nlp",
+        "open-source-project",
+        "qwen3",
+        "scraper",
+        "speech-to-text",
+        "voice-assistant",
+        "vosk"
+      ],
+      "license": "MIT",
+      "stars": 153,
+      "forks": 0,
+      "created_at": "2026-11-15T20:10:20Z",
+      "pushed_at": "2026-11-18T09:20:30Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 77,
+      "verified_at": "2026-11-18T13:28:40+00:00"
+    },
+    {
+      "rank": 7,
+      "full_name": "mankidev/antialgorithm",
+      "url": "https://github.com/mankidev/antialgorithm",
+      "description": "Claude Code skill that steers the model away from its first, most average pick in creative work: names, ideas, posters, UI.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "stars": 343,
+      "forks": 25,
+      "created_at": "2026-11-14T09:48:23Z",
+      "pushed_at": "2026-11-15T19:44:26Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 76,
+      "verified_at": "2026-11-18T13:28:41+00:00"
+    },
+    {
+      "rank": 8,
+      "full_name": "KaelLee335/enterprise-support-agent-v2",
+      "url": "https://github.com/KaelLee335/enterprise-support-agent-v2",
+      "description": "面向企业售后场景的 Python Agent 全栈演示：FastAPI、SQLite、LangChain RAG、LangGraph、Vue 与 Docker，含租户边界、评估和故障验证。",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "stars": 112,
+      "forks": 0,
+      "created_at": "2026-11-16T02:40:22Z",
+      "pushed_at": "2026-11-18T08:23:03Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 76,
+      "verified_at": "2026-11-18T13:28:41+00:00"
+    },
+    {
+      "rank": 9,
+      "full_name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "stars": 59369,
+      "forks": 5375,
+      "created_at": "2026-03-08T13:52:57Z",
+      "pushed_at": "2026-09-22T02:01:29Z",
+      "growth": {
+        "since": "2026-10-29",
+        "window_days": 20,
+        "stars_gained": 1726,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 72,
+      "verified_at": "2026-11-18T13:28:42+00:00"
+    },
+    {
+      "rank": 10,
+      "full_name": "deepseek-ai/chat-demo",
+      "url": "https://github.com/deepseek-ai/chat-demo",
+      "description": "Chat Demo",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "stars": 4709,
+      "forks": 1048,
+      "created_at": "2026-11-12T08:08:19Z",
+      "pushed_at": "2026-11-18T12:42:26Z",
+      "growth": {
+        "since": "2026-11-17",
+        "window_days": 1,
+        "stars_gained": 293,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 72,
+      "verified_at": "2026-11-18T13:28:42+00:00"
+    }
+  ]
+}

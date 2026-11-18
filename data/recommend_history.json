@@ -151,76 +151,6 @@
       ],
       "last_recommended": "2026-11-17T13:52:48.548112+00:00"
     },
-    "akitaonrails/ai-memory": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-19T10:19:13.162128+00:00"
-    },
-    "mikroverk/esp32sim": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-10-19T10:19:13.164506+00:00"
-    },
-    "Noniv/web-ocean": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-19T10:19:13.166452+00:00"
-    },
-    "interplains/zero-breach": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-19T10:19:13.168380+00:00"
-    },
-    "feder-cr/git-ai": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-10-19T10:19:13.170269+00:00"
-    },
-    "longbridge/nsh": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-10-19T10:19:13.172204+00:00"
-    },
-    "xiaoyang111222/cn-math-taxonomy": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-10-19T10:19:13.174078+00:00"
-    },
-    "finereli/whatsapp-mcp": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-10-19T10:19:13.175934+00:00"
-    },
-    "Agent2API/agent2api": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-10-19T10:19:13.177795+00:00"
-    },
-    "zcbacxc/mcd-party-planner": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-19T10:19:13.179653+00:00"
-    },
     "Comfy-Org/ComfyUI": {
       "count": 1,
       "scores": [
@@ -2255,7 +2185,77 @@
         95
       ],
       "last_recommended": "2026-11-17T13:52:48.539863+00:00"
+    },
+    "NVIDIA/SkillEvaluator": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-18T13:28:38.849977+00:00"
+    },
+    "DeanChensj/jiangshan-map": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-18T13:28:38.851603+00:00"
+    },
+    "Hut-hzf/ung220z-tool": {
+      "count": 1,
+      "scores": [
+        98
+      ],
+      "last_recommended": "2026-11-18T13:28:38.852820+00:00"
+    },
+    "chuanqisun/spaceship": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-18T13:28:38.854002+00:00"
+    },
+    "Immortal-Protocols/lastbook": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-18T13:28:38.855203+00:00"
+    },
+    "cursor/plugins": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-18T13:28:38.856470+00:00"
+    },
+    "huggingface/pybot": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-18T13:28:38.857649+00:00"
+    },
+    "CzzzzzzJ/mdldm-maitian": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-18T13:28:38.858814+00:00"
+    },
+    "ArmorElectromancer62/game-server-route-racer": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-18T13:28:38.860012+00:00"
+    },
+    "johnlindquist/pi-emphasis": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-11-18T13:28:38.861185+00:00"
     }
   },
-  "updated_at": "2026-11-17T13:52:48.548139+00:00"
+  "updated_at": "2026-11-18T13:28:38.861197+00:00"
 }

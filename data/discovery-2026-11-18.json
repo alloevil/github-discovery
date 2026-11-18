@@ -1,0 +1,329 @@
+{
+ "date": "2026-11-18",
+ "generated_at": "2026-11-18T13:28:42.638358",
+ "pool_size": 110,
+ "source_health": {
+  "trending": {
+   "fetched": 20,
+   "parsed": 20,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 3
+  },
+  "search": {
+   "fetched": 66,
+   "parsed": 66,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 7
+  },
+  "hn": {
+   "fetched": 12,
+   "parsed": 12,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 4,
+   "parsed": 4,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 17,
+   "parsed": 17,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "NVIDIA/SkillEvaluator",
+   "url": "https://github.com/NVIDIA/SkillEvaluator",
+   "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+   "language": "Python",
+   "stars": 3492,
+   "forks": 481,
+   "age_days": 147,
+   "daily_stars": 23.755102040816325,
+   "real_daily_stars": 624.0,
+   "watchers": 7,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "DeanChensj/jiangshan-map",
+   "url": "https://github.com/DeanChensj/jiangshan-map",
+   "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
+   "language": "JavaScript",
+   "stars": 7805,
+   "forks": 946,
+   "age_days": 117,
+   "daily_stars": 66.7094017094017,
+   "real_daily_stars": 655.0,
+   "watchers": 29,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Hut-hzf/ung220z-tool",
+   "url": "https://github.com/Hut-hzf/ung220z-tool",
+   "description": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
+   "language": "Python",
+   "stars": 873,
+   "forks": 217,
+   "age_days": 3,
+   "daily_stars": 291.0,
+   "real_daily_stars": 753.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 98,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 14
+   }
+  },
+  {
+   "full_name": "chuanqisun/spaceship",
+   "url": "https://github.com/chuanqisun/spaceship",
+   "description": "Steer your ideas in realtime",
+   "language": "HTML",
+   "stars": 822,
+   "forks": 80,
+   "age_days": 1,
+   "daily_stars": 822.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "Immortal-Protocols/lastbook",
+   "url": "https://github.com/Immortal-Protocols/lastbook",
+   "description": "Offline knowledge AI, maps and videos for survival and rebuilding",
+   "language": "Python",
+   "stars": 2003,
+   "forks": 265,
+   "age_days": 5,
+   "daily_stars": 400.6,
+   "real_daily_stars": 799.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "description": "Cursor plugin specification and official plugins",
+   "language": "TypeScript",
+   "stars": 17066,
+   "forks": 1863,
+   "age_days": 299,
+   "daily_stars": 57.07692307692308,
+   "real_daily_stars": 307.0,
+   "watchers": 78,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 94,
+    "acceleration": 38,
+    "quality": 26,
+    "antispam": 30,
+    "quality_bonus": 17
+   }
+  },
+  {
+   "full_name": "huggingface/pybot",
+   "url": "https://github.com/huggingface/pybot",
+   "description": "PyBot: a chatbot written in pure Python by a swarm of agents. No weights, no training, just rules.",
+   "language": "Python",
+   "stars": 766,
+   "forks": 73,
+   "age_days": 6,
+   "daily_stars": 127.66666666666667,
+   "real_daily_stars": 272.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 17
+   }
+  },
+  {
+   "full_name": "CzzzzzzJ/mdldm-maitian",
+   "url": "https://github.com/CzzzzzzJ/mdldm-maitian",
+   "description": "麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏",
+   "language": "JavaScript",
+   "stars": 1233,
+   "forks": 399,
+   "age_days": 4,
+   "daily_stars": 308.25,
+   "real_daily_stars": 427.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "ArmorElectromancer62/game-server-route-racer",
+   "url": "https://github.com/ArmorElectromancer62/game-server-route-racer",
+   "description": "Detour times every route to your game server, puts only the game's traffic on the fastest one, and says so plainly when no route can help. Free relays: your own or the community's.",
+   "language": "Rust",
+   "stars": 189,
+   "forks": 8,
+   "age_days": 1,
+   "daily_stars": 189.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "johnlindquist/pi-emphasis",
+   "url": "https://github.com/johnlindquist/pi-emphasis",
+   "description": "Pi extension: colored status pills with icons, labeled headings and colored bold, so assistant replies are easy to scan",
+   "language": "TypeScript",
+   "stars": 238,
+   "forks": 7,
+   "age_days": 2,
+   "daily_stars": 119.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 14
+   }
+  }
+ ],
+ "repeat": []
+}

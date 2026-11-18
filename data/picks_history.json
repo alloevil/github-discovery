@@ -439,7 +439,47 @@
     "0xdeadf1sh/T1DMAI": {
       "first_picked": "2026-11-15",
       "source": "github-discovery"
+    },
+    "NebanProV/eft-dma-radar": {
+      "first_picked": "2026-11-18",
+      "source": "github-discovery"
+    },
+    "formal-land/rocq-of-rust": {
+      "first_picked": "2026-11-18",
+      "source": "github-discovery"
+    },
+    "NVIDIA/SkillEvaluator": {
+      "first_picked": "2026-11-18",
+      "source": "github-discovery"
+    },
+    "Immortal-Protocols/lastbook": {
+      "first_picked": "2026-11-18",
+      "source": "github-discovery"
+    },
+    "scarletkc/colab-playground": {
+      "first_picked": "2026-11-18",
+      "source": "github-discovery"
+    },
+    "tejedabrayan024-ship-it/job-search-bot": {
+      "first_picked": "2026-11-18",
+      "source": "github-discovery"
+    },
+    "mankidev/antialgorithm": {
+      "first_picked": "2026-11-18",
+      "source": "github-discovery"
+    },
+    "KaelLee335/enterprise-support-agent-v2": {
+      "first_picked": "2026-11-18",
+      "source": "github-discovery"
+    },
+    "HKUDS/CLI-Anything": {
+      "first_picked": "2026-11-18",
+      "source": "github-discovery"
+    },
+    "deepseek-ai/chat-demo": {
+      "first_picked": "2026-11-18",
+      "source": "github-discovery"
     }
   },
-  "updated_at": "2026-11-15T12:17:27.275356+00:00"
+  "updated_at": "2026-11-18T13:28:42.637844+00:00"
 }
