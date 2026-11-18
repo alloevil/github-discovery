@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-17T18:00:00Z</updated>
+  <updated>2026-11-18T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>NVIDIA/SkillEvaluator — Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.</title>
+    <id>https://github.com/NVIDIA/SkillEvaluator#2026-11-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/NVIDIA/SkillEvaluator"/>
+    <updated>2026-11-18T18:00:00Z</updated>
+    <published>2026-11-18T18:00:00Z</published>
+    <summary>Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.
+
+Why: +624/day · Trending · 26.3x accelerating
+Score: 100/100 | Language: Python | ⭐ 3492 (+624.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>DeanChensj/jiangshan-map — 江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy &amp; classical poetry routes</title>
+    <id>https://github.com/DeanChensj/jiangshan-map#2026-11-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/DeanChensj/jiangshan-map"/>
+    <updated>2026-11-18T18:00:00Z</updated>
+    <published>2026-11-18T18:00:00Z</published>
+    <summary>江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy &amp; classical poetry routes
+
+Why: +655/day · Trending · 9.8x accelerating
+Score: 100/100 | Language: JavaScript | ⭐ 7805 (+655.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>Hut-hzf/ung220z-tool — ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。</title>
+    <id>https://github.com/Hut-hzf/ung220z-tool#2026-11-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Hut-hzf/ung220z-tool"/>
+    <updated>2026-11-18T18:00:00Z</updated>
+    <published>2026-11-18T18:00:00Z</published>
+    <summary>ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。
+
+Why: +753/day · Search · 2.6x accelerating
+Score: 98/100 | Language: Python | ⭐ 873 (+753.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>chuanqisun/spaceship — Steer your ideas in realtime</title>
+    <id>https://github.com/chuanqisun/spaceship#2026-11-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/chuanqisun/spaceship"/>
+    <updated>2026-11-18T18:00:00Z</updated>
+    <published>2026-11-18T18:00:00Z</published>
+    <summary>Steer your ideas in realtime
+
+Why: +822/day · Search
+Score: 96/100 | Language: HTML | ⭐ 822 (+822.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>Immortal-Protocols/lastbook — Offline knowledge AI, maps and videos for survival and rebuilding</title>
+    <id>https://github.com/Immortal-Protocols/lastbook#2026-11-18</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Immortal-Protocols/lastbook"/>
+    <updated>2026-11-18T18:00:00Z</updated>
+    <published>2026-11-18T18:00:00Z</published>
+    <summary>Offline knowledge AI, maps and videos for survival and rebuilding
+
+Why: +799/day · Search · 2.0x accelerating
+Score: 95/100 | Language: Python | ⭐ 2003 (+799.0/day) | Source: search</summary>
+  </entry>
   <entry>
     <title>elementalsouls/Claude-BugHunter — A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.</title>
     <id>https://github.com/elementalsouls/Claude-BugHunter#2026-11-17</id>
@@ -822,60 +877,5 @@ Score: 65/100 | Language: Assembly | ⭐ 15105 (+10.0/day) | Source: ai-trending
 
 Why: +4.0/day · AI/ML
 Score: 58/100 | Language: Python | ⭐ 1379 (+4.0/day) | Source: ai-trending</summary>
-  </entry>
-  <entry>
-    <title>floci-io/floci — Light, fluffy, and always free - The AWS Local Emulator alternative</title>
-    <id>https://github.com/floci-io/floci#2026-11-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/floci-io/floci"/>
-    <updated>2026-11-04T18:00:00Z</updated>
-    <published>2026-11-04T18:00:00Z</published>
-    <summary>Light, fluffy, and always free - The AWS Local Emulator alternative
-
-Why: +1045/day · Trending · 9.3x accelerating
-Score: 100/100 | Language: Java | ⭐ 29235 (+1045.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>govijr/terminal-mac — Entire MacOS running in your terminal.</title>
-    <id>https://github.com/govijr/terminal-mac#2026-11-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/govijr/terminal-mac"/>
-    <updated>2026-11-04T18:00:00Z</updated>
-    <published>2026-11-04T18:00:00Z</published>
-    <summary>Entire MacOS running in your terminal.
-
-Why: +958/day · Search
-Score: 96/100 | Language: Swift | ⭐ 958 (+958.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>Minireel/HGhub — YellowFruit third-party client</title>
-    <id>https://github.com/Minireel/HGhub#2026-11-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Minireel/HGhub"/>
-    <updated>2026-11-04T18:00:00Z</updated>
-    <published>2026-11-04T18:00:00Z</published>
-    <summary>YellowFruit third-party client
-
-Why: +492/day · Search
-Score: 96/100 | Language: TypeScript | ⭐ 492 (+492.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>Chipwithinflash/watson-AI-osint-all-in-one — Free OSINT search tool for Windows. 3100+ sources, one field, no terminal.</title>
-    <id>https://github.com/Chipwithinflash/watson-AI-osint-all-in-one#2026-11-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Chipwithinflash/watson-AI-osint-all-in-one"/>
-    <updated>2026-11-04T18:00:00Z</updated>
-    <published>2026-11-04T18:00:00Z</published>
-    <summary>Free OSINT search tool for Windows. 3100+ sources, one field, no terminal.
-
-Why: +446/day · Search
-Score: 95/100 | Language: TypeScript | ⭐ 446 (+446.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>andrew-babo/muse4ai — Muse4AI — let your AI agent make the pictures and the videos. Local Windows bridge for Muse via REST, MCP, and OAuth.</title>
-    <id>https://github.com/andrew-babo/muse4ai#2026-11-04</id>
-    <link rel="alternate" type="text/html" href="https://github.com/andrew-babo/muse4ai"/>
-    <updated>2026-11-04T18:00:00Z</updated>
-    <published>2026-11-04T18:00:00Z</published>
-    <summary>Muse4AI — let your AI agent make the pictures and the videos. Local Windows bridge for Muse via REST, MCP, and OAuth.
-
-Why: +367/day · Search
-Score: 95/100 | Language: TypeScript | ⭐ 367 (+367.0/day) | Source: search</summary>
   </entry>
 </feed>
