@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-18T18:00:00Z</updated>
+  <updated>2026-11-19T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>HKUDS/CLI-Anything — &quot;CLI-Anything: Making ALL Software Agent-Native&quot; -- CLI-Hub: https://clianything.cc/</title>
+    <id>https://github.com/HKUDS/CLI-Anything#2026-11-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/HKUDS/CLI-Anything"/>
+    <updated>2026-11-19T18:00:00Z</updated>
+    <published>2026-11-19T18:00:00Z</published>
+    <summary>&quot;CLI-Anything: Making ALL Software Agent-Native&quot; -- CLI-Hub: https://clianything.cc/
+
+Why: +902/day · Trending · 3.8x accelerating
+Score: 100/100 | Language: Python | ⭐ 60269 (+902.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>jingyaogong/minimind — 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.</title>
+    <id>https://github.com/jingyaogong/minimind#2026-11-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/jingyaogong/minimind"/>
+    <updated>2026-11-19T18:00:00Z</updated>
+    <published>2026-11-19T18:00:00Z</published>
+    <summary>🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.
+
+Why: +486/day · Trending · 6.2x accelerating
+Score: 100/100 | Language: Python | ⭐ 66667 (+485.5/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>openvinotoolkit/openvino — OpenVINO™ is an open source toolkit for optimizing and deploying AI inference</title>
+    <id>https://github.com/openvinotoolkit/openvino#2026-11-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/openvinotoolkit/openvino"/>
+    <updated>2026-11-19T18:00:00Z</updated>
+    <published>2026-11-19T18:00:00Z</published>
+    <summary>OpenVINO™ is an open source toolkit for optimizing and deploying AI inference
+
+Why: +247/day · Trending · 63.7x accelerating
+Score: 97/100 | Language: C++ | ⭐ 11472 (+247.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>aryamandarda/tamserve — Live, multi-camera object tracking with SAM3, SAM 2 and EdgeTAM, on one GPU or many. One model per GPU serves every camera: faster than the original code, about 4x less GPU memory, identical masks.</title>
+    <id>https://github.com/aryamandarda/tamserve#2026-11-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/aryamandarda/tamserve"/>
+    <updated>2026-11-19T18:00:00Z</updated>
+    <published>2026-11-19T18:00:00Z</published>
+    <summary>Live, multi-camera object tracking with SAM3, SAM 2 and EdgeTAM, on one GPU or many. One model per GPU serves every camera: faster than the original code, about 4x less GPU memory, identical masks.
+
+Why: +136/day · HN · 4.9x accelerating
+Score: 94/100 | Language: Python | ⭐ 221 (+136.0/day) | Source: hn</summary>
+  </entry>
+  <entry>
+    <title>siliconjungle/shapeshift-labs-ink-studio — Sculpting, animation and simulation toolkit for pixel-art Gaussian splats</title>
+    <id>https://github.com/siliconjungle/shapeshift-labs-ink-studio#2026-11-19</id>
+    <link rel="alternate" type="text/html" href="https://github.com/siliconjungle/shapeshift-labs-ink-studio"/>
+    <updated>2026-11-19T18:00:00Z</updated>
+    <published>2026-11-19T18:00:00Z</published>
+    <summary>Sculpting, animation and simulation toolkit for pixel-art Gaussian splats
+
+Why: +220/day · Search
+Score: 92/100 | Language: JavaScript | ⭐ 659 (+219.7/day) | Source: search</summary>
+  </entry>
   <entry>
     <title>NVIDIA/SkillEvaluator — Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.</title>
     <id>https://github.com/NVIDIA/SkillEvaluator#2026-11-18</id>
@@ -800,82 +855,5 @@ Score: 100/100 | Language: JavaScript | ⭐ 62790 (+1370.3/day) | Source: trendi
 
 Why: +1893/day · Trending · 1.7x accelerating
 Score: 93/100 | Language: Shell | ⭐ 316138 (+1893.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA/auto-ontology — Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.</title>
-    <id>https://github.com/NVIDIA/auto-ontology#2026-11-05</id>
-    <link rel="alternate" type="text/html" href="https://github.com/NVIDIA/auto-ontology"/>
-    <updated>2026-11-05T18:00:00Z</updated>
-    <published>2026-11-05T18:00:00Z</published>
-    <summary>Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.
-
-Why: +2701/day · Trending · 80.5x accelerating
-Score: 100/100 | Language: Python | ⭐ 6407 (+2701.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Usagi-org/ai-goofish-monitor — 基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。</title>
-    <id>https://github.com/Usagi-org/ai-goofish-monitor#2026-11-05</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Usagi-org/ai-goofish-monitor"/>
-    <updated>2026-11-05T18:00:00Z</updated>
-    <published>2026-11-05T18:00:00Z</published>
-    <summary>基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。
-
-Why: +598/day · Trending · 16.5x accelerating
-Score: 100/100 | Language: Python | ⭐ 17315 (+597.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>scenario-labs/skills — Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.</title>
-    <id>https://github.com/scenario-labs/skills#2026-11-05</id>
-    <link rel="alternate" type="text/html" href="https://github.com/scenario-labs/skills"/>
-    <updated>2026-11-05T18:00:00Z</updated>
-    <published>2026-11-05T18:00:00Z</published>
-    <summary>Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.
-
-Why: +674/day · Trending · 20.7x accelerating
-Score: 100/100 | Language: Python | ⭐ 2767 (+674.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>JiaFeiMiao-K-Cat/DiscImageStudio — No description</title>
-    <id>https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio#2026-11-05</id>
-    <link rel="alternate" type="text/html" href="https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio"/>
-    <updated>2026-11-05T18:00:00Z</updated>
-    <published>2026-11-05T18:00:00Z</published>
-    <summary>No description
-
-Why: +985/day · Trending · 10.4x accelerating
-Score: 100/100 | Language: C# | ⭐ 6996 (+985.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>dragonwolfshovel/youtube-uploader — Automated YouTube video uploader with batch processing, thumbnail support, and scheduled publishing. Uses official YouTube Data API v3. Open-source and privacy-first</title>
-    <id>https://github.com/dragonwolfshovel/youtube-uploader#2026-11-05</id>
-    <link rel="alternate" type="text/html" href="https://github.com/dragonwolfshovel/youtube-uploader"/>
-    <updated>2026-11-05T18:00:00Z</updated>
-    <published>2026-11-05T18:00:00Z</published>
-    <summary>Automated YouTube video uploader with batch processing, thumbnail support, and scheduled publishing. Uses official YouTube Data API v3. Open-source and privacy-first
-
-Why: +426/day · Search
-Score: 95/100 | Language: Python | ⭐ 426 (+426.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>mytechnotalent/Reverse-Engineering — A FREE comprehensive reverse engineering tutorial covering x86, x64, 32-bit/64-bit ARM, 8-bit AVR and 32-bit RISC-V architectures.</title>
-    <id>https://github.com/mytechnotalent/Reverse-Engineering#2026-11-05</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mytechnotalent/Reverse-Engineering"/>
-    <updated>2026-11-05T18:00:00Z</updated>
-    <published>2026-11-05T18:00:00Z</published>
-    <summary>A FREE comprehensive reverse engineering tutorial covering x86, x64, 32-bit/64-bit ARM, 8-bit AVR and 32-bit RISC-V architectures.
-
-Why: +10/day · AI/ML · 1.6x accelerating
-Score: 65/100 | Language: Assembly | ⭐ 15105 (+10.0/day) | Source: ai-trending</summary>
-  </entry>
-  <entry>
-    <title>chenwei810/Semiconductor_Manufacturing_Introduction — Introduction to Semiconductor Manufacturing</title>
-    <id>https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction#2026-11-05</id>
-    <link rel="alternate" type="text/html" href="https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction"/>
-    <updated>2026-11-05T18:00:00Z</updated>
-    <published>2026-11-05T18:00:00Z</published>
-    <summary>Introduction to Semiconductor Manufacturing
-
-Why: +4.0/day · AI/ML
-Score: 58/100 | Language: Python | ⭐ 1379 (+4.0/day) | Source: ai-trending</summary>
   </entry>
 </feed>

@@ -1,0 +1,333 @@
+{
+ "date": "2026-11-19",
+ "generated_at": "2026-11-19T13:55:53.784746",
+ "pool_size": 107,
+ "source_health": {
+  "trending": {
+   "fetched": 16,
+   "parsed": 16,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 4
+  },
+  "search": {
+   "fetched": 68,
+   "parsed": 68,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 4
+  },
+  "hn": {
+   "fetched": 9,
+   "parsed": 9,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 2
+  },
+  "rising": {
+   "fetched": 3,
+   "parsed": 3,
+   "rejected": 0,
+   "deduplicated": 2,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 17,
+   "parsed": 17,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "language": "Python",
+   "stars": 60269,
+   "forks": 5467,
+   "age_days": 256,
+   "daily_stars": 235.42578125,
+   "real_daily_stars": 902.0,
+   "watchers": 217,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "jingyaogong/minimind",
+   "url": "https://github.com/jingyaogong/minimind",
+   "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+   "language": "Python",
+   "stars": 66667,
+   "forks": 8760,
+   "age_days": 845,
+   "daily_stars": 78.89585798816569,
+   "real_daily_stars": 485.5,
+   "watchers": 296,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "openvinotoolkit/openvino",
+   "url": "https://github.com/openvinotoolkit/openvino",
+   "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+   "language": "C++",
+   "stars": 11472,
+   "forks": 3611,
+   "age_days": 2957,
+   "daily_stars": 3.8796077105174165,
+   "real_daily_stars": 247.0,
+   "watchers": 193,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 97,
+    "acceleration": 37,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "aryamandarda/tamserve",
+   "url": "https://github.com/aryamandarda/tamserve",
+   "description": "Live, multi-camera object tracking with SAM3, SAM 2 and EdgeTAM, on one GPU or many. One model per GPU serves every camera: faster than the original code, about 4x less GPU memory, identical masks.",
+   "language": "Python",
+   "stars": 221,
+   "forks": 13,
+   "age_days": 8,
+   "daily_stars": 27.625,
+   "real_daily_stars": 136.0,
+   "watchers": 1,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "Apache-2.0",
+   "hn_title": "Show HN: Open-source, real-time object tracking for live video feeds",
+   "hn_score": 110,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "siliconjungle/shapeshift-labs-ink-studio",
+   "url": "https://github.com/siliconjungle/shapeshift-labs-ink-studio",
+   "description": "Sculpting, animation and simulation toolkit for pixel-art Gaussian splats",
+   "language": "JavaScript",
+   "stars": 659,
+   "forks": 54,
+   "age_days": 3,
+   "daily_stars": 219.66666666666666,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "erkamyaman/rust-anything",
+   "url": "https://github.com/erkamyaman/rust-anything",
+   "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+   "language": "Rust",
+   "stars": 4433,
+   "forks": 373,
+   "age_days": 3,
+   "daily_stars": 1477.6666666666667,
+   "real_daily_stars": 1893.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "AnIT012/nihongo",
+   "url": "https://github.com/AnIT012/nihongo",
+   "description": "AIが書く日本語を、人が書く文に近づけるエージェントスキル。Claude、ChatGPT、Claude Code、Codexなどで使えます。",
+   "language": "Python",
+   "stars": 263,
+   "forks": 9,
+   "age_days": 2,
+   "daily_stars": 131.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "replit/datacat",
+   "url": "https://github.com/replit/datacat",
+   "description": "Self-hosted observability: metrics, logs, traces, dashboards and alerts. Stores data in PostgreSQL or ClickHouse. Accepts OpenTelemetry data.",
+   "language": "TypeScript",
+   "stars": 303,
+   "forks": 33,
+   "age_days": 2,
+   "daily_stars": 151.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "Apakottur/unref",
+   "url": "https://github.com/Apakottur/unref",
+   "description": "An extremely fast Python dead code finder, written in Rust.",
+   "language": "Rust",
+   "stars": 112,
+   "forks": 3,
+   "age_days": 7,
+   "daily_stars": 16.0,
+   "real_daily_stars": 58.0,
+   "watchers": 1,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "MIT",
+   "hn_title": "Show HN: Unref – A Python dead code finder built on Ruff's parser",
+   "hn_score": 60,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "language": "HTML",
+   "stars": 68396,
+   "forks": 4602,
+   "age_days": 216,
+   "daily_stars": 316.64814814814815,
+   "real_daily_stars": 315.86206896551727,
+   "watchers": 160,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": []
+}

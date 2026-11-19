@@ -1,75 +1,5 @@
 {
  "repos": {
-  "floci-io/floci": {
-   "first_seen": "2026-11-04",
-   "until": "2026-11-18",
-   "stars_at_discovery": 29235,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "govijr/terminal-mac": {
-   "first_seen": "2026-11-04",
-   "until": "2026-11-18",
-   "stars_at_discovery": 958,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "Minireel/HGhub": {
-   "first_seen": "2026-11-04",
-   "until": "2026-11-18",
-   "stars_at_discovery": 492,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "Chipwithinflash/watson-AI-osint-all-in-one": {
-   "first_seen": "2026-11-04",
-   "until": "2026-11-18",
-   "stars_at_discovery": 446,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "andrew-babo/muse4ai": {
-   "first_seen": "2026-11-04",
-   "until": "2026-11-18",
-   "stars_at_discovery": 367,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "RikiyaT/lm_understand-logs": {
-   "first_seen": "2026-11-04",
-   "until": "2026-11-18",
-   "stars_at_discovery": 843,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "MagoStudio/MagoStudio": {
-   "first_seen": "2026-11-04",
-   "until": "2026-11-18",
-   "stars_at_discovery": 251,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "Minglink/dsh-jailbreak-workflow": {
-   "first_seen": "2026-11-04",
-   "until": "2026-11-18",
-   "stars_at_discovery": 504,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "StormSkinkGrip/game-ping-multipath-router": {
-   "first_seen": "2026-11-04",
-   "until": "2026-11-18",
-   "stars_at_discovery": 222,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "DeltaProviderGuide/auto-auction-bot-wow-forever": {
-   "first_seen": "2026-11-04",
-   "until": "2026-11-18",
-   "stars_at_discovery": 211,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
   "NVIDIA/auto-ontology": {
    "first_seen": "2026-11-05",
    "until": "2026-11-19",
@@ -1084,7 +1014,77 @@
    "stars_at_discovery": 238,
    "score_at_discovery": 89,
    "source_at_discovery": "search"
+  },
+  "HKUDS/CLI-Anything": {
+   "first_seen": "2026-11-19",
+   "until": "2026-12-03",
+   "stars_at_discovery": 60269,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "jingyaogong/minimind": {
+   "first_seen": "2026-11-19",
+   "until": "2026-12-03",
+   "stars_at_discovery": 66667,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "openvinotoolkit/openvino": {
+   "first_seen": "2026-11-19",
+   "until": "2026-12-03",
+   "stars_at_discovery": 11472,
+   "score_at_discovery": 97,
+   "source_at_discovery": "trending"
+  },
+  "aryamandarda/tamserve": {
+   "first_seen": "2026-11-19",
+   "until": "2026-12-03",
+   "stars_at_discovery": 221,
+   "score_at_discovery": 94,
+   "source_at_discovery": "hn"
+  },
+  "siliconjungle/shapeshift-labs-ink-studio": {
+   "first_seen": "2026-11-19",
+   "until": "2026-12-03",
+   "stars_at_discovery": 659,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "erkamyaman/rust-anything": {
+   "first_seen": "2026-11-19",
+   "until": "2026-12-03",
+   "stars_at_discovery": 4433,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "AnIT012/nihongo": {
+   "first_seen": "2026-11-19",
+   "until": "2026-12-03",
+   "stars_at_discovery": 263,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "replit/datacat": {
+   "first_seen": "2026-11-19",
+   "until": "2026-12-03",
+   "stars_at_discovery": 303,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "Apakottur/unref": {
+   "first_seen": "2026-11-19",
+   "until": "2026-12-03",
+   "stars_at_discovery": 112,
+   "score_at_discovery": 90,
+   "source_at_discovery": "hn"
+  },
+  "cathrynlavery/diagram-design": {
+   "first_seen": "2026-11-19",
+   "until": "2026-12-03",
+   "stars_at_discovery": 68396,
+   "score_at_discovery": 88,
+   "source_at_discovery": "trending"
   }
  },
- "updated_at": "2026-11-18T13:32:49.398703+00:00"
+ "updated_at": "2026-11-19T13:58:55.371411+00:00"
 }
