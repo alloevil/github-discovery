@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-19T18:00:00Z</updated>
+  <updated>2026-11-20T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>firecrawl/firecrawl — Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.</title>
+    <id>https://github.com/firecrawl/firecrawl#2026-11-20</id>
+    <link rel="alternate" type="text/html" href="https://github.com/firecrawl/firecrawl"/>
+    <updated>2026-11-20T18:00:00Z</updated>
+    <published>2026-11-20T18:00:00Z</published>
+    <summary>Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.
+
+Why: +1135/day · Trending · 5.3x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 204801 (+1135.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>mjmirza/app-store-compliance — Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.</title>
+    <id>https://github.com/mjmirza/app-store-compliance#2026-11-20</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mjmirza/app-store-compliance"/>
+    <updated>2026-11-20T18:00:00Z</updated>
+    <published>2026-11-20T18:00:00Z</published>
+    <summary>Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.
+
+Why: +844/day · Trending · 58.9x accelerating
+Score: 100/100 | Language: Shell | ⭐ 2392 (+844.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>toeverything/AFFiNE — There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. </title>
+    <id>https://github.com/toeverything/AFFiNE#2026-11-20</id>
+    <link rel="alternate" type="text/html" href="https://github.com/toeverything/AFFiNE"/>
+    <updated>2026-11-20T18:00:00Z</updated>
+    <published>2026-11-20T18:00:00Z</published>
+    <summary>There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. 
+
+Why: +655/day · Trending · 13.6x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 75509 (+655.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>XiaoYouChR/Ghost-Downloader-3 — The only downloader you need. 下载器的集大成者。</title>
+    <id>https://github.com/XiaoYouChR/Ghost-Downloader-3#2026-11-20</id>
+    <link rel="alternate" type="text/html" href="https://github.com/XiaoYouChR/Ghost-Downloader-3"/>
+    <updated>2026-11-20T18:00:00Z</updated>
+    <published>2026-11-20T18:00:00Z</published>
+    <summary>The only downloader you need. 下载器的集大成者。
+
+Why: +1020/day · Trending · 90.9x accelerating
+Score: 100/100 | Language: Python | ⭐ 13379 (+1020.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>zhouxiaoka/autoclip — AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping &amp; content repurposing.</title>
+    <id>https://github.com/zhouxiaoka/autoclip#2026-11-20</id>
+    <link rel="alternate" type="text/html" href="https://github.com/zhouxiaoka/autoclip"/>
+    <updated>2026-11-20T18:00:00Z</updated>
+    <published>2026-11-20T18:00:00Z</published>
+    <summary>AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping &amp; content repurposing.
+
+Why: +955/day · Trending · 40.1x accelerating
+Score: 100/100 | Language: Python | ⭐ 11897 (+955.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>HKUDS/CLI-Anything — &quot;CLI-Anything: Making ALL Software Agent-Native&quot; -- CLI-Hub: https://clianything.cc/</title>
     <id>https://github.com/HKUDS/CLI-Anything#2026-11-19</id>
@@ -778,82 +833,5 @@ Score: 96/100 | Language: C++ | ⭐ 836 (+836.0/day) | Source: search</summary>
 
 Why: +1834/day · Trending · 9.9x accelerating
 Score: 100/100 | Language: TypeScript | ⭐ 16148 (+1834.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>google/skills — Agent Skills for Google products and technologies</title>
-    <id>https://github.com/google/skills#2026-11-06</id>
-    <link rel="alternate" type="text/html" href="https://github.com/google/skills"/>
-    <updated>2026-11-06T18:00:00Z</updated>
-    <published>2026-11-06T18:00:00Z</published>
-    <summary>Agent Skills for Google products and technologies
-
-Why: +514/day · Trending · 5.0x accelerating
-Score: 100/100 | Language: Python | ⭐ 22628 (+514.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>lz4/lz4 — Extremely Fast Compression algorithm</title>
-    <id>https://github.com/lz4/lz4#2026-11-06</id>
-    <link rel="alternate" type="text/html" href="https://github.com/lz4/lz4"/>
-    <updated>2026-11-06T18:00:00Z</updated>
-    <published>2026-11-06T18:00:00Z</published>
-    <summary>Extremely Fast Compression algorithm
-
-Why: +298/day · Trending · 109.5x accelerating
-Score: 98/100 | Language: C | ⭐ 12535 (+298.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>WoYun520/pixel-gif-sticker-pack — A Codex skill for creating and verifying animated GIF sticker packs from character references.</title>
-    <id>https://github.com/WoYun520/pixel-gif-sticker-pack#2026-11-06</id>
-    <link rel="alternate" type="text/html" href="https://github.com/WoYun520/pixel-gif-sticker-pack"/>
-    <updated>2026-11-06T18:00:00Z</updated>
-    <published>2026-11-06T18:00:00Z</published>
-    <summary>A Codex skill for creating and verifying animated GIF sticker packs from character references.
-
-Why: +528/day · Search
-Score: 96/100 | Language: Python | ⭐ 528 (+528.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>livliv-dev/player — A lightweight 2.5D character player for the web, with lip sync and webcam face tracking.</title>
-    <id>https://github.com/livliv-dev/player#2026-11-06</id>
-    <link rel="alternate" type="text/html" href="https://github.com/livliv-dev/player"/>
-    <updated>2026-11-06T18:00:00Z</updated>
-    <published>2026-11-06T18:00:00Z</published>
-    <summary>A lightweight 2.5D character player for the web, with lip sync and webcam face tracking.
-
-Why: +402/day · Search
-Score: 95/100 | Language: TypeScript | ⭐ 805 (+402.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>HerdBuilderEstimate/roblox-studio-mcp — Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight</title>
-    <id>https://github.com/HerdBuilderEstimate/roblox-studio-mcp#2026-11-06</id>
-    <link rel="alternate" type="text/html" href="https://github.com/HerdBuilderEstimate/roblox-studio-mcp"/>
-    <updated>2026-11-06T18:00:00Z</updated>
-    <published>2026-11-06T18:00:00Z</published>
-    <summary>Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight
-
-Why: +427/day · Search
-Score: 95/100 | Language: Python | ⭐ 427 (+427.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>cloudflare/security-audit-skill — A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings</title>
-    <id>https://github.com/cloudflare/security-audit-skill#2026-11-06</id>
-    <link rel="alternate" type="text/html" href="https://github.com/cloudflare/security-audit-skill"/>
-    <updated>2026-11-06T18:00:00Z</updated>
-    <published>2026-11-06T18:00:00Z</published>
-    <summary>A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings
-
-Why: +1370/day · Trending · 3.1x accelerating
-Score: 100/100 | Language: JavaScript | ⭐ 62790 (+1370.3/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>mattpocock/skills — Skills for Real Engineers. Straight from my .agents directory.</title>
-    <id>https://github.com/mattpocock/skills#2026-11-06</id>
-    <link rel="alternate" type="text/html" href="https://github.com/mattpocock/skills"/>
-    <updated>2026-11-06T18:00:00Z</updated>
-    <published>2026-11-06T18:00:00Z</published>
-    <summary>Skills for Real Engineers. Straight from my .agents directory.
-
-Why: +1893/day · Trending · 1.7x accelerating
-Score: 93/100 | Language: Shell | ⭐ 316138 (+1893.0/day) | Source: trending</summary>
   </entry>
 </feed>
