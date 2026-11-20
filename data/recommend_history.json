@@ -51,16 +51,6 @@
       ],
       "last_recommended": "2026-11-06T12:30:20.234502+00:00"
     },
-    "DietrichGebert/ponytail": {
-      "count": 4,
-      "scores": [
-        88,
-        85,
-        85,
-        85
-      ],
-      "last_recommended": "2026-10-21T09:40:03.744448+00:00"
-    },
     "debpalash/VoiceStudio": {
       "count": 5,
       "scores": [
@@ -90,15 +80,6 @@
         100
       ],
       "last_recommended": "2026-11-06T12:30:20.232442+00:00"
-    },
-    "anthropics/knowledge-work-plugins": {
-      "count": 3,
-      "scores": [
-        97,
-        91,
-        98
-      ],
-      "last_recommended": "2026-10-21T09:40:03.740054+00:00"
     },
     "pbakaus/impeccable": {
       "count": 3,
@@ -133,14 +114,6 @@
       ],
       "last_recommended": "2026-10-29T11:08:05.085366+00:00"
     },
-    "msitarzewski/agency-agents": {
-      "count": 2,
-      "scores": [
-        89,
-        92
-      ],
-      "last_recommended": "2026-10-21T09:40:03.742227+00:00"
-    },
     "chenwei810/Semiconductor_Manufacturing_Introduction": {
       "count": 4,
       "scores": [
@@ -158,69 +131,6 @@
         100
       ],
       "last_recommended": "2026-11-01T11:31:08.503154+00:00"
-    },
-    "UniXNU/UniXNU": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-21T09:40:03.717689+00:00"
-    },
-    "dominikmartn/harp": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-10-21T09:40:03.720009+00:00"
-    },
-    "Ansub/tv-detox": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-21T09:40:03.722198+00:00"
-    },
-    "headroomlabs-ai/headroom": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-10-21T09:40:03.724547+00:00"
-    },
-    "NVIDIA/flare-local-inference": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-10-21T09:40:03.726742+00:00"
-    },
-    "indexable-inc/ra-jit": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-10-21T09:40:03.728966+00:00"
-    },
-    "Graphify-Labs/graphify": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-21T09:40:03.731150+00:00"
-    },
-    "Hugo-Dz/spritefusion-sprite-normals": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-10-21T09:40:03.733366+00:00"
-    },
-    "wevm/ondine": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-10-21T09:40:03.735592+00:00"
     },
     "vllm-project/vllm": {
       "count": 1,
@@ -2255,7 +2165,77 @@
         88
       ],
       "last_recommended": "2026-11-19T13:55:53.781750+00:00"
+    },
+    "firecrawl/firecrawl": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-20T13:38:19.118271+00:00"
+    },
+    "mjmirza/app-store-compliance": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-20T13:38:19.119865+00:00"
+    },
+    "toeverything/AFFiNE": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-20T13:38:19.121107+00:00"
+    },
+    "XiaoYouChR/Ghost-Downloader-3": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-20T13:38:19.122299+00:00"
+    },
+    "zhouxiaoka/autoclip": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-20T13:38:19.123514+00:00"
+    },
+    "Tracer-Cloud/opensre": {
+      "count": 1,
+      "scores": [
+        99
+      ],
+      "last_recommended": "2026-11-20T13:38:19.124777+00:00"
+    },
+    "nginx/nginx": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-20T13:38:19.125978+00:00"
+    },
+    "iamajmeena/neonclipping": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-20T13:38:19.127178+00:00"
+    },
+    "Lemxy/WinRust": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-20T13:38:19.128414+00:00"
+    },
+    "krisgfx9/Wireless-Device-Battery-Monitor": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-11-20T13:38:19.129637+00:00"
     }
   },
-  "updated_at": "2026-11-19T13:55:53.781770+00:00"
+  "updated_at": "2026-11-20T13:38:19.129649+00:00"
 }

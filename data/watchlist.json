@@ -1,82 +1,5 @@
 {
  "repos": {
-  "NVIDIA/auto-ontology": {
-   "first_seen": "2026-11-05",
-   "until": "2026-11-19",
-   "stars_at_discovery": 6407,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "Usagi-org/ai-goofish-monitor": {
-   "first_seen": "2026-11-05",
-   "until": "2026-11-19",
-   "stars_at_discovery": 17315,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "scenario-labs/skills": {
-   "first_seen": "2026-11-05",
-   "until": "2026-11-19",
-   "stars_at_discovery": 2767,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "JiaFeiMiao-K-Cat/DiscImageStudio": {
-   "first_seen": "2026-11-05",
-   "until": "2026-11-19",
-   "stars_at_discovery": 6996,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "dragonwolfshovel/youtube-uploader": {
-   "first_seen": "2026-11-05",
-   "until": "2026-11-19",
-   "stars_at_discovery": 426,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "TagPhaseArcade/tiktok-uploader": {
-   "first_seen": "2026-11-05",
-   "until": "2026-11-19",
-   "stars_at_discovery": 425,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "s1dashu/quiet-md": {
-   "first_seen": "2026-11-05",
-   "until": "2026-11-19",
-   "stars_at_discovery": 949,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "UncensoredLabs/uncensored-ai-api": {
-   "first_seen": "2026-11-05",
-   "until": "2026-11-19",
-   "stars_at_discovery": 805,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "wquguru/cicada": {
-   "first_seen": "2026-11-05",
-   "until": "2026-11-19",
-   "stars_at_discovery": 1410,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "AtomIllusionistDwell/watson-username-footprint-finder": {
-   "first_seen": "2026-11-05",
-   "until": "2026-11-19",
-   "stars_at_discovery": 232,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "chenwei810/Semiconductor_Manufacturing_Introduction": {
-   "first_seen": "2026-11-05",
-   "until": "2026-11-19",
-   "stars_at_discovery": 1379,
-   "score_at_discovery": 58,
-   "source_at_discovery": "ai-trending"
-  },
   "google/skills": {
    "first_seen": "2026-11-06",
    "until": "2026-11-20",
@@ -1084,7 +1007,77 @@
    "stars_at_discovery": 68396,
    "score_at_discovery": 88,
    "source_at_discovery": "trending"
+  },
+  "firecrawl/firecrawl": {
+   "first_seen": "2026-11-20",
+   "until": "2026-12-04",
+   "stars_at_discovery": 204801,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "mjmirza/app-store-compliance": {
+   "first_seen": "2026-11-20",
+   "until": "2026-12-04",
+   "stars_at_discovery": 2392,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "toeverything/AFFiNE": {
+   "first_seen": "2026-11-20",
+   "until": "2026-12-04",
+   "stars_at_discovery": 75509,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "XiaoYouChR/Ghost-Downloader-3": {
+   "first_seen": "2026-11-20",
+   "until": "2026-12-04",
+   "stars_at_discovery": 13379,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "zhouxiaoka/autoclip": {
+   "first_seen": "2026-11-20",
+   "until": "2026-12-04",
+   "stars_at_discovery": 11897,
+   "score_at_discovery": 100,
+   "source_at_discovery": "trending"
+  },
+  "Tracer-Cloud/opensre": {
+   "first_seen": "2026-11-20",
+   "until": "2026-12-04",
+   "stars_at_discovery": 13382,
+   "score_at_discovery": 99,
+   "source_at_discovery": "trending"
+  },
+  "nginx/nginx": {
+   "first_seen": "2026-11-20",
+   "until": "2026-12-04",
+   "stars_at_discovery": 32475,
+   "score_at_discovery": 96,
+   "source_at_discovery": "trending"
+  },
+  "iamajmeena/neonclipping": {
+   "first_seen": "2026-11-20",
+   "until": "2026-12-04",
+   "stars_at_discovery": 970,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "Lemxy/WinRust": {
+   "first_seen": "2026-11-20",
+   "until": "2026-12-04",
+   "stars_at_discovery": 614,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "krisgfx9/Wireless-Device-Battery-Monitor": {
+   "first_seen": "2026-11-20",
+   "until": "2026-12-04",
+   "stars_at_discovery": 5013,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-11-19T13:58:55.371411+00:00"
+ "updated_at": "2026-11-20T13:42:01.497882+00:00"
 }
