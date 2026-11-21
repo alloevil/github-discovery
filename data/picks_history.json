@@ -479,7 +479,47 @@
     "deepseek-ai/chat-demo": {
       "first_picked": "2026-11-18",
       "source": "github-discovery"
+    },
+    "MikePopoloski/slang": {
+      "first_picked": "2026-11-21",
+      "source": "github-discovery"
+    },
+    "BrunoLevy/learn-fpga": {
+      "first_picked": "2026-11-21",
+      "source": "github-discovery"
+    },
+    "danielwh2/sprite-stacking": {
+      "first_picked": "2026-11-21",
+      "source": "github-discovery"
+    },
+    "hatsunemiku-ai/google-one-tools": {
+      "first_picked": "2026-11-21",
+      "source": "github-discovery"
+    },
+    "INK-Q/agy-fast": {
+      "first_picked": "2026-11-21",
+      "source": "github-discovery"
+    },
+    "AI4XE/ai4ai": {
+      "first_picked": "2026-11-21",
+      "source": "github-discovery"
+    },
+    "staryone/motlab": {
+      "first_picked": "2026-11-21",
+      "source": "github-discovery"
+    },
+    "byttrade/bytx-skills": {
+      "first_picked": "2026-11-21",
+      "source": "github-discovery"
+    },
+    "lizhenjie137/intelligent-organization": {
+      "first_picked": "2026-11-21",
+      "source": "github-discovery"
+    },
+    "hoangsvit/google-ai": {
+      "first_picked": "2026-11-21",
+      "source": "github-discovery"
     }
   },
-  "updated_at": "2026-11-18T13:28:42.637844+00:00"
+  "updated_at": "2026-11-21T13:02:29.550437+00:00"
 }

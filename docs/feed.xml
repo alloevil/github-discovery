@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-20T18:00:00Z</updated>
+  <updated>2026-11-21T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>apple-aiml-research/ml-depth-pro-2 — Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth</title>
+    <id>https://github.com/apple-aiml-research/ml-depth-pro-2#2026-11-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/apple-aiml-research/ml-depth-pro-2"/>
+    <updated>2026-11-21T18:00:00Z</updated>
+    <published>2026-11-21T18:00:00Z</published>
+    <summary>Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth
+
+Why: +163/day · HF Papers · 10.8x accelerating
+Score: 95/100 | Language: Python | ⭐ 257 (+163.0/day) | Source: hf-papers</summary>
+  </entry>
+  <entry>
+    <title>danielwh2/sprite-stacking — Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi.</title>
+    <id>https://github.com/danielwh2/sprite-stacking#2026-11-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/danielwh2/sprite-stacking"/>
+    <updated>2026-11-21T18:00:00Z</updated>
+    <published>2026-11-21T18:00:00Z</published>
+    <summary>Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi.
+
+Why: +280/day · AI/ML
+Score: 93/100 | Language: HTML | ⭐ 280 (+280.0/day) | Source: ai-trending</summary>
+  </entry>
+  <entry>
+    <title>hatsunemiku-ai/google-one-tools — No description</title>
+    <id>https://github.com/hatsunemiku-ai/google-one-tools#2026-11-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/hatsunemiku-ai/google-one-tools"/>
+    <updated>2026-11-21T18:00:00Z</updated>
+    <published>2026-11-21T18:00:00Z</published>
+    <summary>No description
+
+Why: +680/day · Search
+Score: 91/100 | Language: Python | ⭐ 680 (+680.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>nearviral-bit/distant-horizons-minecraft-visibility-workspace — A modder's workspace for expanding Minecraft visibility horizons.</title>
+    <id>https://github.com/nearviral-bit/distant-horizons-minecraft-visibility-workspace#2026-11-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/nearviral-bit/distant-horizons-minecraft-visibility-workspace"/>
+    <updated>2026-11-21T18:00:00Z</updated>
+    <published>2026-11-21T18:00:00Z</published>
+    <summary>A modder's workspace for expanding Minecraft visibility horizons.
+
+Why: +153/day · Search
+Score: 90/100 | Language: Rust | ⭐ 153 (+153.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>MSNightmare/FastUnlock — FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability</title>
+    <id>https://github.com/MSNightmare/FastUnlock#2026-11-21</id>
+    <link rel="alternate" type="text/html" href="https://github.com/MSNightmare/FastUnlock"/>
+    <updated>2026-11-21T18:00:00Z</updated>
+    <published>2026-11-21T18:00:00Z</published>
+    <summary>FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability
+
+Why: +314/day · Search
+Score: 89/100 | Language: ? | ⭐ 628 (+314.0/day) | Source: search</summary>
+  </entry>
   <entry>
     <title>firecrawl/firecrawl — Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.</title>
     <id>https://github.com/firecrawl/firecrawl#2026-11-20</id>
@@ -767,71 +822,5 @@ Score: 99/100 | Language: TypeScript | ⭐ 4822 (+439.0/day) | Source: trending<
 
 Why: +347/day · Trending · 48.8x accelerating
 Score: 98/100 | Language: Go | ⭐ 676 (+347.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>zed-industries/zed — Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.</title>
-    <id>https://github.com/zed-industries/zed#2026-11-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/zed-industries/zed"/>
-    <updated>2026-11-07T18:00:00Z</updated>
-    <published>2026-11-07T18:00:00Z</published>
-    <summary>Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
-
-Why: +1004/day · Trending · 22.3x accelerating
-Score: 100/100 | Language: Rust | ⭐ 94017 (+1004.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>astral-sh/ruff — An extremely fast Python linter and code formatter, written in Rust.</title>
-    <id>https://github.com/astral-sh/ruff#2026-11-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/astral-sh/ruff"/>
-    <updated>2026-11-07T18:00:00Z</updated>
-    <published>2026-11-07T18:00:00Z</published>
-    <summary>An extremely fast Python linter and code formatter, written in Rust.
-
-Why: +309/day · Trending · 9.4x accelerating
-Score: 98/100 | Language: Rust | ⭐ 50800 (+309.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>prometheus/prometheus — The Prometheus monitoring system and time series database.</title>
-    <id>https://github.com/prometheus/prometheus#2026-11-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/prometheus/prometheus"/>
-    <updated>2026-11-07T18:00:00Z</updated>
-    <published>2026-11-07T18:00:00Z</published>
-    <summary>The Prometheus monitoring system and time series database.
-
-Why: +286/day · Trending · 21.7x accelerating
-Score: 97/100 | Language: Go | ⭐ 67280 (+286.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>vercel-labs/agent-browser — Browser automation CLI for AI agents</title>
-    <id>https://github.com/vercel-labs/agent-browser#2026-11-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/vercel-labs/agent-browser"/>
-    <updated>2026-11-07T18:00:00Z</updated>
-    <published>2026-11-07T18:00:00Z</published>
-    <summary>Browser automation CLI for AI agents
-
-Why: +379/day · Trending · 2.5x accelerating
-Score: 96/100 | Language: Rust | ⭐ 46388 (+379.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>NotRexed/Hookshot — A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake</title>
-    <id>https://github.com/NotRexed/Hookshot#2026-11-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/NotRexed/Hookshot"/>
-    <updated>2026-11-07T18:00:00Z</updated>
-    <published>2026-11-07T18:00:00Z</published>
-    <summary>A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake
-
-Why: +836/day · Search
-Score: 96/100 | Language: C++ | ⭐ 836 (+836.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>milind-soni/OpenMausBot — Open-source Grok Bot alternative with a virtual machine that bots can use</title>
-    <id>https://github.com/milind-soni/OpenMausBot#2026-11-07</id>
-    <link rel="alternate" type="text/html" href="https://github.com/milind-soni/OpenMausBot"/>
-    <updated>2026-11-07T18:00:00Z</updated>
-    <published>2026-11-07T18:00:00Z</published>
-    <summary>Open-source Grok Bot alternative with a virtual machine that bots can use
-
-Why: +1834/day · Trending · 9.9x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 16148 (+1834.0/day) | Source: trending</summary>
   </entry>
 </feed>

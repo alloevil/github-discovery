@@ -132,76 +132,6 @@
       ],
       "last_recommended": "2026-11-01T11:31:08.503154+00:00"
     },
-    "vllm-project/vllm": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-22T09:39:28.068160+00:00"
-    },
-    "Jakeschincariol/day-trader-skill": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-22T09:39:28.069922+00:00"
-    },
-    "renjiegod/dyt-ashare-cli": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-22T09:39:28.071290+00:00"
-    },
-    "aicodeking/pandacode": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-10-22T09:39:28.072583+00:00"
-    },
-    "supabase/supabase": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-10-22T09:39:28.073939+00:00"
-    },
-    "qianshuixia/shrimpreel": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-10-22T09:39:28.075880+00:00"
-    },
-    "garycaogan/ai-live-avatar": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-22T09:39:28.077229+00:00"
-    },
-    "mihirgupta0900/tv-home": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-22T09:39:28.078516+00:00"
-    },
-    "eagle-hq/EAGLE-4": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-10-22T09:39:28.079854+00:00"
-    },
-    "theanam/openlaser.app": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-10-22T09:39:28.081192+00:00"
-    },
     "Snapintosh/Snapintosh": {
       "count": 1,
       "scores": [
@@ -2235,7 +2165,77 @@
         90
       ],
       "last_recommended": "2026-11-20T13:38:19.129637+00:00"
+    },
+    "apple-aiml-research/ml-depth-pro-2": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-21T13:02:27.246419+00:00"
+    },
+    "danielwh2/sprite-stacking": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-21T13:02:27.248643+00:00"
+    },
+    "hatsunemiku-ai/google-one-tools": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-21T13:02:27.250671+00:00"
+    },
+    "nearviral-bit/distant-horizons-minecraft-visibility-workspace": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-11-21T13:02:27.252710+00:00"
+    },
+    "MSNightmare/FastUnlock": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-11-21T13:02:27.254804+00:00"
+    },
+    "INK-Q/agy-fast": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-11-21T13:02:27.256827+00:00"
+    },
+    "tweak-for-me/impulse": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-11-21T13:02:27.258860+00:00"
+    },
+    "AI4XE/ai4ai": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-11-21T13:02:27.260912+00:00"
+    },
+    "nilbuild/stick-scene": {
+      "count": 1,
+      "scores": [
+        86
+      ],
+      "last_recommended": "2026-11-21T13:02:27.262930+00:00"
+    },
+    "thenukawijekoon51-blip/movavi-video-editor": {
+      "count": 1,
+      "scores": [
+        85
+      ],
+      "last_recommended": "2026-11-21T13:02:27.265038+00:00"
     }
   },
-  "updated_at": "2026-11-20T13:38:19.129649+00:00"
+  "updated_at": "2026-11-21T13:02:27.265065+00:00"
 }

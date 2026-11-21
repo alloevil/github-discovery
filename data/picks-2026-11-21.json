@@ -1,0 +1,336 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T13:02:29+00:00",
+  "every_days": 3,
+  "count": 10,
+  "semi_count": 2,
+  "semi_min_met": true,
+  "picks": [
+    {
+      "rank": 1,
+      "full_name": "MikePopoloski/slang",
+      "url": "https://github.com/MikePopoloski/slang",
+      "description": "SystemVerilog compiler and language services",
+      "topic": "semi",
+      "language": "C++",
+      "topics": [
+        "compiler",
+        "language-service",
+        "parse",
+        "slang",
+        "systemverilog",
+        "verilog"
+      ],
+      "license": "MIT",
+      "stars": 1187,
+      "forks": 286,
+      "created_at": "2017-02-03T22:20:21Z",
+      "pushed_at": "2026-11-21T12:59:12Z",
+      "growth": {
+        "since": "2026-11-09",
+        "window_days": 12,
+        "stars_gained": 9,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 63,
+      "verified_at": "2026-11-21T13:02:27+00:00"
+    },
+    {
+      "rank": 2,
+      "full_name": "BrunoLevy/learn-fpga",
+      "url": "https://github.com/BrunoLevy/learn-fpga",
+      "description": "Learning FPGA, yosys, nextpnr, and RISC-V ",
+      "topic": "semi",
+      "language": "C++",
+      "topics": [],
+      "license": "BSD-3-Clause",
+      "stars": 3786,
+      "forks": 363,
+      "created_at": "2020-05-27T15:04:05Z",
+      "pushed_at": "2026-10-30T21:49:37Z",
+      "growth": {
+        "since": "2026-11-09",
+        "window_days": 12,
+        "stars_gained": 26,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 57,
+      "verified_at": "2026-11-21T13:02:27+00:00"
+    },
+    {
+      "rank": 3,
+      "full_name": "danielwh2/sprite-stacking",
+      "url": "https://github.com/danielwh2/sprite-stacking",
+      "description": "Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi.",
+      "topic": "ai",
+      "language": "HTML",
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "cursor",
+        "fake-3d",
+        "gamedev",
+        "pixel-art",
+        "sprite-stacking",
+        "voxel"
+      ],
+      "license": "MIT",
+      "stars": 280,
+      "forks": 21,
+      "created_at": "2026-11-20T14:32:43Z",
+      "pushed_at": "2026-11-21T01:28:57Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 83,
+      "verified_at": "2026-11-21T13:02:27+00:00"
+    },
+    {
+      "rank": 4,
+      "full_name": "hatsunemiku-ai/google-one-tools",
+      "url": "https://github.com/hatsunemiku-ai/google-one-tools",
+      "description": "",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "stars": 680,
+      "forks": 412,
+      "created_at": "2026-11-20T22:12:47Z",
+      "pushed_at": "2026-11-21T07:02:02Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 81,
+      "verified_at": "2026-11-21T13:02:28+00:00"
+    },
+    {
+      "rank": 5,
+      "full_name": "INK-Q/agy-fast",
+      "url": "https://github.com/INK-Q/agy-fast",
+      "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "ai-coding",
+        "antigravity",
+        "coding-agent",
+        "developer-tools",
+        "gemini",
+        "google-antigravity",
+        "latency-optimization",
+        "mcp",
+        "mcp-server",
+        "performance",
+        "plugin",
+        "token-optimization"
+      ],
+      "license": "MIT",
+      "stars": 232,
+      "forks": 19,
+      "created_at": "2026-11-19T04:58:46Z",
+      "pushed_at": "2026-11-21T11:26:34Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 79,
+      "verified_at": "2026-11-21T13:02:28+00:00"
+    },
+    {
+      "rank": 6,
+      "full_name": "AI4XE/ai4ai",
+      "url": "https://github.com/AI4XE/ai4ai",
+      "description": "Let AI manage itself — a cross-harness kit for runtime status, context renewal, self-duplication and more",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "ai-harness",
+        "claude-code",
+        "codex",
+        "context-managment",
+        "deepseek-harness",
+        "dsh-plugin",
+        "multi-agent",
+        "opencode"
+      ],
+      "license": "MIT",
+      "stars": 96,
+      "forks": 0,
+      "created_at": "2026-11-20T11:48:16Z",
+      "pushed_at": "2026-11-20T11:57:42Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 78,
+      "verified_at": "2026-11-21T13:02:28+00:00"
+    },
+    {
+      "rank": 7,
+      "full_name": "staryone/motlab",
+      "url": "https://github.com/staryone/motlab",
+      "description": "Video as code: canvas scenes rendered with WebCodecs in headless Chrome, a review viewer, and agent skills that build the video from your references.",
+      "topic": "ai",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "canvas",
+        "claude-code",
+        "headless-chrome",
+        "motion-graphics",
+        "video",
+        "webcodecs"
+      ],
+      "license": "MIT",
+      "stars": 322,
+      "forks": 43,
+      "created_at": "2026-11-16T13:45:47Z",
+      "pushed_at": "2026-11-21T12:58:17Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 75,
+      "verified_at": "2026-11-21T13:02:28+00:00"
+    },
+    {
+      "rank": 8,
+      "full_name": "byttrade/bytx-skills",
+      "url": "https://github.com/byttrade/bytx-skills",
+      "description": "Crypto trading skills for AI assistants on bytx: MCP server + CLI + Claude skills. Paper by default, never without your yes.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "stars": 92,
+      "forks": 26,
+      "created_at": "2026-11-18T14:14:01Z",
+      "pushed_at": "2026-11-18T16:03:44Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 75,
+      "verified_at": "2026-11-21T13:02:28+00:00"
+    },
+    {
+      "rank": 9,
+      "full_name": "lizhenjie137/intelligent-organization",
+      "url": "https://github.com/lizhenjie137/intelligent-organization",
+      "description": "智能组织 · Intelligent Organization | 人与 AI Agent 按原子能力协作，连接目标、分工、进展、成果、验收与交接，减少重复沟通与返工。当前支持本机多账号，跨设备协作为后续方向。",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "stars": 293,
+      "forks": 0,
+      "created_at": "2026-11-15T15:32:16Z",
+      "pushed_at": "2026-11-15T16:55:15Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search",
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 74,
+      "verified_at": "2026-11-21T13:02:29+00:00"
+    },
+    {
+      "rank": 10,
+      "full_name": "hoangsvit/google-ai",
+      "url": "https://github.com/hoangsvit/google-ai",
+      "description": "A terminal toolkit for Windows and macOS to inspect Google AI Pro offers through Android, ADB, Frida and Google Play. The shared Textual dashboard uses a PowerShell/Python launcher on Windows and a native Python adapter on macOS.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "gemini",
+        "gemini-ai",
+        "gemini-api",
+        "google",
+        "google-ai"
+      ],
+      "license": "",
+      "stars": 250,
+      "forks": 55,
+      "created_at": "2026-11-18T15:17:53Z",
+      "pushed_at": "2026-11-21T11:11:57Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 74,
+      "verified_at": "2026-11-21T13:02:29+00:00"
+    }
+  ]
+}
