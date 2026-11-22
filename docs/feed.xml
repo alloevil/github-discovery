@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-21T18:00:00Z</updated>
+  <updated>2026-11-22T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>diggerhq/opencomputer — An open-source, faster Devin alternative</title>
+    <id>https://github.com/diggerhq/opencomputer#2026-11-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/diggerhq/opencomputer"/>
+    <updated>2026-11-22T18:00:00Z</updated>
+    <published>2026-11-22T18:00:00Z</published>
+    <summary>An open-source, faster Devin alternative
+
+Why: +574/day · HN · 141.5x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 1408 (+574.0/day) | Source: hn</summary>
+  </entry>
+  <entry>
+    <title>EL4CTEO/fast-anything — Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.</title>
+    <id>https://github.com/EL4CTEO/fast-anything#2026-11-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/EL4CTEO/fast-anything"/>
+    <updated>2026-11-22T18:00:00Z</updated>
+    <published>2026-11-22T18:00:00Z</published>
+    <summary>Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.
+
+Why: +763/day · Search
+Score: 96/100 | Language: Rust | ⭐ 763 (+763.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>sybil-solutions/skill-distill — Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task</title>
+    <id>https://github.com/sybil-solutions/skill-distill#2026-11-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/sybil-solutions/skill-distill"/>
+    <updated>2026-11-22T18:00:00Z</updated>
+    <published>2026-11-22T18:00:00Z</published>
+    <summary>Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task
+
+Why: +428/day · Search
+Score: 95/100 | Language: Python | ⭐ 428 (+428.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>w01fb0ss/PiBot — Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.</title>
+    <id>https://github.com/w01fb0ss/PiBot#2026-11-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/w01fb0ss/PiBot"/>
+    <updated>2026-11-22T18:00:00Z</updated>
+    <published>2026-11-22T18:00:00Z</published>
+    <summary>Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.
+
+Why: +286/day · Search+AI/ML
+Score: 93/100 | Language: TypeScript | ⭐ 286 (+286.0/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>sohzm/winedroid — run android apps on web, linux, macOS and windows</title>
+    <id>https://github.com/sohzm/winedroid#2026-11-22</id>
+    <link rel="alternate" type="text/html" href="https://github.com/sohzm/winedroid"/>
+    <updated>2026-11-22T18:00:00Z</updated>
+    <published>2026-11-22T18:00:00Z</published>
+    <summary>run android apps on web, linux, macOS and windows
+
+Why: +221/day · Search
+Score: 92/100 | Language: Rust | ⭐ 221 (+221.0/day) | Source: search</summary>
+  </entry>
   <entry>
     <title>apple-aiml-research/ml-depth-pro-2 — Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth</title>
     <id>https://github.com/apple-aiml-research/ml-depth-pro-2#2026-11-21</id>
@@ -767,60 +822,5 @@ Score: 95/100 | Language: Shell | ⭐ 1118 (+372.7/day) | Source: search</summar
 
 Why: +254/day · Search
 Score: 93/100 | Language: Python | ⭐ 507 (+253.5/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>meta/astryx — An open source design system that's fully customizable and agent ready</title>
-    <id>https://github.com/meta/astryx#2026-11-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/meta/astryx"/>
-    <updated>2026-11-08T18:00:00Z</updated>
-    <published>2026-11-08T18:00:00Z</published>
-    <summary>An open source design system that's fully customizable and agent ready
-
-Why: +854/day · Trending · 17.2x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 14963 (+854.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>tailwindlabs/tailwindcss — A utility-first CSS framework for rapid UI development.</title>
-    <id>https://github.com/tailwindlabs/tailwindcss#2026-11-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/tailwindlabs/tailwindcss"/>
-    <updated>2026-11-08T18:00:00Z</updated>
-    <published>2026-11-08T18:00:00Z</published>
-    <summary>A utility-first CSS framework for rapid UI development.
-
-Why: +457/day · Trending · 15.4x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 98640 (+457.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>sarpstar/cinecode — Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.</title>
-    <id>https://github.com/sarpstar/cinecode#2026-11-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/sarpstar/cinecode"/>
-    <updated>2026-11-08T18:00:00Z</updated>
-    <published>2026-11-08T18:00:00Z</published>
-    <summary>Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.
-
-Why: +717/day · Search+AI/ML · 2.9x accelerating
-Score: 100/100 | Language: Python | ⭐ 1232 (+717.0/day) | Source: search + ai-trending</summary>
-  </entry>
-  <entry>
-    <title>ranxianglei/billion-context — A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need</title>
-    <id>https://github.com/ranxianglei/billion-context#2026-11-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ranxianglei/billion-context"/>
-    <updated>2026-11-08T18:00:00Z</updated>
-    <published>2026-11-08T18:00:00Z</published>
-    <summary>A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need
-
-Why: +439/day · Trending · 8.6x accelerating
-Score: 99/100 | Language: TypeScript | ⭐ 4822 (+439.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>dsx-ai-factory/nvke — NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.</title>
-    <id>https://github.com/dsx-ai-factory/nvke#2026-11-08</id>
-    <link rel="alternate" type="text/html" href="https://github.com/dsx-ai-factory/nvke"/>
-    <updated>2026-11-08T18:00:00Z</updated>
-    <published>2026-11-08T18:00:00Z</published>
-    <summary>NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.
-
-Why: +347/day · Trending · 48.8x accelerating
-Score: 98/100 | Language: Go | ⭐ 676 (+347.0/day) | Source: trending</summary>
   </entry>
 </feed>

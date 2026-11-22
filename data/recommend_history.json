@@ -132,76 +132,6 @@
       ],
       "last_recommended": "2026-11-01T11:31:08.503154+00:00"
     },
-    "Snapintosh/Snapintosh": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-23T09:36:16.006197+00:00"
-    },
-    "zita-ch/supermimic_vibed": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-10-23T09:36:16.007798+00:00"
-    },
-    "omnara-ai/omnara": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-10-23T09:36:16.009084+00:00"
-    },
-    "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-10-23T09:36:16.010286+00:00"
-    },
-    "pengchujin/aerial-tv": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-23T09:36:16.011471+00:00"
-    },
-    "openai/php2shell-checker": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-23T09:36:16.012769+00:00"
-    },
-    "assetnote/php2shell-scanner": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-23T09:36:16.014040+00:00"
-    },
-    "EthanArbuckle/fairplay-decrypt": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-23T09:36:16.015248+00:00"
-    },
-    "xevrion/hatchzip": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-23T09:36:16.016470+00:00"
-    },
-    "ikow/php2shell-poc": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-10-23T09:36:16.017668+00:00"
-    },
     "wesbos/3d-model-anything": {
       "count": 1,
       "scores": [
@@ -2235,7 +2165,77 @@
         85
       ],
       "last_recommended": "2026-11-21T13:02:27.265038+00:00"
+    },
+    "diggerhq/opencomputer": {
+      "count": 1,
+      "scores": [
+        100
+      ],
+      "last_recommended": "2026-11-22T12:53:24.773104+00:00"
+    },
+    "EL4CTEO/fast-anything": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-22T12:53:24.775380+00:00"
+    },
+    "sybil-solutions/skill-distill": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-22T12:53:24.777479+00:00"
+    },
+    "w01fb0ss/PiBot": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-22T12:53:24.779495+00:00"
+    },
+    "sohzm/winedroid": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-22T12:53:24.781855+00:00"
+    },
+    "leanprover-community/riemann-hypothesis": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-22T12:53:24.783889+00:00"
+    },
+    "m1guelpf/Exo": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-22T12:53:24.785928+00:00"
+    },
+    "dev-bad/arc-raiders-norvena": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-11-22T12:53:24.788192+00:00"
+    },
+    "Moyaking/rust-norvella": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-11-22T12:53:24.790231+00:00"
+    },
+    "veddeshmukh09-boop/skyrim-community-shaders-visual-workbench": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-11-22T12:53:24.792257+00:00"
     }
   },
-  "updated_at": "2026-11-21T13:02:27.265065+00:00"
+  "updated_at": "2026-11-22T12:53:24.792281+00:00"
 }

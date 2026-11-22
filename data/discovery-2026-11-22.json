@@ -1,0 +1,326 @@
+{
+ "date": "2026-11-22",
+ "generated_at": "2026-11-22T12:53:24.795705",
+ "pool_size": 107,
+ "source_health": {
+  "trending": {
+   "fetched": 16,
+   "parsed": 16,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "search": {
+   "fetched": 66,
+   "parsed": 66,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 9
+  },
+  "hn": {
+   "fetched": 12,
+   "parsed": 12,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  },
+  "rising": {
+   "fetched": 2,
+   "parsed": 2,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 39,
+   "parsed": 39,
+   "rejected": 0,
+   "deduplicated": 8,
+   "recommended": 1
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "diggerhq/opencomputer",
+   "url": "https://github.com/diggerhq/opencomputer",
+   "description": "An open-source, faster Devin alternative",
+   "language": "TypeScript",
+   "stars": 1408,
+   "forks": 174,
+   "age_days": 347,
+   "daily_stars": 4.057636887608069,
+   "real_daily_stars": 574.0,
+   "watchers": 5,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "Apache-2.0",
+   "hn_title": "Show HN: OpenComputer – an open source alternative to Devin",
+   "hn_score": 120,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "EL4CTEO/fast-anything",
+   "url": "https://github.com/EL4CTEO/fast-anything",
+   "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+   "language": "Rust",
+   "stars": 763,
+   "forks": 50,
+   "age_days": 1,
+   "daily_stars": 763.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "sybil-solutions/skill-distill",
+   "url": "https://github.com/sybil-solutions/skill-distill",
+   "description": "Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task",
+   "language": "Python",
+   "stars": 428,
+   "forks": 37,
+   "age_days": 1,
+   "daily_stars": 428.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "w01fb0ss/PiBot",
+   "url": "https://github.com/w01fb0ss/PiBot",
+   "description": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+   "language": "TypeScript",
+   "stars": 286,
+   "forks": 42,
+   "age_days": 1,
+   "daily_stars": 286.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "sohzm/winedroid",
+   "url": "https://github.com/sohzm/winedroid",
+   "description": "run android apps on web, linux, macOS and windows",
+   "language": "Rust",
+   "stars": 221,
+   "forks": 9,
+   "age_days": 1,
+   "daily_stars": 221.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 5,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "leanprover-community/riemann-hypothesis",
+   "url": "https://github.com/leanprover-community/riemann-hypothesis",
+   "description": "Independent Comparator setup for the Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20)",
+   "language": "Lean",
+   "stars": 520,
+   "forks": 110,
+   "age_days": 1,
+   "daily_stars": 520.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 92,
+    "acceleration": 36,
+    "quality": 26,
+    "antispam": 30,
+    "quality_bonus": 17
+   }
+  },
+  {
+   "full_name": "m1guelpf/Exo",
+   "url": "https://github.com/m1guelpf/Exo",
+   "description": "A fast, local and native Gmail client for macOS, inspired by Superhuman.",
+   "language": "Rust",
+   "stars": 172,
+   "forks": 6,
+   "age_days": 1,
+   "daily_stars": 172.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "dev-bad/arc-raiders-norvena",
+   "url": "https://github.com/dev-bad/arc-raiders-norvena",
+   "description": "Arc Raiders Norvena delivers sharp in-raid info and tactical readouts for focused play.",
+   "language": "TypeScript",
+   "stars": 151,
+   "forks": 0,
+   "age_days": 1,
+   "daily_stars": 151.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "Moyaking/rust-norvella",
+   "url": "https://github.com/Moyaking/rust-norvella",
+   "description": "In-game tools and live readouts for Rust, built to keep you moving.",
+   "language": "TypeScript",
+   "stars": 151,
+   "forks": 0,
+   "age_days": 1,
+   "daily_stars": 151.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "veddeshmukh09-boop/skyrim-community-shaders-visual-workbench",
+   "url": "https://github.com/veddeshmukh09-boop/skyrim-community-shaders-visual-workbench",
+   "description": "Shape the light, bend the shaders - a canvas where every modder tinkers.",
+   "language": "TypeScript",
+   "stars": 151,
+   "forks": 0,
+   "age_days": 1,
+   "daily_stars": 151.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  }
+ ],
+ "repeat": []
+}
