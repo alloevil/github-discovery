@@ -3,12 +3,67 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-22T18:00:00Z</updated>
+  <updated>2026-11-23T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>AFK-surf/xnulinux — XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)</title>
+    <id>https://github.com/AFK-surf/xnulinux#2026-11-23</id>
+    <link rel="alternate" type="text/html" href="https://github.com/AFK-surf/xnulinux"/>
+    <updated>2026-11-23T18:00:00Z</updated>
+    <published>2026-11-23T18:00:00Z</published>
+    <summary>XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)
+
+Why: +411/day · Search
+Score: 95/100 | Language: Objective-C++ | ⭐ 1234 (+411.3/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>erkamyaman/safe-anything — Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups.</title>
+    <id>https://github.com/erkamyaman/safe-anything#2026-11-23</id>
+    <link rel="alternate" type="text/html" href="https://github.com/erkamyaman/safe-anything"/>
+    <updated>2026-11-23T18:00:00Z</updated>
+    <published>2026-11-23T18:00:00Z</published>
+    <summary>Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups.
+
+Why: +343/day · Search
+Score: 94/100 | Language: Rust | ⭐ 343 (+343.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>qianyiai/kurocat — Transparent desktop typing &amp; mouse companion (6 cats + BigFish whale-girl, password privacy guard, MCP AI skin studio) for Windows 11/10/7, macOS 10.15+, and Linux/KylinOS</title>
+    <id>https://github.com/qianyiai/kurocat#2026-11-23</id>
+    <link rel="alternate" type="text/html" href="https://github.com/qianyiai/kurocat"/>
+    <updated>2026-11-23T18:00:00Z</updated>
+    <published>2026-11-23T18:00:00Z</published>
+    <summary>Transparent desktop typing &amp; mouse companion (6 cats + BigFish whale-girl, password privacy guard, MCP AI skin studio) for Windows 11/10/7, macOS 10.15+, and Linux/KylinOS
+
+Why: +291/day · Search
+Score: 93/100 | Language: Rust | ⭐ 291 (+291.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>ivall/xcl — Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL</title>
+    <id>https://github.com/ivall/xcl#2026-11-23</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ivall/xcl"/>
+    <updated>2026-11-23T18:00:00Z</updated>
+    <published>2026-11-23T18:00:00Z</published>
+    <summary>Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL
+
+Why: +213/day · Search
+Score: 92/100 | Language: Rust | ⭐ 426 (+213.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>Avaneesh-Inamdar/Stream-Tube-Desktop — Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in</title>
+    <id>https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop#2026-11-23</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop"/>
+    <updated>2026-11-23T18:00:00Z</updated>
+    <published>2026-11-23T18:00:00Z</published>
+    <summary>Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in
+
+Why: +224/day · Search
+Score: 92/100 | Language: Rust | ⭐ 224 (+224.0/day) | Source: search</summary>
+  </entry>
   <entry>
     <title>diggerhq/opencomputer — An open-source, faster Devin alternative</title>
     <id>https://github.com/diggerhq/opencomputer#2026-11-22</id>
@@ -767,60 +822,5 @@ Score: 96/100 | Language: Swift | ⭐ 713 (+713.0/day) | Source: search</summary
 
 Why: +186/day · HN+HF Papers · 9.6x accelerating
 Score: 95/100 | Language: Python | ⭐ 329 (+186.0/day) | Source: hn + hf-papers</summary>
-  </entry>
-  <entry>
-    <title>shanselman/gputaskman — A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).</title>
-    <id>https://github.com/shanselman/gputaskman#2026-11-09</id>
-    <link rel="alternate" type="text/html" href="https://github.com/shanselman/gputaskman"/>
-    <updated>2026-11-09T18:00:00Z</updated>
-    <published>2026-11-09T18:00:00Z</published>
-    <summary>A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).
-
-Why: +717/day · Search+AI/ML · 3.2x accelerating
-Score: 100/100 | Language: Python | ⭐ 1345 (+717.0/day) | Source: search + ai-trending</summary>
-  </entry>
-  <entry>
-    <title>huamidev/GestaltX — An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.</title>
-    <id>https://github.com/huamidev/GestaltX#2026-11-09</id>
-    <link rel="alternate" type="text/html" href="https://github.com/huamidev/GestaltX"/>
-    <updated>2026-11-09T18:00:00Z</updated>
-    <published>2026-11-09T18:00:00Z</published>
-    <summary>An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.
-
-Why: +642/day · Rising
-Score: 96/100 | Language: Swift | ⭐ 642 (+642.0/day) | Source: rising</summary>
-  </entry>
-  <entry>
-    <title>tangerineturtle1/NX2navi — No description</title>
-    <id>https://github.com/tangerineturtle1/NX2navi#2026-11-09</id>
-    <link rel="alternate" type="text/html" href="https://github.com/tangerineturtle1/NX2navi"/>
-    <updated>2026-11-09T18:00:00Z</updated>
-    <published>2026-11-09T18:00:00Z</published>
-    <summary>No description
-
-Why: +943/day · Search
-Score: 96/100 | Language: C | ⭐ 1886 (+943.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>IainKay/ram-altman — Monitors your RAM and reports any &quot;quite terrible&quot; unused capacity directly to the CEO of OpenAI.</title>
-    <id>https://github.com/IainKay/ram-altman#2026-11-09</id>
-    <link rel="alternate" type="text/html" href="https://github.com/IainKay/ram-altman"/>
-    <updated>2026-11-09T18:00:00Z</updated>
-    <published>2026-11-09T18:00:00Z</published>
-    <summary>Monitors your RAM and reports any &quot;quite terrible&quot; unused capacity directly to the CEO of OpenAI.
-
-Why: +373/day · Search
-Score: 95/100 | Language: Shell | ⭐ 1118 (+372.7/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>lxe/phoneuse — See and operate an unmodified iPhone from a Linux PC: AirPlay mirror in, Bluetooth HID mouse/keyboard out, plus a CLI and skill for agents.</title>
-    <id>https://github.com/lxe/phoneuse#2026-11-09</id>
-    <link rel="alternate" type="text/html" href="https://github.com/lxe/phoneuse"/>
-    <updated>2026-11-09T18:00:00Z</updated>
-    <published>2026-11-09T18:00:00Z</published>
-    <summary>See and operate an unmodified iPhone from a Linux PC: AirPlay mirror in, Bluetooth HID mouse/keyboard out, plus a CLI and skill for agents.
-
-Why: +254/day · Search
-Score: 93/100 | Language: Python | ⭐ 507 (+253.5/day) | Source: search</summary>
   </entry>
 </feed>

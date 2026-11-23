@@ -1,75 +1,5 @@
 {
  "repos": {
-  "meta/astryx": {
-   "first_seen": "2026-11-08",
-   "until": "2026-11-22",
-   "stars_at_discovery": 14963,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "tailwindlabs/tailwindcss": {
-   "first_seen": "2026-11-08",
-   "until": "2026-11-22",
-   "stars_at_discovery": 98640,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "sarpstar/cinecode": {
-   "first_seen": "2026-11-08",
-   "until": "2026-11-22",
-   "stars_at_discovery": 1232,
-   "score_at_discovery": 100,
-   "source_at_discovery": "search"
-  },
-  "ranxianglei/billion-context": {
-   "first_seen": "2026-11-08",
-   "until": "2026-11-22",
-   "stars_at_discovery": 4822,
-   "score_at_discovery": 99,
-   "source_at_discovery": "trending"
-  },
-  "dsx-ai-factory/nvke": {
-   "first_seen": "2026-11-08",
-   "until": "2026-11-22",
-   "stars_at_discovery": 676,
-   "score_at_discovery": 98,
-   "source_at_discovery": "trending"
-  },
-  "mbillow/localthings": {
-   "first_seen": "2026-11-08",
-   "until": "2026-11-22",
-   "stars_at_discovery": 1130,
-   "score_at_discovery": 96,
-   "source_at_discovery": "trending"
-  },
-  "sostenesfreitas/ocarina-recomp": {
-   "first_seen": "2026-11-08",
-   "until": "2026-11-22",
-   "stars_at_discovery": 865,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "Th0rgal/satmux": {
-   "first_seen": "2026-11-08",
-   "until": "2026-11-22",
-   "stars_at_discovery": 719,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "MuseumCassowaryCarve/twitch-drops-miner": {
-   "first_seen": "2026-11-08",
-   "until": "2026-11-22",
-   "stars_at_discovery": 425,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "Poltergeistlunagrid/Steam-Idler": {
-   "first_seen": "2026-11-08",
-   "until": "2026-11-22",
-   "stars_at_discovery": 425,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
   "shanselman/gputaskman": {
    "first_seen": "2026-11-09",
    "until": "2026-11-23",
@@ -1070,7 +1000,77 @@
    "stars_at_discovery": 151,
    "score_at_discovery": 90,
    "source_at_discovery": "search"
+  },
+  "AFK-surf/xnulinux": {
+   "first_seen": "2026-11-23",
+   "until": "2026-12-07",
+   "stars_at_discovery": 1234,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "erkamyaman/safe-anything": {
+   "first_seen": "2026-11-23",
+   "until": "2026-12-07",
+   "stars_at_discovery": 343,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "qianyiai/kurocat": {
+   "first_seen": "2026-11-23",
+   "until": "2026-12-07",
+   "stars_at_discovery": 291,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "ivall/xcl": {
+   "first_seen": "2026-11-23",
+   "until": "2026-12-07",
+   "stars_at_discovery": 426,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "Avaneesh-Inamdar/Stream-Tube-Desktop": {
+   "first_seen": "2026-11-23",
+   "until": "2026-12-07",
+   "stars_at_discovery": 224,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "indigo-832/steam-library-artwork-manager": {
+   "first_seen": "2026-11-23",
+   "until": "2026-12-07",
+   "stars_at_discovery": 189,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "younggeelyfmichael-dev/claude-ai-prompt-utility": {
+   "first_seen": "2026-11-23",
+   "until": "2026-12-07",
+   "stars_at_discovery": 335,
+   "score_at_discovery": 91,
+   "source_at_discovery": "ai-trending"
+  },
+  "omonkeyz/xbox-emulator": {
+   "first_seen": "2026-11-23",
+   "until": "2026-12-07",
+   "stars_at_discovery": 1529,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "ThreatDefence/agentic-attack-detections": {
+   "first_seen": "2026-11-23",
+   "until": "2026-12-07",
+   "stars_at_discovery": 524,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "shnfatih-hash/devlet-arsivleri-soykutugu": {
+   "first_seen": "2026-11-23",
+   "until": "2026-12-07",
+   "stars_at_discovery": 138,
+   "score_at_discovery": 90,
+   "source_at_discovery": "ai-trending"
   }
  },
- "updated_at": "2026-11-22T12:56:00.127558+00:00"
+ "updated_at": "2026-11-23T15:27:55.022815+00:00"
 }

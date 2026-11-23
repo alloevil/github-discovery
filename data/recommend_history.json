@@ -90,14 +90,6 @@
       ],
       "last_recommended": "2026-10-25T09:26:04.300391+00:00"
     },
-    "NVIDIA/OpenShell": {
-      "count": 2,
-      "scores": [
-        100,
-        98
-      ],
-      "last_recommended": "2026-10-24T09:08:40.714612+00:00"
-    },
     "pingdotgg/t3code": {
       "count": 2,
       "scores": [
@@ -132,55 +124,6 @@
       ],
       "last_recommended": "2026-11-01T11:31:08.503154+00:00"
     },
-    "wesbos/3d-model-anything": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-24T09:08:40.685855+00:00"
-    },
-    "php/php-src": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-24T09:08:40.687896+00:00"
-    },
-    "actionow-ai/vvv": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-24T09:08:40.689638+00:00"
-    },
-    "ivarvong/lantern": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-24T09:08:40.691391+00:00"
-    },
-    "openmathmodel/open-math-harness": {
-      "count": 1,
-      "scores": [
-        87
-      ],
-      "last_recommended": "2026-10-24T09:08:40.703923+00:00"
-    },
-    "dsmurrell/onkey": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-10-24T09:08:40.705719+00:00"
-    },
-    "anubhavmalhotra/r2d2-tv": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-10-24T09:08:40.707508+00:00"
-    },
     "mytechnotalent/Reverse-Engineering": {
       "count": 3,
       "scores": [
@@ -189,20 +132,6 @@
         60
       ],
       "last_recommended": "2026-11-17T13:52:48.546076+00:00"
-    },
-    "quanhoangindex/ascii-reveal": {
-      "count": 1,
-      "scores": [
-        85
-      ],
-      "last_recommended": "2026-10-24T09:08:40.711041+00:00"
-    },
-    "SnailSploit/Claude-Red": {
-      "count": 1,
-      "scores": [
-        84
-      ],
-      "last_recommended": "2026-10-24T09:08:40.712797+00:00"
     },
     "luongnv89/claude-howto": {
       "count": 1,
@@ -2235,7 +2164,77 @@
         90
       ],
       "last_recommended": "2026-11-22T12:53:24.792257+00:00"
+    },
+    "AFK-surf/xnulinux": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-23T15:24:19.021957+00:00"
+    },
+    "erkamyaman/safe-anything": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-23T15:24:19.024367+00:00"
+    },
+    "qianyiai/kurocat": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-23T15:24:19.026314+00:00"
+    },
+    "ivall/xcl": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-23T15:24:19.028206+00:00"
+    },
+    "Avaneesh-Inamdar/Stream-Tube-Desktop": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-23T15:24:19.030066+00:00"
+    },
+    "indigo-832/steam-library-artwork-manager": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-23T15:24:19.031954+00:00"
+    },
+    "younggeelyfmichael-dev/claude-ai-prompt-utility": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-23T15:24:19.033879+00:00"
+    },
+    "omonkeyz/xbox-emulator": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-11-23T15:24:19.035730+00:00"
+    },
+    "ThreatDefence/agentic-attack-detections": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-11-23T15:24:19.037613+00:00"
+    },
+    "shnfatih-hash/devlet-arsivleri-soykutugu": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-11-23T15:24:19.039465+00:00"
     }
   },
-  "updated_at": "2026-11-22T12:53:24.792281+00:00"
+  "updated_at": "2026-11-23T15:24:19.039486+00:00"
 }

@@ -1,0 +1,324 @@
+{
+ "date": "2026-11-23",
+ "generated_at": "2026-11-23T15:24:19.042613",
+ "pool_size": 101,
+ "source_health": {
+  "trending": {
+   "fetched": 16,
+   "parsed": 16,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "search": {
+   "fetched": 65,
+   "parsed": 65,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 8
+  },
+  "hn": {
+   "fetched": 11,
+   "parsed": 11,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 2,
+   "parsed": 2,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 30,
+   "parsed": 30,
+   "rejected": 0,
+   "deduplicated": 5,
+   "recommended": 2
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "AFK-surf/xnulinux",
+   "url": "https://github.com/AFK-surf/xnulinux",
+   "description": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
+   "language": "Objective-C++",
+   "stars": 1234,
+   "forks": 44,
+   "age_days": 3,
+   "daily_stars": 411.3333333333333,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "erkamyaman/safe-anything",
+   "url": "https://github.com/erkamyaman/safe-anything",
+   "description": "Find the holes before someone else does. A fast, 100% Rust vulnerability scanner: XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups.",
+   "language": "Rust",
+   "stars": 343,
+   "forks": 21,
+   "age_days": 1,
+   "daily_stars": 343.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "qianyiai/kurocat",
+   "url": "https://github.com/qianyiai/kurocat",
+   "description": "Transparent desktop typing & mouse companion (6 cats + BigFish whale-girl, password privacy guard, MCP AI skin studio) for Windows 11/10/7, macOS 10.15+, and Linux/KylinOS",
+   "language": "Rust",
+   "stars": 291,
+   "forks": 49,
+   "age_days": 1,
+   "daily_stars": 291.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "ivall/xcl",
+   "url": "https://github.com/ivall/xcl",
+   "description": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
+   "language": "Rust",
+   "stars": 426,
+   "forks": 27,
+   "age_days": 2,
+   "daily_stars": 213.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Avaneesh-Inamdar/Stream-Tube-Desktop",
+   "url": "https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop",
+   "description": "Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in",
+   "language": "Rust",
+   "stars": 224,
+   "forks": 16,
+   "age_days": 1,
+   "daily_stars": 224.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "indigo-832/steam-library-artwork-manager",
+   "url": "https://github.com/indigo-832/steam-library-artwork-manager",
+   "description": "Free open-source Steam artwork manager for custom game covers, banners, icons and logos in Gaming Mode.",
+   "language": "TypeScript",
+   "stars": 189,
+   "forks": 0,
+   "age_days": 1,
+   "daily_stars": 189.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "younggeelyfmichael-dev/claude-ai-prompt-utility",
+   "url": "https://github.com/younggeelyfmichael-dev/claude-ai-prompt-utility",
+   "description": "Claude AI Prompt Utility: Technical Alternative Access Framework",
+   "language": "HTML",
+   "stars": 335,
+   "forks": 0,
+   "age_days": 2,
+   "daily_stars": 167.5,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "omonkeyz/xbox-emulator",
+   "url": "https://github.com/omonkeyz/xbox-emulator",
+   "description": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
+   "language": "Rust",
+   "stars": 1529,
+   "forks": 91,
+   "age_days": 2,
+   "daily_stars": 764.5,
+   "real_daily_stars": 479.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "ThreatDefence/agentic-attack-detections",
+   "url": "https://github.com/ThreatDefence/agentic-attack-detections",
+   "description": "Detection rules and IOCs for AI agent attack frameworks: ARTEX, Cairn, PentAGI, HexStrike, CyberStrikeAI, Strix, Hermes Agent, Agent Zero, RedAmon, Xalgorix, Pentest Swarm AI. KQL hunts for Microsoft Sentinel and Defender XDR, Sigma, Suricata, Zeek, YARA, Splunk, Elastic, STIX 2.1.",
+   "language": "Python",
+   "stars": 524,
+   "forks": 105,
+   "age_days": 3,
+   "daily_stars": 174.66666666666666,
+   "real_daily_stars": 269.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "shnfatih-hash/devlet-arsivleri-soykutugu",
+   "url": "https://github.com/shnfatih-hash/devlet-arsivleri-soykutugu",
+   "description": "e-Devlet Alt-Üst Soy Bilgisi + T.C. Cumhurbaşkanlığı Devlet Arşivleri (Osmanlı & Cumhuriyet) üzerinden 1500'lere kadar 1:1 kanıtlı soy kütüğü ve köy tarihi araştırma becerisi (Google Antigravity / Claude / MCP Skill)",
+   "language": "Python",
+   "stars": 138,
+   "forks": 11,
+   "age_days": 1,
+   "daily_stars": 138.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  }
+ ],
+ "repeat": []
+}
