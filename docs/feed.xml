@@ -3,12 +3,100 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-23T18:00:00Z</updated>
+  <updated>2026-11-24T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>LeonidaReforge/Leonida — Community-driven continuation of the Leonida project</title>
+    <id>https://github.com/LeonidaReforge/Leonida#2026-11-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/LeonidaReforge/Leonida"/>
+    <updated>2026-11-24T18:00:00Z</updated>
+    <published>2026-11-24T18:00:00Z</published>
+    <summary>Community-driven continuation of the Leonida project
+
+Why: +392/day · Search
+Score: 95/100 | Language: Python | ⭐ 392 (+392.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>Ahmet-Dedeler/awesome-gta6-reverse-engineering — Curated list of open-source GTA VI (GTA 6) reverse engineering tools, RAGE 9 / RPF9 archive explorers, TTPF texture &amp; ADAT/AWC audio decoders, format docs, and Xbox Series / PS5 translation layers.</title>
+    <id>https://github.com/Ahmet-Dedeler/awesome-gta6-reverse-engineering#2026-11-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Ahmet-Dedeler/awesome-gta6-reverse-engineering"/>
+    <updated>2026-11-24T18:00:00Z</updated>
+    <published>2026-11-24T18:00:00Z</published>
+    <summary>Curated list of open-source GTA VI (GTA 6) reverse engineering tools, RAGE 9 / RPF9 archive explorers, TTPF texture &amp; ADAT/AWC audio decoders, format docs, and Xbox Series / PS5 translation layers.
+
+Why: +331/day · Search
+Score: 94/100 | Language: HTML | ⭐ 662 (+331.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>ProjectLeonidaL/leonida — Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.</title>
+    <id>https://github.com/ProjectLeonidaL/leonida#2026-11-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ProjectLeonidaL/leonida"/>
+    <updated>2026-11-24T18:00:00Z</updated>
+    <published>2026-11-24T18:00:00Z</published>
+    <summary>Continuation of Project Leonida, aiming to bring GTA VI from Xbox to PC through static recompilation.
+
+Why: +264/day · Search
+Score: 93/100 | Language: Python | ⭐ 264 (+264.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>R44VC0RP/dashsplat — Turn a car's dashcam footage into a 3D world you can drive through again: Gaussian splats, a 1 cm road atlas, tracked vehicles and a diffusion-repaired chase view.</title>
+    <id>https://github.com/R44VC0RP/dashsplat#2026-11-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/R44VC0RP/dashsplat"/>
+    <updated>2026-11-24T18:00:00Z</updated>
+    <published>2026-11-24T18:00:00Z</published>
+    <summary>Turn a car's dashcam footage into a 3D world you can drive through again: Gaussian splats, a 1 cm road atlas, tracked vehicles and a diffusion-repaired chase view.
+
+Why: +246/day · Search+AI/ML
+Score: 93/100 | Language: Python | ⭐ 246 (+246.0/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>deterministic-machines/deslop-please — Bring (back) sanity to your code</title>
+    <id>https://github.com/deterministic-machines/deslop-please#2026-11-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/deterministic-machines/deslop-please"/>
+    <updated>2026-11-24T18:00:00Z</updated>
+    <published>2026-11-24T18:00:00Z</published>
+    <summary>Bring (back) sanity to your code
+
+Why: +276/day · Search
+Score: 93/100 | Language: Rust | ⭐ 551 (+275.5/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>elementalsouls/Claude-BugHunter — A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.</title>
+    <id>https://github.com/elementalsouls/Claude-BugHunter#2026-11-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/elementalsouls/Claude-BugHunter"/>
+    <updated>2026-11-24T18:00:00Z</updated>
+    <published>2026-11-24T18:00:00Z</published>
+    <summary>A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.
+
+Why: +1779/day · Trending · 17.3x accelerating
+Score: 100/100 | Language: Python | ⭐ 20899 (+1779.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>mvanhorn/last30days-skill — AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary</title>
+    <id>https://github.com/mvanhorn/last30days-skill#2026-11-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mvanhorn/last30days-skill"/>
+    <updated>2026-11-24T18:00:00Z</updated>
+    <published>2026-11-24T18:00:00Z</published>
+    <summary>AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
+
+Why: +686/day · Trending · 2.8x accelerating
+Score: 99/100 | Language: Python | ⭐ 73907 (+686.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>google-labs-code/stitch-skills — A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.</title>
+    <id>https://github.com/google-labs-code/stitch-skills#2026-11-24</id>
+    <link rel="alternate" type="text/html" href="https://github.com/google-labs-code/stitch-skills"/>
+    <updated>2026-11-24T18:00:00Z</updated>
+    <published>2026-11-24T18:00:00Z</published>
+    <summary>A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.
+
+Why: +390/day · Trending · 9.7x accelerating
+Score: 99/100 | Language: TypeScript | ⭐ 12541 (+390.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>AFK-surf/xnulinux — XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)</title>
     <id>https://github.com/AFK-surf/xnulinux#2026-11-23</id>
@@ -767,60 +855,5 @@ Score: 94/100 | Language: JavaScript | ⭐ 115555 (+743.0/day) | Source: trendin
 
 Why: +327/day · Search+AI/ML
 Score: 94/100 | Language: TypeScript | ⭐ 327 (+327.0/day) | Source: search + ai-trending</summary>
-  </entry>
-  <entry>
-    <title>anthropics/claude-quickstarts — A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API</title>
-    <id>https://github.com/anthropics/claude-quickstarts#2026-11-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/anthropics/claude-quickstarts"/>
-    <updated>2026-11-10T18:00:00Z</updated>
-    <published>2026-11-10T18:00:00Z</published>
-    <summary>A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API
-
-Why: +505/day · Trending · 20.0x accelerating
-Score: 100/100 | Language: Python | ⭐ 20266 (+505.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>homeassistant-ai/ha-mcp — Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.</title>
-    <id>https://github.com/homeassistant-ai/ha-mcp#2026-11-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/homeassistant-ai/ha-mcp"/>
-    <updated>2026-11-10T18:00:00Z</updated>
-    <published>2026-11-10T18:00:00Z</published>
-    <summary>Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.
-
-Why: +765/day · Trending · 50.7x accelerating
-Score: 100/100 | Language: Python | ⭐ 6352 (+765.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>google-deepmind/mujoco — Multi-Joint dynamics with Contact. A general purpose physics simulator.</title>
-    <id>https://github.com/google-deepmind/mujoco#2026-11-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/google-deepmind/mujoco"/>
-    <updated>2026-11-10T18:00:00Z</updated>
-    <published>2026-11-10T18:00:00Z</published>
-    <summary>Multi-Joint dynamics with Contact. A general purpose physics simulator.
-
-Why: +428/day · Trending · 47.4x accelerating
-Score: 99/100 | Language: C++ | ⭐ 17170 (+428.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>Kianuni/Erosion-CN — iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）</title>
-    <id>https://github.com/Kianuni/Erosion-CN#2026-11-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/Kianuni/Erosion-CN"/>
-    <updated>2026-11-10T18:00:00Z</updated>
-    <published>2026-11-10T18:00:00Z</published>
-    <summary>iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）
-
-Why: +713/day · Search
-Score: 96/100 | Language: Swift | ⭐ 713 (+713.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>OmniJev/Flide — 🔥🔥 The extremely fast inference engine for decision model</title>
-    <id>https://github.com/OmniJev/Flide#2026-11-10</id>
-    <link rel="alternate" type="text/html" href="https://github.com/OmniJev/Flide"/>
-    <updated>2026-11-10T18:00:00Z</updated>
-    <published>2026-11-10T18:00:00Z</published>
-    <summary>🔥🔥 The extremely fast inference engine for decision model
-
-Why: +186/day · HN+HF Papers · 9.6x accelerating
-Score: 95/100 | Language: Python | ⭐ 329 (+186.0/day) | Source: hn + hf-papers</summary>
   </entry>
 </feed>

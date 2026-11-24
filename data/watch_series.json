@@ -7437,6 +7437,15 @@
     "commits_7d": 32,
     "contributors_7d": 28,
     "pushed_at": "2026-11-23T04:01:07Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 69996,
+    "forks": 9119,
+    "open_issues": 63,
+    "commits_7d": 32,
+    "contributors_7d": 28,
+    "pushed_at": "2026-11-23T04:01:07Z"
    }
   ],
   "jlrouzies-fr/DLSS5-Feeder": [
@@ -13881,6 +13890,15 @@
     "commits_7d": 38,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T03:49:55Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 55974,
+    "forks": 4626,
+    "open_issues": 342,
+    "commits_7d": 38,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T13:42:11Z"
    }
   ],
   "dani-garcia/vaultwarden": [
@@ -15892,6 +15910,15 @@
     "commits_7d": 7,
     "contributors_7d": 90,
     "pushed_at": "2026-11-18T20:06:38Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 120139,
+    "forks": 12484,
+    "open_issues": 115,
+    "commits_7d": 25,
+    "contributors_7d": 92,
+    "pushed_at": "2026-11-24T07:11:17Z"
    }
   ],
   "ai-sucks-butt/ai-sucks-butt": [
@@ -17774,6 +17801,15 @@
     "stars": 309358,
     "forks": 45508,
     "open_issues": 196,
+    "commits_7d": 100,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-23T04:55:48Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 309981,
+    "forks": 45575,
+    "open_issues": 206,
     "commits_7d": 100,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T04:55:48Z"
@@ -28533,6 +28569,15 @@
     "commits_7d": 74,
     "contributors_7d": 79,
     "pushed_at": "2026-11-23T13:54:05Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 31642,
+    "forks": 2854,
+    "open_issues": 204,
+    "commits_7d": 78,
+    "contributors_7d": 82,
+    "pushed_at": "2026-11-24T14:28:43Z"
    }
   ],
   "driceroland/Search": [
@@ -29139,6 +29184,15 @@
     "stars": 324760,
     "forks": 28814,
     "open_issues": 361,
+    "commits_7d": 0,
+    "contributors_7d": 37,
+    "pushed_at": "2026-11-03T23:24:58Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 325676,
+    "forks": 28884,
+    "open_issues": 359,
     "commits_7d": 0,
     "contributors_7d": 37,
     "pushed_at": "2026-11-03T23:24:58Z"
@@ -29752,6 +29806,15 @@
     "stars": 63325,
     "forks": 5751,
     "open_issues": 284,
+    "commits_7d": 0,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-20T10:05:15Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 64403,
+    "forks": 5871,
+    "open_issues": 293,
     "commits_7d": 0,
     "contributors_7d": 100,
     "pushed_at": "2026-11-20T10:05:15Z"
@@ -41905,6 +41968,15 @@
     "commits_7d": 52,
     "contributors_7d": 32,
     "pushed_at": "2026-11-22T01:02:38Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 19072,
+    "forks": 2061,
+    "open_issues": 692,
+    "commits_7d": 48,
+    "contributors_7d": 32,
+    "pushed_at": "2026-11-24T10:37:37Z"
    }
   ],
   "facebookincubator/muse-gadget-sdk": [
@@ -47152,6 +47224,15 @@
     "date": "2026-11-23",
     "stars": 70765,
     "forks": 4741,
+    "open_issues": 39,
+    "commits_7d": 20,
+    "contributors_7d": 74,
+    "pushed_at": "2026-11-23T11:00:38Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 71627,
+    "forks": 4780,
     "open_issues": 39,
     "commits_7d": 20,
     "contributors_7d": 74,
@@ -67631,6 +67712,15 @@
     "commits_7d": 4,
     "contributors_7d": 1,
     "pushed_at": "2026-11-23T13:02:37Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 15247,
+    "forks": 1699,
+    "open_issues": 0,
+    "commits_7d": 4,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-23T13:02:37Z"
    }
   ],
   "openmathmodel/open-math-harness": [
@@ -87683,6 +87773,15 @@
     "commits_7d": 3,
     "contributors_7d": 2,
     "pushed_at": "2026-11-18T13:11:10Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1115,
+    "forks": 77,
+    "open_issues": 2,
+    "commits_7d": 3,
+    "contributors_7d": 2,
+    "pushed_at": "2026-11-18T13:11:10Z"
    }
   ],
   "Kianuni/Erosion-CN": [
@@ -87809,6 +87908,15 @@
     "forks": 466,
     "open_issues": 35,
     "commits_7d": 24,
+    "contributors_7d": 2,
+    "pushed_at": "2026-11-19T13:48:22Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 2792,
+    "forks": 474,
+    "open_issues": 36,
+    "commits_7d": 5,
     "contributors_7d": 2,
     "pushed_at": "2026-11-19T13:48:22Z"
    }
@@ -87939,6 +88047,15 @@
     "commits_7d": 55,
     "contributors_7d": 6,
     "pushed_at": "2026-11-23T06:36:02Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 570,
+    "forks": 41,
+    "open_issues": 6,
+    "commits_7d": 57,
+    "contributors_7d": 6,
+    "pushed_at": "2026-11-24T00:00:36Z"
    }
   ],
   "Paulinho182/hitfilm-desktop-installer": [
@@ -88253,6 +88370,15 @@
     "commits_7d": 0,
     "contributors_7d": 33,
     "pushed_at": "2026-11-06T19:37:57Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 21162,
+    "forks": 3512,
+    "open_issues": 259,
+    "commits_7d": 0,
+    "contributors_7d": 33,
+    "pushed_at": "2026-11-06T19:37:57Z"
    }
   ],
   "ebtsamalhakmy-sketch/desktop-backup-suite": [
@@ -88473,6 +88599,15 @@
     "commits_7d": 96,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T15:25:54Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 18455,
+    "forks": 2233,
+    "open_issues": 419,
+    "commits_7d": 99,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T13:44:18Z"
    }
   ],
   "homeassistant-ai/ha-mcp": [
@@ -88601,6 +88736,15 @@
     "commits_7d": 100,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T15:25:09Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 8104,
+    "forks": 477,
+    "open_issues": 16,
+    "commits_7d": 100,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T13:32:58Z"
    }
   ],
   "Goblinmine/homelab-diagram": [
@@ -88716,6 +88860,15 @@
     "date": "2026-11-23",
     "stars": 1755,
     "forks": 153,
+    "open_issues": 3,
+    "commits_7d": 0,
+    "contributors_7d": 3,
+    "pushed_at": "2026-11-14T18:51:16Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1783,
+    "forks": 156,
     "open_issues": 3,
     "commits_7d": 0,
     "contributors_7d": 3,
@@ -88839,6 +88992,15 @@
     "commits_7d": 8,
     "contributors_7d": 5,
     "pushed_at": "2026-11-21T09:53:00Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 2021,
+    "forks": 168,
+    "open_issues": 29,
+    "commits_7d": 6,
+    "contributors_7d": 5,
+    "pushed_at": "2026-11-21T09:53:00Z"
    }
   ],
   "JDhruv14/line-art-animation": [
@@ -88954,6 +89116,15 @@
     "date": "2026-11-23",
     "stars": 1194,
     "forks": 172,
+    "open_issues": 4,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-10T09:25:38Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1223,
+    "forks": 175,
     "open_issues": 4,
     "commits_7d": 0,
     "contributors_7d": 1,
@@ -89077,6 +89248,15 @@
     "commits_7d": 39,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T15:05:29Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 74261,
+    "forks": 58404,
+    "open_issues": 69,
+    "commits_7d": 40,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T15:20:53Z"
    }
   ],
   "alexeyw/lot-map": [
@@ -89194,6 +89374,15 @@
     "forks": 120,
     "open_issues": 0,
     "commits_7d": 71,
+    "contributors_7d": 17,
+    "pushed_at": "2026-11-22T21:02:21Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1153,
+    "forks": 120,
+    "open_issues": 1,
+    "commits_7d": 65,
     "contributors_7d": 17,
     "pushed_at": "2026-11-22T21:02:21Z"
    }
@@ -89315,6 +89504,15 @@
     "commits_7d": 0,
     "contributors_7d": 6,
     "pushed_at": "2026-11-12T03:08:07Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 379,
+    "forks": 112,
+    "open_issues": 0,
+    "commits_7d": 7,
+    "contributors_7d": 8,
+    "pushed_at": "2026-11-24T06:42:11Z"
    }
   ],
   "bea4dev/shoji-bar-4": [
@@ -89428,6 +89626,15 @@
    },
    {
     "date": "2026-11-23",
+    "stars": 230,
+    "forks": 10,
+    "open_issues": 6,
+    "commits_7d": 0,
+    "contributors_7d": 4,
+    "pushed_at": "2026-11-20T06:53:45Z"
+   },
+   {
+    "date": "2026-11-24",
     "stars": 230,
     "forks": 10,
     "open_issues": 6,
@@ -89636,6 +89843,15 @@
     "commits_7d": 100,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T14:26:25Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 17711,
+    "forks": 1538,
+    "open_issues": 1161,
+    "commits_7d": 100,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T15:11:21Z"
    }
   ],
   "FrigadeHQ/yogurt": [
@@ -89746,6 +89962,15 @@
     "commits_7d": 100,
     "contributors_7d": 12,
     "pushed_at": "2026-11-23T15:05:01Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 3159,
+    "forks": 275,
+    "open_issues": 66,
+    "commits_7d": 100,
+    "contributors_7d": 12,
+    "pushed_at": "2026-11-24T10:17:43Z"
    }
   ],
   "GoogleChrome/modern-web-guidance": [
@@ -89852,6 +90077,15 @@
     "date": "2026-11-23",
     "stars": 25387,
     "forks": 1073,
+    "open_issues": 1,
+    "commits_7d": 1,
+    "contributors_7d": 4,
+    "pushed_at": "2026-11-23T14:54:26Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 25778,
+    "forks": 1092,
     "open_issues": 1,
     "commits_7d": 1,
     "contributors_7d": 4,
@@ -89966,6 +90200,15 @@
     "commits_7d": 52,
     "contributors_7d": 81,
     "pushed_at": "2026-11-23T15:24:44Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 10741,
+    "forks": 820,
+    "open_issues": 399,
+    "commits_7d": 45,
+    "contributors_7d": 81,
+    "pushed_at": "2026-11-24T14:12:16Z"
    }
   ],
   "abdulmannanmalik13-wq/adobe-substance-3d-studio": [
@@ -90132,6 +90375,15 @@
     "commits_7d": 13,
     "contributors_7d": 1,
     "pushed_at": "2026-11-20T23:47:06Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 279,
+    "forks": 20,
+    "open_issues": 1,
+    "commits_7d": 17,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-24T00:13:13Z"
    }
   ],
   "agentes-chat/agentes-chat": [
@@ -90242,6 +90494,15 @@
     "commits_7d": 100,
     "contributors_7d": 38,
     "pushed_at": "2026-11-23T15:14:26Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 2015,
+    "forks": 396,
+    "open_issues": 479,
+    "commits_7d": 100,
+    "contributors_7d": 38,
+    "pushed_at": "2026-11-24T15:09:28Z"
    }
   ],
   "hembramneeraj3-create/aida-64-extreme": [
@@ -90417,6 +90678,15 @@
     "commits_7d": 64,
     "contributors_7d": 94,
     "pushed_at": "2026-11-23T14:09:04Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 14325,
+    "forks": 1135,
+    "open_issues": 216,
+    "commits_7d": 60,
+    "contributors_7d": 96,
+    "pushed_at": "2026-11-24T14:25:12Z"
    }
   ],
   "rdeepak-wq121/quicken-deluxe-installer": [
@@ -90684,6 +90954,15 @@
     "commits_7d": 0,
     "contributors_7d": 9,
     "pushed_at": "2026-11-12T11:06:34Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 766,
+    "forks": 1234,
+    "open_issues": 1,
+    "commits_7d": 0,
+    "contributors_7d": 9,
+    "pushed_at": "2026-11-12T11:06:34Z"
    }
   ],
   "DandanLLab/SnowCatQQ": [
@@ -90781,6 +91060,15 @@
     "date": "2026-11-23",
     "stars": 354,
     "forks": 153,
+    "open_issues": 11,
+    "commits_7d": 0,
+    "contributors_7d": 5,
+    "pushed_at": "2026-11-14T09:31:04Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 352,
+    "forks": 155,
     "open_issues": 11,
     "commits_7d": 0,
     "contributors_7d": 5,
@@ -90953,6 +91241,15 @@
     "commits_7d": 0,
     "contributors_7d": 27,
     "pushed_at": "2026-11-09T14:17:03Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 583,
+    "forks": 1121,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 27,
+    "pushed_at": "2026-11-09T14:17:03Z"
    }
   ],
   "adriadam10/mkw-recomp": [
@@ -91054,6 +91351,15 @@
     "commits_7d": 100,
     "contributors_7d": 32,
     "pushed_at": "2026-11-23T15:25:00Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1757,
+    "forks": 127,
+    "open_issues": 239,
+    "commits_7d": 100,
+    "contributors_7d": 36,
+    "pushed_at": "2026-11-24T13:51:59Z"
    }
   ],
   "gabrielbuzziv/emissor-nfse-nacional": [
@@ -91153,6 +91459,15 @@
     "forks": 47,
     "open_issues": 3,
     "commits_7d": 6,
+    "contributors_7d": 2,
+    "pushed_at": "2026-11-17T18:50:43Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 274,
+    "forks": 47,
+    "open_issues": 3,
+    "commits_7d": 4,
     "contributors_7d": 2,
     "pushed_at": "2026-11-17T18:50:43Z"
    }
@@ -91256,6 +91571,15 @@
     "commits_7d": 66,
     "contributors_7d": 7,
     "pushed_at": "2026-11-21T21:41:37Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1314,
+    "forks": 96,
+    "open_issues": 2,
+    "commits_7d": 21,
+    "contributors_7d": 7,
+    "pushed_at": "2026-11-21T21:41:37Z"
    }
   ],
   "rivet-dev/open-orange": [
@@ -91357,6 +91681,15 @@
     "commits_7d": 45,
     "contributors_7d": 5,
     "pushed_at": "2026-11-23T14:56:51Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 840,
+    "forks": 41,
+    "open_issues": 14,
+    "commits_7d": 44,
+    "contributors_7d": 5,
+    "pushed_at": "2026-11-24T14:28:59Z"
    }
   ],
   "serveroshq/panel": [
@@ -91458,6 +91791,15 @@
     "commits_7d": 80,
     "contributors_7d": 14,
     "pushed_at": "2026-11-23T07:31:29Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1196,
+    "forks": 117,
+    "open_issues": 17,
+    "commits_7d": 72,
+    "contributors_7d": 15,
+    "pushed_at": "2026-11-24T09:50:02Z"
    }
   ],
   "ChromeDevTools/chrome-devtools-mcp": [
@@ -91550,6 +91892,15 @@
     "commits_7d": 52,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T15:18:56Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 59159,
+    "forks": 4899,
+    "open_issues": 116,
+    "commits_7d": 57,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T14:59:19Z"
    }
   ],
   "Likely7/Veyra-NRVideo": [
@@ -91642,6 +91993,15 @@
     "commits_7d": 100,
     "contributors_7d": 18,
     "pushed_at": "2026-11-22T04:48:14Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 5811,
+    "forks": 401,
+    "open_issues": 169,
+    "commits_7d": 100,
+    "contributors_7d": 26,
+    "pushed_at": "2026-11-24T06:02:49Z"
    }
   ],
   "Parcha-ai/agentrun": [
@@ -91734,6 +92094,15 @@
     "commits_7d": 100,
     "contributors_7d": 12,
     "pushed_at": "2026-11-23T15:22:09Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1262,
+    "forks": 105,
+    "open_issues": 154,
+    "commits_7d": 100,
+    "contributors_7d": 12,
+    "pushed_at": "2026-11-24T15:16:36Z"
    }
   ],
   "backnotprop/plannotator": [
@@ -91826,6 +92195,15 @@
     "commits_7d": 100,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T15:22:29Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 14827,
+    "forks": 1430,
+    "open_issues": 226,
+    "commits_7d": 100,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T15:09:43Z"
    }
   ],
   "louislam/uptime-kuma": [
@@ -91918,6 +92296,15 @@
     "commits_7d": 19,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T13:53:01Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 94827,
+    "forks": 8872,
+    "open_issues": 866,
+    "commits_7d": 17,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T12:22:40Z"
    }
   ],
   "opencoredev/islandcn": [
@@ -92010,6 +92397,15 @@
     "commits_7d": 6,
     "contributors_7d": 3,
     "pushed_at": "2026-11-21T14:25:09Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 853,
+    "forks": 67,
+    "open_issues": 1,
+    "commits_7d": 6,
+    "contributors_7d": 3,
+    "pushed_at": "2026-11-24T14:38:52Z"
    }
   ],
   "simpsoka/zigzag": [
@@ -92102,6 +92498,15 @@
     "commits_7d": 26,
     "contributors_7d": 4,
     "pushed_at": "2026-11-23T05:26:22Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1120,
+    "forks": 84,
+    "open_issues": 14,
+    "commits_7d": 27,
+    "contributors_7d": 4,
+    "pushed_at": "2026-11-24T06:05:20Z"
    }
   ],
   "tailscale/tailcat": [
@@ -92192,6 +92597,15 @@
     "forks": 474,
     "open_issues": 26,
     "commits_7d": 37,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-23T05:37:07Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 10171,
+    "forks": 475,
+    "open_issues": 29,
+    "commits_7d": 36,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T05:37:07Z"
    }
@@ -92286,6 +92700,15 @@
     "commits_7d": 100,
     "contributors_7d": 37,
     "pushed_at": "2026-11-23T06:39:33Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 8235,
+    "forks": 1529,
+    "open_issues": 53,
+    "commits_7d": 100,
+    "contributors_7d": 37,
+    "pushed_at": "2026-11-23T21:39:16Z"
    }
   ],
   "Noniv/abyssal-garden": [
@@ -92365,6 +92788,15 @@
     "date": "2026-11-23",
     "stars": 2846,
     "forks": 423,
+    "open_issues": 15,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-14T17:41:33Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 2912,
+    "forks": 433,
     "open_issues": 15,
     "commits_7d": 0,
     "contributors_7d": 1,
@@ -92452,6 +92884,15 @@
     "commits_7d": 100,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T15:24:26Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 30919,
+    "forks": 3579,
+    "open_issues": 2566,
+    "commits_7d": 100,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T15:11:17Z"
    }
   ],
   "Tornadovonmodify/IPTV_Player_2.0": [
@@ -92540,6 +92981,15 @@
    },
    {
     "date": "2026-11-23",
+    "stars": 369,
+    "forks": 0,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-15T10:36:47Z"
+   },
+   {
+    "date": "2026-11-24",
     "stars": 369,
     "forks": 0,
     "open_issues": 0,
@@ -92651,6 +93101,15 @@
     "commits_7d": 100,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T15:23:43Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 2397,
+    "forks": 554,
+    "open_issues": 574,
+    "commits_7d": 100,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T15:16:20Z"
    }
   ],
   "haziqahmedqasmi/PeakCut": [
@@ -92732,6 +93191,15 @@
     "forks": 563,
     "open_issues": 58,
     "commits_7d": 44,
+    "contributors_7d": 11,
+    "pushed_at": "2026-11-20T13:52:57Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1890,
+    "forks": 580,
+    "open_issues": 64,
+    "commits_7d": 31,
     "contributors_7d": 11,
     "pushed_at": "2026-11-20T13:52:57Z"
    }
@@ -92817,6 +93285,15 @@
     "commits_7d": 6,
     "contributors_7d": 3,
     "pushed_at": "2026-11-22T06:25:03Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 846,
+    "forks": 55,
+    "open_issues": 8,
+    "commits_7d": 6,
+    "contributors_7d": 3,
+    "pushed_at": "2026-11-24T09:32:09Z"
    }
   ],
   "tremorbuffalospire/IPTV_Player_2.0": [
@@ -92900,6 +93377,15 @@
     "commits_7d": 0,
     "contributors_7d": 1,
     "pushed_at": "2026-11-15T10:36:12Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 375,
+    "forks": 15,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-15T10:36:12Z"
    }
   ],
   "TurtleReside/Gemini-Config-Checker-": [
@@ -92969,6 +93455,15 @@
    {
     "date": "2026-11-23",
     "stars": 465,
+    "forks": 0,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-15T16:47:00Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 463,
     "forks": 0,
     "open_issues": 0,
     "commits_7d": 0,
@@ -93048,6 +93543,15 @@
     "commits_7d": 0,
     "contributors_7d": 1,
     "pushed_at": "2026-11-15T16:47:00Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 463,
+    "forks": 0,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-15T16:47:00Z"
    }
   ],
   "VortexHostFeel/Gemini-Config-Checker-": [
@@ -93117,6 +93621,15 @@
    {
     "date": "2026-11-23",
     "stars": 465,
+    "forks": 0,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-15T16:47:03Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 463,
     "forks": 0,
     "open_issues": 0,
     "commits_7d": 0,
@@ -93196,6 +93709,15 @@
     "commits_7d": 0,
     "contributors_7d": 1,
     "pushed_at": "2026-11-15T16:48:21Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 463,
+    "forks": 0,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-15T16:48:21Z"
    }
   ],
   "WinnerSpecialist/Gemini-Config-Checker-": [
@@ -93265,6 +93787,15 @@
    {
     "date": "2026-11-23",
     "stars": 465,
+    "forks": 0,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-15T16:48:10Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 463,
     "forks": 0,
     "open_issues": 0,
     "commits_7d": 0,
@@ -93344,6 +93875,15 @@
     "commits_7d": 0,
     "contributors_7d": 1,
     "pushed_at": "2026-11-15T16:49:31Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 466,
+    "forks": 0,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-15T16:49:31Z"
    }
   ],
   "ag-ui-protocol/ag-ui": [
@@ -93418,6 +93958,15 @@
     "commits_7d": 100,
     "contributors_7d": 100,
     "pushed_at": "2026-11-22T21:50:14Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 21511,
+    "forks": 2168,
+    "open_issues": 617,
+    "commits_7d": 43,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T11:47:05Z"
    }
   ],
   "n4ze3m/tiny-voca": [
@@ -93492,6 +94041,15 @@
     "commits_7d": 47,
     "contributors_7d": 6,
     "pushed_at": "2026-11-23T07:35:33Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 888,
+    "forks": 105,
+    "open_issues": 2,
+    "commits_7d": 41,
+    "contributors_7d": 6,
+    "pushed_at": "2026-11-23T16:51:11Z"
    }
   ],
   "yetanotherbrowser/yab": [
@@ -93566,6 +94124,15 @@
     "commits_7d": 60,
     "contributors_7d": 25,
     "pushed_at": "2026-11-21T20:04:05Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 825,
+    "forks": 90,
+    "open_issues": 978,
+    "commits_7d": 72,
+    "contributors_7d": 28,
+    "pushed_at": "2026-11-24T04:22:05Z"
    }
   ],
   "Tencent/LoopForge": [
@@ -93631,6 +94198,15 @@
     "commits_7d": 75,
     "contributors_7d": 18,
     "pushed_at": "2026-11-23T15:10:58Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 5973,
+    "forks": 845,
+    "open_issues": 363,
+    "commits_7d": 62,
+    "contributors_7d": 18,
+    "pushed_at": "2026-11-24T15:20:07Z"
    }
   ],
   "boringmarketer/boring-marketing-skills": [
@@ -93694,6 +94270,15 @@
     "forks": 282,
     "open_issues": 2,
     "commits_7d": 5,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-17T22:53:58Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 832,
+    "forks": 288,
+    "open_issues": 2,
+    "commits_7d": 1,
     "contributors_7d": 1,
     "pushed_at": "2026-11-17T22:53:58Z"
    }
@@ -93761,6 +94346,15 @@
     "commits_7d": 39,
     "contributors_7d": 18,
     "pushed_at": "2026-11-23T15:22:35Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 20901,
+    "forks": 2191,
+    "open_issues": 13,
+    "commits_7d": 29,
+    "contributors_7d": 19,
+    "pushed_at": "2026-11-24T10:43:35Z"
    }
   ],
   "getarcaneapp/arcane": [
@@ -93826,6 +94420,15 @@
     "commits_7d": 85,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T05:20:49Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 10379,
+    "forks": 587,
+    "open_issues": 26,
+    "commits_7d": 79,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T13:00:19Z"
    }
   ],
   "google-labs-code/stitch-skills": [
@@ -93891,6 +94494,15 @@
     "commits_7d": 14,
     "contributors_7d": 19,
     "pushed_at": "2026-11-20T18:08:01Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 12541,
+    "forks": 1523,
+    "open_issues": 25,
+    "commits_7d": 17,
+    "contributors_7d": 21,
+    "pushed_at": "2026-11-23T18:42:27Z"
    }
   ],
   "google-research/paper-orchestra": [
@@ -93953,6 +94565,15 @@
     "stars": 6098,
     "forks": 784,
     "open_issues": 56,
+    "commits_7d": 0,
+    "contributors_7d": 2,
+    "pushed_at": "2026-11-15T18:08:08Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 6256,
+    "forks": 808,
+    "open_issues": 57,
     "commits_7d": 0,
     "contributors_7d": 2,
     "pushed_at": "2026-11-15T18:08:08Z"
@@ -94021,6 +94642,15 @@
     "commits_7d": 4,
     "contributors_7d": 1,
     "pushed_at": "2026-11-18T07:19:43Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1539,
+    "forks": 40,
+    "open_issues": 8,
+    "commits_7d": 4,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-18T07:19:43Z"
    }
   ],
   "mvanhorn/last30days-skill": [
@@ -94086,6 +94716,15 @@
     "commits_7d": 75,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T01:00:01Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 73910,
+    "forks": 6520,
+    "open_issues": 36,
+    "commits_7d": 90,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T15:09:55Z"
    }
   ],
   "sveltejs/svelte": [
@@ -94151,6 +94790,15 @@
     "commits_7d": 26,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T15:26:26Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 89771,
+    "forks": 6101,
+    "open_issues": 1122,
+    "commits_7d": 41,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T15:07:05Z"
    }
   ],
   "sybil-solutions/inference-optimisation-skill": [
@@ -94216,6 +94864,15 @@
     "commits_7d": 1,
     "contributors_7d": 1,
     "pushed_at": "2026-11-16T18:40:08Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 2455,
+    "forks": 228,
+    "open_issues": 23,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-16T18:40:08Z"
    }
   ],
   "ArmorElectromancer62/game-server-route-racer": [
@@ -94266,6 +94923,15 @@
    },
    {
     "date": "2026-11-23",
+    "stars": 134,
+    "forks": 4,
+    "open_issues": 0,
+    "commits_7d": 1,
+    "contributors_7d": 2,
+    "pushed_at": "2026-11-18T00:42:24Z"
+   },
+   {
+    "date": "2026-11-24",
     "stars": 134,
     "forks": 4,
     "open_issues": 0,
@@ -94328,6 +94994,15 @@
     "commits_7d": 58,
     "contributors_7d": 6,
     "pushed_at": "2026-11-23T07:51:11Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1998,
+    "forks": 572,
+    "open_issues": 10,
+    "commits_7d": 49,
+    "contributors_7d": 6,
+    "pushed_at": "2026-11-24T06:51:56Z"
    }
   ],
   "DeanChensj/jiangshan-map": [
@@ -94384,6 +95059,15 @@
     "commits_7d": 93,
     "contributors_7d": 18,
     "pushed_at": "2026-11-23T13:55:35Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 9108,
+    "forks": 1136,
+    "open_issues": 6,
+    "commits_7d": 98,
+    "contributors_7d": 18,
+    "pushed_at": "2026-11-24T15:19:14Z"
    }
   ],
   "Hut-hzf/ung220z-tool": [
@@ -94437,6 +95121,15 @@
     "stars": 2754,
     "forks": 628,
     "open_issues": 11,
+    "commits_7d": 11,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-22T07:06:43Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 4280,
+    "forks": 934,
+    "open_issues": 15,
     "commits_7d": 11,
     "contributors_7d": 1,
     "pushed_at": "2026-11-22T07:06:43Z"
@@ -94496,6 +95189,15 @@
     "commits_7d": 100,
     "contributors_7d": 71,
     "pushed_at": "2026-11-23T04:22:24Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 3039,
+    "forks": 370,
+    "open_issues": 197,
+    "commits_7d": 100,
+    "contributors_7d": 72,
+    "pushed_at": "2026-11-24T02:08:24Z"
    }
   ],
   "NVIDIA/SkillEvaluator": [
@@ -94552,6 +95254,15 @@
     "commits_7d": 100,
     "contributors_7d": 41,
     "pushed_at": "2026-11-23T13:39:47Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 4481,
+    "forks": 566,
+    "open_issues": 39,
+    "commits_7d": 100,
+    "contributors_7d": 40,
+    "pushed_at": "2026-11-24T14:59:56Z"
    }
   ],
   "chuanqisun/spaceship": [
@@ -94606,6 +95317,15 @@
     "forks": 116,
     "open_issues": 0,
     "commits_7d": 29,
+    "contributors_7d": 3,
+    "pushed_at": "2026-11-23T08:11:47Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1081,
+    "forks": 117,
+    "open_issues": 0,
+    "commits_7d": 14,
     "contributors_7d": 3,
     "pushed_at": "2026-11-23T08:11:47Z"
    }
@@ -94720,6 +95440,15 @@
     "commits_7d": 0,
     "contributors_7d": 4,
     "pushed_at": "2026-11-16T11:07:29Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1162,
+    "forks": 133,
+    "open_issues": 13,
+    "commits_7d": 0,
+    "contributors_7d": 4,
+    "pushed_at": "2026-11-16T11:07:29Z"
    }
   ],
   "johnlindquist/pi-emphasis": [
@@ -94776,6 +95505,15 @@
     "commits_7d": 0,
     "contributors_7d": 1,
     "pushed_at": "2026-11-16T05:58:40Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 277,
+    "forks": 11,
+    "open_issues": 5,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-16T05:58:40Z"
    }
   ],
   "AnIT012/nihongo": [
@@ -94823,6 +95561,15 @@
     "commits_7d": 100,
     "contributors_7d": 3,
     "pushed_at": "2026-11-22T16:52:23Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 319,
+    "forks": 10,
+    "open_issues": 0,
+    "commits_7d": 100,
+    "contributors_7d": 3,
+    "pushed_at": "2026-11-24T11:05:41Z"
    }
   ],
   "Apakottur/unref": [
@@ -94865,6 +95612,15 @@
    {
     "date": "2026-11-23",
     "stars": 138,
+    "forks": 3,
+    "open_issues": 0,
+    "commits_7d": 100,
+    "contributors_7d": 4,
+    "pushed_at": "2026-11-22T12:06:56Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 140,
     "forks": 3,
     "open_issues": 0,
     "commits_7d": 100,
@@ -94917,6 +95673,15 @@
     "commits_7d": 19,
     "contributors_7d": 1,
     "pushed_at": "2026-11-21T09:09:57Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 283,
+    "forks": 15,
+    "open_issues": 0,
+    "commits_7d": 17,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-21T09:09:57Z"
    }
   ],
   "erkamyaman/rust-anything": [
@@ -94964,6 +95729,15 @@
     "commits_7d": 100,
     "contributors_7d": 26,
     "pushed_at": "2026-11-23T15:25:08Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 9089,
+    "forks": 739,
+    "open_issues": 65,
+    "commits_7d": 100,
+    "contributors_7d": 41,
+    "pushed_at": "2026-11-24T14:24:35Z"
    }
   ],
   "openvinotoolkit/openvino": [
@@ -95011,6 +95785,15 @@
     "commits_7d": 100,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T15:19:30Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 12397,
+    "forks": 3687,
+    "open_issues": 1188,
+    "commits_7d": 100,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T15:13:30Z"
    }
   ],
   "replit/datacat": [
@@ -95058,6 +95841,15 @@
     "commits_7d": 8,
     "contributors_7d": 4,
     "pushed_at": "2026-11-20T07:13:09Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 604,
+    "forks": 68,
+    "open_issues": 0,
+    "commits_7d": 4,
+    "contributors_7d": 4,
+    "pushed_at": "2026-11-23T21:23:26Z"
    }
   ],
   "siliconjungle/shapeshift-labs-ink-studio": [
@@ -95105,6 +95897,15 @@
     "commits_7d": 100,
     "contributors_7d": 2,
     "pushed_at": "2026-11-23T15:21:26Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1095,
+    "forks": 94,
+    "open_issues": 0,
+    "commits_7d": 100,
+    "contributors_7d": 3,
+    "pushed_at": "2026-11-24T12:25:00Z"
    }
   ],
   "Lemxy/WinRust": [
@@ -95143,6 +95944,15 @@
     "commits_7d": 51,
     "contributors_7d": 1,
     "pushed_at": "2026-11-22T21:12:31Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1443,
+    "forks": 91,
+    "open_issues": 43,
+    "commits_7d": 65,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-24T13:32:21Z"
    }
   ],
   "Tracer-Cloud/opensre": [
@@ -95181,6 +95991,15 @@
     "commits_7d": 25,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T15:19:01Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 15061,
+    "forks": 2004,
+    "open_issues": 34,
+    "commits_7d": 16,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T15:19:57Z"
    }
   ],
   "XiaoYouChR/Ghost-Downloader-3": [
@@ -95219,6 +96038,15 @@
     "commits_7d": 75,
     "contributors_7d": 18,
     "pushed_at": "2026-11-23T12:58:15Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 17059,
+    "forks": 1031,
+    "open_issues": 113,
+    "commits_7d": 56,
+    "contributors_7d": 18,
+    "pushed_at": "2026-11-24T12:15:51Z"
    }
   ],
   "firecrawl/firecrawl": [
@@ -95257,6 +96085,15 @@
     "commits_7d": 86,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T14:59:30Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 208562,
+    "forks": 10897,
+    "open_issues": 923,
+    "commits_7d": 81,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T15:21:00Z"
    }
   ],
   "iamajmeena/neonclipping": [
@@ -95295,6 +96132,15 @@
     "commits_7d": 54,
     "contributors_7d": 2,
     "pushed_at": "2026-11-21T22:46:46Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 2407,
+    "forks": 153,
+    "open_issues": 22,
+    "commits_7d": 89,
+    "contributors_7d": 2,
+    "pushed_at": "2026-11-24T13:27:46Z"
    }
   ],
   "krisgfx9/Wireless-Device-Battery-Monitor": [
@@ -95362,6 +96208,15 @@
     "commits_7d": 7,
     "contributors_7d": 3,
     "pushed_at": "2026-11-23T12:02:07Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 5553,
+    "forks": 360,
+    "open_issues": 33,
+    "commits_7d": 8,
+    "contributors_7d": 3,
+    "pushed_at": "2026-11-24T14:31:22Z"
    }
   ],
   "nginx/nginx": [
@@ -95400,6 +96255,15 @@
     "commits_7d": 4,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T15:12:01Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 33152,
+    "forks": 8392,
+    "open_issues": 490,
+    "commits_7d": 5,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T14:03:44Z"
    }
   ],
   "toeverything/AFFiNE": [
@@ -95438,6 +96302,15 @@
     "commits_7d": 32,
     "contributors_7d": 100,
     "pushed_at": "2026-11-23T15:10:08Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 77759,
+    "forks": 5686,
+    "open_issues": 660,
+    "commits_7d": 58,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T15:03:39Z"
    }
   ],
   "zhouxiaoka/autoclip": [
@@ -95476,6 +96349,15 @@
     "commits_7d": 100,
     "contributors_7d": 8,
     "pushed_at": "2026-11-23T15:24:28Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 15141,
+    "forks": 2254,
+    "open_issues": 39,
+    "commits_7d": 100,
+    "contributors_7d": 11,
+    "pushed_at": "2026-11-24T14:54:53Z"
    }
   ],
   "AI4XE/ai4ai": [
@@ -95505,6 +96387,15 @@
     "commits_7d": 4,
     "contributors_7d": 1,
     "pushed_at": "2026-11-22T07:07:52Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 135,
+    "forks": 0,
+    "open_issues": 0,
+    "commits_7d": 5,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-23T15:31:04Z"
    }
   ],
   "INK-Q/agy-fast": [
@@ -95534,6 +96425,15 @@
     "commits_7d": 70,
     "contributors_7d": 11,
     "pushed_at": "2026-11-23T14:40:10Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1008,
+    "forks": 59,
+    "open_issues": 25,
+    "commits_7d": 100,
+    "contributors_7d": 15,
+    "pushed_at": "2026-11-24T14:28:12Z"
    }
   ],
   "MSNightmare/FastUnlock": [
@@ -95559,6 +96459,15 @@
     "date": "2026-11-23",
     "stars": 696,
     "forks": 115,
+    "open_issues": 4,
+    "commits_7d": 5,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-21T05:18:41Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 712,
+    "forks": 121,
     "open_issues": 4,
     "commits_7d": 5,
     "contributors_7d": 1,
@@ -95592,6 +96501,15 @@
     "commits_7d": 2,
     "contributors_7d": 1,
     "pushed_at": "2026-11-20T04:47:52Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 677,
+    "forks": 44,
+    "open_issues": 0,
+    "commits_7d": 2,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-20T04:47:52Z"
    }
   ],
   "danielwh2/sprite-stacking": [
@@ -95621,6 +96539,15 @@
     "commits_7d": 25,
     "contributors_7d": 2,
     "pushed_at": "2026-11-21T01:28:57Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 748,
+    "forks": 55,
+    "open_issues": 1,
+    "commits_7d": 28,
+    "contributors_7d": 2,
+    "pushed_at": "2026-11-24T13:12:08Z"
    }
   ],
   "hatsunemiku-ai/google-one-tools": [
@@ -95690,6 +96617,15 @@
     "commits_7d": 0,
     "contributors_7d": 1,
     "pushed_at": "2026-11-16T10:36:25Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 667,
+    "forks": 71,
+    "open_issues": 0,
+    "commits_7d": 0,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-16T10:36:25Z"
    }
   ],
   "thenukawijekoon51-blip/movavi-video-editor": [
@@ -95719,6 +96655,15 @@
     "commits_7d": 23,
     "contributors_7d": 2,
     "pushed_at": "2026-11-23T09:59:07Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 68,
+    "forks": 0,
+    "open_issues": 0,
+    "commits_7d": 24,
+    "contributors_7d": 2,
+    "pushed_at": "2026-11-24T05:40:59Z"
    }
   ],
   "tweak-for-me/impulse": [
@@ -95748,6 +96693,15 @@
     "commits_7d": 42,
     "contributors_7d": 1,
     "pushed_at": "2026-11-23T12:15:59Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 370,
+    "forks": 157,
+    "open_issues": 9,
+    "commits_7d": 37,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-23T23:29:20Z"
    }
   ],
   "EL4CTEO/fast-anything": [
@@ -95768,6 +96722,15 @@
     "commits_7d": 79,
     "contributors_7d": 8,
     "pushed_at": "2026-11-23T15:21:15Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 3500,
+    "forks": 244,
+    "open_issues": 10,
+    "commits_7d": 100,
+    "contributors_7d": 11,
+    "pushed_at": "2026-11-24T15:08:56Z"
    }
   ],
   "Moyaking/rust-norvella": [
@@ -95810,6 +96773,15 @@
     "commits_7d": 100,
     "contributors_7d": 15,
     "pushed_at": "2026-11-23T05:24:10Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1717,
+    "forks": 215,
+    "open_issues": 102,
+    "commits_7d": 100,
+    "contributors_7d": 15,
+    "pushed_at": "2026-11-23T21:29:33Z"
    }
   ],
   "leanprover-community/riemann-hypothesis": [
@@ -95830,6 +96802,15 @@
     "commits_7d": 100,
     "contributors_7d": 17,
     "pushed_at": "2026-11-23T15:26:50Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 976,
+    "forks": 361,
+    "open_issues": 254,
+    "commits_7d": 100,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T15:13:58Z"
    }
   ],
   "m1guelpf/Exo": [
@@ -95850,6 +96831,15 @@
     "commits_7d": 6,
     "contributors_7d": 1,
     "pushed_at": "2026-11-23T10:27:48Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 320,
+    "forks": 12,
+    "open_issues": 5,
+    "commits_7d": 7,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-24T09:39:50Z"
    }
   ],
   "sohzm/winedroid": [
@@ -95870,6 +96860,15 @@
     "commits_7d": 1,
     "contributors_7d": 1,
     "pushed_at": "2026-11-20T19:16:27Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 318,
+    "forks": 14,
+    "open_issues": 7,
+    "commits_7d": 1,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-20T19:16:27Z"
    }
   ],
   "sybil-solutions/skill-distill": [
@@ -95886,6 +96885,15 @@
     "date": "2026-11-23",
     "stars": 489,
     "forks": 43,
+    "open_issues": 0,
+    "commits_7d": 2,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-21T03:48:01Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 626,
+    "forks": 50,
     "open_issues": 0,
     "commits_7d": 2,
     "contributors_7d": 1,
@@ -95921,6 +96929,15 @@
     "commits_7d": 73,
     "contributors_7d": 4,
     "pushed_at": "2026-11-23T07:55:47Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 543,
+    "forks": 77,
+    "open_issues": 10,
+    "commits_7d": 80,
+    "contributors_7d": 5,
+    "pushed_at": "2026-11-24T12:27:30Z"
    }
   ],
   "AFK-surf/xnulinux": [
@@ -95932,6 +96949,15 @@
     "commits_7d": 100,
     "contributors_7d": 1,
     "pushed_at": "2026-11-23T15:01:14Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 3037,
+    "forks": 128,
+    "open_issues": 3,
+    "commits_7d": 100,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-24T09:51:12Z"
    }
   ],
   "Avaneesh-Inamdar/Stream-Tube-Desktop": [
@@ -95943,6 +96969,15 @@
     "commits_7d": 34,
     "contributors_7d": 1,
     "pushed_at": "2026-11-23T13:53:36Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 643,
+    "forks": 52,
+    "open_issues": 31,
+    "commits_7d": 51,
+    "contributors_7d": 4,
+    "pushed_at": "2026-11-24T12:39:40Z"
    }
   ],
   "ThreatDefence/agentic-attack-detections": [
@@ -95954,6 +96989,15 @@
     "commits_7d": 58,
     "contributors_7d": 6,
     "pushed_at": "2026-11-23T09:04:59Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 608,
+    "forks": 127,
+    "open_issues": 4,
+    "commits_7d": 70,
+    "contributors_7d": 6,
+    "pushed_at": "2026-11-24T11:40:23Z"
    }
   ],
   "erkamyaman/safe-anything": [
@@ -95965,11 +97009,29 @@
     "commits_7d": 31,
     "contributors_7d": 6,
     "pushed_at": "2026-11-23T13:13:09Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 590,
+    "forks": 47,
+    "open_issues": 44,
+    "commits_7d": 38,
+    "contributors_7d": 8,
+    "pushed_at": "2026-11-24T04:45:16Z"
    }
   ],
   "indigo-832/steam-library-artwork-manager": [
    {
     "date": "2026-11-23",
+    "stars": 189,
+    "forks": 0,
+    "open_issues": 0,
+    "commits_7d": 1,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-21T18:55:18Z"
+   },
+   {
+    "date": "2026-11-24",
     "stars": 189,
     "forks": 0,
     "open_issues": 0,
@@ -95987,6 +97049,15 @@
     "commits_7d": 100,
     "contributors_7d": 17,
     "pushed_at": "2026-11-23T14:39:50Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 6957,
+    "forks": 858,
+    "open_issues": 842,
+    "commits_7d": 100,
+    "contributors_7d": 71,
+    "pushed_at": "2026-11-24T13:38:04Z"
    }
   ],
   "omonkeyz/xbox-emulator": [
@@ -95995,6 +97066,15 @@
     "stars": 1529,
     "forks": 91,
     "open_issues": 75,
+    "commits_7d": 100,
+    "contributors_7d": 19,
+    "pushed_at": "2026-11-23T11:58:17Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 1768,
+    "forks": 118,
+    "open_issues": 150,
     "commits_7d": 100,
     "contributors_7d": 19,
     "pushed_at": "2026-11-23T11:58:17Z"
@@ -96009,6 +97089,15 @@
     "commits_7d": 55,
     "contributors_7d": 1,
     "pushed_at": "2026-11-23T15:10:51Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 575,
+    "forks": 92,
+    "open_issues": 29,
+    "commits_7d": 77,
+    "contributors_7d": 2,
+    "pushed_at": "2026-11-24T10:07:21Z"
    }
   ],
   "shnfatih-hash/devlet-arsivleri-soykutugu": [
@@ -96020,6 +97109,15 @@
     "commits_7d": 2,
     "contributors_7d": 1,
     "pushed_at": "2026-11-22T10:56:20Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 153,
+    "forks": 12,
+    "open_issues": 0,
+    "commits_7d": 7,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-24T12:07:32Z"
    }
   ],
   "younggeelyfmichael-dev/claude-ai-prompt-utility": [
@@ -96031,8 +97129,127 @@
     "commits_7d": 18,
     "contributors_7d": 2,
     "pushed_at": "2026-11-23T11:38:27Z"
+   },
+   {
+    "date": "2026-11-24",
+    "stars": 335,
+    "forks": 0,
+    "open_issues": 0,
+    "commits_7d": 20,
+    "contributors_7d": 2,
+    "pushed_at": "2026-11-24T07:53:14Z"
+   }
+  ],
+  "Ahmet-Dedeler/awesome-gta6-reverse-engineering": [
+   {
+    "date": "2026-11-24",
+    "stars": 662,
+    "forks": 30,
+    "open_issues": 0,
+    "commits_7d": 34,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-24T13:19:49Z"
+   }
+  ],
+  "Developing-Gamer/agent-sim": [
+   {
+    "date": "2026-11-24",
+    "stars": 432,
+    "forks": 44,
+    "open_issues": 0,
+    "commits_7d": 42,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-24T00:08:46Z"
+   }
+  ],
+  "LeonidaReforge/Leonida": [
+   {
+    "date": "2026-11-24",
+    "stars": 392,
+    "forks": 53,
+    "open_issues": 120,
+    "commits_7d": 100,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T15:17:23Z"
+   }
+  ],
+  "ProjectLeonidaL/leonida": [
+   {
+    "date": "2026-11-24",
+    "stars": 264,
+    "forks": 30,
+    "open_issues": 2,
+    "commits_7d": 40,
+    "contributors_7d": 2,
+    "pushed_at": "2026-11-24T14:07:54Z"
+   }
+  ],
+  "R0Y00/Xbox2Windows": [
+   {
+    "date": "2026-11-24",
+    "stars": 1827,
+    "forks": 203,
+    "open_issues": 136,
+    "commits_7d": 100,
+    "contributors_7d": 90,
+    "pushed_at": "2026-11-24T15:17:42Z"
+   }
+  ],
+  "R44VC0RP/dashsplat": [
+   {
+    "date": "2026-11-24",
+    "stars": 246,
+    "forks": 41,
+    "open_issues": 2,
+    "commits_7d": 1,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-22T21:13:32Z"
+   }
+  ],
+  "deterministic-machines/deslop-please": [
+   {
+    "date": "2026-11-24",
+    "stars": 553,
+    "forks": 22,
+    "open_issues": 0,
+    "commits_7d": 50,
+    "contributors_7d": 2,
+    "pushed_at": "2026-11-24T06:40:42Z"
+   }
+  ],
+  "duwqijlk/browser-capture": [
+   {
+    "date": "2026-11-24",
+    "stars": 188,
+    "forks": 94,
+    "open_issues": 0,
+    "commits_7d": 1,
+    "contributors_7d": 1,
+    "pushed_at": "2026-11-23T08:19:50Z"
+   }
+  ],
+  "luizwidmer/palmetto": [
+   {
+    "date": "2026-11-24",
+    "stars": 122,
+    "forks": 52,
+    "open_issues": 5,
+    "commits_7d": 100,
+    "contributors_7d": 100,
+    "pushed_at": "2026-11-24T15:00:06Z"
+   }
+  ],
+  "os6/nospeaker": [
+   {
+    "date": "2026-11-24",
+    "stars": 1669,
+    "forks": 83,
+    "open_issues": 15,
+    "commits_7d": 9,
+    "contributors_7d": 2,
+    "pushed_at": "2026-11-24T02:43:05Z"
    }
   ]
  },
- "updated_at": "2026-11-23T20:33:40.144575+00:00"
+ "updated_at": "2026-11-24T15:24:04.479471+00:00"
 }

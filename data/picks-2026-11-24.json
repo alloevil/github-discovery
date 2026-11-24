@@ -1,0 +1,387 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T15:19:17+00:00",
+  "every_days": 3,
+  "count": 10,
+  "semi_count": 2,
+  "semi_min_met": true,
+  "picks": [
+    {
+      "rank": 1,
+      "full_name": "celabshq/libcrux",
+      "url": "https://github.com/celabshq/libcrux",
+      "description": "The formally verified crypto library for Rust",
+      "topic": "semi",
+      "language": "C",
+      "topics": [
+        "cryptography",
+        "encryption",
+        "formal-verification",
+        "signatures"
+      ],
+      "license": "Apache-2.0",
+      "stars": 274,
+      "forks": 70,
+      "created_at": "2022-11-03T14:23:09Z",
+      "pushed_at": "2026-11-19T15:04:20Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 51,
+      "verified_at": "2026-11-24T15:19:12+00:00"
+    },
+    {
+      "rank": 2,
+      "full_name": "bjekuipers2004/Crypto-Miner-Silent",
+      "url": "https://github.com/bjekuipers2004/Crypto-Miner-Silent",
+      "description": "Configurable CPU/GPU mining engine with multi-algorithm support and smart resource controls. Build cross-platform miners with live performance monitoring, persistent sessions, thermal throttling, scheduling, and hashrate tuning for transparent, authorized operation.",
+      "topic": "semi",
+      "language": "Python",
+      "topics": [
+        "asic-mining",
+        "cloud-mining",
+        "cpuminer",
+        "dual-mining",
+        "miner",
+        "miner-monero",
+        "mining",
+        "mining-industry",
+        "mining-pool",
+        "mining-pools",
+        "mining-rig",
+        "mining-software-repository",
+        "mining-visualizer",
+        "monero-mining",
+        "process-mining",
+        "sha256d",
+        "silentcryptominer",
+        "solo-mining",
+        "xmr-miner-2026",
+        "zec"
+      ],
+      "license": "MIT",
+      "stars": 156,
+      "forks": 32,
+      "created_at": "2026-11-20T04:41:19Z",
+      "pushed_at": "2026-11-24T15:02:18Z",
+      "growth": {
+        "since": "2026-11-23",
+        "window_days": 1,
+        "stars_gained": 0,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 50,
+      "verified_at": "2026-11-24T15:19:13+00:00"
+    },
+    {
+      "rank": 3,
+      "full_name": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "ai-security",
+        "anthropic",
+        "application-security",
+        "bug-bounty",
+        "bugbounty",
+        "bugcrowd",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "ethical-hacking",
+        "hackerone",
+        "offensive-security",
+        "pentesting",
+        "red-team",
+        "security-tools",
+        "web-security"
+      ],
+      "license": "MIT",
+      "stars": 20899,
+      "forks": 2191,
+      "created_at": "2026-05-05T11:22:32Z",
+      "pushed_at": "2026-11-24T10:43:35Z",
+      "growth": {
+        "since": "2026-11-17",
+        "window_days": 7,
+        "stars_gained": 12596,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 90,
+      "verified_at": "2026-11-24T15:19:13+00:00"
+    },
+    {
+      "rank": 4,
+      "full_name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "artificial-intelligence",
+        "automation",
+        "bot",
+        "command-line",
+        "data-science",
+        "dsh",
+        "dsh-plugin",
+        "golang",
+        "instagram",
+        "llms",
+        "nlp",
+        "osint",
+        "polymarket",
+        "python3",
+        "reddit",
+        "terminal",
+        "tiktok",
+        "twitter",
+        "youtube"
+      ],
+      "license": "MIT",
+      "stars": 73907,
+      "forks": 6520,
+      "created_at": "2026-01-23T20:37:37Z",
+      "pushed_at": "2026-11-24T15:09:55Z",
+      "growth": {
+        "since": "2026-11-17",
+        "window_days": 7,
+        "stars_gained": 5286,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 89,
+      "verified_at": "2026-11-24T15:19:14+00:00"
+    },
+    {
+      "rank": 5,
+      "full_name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Apache-2.0",
+      "stars": 12541,
+      "forks": 1523,
+      "created_at": "2026-01-16T17:17:17Z",
+      "pushed_at": "2026-11-23T18:42:27Z",
+      "growth": {
+        "since": "2026-11-17",
+        "window_days": 7,
+        "stars_gained": 2600,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 89,
+      "verified_at": "2026-11-24T15:19:14+00:00"
+    },
+    {
+      "rank": 6,
+      "full_name": "R44VC0RP/dashsplat",
+      "url": "https://github.com/R44VC0RP/dashsplat",
+      "description": "Turn a car's dashcam footage into a 3D world you can drive through again: Gaussian splats, a 1 cm road atlas, tracked vehicles and a diffusion-repaired chase view.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "stars": 246,
+      "forks": 41,
+      "created_at": "2026-11-22T21:13:18Z",
+      "pushed_at": "2026-11-22T21:13:32Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search",
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 83,
+      "verified_at": "2026-11-24T15:19:15+00:00"
+    },
+    {
+      "rank": 7,
+      "full_name": "Developing-Gamer/agent-sim",
+      "url": "https://github.com/Developing-Gamer/agent-sim",
+      "description": "iOS simulators for AI agents, on Linux",
+      "topic": "ai",
+      "language": "Rust",
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "ios",
+        "ios-simulator",
+        "linux",
+        "mcp",
+        "mobile-testing",
+        "testing"
+      ],
+      "license": "Apache-2.0",
+      "stars": 432,
+      "forks": 44,
+      "created_at": "2026-11-21T20:26:12Z",
+      "pushed_at": "2026-11-24T00:08:46Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 82,
+      "verified_at": "2026-11-24T15:19:15+00:00"
+    },
+    {
+      "rank": 8,
+      "full_name": "duwqijlk/browser-capture",
+      "url": "https://github.com/duwqijlk/browser-capture",
+      "description": "Zero-dependency browser CDP + stealth Hook capture & reverse-engineering AI Skill / CLI for BitBrowser, AdsPower, and Chrome/VisibleV8",
+      "topic": "ai",
+      "language": "JavaScript",
+      "topics": [
+        "adspower",
+        "ai-skill",
+        "anti-debug",
+        "bitbrowser",
+        "cdp",
+        "packet-capture",
+        "reverse-engineering",
+        "visiblev8",
+        "wasm"
+      ],
+      "license": "MIT",
+      "stars": 188,
+      "forks": 94,
+      "created_at": "2026-11-23T08:19:43Z",
+      "pushed_at": "2026-11-23T08:19:50Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "rising"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 81,
+      "verified_at": "2026-11-24T15:19:16+00:00"
+    },
+    {
+      "rank": 9,
+      "full_name": "brainintelli/BioSignal-Guided-LLM-Reinforcement-Learning",
+      "url": "https://github.com/brainintelli/BioSignal-Guided-LLM-Reinforcement-Learning",
+      "description": "Biosignal-guided reinforcement learning for LLM agents: offline organoid neural recordings as policy inputs in a Godot survival game, with paired evaluation.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "biosignals",
+        "electrophysiology",
+        "godot",
+        "language-models",
+        "llm",
+        "llm-agents",
+        "microelectrode-arrays",
+        "neural-signals",
+        "organoid",
+        "reinforcement-learning",
+        "reproducible-research",
+        "survival-game"
+      ],
+      "license": "MIT",
+      "stars": 112,
+      "forks": 24,
+      "created_at": "2026-11-24T02:39:01Z",
+      "pushed_at": "2026-11-24T11:13:51Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 79,
+      "verified_at": "2026-11-24T15:19:16+00:00"
+    },
+    {
+      "rank": 10,
+      "full_name": "nbald/volta-forever",
+      "url": "https://github.com/nbald/volta-forever",
+      "description": "Your Tesla V100 is not dead: run unmodified CUDA 13 programs (PyTorch, vLLM, SGLang, llama.cpp) on Volta (sm_70). A compatibility layer in front of NVIDIA's driver library.",
+      "topic": "ai",
+      "language": "Rust",
+      "topics": [],
+      "license": "Apache-2.0",
+      "stars": 143,
+      "forks": 10,
+      "created_at": "2026-11-20T22:16:46Z",
+      "pushed_at": "2026-11-24T14:50:39Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 75,
+      "verified_at": "2026-11-24T15:19:17+00:00"
+    }
+  ]
+}

@@ -1,75 +1,5 @@
 {
  "repos": {
-  "shanselman/gputaskman": {
-   "first_seen": "2026-11-09",
-   "until": "2026-11-23",
-   "stars_at_discovery": 1344,
-   "score_at_discovery": 100,
-   "source_at_discovery": "search"
-  },
-  "huamidev/GestaltX": {
-   "first_seen": "2026-11-09",
-   "until": "2026-11-23",
-   "stars_at_discovery": 642,
-   "score_at_discovery": 96,
-   "source_at_discovery": "rising"
-  },
-  "tangerineturtle1/NX2navi": {
-   "first_seen": "2026-11-09",
-   "until": "2026-11-23",
-   "stars_at_discovery": 1886,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "IainKay/ram-altman": {
-   "first_seen": "2026-11-09",
-   "until": "2026-11-23",
-   "stars_at_discovery": 1118,
-   "score_at_discovery": 95,
-   "source_at_discovery": "search"
-  },
-  "lxe/phoneuse": {
-   "first_seen": "2026-11-09",
-   "until": "2026-11-23",
-   "stars_at_discovery": 507,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "ridgecobblerslide/windows-animated-wallpapers": {
-   "first_seen": "2026-11-09",
-   "until": "2026-11-23",
-   "stars_at_discovery": 279,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "ServantSieve/Roblox-Account-Manager-Multi-Account-Tool": {
-   "first_seen": "2026-11-09",
-   "until": "2026-11-23",
-   "stars_at_discovery": 279,
-   "score_at_discovery": 93,
-   "source_at_discovery": "rising"
-  },
-  "Nanoutrolley/roblox-studio-mcp": {
-   "first_seen": "2026-11-09",
-   "until": "2026-11-23",
-   "stars_at_discovery": 279,
-   "score_at_discovery": 93,
-   "source_at_discovery": "ai-trending"
-  },
-  "anthropics/skills": {
-   "first_seen": "2026-11-09",
-   "until": "2026-11-23",
-   "stars_at_discovery": 190242,
-   "score_at_discovery": 92,
-   "source_at_discovery": "trending"
-  },
-  "DIYgod/pinky": {
-   "first_seen": "2026-11-09",
-   "until": "2026-11-23",
-   "stars_at_discovery": 1288,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
   "anthropics/claude-quickstarts": {
    "first_seen": "2026-11-10",
    "until": "2026-11-24",
@@ -1070,7 +1000,77 @@
    "stars_at_discovery": 138,
    "score_at_discovery": 90,
    "source_at_discovery": "ai-trending"
+  },
+  "LeonidaReforge/Leonida": {
+   "first_seen": "2026-11-24",
+   "until": "2026-12-08",
+   "stars_at_discovery": 392,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "Ahmet-Dedeler/awesome-gta6-reverse-engineering": {
+   "first_seen": "2026-11-24",
+   "until": "2026-12-08",
+   "stars_at_discovery": 662,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "ProjectLeonidaL/leonida": {
+   "first_seen": "2026-11-24",
+   "until": "2026-12-08",
+   "stars_at_discovery": 264,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "R44VC0RP/dashsplat": {
+   "first_seen": "2026-11-24",
+   "until": "2026-12-08",
+   "stars_at_discovery": 246,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "deterministic-machines/deslop-please": {
+   "first_seen": "2026-11-24",
+   "until": "2026-12-08",
+   "stars_at_discovery": 551,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "Developing-Gamer/agent-sim": {
+   "first_seen": "2026-11-24",
+   "until": "2026-12-08",
+   "stars_at_discovery": 432,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "duwqijlk/browser-capture": {
+   "first_seen": "2026-11-24",
+   "until": "2026-12-08",
+   "stars_at_discovery": 188,
+   "score_at_discovery": 91,
+   "source_at_discovery": "rising"
+  },
+  "os6/nospeaker": {
+   "first_seen": "2026-11-24",
+   "until": "2026-12-08",
+   "stars_at_discovery": 1667,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "R0Y00/Xbox2Windows": {
+   "first_seen": "2026-11-24",
+   "until": "2026-12-08",
+   "stars_at_discovery": 1827,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "luizwidmer/palmetto": {
+   "first_seen": "2026-11-24",
+   "until": "2026-12-08",
+   "stars_at_discovery": 122,
+   "score_at_discovery": 89,
+   "source_at_discovery": "rising"
   }
  },
- "updated_at": "2026-11-23T15:27:55.022815+00:00"
+ "updated_at": "2026-11-24T15:24:04.527031+00:00"
 }

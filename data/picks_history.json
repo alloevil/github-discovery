@@ -519,7 +519,47 @@
     "hoangsvit/google-ai": {
       "first_picked": "2026-11-21",
       "source": "github-discovery"
+    },
+    "celabshq/libcrux": {
+      "first_picked": "2026-11-24",
+      "source": "github-discovery"
+    },
+    "bjekuipers2004/Crypto-Miner-Silent": {
+      "first_picked": "2026-11-24",
+      "source": "github-discovery"
+    },
+    "elementalsouls/Claude-BugHunter": {
+      "first_picked": "2026-11-24",
+      "source": "github-discovery"
+    },
+    "mvanhorn/last30days-skill": {
+      "first_picked": "2026-11-24",
+      "source": "github-discovery"
+    },
+    "google-labs-code/stitch-skills": {
+      "first_picked": "2026-11-24",
+      "source": "github-discovery"
+    },
+    "R44VC0RP/dashsplat": {
+      "first_picked": "2026-11-24",
+      "source": "github-discovery"
+    },
+    "Developing-Gamer/agent-sim": {
+      "first_picked": "2026-11-24",
+      "source": "github-discovery"
+    },
+    "duwqijlk/browser-capture": {
+      "first_picked": "2026-11-24",
+      "source": "github-discovery"
+    },
+    "brainintelli/BioSignal-Guided-LLM-Reinforcement-Learning": {
+      "first_picked": "2026-11-24",
+      "source": "github-discovery"
+    },
+    "nbald/volta-forever": {
+      "first_picked": "2026-11-24",
+      "source": "github-discovery"
     }
   },
-  "updated_at": "2026-11-21T13:02:29.550437+00:00"
+  "updated_at": "2026-11-24T15:19:17.256969+00:00"
 }

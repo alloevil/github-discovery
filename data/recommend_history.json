@@ -1,7 +1,7 @@
 {
   "repos": {
     "obra/superpowers": {
-      "count": 12,
+      "count": 13,
       "scores": [
         100,
         100,
@@ -14,9 +14,10 @@
         90,
         90,
         92,
-        90
+        90,
+        91
       ],
-      "last_recommended": "2026-11-17T13:52:48.541908+00:00"
+      "last_recommended": "2026-11-24T15:19:12.190644+00:00"
     },
     "affaan-m/ECC": {
       "count": 10,
@@ -81,15 +82,6 @@
       ],
       "last_recommended": "2026-11-06T12:30:20.232442+00:00"
     },
-    "pbakaus/impeccable": {
-      "count": 3,
-      "scores": [
-        93,
-        99,
-        95
-      ],
-      "last_recommended": "2026-10-25T09:26:04.300391+00:00"
-    },
     "pingdotgg/t3code": {
       "count": 2,
       "scores": [
@@ -132,76 +124,6 @@
         60
       ],
       "last_recommended": "2026-11-17T13:52:48.546076+00:00"
-    },
-    "luongnv89/claude-howto": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-25T09:26:04.278310+00:00"
-    },
-    "rddmwmddr/android-ad-cleaner": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-25T09:26:04.280756+00:00"
-    },
-    "mizorewww/gdirect": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-10-25T09:26:04.283013+00:00"
-    },
-    "morganlinton/BeautifulRust": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-10-25T09:26:04.285153+00:00"
-    },
-    "recursive-oss/rec": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-10-25T09:26:04.287308+00:00"
-    },
-    "Physical2RSI/Awesome-Physical2RSI": {
-      "count": 1,
-      "scores": [
-        86
-      ],
-      "last_recommended": "2026-10-25T09:26:04.289540+00:00"
-    },
-    "Nutlope/hallmark": {
-      "count": 1,
-      "scores": [
-        85
-      ],
-      "last_recommended": "2026-10-25T09:26:04.291682+00:00"
-    },
-    "google-gemini/gemini-cli": {
-      "count": 1,
-      "scores": [
-        85
-      ],
-      "last_recommended": "2026-10-25T09:26:04.293835+00:00"
-    },
-    "jss8649/quiet-tizen": {
-      "count": 1,
-      "scores": [
-        85
-      ],
-      "last_recommended": "2026-10-25T09:26:04.296046+00:00"
-    },
-    "atbfun/ATBGamePort": {
-      "count": 1,
-      "scores": [
-        85
-      ],
-      "last_recommended": "2026-10-25T09:26:04.298228+00:00"
     },
     "makecindy/cindy": {
       "count": 1,
@@ -1746,18 +1668,20 @@
       "last_recommended": "2026-11-16T13:10:37.131730+00:00"
     },
     "elementalsouls/Claude-BugHunter": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-11-17T13:52:48.521206+00:00"
+      "last_recommended": "2026-11-24T15:19:12.186881+00:00"
     },
     "mvanhorn/last30days-skill": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        99
       ],
-      "last_recommended": "2026-11-17T13:52:48.523469+00:00"
+      "last_recommended": "2026-11-24T15:19:12.188136+00:00"
     },
     "Tencent/LoopForge": {
       "count": 1,
@@ -1788,11 +1712,12 @@
       "last_recommended": "2026-11-17T13:52:48.531726+00:00"
     },
     "google-labs-code/stitch-skills": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        98
+        98,
+        99
       ],
-      "last_recommended": "2026-11-17T13:52:48.533755+00:00"
+      "last_recommended": "2026-11-24T15:19:12.189392+00:00"
     },
     "joshpuckett/allo": {
       "count": 1,
@@ -2234,7 +2159,77 @@
         90
       ],
       "last_recommended": "2026-11-23T15:24:19.039465+00:00"
+    },
+    "LeonidaReforge/Leonida": {
+      "count": 1,
+      "scores": [
+        95
+      ],
+      "last_recommended": "2026-11-24T15:19:12.174276+00:00"
+    },
+    "Ahmet-Dedeler/awesome-gta6-reverse-engineering": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-24T15:19:12.175854+00:00"
+    },
+    "ProjectLeonidaL/leonida": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-24T15:19:12.177090+00:00"
+    },
+    "R44VC0RP/dashsplat": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-24T15:19:12.178295+00:00"
+    },
+    "deterministic-machines/deslop-please": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-24T15:19:12.179508+00:00"
+    },
+    "Developing-Gamer/agent-sim": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-24T15:19:12.180758+00:00"
+    },
+    "duwqijlk/browser-capture": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-24T15:19:12.181979+00:00"
+    },
+    "os6/nospeaker": {
+      "count": 1,
+      "scores": [
+        90
+      ],
+      "last_recommended": "2026-11-24T15:19:12.183184+00:00"
+    },
+    "R0Y00/Xbox2Windows": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-11-24T15:19:12.184397+00:00"
+    },
+    "luizwidmer/palmetto": {
+      "count": 1,
+      "scores": [
+        89
+      ],
+      "last_recommended": "2026-11-24T15:19:12.185647+00:00"
     }
   },
-  "updated_at": "2026-11-23T15:24:19.039486+00:00"
+  "updated_at": "2026-11-24T15:19:12.190657+00:00"
 }

@@ -1,0 +1,86 @@
+{
+ "date": "2026-11-24",
+ "source": "https://github.com/trending?since=daily",
+ "repos": [
+  {
+   "full_name": "obra/superpowers",
+   "stars": 325670,
+   "language": "Shell"
+  },
+  {
+   "full_name": "firecrawl/firecrawl",
+   "stars": 208557,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "toeverything/AFFiNE",
+   "stars": 77757,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "mvanhorn/last30days-skill",
+   "stars": 73906,
+   "language": "Python"
+  },
+  {
+   "full_name": "cathrynlavery/diagram-design",
+   "stars": 71616,
+   "language": "HTML"
+  },
+  {
+   "full_name": "jingyaogong/minimind",
+   "stars": 69995,
+   "language": "Python"
+  },
+  {
+   "full_name": "HKUDS/CLI-Anything",
+   "stars": 64401,
+   "language": "Python"
+  },
+  {
+   "full_name": "nginx/nginx",
+   "stars": 33152,
+   "language": "C"
+  },
+  {
+   "full_name": "elementalsouls/Claude-BugHunter",
+   "stars": 20894,
+   "language": "Python"
+  },
+  {
+   "full_name": "cursor/plugins",
+   "stars": 19071,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "XiaoYouChR/Ghost-Downloader-3",
+   "stars": 17059,
+   "language": "Python"
+  },
+  {
+   "full_name": "zhouxiaoka/autoclip",
+   "stars": 15139,
+   "language": "Python"
+  },
+  {
+   "full_name": "Tracer-Cloud/opensre",
+   "stars": 15060,
+   "language": "Python"
+  },
+  {
+   "full_name": "google-labs-code/stitch-skills",
+   "stars": 12541,
+   "language": "TypeScript"
+  },
+  {
+   "full_name": "openvinotoolkit/openvino",
+   "stars": 12397,
+   "language": "C++"
+  },
+  {
+   "full_name": "mjmirza/app-store-compliance",
+   "stars": 5545,
+   "language": "Shell"
+  }
+ ]
+}
