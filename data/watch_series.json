@@ -98433,12 +98433,12 @@
   "xcl-dev/xcl": [
    {
     "date": "2026-11-25",
-    "stars": 8163,
-    "forks": 1105,
-    "open_issues": 1498,
+    "stars": 8242,
+    "forks": 1118,
+    "open_issues": 1524,
     "commits_7d": 100,
     "contributors_7d": 100,
-    "pushed_at": "2026-11-25T13:42:19Z"
+    "pushed_at": "2026-11-25T18:47:04Z"
    }
   ],
   "matheusmongarde/garimpo": [
@@ -98486,5 +98486,5 @@
    }
   ]
  },
- "updated_at": "2026-11-25T15:05:18.694611+00:00"
+ "updated_at": "2026-11-25T18:50:42.197156+00:00"
 }
