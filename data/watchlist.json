@@ -1,75 +1,5 @@
 {
  "repos": {
-  "anthropics/claude-quickstarts": {
-   "first_seen": "2026-11-10",
-   "until": "2026-11-24",
-   "stars_at_discovery": 20266,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "homeassistant-ai/ha-mcp": {
-   "first_seen": "2026-11-10",
-   "until": "2026-11-24",
-   "stars_at_discovery": 6352,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "google-deepmind/mujoco": {
-   "first_seen": "2026-11-10",
-   "until": "2026-11-24",
-   "stars_at_discovery": 17170,
-   "score_at_discovery": 99,
-   "source_at_discovery": "trending"
-  },
-  "Kianuni/Erosion-CN": {
-   "first_seen": "2026-11-10",
-   "until": "2026-11-24",
-   "stars_at_discovery": 713,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "OmniJev/Flide": {
-   "first_seen": "2026-11-10",
-   "until": "2026-11-24",
-   "stars_at_discovery": 329,
-   "score_at_discovery": 95,
-   "source_at_discovery": "hn"
-  },
-  "Sectionsereclaim/discord-auto-quest": {
-   "first_seen": "2026-11-10",
-   "until": "2026-11-24",
-   "stars_at_discovery": 279,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "TameCarpenterEstate/Roblox-FPS-Optimizer": {
-   "first_seen": "2026-11-10",
-   "until": "2026-11-24",
-   "stars_at_discovery": 279,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "Dodaios/ste80-humanizer": {
-   "first_seen": "2026-11-10",
-   "until": "2026-11-24",
-   "stars_at_discovery": 236,
-   "score_at_discovery": 92,
-   "source_at_discovery": "hn"
-  },
-  "Paulinho182/hitfilm-desktop-installer": {
-   "first_seen": "2026-11-10",
-   "until": "2026-11-24",
-   "stars_at_discovery": 480,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "ebtsamalhakmy-sketch/desktop-backup-suite": {
-   "first_seen": "2026-11-10",
-   "until": "2026-11-24",
-   "stars_at_discovery": 479,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
   "we-promise/sure": {
    "first_seen": "2026-11-11",
    "until": "2026-11-25",
@@ -1070,7 +1000,77 @@
    "stars_at_discovery": 122,
    "score_at_discovery": 89,
    "source_at_discovery": "rising"
+  },
+  "sous-labs/songe": {
+   "first_seen": "2026-11-25",
+   "until": "2026-12-09",
+   "stars_at_discovery": 821,
+   "score_at_discovery": 98,
+   "source_at_discovery": "search"
+  },
+  "xcl-dev/xcl": {
+   "first_seen": "2026-11-25",
+   "until": "2026-12-09",
+   "stars_at_discovery": 8161,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "ZigZagBoi1/ScarlettPort": {
+   "first_seen": "2026-11-25",
+   "until": "2026-12-09",
+   "stars_at_discovery": 331,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "EL4CTEO/shrink-anything": {
+   "first_seen": "2026-11-25",
+   "until": "2026-12-09",
+   "stars_at_discovery": 259,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "Norao01/solana-pump-fun-jito-bundler-sniper": {
+   "first_seen": "2026-11-25",
+   "until": "2026-12-09",
+   "stars_at_discovery": 186,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "AyushRajSinghParihar/weaponized-curiosity": {
+   "first_seen": "2026-11-25",
+   "until": "2026-12-09",
+   "stars_at_discovery": 178,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "pinargomez/raydium-meteora-grpc-sniper-bot": {
+   "first_seen": "2026-11-25",
+   "until": "2026-12-09",
+   "stars_at_discovery": 175,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "rajmyers29/jupiter-v6-atomic-arbitrage-bot": {
+   "first_seen": "2026-11-25",
+   "until": "2026-12-09",
+   "stars_at_discovery": 171,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "Basil0879/steam-game-idler": {
+   "first_seen": "2026-11-25",
+   "until": "2026-12-09",
+   "stars_at_discovery": 682,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "matheusmongarde/garimpo": {
+   "first_seen": "2026-11-25",
+   "until": "2026-12-09",
+   "stars_at_discovery": 141,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-11-24T15:24:04.527031+00:00"
+ "updated_at": "2026-11-25T15:05:18.767107+00:00"
 }

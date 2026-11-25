@@ -1,0 +1,353 @@
+{
+ "date": "2026-11-25",
+ "generated_at": "2026-11-25T14:59:50.163096",
+ "pool_size": 93,
+ "source_health": {
+  "trending": {
+   "fetched": 16,
+   "parsed": 16,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  },
+  "search": {
+   "fetched": 66,
+   "parsed": 66,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 10
+  },
+  "hn": {
+   "fetched": 12,
+   "parsed": 12,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "rising": {
+   "fetched": 3,
+   "parsed": 3,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  },
+  "ai-trending": {
+   "fetched": 21,
+   "parsed": 21,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 1
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "sous-labs/songe",
+   "url": "https://github.com/sous-labs/songe",
+   "description": "A training engine for your local model, using your idle compute",
+   "language": "Python",
+   "stars": 821,
+   "forks": 70,
+   "age_days": 5,
+   "daily_stars": 164.2,
+   "real_daily_stars": 447.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "ai-trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 98,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "xcl-dev/xcl",
+   "url": "https://github.com/xcl-dev/xcl",
+   "description": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
+   "language": "Rust",
+   "stars": 8161,
+   "forks": 1105,
+   "age_days": 4,
+   "daily_stars": 2040.25,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "ZigZagBoi1/ScarlettPort",
+   "url": "https://github.com/ZigZagBoi1/ScarlettPort",
+   "description": "Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.",
+   "language": "Rust",
+   "stars": 331,
+   "forks": 15,
+   "age_days": 1,
+   "daily_stars": 331.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "EL4CTEO/shrink-anything",
+   "url": "https://github.com/EL4CTEO/shrink-anything",
+   "description": "Less code, same tests passing: delete the dead code, files, dependencies and assets in any codebase, and keep each cut only if your own tests still pass.",
+   "language": "Rust",
+   "stars": 259,
+   "forks": 16,
+   "age_days": 1,
+   "daily_stars": 259.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Norao01/solana-pump-fun-jito-bundler-sniper",
+   "url": "https://github.com/Norao01/solana-pump-fun-jito-bundler-sniper",
+   "description": "Jito MEV Bot & Solana Pump.fun gRPC Sniper Bundler [2026] — Sub-Millisecond ShredStream Arbitrage & Tip Optimizer",
+   "language": "Python",
+   "stars": 186,
+   "forks": 19,
+   "age_days": 1,
+   "daily_stars": 186.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "AyushRajSinghParihar/weaponized-curiosity",
+   "url": "https://github.com/AyushRajSinghParihar/weaponized-curiosity",
+   "description": "Portable Agent Skill for evidence-driven research, experimentation, and bounded optimization",
+   "language": "Python",
+   "stars": 178,
+   "forks": 11,
+   "age_days": 1,
+   "daily_stars": 178.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "pinargomez/raydium-meteora-grpc-sniper-bot",
+   "url": "https://github.com/pinargomez/raydium-meteora-grpc-sniper-bot",
+   "description": "Raydium Sniper Bot & Solana Copy Trading Bot [2026] — Sub-Millisecond Yellowstone gRPC & Jito MEV Executor",
+   "language": "Python",
+   "stars": 175,
+   "forks": 10,
+   "age_days": 1,
+   "daily_stars": 175.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "rajmyers29/jupiter-v6-atomic-arbitrage-bot",
+   "url": "https://github.com/rajmyers29/jupiter-v6-atomic-arbitrage-bot",
+   "description": "Jupiter Arbitrage Bot & Solana DEX Atomic MEV Bot [2026] — V6 Quote Router, Flash Loan & Jito Bundler",
+   "language": "Python",
+   "stars": 171,
+   "forks": 22,
+   "age_days": 1,
+   "daily_stars": 171.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 8,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Basil0879/steam-game-idler",
+   "url": "https://github.com/Basil0879/steam-game-idler",
+   "description": "Free Steam idler for trading card farming, achievement management, playtime boosting and multi-account automation on Windows.",
+   "language": "TypeScript",
+   "stars": 682,
+   "forks": 0,
+   "age_days": 1,
+   "daily_stars": 682.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 91,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "matheusmongarde/garimpo",
+   "url": "https://github.com/matheusmongarde/garimpo",
+   "description": "Prospecção open source do Google Maps ao Pix: acha negócios no Maps, gera um site-prévia com o nome de cada um, conversa no WhatsApp e cobra por Pix, Mercado Pago ou Stripe. Pagou, fecha sozinho. Roda no seu PC, VPS ou Vercel, com API para agentes (Claude Code, Codex, n8n).",
+   "language": "TypeScript",
+   "stars": 141,
+   "forks": 44,
+   "age_days": 1,
+   "daily_stars": 141.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "cursor/plugins",
+   "url": "https://github.com/cursor/plugins",
+   "description": "Cursor plugin specification and official plugins",
+   "language": "TypeScript",
+   "stars": 19449,
+   "forks": 2098,
+   "age_days": 306,
+   "daily_stars": 63.55882352941177,
+   "real_daily_stars": 377.0,
+   "watchers": 81,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 95,
+    "acceleration": 39,
+    "quality": 26,
+    "antispam": 30,
+    "quality_bonus": 17
+   }
+  }
+ ]
+}
