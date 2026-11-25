@@ -3,12 +3,78 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-24T18:00:00Z</updated>
+  <updated>2026-11-25T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>sous-labs/songe — A training engine for your local model, using your idle compute</title>
+    <id>https://github.com/sous-labs/songe#2026-11-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/sous-labs/songe"/>
+    <updated>2026-11-25T18:00:00Z</updated>
+    <published>2026-11-25T18:00:00Z</published>
+    <summary>A training engine for your local model, using your idle compute
+
+Why: +447/day · Search+AI/ML · 2.7x accelerating
+Score: 98/100 | Language: Python | ⭐ 821 (+447.0/day) | Source: search + ai-trending</summary>
+  </entry>
+  <entry>
+    <title>xcl-dev/xcl — Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL</title>
+    <id>https://github.com/xcl-dev/xcl#2026-11-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/xcl-dev/xcl"/>
+    <updated>2026-11-25T18:00:00Z</updated>
+    <published>2026-11-25T18:00:00Z</published>
+    <summary>Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL
+
+Why: +2040/day · Search
+Score: 94/100 | Language: Rust | ⭐ 8161 (+2040.2/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>ZigZagBoi1/ScarlettPort — Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.</title>
+    <id>https://github.com/ZigZagBoi1/ScarlettPort#2026-11-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ZigZagBoi1/ScarlettPort"/>
+    <updated>2026-11-25T18:00:00Z</updated>
+    <published>2026-11-25T18:00:00Z</published>
+    <summary>Native PC port layer for an Xbox Series X|S title: the game's x64 code runs on your CPU and its RDNA2 GPU code is recompiled for your graphics card. Bring your own files.
+
+Why: +331/day · Search
+Score: 94/100 | Language: Rust | ⭐ 331 (+331.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>EL4CTEO/shrink-anything — Less code, same tests passing: delete the dead code, files, dependencies and assets in any codebase, and keep each cut only if your own tests still pass.</title>
+    <id>https://github.com/EL4CTEO/shrink-anything#2026-11-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/EL4CTEO/shrink-anything"/>
+    <updated>2026-11-25T18:00:00Z</updated>
+    <published>2026-11-25T18:00:00Z</published>
+    <summary>Less code, same tests passing: delete the dead code, files, dependencies and assets in any codebase, and keep each cut only if your own tests still pass.
+
+Why: +259/day · Search
+Score: 93/100 | Language: Rust | ⭐ 259 (+259.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>Norao01/solana-pump-fun-jito-bundler-sniper — Jito MEV Bot &amp; Solana Pump.fun gRPC Sniper Bundler [2026] — Sub-Millisecond ShredStream Arbitrage &amp; Tip Optimizer</title>
+    <id>https://github.com/Norao01/solana-pump-fun-jito-bundler-sniper#2026-11-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Norao01/solana-pump-fun-jito-bundler-sniper"/>
+    <updated>2026-11-25T18:00:00Z</updated>
+    <published>2026-11-25T18:00:00Z</published>
+    <summary>Jito MEV Bot &amp; Solana Pump.fun gRPC Sniper Bundler [2026] — Sub-Millisecond ShredStream Arbitrage &amp; Tip Optimizer
+
+Why: +186/day · Search
+Score: 91/100 | Language: Python | ⭐ 186 (+186.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>cursor/plugins — Cursor plugin specification and official plugins</title>
+    <id>https://github.com/cursor/plugins#2026-11-25</id>
+    <link rel="alternate" type="text/html" href="https://github.com/cursor/plugins"/>
+    <updated>2026-11-25T18:00:00Z</updated>
+    <published>2026-11-25T18:00:00Z</published>
+    <summary>Cursor plugin specification and official plugins
+
+Why: +377/day · Trending · 5.9x accelerating
+Score: 95/100 | Language: TypeScript | ⭐ 19449 (+377.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>LeonidaReforge/Leonida — Community-driven continuation of the Leonida project</title>
     <id>https://github.com/LeonidaReforge/Leonida#2026-11-24</id>
@@ -800,60 +866,5 @@ Score: 92/100 | Language: Python | ⭐ 231 (+230.0/day) | Source: search</summar
 
 Why: +341/day · Trending · 2.6x accelerating
 Score: 96/100 | Language: TypeScript | ⭐ 11250 (+341.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>we-promise/sure — The personal finance app for everyone (by everyone)</title>
-    <id>https://github.com/we-promise/sure#2026-11-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/we-promise/sure"/>
-    <updated>2026-11-11T18:00:00Z</updated>
-    <published>2026-11-11T18:00:00Z</published>
-    <summary>The personal finance app for everyone (by everyone)
-
-Why: +1039/day · Trending · 39.6x accelerating
-Score: 100/100 | Language: Ruby | ⭐ 12489 (+1039.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>ZhuLinsen/daily_stock_analysis — LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.</title>
-    <id>https://github.com/ZhuLinsen/daily_stock_analysis#2026-11-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ZhuLinsen/daily_stock_analysis"/>
-    <updated>2026-11-11T18:00:00Z</updated>
-    <published>2026-11-11T18:00:00Z</published>
-    <summary>LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.
-
-Why: +620/day · Trending · 2.7x accelerating
-Score: 99/100 | Language: Python | ⭐ 69738 (+619.5/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>HybridRobotics/supermimic — Humanoid whole-body motion tracking with one differentiable world model.</title>
-    <id>https://github.com/HybridRobotics/supermimic#2026-11-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/HybridRobotics/supermimic"/>
-    <updated>2026-11-11T18:00:00Z</updated>
-    <published>2026-11-11T18:00:00Z</published>
-    <summary>Humanoid whole-body motion tracking with one differentiable world model.
-
-Why: +922/day · Search
-Score: 96/100 | Language: Python | ⭐ 922 (+922.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>addyosmani/agent-skills — Production-grade engineering skills for AI coding agents.</title>
-    <id>https://github.com/addyosmani/agent-skills#2026-11-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/addyosmani/agent-skills"/>
-    <updated>2026-11-11T18:00:00Z</updated>
-    <published>2026-11-11T18:00:00Z</published>
-    <summary>Production-grade engineering skills for AI coding agents.
-
-Why: +743/day · Trending · 1.7x accelerating
-Score: 94/100 | Language: JavaScript | ⭐ 115555 (+743.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>JDhruv14/line-art-animation — A Claude skill and TypeScript library for animated line-art SVG components: ink figures that walk and react, scenes with a day/night cycle.</title>
-    <id>https://github.com/JDhruv14/line-art-animation#2026-11-11</id>
-    <link rel="alternate" type="text/html" href="https://github.com/JDhruv14/line-art-animation"/>
-    <updated>2026-11-11T18:00:00Z</updated>
-    <published>2026-11-11T18:00:00Z</published>
-    <summary>A Claude skill and TypeScript library for animated line-art SVG components: ink figures that walk and react, scenes with a day/night cycle.
-
-Why: +327/day · Search+AI/ML
-Score: 94/100 | Language: TypeScript | ⭐ 327 (+327.0/day) | Source: search + ai-trending</summary>
   </entry>
 </feed>
