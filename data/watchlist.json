@@ -1,75 +1,5 @@
 {
  "repos": {
-  "we-promise/sure": {
-   "first_seen": "2026-11-11",
-   "until": "2026-11-25",
-   "stars_at_discovery": 12489,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "ZhuLinsen/daily_stock_analysis": {
-   "first_seen": "2026-11-11",
-   "until": "2026-11-25",
-   "stars_at_discovery": 69738,
-   "score_at_discovery": 99,
-   "source_at_discovery": "trending"
-  },
-  "HybridRobotics/supermimic": {
-   "first_seen": "2026-11-11",
-   "until": "2026-11-25",
-   "stars_at_discovery": 922,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "addyosmani/agent-skills": {
-   "first_seen": "2026-11-11",
-   "until": "2026-11-25",
-   "stars_at_discovery": 115555,
-   "score_at_discovery": 94,
-   "source_at_discovery": "trending"
-  },
-  "JDhruv14/line-art-animation": {
-   "first_seen": "2026-11-11",
-   "until": "2026-11-25",
-   "stars_at_discovery": 327,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "Goblinmine/homelab-diagram": {
-   "first_seen": "2026-11-11",
-   "until": "2026-11-25",
-   "stars_at_discovery": 745,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "aronhy/pibrowse": {
-   "first_seen": "2026-11-11",
-   "until": "2026-11-25",
-   "stars_at_discovery": 242,
-   "score_at_discovery": 93,
-   "source_at_discovery": "rising"
-  },
-  "alexeyw/lot-map": {
-   "first_seen": "2026-11-11",
-   "until": "2026-11-25",
-   "stars_at_discovery": 201,
-   "score_at_discovery": 92,
-   "source_at_discovery": "ai-trending"
-  },
-  "bea4dev/shoji-bar-4": {
-   "first_seen": "2026-11-11",
-   "until": "2026-11-25",
-   "stars_at_discovery": 164,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "thiagoaureliomartins-programador/chief-architect-premier": {
-   "first_seen": "2026-11-11",
-   "until": "2026-11-25",
-   "stars_at_discovery": 769,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
   "openai/codex-security": {
    "first_seen": "2026-11-12",
    "until": "2026-11-26",
@@ -1070,7 +1000,77 @@
    "stars_at_discovery": 141,
    "score_at_discovery": 90,
    "source_at_discovery": "search"
+  },
+  "DoubleGhosty/cool_fox": {
+   "first_seen": "2026-11-26",
+   "until": "2026-12-10",
+   "stars_at_discovery": 419,
+   "score_at_discovery": 95,
+   "source_at_discovery": "search"
+  },
+  "nexu-io/opengame": {
+   "first_seen": "2026-11-26",
+   "until": "2026-12-10",
+   "stars_at_discovery": 356,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "AI-FanGe/A-MicroRobot-that-can-Rollerskate": {
+   "first_seen": "2026-11-26",
+   "until": "2026-12-10",
+   "stars_at_discovery": 159,
+   "score_at_discovery": 90,
+   "source_at_discovery": "search"
+  },
+  "unvalley/ascii-sky": {
+   "first_seen": "2026-11-26",
+   "until": "2026-12-10",
+   "stars_at_discovery": 111,
+   "score_at_discovery": 89,
+   "source_at_discovery": "search"
+  },
+  "click6067-ship-it/token-tv": {
+   "first_seen": "2026-11-26",
+   "until": "2026-12-10",
+   "stars_at_discovery": 146,
+   "score_at_discovery": 88,
+   "source_at_discovery": "hn"
+  },
+  "tensorfish/squid5090": {
+   "first_seen": "2026-11-26",
+   "until": "2026-12-10",
+   "stars_at_discovery": 258,
+   "score_at_discovery": 88,
+   "source_at_discovery": "ai-trending"
+  },
+  "avivetech/Leonida": {
+   "first_seen": "2026-11-26",
+   "until": "2026-12-10",
+   "stars_at_discovery": 167,
+   "score_at_discovery": 87,
+   "source_at_discovery": "search"
+  },
+  "Allencake/mit-trader-skill": {
+   "first_seen": "2026-11-26",
+   "until": "2026-12-10",
+   "stars_at_discovery": 147,
+   "score_at_discovery": 87,
+   "source_at_discovery": "search"
+  },
+  "4lwayz/portwatch-vi": {
+   "first_seen": "2026-11-26",
+   "until": "2026-12-10",
+   "stars_at_discovery": 5074,
+   "score_at_discovery": 87,
+   "source_at_discovery": "search"
+  },
+  "calmchiefvice/WinRust-Enhanced": {
+   "first_seen": "2026-11-26",
+   "until": "2026-12-10",
+   "stars_at_discovery": 173,
+   "score_at_discovery": 86,
+   "source_at_discovery": "rising"
   }
  },
- "updated_at": "2026-11-25T15:05:18.767107+00:00"
+ "updated_at": "2026-11-26T14:33:56.501192+00:00"
 }

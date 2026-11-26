@@ -1,0 +1,440 @@
+{
+ "date": "2026-11-26",
+ "generated_at": "2026-11-26T14:30:16.297915",
+ "pool_size": 90,
+ "source_health": {
+  "trending": {
+   "fetched": 16,
+   "parsed": 16,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 4
+  },
+  "search": {
+   "fetched": 67,
+   "parsed": 67,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 7
+  },
+  "hn": {
+   "fetched": 9,
+   "parsed": 9,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 1
+  },
+  "rising": {
+   "fetched": 2,
+   "parsed": 2,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 1
+  },
+  "ai-trending": {
+   "fetched": 23,
+   "parsed": 23,
+   "rejected": 0,
+   "deduplicated": 2,
+   "recommended": 1
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "DoubleGhosty/cool_fox",
+   "url": "https://github.com/DoubleGhosty/cool_fox",
+   "description": "Unmodified mirror of the original codec-d/cool_fox (GPL-3.0, commit f4b48ad)",
+   "language": "Rust",
+   "stars": 419,
+   "forks": 289,
+   "age_days": 1,
+   "daily_stars": 419.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "nexu-io/opengame",
+   "url": "https://github.com/nexu-io/opengame",
+   "description": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
+   "language": "TypeScript",
+   "stars": 356,
+   "forks": 69,
+   "age_days": 1,
+   "daily_stars": 356.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 94,
+    "acceleration": 34,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "AI-FanGe/A-MicroRobot-that-can-Rollerskate",
+   "url": "https://github.com/AI-FanGe/A-MicroRobot-that-can-Rollerskate",
+   "description": "A small desktop robot with LLM-based interactions and reinforcement learning capabilities that you can train to act as you want. And it can remember you！",
+   "language": "Python",
+   "stars": 159,
+   "forks": 27,
+   "age_days": 1,
+   "daily_stars": 159.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 90,
+    "acceleration": 30,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "unvalley/ascii-sky",
+   "url": "https://github.com/unvalley/ascii-sky",
+   "description": "A painted blue sky in ASCII on a canvas",
+   "language": "TypeScript",
+   "stars": 111,
+   "forks": 5,
+   "age_days": 1,
+   "daily_stars": 111.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 89,
+    "acceleration": 29,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "click6067-ship-it/token-tv",
+   "url": "https://github.com/click6067-ship-it/token-tv",
+   "description": "Turn a ~$5 AliExpress clock into pixel pets for Claude Code and Codex. They react to your agents and keep your usage limits in sight. No firmware flashing.",
+   "language": "Python",
+   "stars": 146,
+   "forks": 18,
+   "age_days": 55,
+   "daily_stars": 2.6545454545454548,
+   "real_daily_stars": 42.0,
+   "watchers": 0,
+   "source": "hn",
+   "sources": [
+    "hn"
+   ],
+   "license": "MIT",
+   "hn_title": "Show HN: Turned a $5 AliExpress clock into a desk Clawd pet(+usage)",
+   "hn_score": 51,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "tensorfish/squid5090",
+   "url": "https://github.com/tensorfish/squid5090",
+   "description": "Highly Optimized Inference Engine for Inkling Mini 2 on NVIDIA 5090",
+   "language": "Cuda",
+   "stars": 258,
+   "forks": 32,
+   "age_days": 3,
+   "daily_stars": 86.0,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 6,
+   "scores": {
+    "total": 88,
+    "acceleration": 28,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "avivetech/Leonida",
+   "url": "https://github.com/avivetech/Leonida",
+   "description": "Leonida (GPL-3.0), continued here after ItsNotRexed/Leonida went offline on 2026-11-24. main = last upstream main; forge/* = the original maintainers' integration forge (git.notrexed.dev/enx/leonida).",
+   "language": "Python",
+   "stars": 167,
+   "forks": 33,
+   "age_days": 2,
+   "daily_stars": 83.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 18
+   }
+  },
+  {
+   "full_name": "Allencake/mit-trader-skill",
+   "url": "https://github.com/Allencake/mit-trader-skill",
+   "description": "把 MIT 18.S096 公开课里的量化方法做成 Claude skill：回测三关 + GARCH 止损 + Kelly 仓位 + VaR，默认模拟账本",
+   "language": "Python",
+   "stars": 147,
+   "forks": 47,
+   "age_days": 2,
+   "daily_stars": 73.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 87,
+    "acceleration": 27,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "4lwayz/portwatch-vi",
+   "url": "https://github.com/4lwayz/portwatch-vi",
+   "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
+   "language": "JavaScript",
+   "stars": 5074,
+   "forks": 156,
+   "age_days": 4,
+   "daily_stars": 1268.5,
+   "real_daily_stars": 1588.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "",
+   "has_readme": true,
+   "has_license": false,
+   "has_ci": true,
+   "rank": 9,
+   "scores": {
+    "total": 87,
+    "acceleration": 31,
+    "quality": 26,
+    "antispam": 30,
+    "quality_bonus": 17
+   }
+  },
+  {
+   "full_name": "calmchiefvice/WinRust-Enhanced",
+   "url": "https://github.com/calmchiefvice/WinRust-Enhanced",
+   "description": "Fast, lightweight Windows 10/11 shell in Rust: taskbar, Explorer alternative with Space-bar quick preview, instant NTFS search, clipboard history, snap-to-edge windows and Task Manager. One installer, one-click uninstall. Extended fork of Lemxy/WinRust.",
+   "language": "Rust",
+   "stars": 173,
+   "forks": 65,
+   "age_days": 1,
+   "daily_stars": 173.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "MIT",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 10,
+   "scores": {
+    "total": 86,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 25,
+    "quality_bonus": 15
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "jingyaogong/minimind",
+   "url": "https://github.com/jingyaogong/minimind",
+   "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+   "language": "Python",
+   "stars": 71468,
+   "forks": 9274,
+   "age_days": 852,
+   "daily_stars": 83.88262910798122,
+   "real_daily_stars": 656.0,
+   "watchers": 319,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "language": "Python",
+   "stars": 66114,
+   "forks": 6011,
+   "age_days": 263,
+   "daily_stars": 251.38403041825094,
+   "real_daily_stars": 674.0,
+   "watchers": 238,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 98,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 13
+   }
+  },
+  {
+   "full_name": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "language": "HTML",
+   "stars": 73568,
+   "forks": 4901,
+   "age_days": 223,
+   "daily_stars": 329.9013452914798,
+   "real_daily_stars": 889.0,
+   "watchers": 164,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 98,
+    "acceleration": 38,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "openvinotoolkit/openvino",
+   "url": "https://github.com/openvinotoolkit/openvino",
+   "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+   "language": "C++",
+   "stars": 12755,
+   "forks": 3720,
+   "age_days": 2964,
+   "daily_stars": 4.303306342780027,
+   "real_daily_stars": 168.0,
+   "watchers": 193,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "Apache-2.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 95,
+    "acceleration": 35,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ]
+}
