@@ -3,12 +3,100 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-25T18:00:00Z</updated>
+  <updated>2026-11-26T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>DoubleGhosty/cool_fox — Unmodified mirror of the original codec-d/cool_fox (GPL-3.0, commit f4b48ad)</title>
+    <id>https://github.com/DoubleGhosty/cool_fox#2026-11-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/DoubleGhosty/cool_fox"/>
+    <updated>2026-11-26T18:00:00Z</updated>
+    <published>2026-11-26T18:00:00Z</published>
+    <summary>Unmodified mirror of the original codec-d/cool_fox (GPL-3.0, commit f4b48ad)
+
+Why: +419/day · Search
+Score: 95/100 | Language: Rust | ⭐ 419 (+419.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>nexu-io/opengame — The Super Game Agent — the Unity &amp; Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D &amp; mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.</title>
+    <id>https://github.com/nexu-io/opengame#2026-11-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/nexu-io/opengame"/>
+    <updated>2026-11-26T18:00:00Z</updated>
+    <published>2026-11-26T18:00:00Z</published>
+    <summary>The Super Game Agent — the Unity &amp; Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D &amp; mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.
+
+Why: +356/day · Search
+Score: 94/100 | Language: TypeScript | ⭐ 356 (+356.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>AI-FanGe/A-MicroRobot-that-can-Rollerskate — A small desktop robot with LLM-based interactions and reinforcement learning capabilities that you can train to act as you want. And it can remember you！</title>
+    <id>https://github.com/AI-FanGe/A-MicroRobot-that-can-Rollerskate#2026-11-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/AI-FanGe/A-MicroRobot-that-can-Rollerskate"/>
+    <updated>2026-11-26T18:00:00Z</updated>
+    <published>2026-11-26T18:00:00Z</published>
+    <summary>A small desktop robot with LLM-based interactions and reinforcement learning capabilities that you can train to act as you want. And it can remember you！
+
+Why: +159/day · Search
+Score: 90/100 | Language: Python | ⭐ 159 (+159.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>unvalley/ascii-sky — A painted blue sky in ASCII on a canvas</title>
+    <id>https://github.com/unvalley/ascii-sky#2026-11-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/unvalley/ascii-sky"/>
+    <updated>2026-11-26T18:00:00Z</updated>
+    <published>2026-11-26T18:00:00Z</published>
+    <summary>A painted blue sky in ASCII on a canvas
+
+Why: +111/day · Search
+Score: 89/100 | Language: TypeScript | ⭐ 111 (+111.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>click6067-ship-it/token-tv — Turn a ~$5 AliExpress clock into pixel pets for Claude Code and Codex. They react to your agents and keep your usage limits in sight. No firmware flashing.</title>
+    <id>https://github.com/click6067-ship-it/token-tv#2026-11-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/click6067-ship-it/token-tv"/>
+    <updated>2026-11-26T18:00:00Z</updated>
+    <published>2026-11-26T18:00:00Z</published>
+    <summary>Turn a ~$5 AliExpress clock into pixel pets for Claude Code and Codex. They react to your agents and keep your usage limits in sight. No firmware flashing.
+
+Why: +42/day · HN · 15.8x accelerating
+Score: 88/100 | Language: Python | ⭐ 146 (+42.0/day) | Source: hn</summary>
+  </entry>
+  <entry>
+    <title>jingyaogong/minimind — 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.</title>
+    <id>https://github.com/jingyaogong/minimind#2026-11-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/jingyaogong/minimind"/>
+    <updated>2026-11-26T18:00:00Z</updated>
+    <published>2026-11-26T18:00:00Z</published>
+    <summary>🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.
+
+Why: +656/day · Trending · 7.8x accelerating
+Score: 100/100 | Language: Python | ⭐ 71468 (+656.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>HKUDS/CLI-Anything — &quot;CLI-Anything: Making ALL Software Agent-Native&quot; -- CLI-Hub: https://clianything.cc/</title>
+    <id>https://github.com/HKUDS/CLI-Anything#2026-11-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/HKUDS/CLI-Anything"/>
+    <updated>2026-11-26T18:00:00Z</updated>
+    <published>2026-11-26T18:00:00Z</published>
+    <summary>&quot;CLI-Anything: Making ALL Software Agent-Native&quot; -- CLI-Hub: https://clianything.cc/
+
+Why: +674/day · Trending · 2.7x accelerating
+Score: 98/100 | Language: Python | ⭐ 66114 (+674.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>cathrynlavery/diagram-design — Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.</title>
+    <id>https://github.com/cathrynlavery/diagram-design#2026-11-26</id>
+    <link rel="alternate" type="text/html" href="https://github.com/cathrynlavery/diagram-design"/>
+    <updated>2026-11-26T18:00:00Z</updated>
+    <published>2026-11-26T18:00:00Z</published>
+    <summary>Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
+
+Why: +889/day · Trending · 2.7x accelerating
+Score: 98/100 | Language: HTML | ⭐ 73568 (+889.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>sous-labs/songe — A training engine for your local model, using your idle compute</title>
     <id>https://github.com/sous-labs/songe#2026-11-25</id>
@@ -800,71 +888,5 @@ Score: 93/100 | Language: TypeScript | ⭐ 256 (+256.0/day) | Source: search + r
 
 Why: +212/day · Search
 Score: 92/100 | Language: C | ⭐ 635 (+211.7/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>openai/codex-security — OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security</title>
-    <id>https://github.com/openai/codex-security#2026-11-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/openai/codex-security"/>
-    <updated>2026-11-12T18:00:00Z</updated>
-    <published>2026-11-12T18:00:00Z</published>
-    <summary>OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security
-
-Why: +705/day · Trending · 7.0x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 12111 (+705.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>GoogleChrome/modern-web-guidance-src — No description</title>
-    <id>https://github.com/GoogleChrome/modern-web-guidance-src#2026-11-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/GoogleChrome/modern-web-guidance-src"/>
-    <updated>2026-11-12T18:00:00Z</updated>
-    <published>2026-11-12T18:00:00Z</published>
-    <summary>No description
-
-Why: +862/day · Trending · 108.8x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 2282 (+862.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>FrigadeHQ/yogurt — Private AI meeting notes. Free and open source.</title>
-    <id>https://github.com/FrigadeHQ/yogurt#2026-11-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/FrigadeHQ/yogurt"/>
-    <updated>2026-11-12T18:00:00Z</updated>
-    <published>2026-11-12T18:00:00Z</published>
-    <summary>Private AI meeting notes. Free and open source.
-
-Why: +741/day · Search+HN
-Score: 96/100 | Language: TypeScript | ⭐ 742 (+741.0/day) | Source: search + hn</summary>
-  </entry>
-  <entry>
-    <title>agentes-chat/agentes-chat — Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.</title>
-    <id>https://github.com/agentes-chat/agentes-chat#2026-11-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/agentes-chat/agentes-chat"/>
-    <updated>2026-11-12T18:00:00Z</updated>
-    <published>2026-11-12T18:00:00Z</published>
-    <summary>Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.
-
-Why: +274/day · Search
-Score: 93/100 | Language: TypeScript | ⭐ 822 (+274.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>tigerogijzooav/Hyperliquid-Trade-Bot — Independently analyze ROI, win rate, and PnL using the public Hyperliquid API, detect martingale/grid recovery strategies, and assess maximum drawdown and risk-adjusted returns. Read-only terminal checker — no trading, no API keys. Unofficial community project, not affiliated with Hyperliquid.</title>
-    <id>https://github.com/tigerogijzooav/Hyperliquid-Trade-Bot#2026-11-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/tigerogijzooav/Hyperliquid-Trade-Bot"/>
-    <updated>2026-11-12T18:00:00Z</updated>
-    <published>2026-11-12T18:00:00Z</published>
-    <summary>Independently analyze ROI, win rate, and PnL using the public Hyperliquid API, detect martingale/grid recovery strategies, and assess maximum drawdown and risk-adjusted returns. Read-only terminal checker — no trading, no API keys. Unofficial community project, not affiliated with Hyperliquid.
-
-Why: +230/day · Search
-Score: 92/100 | Language: Python | ⭐ 231 (+230.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>CopilotKit/OpenBot — Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.</title>
-    <id>https://github.com/CopilotKit/OpenBot#2026-11-12</id>
-    <link rel="alternate" type="text/html" href="https://github.com/CopilotKit/OpenBot"/>
-    <updated>2026-11-12T18:00:00Z</updated>
-    <published>2026-11-12T18:00:00Z</published>
-    <summary>Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.
-
-Why: +341/day · Trending · 2.6x accelerating
-Score: 96/100 | Language: TypeScript | ⭐ 11250 (+341.0/day) | Source: trending</summary>
   </entry>
 </feed>
