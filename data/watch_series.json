@@ -100557,12 +100557,12 @@
    },
    {
     "date": "2026-11-27",
-    "stars": 8685,
-    "forks": 1211,
-    "open_issues": 1955,
+    "stars": 8703,
+    "forks": 1213,
+    "open_issues": 1973,
     "commits_7d": 100,
     "contributors_7d": 100,
-    "pushed_at": "2026-11-27T14:21:57Z"
+    "pushed_at": "2026-11-27T16:16:53Z"
    }
   ],
   "matheusmongarde/garimpo": [
@@ -100925,9 +100925,9 @@
   "qianyiai/KuroCat": [
    {
     "date": "2026-11-27",
-    "stars": 1720,
-    "forks": 244,
-    "open_issues": 66,
+    "stars": 1751,
+    "forks": 247,
+    "open_issues": 68,
     "commits_7d": 100,
     "contributors_7d": 3,
     "pushed_at": "2026-11-27T06:32:21Z"
@@ -100956,5 +100956,5 @@
    }
   ]
  },
- "updated_at": "2026-11-27T14:25:28.355363+00:00"
+ "updated_at": "2026-11-27T18:27:37.518601+00:00"
 }
