@@ -1,75 +1,5 @@
 {
  "repos": {
-  "openai/codex-security": {
-   "first_seen": "2026-11-12",
-   "until": "2026-11-26",
-   "stars_at_discovery": 12108,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "GoogleChrome/modern-web-guidance-src": {
-   "first_seen": "2026-11-12",
-   "until": "2026-11-26",
-   "stars_at_discovery": 2282,
-   "score_at_discovery": 100,
-   "source_at_discovery": "trending"
-  },
-  "FrigadeHQ/yogurt": {
-   "first_seen": "2026-11-12",
-   "until": "2026-11-26",
-   "stars_at_discovery": 741,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "agentes-chat/agentes-chat": {
-   "first_seen": "2026-11-12",
-   "until": "2026-11-26",
-   "stars_at_discovery": 822,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "tigerogijzooav/Hyperliquid-Trade-Bot": {
-   "first_seen": "2026-11-12",
-   "until": "2026-11-26",
-   "stars_at_discovery": 230,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "adrbn/bo2-mac": {
-   "first_seen": "2026-11-12",
-   "until": "2026-11-26",
-   "stars_at_discovery": 207,
-   "score_at_discovery": 92,
-   "source_at_discovery": "hn"
-  },
-  "GoogleChrome/modern-web-guidance": {
-   "first_seen": "2026-11-12",
-   "until": "2026-11-26",
-   "stars_at_discovery": 6090,
-   "score_at_discovery": 92,
-   "source_at_discovery": "hn"
-  },
-  "rdeepak-wq121/quicken-deluxe-installer": {
-   "first_seen": "2026-11-12",
-   "until": "2026-11-26",
-   "stars_at_discovery": 1103,
-   "score_at_discovery": 91,
-   "source_at_discovery": "search"
-  },
-  "hembramneeraj3-create/aida-64-extreme": {
-   "first_seen": "2026-11-12",
-   "until": "2026-11-26",
-   "stars_at_discovery": 1207,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "abdulmannanmalik13-wq/adobe-substance-3d-studio": {
-   "first_seen": "2026-11-12",
-   "until": "2026-11-26",
-   "stars_at_discovery": 1207,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
   "AIRzZ90/study-materials-fork": {
    "first_seen": "2026-11-13",
    "until": "2026-11-27",
@@ -1070,7 +1000,77 @@
    "stars_at_discovery": 173,
    "score_at_discovery": 86,
    "source_at_discovery": "rising"
+  },
+  "gary23w/f-ck_data_brokers": {
+   "first_seen": "2026-11-27",
+   "until": "2026-12-11",
+   "stars_at_discovery": 511,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "trustno1-coder/VIctory-NVIDIA": {
+   "first_seen": "2026-11-27",
+   "until": "2026-12-11",
+   "stars_at_discovery": 535,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "Robbyant/lingbot-map-v2": {
+   "first_seen": "2026-11-27",
+   "until": "2026-12-11",
+   "stars_at_discovery": 255,
+   "score_at_discovery": 93,
+   "source_at_discovery": "search"
+  },
+  "TaynanGT/Vice-Tay": {
+   "first_seen": "2026-11-27",
+   "until": "2026-12-11",
+   "stars_at_discovery": 277,
+   "score_at_discovery": 93,
+   "source_at_discovery": "rising"
+  },
+  "Moh4696/inkworks-skill": {
+   "first_seen": "2026-11-27",
+   "until": "2026-12-11",
+   "stars_at_discovery": 515,
+   "score_at_discovery": 93,
+   "source_at_discovery": "ai-trending"
+  },
+  "qianyiai/KuroCat": {
+   "first_seen": "2026-11-27",
+   "until": "2026-12-11",
+   "stars_at_discovery": 1719,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "stellarr-studio/kelvaroq": {
+   "first_seen": "2026-11-27",
+   "until": "2026-12-11",
+   "stars_at_discovery": 459,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "es-ine/mcp": {
+   "first_seen": "2026-11-27",
+   "until": "2026-12-11",
+   "stars_at_discovery": 187,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "Arekejoker/sprite-turntable": {
+   "first_seen": "2026-11-27",
+   "until": "2026-12-11",
+   "stars_at_discovery": 170,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
+  },
+  "linjiejim/ohmwork": {
+   "first_seen": "2026-11-27",
+   "until": "2026-12-11",
+   "stars_at_discovery": 487,
+   "score_at_discovery": 91,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-11-26T14:33:56.501192+00:00"
+ "updated_at": "2026-11-27T14:25:28.421816+00:00"
 }

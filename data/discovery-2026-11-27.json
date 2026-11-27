@@ -1,0 +1,469 @@
+{
+ "date": "2026-11-27",
+ "generated_at": "2026-11-27T14:22:14.462622",
+ "pool_size": 103,
+ "source_health": {
+  "trending": {
+   "fetched": 16,
+   "parsed": 16,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 5
+  },
+  "search": {
+   "fetched": 67,
+   "parsed": 67,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 8
+  },
+  "hn": {
+   "fetched": 10,
+   "parsed": 10,
+   "rejected": 0,
+   "deduplicated": 1,
+   "recommended": 1
+  },
+  "rising": {
+   "fetched": 3,
+   "parsed": 3,
+   "rejected": 0,
+   "deduplicated": 2,
+   "recommended": 2
+  },
+  "ai-trending": {
+   "fetched": 33,
+   "parsed": 33,
+   "rejected": 0,
+   "deduplicated": 5,
+   "recommended": 1
+  },
+  "hf-papers": {
+   "fetched": 15,
+   "parsed": 15,
+   "rejected": 0,
+   "deduplicated": 0,
+   "recommended": 0
+  }
+ },
+ "new": [
+  {
+   "full_name": "gary23w/f-ck_data_brokers",
+   "url": "https://github.com/gary23w/f-ck_data_brokers",
+   "description": "fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf.",
+   "language": "Python",
+   "stars": 511,
+   "forks": 23,
+   "age_days": 1,
+   "daily_stars": 511.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "hn"
+   ],
+   "license": "MIT",
+   "hn_title": "Show HN: Fuck_data_brokers.py",
+   "hn_score": 240,
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 19
+   }
+  },
+  {
+   "full_name": "trustno1-coder/VIctory-NVIDIA",
+   "url": "https://github.com/trustno1-coder/VIctory-NVIDIA",
+   "description": "VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series X at 2560x1440 with DLSS, about 26-30 fps on an RTX 5070, DLSS frame generation 2x-6x, an F1 settings menu and F3 stats panel, open water without dark blocks. Built on many repos combined into one. No game files or NVIDIA files included.",
+   "language": "Rust",
+   "stars": 535,
+   "forks": 173,
+   "age_days": 1,
+   "daily_stars": 535.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search",
+    "rising"
+   ],
+   "license": "GPL-3.0",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 96,
+    "acceleration": 36,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Robbyant/lingbot-map-v2",
+   "url": "https://github.com/Robbyant/lingbot-map-v2",
+   "description": "LingBot-Map 2.0: Geometric Streaming Base Model",
+   "language": "Python",
+   "stars": 255,
+   "forks": 8,
+   "age_days": 1,
+   "daily_stars": 255.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 3,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "TaynanGT/Vice-Tay",
+   "url": "https://github.com/TaynanGT/Vice-Tay",
+   "description": "VIctory tuned and fixed for an RTX 4090: runs the Xbox Series title from your own files. Built on Marvisak/VIctory and its forks; everyone is credited in the README and docs/credits.md.",
+   "language": "Rust",
+   "stars": 277,
+   "forks": 107,
+   "age_days": 1,
+   "daily_stars": 277.0,
+   "watchers": 0,
+   "source": "rising",
+   "sources": [
+    "rising"
+   ],
+   "license": "GPL-3.0",
+   "rising_signal": "high_fork",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "Moh4696/inkworks-skill",
+   "url": "https://github.com/Moh4696/inkworks-skill",
+   "description": "Inkworks: an agent skill for interactive 3D how-it-works pages drawn like an engineering sheet.",
+   "language": "JavaScript",
+   "stars": 515,
+   "forks": 52,
+   "age_days": 2,
+   "daily_stars": 257.5,
+   "watchers": 0,
+   "source": "ai-trending",
+   "sources": [
+    "ai-trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 93,
+    "acceleration": 33,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 17
+   }
+  },
+  {
+   "full_name": "qianyiai/KuroCat",
+   "url": "https://github.com/qianyiai/KuroCat",
+   "description": "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣",
+   "language": "TypeScript",
+   "stars": 1719,
+   "forks": 244,
+   "age_days": 5,
+   "daily_stars": 343.8,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 6,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "stellarr-studio/kelvaroq",
+   "url": "https://github.com/stellarr-studio/kelvaroq",
+   "description": "Experimental Xbox Series compatibility runtime for Windows x64, built in Rust.",
+   "language": "Python",
+   "stars": 459,
+   "forks": 120,
+   "age_days": 2,
+   "daily_stars": 229.5,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 7,
+   "scores": {
+    "total": 92,
+    "acceleration": 32,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "es-ine/mcp",
+   "url": "https://github.com/es-ine/mcp",
+   "description": "MCP server connecting AI assistants to the Spanish National Statistics Institute (INE) public API. Enables access to official demographic, economic and social statistics, making it easy to search, retrieve and analyze reliable data using natural language.",
+   "language": "Python",
+   "stars": 187,
+   "forks": 6,
+   "age_days": 1,
+   "daily_stars": 187.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "EUPL-1.2",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 8,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 16
+   }
+  },
+  {
+   "full_name": "Arekejoker/sprite-turntable",
+   "url": "https://github.com/Arekejoker/sprite-turntable",
+   "description": "从一张定妆图制作可拖动旋转的 360° 角色转台，包含 72 帧透明素材、制作流程和离线展示页。",
+   "language": "Python",
+   "stars": 170,
+   "forks": 27,
+   "age_days": 1,
+   "daily_stars": 170.0,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": false,
+   "rank": 9,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 15
+   }
+  },
+  {
+   "full_name": "linjiejim/ohmwork",
+   "url": "https://github.com/linjiejim/ohmwork",
+   "description": "交互式电子电路学堂：用可以动手拨弄的仿真学电路",
+   "language": "TypeScript",
+   "stars": 487,
+   "forks": 34,
+   "age_days": 3,
+   "daily_stars": 162.33333333333334,
+   "watchers": 0,
+   "source": "search",
+   "sources": [
+    "search"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 10,
+   "scores": {
+    "total": 91,
+    "acceleration": 31,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ],
+ "repeat": [
+  {
+   "full_name": "firecrawl/firecrawl",
+   "url": "https://github.com/firecrawl/firecrawl",
+   "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+   "language": "TypeScript",
+   "stars": 211384,
+   "forks": 11103,
+   "age_days": 955,
+   "daily_stars": 221.34450261780106,
+   "real_daily_stars": 780.0,
+   "watchers": 517,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "AGPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 1,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "mjmirza/app-store-compliance",
+   "url": "https://github.com/mjmirza/app-store-compliance",
+   "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+   "language": "Shell",
+   "stars": 7380,
+   "forks": 528,
+   "age_days": 174,
+   "daily_stars": 42.4080459770115,
+   "real_daily_stars": 547.0,
+   "watchers": 14,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 2,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "XiaoYouChR/Ghost-Downloader-3",
+   "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+   "description": "The only downloader you need. 下载器的集大成者。",
+   "language": "Python",
+   "stars": 19627,
+   "forks": 1216,
+   "age_days": 1199,
+   "daily_stars": 16.369474562135114,
+   "real_daily_stars": 781.0,
+   "watchers": 53,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "GPL-3.0",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 3,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "zhouxiaoka/autoclip",
+   "url": "https://github.com/zhouxiaoka/autoclip",
+   "description": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
+   "language": "Python",
+   "stars": 17404,
+   "forks": 2451,
+   "age_days": 507,
+   "daily_stars": 34.32149901380671,
+   "real_daily_stars": 695.0,
+   "watchers": 55,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "MIT",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 4,
+   "scores": {
+    "total": 100,
+    "acceleration": 40,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  },
+  {
+   "full_name": "toeverything/AFFiNE",
+   "url": "https://github.com/toeverything/AFFiNE",
+   "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+   "language": "TypeScript",
+   "stars": 79232,
+   "forks": 5795,
+   "age_days": 1579,
+   "daily_stars": 50.17859404686511,
+   "real_daily_stars": 445.0,
+   "watchers": 298,
+   "source": "trending",
+   "sources": [
+    "trending"
+   ],
+   "license": "NOASSERTION",
+   "has_readme": true,
+   "has_license": true,
+   "has_ci": true,
+   "rank": 5,
+   "scores": {
+    "total": 99,
+    "acceleration": 39,
+    "quality": 30,
+    "antispam": 30,
+    "quality_bonus": 20
+   }
+  }
+ ]
+}

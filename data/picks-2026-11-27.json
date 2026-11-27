@@ -1,0 +1,431 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T14:22:14+00:00",
+  "every_days": 3,
+  "count": 10,
+  "semi_count": 2,
+  "semi_min_met": true,
+  "picks": [
+    {
+      "rank": 1,
+      "full_name": "GlasgowEmbedded/glasgow",
+      "url": "https://github.com/GlasgowEmbedded/glasgow",
+      "description": "Scots Army Knife for electronics",
+      "topic": "semi",
+      "language": "Python",
+      "topics": [
+        "debugging-tool",
+        "fpga",
+        "glasgow-interface-explorer",
+        "hardware"
+      ],
+      "license": "0BSD",
+      "stars": 2246,
+      "forks": 278,
+      "created_at": "2018-01-21T08:05:46Z",
+      "pushed_at": "2026-11-25T18:43:15Z",
+      "growth": {
+        "since": "2026-11-15",
+        "window_days": 12,
+        "stars_gained": 7,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 54,
+      "verified_at": "2026-11-27T14:22:11+00:00"
+    },
+    {
+      "rank": 2,
+      "full_name": "enjoy-digital/litex",
+      "url": "https://github.com/enjoy-digital/litex",
+      "description": "Build your hardware, easily!",
+      "topic": "semi",
+      "language": "Python",
+      "topics": [
+        "fpga",
+        "hardware",
+        "system-on-chip"
+      ],
+      "license": "NOASSERTION",
+      "stars": 4220,
+      "forks": 774,
+      "created_at": "2015-11-07T12:02:12Z",
+      "pushed_at": "2026-11-26T15:05:31Z",
+      "growth": {
+        "since": "2026-11-15",
+        "window_days": 12,
+        "stars_gained": 14,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 53,
+      "verified_at": "2026-11-27T14:22:11+00:00"
+    },
+    {
+      "rank": 3,
+      "full_name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-crawler",
+        "ai-scraping",
+        "ai-search",
+        "crawler",
+        "data-extraction",
+        "html-to-markdown",
+        "llm",
+        "markdown",
+        "scraper",
+        "scraping",
+        "web-crawler",
+        "web-data",
+        "web-data-extraction",
+        "web-scraper",
+        "web-scraping",
+        "web-search",
+        "webscraping"
+      ],
+      "license": "AGPL-3.0",
+      "stars": 211384,
+      "forks": 11103,
+      "created_at": "2024-04-15T21:02:29Z",
+      "pushed_at": "2026-11-27T00:15:09Z",
+      "growth": {
+        "since": "2026-11-20",
+        "window_days": 7,
+        "stars_gained": 6582,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 90,
+      "verified_at": "2026-11-27T14:22:12+00:00"
+    },
+    {
+      "rank": 4,
+      "full_name": "mjmirza/app-store-compliance",
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+      "topic": "ai",
+      "language": "Shell",
+      "topics": [
+        "accessibility",
+        "ai-agents",
+        "android",
+        "app-review-guidelines",
+        "app-store",
+        "app-store-connect",
+        "app-store-rejection",
+        "app-store-review",
+        "claude-code",
+        "coppa",
+        "data-safety",
+        "eu-ai-act",
+        "gdpr",
+        "google-play",
+        "google-play-policy",
+        "ios",
+        "mobile-compliance",
+        "play-console",
+        "pre-submission-checklist",
+        "privacy-manifest"
+      ],
+      "license": "NOASSERTION",
+      "stars": 7380,
+      "forks": 528,
+      "created_at": "2026-06-06T11:29:45Z",
+      "pushed_at": "2026-11-27T14:13:54Z",
+      "growth": {
+        "since": "2026-11-20",
+        "window_days": 7,
+        "stars_gained": 4984,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 90,
+      "verified_at": "2026-11-27T14:22:12+00:00"
+    },
+    {
+      "rank": 5,
+      "full_name": "zhouxiaoka/autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "description": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "ai-agent",
+        "ai-video-editor",
+        "claude-code",
+        "content-repurposing",
+        "desktop-app",
+        "douyin",
+        "instagram-reels",
+        "local-first",
+        "mcp",
+        "mcp-server",
+        "open-source",
+        "opusclip-alternative",
+        "podcast",
+        "subtitles",
+        "tiktok",
+        "video-clipping",
+        "video-editing-software",
+        "whisper",
+        "xiaohongshu",
+        "youtube-shorts"
+      ],
+      "license": "MIT",
+      "stars": 17404,
+      "forks": 2451,
+      "created_at": "2025-07-08T04:51:15Z",
+      "pushed_at": "2026-11-27T13:04:54Z",
+      "growth": {
+        "since": "2026-11-20",
+        "window_days": 7,
+        "stars_gained": 5505,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 90,
+      "verified_at": "2026-11-27T14:22:12+00:00"
+    },
+    {
+      "rank": 6,
+      "full_name": "Tracer-Cloud/opensre",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "description": "The open-source agent for CI/CD reliability.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "alerting",
+        "ci-cd",
+        "cli",
+        "datadog",
+        "devops",
+        "gitlab-ci",
+        "grafana",
+        "incident-management",
+        "llm",
+        "observability",
+        "ollama",
+        "remediation",
+        "root-cause-analysis",
+        "site-reliability-engineering",
+        "slack"
+      ],
+      "license": "Apache-2.0",
+      "stars": 16010,
+      "forks": 2112,
+      "created_at": "2026-01-13T00:04:47Z",
+      "pushed_at": "2026-11-27T00:57:58Z",
+      "growth": {
+        "since": "2026-11-20",
+        "window_days": 7,
+        "stars_gained": 2627,
+        "source": "star_snapshots"
+      },
+      "evidence": {
+        "sources": [
+          "trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 88,
+      "verified_at": "2026-11-27T14:22:13+00:00"
+    },
+    {
+      "rank": 7,
+      "full_name": "gary23w/f-ck_data_brokers",
+      "url": "https://github.com/gary23w/f-ck_data_brokers",
+      "description": "fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [
+        "ccpa",
+        "cli",
+        "data-brokers",
+        "data-deletion",
+        "gdpr",
+        "lgpd",
+        "mcp",
+        "mcp-server",
+        "opt-out",
+        "personal-data",
+        "pipeda",
+        "privacy",
+        "privacy-tools",
+        "python"
+      ],
+      "license": "MIT",
+      "stars": 511,
+      "forks": 23,
+      "created_at": "2026-11-26T17:53:07Z",
+      "pushed_at": "2026-11-27T13:00:48Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search",
+          "hn"
+        ],
+        "hn_title": "Show HN: Fuck_data_brokers.py",
+        "hn_score": 240,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 86,
+      "verified_at": "2026-11-27T14:22:13+00:00"
+    },
+    {
+      "rank": 8,
+      "full_name": "Moh4696/inkworks-skill",
+      "url": "https://github.com/Moh4696/inkworks-skill",
+      "description": "Inkworks: an agent skill for interactive 3D how-it-works pages drawn like an engineering sheet.",
+      "topic": "ai",
+      "language": "JavaScript",
+      "topics": [
+        "3d",
+        "agent-skills",
+        "claude-code",
+        "education",
+        "explainer",
+        "threejs"
+      ],
+      "license": "MIT",
+      "stars": 515,
+      "forks": 52,
+      "created_at": "2026-11-25T09:26:33Z",
+      "pushed_at": "2026-11-25T13:53:35Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "ai-trending"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 83,
+      "verified_at": "2026-11-27T14:22:13+00:00"
+    },
+    {
+      "rank": 9,
+      "full_name": "qianyiai/KuroCat",
+      "url": "https://github.com/qianyiai/KuroCat",
+      "description": "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣",
+      "topic": "ai",
+      "language": "TypeScript",
+      "topics": [
+        "3d",
+        "ai-companion",
+        "android",
+        "bongo-cat",
+        "bongocat",
+        "claude-code",
+        "codex",
+        "cross-platform",
+        "desktop-pet",
+        "keyboard-visualizer",
+        "kurocat",
+        "linux",
+        "macos",
+        "mcp",
+        "obs-studio",
+        "open-source",
+        "rust",
+        "tauri",
+        "typing-cat",
+        "windows"
+      ],
+      "license": "MIT",
+      "stars": 1719,
+      "forks": 244,
+      "created_at": "2026-11-21T15:49:31Z",
+      "pushed_at": "2026-11-27T06:32:21Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 82,
+      "verified_at": "2026-11-27T14:22:14+00:00"
+    },
+    {
+      "rank": 10,
+      "full_name": "es-ine/mcp",
+      "url": "https://github.com/es-ine/mcp",
+      "description": "MCP server connecting AI assistants to the Spanish National Statistics Institute (INE) public API. Enables access to official demographic, economic and social statistics, making it easy to search, retrieve and analyze reliable data using natural language.",
+      "topic": "ai",
+      "language": "Python",
+      "topics": [],
+      "license": "EUPL-1.2",
+      "stars": 187,
+      "forks": 6,
+      "created_at": "2026-11-26T08:25:48Z",
+      "pushed_at": "2026-11-27T09:42:52Z",
+      "growth": null,
+      "evidence": {
+        "sources": [
+          "search"
+        ],
+        "hn_title": null,
+        "hn_score": null,
+        "hf_title": null,
+        "hf_upvotes": null
+      },
+      "score": 81,
+      "verified_at": "2026-11-27T14:22:14+00:00"
+    }
+  ]
+}

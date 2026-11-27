@@ -105,76 +105,6 @@
       ],
       "last_recommended": "2026-11-17T13:52:48.546076+00:00"
     },
-    "nightly-labs/openbot": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-28T10:50:45.430806+00:00"
-    },
-    "interplains/Zero-Breach-Toolkit": {
-      "count": 1,
-      "scores": [
-        96
-      ],
-      "last_recommended": "2026-10-28T10:50:45.432477+00:00"
-    },
-    "gitroomhq/postiz-app": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-10-28T10:50:45.433777+00:00"
-    },
-    "Motionsites-AI/claude-skill": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-28T10:50:45.435075+00:00"
-    },
-    "ZiChuanLan/agent-purge": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-10-28T10:50:45.436392+00:00"
-    },
-    "stormydayy/halo-overlay": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-10-28T10:50:45.437689+00:00"
-    },
-    "patch-gg/anymove": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-10-28T10:50:45.438979+00:00"
-    },
-    "FrigadeHQ/hob": {
-      "count": 1,
-      "scores": [
-        93
-      ],
-      "last_recommended": "2026-10-28T10:50:45.440285+00:00"
-    },
-    "kargulstudio/calender-app-design": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-10-28T10:50:45.441579+00:00"
-    },
-    "designfuchen/word-atlas": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-28T10:50:45.442922+00:00"
-    },
     "HKUDS/DeepTutor": {
       "count": 1,
       "scores": [
@@ -1726,39 +1656,44 @@
       "last_recommended": "2026-11-26T14:30:16.292065+00:00"
     },
     "firecrawl/firecrawl": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-11-20T13:38:19.118271+00:00"
+      "last_recommended": "2026-11-27T14:22:11.407286+00:00"
     },
     "mjmirza/app-store-compliance": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-11-20T13:38:19.119865+00:00"
+      "last_recommended": "2026-11-27T14:22:11.408900+00:00"
     },
     "toeverything/AFFiNE": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        100
+        100,
+        99
       ],
-      "last_recommended": "2026-11-20T13:38:19.121107+00:00"
+      "last_recommended": "2026-11-27T14:22:11.413938+00:00"
     },
     "XiaoYouChR/Ghost-Downloader-3": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-11-20T13:38:19.122299+00:00"
+      "last_recommended": "2026-11-27T14:22:11.410619+00:00"
     },
     "zhouxiaoka/autoclip": {
-      "count": 1,
+      "count": 2,
       "scores": [
+        100,
         100
       ],
-      "last_recommended": "2026-11-20T13:38:19.123514+00:00"
+      "last_recommended": "2026-11-27T14:22:11.412289+00:00"
     },
     "Tracer-Cloud/opensre": {
       "count": 1,
@@ -2214,7 +2149,77 @@
         86
       ],
       "last_recommended": "2026-11-26T14:30:16.285780+00:00"
+    },
+    "gary23w/f-ck_data_brokers": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-27T14:22:11.368533+00:00"
+    },
+    "trustno1-coder/VIctory-NVIDIA": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-27T14:22:11.370562+00:00"
+    },
+    "Robbyant/lingbot-map-v2": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-27T14:22:11.372221+00:00"
+    },
+    "TaynanGT/Vice-Tay": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-27T14:22:11.373859+00:00"
+    },
+    "Moh4696/inkworks-skill": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-27T14:22:11.375492+00:00"
+    },
+    "qianyiai/KuroCat": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-27T14:22:11.377157+00:00"
+    },
+    "stellarr-studio/kelvaroq": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-27T14:22:11.400695+00:00"
+    },
+    "es-ine/mcp": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-27T14:22:11.402389+00:00"
+    },
+    "Arekejoker/sprite-turntable": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-27T14:22:11.404028+00:00"
+    },
+    "linjiejim/ohmwork": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-27T14:22:11.405657+00:00"
     }
   },
-  "updated_at": "2026-11-26T14:30:16.294210+00:00"
+  "updated_at": "2026-11-27T14:22:11.413958+00:00"
 }
