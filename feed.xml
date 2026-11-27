@@ -3,12 +3,100 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-26T18:00:00Z</updated>
+  <updated>2026-11-27T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>gary23w/f-ck_data_brokers — fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf.</title>
+    <id>https://github.com/gary23w/f-ck_data_brokers#2026-11-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/gary23w/f-ck_data_brokers"/>
+    <updated>2026-11-27T18:00:00Z</updated>
+    <published>2026-11-27T18:00:00Z</published>
+    <summary>fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf.
+
+Why: +511/day · Search+HN
+Score: 96/100 | Language: Python | ⭐ 511 (+511.0/day) | Source: search + hn</summary>
+  </entry>
+  <entry>
+    <title>trustno1-coder/VIctory-NVIDIA — VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series X at 2560x1440 with DLSS, about 26-30 fps on an RTX 5070, DLSS frame generation 2x-6x, an F1 settings menu and F3 stats panel, open water without dark blocks. Built on many repos combined into one. No game files or NVIDIA files included.</title>
+    <id>https://github.com/trustno1-coder/VIctory-NVIDIA#2026-11-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/trustno1-coder/VIctory-NVIDIA"/>
+    <updated>2026-11-27T18:00:00Z</updated>
+    <published>2026-11-27T18:00:00Z</published>
+    <summary>VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series X at 2560x1440 with DLSS, about 26-30 fps on an RTX 5070, DLSS frame generation 2x-6x, an F1 settings menu and F3 stats panel, open water without dark blocks. Built on many repos combined into one. No game files or NVIDIA files included.
+
+Why: +535/day · Search+Rising
+Score: 96/100 | Language: Rust | ⭐ 535 (+535.0/day) | Source: search + rising</summary>
+  </entry>
+  <entry>
+    <title>Robbyant/lingbot-map-v2 — LingBot-Map 2.0: Geometric Streaming Base Model</title>
+    <id>https://github.com/Robbyant/lingbot-map-v2#2026-11-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Robbyant/lingbot-map-v2"/>
+    <updated>2026-11-27T18:00:00Z</updated>
+    <published>2026-11-27T18:00:00Z</published>
+    <summary>LingBot-Map 2.0: Geometric Streaming Base Model
+
+Why: +255/day · Search
+Score: 93/100 | Language: Python | ⭐ 255 (+255.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>TaynanGT/Vice-Tay — VIctory tuned and fixed for an RTX 4090: runs the Xbox Series title from your own files. Built on Marvisak/VIctory and its forks; everyone is credited in the README and docs/credits.md.</title>
+    <id>https://github.com/TaynanGT/Vice-Tay#2026-11-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/TaynanGT/Vice-Tay"/>
+    <updated>2026-11-27T18:00:00Z</updated>
+    <published>2026-11-27T18:00:00Z</published>
+    <summary>VIctory tuned and fixed for an RTX 4090: runs the Xbox Series title from your own files. Built on Marvisak/VIctory and its forks; everyone is credited in the README and docs/credits.md.
+
+Why: +277/day · Rising
+Score: 93/100 | Language: Rust | ⭐ 277 (+277.0/day) | Source: rising</summary>
+  </entry>
+  <entry>
+    <title>Moh4696/inkworks-skill — Inkworks: an agent skill for interactive 3D how-it-works pages drawn like an engineering sheet.</title>
+    <id>https://github.com/Moh4696/inkworks-skill#2026-11-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Moh4696/inkworks-skill"/>
+    <updated>2026-11-27T18:00:00Z</updated>
+    <published>2026-11-27T18:00:00Z</published>
+    <summary>Inkworks: an agent skill for interactive 3D how-it-works pages drawn like an engineering sheet.
+
+Why: +258/day · AI/ML
+Score: 93/100 | Language: JavaScript | ⭐ 515 (+257.5/day) | Source: ai-trending</summary>
+  </entry>
+  <entry>
+    <title>firecrawl/firecrawl — Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.</title>
+    <id>https://github.com/firecrawl/firecrawl#2026-11-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/firecrawl/firecrawl"/>
+    <updated>2026-11-27T18:00:00Z</updated>
+    <published>2026-11-27T18:00:00Z</published>
+    <summary>Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.
+
+Why: +780/day · Trending · 3.5x accelerating
+Score: 100/100 | Language: TypeScript | ⭐ 211384 (+780.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>mjmirza/app-store-compliance — Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.</title>
+    <id>https://github.com/mjmirza/app-store-compliance#2026-11-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/mjmirza/app-store-compliance"/>
+    <updated>2026-11-27T18:00:00Z</updated>
+    <published>2026-11-27T18:00:00Z</published>
+    <summary>Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.
+
+Why: +547/day · Trending · 12.9x accelerating
+Score: 100/100 | Language: Shell | ⭐ 7380 (+547.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>XiaoYouChR/Ghost-Downloader-3 — The only downloader you need. 下载器的集大成者。</title>
+    <id>https://github.com/XiaoYouChR/Ghost-Downloader-3#2026-11-27</id>
+    <link rel="alternate" type="text/html" href="https://github.com/XiaoYouChR/Ghost-Downloader-3"/>
+    <updated>2026-11-27T18:00:00Z</updated>
+    <published>2026-11-27T18:00:00Z</published>
+    <summary>The only downloader you need. 下载器的集大成者。
+
+Why: +781/day · Trending · 47.7x accelerating
+Score: 100/100 | Language: Python | ⭐ 19627 (+781.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>DoubleGhosty/cool_fox — Unmodified mirror of the original codec-d/cool_fox (GPL-3.0, commit f4b48ad)</title>
     <id>https://github.com/DoubleGhosty/cool_fox#2026-11-26</id>
@@ -833,60 +921,5 @@ Score: 100/100 | Language: TypeScript | ⭐ 55875 (+644.0/day) | Source: trendin
 
 Why: +399/day · Trending · 12.0x accelerating
 Score: 99/100 | Language: TypeScript | ⭐ 10662 (+399.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>AIRzZ90/study-materials-fork — A cross-platform Tauri 2 interface and interaction practice project</title>
-    <id>https://github.com/AIRzZ90/study-materials-fork#2026-11-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/AIRzZ90/study-materials-fork"/>
-    <updated>2026-11-13T18:00:00Z</updated>
-    <published>2026-11-13T18:00:00Z</published>
-    <summary>A cross-platform Tauri 2 interface and interaction practice project
-
-Why: +464/day · Search
-Score: 96/100 | Language: TypeScript | ⭐ 464 (+464.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>rivet-dev/open-orange — Run Cloudflare Workers and Durable Objects unchanged on AWS, GCP, Azure or your own servers.</title>
-    <id>https://github.com/rivet-dev/open-orange#2026-11-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/rivet-dev/open-orange"/>
-    <updated>2026-11-13T18:00:00Z</updated>
-    <published>2026-11-13T18:00:00Z</published>
-    <summary>Run Cloudflare Workers and Durable Objects unchanged on AWS, GCP, Azure or your own servers.
-
-Why: +328/day · Search
-Score: 94/100 | Language: TypeScript | ⭐ 328 (+328.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>kolbicz/WQFiles — File browser, app data manager and cache cleaner for iOS 26 and 27 (worse_query, no jailbreak)</title>
-    <id>https://github.com/kolbicz/WQFiles#2026-11-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/kolbicz/WQFiles"/>
-    <updated>2026-11-13T18:00:00Z</updated>
-    <published>2026-11-13T18:00:00Z</published>
-    <summary>File browser, app data manager and cache cleaner for iOS 26 and 27 (worse_query, no jailbreak)
-
-Why: +260/day · Search
-Score: 93/100 | Language: Objective-C | ⭐ 779 (+259.7/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>DandanLLab/SnowCatQQ — SnowCat 雪猫：NapCat + SnowLuma 融合第三方 QQ 客户端，社区接力维护，V8 通道全功能适配 QQ 9.9.37，全工具全源码公开</title>
-    <id>https://github.com/DandanLLab/SnowCatQQ#2026-11-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/DandanLLab/SnowCatQQ"/>
-    <updated>2026-11-13T18:00:00Z</updated>
-    <published>2026-11-13T18:00:00Z</published>
-    <summary>SnowCat 雪猫：NapCat + SnowLuma 融合第三方 QQ 客户端，社区接力维护，V8 通道全功能适配 QQ 9.9.37，全工具全源码公开
-
-Why: +256/day · Search+Rising
-Score: 93/100 | Language: TypeScript | ⭐ 256 (+256.0/day) | Source: search + rising</summary>
-  </entry>
-  <entry>
-    <title>adriadam10/mkw-recomp — Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program</title>
-    <id>https://github.com/adriadam10/mkw-recomp#2026-11-13</id>
-    <link rel="alternate" type="text/html" href="https://github.com/adriadam10/mkw-recomp"/>
-    <updated>2026-11-13T18:00:00Z</updated>
-    <published>2026-11-13T18:00:00Z</published>
-    <summary>Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program
-
-Why: +212/day · Search
-Score: 92/100 | Language: C | ⭐ 635 (+211.7/day) | Source: search</summary>
   </entry>
 </feed>
