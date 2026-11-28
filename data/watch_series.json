@@ -101502,12 +101502,12 @@
    },
    {
     "date": "2026-11-28",
-    "stars": 8782,
+    "stars": 8793,
     "forks": 1226,
-    "open_issues": 1986,
+    "open_issues": 2001,
     "commits_7d": 100,
     "contributors_7d": 100,
-    "pushed_at": "2026-11-28T13:24:32Z"
+    "pushed_at": "2026-11-28T16:59:49Z"
    }
   ],
   "matheusmongarde/garimpo": [
@@ -102041,12 +102041,12 @@
    },
    {
     "date": "2026-11-28",
-    "stars": 1877,
-    "forks": 263,
-    "open_issues": 79,
+    "stars": 1922,
+    "forks": 269,
+    "open_issues": 58,
     "commits_7d": 100,
     "contributors_7d": 3,
-    "pushed_at": "2026-11-28T06:31:37Z"
+    "pushed_at": "2026-11-28T17:09:07Z"
    }
   ],
   "stellarr-studio/kelvaroq": [
@@ -102200,5 +102200,5 @@
    }
   ]
  },
- "updated_at": "2026-11-28T13:41:07.838824+00:00"
+ "updated_at": "2026-11-28T17:11:21.915478+00:00"
 }
