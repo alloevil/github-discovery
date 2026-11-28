@@ -3,12 +3,89 @@
   <title>GitHub Discovery</title>
   <subtitle>Discover trending GitHub repos before they go viral</subtitle>
   <id>https://alloevil.github.io/github-discovery/</id>
-  <updated>2026-11-27T18:00:00Z</updated>
+  <updated>2026-11-28T18:00:00Z</updated>
   <author>
     <name>GitHub Discovery</name>
   </author>
   <link rel="self" type="application/atom+xml" href="https://alloevil.github.io/github-discovery/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://alloevil.github.io/github-discovery"/>
+  <entry>
+    <title>dazacode/vilauncher — VILauncher by the VIPortLive team: install, update and play community game projects. You bring your own game build.</title>
+    <id>https://github.com/dazacode/vilauncher#2026-11-28</id>
+    <link rel="alternate" type="text/html" href="https://github.com/dazacode/vilauncher"/>
+    <updated>2026-11-28T18:00:00Z</updated>
+    <published>2026-11-28T18:00:00Z</published>
+    <summary>VILauncher by the VIPortLive team: install, update and play community game projects. You bring your own game build.
+
+Why: +542/day · Search
+Score: 96/100 | Language: Rust | ⭐ 542 (+542.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>ProjectLeonida/mandy — A continuation of Leonida, the Xbox &gt; PC port interface for GTA VI</title>
+    <id>https://github.com/ProjectLeonida/mandy#2026-11-28</id>
+    <link rel="alternate" type="text/html" href="https://github.com/ProjectLeonida/mandy"/>
+    <updated>2026-11-28T18:00:00Z</updated>
+    <published>2026-11-28T18:00:00Z</published>
+    <summary>A continuation of Leonida, the Xbox &gt; PC port interface for GTA VI
+
+Why: +782/day · Search
+Score: 94/100 | Language: Python | ⭐ 3128 (+782.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>sol1560/Captae — Local media downloader and library for macOS, Windows and Linux, with a browser extension and an MCP server for AI assistants</title>
+    <id>https://github.com/sol1560/Captae#2026-11-28</id>
+    <link rel="alternate" type="text/html" href="https://github.com/sol1560/Captae"/>
+    <updated>2026-11-28T18:00:00Z</updated>
+    <published>2026-11-28T18:00:00Z</published>
+    <summary>Local media downloader and library for macOS, Windows and Linux, with a browser extension and an MCP server for AI assistants
+
+Why: +294/day · AI/ML
+Score: 93/100 | Language: Rust | ⭐ 294 (+294.0/day) | Source: ai-trending</summary>
+  </entry>
+  <entry>
+    <title>peak85-sketch/stardew-valley-mod-manager — Free open-source Stardew Valley mod manager for Windows with SMAPI support, mod updates and custom profiles.</title>
+    <id>https://github.com/peak85-sketch/stardew-valley-mod-manager#2026-11-28</id>
+    <link rel="alternate" type="text/html" href="https://github.com/peak85-sketch/stardew-valley-mod-manager"/>
+    <updated>2026-11-28T18:00:00Z</updated>
+    <published>2026-11-28T18:00:00Z</published>
+    <summary>Free open-source Stardew Valley mod manager for Windows with SMAPI support, mod updates and custom profiles.
+
+Why: +353/day · Search
+Score: 92/100 | Language: C# | ⭐ 1413 (+353.2/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>viante-ai/face-recognition-sdk — face recognition, face recognition sdk</title>
+    <id>https://github.com/viante-ai/face-recognition-sdk#2026-11-28</id>
+    <link rel="alternate" type="text/html" href="https://github.com/viante-ai/face-recognition-sdk"/>
+    <updated>2026-11-28T18:00:00Z</updated>
+    <published>2026-11-28T18:00:00Z</published>
+    <summary>face recognition, face recognition sdk
+
+Why: +216/day · Search
+Score: 92/100 | Language: Python | ⭐ 216 (+216.0/day) | Source: search</summary>
+  </entry>
+  <entry>
+    <title>Tracer-Cloud/opensre — The open-source agent for CI/CD reliability.</title>
+    <id>https://github.com/Tracer-Cloud/opensre#2026-11-28</id>
+    <link rel="alternate" type="text/html" href="https://github.com/Tracer-Cloud/opensre"/>
+    <updated>2026-11-28T18:00:00Z</updated>
+    <published>2026-11-28T18:00:00Z</published>
+    <summary>The open-source agent for CI/CD reliability.
+
+Why: +263/day · Trending · 5.2x accelerating
+Score: 97/100 | Language: Python | ⭐ 16273 (+263.0/day) | Source: trending</summary>
+  </entry>
+  <entry>
+    <title>nginx/nginx — The official NGINX Open Source repository.</title>
+    <id>https://github.com/nginx/nginx#2026-11-28</id>
+    <link rel="alternate" type="text/html" href="https://github.com/nginx/nginx"/>
+    <updated>2026-11-28T18:00:00Z</updated>
+    <published>2026-11-28T18:00:00Z</published>
+    <summary>The official NGINX Open Source repository.
+
+Why: +103/day · Trending · 12.8x accelerating
+Score: 92/100 | Language: C | ⭐ 33718 (+103.0/day) | Source: trending</summary>
+  </entry>
   <entry>
     <title>gary23w/f-ck_data_brokers — fck_data_brokers.py is a free, open-source Python script that sends opt-out and deletion requests to data brokers on your behalf.</title>
     <id>https://github.com/gary23w/f-ck_data_brokers#2026-11-27</id>
@@ -866,60 +943,5 @@ Score: 96/100 | Language: Rust | ⭐ 661 (+661.0/day) | Source: search</summary>
 
 Why: +661/day · Search
 Score: 96/100 | Language: Rust | ⭐ 661 (+661.0/day) | Source: search</summary>
-  </entry>
-  <entry>
-    <title>alibaba/open-code-review — Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.</title>
-    <id>https://github.com/alibaba/open-code-review#2026-11-14</id>
-    <link rel="alternate" type="text/html" href="https://github.com/alibaba/open-code-review"/>
-    <updated>2026-11-14T18:00:00Z</updated>
-    <published>2026-11-14T18:00:00Z</published>
-    <summary>Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.
-
-Why: +837/day · Trending · 3.0x accelerating
-Score: 100/100 | Language: Go | ⭐ 51019 (+837.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>tradermonty/claude-trading-skills — Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.</title>
-    <id>https://github.com/tradermonty/claude-trading-skills#2026-11-14</id>
-    <link rel="alternate" type="text/html" href="https://github.com/tradermonty/claude-trading-skills"/>
-    <updated>2026-11-14T18:00:00Z</updated>
-    <published>2026-11-14T18:00:00Z</published>
-    <summary>Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.
-
-Why: +527/day · Trending · 46.6x accelerating
-Score: 100/100 | Language: Python | ⭐ 4413 (+527.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>tailscale/tailcat — like netcat, but over Tailscale's data plane, without Tailscale's control plane</title>
-    <id>https://github.com/tailscale/tailcat#2026-11-14</id>
-    <link rel="alternate" type="text/html" href="https://github.com/tailscale/tailcat"/>
-    <updated>2026-11-14T18:00:00Z</updated>
-    <published>2026-11-14T18:00:00Z</published>
-    <summary>like netcat, but over Tailscale's data plane, without Tailscale's control plane
-
-Why: +475/day · Trending · 36.6x accelerating
-Score: 100/100 | Language: Go | ⭐ 9671 (+475.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>ChromeDevTools/chrome-devtools-mcp — Chrome DevTools for coding agents</title>
-    <id>https://github.com/ChromeDevTools/chrome-devtools-mcp#2026-11-14</id>
-    <link rel="alternate" type="text/html" href="https://github.com/ChromeDevTools/chrome-devtools-mcp"/>
-    <updated>2026-11-14T18:00:00Z</updated>
-    <published>2026-11-14T18:00:00Z</published>
-    <summary>Chrome DevTools for coding agents
-
-Why: +644/day · Trending · 4.9x accelerating
-Score: 100/100 | Language: TypeScript | ⭐ 55875 (+644.0/day) | Source: trending</summary>
-  </entry>
-  <entry>
-    <title>backnotprop/plannotator — The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. </title>
-    <id>https://github.com/backnotprop/plannotator#2026-11-14</id>
-    <link rel="alternate" type="text/html" href="https://github.com/backnotprop/plannotator"/>
-    <updated>2026-11-14T18:00:00Z</updated>
-    <published>2026-11-14T18:00:00Z</published>
-    <summary>The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. 
-
-Why: +399/day · Trending · 12.0x accelerating
-Score: 99/100 | Language: TypeScript | ⭐ 10662 (+399.0/day) | Source: trending</summary>
   </entry>
 </feed>
