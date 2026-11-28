@@ -70,14 +70,6 @@
       ],
       "last_recommended": "2026-10-30T11:02:42.080431+00:00"
     },
-    "thedotmack/claude-mem": {
-      "count": 2,
-      "scores": [
-        96,
-        87
-      ],
-      "last_recommended": "2026-10-29T11:08:05.085366+00:00"
-    },
     "chenwei810/Semiconductor_Manufacturing_Introduction": {
       "count": 4,
       "scores": [
@@ -104,76 +96,6 @@
         60
       ],
       "last_recommended": "2026-11-17T13:52:48.546076+00:00"
-    },
-    "HKUDS/DeepTutor": {
-      "count": 1,
-      "scores": [
-        100
-      ],
-      "last_recommended": "2026-10-29T11:08:05.072227+00:00"
-    },
-    "OpenBMB/MiniCPM-OCR": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-10-29T11:08:05.073937+00:00"
-    },
-    "MiniMax-AI/mcode-stack": {
-      "count": 1,
-      "scores": [
-        95
-      ],
-      "last_recommended": "2026-10-29T11:08:05.075250+00:00"
-    },
-    "elayadesign/ai-design-skills": {
-      "count": 1,
-      "scores": [
-        94
-      ],
-      "last_recommended": "2026-10-29T11:08:05.076553+00:00"
-    },
-    "shipwords-dev/shipwords": {
-      "count": 1,
-      "scores": [
-        92
-      ],
-      "last_recommended": "2026-10-29T11:08:05.077809+00:00"
-    },
-    "smithjohn78390/tongjiang-lab": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-10-29T11:08:05.079111+00:00"
-    },
-    "anonnerdfrenzy/survival-llm": {
-      "count": 1,
-      "scores": [
-        91
-      ],
-      "last_recommended": "2026-10-29T11:08:05.080375+00:00"
-    },
-    "toyxyz/toyxyz_RGBMocap": {
-      "count": 1,
-      "scores": [
-        90
-      ],
-      "last_recommended": "2026-10-29T11:08:05.081625+00:00"
-    },
-    "D3voz/openjutsu": {
-      "count": 1,
-      "scores": [
-        89
-      ],
-      "last_recommended": "2026-10-29T11:08:05.082856+00:00"
-    },
-    "athenaos-tech/athenaos-agent": {
-      "count": 1,
-      "scores": [
-        88
-      ],
-      "last_recommended": "2026-10-29T11:08:05.084113+00:00"
     },
     "milind-soni/OpenMausBot": {
       "count": 2,
@@ -1696,18 +1618,20 @@
       "last_recommended": "2026-11-27T14:22:11.412289+00:00"
     },
     "Tracer-Cloud/opensre": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        99
+        99,
+        97
       ],
-      "last_recommended": "2026-11-20T13:38:19.124777+00:00"
+      "last_recommended": "2026-11-28T13:38:12.341839+00:00"
     },
     "nginx/nginx": {
-      "count": 1,
+      "count": 2,
       "scores": [
-        96
+        96,
+        92
       ],
-      "last_recommended": "2026-11-20T13:38:19.125978+00:00"
+      "last_recommended": "2026-11-28T13:38:12.343623+00:00"
     },
     "iamajmeena/neonclipping": {
       "count": 1,
@@ -2219,7 +2143,77 @@
         91
       ],
       "last_recommended": "2026-11-27T14:22:11.405657+00:00"
+    },
+    "dazacode/vilauncher": {
+      "count": 1,
+      "scores": [
+        96
+      ],
+      "last_recommended": "2026-11-28T13:38:12.323490+00:00"
+    },
+    "ProjectLeonida/mandy": {
+      "count": 1,
+      "scores": [
+        94
+      ],
+      "last_recommended": "2026-11-28T13:38:12.325563+00:00"
+    },
+    "sol1560/Captae": {
+      "count": 1,
+      "scores": [
+        93
+      ],
+      "last_recommended": "2026-11-28T13:38:12.327362+00:00"
+    },
+    "peak85-sketch/stardew-valley-mod-manager": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-28T13:38:12.329122+00:00"
+    },
+    "viante-ai/face-recognition-sdk": {
+      "count": 1,
+      "scores": [
+        92
+      ],
+      "last_recommended": "2026-11-28T13:38:12.330931+00:00"
+    },
+    "titisseptian-SS/omniroute-explorer": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-28T13:38:12.332750+00:00"
+    },
+    "CabreraDTM/repdix-telegram-database-bot": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-28T13:38:12.334602+00:00"
+    },
+    "thebodytheory01-commits/final-round-ai-desktop": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-28T13:38:12.336445+00:00"
+    },
+    "idjqhs/gemini-pro-engine": {
+      "count": 1,
+      "scores": [
+        91
+      ],
+      "last_recommended": "2026-11-28T13:38:12.338242+00:00"
+    },
+    "Marvisak/VIctory": {
+      "count": 1,
+      "scores": [
+        88
+      ],
+      "last_recommended": "2026-11-28T13:38:12.340035+00:00"
     }
   },
-  "updated_at": "2026-11-27T14:22:11.413958+00:00"
+  "updated_at": "2026-11-28T13:38:12.343643+00:00"
 }

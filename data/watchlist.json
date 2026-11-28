@@ -1,75 +1,5 @@
 {
  "repos": {
-  "AIRzZ90/study-materials-fork": {
-   "first_seen": "2026-11-13",
-   "until": "2026-11-27",
-   "stars_at_discovery": 464,
-   "score_at_discovery": 96,
-   "source_at_discovery": "search"
-  },
-  "rivet-dev/open-orange": {
-   "first_seen": "2026-11-13",
-   "until": "2026-11-27",
-   "stars_at_discovery": 328,
-   "score_at_discovery": 94,
-   "source_at_discovery": "search"
-  },
-  "kolbicz/WQFiles": {
-   "first_seen": "2026-11-13",
-   "until": "2026-11-27",
-   "stars_at_discovery": 779,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "DandanLLab/SnowCatQQ": {
-   "first_seen": "2026-11-13",
-   "until": "2026-11-27",
-   "stars_at_discovery": 256,
-   "score_at_discovery": 93,
-   "source_at_discovery": "search"
-  },
-  "adriadam10/mkw-recomp": {
-   "first_seen": "2026-11-13",
-   "until": "2026-11-27",
-   "stars_at_discovery": 635,
-   "score_at_discovery": 92,
-   "source_at_discovery": "search"
-  },
-  "TomyJan/SnowLuma": {
-   "first_seen": "2026-11-13",
-   "until": "2026-11-27",
-   "stars_at_discovery": 394,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "gabrielbuzziv/emissor-nfse-nacional": {
-   "first_seen": "2026-11-13",
-   "until": "2026-11-27",
-   "stars_at_discovery": 135,
-   "score_at_discovery": 90,
-   "source_at_discovery": "search"
-  },
-  "serveroshq/panel": {
-   "first_seen": "2026-11-13",
-   "until": "2026-11-27",
-   "stars_at_discovery": 695,
-   "score_at_discovery": 89,
-   "source_at_discovery": "search"
-  },
-  "Superkechaos/Roblox-FPS-Optimizer": {
-   "first_seen": "2026-11-13",
-   "until": "2026-11-27",
-   "stars_at_discovery": 119,
-   "score_at_discovery": 89,
-   "source_at_discovery": "rising"
-  },
-  "Goldoire/fefw-recomp": {
-   "first_seen": "2026-11-13",
-   "until": "2026-11-27",
-   "stars_at_discovery": 687,
-   "score_at_discovery": 88,
-   "source_at_discovery": "search"
-  },
   "alibaba/open-code-review": {
    "first_seen": "2026-11-14",
    "until": "2026-11-28",
@@ -1070,7 +1000,77 @@
    "stars_at_discovery": 487,
    "score_at_discovery": 91,
    "source_at_discovery": "search"
+  },
+  "dazacode/vilauncher": {
+   "first_seen": "2026-11-28",
+   "until": "2026-12-12",
+   "stars_at_discovery": 542,
+   "score_at_discovery": 96,
+   "source_at_discovery": "search"
+  },
+  "ProjectLeonida/mandy": {
+   "first_seen": "2026-11-28",
+   "until": "2026-12-12",
+   "stars_at_discovery": 3128,
+   "score_at_discovery": 94,
+   "source_at_discovery": "search"
+  },
+  "sol1560/Captae": {
+   "first_seen": "2026-11-28",
+   "until": "2026-12-12",
+   "stars_at_discovery": 294,
+   "score_at_discovery": 93,
+   "source_at_discovery": "ai-trending"
+  },
+  "peak85-sketch/stardew-valley-mod-manager": {
+   "first_seen": "2026-11-28",
+   "until": "2026-12-12",
+   "stars_at_discovery": 1413,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "viante-ai/face-recognition-sdk": {
+   "first_seen": "2026-11-28",
+   "until": "2026-12-12",
+   "stars_at_discovery": 216,
+   "score_at_discovery": 92,
+   "source_at_discovery": "search"
+  },
+  "titisseptian-SS/omniroute-explorer": {
+   "first_seen": "2026-11-28",
+   "until": "2026-12-12",
+   "stars_at_discovery": 186,
+   "score_at_discovery": 91,
+   "source_at_discovery": "ai-trending"
+  },
+  "CabreraDTM/repdix-telegram-database-bot": {
+   "first_seen": "2026-11-28",
+   "until": "2026-12-12",
+   "stars_at_discovery": 185,
+   "score_at_discovery": 91,
+   "source_at_discovery": "ai-trending"
+  },
+  "thebodytheory01-commits/final-round-ai-desktop": {
+   "first_seen": "2026-11-28",
+   "until": "2026-12-12",
+   "stars_at_discovery": 185,
+   "score_at_discovery": 91,
+   "source_at_discovery": "ai-trending"
+  },
+  "idjqhs/gemini-pro-engine": {
+   "first_seen": "2026-11-28",
+   "until": "2026-12-12",
+   "stars_at_discovery": 184,
+   "score_at_discovery": 91,
+   "source_at_discovery": "ai-trending"
+  },
+  "Marvisak/VIctory": {
+   "first_seen": "2026-11-28",
+   "until": "2026-12-12",
+   "stars_at_discovery": 14002,
+   "score_at_discovery": 88,
+   "source_at_discovery": "search"
   }
  },
- "updated_at": "2026-11-27T14:25:28.421816+00:00"
+ "updated_at": "2026-11-28T13:41:07.906777+00:00"
 }
